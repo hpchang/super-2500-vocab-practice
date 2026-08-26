@@ -39,7 +39,14 @@ export interface EnrichedEntry {
   spellingHint: string;
   status: ContentStatus;
   source: string;
+  /** Legacy single cloze question (used by non-adaptive cloze, choice/spelling distractors). */
   cloze: ClozeQuestion;
+  /** Cloze sentences for the easy tier (2 questions, cross-POS distractors). */
+  clozeEasy: ClozeQuestion[];
+  /** Cloze sentences for the medium tier (2 questions, same-POS distractors). */
+  clozeMedium: ClozeQuestion[];
+  /** Cloze sentence for the hard tier (1 question, semantically-near distractors). */
+  clozeHard: ClozeQuestion;
 }
 
 export interface EnrichmentData {

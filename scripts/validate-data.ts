@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import type { VocabData, EnrichmentData } from '../src/types/index.js';
+import type { VocabData, VocabEntry, EnrichmentData, EnrichedEntry, ClozeQuestion } from '../src/types/index.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
 
@@ -81,6 +81,17 @@ function validateEnrichment() {
     const vunit = vocab.units.find((u) => u.unit === unit);
     if (!vunit) return fail(`enrichment unit ${unit} not in vocab`);
 
+    // Global maps across all units: distractors may come from another unit
+    // (cross-Unit distractors are allowed by design), so existence and POS
+    // checks must resolve against every unit, not just this one.
+    const allVocabMap = new Map<string, VocabEntry>();
+    for (const u of vocab.units) for (const e of u.entries) allVocabMap.set(e.entryId, e);
+    const allEnrichMap = new Map<string, EnrichedEntry>();
+    for (const p of paths) {
+      const other = JSON.parse(readFileSync(p, 'utf8')) as EnrichmentData;
+      for (const e of other.entries) allEnrichMap.set(e.entryId, e);
+    }
+
     // Build entryId → entry map.
     const vmap = new Map(vunit.entries.map((e) => [e.entryId, e]));
     const enrichIds = new Set<string>();
@@ -95,31 +106,51 @@ function validateEnrichment() {
       if (!['draft', 'reviewed'].includes(e.status)) fail(`${e.entryId}: bad status ${e.status}`);
       if (!e.source) fail(`${e.entryId}: missing source`);
 
-      // Cloze validation.
-      const c = e.cloze;
-      if (!c.sentence.includes('___')) fail(`${e.entryId}: cloze sentence missing blank`);
-      if (!c.fullSentence) fail(`${e.entryId}: cloze missing fullSentence`);
-      if (!c.translation) fail(`${e.entryId}: cloze missing translation`);
-      if (!c.clue) fail(`${e.entryId}: cloze missing clue`);
-      if (c.answerEntryId !== e.entryId) fail(`${e.entryId}: cloze answer should be itself`);
-      if (c.distractorEntryIds.length !== 3) fail(`${e.entryId}: need 3 distractors`);
-      const opts = [c.answerEntryId, ...c.distractorEntryIds];
-      if (new Set(opts).size !== 4) fail(`${e.entryId}: options not unique`);
+      // Cloze validation (shared by all cloze fields). Distractors must exist
+      // in the same Unit and be unique; POS expectations vary per tier.
+      const validateCloze = (c: ClozeQuestion, label: string, samePos: boolean) => {
+        if (!c.sentence.includes('___')) fail(`${e.entryId}: ${label} sentence missing blank`);
+        if (!c.fullSentence) fail(`${e.entryId}: ${label} missing fullSentence`);
+        if (!c.translation) fail(`${e.entryId}: ${label} missing translation`);
+        if (!c.clue) fail(`${e.entryId}: ${label} missing clue`);
+        if (c.answerEntryId !== e.entryId) fail(`${e.entryId}: ${label} answer should be itself`);
+        if (c.distractorEntryIds.length !== 3) fail(`${e.entryId}: ${label} need 3 distractors`);
+        const opts = [c.answerEntryId, ...c.distractorEntryIds];
+        if (new Set(opts).size !== 4) fail(`${e.entryId}: ${label} options not unique`);
 
-      // Distractors must exist in the same Unit and share POS.
-      for (const d of c.distractorEntryIds) {
-        const dv = vmap.get(d);
-        if (!dv) fail(`${e.entryId}: distractor ${d} not in unit ${unit}`);
-        if (dv) {
-          const de2 = data.entries.find((x) => x.entryId === d);
-          if (de2 && de2.pos !== e.pos) {
-            fail(`${e.entryId}: distractor ${d} POS ${de2.pos} != ${e.pos}`);
+        for (const d of c.distractorEntryIds) {
+          const dv = allVocabMap.get(d);
+          if (!dv) fail(`${e.entryId}: ${label} distractor ${d} not in vocab`);
+          const de2 = allEnrichMap.get(d);
+          if (de2 && samePos && de2.pos !== e.pos) {
+            fail(`${e.entryId}: ${label} distractor ${d} POS ${de2.pos} != ${e.pos}`);
+          }
+          if (de2 && !samePos && de2.pos === e.pos) {
+            fail(`${e.entryId}: ${label} distractor ${d} should be cross-POS`);
           }
         }
+        // Answer must appear exactly once across options.
+        const ansCount = opts.filter((o) => o === c.answerEntryId).length;
+        if (ansCount !== 1) fail(`${e.entryId}: ${label} answer appears ${ansCount} times`);
+      };
+
+      validateCloze(e.cloze, 'cloze', true);
+      if (!Array.isArray(e.clozeEasy) || e.clozeEasy.length !== 2) {
+        fail(`${e.entryId}: clozeEasy must be an array of 2`);
+      } else {
+        // Easy tier uses cross-POS distractors.
+        e.clozeEasy.forEach((c, i) => validateCloze(c, `clozeEasy[${i}]`, false));
       }
-      // Answer must appear exactly once across options.
-      const ansCount = opts.filter((o) => o === c.answerEntryId).length;
-      if (ansCount !== 1) fail(`${e.entryId}: answer appears ${ansCount} times`);
+      if (!Array.isArray(e.clozeMedium) || e.clozeMedium.length !== 2) {
+        fail(`${e.entryId}: clozeMedium must be an array of 2`);
+      } else {
+        e.clozeMedium.forEach((c, i) => validateCloze(c, `clozeMedium[${i}]`, true));
+      }
+      if (!e.clozeHard) {
+        fail(`${e.entryId}: missing clozeHard`);
+      } else {
+        validateCloze(e.clozeHard, 'clozeHard', true);
+      }
     }
     ok(`Unit ${unit}: ${data.entries.length} enriched entries valid`);
     if (data.entries.length < 15) {
