@@ -11,6 +11,7 @@ import {
 import { useProgress } from '@/progressStore';
 import { WordPicker } from '@/components/WordPicker';
 import { saveSession } from '@/session';
+import type { DifficultyMode } from '@/lib/questions';
 import type { QuestionType } from '@/types/index';
 
 const QUESTION_TYPES: { key: QuestionType | 'mixed'; label: string }[] = [
@@ -20,6 +21,13 @@ const QUESTION_TYPES: { key: QuestionType | 'mixed'; label: string }[] = [
   { key: 'cloze', label: '情境填空' },
   { key: 'spelling', label: '拼字' },
   { key: 'mixed', label: '混合' },
+];
+
+const DIFFICULTY_OPTIONS: { key: DifficultyMode; label: string }[] = [
+  { key: 'adaptive', label: '適性' },
+  { key: 'easy', label: '簡易' },
+  { key: 'medium', label: '中等' },
+  { key: 'hard', label: '艱難' },
 ];
 
 export function UnitSetupScreen({
@@ -35,6 +43,7 @@ export function UnitSetupScreen({
   const [customIds, setCustomIds] = useState<Set<string>>(new Set());
   const [batchSize, setBatchSize] = useState<BatchSize>(DEFAULT_BATCH_SIZE);
   const [qType, setQType] = useState<QuestionType | 'mixed'>('mixed');
+  const [difficulty, setDifficulty] = useState<DifficultyMode>('adaptive');
 
   const enrichment = getEnrichment(unit);
   const practicableEntries = useMemo(
@@ -82,6 +91,7 @@ export function UnitSetupScreen({
       entryIds: batch.map((e) => e.entryId),
       type: qType,
       batchSize,
+      difficulty,
     });
     navigate('/practice');
   };
@@ -170,6 +180,28 @@ export function UnitSetupScreen({
           );
         })}
       </div>
+
+      {qType === 'cloze' && (
+        <>
+          <div className="section-title">難度</div>
+          <div className="segment">
+            {DIFFICULTY_OPTIONS.map((d) => (
+              <button
+                key={d.key}
+                className={difficulty === d.key ? 'active' : ''}
+                onClick={() => setDifficulty(d.key)}
+              >
+                {d.label}
+              </button>
+            ))}
+          </div>
+          {difficulty === 'adaptive' && (
+            <div className="hint" style={{ textAlign: 'left', marginTop: 4 }}>
+              適性模式：首次出中等，錯誤率 ≥50% 降簡易，答對率 ≥80% 升艱難
+            </div>
+          )}
+        </>
+      )}
 
       <div className="card">
         本次將練習 <strong>{batch.length}</strong> 字

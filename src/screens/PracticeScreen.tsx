@@ -1,15 +1,17 @@
 import { useEffect, useMemo, useState } from 'react';
 import { loadSession, saveResult } from '@/session';
 import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
-import { buildSession } from '@/lib/questions';
+import { buildSession, buildClozeSession } from '@/lib/questions';
 import type { Question } from '@/lib/questions';
 import { gradeChoice, gradeFlashcard, checkSpelling } from '@/lib/scoring';
 import { recordAnswer } from '@/lib/scheduler';
 import { progressiveHint, isMaxHint, MAX_HINT_LEVEL } from '@/lib/hints';
 import { warmUpVoices, speak } from '@/lib/speak';
+import { countClozeVariants } from '@/lib/clozeGenerator';
 import { updateEntryProgress } from '@/progressStore';
+import { useProgress } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
-import type { QuestionType } from '@/types/index';
+import type { QuestionType, VocabEntry } from '@/types/index';
 
 type Feedback =
   | { state: 'correct' }
@@ -43,6 +45,7 @@ export function PracticeScreen({
   const [results, setResults] = useState<
     { entryId: string; type: QuestionType; correct: boolean }[]
   >([]);
+  const progress = useProgress();
 
   const questions = useMemo<Question[]>(() => {
     if (!session) return [];
@@ -50,9 +53,12 @@ export function PracticeScreen({
     if (!unit) return [];
     const entries = session.entryIds
       .map((id) => unit.entries.find((e) => e.entryId === id))
-      .filter(Boolean);
-    return buildSession(entries as any, session.type);
-  }, [session]);
+      .filter(Boolean) as VocabEntry[];
+    if (session.type === 'cloze') {
+      return buildClozeSession(entries, session.difficulty ?? 'adaptive', progress.entries);
+    }
+    return buildSession(entries, session.type);
+  }, [session, progress.entries]);
 
   const q = questions[index];
 
@@ -116,7 +122,23 @@ export function PracticeScreen({
 
   const applyResult = (correct: boolean, type: QuestionType) => {
     const now = Date.now();
-    updateEntryProgress(q.entryId, (prev) => recordAnswer(prev, correct, type, now));
+    updateEntryProgress(q.entryId, (prev) => {
+      const updated = recordAnswer(prev, correct, type, now);
+      // Record which cloze variant was used (for adaptive repeat avoidance).
+      if (type === 'cloze' && q.clozeDifficulty != null && q.clozeVariant != null) {
+        const prevUsed = prev.clozeUsed?.[q.clozeDifficulty] ?? [];
+        const totalAtDiff = countClozeVariants(q.entryId, q.clozeDifficulty);
+        const used = prevUsed.length >= totalAtDiff ? [] : prevUsed; // reset if all used
+        return {
+          ...updated,
+          clozeUsed: {
+            ...used.length ? prev.clozeUsed : {},
+            [q.clozeDifficulty]: [...used, q.clozeVariant],
+          },
+        };
+      }
+      return updated;
+    });
     setFeedback({ state: correct ? 'correct' : 'wrong' });
     setResults((prev) => [...prev, { entryId: q.entryId, type, correct }]);
     // After answering: auto-speak the word for spelling & cloze.
@@ -163,7 +185,15 @@ export function PracticeScreen({
         <span>
           第 {index + 1} / {questions.length} 題
         </span>
-        <span>{typeLabel(q?.type)}</span>
+        <span>
+          {typeLabel(q?.type)}
+          {q?.type === 'cloze' && q.clozeDifficulty && (
+            <span className="diff-badge">
+              {' · '}
+              {q.clozeDifficulty === 'easy' ? '簡易' : q.clozeDifficulty === 'medium' ? '中等' : '艱難'}
+            </span>
+          )}
+        </span>
       </div>
       <div className="progress-bar">
         <div style={{ width: `${(index / questions.length) * 100}%` }} />

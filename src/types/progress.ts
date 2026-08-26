@@ -1,4 +1,5 @@
 import type { QuestionType } from './questions';
+import type { Difficulty } from '@/lib/clozeGenerator';
 
 /** Familiarity stages following a simplified Leitner system. */
 export type Stage = 'new' | 'learning' | 'review' | 'strong';
@@ -21,6 +22,8 @@ export interface EntryProgress {
   lastWrongType: QuestionType | null;
   /** Times answered wrong since last correct. */
   wrongCount: number;
+  /** Per-difficulty list of cloze question variant indices already used. */
+  clozeUsed?: Partial<Record<Difficulty, number[]>>;
 }
 
 export interface ProgressData {

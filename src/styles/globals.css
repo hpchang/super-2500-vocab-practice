@@ -364,6 +364,11 @@ a {
   margin-bottom: 4px;
 }
 
+.diff-badge {
+  color: var(--primary);
+  font-weight: 500;
+}
+
 .qprompt {
   font-size: 1.3rem;
   font-weight: 600;

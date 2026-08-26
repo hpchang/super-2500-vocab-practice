@@ -17,7 +17,11 @@
         "translation": "我們住在一間小公寓裡。",
         "clue": "住的地方，通常在大樓裡",
         "answerEntryId": "u11:apartment",
-        "distractorEntryIds": ["u11:balcony", "u11:kitchen", "u11:bedroom"]
+        "distractorEntryIds": [
+          "u11:balcony",
+          "u11:kitchen",
+          "u11:bedroom"
+        ]
       }
     },
     {
@@ -35,7 +39,11 @@
         "translation": "她在陽台上種花。",
         "clue": "建築物外側突出的平台",
         "answerEntryId": "u11:balcony",
-        "distractorEntryIds": ["u11:apartment", "u11:kitchen", "u11:bedroom"]
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:kitchen",
+          "u11:bedroom"
+        ]
       }
     },
     {
@@ -53,7 +61,11 @@
         "translation": "把蘋果放進籃子裡。",
         "clue": "用來裝東西的編織容器",
         "answerEntryId": "u11:basket",
-        "distractorEntryIds": ["u11:camera", "u11:candle", "u11:lamp"]
+        "distractorEntryIds": [
+          "u11:camera",
+          "u11:candle",
+          "u11:lamp"
+        ]
       }
     },
     {
@@ -71,7 +83,11 @@
         "translation": "我在浴室裡洗澡。",
         "clue": "家裡洗澡的地方",
         "answerEntryId": "u11:bathroom",
-        "distractorEntryIds": ["u11:bedroom", "u11:kitchen", "u11:living room"]
+        "distractorEntryIds": [
+          "u11:bedroom",
+          "u11:kitchen",
+          "u11:living room"
+        ]
       }
     },
     {
@@ -89,7 +105,11 @@
         "translation": "我的臥室很安靜。",
         "clue": "睡覺的房間",
         "answerEntryId": "u11:bedroom",
-        "distractorEntryIds": ["u11:bathroom", "u11:kitchen", "u11:living room"]
+        "distractorEntryIds": [
+          "u11:bathroom",
+          "u11:kitchen",
+          "u11:living room"
+        ]
       }
     },
     {
@@ -107,7 +127,11 @@
         "translation": "他買了一台新相機。",
         "clue": "用來拍照的機器",
         "answerEntryId": "u11:camera",
-        "distractorEntryIds": ["u11:basket", "u11:candle", "u11:lamp"]
+        "distractorEntryIds": [
+          "u11:basket",
+          "u11:candle",
+          "u11:lamp"
+        ]
       }
     },
     {
@@ -125,7 +149,11 @@
         "translation": "她在桌上點了一根蠟燭。",
         "clue": "用來照明的小東西，會融化",
         "answerEntryId": "u11:candle",
-        "distractorEntryIds": ["u11:basket", "u11:camera", "u11:lamp"]
+        "distractorEntryIds": [
+          "u11:basket",
+          "u11:camera",
+          "u11:lamp"
+        ]
       }
     },
     {
@@ -143,7 +171,11 @@
         "translation": "媽媽在廚房裡做飯。",
         "clue": "家裡煮飯的地方",
         "answerEntryId": "u11:kitchen",
-        "distractorEntryIds": ["u11:bathroom", "u11:bedroom", "u11:living room"]
+        "distractorEntryIds": [
+          "u11:bathroom",
+          "u11:bedroom",
+          "u11:living room"
+        ]
       }
     },
     {
@@ -161,7 +193,11 @@
         "translation": "請打開檯燈。",
         "clue": "桌上的照明用具",
         "answerEntryId": "u11:lamp",
-        "distractorEntryIds": ["u11:basket", "u11:camera", "u11:candle"]
+        "distractorEntryIds": [
+          "u11:basket",
+          "u11:camera",
+          "u11:candle"
+        ]
       }
     },
     {
@@ -179,7 +215,11 @@
         "translation": "我們在客廳看電視。",
         "clue": "家裡招待客人、看電視的地方",
         "answerEntryId": "u11:living room",
-        "distractorEntryIds": ["u11:bathroom", "u11:bedroom", "u11:kitchen"]
+        "distractorEntryIds": [
+          "u11:bathroom",
+          "u11:bedroom",
+          "u11:kitchen"
+        ]
       }
     },
     {
@@ -197,7 +237,11 @@
         "translation": "貓咪正在沙發上睡覺。",
         "clue": "客廳裡的長軟椅",
         "answerEntryId": "u11:sofa",
-        "distractorEntryIds": ["u11:table", "u11:telephone", "u11:television"]
+        "distractorEntryIds": [
+          "u11:table",
+          "u11:telephone",
+          "u11:television"
+        ]
       }
     },
     {
@@ -215,7 +259,11 @@
         "translation": "桌上有一本書。",
         "clue": "有平坦桌面的家具",
         "answerEntryId": "u11:table",
-        "distractorEntryIds": ["u11:sofa", "u11:telephone", "u11:television"]
+        "distractorEntryIds": [
+          "u11:sofa",
+          "u11:telephone",
+          "u11:television"
+        ]
       }
     },
     {
@@ -233,7 +281,11 @@
         "translation": "電話響了。",
         "clue": "用來講話溝通的設備",
         "answerEntryId": "u11:telephone",
-        "distractorEntryIds": ["u11:sofa", "u11:table", "u11:television"]
+        "distractorEntryIds": [
+          "u11:sofa",
+          "u11:table",
+          "u11:television"
+        ]
       }
     },
     {
@@ -251,7 +303,11 @@
         "translation": "他每天晚上看電視。",
         "clue": "播放節目的電器",
         "answerEntryId": "u11:television",
-        "distractorEntryIds": ["u11:sofa", "u11:table", "u11:telephone"]
+        "distractorEntryIds": [
+          "u11:sofa",
+          "u11:table",
+          "u11:telephone"
+        ]
       }
     },
     {
@@ -269,7 +325,11 @@
         "translation": "他們將建造一棟新房子。",
         "clue": "動手蓋房子",
         "answerEntryId": "u11:build",
-        "distractorEntryIds": ["u11:clean", "u11:fix", "u11:lock"]
+        "distractorEntryIds": [
+          "u11:clean",
+          "u11:fix",
+          "u11:lock"
+        ]
       }
     },
     {
@@ -287,7 +347,11 @@
         "translation": "請打掃你的房間。",
         "clue": "把髒東西弄掉",
         "answerEntryId": "u11:clean",
-        "distractorEntryIds": ["u11:build", "u11:fix", "u11:lock"]
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:fix",
+          "u11:lock"
+        ]
       }
     },
     {
@@ -305,7 +369,11 @@
         "translation": "爸爸會修理壞掉的椅子。",
         "clue": "把壞掉的東西弄好",
         "answerEntryId": "u11:fix",
-        "distractorEntryIds": ["u11:build", "u11:clean", "u11:lock"]
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:lock"
+        ]
       }
     },
     {
@@ -323,7 +391,11 @@
         "translation": "別忘了鎖門。",
         "clue": "用鑰匙把門關緊",
         "answerEntryId": "u11:lock",
-        "distractorEntryIds": ["u11:build", "u11:clean", "u11:fix"]
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
       }
     },
     {
@@ -341,7 +413,11 @@
         "translation": "讀書前我會整理書桌。",
         "clue": "把東西擺整齊",
         "answerEntryId": "u11:tidy",
-        "distractorEntryIds": ["u11:build", "u11:clean", "u11:fix"]
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
       }
     },
     {
@@ -359,7 +435,2277 @@
         "translation": "吃飯前要洗手。",
         "clue": "用水把東西弄乾淨",
         "answerEntryId": "u11:wash",
-        "distractorEntryIds": ["u11:build", "u11:clean", "u11:fix"]
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:address",
+      "zh": "地址",
+      "pos": "noun",
+      "example": "Please write your address here.",
+      "exampleZh": "請在這裡寫下你的地址。",
+      "spellingHint": "a-d-d-r-e-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please write your ___ here.",
+        "fullSentence": "Please write your address here.",
+        "translation": "請在這裡寫下你的地址。",
+        "clue": "房子或住處的所在地資訊",
+        "answerEntryId": "u11:address",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:air conditioner",
+      "zh": "冷氣機",
+      "pos": "noun",
+      "example": "The air conditioner keeps the room cool.",
+      "exampleZh": "冷氣機讓房間保持涼爽。",
+      "spellingHint": "a-i-r c-o-n-d-i-t-i-o-n-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ keeps the room cool.",
+        "fullSentence": "The air conditioner keeps the room cool.",
+        "translation": "冷氣機讓房間保持涼爽。",
+        "clue": "用來讓室內變涼的電器",
+        "answerEntryId": "u11:air conditioner",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:armchair",
+      "zh": "扶手椅",
+      "pos": "noun",
+      "example": "Grandpa is sitting in the armchair.",
+      "exampleZh": "爺爺正坐在扶手椅上。",
+      "spellingHint": "a-r-m-c-h-a-i-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandpa is sitting in the ___.",
+        "fullSentence": "Grandpa is sitting in the armchair.",
+        "translation": "爺爺正坐在扶手椅上。",
+        "clue": "有扶手的舒適單人椅",
+        "answerEntryId": "u11:armchair",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:basement",
+      "zh": "地下室",
+      "pos": "noun",
+      "example": "We keep old boxes in the basement.",
+      "exampleZh": "我們把舊箱子放在地下室。",
+      "spellingHint": "b-a-s-e-m-e-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We keep old boxes in the ___.",
+        "fullSentence": "We keep old boxes in the basement.",
+        "translation": "我們把舊箱子放在地下室。",
+        "clue": "房子地下的樓層或房間",
+        "answerEntryId": "u11:basement",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:bath",
+      "zh": "洗澡；浴缸",
+      "pos": "noun",
+      "example": "The baby is having a bath.",
+      "exampleZh": "嬰兒正在洗澡。",
+      "spellingHint": "b-a-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The baby is having a ___.",
+        "fullSentence": "The baby is having a bath.",
+        "translation": "嬰兒正在洗澡。",
+        "clue": "在水中洗身體的活動",
+        "answerEntryId": "u11:bath",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:bed",
+      "zh": "床",
+      "pos": "noun",
+      "example": "The baby is sleeping in the bed.",
+      "exampleZh": "嬰兒正在床上睡覺。",
+      "spellingHint": "b-e-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The baby is sleeping in the ___.",
+        "fullSentence": "The baby is sleeping in the bed.",
+        "translation": "嬰兒正在床上睡覺。",
+        "clue": "睡覺用的家具",
+        "answerEntryId": "u11:bed",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:bench",
+      "zh": "長椅",
+      "pos": "noun",
+      "example": "We sat on a bench in the yard.",
+      "exampleZh": "我們坐在院子裡的長椅上。",
+      "spellingHint": "b-e-n-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We sat on a ___ in the yard.",
+        "fullSentence": "We sat on a bench in the yard.",
+        "translation": "我們坐在院子裡的長椅上。",
+        "clue": "可供多人坐的長椅",
+        "answerEntryId": "u11:bench",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:blanket",
+      "zh": "毯子",
+      "pos": "noun",
+      "example": "I put a warm blanket on the bed.",
+      "exampleZh": "我在床上放了一條暖毯。",
+      "spellingHint": "b-l-a-n-k-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I put a warm ___ on the bed.",
+        "fullSentence": "I put a warm blanket on the bed.",
+        "translation": "我在床上放了一條暖毯。",
+        "clue": "蓋在身上保暖的大布",
+        "answerEntryId": "u11:blanket",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:bookcase",
+      "zh": "書櫃",
+      "pos": "noun",
+      "example": "The books are in the bookcase.",
+      "exampleZh": "書在書櫃裡。",
+      "spellingHint": "b-o-o-k-c-a-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The books are in the ___.",
+        "fullSentence": "The books are in the bookcase.",
+        "translation": "書在書櫃裡。",
+        "clue": "放書的家具",
+        "answerEntryId": "u11:bookcase",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:brick",
+      "zh": "磚塊",
+      "pos": "noun",
+      "example": "The wall is made of red brick.",
+      "exampleZh": "這面牆是用紅磚砌成的。",
+      "spellingHint": "b-r-i-c-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The wall is made of red ___.",
+        "fullSentence": "The wall is made of red brick.",
+        "translation": "這面牆是用紅磚砌成的。",
+        "clue": "蓋房子用的長方形建材",
+        "answerEntryId": "u11:brick",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:brush",
+      "zh": "刷子",
+      "pos": "noun",
+      "example": "Use a brush to clean the floor.",
+      "exampleZh": "用刷子清潔地板。",
+      "spellingHint": "b-r-u-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use a ___ to clean the floor.",
+        "fullSentence": "Use a brush to clean the floor.",
+        "translation": "用刷子清潔地板。",
+        "clue": "用來刷洗或整理東西的工具",
+        "answerEntryId": "u11:brush",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:bucket",
+      "zh": "水桶",
+      "pos": "noun",
+      "example": "Please fill the bucket with water.",
+      "exampleZh": "請把水桶裝滿水。",
+      "spellingHint": "b-u-c-k-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please fill the ___ with water.",
+        "fullSentence": "Please fill the bucket with water.",
+        "translation": "請把水桶裝滿水。",
+        "clue": "裝水或其他東西的容器",
+        "answerEntryId": "u11:bucket",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:building",
+      "zh": "建築物",
+      "pos": "noun",
+      "example": "That building has ten floors.",
+      "exampleZh": "那棟建築物有十層樓。",
+      "spellingHint": "b-u-i-l-d-i-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "That ___ has ten floors.",
+        "fullSentence": "That building has ten floors.",
+        "translation": "那棟建築物有十層樓。",
+        "clue": "房屋或其他大型建築",
+        "answerEntryId": "u11:building",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:cabinet",
+      "zh": "櫥櫃",
+      "pos": "noun",
+      "example": "The cups are in the kitchen cabinet.",
+      "exampleZh": "杯子在廚房櫥櫃裡。",
+      "spellingHint": "c-a-b-i-n-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The cups are in the kitchen ___.",
+        "fullSentence": "The cups are in the kitchen cabinet.",
+        "translation": "杯子在廚房櫥櫃裡。",
+        "clue": "有門或抽屜的收納家具",
+        "answerEntryId": "u11:cabinet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:can",
+      "zh": "罐頭；罐子",
+      "pos": "noun",
+      "example": "There is a can of soup in the cupboard.",
+      "exampleZh": "櫥櫃裡有一罐湯。",
+      "spellingHint": "c-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a ___ of soup in the cupboard.",
+        "fullSentence": "There is a can of soup in the cupboard.",
+        "translation": "櫥櫃裡有一罐湯。",
+        "clue": "裝食物或飲料的金屬容器",
+        "answerEntryId": "u11:can",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:carpet",
+      "zh": "地毯",
+      "pos": "noun",
+      "example": "The carpet is soft and clean.",
+      "exampleZh": "地毯柔軟又乾淨。",
+      "spellingHint": "c-a-r-p-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is soft and clean.",
+        "fullSentence": "The carpet is soft and clean.",
+        "translation": "地毯柔軟又乾淨。",
+        "clue": "鋪在地板上的厚布",
+        "answerEntryId": "u11:carpet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:cassette",
+      "zh": "卡式錄音帶",
+      "pos": "noun",
+      "example": "I found an old cassette in a box.",
+      "exampleZh": "我在箱子裡找到一卷舊錄音帶。",
+      "spellingHint": "c-a-s-s-e-t-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I found an old ___ in a box.",
+        "fullSentence": "I found an old cassette in a box.",
+        "translation": "我在箱子裡找到一卷舊錄音帶。",
+        "clue": "裝有錄音帶的小盒子",
+        "answerEntryId": "u11:cassette",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:ceiling",
+      "zh": "天花板",
+      "pos": "noun",
+      "example": "The lamp hangs from the ceiling.",
+      "exampleZh": "那盞燈掛在天花板上。",
+      "spellingHint": "c-e-i-l-i-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The lamp hangs from the ___.",
+        "fullSentence": "The lamp hangs from the ceiling.",
+        "translation": "那盞燈掛在天花板上。",
+        "clue": "房間上方的內側表面",
+        "answerEntryId": "u11:ceiling",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:chair",
+      "zh": "椅子",
+      "pos": "noun",
+      "example": "Please sit on this chair.",
+      "exampleZh": "請坐在這張椅子上。",
+      "spellingHint": "c-h-a-i-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please sit on this ___.",
+        "fullSentence": "Please sit on this chair.",
+        "translation": "請坐在這張椅子上。",
+        "clue": "供一人坐的家具",
+        "answerEntryId": "u11:chair",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:closet",
+      "zh": "衣櫥；壁櫥",
+      "pos": "noun",
+      "example": "My coat is in the closet.",
+      "exampleZh": "我的外套在衣櫥裡。",
+      "spellingHint": "c-l-o-s-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My coat is in the ___.",
+        "fullSentence": "My coat is in the closet.",
+        "translation": "我的外套在衣櫥裡。",
+        "clue": "收放衣物或物品的小空間",
+        "answerEntryId": "u11:closet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:computer",
+      "zh": "電腦",
+      "pos": "noun",
+      "example": "My computer is on the desk.",
+      "exampleZh": "我的電腦在書桌上。",
+      "spellingHint": "c-o-m-p-u-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ is on the desk.",
+        "fullSentence": "My computer is on the desk.",
+        "translation": "我的電腦在書桌上。",
+        "clue": "用來處理資訊的電子設備",
+        "answerEntryId": "u11:computer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:couch",
+      "zh": "沙發",
+      "pos": "noun",
+      "example": "Dad is resting on the couch.",
+      "exampleZh": "爸爸正在沙發上休息。",
+      "spellingHint": "c-o-u-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dad is resting on the ___.",
+        "fullSentence": "Dad is resting on the couch.",
+        "translation": "爸爸正在沙發上休息。",
+        "clue": "客廳裡供人坐或躺的長椅",
+        "answerEntryId": "u11:couch",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:curtain",
+      "zh": "窗簾",
+      "pos": "noun",
+      "example": "Please close the curtain at night.",
+      "exampleZh": "請在晚上關上窗簾。",
+      "spellingHint": "c-u-r-t-a-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please close the ___ at night.",
+        "fullSentence": "Please close the curtain at night.",
+        "translation": "請在晚上關上窗簾。",
+        "clue": "掛在窗戶旁遮光的布",
+        "answerEntryId": "u11:curtain",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:decorate",
+      "zh": "裝飾",
+      "pos": "verb",
+      "example": "We decorate the house for Christmas.",
+      "exampleZh": "我們為聖誕節裝飾房子。",
+      "spellingHint": "d-e-c-o-r-a-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We ___ the house for Christmas.",
+        "fullSentence": "We decorate the house for Christmas.",
+        "translation": "我們為聖誕節裝飾房子。",
+        "clue": "用東西把地方布置得漂亮",
+        "answerEntryId": "u11:decorate",
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:design",
+      "zh": "設計；設計圖",
+      "pos": "noun",
+      "example": "The design of this room is simple.",
+      "exampleZh": "這個房間的設計很簡單。",
+      "spellingHint": "d-e-s-i-g-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ of this room is simple.",
+        "fullSentence": "The design of this room is simple.",
+        "translation": "這個房間的設計很簡單。",
+        "clue": "物品或房間的規劃樣式",
+        "answerEntryId": "u11:design",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:desk",
+      "zh": "書桌",
+      "pos": "noun",
+      "example": "My books are on the desk.",
+      "exampleZh": "我的書在書桌上。",
+      "spellingHint": "d-e-s-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My books are on the ___.",
+        "fullSentence": "My books are on the desk.",
+        "translation": "我的書在書桌上。",
+        "clue": "讀書或工作的桌子",
+        "answerEntryId": "u11:desk",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:dial",
+      "zh": "撥號",
+      "pos": "verb",
+      "example": "Dial nine to call the front desk.",
+      "exampleZh": "撥九號打電話給櫃檯。",
+      "spellingHint": "d-i-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ nine to call the front desk.",
+        "fullSentence": "Dial nine to call the front desk.",
+        "translation": "撥九號打電話給櫃檯。",
+        "clue": "在電話上按號碼打電話",
+        "answerEntryId": "u11:dial",
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:dining room",
+      "zh": "餐廳；飯廳",
+      "pos": "noun",
+      "example": "We eat dinner in the dining room.",
+      "exampleZh": "我們在飯廳吃晚餐。",
+      "spellingHint": "d-i-n-i-n-g r-o-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We eat dinner in the ___.",
+        "fullSentence": "We eat dinner in the dining room.",
+        "translation": "我們在飯廳吃晚餐。",
+        "clue": "家中吃飯的房間",
+        "answerEntryId": "u11:dining room",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:door",
+      "zh": "門",
+      "pos": "noun",
+      "example": "Please close the door.",
+      "exampleZh": "請關上門。",
+      "spellingHint": "d-o-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please close the ___.",
+        "fullSentence": "Please close the door.",
+        "translation": "請關上門。",
+        "clue": "可以開關的出入口",
+        "answerEntryId": "u11:door",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:downstairs",
+      "zh": "樓下的",
+      "pos": "adjective",
+      "example": "The downstairs bathroom is small.",
+      "exampleZh": "樓下的浴室很小。",
+      "spellingHint": "d-o-w-n-s-t-a-i-r-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ bathroom is small.",
+        "fullSentence": "The downstairs bathroom is small.",
+        "translation": "樓下的浴室很小。",
+        "clue": "位於較低樓層的",
+        "answerEntryId": "u11:downstairs",
+        "distractorEntryIds": [
+          "u11:electric",
+          "u11:flat",
+          "u11:upstairs"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:drawer",
+      "zh": "抽屜",
+      "pos": "noun",
+      "example": "The keys are in the drawer.",
+      "exampleZh": "鑰匙在抽屜裡。",
+      "spellingHint": "d-r-a-w-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The keys are in the ___.",
+        "fullSentence": "The keys are in the drawer.",
+        "translation": "鑰匙在抽屜裡。",
+        "clue": "家具中可以拉出的收納盒",
+        "answerEntryId": "u11:drawer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:dresser",
+      "zh": "梳妝台；衣物櫃",
+      "pos": "noun",
+      "example": "My socks are in the dresser.",
+      "exampleZh": "我的襪子在衣物櫃裡。",
+      "spellingHint": "d-r-e-s-s-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My socks are in the ___.",
+        "fullSentence": "My socks are in the dresser.",
+        "translation": "我的襪子在衣物櫃裡。",
+        "clue": "用來收放衣物的家具",
+        "answerEntryId": "u11:dresser",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:dryer",
+      "zh": "烘乾機",
+      "pos": "noun",
+      "example": "The dryer is drying our clothes.",
+      "exampleZh": "烘乾機正在烘乾我們的衣服。",
+      "spellingHint": "d-r-y-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is drying our clothes.",
+        "fullSentence": "The dryer is drying our clothes.",
+        "translation": "烘乾機正在烘乾我們的衣服。",
+        "clue": "用來烘乾衣物的機器",
+        "answerEntryId": "u11:dryer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:electric",
+      "zh": "電的；用電的",
+      "pos": "adjective",
+      "example": "We use an electric fan in summer.",
+      "exampleZh": "我們夏天使用電風扇。",
+      "spellingHint": "e-l-e-c-t-r-i-c",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We use an ___ fan in summer.",
+        "fullSentence": "We use an electric fan in summer.",
+        "translation": "我們夏天使用電風扇。",
+        "clue": "靠電力運作的",
+        "answerEntryId": "u11:electric",
+        "distractorEntryIds": [
+          "u11:downstairs",
+          "u11:flat",
+          "u11:upstairs"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:fan",
+      "zh": "電風扇；風扇",
+      "pos": "noun",
+      "example": "Turn on the fan, please.",
+      "exampleZh": "請打開電風扇。",
+      "spellingHint": "f-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Turn on the ___, please.",
+        "fullSentence": "Turn on the fan, please.",
+        "translation": "請打開電風扇。",
+        "clue": "用來吹風的電器",
+        "answerEntryId": "u11:fan",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:faucet",
+      "zh": "水龍頭",
+      "pos": "noun",
+      "example": "Turn off the faucet after washing.",
+      "exampleZh": "洗完後關掉水龍頭。",
+      "spellingHint": "f-a-u-c-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Turn off the ___ after washing.",
+        "fullSentence": "Turn off the faucet after washing.",
+        "translation": "洗完後關掉水龍頭。",
+        "clue": "控制水流開關的設備",
+        "answerEntryId": "u11:faucet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:fence",
+      "zh": "圍籬；籬笆",
+      "pos": "noun",
+      "example": "The fence is around our yard.",
+      "exampleZh": "籬笆圍在我們的院子四周。",
+      "spellingHint": "f-e-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is around our yard.",
+        "fullSentence": "The fence is around our yard.",
+        "translation": "籬笆圍在我們的院子四周。",
+        "clue": "圍住土地的柵欄",
+        "answerEntryId": "u11:fence",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:flashlight",
+      "zh": "手電筒",
+      "pos": "noun",
+      "example": "I use a flashlight in the dark.",
+      "exampleZh": "我在黑暗中使用手電筒。",
+      "spellingHint": "f-l-a-s-h-l-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I use a ___ in the dark.",
+        "fullSentence": "I use a flashlight in the dark.",
+        "translation": "我在黑暗中使用手電筒。",
+        "clue": "用電池照明的手持工具",
+        "answerEntryId": "u11:flashlight",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:flat",
+      "zh": "平坦的",
+      "pos": "adjective",
+      "example": "The roof is flat.",
+      "exampleZh": "屋頂是平的。",
+      "spellingHint": "f-l-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The roof is ___.",
+        "fullSentence": "The roof is flat.",
+        "translation": "屋頂是平的。",
+        "clue": "表面沒有斜度或彎曲的",
+        "answerEntryId": "u11:flat",
+        "distractorEntryIds": [
+          "u11:downstairs",
+          "u11:electric",
+          "u11:upstairs"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:floor",
+      "zh": "地板；樓層",
+      "pos": "noun",
+      "example": "Please keep the floor clean.",
+      "exampleZh": "請保持地板乾淨。",
+      "spellingHint": "f-l-o-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please keep the ___ clean.",
+        "fullSentence": "Please keep the floor clean.",
+        "translation": "請保持地板乾淨。",
+        "clue": "房間下方的表面",
+        "answerEntryId": "u11:floor",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:freezer",
+      "zh": "冷凍庫",
+      "pos": "noun",
+      "example": "The ice cream is in the freezer.",
+      "exampleZh": "冰淇淋在冷凍庫裡。",
+      "spellingHint": "f-r-e-e-z-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ice cream is in the ___.",
+        "fullSentence": "The ice cream is in the freezer.",
+        "translation": "冰淇淋在冷凍庫裡。",
+        "clue": "用來冷凍食物的電器",
+        "answerEntryId": "u11:freezer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:furniture",
+      "zh": "家具",
+      "pos": "noun",
+      "example": "We need new furniture for the room.",
+      "exampleZh": "我們需要房間的新家具。",
+      "spellingHint": "f-u-r-n-i-t-u-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We need new ___ for the room.",
+        "fullSentence": "We need new furniture for the room.",
+        "translation": "我們需要房間的新家具。",
+        "clue": "家中使用的桌椅等物品總稱",
+        "answerEntryId": "u11:furniture",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:garage",
+      "zh": "車庫",
+      "pos": "noun",
+      "example": "Dad parks the car in the garage.",
+      "exampleZh": "爸爸把車停在車庫裡。",
+      "spellingHint": "g-a-r-a-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dad parks the car in the ___.",
+        "fullSentence": "Dad parks the car in the garage.",
+        "translation": "爸爸把車停在車庫裡。",
+        "clue": "停放車子的房間或建築",
+        "answerEntryId": "u11:garage",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:garbage",
+      "zh": "垃圾",
+      "pos": "noun",
+      "example": "Please take the garbage outside.",
+      "exampleZh": "請把垃圾拿到外面。",
+      "spellingHint": "g-a-r-b-a-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please take the ___ outside.",
+        "fullSentence": "Please take the garbage outside.",
+        "translation": "請把垃圾拿到外面。",
+        "clue": "不要的髒東西",
+        "answerEntryId": "u11:garbage",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:garden",
+      "zh": "花園；菜園",
+      "pos": "noun",
+      "example": "There are many flowers in the garden.",
+      "exampleZh": "花園裡有許多花。",
+      "spellingHint": "g-a-r-d-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There are many flowers in the ___.",
+        "fullSentence": "There are many flowers in the garden.",
+        "translation": "花園裡有許多花。",
+        "clue": "種花或植物的地方",
+        "answerEntryId": "u11:garden",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:gate",
+      "zh": "大門；柵門",
+      "pos": "noun",
+      "example": "Please close the garden gate.",
+      "exampleZh": "請關上花園的大門。",
+      "spellingHint": "g-a-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please close the garden ___.",
+        "fullSentence": "Please close the garden gate.",
+        "translation": "請關上花園的大門。",
+        "clue": "圍籬上的出入口",
+        "answerEntryId": "u11:gate",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:ground",
+      "zh": "地面",
+      "pos": "noun",
+      "example": "The children are playing on the ground.",
+      "exampleZh": "孩子們正在地面上玩耍。",
+      "spellingHint": "g-r-o-u-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The children are playing on the ___.",
+        "fullSentence": "The children are playing on the ground.",
+        "translation": "孩子們正在地面上玩耍。",
+        "clue": "土地或地面的表面",
+        "answerEntryId": "u11:ground",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:hall",
+      "zh": "大廳；走廊",
+      "pos": "noun",
+      "example": "Our shoes are by the hall door.",
+      "exampleZh": "我們的鞋子在大廳門旁。",
+      "spellingHint": "h-a-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Our shoes are by the ___ door.",
+        "fullSentence": "Our shoes are by the hall door.",
+        "translation": "我們的鞋子在大廳門旁。",
+        "clue": "房子裡連接房間的通道或大廳",
+        "answerEntryId": "u11:hall",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:hammer",
+      "zh": "鐵鎚",
+      "pos": "noun",
+      "example": "Dad uses a hammer to fix the shelf.",
+      "exampleZh": "爸爸用鐵鎚修理架子。",
+      "spellingHint": "h-a-m-m-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dad uses a ___ to fix the shelf.",
+        "fullSentence": "Dad uses a hammer to fix the shelf.",
+        "translation": "爸爸用鐵鎚修理架子。",
+        "clue": "用來敲打釘子的工具",
+        "answerEntryId": "u11:hammer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:hanger",
+      "zh": "衣架",
+      "pos": "noun",
+      "example": "Hang your coat on a hanger.",
+      "exampleZh": "把你的外套掛在衣架上。",
+      "spellingHint": "h-a-n-g-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Hang your coat on a ___.",
+        "fullSentence": "Hang your coat on a hanger.",
+        "translation": "把你的外套掛在衣架上。",
+        "clue": "用來掛衣服的架子",
+        "answerEntryId": "u11:hanger",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:heat",
+      "zh": "熱；熱氣",
+      "pos": "noun",
+      "example": "The heat from the oven warms the kitchen.",
+      "exampleZh": "烤箱的熱氣讓廚房變暖。",
+      "spellingHint": "h-e-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ from the oven warms the kitchen.",
+        "fullSentence": "The heat from the oven warms the kitchen.",
+        "translation": "烤箱的熱氣讓廚房變暖。",
+        "clue": "讓人感到溫暖的能量",
+        "answerEntryId": "u11:heat",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:heater",
+      "zh": "暖氣機",
+      "pos": "noun",
+      "example": "Turn on the heater in winter.",
+      "exampleZh": "冬天請打開暖氣機。",
+      "spellingHint": "h-e-a-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Turn on the ___ in winter.",
+        "fullSentence": "Turn on the heater in winter.",
+        "translation": "冬天請打開暖氣機。",
+        "clue": "用來加熱房間的電器",
+        "answerEntryId": "u11:heater",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:home",
+      "zh": "家；回家",
+      "pos": "noun",
+      "example": "My home is near the school.",
+      "exampleZh": "我的家在學校附近。",
+      "spellingHint": "h-o-m-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ is near the school.",
+        "fullSentence": "My home is near the school.",
+        "translation": "我的家在學校附近。",
+        "clue": "自己居住的地方",
+        "answerEntryId": "u11:home",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:house",
+      "zh": "房子；住宅",
+      "pos": "noun",
+      "example": "Their house has a blue door.",
+      "exampleZh": "他們的房子有一扇藍色的門。",
+      "spellingHint": "h-o-u-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Their ___ has a blue door.",
+        "fullSentence": "Their house has a blue door.",
+        "translation": "他們的房子有一扇藍色的門。",
+        "clue": "人居住的建築物",
+        "answerEntryId": "u11:house",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:housework",
+      "zh": "家事",
+      "pos": "noun",
+      "example": "I help my mother with the housework.",
+      "exampleZh": "我幫媽媽做家事。",
+      "spellingHint": "h-o-u-s-e-w-o-r-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I help my mother with the ___.",
+        "fullSentence": "I help my mother with the housework.",
+        "translation": "我幫媽媽做家事。",
+        "clue": "清潔和整理家裡的工作",
+        "answerEntryId": "u11:housework",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:key",
+      "zh": "鑰匙",
+      "pos": "noun",
+      "example": "I keep the house key in my bag.",
+      "exampleZh": "我把房子的鑰匙放在包包裡。",
+      "spellingHint": "k-e-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I keep the house ___ in my bag.",
+        "fullSentence": "I keep the house key in my bag.",
+        "translation": "我把房子的鑰匙放在包包裡。",
+        "clue": "用來開鎖的金屬物品",
+        "answerEntryId": "u11:key",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:light",
+      "zh": "燈；光線",
+      "pos": "noun",
+      "example": "Please turn off the light.",
+      "exampleZh": "請關掉燈。",
+      "spellingHint": "l-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please turn off the ___.",
+        "fullSentence": "Please turn off the light.",
+        "translation": "請關掉燈。",
+        "clue": "用來照明的設備或光線",
+        "answerEntryId": "u11:light",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:machine",
+      "zh": "機器",
+      "pos": "noun",
+      "example": "This machine washes the clothes.",
+      "exampleZh": "這台機器洗衣服。",
+      "spellingHint": "m-a-c-h-i-n-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ washes the clothes.",
+        "fullSentence": "This machine washes the clothes.",
+        "translation": "這台機器洗衣服。",
+        "clue": "用電力或其他力量工作的設備",
+        "answerEntryId": "u11:machine",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:mat",
+      "zh": "墊子",
+      "pos": "noun",
+      "example": "Wipe your feet on the mat.",
+      "exampleZh": "在墊子上擦擦你的腳。",
+      "spellingHint": "m-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Wipe your feet on the ___.",
+        "fullSentence": "Wipe your feet on the mat.",
+        "translation": "在墊子上擦擦你的腳。",
+        "clue": "放在地上供人踩的墊子",
+        "answerEntryId": "u11:mat",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:microwave",
+      "zh": "微波爐",
+      "pos": "noun",
+      "example": "Heat the soup in the microwave.",
+      "exampleZh": "用微波爐加熱湯。",
+      "spellingHint": "m-i-c-r-o-w-a-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Heat the soup in the ___.",
+        "fullSentence": "Heat the soup in the microwave.",
+        "translation": "用微波爐加熱湯。",
+        "clue": "用微波加熱食物的電器",
+        "answerEntryId": "u11:microwave",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:mirror",
+      "zh": "鏡子",
+      "pos": "noun",
+      "example": "She looks in the mirror.",
+      "exampleZh": "她照鏡子。",
+      "spellingHint": "m-i-r-r-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She looks in the ___.",
+        "fullSentence": "She looks in the mirror.",
+        "translation": "她照鏡子。",
+        "clue": "可以映照影像的玻璃",
+        "answerEntryId": "u11:mirror",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:mop",
+      "zh": "拖把",
+      "pos": "noun",
+      "example": "Use a mop to clean the floor.",
+      "exampleZh": "用拖把清潔地板。",
+      "spellingHint": "m-o-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use a ___ to clean the floor.",
+        "fullSentence": "Use a mop to clean the floor.",
+        "translation": "用拖把清潔地板。",
+        "clue": "用來擦洗地板的工具",
+        "answerEntryId": "u11:mop",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:needle",
+      "zh": "針",
+      "pos": "noun",
+      "example": "Mom uses a needle to sew a button.",
+      "exampleZh": "媽媽用針縫鈕扣。",
+      "spellingHint": "n-e-e-d-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mom uses a ___ to sew a button.",
+        "fullSentence": "Mom uses a needle to sew a button.",
+        "translation": "媽媽用針縫鈕扣。",
+        "clue": "縫東西用的細長金屬工具",
+        "answerEntryId": "u11:needle",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:oven",
+      "zh": "烤箱",
+      "pos": "noun",
+      "example": "The cake is in the oven.",
+      "exampleZh": "蛋糕在烤箱裡。",
+      "spellingHint": "o-v-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The cake is in the ___.",
+        "fullSentence": "The cake is in the oven.",
+        "translation": "蛋糕在烤箱裡。",
+        "clue": "用來烘烤食物的電器",
+        "answerEntryId": "u11:oven",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:pillow",
+      "zh": "枕頭",
+      "pos": "noun",
+      "example": "My pillow is very soft.",
+      "exampleZh": "我的枕頭很柔軟。",
+      "spellingHint": "p-i-l-l-o-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ is very soft.",
+        "fullSentence": "My pillow is very soft.",
+        "translation": "我的枕頭很柔軟。",
+        "clue": "睡覺時墊頭的軟墊",
+        "answerEntryId": "u11:pillow",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:pipe",
+      "zh": "管子；管道",
+      "pos": "noun",
+      "example": "Water runs through this pipe.",
+      "exampleZh": "水流過這根管子。",
+      "spellingHint": "p-i-p-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Water runs through this ___.",
+        "fullSentence": "Water runs through this pipe.",
+        "translation": "水流過這根管子。",
+        "clue": "讓水或氣體通過的管子",
+        "answerEntryId": "u11:pipe",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:printer",
+      "zh": "印表機",
+      "pos": "noun",
+      "example": "The printer is next to the computer.",
+      "exampleZh": "印表機在電腦旁邊。",
+      "spellingHint": "p-r-i-n-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is next to the computer.",
+        "fullSentence": "The printer is next to the computer.",
+        "translation": "印表機在電腦旁邊。",
+        "clue": "把文字或圖片印出來的機器",
+        "answerEntryId": "u11:printer",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:radio",
+      "zh": "收音機；廣播",
+      "pos": "noun",
+      "example": "Grandma listens to the radio every morning.",
+      "exampleZh": "奶奶每天早上聽收音機。",
+      "spellingHint": "r-a-d-i-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandma listens to the ___ every morning.",
+        "fullSentence": "Grandma listens to the radio every morning.",
+        "translation": "奶奶每天早上聽收音機。",
+        "clue": "播放廣播節目的設備",
+        "answerEntryId": "u11:radio",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:receiver",
+      "zh": "電話聽筒；接收器",
+      "pos": "noun",
+      "example": "Please pick up the receiver.",
+      "exampleZh": "請拿起電話聽筒。",
+      "spellingHint": "r-e-c-e-i-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please pick up the ___.",
+        "fullSentence": "Please pick up the receiver.",
+        "translation": "請拿起電話聽筒。",
+        "clue": "電話上用來聽和說話的部分",
+        "answerEntryId": "u11:receiver",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:refrigerator",
+      "zh": "冰箱",
+      "pos": "noun",
+      "example": "The milk is in the refrigerator.",
+      "exampleZh": "牛奶在冰箱裡。",
+      "spellingHint": "r-e-f-r-i-g-e-r-a-t-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The milk is in the ___.",
+        "fullSentence": "The milk is in the refrigerator.",
+        "translation": "牛奶在冰箱裡。",
+        "clue": "用來冷藏食物的電器",
+        "answerEntryId": "u11:refrigerator",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:repair",
+      "zh": "修理",
+      "pos": "verb",
+      "example": "We need to repair the broken window.",
+      "exampleZh": "我們需要修理破掉的窗戶。",
+      "spellingHint": "r-e-p-a-i-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We need to ___ the broken window.",
+        "fullSentence": "We need to repair the broken window.",
+        "translation": "我們需要修理破掉的窗戶。",
+        "clue": "把損壞的東西修好",
+        "answerEntryId": "u11:repair",
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:road",
+      "zh": "道路",
+      "pos": "noun",
+      "example": "Our house is near the main road.",
+      "exampleZh": "我們的房子靠近主要道路。",
+      "spellingHint": "r-o-a-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Our house is near the main ___.",
+        "fullSentence": "Our house is near the main road.",
+        "translation": "我們的房子靠近主要道路。",
+        "clue": "供車輛或人行走的路",
+        "answerEntryId": "u11:road",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:roof",
+      "zh": "屋頂",
+      "pos": "noun",
+      "example": "Snow is falling on the roof.",
+      "exampleZh": "雪正落在屋頂上。",
+      "spellingHint": "r-o-o-f",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Snow is falling on the ___.",
+        "fullSentence": "Snow is falling on the roof.",
+        "translation": "雪正落在屋頂上。",
+        "clue": "房子最上方遮蓋用的部分",
+        "answerEntryId": "u11:roof",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:room",
+      "zh": "房間",
+      "pos": "noun",
+      "example": "This room has two windows.",
+      "exampleZh": "這個房間有兩扇窗戶。",
+      "spellingHint": "r-o-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ has two windows.",
+        "fullSentence": "This room has two windows.",
+        "translation": "這個房間有兩扇窗戶。",
+        "clue": "房子裡被牆隔出的空間",
+        "answerEntryId": "u11:room",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:rope",
+      "zh": "繩子",
+      "pos": "noun",
+      "example": "Use a rope to tie the box.",
+      "exampleZh": "用繩子綁住箱子。",
+      "spellingHint": "r-o-p-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use a ___ to tie the box.",
+        "fullSentence": "Use a rope to tie the box.",
+        "translation": "用繩子綁住箱子。",
+        "clue": "用來捆綁東西的粗線",
+        "answerEntryId": "u11:rope",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:sheet",
+      "zh": "床單；薄片",
+      "pos": "noun",
+      "example": "Please change the bed sheet.",
+      "exampleZh": "請更換床單。",
+      "spellingHint": "s-h-e-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please change the bed ___.",
+        "fullSentence": "Please change the bed sheet.",
+        "translation": "請更換床單。",
+        "clue": "鋪在床墊上的大塊布",
+        "answerEntryId": "u11:sheet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:shelf",
+      "zh": "架子；書架",
+      "pos": "noun",
+      "example": "Put the books on the shelf.",
+      "exampleZh": "把書放在架子上。",
+      "spellingHint": "s-h-e-l-f",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Put the books on the ___.",
+        "fullSentence": "Put the books on the shelf.",
+        "translation": "把書放在架子上。",
+        "clue": "用來放置物品的平板",
+        "answerEntryId": "u11:shelf",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:shower",
+      "zh": "淋浴；淋浴器",
+      "pos": "noun",
+      "example": "I take a shower every morning.",
+      "exampleZh": "我每天早上洗澡。",
+      "spellingHint": "s-h-o-w-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I take a ___ every morning.",
+        "fullSentence": "I take a shower every morning.",
+        "translation": "我每天早上洗澡。",
+        "clue": "用水沖洗身體的設備或活動",
+        "answerEntryId": "u11:shower",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:sink",
+      "zh": "洗手槽；水槽",
+      "pos": "noun",
+      "example": "The dishes are in the kitchen sink.",
+      "exampleZh": "碗盤在廚房水槽裡。",
+      "spellingHint": "s-i-n-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The dishes are in the kitchen ___.",
+        "fullSentence": "The dishes are in the kitchen sink.",
+        "translation": "碗盤在廚房水槽裡。",
+        "clue": "廚房或浴室中洗東西的盆槽",
+        "answerEntryId": "u11:sink",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:soap",
+      "zh": "肥皂",
+      "pos": "noun",
+      "example": "Use soap to wash your hands.",
+      "exampleZh": "用肥皂洗手。",
+      "spellingHint": "s-o-a-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use ___ to wash your hands.",
+        "fullSentence": "Use soap to wash your hands.",
+        "translation": "用肥皂洗手。",
+        "clue": "洗手或洗澡用的清潔用品",
+        "answerEntryId": "u11:soap",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:speaker",
+      "zh": "喇叭；揚聲器",
+      "pos": "noun",
+      "example": "The speaker is next to the radio.",
+      "exampleZh": "喇叭在收音機旁邊。",
+      "spellingHint": "s-p-e-a-k-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is next to the radio.",
+        "fullSentence": "The speaker is next to the radio.",
+        "translation": "喇叭在收音機旁邊。",
+        "clue": "播放聲音的設備",
+        "answerEntryId": "u11:speaker",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:stairs",
+      "zh": "樓梯",
+      "pos": "noun",
+      "example": "Be careful on the stairs.",
+      "exampleZh": "在樓梯上要小心。",
+      "spellingHint": "s-t-a-i-r-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Be careful on the ___.",
+        "fullSentence": "Be careful on the stairs.",
+        "translation": "在樓梯上要小心。",
+        "clue": "連接不同樓層的一段階梯",
+        "answerEntryId": "u11:stairs",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:stove",
+      "zh": "爐子；瓦斯爐",
+      "pos": "noun",
+      "example": "The soup is on the stove.",
+      "exampleZh": "湯在爐子上。",
+      "spellingHint": "s-t-o-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The soup is on the ___.",
+        "fullSentence": "The soup is on the stove.",
+        "translation": "湯在爐子上。",
+        "clue": "用來煮食物的器具",
+        "answerEntryId": "u11:stove",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:street",
+      "zh": "街道",
+      "pos": "noun",
+      "example": "There is a store on this street.",
+      "exampleZh": "這條街上有一家商店。",
+      "spellingHint": "s-t-r-e-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a store on this ___.",
+        "fullSentence": "There is a store on this street.",
+        "translation": "這條街上有一家商店。",
+        "clue": "城市或城鎮中的道路",
+        "answerEntryId": "u11:street",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:study",
+      "zh": "書房",
+      "pos": "noun",
+      "example": "Dad is reading in the study.",
+      "exampleZh": "爸爸正在書房裡閱讀。",
+      "spellingHint": "s-t-u-d-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dad is reading in the ___.",
+        "fullSentence": "Dad is reading in the study.",
+        "translation": "爸爸正在書房裡閱讀。",
+        "clue": "用來讀書或工作的房間",
+        "answerEntryId": "u11:study",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:sweep",
+      "zh": "掃；打掃",
+      "pos": "verb",
+      "example": "I sweep the floor every day.",
+      "exampleZh": "我每天掃地。",
+      "spellingHint": "s-w-e-e-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I ___ the floor every day.",
+        "fullSentence": "I sweep the floor every day.",
+        "translation": "我每天掃地。",
+        "clue": "用掃把清除地上的灰塵",
+        "answerEntryId": "u11:sweep",
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:clean",
+          "u11:fix"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tape",
+      "zh": "膠帶；錄音帶",
+      "pos": "noun",
+      "example": "Use tape to fix the torn box.",
+      "exampleZh": "用膠帶修補破掉的箱子。",
+      "spellingHint": "t-a-p-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use ___ to fix the torn box.",
+        "fullSentence": "Use tape to fix the torn box.",
+        "translation": "用膠帶修補破掉的箱子。",
+        "clue": "用來黏住或固定東西的帶子",
+        "answerEntryId": "u11:tape",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tape recorder",
+      "zh": "錄音機",
+      "pos": "noun",
+      "example": "The tape recorder is on the table.",
+      "exampleZh": "錄音機在桌上。",
+      "spellingHint": "t-a-p-e r-e-c-o-r-d-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is on the table.",
+        "fullSentence": "The tape recorder is on the table.",
+        "translation": "錄音機在桌上。",
+        "clue": "用來錄音和播放錄音帶的機器",
+        "answerEntryId": "u11:tape recorder",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tent",
+      "zh": "帳篷",
+      "pos": "noun",
+      "example": "We sleep in a tent in the yard.",
+      "exampleZh": "我們在院子裡的帳篷中睡覺。",
+      "spellingHint": "t-e-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We sleep in a ___ in the yard.",
+        "fullSentence": "We sleep in a tent in the yard.",
+        "translation": "我們在院子裡的帳篷中睡覺。",
+        "clue": "可以搭起來居住或休息的布棚",
+        "answerEntryId": "u11:tent",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:toilet",
+      "zh": "馬桶；廁所",
+      "pos": "noun",
+      "example": "The toilet is in the bathroom.",
+      "exampleZh": "馬桶在浴室裡。",
+      "spellingHint": "t-o-i-l-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is in the bathroom.",
+        "fullSentence": "The toilet is in the bathroom.",
+        "translation": "馬桶在浴室裡。",
+        "clue": "浴室中用來排泄的設備",
+        "answerEntryId": "u11:toilet",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tool",
+      "zh": "工具",
+      "pos": "noun",
+      "example": "This tool can fix the chair.",
+      "exampleZh": "這個工具可以修理椅子。",
+      "spellingHint": "t-o-o-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ can fix the chair.",
+        "fullSentence": "This tool can fix the chair.",
+        "translation": "這個工具可以修理椅子。",
+        "clue": "用來做工作或修理東西的器具",
+        "answerEntryId": "u11:tool",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:toothbrush",
+      "zh": "牙刷",
+      "pos": "noun",
+      "example": "My toothbrush is beside the sink.",
+      "exampleZh": "我的牙刷在水槽旁邊。",
+      "spellingHint": "t-o-o-t-h-b-r-u-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ is beside the sink.",
+        "fullSentence": "My toothbrush is beside the sink.",
+        "translation": "我的牙刷在水槽旁邊。",
+        "clue": "用來刷牙的工具",
+        "answerEntryId": "u11:toothbrush",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:towel",
+      "zh": "毛巾",
+      "pos": "noun",
+      "example": "Dry your hands with a towel.",
+      "exampleZh": "用毛巾擦乾你的手。",
+      "spellingHint": "t-o-w-e-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dry your hands with a ___.",
+        "fullSentence": "Dry your hands with a towel.",
+        "translation": "用毛巾擦乾你的手。",
+        "clue": "用來擦乾身體或物品的布",
+        "answerEntryId": "u11:towel",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:trash",
+      "zh": "垃圾",
+      "pos": "noun",
+      "example": "Put the trash in the bin.",
+      "exampleZh": "把垃圾放進垃圾桶。",
+      "spellingHint": "t-r-a-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Put the ___ in the bin.",
+        "fullSentence": "Put the trash in the bin.",
+        "translation": "把垃圾放進垃圾桶。",
+        "clue": "不要的東西或廢物",
+        "answerEntryId": "u11:trash",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tub",
+      "zh": "浴缸；盆",
+      "pos": "noun",
+      "example": "The child is playing in the tub.",
+      "exampleZh": "孩子正在浴缸裡玩。",
+      "spellingHint": "t-u-b",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The child is playing in the ___.",
+        "fullSentence": "The child is playing in the tub.",
+        "translation": "孩子正在浴缸裡玩。",
+        "clue": "用來洗澡的大盆",
+        "answerEntryId": "u11:tub",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:tube",
+      "zh": "管；管狀容器",
+      "pos": "noun",
+      "example": "The toothpaste is in a tube.",
+      "exampleZh": "牙膏在管狀容器裡。",
+      "spellingHint": "t-u-b-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The toothpaste is in a ___.",
+        "fullSentence": "The toothpaste is in a tube.",
+        "translation": "牙膏在管狀容器裡。",
+        "clue": "中空的管子或管狀容器",
+        "answerEntryId": "u11:tube",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:upstairs",
+      "zh": "樓上的",
+      "pos": "adjective",
+      "example": "The upstairs bedroom is bright.",
+      "exampleZh": "樓上的臥室很明亮。",
+      "spellingHint": "u-p-s-t-a-i-r-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ bedroom is bright.",
+        "fullSentence": "The upstairs bedroom is bright.",
+        "translation": "樓上的臥室很明亮。",
+        "clue": "位於較高樓層的",
+        "answerEntryId": "u11:upstairs",
+        "distractorEntryIds": [
+          "u11:downstairs",
+          "u11:electric",
+          "u11:flat"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:video",
+      "zh": "錄影；影片",
+      "pos": "noun",
+      "example": "We watched a home video last night.",
+      "exampleZh": "我們昨晚看了一部家庭錄影。",
+      "spellingHint": "v-i-d-e-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We watched a home ___ last night.",
+        "fullSentence": "We watched a home video last night.",
+        "translation": "我們昨晚看了一部家庭錄影。",
+        "clue": "以電子方式錄下的影像",
+        "answerEntryId": "u11:video",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:wall",
+      "zh": "牆壁",
+      "pos": "noun",
+      "example": "There is a clock on the wall.",
+      "exampleZh": "牆上有一個時鐘。",
+      "spellingHint": "w-a-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a clock on the ___.",
+        "fullSentence": "There is a clock on the wall.",
+        "translation": "牆上有一個時鐘。",
+        "clue": "房間四周直立的結構",
+        "answerEntryId": "u11:wall",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:way",
+      "zh": "道路；方法",
+      "pos": "noun",
+      "example": "This is the way to our house.",
+      "exampleZh": "這是通往我們家的路。",
+      "spellingHint": "w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This is the ___ to our house.",
+        "fullSentence": "This is the way to our house.",
+        "translation": "這是通往我們家的路。",
+        "clue": "通往某處的路線",
+        "answerEntryId": "u11:way",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:window",
+      "zh": "窗戶",
+      "pos": "noun",
+      "example": "Please open the window.",
+      "exampleZh": "請打開窗戶。",
+      "spellingHint": "w-i-n-d-o-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please open the ___.",
+        "fullSentence": "Please open the window.",
+        "translation": "請打開窗戶。",
+        "clue": "牆上的開口，可讓光線和空氣進入",
+        "answerEntryId": "u11:window",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:wok",
+      "zh": "炒鍋",
+      "pos": "noun",
+      "example": "Mom cooks vegetables in the wok.",
+      "exampleZh": "媽媽用炒鍋煮蔬菜。",
+      "spellingHint": "w-o-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mom cooks vegetables in the ___.",
+        "fullSentence": "Mom cooks vegetables in the wok.",
+        "translation": "媽媽用炒鍋煮蔬菜。",
+        "clue": "中式烹調用的圓底鍋",
+        "answerEntryId": "u11:wok",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
+      }
+    },
+    {
+      "entryId": "u11:yard",
+      "zh": "院子",
+      "pos": "noun",
+      "example": "The dog is playing in the yard.",
+      "exampleZh": "狗正在院子裡玩。",
+      "spellingHint": "y-a-r-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The dog is playing in the ___.",
+        "fullSentence": "The dog is playing in the yard.",
+        "translation": "狗正在院子裡玩。",
+        "clue": "房子旁邊的戶外空地",
+        "answerEntryId": "u11:yard",
+        "distractorEntryIds": [
+          "u11:apartment",
+          "u11:balcony",
+          "u11:basket"
+        ]
       }
     }
   ]

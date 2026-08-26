@@ -122,8 +122,8 @@ function validateEnrichment() {
       if (ansCount !== 1) fail(`${e.entryId}: answer appears ${ansCount} times`);
     }
     ok(`Unit ${unit}: ${data.entries.length} enriched entries valid`);
-    if (data.entries.length < 15 || data.entries.length > 25) {
-      warn(`Unit ${unit}: ${data.entries.length} entries (expected ~20)`);
+    if (data.entries.length < 15) {
+      warn(`Unit ${unit}: only ${data.entries.length} entries`);
     }
   }
 }

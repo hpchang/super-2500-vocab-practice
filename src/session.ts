@@ -1,4 +1,5 @@
 import type { QuestionType } from '@/types/index';
+import type { DifficultyMode } from '@/lib/questions';
 
 const KEY = 'vocab-super2500-session';
 const RESULT_KEY = 'vocab-super2500-lastresult';
@@ -8,6 +9,8 @@ export interface SessionConfig {
   entryIds: string[];
   type: QuestionType | 'mixed';
   batchSize: number;
+  /** Cloze difficulty mode; only used when type is 'cloze'. */
+  difficulty?: DifficultyMode;
 }
 
 export interface SessionResult {

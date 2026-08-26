@@ -3,8 +3,14 @@ import type {
   VocabEntry,
   EnrichedEntry,
   POS,
+  EntryProgress,
 } from '@/types/index';
 import { getEnrichedEntry, getEntry } from './data';
+import { clozeQuestionsForEntry, type Difficulty } from './clozeGenerator';
+import { chooseDifficulty, nextQuestionIndex } from './adaptive';
+
+/** Difficulty mode: a fixed level or adaptive. */
+export type DifficultyMode = Difficulty | 'adaptive';
 
 export interface Question {
   entryId: string;
@@ -24,6 +30,10 @@ export interface Question {
   pos?: POS;
   /** The expected spelling answer (word), for spelling type. */
   spellingAnswer?: string;
+  /** Cloze difficulty used for this question (for recording usage). */
+  clozeDifficulty?: Difficulty;
+  /** Cloze variant index within the difficulty pool (for recording usage). */
+  clozeVariant?: number;
 }
 
 const SHUFFLE_SEED_STEPS = 17;
@@ -206,6 +216,73 @@ export function buildSession(
     if (q) out.push(q);
   });
   return out;
+}
+
+/**
+ * Build a cloze session using the 5-question-per-word generator with
+ * adaptive or fixed difficulty. Each entry produces exactly one cloze
+ * question chosen by difficulty.
+ */
+export function buildClozeSession(
+  entries: VocabEntry[],
+  difficulty: DifficultyMode,
+  progress: Record<string, EntryProgress>,
+): Question[] {
+  const out: Question[] = [];
+  entries.forEach((entry, i) => {
+    const q = buildAdaptiveCloze(entry, difficulty, progress, i);
+    if (q) out.push(q);
+  });
+  return out;
+}
+
+function buildAdaptiveCloze(
+  entry: VocabEntry,
+  difficulty: DifficultyMode,
+  progress: Record<string, EntryProgress>,
+  index: number,
+): Question | null {
+  const byDifficulty = clozeQuestionsForEntry(entry.entryId);
+  let diff: Difficulty;
+  if (difficulty === 'adaptive') {
+    const p = progress[entry.entryId];
+    diff = chooseDifficulty(p);
+  } else {
+    diff = difficulty;
+  }
+
+  const pool = byDifficulty[diff];
+  if (pool.length === 0) return null;
+
+  // Pick the next unused variant index.
+  const p = progress[entry.entryId];
+  const used = p?.clozeUsed?.[diff] ?? [];
+  const vIdx = nextQuestionIndex(used, pool.length);
+  const cloze = pool[vIdx < 0 ? 0 : vIdx];
+
+  const distractors = cloze.distractorEntryIds.map((id) => {
+    const e = getEntry(id);
+    return { entryId: id, label: e?.word ?? id };
+  });
+  const options = shuffle(
+    [{ entryId: cloze.answerEntryId, label: entry.word }, ...distractors],
+    index + 3,
+  );
+
+  return {
+    entryId: entry.entryId,
+    type: 'cloze',
+    prompt: cloze.sentence,
+    options,
+    answer: cloze.answerEntryId,
+    context: {
+      fullSentence: cloze.fullSentence,
+      translation: cloze.translation,
+      clue: cloze.clue,
+    },
+    clozeDifficulty: diff,
+    clozeVariant: vIdx < 0 ? 0 : vIdx,
+  };
 }
 
 export { SHUFFLE_SEED_STEPS };

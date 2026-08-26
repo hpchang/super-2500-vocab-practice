@@ -17,7 +17,11 @@
         "translation": "我們提早到達機場。",
         "clue": "飛機起飛降落的地方",
         "answerEntryId": "u12:airport",
-        "distractorEntryIds": ["u12:bakery", "u12:hospital", "u12:hotel"]
+        "distractorEntryIds": [
+          "u12:bakery",
+          "u12:hospital",
+          "u12:hotel"
+        ]
       }
     },
     {
@@ -35,7 +39,11 @@
         "translation": "我在麵包店買麵包。",
         "clue": "賣麵包的店",
         "answerEntryId": "u12:bakery",
-        "distractorEntryIds": ["u12:airport", "u12:hospital", "u12:hotel"]
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:hospital",
+          "u12:hotel"
+        ]
       }
     },
     {
@@ -53,7 +61,11 @@
         "translation": "她在銀行工作。",
         "clue": "存錢、領錢的地方",
         "answerEntryId": "u12:bank",
-        "distractorEntryIds": ["u12:beach", "u12:market", "u12:park"]
+        "distractorEntryIds": [
+          "u12:beach",
+          "u12:market",
+          "u12:park"
+        ]
       }
     },
     {
@@ -71,7 +83,11 @@
         "translation": "夏天我們在海灘上玩。",
         "clue": "海邊的沙地",
         "answerEntryId": "u12:beach",
-        "distractorEntryIds": ["u12:bank", "u12:market", "u12:park"]
+        "distractorEntryIds": [
+          "u12:bank",
+          "u12:market",
+          "u12:park"
+        ]
       }
     },
     {
@@ -89,7 +105,11 @@
         "translation": "走過這座橋。",
         "clue": "跨越河面的建築",
         "answerEntryId": "u12:bridge",
-        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:bank"]
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:bakery",
+          "u12:bank"
+        ]
       }
     },
     {
@@ -107,7 +127,11 @@
         "translation": "他去了醫院。",
         "clue": "看病的地方",
         "answerEntryId": "u12:hospital",
-        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:hotel"]
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:bakery",
+          "u12:hotel"
+        ]
       }
     },
     {
@@ -125,7 +149,11 @@
         "translation": "我們住在一間不錯的飯店。",
         "clue": "出外住宿的地方",
         "answerEntryId": "u12:hotel",
-        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:hospital"]
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:bakery",
+          "u12:hospital"
+        ]
       }
     },
     {
@@ -143,7 +171,11 @@
         "translation": "媽媽在市場買菜。",
         "clue": "買賣東西的地方",
         "answerEntryId": "u12:market",
-        "distractorEntryIds": ["u12:bank", "u12:beach", "u12:park"]
+        "distractorEntryIds": [
+          "u12:bank",
+          "u12:beach",
+          "u12:park"
+        ]
       }
     },
     {
@@ -161,7 +193,11 @@
         "translation": "博物館週一公休。",
         "clue": "展出文物的地方",
         "answerEntryId": "u12:museum",
-        "distractorEntryIds": ["u12:station", "u12:temple", "u12:zoo"]
+        "distractorEntryIds": [
+          "u12:station",
+          "u12:temple",
+          "u12:zoo"
+        ]
       }
     },
     {
@@ -179,7 +215,11 @@
         "translation": "孩子們在公園裡玩。",
         "clue": "有草地可以玩的地方",
         "answerEntryId": "u12:park",
-        "distractorEntryIds": ["u12:bank", "u12:beach", "u12:market"]
+        "distractorEntryIds": [
+          "u12:bank",
+          "u12:beach",
+          "u12:market"
+        ]
       }
     },
     {
@@ -197,7 +237,11 @@
         "translation": "我們去餐廳吃飯吧。",
         "clue": "付錢吃飯的地方",
         "answerEntryId": "u12:restaurant",
-        "distractorEntryIds": ["u12:station", "u12:temple", "u12:zoo"]
+        "distractorEntryIds": [
+          "u12:station",
+          "u12:temple",
+          "u12:zoo"
+        ]
       }
     },
     {
@@ -215,7 +259,11 @@
         "translation": "我在車站等你。",
         "clue": "搭車的地方",
         "answerEntryId": "u12:station",
-        "distractorEntryIds": ["u12:museum", "u12:temple", "u12:zoo"]
+        "distractorEntryIds": [
+          "u12:museum",
+          "u12:temple",
+          "u12:zoo"
+        ]
       }
     },
     {
@@ -233,7 +281,11 @@
         "translation": "很多人去廟裡拜拜。",
         "clue": "拜神的地方",
         "answerEntryId": "u12:temple",
-        "distractorEntryIds": ["u12:museum", "u12:station", "u12:zoo"]
+        "distractorEntryIds": [
+          "u12:museum",
+          "u12:station",
+          "u12:zoo"
+        ]
       }
     },
     {
@@ -251,7 +303,11 @@
         "translation": "我們在動物園看到獅子。",
         "clue": "看動物的地方",
         "answerEntryId": "u12:zoo",
-        "distractorEntryIds": ["u12:museum", "u12:station", "u12:temple"]
+        "distractorEntryIds": [
+          "u12:museum",
+          "u12:station",
+          "u12:temple"
+        ]
       }
     },
     {
@@ -269,7 +325,11 @@
         "translation": "火車將在中午抵達。",
         "clue": "到達目的地",
         "answerEntryId": "u12:arrive",
-        "distractorEntryIds": ["u12:cross", "u12:drive", "u12:ride"]
+        "distractorEntryIds": [
+          "u12:cross",
+          "u12:drive",
+          "u12:ride"
+        ]
       }
     },
     {
@@ -287,7 +347,11 @@
         "translation": "過馬路前要看兩邊。",
         "clue": "從這一邊走到另一邊",
         "answerEntryId": "u12:cross",
-        "distractorEntryIds": ["u12:arrive", "u12:drive", "u12:ride"]
+        "distractorEntryIds": [
+          "u12:arrive",
+          "u12:drive",
+          "u12:ride"
+        ]
       }
     },
     {
@@ -305,7 +369,11 @@
         "translation": "我爸爸會開公車。",
         "clue": "操控車輛",
         "answerEntryId": "u12:drive",
-        "distractorEntryIds": ["u12:arrive", "u12:cross", "u12:ride"]
+        "distractorEntryIds": [
+          "u12:arrive",
+          "u12:cross",
+          "u12:ride"
+        ]
       }
     },
     {
@@ -323,7 +391,11 @@
         "translation": "她會騎腳踏車。",
         "clue": "坐在車上移動",
         "answerEntryId": "u12:ride",
-        "distractorEntryIds": ["u12:arrive", "u12:cross", "u12:drive"]
+        "distractorEntryIds": [
+          "u12:arrive",
+          "u12:cross",
+          "u12:drive"
+        ]
       }
     },
     {
@@ -341,7 +413,11 @@
         "translation": "這班火車很快。",
         "clue": "速度很快的",
         "answerEntryId": "u12:fast",
-        "distractorEntryIds": ["u12:quick", "u12:safe", "u12:slow"]
+        "distractorEntryIds": [
+          "u12:quick",
+          "u12:safe",
+          "u12:slow"
+        ]
       }
     },
     {
@@ -359,7 +435,11 @@
         "translation": "她很快給了答案。",
         "clue": "動作迅速的",
         "answerEntryId": "u12:quick",
-        "distractorEntryIds": ["u12:fast", "u12:safe", "u12:slow"]
+        "distractorEntryIds": [
+          "u12:fast",
+          "u12:safe",
+          "u12:slow"
+        ]
       }
     },
     {
@@ -377,7 +457,11 @@
         "translation": "現在過馬路很安全。",
         "clue": "不危險的",
         "answerEntryId": "u12:safe",
-        "distractorEntryIds": ["u12:fast", "u12:quick", "u12:slow"]
+        "distractorEntryIds": [
+          "u12:fast",
+          "u12:quick",
+          "u12:slow"
+        ]
       }
     },
     {
@@ -395,7 +479,2387 @@
         "translation": "那輛舊公車很慢。",
         "clue": "速度不快的",
         "answerEntryId": "u12:slow",
-        "distractorEntryIds": ["u12:fast", "u12:quick", "u12:safe"]
+        "distractorEntryIds": [
+          "u12:fast",
+          "u12:quick",
+          "u12:safe"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:accident",
+      "zh": "意外；事故",
+      "pos": "noun",
+      "example": "There was a car accident near the station.",
+      "exampleZh": "車站附近發生了一起車禍。",
+      "spellingHint": "a-c-c-i-d-e-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There was a car ___ near the station.",
+        "fullSentence": "There was a car accident near the station.",
+        "translation": "車站附近發生了一起車禍。",
+        "clue": "突然發生的不幸事件",
+        "answerEntryId": "u12:accident",
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:bakery",
+          "u12:bank"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:aircraft",
+      "zh": "飛機；航空器",
+      "pos": "noun",
+      "example": "The aircraft is ready to leave.",
+      "exampleZh": "這架飛機準備起飛了。",
+      "spellingHint": "a-i-r-c-r-a-f-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is ready to leave.",
+        "fullSentence": "The aircraft is ready to leave.",
+        "translation": "這架飛機準備起飛了。",
+        "clue": "可以在空中飛行的交通工具",
+        "answerEntryId": "u12:aircraft",
+        "distractorEntryIds": [
+          "u12:bakery",
+          "u12:bank",
+          "u12:beach"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:airline",
+      "zh": "航空公司",
+      "pos": "noun",
+      "example": "This airline has cheap flights.",
+      "exampleZh": "這家航空公司的航班很便宜。",
+      "spellingHint": "a-i-r-l-i-n-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ has cheap flights.",
+        "fullSentence": "This airline has cheap flights.",
+        "translation": "這家航空公司的航班很便宜。",
+        "clue": "提供飛行服務的公司",
+        "answerEntryId": "u12:airline",
+        "distractorEntryIds": [
+          "u12:bank",
+          "u12:beach",
+          "u12:bridge"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:airplane",
+      "zh": "飛機",
+      "pos": "noun",
+      "example": "The airplane landed safely.",
+      "exampleZh": "這架飛機安全地降落了。",
+      "spellingHint": "a-i-r-p-l-a-n-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ landed safely.",
+        "fullSentence": "The airplane landed safely.",
+        "translation": "這架飛機安全地降落了。",
+        "clue": "載人飛行的交通工具",
+        "answerEntryId": "u12:airplane",
+        "distractorEntryIds": [
+          "u12:beach",
+          "u12:bridge",
+          "u12:hospital"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:ambulance",
+      "zh": "救護車",
+      "pos": "noun",
+      "example": "The ambulance took the sick man to the hospital.",
+      "exampleZh": "救護車把那位病人送到醫院。",
+      "spellingHint": "a-m-b-u-l-a-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ took the sick man to the hospital.",
+        "fullSentence": "The ambulance took the sick man to the hospital.",
+        "translation": "救護車把那位病人送到醫院。",
+        "clue": "載病人去醫院的車",
+        "answerEntryId": "u12:ambulance",
+        "distractorEntryIds": [
+          "u12:bridge",
+          "u12:hospital",
+          "u12:hotel"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:back",
+      "zh": "後面；後方",
+      "pos": "noun",
+      "example": "Please sit in the back of the bus.",
+      "exampleZh": "請坐在公車後面。",
+      "spellingHint": "b-a-c-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please sit in the ___ of the bus.",
+        "fullSentence": "Please sit in the back of the bus.",
+        "translation": "請坐在公車後面。",
+        "clue": "和前面相對的後方",
+        "answerEntryId": "u12:back",
+        "distractorEntryIds": [
+          "u12:hospital",
+          "u12:hotel",
+          "u12:market"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:backward",
+      "zh": "向後地；往後地",
+      "pos": "adverb",
+      "example": "Take one step backward.",
+      "exampleZh": "向後退一步。",
+      "spellingHint": "b-a-c-k-w-a-r-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Take one step ___.",
+        "fullSentence": "Take one step backward.",
+        "translation": "向後退一步。",
+        "clue": "朝向後面的方向",
+        "answerEntryId": "u12:backward",
+        "distractorEntryIds": [
+          "u12:here",
+          "u12:right",
+          "u12:south"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:bar",
+      "zh": "酒吧；吧檯",
+      "pos": "noun",
+      "example": "My uncle works at a small bar downtown.",
+      "exampleZh": "我叔叔在市中心的一間小酒吧工作。",
+      "spellingHint": "b-a-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My uncle works at a small ___ downtown.",
+        "fullSentence": "My uncle works at a small bar downtown.",
+        "translation": "我叔叔在市中心的一間小酒吧工作。",
+        "clue": "供人喝飲料的店",
+        "answerEntryId": "u12:bar",
+        "distractorEntryIds": [
+          "u12:market",
+          "u12:museum",
+          "u12:park"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:bicycle",
+      "zh": "腳踏車",
+      "pos": "noun",
+      "example": "I ride my bicycle to school.",
+      "exampleZh": "我騎腳踏車上學。",
+      "spellingHint": "b-i-c-y-c-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I ride my ___ to school.",
+        "fullSentence": "I ride my bicycle to school.",
+        "translation": "我騎腳踏車上學。",
+        "clue": "用腳踏板前進的兩輪車",
+        "answerEntryId": "u12:bicycle",
+        "distractorEntryIds": [
+          "u12:museum",
+          "u12:park",
+          "u12:restaurant"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:block",
+      "zh": "街區；街廓",
+      "pos": "noun",
+      "example": "The library is one block from my house.",
+      "exampleZh": "圖書館離我家一個街區遠。",
+      "spellingHint": "b-l-o-c-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The library is one ___ from my house.",
+        "fullSentence": "The library is one block from my house.",
+        "translation": "圖書館離我家一個街區遠。",
+        "clue": "城市中街道圍成的一區",
+        "answerEntryId": "u12:block",
+        "distractorEntryIds": [
+          "u12:park",
+          "u12:restaurant",
+          "u12:station"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:boat",
+      "zh": "船；小船",
+      "pos": "noun",
+      "example": "We took a boat to the small island.",
+      "exampleZh": "我們搭船到那座小島。",
+      "spellingHint": "b-o-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We took a ___ to the small island.",
+        "fullSentence": "We took a boat to the small island.",
+        "translation": "我們搭船到那座小島。",
+        "clue": "在水上行駛的交通工具",
+        "answerEntryId": "u12:boat",
+        "distractorEntryIds": [
+          "u12:restaurant",
+          "u12:station",
+          "u12:temple"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:bookstore",
+      "zh": "書店",
+      "pos": "noun",
+      "example": "I bought a map at the bookstore.",
+      "exampleZh": "我在書店買了一張地圖。",
+      "spellingHint": "b-o-o-k-s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I bought a map at the ___.",
+        "fullSentence": "I bought a map at the bookstore.",
+        "translation": "我在書店買了一張地圖。",
+        "clue": "賣書的商店",
+        "answerEntryId": "u12:bookstore",
+        "distractorEntryIds": [
+          "u12:station",
+          "u12:temple",
+          "u12:zoo"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:buffet",
+      "zh": "自助餐",
+      "pos": "noun",
+      "example": "We had dinner at a buffet near the hotel.",
+      "exampleZh": "我們在飯店附近的自助餐廳吃晚餐。",
+      "spellingHint": "b-u-f-f-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We had dinner at a ___ near the hotel.",
+        "fullSentence": "We had dinner at a buffet near the hotel.",
+        "translation": "我們在飯店附近的自助餐廳吃晚餐。",
+        "clue": "自己取餐的餐廳",
+        "answerEntryId": "u12:buffet",
+        "distractorEntryIds": [
+          "u12:temple",
+          "u12:zoo",
+          "u12:accident"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:bus",
+      "zh": "公車；巴士",
+      "pos": "noun",
+      "example": "I take the bus to the city center.",
+      "exampleZh": "我搭公車到市中心。",
+      "spellingHint": "b-u-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I take the ___ to the city center.",
+        "fullSentence": "I take the bus to the city center.",
+        "translation": "我搭公車到市中心。",
+        "clue": "載許多乘客的道路交通工具",
+        "answerEntryId": "u12:bus",
+        "distractorEntryIds": [
+          "u12:zoo",
+          "u12:accident",
+          "u12:aircraft"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:bus stop",
+      "zh": "公車站",
+      "pos": "noun",
+      "example": "Please wait for me at the bus stop.",
+      "exampleZh": "請在公車站等我。",
+      "spellingHint": "b-u-s s-t-o-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please wait for me at the ___.",
+        "fullSentence": "Please wait for me at the bus stop.",
+        "translation": "請在公車站等我。",
+        "clue": "公車停靠讓人上下車的地方",
+        "answerEntryId": "u12:bus stop",
+        "distractorEntryIds": [
+          "u12:accident",
+          "u12:aircraft",
+          "u12:airline"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:cafeteria",
+      "zh": "自助餐廳；餐廳",
+      "pos": "noun",
+      "example": "We eat lunch in the school cafeteria.",
+      "exampleZh": "我們在學校餐廳吃午餐。",
+      "spellingHint": "c-a-f-e-t-e-r-i-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We eat lunch in the school ___.",
+        "fullSentence": "We eat lunch in the school cafeteria.",
+        "translation": "我們在學校餐廳吃午餐。",
+        "clue": "供人用餐的自助餐廳",
+        "answerEntryId": "u12:cafeteria",
+        "distractorEntryIds": [
+          "u12:aircraft",
+          "u12:airline",
+          "u12:airplane"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:car",
+      "zh": "汽車",
+      "pos": "noun",
+      "example": "Her family goes to work by car.",
+      "exampleZh": "她的家人開車去上班。",
+      "spellingHint": "c-a-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Her family goes to work by ___.",
+        "fullSentence": "Her family goes to work by car.",
+        "translation": "她的家人開車去上班。",
+        "clue": "四輪的道路交通工具",
+        "answerEntryId": "u12:car",
+        "distractorEntryIds": [
+          "u12:airline",
+          "u12:airplane",
+          "u12:ambulance"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:castle",
+      "zh": "城堡",
+      "pos": "noun",
+      "example": "The old castle stands on a hill.",
+      "exampleZh": "那座古老的城堡坐落在山丘上。",
+      "spellingHint": "c-a-s-t-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The old ___ stands on a hill.",
+        "fullSentence": "The old castle stands on a hill.",
+        "translation": "那座古老的城堡坐落在山丘上。",
+        "clue": "古代國王居住的高大建築",
+        "answerEntryId": "u12:castle",
+        "distractorEntryIds": [
+          "u12:airplane",
+          "u12:ambulance",
+          "u12:back"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:central",
+      "zh": "中央的；中心的",
+      "pos": "adjective",
+      "example": "The hotel is in a central part of town.",
+      "exampleZh": "這家飯店位於城鎮的中心地帶。",
+      "spellingHint": "c-e-n-t-r-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The hotel is in a ___ part of town.",
+        "fullSentence": "The hotel is in a central part of town.",
+        "translation": "這家飯店位於城鎮的中心地帶。",
+        "clue": "位於中心位置的",
+        "answerEntryId": "u12:central",
+        "distractorEntryIds": [
+          "u12:southern",
+          "u12:western",
+          "u12:fast"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:church",
+      "zh": "教堂",
+      "pos": "noun",
+      "example": "The church is next to the park.",
+      "exampleZh": "教堂在公園旁邊。",
+      "spellingHint": "c-h-u-r-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is next to the park.",
+        "fullSentence": "The church is next to the park.",
+        "translation": "教堂在公園旁邊。",
+        "clue": "基督教徒做禮拜的地方",
+        "answerEntryId": "u12:church",
+        "distractorEntryIds": [
+          "u12:back",
+          "u12:bar",
+          "u12:bicycle"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:city",
+      "zh": "城市",
+      "pos": "noun",
+      "example": "Taipei is a busy city.",
+      "exampleZh": "臺北是一座繁忙的城市。",
+      "spellingHint": "c-i-t-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Taipei is a busy ___.",
+        "fullSentence": "Taipei is a busy city.",
+        "translation": "臺北是一座繁忙的城市。",
+        "clue": "人口很多的大城鎮",
+        "answerEntryId": "u12:city",
+        "distractorEntryIds": [
+          "u12:bar",
+          "u12:bicycle",
+          "u12:block"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:convenience store",
+      "zh": "便利商店",
+      "pos": "noun",
+      "example": "I bought water at the convenience store.",
+      "exampleZh": "我在便利商店買了水。",
+      "spellingHint": "c-o-n-v-e-n-i-e-n-c-e s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I bought water at the ___.",
+        "fullSentence": "I bought water at the convenience store.",
+        "translation": "我在便利商店買了水。",
+        "clue": "隨時可買日用品的小商店",
+        "answerEntryId": "u12:convenience store",
+        "distractorEntryIds": [
+          "u12:bicycle",
+          "u12:block",
+          "u12:boat"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:corner",
+      "zh": "轉角；角落",
+      "pos": "noun",
+      "example": "Turn left at the corner.",
+      "exampleZh": "在轉角處左轉。",
+      "spellingHint": "c-o-r-n-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Turn left at the ___.",
+        "fullSentence": "Turn left at the corner.",
+        "translation": "在轉角處左轉。",
+        "clue": "兩條街交會的地方",
+        "answerEntryId": "u12:corner",
+        "distractorEntryIds": [
+          "u12:block",
+          "u12:boat",
+          "u12:bookstore"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:country",
+      "zh": "國家；鄉下",
+      "pos": "noun",
+      "example": "Japan is a beautiful country.",
+      "exampleZh": "日本是一個美麗的國家。",
+      "spellingHint": "c-o-u-n-t-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Japan is a beautiful ___.",
+        "fullSentence": "Japan is a beautiful country.",
+        "translation": "日本是一個美麗的國家。",
+        "clue": "有自己的政府和土地的地方",
+        "answerEntryId": "u12:country",
+        "distractorEntryIds": [
+          "u12:boat",
+          "u12:bookstore",
+          "u12:buffet"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:crowd",
+      "zh": "人群",
+      "pos": "noun",
+      "example": "A large crowd waited outside the station.",
+      "exampleZh": "一大群人等在車站外面。",
+      "spellingHint": "c-r-o-w-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "A large ___ waited outside the station.",
+        "fullSentence": "A large crowd waited outside the station.",
+        "translation": "一大群人等在車站外面。",
+        "clue": "聚集在一起的人們",
+        "answerEntryId": "u12:crowd",
+        "distractorEntryIds": [
+          "u12:bookstore",
+          "u12:buffet",
+          "u12:bus"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:crowded",
+      "zh": "擁擠的",
+      "pos": "adjective",
+      "example": "The train is crowded in the morning.",
+      "exampleZh": "早上的火車很擁擠。",
+      "spellingHint": "c-r-o-w-d-e-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The train is ___ in the morning.",
+        "fullSentence": "The train is crowded in the morning.",
+        "translation": "早上的火車很擁擠。",
+        "clue": "人或東西太多的",
+        "answerEntryId": "u12:crowded",
+        "distractorEntryIds": [
+          "u12:direct",
+          "u12:eastern",
+          "u12:northern"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:culture center",
+      "zh": "文化中心",
+      "pos": "noun",
+      "example": "The culture center has a music class today.",
+      "exampleZh": "文化中心今天有音樂課。",
+      "spellingHint": "c-u-l-t-u-r-e c-e-n-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ has a music class today.",
+        "fullSentence": "The culture center has a music class today.",
+        "translation": "文化中心今天有音樂課。",
+        "clue": "舉辦文化活動的地方",
+        "answerEntryId": "u12:culture center",
+        "distractorEntryIds": [
+          "u12:bus",
+          "u12:bus stop",
+          "u12:cafeteria"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:curve",
+      "zh": "彎道；曲線",
+      "pos": "noun",
+      "example": "Slow down before the curve.",
+      "exampleZh": "在彎道前減速。",
+      "spellingHint": "c-u-r-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Slow down before the ___.",
+        "fullSentence": "Slow down before the curve.",
+        "translation": "在彎道前減速。",
+        "clue": "彎曲的道路部分",
+        "answerEntryId": "u12:curve",
+        "distractorEntryIds": [
+          "u12:bus stop",
+          "u12:cafeteria",
+          "u12:car"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:department store",
+      "zh": "百貨公司",
+      "pos": "noun",
+      "example": "My mother shops at the department store.",
+      "exampleZh": "我媽媽在百貨公司購物。",
+      "spellingHint": "d-e-p-a-r-t-m-e-n-t s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My mother shops at the ___.",
+        "fullSentence": "My mother shops at the department store.",
+        "translation": "我媽媽在百貨公司購物。",
+        "clue": "有許多不同部門的大商店",
+        "answerEntryId": "u12:department store",
+        "distractorEntryIds": [
+          "u12:cafeteria",
+          "u12:car",
+          "u12:castle"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:direct",
+      "zh": "直接的；直達的",
+      "pos": "adjective",
+      "example": "Is there a direct bus to the airport?",
+      "exampleZh": "有直達機場的公車嗎？",
+      "spellingHint": "d-i-r-e-c-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Is there a ___ bus to the airport?",
+        "fullSentence": "Is there a direct bus to the airport?",
+        "translation": "有直達機場的公車嗎？",
+        "clue": "不需要轉車或繞路的",
+        "answerEntryId": "u12:direct",
+        "distractorEntryIds": [
+          "u12:western",
+          "u12:fast",
+          "u12:quick"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:direction",
+      "zh": "方向",
+      "pos": "noun",
+      "example": "Which direction is the train station?",
+      "exampleZh": "火車站在哪個方向？",
+      "spellingHint": "d-i-r-e-c-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Which ___ is the train station?",
+        "fullSentence": "Which direction is the train station?",
+        "translation": "火車站在哪個方向？",
+        "clue": "前進或所在的方位",
+        "answerEntryId": "u12:direction",
+        "distractorEntryIds": [
+          "u12:castle",
+          "u12:church",
+          "u12:city"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:distance",
+      "zh": "距離",
+      "pos": "noun",
+      "example": "The distance from here to school is short.",
+      "exampleZh": "從這裡到學校的距離很短。",
+      "spellingHint": "d-i-s-t-a-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ from here to school is short.",
+        "fullSentence": "The distance from here to school is short.",
+        "translation": "從這裡到學校的距離很短。",
+        "clue": "兩個地方相隔的長度",
+        "answerEntryId": "u12:distance",
+        "distractorEntryIds": [
+          "u12:church",
+          "u12:city",
+          "u12:convenience store"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:downtown",
+      "zh": "市中心",
+      "pos": "noun",
+      "example": "The downtown area has many shops.",
+      "exampleZh": "市中心地區有許多商店。",
+      "spellingHint": "d-o-w-n-t-o-w-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ area has many shops.",
+        "fullSentence": "The downtown area has many shops.",
+        "translation": "市中心地區有許多商店。",
+        "clue": "城市的中心區域",
+        "answerEntryId": "u12:downtown",
+        "distractorEntryIds": [
+          "u12:city",
+          "u12:convenience store",
+          "u12:corner"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:drugstore",
+      "zh": "藥局；藥妝店",
+      "pos": "noun",
+      "example": "We bought medicine at the drugstore.",
+      "exampleZh": "我們在藥局買藥。",
+      "spellingHint": "d-r-u-g-s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We bought medicine at the ___.",
+        "fullSentence": "We bought medicine at the drugstore.",
+        "translation": "我們在藥局買藥。",
+        "clue": "販賣藥品的商店",
+        "answerEntryId": "u12:drugstore",
+        "distractorEntryIds": [
+          "u12:convenience store",
+          "u12:corner",
+          "u12:country"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:east",
+      "zh": "東；東方",
+      "pos": "noun",
+      "example": "The sun rises in the east.",
+      "exampleZh": "太陽從東方升起。",
+      "spellingHint": "e-a-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The sun rises in the ___.",
+        "fullSentence": "The sun rises in the east.",
+        "translation": "太陽從東方升起。",
+        "clue": "太陽升起的方向",
+        "answerEntryId": "u12:east",
+        "distractorEntryIds": [
+          "u12:corner",
+          "u12:country",
+          "u12:crowd"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:eastern",
+      "zh": "東部的；東方的",
+      "pos": "adjective",
+      "example": "We visited an eastern town last summer.",
+      "exampleZh": "去年夏天我們參觀了一座東部城鎮。",
+      "spellingHint": "e-a-s-t-e-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We visited an ___ town last summer.",
+        "fullSentence": "We visited an eastern town last summer.",
+        "translation": "去年夏天我們參觀了一座東部城鎮。",
+        "clue": "位於東方或東部的",
+        "answerEntryId": "u12:eastern",
+        "distractorEntryIds": [
+          "u12:crowded",
+          "u12:direct",
+          "u12:northern"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:engine",
+      "zh": "引擎；發動機",
+      "pos": "noun",
+      "example": "The bus engine is very loud.",
+      "exampleZh": "公車的引擎聲很大。",
+      "spellingHint": "e-n-g-i-n-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bus ___ is very loud.",
+        "fullSentence": "The bus engine is very loud.",
+        "translation": "公車的引擎聲很大。",
+        "clue": "使車輛運轉的機器",
+        "answerEntryId": "u12:engine",
+        "distractorEntryIds": [
+          "u12:crowd",
+          "u12:culture center",
+          "u12:curve"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:factory",
+      "zh": "工廠",
+      "pos": "noun",
+      "example": "My father works in a shoe factory.",
+      "exampleZh": "我爸爸在鞋子工廠工作。",
+      "spellingHint": "f-a-c-t-o-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My father works in a shoe ___.",
+        "fullSentence": "My father works in a shoe factory.",
+        "translation": "我爸爸在鞋子工廠工作。",
+        "clue": "製造物品的場所",
+        "answerEntryId": "u12:factory",
+        "distractorEntryIds": [
+          "u12:culture center",
+          "u12:curve",
+          "u12:department store"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:farm",
+      "zh": "農場",
+      "pos": "noun",
+      "example": "We saw many cows on the farm.",
+      "exampleZh": "我們在農場看到許多乳牛。",
+      "spellingHint": "f-a-r-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We saw many cows on the ___.",
+        "fullSentence": "We saw many cows on the farm.",
+        "translation": "我們在農場看到許多乳牛。",
+        "clue": "飼養動物或種植作物的地方",
+        "answerEntryId": "u12:farm",
+        "distractorEntryIds": [
+          "u12:curve",
+          "u12:department store",
+          "u12:direction"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:fast food restaurant",
+      "zh": "速食餐廳",
+      "pos": "noun",
+      "example": "There is a fast food restaurant near the highway.",
+      "exampleZh": "高速公路附近有一家速食餐廳。",
+      "spellingHint": "f-a-s-t f-o-o-d r-e-s-t-a-u-r-a-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a ___ near the highway.",
+        "fullSentence": "There is a fast food restaurant near the highway.",
+        "translation": "高速公路附近有一家速食餐廳。",
+        "clue": "供應快速餐點的餐廳",
+        "answerEntryId": "u12:fast food restaurant",
+        "distractorEntryIds": [
+          "u12:department store",
+          "u12:direction",
+          "u12:distance"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:field",
+      "zh": "田；場地",
+      "pos": "noun",
+      "example": "The children are playing in the field.",
+      "exampleZh": "孩子們正在田野裡玩。",
+      "spellingHint": "f-i-e-l-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The children are playing in the ___.",
+        "fullSentence": "The children are playing in the field.",
+        "translation": "孩子們正在田野裡玩。",
+        "clue": "大片空地或農田",
+        "answerEntryId": "u12:field",
+        "distractorEntryIds": [
+          "u12:direction",
+          "u12:distance",
+          "u12:downtown"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:fire station",
+      "zh": "消防隊；消防局",
+      "pos": "noun",
+      "example": "The fire station is across from the school.",
+      "exampleZh": "消防隊在學校對面。",
+      "spellingHint": "f-i-r-e s-t-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is across from the school.",
+        "fullSentence": "The fire station is across from the school.",
+        "translation": "消防隊在學校對面。",
+        "clue": "消防員工作的地方",
+        "answerEntryId": "u12:fire station",
+        "distractorEntryIds": [
+          "u12:distance",
+          "u12:downtown",
+          "u12:drugstore"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:flat tire",
+      "zh": "爆胎；漏氣的輪胎",
+      "pos": "noun",
+      "example": "Our car stopped because of a flat tire.",
+      "exampleZh": "我們的車因為輪胎沒氣而停下來。",
+      "spellingHint": "f-l-a-t t-i-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Our car stopped because of a ___.",
+        "fullSentence": "Our car stopped because of a flat tire.",
+        "translation": "我們的車因為輪胎沒氣而停下來。",
+        "clue": "沒有空氣的輪胎",
+        "answerEntryId": "u12:flat tire",
+        "distractorEntryIds": [
+          "u12:downtown",
+          "u12:drugstore",
+          "u12:east"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:flight",
+      "zh": "航班；飛行",
+      "pos": "noun",
+      "example": "Our flight leaves at seven o'clock.",
+      "exampleZh": "我們的航班在七點起飛。",
+      "spellingHint": "f-l-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Our ___ leaves at seven o'clock.",
+        "fullSentence": "Our flight leaves at seven o'clock.",
+        "translation": "我們的航班在七點起飛。",
+        "clue": "飛機的一次旅程",
+        "answerEntryId": "u12:flight",
+        "distractorEntryIds": [
+          "u12:drugstore",
+          "u12:east",
+          "u12:engine"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:flower shop",
+      "zh": "花店",
+      "pos": "noun",
+      "example": "She bought roses at the flower shop.",
+      "exampleZh": "她在花店買了玫瑰。",
+      "spellingHint": "f-l-o-w-e-r s-h-o-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She bought roses at the ___.",
+        "fullSentence": "She bought roses at the flower shop.",
+        "translation": "她在花店買了玫瑰。",
+        "clue": "賣花的商店",
+        "answerEntryId": "u12:flower shop",
+        "distractorEntryIds": [
+          "u12:east",
+          "u12:engine",
+          "u12:factory"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:fly",
+      "zh": "飛；搭飛機",
+      "pos": "verb",
+      "example": "We will fly to Okinawa tomorrow.",
+      "exampleZh": "我們明天要搭飛機去沖繩。",
+      "spellingHint": "f-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We will ___ to Okinawa tomorrow.",
+        "fullSentence": "We will fly to Okinawa tomorrow.",
+        "translation": "我們明天要搭飛機去沖繩。",
+        "clue": "在空中移動或搭飛機",
+        "answerEntryId": "u12:fly",
+        "distractorEntryIds": [
+          "u12:arrive",
+          "u12:cross",
+          "u12:drive"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:forward",
+      "zh": "向前地；往前地",
+      "pos": "adverb",
+      "example": "Please take two steps forward.",
+      "exampleZh": "請向前走兩步。",
+      "spellingHint": "f-o-r-w-a-r-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please take two steps ___.",
+        "fullSentence": "Please take two steps forward.",
+        "translation": "請向前走兩步。",
+        "clue": "朝向前面的方向",
+        "answerEntryId": "u12:forward",
+        "distractorEntryIds": [
+          "u12:here",
+          "u12:right",
+          "u12:south"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:front",
+      "zh": "前面；前方",
+      "pos": "noun",
+      "example": "The bus stops in front of the museum.",
+      "exampleZh": "公車停在博物館前面。",
+      "spellingHint": "f-r-o-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bus stops in ___ of the museum.",
+        "fullSentence": "The bus stops in front of the museum.",
+        "translation": "公車停在博物館前面。",
+        "clue": "和後面相對的前方",
+        "answerEntryId": "u12:front",
+        "distractorEntryIds": [
+          "u12:farm",
+          "u12:fast food restaurant",
+          "u12:field"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:gas",
+      "zh": "汽油；瓦斯",
+      "pos": "noun",
+      "example": "Dad needs to put gas in the car.",
+      "exampleZh": "爸爸需要幫汽車加汽油。",
+      "spellingHint": "g-a-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Dad needs to put ___ in the car.",
+        "fullSentence": "Dad needs to put gas in the car.",
+        "translation": "爸爸需要幫汽車加汽油。",
+        "clue": "讓車輛行駛的燃料",
+        "answerEntryId": "u12:gas",
+        "distractorEntryIds": [
+          "u12:fast food restaurant",
+          "u12:field",
+          "u12:fire station"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:helicopter",
+      "zh": "直升機",
+      "pos": "noun",
+      "example": "A helicopter flew over the mountain.",
+      "exampleZh": "一架直升機飛過山頭。",
+      "spellingHint": "h-e-l-i-c-o-p-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "A ___ flew over the mountain.",
+        "fullSentence": "A helicopter flew over the mountain.",
+        "translation": "一架直升機飛過山頭。",
+        "clue": "有旋翼且能垂直起降的飛行器",
+        "answerEntryId": "u12:helicopter",
+        "distractorEntryIds": [
+          "u12:field",
+          "u12:fire station",
+          "u12:flat tire"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:here",
+      "zh": "這裡",
+      "pos": "adverb",
+      "example": "Please wait here for the bus.",
+      "exampleZh": "請在這裡等公車。",
+      "spellingHint": "h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please wait ___ for the bus.",
+        "fullSentence": "Please wait here for the bus.",
+        "translation": "請在這裡等公車。",
+        "clue": "說話者所在的地方",
+        "answerEntryId": "u12:here",
+        "distractorEntryIds": [
+          "u12:backward",
+          "u12:forward",
+          "u12:right"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:highway",
+      "zh": "高速公路",
+      "pos": "noun",
+      "example": "Many cars travel on the highway.",
+      "exampleZh": "許多汽車在高速公路上行駛。",
+      "spellingHint": "h-i-g-h-w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Many cars travel on the ___.",
+        "fullSentence": "Many cars travel on the highway.",
+        "translation": "許多汽車在高速公路上行駛。",
+        "clue": "供車輛快速行駛的道路",
+        "answerEntryId": "u12:highway",
+        "distractorEntryIds": [
+          "u12:flat tire",
+          "u12:flight",
+          "u12:flower shop"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:jeep",
+      "zh": "吉普車",
+      "pos": "noun",
+      "example": "The jeep can travel on the rough road.",
+      "exampleZh": "這輛吉普車可以行駛在崎嶇的道路上。",
+      "spellingHint": "j-e-e-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ can travel on the rough road.",
+        "fullSentence": "The jeep can travel on the rough road.",
+        "translation": "這輛吉普車可以行駛在崎嶇的道路上。",
+        "clue": "適合崎嶇道路的汽車",
+        "answerEntryId": "u12:jeep",
+        "distractorEntryIds": [
+          "u12:flight",
+          "u12:flower shop",
+          "u12:front"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:land",
+      "zh": "降落；著陸",
+      "pos": "verb",
+      "example": "The airplane will land soon.",
+      "exampleZh": "飛機很快就會降落。",
+      "spellingHint": "l-a-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The airplane will ___ soon.",
+        "fullSentence": "The airplane will land soon.",
+        "translation": "飛機很快就會降落。",
+        "clue": "飛機回到地面",
+        "answerEntryId": "u12:land",
+        "distractorEntryIds": [
+          "u12:turn",
+          "u12:arrive",
+          "u12:cross"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:left",
+      "zh": "左邊；左方",
+      "pos": "noun",
+      "example": "The bookstore is on the left.",
+      "exampleZh": "書店在左邊。",
+      "spellingHint": "l-e-f-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bookstore is on the ___.",
+        "fullSentence": "The bookstore is on the left.",
+        "translation": "書店在左邊。",
+        "clue": "與右邊相反的一方",
+        "answerEntryId": "u12:left",
+        "distractorEntryIds": [
+          "u12:front",
+          "u12:gas",
+          "u12:helicopter"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:mall",
+      "zh": "購物中心",
+      "pos": "noun",
+      "example": "We watched a movie at the mall.",
+      "exampleZh": "我們在購物中心看電影。",
+      "spellingHint": "m-a-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We watched a movie at the ___.",
+        "fullSentence": "We watched a movie at the mall.",
+        "translation": "我們在購物中心看電影。",
+        "clue": "有許多商店的大型購物場所",
+        "answerEntryId": "u12:mall",
+        "distractorEntryIds": [
+          "u12:gas",
+          "u12:helicopter",
+          "u12:highway"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:men's room",
+      "zh": "男廁；男士洗手間",
+      "pos": "noun",
+      "example": "The men's room is near the elevator.",
+      "exampleZh": "男廁在電梯附近。",
+      "spellingHint": "m-e-n-'-s r-o-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is near the elevator.",
+        "fullSentence": "The men's room is near the elevator.",
+        "translation": "男廁在電梯附近。",
+        "clue": "男性使用的洗手間",
+        "answerEntryId": "u12:men's room",
+        "distractorEntryIds": [
+          "u12:helicopter",
+          "u12:highway",
+          "u12:jeep"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:middle",
+      "zh": "中間；中央",
+      "pos": "noun",
+      "example": "The bus stop is in the middle of the street.",
+      "exampleZh": "公車站在街道中間。",
+      "spellingHint": "m-i-d-d-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bus stop is in the ___ of the street.",
+        "fullSentence": "The bus stop is in the middle of the street.",
+        "translation": "公車站在街道中間。",
+        "clue": "兩端之間的位置",
+        "answerEntryId": "u12:middle",
+        "distractorEntryIds": [
+          "u12:highway",
+          "u12:jeep",
+          "u12:left"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:motorcycle",
+      "zh": "摩托車；機車",
+      "pos": "noun",
+      "example": "He rides his motorcycle to work.",
+      "exampleZh": "他騎機車上班。",
+      "spellingHint": "m-o-t-o-r-c-y-c-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "He rides his ___ to work.",
+        "fullSentence": "He rides his motorcycle to work.",
+        "translation": "他騎機車上班。",
+        "clue": "有兩個輪子的機動車",
+        "answerEntryId": "u12:motorcycle",
+        "distractorEntryIds": [
+          "u12:jeep",
+          "u12:left",
+          "u12:mall"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:movie theater",
+      "zh": "電影院",
+      "pos": "noun",
+      "example": "The movie theater is beside the mall.",
+      "exampleZh": "電影院在購物中心旁邊。",
+      "spellingHint": "m-o-v-i-e t-h-e-a-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is beside the mall.",
+        "fullSentence": "The movie theater is beside the mall.",
+        "translation": "電影院在購物中心旁邊。",
+        "clue": "播放電影的地方",
+        "answerEntryId": "u12:movie theater",
+        "distractorEntryIds": [
+          "u12:left",
+          "u12:mall",
+          "u12:men's room"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:MRT",
+      "zh": "捷運",
+      "pos": "noun",
+      "example": "We took the MRT downtown.",
+      "exampleZh": "我們搭捷運到市中心。",
+      "spellingHint": "M-R-T",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We took the ___ downtown.",
+        "fullSentence": "We took the MRT downtown.",
+        "translation": "我們搭捷運到市中心。",
+        "clue": "城市中的大眾捷運系統",
+        "answerEntryId": "u12:MRT",
+        "distractorEntryIds": [
+          "u12:mall",
+          "u12:men's room",
+          "u12:middle"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:north",
+      "zh": "北；北方",
+      "pos": "noun",
+      "example": "The cold wind comes from the north.",
+      "exampleZh": "寒風從北方吹來。",
+      "spellingHint": "n-o-r-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The cold wind comes from the ___.",
+        "fullSentence": "The cold wind comes from the north.",
+        "translation": "寒風從北方吹來。",
+        "clue": "地圖上方的方向",
+        "answerEntryId": "u12:north",
+        "distractorEntryIds": [
+          "u12:men's room",
+          "u12:middle",
+          "u12:motorcycle"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:northern",
+      "zh": "北部的；北方的",
+      "pos": "adjective",
+      "example": "The northern road is closed today.",
+      "exampleZh": "北邊的道路今天封閉。",
+      "spellingHint": "n-o-r-t-h-e-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ road is closed today.",
+        "fullSentence": "The northern road is closed today.",
+        "translation": "北邊的道路今天封閉。",
+        "clue": "位於北方或北部的",
+        "answerEntryId": "u12:northern",
+        "distractorEntryIds": [
+          "u12:safe",
+          "u12:slow",
+          "u12:central"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:office",
+      "zh": "辦公室",
+      "pos": "noun",
+      "example": "Her office is on the third floor.",
+      "exampleZh": "她的辦公室在三樓。",
+      "spellingHint": "o-f-f-i-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Her ___ is on the third floor.",
+        "fullSentence": "Her office is on the third floor.",
+        "translation": "她的辦公室在三樓。",
+        "clue": "人們工作的房間或場所",
+        "answerEntryId": "u12:office",
+        "distractorEntryIds": [
+          "u12:motorcycle",
+          "u12:movie theater",
+          "u12:MRT"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:overpass",
+      "zh": "陸橋；高架橋",
+      "pos": "noun",
+      "example": "Use the overpass to cross the busy road.",
+      "exampleZh": "利用陸橋穿越繁忙的道路。",
+      "spellingHint": "o-v-e-r-p-a-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Use the ___ to cross the busy road.",
+        "fullSentence": "Use the overpass to cross the busy road.",
+        "translation": "利用陸橋穿越繁忙的道路。",
+        "clue": "架在道路上方的橋",
+        "answerEntryId": "u12:overpass",
+        "distractorEntryIds": [
+          "u12:movie theater",
+          "u12:MRT",
+          "u12:north"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:path",
+      "zh": "小路；路徑",
+      "pos": "noun",
+      "example": "This path leads to the train station.",
+      "exampleZh": "這條小路通往火車站。",
+      "spellingHint": "p-a-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ leads to the train station.",
+        "fullSentence": "This path leads to the train station.",
+        "translation": "這條小路通往火車站。",
+        "clue": "人或車可以走的路線",
+        "answerEntryId": "u12:path",
+        "distractorEntryIds": [
+          "u12:MRT",
+          "u12:north",
+          "u12:office"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:place",
+      "zh": "地方；場所",
+      "pos": "noun",
+      "example": "This is a good place to wait.",
+      "exampleZh": "這是一個等待的好地方。",
+      "spellingHint": "p-l-a-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This is a good ___ to wait.",
+        "fullSentence": "This is a good place to wait.",
+        "translation": "這是一個等待的好地方。",
+        "clue": "某人或某物所在的地方",
+        "answerEntryId": "u12:place",
+        "distractorEntryIds": [
+          "u12:north",
+          "u12:office",
+          "u12:overpass"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:platform",
+      "zh": "月臺；平台",
+      "pos": "noun",
+      "example": "The train is waiting at platform three.",
+      "exampleZh": "火車正在第三月臺等候。",
+      "spellingHint": "p-l-a-t-f-o-r-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The train is waiting at ___ three.",
+        "fullSentence": "The train is waiting at platform three.",
+        "translation": "火車正在第三月臺等候。",
+        "clue": "乘客上下火車的月臺",
+        "answerEntryId": "u12:platform",
+        "distractorEntryIds": [
+          "u12:office",
+          "u12:overpass",
+          "u12:path"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:police station",
+      "zh": "警察局",
+      "pos": "noun",
+      "example": "The police station is near the bank.",
+      "exampleZh": "警察局在銀行附近。",
+      "spellingHint": "p-o-l-i-c-e s-t-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is near the bank.",
+        "fullSentence": "The police station is near the bank.",
+        "translation": "警察局在銀行附近。",
+        "clue": "警察工作的地方",
+        "answerEntryId": "u12:police station",
+        "distractorEntryIds": [
+          "u12:overpass",
+          "u12:path",
+          "u12:place"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:pool",
+      "zh": "游泳池",
+      "pos": "noun",
+      "example": "The hotel has a clean swimming pool.",
+      "exampleZh": "這家飯店有乾淨的游泳池。",
+      "spellingHint": "p-o-o-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The hotel has a clean swimming ___.",
+        "fullSentence": "The hotel has a clean swimming pool.",
+        "translation": "這家飯店有乾淨的游泳池。",
+        "clue": "供人游泳的水池",
+        "answerEntryId": "u12:pool",
+        "distractorEntryIds": [
+          "u12:path",
+          "u12:place",
+          "u12:platform"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:position",
+      "zh": "位置；方位",
+      "pos": "noun",
+      "example": "The map shows the position of the station.",
+      "exampleZh": "地圖顯示車站的位置。",
+      "spellingHint": "p-o-s-i-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The map shows the ___ of the station.",
+        "fullSentence": "The map shows the position of the station.",
+        "translation": "地圖顯示車站的位置。",
+        "clue": "人或物所在的地方",
+        "answerEntryId": "u12:position",
+        "distractorEntryIds": [
+          "u12:place",
+          "u12:platform",
+          "u12:police station"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:post office",
+      "zh": "郵局",
+      "pos": "noun",
+      "example": "I mailed the letter at the post office.",
+      "exampleZh": "我在郵局寄了這封信。",
+      "spellingHint": "p-o-s-t o-f-f-i-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I mailed the letter at the ___.",
+        "fullSentence": "I mailed the letter at the post office.",
+        "translation": "我在郵局寄了這封信。",
+        "clue": "寄信和包裹的地方",
+        "answerEntryId": "u12:post office",
+        "distractorEntryIds": [
+          "u12:platform",
+          "u12:police station",
+          "u12:pool"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:pump",
+      "zh": "幫浦；泵",
+      "pos": "noun",
+      "example": "The man used a pump to fill the tire.",
+      "exampleZh": "那個人用幫浦把輪胎打飽。",
+      "spellingHint": "p-u-m-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The man used a ___ to fill the tire.",
+        "fullSentence": "The man used a pump to fill the tire.",
+        "translation": "那個人用幫浦把輪胎打飽。",
+        "clue": "用來打氣或抽水的工具",
+        "answerEntryId": "u12:pump",
+        "distractorEntryIds": [
+          "u12:police station",
+          "u12:pool",
+          "u12:position"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:railway",
+      "zh": "鐵路",
+      "pos": "noun",
+      "example": "The railway connects the two towns.",
+      "exampleZh": "這條鐵路連接兩個城鎮。",
+      "spellingHint": "r-a-i-l-w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ connects the two towns.",
+        "fullSentence": "The railway connects the two towns.",
+        "translation": "這條鐵路連接兩個城鎮。",
+        "clue": "火車行駛的鐵道路線",
+        "answerEntryId": "u12:railway",
+        "distractorEntryIds": [
+          "u12:pool",
+          "u12:position",
+          "u12:post office"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:restroom",
+      "zh": "洗手間；廁所",
+      "pos": "noun",
+      "example": "Where is the restroom in this station?",
+      "exampleZh": "這個車站的洗手間在哪裡？",
+      "spellingHint": "r-e-s-t-r-o-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Where is the ___ in this station?",
+        "fullSentence": "Where is the restroom in this station?",
+        "translation": "這個車站的洗手間在哪裡？",
+        "clue": "供人上廁所的地方",
+        "answerEntryId": "u12:restroom",
+        "distractorEntryIds": [
+          "u12:position",
+          "u12:post office",
+          "u12:pump"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:right",
+      "zh": "向右地；右方",
+      "pos": "adverb",
+      "example": "Turn right after the bridge.",
+      "exampleZh": "過橋後右轉。",
+      "spellingHint": "r-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Turn ___ after the bridge.",
+        "fullSentence": "Turn right after the bridge.",
+        "translation": "過橋後右轉。",
+        "clue": "朝向與左邊相反的一方",
+        "answerEntryId": "u12:right",
+        "distractorEntryIds": [
+          "u12:backward",
+          "u12:forward",
+          "u12:here"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:rush",
+      "zh": "匆忙行走；衝",
+      "pos": "verb",
+      "example": "We must rush to catch the train.",
+      "exampleZh": "我們必須趕快去搭火車。",
+      "spellingHint": "r-u-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We must ___ to catch the train.",
+        "fullSentence": "We must rush to catch the train.",
+        "translation": "我們必須趕快去搭火車。",
+        "clue": "快速匆忙地移動",
+        "answerEntryId": "u12:rush",
+        "distractorEntryIds": [
+          "u12:fly",
+          "u12:land",
+          "u12:sail"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:safety",
+      "zh": "安全；安全性",
+      "pos": "noun",
+      "example": "Road safety is important for everyone.",
+      "exampleZh": "道路安全對每個人都很重要。",
+      "spellingHint": "s-a-f-e-t-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Road ___ is important for everyone.",
+        "fullSentence": "Road safety is important for everyone.",
+        "translation": "道路安全對每個人都很重要。",
+        "clue": "不受危險傷害的狀態",
+        "answerEntryId": "u12:safety",
+        "distractorEntryIds": [
+          "u12:railway",
+          "u12:restroom",
+          "u12:scooter"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:sail",
+      "zh": "航行；乘船航行",
+      "pos": "verb",
+      "example": "The ship will sail across the sea.",
+      "exampleZh": "這艘船將航行渡過大海。",
+      "spellingHint": "s-a-i-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ship will ___ across the sea.",
+        "fullSentence": "The ship will sail across the sea.",
+        "translation": "這艘船將航行渡過大海。",
+        "clue": "乘船在水上行進",
+        "answerEntryId": "u12:sail",
+        "distractorEntryIds": [
+          "u12:rush",
+          "u12:speed",
+          "u12:turn"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:scooter",
+      "zh": "滑板車；機車",
+      "pos": "noun",
+      "example": "She rides a scooter to the market.",
+      "exampleZh": "她騎機車去市場。",
+      "spellingHint": "s-c-o-o-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She rides a ___ to the market.",
+        "fullSentence": "She rides a scooter to the market.",
+        "translation": "她騎機車去市場。",
+        "clue": "小型的兩輪交通工具",
+        "answerEntryId": "u12:scooter",
+        "distractorEntryIds": [
+          "u12:safety",
+          "u12:ship",
+          "u12:shop"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:ship",
+      "zh": "船；輪船",
+      "pos": "noun",
+      "example": "The ship carries cars across the sea.",
+      "exampleZh": "這艘船載著汽車渡海。",
+      "spellingHint": "s-h-i-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ carries cars across the sea.",
+        "fullSentence": "The ship carries cars across the sea.",
+        "translation": "這艘船載著汽車渡海。",
+        "clue": "大型的水上交通工具",
+        "answerEntryId": "u12:ship",
+        "distractorEntryIds": [
+          "u12:scooter",
+          "u12:shop",
+          "u12:sidewalk"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:shop",
+      "zh": "商店；店鋪",
+      "pos": "noun",
+      "example": "That shop sells school bags.",
+      "exampleZh": "那家商店賣書包。",
+      "spellingHint": "s-h-o-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "That ___ sells school bags.",
+        "fullSentence": "That shop sells school bags.",
+        "translation": "那家商店賣書包。",
+        "clue": "販賣東西的地方",
+        "answerEntryId": "u12:shop",
+        "distractorEntryIds": [
+          "u12:ship",
+          "u12:sidewalk",
+          "u12:stationery store"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:sidewalk",
+      "zh": "人行道",
+      "pos": "noun",
+      "example": "Please walk on the sidewalk.",
+      "exampleZh": "請走在人行道上。",
+      "spellingHint": "s-i-d-e-w-a-l-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please walk on the ___.",
+        "fullSentence": "Please walk on the sidewalk.",
+        "translation": "請走在人行道上。",
+        "clue": "路旁供行人行走的道路",
+        "answerEntryId": "u12:sidewalk",
+        "distractorEntryIds": [
+          "u12:shop",
+          "u12:stationery store",
+          "u12:store"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:south",
+      "zh": "向南地；南方",
+      "pos": "adverb",
+      "example": "Many birds fly south in winter.",
+      "exampleZh": "許多鳥在冬天往南飛。",
+      "spellingHint": "s-o-u-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Many birds fly ___ in winter.",
+        "fullSentence": "Many birds fly south in winter.",
+        "translation": "許多鳥在冬天往南飛。",
+        "clue": "朝向地圖下方的方向",
+        "answerEntryId": "u12:south",
+        "distractorEntryIds": [
+          "u12:right",
+          "u12:there",
+          "u12:backward"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:southern",
+      "zh": "南部的；南方的",
+      "pos": "adjective",
+      "example": "We traveled around the southern coast.",
+      "exampleZh": "我們在南部海岸旅行。",
+      "spellingHint": "s-o-u-t-h-e-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We traveled around the ___ coast.",
+        "fullSentence": "We traveled around the southern coast.",
+        "translation": "我們在南部海岸旅行。",
+        "clue": "位於南方或南部的",
+        "answerEntryId": "u12:southern",
+        "distractorEntryIds": [
+          "u12:central",
+          "u12:crowded",
+          "u12:direct"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:speed",
+      "zh": "加速行駛；速度",
+      "pos": "verb",
+      "example": "Do not speed on this narrow road.",
+      "exampleZh": "不要在這條狹窄的路上超速。",
+      "spellingHint": "s-p-e-e-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Do not ___ on this narrow road.",
+        "fullSentence": "Do not speed on this narrow road.",
+        "translation": "不要在這條狹窄的路上超速。",
+        "clue": "快速行駛",
+        "answerEntryId": "u12:speed",
+        "distractorEntryIds": [
+          "u12:fly",
+          "u12:land",
+          "u12:rush"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:stationery store",
+      "zh": "文具店",
+      "pos": "noun",
+      "example": "I bought a notebook at the stationery store.",
+      "exampleZh": "我在文具店買了一本筆記本。",
+      "spellingHint": "s-t-a-t-i-o-n-e-r-y s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I bought a notebook at the ___.",
+        "fullSentence": "I bought a notebook at the stationery store.",
+        "translation": "我在文具店買了一本筆記本。",
+        "clue": "賣文具的商店",
+        "answerEntryId": "u12:stationery store",
+        "distractorEntryIds": [
+          "u12:supermarket",
+          "u12:tank",
+          "u12:taxi"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:store",
+      "zh": "商店",
+      "pos": "noun",
+      "example": "This store opens at nine.",
+      "exampleZh": "這家商店九點開門。",
+      "spellingHint": "s-t-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This ___ opens at nine.",
+        "fullSentence": "This store opens at nine.",
+        "translation": "這家商店九點開門。",
+        "clue": "販賣商品的地方",
+        "answerEntryId": "u12:store",
+        "distractorEntryIds": [
+          "u12:tank",
+          "u12:taxi",
+          "u12:top"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:subway",
+      "zh": "地下鐵；地鐵",
+      "pos": "noun",
+      "example": "The subway is faster than the bus.",
+      "exampleZh": "地下鐵比公車快。",
+      "spellingHint": "s-u-b-w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is faster than the bus.",
+        "fullSentence": "The subway is faster than the bus.",
+        "translation": "地下鐵比公車快。",
+        "clue": "在城市地下行駛的火車",
+        "answerEntryId": "u12:subway",
+        "distractorEntryIds": [
+          "u12:taxi",
+          "u12:top",
+          "u12:tower"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:supermarket",
+      "zh": "超級市場",
+      "pos": "noun",
+      "example": "Mom is at the supermarket now.",
+      "exampleZh": "媽媽現在在超級市場。",
+      "spellingHint": "s-u-p-e-r-m-a-r-k-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mom is at the ___ now.",
+        "fullSentence": "Mom is at the supermarket now.",
+        "translation": "媽媽現在在超級市場。",
+        "clue": "販賣各種日用品的大商店",
+        "answerEntryId": "u12:supermarket",
+        "distractorEntryIds": [
+          "u12:top",
+          "u12:tower",
+          "u12:town"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:tank",
+      "zh": "坦克車；油箱；水槽",
+      "pos": "noun",
+      "example": "The army tank moved slowly down the road.",
+      "exampleZh": "那輛軍用坦克車沿著道路慢慢前進。",
+      "spellingHint": "t-a-n-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The army ___ moved slowly down the road.",
+        "fullSentence": "The army tank moved slowly down the road.",
+        "translation": "那輛軍用坦克車沿著道路慢慢前進。",
+        "clue": "有厚重裝甲的軍用車輛",
+        "answerEntryId": "u12:tank",
+        "distractorEntryIds": [
+          "u12:tower",
+          "u12:town",
+          "u12:traffic"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:taxi",
+      "zh": "計程車",
+      "pos": "noun",
+      "example": "We took a taxi to the airport.",
+      "exampleZh": "我們搭計程車到機場。",
+      "spellingHint": "t-a-x-i",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We took a ___ to the airport.",
+        "fullSentence": "We took a taxi to the airport.",
+        "translation": "我們搭計程車到機場。",
+        "clue": "付費載客的汽車",
+        "answerEntryId": "u12:taxi",
+        "distractorEntryIds": [
+          "u12:town",
+          "u12:traffic",
+          "u12:train"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:there",
+      "zh": "那裡",
+      "pos": "adverb",
+      "example": "The bus stop is over there.",
+      "exampleZh": "公車站在那裡。",
+      "spellingHint": "t-h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bus stop is over ___.",
+        "fullSentence": "The bus stop is over there.",
+        "translation": "公車站在那裡。",
+        "clue": "離說話者較遠的地方",
+        "answerEntryId": "u12:there",
+        "distractorEntryIds": [
+          "u12:here",
+          "u12:right",
+          "u12:south"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:top",
+      "zh": "頂端；上方",
+      "pos": "noun",
+      "example": "The restaurant is at the top of the tower.",
+      "exampleZh": "餐廳在塔的頂端。",
+      "spellingHint": "t-o-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The restaurant is at the ___ of the tower.",
+        "fullSentence": "The restaurant is at the top of the tower.",
+        "translation": "餐廳在塔的頂端。",
+        "clue": "最高或最上面的部分",
+        "answerEntryId": "u12:top",
+        "distractorEntryIds": [
+          "u12:train",
+          "u12:train station",
+          "u12:truck"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:tower",
+      "zh": "塔；高樓",
+      "pos": "noun",
+      "example": "The tower is easy to see from the highway.",
+      "exampleZh": "從高速公路很容易看到那座塔。",
+      "spellingHint": "t-o-w-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is easy to see from the highway.",
+        "fullSentence": "The tower is easy to see from the highway.",
+        "translation": "從高速公路很容易看到那座塔。",
+        "clue": "高而窄的建築物",
+        "answerEntryId": "u12:tower",
+        "distractorEntryIds": [
+          "u12:train station",
+          "u12:truck",
+          "u12:tunnel"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:town",
+      "zh": "城鎮",
+      "pos": "noun",
+      "example": "My grandparents live in a small town.",
+      "exampleZh": "我的祖父母住在一個小城鎮。",
+      "spellingHint": "t-o-w-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My grandparents live in a small ___.",
+        "fullSentence": "My grandparents live in a small town.",
+        "translation": "我的祖父母住在一個小城鎮。",
+        "clue": "比城市小的聚居地",
+        "answerEntryId": "u12:town",
+        "distractorEntryIds": [
+          "u12:truck",
+          "u12:tunnel",
+          "u12:underpass"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:traffic",
+      "zh": "交通；車流",
+      "pos": "noun",
+      "example": "There is a lot of traffic downtown.",
+      "exampleZh": "市中心有很多車流。",
+      "spellingHint": "t-r-a-f-f-i-c",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a lot of ___ downtown.",
+        "fullSentence": "There is a lot of traffic downtown.",
+        "translation": "市中心有很多車流。",
+        "clue": "道路上車輛的流動",
+        "answerEntryId": "u12:traffic",
+        "distractorEntryIds": [
+          "u12:tunnel",
+          "u12:underpass",
+          "u12:village"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:train",
+      "zh": "火車",
+      "pos": "noun",
+      "example": "The train leaves at eight.",
+      "exampleZh": "火車八點出發。",
+      "spellingHint": "t-r-a-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ leaves at eight.",
+        "fullSentence": "The train leaves at eight.",
+        "translation": "火車八點出發。",
+        "clue": "在鐵路上行駛的交通工具",
+        "answerEntryId": "u12:train",
+        "distractorEntryIds": [
+          "u12:underpass",
+          "u12:village",
+          "u12:west"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:train station",
+      "zh": "火車站",
+      "pos": "noun",
+      "example": "The train station is across from the bank.",
+      "exampleZh": "火車站在銀行對面。",
+      "spellingHint": "t-r-a-i-n s-t-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is across from the bank.",
+        "fullSentence": "The train station is across from the bank.",
+        "translation": "火車站在銀行對面。",
+        "clue": "火車停靠的地方",
+        "answerEntryId": "u12:train station",
+        "distractorEntryIds": [
+          "u12:village",
+          "u12:west",
+          "u12:wheel"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:truck",
+      "zh": "卡車；貨車",
+      "pos": "noun",
+      "example": "The truck carries food to the store.",
+      "exampleZh": "卡車把食物運到商店。",
+      "spellingHint": "t-r-u-c-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ carries food to the store.",
+        "fullSentence": "The truck carries food to the store.",
+        "translation": "卡車把食物運到商店。",
+        "clue": "載運貨物的大型汽車",
+        "answerEntryId": "u12:truck",
+        "distractorEntryIds": [
+          "u12:west",
+          "u12:wheel",
+          "u12:women's room"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:tunnel",
+      "zh": "隧道；隧洞",
+      "pos": "noun",
+      "example": "The road goes through a long tunnel.",
+      "exampleZh": "這條路穿過一條長隧道。",
+      "spellingHint": "t-u-n-n-e-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The road goes through a long ___.",
+        "fullSentence": "The road goes through a long tunnel.",
+        "translation": "這條路穿過一條長隧道。",
+        "clue": "穿過山或地下的通道",
+        "answerEntryId": "u12:tunnel",
+        "distractorEntryIds": [
+          "u12:wheel",
+          "u12:women's room",
+          "u12:airport"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:turn",
+      "zh": "轉彎；轉向",
+      "pos": "verb",
+      "example": "Turn left at the next street.",
+      "exampleZh": "在下一條街左轉。",
+      "spellingHint": "t-u-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ left at the next street.",
+        "fullSentence": "Turn left at the next street.",
+        "translation": "在下一條街左轉。",
+        "clue": "改變行進方向",
+        "answerEntryId": "u12:turn",
+        "distractorEntryIds": [
+          "u12:drive",
+          "u12:ride",
+          "u12:fly"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:underpass",
+      "zh": "地下道",
+      "pos": "noun",
+      "example": "We used the underpass to cross the street.",
+      "exampleZh": "我們利用地下道穿越街道。",
+      "spellingHint": "u-n-d-e-r-p-a-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We used the ___ to cross the street.",
+        "fullSentence": "We used the underpass to cross the street.",
+        "translation": "我們利用地下道穿越街道。",
+        "clue": "在道路下方通行的通道",
+        "answerEntryId": "u12:underpass",
+        "distractorEntryIds": [
+          "u12:airport",
+          "u12:bakery",
+          "u12:bank"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:village",
+      "zh": "村莊；鄉村",
+      "pos": "noun",
+      "example": "A quiet village is near the mountain.",
+      "exampleZh": "山附近有一座安靜的村莊。",
+      "spellingHint": "v-i-l-l-a-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "A quiet ___ is near the mountain.",
+        "fullSentence": "A quiet village is near the mountain.",
+        "translation": "山附近有一座安靜的村莊。",
+        "clue": "比城鎮小的聚居地",
+        "answerEntryId": "u12:village",
+        "distractorEntryIds": [
+          "u12:bakery",
+          "u12:bank",
+          "u12:beach"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:west",
+      "zh": "西；西方",
+      "pos": "noun",
+      "example": "The sun sets in the west.",
+      "exampleZh": "太陽從西方落下。",
+      "spellingHint": "w-e-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The sun sets in the ___.",
+        "fullSentence": "The sun sets in the west.",
+        "translation": "太陽從西方落下。",
+        "clue": "太陽落下的方向",
+        "answerEntryId": "u12:west",
+        "distractorEntryIds": [
+          "u12:bank",
+          "u12:beach",
+          "u12:bridge"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:western",
+      "zh": "西部的；西方的",
+      "pos": "adjective",
+      "example": "The western side of the town is quiet.",
+      "exampleZh": "城鎮的西側很安靜。",
+      "spellingHint": "w-e-s-t-e-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ side of the town is quiet.",
+        "fullSentence": "The western side of the town is quiet.",
+        "translation": "城鎮的西側很安靜。",
+        "clue": "位於西方或西部的",
+        "answerEntryId": "u12:western",
+        "distractorEntryIds": [
+          "u12:crowded",
+          "u12:direct",
+          "u12:eastern"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:wheel",
+      "zh": "輪子；車輪",
+      "pos": "noun",
+      "example": "The bicycle has a broken wheel.",
+      "exampleZh": "這輛腳踏車有一個壞掉的輪子。",
+      "spellingHint": "w-h-e-e-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bicycle has a broken ___.",
+        "fullSentence": "The bicycle has a broken wheel.",
+        "translation": "這輛腳踏車有一個壞掉的輪子。",
+        "clue": "圓形且會轉動的車輛部件",
+        "answerEntryId": "u12:wheel",
+        "distractorEntryIds": [
+          "u12:bridge",
+          "u12:hospital",
+          "u12:hotel"
+        ]
+      }
+    },
+    {
+      "entryId": "u12:women's room",
+      "zh": "女廁；女士洗手間",
+      "pos": "noun",
+      "example": "The women's room is beside the restroom.",
+      "exampleZh": "女廁在洗手間旁邊。",
+      "spellingHint": "w-o-m-e-n-'-s r-o-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is beside the restroom.",
+        "fullSentence": "The women's room is beside the restroom.",
+        "translation": "女廁在洗手間旁邊。",
+        "clue": "女性使用的洗手間",
+        "answerEntryId": "u12:women's room",
+        "distractorEntryIds": [
+          "u12:hospital",
+          "u12:hotel",
+          "u12:market"
+        ]
       }
     }
   ]
