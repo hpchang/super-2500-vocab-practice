@@ -1,0 +1,2047 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-26T14:41:41.870Z",
+  "units": [
+    {
+      "unit": "11",
+      "title": "Unit 11",
+      "total": 123,
+      "importantCount": 65,
+      "entries": [
+        {
+          "entryId": "u11:address",
+          "termId": "address",
+          "word": "address",
+          "page": 112,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:air conditioner",
+          "termId": "air conditioner",
+          "word": "air conditioner",
+          "page": 112,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:apartment",
+          "termId": "apartment",
+          "word": "apartment",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:armchair",
+          "termId": "armchair",
+          "word": "armchair",
+          "page": 112,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:balcony",
+          "termId": "balcony",
+          "word": "balcony",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:basement",
+          "termId": "basement",
+          "word": "basement",
+          "page": 112,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:basket",
+          "termId": "basket",
+          "word": "basket",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bath",
+          "termId": "bath",
+          "word": "bath",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bathroom",
+          "termId": "bathroom",
+          "word": "bathroom",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bed",
+          "termId": "bed",
+          "word": "bed",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bedroom",
+          "termId": "bedroom",
+          "word": "bedroom",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bench",
+          "termId": "bench",
+          "word": "bench",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:blanket",
+          "termId": "blanket",
+          "word": "blanket",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bookcase",
+          "termId": "bookcase",
+          "word": "bookcase",
+          "page": 112,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:brick",
+          "termId": "brick",
+          "word": "brick",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:brush",
+          "termId": "brush",
+          "word": "brush",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:bucket",
+          "termId": "bucket",
+          "word": "bucket",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:build",
+          "termId": "build",
+          "word": "build",
+          "page": 106,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:building",
+          "termId": "building",
+          "word": "building",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:cabinet",
+          "termId": "cabinet",
+          "word": "cabinet",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:camera",
+          "termId": "camera",
+          "word": "camera",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:can",
+          "termId": "can",
+          "word": "can",
+          "page": 113,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:candle",
+          "termId": "candle",
+          "word": "candle",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:carpet",
+          "termId": "carpet",
+          "word": "carpet",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:cassette",
+          "termId": "cassette",
+          "word": "cassette",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:ceiling",
+          "termId": "ceiling",
+          "word": "ceiling",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:chair",
+          "termId": "chair",
+          "word": "chair",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:clean",
+          "termId": "clean",
+          "word": "clean",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:closet",
+          "termId": "closet",
+          "word": "closet",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:computer",
+          "termId": "computer",
+          "word": "computer",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:couch",
+          "termId": "couch",
+          "word": "couch",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:curtain",
+          "termId": "curtain",
+          "word": "curtain",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:decorate",
+          "termId": "decorate",
+          "word": "decorate",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:design",
+          "termId": "design",
+          "word": "design",
+          "page": 113,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:desk",
+          "termId": "desk",
+          "word": "desk",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:dial",
+          "termId": "dial",
+          "word": "dial",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:dining room",
+          "termId": "dining room",
+          "word": "dining room",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:door",
+          "termId": "door",
+          "word": "door",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:downstairs",
+          "termId": "downstairs",
+          "word": "downstairs",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:drawer",
+          "termId": "drawer",
+          "word": "drawer",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:dresser",
+          "termId": "dresser",
+          "word": "dresser",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:dryer",
+          "termId": "dryer",
+          "word": "dryer",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:electric",
+          "termId": "electric",
+          "word": "electric",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:fan",
+          "termId": "fan",
+          "word": "fan",
+          "page": 107,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:faucet",
+          "termId": "faucet",
+          "word": "faucet",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:fence",
+          "termId": "fence",
+          "word": "fence",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:fix",
+          "termId": "fix",
+          "word": "fix",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:flashlight",
+          "termId": "flashlight",
+          "word": "flashlight",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:flat",
+          "termId": "flat",
+          "word": "flat",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:floor",
+          "termId": "floor",
+          "word": "floor",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:freezer",
+          "termId": "freezer",
+          "word": "freezer",
+          "page": 114,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:furniture",
+          "termId": "furniture",
+          "word": "furniture",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:garage",
+          "termId": "garage",
+          "word": "garage",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:garbage",
+          "termId": "garbage",
+          "word": "garbage",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:garden",
+          "termId": "garden",
+          "word": "garden",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:gate",
+          "termId": "gate",
+          "word": "gate",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:ground",
+          "termId": "ground",
+          "word": "ground",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:hall",
+          "termId": "hall",
+          "word": "hall",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:hammer",
+          "termId": "hammer",
+          "word": "hammer",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:hanger",
+          "termId": "hanger",
+          "word": "hanger",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:heat",
+          "termId": "heat",
+          "word": "heat",
+          "page": 108,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:heater",
+          "termId": "heater",
+          "word": "heater",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:home",
+          "termId": "home",
+          "word": "home",
+          "page": 108,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:house",
+          "termId": "house",
+          "word": "house",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:housework",
+          "termId": "housework",
+          "word": "housework",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:key",
+          "termId": "key",
+          "word": "key",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:kitchen",
+          "termId": "kitchen",
+          "word": "kitchen",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:lamp",
+          "termId": "lamp",
+          "word": "lamp",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:light",
+          "termId": "light",
+          "word": "light",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:living room",
+          "termId": "living room",
+          "word": "living room",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:lock",
+          "termId": "lock",
+          "word": "lock",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:machine",
+          "termId": "machine",
+          "word": "machine",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:mat",
+          "termId": "mat",
+          "word": "mat",
+          "page": 109,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:microwave",
+          "termId": "microwave",
+          "word": "microwave",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:mirror",
+          "termId": "mirror",
+          "word": "mirror",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:mop",
+          "termId": "mop",
+          "word": "mop",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:needle",
+          "termId": "needle",
+          "word": "needle",
+          "page": 115,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:oven",
+          "termId": "oven",
+          "word": "oven",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:pillow",
+          "termId": "pillow",
+          "word": "pillow",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:pipe",
+          "termId": "pipe",
+          "word": "pipe",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:printer",
+          "termId": "printer",
+          "word": "printer",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:radio",
+          "termId": "radio",
+          "word": "radio",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:receiver",
+          "termId": "receiver",
+          "word": "receiver",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:refrigerator",
+          "termId": "refrigerator",
+          "word": "refrigerator",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:repair",
+          "termId": "repair",
+          "word": "repair",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:road",
+          "termId": "road",
+          "word": "road",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:roof",
+          "termId": "roof",
+          "word": "roof",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:room",
+          "termId": "room",
+          "word": "room",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:rope",
+          "termId": "rope",
+          "word": "rope",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:sheet",
+          "termId": "sheet",
+          "word": "sheet",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:shelf",
+          "termId": "shelf",
+          "word": "shelf",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:shower",
+          "termId": "shower",
+          "word": "shower",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:sink",
+          "termId": "sink",
+          "word": "sink",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:soap",
+          "termId": "soap",
+          "word": "soap",
+          "page": 116,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:sofa",
+          "termId": "sofa",
+          "word": "sofa",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:speaker",
+          "termId": "speaker",
+          "word": "speaker",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:stairs",
+          "termId": "stairs",
+          "word": "stairs",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:stove",
+          "termId": "stove",
+          "word": "stove",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:street",
+          "termId": "street",
+          "word": "street",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:study",
+          "termId": "study",
+          "word": "study",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:sweep",
+          "termId": "sweep",
+          "word": "sweep",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:table",
+          "termId": "table",
+          "word": "table",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tape",
+          "termId": "tape",
+          "word": "tape",
+          "page": 110,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tape recorder",
+          "termId": "tape recorder",
+          "word": "tape recorder",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:telephone",
+          "termId": "telephone",
+          "word": "telephone",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:television",
+          "termId": "television",
+          "word": "television",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tent",
+          "termId": "tent",
+          "word": "tent",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tidy",
+          "termId": "tidy",
+          "word": "tidy",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:toilet",
+          "termId": "toilet",
+          "word": "toilet",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tool",
+          "termId": "tool",
+          "word": "tool",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:toothbrush",
+          "termId": "toothbrush",
+          "word": "toothbrush",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:towel",
+          "termId": "towel",
+          "word": "towel",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:trash",
+          "termId": "trash",
+          "word": "trash",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tub",
+          "termId": "tub",
+          "word": "tub",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:tube",
+          "termId": "tube",
+          "word": "tube",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:upstairs",
+          "termId": "upstairs",
+          "word": "upstairs",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:video",
+          "termId": "video",
+          "word": "video",
+          "page": 111,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:wall",
+          "termId": "wall",
+          "word": "wall",
+          "page": 112,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:wash",
+          "termId": "wash",
+          "word": "wash",
+          "page": 112,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:way",
+          "termId": "way",
+          "word": "way",
+          "page": 112,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:window",
+          "termId": "window",
+          "word": "window",
+          "page": 112,
+          "important": true,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:wok",
+          "termId": "wok",
+          "word": "wok",
+          "page": 117,
+          "important": false,
+          "unit": "11"
+        },
+        {
+          "entryId": "u11:yard",
+          "termId": "yard",
+          "word": "yard",
+          "page": 112,
+          "important": true,
+          "unit": "11"
+        }
+      ]
+    },
+    {
+      "unit": "12",
+      "title": "Unit 12",
+      "total": 130,
+      "importantCount": 76,
+      "entries": [
+        {
+          "entryId": "u12:accident",
+          "termId": "accident",
+          "word": "accident",
+          "page": 129,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:aircraft",
+          "termId": "aircraft",
+          "word": "aircraft",
+          "page": 129,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:airline",
+          "termId": "airline",
+          "word": "airline",
+          "page": 129,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:airplane",
+          "termId": "airplane",
+          "word": "airplane",
+          "page": 121,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:airport",
+          "termId": "airport",
+          "word": "airport",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:ambulance",
+          "termId": "ambulance",
+          "word": "ambulance",
+          "page": 129,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:arrive",
+          "termId": "arrive",
+          "word": "arrive",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:back",
+          "termId": "back",
+          "word": "back",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:backward",
+          "termId": "backward",
+          "word": "backward",
+          "page": 129,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bakery",
+          "termId": "bakery",
+          "word": "bakery",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bank",
+          "termId": "bank",
+          "word": "bank",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bar",
+          "termId": "bar",
+          "word": "bar",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:beach",
+          "termId": "beach",
+          "word": "beach",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bicycle",
+          "termId": "bicycle",
+          "word": "bicycle",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:block",
+          "termId": "block",
+          "word": "block",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:boat",
+          "termId": "boat",
+          "word": "boat",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bookstore",
+          "termId": "bookstore",
+          "word": "bookstore",
+          "page": 121,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bridge",
+          "termId": "bridge",
+          "word": "bridge",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:buffet",
+          "termId": "buffet",
+          "word": "buffet",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bus",
+          "termId": "bus",
+          "word": "bus",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:bus stop",
+          "termId": "bus stop",
+          "word": "bus stop",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:cafeteria",
+          "termId": "cafeteria",
+          "word": "cafeteria",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:car",
+          "termId": "car",
+          "word": "car",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:castle",
+          "termId": "castle",
+          "word": "castle",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:central",
+          "termId": "central",
+          "word": "central",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:church",
+          "termId": "church",
+          "word": "church",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:city",
+          "termId": "city",
+          "word": "city",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:convenience store",
+          "termId": "convenience store",
+          "word": "convenience store",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:corner",
+          "termId": "corner",
+          "word": "corner",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:country",
+          "termId": "country",
+          "word": "country",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:cross",
+          "termId": "cross",
+          "word": "cross",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:crowd",
+          "termId": "crowd",
+          "word": "crowd",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:crowded",
+          "termId": "crowded",
+          "word": "crowded",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:culture center",
+          "termId": "culture center",
+          "word": "culture center",
+          "page": 130,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:curve",
+          "termId": "curve",
+          "word": "curve",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:department store",
+          "termId": "department store",
+          "word": "department store",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:direct",
+          "termId": "direct",
+          "word": "direct",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:direction",
+          "termId": "direction",
+          "word": "direction",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:distance",
+          "termId": "distance",
+          "word": "distance",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:downtown",
+          "termId": "downtown",
+          "word": "downtown",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:drive",
+          "termId": "drive",
+          "word": "drive",
+          "page": 122,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:drugstore",
+          "termId": "drugstore",
+          "word": "drugstore",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:east",
+          "termId": "east",
+          "word": "east",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:eastern",
+          "termId": "eastern",
+          "word": "eastern",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:engine",
+          "termId": "engine",
+          "word": "engine",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:factory",
+          "termId": "factory",
+          "word": "factory",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:farm",
+          "termId": "farm",
+          "word": "farm",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:fast",
+          "termId": "fast",
+          "word": "fast",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:fast food restaurant",
+          "termId": "fast food restaurant",
+          "word": "fast food restaurant",
+          "page": 123,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:field",
+          "termId": "field",
+          "word": "field",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:fire station",
+          "termId": "fire station",
+          "word": "fire station",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:flat tire",
+          "termId": "flat tire",
+          "word": "flat tire",
+          "page": 131,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:flight",
+          "termId": "flight",
+          "word": "flight",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:flower shop",
+          "termId": "flower shop",
+          "word": "flower shop",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:fly",
+          "termId": "fly",
+          "word": "fly",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:forward",
+          "termId": "forward",
+          "word": "forward",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:front",
+          "termId": "front",
+          "word": "front",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:gas",
+          "termId": "gas",
+          "word": "gas",
+          "page": 123,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:helicopter",
+          "termId": "helicopter",
+          "word": "helicopter",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:here",
+          "termId": "here",
+          "word": "here",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:highway",
+          "termId": "highway",
+          "word": "highway",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:hospital",
+          "termId": "hospital",
+          "word": "hospital",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:hotel",
+          "termId": "hotel",
+          "word": "hotel",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:jeep",
+          "termId": "jeep",
+          "word": "jeep",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:land",
+          "termId": "land",
+          "word": "land",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:left",
+          "termId": "left",
+          "word": "left",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:mall",
+          "termId": "mall",
+          "word": "mall",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:market",
+          "termId": "market",
+          "word": "market",
+          "page": 124,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:men's room",
+          "termId": "men's room",
+          "word": "men's room",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:middle",
+          "termId": "middle",
+          "word": "middle",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:motorcycle",
+          "termId": "motorcycle",
+          "word": "motorcycle",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:movie theater",
+          "termId": "movie theater",
+          "word": "movie theater",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:MRT",
+          "termId": "mrt",
+          "word": "MRT",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:museum",
+          "termId": "museum",
+          "word": "museum",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:north",
+          "termId": "north",
+          "word": "north",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:northern",
+          "termId": "northern",
+          "word": "northern",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:office",
+          "termId": "office",
+          "word": "office",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:overpass",
+          "termId": "overpass",
+          "word": "overpass",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:park",
+          "termId": "park",
+          "word": "park",
+          "page": 125,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:path",
+          "termId": "path",
+          "word": "path",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:place",
+          "termId": "place",
+          "word": "place",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:platform",
+          "termId": "platform",
+          "word": "platform",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:police station",
+          "termId": "police station",
+          "word": "police station",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:pool",
+          "termId": "pool",
+          "word": "pool",
+          "page": 132,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:position",
+          "termId": "position",
+          "word": "position",
+          "page": 132,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:post office",
+          "termId": "post office",
+          "word": "post office",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:pump",
+          "termId": "pump",
+          "word": "pump",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:quick",
+          "termId": "quick",
+          "word": "quick",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:railway",
+          "termId": "railway",
+          "word": "railway",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:restaurant",
+          "termId": "restaurant",
+          "word": "restaurant",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:restroom",
+          "termId": "restroom",
+          "word": "restroom",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:ride",
+          "termId": "ride",
+          "word": "ride",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:right",
+          "termId": "right",
+          "word": "right",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:rush",
+          "termId": "rush",
+          "word": "rush",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:safe",
+          "termId": "safe",
+          "word": "safe",
+          "page": 126,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:safety",
+          "termId": "safety",
+          "word": "safety",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:sail",
+          "termId": "sail",
+          "word": "sail",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:scooter",
+          "termId": "scooter",
+          "word": "scooter",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:ship",
+          "termId": "ship",
+          "word": "ship",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:shop",
+          "termId": "shop",
+          "word": "shop",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:sidewalk",
+          "termId": "sidewalk",
+          "word": "sidewalk",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:slow",
+          "termId": "slow",
+          "word": "slow",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:south",
+          "termId": "south",
+          "word": "south",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:southern",
+          "termId": "southern",
+          "word": "southern",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:speed",
+          "termId": "speed",
+          "word": "speed",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:station",
+          "termId": "station",
+          "word": "station",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:stationery store",
+          "termId": "stationery store",
+          "word": "stationery store",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:store",
+          "termId": "store",
+          "word": "store",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:subway",
+          "termId": "subway",
+          "word": "subway",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:supermarket",
+          "termId": "supermarket",
+          "word": "supermarket",
+          "page": 127,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:tank",
+          "termId": "tank",
+          "word": "tank",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:taxi",
+          "termId": "taxi",
+          "word": "taxi",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:temple",
+          "termId": "temple",
+          "word": "temple",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:there",
+          "termId": "there",
+          "word": "there",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:top",
+          "termId": "top",
+          "word": "top",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:tower",
+          "termId": "tower",
+          "word": "tower",
+          "page": 133,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:town",
+          "termId": "town",
+          "word": "town",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:traffic",
+          "termId": "traffic",
+          "word": "traffic",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:train",
+          "termId": "train",
+          "word": "train",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:train station",
+          "termId": "train station",
+          "word": "train station",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:truck",
+          "termId": "truck",
+          "word": "truck",
+          "page": 128,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:tunnel",
+          "termId": "tunnel",
+          "word": "tunnel",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:turn",
+          "termId": "turn",
+          "word": "turn",
+          "page": 129,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:underpass",
+          "termId": "underpass",
+          "word": "underpass",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:village",
+          "termId": "village",
+          "word": "village",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:west",
+          "termId": "west",
+          "word": "west",
+          "page": 129,
+          "important": true,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:western",
+          "termId": "western",
+          "word": "western",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:wheel",
+          "termId": "wheel",
+          "word": "wheel",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:women's room",
+          "termId": "women's room",
+          "word": "women's room",
+          "page": 134,
+          "important": false,
+          "unit": "12"
+        },
+        {
+          "entryId": "u12:zoo",
+          "termId": "zoo",
+          "word": "zoo",
+          "page": 129,
+          "important": true,
+          "unit": "12"
+        }
+      ]
+    }
+  ],
+  "crossUnitDuplicates": []
+}

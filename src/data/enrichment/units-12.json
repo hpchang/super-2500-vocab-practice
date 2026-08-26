@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "unit": "12",
+  "entries": [
+    {
+      "entryId": "u12:airport",
+      "zh": "機場",
+      "pos": "noun",
+      "example": "We arrived at the airport early.",
+      "exampleZh": "我們提早到達機場。",
+      "spellingHint": "a-i-r-p-o-r-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We arrived at the ___ early.",
+        "fullSentence": "We arrived at the airport early.",
+        "translation": "我們提早到達機場。",
+        "clue": "飛機起飛降落的地方",
+        "answerEntryId": "u12:airport",
+        "distractorEntryIds": ["u12:bakery", "u12:hospital", "u12:hotel"]
+      }
+    },
+    {
+      "entryId": "u12:bakery",
+      "zh": "麵包店",
+      "pos": "noun",
+      "example": "I buy bread at the bakery.",
+      "exampleZh": "我在麵包店買麵包。",
+      "spellingHint": "b-a-k-e-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I buy bread at the ___.",
+        "fullSentence": "I buy bread at the bakery.",
+        "translation": "我在麵包店買麵包。",
+        "clue": "賣麵包的店",
+        "answerEntryId": "u12:bakery",
+        "distractorEntryIds": ["u12:airport", "u12:hospital", "u12:hotel"]
+      }
+    },
+    {
+      "entryId": "u12:bank",
+      "zh": "銀行",
+      "pos": "noun",
+      "example": "She works at a bank.",
+      "exampleZh": "她在銀行工作。",
+      "spellingHint": "b-a-n-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She works at a ___.",
+        "fullSentence": "She works at a bank.",
+        "translation": "她在銀行工作。",
+        "clue": "存錢、領錢的地方",
+        "answerEntryId": "u12:bank",
+        "distractorEntryIds": ["u12:beach", "u12:market", "u12:park"]
+      }
+    },
+    {
+      "entryId": "u12:beach",
+      "zh": "海灘",
+      "pos": "noun",
+      "example": "We play on the beach in summer.",
+      "exampleZh": "夏天我們在海灘上玩。",
+      "spellingHint": "b-e-a-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We play on the ___ in summer.",
+        "fullSentence": "We play on the beach in summer.",
+        "translation": "夏天我們在海灘上玩。",
+        "clue": "海邊的沙地",
+        "answerEntryId": "u12:beach",
+        "distractorEntryIds": ["u12:bank", "u12:market", "u12:park"]
+      }
+    },
+    {
+      "entryId": "u12:bridge",
+      "zh": "橋",
+      "pos": "noun",
+      "example": "Walk across the bridge.",
+      "exampleZh": "走過這座橋。",
+      "spellingHint": "b-r-i-d-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Walk across the ___.",
+        "fullSentence": "Walk across the bridge.",
+        "translation": "走過這座橋。",
+        "clue": "跨越河面的建築",
+        "answerEntryId": "u12:bridge",
+        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:bank"]
+      }
+    },
+    {
+      "entryId": "u12:hospital",
+      "zh": "醫院",
+      "pos": "noun",
+      "example": "He went to the hospital.",
+      "exampleZh": "他去了醫院。",
+      "spellingHint": "h-o-s-p-i-t-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "He went to the ___.",
+        "fullSentence": "He went to the hospital.",
+        "translation": "他去了醫院。",
+        "clue": "看病的地方",
+        "answerEntryId": "u12:hospital",
+        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:hotel"]
+      }
+    },
+    {
+      "entryId": "u12:hotel",
+      "zh": "飯店",
+      "pos": "noun",
+      "example": "We stayed at a nice hotel.",
+      "exampleZh": "我們住在一間不錯的飯店。",
+      "spellingHint": "h-o-t-e-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We stayed at a nice ___.",
+        "fullSentence": "We stayed at a nice hotel.",
+        "translation": "我們住在一間不錯的飯店。",
+        "clue": "出外住宿的地方",
+        "answerEntryId": "u12:hotel",
+        "distractorEntryIds": ["u12:airport", "u12:bakery", "u12:hospital"]
+      }
+    },
+    {
+      "entryId": "u12:market",
+      "zh": "市場",
+      "pos": "noun",
+      "example": "Mom buys vegetables at the market.",
+      "exampleZh": "媽媽在市場買菜。",
+      "spellingHint": "m-a-r-k-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mom buys vegetables at the ___.",
+        "fullSentence": "Mom buys vegetables at the market.",
+        "translation": "媽媽在市場買菜。",
+        "clue": "買賣東西的地方",
+        "answerEntryId": "u12:market",
+        "distractorEntryIds": ["u12:bank", "u12:beach", "u12:park"]
+      }
+    },
+    {
+      "entryId": "u12:museum",
+      "zh": "博物館",
+      "pos": "noun",
+      "example": "The museum is closed on Mondays.",
+      "exampleZh": "博物館週一公休。",
+      "spellingHint": "m-u-s-e-u-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ is closed on Mondays.",
+        "fullSentence": "The museum is closed on Mondays.",
+        "translation": "博物館週一公休。",
+        "clue": "展出文物的地方",
+        "answerEntryId": "u12:museum",
+        "distractorEntryIds": ["u12:station", "u12:temple", "u12:zoo"]
+      }
+    },
+    {
+      "entryId": "u12:park",
+      "zh": "公園",
+      "pos": "noun",
+      "example": "Children play in the park.",
+      "exampleZh": "孩子們在公園裡玩。",
+      "spellingHint": "p-a-r-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Children play in the ___.",
+        "fullSentence": "Children play in the park.",
+        "translation": "孩子們在公園裡玩。",
+        "clue": "有草地可以玩的地方",
+        "answerEntryId": "u12:park",
+        "distractorEntryIds": ["u12:bank", "u12:beach", "u12:market"]
+      }
+    },
+    {
+      "entryId": "u12:restaurant",
+      "zh": "餐廳",
+      "pos": "noun",
+      "example": "Let's eat at a restaurant.",
+      "exampleZh": "我們去餐廳吃飯吧。",
+      "spellingHint": "r-e-s-t-a-u-r-a-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Let's eat at a ___.",
+        "fullSentence": "Let's eat at a restaurant.",
+        "translation": "我們去餐廳吃飯吧。",
+        "clue": "付錢吃飯的地方",
+        "answerEntryId": "u12:restaurant",
+        "distractorEntryIds": ["u12:station", "u12:temple", "u12:zoo"]
+      }
+    },
+    {
+      "entryId": "u12:station",
+      "zh": "車站",
+      "pos": "noun",
+      "example": "I'll meet you at the station.",
+      "exampleZh": "我在車站等你。",
+      "spellingHint": "s-t-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I'll meet you at the ___.",
+        "fullSentence": "I'll meet you at the station.",
+        "translation": "我在車站等你。",
+        "clue": "搭車的地方",
+        "answerEntryId": "u12:station",
+        "distractorEntryIds": ["u12:museum", "u12:temple", "u12:zoo"]
+      }
+    },
+    {
+      "entryId": "u12:temple",
+      "zh": "廟",
+      "pos": "noun",
+      "example": "Many people visit the temple.",
+      "exampleZh": "很多人去廟裡拜拜。",
+      "spellingHint": "t-e-m-p-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Many people visit the ___.",
+        "fullSentence": "Many people visit the temple.",
+        "translation": "很多人去廟裡拜拜。",
+        "clue": "拜神的地方",
+        "answerEntryId": "u12:temple",
+        "distractorEntryIds": ["u12:museum", "u12:station", "u12:zoo"]
+      }
+    },
+    {
+      "entryId": "u12:zoo",
+      "zh": "動物園",
+      "pos": "noun",
+      "example": "We saw lions at the zoo.",
+      "exampleZh": "我們在動物園看到獅子。",
+      "spellingHint": "z-o-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We saw lions at the ___.",
+        "fullSentence": "We saw lions at the zoo.",
+        "translation": "我們在動物園看到獅子。",
+        "clue": "看動物的地方",
+        "answerEntryId": "u12:zoo",
+        "distractorEntryIds": ["u12:museum", "u12:station", "u12:temple"]
+      }
+    },
+    {
+      "entryId": "u12:arrive",
+      "zh": "抵達",
+      "pos": "verb",
+      "example": "The train will arrive at noon.",
+      "exampleZh": "火車將在中午抵達。",
+      "spellingHint": "a-r-r-i-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The train will ___ at noon.",
+        "fullSentence": "The train will arrive at noon.",
+        "translation": "火車將在中午抵達。",
+        "clue": "到達目的地",
+        "answerEntryId": "u12:arrive",
+        "distractorEntryIds": ["u12:cross", "u12:drive", "u12:ride"]
+      }
+    },
+    {
+      "entryId": "u12:cross",
+      "zh": "穿過",
+      "pos": "verb",
+      "example": "Look both ways before you cross.",
+      "exampleZh": "過馬路前要看兩邊。",
+      "spellingHint": "c-r-o-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Look both ways before you ___.",
+        "fullSentence": "Look both ways before you cross.",
+        "translation": "過馬路前要看兩邊。",
+        "clue": "從這一邊走到另一邊",
+        "answerEntryId": "u12:cross",
+        "distractorEntryIds": ["u12:arrive", "u12:drive", "u12:ride"]
+      }
+    },
+    {
+      "entryId": "u12:drive",
+      "zh": "駕駛",
+      "pos": "verb",
+      "example": "My dad can drive a bus.",
+      "exampleZh": "我爸爸會開公車。",
+      "spellingHint": "d-r-i-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My dad can ___ a bus.",
+        "fullSentence": "My dad can drive a bus.",
+        "translation": "我爸爸會開公車。",
+        "clue": "操控車輛",
+        "answerEntryId": "u12:drive",
+        "distractorEntryIds": ["u12:arrive", "u12:cross", "u12:ride"]
+      }
+    },
+    {
+      "entryId": "u12:ride",
+      "zh": "騎；搭乘",
+      "pos": "verb",
+      "example": "She can ride a bicycle.",
+      "exampleZh": "她會騎腳踏車。",
+      "spellingHint": "r-i-d-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She can ___ a bicycle.",
+        "fullSentence": "She can ride a bicycle.",
+        "translation": "她會騎腳踏車。",
+        "clue": "坐在車上移動",
+        "answerEntryId": "u12:ride",
+        "distractorEntryIds": ["u12:arrive", "u12:cross", "u12:drive"]
+      }
+    },
+    {
+      "entryId": "u12:fast",
+      "zh": "快的",
+      "pos": "adjective",
+      "example": "The train is very fast.",
+      "exampleZh": "這班火車很快。",
+      "spellingHint": "f-a-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The train is very ___.",
+        "fullSentence": "The train is very fast.",
+        "translation": "這班火車很快。",
+        "clue": "速度很快的",
+        "answerEntryId": "u12:fast",
+        "distractorEntryIds": ["u12:quick", "u12:safe", "u12:slow"]
+      }
+    },
+    {
+      "entryId": "u12:quick",
+      "zh": "快速的",
+      "pos": "adjective",
+      "example": "She gave a quick answer.",
+      "exampleZh": "她很快給了答案。",
+      "spellingHint": "q-u-i-c-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She gave a ___ answer.",
+        "fullSentence": "She gave a quick answer.",
+        "translation": "她很快給了答案。",
+        "clue": "動作迅速的",
+        "answerEntryId": "u12:quick",
+        "distractorEntryIds": ["u12:fast", "u12:safe", "u12:slow"]
+      }
+    },
+    {
+      "entryId": "u12:safe",
+      "zh": "安全的",
+      "pos": "adjective",
+      "example": "It is safe to cross now.",
+      "exampleZh": "現在過馬路很安全。",
+      "spellingHint": "s-a-f-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It is ___ to cross now.",
+        "fullSentence": "It is safe to cross now.",
+        "translation": "現在過馬路很安全。",
+        "clue": "不危險的",
+        "answerEntryId": "u12:safe",
+        "distractorEntryIds": ["u12:fast", "u12:quick", "u12:slow"]
+      }
+    },
+    {
+      "entryId": "u12:slow",
+      "zh": "慢的",
+      "pos": "adjective",
+      "example": "The old bus is slow.",
+      "exampleZh": "那輛舊公車很慢。",
+      "spellingHint": "s-l-o-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The old bus is ___.",
+        "fullSentence": "The old bus is slow.",
+        "translation": "那輛舊公車很慢。",
+        "clue": "速度不快的",
+        "answerEntryId": "u12:slow",
+        "distractorEntryIds": ["u12:fast", "u12:quick", "u12:safe"]
+      }
+    }
+  ]
+}
