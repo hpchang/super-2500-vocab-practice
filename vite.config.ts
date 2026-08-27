@@ -15,7 +15,11 @@ export default defineConfig({
   base: './',
   test: {
     environment: 'node',
-    include: ['tests/**/*.test.ts'],
+    setupFiles: ['./tests/setup.ts'],
+    // .test.tsx is used by component-level tests (e.g. PracticeScreen
+    // regression); each file opts into jsdom via a @vitest-environment
+    // directive. Default environment stays node for the pure-logic suites.
+    include: ['tests/**/*.test.ts', 'tests/**/*.test.tsx'],
     globals: true,
   },
 });

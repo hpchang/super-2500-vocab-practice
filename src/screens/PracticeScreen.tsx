@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { loadSession, saveResult } from '@/session';
+import type { SessionConfig } from '@/session';
 import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
 import { buildSession, buildClozeSession } from '@/lib/questions';
 import type { Question } from '@/lib/questions';
@@ -8,10 +9,9 @@ import { recordAnswer } from '@/lib/scheduler';
 import { progressiveHint, isMaxHint, MAX_HINT_LEVEL } from '@/lib/hints';
 import { warmUpVoices, speak } from '@/lib/speak';
 import { countClozeVariants } from '@/lib/clozeGenerator';
-import { updateEntryProgress } from '@/progressStore';
-import { useProgress } from '@/progressStore';
+import { updateEntryProgress, getSnapshot } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
-import type { QuestionType, VocabEntry } from '@/types/index';
+import type { QuestionType, VocabEntry, ProgressData } from '@/types/index';
 
 type Feedback =
   | { state: 'correct' }
@@ -31,6 +31,27 @@ function wordToSpeak(q: Question): string {
   return getEntry(q.answer)?.word ?? q.prompt;
 }
 
+/**
+ * Build the full question list for a session from the given progress.
+ * Cloze sessions read progress to pick adaptive difficulty + the next
+ * unused variant, so this must be called with the LATEST progress
+ * (getSnapshot()) — never a stale render-time value.
+ */
+function buildQuestions(
+  session: SessionConfig,
+  progress: ProgressData,
+): Question[] {
+  const unit = getUnit(session.unit);
+  if (!unit) return [];
+  const entries = session.entryIds
+    .map((id) => unit.entries.find((e) => e.entryId === id))
+    .filter(Boolean) as VocabEntry[];
+  if (session.type === 'cloze') {
+    return buildClozeSession(entries, session.difficulty ?? 'adaptive', progress.entries);
+  }
+  return buildSession(entries, session.type);
+}
+
 export function PracticeScreen({
   navigate,
 }: {
@@ -45,20 +66,17 @@ export function PracticeScreen({
   const [results, setResults] = useState<
     { entryId: string; type: QuestionType; correct: boolean }[]
   >([]);
-  const progress = useProgress();
 
-  const questions = useMemo<Question[]>(() => {
-    if (!session) return [];
-    const unit = getUnit(session.unit);
-    if (!unit) return [];
-    const entries = session.entryIds
-      .map((id) => unit.entries.find((e) => e.entryId === id))
-      .filter(Boolean) as VocabEntry[];
-    if (session.type === 'cloze') {
-      return buildClozeSession(entries, session.difficulty ?? 'adaptive', progress.entries);
-    }
-    return buildSession(entries, session.type);
-  }, [session, progress.entries]);
+  // Questions are built ONCE at session start, then rebuilt only in next()
+  // with the latest progress. Building from render-time progress here (as a
+  // useMemo keyed on progress.entries) made answering mutate progress → the
+  // whole list was rebuilt → the current index jumped to the next cloze
+  // variant of the same word (待辦 #2: 作答後題目錯位). Locking the list
+  // keeps the presented question stable; adaptive difficulty/variant choice
+  // is deferred to next(), where it reads fresh progress.
+  const [questions, setQuestions] = useState<Question[]>(() =>
+    session ? buildQuestions(session, getSnapshot()) : [],
+  );
 
   const q = questions[index];
 
@@ -149,12 +167,18 @@ export function PracticeScreen({
   };
 
   const next = () => {
-    if (index + 1 >= questions.length) {
+    // Rebuild with the LATEST progress (getSnapshot, not render-time state)
+    // so the next question's adaptive difficulty and cloze variant reflect
+    // the answer just recorded. The presented question stays locked until
+    // this point — answering never swaps the current question.
+    const rebuilt = buildQuestions(session, getSnapshot());
+    if (index + 1 >= rebuilt.length) {
       // Save results and navigate.
       saveResult({ unit: session.unit, type: session.type, results });
       navigate('/results');
       return;
     }
+    setQuestions(rebuilt);
     setIndex((i) => i + 1);
     setChosen(null);
     setSpellInput('');

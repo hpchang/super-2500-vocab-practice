@@ -66,6 +66,9 @@ src/screens/{HomeScreen,UnitSetupScreen,PracticeScreen,ResultsScreen,WrongAnswer
 src/components/{UnitCard,WordPicker,SpeakerButton}.tsx
 src/styles/globals.css
 tests/{data,questions,scoring,scheduler,storage,hints,speak,adaptive}.test.ts
+tests/practiceCloze.test.tsx       PracticeScreen 組件回歸（jsdom，@vitest-environment 標註）
+tests/setup.ts                     測試環境初始化（IS_REACT_ACT_ENVIRONMENT）
+vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 ```
 
 ## 指令
@@ -74,14 +77,14 @@ tests/{data,questions,scoring,scheduler,storage,hints,speak,adaptive}.test.ts
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（76 tests）
+npm test             跑測試（87 tests）
 npx tsx scripts/import-workbook.ts    匯入 Excel
 npx tsx scripts/validate-data.ts     驗證資料
 ```
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 76 tests 全通過
+- `npm test` → 87 tests 全通過（含 `tests/unit11ClozeData.test.ts` 10 個、`tests/practiceCloze.test.tsx` 1 個）
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - Runtime（jsdom）→ 0 錯誤
@@ -91,7 +94,9 @@ npx tsx scripts/validate-data.ts     驗證資料
 1. **完成其餘 30 Units**：Unit 1–10、13–32 的來源資料匯入 + enrichment 內容。
    enrichment 量大（約 2,232 字 × 內容），建議分批用 subagent 並行產製。
    產製流程已包成 skill：`/generate-vocab-enrichment`（含格式、品質規則、驗證與合併步驟）。
-2. 任何後續優化或 bug 修復。
+2. **已修：情境填空作答後題目錯位**（2026-08）。
+   - **修法**：`PracticeScreen` 的 `questions` 由 useMemo（依賴 `progress.entries`）改為 useState，只在 `next()` 以 `getSnapshot()`（store 最新進度）重建——作答當下鎖定已呈現題目，適性難度／variant 決策移到下一題。
+   - **驗證**：新增 `tests/practiceCloze.test.tsx` 回歸測試（jsdom 組件層，作答後題幹/選項不變）；對舊程式碼可重現失敗、對新程式碼通過。`npm test` 87 全過、build 成功。
 
 ## 注意事項
 
