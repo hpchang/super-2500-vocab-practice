@@ -5,13 +5,15 @@
 國中英文超強字彙 Super 2500 — 字彙練習網站。
 Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後端。
 全程使用繁體中文介面與內容。
+**已部署上線**：https://www.hpchang.com/super-2500-vocab-practice/（GitHub Actions 自動部署，詳見 `DEPLOY.md`）。
 
 ## Git 進度
 
-分支 `docs/poc-plan`。最新 commit：
-- `feat: adaptive cloze for full Unit 11/12` — 完整 enrichment + 適性情境填空
-- `feat: add vocabulary PoC for Unit 11/12` — PoC 基礎
-- `docs: add vocabulary PoC plan` — 計畫文件 `docs/poc-plan.md`
+分支 `main`（推送即自動部署）。已完成的近期工作：
+- 部署 + SEO（canonical／OG／README／repo 描述）
+- 批次優先未練字（`src/lib/selection.ts`）
+- 「下一批」延續原題型（URL 帶 type 參數）
+- 單字卡照字母序、其他題型 seeded 隨機（`src/lib/questions.ts`）
 
 ## 目前完成範圍
 
@@ -83,10 +85,7 @@ npx tsx scripts/validate-data.ts     驗證資料
 
 1. **完成其餘 30 Units**：Unit 1–10、13–32 的來源資料匯入 + enrichment 內容。
    enrichment 量大（約 2,232 字 × 內容），建議分批用 subagent 並行產製。
-   產製流程參考本次做法：
-   - 用 `scripts/import-workbook.ts -- --units=...` 匯入 vocab.json
-   - 用 subagent 為每單元缺字生成 enrichment JSON（格式見 units-11.json）
-   - 合併後跑 `npx tsx scripts/validate-data.ts` 驗證
+   產製流程已包成 skill：`/generate-vocab-enrichment`（含格式、品質規則、驗證與合併步驟）。
 2. 任何後續優化或 bug 修復。
 
 ## 注意事項
