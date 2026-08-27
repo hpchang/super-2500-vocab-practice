@@ -50,6 +50,31 @@ function shuffle<T>(arr: T[], seed: number): T[] {
   return out;
 }
 
+/** FNV-1a hash of a string, for deriving a stable shuffle seed. */
+function hashString(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+/**
+ * Session order: flashcards stay in workbook (alphabetical) order for
+ * browsing; quiz types are shuffled so students cannot memorize positions.
+ * The shuffle is seeded by the entryIds so it is stable across re-renders
+ * (PracticeScreen rebuilds questions whenever progress updates).
+ */
+function sessionOrder(
+  entries: VocabEntry[],
+  type: QuestionType | 'mixed',
+): VocabEntry[] {
+  if (type === 'flashcard') return entries;
+  const seed = hashString(entries.map((e) => e.entryId).join(','));
+  return shuffle(entries, seed);
+}
+
 export function buildQuestion(
   entry: VocabEntry,
   type: QuestionType,
@@ -210,7 +235,7 @@ export function buildSession(
       ? ['en2zh', 'zh2en', 'cloze', 'spelling', 'flashcard']
       : [type];
   const out: Question[] = [];
-  entries.forEach((entry, i) => {
+  sessionOrder(entries, type).forEach((entry, i) => {
     const t = types[i % types.length];
     const q = buildQuestion(entry, t, i);
     if (q) out.push(q);
@@ -229,7 +254,7 @@ export function buildClozeSession(
   progress: Record<string, EntryProgress>,
 ): Question[] {
   const out: Question[] = [];
-  entries.forEach((entry, i) => {
+  sessionOrder(entries, 'cloze').forEach((entry, i) => {
     const q = buildAdaptiveCloze(entry, difficulty, progress, i);
     if (q) out.push(q);
   });

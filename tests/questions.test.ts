@@ -87,6 +87,35 @@ describe('question construction', () => {
     expect(qs.length).toBe(5);
   });
 
+  it('flashcard keeps workbook (alphabetical) order', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
+    const qs = buildSession(entries, 'flashcard');
+    expect(qs.map((q) => q.entryId)).toEqual(
+      entries.map((e) => e.entryId),
+    );
+  });
+
+  it('quiz types shuffle the question order', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
+    const qs = buildSession(entries, 'en2zh');
+    const order = qs.map((q) => q.entryId);
+    // At least 5 of 10 entries should have moved from their workbook slot.
+    const moved = order.filter(
+      (id, i) => id !== entries[i].entryId,
+    ).length;
+    expect(moved).toBeGreaterThan(5);
+  });
+
+  it('quiz shuffle is stable for the same input batch', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
+    const a = buildSession(entries, 'zh2en').map((q) => q.entryId);
+    const b = buildSession(entries, 'zh2en').map((q) => q.entryId);
+    expect(a).toEqual(b);
+  });
+
   it('en2zh options contain the correct Chinese gloss', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
