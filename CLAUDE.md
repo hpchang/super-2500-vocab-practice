@@ -11,7 +11,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 
 分支 `main`（推送即自動部署）。已完成的近期工作：
 - 部署 + SEO（canonical／OG／README／repo 描述）
-- 批次優先未練字（`src/lib/selection.ts`）
+- 批次排序：錯題 → 到期複習 → 未練過 → 其餘（`src/lib/selection.ts`）
 - 「下一批」延續原題型（URL 帶 type 參數）
 - 單字卡照字母序、其他題型 seeded 隨機（`src/lib/questions.ts`）
 
@@ -37,6 +37,11 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - Unit 設定頁選情境填空時可選難度：適性／簡易／中等／艱難（預設適性）。
 - 干擾項可跨 Unit，語意相近用中文釋義 Jaccard 相似度判斷。
 
+### 批次選擇（`src/lib/selection.ts`）
+- `buildBatch` 依優先序分組：**錯題（inWrongQueue）→ 到期複習（isDueForReview）→ 未練過（無 progress）→ 其餘（練過未到期）**，每組內維持工作簿字母序。
+- 目的：重複出題時先出最需要練的字，避免「下一批」重複上一批的單字。
+- 首次練習（空進度）仍從頭開始；`buildBatch` 接受 `now` 參數（預設 `Date.now()`）供測試。
+
 ### 其他功能
 - 多層次拼字提示（字數+詞性 → 首字母 → 字首 → 完整拼法）。
 - Web Speech API 發音（單字卡/英選中作答前自動唸；拼字/填空作答後自動唸）。
@@ -56,7 +61,7 @@ src/lib/data.ts                   資料載入
 src/lib/questions.ts               題目建構（含 buildClozeSession）
 src/lib/clozeGenerator.ts          5 題生成器（模板+干擾項+語意）
 src/lib/adaptive.ts               適性難度選擇
-src/lib/{scoring,scheduler,storage,hints,speak}.ts
+src/lib/{scoring,scheduler,storage,hints,speak,selection}.ts
 src/screens/{HomeScreen,UnitSetupScreen,PracticeScreen,ResultsScreen,WrongAnswersScreen}.tsx
 src/components/{UnitCard,WordPicker,SpeakerButton}.tsx
 src/styles/globals.css
@@ -69,14 +74,14 @@ tests/{data,questions,scoring,scheduler,storage,hints,speak,adaptive}.test.ts
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（59 tests）
+npm test             跑測試（76 tests）
 npx tsx scripts/import-workbook.ts    匯入 Excel
 npx tsx scripts/validate-data.ts     驗證資料
 ```
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 59 tests 全通過
+- `npm test` → 76 tests 全通過
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - Runtime（jsdom）→ 0 錯誤
