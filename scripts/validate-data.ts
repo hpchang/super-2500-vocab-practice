@@ -106,10 +106,12 @@ function validateEnrichment() {
       if (!['draft', 'reviewed'].includes(e.status)) fail(`${e.entryId}: bad status ${e.status}`);
       if (!e.source) fail(`${e.entryId}: missing source`);
 
-      // Cloze validation (shared by all cloze fields). Distractors must exist
-      // in the same Unit and be unique; POS expectations vary per tier.
-      const validateCloze = (c: ClozeQuestion, label: string, samePos: boolean) => {
-        if (!c.sentence.includes('___')) fail(`${e.entryId}: ${label} sentence missing blank`);
+      // Cloze validation (shared by all cloze fields). Distractors may come
+      // from any imported Unit; POS expectations vary per tier.
+      type PosPolicy = 'same' | 'any';
+      const validateCloze = (c: ClozeQuestion, label: string, posPolicy: PosPolicy) => {
+        const blankCount = c.sentence.split('___').length - 1;
+        if (blankCount !== 1) fail(`${e.entryId}: ${label} sentence has ${blankCount} blanks`);
         if (!c.fullSentence) fail(`${e.entryId}: ${label} missing fullSentence`);
         if (!c.translation) fail(`${e.entryId}: ${label} missing translation`);
         if (!c.clue) fail(`${e.entryId}: ${label} missing clue`);
@@ -122,11 +124,8 @@ function validateEnrichment() {
           const dv = allVocabMap.get(d);
           if (!dv) fail(`${e.entryId}: ${label} distractor ${d} not in vocab`);
           const de2 = allEnrichMap.get(d);
-          if (de2 && samePos && de2.pos !== e.pos) {
+          if (de2 && posPolicy === 'same' && de2.pos !== e.pos) {
             fail(`${e.entryId}: ${label} distractor ${d} POS ${de2.pos} != ${e.pos}`);
-          }
-          if (de2 && !samePos && de2.pos === e.pos) {
-            fail(`${e.entryId}: ${label} distractor ${d} should be cross-POS`);
           }
         }
         // Answer must appear exactly once across options.
@@ -134,22 +133,22 @@ function validateEnrichment() {
         if (ansCount !== 1) fail(`${e.entryId}: ${label} answer appears ${ansCount} times`);
       };
 
-      validateCloze(e.cloze, 'cloze', true);
+      validateCloze(e.cloze, 'cloze', 'same');
       if (!Array.isArray(e.clozeEasy) || e.clozeEasy.length !== 2) {
         fail(`${e.entryId}: clozeEasy must be an array of 2`);
       } else {
-        // Easy tier uses cross-POS distractors.
-        e.clozeEasy.forEach((c, i) => validateCloze(c, `clozeEasy[${i}]`, false));
+        // Easy tier favors strong clues; distractor POS is unrestricted.
+        e.clozeEasy.forEach((c, i) => validateCloze(c, `clozeEasy[${i}]`, 'any'));
       }
       if (!Array.isArray(e.clozeMedium) || e.clozeMedium.length !== 2) {
         fail(`${e.entryId}: clozeMedium must be an array of 2`);
       } else {
-        e.clozeMedium.forEach((c, i) => validateCloze(c, `clozeMedium[${i}]`, true));
+        e.clozeMedium.forEach((c, i) => validateCloze(c, `clozeMedium[${i}]`, 'same'));
       }
       if (!e.clozeHard) {
         fail(`${e.entryId}: missing clozeHard`);
       } else {
-        validateCloze(e.clozeHard, 'clozeHard', true);
+        validateCloze(e.clozeHard, 'clozeHard', 'same');
       }
     }
     ok(`Unit ${unit}: ${data.entries.length} enriched entries valid`);

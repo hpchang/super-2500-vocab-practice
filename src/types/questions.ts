@@ -22,7 +22,7 @@ export interface ClozeQuestion {
   clue: string;
   /** The correct answer's entryId. */
   answerEntryId: string;
-  /** Three distractor entryIds; all same POS as the answer. */
+  /** Three distractor entryIds; POS policy depends on the difficulty tier. */
   distractorEntryIds: [string, string, string];
 }
 
@@ -41,7 +41,7 @@ export interface EnrichedEntry {
   source: string;
   /** Legacy single cloze question (used by non-adaptive cloze, choice/spelling distractors). */
   cloze: ClozeQuestion;
-  /** Cloze sentences for the easy tier (2 questions, cross-POS distractors). */
+  /** Easy cloze sentences (2 questions, strong clues; same-POS preferred). */
   clozeEasy: ClozeQuestion[];
   /** Cloze sentences for the medium tier (2 questions, same-POS distractors). */
   clozeMedium: ClozeQuestion[];

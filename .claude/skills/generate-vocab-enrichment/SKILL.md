@@ -31,7 +31,7 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
       "status": "reviewed",
       "source": "人工編寫",
       "cloze": { "sentence": "We live in a small ___.", "fullSentence": "We live in a small apartment.", "translation": "我們住在一間小公寓裡。", "clue": "住的地方，通常在大樓裡", "answerEntryId": "u11:apartment", "distractorEntryIds": ["u11:balcony", "u11:kitchen", "u11:bedroom"] },
-      "clozeEasy": [ /* 2 題，跨詞性干擾 */ ],
+      "clozeEasy": [ /* 2 題，強線索；同詞性優先 */ ],
       "clozeMedium": [ /* 2 題，同詞性干擾 */ ],
       "clozeHard": { /* 1 題，同詞性 + 語意相近干擾 */ }
     }
@@ -55,22 +55,23 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 - `status` 一律 `reviewed`；`source` 一律 `人工編寫`
 - **5 題情境填空**，每題為 `ClozeQuestion`（sentence 含 `___`、fullSentence、translation、clue、answerEntryId、distractorEntryIds[3]）：
   - `cloze`：1 題，**同詞性**干擾（供非適性填空／選擇題干擾項用）
-  - `clozeEasy`：2 題，**跨詞性**干擾（noun 對 verb/adjective 等，明顯易判）
-  - `clozeMedium`：2 題，**同詞性**干擾（須靠語意才能選）
-  - `clozeHard`：1 題，**同詞性 + 語意相近**干擾（最難）
+  - `clozeEasy`：2 題，提供**強而直接的線索**；同詞性干擾優先，必要時可跨詞性
+  - `clozeMedium`：2 題，**同詞性**干擾，以搭配、功能或語意區分
+  - `clozeHard`：1 題，**相關／易混淆的同詞性**干擾，由上下文唯一區分
 
 ## 干擾項規則（validate-data 會強制檢查）
 
 - 4 個選項（答案 + 3 干擾）必須**全部唯一**。
 - 干擾項 entryId 必須存在於 vocab.json（可跨 Unit）。
-- easy 的 3 個干擾項必須與答案**不同詞性**。
+- easy 可使用同詞性或跨詞性干擾項；優先使用同詞性但語意差異明顯的選項，不可只靠詞性排除。
 - medium / hard / cloze 的干擾項必須與答案**同詞性**。
-- hard 干擾項還須與答案**語意相近**（e.g. apartment 配 house/room/building）。
+- hard 干擾項須與答案相關或容易混淆，但句中必須有決定性線索排除其他選項。
 - 干擾項最好取自同 Unit 或鄰近 Unit 的重要字，學生較熟。
 
 ## 句子品質要求
 
-- `sentence` 的 `___` 位置要讓答案在文法上唯一合理；**干擾項填入後文法也要成立**（同詞性干擾尤其如此），但語意不合。
+- `sentence` 必須提供決定性線索；四個選項逐一填入後，只有答案同時符合文法與語意。
+- 題幹其他位置不得提前出現答案或任何干擾選項，也避免缺乏限制的列舉型句子。
 - `fullSentence` = sentence 填入答案後的完整句。
 - 句子用國中生程度英文；繁中翻譯、`clue` 用繁中。
 - `clue` 是答後提示（繁中短語），不是答案。
@@ -80,7 +81,7 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 
 1. 生成後跑 `npx tsx scripts/validate-data.ts`，必須 **0 errors**。常見錯誤與修法：
    - `distractor not in vocab` → 干擾項不在任何已匯入 Unit，換一個已匯入的 entryId。
-   - `should be cross-POS` / `POS !=` → easy 誤用同詞性、或 medium/hard 誤用跨詞性，改干擾項。
+   - `POS !=` → medium/hard/cloze 誤用跨詞性，改用同詞性干擾項。
    - `options not unique` → 干擾項與答案重複，換一個。
    - `missing blank` / `missing clue` / `need 3 distractors` → 補欄位。
 2. 合併：把新檔案放到 `src/data/enrichment/`，然後在 `src/lib/data.ts` 的 `ENRICHMENTS` 註冊 `'<n>': enrichment<n> as EnrichmentData`，並新增對應 `import enrichment<n> from '@/data/enrichment/units-<n>.json'`。

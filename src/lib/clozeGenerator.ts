@@ -3,9 +3,9 @@ import { getEnrichedEntry } from './data';
 
 /**
  * Difficulty levels for cloze questions.
- * - easy:   human sentence, cross-POS distractors (e.g. noun vs verb — easy to rule out)
- * - medium: human sentence, same-POS distractors (must use meaning to choose)
- * - hard:   human sentence, same-POS + semantically near distractors
+ * - easy:   strong decisive clue; same-POS distractors preferred, cross-POS allowed
+ * - medium: same-POS distractors distinguished by meaning, function, or collocation
+ * - hard:   related same-POS distractors, uniquely resolved by contextual detail
  *
  * Every question and its distractors are hand-authored in the enrichment data
  * (clozeEasy / clozeMedium / clozeHard). This generator only assembles them,

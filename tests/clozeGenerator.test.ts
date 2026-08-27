@@ -17,8 +17,8 @@ function loadEnrichment(unit: string) {
 
 /**
  * The cloze generator assembles hand-authored sentences from the enrichment
- * data: 2 easy + 2 medium + 1 hard per entry. Easy distractors are cross-POS,
- * medium/hard distractors are same-POS. Every question is a human sentence,
+ * data: 2 easy + 2 medium + 1 hard per entry. Easy distractors may use
+ * any POS; medium/hard distractors are same-POS. Every question is a human sentence,
  * never a fabricated template.
  */
 describe('cloze generator (human example sentences)', () => {
@@ -43,7 +43,7 @@ describe('cloze generator (human example sentences)', () => {
       }
     });
 
-    it(`Unit ${unit}: options unique; easy distractors cross-POS, medium/hard same-POS`, () => {
+    it(`Unit ${unit}: options unique; medium/hard distractors same-POS`, () => {
       for (const e of en.entries) {
         const gen = generateClozeForEntry(e.entryId);
         for (const g of gen) {
@@ -52,9 +52,7 @@ describe('cloze generator (human example sentences)', () => {
           for (const d of g.cloze.distractorEntryIds) {
             const de = getEnrichedEntry(d);
             expect(de, `${e.entryId} distractor ${d}`).toBeDefined();
-            if (g.difficulty === 'easy') {
-              expect(de!.pos, `${e.entryId} ${d} easy POS`).not.toBe(e.pos);
-            } else {
+            if (g.difficulty !== 'easy') {
               expect(de!.pos, `${e.entryId} ${d} ${g.difficulty} POS`).toBe(e.pos);
             }
           }
