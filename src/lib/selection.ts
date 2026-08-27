@@ -59,21 +59,34 @@ export const DEFAULT_BATCH_SIZE: BatchSize = 10;
 
 /**
  * Build a batch from selected entries, capped at batchSize.
- * Unpracticed entries (no progress record) are prioritized so a new
- * session does not repeat words already practiced; practiced entries
- * fill the remainder only when there are not enough unpracticed ones.
- * Keeps the source order (alphabetical by workbook) for predictability.
+ * Within the batch, entries are grouped by priority so repeated
+ * sessions surface the words that most need work first:
+ *   1. wrong-answer queue (inWrongQueue)
+ *   2. due for review      (isDueForReview)
+ *   3. unpracticed         (no progress record yet)
+ *   4. the rest            (practiced but not due)
+ * Source order (alphabetical by workbook) is kept within each group,
+ * so the first session (empty progress) still starts at the head.
  */
 export function buildBatch(
   entries: VocabEntry[],
   batchSize: BatchSize,
   progress?: Record<string, EntryProgress>,
+  now: number = Date.now(),
 ): VocabEntry[] {
   if (!progress) return entries.slice(0, batchSize);
-  const unpracticed = entries.filter((e) => !progress[e.entryId]);
-  if (unpracticed.length >= batchSize) return unpracticed.slice(0, batchSize);
-  const practiced = entries.filter((e) => progress[e.entryId]);
-  return [...unpracticed, ...practiced].slice(0, batchSize);
+  const wrong: VocabEntry[] = [];
+  const due: VocabEntry[] = [];
+  const unpracticed: VocabEntry[] = [];
+  const rest: VocabEntry[] = [];
+  for (const e of entries) {
+    const p = progress[e.entryId];
+    if (p?.inWrongQueue) wrong.push(e);
+    else if (!p) unpracticed.push(e);
+    else if (isDueForReview(p, now)) due.push(e);
+    else rest.push(e);
+  }
+  return [...wrong, ...due, ...unpracticed, ...rest].slice(0, batchSize);
 }
 
 export function isDueForReview(p: EntryProgress, now: number): boolean {

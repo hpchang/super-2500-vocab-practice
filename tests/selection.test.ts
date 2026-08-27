@@ -29,41 +29,31 @@ function practiced(entryId: string): EntryProgress {
   };
 }
 
+function inWrongQueue(entryId: string): EntryProgress {
+  return {
+    entryId,
+    stage: 'learning',
+    totalAnswered: 1,
+    totalCorrect: 0,
+    totalWrong: 1,
+    streak: 0,
+    lastAnsweredAt: Date.now(),
+    nextReviewAt: Date.now() - 1000,
+    inWrongQueue: true,
+    lastWrongType: 'en2zh',
+    wrongCount: 1,
+  };
+}
+
+function due(entryId: string): EntryProgress {
+  return {
+    ...practiced(entryId),
+    nextReviewAt: Date.now() - 1000,
+  };
+}
+
 describe('buildBatch', () => {
   const entries = [entry('a'), entry('b'), entry('c'), entry('d'), entry('e')];
-
-  it('prioritizes unpracticed entries over practiced ones', () => {
-    const progress = { b: practiced('b'), d: practiced('d') };
-    const batch = buildBatch(entries, 5, progress);
-    expect(batch.map((e) => e.entryId)).toEqual(['a', 'c', 'e', 'b', 'd']);
-  });
-
-  it('fills the batch with practiced entries when unpracticed run out', () => {
-    const progress = { b: practiced('b'), d: practiced('d') };
-    const batch = buildBatch(entries, 5, progress);
-    // a, c, e (unpracticed) then b, d (practiced, workbook order).
-    expect(batch.map((e) => e.entryId)).toEqual(['a', 'c', 'e', 'b', 'd']);
-  });
-
-  it('falls back to practiced-only order once everything is practiced', () => {
-    const progress = Object.fromEntries(
-      entries.map((e) => [e.entryId, practiced(e.entryId)]),
-    );
-    const batch = buildBatch(entries, 5, progress);
-    expect(batch.map((e) => e.entryId)).toEqual(['a', 'b', 'c', 'd', 'e']);
-  });
-
-  it('keeps workbook order within each group', () => {
-    const progress = { c: practiced('c'), a: practiced('a') };
-    // unpracticed b, d, e in order; practiced a, c in order.
-    expect(buildBatch(entries, 5, progress).map((e) => e.entryId)).toEqual([
-      'b',
-      'd',
-      'e',
-      'a',
-      'c',
-    ]);
-  });
 
   it('without progress keeps the original behavior (head slice)', () => {
     expect(buildBatch(entries, 5).map((e) => e.entryId)).toEqual([
@@ -73,6 +63,73 @@ describe('buildBatch', () => {
       'd',
       'e',
     ]);
+  });
+
+  it('prioritizes wrong-queue entries, then due, then unpracticed, then rest', () => {
+    // a: wrong queue, b: due, c: unpracticed, d: practiced-not-due, e: unpracticed
+    const progress = {
+      a: inWrongQueue('a'),
+      b: due('b'),
+      d: practiced('d'),
+    };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['a', 'b', 'c', 'e', 'd']);
+  });
+
+  it('wrong-queue entries always come first even when others are unpracticed', () => {
+    const progress = { c: inWrongQueue('c') };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    // c (wrong) first, then unpracticed a, b, d, e in workbook order.
+    expect(batch.map((e) => e.entryId)).toEqual(['c', 'a', 'b', 'd', 'e']);
+  });
+
+  it('due entries rank above unpracticed ones', () => {
+    const progress = { b: due('b') };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['b', 'a', 'c', 'd', 'e']);
+  });
+
+  it('fills the batch with the rest once higher-priority groups are exhausted', () => {
+    // Every entry has progress; a and b are due, c/d/e practiced-not-due.
+    const progress = {
+      a: due('a'),
+      b: due('b'),
+      c: practiced('c'),
+      d: practiced('d'),
+      e: practiced('e'),
+    };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['a', 'b', 'c', 'd', 'e']);
+  });
+
+  it('caps the batch at batchSize while preserving the priority order', () => {
+    const many = [
+      entry('a'),
+      entry('b'),
+      entry('c'),
+      entry('d'),
+      entry('e'),
+      entry('f'),
+      entry('g'),
+      entry('h'),
+    ];
+    const progress = {
+      a: inWrongQueue('a'),
+      b: due('b'),
+    };
+    // a (wrong), b (due), then unpracticed c, d, e in workbook order; capped at 5.
+    const batch = buildBatch(many, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['a', 'b', 'c', 'd', 'e']);
+  });
+
+  it('keeps workbook order within each group', () => {
+    // c is wrong, a is wrong too → wrong group in workbook order a, c.
+    const progress = {
+      c: inWrongQueue('c'),
+      a: inWrongQueue('a'),
+    };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['a', 'c', 'b', 'd', 'e']);
   });
 });
 
