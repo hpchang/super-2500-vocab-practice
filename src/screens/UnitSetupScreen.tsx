@@ -62,7 +62,10 @@ export function UnitSetupScreen({
     [vocabUnit, progress.entries, mode, customIds],
   );
 
-  const batch = useMemo(() => buildBatch(filtered, batchSize), [filtered, batchSize]);
+  const batch = useMemo(
+    () => buildBatch(filtered, batchSize, progress.entries),
+    [filtered, batchSize, progress.entries],
+  );
 
   if (!vocabUnit) {
     return (

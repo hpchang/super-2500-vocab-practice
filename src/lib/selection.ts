@@ -59,13 +59,21 @@ export const DEFAULT_BATCH_SIZE: BatchSize = 10;
 
 /**
  * Build a batch from selected entries, capped at batchSize.
+ * Unpracticed entries (no progress record) are prioritized so a new
+ * session does not repeat words already practiced; practiced entries
+ * fill the remainder only when there are not enough unpracticed ones.
  * Keeps the source order (alphabetical by workbook) for predictability.
  */
 export function buildBatch(
   entries: VocabEntry[],
   batchSize: BatchSize,
+  progress?: Record<string, EntryProgress>,
 ): VocabEntry[] {
-  return entries.slice(0, batchSize);
+  if (!progress) return entries.slice(0, batchSize);
+  const unpracticed = entries.filter((e) => !progress[e.entryId]);
+  if (unpracticed.length >= batchSize) return unpracticed.slice(0, batchSize);
+  const practiced = entries.filter((e) => progress[e.entryId]);
+  return [...unpracticed, ...practiced].slice(0, batchSize);
 }
 
 export function isDueForReview(p: EntryProgress, now: number): boolean {
