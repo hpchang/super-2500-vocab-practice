@@ -33,16 +33,19 @@ const DIFFICULTY_OPTIONS: { key: DifficultyMode; label: string }[] = [
 export function UnitSetupScreen({
   unit,
   navigate,
+  type,
 }: {
   unit: string;
   navigate: (to: string) => void;
+  /** Pre-selected question type (from "下一批"), falls back to 'mixed'. */
+  type?: QuestionType | 'mixed';
 }) {
   const vocabUnit = getUnit(unit);
   const progress = useProgress();
   const [mode, setMode] = useState<FilterMode>('important');
   const [customIds, setCustomIds] = useState<Set<string>>(new Set());
   const [batchSize, setBatchSize] = useState<BatchSize>(DEFAULT_BATCH_SIZE);
-  const [qType, setQType] = useState<QuestionType | 'mixed'>('mixed');
+  const [qType, setQType] = useState<QuestionType | 'mixed'>(type ?? 'mixed');
   const [difficulty, setDifficulty] = useState<DifficultyMode>('adaptive');
 
   const enrichment = getEnrichment(unit);

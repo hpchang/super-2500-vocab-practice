@@ -107,7 +107,7 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         >
           重練錯題
         </button>
-        <button className="btn secondary" onClick={() => navigate(`/unit/${result.unit}/setup`)}>
+        <button className="btn secondary" onClick={() => navigate(`/unit/${result.unit}/setup/${result.type}`)}>
           下一批
         </button>
       </div>
