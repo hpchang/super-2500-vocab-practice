@@ -3,7 +3,7 @@ name: generate-vocab-enrichment
 description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JSON（中文、詞性、例句、5 題情境填空），供 subagent 並行生成。格式、品質規則、驗證與合併步驟都寫在下方。
 ---
 
-# 產製 Vocabulary Enrichment（Unit 1–10、13–32）
+# 產製 Vocabulary Enrichment（Unit 1–10、19–32）
 
 為指定 Unit 產生 `src/data/enrichment/units-<n>.json`。一個 Unit 一檔。此 skill 供「主 session 派 subagent 並行產製」與「subagent 自行生成」共用。
 
@@ -41,7 +41,9 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 
 - `entryId` = `u<unit>:<word>`，字面照 vocab.json 的 entryId，不可改。
 - `pos` 只用五種：`noun | verb | adjective | adverb | phrase`。
-- `spellingHint`：字母以 `-` 連字（多字片語也用 `-` 分隔），全部小寫。
+- `spellingHint`：字母以 `-` 連字，**片語的字與字之間用空格**（如 `living room` →
+  `l-i-v-i-n-g r-o-o-m`、`a few` → `a f-e-w`），全部小寫。含標點的字省略標點
+  （`a.m.` → `a-m`）。
 - 範例參考 `src/data/enrichment/units-11.json`。
 
 ## 每字的內容要求
@@ -84,15 +86,33 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
    - `POS !=` → medium/hard/cloze 誤用跨詞性，改用同詞性干擾項。
    - `options not unique` → 干擾項與答案重複，換一個。
    - `missing blank` / `missing clue` / `need 3 distractors` → 補欄位。
-2. 合併：把新檔案放到 `src/data/enrichment/`，然後在 `src/lib/data.ts` 的 `ENRICHMENTS` 註冊 `'<n>': enrichment<n> as EnrichmentData`，並新增對應 `import enrichment<n> from '@/data/enrichment/units-<n>.json'`。
+2. 合併：把新檔案放到 `src/data/enrichment/`。registry 用 `import.meta.glob`
+   自動發現（P1-8 起不需要改 `data.ts`），但**要補兩處 `UNIT_METADATA`**
+   （`src/lib/enrichmentRegistry.ts` 與 `scripts/validate-data.ts`，數字要一致），
+   total/important 以 import-workbook dry-run 輸出為準。
 3. 重跑 `npx tsx scripts/validate-data.ts` 確認 0 errors。
 4. 建議抽檢 3–5 句例句／填空句的英文自然度（subagent 產製品質可能不均）。
 
 ## 產製規模建議
 
-- 每 Unit 約 90–130 字。一次 subagent 負責 1–2 個 Unit。
-- 可並行多個 subagent（各寫不同檔案，無衝突）。
-- 全部完成後主 session 統一註冊 `src/lib/data.ts` 並驗證、commit。
+- 每 Unit 約 24–212 字。一次 subagent 負責 1 個 Unit（212 字的大 Unit 也做得到，
+  但要提醒 subagent 用 part 檔分批寫再合併）。
+- 可並行多個 subagent，但注意並行陷阱（見下）。
+- 全部完成後主 session 統一稽核、合併、補 UNIT_METADATA、驗證、commit。
+
+## 並行 subagent 的已知陷阱（Unit 13–18 實戰）
+
+1. **staging 暫存檔撞名**：多個 agent 共用 `.staging/` 時，part1/part2 這類
+   檔名會互相覆蓋（U16 曾因此遺失 12 個 entries）。**暫存檔必須帶 Unit 號**
+   （如 `units-16.part1.json`），且合併後立即刪除暫存檔。
+2. **稽核腳本要先用「兩輪」**：先全部讀入並註冊每個 entry 的 pos，再開始驗證。
+   一次只註冊當前檔案會把「同檔案較後面 entry 當干擾項」誤判成 pos mismatch
+   （第一輪曾誤報 2,882 個錯誤）。
+3. **自檢 regex 別比實際慣例嚴**：spellingHint 允許 `[a-z- ]`（含空格），
+   只查 `[a-z-]` 會誤報所有片語。
+4. **派發 prompt 要點明跨 Unit 干擾項的 pos 依據**：medium/hard/cloze 干擾項
+   最安全的做法是用本 Unit 內部同詞性字；跨 Unit 時 agent 需自行核對目標字的
+   pos（可讀 units-11/12 enrichment 或同批 staging 檔）。
 
 ## 完成定義
 
