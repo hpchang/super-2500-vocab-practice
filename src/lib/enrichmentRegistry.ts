@@ -33,4 +33,10 @@ export const ENRICHED_UNITS: string[] = Object.keys(ENRICHMENTS).sort(
 export const UNIT_METADATA: Record<string, { total: number; important: number }> = {
   '11': { total: 123, important: 65 },
   '12': { total: 130, important: 76 },
+  '13': { total: 212, important: 107 },
+  '14': { total: 87, important: 58 },
+  '15': { total: 24, important: 16 },
+  '16': { total: 73, important: 62 },
+  '17': { total: 30, important: 18 },
+  '18': { total: 73, important: 39 },
 };
