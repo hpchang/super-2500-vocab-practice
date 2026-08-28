@@ -104,6 +104,17 @@ npx tsx scripts/validate-data.ts     驗證資料
    - 產製流程：subagent 分批（A–F）寫入 `src/data/enrichment/.staging/` → 稽核腳本檢查 7 個品質維度 → 合併回 `units-12.json` → 刪除 staging。
    - 驗證：`tests/unit11ClozeData.test.ts` 參數化涵蓋 Unit 11＋12（87→97 tests）、`validate-data` 0 errors、build 成功。
 
+4. **Code review 完成，修復計畫已定案**（2026-08-28）。
+   - 全專案唯讀審查（工程＋UI＋UX，兩輪交叉評審已達共識）。
+   - 基線：97 tests 全過、build 成功、validate 0 errors、tsc 通過；無 Critical 問題。
+   - **執行依據：`docs/code-review-fixes.md`**——P0（12 項學習正確性/CI/a11y）→
+     P1（IA 重整＋32 Units registry/importer）→ P2（resume/dynamic import/設定頁）。
+   - P0 重點：待複習 now=0（`selection.ts`）、首頁固定 U11、跨 Unit 錯題丟題、
+     adaptive 50% 邊界、familiar 排程語意、clozeUsed reset、固定難度不延續、
+     storage adapter、a11y 基本盤、對比改 #166534/#92400E/#B91C1C、CI 補 test+validate。
+   - UI/UX 共識：不採 stepper；一鍵開始＋進階 drawer；Results 三 KPI；
+     錯題按 Unit 分組；常駐「進度與設定」；resume 須用版本化 localStorage。
+
 ## 注意事項
 
 - 全程繁體中文介面與內容（非簡體）。
