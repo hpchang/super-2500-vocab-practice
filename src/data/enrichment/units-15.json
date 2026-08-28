@@ -1,0 +1,2070 @@
+{
+  "schemaVersion": 1,
+  "unit": "15",
+  "entries": [
+    {
+      "entryId": "u15:a few",
+      "zh": "一些；幾個",
+      "pos": "phrase",
+      "example": "I have a few good friends at school.",
+      "exampleZh": "我在學校有幾個好朋友。",
+      "spellingHint": "a f-e-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There are ___ cookies left in the box, only three or four.",
+        "fullSentence": "There are a few cookies left in the box, only three or four.",
+        "translation": "盒子裡還剩下幾塊餅乾，只有三四塊。",
+        "clue": "數量不多，但有一些",
+        "answerEntryId": "u15:a few",
+        "distractorEntryIds": [
+          "u15:a little",
+          "u15:many",
+          "u15:all"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We still have ___ minutes before the bus comes, so let's sit down.",
+          "fullSentence": "We still have a few minutes before the bus comes, so let's sit down.",
+          "translation": "公車來之前我們還有幾分鐘，所以先坐下吧。",
+          "clue": "有一些時間，但不多",
+          "answerEntryId": "u15:a few",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:less",
+            "u15:total"
+          ]
+        },
+        {
+          "sentence": "___ students joined the club this year, maybe five in all.",
+          "fullSentence": "a few students joined the club this year, maybe five in all.",
+          "translation": "今年有幾個學生加入社團，總共大概五個。",
+          "clue": "人數少，但不是零",
+          "answerEntryId": "u15:a few",
+          "distractorEntryIds": [
+            "u15:plus",
+            "u15:minus",
+            "u15:times"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The test was hard, but ___ students still passed it, so it was not impossible.",
+          "fullSentence": "The test was hard, but a few students still passed it, so it was not impossible.",
+          "translation": "考試很難，但有幾個學生還是通過了，所以並非不可能。",
+          "clue": "可數的學生，數量少但有人通過",
+          "answerEntryId": "u15:a few",
+          "distractorEntryIds": [
+            "u15:a lot",
+            "u15:few",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "Mom bought ___ apples at the market, just enough for today.",
+          "fullSentence": "Mom bought a few apples at the market, just enough for today.",
+          "translation": "媽媽在市場買了幾個蘋果，剛好夠今天吃。",
+          "clue": "可數的蘋果，數量剛好夠用",
+          "answerEntryId": "u15:a few",
+          "distractorEntryIds": [
+            "u15:little",
+            "u15:several",
+            "u15:both"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Only ___ visitors came to the small library on the rainy day, but everyone found a good book.",
+        "fullSentence": "Only a few visitors came to the small library on the rainy day, but everyone found a good book.",
+        "translation": "雨天那天只有幾位訪客來到這間小圖書館，但每個人都找到了一本好書。",
+        "clue": "only 加上可數複數，表示數量少但正面",
+        "answerEntryId": "u15:a few",
+        "distractorEntryIds": [
+          "u15:few",
+          "u15:much",
+          "u15:more"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:a little",
+      "zh": "一點；少量",
+      "pos": "phrase",
+      "example": "I feel a little tired tonight.",
+      "exampleZh": "我今晚覺得有點累。",
+      "spellingHint": "a l-i-t-t-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is ___ milk in the fridge, enough for one glass.",
+        "fullSentence": "There is a little milk in the fridge, enough for one glass.",
+        "translation": "冰箱裡有一點牛奶，足夠倒一杯。",
+        "clue": "不可數名詞，量少但有一些",
+        "answerEntryId": "u15:a little",
+        "distractorEntryIds": [
+          "u15:a few",
+          "u15:many",
+          "u15:both"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Can I have ___ sugar in my tea? Just one spoon.",
+          "fullSentence": "Can I have a little sugar in my tea? Just one spoon.",
+          "translation": "我的茶裡可以加一點糖嗎？只要一匙。",
+          "clue": "不可數的糖，要少量",
+          "answerEntryId": "u15:a little",
+          "distractorEntryIds": [
+            "u15:few",
+            "u15:several",
+            "u15:minus"
+          ]
+        },
+        {
+          "sentence": "She was ___ nervous before the contest, but she did well.",
+          "fullSentence": "She was a little nervous before the contest, but she did well.",
+          "translation": "比賽前她有點緊張，但表現得很好。",
+          "clue": "程度輕微：有一點",
+          "answerEntryId": "u15:a little",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:much",
+            "u15:number"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Don't worry — we still have ___ time before the movie starts.",
+          "fullSentence": "Don't worry — we still have a little time before the movie starts.",
+          "translation": "別擔心——電影開演前我們還有一點時間。",
+          "clue": "不可數的時間，還夠用",
+          "answerEntryId": "u15:a little",
+          "distractorEntryIds": [
+            "u15:a few",
+            "u15:many",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "The soup needs ___ salt, or it will taste too plain.",
+          "fullSentence": "The soup needs a little salt, or it will taste too plain.",
+          "translation": "湯需要一點鹽，不然會太清淡。",
+          "clue": "不可數的鹽，只要少量",
+          "answerEntryId": "u15:a little",
+          "distractorEntryIds": [
+            "u15:few",
+            "u15:any",
+            "u15:a lot"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Grandpa knows ___ about computers, so he asked me to help him send an email.",
+        "fullSentence": "Grandpa knows a little about computers, so he asked me to help him send an email.",
+        "translation": "爺爺懂一點電腦，所以他請我幫他寄電子郵件。",
+        "clue": "懂一些但不多，所以需要幫忙",
+        "answerEntryId": "u15:a little",
+        "distractorEntryIds": [
+          "u15:a few",
+          "u15:more",
+          "u15:all"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:a lot",
+      "zh": "很多；非常",
+      "pos": "phrase",
+      "example": "Thanks a lot for your help.",
+      "exampleZh": "非常謝謝你的幫忙。",
+      "spellingHint": "a l-o-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It rained ___ last night, and the streets were still wet this morning.",
+        "fullSentence": "It rained a lot last night, and the streets were still wet this morning.",
+        "translation": "昨晚雨下得很多，今天早上街道還是濕的。",
+        "clue": "修飾動詞，表示程度很大",
+        "answerEntryId": "u15:a lot",
+        "distractorEntryIds": [
+          "u15:a few",
+          "u15:a little",
+          "u15:several"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I like my new school ___ because the teachers are kind.",
+          "fullSentence": "I like my new school a lot because the teachers are kind.",
+          "translation": "我非常喜歡我的新學校，因為老師們很親切。",
+          "clue": "表示非常喜歡，程度強",
+          "answerEntryId": "u15:a lot",
+          "distractorEntryIds": [
+            "u15:less",
+            "u15:few",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "We learned ___ this semester: more than two hundred new words.",
+          "fullSentence": "We learned a lot this semester: more than two hundred new words.",
+          "translation": "這學期我們學了很多：超過兩百個新單字。",
+          "clue": "次數非常多",
+          "answerEntryId": "u15:a lot",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:any",
+            "u15:times"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Thanks ___ for carrying my heavy bag upstairs.",
+          "fullSentence": "Thanks a lot for carrying my heavy bag upstairs.",
+          "translation": "非常謝謝你幫我把重重的袋子搬上樓。",
+          "clue": "感謝的程度很強",
+          "answerEntryId": "u15:a lot",
+          "distractorEntryIds": [
+            "u15:a little",
+            "u15:few",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "Her English has improved ___ this semester, from 60 points to 90.",
+          "fullSentence": "Her English has improved a lot this semester, from 60 points to 90.",
+          "translation": "這學期她的英文進步了很多，從 60 分到 90 分。",
+          "clue": "數量非常多：超過兩百",
+          "answerEntryId": "u15:a lot",
+          "distractorEntryIds": [
+            "u15:a little",
+            "u15:few",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "He practices the piano every single day, so he has improved ___ this year.",
+        "fullSentence": "He practices the piano every single day, so he has improved a lot this year.",
+        "translation": "他每天練鋼琴，所以今年進步了很多。",
+        "clue": "每天練習，所以進步幅度大",
+        "answerEntryId": "u15:a lot",
+        "distractorEntryIds": [
+          "u15:a little",
+          "u15:less",
+          "u15:few"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:add",
+      "zh": "加；增加；添加",
+      "pos": "verb",
+      "example": "Add some hot water to the soup.",
+      "exampleZh": "在湯裡加一些熱水。",
+      "spellingHint": "a-d-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "If you ___ 5 and 3, you will get 8.",
+        "fullSentence": "If you add 5 and 3, you will get 8.",
+        "translation": "如果你把 5 和 3 相加，就會得到 8。",
+        "clue": "數字相加的運算",
+        "answerEntryId": "u15:add",
+        "distractorEntryIds": [
+          "u11:build",
+          "u11:decorate",
+          "u11:fix"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Please ___ your name to the list before Friday.",
+          "fullSentence": "Please add your name to the list before Friday.",
+          "translation": "請在星期五前把你的名字加到名單上。",
+          "clue": "把東西加進去",
+          "answerEntryId": "u15:add",
+          "distractorEntryIds": [
+            "u11:wash",
+            "u11:build",
+            "u11:sweep"
+          ]
+        },
+        {
+          "sentence": "Mom will ___ two eggs to the shopping cart.",
+          "fullSentence": "Mom will add two eggs to the shopping cart.",
+          "translation": "媽媽會把兩顆蛋加進購物車。",
+          "clue": "把物品加入清單或車子",
+          "answerEntryId": "u15:add",
+          "distractorEntryIds": [
+            "u11:clean",
+            "u11:repair",
+            "u12:drive"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The cook asked me to ___ some pepper to make the dish taste better.",
+          "fullSentence": "The cook asked me to add some pepper to make the dish taste better.",
+          "translation": "廚師請我加一些胡椒，讓這道菜更好吃。",
+          "clue": "加入調味料讓味道更好",
+          "answerEntryId": "u15:add",
+          "distractorEntryIds": [
+            "u11:decorate",
+            "u11:fix",
+            "u12:land"
+          ]
+        },
+        {
+          "sentence": "First, ___ all the numbers together, and then tell me the answer.",
+          "fullSentence": "First, add all the numbers together, and then tell me the answer.",
+          "translation": "首先，把所有數字加起來，然後告訴我答案。",
+          "clue": "把數字合在一起計算",
+          "answerEntryId": "u15:add",
+          "distractorEntryIds": [
+            "u11:tidy",
+            "u11:repair",
+            "u11:clean"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The teacher asked us to ___ up the scores of both teams to see who won.",
+        "fullSentence": "The teacher asked us to add up the scores of both teams to see who won.",
+        "translation": "老師要我們把兩隊的分數加總，看看誰贏了。",
+        "clue": "把分數加總起來比較",
+        "answerEntryId": "u15:add",
+        "distractorEntryIds": [
+          "u15:divide",
+          "u11:dial",
+          "u11:tidy"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:addition",
+      "zh": "加法；增加",
+      "pos": "noun",
+      "example": "We learned addition in math class today.",
+      "exampleZh": "我們今天在數學課上學了加法。",
+      "spellingHint": "a-d-d-i-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "In math class, we practiced ___ first, like 4 plus 5 equals 9.",
+        "fullSentence": "In math class, we practiced addition first, like 4 plus 5 equals 9.",
+        "translation": "在數學課上，我們先練習加法，例如 4 加 5 等於 9。",
+        "clue": "把數字相加的運算名稱",
+        "answerEntryId": "u15:addition",
+        "distractorEntryIds": [
+          "u15:division",
+          "u15:number",
+          "u15:total"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ of a new library made the students very happy.",
+          "fullSentence": "The addition of a new library made the students very happy.",
+          "translation": "新圖書館的增加讓學生們非常開心。",
+          "clue": "新東西加入後的增加",
+          "answerEntryId": "u15:addition",
+          "distractorEntryIds": [
+            "u11:building",
+            "u11:furniture",
+            "u11:design"
+          ]
+        },
+        {
+          "sentence": "She is good at ___, so she finishes her math homework quickly.",
+          "fullSentence": "She is good at addition, so she finishes her math homework quickly.",
+          "translation": "她很擅長加法，所以很快就寫完數學作業。",
+          "clue": "一種數學運算",
+          "answerEntryId": "u15:addition",
+          "distractorEntryIds": [
+            "u11:brush",
+            "u11:hammer",
+            "u11:tape"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher wrote a simple ___ problem on the board: 12 + 7.",
+          "fullSentence": "The teacher wrote a simple addition problem on the board: 12 + 7.",
+          "translation": "老師在黑板上寫了一道簡單的加法題目：12 加 7。",
+          "clue": "用加號計算的題目",
+          "answerEntryId": "u15:addition",
+          "distractorEntryIds": [
+            "u15:division",
+            "u15:minus",
+            "u11:room"
+          ]
+        },
+        {
+          "sentence": "The new member was a great ___ to our basketball team.",
+          "fullSentence": "The new member was a great addition to our basketball team.",
+          "translation": "新成員是我們籃球隊很棒的助力。",
+          "clue": "增加的人讓團隊更好",
+          "answerEntryId": "u15:addition",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:total",
+            "u11:key"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Before students learn ___ and other harder operations, they must first master putting numbers together.",
+        "fullSentence": "Before students learn addition and other harder operations, they must first master putting numbers together.",
+        "translation": "在學生學會加法和其他更難的運算之前，必須先熟練把數字合在一起。",
+        "clue": "把數字合起來的基本運算",
+        "answerEntryId": "u15:addition",
+        "distractorEntryIds": [
+          "u15:division",
+          "u15:number",
+          "u15:total"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:all",
+      "zh": "全部；所有的",
+      "pos": "phrase",
+      "example": "All the students passed the test.",
+      "exampleZh": "全部的學生都通過了考試。",
+      "spellingHint": "a-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ the books on this shelf are about science.",
+        "fullSentence": "all the books on this shelf are about science.",
+        "translation": "這個書架上的書全部都是關於科學的。",
+        "clue": "沒有例外，每一本都是",
+        "answerEntryId": "u15:all",
+        "distractorEntryIds": [
+          "u15:both",
+          "u15:some",
+          "u15:several"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We spent ___ day at the beach and got very tired.",
+          "fullSentence": "We spent all day at the beach and got very tired.",
+          "translation": "我們一整天都在海灘，累壞了。",
+          "clue": "一整天，沒有少掉任何時間",
+          "answerEntryId": "u15:all",
+          "distractorEntryIds": [
+            "u15:any",
+            "u15:a few",
+            "u15:much"
+          ]
+        },
+        {
+          "sentence": "___ my friends came to my birthday party last night.",
+          "fullSentence": "all my friends came to my birthday party last night.",
+          "translation": "我所有的朋友昨晚都來參加我的生日派對。",
+          "clue": "每一個朋友都來了",
+          "answerEntryId": "u15:all",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:few",
+            "u15:plus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ the milk is gone, so we need to buy more at the store.",
+          "fullSentence": "all the milk is gone, so we need to buy more at the store.",
+          "translation": "牛奶全部沒了，所以我們要去商店再買一些。",
+          "clue": "不可數的牛奶，一點不剩",
+          "answerEntryId": "u15:all",
+          "distractorEntryIds": [
+            "u15:both",
+            "u15:a little",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "The teacher said, \"___ of you must bring your homework tomorrow.\"",
+          "fullSentence": "The teacher said, \"all of you must bring your homework tomorrow.\"",
+          "translation": "老師說：「你們全部的人明天都要交作業。」",
+          "clue": "班上每個人，沒有例外",
+          "answerEntryId": "u15:all",
+          "distractorEntryIds": [
+            "u15:both",
+            "u15:any",
+            "u15:a few"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The two brothers were tired after the long trip, but neither wanted to stop, so ___ of them kept walking.",
+        "fullSentence": "The two brothers were tired after the long trip, but neither wanted to stop, so all of them kept walking.",
+        "translation": "兩兄弟長途旅行後都累了，但沒有人想停下來，所以兩個人都繼續走。",
+        "clue": "the two 指剛好兩個人和兩個人的全部",
+        "answerEntryId": "u15:all",
+        "distractorEntryIds": [
+          "u15:both",
+          "u15:some",
+          "u15:much"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:any",
+      "zh": "任何；一些（用於否定句與疑問句）",
+      "pos": "phrase",
+      "example": "Do you have any questions?",
+      "exampleZh": "你有任何問題嗎？",
+      "spellingHint": "a-n-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There isn't ___ juice left in the bottle.",
+        "fullSentence": "There isn't any juice left in the bottle.",
+        "translation": "瓶子裡一點果汁都沒剩。",
+        "clue": "否定句中「一點也沒有」",
+        "answerEntryId": "u15:any",
+        "distractorEntryIds": [
+          "u15:some",
+          "u15:many",
+          "u15:both"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Are there ___ eggs in the fridge? I want to make a cake.",
+          "fullSentence": "Are there any eggs in the fridge? I want to make a cake.",
+          "translation": "冰箱裡有雞蛋嗎？我想做蛋糕。",
+          "clue": "疑問句問有沒有",
+          "answerEntryId": "u15:any",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:few",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "You can take ___ book you like from the shelf.",
+          "fullSentence": "You can take any book you like from the shelf.",
+          "translation": "你可以從書架上拿任何一本你喜歡的書。",
+          "clue": "隨便哪一本都可以",
+          "answerEntryId": "u15:any",
+          "distractorEntryIds": [
+            "u15:all",
+            "u15:several",
+            "u15:minus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I don't have ___ money with me, so I can't buy the ticket today.",
+          "fullSentence": "I don't have any money with me, so I can't buy the ticket today.",
+          "translation": "我身上沒帶任何錢，所以今天不能買票。",
+          "clue": "否定句：完全沒有",
+          "answerEntryId": "u15:any",
+          "distractorEntryIds": [
+            "u15:some",
+            "u15:a little",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "Did you see ___ of our classmates at the night market last weekend?",
+          "fullSentence": "Did you see any of our classmates at the night market last weekend?",
+          "translation": "上週末你在夜市有看到我們任何一個同學嗎？",
+          "clue": "疑問句：有沒有看到任何人",
+          "answerEntryId": "u15:any",
+          "distractorEntryIds": [
+            "u15:both",
+            "u15:more",
+            "u15:few"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "We can't wait ___ longer, or we will miss the last train to Taichung.",
+        "fullSentence": "We can't wait any longer, or we will miss the last train to Taichung.",
+        "translation": "我們不能再等了，不然會錯過去台中 的末班車。",
+        "clue": "否定句固定用法：不能再多一點",
+        "answerEntryId": "u15:any",
+        "distractorEntryIds": [
+          "u15:more",
+          "u15:some",
+          "u15:many"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:both",
+      "zh": "兩者（都）",
+      "pos": "phrase",
+      "example": "Both answers are correct.",
+      "exampleZh": "兩個答案都正確。",
+      "spellingHint": "b-o-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ of my parents are teachers, so they help me with homework.",
+        "fullSentence": "both of my parents are teachers, so they help me with homework.",
+        "translation": "我的父母兩人都是老師，所以他們會幫我做作業。",
+        "clue": "剛好兩個人，兩個都",
+        "answerEntryId": "u15:both",
+        "distractorEntryIds": [
+          "u15:all",
+          "u15:any",
+          "u15:several"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There are two cakes on the table, and ___ look delicious.",
+          "fullSentence": "There are two cakes on the table, and both look delicious.",
+          "translation": "桌上有兩個蛋糕，兩個看起來都很好吃。",
+          "clue": "兩個東西，兩個都",
+          "answerEntryId": "u15:both",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:much",
+            "u15:plus"
+          ]
+        },
+        {
+          "sentence": "My two best friends and I went to the movies, and the ___ of them love action films.",
+          "fullSentence": "My two best friends and I went to the movies, and the both of them love action films.",
+          "translation": "我和兩個好朋友去看電影，他們兩個都熱愛動作片。",
+          "clue": "the + 此字 + of them：那兩個人",
+          "answerEntryId": "u15:both",
+          "distractorEntryIds": [
+            "u15:a few",
+            "u15:little",
+            "u15:total"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "We can take ___ the stairs or the elevator; they go to the same floor.",
+          "fullSentence": "We can take both the stairs or the elevator; they go to the same floor.",
+          "translation": "樓梯或電梯我們都可以搭，兩者都到同一層樓。",
+          "clue": "兩個選擇，兩個都可以",
+          "answerEntryId": "u15:both",
+          "distractorEntryIds": [
+            "u15:all",
+            "u15:some",
+            "u15:few"
+          ]
+        },
+        {
+          "sentence": "___ Tom and Jerry enjoy playing chess after school.",
+          "fullSentence": "both Tom and Jerry enjoy playing chess after school.",
+          "translation": "Tom 和 Jerry 放學後都喜歡下棋。",
+          "clue": "A and B 兩個人，兩個都",
+          "answerEntryId": "u15:both",
+          "distractorEntryIds": [
+            "u15:any",
+            "u15:a little",
+            "u15:all"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I only invited Ben and Lisa, and ___ of them said yes, so two people are coming.",
+        "fullSentence": "I only invited Ben and Lisa, and both of them said yes, so two people are coming.",
+        "translation": "我只邀請了 Ben 和 Lisa，他們兩個都答應了，所以會來兩個人。",
+        "clue": "剛好兩個人，兩個都答應",
+        "answerEntryId": "u15:both",
+        "distractorEntryIds": [
+          "u15:all",
+          "u15:any",
+          "u15:more"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:divide",
+      "zh": "除；分成；劃分",
+      "pos": "verb",
+      "example": "Divide the pizza into eight pieces.",
+      "exampleZh": "把披薩分成八塊。",
+      "spellingHint": "d-i-v-i-d-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "If you ___ 12 by 4, the answer is 3.",
+        "fullSentence": "If you divide 12 by 4, the answer is 3.",
+        "translation": "如果你把 12 除以 4，答案是 3。",
+        "clue": "除法的運算",
+        "answerEntryId": "u15:divide",
+        "distractorEntryIds": [
+          "u11:wash",
+          "u11:sweep",
+          "u11:clean"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A long wall will ___ the garden into two parts.",
+          "fullSentence": "A long wall will divide the garden into two parts.",
+          "translation": "一道長牆將把花園分成兩部分。",
+          "clue": "把東西平均分開",
+          "answerEntryId": "u15:divide",
+          "distractorEntryIds": [
+            "u11:build",
+            "u11:wash",
+            "u11:lock"
+          ]
+        },
+        {
+          "sentence": "The teacher will ___ our class into four groups for the game.",
+          "fullSentence": "The teacher will divide our class into four groups for the game.",
+          "translation": "老師會把全班分成四組來玩遊戲。",
+          "clue": "分成幾組",
+          "answerEntryId": "u15:divide",
+          "distractorEntryIds": [
+            "u11:clean",
+            "u11:fix",
+            "u12:fly"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "A long wall ___ the garden into two parts.",
+          "fullSentence": "A long wall divide the garden into two parts.",
+          "translation": "一道長牆把花園分成兩部分。",
+          "clue": "把一個空間分開",
+          "answerEntryId": "u15:divide",
+          "distractorEntryIds": [
+            "u11:decorate",
+            "u11:sweep",
+            "u12:cross"
+          ]
+        },
+        {
+          "sentence": "To find the average, ___ the total by the number of students.",
+          "fullSentence": "To find the average, divide the total by the number of students.",
+          "translation": "要求平均，就把總數除以學生人數。",
+          "clue": "用除法求平均值",
+          "answerEntryId": "u15:divide",
+          "distractorEntryIds": [
+            "u11:tidy",
+            "u11:repair",
+            "u11:decorate"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The mother asked her twins to ___ the last cookie in half so each could have a piece.",
+        "fullSentence": "The mother asked her twins to divide the last cookie in half so each could have a piece.",
+        "translation": "媽媽要雙胞胎把最後一塊餅乾分成兩半，這樣每人都能吃到。",
+        "clue": "分成兩半，每人一份",
+        "answerEntryId": "u15:divide",
+        "distractorEntryIds": [
+          "u15:add",
+          "u11:dial",
+          "u11:tidy"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:division",
+      "zh": "除法；分配；部門",
+      "pos": "noun",
+      "example": "Division is harder than addition for me.",
+      "exampleZh": "對我來說，除法比加法難。",
+      "spellingHint": "d-i-v-i-s-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "In today's math class, we learned ___, like 20 divided by 5 equals 4.",
+        "fullSentence": "In today's math class, we learned division, like 20 divided by 5 equals 4.",
+        "translation": "在今天 的數學課上，我們學了除法，例如 20 除以 5 等於 4。",
+        "clue": "把數字平均分配的運算名稱",
+        "answerEntryId": "u15:division",
+        "distractorEntryIds": [
+          "u15:addition",
+          "u15:number",
+          "u15:total"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ of the cake among six friends was not easy.",
+          "fullSentence": "The division of the cake among six friends was not easy.",
+          "translation": "把蛋糕分給六個朋友並不容易。",
+          "clue": "把東西分給大家的動作名稱",
+          "answerEntryId": "u15:division",
+          "distractorEntryIds": [
+            "u11:design",
+            "u11:heat",
+            "u11:housework"
+          ]
+        },
+        {
+          "sentence": "My little brother needs more practice with ___ before the math test.",
+          "fullSentence": "My little brother needs more practice with division before the math test.",
+          "translation": "我弟弟在數學考試前需要多練習除法。",
+          "clue": "一種數學運算",
+          "answerEntryId": "u15:division",
+          "distractorEntryIds": [
+            "u11:rope",
+            "u11:sheet",
+            "u11:needle"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher wrote a ___ problem on the board: 36 ÷ 6.",
+          "fullSentence": "The teacher wrote a division problem on the board: 36 ÷ 6.",
+          "translation": "老師在黑板上寫了一道除法題目：36 除以 6。",
+          "clue": "用除號計算的題目",
+          "answerEntryId": "u15:division",
+          "distractorEntryIds": [
+            "u15:addition",
+            "u15:minus",
+            "u11:room"
+          ]
+        },
+        {
+          "sentence": "Our company's sales ___ moved to a bigger office last month.",
+          "fullSentence": "Our company's sales division moved to a bigger office last month.",
+          "translation": "我們公司的銷售部門上個月搬到了更大的辦公室。",
+          "clue": "公司裡的一個部門",
+          "answerEntryId": "u15:division",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:total",
+            "u11:way"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "To share 24 apples fairly among 8 baskets, students must use ___ instead of subtraction.",
+        "fullSentence": "To share 24 apples fairly among 8 baskets, students must use division instead of subtraction.",
+        "translation": "要公平地把 24 顆蘋果分進 8 個籃子，學生必須用除法而不是減法。",
+        "clue": "平均分配要用的運算",
+        "answerEntryId": "u15:division",
+        "distractorEntryIds": [
+          "u15:addition",
+          "u15:number",
+          "u11:pillow"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:double",
+      "zh": "兩倍；雙重的",
+      "pos": "phrase",
+      "example": "The price of eggs has doubled.",
+      "exampleZh": "雞蛋的價格已經變成兩倍了。",
+      "spellingHint": "d-o-u-b-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The store was so popular that its sales could ___ in just one year.",
+        "fullSentence": "The store was so popular that its sales could double in just one year.",
+        "translation": "那家店太受歡迎了，業績一年內就可能翻倍。",
+        "clue": "數量變成原本的兩倍",
+        "answerEntryId": "u15:double",
+        "distractorEntryIds": [
+          "u15:more",
+          "u15:less",
+          "u15:several"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I ordered a ___ scoop of ice cream, twice the normal size.",
+          "fullSentence": "I ordered a double scoop of ice cream, twice the normal size.",
+          "translation": "我點了雙球冰淇淋，是平常的兩倍大。",
+          "clue": "兩倍的分量",
+          "answerEntryId": "u15:double",
+          "distractorEntryIds": [
+            "u11:electric",
+            "u11:flat",
+            "u12:fast"
+          ]
+        },
+        {
+          "sentence": "My bed is a ___ bed, big enough for two people.",
+          "fullSentence": "My bed is a double bed, big enough for two people.",
+          "translation": "我的床是雙人床，大到可以睡兩個人。",
+          "clue": "給兩個人用的",
+          "answerEntryId": "u15:double",
+          "distractorEntryIds": [
+            "u11:upstairs",
+            "u11:downstairs",
+            "u12:quick"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "If you save 100 dollars every month, you will have ___ the money by next June.",
+          "fullSentence": "If you save 100 dollars every month, you will have double the money by next June.",
+          "translation": "如果你每個月存 100 元，到明年六月就會有兩倍的錢。",
+          "clue": "變成兩倍的金額",
+          "answerEntryId": "u15:double",
+          "distractorEntryIds": [
+            "u15:more",
+            "u15:less",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "The word \"bookcase\" has a ___ o in the middle.",
+          "fullSentence": "The word \"bookcase\" has a double o in the middle.",
+          "translation": "bookcase 這個字中間有兩個連續的 o。",
+          "clue": "同一個字母連續出現兩次",
+          "answerEntryId": "u15:double",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:any",
+            "u15:several"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Running every morning for a month made Ben's running distance ___ what it was before.",
+        "fullSentence": "Running every morning for a month made Ben's running distance double what it was before.",
+        "translation": "每天早上跑步一個月，讓 Ben 的跑步距離變成原本的兩倍。",
+        "clue": "剛好變成原本的兩倍，不是更多",
+        "answerEntryId": "u15:double",
+        "distractorEntryIds": [
+          "u15:more",
+          "u15:less",
+          "u15:a little"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:few",
+      "zh": "很少的；幾乎沒有的",
+      "pos": "phrase",
+      "example": "Few students can swim across the river.",
+      "exampleZh": "很少有學生能游過這條河。",
+      "spellingHint": "f-e-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ people can run a full marathon, because it is 42 kilometers long.",
+        "fullSentence": "few people can run a full marathon, because it is 42 kilometers long.",
+        "translation": "很少有人能跑完整場馬拉松，因為它長達 42 公里。",
+        "clue": "可數複數但幾乎沒有人做到",
+        "answerEntryId": "u15:few",
+        "distractorEntryIds": [
+          "u15:a few",
+          "u15:many",
+          "u15:much"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Hurry up! We have ___ minutes left, and the store is closing.",
+          "fullSentence": "Hurry up! We have few minutes left, and the store is closing.",
+          "translation": "快一點！我們沒剩幾分鐘了，商店要打烊了。",
+          "clue": "時間幾乎沒有，要快",
+          "answerEntryId": "u15:few",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:several",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "The old theater is very far from town, so ___ visitors go there.",
+          "fullSentence": "The old theater is very far from town, so few visitors go there.",
+          "translation": "那座老戲院離市區很遠，所以很少有訪客去。",
+          "clue": "因為很遠，幾乎沒人去",
+          "answerEntryId": "u15:few",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:any",
+            "u15:plus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The question was so difficult that ___ students answered it correctly.",
+          "fullSentence": "The question was so difficult that few students answered it correctly.",
+          "translation": "這題太難了，幾乎沒有學生答對。",
+          "clue": "因為太難，幾乎沒有人答對",
+          "answerEntryId": "u15:few",
+          "distractorEntryIds": [
+            "u15:a few",
+            "u15:a lot",
+            "u15:both"
+          ]
+        },
+        {
+          "sentence": "There are ___ buses to that mountain village, only one in the morning.",
+          "fullSentence": "There are few buses to that mountain village, only one in the morning.",
+          "translation": "去那個山村 的公車很少，只有早上的一班。",
+          "clue": "可數的公車，幾乎沒有班次",
+          "answerEntryId": "u15:few",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:less",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The museum is free but almost nobody knows about it, so ___ tourists visit it even on holidays.",
+        "fullSentence": "The museum is free but almost nobody knows about it, so few tourists visit it even on holidays.",
+        "translation": "那間博物館免費但幾乎沒人知道，所以連假日都很少有觀光客去。",
+        "clue": "almost nobody 表示數量趨近於零（負面）",
+        "answerEntryId": "u15:few",
+        "distractorEntryIds": [
+          "u15:a few",
+          "u15:more",
+          "u15:several"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:less",
+      "zh": "較少的；更少的",
+      "pos": "phrase",
+      "example": "There is less milk in the glass than in the bottle.",
+      "exampleZh": "杯子裡的牛奶比瓶子裡的少。",
+      "spellingHint": "l-e-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This winter we had ___ rain than last winter, so the fields are dry.",
+        "fullSentence": "This winter we had less rain than last winter, so the fields are dry.",
+        "translation": "今年冬天的雨比去年少，所以田地很乾。",
+        "clue": "不可數名詞的比較級「較少」",
+        "answerEntryId": "u15:less",
+        "distractorEntryIds": [
+          "u15:more",
+          "u15:few",
+          "u15:much"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "You should drink ___ soda and more water to stay healthy.",
+          "fullSentence": "You should drink less soda and more water to stay healthy.",
+          "translation": "你應該少喝汽水、多喝水，才會健康。",
+          "clue": "和 more 相反，量要更少",
+          "answerEntryId": "u15:less",
+          "distractorEntryIds": [
+            "u15:few",
+            "u15:a few",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "The new phone costs ___ money than the old one.",
+          "fullSentence": "The new phone costs less money than the old one.",
+          "translation": "這支新手機比舊的便宜（花的錢更少）。",
+          "clue": "不可數的錢，花得更少",
+          "answerEntryId": "u15:less",
+          "distractorEntryIds": [
+            "u15:more",
+            "u15:many",
+            "u15:plus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Try to make ___ noise; the baby is sleeping.",
+          "fullSentence": "Try to make less noise; the baby is sleeping.",
+          "translation": "盡量小聲一點；寶寶在睡覺。",
+          "clue": "不可數的噪音，要更少",
+          "answerEntryId": "u15:less",
+          "distractorEntryIds": [
+            "u15:more",
+            "u15:few",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "With the new machine, workers spend ___ time cleaning the floor.",
+          "fullSentence": "With the new machine, workers spend less time cleaning the floor.",
+          "translation": "有了新機器，工人打掃地板花的時間更少了。",
+          "clue": "不可數的時間，比以前少",
+          "answerEntryId": "u15:less",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:a little",
+            "u15:much"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The doctor told Grandpa to eat ___ salt than before, because his blood pressure is high.",
+        "fullSentence": "The doctor told Grandpa to eat less salt than before, because his blood pressure is high.",
+        "translation": "醫生告訴爺爺要比以前吃更少的鹽，因為他的血壓很高。",
+        "clue": "不可數的鹽，數量要比以前少",
+        "answerEntryId": "u15:less",
+        "distractorEntryIds": [
+          "u15:few",
+          "u15:more",
+          "u15:a little"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:little",
+      "zh": "少的；幾乎沒有的；小的",
+      "pos": "phrase",
+      "example": "There is little water in the desert.",
+      "exampleZh": "沙漠裡幾乎沒有水。",
+      "spellingHint": "l-i-t-t-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We can't make soup because there is ___ water in the pot.",
+        "fullSentence": "We can't make soup because there is little water in the pot.",
+        "translation": "我們沒辦法煮湯，因為鍋裡幾乎沒有水。",
+        "clue": "不可數名詞，量少到幾乎沒有",
+        "answerEntryId": "u15:little",
+        "distractorEntryIds": [
+          "u15:a little",
+          "u15:much",
+          "u15:few"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The desert is very dry and has ___ rain all year.",
+          "fullSentence": "The desert is very dry and has little rain all year.",
+          "translation": "沙漠非常乾燥，全年幾乎沒有雨。",
+          "clue": "不可數的雨，幾乎沒有",
+          "answerEntryId": "u15:little",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:many",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "She is only three years old, so she has ___ patience and gets angry quickly.",
+          "fullSentence": "She is only three years old, so she has little patience and gets angry quickly.",
+          "translation": "她只有三歲，所以沒什麼耐心，很快就生氣。",
+          "clue": "不可數的耐心，幾乎沒有",
+          "answerEntryId": "u15:little",
+          "distractorEntryIds": [
+            "u15:few",
+            "u15:any",
+            "u15:several"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Hurry! There is ___ time left, or we will be late for school.",
+          "fullSentence": "Hurry! There is little time left, or we will be late for school.",
+          "translation": "快一點！剩下的時間不多了，不然上學會遲到。",
+          "clue": "不可數的時間，快用完了",
+          "answerEntryId": "u15:little",
+          "distractorEntryIds": [
+            "u15:a little",
+            "u15:much",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "The old man lives alone and gets ___ help from others, so life is hard for him.",
+          "fullSentence": "The old man lives alone and gets little help from others, so life is hard for him.",
+          "translation": "老人獨自生活，幾乎得不到別人的幫助，所以日子過得很辛苦。",
+          "clue": "不可數的幫助，少到生活困難",
+          "answerEntryId": "u15:little",
+          "distractorEntryIds": [
+            "u15:a few",
+            "u15:much",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The pond is almost dry in summer, and the farmers worry because it holds ___ water for the rice fields.",
+        "fullSentence": "The pond is almost dry in summer, and the farmers worry because it holds little water for the rice fields.",
+        "translation": "夏天時池塘幾乎乾涸，農夫很擔心，因為池塘裡幾乎沒有水可以灌溉稻田。",
+        "clue": "幾乎乾涸→水量趨近於零（負面）",
+        "answerEntryId": "u15:little",
+        "distractorEntryIds": [
+          "u15:a little",
+          "u15:many",
+          "u15:less"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:many",
+      "zh": "許多（修飾可數名詞）",
+      "pos": "phrase",
+      "example": "Many students ride bikes to school.",
+      "exampleZh": "許多學生騎自行車上學。",
+      "spellingHint": "m-a-n-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There are ___ students in the school library after class.",
+        "fullSentence": "There are many students in the school library after class.",
+        "translation": "下課後學校圖書館裡有很多學生。",
+        "clue": "可數複數的學生，數量多",
+        "answerEntryId": "u15:many",
+        "distractorEntryIds": [
+          "u15:much",
+          "u15:few",
+          "u15:both"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How ___ books did you borrow from the library this month?",
+          "fullSentence": "How many books did you borrow from the library this month?",
+          "translation": "這個月你從圖書館借了幾本書？",
+          "clue": "可數的書，問數量",
+          "answerEntryId": "u15:many",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:less",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "I don't have ___ pencils, only two.",
+          "fullSentence": "I don't have many pencils, only two.",
+          "translation": "我的鉛筆不多，只有兩支。",
+          "clue": "可數的鉛筆，數量少",
+          "answerEntryId": "u15:many",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:a little",
+            "u15:times"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ tourists visit the night market every weekend.",
+          "fullSentence": "many tourists visit the night market every weekend.",
+          "translation": "每個週末都有許多觀光客逛夜市。",
+          "clue": "可數的人，數量多",
+          "answerEntryId": "u15:many",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:few",
+            "u15:all"
+          ]
+        },
+        {
+          "sentence": "There aren't ___ chairs in this classroom, so some students must stand.",
+          "fullSentence": "There aren't many chairs in this classroom, so some students must stand.",
+          "translation": "這間教室的椅子不多，所以有些學生必須站著。",
+          "clue": "可數的椅子，數量少",
+          "answerEntryId": "u15:many",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:several",
+            "u15:all"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The famous singer receives ___ letters from fans every week, more than one hundred.",
+        "fullSentence": "The famous singer receives many letters from fans every week, more than one hundred.",
+        "translation": "那位知名歌手每週收到許多歌迷的來信，超過一百封。",
+        "clue": "可數複數、數量大（超過一百）",
+        "answerEntryId": "u15:many",
+        "distractorEntryIds": [
+          "u15:much",
+          "u15:few",
+          "u15:a little"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:minus",
+      "zh": "減；減號；負的",
+      "pos": "noun",
+      "example": "Nine minus four equals five.",
+      "exampleZh": "九減四等於五。",
+      "spellingHint": "m-i-n-u-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ten ___ two equals eight.",
+        "fullSentence": "Ten minus two equals eight.",
+        "translation": "十減二等於八。",
+        "clue": "把數字拿掉一些的運算符號",
+        "answerEntryId": "u15:minus",
+        "distractorEntryIds": [
+          "u15:plus",
+          "u15:times",
+          "u15:number"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "On the calculator, press the ___ sign to take away numbers.",
+          "fullSentence": "On the calculator, press the minus sign to take away numbers.",
+          "translation": "在計算機上，按減號來把數字減掉。",
+          "clue": "「−」這個符號的名稱",
+          "answerEntryId": "u15:minus",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:total",
+            "u11:key"
+          ]
+        },
+        {
+          "sentence": "If you take the cost away from what you had, the math sign we use is ___.",
+          "fullSentence": "If you take the cost away from what you had, the math sign we use is minus.",
+          "translation": "如果把花費從原本的錢中拿走，我們用的數學符號就是減號。",
+          "clue": "零下的溫度表示法",
+          "answerEntryId": "u15:minus",
+          "distractorEntryIds": [
+            "u15:plus",
+            "u15:much",
+            "u11:pipe"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher wrote \"12 ___ 5 = 7\" on the board and asked us to read it.",
+          "fullSentence": "The teacher wrote \"12 minus 5 = 7\" on the board and asked us to read it.",
+          "translation": "老師在黑板上寫「12 減 5 等於 7」，並要我們唸出來。",
+          "clue": "結果變小，是用減法的式子",
+          "answerEntryId": "u15:minus",
+          "distractorEntryIds": [
+            "u15:plus",
+            "u15:addition",
+            "u11:fan"
+          ]
+        },
+        {
+          "sentence": "The shopkeeper will ___ the discount from the price before you pay.",
+          "fullSentence": "The shopkeeper will minus the discount from the price before you pay.",
+          "translation": "店員會在付款前把折扣從價格中減去。",
+          "clue": "把某個數量扣掉的運算",
+          "answerEntryId": "u15:minus",
+          "distractorEntryIds": [
+            "u15:plus",
+            "u15:times",
+            "u15:number"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Tonight will be cold: the low is three degrees below zero, or ___ three on the thermometer.",
+        "fullSentence": "Tonight will be cold: the low is three degrees below zero, or minus three on the thermometer.",
+        "translation": "今晚會很冷：低溫是零下三度，也就是溫度計上的負三度。",
+        "clue": "零下溫度的正式表示用語",
+        "answerEntryId": "u15:minus",
+        "distractorEntryIds": [
+          "u15:plus",
+          "u15:division",
+          "u11:heat"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:more",
+      "zh": "更多的",
+      "pos": "phrase",
+      "example": "I need more time to finish my homework.",
+      "exampleZh": "我需要更多時間寫完功課。",
+      "spellingHint": "m-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This box is too small. Could I have a ___ one?",
+        "fullSentence": "This box is too small. Could I have a more one?",
+        "translation": "這個箱子太小了。可以給我一個更大的嗎？",
+        "clue": "不夠用，想要更大的",
+        "answerEntryId": "u15:more",
+        "distractorEntryIds": [
+          "u15:less",
+          "u15:few",
+          "u15:a little"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The lemonade is too sour. I want to put ___ sugar in it.",
+          "fullSentence": "The lemonade is too sour. I want to put more sugar in it.",
+          "translation": "檸檬汁太酸了，我想再多加一點糖。",
+          "clue": "不夠甜，要再加一些",
+          "answerEntryId": "u15:more",
+          "distractorEntryIds": [
+            "u15:less",
+            "u15:few",
+            "u15:minus"
+          ]
+        },
+        {
+          "sentence": "Could you give me ___ examples? Two are not enough for me.",
+          "fullSentence": "Could you give me more examples? Two are not enough for me.",
+          "translation": "可以再多給我幾個例子嗎？兩個對我來說不夠。",
+          "clue": "兩個不夠，想要再多一些",
+          "answerEntryId": "u15:more",
+          "distractorEntryIds": [
+            "u15:less",
+            "u15:much",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Practice makes perfect, so the piano player wants to practice ___ often.",
+          "fullSentence": "Practice makes perfect, so the piano player wants to practice more often.",
+          "translation": "熟能生巧，所以鋼琴手想更常練習。",
+          "clue": "想要比現在更高的頻率",
+          "answerEntryId": "u15:more",
+          "distractorEntryIds": [
+            "u15:less",
+            "u15:many",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "The soup tastes great! Can I have ___ of it, please?",
+          "fullSentence": "The soup tastes great! Can I have more of it, please?",
+          "translation": "這湯真好喝！可以再給我一點嗎？",
+          "clue": "很好喝，想要再來一些",
+          "answerEntryId": "u15:more",
+          "distractorEntryIds": [
+            "u15:less",
+            "u15:few",
+            "u15:both"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Keep practicing and you will make ___ progress every week.",
+        "fullSentence": "Keep practicing and you will make more progress every week.",
+        "translation": "持續練習，你每週就會有更多進步。",
+        "clue": "the more..., the more... 的固定句型",
+        "answerEntryId": "u15:more",
+        "distractorEntryIds": [
+          "u15:less",
+          "u15:many",
+          "u15:much"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:much",
+      "zh": "許多（修飾不可數名詞）",
+      "pos": "phrase",
+      "example": "How much water do you drink every day?",
+      "exampleZh": "你每天喝多少水？",
+      "spellingHint": "m-u-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "How ___ rice do we need to cook for ten people?",
+        "fullSentence": "How much rice do we need to cook for ten people?",
+        "translation": "煮十個人的飯需要多少米？",
+        "clue": "不可數的米，問數量",
+        "answerEntryId": "u15:much",
+        "distractorEntryIds": [
+          "u15:many",
+          "u15:few",
+          "u15:both"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There isn't ___ milk in the glass, so I can't make the cake.",
+          "fullSentence": "There isn't much milk in the glass, so I can't make the cake.",
+          "translation": "杯子裡的牛奶不多，所以我沒辦法做蛋糕。",
+          "clue": "不可數的牛奶，數量少",
+          "answerEntryId": "u15:much",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:few",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "Thank you so ___ for helping me with my homework.",
+          "fullSentence": "Thank you so much for helping me with my homework.",
+          "translation": "非常謝謝你幫我做功課。",
+          "clue": "so ___：非常、很（固定用法）",
+          "answerEntryId": "u15:much",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:less",
+            "u15:times"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Spending too ___ time playing games is bad for your eyes.",
+          "fullSentence": "Spending too much time playing games is bad for your eyes.",
+          "translation": "花太多時間玩遊戲對眼睛不好。",
+          "clue": "不可數的時間，數量過多",
+          "answerEntryId": "u15:much",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:few",
+            "u15:more"
+          ]
+        },
+        {
+          "sentence": "I don't have ___ homework today, so I can play outside.",
+          "fullSentence": "I don't have much homework today, so I can play outside.",
+          "translation": "我今天作業不多，所以可以出去玩。",
+          "clue": "不可數的作業，數量少",
+          "answerEntryId": "u15:much",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:a few",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The bottle is almost empty because my little brother drank too ___ of the juice this morning.",
+        "fullSentence": "The bottle is almost empty because my little brother drank too much of the juice this morning.",
+        "translation": "瓶子幾乎空了，因為我弟弟今天早上喝了太多果汁。",
+        "clue": "too ___ 修飾不可數的果汁",
+        "answerEntryId": "u15:much",
+        "distractorEntryIds": [
+          "u15:many",
+          "u15:few",
+          "u15:less"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:number",
+      "zh": "數字；號碼；數量",
+      "pos": "noun",
+      "example": "Please write your phone number here.",
+      "exampleZh": "請在這裡寫下你的電話號碼。",
+      "spellingHint": "n-u-m-b-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "A large ___ of people waited outside the famous restaurant.",
+        "fullSentence": "A large number of people waited outside the famous restaurant.",
+        "translation": "大量的人在那家知名餐廳外面排隊等候。",
+        "clue": "a large ___ of + 可數複數：數量多",
+        "answerEntryId": "u15:number",
+        "distractorEntryIds": [
+          "u15:total",
+          "u15:times",
+          "u15:minus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Can I have your phone ___? I want to call you tonight.",
+          "fullSentence": "Can I have your phone number? I want to call you tonight.",
+          "translation": "可以給我你的電話號碼嗎？我今晚想打給你。",
+          "clue": "打電話需要的號碼",
+          "answerEntryId": "u15:number",
+          "distractorEntryIds": [
+            "u11:telephone",
+            "u11:address",
+            "u11:key"
+          ]
+        },
+        {
+          "sentence": "Three, seven, and twelve are each a ___ on the test.",
+          "fullSentence": "Three, seven, and twelve are each a number on the test.",
+          "translation": "三、七、十二在測驗中各自是一個數字。",
+          "clue": "用來算術的符號",
+          "answerEntryId": "u15:number",
+          "distractorEntryIds": [
+            "u15:total",
+            "u15:addition",
+            "u11:design"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Please count the ___ of students in the room and tell me.",
+          "fullSentence": "Please count the number of students in the room and tell me.",
+          "translation": "請數一下房間裡學生的人數然後告訴我。",
+          "clue": "點算之後得到的數量",
+          "answerEntryId": "u15:number",
+          "distractorEntryIds": [
+            "u15:total",
+            "u15:plus",
+            "u11:way"
+          ]
+        },
+        {
+          "sentence": "Our bus ___ is 302, so we can find the right stop easily.",
+          "fullSentence": "Our bus number is 302, so we can find the right stop easily.",
+          "translation": "我們的公車號碼是 302，所以很容易找到正確的站牌。",
+          "clue": "用來辨識的編號",
+          "answerEntryId": "u15:number",
+          "distractorEntryIds": [
+            "u15:total",
+            "u15:minus",
+            "u12:train"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The hotel gave each guest a ___ for their door, like 508, so they could find it easily.",
+        "fullSentence": "The hotel gave each guest a number for their door, like 508, so they could find it easily.",
+        "translation": "飯店給每位房客一個門牌編號，例如 508，方便找到自己的房間。",
+        "clue": "用來辨識房間的編號",
+        "answerEntryId": "u15:number",
+        "distractorEntryIds": [
+          "u15:total",
+          "u15:division",
+          "u11:room"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:plus",
+      "zh": "加；加號；正的",
+      "pos": "noun",
+      "example": "Two plus three equals five.",
+      "exampleZh": "二加三等於五。",
+      "spellingHint": "p-l-u-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Four ___ six equals ten.",
+        "fullSentence": "Four plus six equals ten.",
+        "translation": "四加六等於十。",
+        "clue": "把數字合在一起的運算符號",
+        "answerEntryId": "u15:plus",
+        "distractorEntryIds": [
+          "u15:minus",
+          "u15:times",
+          "u15:number"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "On the calculator, press the ___ sign to put numbers together.",
+          "fullSentence": "On the calculator, press the plus sign to put numbers together.",
+          "translation": "在計算機上，按加號把數字加起來。",
+          "clue": "「+」這個符號的名稱",
+          "answerEntryId": "u15:plus",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:total",
+            "u11:key"
+          ]
+        },
+        {
+          "sentence": "Two friends are coming for dinner, so Dad will ___ two more chairs at the table.",
+          "fullSentence": "Two friends are coming for dinner, so Dad will plus two more chairs at the table.",
+          "translation": "兩個朋友要來吃晚餐，所以爸爸會在桌上再加兩張椅子。",
+          "clue": "在原本的金額上再增加",
+          "answerEntryId": "u15:plus",
+          "distractorEntryIds": [
+            "u15:minus",
+            "u15:much",
+            "u11:pipe"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher wrote \"9 ___ 8 = 17\" on the board and asked us to read it.",
+          "fullSentence": "The teacher wrote \"9 plus 8 = 17\" on the board and asked us to read it.",
+          "translation": "老師在黑板上寫「9 加 8 等於 17」，並要我們唸出來。",
+          "clue": "結果變大，是用加法的式子",
+          "answerEntryId": "u15:plus",
+          "distractorEntryIds": [
+            "u15:minus",
+            "u15:division",
+            "u11:fan"
+          ]
+        },
+        {
+          "sentence": "Two friends are coming for dinner tonight, so Dad will ___ two more chairs at the table.",
+          "fullSentence": "Two friends are coming for dinner tonight, so Dad will plus two more chairs at the table.",
+          "translation": "兩個朋友今晚要來吃晚餐，所以爸爸會在桌上再加兩張椅子。",
+          "clue": "在原本的數量上再增加",
+          "answerEntryId": "u15:plus",
+          "distractorEntryIds": [
+            "u15:minus",
+            "u15:times",
+            "u11:chair"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Today is warm: the high is ten degrees above zero, or ___ ten on the thermometer.",
+        "fullSentence": "Today is warm: the high is ten degrees above zero, or plus ten on the thermometer.",
+        "translation": "今天很暖和：高溫是零上十度，也就是溫度計上的正十度。",
+        "clue": "與「零下（minus）」相反的表示用語",
+        "answerEntryId": "u15:plus",
+        "distractorEntryIds": [
+          "u15:minus",
+          "u15:addition",
+          "u11:heat"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:several",
+      "zh": "幾個的；數個的",
+      "pos": "phrase",
+      "example": "I waited for several minutes at the bus stop.",
+      "exampleZh": "我在公車站等了好幾分鐘。",
+      "spellingHint": "s-e-v-e-r-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ students asked the same question after class, about four or five of them.",
+        "fullSentence": "several students asked the same question after class, about four or five of them.",
+        "translation": "下課後有幾個學生問了同樣的問題，大約四五個人。",
+        "clue": "不只一兩個，但不到很多",
+        "answerEntryId": "u15:several",
+        "distractorEntryIds": [
+          "u15:many",
+          "u15:both",
+          "u15:much"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I stayed at my grandma’s house for ___ days last week.",
+          "fullSentence": "I stayed at my grandma’s house for several days last week.",
+          "translation": "上週我在奶奶家住了好幾天。",
+          "clue": "三天以上、但不算多的天數",
+          "answerEntryId": "u15:several",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:more",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "There are ___ books on my desk, so my hands are full.",
+          "fullSentence": "There are several books on my desk, so my hands are full.",
+          "translation": "我桌上有好幾本書，所以我兩手都拿滿了。",
+          "clue": "可數的書，多到拿不動其他東西",
+          "answerEntryId": "u15:several",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:few",
+            "u15:plus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The museum has ___ old paintings from Japan, Korea, and China.",
+          "fullSentence": "The museum has several old paintings from Japan, Korea, and China.",
+          "translation": "這間博物館有幾幅來自日本、韓國和中國 的古畫。",
+          "clue": "來自三個國家，數量是好幾幅",
+          "answerEntryId": "u15:several",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:a little",
+            "u15:all"
+          ]
+        },
+        {
+          "sentence": "We tried ___ different restaurants before choosing our favorite one.",
+          "fullSentence": "We tried several different restaurants before choosing our favorite one.",
+          "translation": "我們試了幾家不同的餐廳，才選出最喜歡的一家。",
+          "clue": "試了三家以上，但不算多",
+          "answerEntryId": "u15:several",
+          "distractorEntryIds": [
+            "u15:much",
+            "u15:both",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The bus was late by ___ minutes, exactly eight, so we were almost late for school.",
+        "fullSentence": "The bus was late by several minutes, exactly eight, so we were almost late for school.",
+        "translation": "公車晚了幾分鐘，剛好八分鐘，所以我們差點遲到。",
+        "clue": "八分鐘：不只一兩分，但不算大量",
+        "answerEntryId": "u15:several",
+        "distractorEntryIds": [
+          "u15:many",
+          "u15:few",
+          "u15:a little"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:some",
+      "zh": "一些；若干",
+      "pos": "phrase",
+      "example": "I bought some fruit at the market.",
+      "exampleZh": "我在市場買了一些水果。",
+      "spellingHint": "s-o-m-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Would you like ___ tea? I just made it.",
+        "fullSentence": "Would you like some tea? I just made it.",
+        "translation": "你想喝點茶嗎？我剛泡的。",
+        "clue": "邀請對方接受，用於疑問句",
+        "answerEntryId": "u15:some",
+        "distractorEntryIds": [
+          "u15:any",
+          "u15:many",
+          "u15:all"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There are ___ apples in the basket. Would you like one?",
+          "fullSentence": "There are some apples in the basket. Would you like one?",
+          "translation": "籃子裡有一些蘋果，你要來一個嗎？",
+          "clue": "有一些，但不是全部",
+          "answerEntryId": "u15:some",
+          "distractorEntryIds": [
+            "u15:any",
+            "u15:much",
+            "u15:few"
+          ]
+        },
+        {
+          "sentence": "I need ___ help with this math problem. Can you show me?",
+          "fullSentence": "I need some help with this math problem. Can you show me?",
+          "translation": "這道數學題我需要一點幫忙，你可以教我嗎？",
+          "clue": "肯定句要一些協助",
+          "answerEntryId": "u15:some",
+          "distractorEntryIds": [
+            "u15:any",
+            "u15:less",
+            "u15:several"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Let's buy ___ orange juice for the party tonight.",
+          "fullSentence": "Let's buy some orange juice for the party tonight.",
+          "translation": "我們買些柳橙汁給今晚的派對吧。",
+          "clue": "肯定句，買一些",
+          "answerEntryId": "u15:some",
+          "distractorEntryIds": [
+            "u15:any",
+            "u15:many",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "___ of my classmates like math, but others prefer English.",
+          "fullSentence": "some of my classmates like math, but others prefer English.",
+          "translation": "我的一些同學喜歡數學，但其他人偏好英文。",
+          "clue": "一部分的人，不是全部",
+          "answerEntryId": "u15:some",
+          "distractorEntryIds": [
+            "u15:all",
+            "u15:both",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Could you pass me ___ water? I'm really thirsty after the game.",
+        "fullSentence": "Could you pass me some water? I'm really thirsty after the game.",
+        "translation": "可以遞給我一點水嗎？比賽後我真的很渴。",
+        "clue": "禮貌請求的疑問句仍用「一些」",
+        "answerEntryId": "u15:some",
+        "distractorEntryIds": [
+          "u15:any",
+          "u15:little",
+          "u15:more"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:times",
+      "zh": "倍；次（time 的複數）",
+      "pos": "noun",
+      "example": "My room is three times bigger than yours.",
+      "exampleZh": "我的房間比你的大三倍。",
+      "spellingHint": "t-i-m-e-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This tree is three ___ taller than that young one.",
+        "fullSentence": "This tree is three times taller than that young one.",
+        "translation": "這棵樹比那棵小樹高三倍。",
+        "clue": "表示「幾倍」的用語",
+        "answerEntryId": "u15:times",
+        "distractorEntryIds": [
+          "u15:total",
+          "u15:number",
+          "u15:plus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I have told you the same thing five ___ already, so please remember it.",
+          "fullSentence": "I have told you the same thing five times already, so please remember it.",
+          "translation": "同樣的事我已經告訴你五次了，請記住。",
+          "clue": "表示次數的說法",
+          "answerEntryId": "u15:times",
+          "distractorEntryIds": [
+            "u15:many",
+            "u15:much",
+            "u15:number"
+          ]
+        },
+        {
+          "sentence": "An elephant can weigh more than ten ___ as much as a horse.",
+          "fullSentence": "An elephant can weigh more than ten times as much as a horse.",
+          "translation": "一頭大象的體重可以是馬的十倍以上。",
+          "clue": "倍數比較的說法",
+          "answerEntryId": "u15:times",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:total",
+            "u15:double"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The new highway is four ___ wider than the old country road.",
+          "fullSentence": "The new highway is four times wider than the old country road.",
+          "translation": "新高速公路比舊的鄉間道路寬四倍。",
+          "clue": "倍數放在形容詞比較級前面",
+          "answerEntryId": "u15:times",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:minus",
+            "u15:total"
+          ]
+        },
+        {
+          "sentence": "She checked her answers two ___ before handing in the test.",
+          "fullSentence": "She checked her answers two times before handing in the test.",
+          "translation": "交卷前她把答案檢查了兩次。",
+          "clue": "表示做了兩回",
+          "answerEntryId": "u15:times",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:minus",
+            "u15:plus"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The giant cake needed eight ___ the usual amount of flour, enough for the whole class.",
+        "fullSentence": "The giant cake needed eight times the usual amount of flour, enough for the whole class.",
+        "translation": "那個巨型蛋糕需要八倍於平常的麵粉量，足夠全班吃。",
+        "clue": "倍數直接放在 the usual amount 前",
+        "answerEntryId": "u15:times",
+        "distractorEntryIds": [
+          "u15:number",
+          "u15:minus",
+          "u15:plus"
+        ]
+      }
+    },
+    {
+      "entryId": "u15:total",
+      "zh": "總數；總計",
+      "pos": "noun",
+      "example": "The total of the bill is 500 dollars.",
+      "exampleZh": "帳單總計是 500 元。",
+      "spellingHint": "t-o-t-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Add up all the scores, and the ___ is 95 points.",
+        "fullSentence": "Add up all the scores, and the total is 95 points.",
+        "translation": "把所有分數加起來，總計是 95 分。",
+        "clue": "全部加在一起的最後數字",
+        "answerEntryId": "u15:total",
+        "distractorEntryIds": [
+          "u15:number",
+          "u15:times",
+          "u15:plus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There were six boys and eight girls, so the ___ of students was fourteen.",
+          "fullSentence": "There were six boys and eight girls, so the total of students was fourteen.",
+          "translation": "有六個男生和八個女生，所以學生總數是十四人。",
+          "clue": "兩個數字加起來的總和",
+          "answerEntryId": "u15:total",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:times",
+            "u15:addition"
+          ]
+        },
+        {
+          "sentence": "Please pay the ___ at the counter before you leave the store.",
+          "fullSentence": "Please pay the total at the counter before you leave the store.",
+          "translation": "離開商店前，請在櫃檯支付全部金額。",
+          "clue": "要付的全部金額",
+          "answerEntryId": "u15:total",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:minus",
+            "u11:brush"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Our team scored 3 points in the first half and 5 in the second, for a ___ of 8.",
+          "fullSentence": "Our team scored 3 points in the first half and 5 in the second, for a total of 8.",
+          "translation": "我們隊上半場得 3 分、下半場得 5 分，總計 8 分。",
+          "clue": "兩段分數合計的最終結果",
+          "answerEntryId": "u15:total",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:plus",
+            "u15:times"
+          ]
+        },
+        {
+          "sentence": "The ___ cost of the trip includes the tickets, the hotel, and the meals.",
+          "fullSentence": "The total cost of the trip includes the tickets, the hotel, and the meals.",
+          "translation": "這趟旅行的總費用包含車票、飯店和餐費。",
+          "clue": "把所有花費全部算進去",
+          "answerEntryId": "u15:total",
+          "distractorEntryIds": [
+            "u15:number",
+            "u15:times",
+            "u15:division"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Each of the five boxes holds 12 books, so altogether there are sixty books in ___ .",
+        "fullSentence": "Each of the five boxes holds 12 books, so altogether there are sixty books in total .",
+        "translation": "每個箱子裝 12 本書，所以全部總共有六十本書。",
+        "clue": "把所有箱子的書合起來的最終數量",
+        "answerEntryId": "u15:total",
+        "distractorEntryIds": [
+          "u15:number",
+          "u15:times",
+          "u15:division"
+        ]
+      }
+    }
+  ]
+}

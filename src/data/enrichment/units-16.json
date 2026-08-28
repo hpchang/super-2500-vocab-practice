@@ -1,0 +1,6284 @@
+{
+ "schemaVersion": 1,
+ "unit": "16",
+ "entries": [
+  {
+   "entryId": "u16:a.m.",
+   "zh": "上午（中午十二點前）",
+   "pos": "adverb",
+   "example": "The bank opens at nine a.m.",
+   "exampleZh": "銀行九點開門。",
+   "spellingHint": "a-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Our first class begins at 7:50 ___, while the sky is still bright with sunlight.",
+    "fullSentence": "Our first class begins at 7:50 a.m., while the sky is still bright with sunlight.",
+    "translation": "我們第一節課在上午 7:50 開始，這時天空還很明亮。",
+    "clue": "有太陽的早上，時間寫法用這個",
+    "answerEntryId": "u16:a.m.",
+    "distractorEntryIds": [
+     "u16:p.m.",
+     "u16:soon",
+     "u16:ago"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Breakfast is at 7:00 ___ before we go to school.",
+     "fullSentence": "Breakfast is at 7:00 a.m. before we go to school.",
+     "translation": "早上七點先吃早餐，再去上學。",
+     "clue": "上學前吃早餐的清晨時間",
+     "answerEntryId": "u16:a.m.",
+     "distractorEntryIds": [
+      "u16:p.m.",
+      "u16:ago",
+      "u16:soon"
+     ]
+    },
+    {
+     "sentence": "The bakery opens at 6:30 ___ and the bread is still warm.",
+     "fullSentence": "The bakery opens at 6:30 a.m. and the bread is still warm.",
+     "translation": "麵包店早上六點半開門，麵包還熱熱的。",
+     "clue": "一大早開店、麵包剛出爐",
+     "answerEntryId": "u16:a.m.",
+     "distractorEntryIds": [
+      "u16:p.m.",
+      "u16:ago",
+      "u16:later"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Mail is delivered at 10:15 ___, long before lunch time.",
+     "fullSentence": "Mail is delivered at 10:15 a.m., long before lunch time.",
+     "translation": "信件在上午 10:15 送达，離午餐還很久。",
+     "clue": "離午餐還很久的上午時段",
+     "answerEntryId": "u16:a.m.",
+     "distractorEntryIds": [
+      "u16:p.m.",
+      "u16:soon",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "The museum opens at 9:00 ___ and closes at 5:00 in the evening.",
+     "fullSentence": "The museum opens at 9:00 a.m. and closes at 5:00 in the evening.",
+     "translation": "博物館早上九點開門，傍晚五點關門。",
+     "clue": "與傍晚五點相對的開門時間",
+     "answerEntryId": "u16:a.m.",
+     "distractorEntryIds": [
+      "u16:p.m.",
+      "u16:ago",
+      "u16:already"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ferry to the island leaves at 8:30 ___, so we watch the sunrise while we wait.",
+    "fullSentence": "The ferry to the island leaves at 8:30 a.m., so we watch the sunrise while we wait.",
+    "translation": "往小島的渡輪早上 8:30 開船，所以我們一邊等一邊看日出。",
+    "clue": "等得到日出的時間是早上",
+    "answerEntryId": "u16:a.m.",
+    "distractorEntryIds": [
+     "u16:p.m.",
+     "u16:soon",
+     "u16:already"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:afternoon",
+   "zh": "下午",
+   "pos": "noun",
+   "example": "We play basketball in the afternoon.",
+   "exampleZh": "我們下午打籃球。",
+   "spellingHint": "a-f-t-e-r-n-o-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After lunch, we have two more classes in the ___.",
+    "fullSentence": "After lunch, we have two more classes in the afternoon.",
+    "translation": "午餐之後，我們下午還有兩節課。",
+    "clue": "午餐之後、傍晚之前的時段",
+    "answerEntryId": "u16:afternoon",
+    "distractorEntryIds": [
+     "u16:morning",
+     "u16:evening",
+     "u16:night"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "School ends at 3:30, so we walk home in the early ___.",
+     "fullSentence": "School ends at 3:30, so we walk home in the early afternoon.",
+     "translation": "學校三點半放學，所以我們在午後早些時候走路回家。",
+     "clue": "三點半天還亮的放學時段",
+     "answerEntryId": "u16:afternoon",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:evening",
+      "u16:night"
+     ]
+    },
+    {
+     "sentence": "Grandma naps for an hour after lunch every ___.",
+     "fullSentence": "Grandma naps for an hour after lunch every afternoon.",
+     "translation": "奶奶每天午餐後睡一小時午覺。",
+     "clue": "吃完午餐後小睡的時段",
+     "answerEntryId": "u16:afternoon",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:midnight",
+      "u16:dawn"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The temperature is highest at three o'clock in the ___.",
+     "fullSentence": "The temperature is highest at three o'clock in the afternoon.",
+     "translation": "下午三點是一天氣溫最高的時候。",
+     "clue": "一天中最熱的時刻",
+     "answerEntryId": "u16:afternoon",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:midnight",
+      "u16:evening"
+     ]
+    },
+    {
+     "sentence": "After the lunch break, meetings continue all ___ at Dad's office.",
+     "fullSentence": "After the lunch break, meetings continue all afternoon at Dad's office.",
+     "translation": "午休之後，爸爸公司整個下午都在開會。",
+     "clue": "午休之後持續到傍晚的時段",
+     "answerEntryId": "u16:afternoon",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:midnight",
+      "u16:dawn"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "It was already past two o'clock, still early in the ___, with hours to go before dinner.",
+    "fullSentence": "It was already past two o'clock, still early in the afternoon, with hours to go before dinner.",
+    "translation": "已經兩點多，還只是下午剛開始，離晚餐還有好幾個小時。",
+    "clue": "兩點多、離晚餐還很久",
+    "answerEntryId": "u16:afternoon",
+    "distractorEntryIds": [
+     "u16:morning",
+     "u16:noon",
+     "u16:evening"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:ago",
+   "zh": "以前",
+   "pos": "adverb",
+   "example": "We moved to this city three years ago.",
+   "exampleZh": "我們三年前搬到這座城市。",
+   "spellingHint": "a-g-o",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The dinosaurs died out about sixty-five million years ___.",
+    "fullSentence": "The dinosaurs died out about sixty-five million years ago.",
+    "translation": "恐龍大約在六千五百萬年前滅絕。",
+    "clue": "放在時間長度後面，表示距今多久之前",
+    "answerEntryId": "u16:ago",
+    "distractorEntryIds": [
+     "u16:soon",
+     "u16:now",
+     "u16:once"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Grandma learned to swim fifty years ___.",
+     "fullSentence": "Grandma learned to swim fifty years ago.",
+     "translation": "奶奶在五十年前學會游泳。",
+     "clue": "很久以前學會的，用過去式",
+     "answerEntryId": "u16:ago",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:now",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "Columbus reached America more than five hundred years ___.",
+     "fullSentence": "Columbus reached America more than five hundred years ago.",
+     "translation": "哥倫布在五百多年前抵達美洲。",
+     "clue": "很久以前的歷史事件",
+     "answerEntryId": "u16:ago",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:now",
+      "u16:already"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "He finished his homework an hour ___ and is now playing outside.",
+     "fullSentence": "He finished his homework an hour ago and is now playing outside.",
+     "translation": "他一小時前就寫完功課，現在正在外面玩。",
+     "clue": "一小時之前就完成了",
+     "answerEntryId": "u16:ago",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:tonight",
+      "u16:already"
+     ]
+    },
+    {
+     "sentence": "This old photo shows our town one hundred years ___.",
+     "fullSentence": "This old photo shows our town one hundred years ago.",
+     "translation": "這張老照片呈現我們小鎮一百年前的樣子。",
+     "clue": "照片裡是一百年前的樣子",
+     "answerEntryId": "u16:ago",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:now",
+      "u16:tonight"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Long ___, before cars and planes, people traveled by horse.",
+    "fullSentence": "Long ago, before cars and planes, people traveled by horse.",
+    "translation": "很久以前，在汽車和飛機出現之前，人們靠馬出行。",
+    "clue": "在汽車飛機出現前的遙遠過去",
+    "answerEntryId": "u16:ago",
+    "distractorEntryIds": [
+     "u16:soon",
+     "u16:already",
+     "u16:later"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:alarm clock",
+   "zh": "鬧鐘",
+   "pos": "noun",
+   "example": "My alarm clock rings at six every morning.",
+   "exampleZh": "我的鬧鐘每天早上六點響。",
+   "spellingHint": "a-l-a-r-m c-l-o-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My old ___ with two bells on top rings at six to wake me for school.",
+    "fullSentence": "My old alarm clock with two bells on top rings at six to wake me for school.",
+    "translation": "我那個頂上有兩個鈴鐺的舊鬧鐘六點響，叫我起床上學。",
+    "clue": "頂上有鈴鐺、專門叫人起床的鐘",
+    "answerEntryId": "u16:alarm clock",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:watch",
+     "u16:stopwatch"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I set my ___ every night so its loud ring will wake me at six.",
+     "fullSentence": "I set my alarm clock every night so its loud ring will wake me at six.",
+     "translation": "我每晚設定鬧鐘，讓它大聲響鈴在六點叫我起床。",
+     "clue": "睡前設定、用鈴聲叫醒你的東西",
+     "answerEntryId": "u16:alarm clock",
+     "distractorEntryIds": [
+      "u16:calendar",
+      "u16:stopwatch",
+      "u16:clock"
+     ]
+    },
+    {
+     "sentence": "The ___ on my bedside table rang at six and woke the whole house.",
+     "fullSentence": "The alarm clock on my bedside table rang at six and woke the whole house.",
+     "translation": "床頭的鬧鐘六點響了，吵醒全家人。",
+     "clue": "床頭上會響鈴的東西",
+     "answerEntryId": "u16:alarm clock",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:calendar",
+      "u16:stopwatch"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Dad bought a new ___ for my bedside because the old one no longer woke me.",
+     "fullSentence": "Dad bought a new alarm clock for my bedside because the old one no longer woke me.",
+     "translation": "爸爸幫我買了新的床頭鬧鐘，因為舊的已經叫不醒我了。",
+     "clue": "放在床邊、負責叫醒你的鐘",
+     "answerEntryId": "u16:alarm clock",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:watch",
+      "u16:calendar"
+     ]
+    },
+    {
+     "sentence": "Without my ___, I would sleep until noon and miss the school bus.",
+     "fullSentence": "Without my alarm clock, I would sleep until noon and miss the school bus.",
+     "translation": "要不是有鬧鐘，我會睡到中午，錯過校車。",
+     "clue": "沒有它就會睡過頭的叫醒工具",
+     "answerEntryId": "u16:alarm clock",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:watch",
+      "u16:calendar"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "My ___ keeps ringing until I get out of bed, but a phone timer stops by itself.",
+    "fullSentence": "My alarm clock keeps ringing until I get out of bed, but a phone timer stops by itself.",
+    "translation": "我的鬧鐘會一直響到我下床為止，但手機計時器會自己停。",
+    "clue": "響個不停直到你起床的鬧鈴",
+    "answerEntryId": "u16:alarm clock",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:watch",
+     "u16:stopwatch"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:already",
+   "zh": "已經",
+   "pos": "adverb",
+   "example": "She has already finished her homework.",
+   "exampleZh": "她已經寫完功課了。",
+   "spellingHint": "a-l-r-e-a-d-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I don't need the new book because I have ___ read it twice.",
+    "fullSentence": "I don't need the new book because I have already read it twice.",
+    "translation": "我不需要那本新書，因為我已經讀過兩遍了。",
+    "clue": "完成式裡表示早就做好了",
+    "answerEntryId": "u16:already",
+    "distractorEntryIds": [
+     "u16:soon",
+     "u16:ago",
+     "u16:later"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Hurry! The movie has ___ started, so we missed the first part.",
+     "fullSentence": "Hurry! The movie has already started, so we missed the first part.",
+     "translation": "快點！電影已經開始了，我們錯過了開頭。",
+     "clue": "電影早就開演了",
+     "answerEntryId": "u16:already",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:ago",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "It is only seven, but Dad has ___ left for work.",
+     "fullSentence": "It is only seven, but Dad has already left for work.",
+     "translation": "才七點，但爸爸已經出門上班了。",
+     "clue": "人早就出門了",
+     "answerEntryId": "u16:already",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:ago",
+      "u16:once"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Don't add sugar; I have ___ put two spoons in.",
+     "fullSentence": "Don't add sugar; I have already put two spoons in.",
+     "translation": "不要再加糖了，我已經放了兩匙。",
+     "clue": "糖早就加過了",
+     "answerEntryId": "u16:already",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:ago",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "The bus has ___ gone, so we have to walk to school.",
+     "fullSentence": "The bus has already gone, so we have to walk to school.",
+     "translation": "公車已經開走了，我們只好走路去學校。",
+     "clue": "公車早就開走了",
+     "answerEntryId": "u16:already",
+     "distractorEntryIds": [
+      "u16:soon",
+      "u16:ago",
+      "u16:once"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "When I got to the station, the train had ___ left, ten minutes before I arrived.",
+    "fullSentence": "When I got to the station, the train had already left, ten minutes before I arrived.",
+    "translation": "我到車站時，火車早就開走了，比我抵達早了十分鐘。",
+    "clue": "我到之前火車就開走了",
+    "answerEntryId": "u16:already",
+    "distractorEntryIds": [
+     "u16:soon",
+     "u16:ago",
+     "u16:once"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:April",
+   "zh": "四月",
+   "pos": "noun",
+   "example": "My little sister was born in April.",
+   "exampleZh": "我妹妹在四月出生。",
+   "spellingHint": "a-p-r-i-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The fourth month of the year is ___.",
+    "fullSentence": "The fourth month of the year is April.",
+    "translation": "一年中的第四個月是四月。",
+    "clue": "一年中的第四個月",
+    "answerEntryId": "u16:April",
+    "distractorEntryIds": [
+     "u16:March",
+     "u16:May",
+     "u16:June"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the third month and before the fifth.",
+     "fullSentence": "April comes right after the third month and before the fifth.",
+     "translation": "四月緊接在第三個月之後、第五個月之前。",
+     "clue": "第三個月之後、第五個月之前",
+     "answerEntryId": "u16:April",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:May",
+      "u16:June"
+     ]
+    },
+    {
+     "sentence": "The cherry flowers bloom in ___, between the third and fifth months.",
+     "fullSentence": "The cherry flowers bloom in April, between the third and fifth months.",
+     "translation": "櫻花在四月盛開，介於第三和第五個月之間。",
+     "clue": "第三到第五個月之間開花",
+     "answerEntryId": "u16:April",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:June",
+      "u16:July"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Students play jokes on each other on the first day of ___.",
+     "fullSentence": "Students play jokes on each other on the first day of April.",
+     "translation": "學生在這個月的第一天互相開玩笑。",
+     "clue": "愚人節在這個月的第一天",
+     "answerEntryId": "u16:April",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:May",
+      "u16:August"
+     ]
+    },
+    {
+     "sentence": "___ is the second month of spring, right in the middle of the flower season.",
+     "fullSentence": "April is the second month of spring, right in the middle of the flower season.",
+     "translation": "四月是春季的第二個月，正是花季正盛的時候。",
+     "clue": "春天的第二個月",
+     "answerEntryId": "u16:April",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:May",
+      "u16:June"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the third and the fifth is ___, when spring rains water the flowers.",
+    "fullSentence": "The month between the third and the fifth is April, when spring rains water the flowers.",
+    "translation": "介於第三個月和第五個月之間的是四月，春雨滋潤花朵。",
+    "clue": "第三與第五個月之間、春雨綿綿",
+    "answerEntryId": "u16:April",
+    "distractorEntryIds": [
+     "u16:June",
+     "u16:July",
+     "u16:August"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:August",
+   "zh": "八月",
+   "pos": "noun",
+   "example": "We always visit Grandma in August.",
+   "exampleZh": "我們總在八月去看奶奶。",
+   "spellingHint": "a-u-g-u-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The eighth month of the year is ___.",
+    "fullSentence": "The eighth month of the year is August.",
+    "translation": "一年中的第八個月是八月。",
+    "clue": "一年中的第八個月",
+    "answerEntryId": "u16:August",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:September",
+     "u16:June"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ is the last month of summer vacation, so finish your homework soon.",
+     "fullSentence": "August is the last month of summer vacation, so finish your homework soon.",
+     "translation": "八月是暑假的最後一個月，快把功課寫完吧。",
+     "clue": "暑假的最後一個月",
+     "answerEntryId": "u16:August",
+     "distractorEntryIds": [
+      "u16:July",
+      "u16:June",
+      "u16:May"
+     ]
+    },
+    {
+     "sentence": "It is so hot in ___ that we go to the pool almost every single day.",
+     "fullSentence": "It is so hot in August that we go to the pool almost every single day.",
+     "translation": "八月熱得我們幾乎天天去泳池。",
+     "clue": "一年中最熱的月份",
+     "answerEntryId": "u16:August",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:February",
+      "u16:December"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the month after the seventh one, in the middle of the summer holidays.",
+     "fullSentence": "August is the month after the seventh one, in the middle of the summer holidays.",
+     "translation": "八月緊接在第七個月之後，正處暑假中期。",
+     "clue": "第七個月的下一個月",
+     "answerEntryId": "u16:August",
+     "distractorEntryIds": [
+      "u16:June",
+      "u16:September",
+      "u16:October"
+     ]
+    },
+    {
+     "sentence": "Dad takes his vacation in ___, the eighth month, and we camp by the lake.",
+     "fullSentence": "Dad takes his vacation in August, the eighth month, and we camp by the lake.",
+     "translation": "爸爸在八月，也就是第八個月休假，我們去湖邊露營。",
+     "clue": "一年中的第八個月",
+     "answerEntryId": "u16:August",
+     "distractorEntryIds": [
+      "u16:June",
+      "u16:October",
+      "u16:April"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "School starts in the ninth month, so our family trip must happen one month earlier, in ___.",
+    "fullSentence": "School starts in the ninth month, so our family trip must happen one month earlier, in August.",
+    "translation": "學校第九個月開學，所以家庭旅行要早一個月，在八月出發。",
+    "clue": "比第九個月早一個月的暑假尾聲",
+    "answerEntryId": "u16:August",
+    "distractorEntryIds": [
+     "u16:May",
+     "u16:June",
+     "u16:October"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:autumn",
+   "zh": "秋天",
+   "pos": "noun",
+   "example": "Leaves turn red in autumn.",
+   "exampleZh": "秋天葉子變紅。",
+   "spellingHint": "a-u-t-u-m-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Leaves turn red and yellow, and farmers gather the rice in ___.",
+    "fullSentence": "Leaves turn red and yellow, and farmers gather the rice in autumn.",
+    "translation": "秋天葉子轉紅變黃，農夫收成稻子。",
+    "clue": "葉子變色、稻子收割的季節",
+    "answerEntryId": "u16:autumn",
+    "distractorEntryIds": [
+     "u16:spring",
+     "u16:summer",
+     "u16:winter"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "It is cool but not cold yet, and the leaves turn brown in ___.",
+     "fullSentence": "It is cool but not cold yet, and the leaves turn brown in autumn.",
+     "translation": "秋天涼爽但不冷，葉子轉為褐色。",
+     "clue": "涼爽、葉子轉褐的季節",
+     "answerEntryId": "u16:autumn",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:winter",
+      "u16:spring"
+     ]
+    },
+    {
+     "sentence": "We eat mooncakes and watch the full moon in ___.",
+     "fullSentence": "We eat mooncakes and watch the full moon in autumn.",
+     "translation": "我們在秋天吃月餅、賞滿月。",
+     "clue": "吃月餅賞月的季節",
+     "answerEntryId": "u16:autumn",
+     "distractorEntryIds": [
+      "u16:spring",
+      "u16:summer",
+      "u16:winter"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ harvest brings in rice and sweet potatoes before the cold arrives.",
+     "fullSentence": "The autumn harvest brings in rice and sweet potatoes before the cold arrives.",
+     "translation": "秋收在寒冷來臨前收成稻米和地瓜。",
+     "clue": "天冷之前收割莊稼的季節",
+     "answerEntryId": "u16:autumn",
+     "distractorEntryIds": [
+      "u16:spring",
+      "u16:winter",
+      "u16:summer"
+     ]
+    },
+    {
+     "sentence": "School starts in the ninth month, early in the ___.",
+     "fullSentence": "School starts in the ninth month, early in the autumn.",
+     "translation": "學校在九月開學，正是初秋。",
+     "clue": "九月是這個季節的開始",
+     "answerEntryId": "u16:autumn",
+     "distractorEntryIds": [
+      "u16:spring",
+      "u16:summer",
+      "u16:winter"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "We celebrate the moon festival in ___, when the nights turn cool and farmers cut the rice.",
+    "fullSentence": "We celebrate the moon festival in autumn, when the nights turn cool and farmers cut the rice.",
+    "translation": "我們在秋天慶祝中秋節，這時夜晚轉涼，農夫正收割稻子。",
+    "clue": "夜裡轉涼、正逢收成的季節",
+    "answerEntryId": "u16:autumn",
+    "distractorEntryIds": [
+     "u16:spring",
+     "u16:summer",
+     "u16:winter"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:calendar",
+   "zh": "日曆；月曆",
+   "pos": "noun",
+   "example": "Mom marks birthdays on the calendar.",
+   "exampleZh": "媽媽在日曆上標記生日。",
+   "spellingHint": "c-a-l-e-n-d-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Mom hung a new ___ on the wall to mark everyone's birthdays and holidays.",
+    "fullSentence": "Mom hung a new calendar on the wall to mark everyone's birthdays and holidays.",
+    "translation": "媽媽在牆上掛了新日曆，標記每個人的生日和節日。",
+    "clue": "掛在牆上、用來記日期的東西",
+    "answerEntryId": "u16:calendar",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:date",
+     "u16:time"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We check the ___ to see which day of the month it is.",
+     "fullSentence": "We check the calendar to see which day of the month it is.",
+     "translation": "我們查看日曆，看今天是這個月的哪一天。",
+     "clue": "用來查看日期的表格",
+     "answerEntryId": "u16:calendar",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:watch",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "There is a ___ above my desk with a picture of a kitten for each month.",
+     "fullSentence": "There is a calendar above my desk with a picture of a kitten for each month.",
+     "translation": "我書桌上方有一本月曆，每個月配一張小貓圖片。",
+     "clue": "一頁一個月、有圖片的掛曆",
+     "answerEntryId": "u16:calendar",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:watch",
+      "u16:stopwatch"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Before planning the trip, Dad marked the holidays on the ___.",
+     "fullSentence": "Before planning the trip, Dad marked the holidays on the calendar.",
+     "translation": "計畫旅行前，爸爸先在日曆上標出假期。",
+     "clue": "標記假期日期用的紙",
+     "answerEntryId": "u16:calendar",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:clock",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "Each page of the ___ shows one month with all its days numbered.",
+     "fullSentence": "Each page of the calendar shows one month with all its days numbered.",
+     "translation": "日曆的每一頁顯示一個月，所有日期都編了號。",
+     "clue": "一頁一個月、日期編號的冊子",
+     "answerEntryId": "u16:calendar",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:clock",
+      "u16:stopwatch"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Unlike a watch, which tells the hour, a ___ tells you the month and the day of the week.",
+    "fullSentence": "Unlike a watch, which tells the hour, a calendar tells you the month and the day of the week.",
+    "translation": "手錶顯示時刻，而日曆告訴你月份和星期幾。",
+    "clue": "顯示月份和星期、而非時刻",
+    "answerEntryId": "u16:calendar",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:date",
+     "u16:alarm clock"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:clock",
+   "zh": "時鐘",
+   "pos": "noun",
+   "example": "The clock on the wall says three.",
+   "exampleZh": "牆上的時鐘指著三點。",
+   "spellingHint": "c-l-o-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The big ___ on the classroom wall has two hands that turn slowly all day.",
+    "fullSentence": "The big clock on the classroom wall has two hands that turn slowly all day.",
+    "translation": "教室牆上的大時鐘有兩根指針，整天慢慢轉動。",
+    "clue": "掛在牆上、有指針的計時器",
+    "answerEntryId": "u16:clock",
+    "distractorEntryIds": [
+     "u16:watch",
+     "u16:calendar",
+     "u16:alarm clock"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Look at the ___ on the wall; it is almost time for lunch.",
+     "fullSentence": "Look at the clock on the wall; it is almost time for lunch.",
+     "translation": "看看牆上的時鐘，快要到午餐時間了。",
+     "clue": "掛在牆上告訴你時間的東西",
+     "answerEntryId": "u16:clock",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "Grandpa winds the old ___ that hangs on the wall, so its hands keep moving.",
+     "fullSentence": "Grandpa winds the old clock that hangs on the wall, so its hands keep moving.",
+     "translation": "爺爺每週日替掛在牆上的老時鐘上發條，讓指針繼續走。",
+     "clue": "要上發條、有指針的鐘",
+     "answerEntryId": "u16:clock",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The station's ___ hangs high above the platform so every traveler can read the hour.",
+     "fullSentence": "The station's clock hangs high above the platform so every traveler can read the hour.",
+     "translation": "車站的時鐘高掛在月台上空，讓每位旅客都看得到時刻。",
+     "clue": "掛在高處供大家看時間的鐘",
+     "answerEntryId": "u16:clock",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "Our school ___ chimes once when each class begins.",
+     "fullSentence": "Our school clock chimes once when each class begins.",
+     "translation": "我們學校的時鐘在上課時會響一聲。",
+     "clue": "學校裡會報時的鐘",
+     "answerEntryId": "u16:clock",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:calendar",
+      "u16:stopwatch"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ sits on the desk and never leaves the room, while its smaller cousin is worn on the wrist.",
+    "fullSentence": "A clock sits on the desk and never leaves the room, while its smaller cousin is worn on the wrist.",
+    "translation": "時鐘放在桌上不離開房間，而它的小親戚則戴在手腕上。",
+    "clue": "放在定點、不戴在手腕上",
+    "answerEntryId": "u16:clock",
+    "distractorEntryIds": [
+     "u16:watch",
+     "u16:stopwatch",
+     "u16:calendar"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:daily",
+   "zh": "每天地；每日的",
+   "pos": "adverb",
+   "example": "He practices the piano daily.",
+   "exampleZh": "他每天練鋼琴。",
+   "spellingHint": "d-a-i-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The mail carrier comes ___, so letters arrive every single day.",
+    "fullSentence": "The mail carrier comes daily, so letters arrive every single day.",
+    "translation": "郵差每天都來，所以信件天天送達。",
+    "clue": "一天一次、天天如此",
+    "answerEntryId": "u16:daily",
+    "distractorEntryIds": [
+     "u16:monthly",
+     "u16:weekly",
+     "u16:yearly"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We water the flowers ___, once every single day.",
+     "fullSentence": "We water the flowers daily, once every single day.",
+     "translation": "我們每天澆花，一天一次。",
+     "clue": "一天一次、天天做",
+     "answerEntryId": "u16:daily",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:monthly",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "Newspapers are printed ___ so you can read the news every morning.",
+     "fullSentence": "Newspapers are printed daily so you can read the news every morning.",
+     "translation": "報紙每天印，所以你每天早上都能看新聞。",
+     "clue": "每天發行一次",
+     "answerEntryId": "u16:daily",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:monthly",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Unlike a magazine that comes out every seven days, a ___ newspaper appears all seven days of the week.",
+     "fullSentence": "Unlike a magazine that comes out every seven days, a daily newspaper appears all seven days of the week.",
+     "translation": "和每七天出一次的雜誌不同，日報一週七天都出刊。",
+     "clue": "一週七天都出現、而非一週一次",
+     "answerEntryId": "u16:daily",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:monthly",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "Athletes train ___ to build strength, not just once in a while.",
+     "fullSentence": "Athletes train daily to build strength, not just once in a while.",
+     "translation": "運動員每天訓練來增強體力，而不是偶爾才練。",
+     "clue": "天天訓練、非偶爾一次",
+     "answerEntryId": "u16:daily",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:monthly",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The shop restocks milk ___, so it stays fresh, while bread arrives only twice a week.",
+    "fullSentence": "The shop restocks milk daily, so it stays fresh, while bread arrives only twice a week.",
+    "translation": "店家每天補貨牛奶保持新鮮，麵包則一週只送兩次。",
+    "clue": "比一週兩次更頻繁、天天送",
+    "answerEntryId": "u16:daily",
+    "distractorEntryIds": [
+     "u16:weekly",
+     "u16:monthly",
+     "u16:yearly"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:date",
+   "zh": "日期",
+   "pos": "noun",
+   "example": "Please write the date at the top of your test paper.",
+   "exampleZh": "請在考卷最上面寫上日期。",
+   "spellingHint": "d-a-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please write today's ___ at the top of your test paper, like 'March 8'.",
+    "fullSentence": "Please write today's date at the top of your test paper, like 'March 8'.",
+    "translation": "請在考卷最上方寫上今天的日期，例如「三月八日」。",
+    "clue": "像「三月八日」這樣的年月日",
+    "answerEntryId": "u16:date",
+    "distractorEntryIds": [
+     "u16:day",
+     "u16:time",
+     "u16:moment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "What is the ___ today? It is the tenth of June.",
+     "fullSentence": "What is the date today? It is the tenth of June.",
+     "translation": "今天是幾月幾日？是六月十日。",
+     "clue": "問幾月幾日",
+     "answerEntryId": "u16:date",
+     "distractorEntryIds": [
+      "u16:day",
+      "u16:time",
+      "u16:week"
+     ]
+    },
+    {
+     "sentence": "Check the ___ on the milk box to see if it is still fresh.",
+     "fullSentence": "Check the date on the milk box to see if it is still fresh.",
+     "translation": "看看牛奶盒上的日期，確認是否還新鮮。",
+     "clue": "印在包裝上的保存期限日期",
+     "answerEntryId": "u16:date",
+     "distractorEntryIds": [
+      "u16:time",
+      "u16:clock",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ on the invitation says the party is on July 5.",
+     "fullSentence": "The date on the invitation says the party is on July 5.",
+     "translation": "邀請卡上的日期寫著派對在七月五日。",
+     "clue": "寫著七月五日的資訊",
+     "answerEntryId": "u16:date",
+     "distractorEntryIds": [
+      "u16:time",
+      "u16:day",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "On the first line of your diary, write the ___ so you remember which day you wrote it.",
+     "fullSentence": "On the first line of your diary, write the date so you remember which day you wrote it.",
+     "translation": "在日記第一行寫上日期，才記得是哪天寫的。",
+     "clue": "日記第一行標記的年月日",
+     "answerEntryId": "u16:date",
+     "distractorEntryIds": [
+      "u16:time",
+      "u16:moment",
+      "u16:week"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A calendar shows both the month and the exact ___ of the month, such as the 15th.",
+    "fullSentence": "A calendar shows both the month and the exact date of the month, such as the 15th.",
+    "translation": "日曆同時顯示月份和當月的確切日期，例如十五日。",
+    "clue": "像「15日」這樣的確切日子",
+    "answerEntryId": "u16:date",
+    "distractorEntryIds": [
+     "u16:day",
+     "u16:hour",
+     "u16:moment"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:dawn",
+   "zh": "黎明；天亮時分",
+   "pos": "noun",
+   "example": "Birds start singing at dawn.",
+   "exampleZh": "鳥兒在黎明時開始唱歌。",
+   "spellingHint": "d-a-w-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The rooster crows at ___, just as the sky starts to turn light.",
+    "fullSentence": "The rooster crows at dawn, just as the sky starts to turn light.",
+    "translation": "公雞在黎明啼叫，這時天空才開始亮起來。",
+    "clue": "天空剛亮起來的時刻",
+    "answerEntryId": "u16:dawn",
+    "distractorEntryIds": [
+     "u16:noon",
+     "u16:midnight",
+     "u16:morning"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Fishermen leave the harbor at ___ before the sun rises.",
+     "fullSentence": "Fishermen leave the harbor at dawn before the sun rises.",
+     "translation": "漁夫在日出前的黎明時分離港。",
+     "clue": "日出之前的天光時刻",
+     "answerEntryId": "u16:dawn",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:midnight",
+      "u16:evening"
+     ]
+    },
+    {
+     "sentence": "We got up at ___ to climb the mountain and watch the sunrise.",
+     "fullSentence": "We got up at dawn to climb the mountain and watch the sunrise.",
+     "translation": "我們天一亮就起床去爬山看日出。",
+     "clue": "看日出的時刻",
+     "answerEntryId": "u16:dawn",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:midnight",
+      "u16:tonight"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "At ___ the first light appears, long before most people wake up.",
+     "fullSentence": "At dawn the first light appears, long before most people wake up.",
+     "translation": "黎明時第一道天光出現，比多數人起床早得多。",
+     "clue": "多數人還沒起床的天亮時刻",
+     "answerEntryId": "u16:dawn",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:noon",
+      "u16:night"
+     ]
+    },
+    {
+     "sentence": "The birds sing loudly at ___, greeting the first rays of the sun.",
+     "fullSentence": "The birds sing loudly at dawn, greeting the first rays of the sun.",
+     "translation": "鳥兒在黎明大聲歌唱，迎接第一道陽光。",
+     "clue": "迎接第一道陽光的時刻",
+     "answerEntryId": "u16:dawn",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:noon",
+      "u16:evening"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Night becomes morning at ___, when the eastern sky slowly grows bright.",
+    "fullSentence": "Night becomes morning at dawn, when the eastern sky slowly grows bright.",
+    "translation": "黎明是夜轉晨的安靜時刻，東方天空漸漸亮起。",
+    "clue": "夜晚轉為早晨的時刻",
+    "answerEntryId": "u16:dawn",
+    "distractorEntryIds": [
+     "u16:midnight",
+     "u16:noon",
+     "u16:evening"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:day",
+   "zh": "天；日",
+   "pos": "noun",
+   "example": "There are seven days in a week.",
+   "exampleZh": "一週有七天。",
+   "spellingHint": "d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "A ___ has twenty-four hours, from midnight to midnight.",
+    "fullSentence": "A day has twenty-four hours, from midnight to midnight.",
+    "translation": "一天有二十四小時，從午夜到午夜。",
+    "clue": "有二十四小時的時間單位",
+    "answerEntryId": "u16:day",
+    "distractorEntryIds": [
+     "u16:week",
+     "u16:hour",
+     "u16:month"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "How many hours are there in a ___? Twenty-four.",
+     "fullSentence": "How many hours are there in a day? Twenty-four.",
+     "translation": "一天有幾個小時？二十四個。",
+     "clue": "由二十四小時組成",
+     "answerEntryId": "u16:day",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:hour",
+      "u16:minute"
+     ]
+    },
+    {
+     "sentence": "We spent a whole ___ at the beach from sunrise to sunset.",
+     "fullSentence": "We spent a whole day at the beach from sunrise to sunset.",
+     "translation": "我們在海邊玩了一整天，從日出到日落。",
+     "clue": "從日出到日落的一整天",
+     "answerEntryId": "u16:day",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:hour",
+      "u16:morning"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Earth spins once every twenty-four hours, giving us one full ___.",
+     "fullSentence": "Earth spins once every twenty-four hours, giving us one full day.",
+     "translation": "地球每二十四小時自轉一圈，形成一整天。",
+     "clue": "地球自轉一圈的時間",
+     "answerEntryId": "u16:day",
+     "distractorEntryIds": [
+      "u16:year",
+      "u16:week",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "Each ___ of the week has its own name, like Monday or Friday.",
+     "fullSentence": "Each day of the week has its own name, like Monday or Friday.",
+     "translation": "一週的每一天都有自己的名字，像星期一或星期五。",
+     "clue": "一週裡有名稱的單位",
+     "answerEntryId": "u16:day",
+     "distractorEntryIds": [
+      "u16:hour",
+      "u16:minute",
+      "u16:second"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "One ___ is made of twenty-four hours and lasts from midnight to midnight.",
+    "fullSentence": "One day is made of twenty-four hours and lasts from midnight to midnight.",
+    "translation": "一天由二十四小時組成，從午夜持續到午夜。",
+    "clue": "由二十四小時組成、從午夜到午夜",
+    "answerEntryId": "u16:day",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:week",
+     "u16:month"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:December",
+   "zh": "十二月",
+   "pos": "noun",
+   "example": "Christmas comes in December.",
+   "exampleZh": "聖誕節在十二月到來。",
+   "spellingHint": "d-e-c-e-m-b-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Christmas comes at the end of ___, the twelfth and final month.",
+    "fullSentence": "Christmas comes at the end of December, the twelfth and final month.",
+    "translation": "聖誕節在十二月，也就是第十二個月也是最後一個月的月底到來。",
+    "clue": "一年最後一個月、有聖誕節",
+    "answerEntryId": "u16:December",
+    "distractorEntryIds": [
+     "u16:November",
+     "u16:January",
+     "u16:October"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ is the last month of the year, right before January.",
+     "fullSentence": "December is the last month of the year, right before January.",
+     "translation": "十二月是一年的最後一個月，緊接在一月之前。",
+     "clue": "一月之前的最後一個月",
+     "answerEntryId": "u16:December",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:October",
+      "u16:February"
+     ]
+    },
+    {
+     "sentence": "We decorate a Christmas tree in ___, the twelfth month of the year.",
+     "fullSentence": "We decorate a Christmas tree in December, the twelfth month of the year.",
+     "translation": "我們在十二月，一年的第十二個月，裝飾聖誕樹。",
+     "clue": "裝飾聖誕樹的月份",
+     "answerEntryId": "u16:December",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:October",
+      "u16:February"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "After the eleventh month ends, ___ begins and the year is almost over.",
+     "fullSentence": "After the eleventh month ends, December begins and the year is almost over.",
+     "translation": "第十一個月結束後，十二月開始，一年就快結束了。",
+     "clue": "第十一個月之後的月份",
+     "answerEntryId": "u16:December",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:October",
+      "u16:February"
+     ]
+    },
+    {
+     "sentence": "The coldest month here is ___, when we wear coats and celebrate Christmas.",
+     "fullSentence": "The coldest month here is December, when we wear coats and celebrate Christmas.",
+     "translation": "這裡最冷的月份是十二月，我們穿外套、慶祝聖誕節。",
+     "clue": "穿外套過聖誕節的月份",
+     "answerEntryId": "u16:December",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:June",
+      "u16:July"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "New Year's Eve falls on the very last day of ___, with fireworks at midnight.",
+    "fullSentence": "New Year's Eve falls on the very last day of December, with fireworks at midnight.",
+    "translation": "跨年夜是十二月的最後一天，午夜有煙火。",
+    "clue": "跨年夜所在的月份",
+    "answerEntryId": "u16:December",
+    "distractorEntryIds": [
+     "u16:November",
+     "u16:January",
+     "u16:October"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:early",
+   "zh": "早的；提早地",
+   "pos": "adjective",
+   "example": "She always arrives early for class.",
+   "exampleZh": "她總是提早到教室。",
+   "spellingHint": "e-a-r-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The bus was ___, so it arrived before the time written on the schedule.",
+    "fullSentence": "The bus was early, so it arrived before the time written on the schedule.",
+    "translation": "公車提早了，所以比時刻表上的時間早到。",
+    "clue": "比預定時間先到",
+    "answerEntryId": "u16:early",
+    "distractorEntryIds": [
+     "u16:late",
+     "u16:last",
+     "u16:next"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Come to school ___ so you have time to chat with friends before class.",
+     "fullSentence": "Come to school early so you have time to chat with friends before class.",
+     "translation": "早點到學校，上課前才有時間和朋友聊天。",
+     "clue": "在鐘響之前就到",
+     "answerEntryId": "u16:early",
+     "distractorEntryIds": [
+      "u16:late",
+      "u16:later",
+      "u16:soon"
+     ]
+    },
+    {
+     "sentence": "The bakery sells out fast, so we shop ___ in the morning at seven.",
+     "fullSentence": "The bakery sells out fast, so we shop early in the morning at seven.",
+     "translation": "麵包店很快賣完，所以我們早上七點就早早去買。",
+     "clue": "比大多數人更早的時段",
+     "answerEntryId": "u16:early",
+     "distractorEntryIds": [
+      "u16:late",
+      "u16:later",
+      "u16:tonight"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ birds get the worms, so wake up before sunrise.",
+     "fullSentence": "early birds get the worms, so wake up before sunrise.",
+     "translation": "早起的鳥兒有蟲吃，所以要在日出前起床。",
+     "clue": "比日出還早起床",
+     "answerEntryId": "u16:early",
+     "distractorEntryIds": [
+      "u16:late",
+      "u16:last",
+      "u16:next"
+     ]
+    },
+    {
+     "sentence": "We reached the station twenty minutes ___ and waited on the bench.",
+     "fullSentence": "We reached the station twenty minutes early and waited on the bench.",
+     "translation": "我們提早二十分鐘到車站，在長椅上等。",
+     "clue": "比發車時間早二十分鐘",
+     "answerEntryId": "u16:early",
+     "distractorEntryIds": [
+      "u16:late",
+      "u16:last",
+      "u16:next"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Her flight lands at five, an hour ___ than planned, so Mom is still on her way.",
+    "fullSentence": "Her flight lands at five, an hour early than planned, so Mom is still on her way.",
+    "translation": "她的航班五點落地，比預定早一小時，所以媽媽還在路上。",
+    "clue": "比預定時間早一小時",
+    "answerEntryId": "u16:early",
+    "distractorEntryIds": [
+     "u16:late",
+     "u16:last",
+     "u16:next"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:evening",
+   "zh": "傍晚；晚上（就寢前）",
+   "pos": "noun",
+   "example": "Our family eats dinner together in the evening.",
+   "exampleZh": "我們家人傍晚一起吃晚餐。",
+   "spellingHint": "e-v-e-n-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We eat dinner at six and watch TV together in the ___.",
+    "fullSentence": "We eat dinner at six and watch TV together in the evening.",
+    "translation": "我們六點吃晚餐，晚上一起看電視。",
+    "clue": "晚餐之後、睡覺之前的時段",
+    "answerEntryId": "u16:evening",
+    "distractorEntryIds": [
+     "u16:morning",
+     "u16:afternoon",
+     "u16:midnight"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The streetlights turn on in the ___ when the sky grows dark.",
+     "fullSentence": "The streetlights turn on in the evening when the sky grows dark.",
+     "translation": "傍晚天色變暗時，路燈亮了起來。",
+     "clue": "天色變暗、路燈亮的時段",
+     "answerEntryId": "u16:evening",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:noon",
+      "u16:dawn"
+     ]
+    },
+    {
+     "sentence": "Dad reads us a story every ___ before we go to bed.",
+     "fullSentence": "Dad reads us a story every evening before we go to bed.",
+     "translation": "爸爸每晚在我們睡前念故事。",
+     "clue": "睡前的那段時間",
+     "answerEntryId": "u16:evening",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:afternoon",
+      "u16:midnight"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "After a busy ___, from five to nine, she finally sits down to rest.",
+     "fullSentence": "After a busy evening, from five to nine, she finally sits down to rest.",
+     "translation": "忙完五點到九點的晚間時光後，她才終於坐下休息。",
+     "clue": "五點到九點的時段",
+     "answerEntryId": "u16:evening",
+     "distractorEntryIds": [
+      "u16:afternoon",
+      "u16:morning",
+      "u16:night"
+     ]
+    },
+    {
+     "sentence": "The park is busiest in the ___ when families walk after dinner.",
+     "fullSentence": "The park is busiest in the evening when families walk after dinner.",
+     "translation": "傍晚公園最熱鬧，家家戶戶晚餐後來散步。",
+     "clue": "晚餐後散步的時段",
+     "answerEntryId": "u16:evening",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:noon",
+      "u16:midnight"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ begins when the sun sets and ends when you turn off the light to sleep.",
+    "fullSentence": "evening begins when the sun sets and ends when you turn off the light to sleep.",
+    "translation": "傍晚從日落開始，到你關燈睡覺時結束。",
+    "clue": "日落後到就寢前的時段",
+    "answerEntryId": "u16:evening",
+    "distractorEntryIds": [
+     "u16:night",
+     "u16:afternoon",
+     "u16:morning"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:February",
+   "zh": "二月",
+   "pos": "noun",
+   "example": "We have a winter break in February.",
+   "exampleZh": "我們二月份有寒假。",
+   "spellingHint": "f-e-b-r-u-a-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The second month of the year is ___, and it has the fewest days.",
+    "fullSentence": "The second month of the year is February, and it has the fewest days.",
+    "translation": "一年中的第二個月是二月，天數最少。",
+    "clue": "一年第二個月、天數最少",
+    "answerEntryId": "u16:February",
+    "distractorEntryIds": [
+     "u16:January",
+     "u16:March",
+     "u16:April"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the first month and has only twenty-eight days.",
+     "fullSentence": "February comes right after the first month and has only twenty-eight days.",
+     "translation": "二月緊接在一月之後，只有二十八天。",
+     "clue": "一月之後、只有二十八天",
+     "answerEntryId": "u16:February",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:March",
+      "u16:December"
+     ]
+    },
+    {
+     "sentence": "Valentine's Day is in ___, the shortest month of the year.",
+     "fullSentence": "Valentine's Day is in February, the shortest month of the year.",
+     "translation": "情人節在二月，一年中最短的月份。",
+     "clue": "一年中最短的月份",
+     "answerEntryId": "u16:February",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:March",
+      "u16:November"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the month after the first one, still cold in the middle of winter.",
+     "fullSentence": "February is the month after the first one, still cold in the middle of winter.",
+     "translation": "二月在一月之後，仍是寒冬中期，天氣很冷。",
+     "clue": "第一個月的下一個月",
+     "answerEntryId": "u16:February",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:January",
+      "u16:December"
+     ]
+    },
+    {
+     "sentence": "Only once every four years does ___ have a twenty-ninth day.",
+     "fullSentence": "Only once every four years does February have a twenty-ninth day.",
+     "translation": "每四年才有一次二月會有二十九日。",
+     "clue": "有閏日、天數最少的月份",
+     "answerEntryId": "u16:February",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:March",
+      "u16:April"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the first and the third is ___, when the weather is often the coldest.",
+    "fullSentence": "The month between the first and the third is February, when the weather is often the coldest.",
+    "translation": "介於第一和第三個月之間的是二月，天氣常常最冷。",
+    "clue": "第一與第三個月之間、最冷",
+    "answerEntryId": "u16:February",
+    "distractorEntryIds": [
+     "u16:April",
+     "u16:May",
+     "u16:June"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Friday",
+   "zh": "星期五",
+   "pos": "noun",
+   "example": "We have a spelling test every Friday.",
+   "exampleZh": "我們每星期五有拼字測驗。",
+   "spellingHint": "f-r-i-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the last school day before the weekend begins.",
+    "fullSentence": "Friday is the last school day before the weekend begins.",
+    "translation": "星期五是週末開始前最後一個上學日。",
+    "clue": "週末前最後一個上學日",
+    "answerEntryId": "u16:Friday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Saturday",
+     "u16:Thursday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the fourth school day and before Saturday.",
+     "fullSentence": "Friday comes right after the fourth school day and before Saturday.",
+     "translation": "星期五在第四個上學日之後、星期六之前。",
+     "clue": "星期四之後、星期六之前",
+     "answerEntryId": "u16:Friday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Thursday",
+      "u16:Tuesday"
+     ]
+    },
+    {
+     "sentence": "On ___ night our family often rents a movie to welcome the weekend.",
+     "fullSentence": "On Friday night our family often rents a movie to welcome the weekend.",
+     "translation": "星期五晚上，我們家常看電影迎接週末。",
+     "clue": "迎接週末的前一晚",
+     "answerEntryId": "u16:Friday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Wednesday",
+      "u16:Saturday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Students feel excited on ___ because two holidays follow the next day.",
+     "fullSentence": "Students feel excited on Friday because two holidays follow the next day.",
+     "translation": "學生星期五特別興奮，因為隔天開始放假。",
+     "clue": "隔天就放假的上學日",
+     "answerEntryId": "u16:Friday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Tuesday",
+      "u16:Saturday"
+     ]
+    },
+    {
+     "sentence": "We clean the classroom on ___, the last school day, so it is fresh again by the weekend.",
+     "fullSentence": "We clean the classroom on Friday, the last school day, so it is fresh again by the weekend.",
+     "translation": "我們星期五大掃除，週末前教室就煥然一新。",
+     "clue": "週末前最後一次打掃",
+     "answerEntryId": "u16:Friday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Thursday",
+      "u16:Tuesday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between Thursday and Saturday is ___, when everyone counts the hours until the bell rings.",
+    "fullSentence": "The day between Thursday and Saturday is Friday, when everyone counts the hours until the bell rings.",
+    "translation": "星期四和星期六之間的那天是星期五，大家都在數著放學鐘響的時間。",
+    "clue": "星期四與星期六之間",
+    "answerEntryId": "u16:Friday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Tuesday",
+     "u16:Wednesday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:future",
+   "zh": "未來",
+   "pos": "noun",
+   "example": "Robots may help us more in the future.",
+   "exampleZh": "未來機器人可能會更幫助我們。",
+   "spellingHint": "f-u-t-u-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "No one knows exactly what cities will look like in the ___.",
+    "fullSentence": "No one knows exactly what cities will look like in the future.",
+    "translation": "沒有人確切知道未來的城市會是什麼樣子。",
+    "clue": "還沒到來、之後的時間",
+    "answerEntryId": "u16:future",
+    "distractorEntryIds": [
+     "u16:past",
+     "u16:moment",
+     "u16:period"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Study hard now, and it will help you in the ___.",
+     "fullSentence": "Study hard now, and it will help you in the future.",
+     "translation": "現在認真讀書，未來會幫助你。",
+     "clue": "現在之後的時間",
+     "answerEntryId": "u16:future",
+     "distractorEntryIds": [
+      "u16:past",
+      "u16:morning",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "She dreams of becoming a doctor in the ___.",
+     "fullSentence": "She dreams of becoming a doctor in the future.",
+     "translation": "她夢想未來成為醫生。",
+     "clue": "以後想實現的夢想",
+     "answerEntryId": "u16:future",
+     "distractorEntryIds": [
+      "u16:past",
+      "u16:today",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Unlike the past, which has already happened, the ___ has not come yet.",
+     "fullSentence": "Unlike the past, which has already happened, the future has not come yet.",
+     "translation": "過去已經發生，而未來還沒到來。",
+     "clue": "還沒發生的時間",
+     "answerEntryId": "u16:future",
+     "distractorEntryIds": [
+      "u16:moment",
+      "u16:period",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "Scientists build new machines for the ___, hoping tomorrow's world will be better.",
+     "fullSentence": "Scientists build new machines for the future, hoping tomorrow's world will be better.",
+     "translation": "科學家為未來研發新機器，希望明天的世界更好。",
+     "clue": "為明天世界準備的時間",
+     "answerEntryId": "u16:future",
+     "distractorEntryIds": [
+      "u16:past",
+      "u16:moment",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Our plans wait for the ___ ahead, while old photos keep yesterday alive.",
+    "fullSentence": "Our plans wait for the future ahead, while old photos keep yesterday alive.",
+    "translation": "我們的計畫等待未來，而老照片留住昨天。",
+    "clue": "與已過去的昨天相對、尚未到來",
+    "answerEntryId": "u16:future",
+    "distractorEntryIds": [
+     "u16:past",
+     "u16:moment",
+     "u16:period"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:half",
+   "zh": "一半；半",
+   "pos": "noun",
+   "example": "I ate half of the cake.",
+   "exampleZh": "我吃了蛋糕的一半。",
+   "spellingHint": "h-a-l-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Cut the apple into two equal pieces and give me one ___ of it.",
+    "fullSentence": "Cut the apple into two equal pieces and give me one half of it.",
+    "translation": "把蘋果切成兩等份，給我其中一半。",
+    "clue": "兩等份中的一份",
+    "answerEntryId": "u16:half",
+    "distractorEntryIds": [
+     "u16:quarter",
+     "u16:second",
+     "u16:moment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "There were ten cookies, and I ate five — that is a ___ of them.",
+     "fullSentence": "There were ten cookies, and I ate five — that is a half of them.",
+     "translation": "有十塊餅乾，我吃了五塊，就是一半。",
+     "clue": "十個中的五個",
+     "answerEntryId": "u16:half",
+     "distractorEntryIds": [
+      "u16:quarter",
+      "u16:second",
+      "u16:period"
+     ]
+    },
+    {
+     "sentence": "The movie lasts two hours, and we have watched one ___ so far.",
+     "fullSentence": "The movie lasts two hours, and we have watched one half so far.",
+     "translation": "電影長兩小時，我們到目前看了一半。",
+     "clue": "兩小時中的一小時",
+     "answerEntryId": "u16:half",
+     "distractorEntryIds": [
+      "u16:quarter",
+      "u16:minute",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "At six thirty, we say the time is ___ past six.",
+     "fullSentence": "At six thirty, we say the time is half past six.",
+     "translation": "六點三十分時，我們說六點半。",
+     "clue": "三十分鐘就是一小時的這一份",
+     "answerEntryId": "u16:half",
+     "distractorEntryIds": [
+      "u16:quarter",
+      "u16:second",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "She split the pizza down the middle and kept ___ for her brother.",
+     "fullSentence": "She split the pizza down the middle and kept half for her brother.",
+     "translation": "她把披薩從中間切開，留一半給弟弟。",
+     "clue": "從中間切開成兩等份",
+     "answerEntryId": "u16:half",
+     "distractorEntryIds": [
+      "u16:quarter",
+      "u16:second",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Thirty minutes is a ___ of an hour, just as fifteen minutes is a quarter of one.",
+    "fullSentence": "Thirty minutes is a half of an hour, just as fifteen minutes is a quarter of one.",
+    "translation": "三十分鐘是半小時，就像十五分鐘是一刻鐘。",
+    "clue": "三十分鐘等於一小時的這一份",
+    "answerEntryId": "u16:half",
+    "distractorEntryIds": [
+     "u16:second",
+     "u16:minute",
+     "u16:moment"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:hour",
+   "zh": "小時",
+   "pos": "noun",
+   "example": "We waited for an hour at the station.",
+   "exampleZh": "我們在車站等了一個小時。",
+   "spellingHint": "h-o-u-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There are sixty minutes in one ___.",
+    "fullSentence": "There are sixty minutes in one hour.",
+    "translation": "一小時有六十分鐘。",
+    "clue": "由六十分鐘組成",
+    "answerEntryId": "u16:hour",
+    "distractorEntryIds": [
+     "u16:minute",
+     "u16:day",
+     "u16:second"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The class lasts one ___, from ten to eleven.",
+     "fullSentence": "The class lasts one hour, from ten to eleven.",
+     "translation": "這節課一小時，從十點到十一點。",
+     "clue": "十點到十一點的長度",
+     "answerEntryId": "u16:hour",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:second",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "It takes about an ___ to walk five kilometers.",
+     "fullSentence": "It takes about an hour to walk five kilometers.",
+     "translation": "走五公里大約要一小時。",
+     "clue": "走五公里所需的時間長度",
+     "answerEntryId": "u16:hour",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:second",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "A clock face has twelve numbers, and the long hand makes one full turn every ___.",
+     "fullSentence": "A clock face has twelve numbers, and the long hand makes one full turn every hour.",
+     "translation": "鐘面有十二個數字，長針每一小時轉一整圈。",
+     "clue": "長針轉一圈所需時間",
+     "answerEntryId": "u16:hour",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:second",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "The museum visit takes one full ___, longer than one class period but shorter than a whole school day.",
+     "fullSentence": "The museum visit takes one full hour, longer than one class period but shorter than a whole school day.",
+     "translation": "參觀博物館需要整整一小時，比一節課還長。",
+     "clue": "比一節課稍長的六十分鐘",
+     "answerEntryId": "u16:hour",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:second",
+      "u16:week"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Twenty-four of these make one ___, and each has sixty minutes.",
+    "fullSentence": "Twenty-four of these make one hour, and each has sixty minutes.",
+    "translation": "二十四個小時構成一天，每小時有六十分鐘。",
+    "clue": "二十四個構成一天",
+    "answerEntryId": "u16:hour",
+    "distractorEntryIds": [
+     "u16:minute",
+     "u16:second",
+     "u16:week"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:January",
+   "zh": "一月",
+   "pos": "noun",
+   "example": "New Year's Day is in January.",
+   "exampleZh": "元旦在一月。",
+   "spellingHint": "j-a-n-u-a-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The first month of the year is ___.",
+    "fullSentence": "The first month of the year is January.",
+    "translation": "一年中的第一個月是一月。",
+    "clue": "一年中的第一個月",
+    "answerEntryId": "u16:January",
+    "distractorEntryIds": [
+     "u16:February",
+     "u16:December",
+     "u16:March"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "New Year's Day is the very first day of ___.",
+     "fullSentence": "New Year's Day is the very first day of January.",
+     "translation": "元旦是一月的第一天。",
+     "clue": "元旦所在的月份",
+     "answerEntryId": "u16:January",
+     "distractorEntryIds": [
+      "u16:February",
+      "u16:December",
+      "u16:April"
+     ]
+    },
+    {
+     "sentence": "___ comes right after the last month of the year.",
+     "fullSentence": "January comes right after the last month of the year.",
+     "translation": "一月緊接在一年最後一個月之後。",
+     "clue": "十二月之後的月份",
+     "answerEntryId": "u16:January",
+     "distractorEntryIds": [
+      "u16:February",
+      "u16:December",
+      "u16:November"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the coldest month in many countries, right at the start of the year.",
+     "fullSentence": "January is the coldest month in many countries, right at the start of the year.",
+     "translation": "許多國家的一月最冷，正是一年的開頭。",
+     "clue": "一年開頭、天氣最冷",
+     "answerEntryId": "u16:January",
+     "distractorEntryIds": [
+      "u16:February",
+      "u16:July",
+      "u16:August"
+     ]
+    },
+    {
+     "sentence": "We write a new number on the calendar when ___ begins, the first of twelve months.",
+     "fullSentence": "We write a new number on the calendar when January begins, the first of twelve months.",
+     "translation": "一開始我們在日曆上寫新的數字，它是十二個月中的第一個。",
+     "clue": "十二個月中的第一個",
+     "answerEntryId": "u16:January",
+     "distractorEntryIds": [
+      "u16:December",
+      "u16:February",
+      "u16:March"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the fireworks on the last night of December, ___ arrives and a new year begins.",
+    "fullSentence": "After the fireworks on the last night of December, January arrives and a new year begins.",
+    "translation": "十二月最後一夜的煙火過後，一月來臨，新年開始。",
+    "clue": "緊跟在跨年夜之後的月份",
+    "answerEntryId": "u16:January",
+    "distractorEntryIds": [
+     "u16:February",
+     "u16:November",
+     "u16:October"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:July",
+   "zh": "七月",
+   "pos": "noun",
+   "example": "We go to the beach every July.",
+   "exampleZh": "我們每年七月去海邊。",
+   "spellingHint": "j-u-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The seventh month of the year is ___.",
+    "fullSentence": "The seventh month of the year is July.",
+    "translation": "一年中的第七個月是七月。",
+    "clue": "一年中的第七個月",
+    "answerEntryId": "u16:July",
+    "distractorEntryIds": [
+     "u16:June",
+     "u16:August",
+     "u16:May"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Summer vacation starts in ___, the month after the sixth.",
+     "fullSentence": "Summer vacation starts in July, the month after the sixth.",
+     "translation": "暑假在七月開始，就是第六個月的下一個月。",
+     "clue": "第六個月之後的月份",
+     "answerEntryId": "u16:July",
+     "distractorEntryIds": [
+      "u16:June",
+      "u16:August",
+      "u16:April"
+     ]
+    },
+    {
+     "sentence": "___ is the middle of summer, when the days are longest and hottest.",
+     "fullSentence": "July is the middle of summer, when the days are longest and hottest.",
+     "translation": "七月是盛夏，白天最長也最熱。",
+     "clue": "盛夏、最熱的月份",
+     "answerEntryId": "u16:July",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:December",
+      "u16:February"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "School ends in ___, and students swim or travel during the long break.",
+     "fullSentence": "School ends in July, and students swim or travel during the long break.",
+     "translation": "學校七月結業，學生在長假中游泳或旅行。",
+     "clue": "放暑假、開始游泳旅行的月份",
+     "answerEntryId": "u16:July",
+     "distractorEntryIds": [
+      "u16:January",
+      "u16:February",
+      "u16:November"
+     ]
+    },
+    {
+     "sentence": "___ comes between the sixth and the eighth months of the year.",
+     "fullSentence": "July comes between the sixth and the eighth months of the year.",
+     "translation": "七月介於一年的第六和第八個月之間。",
+     "clue": "第六與第八個月之間",
+     "answerEntryId": "u16:July",
+     "distractorEntryIds": [
+      "u16:May",
+      "u16:September",
+      "u16:April"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the sixth and the eighth is ___, the hottest time of summer vacation.",
+    "fullSentence": "The month between the sixth and the eighth is July, the hottest time of summer vacation.",
+    "translation": "介於第六和第八個月之間的是七月，是暑假最熱的時候。",
+    "clue": "第六與第八個月之間的盛夏",
+    "answerEntryId": "u16:July",
+    "distractorEntryIds": [
+     "u16:March",
+     "u16:April",
+     "u16:October"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:June",
+   "zh": "六月",
+   "pos": "noun",
+   "example": "Final exams are in June.",
+   "exampleZh": "期末考在六月。",
+   "spellingHint": "j-u-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The sixth month of the year is ___.",
+    "fullSentence": "The sixth month of the year is June.",
+    "translation": "一年中的第六個月是六月。",
+    "clue": "一年中的第六個月",
+    "answerEntryId": "u16:June",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:May",
+     "u16:August"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the fifth month and before the seventh.",
+     "fullSentence": "June comes right after the fifth month and before the seventh.",
+     "translation": "六月緊接在第五個月之後、第七個月之前。",
+     "clue": "第五個月之後、第七個月之前",
+     "answerEntryId": "u16:June",
+     "distractorEntryIds": [
+      "u16:July",
+      "u16:May",
+      "u16:August"
+     ]
+    },
+    {
+     "sentence": "Graduation ceremonies are held in ___, at the end of the school year.",
+     "fullSentence": "Graduation ceremonies are held in June, at the end of the school year.",
+     "translation": "畢業典禮在六月舉行，正逢學年結束。",
+     "clue": "學年結束、畢業的月份",
+     "answerEntryId": "u16:June",
+     "distractorEntryIds": [
+      "u16:September",
+      "u16:July",
+      "u16:February"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Summer break begins right after ___, the sixth month.",
+     "fullSentence": "Summer break begins right after June, the sixth month.",
+     "translation": "暑假緊接著六月，也就是第六個月之後開始。",
+     "clue": "第六個月、暑假前一個月",
+     "answerEntryId": "u16:June",
+     "distractorEntryIds": [
+      "u16:July",
+      "u16:August",
+      "u16:May"
+     ]
+    },
+    {
+     "sentence": "___ is the month between the fifth and the seventh, when spring turns to summer.",
+     "fullSentence": "June is the month between the fifth and the seventh, when spring turns to summer.",
+     "translation": "六月介於第五和第七個月之間，春天正轉為夏天。",
+     "clue": "第五與第七個月之間、春夏之交",
+     "answerEntryId": "u16:June",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:August",
+      "u16:March"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Students take their final exams one month before summer vacation, in ___.",
+    "fullSentence": "Students take their final exams one month before summer vacation, in June.",
+    "translation": "學生在暑假前一個月，也就是六月，舉行期末考。",
+    "clue": "暑假前一個月",
+    "answerEntryId": "u16:June",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:August",
+     "u16:September"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:last",
+   "zh": "最後的；上一個的",
+   "pos": "adjective",
+   "example": "December is the last month of the year.",
+   "exampleZh": "十二月是一年的最後一個月。",
+   "spellingHint": "l-a-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "December is the ___ month of the year, coming after all the others.",
+    "fullSentence": "December is the last month of the year, coming after all the others.",
+    "translation": "十二月是一年最後一個月，在其他月份之後到來。",
+    "clue": "排在所有其他月份之後",
+    "answerEntryId": "u16:last",
+    "distractorEntryIds": [
+     "u16:next",
+     "u16:early",
+     "u16:late"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "He was the ___ runner to cross the line, after everyone else had finished.",
+     "fullSentence": "He was the last runner to cross the line, after everyone else had finished.",
+     "translation": "他是最後一個抵達終點的跑者，其他人都先完成了。",
+     "clue": "在所有人之後才到終點",
+     "answerEntryId": "u16:last",
+     "distractorEntryIds": [
+      "u16:next",
+      "u16:early",
+      "u16:late"
+     ]
+    },
+    {
+     "sentence": "I saw her ___ Sunday, not this Sunday but the one before.",
+     "fullSentence": "I saw her last Sunday, not this Sunday but the one before.",
+     "translation": "我上個星期日見到她，不是這週日，是前一個。",
+     "clue": "指剛過去的那個星期日",
+     "answerEntryId": "u16:last",
+     "distractorEntryIds": [
+      "u16:next",
+      "u16:late",
+      "u16:later"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Please turn off the lights when you leave — you are the ___ person in the room.",
+     "fullSentence": "Please turn off the lights when you leave — you are the last person in the room.",
+     "translation": "離開時請關燈——你是最後離開房間的人。",
+     "clue": "在你之後沒有別人了",
+     "answerEntryId": "u16:last",
+     "distractorEntryIds": [
+      "u16:next",
+      "u16:early",
+      "u16:late"
+     ]
+    },
+    {
+     "sentence": "We ran out of milk ___ week, so we bought more on the weekend.",
+     "fullSentence": "We ran out of milk last week, so we bought more on the weekend.",
+     "translation": "我們上星期牛奶喝完了，所以週末又買了一些。",
+     "clue": "剛過去的那一週",
+     "answerEntryId": "u16:last",
+     "distractorEntryIds": [
+      "u16:next",
+      "u16:early",
+      "u16:late"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ___ page of the book shows the answer key, after all forty chapters end.",
+    "fullSentence": "The last page of the book shows the answer key, after all forty chapters end.",
+    "translation": "書的最後一頁附解答，在全部四十章結束之後。",
+    "clue": "全部章節結束之後的那頁",
+    "answerEntryId": "u16:last",
+    "distractorEntryIds": [
+     "u16:next",
+     "u16:early",
+     "u16:late"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:late",
+   "zh": "遲的；晚的",
+   "pos": "adjective",
+   "example": "Don't be late for school.",
+   "exampleZh": "上學不要遲到。",
+   "spellingHint": "l-a-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Tom ran to school because he was ___ and the bell had already rung.",
+    "fullSentence": "Tom ran to school because he was late and the bell had already rung.",
+    "translation": "湯姆跑著去上學，因為他遲到了，鐘聲已經響過。",
+    "clue": "鐘聲已響才到",
+    "answerEntryId": "u16:late",
+    "distractorEntryIds": [
+     "u16:early",
+     "u16:last",
+     "u16:next"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Sorry I'm ___; the traffic jam kept my bus for twenty minutes.",
+     "fullSentence": "Sorry I'm late; the traffic jam kept my bus for twenty minutes.",
+     "translation": "抱歉我遲到了，塞車讓公車多花了二十分鐘。",
+     "clue": "塞車害你比約定時間晚到",
+     "answerEntryId": "u16:late",
+     "distractorEntryIds": [
+      "u16:next",
+      "u16:last",
+      "u16:soon"
+     ]
+    },
+    {
+     "sentence": "We stayed up ___ into the night, so we feel sleepy today.",
+     "fullSentence": "We stayed up late into the night, so we feel sleepy today.",
+     "translation": "我們熬夜到很晚，所以今天想睡。",
+     "clue": "比平常睡覺時間晚很多",
+     "answerEntryId": "u16:late",
+     "distractorEntryIds": [
+      "u16:early",
+      "u16:soon",
+      "u16:later"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The shop stays open ___ into the night, until eleven o'clock.",
+     "fullSentence": "The shop stays open late into the night, until eleven o'clock.",
+     "translation": "這家店營業到深夜，直到十一點。",
+     "clue": "開到十一點的深夜時分",
+     "answerEntryId": "u16:late",
+     "distractorEntryIds": [
+      "u16:early",
+      "u16:last",
+      "u16:next"
+     ]
+    },
+    {
+     "sentence": "He arrived ___ for the movie and missed the first ten minutes.",
+     "fullSentence": "He arrived late for the movie and missed the first ten minutes.",
+     "translation": "他看電影遲到，錯過了開頭十分鐘。",
+     "clue": "錯過電影開頭",
+     "answerEntryId": "u16:late",
+     "distractorEntryIds": [
+      "u16:early",
+      "u16:last",
+      "u16:next"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Autumn is ___ this year: the leaves are still green even though October has begun.",
+    "fullSentence": "Autumn is late this year: the leaves are still green even though October has begun.",
+    "translation": "今年秋天來得晚：十月都開始了，葉子還是綠的。",
+    "clue": "比往年更晚到來",
+    "answerEntryId": "u16:late",
+    "distractorEntryIds": [
+     "u16:early",
+     "u16:last",
+     "u16:next"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:later",
+   "zh": "後來；稍後",
+   "pos": "adverb",
+   "example": "I'll call you later after dinner.",
+   "exampleZh": "晚餐後我會再打給你。",
+   "spellingHint": "l-a-t-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Let's play outside now and do homework ___, after we finish the game.",
+    "fullSentence": "Let's play outside now and do homework later, after we finish the game.",
+    "translation": "我們現在先玩，等一下玩完遊戲再寫功課。",
+    "clue": "比現在晚一點的時候",
+    "answerEntryId": "u16:later",
+    "distractorEntryIds": [
+     "u16:ago",
+     "u16:already",
+     "u16:once"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "See you ___! I have to catch the bus right now.",
+     "fullSentence": "See you later! I have to catch the bus right now.",
+     "translation": "等一下見！我現在得趕公車。",
+     "clue": "過一陣子再見",
+     "answerEntryId": "u16:later",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:already",
+      "u16:tonight"
+     ]
+    },
+    {
+     "sentence": "First we eat, and ___ we can watch a movie together.",
+     "fullSentence": "First we eat, and later we can watch a movie together.",
+     "translation": "我們先吃飯，等一下再一起看電影。",
+     "clue": "先吃飯、再接下來的事",
+     "answerEntryId": "u16:later",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:already",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Three hours ___, the rain finally stopped and we went outside.",
+     "fullSentence": "Three hours later, the rain finally stopped and we went outside.",
+     "translation": "三小時後，雨終於停了，我們就出門了。",
+     "clue": "過了三小時之後",
+     "answerEntryId": "u16:later",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:already",
+      "u16:once"
+     ]
+    },
+    {
+     "sentence": "He missed the bus, but ten minutes ___ another one came.",
+     "fullSentence": "He missed the bus, but ten minutes later another one came.",
+     "translation": "他錯過了公車，但十分鐘後又來了一班。",
+     "clue": "十分鐘之後",
+     "answerEntryId": "u16:later",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:already",
+      "u16:once"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Years ___, she returned to the village she had left as a child.",
+    "fullSentence": "Years later, she returned to the village she had left as a child.",
+    "translation": "多年之後，她回到了小時候離開的村莊。",
+    "clue": "多年過後才發生",
+    "answerEntryId": "u16:later",
+    "distractorEntryIds": [
+     "u16:ago",
+     "u16:already",
+     "u16:once"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:March",
+   "zh": "三月",
+   "pos": "noun",
+   "example": "The flowers bloom in March.",
+   "exampleZh": "花在三月盛開。",
+   "spellingHint": "m-a-r-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The third month of the year is ___, when spring begins.",
+    "fullSentence": "The third month of the year is March, when spring begins.",
+    "translation": "一年中的第三個月是三月，春天從這裡開始。",
+    "clue": "一年中的第三個月",
+    "answerEntryId": "u16:March",
+    "distractorEntryIds": [
+     "u16:April",
+     "u16:May",
+     "u16:February"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the second month and before the fourth.",
+     "fullSentence": "March comes right after the second month and before the fourth.",
+     "translation": "三月緊接在第二個月之後、第四個月之前。",
+     "clue": "第二個月之後、第四個月之前",
+     "answerEntryId": "u16:March",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:February",
+      "u16:May"
+     ]
+    },
+    {
+     "sentence": "Arbor Day is in ___, when students plant small trees at school.",
+     "fullSentence": "Arbor Day is in March, when students plant small trees at school.",
+     "translation": "植樹節在三月，學生會在校園種小樹。",
+     "clue": "植樹、春天剛開始的月份",
+     "answerEntryId": "u16:March",
+     "distractorEntryIds": [
+      "u16:September",
+      "u16:June",
+      "u16:December"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the first month of spring, right after the shortest month.",
+     "fullSentence": "March is the first month of spring, right after the shortest month.",
+     "translation": "三月是春天的第一個月，緊跟在最短的月份之後。",
+     "clue": "最短月份之後、春天的開始",
+     "answerEntryId": "u16:March",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:February",
+      "u16:January"
+     ]
+    },
+    {
+     "sentence": "___ is the third month, between the second and the fourth.",
+     "fullSentence": "March is the third month, between the second and the fourth.",
+     "translation": "三月是第三個月，介於第二和第四個月之間。",
+     "clue": "第二與第四個月之間",
+     "answerEntryId": "u16:March",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:May",
+      "u16:June"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Spring begins in the third month, ___, when the weather slowly turns warm.",
+    "fullSentence": "Spring begins in the third month, March, when the weather slowly turns warm.",
+    "translation": "春天從第三個月三月開始，天氣慢慢轉暖。",
+    "clue": "春天開始的第三個月",
+    "answerEntryId": "u16:March",
+    "distractorEntryIds": [
+     "u16:September",
+     "u16:October",
+     "u16:November"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:May",
+   "zh": "五月",
+   "pos": "noun",
+   "example": "Mother's Day is in May.",
+   "exampleZh": "母親節在五月。",
+   "spellingHint": "m-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The fifth month of the year is ___, when we thank our mothers.",
+    "fullSentence": "The fifth month of the year is May, when we thank our mothers.",
+    "translation": "一年中的第五個月是五月，我們在這時感謝媽媽。",
+    "clue": "感謝母親的月份",
+    "answerEntryId": "u16:May",
+    "distractorEntryIds": [
+     "u16:April",
+     "u16:June",
+     "u16:March"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the fourth month and before the sixth.",
+     "fullSentence": "May comes right after the fourth month and before the sixth.",
+     "translation": "五月緊接在第四個月之後、第六個月之前。",
+     "clue": "第四個月之後、第六個月之前",
+     "answerEntryId": "u16:May",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:June",
+      "u16:March"
+     ]
+    },
+    {
+     "sentence": "School picnics often happen in ___, the month between the fourth and the sixth.",
+     "fullSentence": "School picnics often happen in May, the month between the fourth and the sixth.",
+     "translation": "校外教學常辦在五月，介於第四和第六個月之間。",
+     "clue": "第四與第六個月之間",
+     "answerEntryId": "u16:May",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:July",
+      "u16:August"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the last month of spring, before summer starts in the sixth month.",
+     "fullSentence": "May is the last month of spring, before summer starts in the sixth month.",
+     "translation": "五月是春天最後一個月，夏天在第六個月開始。",
+     "clue": "春天結束、夏天未到的月份",
+     "answerEntryId": "u16:May",
+     "distractorEntryIds": [
+      "u16:April",
+      "u16:June",
+      "u16:September"
+     ]
+    },
+    {
+     "sentence": "We give Mom carnations in ___, one month after the flower season begins.",
+     "fullSentence": "We give Mom carnations in May, one month after the flower season begins.",
+     "translation": "我們在五月送媽媽康乃馨，花季開始後一個月。",
+     "clue": "花季開始後一個月、送花的月份",
+     "answerEntryId": "u16:May",
+     "distractorEntryIds": [
+      "u16:March",
+      "u16:April",
+      "u16:August"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the fourth and the sixth is ___, warm enough for short sleeves.",
+    "fullSentence": "The month between the fourth and the sixth is May, warm enough for short sleeves.",
+    "translation": "介於第四和第六個月之間的是五月，已暖和到能穿短袖。",
+    "clue": "第四與第六個月之間、轉暖",
+    "answerEntryId": "u16:May",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:August",
+     "u16:September"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:midnight",
+   "zh": "午夜；半夜十二點",
+   "pos": "noun",
+   "example": "The party ended at midnight.",
+   "exampleZh": "派對在午夜結束。",
+   "spellingHint": "m-i-d-n-i-g-h-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fireworks light the sky at ___, exactly twelve at night.",
+    "fullSentence": "Fireworks light the sky at midnight, exactly twelve at night.",
+    "translation": "午夜十二點整，煙火照亮夜空。",
+    "clue": "夜裡十二點整",
+    "answerEntryId": "u16:midnight",
+    "distractorEntryIds": [
+     "u16:noon",
+     "u16:dawn",
+     "u16:evening"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "New Year arrives at ___, when one day ends and the next begins.",
+     "fullSentence": "New Year arrives at midnight, when one day ends and the next begins.",
+     "translation": "新年在午夜到來，一天結束、新的一天開始。",
+     "clue": "一天結束、新的一天開始的時刻",
+     "answerEntryId": "u16:midnight",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:dawn",
+      "u16:morning"
+     ]
+    },
+    {
+     "sentence": "Everyone was asleep at ___ because it was the middle of the night.",
+     "fullSentence": "Everyone was asleep at midnight because it was the middle of the night.",
+     "translation": "半夜十二點大家都在睡覺，因為已是深夜。",
+     "clue": "半夜大家都在睡的時刻",
+     "answerEntryId": "u16:midnight",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:dawn",
+      "u16:afternoon"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The clock strikes twelve times at ___, in the darkest part of the night.",
+     "fullSentence": "The clock strikes twelve times at midnight, in the darkest part of the night.",
+     "translation": "午夜時鐘敲十二下，正是夜裡最黑的時刻。",
+     "clue": "夜裡最黑、鐘敲十二下",
+     "answerEntryId": "u16:midnight",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:dawn",
+      "u16:evening"
+     ]
+    },
+    {
+     "sentence": "Cinderella had to leave the ball before ___, when her carriage turned back into a pumpkin.",
+     "fullSentence": "Cinderella had to leave the ball before midnight, when her carriage turned back into a pumpkin.",
+     "translation": "仙度瑞拉必須在午夜前離開舞會，否則馬車會變回南瓜。",
+     "clue": "魔法在夜裡十二點失效",
+     "answerEntryId": "u16:midnight",
+     "distractorEntryIds": [
+      "u16:noon",
+      "u16:dawn",
+      "u16:morning"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Twelve at night is called ___, the exact opposite of twelve in the daytime.",
+    "fullSentence": "Twelve at night is called midnight, the exact opposite of twelve in the daytime.",
+    "translation": "夜裡十二點稱為午夜，正好與白天的十二點相對。",
+    "clue": "與白天十二點相對",
+    "answerEntryId": "u16:midnight",
+    "distractorEntryIds": [
+     "u16:noon",
+     "u16:dawn",
+     "u16:afternoon"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:minute",
+   "zh": "分鐘",
+   "pos": "noun",
+   "example": "Wait a minute, please.",
+   "exampleZh": "請等一分鐘。",
+   "spellingHint": "m-i-n-u-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Each tick of the fastest hand lasts one ___, the smallest unit the clock shows.",
+    "fullSentence": "Each tick of the fastest hand lasts one minute, the smallest unit the clock shows.",
+    "translation": "時鐘上走得最快的指針，每一小格就是一秒，是最小的時間單位。",
+    "clue": "時鐘最小的時間單位",
+    "answerEntryId": "u16:minute",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:period",
+     "u16:moment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The bus leaves in just one ___, so hurry up!",
+     "fullSentence": "The bus leaves in just one minute, so hurry up!",
+     "translation": "公車五分鐘後發車，快一點！",
+     "clue": "很短的計時單位",
+     "answerEntryId": "u16:minute",
+     "distractorEntryIds": [
+      "u16:hour",
+      "u16:day",
+      "u16:week"
+     ]
+    },
+    {
+     "sentence": "The camera flash lasts only one ___, a blink of bright light.",
+     "fullSentence": "The camera flash lasts only one minute, a blink of bright light.",
+     "translation": "她剛好一分鐘跑完比賽，比誰都快。",
+     "clue": "六十秒的時間",
+     "answerEntryId": "u16:minute",
+     "distractorEntryIds": [
+      "u16:hour",
+      "u16:period",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The long hand of a clock moves one number forward every ___.",
+     "fullSentence": "The long hand of a clock moves one number forward every minute.",
+     "translation": "時鐘的長針每一分鐘往前走一個數字。",
+     "clue": "長針走一小格的時間",
+     "answerEntryId": "u16:minute",
+     "distractorEntryIds": [
+      "u16:hour",
+      "u16:second",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "Just a ___ longer — the cookies need two more minutes in the oven.",
+     "fullSentence": "Just a minute longer — the cookies need two more minutes in the oven.",
+     "translation": "再等一下——餅乾還要在烤箱裡兩分鐘。",
+     "clue": "比一小時短得多的時間",
+     "answerEntryId": "u16:minute",
+     "distractorEntryIds": [
+      "u16:hour",
+      "u16:second",
+      "u16:day"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "An egg boiled for three ___ is soft, but one boiled for sixty times that long would burn.",
+    "fullSentence": "An egg boiled for three minute is soft, but one boiled for sixty times that long would burn.",
+    "translation": "煮三分鐘的蛋是軟的，煮六十倍那麼久就會燒焦。",
+    "clue": "三分鐘的單位、一小時的六十分之一",
+    "answerEntryId": "u16:minute",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:day",
+     "u16:week"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:moment",
+   "zh": "片刻；瞬間",
+   "pos": "noun",
+   "example": "Wait here for a moment.",
+   "exampleZh": "在這裡等一下。",
+   "spellingHint": "m-o-m-e-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please hold the door for a ___; I'll be right there.",
+    "fullSentence": "Please hold the door for a moment; I'll be right there.",
+    "translation": "請撐一下門，我馬上就到。",
+    "clue": "非常短的時間",
+    "answerEntryId": "u16:moment",
+    "distractorEntryIds": [
+     "u16:period",
+     "u16:hour",
+     "u16:date"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "At that ___, the phone rang and everyone jumped.",
+     "fullSentence": "At that moment, the phone rang and everyone jumped.",
+     "translation": "就在那一刻，電話響了，大家都嚇一跳。",
+     "clue": "就在那短短一瞬",
+     "answerEntryId": "u16:moment",
+     "distractorEntryIds": [
+      "u16:period",
+      "u16:date",
+      "u16:season"
+     ]
+    },
+    {
+     "sentence": "He thought for a ___ before answering the teacher's question.",
+     "fullSentence": "He thought for a moment before answering the teacher's question.",
+     "translation": "他想了一下才回答老師的問題。",
+     "clue": "短短想一下的時間",
+     "answerEntryId": "u16:moment",
+     "distractorEntryIds": [
+      "u16:period",
+      "u16:week",
+      "u16:date"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "For one brief ___ the sun broke through the clouds, then disappeared again.",
+     "fullSentence": "For one brief moment the sun broke through the clouds, then disappeared again.",
+     "translation": "有一瞬間太陽穿出雲層，接著又消失了。",
+     "clue": "太陽短暫露臉的瞬間",
+     "answerEntryId": "u16:moment",
+     "distractorEntryIds": [
+      "u16:period",
+      "u16:afternoon",
+      "u16:date"
+     ]
+    },
+    {
+     "sentence": "She closed her eyes and enjoyed the quiet ___ before the concert began.",
+     "fullSentence": "She closed her eyes and enjoyed the quiet moment before the concert began.",
+     "translation": "她閉上眼享受音樂會開始前的安靜片刻。",
+     "clue": "開演前安靜的一小段時間",
+     "answerEntryId": "u16:moment",
+     "distractorEntryIds": [
+      "u16:period",
+      "u16:evening",
+      "u16:date"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ is shorter than a minute, just a beat of time you can barely count.",
+    "fullSentence": "A moment is shorter than a minute, just a beat of time you can barely count.",
+    "translation": "片刻比分鐘更短，是幾乎數不出來的一拍時間。",
+    "clue": "比分鐘更短的一拍",
+    "answerEntryId": "u16:moment",
+    "distractorEntryIds": [
+     "u16:period",
+     "u16:hour",
+     "u16:date"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Monday",
+   "zh": "星期一",
+   "pos": "noun",
+   "example": "We have a class meeting every Monday.",
+   "exampleZh": "我們每星期一開班會。",
+   "spellingHint": "m-o-n-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the first day of the school week, right after the weekend.",
+    "fullSentence": "Monday is the first day of the school week, right after the weekend.",
+    "translation": "星期一是上學週的第一天，緊接在週末之後。",
+    "clue": "週末後上學的第一天",
+    "answerEntryId": "u16:Monday",
+    "distractorEntryIds": [
+     "u16:Saturday",
+     "u16:Tuesday",
+     "u16:Friday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the weekend and before the third school day.",
+     "fullSentence": "Monday comes right after the weekend and before the third school day.",
+     "translation": "星期一在週末之後、第三個上學日之前。",
+     "clue": "星期日之後、星期二之前",
+     "answerEntryId": "u16:Monday",
+     "distractorEntryIds": [
+      "u16:Saturday",
+      "u16:Tuesday",
+      "u16:Thursday"
+     ]
+    },
+    {
+     "sentence": "Students bring their clean uniforms on ___, the day after the weekend ends.",
+     "fullSentence": "Students bring their clean uniforms on Monday, the day after the weekend ends.",
+     "translation": "學生星期一帶乾淨制服，就是週末結束後隔天。",
+     "clue": "週末結束後的隔天",
+     "answerEntryId": "u16:Monday",
+     "distractorEntryIds": [
+      "u16:Saturday",
+      "u16:Wednesday",
+      "u16:Friday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Everyone feels a little sleepy on ___ because it follows two rest days.",
+     "fullSentence": "Everyone feels a little sleepy on Monday because it follows two rest days.",
+     "translation": "大家星期一有點想睡，因為它跟在兩天假期之後。",
+     "clue": "跟在兩天假期之後",
+     "answerEntryId": "u16:Monday",
+     "distractorEntryIds": [
+      "u16:Saturday",
+      "u16:Thursday",
+      "u16:Friday"
+     ]
+    },
+    {
+     "sentence": "The library is closed on ___, the first weekday, so we go on Tuesday instead.",
+     "fullSentence": "The library is closed on Monday, the first weekday, so we go on Tuesday instead.",
+     "translation": "圖書館星期一，也就是第一個上學日，不開放，我們改星期二去。",
+     "clue": "一週第一個上學日",
+     "answerEntryId": "u16:Monday",
+     "distractorEntryIds": [
+      "u16:Saturday",
+      "u16:Friday",
+      "u16:Thursday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between Sunday and Tuesday is ___, when the new weekly schedule begins.",
+    "fullSentence": "The day between Sunday and Tuesday is Monday, when the new weekly schedule begins.",
+    "translation": "星期日和星期二之間的那天是星期一，新的週行程從這天開始。",
+    "clue": "星期日與星期二之間",
+    "answerEntryId": "u16:Monday",
+    "distractorEntryIds": [
+     "u16:Wednesday",
+     "u16:Thursday",
+     "u16:Friday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:month",
+   "zh": "月份；一個月",
+   "pos": "noun",
+   "example": "A year has twelve months.",
+   "exampleZh": "一年有十二個月。",
+   "spellingHint": "m-o-n-t-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "A ___ has about thirty days, from the first to the last on the calendar.",
+    "fullSentence": "A month has about thirty days, from the first to the last on the calendar.",
+    "translation": "一個月約三十天，從日曆上的月初到月底。",
+    "clue": "日曆上約三十天的一段",
+    "answerEntryId": "u16:month",
+    "distractorEntryIds": [
+     "u16:week",
+     "u16:day",
+     "u16:hour"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "April is my favorite ___ because my birthday falls in it.",
+     "fullSentence": "April is my favorite month because my birthday falls in it.",
+     "translation": "四月是我最喜歡的月份，我的生日就在這個月。",
+     "clue": "生日所在的那一段時間",
+     "answerEntryId": "u16:month",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:day",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "We visit Grandpa once a ___, on the tenth of every one.",
+     "fullSentence": "We visit Grandpa once a month, on the tenth of every one.",
+     "translation": "我們每個月看爺爺一次，都在每月十號。",
+     "clue": "每月十號屬於的單位",
+     "answerEntryId": "u16:month",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:year",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "About four ___ make a season, and each one has thirty days or so.",
+     "fullSentence": "About four month make a season, and each one has thirty days or so.",
+     "translation": "大約四個月構成一個季節，每個月約三十天。",
+     "clue": "約三十天、四個構成一季",
+     "answerEntryId": "u16:month",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:year",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "We see the dentist once a ___, about every four weeks on the calendar.",
+     "fullSentence": "We see the dentist once a month, about every four weeks on the calendar.",
+     "translation": "我們每個月看一次牙醫，大約每四週一次。",
+     "clue": "比一週長、比一年短的週期",
+     "answerEntryId": "u16:month",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:hour",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "One ___ runs from the first of a named span like October to its thirtieth or thirty-first.",
+    "fullSentence": "One month runs from the first of a named span like October to its thirtieth or thirty-first.",
+    "translation": "一個月從某個有名稱月份的第一天跑到它的三十（或三十一）日。",
+    "clue": "有名稱、約三十天的時間",
+    "answerEntryId": "u16:month",
+    "distractorEntryIds": [
+     "u16:week",
+     "u16:day",
+     "u16:hour"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:monthly",
+   "zh": "每月地；每月的",
+   "pos": "adverb",
+   "example": "The magazine is published monthly.",
+   "exampleZh": "這本雜誌每月出版。",
+   "spellingHint": "m-o-n-t-h-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The club meets ___, on the first Saturday of each and every month.",
+    "fullSentence": "The club meets monthly, on the first Saturday of each and every month.",
+    "translation": "社團每月聚會，在每個月的第一個星期六。",
+    "clue": "每個月固定一次",
+    "answerEntryId": "u16:monthly",
+    "distractorEntryIds": [
+     "u16:weekly",
+     "u16:daily",
+     "u16:yearly"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dad pays the phone bill ___, once every month.",
+     "fullSentence": "Dad pays the phone bill monthly, once every month.",
+     "translation": "爸爸每月繳電話費，一個月一次。",
+     "clue": "一個月繳一次",
+     "answerEntryId": "u16:monthly",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "Our family takes a ___ trip to the countryside, one visit per month.",
+     "fullSentence": "Our family takes a monthly trip to the countryside, one visit per month.",
+     "translation": "我們家每月去鄉下旅行一次。",
+     "clue": "一個月一次",
+     "answerEntryId": "u16:monthly",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "This magazine appears only ___, one issue per month rather than every week.",
+     "fullSentence": "This magazine appears only monthly, one issue per month rather than every week.",
+     "translation": "這本雜誌每月出刊一次，而不是每週。",
+     "clue": "每月一次",
+     "answerEntryId": "u16:monthly",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "The water meter is read ___, every four weeks or so.",
+     "fullSentence": "The water meter is read monthly, every four weeks or so.",
+     "translation": "水表大約每四週抄一次，也就是每月一次。",
+     "clue": "約每四週一次",
+     "answerEntryId": "u16:monthly",
+     "distractorEntryIds": [
+      "u16:weekly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ pass covers about thirty days, longer than a seven-day ticket.",
+    "fullSentence": "A monthly pass covers about thirty days, longer than a seven-day ticket.",
+    "translation": "月票涵蓋約三十天，比七天票更久。",
+    "clue": "涵蓋約三十天的票期",
+    "answerEntryId": "u16:monthly",
+    "distractorEntryIds": [
+     "u16:weekly",
+     "u16:daily",
+     "u16:yearly"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:morning",
+   "zh": "早晨；上午",
+   "pos": "noun",
+   "example": "I brush my teeth every morning.",
+   "exampleZh": "我每天早上刷牙。",
+   "spellingHint": "m-o-r-n-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We eat breakfast at seven and leave for school in the ___.",
+    "fullSentence": "We eat breakfast at seven and leave for school in the morning.",
+    "translation": "我們七點吃早餐，早上出門上學。",
+    "clue": "吃早餐、出門上學的時段",
+    "answerEntryId": "u16:morning",
+    "distractorEntryIds": [
+     "u16:afternoon",
+     "u16:evening",
+     "u16:night"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The sun rises in the ___ and sets when the sky turns dark.",
+     "fullSentence": "The sun rises in the morning and sets when the sky turns dark.",
+     "translation": "太陽在早晨升起，在天色變暗時落下。",
+     "clue": "太陽升起的時段",
+     "answerEntryId": "u16:morning",
+     "distractorEntryIds": [
+      "u16:evening",
+      "u16:afternoon",
+      "u16:night"
+     ]
+    },
+    {
+     "sentence": "Grandma takes a walk every ___ before it gets hot.",
+     "fullSentence": "Grandma takes a walk every morning before it gets hot.",
+     "translation": "奶奶每天趁還不熱時早上散步。",
+     "clue": "天氣變熱之前的時段",
+     "answerEntryId": "u16:morning",
+     "distractorEntryIds": [
+      "u16:afternoon",
+      "u16:evening",
+      "u16:midnight"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Classes begin at eight in the ___, soon after the sun comes up.",
+     "fullSentence": "Classes begin at eight in the morning, soon after the sun comes up.",
+     "translation": "課程早上八點開始，太陽剛升起不久。",
+     "clue": "太陽剛升起後的上課時間",
+     "answerEntryId": "u16:morning",
+     "distractorEntryIds": [
+      "u16:afternoon",
+      "u16:evening",
+      "u16:noon"
+     ]
+    },
+    {
+     "sentence": "Roosters crow in the ___, waking everyone in the village.",
+     "fullSentence": "Roosters crow in the morning, waking everyone in the village.",
+     "translation": "公雞早上啼叫，喚醒全村的人。",
+     "clue": "公雞叫醒大家的時段",
+     "answerEntryId": "u16:morning",
+     "distractorEntryIds": [
+      "u16:night",
+      "u16:evening",
+      "u16:midnight"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The time from sunrise until twelve in the daytime is called the ___.",
+    "fullSentence": "The time from sunrise until twelve in the daytime is called the morning.",
+    "translation": "從日出到白天十二點的時段稱為早晨。",
+    "clue": "日出後到十二點前",
+    "answerEntryId": "u16:morning",
+    "distractorEntryIds": [
+     "u16:afternoon",
+     "u16:evening",
+     "u16:dawn"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:next",
+   "zh": "下一個的；接下來的",
+   "pos": "adjective",
+   "example": "See you next week.",
+   "exampleZh": "下週見。",
+   "spellingHint": "n-e-x-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "This month ends on Friday, and the ___ month begins on Saturday.",
+    "fullSentence": "This month ends on Friday, and the next month begins on Saturday.",
+    "translation": "這個月星期五結束，下一個月從星期六開始。",
+    "clue": "緊跟在這個月之後",
+    "answerEntryId": "u16:next",
+    "distractorEntryIds": [
+     "u16:last",
+     "u16:early",
+     "u16:late"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The ___ bus comes in ten minutes, so wait right here.",
+     "fullSentence": "The next bus comes in ten minutes, so wait right here.",
+     "translation": "下一班公車十分鐘後到，在這裡等。",
+     "clue": "這班之後緊接著來的",
+     "answerEntryId": "u16:next",
+     "distractorEntryIds": [
+      "u16:last",
+      "u16:late",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "We will visit the museum ___ week, not this week but the one after.",
+     "fullSentence": "We will visit the museum next week, not this week but the one after.",
+     "translation": "我們下週去博物館，不是這週，是下一週。",
+     "clue": "這週之後的那一週",
+     "answerEntryId": "u16:next",
+     "distractorEntryIds": [
+      "u16:last",
+      "u16:late",
+      "u16:later"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ station after this one is Central Park, two stops away.",
+     "fullSentence": "The next station after this one is Central Park, two stops away.",
+     "translation": "這一站之後的下一站是中央公園，還有兩站。",
+     "clue": "緊接在這一站之後",
+     "answerEntryId": "u16:next",
+     "distractorEntryIds": [
+      "u16:last",
+      "u16:early",
+      "u16:late"
+     ]
+    },
+    {
+     "sentence": "Read page five now; we will study the ___ page tomorrow.",
+     "fullSentence": "Read page five now; we will study the next page tomorrow.",
+     "translation": "現在讀第五頁，明天我們再學下一頁。",
+     "clue": "第五頁之後的那一頁",
+     "answerEntryId": "u16:next",
+     "distractorEntryIds": [
+      "u16:last",
+      "u16:late",
+      "u16:early"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Who is the ___ person in line? It is my turn after yours.",
+    "fullSentence": "Who is the next person in line? It is my turn after yours.",
+    "translation": "下一個排到誰？在你之後就輪到我。",
+    "clue": "緊跟你之後輪到的人",
+    "answerEntryId": "u16:next",
+    "distractorEntryIds": [
+     "u16:last",
+     "u16:early",
+     "u16:late"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:night",
+   "zh": "夜晚",
+   "pos": "noun",
+   "example": "The stars shine brightly at night.",
+   "exampleZh": "星星在夜晚閃亮。",
+   "spellingHint": "n-i-g-h-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Owls hunt and bats fly about at ___, when the sky is dark.",
+    "fullSentence": "Owls hunt and bats fly about at night, when the sky is dark.",
+    "translation": "夜晚天空黑暗時，貓頭鷹狩獵、蝙蝠飛舞。",
+    "clue": "天空全黑、貓頭鷹活動的時段",
+    "answerEntryId": "u16:night",
+    "distractorEntryIds": [
+     "u16:morning",
+     "u16:noon",
+     "u16:afternoon"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We sleep seven hours every ___ until the sun comes up.",
+     "fullSentence": "We sleep seven hours every night until the sun comes up.",
+     "translation": "我們每晚睡七小時，直到太陽升起。",
+     "clue": "睡覺、天黑到天亮的時段",
+     "answerEntryId": "u16:night",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:day",
+      "u16:afternoon"
+     ]
+    },
+    {
+     "sentence": "Turn on the lamp; it is too dark to read at ___.",
+     "fullSentence": "Turn on the lamp; it is too dark to read at night.",
+     "translation": "把檯燈打開，晚上太暗沒辦法看書。",
+     "clue": "太暗要開燈的時段",
+     "answerEntryId": "u16:night",
+     "distractorEntryIds": [
+      "u16:morning",
+      "u16:noon",
+      "u16:dawn"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The time between sunset and sunrise, when most people are sleeping, is called ___.",
+     "fullSentence": "The time between sunset and sunrise, when most people are sleeping, is called night.",
+     "translation": "日落到日出之間、多數人在睡覺的時段稱為夜晚。",
+     "clue": "日落與日出之間的時段",
+     "answerEntryId": "u16:night",
+     "distractorEntryIds": [
+      "u16:evening",
+      "u16:afternoon",
+      "u16:morning"
+     ]
+    },
+    {
+     "sentence": "___ is the time between sunset and sunrise, when most people are sleeping.",
+     "fullSentence": "night is the time between sunset and sunrise, when most people are sleeping.",
+     "translation": "夜晚是日落到日出之間的時間，多數人都在睡覺。",
+     "clue": "日落到日出之間",
+     "answerEntryId": "u16:night",
+     "distractorEntryIds": [
+      "u16:day",
+      "u16:evening",
+      "u16:afternoon"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The dark hours between sunset and sunrise, when most people are sleeping, are called ___.",
+    "fullSentence": "The dark hours between sunset and sunrise, when most people are sleeping, are called night.",
+    "translation": "日落與日出之間、多數人在睡覺的黑暗時段稱為夜晚。",
+    "clue": "日落與日出之間",
+    "answerEntryId": "u16:night",
+    "distractorEntryIds": [
+     "u16:evening",
+     "u16:midnight",
+     "u16:afternoon"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:noon",
+   "zh": "中午；正午十二點",
+   "pos": "noun",
+   "example": "We eat lunch at noon.",
+   "exampleZh": "我們中午吃午餐。",
+   "spellingHint": "n-o-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The sun is highest in the sky at ___, exactly twelve in the daytime.",
+    "fullSentence": "The sun is highest in the sky at noon, exactly twelve in the daytime.",
+    "translation": "中午十二點整，太陽在天空最高處。",
+    "clue": "白天十二點整、太陽最高",
+    "answerEntryId": "u16:noon",
+    "distractorEntryIds": [
+     "u16:midnight",
+     "u16:dawn",
+     "u16:afternoon"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "School lunch starts at ___, so our stomachs growl before twelve.",
+     "fullSentence": "School lunch starts at noon, so our stomachs growl before twelve.",
+     "translation": "學校午餐從中午開始，十二點前肚子就咕咕叫了。",
+     "clue": "吃午餐的十二點",
+     "answerEntryId": "u16:noon",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:morning",
+      "u16:evening"
+     ]
+    },
+    {
+     "sentence": "We rest for an hour at ___ before the afternoon classes begin.",
+     "fullSentence": "We rest for an hour at noon before the afternoon classes begin.",
+     "translation": "我們中午休息一小時，下午課程才開始。",
+     "clue": "下午課之前的中午休息",
+     "answerEntryId": "u16:noon",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:dawn",
+      "u16:night"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "At ___ the clock's hands both point straight up to twelve.",
+     "fullSentence": "At noon the clock's hands both point straight up to twelve.",
+     "translation": "正午時鐘的兩根指針都直直指著十二。",
+     "clue": "兩針都指十二的白天時刻",
+     "answerEntryId": "u16:noon",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:morning",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "Shadows are shortest at ___ because the sun stands directly overhead.",
+     "fullSentence": "Shadows are shortest at noon because the sun stands directly overhead.",
+     "translation": "正午影子最短，因為太陽正好在頭頂上。",
+     "clue": "影子最短的時刻",
+     "answerEntryId": "u16:noon",
+     "distractorEntryIds": [
+      "u16:midnight",
+      "u16:dawn",
+      "u16:evening"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Twelve in the middle of the daytime is called ___, the exact opposite of twelve at night.",
+    "fullSentence": "Twelve in the middle of the daytime is called noon, the exact opposite of twelve at night.",
+    "translation": "白天的十二點稱為正午，正好與夜裡十二點相對。",
+    "clue": "與夜裡十二點相對",
+    "answerEntryId": "u16:noon",
+    "distractorEntryIds": [
+     "u16:midnight",
+     "u16:dawn",
+     "u16:afternoon"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:November",
+   "zh": "十一月",
+   "pos": "noun",
+   "example": "It gets cooler in November.",
+   "exampleZh": "十一月天氣變涼。",
+   "spellingHint": "n-o-v-e-m-b-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The eleventh month of the year is ___, one month before the last.",
+    "fullSentence": "The eleventh month of the year is November, one month before the last.",
+    "translation": "一年中的第十一個月是十一月，就在最後一個月的前一個月。",
+    "clue": "一年倒數第二個月",
+    "answerEntryId": "u16:November",
+    "distractorEntryIds": [
+     "u16:December",
+     "u16:October",
+     "u16:September"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the tenth month and before the twelfth.",
+     "fullSentence": "November comes right after the tenth month and before the twelfth.",
+     "translation": "十一月緊接在第十個月之後、第十二個月之前。",
+     "clue": "第十個月之後、第十二個月之前",
+     "answerEntryId": "u16:November",
+     "distractorEntryIds": [
+      "u16:December",
+      "u16:October",
+      "u16:September"
+     ]
+    },
+    {
+     "sentence": "___ is the month right before the last one of the year.",
+     "fullSentence": "November is the month right before the last one of the year.",
+     "translation": "十一月是一年最後一個月之前的那個月。",
+     "clue": "倒數第二個月",
+     "answerEntryId": "u16:November",
+     "distractorEntryIds": [
+      "u16:October",
+      "u16:September",
+      "u16:August"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Leaves finish falling in ___, just before the year's twelfth and final month.",
+     "fullSentence": "Leaves finish falling in November, just before the year's twelfth and final month.",
+     "translation": "落葉在十一月掃盡，緊接著就是一年第十二個月。",
+     "clue": "最後一個月之前的月份",
+     "answerEntryId": "u16:November",
+     "distractorEntryIds": [
+      "u16:December",
+      "u16:October",
+      "u16:March"
+     ]
+    },
+    {
+     "sentence": "___ is the second-to-last month, when people begin preparing for Christmas.",
+     "fullSentence": "November is the second-to-last month, when people begin preparing for Christmas.",
+     "translation": "十一月是倒數第二個月，人們開始準備聖誕節。",
+     "clue": "倒數第二個月",
+     "answerEntryId": "u16:November",
+     "distractorEntryIds": [
+      "u16:December",
+      "u16:October",
+      "u16:January"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the tenth and the twelfth is ___, cool and windy before winter.",
+    "fullSentence": "The month between the tenth and the twelfth is November, cool and windy before winter.",
+    "translation": "介於第十和第十二個月之間的是十一月，入冬前涼爽多風。",
+    "clue": "第十與第十二個月之間",
+    "answerEntryId": "u16:November",
+    "distractorEntryIds": [
+     "u16:September",
+     "u16:August",
+     "u16:July"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:now",
+   "zh": "現在",
+   "pos": "adverb",
+   "example": "It is raining now.",
+   "exampleZh": "現在正在下雨。",
+   "spellingHint": "n-o-w",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Stop daydreaming and finish your homework ___, not tomorrow.",
+    "fullSentence": "Stop daydreaming and finish your homework now, not tomorrow.",
+    "translation": "別發呆了，現在就寫完功課，不要拖到明天。",
+    "clue": "立刻、此刻就做",
+    "answerEntryId": "u16:now",
+    "distractorEntryIds": [
+     "u16:later",
+     "u16:soon",
+     "u16:ago"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dinner is ready, so come to the table right ___.",
+     "fullSentence": "Dinner is ready, so come to the table right now.",
+     "translation": "晚餐好了，現在馬上來餐桌。",
+     "clue": "馬上、這一刻",
+     "answerEntryId": "u16:now",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:soon",
+      "u16:tonight"
+     ]
+    },
+    {
+     "sentence": "I was busy yesterday, but I am free ___.",
+     "fullSentence": "I was busy yesterday, but I am free now.",
+     "translation": "我昨天很忙，但現在有空。",
+     "clue": "此刻、眼前這時候",
+     "answerEntryId": "u16:now",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:soon",
+      "u16:already"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The lights are ___ off because everyone has gone to sleep.",
+     "fullSentence": "The lights are now off because everyone has gone to sleep.",
+     "translation": "燈現在關了，因為大家都去睡了。",
+     "clue": "此刻的狀態",
+     "answerEntryId": "u16:now",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:already",
+      "u16:soon"
+     ]
+    },
+    {
+     "sentence": "___ is the time to buy tickets before the show sells out.",
+     "fullSentence": "now is the time to buy tickets before the show sells out.",
+     "translation": "現在正是買票的時候，不然表演就要售完了。",
+     "clue": "就要把握的此刻",
+     "answerEntryId": "u16:now",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:tonight",
+      "u16:soon"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Things were quiet in the past, but ___ the city never seems to stop moving.",
+    "fullSentence": "Things were quiet in the past, but now the city never seems to stop moving.",
+    "translation": "過去很安靜，但現在這座城市似乎從不停歇。",
+    "clue": "與過去相對的此時",
+    "answerEntryId": "u16:now",
+    "distractorEntryIds": [
+     "u16:later",
+     "u16:ago",
+     "u16:soon"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:o'clock",
+   "zh": "…點鐘（整點）",
+   "pos": "adverb",
+   "example": "School starts at eight o'clock.",
+   "exampleZh": "學校八點上課。",
+   "spellingHint": "o-c-l-o-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The meeting begins at three ___, exactly when both hands point to twelve and three.",
+    "fullSentence": "The meeting begins at three o'clock, exactly when both hands point to twelve and three.",
+    "translation": "會議三點整開始，長針指十二、短針指三。",
+    "clue": "指針指整點的報時說法",
+    "answerEntryId": "u16:o'clock",
+    "distractorEntryIds": [
+     "u16:a.m.",
+     "u16:p.m.",
+     "u16:today"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dinner is at six ___, not six thirty.",
+     "fullSentence": "Dinner is at six o'clock, not six thirty.",
+     "translation": "晚餐六點整，不是六點半。",
+     "clue": "整點的說法",
+     "answerEntryId": "u16:o'clock",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:quarter",
+      "u16:minute"
+     ]
+    },
+    {
+     "sentence": "The show starts at eight ___ on the dot, so don't be late.",
+     "fullSentence": "The show starts at eight o'clock on the dot, so don't be late.",
+     "translation": "表演八點整準時開演，別遲到。",
+     "clue": "分秒不差的整點",
+     "answerEntryId": "u16:o'clock",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:quarter",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "When both hands show exactly seven, we say it is seven ___ on the dot.",
+     "fullSentence": "When both hands show exactly seven, we say it is seven o'clock on the dot.",
+     "translation": "四點半說 half past four，但四點整就說 four o'clock。",
+     "clue": "與 half past 相對的整點",
+     "answerEntryId": "u16:o'clock",
+     "distractorEntryIds": [
+      "u16:today",
+      "u16:tonight",
+      "u16:tomorrow"
+     ]
+    },
+    {
+     "sentence": "When the big hand reaches twelve, we read the time as exactly five ___.",
+     "fullSentence": "When the big hand reaches twelve, we read the time as exactly five o'clock.",
+     "translation": "長針指到十二時，時間正好五點整。",
+     "clue": "長針指十二的整點讀法",
+     "answerEntryId": "u16:o'clock",
+     "distractorEntryIds": [
+      "u16:today",
+      "u16:soon",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "'Fifteen minutes past four' equals 'four fifteen', but the full hour is simply 'four ___ '.",
+    "fullSentence": "'Fifteen minutes past four' equals 'four fifteen', but the full hour is simply 'four o'clock '.",
+    "translation": "「四點十五分」等於 four fifteen，但整個小時整點就簡單說 four o'clock。",
+    "clue": "整點而非幾分幾秒",
+    "answerEntryId": "u16:o'clock",
+    "distractorEntryIds": [
+     "u16:today",
+     "u16:tonight",
+     "u16:now"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:October",
+   "zh": "十月",
+   "pos": "noun",
+   "example": "We have a sports day in October.",
+   "exampleZh": "我們十月辦運動會。",
+   "spellingHint": "o-c-t-o-b-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The tenth month of the year is ___, in the middle of autumn.",
+    "fullSentence": "The tenth month of the year is October, in the middle of autumn.",
+    "translation": "一年中的第十個月是十月，正處秋季中期。",
+    "clue": "一年中的第十個月",
+    "answerEntryId": "u16:October",
+    "distractorEntryIds": [
+     "u16:November",
+     "u16:September",
+     "u16:August"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the ninth month and before the eleventh.",
+     "fullSentence": "October comes right after the ninth month and before the eleventh.",
+     "translation": "十月緊接在第九個月之後、第十一個月之前。",
+     "clue": "第九個月之後、第十一個月之前",
+     "answerEntryId": "u16:October",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:September",
+      "u16:August"
+     ]
+    },
+    {
+     "sentence": "Halloween is at the end of ___, when children wear costumes.",
+     "fullSentence": "Halloween is at the end of October, when children wear costumes.",
+     "translation": "萬聖節在十月底，孩子們會裝扮。",
+     "clue": "萬聖節所在的月份",
+     "answerEntryId": "u16:October",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:September",
+      "u16:December"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the second month of autumn, right after the ninth.",
+     "fullSentence": "October is the second month of autumn, right after the ninth.",
+     "translation": "十月是秋季的第二個月，緊跟在第九個月之後。",
+     "clue": "第九個月之後的秋月",
+     "answerEntryId": "u16:October",
+     "distractorEntryIds": [
+      "u16:September",
+      "u16:November",
+      "u16:August"
+     ]
+    },
+    {
+     "sentence": "National Day holidays fall in ___, the month between the ninth and the eleventh.",
+     "fullSentence": "National Day holidays fall in October, the month between the ninth and the eleventh.",
+     "translation": "國慶假期在十月，介於第九和第十一個月之間。",
+     "clue": "第九與第十一個月之間",
+     "answerEntryId": "u16:October",
+     "distractorEntryIds": [
+      "u16:November",
+      "u16:September",
+      "u16:July"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The month between the ninth and the eleventh is ___, when maple leaves begin to turn red.",
+    "fullSentence": "The month between the ninth and the eleventh is October, when maple leaves begin to turn red.",
+    "translation": "介於第九和第十一個月之間的是十月，楓葉開始轉紅。",
+    "clue": "第九與第十一個月之間、楓紅",
+    "answerEntryId": "u16:October",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:August",
+     "u16:June"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:once",
+   "zh": "一次；曾經",
+   "pos": "adverb",
+   "example": "I go swimming once a week.",
+   "exampleZh": "我每星期游泳一次。",
+   "spellingHint": "o-n-c-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Take this medicine ___ a day, only one time each day.",
+    "fullSentence": "Take this medicine once a day, only one time each day.",
+    "translation": "這個藥一天服用一次，每天只吃一次。",
+    "clue": "一天只吃一回",
+    "answerEntryId": "u16:once",
+    "distractorEntryIds": [
+     "u16:daily",
+     "u16:weekly",
+     "u16:monthly"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I visit the dentist ___ a year, just one visit each year.",
+     "fullSentence": "I visit the dentist once a year, just one visit each year.",
+     "translation": "我一年看牙醫一次。",
+     "clue": "一年只看一回",
+     "answerEntryId": "u16:once",
+     "distractorEntryIds": [
+      "u16:daily",
+      "u16:weekly",
+      "u16:monthly"
+     ]
+    },
+    {
+     "sentence": "___ there was a small village by the river, many years back.",
+     "fullSentence": "once there was a small village by the river, many years back.",
+     "translation": "很久以前，河邊曾有個小村莊。",
+     "clue": "故事開頭的「從前」",
+     "answerEntryId": "u16:once",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:now",
+      "u16:soon"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She checks her messages exactly ___ each morning, never twice.",
+     "fullSentence": "She checks her messages exactly once each morning, never twice.",
+     "translation": "她每天早上只查看一次訊息，絕不看第二次。",
+     "clue": "早上只查一回",
+     "answerEntryId": "u16:once",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:soon",
+      "u16:now"
+     ]
+    },
+    {
+     "sentence": "___ upon a time, a dragon lived in the mountains above the town.",
+     "fullSentence": "once upon a time, a dragon lived in the mountains above the town.",
+     "translation": "從前，一條龍住在鎮上方的山裡。",
+     "clue": "童話故事的開場白",
+     "answerEntryId": "u16:once",
+     "distractorEntryIds": [
+      "u16:ago",
+      "u16:already",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ring the bell only ___, because the doorbell already echoes through the hall.",
+    "fullSentence": "Ring the bell only once, because the doorbell already echoes through the hall.",
+    "translation": "鈴只按一次，因為門鈴聲已經在門廳迴響了。",
+    "clue": "只要按一回就好",
+    "answerEntryId": "u16:once",
+    "distractorEntryIds": [
+     "u16:soon",
+     "u16:later",
+     "u16:daily"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:p.m.",
+   "zh": "下午（中午十二點後）",
+   "pos": "adverb",
+   "example": "We eat dinner at seven p.m.",
+   "exampleZh": "我們下午七點吃晚餐。",
+   "spellingHint": "p-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Our last class ends at 3:50 ___, after the sun has passed its highest point.",
+    "fullSentence": "Our last class ends at 3:50 p.m., after the sun has passed its highest point.",
+    "translation": "我們最後一節課在下午 3:50 結束，此時太陽已過中天。",
+    "clue": "太陽過中天之後的時間寫法",
+    "answerEntryId": "u16:p.m.",
+    "distractorEntryIds": [
+     "u16:a.m.",
+     "u16:soon",
+     "u16:ago"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The basketball game starts at 4:00 ___, after lunch and before dinner.",
+     "fullSentence": "The basketball game starts at 4:00 p.m., after lunch and before dinner.",
+     "translation": "籃球賽在下午四點開始，午餐之後、晚餐之前。",
+     "clue": "午餐後晚餐前的時段",
+     "answerEntryId": "u16:p.m.",
+     "distractorEntryIds": [
+      "u16:a.m.",
+      "u16:ago",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "Streetlights come on at 6:30 ___ when the sky is getting dark.",
+     "fullSentence": "Streetlights come on at 6:30 p.m. when the sky is getting dark.",
+     "translation": "路燈在下午六點半亮起，天空轉暗。",
+     "clue": "天色轉暗的傍晚時刻",
+     "answerEntryId": "u16:p.m.",
+     "distractorEntryIds": [
+      "u16:a.m.",
+      "u16:soon",
+      "u16:already"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Dinner is served at 7:00 ___, long after the lunch hour.",
+     "fullSentence": "Dinner is served at 7:00 p.m., long after the lunch hour.",
+     "translation": "晚餐在下午七點供應，距午餐時間已很久。",
+     "clue": "距午餐很久的晚間時刻",
+     "answerEntryId": "u16:p.m.",
+     "distractorEntryIds": [
+      "u16:a.m.",
+      "u16:soon",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "The library closes at 9:00 ___, hours after the sun goes down.",
+     "fullSentence": "The library closes at 9:00 p.m., hours after the sun goes down.",
+     "translation": "圖書館晚上九點關門，日落後好幾個小時。",
+     "clue": "日落後好幾小時的時刻",
+     "answerEntryId": "u16:p.m.",
+     "distractorEntryIds": [
+      "u16:a.m.",
+      "u16:ago",
+      "u16:once"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "We watch the sunset at 5:30 ___, never in the bright hours of the morning.",
+    "fullSentence": "We watch the sunset at 5:30 p.m., never in the bright hours of the morning.",
+    "translation": "我們在下午五點半看日落，絕不是在明亮的上午時段。",
+    "clue": "看日落的傍晚時刻",
+    "answerEntryId": "u16:p.m.",
+    "distractorEntryIds": [
+     "u16:a.m.",
+     "u16:soon",
+     "u16:already"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:past",
+   "zh": "過去",
+   "pos": "noun",
+   "example": "Life was simpler in the past.",
+   "exampleZh": "過去的生活比較簡單。",
+   "spellingHint": "p-a-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We cannot change the ___, but we can learn from old mistakes.",
+    "fullSentence": "We cannot change the past, but we can learn from old mistakes.",
+    "translation": "我們無法改變過去，但可以從舊錯誤中學習。",
+    "clue": "已經發生、無法改變的時間",
+    "answerEntryId": "u16:past",
+    "distractorEntryIds": [
+     "u16:future",
+     "u16:moment",
+     "u16:period"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In the ___, people wrote letters by hand; now we send messages.",
+     "fullSentence": "In the past, people wrote letters by hand; now we send messages.",
+     "translation": "過去人們用手寫信；現在我們傳訊息。",
+     "clue": "寫信年代的舊時光",
+     "answerEntryId": "u16:past",
+     "distractorEntryIds": [
+      "u16:future",
+      "u16:moment",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "My grandmother often talks about her life in the ___.",
+     "fullSentence": "My grandmother often talks about her life in the past.",
+     "translation": "奶奶常談起她過去的生活。",
+     "clue": "奶奶年輕時的舊時光",
+     "answerEntryId": "u16:past",
+     "distractorEntryIds": [
+      "u16:future",
+      "u16:weekend",
+      "u16:morning"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ is gone forever, so we can only remember it, not change it.",
+     "fullSentence": "The past is gone forever, so we can only remember it, not change it.",
+     "translation": "過去一去不返，我們只能記住它，無法改變。",
+     "clue": "一去不返的那段時間",
+     "answerEntryId": "u16:past",
+     "distractorEntryIds": [
+      "u16:future",
+      "u16:moment",
+      "u16:period"
+     ]
+    },
+    {
+     "sentence": "Museums keep things from the ___ so children can imagine old times.",
+     "fullSentence": "Museums keep things from the past so children can imagine old times.",
+     "translation": "博物館保存過去的東西，讓孩子想像舊時光。",
+     "clue": "博物館裡展示的舊時代",
+     "answerEntryId": "u16:past",
+     "distractorEntryIds": [
+      "u16:future",
+      "u16:date",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Old photos from the ___ show how our town looked long before I was born.",
+    "fullSentence": "Old photos from the past show how our town looked long before I was born.",
+    "translation": "過去的老照片呈現我出生很久之前小鎮的樣子。",
+    "clue": "很久以前的時光",
+    "answerEntryId": "u16:past",
+    "distractorEntryIds": [
+     "u16:future",
+     "u16:moment",
+     "u16:period"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:period",
+   "zh": "時期；一段時間；節課",
+   "pos": "noun",
+   "example": "History is my favorite period at school.",
+   "exampleZh": "歷史課是我最喜歡的一節課。",
+   "spellingHint": "p-e-r-i-o-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The first class ___ ends at nine, and then we change rooms.",
+    "fullSentence": "The first class period ends at nine, and then we change rooms.",
+    "translation": "第一節課九點結束，接著我們換教室。",
+    "clue": "學校一節課的時段",
+    "answerEntryId": "u16:period",
+    "distractorEntryIds": [
+     "u16:moment",
+     "u16:hour",
+     "u16:date"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The dinosaur ___ ended millions of years ago.",
+     "fullSentence": "The dinosaur period ended millions of years ago.",
+     "translation": "恐龍時代在數百萬年前結束。",
+     "clue": "恐龍存在的歷史時期",
+     "answerEntryId": "u16:period",
+     "distractorEntryIds": [
+      "u16:moment",
+      "u16:minute",
+      "u16:date"
+     ]
+    },
+    {
+     "sentence": "There is a quiet reading ___ every day after lunch.",
+     "fullSentence": "There is a quiet reading period every day after lunch.",
+     "translation": "每天午餐後有一段安靜的閱讀時間。",
+     "clue": "午餐後的固定時段",
+     "answerEntryId": "u16:period",
+     "distractorEntryIds": [
+      "u16:moment",
+      "u16:week",
+      "u16:date"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The rainy ___ lasts from June to August, bringing storms almost daily.",
+     "fullSentence": "The rainy period lasts from June to August, bringing storms almost daily.",
+     "translation": "雨季從六月持續到八月，幾乎天天有暴雨。",
+     "clue": "從六月到八月的一整段時間",
+     "answerEntryId": "u16:period",
+     "distractorEntryIds": [
+      "u16:moment",
+      "u16:month",
+      "u16:noon"
+     ]
+    },
+    {
+     "sentence": "Each history ___ covers one hundred years of change.",
+     "fullSentence": "Each history period covers one hundred years of change.",
+     "translation": "每個歷史時期涵蓋一百年的變化。",
+     "clue": "涵蓋百年變化的時代",
+     "answerEntryId": "u16:period",
+     "distractorEntryIds": [
+      "u16:moment",
+      "u16:hour",
+      "u16:date"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A class ___ at school is forty minutes long, much longer than a single heartbeat.",
+    "fullSentence": "A class period at school is forty minutes long, much longer than a single heartbeat.",
+    "translation": "學校一節課四十分鐘，遠比一次心跳還長。",
+    "clue": "四十分鐘的固定時段",
+    "answerEntryId": "u16:period",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:date",
+     "u16:moment"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:quarter",
+   "zh": "一刻鐘；四分之一",
+   "pos": "noun",
+   "example": "It is a quarter past nine.",
+   "exampleZh": "現在是九點一刻。",
+   "spellingHint": "q-u-a-r-t-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fifteen minutes is a ___ of an hour, one fourth of sixty minutes.",
+    "fullSentence": "Fifteen minutes is a quarter of an hour, one fourth of sixty minutes.",
+    "translation": "十五分鐘是一刻鐘，即六十分鐘的四分之一。",
+    "clue": "一小時的四分之一",
+    "answerEntryId": "u16:quarter",
+    "distractorEntryIds": [
+     "u16:half",
+     "u16:minute",
+     "u16:second"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The game starts at a ___ past two, at two fifteen.",
+     "fullSentence": "The game starts at a quarter past two, at two fifteen.",
+     "translation": "比賽兩點一刻開始，也就是兩點十五分。",
+     "clue": "兩點十五分的說法",
+     "answerEntryId": "u16:quarter",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:minute",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "Cut the orange into four equal parts; each part is a ___.",
+     "fullSentence": "Cut the orange into four equal parts; each part is a quarter.",
+     "translation": "把柳橙切成四等份，每一份就是四分之一。",
+     "clue": "四等份中的一份",
+     "answerEntryId": "u16:quarter",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:second",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We leave home at a ___ to eight, meaning fifteen minutes before eight.",
+     "fullSentence": "We leave home at a quarter to eight, meaning fifteen minutes before eight.",
+     "translation": "我們七點三刻出門，也就是八點前十五分鐘。",
+     "clue": "八點前十五分鐘的說法",
+     "answerEntryId": "u16:quarter",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:past",
+      "u16:minute"
+     ]
+    },
+    {
+     "sentence": "A ___ of an hour is exactly fifteen minutes, one fourth of the whole.",
+     "fullSentence": "A quarter of an hour is exactly fifteen minutes, one fourth of the whole.",
+     "translation": "一刻鐘正好十五分鐘，是整小時的四分之一。",
+     "clue": "整小時的四分之一",
+     "answerEntryId": "u16:quarter",
+     "distractorEntryIds": [
+      "u16:half",
+      "u16:second",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Three ___ make forty-five minutes, leaving fifteen before the hour ends.",
+    "fullSentence": "Three quarter make forty-five minutes, leaving fifteen before the hour ends.",
+    "translation": "三個一刻鐘是四十五分鐘，距整點還剩十五分。",
+    "clue": "三個十五分鐘",
+    "answerEntryId": "u16:quarter",
+    "distractorEntryIds": [
+     "u16:half",
+     "u16:second",
+     "u16:moment"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Saturday",
+   "zh": "星期六",
+   "pos": "noun",
+   "example": "We clean the house every Saturday.",
+   "exampleZh": "我們每星期六打掃家裡。",
+   "spellingHint": "s-a-t-u-r-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the first day of the weekend, when most people are off work.",
+    "fullSentence": "Saturday is the first day of the weekend, when most people are off work.",
+    "translation": "星期六是週末的第一天，多數人不上班。",
+    "clue": "週末的第一天",
+    "answerEntryId": "u16:Saturday",
+    "distractorEntryIds": [
+     "u16:Friday",
+     "u16:Monday",
+     "u16:Tuesday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the last school day and before Sunday.",
+     "fullSentence": "Saturday comes right after the last school day and before Sunday.",
+     "translation": "星期六在最後一個上學日之後、星期日之前。",
+     "clue": "星期五之後、星期日之前",
+     "answerEntryId": "u16:Saturday",
+     "distractorEntryIds": [
+      "u16:Friday",
+      "u16:Monday",
+      "u16:Thursday"
+     ]
+    },
+    {
+     "sentence": "Our baseball game is on ___, the day after the last school day.",
+     "fullSentence": "Our baseball game is on Saturday, the day after the last school day.",
+     "translation": "我們的棒球賽在星期六，最後一個上學日的隔天。",
+     "clue": "最後一個上學日的隔天",
+     "answerEntryId": "u16:Saturday",
+     "distractorEntryIds": [
+      "u16:Friday",
+      "u16:Thursday",
+      "u16:Monday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We sleep in on ___ because there is no school and no work.",
+     "fullSentence": "We sleep in on Saturday because there is no school and no work.",
+     "translation": "我們星期六睡到飽，因為不用上學上班。",
+     "clue": "不用上學上班的假日",
+     "answerEntryId": "u16:Saturday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Tuesday",
+      "u16:Friday"
+     ]
+    },
+    {
+     "sentence": "The market is busiest on ___ morning, the first day without work.",
+     "fullSentence": "The market is busiest on Saturday morning, the first day without work.",
+     "translation": "市場在星期六早上最熱鬧，這是不用上班的第一天。",
+     "clue": "不上班第一天的早晨",
+     "answerEntryId": "u16:Saturday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Wednesday",
+      "u16:Thursday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between Friday and Sunday is ___, when weekend fun begins.",
+    "fullSentence": "The day between Friday and Sunday is Saturday, when weekend fun begins.",
+    "translation": "星期五和星期日之間的那天是星期六，週末的玩樂從這天開始。",
+    "clue": "星期五與星期日之間",
+    "answerEntryId": "u16:Saturday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Tuesday",
+     "u16:Thursday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:season",
+   "zh": "季節",
+   "pos": "noun",
+   "example": "Spring is my favorite season.",
+   "exampleZh": "春天是我最喜歡的季節。",
+   "spellingHint": "s-e-a-s-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Spring, summer, autumn, and winter are the four ___.",
+    "fullSentence": "Spring, summer, autumn, and winter are the four season.",
+    "translation": "春、夏、秋、冬是四季。",
+    "clue": "春夏秋冬的統稱",
+    "answerEntryId": "u16:season",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:week",
+     "u16:day"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Swimming is popular in the summer ___.",
+     "fullSentence": "Swimming is popular in the summer season.",
+     "translation": "夏天時游泳很受歡迎。",
+     "clue": "夏天是其中一個",
+     "answerEntryId": "u16:season",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "Each ___ of the year has different weather, from snow to sunshine.",
+     "fullSentence": "Each season of the year has different weather, from snow to sunshine.",
+     "translation": "一年的每個季節天氣都不同，從下雪到放晴。",
+     "clue": "天氣變化的時段、一年有四個",
+     "answerEntryId": "u16:season",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Farmers plant rice in one ___ and harvest it in another.",
+     "fullSentence": "Farmers plant rice in one season and harvest it in another.",
+     "translation": "農夫在一個季節種稻，在另一個季節收成。",
+     "clue": "種植與收成所屬的時間單位",
+     "answerEntryId": "u16:season",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "A ___ lasts about three months, then the weather slowly changes.",
+     "fullSentence": "A season lasts about three months, then the weather slowly changes.",
+     "translation": "一個季節約持續三個月，之後天氣慢慢轉變。",
+     "clue": "約三個月長的氣候時段",
+     "answerEntryId": "u16:season",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Each ___ brings its own weather: blossoms, heat, falling leaves, or snow.",
+    "fullSentence": "Each season brings its own weather: blossoms, heat, falling leaves, or snow.",
+    "translation": "每個季節都有各自的天氣：開花、酷熱、落葉或下雪。",
+    "clue": "開花酷熱落葉下雪所屬的單位",
+    "answerEntryId": "u16:season",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:week",
+     "u16:date"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:second",
+   "zh": "秒",
+   "pos": "noun",
+   "example": "Hold your breath for ten seconds.",
+   "exampleZh": "閉氣十秒鐘。",
+   "spellingHint": "s-e-c-o-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "One ___ is the shortest unit of the clock, and sixty of them make one minute.",
+    "fullSentence": "One second is the shortest unit of the clock, and sixty of them make one minute.",
+    "translation": "一秒是時鐘最小的單位，六十秒就是一分鐘。",
+    "clue": "六十個構成一分鐘",
+    "answerEntryId": "u16:second",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:day",
+     "u16:week"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The light stays green for thirty ___, then turns red.",
+     "fullSentence": "The light stays green for thirty second, then turns red.",
+     "translation": "綠燈亮三十秒後轉紅。",
+     "clue": "非常短的計時單位",
+     "answerEntryId": "u16:second",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:hour",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "The referee counts down from ten, one ___ at a time, before the game restarts.",
+     "fullSentence": "The referee counts down from ten, one second at a time, before the game restarts.",
+     "translation": "比賽重新開始前，裁判從十開始一秒一秒倒數。",
+     "clue": "倒數計時的最小單位",
+     "answerEntryId": "u16:second",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:hour",
+      "u16:day"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ hand on the clock is the thinnest and moves fastest.",
+     "fullSentence": "The second hand on the clock is the thinnest and moves fastest.",
+     "translation": "時鐘的秒針最細，走得最快。",
+     "clue": "走得最快最細的那根針",
+     "answerEntryId": "u16:second",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:hour",
+      "u16:period"
+     ]
+    },
+    {
+     "sentence": "The strobe light flashes every ___, blinking on and off rapidly.",
+     "fullSentence": "The strobe light flashes every second, blinking on and off rapidly.",
+     "translation": "閃光燈每一秒閃一次，快速地亮了又滅。",
+     "clue": "快速閃爍的間隔",
+     "answerEntryId": "u16:second",
+     "distractorEntryIds": [
+      "u16:minute",
+      "u16:hour",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Sixty of these tiny units make one ___, and each is shorter than a heartbeat.",
+    "fullSentence": "Sixty of these tiny units make one second, and each is shorter than a heartbeat.",
+    "translation": "六十個這種小單位構成一分鐘，每個都比一次心跳還短。",
+    "clue": "比心跳短、六十個構成一分鐘",
+    "answerEntryId": "u16:second",
+    "distractorEntryIds": [
+     "u16:hour",
+     "u16:day",
+     "u16:week"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:September",
+   "zh": "九月",
+   "pos": "noun",
+   "example": "School starts again in September.",
+   "exampleZh": "學校九月又開學了。",
+   "spellingHint": "s-e-p-t-e-m-b-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ninth month of the year is ___, when the new school year begins.",
+    "fullSentence": "The ninth month of the year is September, when the new school year begins.",
+    "translation": "一年中的第九個月是九月，新學年從這時開始。",
+    "clue": "一年中的第九個月",
+    "answerEntryId": "u16:September",
+    "distractorEntryIds": [
+     "u16:August",
+     "u16:October",
+     "u16:June"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the eighth month and before the tenth.",
+     "fullSentence": "September comes right after the eighth month and before the tenth.",
+     "translation": "九月緊接在第八個月之後、第十個月之前。",
+     "clue": "第八個月之後、第十個月之前",
+     "answerEntryId": "u16:September",
+     "distractorEntryIds": [
+      "u16:August",
+      "u16:October",
+      "u16:July"
+     ]
+    },
+    {
+     "sentence": "Teachers' Day is in ___, the month when summer vacation ends.",
+     "fullSentence": "Teachers' Day is in September, the month when summer vacation ends.",
+     "translation": "教師節在九月，暑假結束的月份。",
+     "clue": "暑假結束、開學的月份",
+     "answerEntryId": "u16:September",
+     "distractorEntryIds": [
+      "u16:August",
+      "u16:July",
+      "u16:June"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the first month of autumn, right after the last month of summer.",
+     "fullSentence": "September is the first month of autumn, right after the last month of summer.",
+     "translation": "九月是秋季的第一個月，緊跟在夏季最後一個月之後。",
+     "clue": "夏季最後一個月之後",
+     "answerEntryId": "u16:September",
+     "distractorEntryIds": [
+      "u16:August",
+      "u16:October",
+      "u16:April"
+     ]
+    },
+    {
+     "sentence": "Students return to school in ___, the month between the eighth and the tenth.",
+     "fullSentence": "Students return to school in September, the month between the eighth and the tenth.",
+     "translation": "學生在九月，也就是第八和第十個月之間，重返學校。",
+     "clue": "第八與第十個月之間",
+     "answerEntryId": "u16:September",
+     "distractorEntryIds": [
+      "u16:August",
+      "u16:October",
+      "u16:March"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Summer homework is due in the ninth month, ___, one month after the family trip.",
+    "fullSentence": "Summer homework is due in the ninth month, September, one month after the family trip.",
+    "translation": "暑假作業在第九個月九月繳交，就在家庭旅行的一個月後。",
+    "clue": "第八個月之後、開學之時",
+    "answerEntryId": "u16:September",
+    "distractorEntryIds": [
+     "u16:July",
+     "u16:June",
+     "u16:May"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:soon",
+   "zh": "很快地；不久",
+   "pos": "adverb",
+   "example": "The bus will arrive soon.",
+   "exampleZh": "公車很快就會到。",
+   "spellingHint": "s-o-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Hurry up! The movie will begin ___, in just a few minutes.",
+    "fullSentence": "Hurry up! The movie will begin soon, in just a few minutes.",
+    "translation": "快點！電影很快就開演了，只剩幾分鐘。",
+    "clue": "幾分鐘內就會發生",
+    "answerEntryId": "u16:soon",
+    "distractorEntryIds": [
+     "u16:later",
+     "u16:ago",
+     "u16:already"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Finish your snack ___, because dinner will be ready in ten minutes.",
+     "fullSentence": "Finish your snack soon, because dinner will be ready in ten minutes.",
+     "translation": "快點把點心吃完，晚餐十分鐘後就好了。",
+     "clue": "再過十分鐘就要發生",
+     "answerEntryId": "u16:soon",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:ago",
+      "u16:now"
+     ]
+    },
+    {
+     "sentence": "Get well ___! We all miss you at school.",
+     "fullSentence": "Get well soon! We all miss you at school.",
+     "translation": "早日康復！學校裡大家都想你。",
+     "clue": "希望快一點發生",
+     "answerEntryId": "u16:soon",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:already",
+      "u16:ago"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The rain stopped ___ after we got home, so our shoes stayed dry.",
+     "fullSentence": "The rain stopped soon after we got home, so our shoes stayed dry.",
+     "translation": "我們到家後不久雨就停了，鞋子沒淋濕。",
+     "clue": "到家後沒多久",
+     "answerEntryId": "u16:soon",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:ago",
+      "u16:already"
+     ]
+    },
+    {
+     "sentence": "Hurry! The store closes ___, in just five minutes.",
+     "fullSentence": "Hurry! The store closes soon, in just five minutes.",
+     "translation": "快！商店再五分鐘就要關門了。",
+     "clue": "只剩五分鐘、馬上發生",
+     "answerEntryId": "u16:soon",
+     "distractorEntryIds": [
+      "u16:later",
+      "u16:ago",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The cake is almost done; it will come out of the oven ___, within five minutes rather than hours.",
+    "fullSentence": "The cake is almost done; it will come out of the oven soon, within five minutes rather than hours.",
+    "translation": "蛋糕快好了，五分鐘內就會出爐，不用等幾個小時。",
+    "clue": "五分鐘內即將發生",
+    "answerEntryId": "u16:soon",
+    "distractorEntryIds": [
+     "u16:later",
+     "u16:ago",
+     "u16:already"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:spring",
+   "zh": "春天",
+   "pos": "noun",
+   "example": "Flowers bloom in spring.",
+   "exampleZh": "春天百花盛開。",
+   "spellingHint": "s-p-r-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Flowers bloom and birds return in ___, the season after the coldest one.",
+    "fullSentence": "Flowers bloom and birds return in spring, the season after the coldest one.",
+    "translation": "春天百花盛開、鳥兒歸來，這是最冷季節之後的季節。",
+    "clue": "冬天之後的季節",
+    "answerEntryId": "u16:spring",
+    "distractorEntryIds": [
+     "u16:summer",
+     "u16:autumn",
+     "u16:winter"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Farmers plant rice in ___ when the weather turns warm.",
+     "fullSentence": "Farmers plant rice in spring when the weather turns warm.",
+     "translation": "農夫在天氣轉暖的春天種稻。",
+     "clue": "天氣轉暖、開始耕種的季節",
+     "answerEntryId": "u16:spring",
+     "distractorEntryIds": [
+      "u16:autumn",
+      "u16:winter",
+      "u16:summer"
+     ]
+    },
+    {
+     "sentence": "We fly kites in ___ when gentle winds blow.",
+     "fullSentence": "We fly kites in spring when gentle winds blow.",
+     "translation": "春天微風吹拂時我們放風箏。",
+     "clue": "微風放風箏的溫暖季節",
+     "answerEntryId": "u16:spring",
+     "distractorEntryIds": [
+      "u16:winter",
+      "u16:autumn",
+      "u16:summer"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the season of new growth, when buds open on every branch.",
+     "fullSentence": "spring is the season of new growth, when buds open on every branch.",
+     "translation": "春天是新生長的季節，每根枝條都冒出新芽。",
+     "clue": "新芽生長的季節",
+     "answerEntryId": "u16:spring",
+     "distractorEntryIds": [
+      "u16:autumn",
+      "u16:summer",
+      "u16:winter"
+     ]
+    },
+    {
+     "sentence": "School picnics happen in ___, between the cold and the hot months.",
+     "fullSentence": "School picnics happen in spring, between the cold and the hot months.",
+     "translation": "校外教學辦在春天，介於寒冷與炎熱的月份之間。",
+     "clue": "寒熱之間、適合遠足的季節",
+     "answerEntryId": "u16:spring",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:winter",
+      "u16:autumn"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The season between the coldest and the hottest is ___, when farmers sow the fields.",
+    "fullSentence": "The season between the coldest and the hottest is spring, when farmers sow the fields.",
+    "translation": "最冷與最熱季節之間的是春天，農夫在此時播種。",
+    "clue": "冬夏之間、播種時節",
+    "answerEntryId": "u16:spring",
+    "distractorEntryIds": [
+     "u16:summer",
+     "u16:autumn",
+     "u16:winter"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:stopwatch",
+   "zh": "碼表；停錶",
+   "pos": "noun",
+   "example": "The coach timed our run with a stopwatch.",
+   "exampleZh": "教練用碼表計時我們跑步。",
+   "spellingHint": "s-t-o-p-w-a-t-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The coach clicked his ___ to time each runner's sprint in the gym.",
+    "fullSentence": "The coach clicked his stopwatch to time each runner's sprint in the gym.",
+    "translation": "教練按停錶，替體育館裡每位跑手的衝刺計時。",
+    "clue": "用來按停、計算秒數的錶",
+    "answerEntryId": "u16:stopwatch",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:watch",
+     "u16:alarm clock"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Press the button on the ___ to start and stop the timing.",
+     "fullSentence": "Press the button on the stopwatch to start and stop the timing.",
+     "translation": "按碼表上的按鈕來開始和停止計時。",
+     "clue": "能開始停止計時的按鈕錶",
+     "answerEntryId": "u16:stopwatch",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:clock",
+      "u16:calendar"
+     ]
+    },
+    {
+     "sentence": "The judge used a ___ to measure how long each swimmer took.",
+     "fullSentence": "The judge used a stopwatch to measure how long each swimmer took.",
+     "translation": "裁判用碼表測量每位泳者的時間。",
+     "clue": "測量秒數用的工具",
+     "answerEntryId": "u16:stopwatch",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:clock",
+      "u16:calendar"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Unlike a wristwatch, which always runs, a ___ can be started and stopped at will.",
+     "fullSentence": "Unlike a wristwatch, which always runs, a stopwatch can be started and stopped at will.",
+     "translation": "手錶一直走，而碼表可以隨時啟停。",
+     "clue": "可隨時啟動停止的錶",
+     "answerEntryId": "u16:stopwatch",
+     "distractorEntryIds": [
+      "u16:watch",
+      "u16:clock",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "In science class we used a ___ to record how fast the toy car crossed the desk.",
+     "fullSentence": "In science class we used a stopwatch to record how fast the toy car crossed the desk.",
+     "translation": "科學課上我們用碼表記錄玩具車滑過桌面的速度。",
+     "clue": "實驗記錄秒數的工具",
+     "answerEntryId": "u16:stopwatch",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:watch",
+      "u16:calendar"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ___ has one button for starting, another for stopping, and a dial that shows only elapsed seconds.",
+    "fullSentence": "The stopwatch has one button for starting, another for stopping, and a dial that shows only elapsed seconds.",
+    "translation": "碼表一個鈕啟動、一個鈕停止，錶面只顯示經過的秒數。",
+    "clue": "只顯示經過時間、可啟停的錶",
+    "answerEntryId": "u16:stopwatch",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:watch",
+     "u16:alarm clock"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:summer",
+   "zh": "夏天",
+   "pos": "noun",
+   "example": "We swim in the river every summer.",
+   "exampleZh": "我們每年夏天在河裡游泳。",
+   "spellingHint": "s-u-m-m-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "School is out and the days are longest and hottest in ___.",
+    "fullSentence": "School is out and the days are longest and hottest in summer.",
+    "translation": "夏天學校放假，白天最長也最熱。",
+    "clue": "最熱、白天最長的季節",
+    "answerEntryId": "u16:summer",
+    "distractorEntryIds": [
+     "u16:winter",
+     "u16:autumn",
+     "u16:spring"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We eat watermelon and ice cream in ___.",
+     "fullSentence": "We eat watermelon and ice cream in summer.",
+     "translation": "我們在夏天吃西瓜和冰淇淋。",
+     "clue": "吃西瓜消暑的季節",
+     "answerEntryId": "u16:summer",
+     "distractorEntryIds": [
+      "u16:winter",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    },
+    {
+     "sentence": "Cicadas sing loudly all through the hot ___.",
+     "fullSentence": "Cicadas sing loudly all through the hot summer.",
+     "translation": "蟬在炎熱的夏天大聲鳴唱。",
+     "clue": "蟬鳴不停的炎熱季節",
+     "answerEntryId": "u16:summer",
+     "distractorEntryIds": [
+      "u16:winter",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The hottest one of the four is the ___, right between the planting and the harvest.",
+     "fullSentence": "The hottest one of the four is the summer, right between the planting and the harvest.",
+     "translation": "四季中最熱的是夏天，介於播種與收成之間。",
+     "clue": "介於播種與收成之間、最熱",
+     "answerEntryId": "u16:summer",
+     "distractorEntryIds": [
+      "u16:winter",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    },
+    {
+     "sentence": "During ___ vacation we visit the beach almost every week.",
+     "fullSentence": "During summer vacation we visit the beach almost every week.",
+     "translation": "暑假期間我們幾乎每週去海邊。",
+     "clue": "放長假去海邊的季節",
+     "answerEntryId": "u16:summer",
+     "distractorEntryIds": [
+      "u16:winter",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The season between the planting time and the harvest is ___, when the noon sun burns overhead.",
+    "fullSentence": "The season between the planting time and the harvest is summer, when the noon sun burns overhead.",
+    "translation": "播種與收成之間的季節是夏天，正午陽火辣辣照在頭頂。",
+    "clue": "春秋之間、正午烈日",
+    "answerEntryId": "u16:summer",
+    "distractorEntryIds": [
+     "u16:winter",
+     "u16:spring",
+     "u16:autumn"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Thursday",
+   "zh": "星期四",
+   "pos": "noun",
+   "example": "We have music class every Thursday.",
+   "exampleZh": "我們每星期四上音樂課。",
+   "spellingHint": "t-h-u-r-s-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the fourth school day, right before the last one of the week.",
+    "fullSentence": "Thursday is the fourth school day, right before the last one of the week.",
+    "translation": "星期四是第四個上學日，緊接在一週最後一個上學日之前。",
+    "clue": "星期五之前的那天",
+    "answerEntryId": "u16:Thursday",
+    "distractorEntryIds": [
+     "u16:Friday",
+     "u16:Wednesday",
+     "u16:Tuesday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the middle day of the school week and before the last school day.",
+     "fullSentence": "Thursday comes right after the middle day of the school week and before the last school day.",
+     "translation": "星期四在上學週的中間那天之後、最後一個上學日之前。",
+     "clue": "星期三之後、星期五之前",
+     "answerEntryId": "u16:Thursday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Tuesday",
+      "u16:Saturday"
+     ]
+    },
+    {
+     "sentence": "Our English quiz is on ___, one day before the weekend-eve test.",
+     "fullSentence": "Our English quiz is on Thursday, one day before the weekend-eve test.",
+     "translation": "我們的英文小考在星期四，就在週末前測驗的前一天。",
+     "clue": "星期五前一天",
+     "answerEntryId": "u16:Thursday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Saturday",
+      "u16:Tuesday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We return our library books every ___, two days before the weekend begins.",
+     "fullSentence": "We return our library books every Thursday, two days before the weekend begins.",
+     "translation": "我們每星期四還書，就在週末開始的兩天前。",
+     "clue": "週末前最後一個平日",
+     "answerEntryId": "u16:Thursday",
+     "distractorEntryIds": [
+      "u16:Friday",
+      "u16:Monday",
+      "u16:Tuesday"
+     ]
+    },
+    {
+     "sentence": "The fourth day of the school week is ___, when we practice for Friday's assembly.",
+     "fullSentence": "The fourth day of the school week is Thursday, when we practice for Friday's assembly.",
+     "translation": "上學週的第四天是星期四，我們為星期五的朝會排練。",
+     "clue": "上學週的第四天",
+     "answerEntryId": "u16:Thursday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Tuesday",
+      "u16:Wednesday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between Wednesday and Friday is ___, close enough to the weekend to feel hopeful.",
+    "fullSentence": "The day between Wednesday and Friday is Thursday, close enough to the weekend to feel hopeful.",
+    "translation": "星期三和星期五之間的那天是星期四，離週末近得讓人有盼望。",
+    "clue": "星期三與星期五之間",
+    "answerEntryId": "u16:Thursday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Tuesday",
+     "u16:Saturday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:time",
+   "zh": "時間",
+   "pos": "noun",
+   "example": "What time is it now?",
+   "exampleZh": "現在幾點？",
+   "spellingHint": "t-i-m-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "What ___ is it? My watch says ten past four.",
+    "fullSentence": "What time is it? My watch says ten past four.",
+    "translation": "現在幾點？我的手錶顯示四點十分。",
+    "clue": "手錶上顯示的幾點幾分",
+    "answerEntryId": "u16:time",
+    "distractorEntryIds": [
+     "u16:date",
+     "u16:day",
+     "u16:moment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We do not have much ___ before the train leaves, so hurry.",
+     "fullSentence": "We do not have much time before the train leaves, so hurry.",
+     "translation": "火車開走前我們時間不多了，快一點。",
+     "clue": "可以用掉或節省的東西",
+     "answerEntryId": "u16:time",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:day",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "It is ___ for bed; turn off the light and sleep.",
+     "fullSentence": "It is time for bed; turn off the light and sleep.",
+     "translation": "該睡覺了，關燈睡吧。",
+     "clue": "做某事的適當時候",
+     "answerEntryId": "u16:time",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:period",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ on the airport screen shows each flight's departure hour.",
+     "fullSentence": "The time on the airport screen shows each flight's departure hour.",
+     "translation": "機場螢幕上的時間顯示每班飛機的起飛時刻。",
+     "clue": "顯示幾點幾分的資訊",
+     "answerEntryId": "u16:time",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:moment",
+      "u16:period"
+     ]
+    },
+    {
+     "sentence": "Practice makes perfect, but only if you spend ___ on it every day.",
+     "fullSentence": "Practice makes perfect, but only if you spend time on it every day.",
+     "translation": "熟能生巧，但前提是每天花時間練習。",
+     "clue": "每天投入的東西",
+     "answerEntryId": "u16:time",
+     "distractorEntryIds": [
+      "u16:date",
+      "u16:moment",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A clock measures ___ in hours and minutes, while a calendar measures it in days and months.",
+    "fullSentence": "A clock measures time in hours and minutes, while a calendar measures it in days and months.",
+    "translation": "時鐘以小時和分鐘計時，日曆則以天和月計算。",
+    "clue": "時鐘所測量的東西",
+    "answerEntryId": "u16:time",
+    "distractorEntryIds": [
+     "u16:date",
+     "u16:season",
+     "u16:period"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:today",
+   "zh": "今天",
+   "pos": "adverb",
+   "example": "It is sunny today.",
+   "exampleZh": "今天是晴天。",
+   "spellingHint": "t-o-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the day between the day before and the day after, so make the most of it.",
+    "fullSentence": "today is the day between the day before and the day after, so make the most of it.",
+    "translation": "今天介於前天與後天之間（昨天與明天之間），要好好把握。",
+    "clue": "昨天與明天之間的那天",
+    "answerEntryId": "u16:today",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:yesterday",
+     "u16:tonight"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ is my birthday, so I am ten years old right now.",
+     "fullSentence": "today is my birthday, so I am ten years old right now.",
+     "translation": "今天是我生日，我現在滿十歲了。",
+     "clue": "此刻正在過的日子",
+     "answerEntryId": "u16:today",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:tonight"
+     ]
+    },
+    {
+     "sentence": "We have a math test ___, not next week but right now.",
+     "fullSentence": "We have a math test today, not next week but right now.",
+     "translation": "我們今天有數學考試，不是下週，就是現在。",
+     "clue": "此刻正在進行",
+     "answerEntryId": "u16:today",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:weekend"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The homework is due ___, so finish it before bedtime tonight.",
+     "fullSentence": "The homework is due today, so finish it before bedtime tonight.",
+     "translation": "功課今天到期，睡前要寫完。",
+     "clue": "就是這一天截止",
+     "answerEntryId": "u16:today",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "___ the weather is fine, so we can hold the sports meeting as planned.",
+     "fullSentence": "today the weather is fine, so we can hold the sports meeting as planned.",
+     "translation": "今天天氣很好，運動會可以照計畫舉行。",
+     "clue": "此刻的天氣狀況",
+     "answerEntryId": "u16:today",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The practice is finished, and ___ is the day of the big match itself.",
+    "fullSentence": "The practice is finished, and today is the day of the big match itself.",
+    "translation": "練習已經結束，今天就是大賽當天。",
+    "clue": "就在眼前進行的這一天",
+    "answerEntryId": "u16:today",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:yesterday",
+     "u16:tonight"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:tomorrow",
+   "zh": "明天",
+   "pos": "adverb",
+   "example": "See you tomorrow at school.",
+   "exampleZh": "明天學校見。",
+   "spellingHint": "t-o-m-o-r-r-o-w",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ will be Saturday, because this day is Friday and the weekend follows.",
+    "fullSentence": "tomorrow will be Saturday, because this day is Friday and the weekend follows.",
+    "translation": "明天是星期六，因為今天是星期五，週末跟著而來。",
+    "clue": "星期五的隔一天",
+    "answerEntryId": "u16:tomorrow",
+    "distractorEntryIds": [
+     "u16:today",
+     "u16:yesterday",
+     "u16:tonight"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ is the day that follows this one, so plan for it before you sleep.",
+     "fullSentence": "tomorrow is the day that follows this one, so plan for it before you sleep.",
+     "translation": "明天是今天之後的那天，睡前先計畫好。",
+     "clue": "今天之後的那天",
+     "answerEntryId": "u16:tomorrow",
+     "distractorEntryIds": [
+      "u16:yesterday",
+      "u16:today",
+      "u16:weekend"
+     ]
+    },
+    {
+     "sentence": "The library book is due ___, one day after this one ends.",
+     "fullSentence": "The library book is due tomorrow, one day after this one ends.",
+     "translation": "圖書館的書明天到期，就是今天結束後的隔天。",
+     "clue": "今天結束後的隔天",
+     "answerEntryId": "u16:tomorrow",
+     "distractorEntryIds": [
+      "u16:yesterday",
+      "u16:today",
+      "u16:week"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Don't put off your homework until ___; finish it this evening.",
+     "fullSentence": "Don't put off your homework until tomorrow; finish it this evening.",
+     "translation": "別把功課拖到明天，今晚就寫完。",
+     "clue": "今天之後要來臨的一天",
+     "answerEntryId": "u16:tomorrow",
+     "distractorEntryIds": [
+      "u16:yesterday",
+      "u16:tonight",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "The forecast says ___ will be rainy, so take an umbrella when you leave in the morning.",
+     "fullSentence": "The forecast says tomorrow will be rainy, so take an umbrella when you leave in the morning.",
+     "translation": "天氣預報說明天會下雨，早上出門帶把傘。",
+     "clue": "預報中將要來臨的一天",
+     "answerEntryId": "u16:tomorrow",
+     "distractorEntryIds": [
+      "u16:yesterday",
+      "u16:today",
+      "u16:tonight"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ never arrives until this day ends and a new one begins.",
+    "fullSentence": "tomorrow never arrives until this day ends and a new one begins.",
+    "translation": "明天要等今天結束、新的一天開始才會到來。",
+    "clue": "今天結束後才來臨的一天",
+    "answerEntryId": "u16:tomorrow",
+    "distractorEntryIds": [
+     "u16:yesterday",
+     "u16:today",
+     "u16:later"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:tonight",
+   "zh": "今晚",
+   "pos": "adverb",
+   "example": "We are having pizza tonight.",
+   "exampleZh": "我們今晚要吃披薩。",
+   "spellingHint": "t-o-n-i-g-h-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Don't stay up ___, or you will be tired at school in the morning.",
+    "fullSentence": "Don't stay up tonight, or you will be tired at school in the morning.",
+    "translation": "今晚別熬夜，不然明天上學會很累。",
+    "clue": "睡前、今天夜裡的這段時間",
+    "answerEntryId": "u16:tonight",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:yesterday",
+     "u16:daily"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ we will watch the meteor shower after ten o'clock.",
+     "fullSentence": "tonight we will watch the meteor shower after ten o'clock.",
+     "translation": "今晚十點後我們要看流星雨。",
+     "clue": "今天夜裡要發生的事",
+     "answerEntryId": "u16:tonight",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:morning"
+     ]
+    },
+    {
+     "sentence": "Dad is cooking our favorite noodles ___, so come home before dark.",
+     "fullSentence": "Dad is cooking our favorite noodles tonight, so come home before dark.",
+     "translation": "爸爸今晚要煮我們最愛的麵，天黑前回家。",
+     "clue": "今天晚上發生的事",
+     "answerEntryId": "u16:tonight",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:noon"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The hotel is full ___, so we must find another place to sleep.",
+     "fullSentence": "The hotel is full tonight, so we must find another place to sleep.",
+     "translation": "旅館今晚客滿，我們得另找地方睡。",
+     "clue": "就是今天夜裡的狀況",
+     "answerEntryId": "u16:tonight",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:daily"
+     ]
+    },
+    {
+     "sentence": "Finish packing ___, because the early train leaves at six in the morning.",
+     "fullSentence": "Finish packing tonight, because the early train leaves at six in the morning.",
+     "translation": "今晚把行李收拾好，因為明早六點的火車就開了。",
+     "clue": "睡前要完成的事",
+     "answerEntryId": "u16:tonight",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:yesterday",
+      "u16:daily"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The museum stays open late only on Fridays, and ___ is Friday, so we still have time.",
+    "fullSentence": "The museum stays open late only on Fridays, and tonight is Friday, so we still have time.",
+    "translation": "博物館只有星期五晚間延長開放，今晚正是星期五，我們還來得及。",
+    "clue": "此刻正在進行的這個夜裡",
+    "answerEntryId": "u16:tonight",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:yesterday",
+     "u16:already"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Tuesday",
+   "zh": "星期二",
+   "pos": "noun",
+   "example": "We have PE class every Tuesday.",
+   "exampleZh": "我們每星期二上體育課。",
+   "spellingHint": "t-u-e-s-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the second school day, right after the first one.",
+    "fullSentence": "Tuesday is the second school day, right after the first one.",
+    "translation": "星期二是上學週的第二天，緊接在第一天之後。",
+    "clue": "星期一之後的那天",
+    "answerEntryId": "u16:Tuesday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Wednesday",
+     "u16:Thursday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ comes right after the first school day and before the middle one.",
+     "fullSentence": "Tuesday comes right after the first school day and before the middle one.",
+     "translation": "星期二在第一個上學日之後、中間那天之前。",
+     "clue": "星期一之後、星期三之前",
+     "answerEntryId": "u16:Tuesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Thursday",
+      "u16:Saturday"
+     ]
+    },
+    {
+     "sentence": "Our swimming lesson is on ___, the day after the first school day.",
+     "fullSentence": "Our swimming lesson is on Tuesday, the day after the first school day.",
+     "translation": "我們的游泳課在星期二，就是第一個上學日的隔天。",
+     "clue": "第一個上學日的隔天",
+     "answerEntryId": "u16:Tuesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Wednesday",
+      "u16:Saturday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The library is closed on ___, so we return books the day after the first weekday.",
+     "fullSentence": "The library is closed on Tuesday, so we return books the day after the first weekday.",
+     "translation": "圖書館星期二不開，我們在第一個上學日的隔天還書。",
+     "clue": "緊跟在第一個上學日之後",
+     "answerEntryId": "u16:Tuesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Wednesday",
+      "u16:Friday"
+     ]
+    },
+    {
+     "sentence": "Students wear sports uniforms on ___ for the second day of PE week.",
+     "fullSentence": "Students wear sports uniforms on Tuesday for the second day of PE week.",
+     "translation": "學生在星期二穿運動服，這是體育週的第二天。",
+     "clue": "一週的第二天",
+     "answerEntryId": "u16:Tuesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Thursday",
+      "u16:Wednesday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between Monday and Wednesday is ___, still far from the weekend.",
+    "fullSentence": "The day between Monday and Wednesday is Tuesday, still far from the weekend.",
+    "translation": "星期一和星期三之間的那天是星期二，離週末還很遠。",
+    "clue": "星期一與星期三之間",
+    "answerEntryId": "u16:Tuesday",
+    "distractorEntryIds": [
+     "u16:Thursday",
+     "u16:Friday",
+     "u16:Saturday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:watch",
+   "zh": "手錶；觀看",
+   "pos": "noun",
+   "example": "Dad wears a silver watch.",
+   "exampleZh": "爸爸戴著一支銀色手錶。",
+   "spellingHint": "w-a-t-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Grandpa looked at the ___ on his wrist to check when the train would leave.",
+    "fullSentence": "Grandpa looked at the watch on his wrist to check when the train would leave.",
+    "translation": "爺爺看了看手腕上的手錶，確認火車幾點開。",
+    "clue": "戴在手腕上看時間的東西",
+    "answerEntryId": "u16:watch",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:calendar",
+     "u16:stopwatch"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She got a new ___ for her birthday; it straps onto her wrist.",
+     "fullSentence": "She got a new watch for her birthday; it straps onto her wrist.",
+     "translation": "她生日收到新手錶，可以繫在手腕上。",
+     "clue": "綁在手腕上的計時器",
+     "answerEntryId": "u16:watch",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "My ___ is waterproof, so I never take it off when I swim.",
+     "fullSentence": "My watch is waterproof, so I never take it off when I swim.",
+     "translation": "我的手錶防水，游泳時也不用脫下。",
+     "clue": "戴著游泳也不怕水",
+     "answerEntryId": "u16:watch",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The small ___ on his wrist has a leather strap and a round face.",
+     "fullSentence": "The small watch on his wrist has a leather strap and a round face.",
+     "translation": "他手腕上的小手錶有皮帶和圓錶面。",
+     "clue": "有錶帶、圓錶面、戴在手上",
+     "answerEntryId": "u16:watch",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:calendar",
+      "u16:alarm clock"
+     ]
+    },
+    {
+     "sentence": "A ___ is small enough to wear on your wrist, while a bigger one must hang on the wall.",
+     "fullSentence": "A watch is small enough to wear on your wrist, while a bigger one must hang on the wall.",
+     "translation": "手錶小到能戴在手腕上，而大一點的鐘則要掛在牆上。",
+     "clue": "可以戴著走的計時器",
+     "answerEntryId": "u16:watch",
+     "distractorEntryIds": [
+      "u16:clock",
+      "u16:calendar",
+      "u16:stopwatch"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Unlike a big timekeeper hanging on the wall, a ___ fits under your sleeve.",
+    "fullSentence": "Unlike a big timekeeper hanging on the wall, a watch fits under your sleeve.",
+    "translation": "掛在牆上的大時鐘無法移動，而手錶小到能藏進袖子裡。",
+    "clue": "小到能藏進袖子",
+    "answerEntryId": "u16:watch",
+    "distractorEntryIds": [
+     "u16:clock",
+     "u16:stopwatch",
+     "u16:calendar"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:Wednesday",
+   "zh": "星期三",
+   "pos": "noun",
+   "example": "The test is on Wednesday.",
+   "exampleZh": "考試在星期三。",
+   "spellingHint": "w-e-d-n-e-s-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the exact middle day of the five school days.",
+    "fullSentence": "Wednesday is the exact middle day of the five school days.",
+    "translation": "星期三是五個上學日正中間的那天。",
+    "clue": "上學週的正中間",
+    "answerEntryId": "u16:Wednesday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Friday",
+     "u16:Thursday"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ is the day right after the second school day and before the fourth.",
+     "fullSentence": "Wednesday is the day right after the second school day and before the fourth.",
+     "translation": "星期三在第二個上學日之後、第四個上學日之前。",
+     "clue": "第二個上學日之後、第四個之前",
+     "answerEntryId": "u16:Wednesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Friday",
+      "u16:Saturday"
+     ]
+    },
+    {
+     "sentence": "Half the school week is over on ___, so only two more days remain.",
+     "fullSentence": "Half the school week is over on Wednesday, so only two more days remain.",
+     "translation": "上學週過半是在星期三，之後只剩兩天。",
+     "clue": "上學週過半的那天",
+     "answerEntryId": "u16:Wednesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Friday",
+      "u16:Saturday"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We visit the museum every ___, the exact middle of the five school days.",
+     "fullSentence": "We visit the museum every Wednesday, the exact middle of the five school days.",
+     "translation": "我們每星期三參觀博物館，正是五個上學日的中間。",
+     "clue": "五個上學日的正中間",
+     "answerEntryId": "u16:Wednesday",
+     "distractorEntryIds": [
+      "u16:Tuesday",
+      "u16:Thursday",
+      "u16:Monday"
+     ]
+    },
+    {
+     "sentence": "The trash truck comes on ___, two days after the week's first school day.",
+     "fullSentence": "The trash truck comes on Wednesday, two days after the week's first school day.",
+     "translation": "垃圾車星期三來，就是一週第一個上學日的兩天後。",
+     "clue": "第一個上學日兩天後",
+     "answerEntryId": "u16:Wednesday",
+     "distractorEntryIds": [
+      "u16:Monday",
+      "u16:Friday",
+      "u16:Thursday"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The day between the second school day and the fourth is ___, halfway up the week.",
+    "fullSentence": "The day between the second school day and the fourth is Wednesday, halfway up the week.",
+    "translation": "第二個上學日和第四個上學日之間是星期三，正是一週的中點。",
+    "clue": "第二與第四個上學日之間",
+    "answerEntryId": "u16:Wednesday",
+    "distractorEntryIds": [
+     "u16:Monday",
+     "u16:Friday",
+     "u16:Saturday"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:week",
+   "zh": "星期；一週",
+   "pos": "noun",
+   "example": "We have seven days in a week.",
+   "exampleZh": "一星期有七天。",
+   "spellingHint": "w-e-e-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "A ___ has seven days, from Sunday to Saturday.",
+    "fullSentence": "A week has seven days, from Sunday to Saturday.",
+    "translation": "一週有七天，從星期日到星期六。",
+    "clue": "由七天組成",
+    "answerEntryId": "u16:week",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:day",
+     "u16:year"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "How many days are there in a ___? Seven.",
+     "fullSentence": "How many days are there in a week? Seven.",
+     "translation": "一週有幾天？七天。",
+     "clue": "七天的時間單位",
+     "answerEntryId": "u16:week",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:day",
+      "u16:hour"
+     ]
+    },
+    {
+     "sentence": "We have English class twice a ___, on Monday and Thursday.",
+     "fullSentence": "We have English class twice a week, on Monday and Thursday.",
+     "translation": "我們一週有兩次英文課，在星期一和星期四。",
+     "clue": "以星期幾計算的週期",
+     "answerEntryId": "u16:week",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:day",
+      "u16:year"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "School days fill most of the ___, while the weekend brings two rest days.",
+     "fullSentence": "School days fill most of the week, while the weekend brings two rest days.",
+     "translation": "上學日佔滿一週的大部分，週末則有兩天假期。",
+     "clue": "由五個上學日加週末組成",
+     "answerEntryId": "u16:week",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:year",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "About four ___ make a month, and fifty-two make a year.",
+     "fullSentence": "About four week make a month, and fifty-two make a year.",
+     "translation": "大約四週是一個月，五十二週是一年。",
+     "clue": "五十二個構成一年",
+     "answerEntryId": "u16:week",
+     "distractorEntryIds": [
+      "u16:day",
+      "u16:hour",
+      "u16:moment"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Seven of these make one ___, and each of the seven has its own name.",
+    "fullSentence": "Seven of these make one week, and each of the seven has its own name.",
+    "translation": "七天構成一週，每一天都有自己的名字。",
+    "clue": "由七個有名稱的日子組成",
+    "answerEntryId": "u16:week",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:day",
+     "u16:season"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:weekday",
+   "zh": "平日（星期一至星期五）",
+   "pos": "noun",
+   "example": "I get up early on weekdays.",
+   "exampleZh": "我平日都早起。",
+   "spellingHint": "w-e-e-k-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "School is open from Monday through Friday, on every ___, but closed on Saturdays and Sundays.",
+    "fullSentence": "School is open from Monday through Friday, on every weekday, but closed on Saturdays and Sundays.",
+    "translation": "學校在每個平日，也就是星期一到星期五開放，週六週日則關閉。",
+    "clue": "星期一到星期五的上學日",
+    "answerEntryId": "u16:weekday",
+    "distractorEntryIds": [
+     "u16:week",
+     "u16:month",
+     "u16:moment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Buses are crowded on ___ because everyone goes to work or school.",
+     "fullSentence": "Buses are crowded on weekday because everyone goes to work or school.",
+     "translation": "公車平日很擠，因為大家都要上班上學。",
+     "clue": "大家上班上學的日子",
+     "answerEntryId": "u16:weekday",
+     "distractorEntryIds": [
+      "u16:weekend",
+      "u16:week",
+      "u16:month"
+     ]
+    },
+    {
+     "sentence": "A ___ is one of the five days when people go to work or school.",
+     "fullSentence": "A weekday is one of the five days when people go to work or school.",
+     "translation": "平日是人們上班上學的五天之一。",
+     "clue": "上班上學的日子",
+     "answerEntryId": "u16:weekday",
+     "distractorEntryIds": [
+      "u16:weekend",
+      "u16:month",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The pool is quiet on a ___ but packed on Saturday and Sunday.",
+     "fullSentence": "The pool is quiet on a weekday but packed on Saturday and Sunday.",
+     "translation": "泳池平日很安靜，週六週日卻擠滿人。",
+     "clue": "與週六週日相對",
+     "answerEntryId": "u16:weekday",
+     "distractorEntryIds": [
+      "u16:week",
+      "u16:month",
+      "u16:moment"
+     ]
+    },
+    {
+     "sentence": "Stores open late on ___ mornings, when people rush to work.",
+     "fullSentence": "Stores open late on weekday mornings, when people rush to work.",
+     "translation": "店家平日一早開門，那時人們趕著上班。",
+     "clue": "大家趕上班的那種早晨",
+     "answerEntryId": "u16:weekday",
+     "distractorEntryIds": [
+      "u16:weekend",
+      "u16:week",
+      "u16:morning"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ is any one of the five days from Monday to Friday, when people work or study.",
+    "fullSentence": "A weekday is any one of the five days from Monday to Friday, when people work or study.",
+    "translation": "平日指星期一到星期五這五天中的任何一天，人們上班或上學。",
+    "clue": "五個工作日中的任一天",
+    "answerEntryId": "u16:weekday",
+    "distractorEntryIds": [
+     "u16:week",
+     "u16:month",
+     "u16:hour"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:weekend",
+   "zh": "週末",
+   "pos": "noun",
+   "example": "We go hiking on the weekend.",
+   "exampleZh": "我們週末去爬山。",
+   "spellingHint": "w-e-e-k-e-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There is no school on the ___, so we can sleep late on Saturday and Sunday.",
+    "fullSentence": "There is no school on the weekend, so we can sleep late on Saturday and Sunday.",
+    "translation": "週末不用上學，所以星期六和星期日可以睡到飽。",
+    "clue": "不用上學的星期六和星期日",
+    "answerEntryId": "u16:weekend",
+    "distractorEntryIds": [
+     "u16:weekday",
+     "u16:week",
+     "u16:month"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The park is full of families on the ___.",
+     "fullSentence": "The park is full of families on the weekend.",
+     "translation": "週末公園裡到處是全家出遊的人。",
+     "clue": "全家出遊的兩天假期",
+     "answerEntryId": "u16:weekend",
+     "distractorEntryIds": [
+      "u16:weekday",
+      "u16:week",
+      "u16:month"
+     ]
+    },
+    {
+     "sentence": "___ comes after five school days, starting on Saturday morning.",
+     "fullSentence": "weekend comes after five school days, starting on Saturday morning.",
+     "translation": "週末在五個上學日之後來臨，從星期六早上開始。",
+     "clue": "五個上學日之後的假期",
+     "answerEntryId": "u16:weekend",
+     "distractorEntryIds": [
+      "u16:weekday",
+      "u16:Friday",
+      "u16:month"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "On ___, Saturday and Sunday, Dad cooks a big breakfast for us.",
+     "fullSentence": "On weekend, Saturday and Sunday, Dad cooks a big breakfast for us.",
+     "translation": "週末，也就是星期六和星期日，爸爸會做豐盛早餐。",
+     "clue": "包含星期六與星期日",
+     "answerEntryId": "u16:weekend",
+     "distractorEntryIds": [
+      "u16:weekday",
+      "u16:week",
+      "u16:month"
+     ]
+    },
+    {
+     "sentence": "The library is busiest on the ___ and quietest from Monday to Friday.",
+     "fullSentence": "The library is busiest on the weekend and quietest from Monday to Friday.",
+     "translation": "圖書館週末最熱鬧，星期一到星期五最安靜。",
+     "clue": "與星期一到星期五相對",
+     "answerEntryId": "u16:weekend",
+     "distractorEntryIds": [
+      "u16:weekday",
+      "u16:week",
+      "u16:month"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ___ begins when Friday's last bell rings and ends on Sunday night.",
+    "fullSentence": "The weekend begins when Friday's last bell rings and ends on Sunday night.",
+    "translation": "週末從星期五最後一聲鐘響開始，到星期日晚上結束。",
+    "clue": "星期五放學後到星期日晚",
+    "answerEntryId": "u16:weekend",
+    "distractorEntryIds": [
+     "u16:weekday",
+     "u16:week",
+     "u16:evening"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:weekly",
+   "zh": "每週地；每週的",
+   "pos": "adverb",
+   "example": "The team meets weekly every Monday.",
+   "exampleZh": "球隊每週一聚會。",
+   "spellingHint": "w-e-e-k-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The class has a ___ spelling quiz, one every single week.",
+    "fullSentence": "The class has a weekly spelling quiz, one every single week.",
+    "translation": "班上每週有一次拼字小考。",
+    "clue": "每個星期固定一次",
+    "answerEntryId": "u16:weekly",
+    "distractorEntryIds": [
+     "u16:monthly",
+     "u16:daily",
+     "u16:yearly"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dad takes out the trash ___, once every seven days.",
+     "fullSentence": "Dad takes out the trash weekly, once every seven days.",
+     "translation": "爸爸每週倒垃圾一次，七天一次。",
+     "clue": "每七天一次",
+     "answerEntryId": "u16:weekly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "Our ___ piano lesson is every Friday afternoon.",
+     "fullSentence": "Our weekly piano lesson is every Friday afternoon.",
+     "translation": "我們每週的鋼琴課在每個星期五下午。",
+     "clue": "每個星期固定一次",
+     "answerEntryId": "u16:weekly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "This ___ magazine appears every Friday, fifty-two issues a year.",
+     "fullSentence": "This weekly magazine appears every Friday, fifty-two issues a year.",
+     "translation": "這本週刊每週五出刊，一年五十二期。",
+     "clue": "一年五十二期",
+     "answerEntryId": "u16:weekly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    },
+    {
+     "sentence": "The team practices ___, three afternoons each week.",
+     "fullSentence": "The team practices weekly, three afternoons each week.",
+     "translation": "球隊每週練習三個下午。",
+     "clue": "以一週為週期",
+     "answerEntryId": "u16:weekly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:daily",
+      "u16:yearly"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ pass lasts seven days, longer than a one-day ticket but shorter than a thirty-day one.",
+    "fullSentence": "A weekly pass lasts seven days, longer than a one-day ticket but shorter than a thirty-day one.",
+    "translation": "週票效期七天，比一日票長、比三十日票短。",
+    "clue": "效期七天的票",
+    "answerEntryId": "u16:weekly",
+    "distractorEntryIds": [
+     "u16:monthly",
+     "u16:daily",
+     "u16:yearly"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:winter",
+   "zh": "冬天",
+   "pos": "noun",
+   "example": "It often snows here in winter.",
+   "exampleZh": "這裡冬天常下雪。",
+   "spellingHint": "w-i-n-t-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "People wear heavy coats and drink hot soup in ___, the coldest season.",
+    "fullSentence": "People wear heavy coats and drink hot soup in winter, the coldest season.",
+    "translation": "冬天人們穿厚外套、喝熱湯，這是最冷的季節。",
+    "clue": "最冷、穿厚外套的季節",
+    "answerEntryId": "u16:winter",
+    "distractorEntryIds": [
+     "u16:summer",
+     "u16:spring",
+     "u16:autumn"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We build snowmen and go skiing in ___.",
+     "fullSentence": "We build snowmen and go skiing in winter.",
+     "translation": "我們在冬天堆雪人、去滑雪。",
+     "clue": "堆雪人滑雪的季節",
+     "answerEntryId": "u16:winter",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    },
+    {
+     "sentence": "The days are short and the nights are long in ___.",
+     "fullSentence": "The days are short and the nights are long in winter.",
+     "translation": "冬天白天短、夜晚長。",
+     "clue": "夜長日短的季節",
+     "answerEntryId": "u16:winter",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the time for hot pot, right between the falling leaves and the new blossoms.",
+     "fullSentence": "winter is the time for hot pot, right between the falling leaves and the new blossoms.",
+     "translation": "冬天是吃火鍋的季節，介於落葉與新花之間。",
+     "clue": "落葉與新花之間、吃火鍋",
+     "answerEntryId": "u16:winter",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    },
+    {
+     "sentence": "Many birds fly to warm places before ___ arrives with its frost.",
+     "fullSentence": "Many birds fly to warm places before winter arrives with its frost.",
+     "translation": "許多鳥在帶著霜雪的冬天來臨前飛往溫暖的地方。",
+     "clue": "帶來霜雪的季節",
+     "answerEntryId": "u16:winter",
+     "distractorEntryIds": [
+      "u16:summer",
+      "u16:spring",
+      "u16:autumn"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The coldest time between the falling leaves and the new blossoms is ___, when ice covers the pond.",
+    "fullSentence": "The coldest time between the falling leaves and the new blossoms is winter, when ice covers the pond.",
+    "translation": "落葉與新花之間最冷的時候是冬天，池塘結了冰。",
+    "clue": "落葉與開花之間、池塘結冰",
+    "answerEntryId": "u16:winter",
+    "distractorEntryIds": [
+     "u16:summer",
+     "u16:spring",
+     "u16:autumn"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:year",
+   "zh": "年",
+   "pos": "noun",
+   "example": "There are twelve months in a year.",
+   "exampleZh": "一年有十二個月。",
+   "spellingHint": "y-e-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Earth goes around the sun once every ___, passing through all four seasons.",
+    "fullSentence": "Earth goes around the sun once every year, passing through all four seasons.",
+    "translation": "地球每年繞太陽一圈，經歷四季。",
+    "clue": "地球繞太陽一圈的時間",
+    "answerEntryId": "u16:year",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:week",
+     "u16:day"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "How many months are there in a ___? Twelve.",
+     "fullSentence": "How many months are there in a year? Twelve.",
+     "translation": "一年有幾個月？十二個。",
+     "clue": "由十二個月組成",
+     "answerEntryId": "u16:year",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "My cousin is one ___ old; he was born last January.",
+     "fullSentence": "My cousin is one year old; he was born last January.",
+     "translation": "我表弟一歲，他是去年一月出生的。",
+     "clue": "計算年齡的單位",
+     "answerEntryId": "u16:year",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:hour"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "A ___ takes three hundred sixty-five days, the time Earth needs to circle the sun.",
+     "fullSentence": "A year takes three hundred sixty-five days, the time Earth needs to circle the sun.",
+     "translation": "一年需要三百六十五天，這是地球繞太陽一圈的時間。",
+     "clue": "地球繞太陽一圈的時間",
+     "answerEntryId": "u16:year",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:day"
+     ]
+    },
+    {
+     "sentence": "Students move up one grade every school ___.",
+     "fullSentence": "Students move up one grade every school year.",
+     "translation": "學生每學年升一個年級。",
+     "clue": "從九月到隔年六月的學習週期",
+     "answerEntryId": "u16:year",
+     "distractorEntryIds": [
+      "u16:month",
+      "u16:week",
+      "u16:period"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Twelve of these make one ___, and each one ends with December's fireworks.",
+    "fullSentence": "Twelve of these make one year, and each one ends with December's fireworks.",
+    "translation": "十二個月構成一年，每年以十二月的煙火收尾。",
+    "clue": "由十二個月組成",
+    "answerEntryId": "u16:year",
+    "distractorEntryIds": [
+     "u16:month",
+     "u16:week",
+     "u16:day"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:yearly",
+   "zh": "每年地；每年的",
+   "pos": "adverb",
+   "example": "The school holds a sports day yearly.",
+   "exampleZh": "學校每年舉辦運動會。",
+   "spellingHint": "y-e-a-r-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The town holds its lantern festival ___, once every twelve months.",
+    "fullSentence": "The town holds its lantern festival yearly, once every twelve months.",
+    "translation": "小鎮每年舉辦燈籠節，每十二個月一次。",
+    "clue": "每十二個月一次",
+    "answerEntryId": "u16:yearly",
+    "distractorEntryIds": [
+     "u16:monthly",
+     "u16:weekly",
+     "u16:daily"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We visit our grandparents ___, one long visit every year.",
+     "fullSentence": "We visit our grandparents yearly, one long visit every year.",
+     "translation": "我們每年探望祖父母一次，每次都待很久。",
+     "clue": "一年一次",
+     "answerEntryId": "u16:yearly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:weekly",
+      "u16:daily"
+     ]
+    },
+    {
+     "sentence": "Snakes shed their skin ___, about one time per year.",
+     "fullSentence": "Snakes shed their skin yearly, about one time per year.",
+     "translation": "蛇每年蛻皮約一次。",
+     "clue": "一年一次",
+     "answerEntryId": "u16:yearly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:weekly",
+      "u16:daily"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "A ___ physical checkup happens once every calendar year.",
+     "fullSentence": "A yearly physical checkup happens once every calendar year.",
+     "translation": "年度健檢每個曆年做一次。",
+     "clue": "每個曆年一次",
+     "answerEntryId": "u16:yearly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:weekly",
+      "u16:daily"
+     ]
+    },
+    {
+     "sentence": "Unlike ___ meetings, which happen twelve times a year, this one happens once.",
+     "fullSentence": "Unlike yearly meetings, which happen twelve times a year, this one happens once.",
+     "translation": "每月會議一年開十二次，而這個年度會議只開一次。",
+     "clue": "一年只開一次",
+     "answerEntryId": "u16:yearly",
+     "distractorEntryIds": [
+      "u16:monthly",
+      "u16:weekly",
+      "u16:daily"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ pass covers all three hundred sixty-five days, longer than any shorter-term ticket.",
+    "fullSentence": "A yearly pass covers all three hundred sixty-five days, longer than any shorter-term ticket.",
+    "translation": "年票涵蓋整年三百六十五天，比任何短期票都長。",
+    "clue": "涵蓋整年三百六十五天",
+    "answerEntryId": "u16:yearly",
+    "distractorEntryIds": [
+     "u16:monthly",
+     "u16:weekly",
+     "u16:daily"
+    ]
+   }
+  },
+  {
+   "entryId": "u16:yesterday",
+   "zh": "昨天",
+   "pos": "adverb",
+   "example": "It rained yesterday.",
+   "exampleZh": "昨天下雨了。",
+   "spellingHint": "y-e-s-t-e-r-d-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ it was sunny, but the rain came this morning.",
+    "fullSentence": "yesterday it was sunny, but the rain came this morning.",
+    "translation": "昨天是晴天，但今天早上就下雨了。",
+    "clue": "在今天之前的那天",
+    "answerEntryId": "u16:yesterday",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:today",
+     "u16:tonight"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ I finished the book, one full day before now.",
+     "fullSentence": "yesterday I finished the book, one full day before now.",
+     "translation": "我昨天看完那本書，比現在早了整整一天。",
+     "clue": "比現在早一天",
+     "answerEntryId": "u16:yesterday",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:tonight",
+      "u16:weekend"
+     ]
+    },
+    {
+     "sentence": "___ was Monday, so today must be Tuesday.",
+     "fullSentence": "yesterday was Monday, so today must be Tuesday.",
+     "translation": "昨天是星期一，所以今天一定是星期二。",
+     "clue": "星期二的前一天",
+     "answerEntryId": "u16:yesterday",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:tonight",
+      "u16:weekend"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We baked cookies ___, and only a few are left now.",
+     "fullSentence": "We baked cookies yesterday, and only a few are left now.",
+     "translation": "我們前一天烤了餅乾，現在只剩幾塊。",
+     "clue": "比現在早一天做的事",
+     "answerEntryId": "u16:yesterday",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:tonight",
+      "u16:later"
+     ]
+    },
+    {
+     "sentence": "The museum opened a new exhibit ___, one day before now.",
+     "fullSentence": "The museum opened a new exhibit yesterday, one day before now.",
+     "translation": "博物館昨天，也就是一天前，開放了新展覽。",
+     "clue": "比現在早一天",
+     "answerEntryId": "u16:yesterday",
+     "distractorEntryIds": [
+      "u16:tomorrow",
+      "u16:today",
+      "u16:ago"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ has gone by, and no one can change what happened then.",
+    "fullSentence": "yesterday has gone by, and no one can change what happened then.",
+    "translation": "昨天已經過去，誰也無法改變當時發生的事。",
+    "clue": "已經過去、無法改變的那天",
+    "answerEntryId": "u16:yesterday",
+    "distractorEntryIds": [
+     "u16:tomorrow",
+     "u16:today",
+     "u16:once"
+    ]
+   }
+  }
+ ]
+}

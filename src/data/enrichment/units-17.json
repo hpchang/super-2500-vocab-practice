@@ -1,0 +1,2586 @@
+{
+  "schemaVersion": 1,
+  "unit": "17",
+  "entries": [
+    {
+      "entryId": "u17:bill",
+      "zh": "帳單",
+      "pos": "noun",
+      "example": "Dad paid the electric bill online.",
+      "exampleZh": "爸爸在網路上繳了電費帳單。",
+      "spellingHint": "b-i-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The waiter brought a ___ showing how much our dinner cost.",
+        "fullSentence": "The waiter brought a bill showing how much our dinner cost.",
+        "translation": "服務生拿來一張帳單，上面寫著我們的晚餐要多少錢。",
+        "clue": "列出金額、要求付款的單據",
+        "answerEntryId": "u17:bill",
+        "distractorEntryIds": [
+          "u17:price",
+          "u17:income",
+          "u17:debt"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Mom opened the ___ from the phone company and paid it right away.",
+          "fullSentence": "Mom opened the bill from the phone company and paid it right away.",
+          "translation": "媽媽拆開電話公司的帳單，馬上就繳了。",
+          "clue": "公司寄來要求付款的單子",
+          "answerEntryId": "u17:bill",
+          "distractorEntryIds": [
+            "u17:money",
+            "u12:post office",
+            "u17:cash"
+          ]
+        },
+        {
+          "sentence": "After eating at the restaurant, we asked the waiter for the ___.",
+          "fullSentence": "After eating at the restaurant, we asked the waiter for the bill.",
+          "translation": "在餐廳吃完之後，我們請服務生拿帳單來。",
+          "clue": "餐廳吃完飯要付錢時會拿到的單子",
+          "answerEntryId": "u17:bill",
+          "distractorEntryIds": [
+            "u17:prize",
+            "u17:coin",
+            "u12:shop"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Every month the family checks each ___ carefully before paying it.",
+          "fullSentence": "Every month the family checks each bill carefully before paying it.",
+          "translation": "每個月這家人繳款前都會仔細檢查每一張帳單。",
+          "clue": "繳錢前要先核對金額的單據",
+          "answerEntryId": "u17:bill",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:fee",
+            "u17:change"
+          ]
+        },
+        {
+          "sentence": "A ___ arrived in the mail saying we owed money for last month's water.",
+          "fullSentence": "A bill arrived in the mail saying we owed money for last month's water.",
+          "translation": "一張帳單寄到家裡，說我們上個月的水費還沒繳。",
+          "clue": "通知你欠了多少錢、要你繳費的單據",
+          "answerEntryId": "u17:bill",
+          "distractorEntryIds": [
+            "u17:debt",
+            "u17:fee",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ was higher than usual because we used the air conditioner all summer.",
+        "fullSentence": "The bill was higher than usual because we used the air conditioner all summer.",
+        "translation": "因為整個夏天都開冷氣，這張帳單比平常高。",
+        "clue": "用電越多，這張單子的金額就越高",
+        "answerEntryId": "u17:bill",
+        "distractorEntryIds": [
+          "u17:price",
+          "u17:fee",
+          "u17:income"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:borrow",
+      "zh": "借入；向別人借",
+      "pos": "verb",
+      "example": "Can I borrow your dictionary for a minute?",
+      "exampleZh": "我可以借你的字典一下子嗎？",
+      "spellingHint": "b-o-r-r-o-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I forgot my pen, so I had to ___ one from my classmate.",
+        "fullSentence": "I forgot my pen, so I had to borrow one from my classmate.",
+        "translation": "我忘了帶筆，所以只好向同學借一支。",
+        "clue": "自己沒有，向別人拿來暫用",
+        "answerEntryId": "u17:borrow",
+        "distractorEntryIds": [
+          "u17:lend",
+          "u17:pay",
+          "u17:spend"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "You can ___ five books from the library with one card.",
+          "fullSentence": "You can borrow five books from the library with one card.",
+          "translation": "用一張借書證可以從圖書館借五本書。",
+          "clue": "從圖書館拿書回家看，之後要還",
+          "answerEntryId": "u17:borrow",
+          "distractorEntryIds": [
+            "u17:sell",
+            "u17:earn",
+            "u17:buy"
+          ]
+        },
+        {
+          "sentence": "May I ___ your bike this afternoon? I'll give it back tomorrow.",
+          "fullSentence": "May I borrow your bike this afternoon? I'll give it back tomorrow.",
+          "translation": "今天下午我可以借用你的腳踏車嗎？我明天就還你。",
+          "clue": "向別人暫借東西，並且答應歸還",
+          "answerEntryId": "u17:borrow",
+          "distractorEntryIds": [
+            "u17:lend",
+            "u17:pay",
+            "u17:deal"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "When you ___ money from the bank, you must return it with interest.",
+          "fullSentence": "When you borrow money from the bank, you must return it with interest.",
+          "translation": "向銀行借錢時，你必須連同利息一起還。",
+          "clue": "錢是「從銀行」拿到手上的人在做的事",
+          "answerEntryId": "u17:borrow",
+          "distractorEntryIds": [
+            "u17:lend",
+            "u17:earn",
+            "u17:cost"
+          ]
+        },
+        {
+          "sentence": "Students may ___ umbrellas at the front desk on rainy days.",
+          "fullSentence": "Students may borrow umbrellas at the front desk on rainy days.",
+          "translation": "下雨天學生可以在櫃檯借用雨傘。",
+          "clue": "學生是去「拿來用」的那一方",
+          "answerEntryId": "u17:borrow",
+          "distractorEntryIds": [
+            "u17:lend",
+            "u17:buy",
+            "u17:sell"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "He had to ___ two hundred dollars from his sister because his wallet was empty.",
+        "fullSentence": "He had to borrow two hundred dollars from his sister because his wallet was empty.",
+        "translation": "因為皮夾空空的，他只好向姊姊借兩百元。",
+        "clue": "錢包沒錢的人，只能向別人開口借錢",
+        "answerEntryId": "u17:borrow",
+        "distractorEntryIds": [
+          "u17:lend",
+          "u17:earn",
+          "u17:save"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:buy",
+      "zh": "買",
+      "pos": "verb",
+      "example": "Mom buys fresh fruit at the market every morning.",
+      "exampleZh": "媽媽每天早上在市場買新鮮水果。",
+      "spellingHint": "b-u-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We went to the mall to ___ new shoes for school.",
+        "fullSentence": "We went to the mall to buy new shoes for school.",
+        "translation": "我們去購物中心買上學用的鞋子。",
+        "clue": "付錢換取想要的東西",
+        "answerEntryId": "u17:buy",
+        "distractorEntryIds": [
+          "u17:sell",
+          "u17:spend",
+          "u17:pay"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I have ten dollars, so I can ___ an ice cream.",
+          "fullSentence": "I have ten dollars, so I can buy an ice cream.",
+          "translation": "我有十塊錢，所以可以買一枝冰淇淋。",
+          "clue": "拿錢去換一支冰淇淋",
+          "answerEntryId": "u17:buy",
+          "distractorEntryIds": [
+            "u17:sell",
+            "u17:cost",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "She wants to ___ a birthday gift for her best friend.",
+          "fullSentence": "She wants to buy a birthday gift for her best friend.",
+          "translation": "她想為她最好的朋友買一份生日禮物。",
+          "clue": "花錢取得禮物的人在做的事",
+          "answerEntryId": "u17:buy",
+          "distractorEntryIds": [
+            "u17:sell",
+            "u17:pay",
+            "u17:borrow"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "It is cheaper to ___ vegetables at the market than at the supermarket.",
+          "fullSentence": "It is cheaper to buy vegetables at the market than at the supermarket.",
+          "translation": "在市場買蔬菜比在超級市場便宜。",
+          "clue": "顧客「買得便宜」，花錢取得蔬菜的一方",
+          "answerEntryId": "u17:buy",
+          "distractorEntryIds": [
+            "u17:sell",
+            "u17:cost",
+            "u17:spend"
+          ]
+        },
+        {
+          "sentence": "Before you ___ anything expensive, compare prices in several stores first.",
+          "fullSentence": "Before you buy anything expensive, compare prices in several stores first.",
+          "translation": "在買任何昂貴的東西之前，先比較幾家店的价格。",
+          "clue": "消費者在付錢前該做的事",
+          "answerEntryId": "u17:buy",
+          "distractorEntryIds": [
+            "u17:sell",
+            "u17:pay",
+            "u17:earn"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The shop sells old comics cheaply, so many students ___ them there.",
+        "fullSentence": "The shop sells old comics cheaply, so many students buy them there.",
+        "translation": "那家店的舊漫畫賣得很便宜，所以很多學生都在那裡買。",
+        "clue": "店家「賣」，學生站在花錢取得的那一方",
+        "answerEntryId": "u17:buy",
+        "distractorEntryIds": [
+          "u17:sell",
+          "u17:pay",
+          "u17:spend"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:cash",
+      "zh": "現金",
+      "pos": "noun",
+      "example": "I always carry some cash in my wallet.",
+      "exampleZh": "我皮夾裡總是帶著一些現金。",
+      "spellingHint": "c-a-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The small store only takes ___, not credit cards.",
+        "fullSentence": "The small store only takes cash, not credit cards.",
+        "translation": "這家小店只收現金，不收信用卡。",
+        "clue": "看得見的鈔票和銅板，不是卡片",
+        "answerEntryId": "u17:cash",
+        "distractorEntryIds": [
+          "u17:money",
+          "u17:change",
+          "u17:income"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Please pay in ___ because the machine cannot read cards today.",
+          "fullSentence": "Please pay in cash because the machine cannot read cards today.",
+          "translation": "請用現金付款，因為機器今天讀不到卡片。",
+          "clue": "用真正的鈔票付款，不是刷卡",
+          "answerEntryId": "u17:cash",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:prize",
+            "u12:bank"
+          ]
+        },
+        {
+          "sentence": "He took out some ___ from his pocket to pay for the drink.",
+          "fullSentence": "He took out some cash from his pocket to pay for the drink.",
+          "clue": "從口袋拿出鈔票或銅板來付錢",
+          "translation": "他從口袋拿出一些現金來買飲料。",
+          "answerEntryId": "u17:cash",
+          "distractorEntryIds": [
+            "u17:change",
+            "u17:fee",
+            "u17:bill"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Keep enough ___ with you because some street vendors do not accept cards.",
+          "fullSentence": "Keep enough cash with you because some street vendors do not accept cards.",
+          "translation": "身上要帶足現金，因為有些攤販不接受刷卡。",
+          "clue": "攤販只收鈔票和銅板時，你需要帶的東西",
+          "answerEntryId": "u17:cash",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:change",
+            "u17:coin"
+          ]
+        },
+        {
+          "sentence": "You can withdraw ___ from the ATM next to the supermarket.",
+          "fullSentence": "You can withdraw cash from the ATM next to the supermarket.",
+          "translation": "你可以從超級市場旁邊的提款機領現金。",
+          "clue": "提款機領出來的鈔票與銅板",
+          "answerEntryId": "u17:cash",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:bill",
+            "u17:debt"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I left my credit card at home, so I used the ___ in my wallet instead.",
+        "fullSentence": "I left my credit card at home, so I used the cash in my wallet instead.",
+        "translation": "我把信用卡忘在家裡，所以改用皮夾裡的現金。",
+        "clue": "不能用卡片時，皮夾裡的鈔票就派上用場",
+        "answerEntryId": "u17:cash",
+        "distractorEntryIds": [
+          "u17:money",
+          "u17:change",
+          "u17:coin"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:cent",
+      "zh": "分（美元的百分之一）",
+      "pos": "noun",
+      "example": "This stamp costs only a few cents.",
+      "exampleZh": "這張郵票只要幾分錢。",
+      "spellingHint": "c-e-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "A ___ is the smallest unit of United States money, worth one hundredth of its basic unit.",
+        "fullSentence": "A cent is the smallest unit of United States money, worth one hundredth of its basic unit.",
+        "translation": "「分」是美國貨幣最小的單位，是基本單位的百分之一。",
+        "clue": "一元的百分之一，最小的錢幣單位",
+        "answerEntryId": "u17:cent",
+        "distractorEntryIds": [
+          "u17:dollar",
+          "u17:coin",
+          "u17:price"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The vending machine rejected his bent one-___ coin.",
+          "fullSentence": "The vending machine rejected his bent one-cent coin.",
+          "translation": "自動販賣機拒收了他那枚彎掉的一分錢銅板。",
+          "clue": "「一分錢的」銅板，最小的美國錢幣",
+          "answerEntryId": "u17:cent",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:cash",
+            "u17:price"
+          ]
+        },
+        {
+          "sentence": "Even a single ___ adds up over a year, so she keeps saving the smallest coins.",
+          "fullSentence": "Even a single cent adds up over a year, so she keeps saving the smallest coins.",
+          "translation": "即使只是一分錢，存一年也會累積起來，所以她連最小的銅板都存。",
+          "clue": "美國錢幣中最小的單位",
+          "answerEntryId": "u17:cent",
+          "distractorEntryIds": [
+            "u17:dollar",
+            "u17:money",
+            "u17:cash"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She keeps every ___ from her wallet in a glass jar, because even the smallest amounts add up.",
+          "fullSentence": "She keeps every cent from her wallet in a glass jar, because even the smallest amounts add up.",
+          "translation": "她把皮夾裡的每一分錢都存進玻璃罐，因為再小的金額也會累積。",
+          "clue": "連最小面額都不放過的小錢單位",
+          "answerEntryId": "u17:cent",
+          "distractorEntryIds": [
+            "u17:dollar",
+            "u17:price",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "The tag price fell by a single ___, the tiniest step the shop could mark.",
+          "fullSentence": "The tag price fell by a single cent, the tiniest step the shop could mark.",
+          "translation": "標價降了一分錢，這是店家能標出的最小降幅。",
+          "clue": "最小的價格單位，只降一小步",
+          "answerEntryId": "u17:cent",
+          "distractorEntryIds": [
+            "u17:dollar",
+            "u17:fee",
+            "u17:cash"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Grandpa calls the ___ a penny, America's smallest coin, worth one hundredth of its paper unit.",
+        "fullSentence": "Grandpa calls the cent a penny, America's smallest coin, worth one hundredth of its paper unit.",
+        "translation": "爺爺把「分」叫做 penny，是美國最小的錢幣，只有紙鈔基本單位的百分之一。",
+        "clue": "美國最小的錢幣，又稱 penny",
+        "answerEntryId": "u17:cent",
+        "distractorEntryIds": [
+          "u17:dollar",
+          "u17:cash",
+          "u17:price"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:change",
+      "zh": "找零；零錢",
+      "pos": "noun",
+      "example": "Here is your change, sir. Thank you for shopping.",
+      "exampleZh": "先生，這是您的找零。謝謝光臨。",
+      "spellingHint": "c-h-a-n-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I paid with a hundred-dollar note and the clerk gave me my ___.",
+        "fullSentence": "I paid with a hundred-dollar note and the clerk gave me my change.",
+        "translation": "我用一百元紙鈔付款，店員把找零拿給我。",
+        "clue": "付款後店家退回多收的錢",
+        "answerEntryId": "u17:change",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:money",
+          "u17:coin"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The drink costs eighty dollars, so I got twenty dollars back as ___.",
+          "fullSentence": "The drink costs eighty dollars, so I got twenty dollars back as change.",
+          "translation": "飲料八十元，所以我拿回二十元的找零。",
+          "clue": "付一百拿回來的那二十元",
+          "answerEntryId": "u17:change",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:bill",
+            "u17:prize"
+          ]
+        },
+        {
+          "sentence": "Keep the ___ from the vending machine in your pencil box.",
+          "fullSentence": "Keep the change from the vending machine in your pencil box.",
+          "translation": "把自動販賣機找的零錢放在鉛筆盒裡。",
+          "clue": "買完東西剩下的小額錢幣",
+          "answerEntryId": "u17:change",
+          "distractorEntryIds": [
+            "u17:coin",
+            "u17:cash",
+            "u17:money"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The bus driver cannot give ___ to passengers without coins ready.",
+          "fullSentence": "The bus driver cannot give change to passengers without coins ready.",
+          "translation": "公車司機沒有備妥銅板就無法找零給乘客。",
+          "clue": "司機要退還給乘客的小額金錢",
+          "answerEntryId": "u17:change",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:money",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "She dropped her ___ into the donation box at the store entrance.",
+          "fullSentence": "She dropped her change into the donation box at the store entrance.",
+          "translation": "她把身上的零錢投入店門口的募款箱。",
+          "clue": "口袋裡零散的小錢",
+          "answerEntryId": "u17:change",
+          "distractorEntryIds": [
+            "u17:coin",
+            "u17:cash",
+            "u17:fee"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The total was ninety dollars, but I handed the clerk a hundred and waited for my ___.",
+        "fullSentence": "The total was ninety dollars, but I handed the clerk a hundred and waited for my change.",
+        "translation": "總共九十元，我把一百元交給店員，等著拿回找零。",
+        "clue": "付一百元買九十元的東西，會等店家退回的十元",
+        "answerEntryId": "u17:change",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:bill",
+          "u17:income"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:charge",
+      "zh": "收費；索價",
+      "pos": "verb",
+      "example": "That hotel charges extra for breakfast.",
+      "exampleZh": "那家飯店早餐要另外收費。",
+      "spellingHint": "c-h-a-r-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The repair shop did not ___ us anything for fixing the chair.",
+        "fullSentence": "The repair shop did not charge us anything for fixing the chair.",
+        "translation": "修理店修椅子完全沒有向我們收費。",
+        "clue": "店家向客人「開價收錢」的動作",
+        "answerEntryId": "u17:charge",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:cost",
+          "u17:spend"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How much does this store ___ for home delivery?",
+          "fullSentence": "How much does this store charge for home delivery?",
+          "translation": "這家店送貨到府收多少錢？",
+          "clue": "店家向顧客索取費用的說法",
+          "answerEntryId": "u17:charge",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:cost",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "They ___ two hundred dollars an hour for piano lessons.",
+          "fullSentence": "They charge two hundred dollars an hour for piano lessons.",
+          "translation": "他們的鋼琴課每小時收費兩百元。",
+          "clue": "老師開出每小時學費的金額",
+          "answerEntryId": "u17:charge",
+          "distractorEntryIds": [
+            "u17:cost",
+            "u17:spend",
+            "u17:earn"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Restaurants often ___ ten percent extra for service.",
+          "fullSentence": "Restaurants often charge ten percent extra for service.",
+          "translation": "餐廳常常加收百分之十的服務費。",
+          "clue": "餐廳主動向客人「多收」的比例",
+          "answerEntryId": "u17:charge",
+          "distractorEntryIds": [
+            "u17:cost",
+            "u17:pay",
+            "u17:spend"
+          ]
+        },
+        {
+          "sentence": "The airline does ___ passengers extra for bags that weigh too much.",
+          "fullSentence": "The airline does charge passengers extra for bags that weigh too much.",
+          "translation": "航空公司對過重的行李向乘客加收費用。",
+          "clue": "公司向顧客索取額外費用的動作",
+          "answerEntryId": "u17:charge",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:earn",
+            "u17:cost"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Members enter free, but the museum will ___ five dollars to every visitor who is not a member.",
+        "fullSentence": "Members enter free, but the museum will charge five dollars to every visitor who is not a member.",
+        "translation": "會員免費入場，但博物館會對每位非會員的訪客收五元。",
+        "clue": "館方向「非會員」開口收錢的動作",
+        "answerEntryId": "u17:charge",
+        "distractorEntryIds": [
+          "u17:cost",
+          "u17:pay",
+          "u17:earn"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:cheap",
+      "zh": "便宜的",
+      "pos": "adjective",
+      "example": "These notebooks are cheap but very useful.",
+      "exampleZh": "這些筆記本很便宜但非常好用。",
+      "spellingHint": "c-h-e-a-p",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The pens were so ___ that I bought five of them.",
+        "fullSentence": "The pens were so cheap that I bought five of them.",
+        "translation": "這些筆非常便宜，所以我買了五枝。",
+        "clue": "價格很低，讓人一次多買幾枝",
+        "answerEntryId": "u17:cheap",
+        "distractorEntryIds": [
+          "u17:expensive",
+          "u12:quick",
+          "u12:fast"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "This store sells warm jackets at very low prices, so everything here is ___.",
+          "fullSentence": "This store sells warm jackets at very low prices, so everything here is cheap.",
+          "translation": "這家店以很低的價格賣保暖外套，所以這裡的東西都很便宜。",
+          "clue": "價格很低時，東西就是它",
+          "answerEntryId": "u17:cheap",
+          "distractorEntryIds": [
+            "u17:expensive",
+            "u12:slow",
+            "u12:central"
+          ]
+        },
+        {
+          "sentence": "I like shopping at the night market because the food is ___.",
+          "fullSentence": "I like shopping at the night market because the food is cheap.",
+          "translation": "我喜歡逛夜市，因為那裡的食物很便宜。",
+          "clue": "花很少錢就能吃到，形容食物的價格",
+          "answerEntryId": "u17:cheap",
+          "distractorEntryIds": [
+            "u17:expensive",
+            "u12:crowded",
+            "u12:quick"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The two shirts look the same, but this one is the ___ one, twenty units less than the other.",
+          "fullSentence": "The two shirts look the same, but this one is the cheap one, twenty units less than the other.",
+          "translation": "這兩件襯衫看起來一樣，但這件比較便宜，比另一件少二十元。",
+          "clue": "比較級：價格少了二十元的那件",
+          "answerEntryId": "u17:cheap",
+          "distractorEntryIds": [
+            "u17:expensive",
+            "u12:quick",
+            "u12:slow"
+          ]
+        },
+        {
+          "sentence": "Grandma always chooses the ___ fruit because she hates wasting money.",
+          "fullSentence": "Grandma always chooses the cheap fruit because she hates wasting money.",
+          "translation": "奶奶總是挑便宜的的水果，因為她不喜歡浪費錢。",
+          "clue": "不想浪費錢的人會選價格低的",
+          "answerEntryId": "u17:cheap",
+          "distractorEntryIds": [
+            "u17:expensive",
+            "u12:crowded",
+            "u12:direct"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Both bags are made of the same material, but the one that saves you money is the ___ one.",
+        "fullSentence": "Both bags are made of the same material, but the one that saves you money is the cheap one.",
+        "translation": "兩個包包材質相同，但幫你省錢的是便宜的那個。",
+        "clue": "能讓你省錢、價格低的那個",
+        "answerEntryId": "u17:cheap",
+        "distractorEntryIds": [
+          "u17:expensive",
+          "u12:quick",
+          "u12:slow"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:coin",
+      "zh": "硬幣；銅板",
+      "pos": "noun",
+      "example": "I need a coin for the vending machine.",
+      "exampleZh": "我需要一枚銅板來用自動販賣機。",
+      "spellingHint": "c-o-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The old man's favorite hobby is collecting one metal ___ from every country he visits.",
+        "fullSentence": "The old man's favorite hobby is collecting one metal coin from every country he visits.",
+        "translation": "老爺爺最大的嗜好是從每個他去過的國家收集一枚金屬硬幣。",
+        "clue": "金屬做的圓形小錢幣，常被收藏",
+        "answerEntryId": "u17:coin",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:money",
+          "u17:bill"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Insert a ___ into the machine and press the red button.",
+          "fullSentence": "Insert a coin into the machine and press the red button.",
+          "translation": "把一枚銅板投入機器，再按下紅色按鈕。",
+          "clue": "投進機器裡的金屬小錢",
+          "answerEntryId": "u17:coin",
+          "distractorEntryIds": [
+            "u17:dollar",
+            "u17:cash",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "My little brother saves every ___ in a small metal box.",
+          "fullSentence": "My little brother saves every coin in a small metal box.",
+          "translation": "我弟弟把每一枚銅板存進一個小金屬盒裡。",
+          "clue": "可以投進撲滿的圓形小錢",
+          "answerEntryId": "u17:coin",
+          "distractorEntryIds": [
+            "u17:change",
+            "u17:money",
+            "u17:prize"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "A piggy bank is usually opened only after it is full of every saved ___.",
+          "fullSentence": "A piggy bank is usually opened only after it is full of every saved coin.",
+          "translation": "撲滿通常要等到存滿每一枚銅板之後才會打開。",
+          "clue": "會叮叮噹噹落進撲滿的金屬錢幣",
+          "answerEntryId": "u17:coin",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:change",
+            "u17:dollar"
+          ]
+        },
+        {
+          "sentence": "The fountain shines with every ___ that visitors have thrown into the water.",
+          "fullSentence": "The fountain shines with every coin that visitors have thrown into the water.",
+          "translation": "噴水池因遊客丟進水裡的每一枚銅板而閃閃發亮。",
+          "clue": "會沉入水底、金屬製的小錢",
+          "answerEntryId": "u17:coin",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:bill",
+            "u17:money"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the paper kind in your wallet, a ___ is made of metal and rattles in your pocket.",
+        "fullSentence": "Unlike the paper kind in your wallet, a coin is made of metal and rattles in your pocket.",
+        "translation": "跟你皮夾裡的紙鈔不同，銅板是金屬做的，會在口袋裡叮噹作響。",
+        "clue": "與「紙做的」相對，金屬製的小錢幣",
+        "answerEntryId": "u17:coin",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:money",
+          "u17:dollar"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:cost",
+      "zh": "花費；價錢為",
+      "pos": "verb",
+      "example": "How much does the bus ticket cost?",
+      "exampleZh": "公車票要多少錢？",
+      "spellingHint": "c-o-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "These shoes ___ three thousand dollars at that store.",
+        "fullSentence": "These shoes cost three thousand dollars at that store.",
+        "translation": "這雙鞋在那家店要賣三千元。",
+        "clue": "用「東西 + 價格」表示東西值多少錢",
+        "answerEntryId": "u17:cost",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:spend",
+          "u17:charge"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A movie ticket will ___ about three hundred dollars here.",
+          "fullSentence": "A movie ticket will cost about three hundred dollars here.",
+          "translation": "這裡的電影票大約要三百元。",
+          "clue": "東西「值」多少錢，主詞是票",
+          "answerEntryId": "u17:cost",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:spend",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "It doesn't ___ anything to walk to school instead of taking the bus.",
+          "fullSentence": "It doesn't cost anything to walk to school instead of taking the bus.",
+          "translation": "走路去學校而不搭公車，一毛錢也不用花。",
+          "clue": "主詞是 it，表示「需要花費」",
+          "answerEntryId": "u17:cost",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:pay",
+            "u17:sell"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The trip to Japan will ___ a lot of money, so we are saving up.",
+          "fullSentence": "The trip to Japan will cost a lot of money, so we are saving up.",
+          "translation": "去日本的旅行會花很多錢，所以我們正在存錢。",
+          "clue": "主詞是「旅行」，表示需要多少錢",
+          "answerEntryId": "u17:cost",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:pay",
+            "u17:charge"
+          ]
+        },
+        {
+          "sentence": "Fresh strawberries ___ more in winter because farmers grow them in greenhouses.",
+          "fullSentence": "Fresh strawberries cost more in winter because farmers grow them in greenhouses.",
+          "translation": "新鮮草莓冬天比較貴，因為農夫要用溫室種植。",
+          "clue": "主詞是「草莓」，表示價格高低",
+          "answerEntryId": "u17:cost",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:spend",
+            "u17:sell"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The camera itself is cheap, but repairing it will ___ more than buying a new one.",
+        "fullSentence": "The camera itself is cheap, but repairing it will cost more than buying a new one.",
+        "translation": "相機本身便宜，但修理它比買新的還要花錢。",
+        "clue": "「修理」這件事需要付出的金額",
+        "answerEntryId": "u17:cost",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:spend",
+          "u17:charge"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:credit card",
+      "zh": "信用卡",
+      "pos": "noun",
+      "example": "You can pay with a credit card at most stores.",
+      "exampleZh": "在大多數商店都可以用信用卡付款。",
+      "spellingHint": "c-r-e-d-i-t c-a-r-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Instead of handing over paper bills, she swiped her ___ at the counter.",
+        "fullSentence": "Instead of handing over paper bills, she swiped her credit card at the counter.",
+        "translation": "她沒有遞出紙鈔，而是在櫃檯刷了信用卡。",
+        "clue": "可以「刷」的塑膠付款卡",
+        "answerEntryId": "u17:credit card",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:money",
+          "u17:change"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Dad pays for our meals with a ___ and settles everything at the end of the month.",
+          "fullSentence": "Dad pays for our meals with a credit card and settles everything at the end of the month.",
+          "translation": "爸爸用信用卡付餐費，月底再一次結清。",
+          "clue": "先消費、月底才付帳的卡片",
+          "answerEntryId": "u17:credit card",
+          "distractorEntryIds": [
+            "u17:coin",
+            "u17:cash",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "The cashier asked if I wanted to pay by ___ or in cash.",
+          "fullSentence": "The cashier asked if I wanted to pay by credit card or in cash.",
+          "translation": "收銀員問我要刷卡還是付現金。",
+          "clue": "與「付現金」相對的付款卡片",
+          "answerEntryId": "u17:credit card",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:coin",
+            "u17:bill"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Many people carry a ___ instead of large amounts of cash when they travel.",
+          "fullSentence": "Many people carry a credit card instead of large amounts of cash when they travel.",
+          "translation": "很多人旅行時帶信用卡而不帶大量現金。",
+          "clue": "可以取代大量現金的付款卡",
+          "answerEntryId": "u17:credit card",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:coin",
+            "u17:change"
+          ]
+        },
+        {
+          "sentence": "You must be eighteen years old to apply for a ___.",
+          "fullSentence": "You must be eighteen years old to apply for a credit card.",
+          "translation": "必須年滿十八歲才能申請信用卡。",
+          "clue": "銀行審核後才發給大人的付款卡",
+          "answerEntryId": "u17:credit card",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:currency",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The store's machine was broken, so customers who only had a ___ had to find an ATM first.",
+        "fullSentence": "The store's machine was broken, so customers who only had a credit card had to find an ATM first.",
+        "translation": "店裡的刷卡機壞了，所以只帶信用卡的客人得先去找提款機。",
+        "clue": "需要刷卡機才能使用的付款卡",
+        "answerEntryId": "u17:credit card",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:coin",
+          "u17:currency"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:currency",
+      "zh": "貨幣",
+      "pos": "noun",
+      "example": "The yen is the currency of Japan.",
+      "exampleZh": "日圓是日本的貨幣。",
+      "spellingHint": "c-u-r-r-e-n-c-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Before visiting England, Dad exchanged our coins and notes for the local ___.",
+        "fullSentence": "Before visiting England, Dad exchanged our coins and notes for the local currency.",
+        "translation": "去英國之前，爸爸把我們的錢換成當地的貨幣。",
+        "clue": "一個國家正式使用的錢",
+        "answerEntryId": "u17:currency",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:money",
+          "u17:coin"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The dollar is the main ___ used in the United States.",
+          "fullSentence": "The dollar is the main currency used in the United States.",
+          "translation": "美元是美國主要使用的貨幣。",
+          "clue": "一個國家通用的錢的總稱",
+          "answerEntryId": "u17:currency",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:bill",
+            "u17:price"
+          ]
+        },
+        {
+          "sentence": "Each country prints its own ___ with famous people on it.",
+          "fullSentence": "Each country prints its own currency with famous people on it.",
+          "translation": "每個國家都印製自己的貨幣，上面印著名人。",
+          "clue": "國家印出來、全國通用的錢",
+          "answerEntryId": "u17:currency",
+          "distractorEntryIds": [
+            "u17:coin",
+            "u17:cash",
+            "u17:money"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Banks at the airport can exchange one ___ for another.",
+          "fullSentence": "Banks at the airport can exchange one currency for another.",
+          "translation": "機場的銀行可以把一種貨幣換成另一種。",
+          "clue": "可以互相兌換的各國錢幣",
+          "answerEntryId": "u17:currency",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:bill",
+            "u17:income"
+          ]
+        },
+        {
+          "sentence": "Travelers often check the value of the ___ before they go abroad.",
+          "fullSentence": "Travelers often check the value of the currency before they go abroad.",
+          "translation": "旅行者出國前常會查看該國貨幣的幣值。",
+          "clue": "有漲有跌、有幣值的錢",
+          "answerEntryId": "u17:currency",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:money",
+            "u17:price"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The Japanese ___ is called the yen, while Taiwan uses the New Taiwan dollar.",
+        "fullSentence": "The Japanese currency is called the yen, while Taiwan uses the New Taiwan dollar.",
+        "translation": "日本的貨幣叫做日圓，而台灣使用新台幣。",
+        "clue": "「日圓」是它的名字，指該國的錢",
+        "answerEntryId": "u17:currency",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:bill",
+          "u17:coin"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:deal",
+      "zh": "交易；划算的買賣",
+      "pos": "noun",
+      "example": "The shoes were half price, so it was a good deal.",
+      "exampleZh": "那雙鞋半價，所以真的很划算。",
+      "spellingHint": "d-e-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Getting three shirts for the cost of two is really a good ___.",
+        "fullSentence": "Getting three shirts for the cost of two is really a good deal.",
+        "translation": "用兩件的價錢買到三件襯衫真的很划算。",
+        "clue": "讓買方賺到、很划算的買賣",
+        "answerEntryId": "u17:deal",
+        "distractorEntryIds": [
+          "u17:price",
+          "u17:fee",
+          "u17:income"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa says a handshake is enough to close a small ___.",
+          "fullSentence": "Grandpa says a handshake is enough to close a small deal.",
+          "translation": "爺爺說一個握手就足以談成一筆小交易。",
+          "clue": "買賣雙方談成的約定",
+          "answerEntryId": "u17:deal",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:money",
+            "u17:cash"
+          ]
+        },
+        {
+          "sentence": "The store's website shows today's best ___ on computers.",
+          "fullSentence": "The store's website shows today's best deal on computers.",
+          "translation": "這家店的網站顯示今天電腦最划算的優惠。",
+          "clue": "最便宜、最值得買的優惠",
+          "answerEntryId": "u17:deal",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:bill",
+            "u17:fee"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "After talking for an hour, the two sides finally made a ___.",
+          "fullSentence": "After talking for an hour, the two sides finally made a deal.",
+          "translation": "談了一個小時之後，雙方終於達成交易。",
+          "clue": "雙方同意後「做成」的買賣約定",
+          "answerEntryId": "u17:deal",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:bill",
+            "u17:loss"
+          ]
+        },
+        {
+          "sentence": "Two pizzas for one hundred dollars sounded like a ___ we could not refuse.",
+          "fullSentence": "Two pizzas for one hundred dollars sounded like a deal we could not refuse.",
+          "translation": "兩個披薩一百元聽起來像是無法拒絕的划算交易。",
+          "clue": "便宜到讓人不想錯過的買賣",
+          "answerEntryId": "u17:deal",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:fee",
+            "u17:prize"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The jacket was too expensive, but the shop owner offered a discount and we struck a ___.",
+        "fullSentence": "The jacket was too expensive, but the shop owner offered a discount and we struck a deal.",
+        "translation": "那件夾克太貴了，但老闆願意打折，我們就成交了。",
+        "clue": "店家讓步後雙方「成交」的那筆約定",
+        "answerEntryId": "u17:deal",
+        "distractorEntryIds": [
+          "u17:price",
+          "u17:loss",
+          "u17:income"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:debt",
+      "zh": "債務；欠款",
+      "pos": "noun",
+      "example": "He worked every weekend to pay off his debt.",
+      "exampleZh": "他每個週末都工作來還清債務。",
+      "spellingHint": "d-e-b-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It took him two years to pay off the ___ from his new motorbike.",
+        "fullSentence": "It took him two years to pay off the debt from his new motorbike.",
+        "translation": "他花了兩年才還清新機車的債務。",
+        "clue": "借了錢之後欠下、必須償還的金額",
+        "answerEntryId": "u17:debt",
+        "distractorEntryIds": [
+          "u17:bill",
+          "u17:fee",
+          "u17:loss"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "She is careful with money because she does not want to fall into ___.",
+          "fullSentence": "She is careful with money because she does not want to fall into debt.",
+          "translation": "她用錢很小心，因為她不想背負債務。",
+          "clue": "欠別人錢、要還錢的狀態",
+          "answerEntryId": "u17:debt",
+          "distractorEntryIds": [
+            "u17:loss",
+            "u17:bill",
+            "u17:income"
+          ]
+        },
+        {
+          "sentence": "The company borrowed too much and now it has a huge ___.",
+          "fullSentence": "The company borrowed too much and now it has a huge debt.",
+          "translation": "這家公司借了太多錢，現在背負巨額債務。",
+          "clue": "借太多錢後累積的欠款",
+          "answerEntryId": "u17:debt",
+          "distractorEntryIds": [
+            "u17:income",
+            "u17:bill",
+            "u17:fee"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Every month he sends part of his salary to the bank to reduce his ___.",
+          "fullSentence": "Every month he sends part of his salary to the bank to reduce his debt.",
+          "translation": "他每個月把一部分薪水寄給銀行來減少債務。",
+          "clue": "按月還給銀行的欠款",
+          "answerEntryId": "u17:debt",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:fee",
+            "u17:income"
+          ]
+        },
+        {
+          "sentence": "Borrowing without a plan can put a family deep in ___.",
+          "fullSentence": "Borrowing without a plan can put a family deep in debt.",
+          "translation": "沒有計畫地借錢可能讓一個家庭債台高築。",
+          "clue": "一直借錢就會掉進的欠款狀態",
+          "answerEntryId": "u17:debt",
+          "distractorEntryIds": [
+            "u17:loss",
+            "u17:income",
+            "u17:bill"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "After he lost his job, his ___ grew every month because he could not repay the bank.",
+        "fullSentence": "After he lost his job, his debt grew every month because he could not repay the bank.",
+        "translation": "失業之後，因為還不出錢，他的債務每月增加。",
+        "clue": "還不了錢時會越滾越大的欠款",
+        "answerEntryId": "u17:debt",
+        "distractorEntryIds": [
+          "u17:bill",
+          "u17:loss",
+          "u17:fee"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:dollar",
+      "zh": "元；美元",
+      "pos": "noun",
+      "example": "This comic book costs five dollars.",
+      "exampleZh": "這本漫畫要五美元。",
+      "spellingHint": "d-o-l-l-a-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The United States uses the ___ as its basic unit of paper money.",
+        "fullSentence": "The United States uses the dollar as its basic unit of paper money.",
+        "translation": "美國以「元」作為紙鈔的基本貨幣單位。",
+        "clue": "美國錢的基本單位，一元等於一百分",
+        "answerEntryId": "u17:dollar",
+        "distractorEntryIds": [
+          "u17:cent",
+          "u17:coin",
+          "u17:price"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa handed me a crisp one-___ note for my birthday.",
+          "fullSentence": "Grandpa handed me a crisp one-dollar note for my birthday.",
+          "translation": "爺爺給我一張全新的一元紙鈔當生日禮物。",
+          "clue": "「一元的」紙鈔",
+          "answerEntryId": "u17:dollar",
+          "distractorEntryIds": [
+            "u17:cent",
+            "u17:bill",
+            "u17:cash"
+          ]
+        },
+        {
+          "sentence": "A ___ note is worth one hundred of the smallest coins.",
+          "fullSentence": "A dollar note is worth one hundred of the smallest coins.",
+          "translation": "一元紙鈔等於一百個最小的銅板。",
+          "clue": "等於一百個最小銅板的紙鈔單位",
+          "answerEntryId": "u17:dollar",
+          "distractorEntryIds": [
+            "u17:cent",
+            "u17:coin",
+            "u17:cash"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "One ___ is made of one hundred smaller units, just as one meter is one hundred centimeters.",
+          "fullSentence": "One dollar is made of one hundred smaller units, just as one meter is one hundred centimeters.",
+          "translation": "一元由一百個小單位組成，就像一公尺等於一百公分。",
+          "clue": "由一百個小單位組成的大單位",
+          "answerEntryId": "u17:dollar",
+          "distractorEntryIds": [
+            "u17:cent",
+            "u17:price",
+            "u17:coin"
+          ]
+        },
+        {
+          "sentence": "The lunch box at the school shop costs the same as a five-___ note.",
+          "fullSentence": "The lunch box at the school shop costs the same as a five-dollar note.",
+          "translation": "學校商店的便當賣一張五元紙鈔的價錢。",
+          "clue": "「五元的」紙鈔",
+          "answerEntryId": "u17:dollar",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:price",
+            "u17:cash"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "One ___ is worth far more than a small mountain of the tiniest coins added together.",
+        "fullSentence": "One dollar is worth far more than a small mountain of the tiniest coins added together.",
+        "translation": "一元遠比一小堆最小單位的銅板加起來更有價值。",
+        "clue": "比最小銅板單位大一層的錢的單位",
+        "answerEntryId": "u17:dollar",
+        "distractorEntryIds": [
+          "u17:cent",
+          "u17:cash",
+          "u17:bill"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:donkey",
+      "zh": "驢子",
+      "pos": "noun",
+      "example": "The farmer rides a donkey to the field every day.",
+      "exampleZh": "農夫每天騎驢子去田裡。",
+      "spellingHint": "d-o-n-k-e-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The farmer loaded heavy sacks onto his ___ before walking it to the market.",
+        "fullSentence": "The farmer loaded heavy sacks onto his donkey before walking it to the market.",
+        "translation": "農夫把沉重的麻袋裝上驢子，才把牠牽去市場。",
+        "clue": "能馱重物的長耳動物",
+        "answerEntryId": "u17:donkey",
+        "distractorEntryIds": [
+          "u12:truck",
+          "u12:bicycle",
+          "u12:train"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ has long ears and makes a loud hee-haw sound.",
+          "fullSentence": "A donkey has long ears and makes a loud hee-haw sound.",
+          "translation": "驢子有長長的耳朵，叫聲很大。",
+          "clue": "長耳朵、叫聲像「伊昂」的動物",
+          "answerEntryId": "u17:donkey",
+          "distractorEntryIds": [
+            "u12:truck",
+            "u12:museum",
+            "u12:bank"
+          ]
+        },
+        {
+          "sentence": "On the mountain path, the farmer's ___ carried bags of vegetables for the family.",
+          "fullSentence": "On the mountain path, the farmer's donkey carried bags of vegetables for the family.",
+          "translation": "在山路上，農夫的驢子幫家裡馱著一袋袋蔬菜。",
+          "clue": "山路間幫忙馱貨的長耳動物",
+          "answerEntryId": "u17:donkey",
+          "distractorEntryIds": [
+            "u12:truck",
+            "u12:train",
+            "u12:bank"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The old ___ brays loudly every morning to wake up the whole village.",
+          "fullSentence": "The old donkey brays loudly every morning to wake up the whole village.",
+          "translation": "老驢子每天早上大聲叫，吵醒全村的人。",
+          "clue": "叫聲是「伊昂伊昂」的動物",
+          "answerEntryId": "u17:donkey",
+          "distractorEntryIds": [
+            "u12:truck",
+            "u12:museum",
+            "u12:supermarket"
+          ]
+        },
+        {
+          "sentence": "Grandpa's ___ plowed the small field slowly, step by step.",
+          "fullSentence": "Grandpa's donkey plowed the small field slowly, step by step.",
+          "translation": "爺爺的驢子一步一步慢慢犁著那塊小田。",
+          "clue": "農場裡幫忙耕田的牲畜",
+          "answerEntryId": "u17:donkey",
+          "distractorEntryIds": [
+            "u12:truck",
+            "u12:train",
+            "u12:bicycle"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a horse, a ___ is smaller and has much longer ears, yet it can still carry heavy loads.",
+        "fullSentence": "Unlike a horse, a donkey is smaller and has much longer ears, yet it can still carry heavy loads.",
+        "translation": "和馬不同，驢子體型較小、耳朵更長，但仍然能馱重物。",
+        "clue": "比馬小、耳朵更長的馱獸",
+        "answerEntryId": "u17:donkey",
+        "distractorEntryIds": [
+          "u12:truck",
+          "u12:train",
+          "u12:bank"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:earn",
+      "zh": "賺得；賺到",
+      "pos": "verb",
+      "example": "She earns money by washing cars on weekends.",
+      "exampleZh": "她週末洗車賺錢。",
+      "spellingHint": "e-a-r-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Students can ___ pocket money by helping with housework at home.",
+        "fullSentence": "Students can earn pocket money by helping with housework at home.",
+        "translation": "學生可以幫忙做家事來賺零用錢。",
+        "clue": "靠努力工作得到錢",
+        "answerEntryId": "u17:earn",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:spend",
+          "u17:save"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Dad works hard every day to ___ money for our family.",
+          "fullSentence": "Dad works hard every day to earn money for our family.",
+          "translation": "爸爸每天努力工作賺錢養家。",
+          "clue": "工作換取薪水的人在做的事",
+          "answerEntryId": "u17:earn",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:cost",
+            "u17:pay"
+          ]
+        },
+        {
+          "sentence": "He sold his old toys to ___ a little money for a new bike.",
+          "fullSentence": "He sold his old toys to earn a little money for a new bike.",
+          "translation": "他賣掉舊玩具，賺了一點錢買新腳踏車。",
+          "clue": "靠賣東西得到錢",
+          "answerEntryId": "u17:earn",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:spend",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The more hours you work, the more money you will ___.",
+          "fullSentence": "The more hours you work, the more money you will earn.",
+          "translation": "工作時數越多，賺的錢就會越多。",
+          "clue": "工作時數換來收入的人在做的事",
+          "answerEntryId": "u17:earn",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:save",
+            "u17:pay"
+          ]
+        },
+        {
+          "sentence": "She hopes to ___ enough this summer to pay for her own books.",
+          "fullSentence": "She hopes to earn enough this summer to pay for her own books.",
+          "translation": "她希望今年夏天賺到足夠的錢，自己買書。",
+          "clue": "靠打工「賺到」書錢",
+          "answerEntryId": "u17:earn",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:spend",
+            "u17:cost"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "It is wiser to ___ money with your own hard work than to wait for someone to give it to you.",
+        "fullSentence": "It is wiser to earn money with your own hard work than to wait for someone to give it to you.",
+        "translation": "靠自己努力賺錢，比等別人給你錢更明智。",
+        "clue": "強調「靠自己努力取得」錢",
+        "answerEntryId": "u17:earn",
+        "distractorEntryIds": [
+          "u17:borrow",
+          "u17:spend",
+          "u17:save"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:expensive",
+      "zh": "昂貴的",
+      "pos": "adjective",
+      "example": "That restaurant is too expensive for students.",
+      "exampleZh": "那家餐廳對學生來說太貴了。",
+      "spellingHint": "e-x-p-e-n-s-i-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The camera was too ___, so I chose a smaller and cheaper one.",
+        "fullSentence": "The camera was too expensive, so I chose a smaller and cheaper one.",
+        "translation": "那台相機太貴了，所以我選了比較小也比較便宜的。",
+        "clue": "價格太高，只好換便宜的",
+        "answerEntryId": "u17:expensive",
+        "distractorEntryIds": [
+          "u17:cheap",
+          "u12:quick",
+          "u12:crowded"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A sports car costs a lot of money; it is very ___.",
+          "fullSentence": "A sports car costs a lot of money; it is very expensive.",
+          "translation": "跑車要花很多錢；它非常昂貴。",
+          "clue": "價格很高時，東西就是它",
+          "answerEntryId": "u17:expensive",
+          "distractorEntryIds": [
+            "u17:cheap",
+            "u12:fast",
+            "u12:quick"
+          ]
+        },
+        {
+          "sentence": "We didn't buy the gold watch because it was too ___.",
+          "fullSentence": "We didn't buy the gold watch because it was too expensive.",
+          "translation": "我們沒有買那隻金錶，因為太貴了。",
+          "clue": "貴到買不下去，形容價格",
+          "answerEntryId": "u17:expensive",
+          "distractorEntryIds": [
+            "u17:cheap",
+            "u12:crowded",
+            "u12:slow"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The hotel by the beach is more ___ than the one in town.",
+          "fullSentence": "The hotel by the beach is more expensive than the one in town.",
+          "translation": "海邊的飯店比鎮上的那家貴。",
+          "clue": "比較級：價格更高的一方",
+          "answerEntryId": "u17:expensive",
+          "distractorEntryIds": [
+            "u17:cheap",
+            "u12:quick",
+            "u12:slow"
+          ]
+        },
+        {
+          "sentence": "Diamonds are ___ because they are rare and hard to find.",
+          "fullSentence": "Diamonds are expensive because they are rare and hard to find.",
+          "translation": "鑽石很昂貴，因為它們稀有又難取得。",
+          "clue": "稀有難得，所以價格高",
+          "answerEntryId": "u17:expensive",
+          "distractorEntryIds": [
+            "u17:cheap",
+            "u12:central",
+            "u12:direct"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ model has more functions, but the less costly one is good enough for a beginner like me.",
+        "fullSentence": "The expensive model has more functions, but the less costly one is good enough for a beginner like me.",
+        "translation": "貴的機型功能比較多，但便宜的那台對我這種初學者來說已經夠用了。",
+        "clue": "功能多、價格也高的那一型",
+        "answerEntryId": "u17:expensive",
+        "distractorEntryIds": [
+          "u17:cheap",
+          "u12:quick",
+          "u12:slow"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:fee",
+      "zh": "費用",
+      "pos": "noun",
+      "example": "There is no fee for joining the school club.",
+      "exampleZh": "參加這個社團不用費用。",
+      "spellingHint": "f-e-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The swimming school asks for a small ___ every month for lessons.",
+        "fullSentence": "The swimming school asks for a small fee every month for lessons.",
+        "translation": "游泳學校每個月收一點學費。",
+        "clue": "使用服務要付的錢",
+        "answerEntryId": "u17:fee",
+        "distractorEntryIds": [
+          "u17:bill",
+          "u17:price",
+          "u17:debt"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "You must pay a ___ to enter the amusement park.",
+          "fullSentence": "You must pay a fee to enter the amusement park.",
+          "translation": "進入遊樂園必須付費用。",
+          "clue": "入園要先繳的錢",
+          "answerEntryId": "u17:fee",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:cash",
+            "u17:income"
+          ]
+        },
+        {
+          "sentence": "The doctor's ___ is three hundred dollars for one visit.",
+          "fullSentence": "The doctor's fee is three hundred dollars for one visit.",
+          "translation": "看一次醫生的費用是三百元。",
+          "clue": "看醫生要付的錢",
+          "answerEntryId": "u17:fee",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:prize",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The library is free, but the sports center charges a membership ___.",
+          "fullSentence": "The library is free, but the sports center charges a membership fee.",
+          "translation": "圖書館免費，但運動中心要收會員費。",
+          "clue": "成為會員要繳交的固定費用",
+          "answerEntryId": "u17:fee",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:price",
+            "u17:income"
+          ]
+        },
+        {
+          "sentence": "The bank takes a small ___ every time you use another bank's ATM.",
+          "fullSentence": "The bank takes a small fee every time you use another bank's ATM.",
+          "translation": "每次使用別家銀行的提款機，銀行都會收一點手續費。",
+          "clue": "跨行提款要付的手續費用",
+          "answerEntryId": "u17:fee",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:change",
+            "u17:loss"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ticket price was low, but the airline added a bag ___ at the airport.",
+        "fullSentence": "The ticket price was low, but the airline added a bag fee at the airport.",
+        "translation": "機票價格很低，但航空公司在機場加收行李費用。",
+        "clue": "另外加收的行李服務費用",
+        "answerEntryId": "u17:fee",
+        "distractorEntryIds": [
+          "u17:bill",
+          "u17:debt",
+          "u17:income"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:fine",
+      "zh": "罰款",
+      "pos": "noun",
+      "example": "He got a fine for parking his car in the wrong place.",
+      "exampleZh": "他因為亂停車被罰款。",
+      "spellingHint": "f-i-n-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "He had to pay a ___ for driving faster than the speed limit.",
+        "fullSentence": "He had to pay a fine for driving faster than the speed limit.",
+        "translation": "他因為超速駕駛而被罰款。",
+        "clue": "違規後必須繳的罰金",
+        "answerEntryId": "u17:fine",
+        "distractorEntryIds": [
+          "u17:fee",
+          "u17:bill",
+          "u17:debt"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Riders without a ticket may receive a ___ from the inspector.",
+          "fullSentence": "Riders without a ticket may receive a fine from the inspector.",
+          "translation": "沒有買票的乘客可能會被查票員開罰款。",
+          "clue": "違規後收到的罰單罰金",
+          "answerEntryId": "u17:fine",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:prize",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "The library gives a ___ to people who return books late.",
+          "fullSentence": "The library gives a fine to people who return books late.",
+          "translation": "圖書館會對逾期還書的人罰款。",
+          "clue": "逾期還書要繳的罰金",
+          "answerEntryId": "u17:fine",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:bill",
+            "u17:change"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Littering in the park can cost you a ___ of one thousand dollars.",
+          "fullSentence": "Littering in the park can cost you a fine of one thousand dollars.",
+          "translation": "在公園亂丟垃圾可能讓你被罰一千元。",
+          "clue": "違規行為換來的罰金",
+          "answerEntryId": "u17:fine",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:price",
+            "u17:debt"
+          ]
+        },
+        {
+          "sentence": "The police officer warned that a second speeding ticket would bring a bigger ___.",
+          "fullSentence": "The police officer warned that a second speeding ticket would bring a bigger fine.",
+          "translation": "警察警告，第二次超速罰單會帶來更高的罰款。",
+          "clue": "違規單會附上的罰金",
+          "answerEntryId": "u17:fine",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:fee",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because the driver stopped at the red light, he avoided a ___, but the car behind him did not.",
+        "fullSentence": "Because the driver stopped at the red light, he avoided a fine, but the car behind him did not.",
+        "translation": "因為司機在紅燈前停下來，他避開了罰款，但後面的車沒有。",
+        "clue": "守規矩就能避開的罰金",
+        "answerEntryId": "u17:fine",
+        "distractorEntryIds": [
+          "u17:fee",
+          "u17:debt",
+          "u17:bill"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:income",
+      "zh": "收入",
+      "pos": "noun",
+      "example": "Their monthly income is enough to cover all the bills.",
+      "exampleZh": "他們每月的收入足夠支付所有帳單。",
+      "spellingHint": "i-n-c-o-m-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Most of the family's ___ comes from Dad's job at the factory.",
+        "fullSentence": "Most of the family's income comes from Dad's job at the factory.",
+        "translation": "這個家庭的收入大部分來自爸爸在工廠的工作。",
+        "clue": "工作換來的全部錢財來源",
+        "answerEntryId": "u17:income",
+        "distractorEntryIds": [
+          "u17:money",
+          "u17:cash",
+          "u17:price"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "With two jobs, she doubled her ___ last year.",
+          "fullSentence": "With two jobs, she doubled her income last year.",
+          "translation": "身兼兩份工作，她去年的收入增加了一倍。",
+          "clue": "工作帶進來的錢",
+          "answerEntryId": "u17:income",
+          "distractorEntryIds": [
+            "u17:debt",
+            "u17:loss",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "The shop's ___ is highest in December when everyone buys gifts.",
+          "fullSentence": "The shop's income is highest in December when everyone buys gifts.",
+          "translation": "這家店的收入在十二月最高，因為大家都在買禮物。",
+          "clue": "店家賺進來的錢",
+          "answerEntryId": "u17:income",
+          "distractorEntryIds": [
+            "u17:price",
+            "u17:cash",
+            "u17:money"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You should spend less than your ___ if you want to save money.",
+          "fullSentence": "You should spend less than your income if you want to save money.",
+          "translation": "如果想存錢，花費應該比收入少。",
+          "clue": "與「花費」相對，賺進來的總額",
+          "answerEntryId": "u17:income",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:debt",
+            "u17:fee"
+          ]
+        },
+        {
+          "sentence": "The government taxes people according to their ___.",
+          "fullSentence": "The government taxes people according to their income.",
+          "translation": "政府依收入課稅。",
+          "clue": "被課稅的錢財總額",
+          "answerEntryId": "u17:income",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:cash",
+            "u17:price"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "His ___ fell after he quit one of his two part-time jobs, so he began spending less.",
+        "fullSentence": "His income fell after he quit one of his two part-time jobs, so he began spending less.",
+        "translation": "他辭掉一份兼職後收入變少，所以開始減少花費。",
+        "clue": "少了一份工作後會「下降」的錢財來源",
+        "answerEntryId": "u17:income",
+        "distractorEntryIds": [
+          "u17:bill",
+          "u17:debt",
+          "u17:loss"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:lend",
+      "zh": "借出；借給",
+      "pos": "verb",
+      "example": "Can you lend me your eraser for a second?",
+      "exampleZh": "你可以把橡皮擦借我一下嗎？",
+      "spellingHint": "l-e-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bank agreed to ___ him ten thousand dollars for his small shop.",
+        "fullSentence": "The bank agreed to lend him ten thousand dollars for his small shop.",
+        "translation": "銀行同意借給他一萬元開小店。",
+        "clue": "銀行把錢「給出去」讓人使用",
+        "answerEntryId": "u17:lend",
+        "distractorEntryIds": [
+          "u17:borrow",
+          "u17:pay",
+          "u17:earn"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Could you ___ me an umbrella? It's raining hard outside.",
+          "fullSentence": "Could you lend me an umbrella? It's raining hard outside.",
+          "translation": "你可以借我一把傘嗎？外面雨下得很大。",
+          "clue": "把自己的東西「給別人」暫用",
+          "answerEntryId": "u17:lend",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:pay",
+            "u17:sell"
+          ]
+        },
+        {
+          "sentence": "The library will ___ you three books for two weeks.",
+          "fullSentence": "The library will lend you three books for two weeks.",
+          "translation": "圖書館會借你三本書，為期兩週。",
+          "clue": "圖書館把書「提供出去」給人看",
+          "answerEntryId": "u17:lend",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:buy",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She is always happy to ___ her notes to classmates before exams.",
+          "fullSentence": "She is always happy to lend her notes to classmates before exams.",
+          "translation": "考試前她總是很樂意把筆記借給同學。",
+          "clue": "筆記的主人把東西「給出去」",
+          "answerEntryId": "u17:lend",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:sell",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "Friends should never ___ more money than they can afford to lose.",
+          "fullSentence": "Friends should never lend more money than they can afford to lose.",
+          "translation": "朋友之間借出去的錢，不該超過自己損失得起的數目。",
+          "clue": "把錢「借出去」的一方要小心金額",
+          "answerEntryId": "u17:lend",
+          "distractorEntryIds": [
+            "u17:borrow",
+            "u17:spend",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My sister has plenty of pencils, so she will often ___ one to me when mine breaks.",
+        "fullSentence": "My sister has plenty of pencils, so she will often lend one to me when mine breaks.",
+        "translation": "姊姊有很多鉛筆，所以我的斷了時，她常會借我一支。",
+        "clue": "擁有很多鉛筆的人，是把筆「給出去」的一方",
+        "answerEntryId": "u17:lend",
+        "distractorEntryIds": [
+          "u17:borrow",
+          "u17:buy",
+          "u17:earn"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:loss",
+      "zh": "損失；虧損",
+      "pos": "noun",
+      "example": "The store reported a loss of one million dollars last year.",
+      "exampleZh": "那家商店去年虧損一百萬元。",
+      "spellingHint": "l-o-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The company suffered a big ___ when the new product failed to sell.",
+        "fullSentence": "The company suffered a big loss when the new product failed to sell.",
+        "translation": "新產品賣不出去，公司蒙受了重大損失。",
+        "clue": "賣不出去時承受的金錢損失",
+        "answerEntryId": "u17:loss",
+        "distractorEntryIds": [
+          "u17:debt",
+          "u17:bill",
+          "u17:prize"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Selling the sofa for half price meant a ___ of two thousand dollars.",
+          "fullSentence": "Selling the sofa for half price meant a loss of two thousand dollars.",
+          "translation": "半價賣掉沙發意味著損失兩千元。",
+          "clue": "賣得比買價低而「賠掉」的錢",
+          "answerEntryId": "u17:loss",
+          "distractorEntryIds": [
+            "u17:income",
+            "u17:prize",
+            "u17:fee"
+          ]
+        },
+        {
+          "sentence": "He cried over the ___ of his money on the way home.",
+          "fullSentence": "He cried over the loss of his money on the way home.",
+          "translation": "他在回家的路上為掉了錢而哭泣。",
+          "clue": "錢不見了所造成的損失",
+          "answerEntryId": "u17:loss",
+          "distractorEntryIds": [
+            "u17:debt",
+            "u17:bill",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The team cut costs to turn last year's ___ into a small profit.",
+          "fullSentence": "The team cut costs to turn last year's loss into a small profit.",
+          "translation": "團隊削減成本，把去年的虧損轉為小幅獲利。",
+          "clue": "與「獲利」相反的數字",
+          "answerEntryId": "u17:loss",
+          "distractorEntryIds": [
+            "u17:debt",
+            "u17:income",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "Without insurance, a fire could mean a total ___ for a small shop.",
+          "fullSentence": "Without insurance, a fire could mean a total loss for a small shop.",
+          "translation": "沒有保險的話，一場火災對小店可能就是全額損失。",
+          "clue": "火災等意外造成的金錢損失",
+          "answerEntryId": "u17:loss",
+          "distractorEntryIds": [
+            "u17:debt",
+            "u17:bill",
+            "u17:fee"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Every sale at ten percent off still made money, but the fire-sale week ended in a ___.",
+        "fullSentence": "Every sale at ten percent off still made money, but the fire-sale week ended in a loss.",
+        "translation": "每筆九折的拍賣仍有賺頭，但清倉大拍賣卻以虧損收場。",
+        "clue": "降價太深、賣得比成本還低時的結果",
+        "answerEntryId": "u17:loss",
+        "distractorEntryIds": [
+          "u17:debt",
+          "u17:bill",
+          "u17:fee"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:money",
+      "zh": "錢",
+      "pos": "noun",
+      "example": "She keeps her money in a big green purse.",
+      "exampleZh": "她把錢放在一個綠色大錢包裡。",
+      "spellingHint": "m-o-n-e-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "You need ___ to buy tickets for the school fair.",
+        "fullSentence": "You need money to buy tickets for the school fair.",
+        "translation": "你需要錢來買園遊會的票。",
+        "clue": "買東西時要用的東西",
+        "answerEntryId": "u17:money",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:coin",
+          "u17:price"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandma gives us red envelopes full of ___ at Chinese New Year.",
+          "fullSentence": "Grandma gives us red envelopes full of money at Chinese New Year.",
+          "translation": "過年時奶奶給我們裝滿錢的紅包。",
+          "clue": "紅包裡裝的東西",
+          "answerEntryId": "u17:money",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:coin",
+            "u17:prize"
+          ]
+        },
+        {
+          "sentence": "He put all his ___ in a jar under his bed.",
+          "fullSentence": "He put all his money in a jar under his bed.",
+          "translation": "他把所有的錢都放在床底下的罐子裡。",
+          "clue": "存起來的鈔票和銅板",
+          "answerEntryId": "u17:money",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:change",
+            "u17:bill"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Saving ___ every month helps you buy bigger things later.",
+          "fullSentence": "Saving money every month helps you buy bigger things later.",
+          "translation": "每個月存錢能讓你之後買更大的東西。",
+          "clue": "被存起來的東西",
+          "answerEntryId": "u17:money",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:income",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "Time is ___, so do not waste it sitting around all day.",
+          "fullSentence": "Time is money, so do not waste it sitting around all day.",
+          "translation": "時間就是金錢，所以不要整天閒晃浪費時間。",
+          "clue": "「時間就是___」這句諺語",
+          "answerEntryId": "u17:money",
+          "distractorEntryIds": [
+            "u17:cash",
+            "u17:coin",
+            "u17:price"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Whether you use a card or notes and coins, the ___ leaves the same bank account.",
+        "fullSentence": "Whether you use a card or notes and coins, the money leaves the same bank account.",
+        "translation": "無論用卡片還是鈔票銅板，錢都是從同一個銀行帳戶支出。",
+        "clue": "兩種付款方式支出的是同樣的東西",
+        "answerEntryId": "u17:money",
+        "distractorEntryIds": [
+          "u17:cash",
+          "u17:bill",
+          "u17:coin"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:pay",
+      "zh": "付款；支付",
+      "pos": "verb",
+      "example": "I will pay for the tickets this time.",
+      "exampleZh": "這次的票錢我來付。",
+      "spellingHint": "p-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Remember to ___ at the counter before you leave the store.",
+        "fullSentence": "Remember to pay at the counter before you leave the store.",
+        "translation": "離開商店前記得先在櫃檯付款。",
+        "clue": "把錢交給店家的動作",
+        "answerEntryId": "u17:pay",
+        "distractorEntryIds": [
+          "u17:buy",
+          "u17:spend",
+          "u17:cost"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How would you like to ___ for this, by card or in cash?",
+          "fullSentence": "How would you like to pay for this, by card or in cash?",
+          "translation": "這個您想怎麼付款，刷卡還是付現？",
+          "clue": "結帳時店員問你「怎麼付錢」",
+          "answerEntryId": "u17:pay",
+          "distractorEntryIds": [
+            "u17:buy",
+            "u17:cost",
+            "u17:charge"
+          ]
+        },
+        {
+          "sentence": "We must ___ the phone bill before Friday or the line will be cut.",
+          "fullSentence": "We must pay the phone bill before Friday or the line will be cut.",
+          "translation": "我們必須在星期五前繳電話費，否則會被停話。",
+          "clue": "把錢交出去繳清帳單",
+          "answerEntryId": "u17:pay",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:borrow",
+            "u17:earn"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The company will ___ every worker on the fifth of each month, right after payday.",
+          "fullSentence": "The company will pay every worker on the fifth of each month, right after payday.",
+          "translation": "公司會在每月五號發薪日之後支付每位員工薪水。",
+          "clue": "公司「發錢給」員工的動作",
+          "answerEntryId": "u17:pay",
+          "distractorEntryIds": [
+            "u17:earn",
+            "u17:cost",
+            "u17:charge"
+          ]
+        },
+        {
+          "sentence": "Dad taught me to ___ for my own snacks with my pocket money.",
+          "fullSentence": "Dad taught me to pay for my own snacks with my pocket money.",
+          "translation": "爸爸教我用零用錢自己付零食的錢。",
+          "clue": "用零用錢「支付」零食費用",
+          "answerEntryId": "u17:pay",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:buy",
+            "u17:earn"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The three friends divided the dinner so that each one only had to ___ ninety dollars.",
+        "fullSentence": "The three friends divided the dinner so that each one only had to pay ninety dollars.",
+        "translation": "三位朋友把晚餐費用分攤，每個人只需付九十元。",
+        "clue": "每人「拿出」九十元完成結帳",
+        "answerEntryId": "u17:pay",
+        "distractorEntryIds": [
+          "u17:spend",
+          "u17:cost",
+          "u17:charge"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:price",
+      "zh": "價格",
+      "pos": "noun",
+      "example": "The price of eggs went up again this month.",
+      "exampleZh": "這個月雞蛋的價格又漲了。",
+      "spellingHint": "p-r-i-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ on this jacket is too high for me to afford.",
+        "fullSentence": "The price on this jacket is too high for me to afford.",
+        "translation": "這件外套的價格太高，我買不起。",
+        "clue": "標籤上寫的售價",
+        "answerEntryId": "u17:price",
+        "distractorEntryIds": [
+          "u17:fee",
+          "u17:bill",
+          "u17:money"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Two stores may sell the same shoes at a different ___.",
+          "fullSentence": "Two stores may sell the same shoes at a different price.",
+          "translation": "同樣的鞋在兩家店可能賣不同的價格。",
+          "clue": "店家對商品開出的售價",
+          "answerEntryId": "u17:price",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:cash",
+            "u17:deal"
+          ]
+        },
+        {
+          "sentence": "The tag shows the ___ of the dress: eight hundred dollars.",
+          "fullSentence": "The tag shows the price of the dress: eight hundred dollars.",
+          "translation": "標籤上顯示這件洋裝的價格：八百元。",
+          "clue": "標籤上標示的金額",
+          "answerEntryId": "u17:price",
+          "distractorEntryIds": [
+            "u17:bill",
+            "u17:fee",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "During the sale, the ___ of every T-shirt dropped to half.",
+          "fullSentence": "During the sale, the price of every T-shirt dropped to half.",
+          "translation": "特價期間，每件T恤的價格都降到了一半。",
+          "clue": "特價時會「下降」的東西",
+          "answerEntryId": "u17:price",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:income",
+            "u17:deal"
+          ]
+        },
+        {
+          "sentence": "Farmers were unhappy because the ___ of rice kept falling.",
+          "fullSentence": "Farmers were unhappy because the price of rice kept falling.",
+          "translation": "農夫很不高興，因為米的價格一直下跌。",
+          "clue": "會隨市場漲跌的售價",
+          "answerEntryId": "u17:price",
+          "distractorEntryIds": [
+            "u17:fee",
+            "u17:cash",
+            "u17:money"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Quality matters more than ___; a low-cost bag that breaks in a week is no bargain.",
+        "fullSentence": "Quality matters more than price; a low-cost bag that breaks in a week is no bargain.",
+        "translation": "品質比價格重要；一週就壞掉的便宜包包不算划算。",
+        "clue": "與「品質」相對，標籤上的數字",
+        "answerEntryId": "u17:price",
+        "distractorEntryIds": [
+          "u17:fee",
+          "u17:bill",
+          "u17:deal"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:prize",
+      "zh": "獎品；獎金",
+      "pos": "noun",
+      "example": "She won the first prize in the speech contest.",
+      "exampleZh": "她在演講比賽中贏得第一名獎品。",
+      "spellingHint": "p-r-i-z-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The winner of the race received a ___ of one thousand dollars.",
+        "fullSentence": "The winner of the race received a prize of one thousand dollars.",
+        "translation": "賽跑冠軍獲得了一千元的獎金。",
+        "clue": "比賽贏了拿到的獎",
+        "answerEntryId": "u17:prize",
+        "distractorEntryIds": [
+          "u17:income",
+          "u17:fee",
+          "u17:bill"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "He drew the lucky number and won a ___ at the school fair.",
+          "fullSentence": "He drew the lucky number and won a prize at the school fair.",
+          "translation": "他抽到幸運號碼，在園遊會贏得獎品。",
+          "clue": "抽獎抽中的東西",
+          "answerEntryId": "u17:prize",
+          "distractorEntryIds": [
+            "u17:money",
+            "u17:cash",
+            "u17:bill"
+          ]
+        },
+        {
+          "sentence": "The best singer of the evening took home the top ___.",
+          "fullSentence": "The best singer of the evening took home the top prize.",
+          "translation": "今晚唱得最好的歌手把最大獎帶回家。",
+          "clue": "頒給最優秀者的獎",
+          "answerEntryId": "u17:prize",
+          "distractorEntryIds": [
+            "u17:income",
+            "u17:deal",
+            "u17:fee"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Anyone who answers all ten questions correctly can claim a ___.",
+          "fullSentence": "Anyone who answers all ten questions correctly can claim a prize.",
+          "translation": "答對全部十題的人都可以領取獎品。",
+          "clue": "達成條件後「領取」的獎勵",
+          "answerEntryId": "u17:prize",
+          "distractorEntryIds": [
+            "u17:income",
+            "u17:bill",
+            "u17:fee"
+          ]
+        },
+        {
+          "sentence": "The first ___ was a bicycle, and second place won a helmet.",
+          "fullSentence": "The first prize was a bicycle, and second place won a helmet.",
+          "translation": "頭獎是一輛腳踏車，第二名贏得一頂安全帽。",
+          "clue": "按名次頒發的獎品",
+          "answerEntryId": "u17:prize",
+          "distractorEntryIds": [
+            "u17:deal",
+            "u17:fee",
+            "u17:income"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Nobody expected the quiet boy to win, but he walked away with the grand ___.",
+        "fullSentence": "Nobody expected the quiet boy to win, but he walked away with the grand prize.",
+        "translation": "沒人料到那位安靜的男孩會贏，但他抱走了大獎。",
+        "clue": "比賽中最大的一個獎",
+        "answerEntryId": "u17:prize",
+        "distractorEntryIds": [
+          "u17:income",
+          "u17:bill",
+          "u17:deal"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:save",
+      "zh": "儲蓄；存錢",
+      "pos": "verb",
+      "example": "He saves part of his allowance every week.",
+      "exampleZh": "他把零用錢的一部分存起來。",
+      "spellingHint": "s-a-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She puts ten dollars in her piggy bank every week to ___ up for a new bike.",
+        "fullSentence": "She puts ten dollars in her piggy bank every week to save up for a new bike.",
+        "translation": "她每週放十元到撲滿裡，為買新腳踏車存錢。",
+        "clue": "把錢存起來，累積之後使用",
+        "answerEntryId": "u17:save",
+        "distractorEntryIds": [
+          "u17:spend",
+          "u17:pay",
+          "u17:earn"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "If you ___ your coins, you will have enough for the concert.",
+          "fullSentence": "If you save your coins, you will have enough for the concert.",
+          "translation": "如果你把銅板存起來，就夠去聽演唱會了。",
+          "clue": "把錢留下來不花掉",
+          "answerEntryId": "u17:save",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:pay",
+            "u17:borrow"
+          ]
+        },
+        {
+          "sentence": "We are trying to ___ money for our summer trip.",
+          "fullSentence": "We are trying to save money for our summer trip.",
+          "translation": "我們正在為暑假旅行存錢。",
+          "clue": "為了目標把錢累積下來",
+          "answerEntryId": "u17:save",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:cost",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Buying the store brand helped her ___ three hundred dollars a month.",
+          "fullSentence": "Buying the store brand helped her save three hundred dollars a month.",
+          "translation": "買超市自有品牌幫她每個月省下三百元。",
+          "clue": "少花錢而「省下」金額",
+          "answerEntryId": "u17:save",
+          "distractorEntryIds": [
+            "u17:earn",
+            "u17:pay",
+            "u17:spend"
+          ]
+        },
+        {
+          "sentence": "Instead of choosing to ___ his bonus, he spent it all on a new phone.",
+          "fullSentence": "Instead of choosing to save his bonus, he spent it all on a new phone.",
+          "translation": "他沒有選擇把獎金存起來，反而全拿去買新手機。",
+          "clue": "與「全部花掉」相反的動作",
+          "answerEntryId": "u17:save",
+          "distractorEntryIds": [
+            "u17:spend",
+            "u17:earn",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "People who ___ regularly when they are young find retirement much easier later.",
+        "fullSentence": "People who save regularly when they are young find retirement much easier later.",
+        "translation": "年輕時定期存錢的人，之後的退休生活會輕鬆許多。",
+        "clue": "為未來定期累積金錢的習慣",
+        "answerEntryId": "u17:save",
+        "distractorEntryIds": [
+          "u17:spend",
+          "u17:earn",
+          "u17:borrow"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:sell",
+      "zh": "賣",
+      "pos": "verb",
+      "example": "The shop sells fresh bread every morning.",
+      "exampleZh": "那家店每天早上賣新鮮麵包。",
+      "spellingHint": "s-e-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bakery on the corner will ___ out of bread before noon every day.",
+        "fullSentence": "The bakery on the corner will sell out of bread before noon every day.",
+        "translation": "轉角的麵包店每天中午前麵包就會賣光。",
+        "clue": "店家把東西「賣」給客人",
+        "answerEntryId": "u17:sell",
+        "distractorEntryIds": [
+          "u17:buy",
+          "u17:pay",
+          "u17:cost"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "They decided to ___ their old car and take the bus instead.",
+          "fullSentence": "They decided to sell their old car and take the bus instead.",
+          "translation": "他們決定賣掉舊車，改搭公車。",
+          "clue": "把舊東西換成錢",
+          "answerEntryId": "u17:sell",
+          "distractorEntryIds": [
+            "u17:buy",
+            "u17:borrow",
+            "u17:pay"
+          ]
+        },
+        {
+          "sentence": "The girl scouts ___ cookies outside the supermarket every winter.",
+          "fullSentence": "The girl scouts sell cookies outside the supermarket every winter.",
+          "translation": "女童軍每年冬天在超級市場外賣餅乾。",
+          "clue": "把餅乾交給客人、換取金錢",
+          "answerEntryId": "u17:sell",
+          "distractorEntryIds": [
+            "u17:buy",
+            "u17:earn",
+            "u17:pay"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You can make a profit if you ___ at more than you originally paid.",
+          "fullSentence": "You can make a profit if you sell at more than you originally paid.",
+          "translation": "如果賣得比當初買進的價格高，就能賺到利潤。",
+          "clue": "想賺利潤時，把東西「賣出去」",
+          "answerEntryId": "u17:sell",
+          "distractorEntryIds": [
+            "u17:buy",
+            "u17:pay",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "This store does not ___ vegetables; it only sells meat and fish.",
+          "fullSentence": "This store does not sell vegetables; it only sells meat and fish.",
+          "translation": "這家店不賣蔬菜，只賣肉和魚。",
+          "clue": "店家「提供商品出售」的動作",
+          "answerEntryId": "u17:sell",
+          "distractorEntryIds": [
+            "u17:buy",
+            "u17:cost",
+            "u17:charge"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The artist paints hundreds of postcards and will ___ them to tourists at the harbor.",
+        "fullSentence": "The artist paints hundreds of postcards and will sell them to tourists at the harbor.",
+        "translation": "那位畫家畫了數百張明信片，會賣給港口的觀光客。",
+        "clue": "畫家把作品交給觀光客換取金錢",
+        "answerEntryId": "u17:sell",
+        "distractorEntryIds": [
+          "u17:buy",
+          "u17:pay",
+          "u17:earn"
+        ]
+      }
+    },
+    {
+      "entryId": "u17:spend",
+      "zh": "花（錢）；花費",
+      "pos": "verb",
+      "example": "Don't spend all your allowance in one day.",
+      "exampleZh": "不要把零用錢一天花光。",
+      "spellingHint": "s-p-e-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My sister likes to ___ her allowance on stickers and comics.",
+        "fullSentence": "My sister likes to spend her allowance on stickers and comics.",
+        "translation": "我妹妹喜歡把零用錢花在貼紙和漫畫上。",
+        "clue": "把錢用掉、花掉",
+        "answerEntryId": "u17:spend",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:buy",
+          "u17:cost"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Don't ___ too much time playing games before the exam.",
+          "fullSentence": "Don't spend too much time playing games before the exam.",
+          "translation": "考試前不要花太多時間打電動。",
+          "clue": "把時間「用掉」也可以用它",
+          "answerEntryId": "u17:spend",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:cost",
+            "u17:save"
+          ]
+        },
+        {
+          "sentence": "She will ___ all her coins on candy and have none left.",
+          "fullSentence": "She will spend all her coins on candy and have none left.",
+          "translation": "她會把所有銅板都花在糖果上，一毛也不剩。",
+          "clue": "把錢全部用光的動作",
+          "answerEntryId": "u17:spend",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:buy",
+            "u17:earn"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Families often ___ less in January because they bought so much in December.",
+          "fullSentence": "Families often spend less in January because they bought so much in December.",
+          "translation": "家庭常在一月減少花費，因為十二月買了太多。",
+          "clue": "主詞是人、把錢「用掉」的動作",
+          "answerEntryId": "u17:spend",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:cost",
+            "u17:earn"
+          ]
+        },
+        {
+          "sentence": "He will ___ half of his salary on rent every month.",
+          "fullSentence": "He will spend half of his salary on rent every month.",
+          "translation": "他每個月會把一半的薪水花在房租上。",
+          "clue": "「把錢花在某事物上」的固定用法",
+          "answerEntryId": "u17:spend",
+          "distractorEntryIds": [
+            "u17:pay",
+            "u17:charge",
+            "u17:cost"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Wise shoppers ___ only what they planned to and walk past the rest.",
+        "fullSentence": "Wise shoppers spend only what they planned to and walk past the rest.",
+        "translation": "聰明的購物者只花預計要花的錢，其他的看過就走。",
+        "clue": "按計畫「用掉」金錢的動作",
+        "answerEntryId": "u17:spend",
+        "distractorEntryIds": [
+          "u17:pay",
+          "u17:buy",
+          "u17:save"
+        ]
+      }
+    }
+  ]
+}
