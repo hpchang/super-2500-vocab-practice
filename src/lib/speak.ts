@@ -10,15 +10,19 @@ export function isSpeechSupported(): boolean {
   );
 }
 
-/** Prefer an English (ideally en-US) voice so words sound natural. */
+/** Prefer a reliable English voice: local (built-in) en-US first, then
+ *  local en-*, then any en-US, then any en-*. Some system novelty voices
+ *  are registered but silent, so local built-ins are the safe default. */
 function pickEnglishVoice(): SpeechSynthesisVoice | null {
   if (!isSpeechSupported()) return null;
   const voices = window.speechSynthesis.getVoices();
   if (!voices.length) return null;
-  // Prefer en-US, then any en-* voice.
+  const en = voices.filter((v) => v.lang.startsWith('en'));
   return (
-    voices.find((v) => v.lang === 'en-US') ??
-    voices.find((v) => v.lang.startsWith('en')) ??
+    en.find((v) => v.localService && v.lang === 'en-US') ??
+    en.find((v) => v.localService) ??
+    en.find((v) => v.lang === 'en-US') ??
+    en[0] ??
     null
   );
 }
@@ -44,6 +48,30 @@ export function speakNow(text: string): void {
   u.pitch = 1;
   if (!cachedVoice) cachedVoice = pickEnglishVoice();
   if (cachedVoice) u.voice = cachedVoice;
+
+  // Watchdog: some registered voices are silent (no start event, no error).
+  // If nothing started within 1.2s, retry once with the default voice.
+  let started = false;
+  let retried = false;
+  const watchdog = setTimeout(() => {
+    if (started || retried) return;
+    retried = true;
+    console.warn('[speak] no start event; retrying with default voice.', diagnoseSpeech());
+    synth.cancel();
+    const fallback = new SpeechSynthesisUtterance(text);
+    fallback.lang = 'en-US';
+    fallback.rate = 0.9;
+    synth.speak(fallback);
+  }, 1200);
+
+  u.onstart = () => {
+    started = true;
+    clearTimeout(watchdog);
+  };
+  u.onerror = (e) => {
+    clearTimeout(watchdog);
+    console.warn('[speak] utterance error:', (e as SpeechSynthesisErrorEvent).error);
+  };
 
   // Chrome drops utterances when cancel() and speak() run in the same tick,
   // and speech stuck in a paused state never plays without resume().
