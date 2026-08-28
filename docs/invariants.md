@@ -79,3 +79,21 @@ grep `localStorage.` 直接使用點。
 
 **守護**：`tests/storage.test.ts` 的舊版資料 case；改 schema 時先加一個
 「舊資料載入」測試再動程式碼。
+
+## 附錄：過去 bug-fix 對照檢查層（為什麼需要 E2E 層）
+
+用歷史 fix 回答「這三層（unit / jsdom 組件 / E2E smoke）各抓什麼」——
+未來判斷一個改動該配哪層測試時，先對照這張表。
+
+| 過去的 fix | 當時怎麼死的 | 哪層抓得到 |
+|---|---|---|
+| `a0b4b5b` 閃卡選完即走吞釋義 | UI 行為無渲染斷言 | **E2E**（smoke 斷言答後 feedback 含「釋義」）＋ DoD 要求先寫渲染斷言 |
+| `c87b1ee` 情境填空作答後題目錯位 | 作答→進度→useMemo 重建題目 | **jsdom 組件層**（`practiceCloze.test.tsx`，I-2） |
+| `f969a12` TTS 挑可靠聲音 | Chrome TTS 殭屍引擎 | **三層都抓不到**——真實 TTS 不在 headless 重現；靠 review 人檢（I-6）＋ [[chrome-tts-debugging]] 的分層診斷 |
+| `ea36c92` 批次排序優先序 | 純邏輯 | **unit 層**（`selection.test.ts`）——這類不需要 E2E |
+| `e1a6827` 下一批題型延續 | URL 段解析跨檔改動 | **E2E**（smoke 深鏈 `/#/unit/11/setup/cloze` 走同一路徑） |
+| P2-5 `c1bb9e3` lazy-load 回歸 | 打包時序：module-init 固化空索引 | **E2E**（smoke 對 dist/ 斷言 unit card 有字數；已實測轉紅，I-1） |
+
+**判斷規則**：改動若改變「測試環境與真實世界的差距」（載入時序、打包、
+路由、真實渲染），配 E2E 或 jsdom 渲染斷言；純邏輯配 unit；依賴外部環境
+（TTS、真機觸控、隱私模式）的行為三層皆盲，明文寫進 invariants 靠 review 人檢。
