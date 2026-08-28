@@ -2,3 +2,23 @@
 // deterministically in the jsdom environment. Harmless for the pure-logic
 // suites that keep the default node environment.
 (globalThis as any).IS_REACT_ACT_ENVIRONMENT = true;
+
+// Node ≥22 exposes an experimental global `localStorage` that is inert
+// without --localstorage-file. As an own property of globalIt shadows the
+// real storage that vitest's jsdom environment exposes via window.jsdom,
+// so session-resume tests would see `window.localStorage === undefined`.
+// Re-point both storages at the jsdom window when it exists.
+const jsdomWindow = (globalThis as any).jsdom?.window;
+if (jsdomWindow) {
+  for (const k of ['localStorage', 'sessionStorage'] as const) {
+    try {
+      delete (globalThis as any)[k];
+    } catch {
+      // not deletable — defineProperty below still wins as an own prop
+    }
+    Object.defineProperty(globalThis, k, {
+      get: () => jsdomWindow[k],
+      configurable: true,
+    });
+  }
+}

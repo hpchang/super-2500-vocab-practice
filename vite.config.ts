@@ -21,5 +21,12 @@ export default defineConfig({
     // directive. Default environment stays node for the pure-logic suites.
     include: ['tests/**/*.test.ts', 'tests/**/*.test.tsx'],
     globals: true,
+    environmentOptions: {
+      jsdom: {
+        // Default about:blank is an opaque origin, where jsdom provides no
+        // localStorage — session-resume tests need real storage semantics.
+        url: 'https://localhost/',
+      },
+    },
   },
 });

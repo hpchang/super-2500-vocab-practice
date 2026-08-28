@@ -3,6 +3,7 @@ import { UnitCard } from '@/components/UnitCard';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { useProgress } from '@/progressStore';
 import { wrongQueueEntries, dueEntries } from '@/lib/scheduler';
+import { hasResumableCheckpoint, loadCheckpoint } from '@/lib/checkpoint';
 
 export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
   const units = getUnits();
@@ -28,7 +29,12 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
 
   let heroLabel: string;
   let heroTarget: string;
-  if (wrongUnit) {
+  // 中斷的練習（P2-1）優先於一切任務——學生最在意的是「回來接著做」。
+  const resumable = hasResumableCheckpoint() ? loadCheckpoint() : null;
+  if (resumable) {
+    heroTarget = '/practice';
+    heroLabel = `繼續上次練習（第 ${resumable.index + 1}/${resumable.questions.length} 題）`;
+  } else if (wrongUnit) {
     heroTarget = `/unit/${wrongUnit.unit}/setup/mixed/wrong`;
     heroLabel = `繼續學習：複習錯題（${totalWrong} 字）`;
   } else if (reviewUnit) {
@@ -55,11 +61,13 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
         <div className="hero-text">
           <div className="hero-title">今日任務</div>
           <div className="hero-sub">
-            {wrongUnit
-              ? `${totalWrong} 個錯題字等著重練`
-              : reviewUnit
-                ? `${totalReview} 個單字到期複習`
-                : '沒有到期任務，學新字正是時候'}
+            {resumable
+              ? `上次練習未完成，接著做不用重來`
+              : wrongUnit
+                ? `${totalWrong} 個錯題字等著重練`
+                : reviewUnit
+                  ? `${totalReview} 個單字到期複習`
+                  : '沒有到期任務，學新字正是時候'}
           </div>
         </div>
         <button className="btn" onClick={() => navigate(heroTarget)}>

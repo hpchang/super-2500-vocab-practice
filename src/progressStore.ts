@@ -8,6 +8,7 @@ import {
   setEntryProgress,
   clearProgress,
 } from '@/lib/storage';
+import { clearCheckpoint } from '@/lib/checkpoint';
 
 let state: ProgressData = loadProgress();
 const listeners = new Set<() => void>();
@@ -42,6 +43,9 @@ export function updateEntryProgress(
 
 export function resetProgress(): void {
   state = clearProgress();
+  // 清除進度 also drops any in-flight resume checkpoint (P2-1) — with all
+  // records gone there is no session worth resuming.
+  clearCheckpoint();
   for (const l of listeners) l();
 }
 

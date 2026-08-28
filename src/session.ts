@@ -39,8 +39,7 @@ function safeGetItem(key: string): string | null {
   }
 }
 
-// Reserved for future session cleanup (e.g. P2 resume checkpoint removal).
-void 0;
+export { parseSessionConfig };
 
 const QUESTION_TYPES = ['flashcard', 'en2zh', 'zh2en', 'cloze', 'spelling'];
 const DIFFICULTY_MODES = ['adaptive', 'easy', 'medium', 'hard'];
