@@ -81,21 +81,29 @@ function buildUnit(rows: RawRow[], unit: string) {
   const unitRows = rows.filter((r) => r.unit === unit);
   const seen = new Set<string>();
   const withinUnitDups: string[] = [];
-  const entries = unitRows.map((r) => {
-    if (seen.has(r.word)) withinUnitDups.push(r.word);
+  // The workbook repeats a few words within Unit 32 on different pages (same
+  // 重要 flag, no other distinguishing column). Keep the first occurrence —
+  // entryId is word-based so a second row would collide, and it adds no info.
+  const dedupedRows = unitRows.filter((r) => {
+    if (seen.has(r.word)) {
+      withinUnitDups.push(`${r.word} (p.${r.page})`);
+      return false;
+    }
     seen.add(r.word);
-    return {
-      entryId: makeEntryId(unit, r.word),
-      termId: makeTermId(r.word),
-      word: r.word,
-      page: r.page,
-      important: r.important,
-      unit,
-    };
+    return true;
   });
+  const entries = dedupedRows.map((r) => ({
+    entryId: makeEntryId(unit, r.word),
+    termId: makeTermId(r.word),
+    word: r.word,
+    page: r.page,
+    important: r.important,
+    unit,
+  }));
   if (withinUnitDups.length) {
-    throw new Error(
-      `Unit ${unit} has duplicate words (not allowed): ${withinUnitDups.join(', ')}`
+    console.warn(
+      `Unit ${unit}: ${withinUnitDups.length} duplicate word(s) dropped ` +
+        `(kept first occurrence): ${withinUnitDups.join(', ')}`
     );
   }
   if (entries.length === 0) {
