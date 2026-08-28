@@ -1,5 +1,5 @@
 import vocabData from '@/data/vocab.json';
-import { ENRICHMENTS } from '@/lib/enrichmentRegistry';
+import { ENRICHMENTS, ENRICH_MAP } from '@/lib/enrichmentRegistry';
 import type {
   VocabData,
   VocabUnit,
@@ -25,16 +25,6 @@ export function getUnit(unit: string): VocabUnit | undefined {
 export function getEnrichment(unit: string): EnrichmentData | undefined {
   return ENRICHMENTS[unit];
 }
-
-const ENRICH_MAP: Record<string, EnrichedEntry> = (() => {
-  const map: Record<string, EnrichedEntry> = {};
-  for (const key of Object.keys(ENRICHMENTS)) {
-    for (const e of ENRICHMENTS[key].entries) {
-      map[e.entryId] = e;
-    }
-  }
-  return map;
-})();
 
 export function getEnrichedEntry(entryId: string): EnrichedEntry | undefined {
   return ENRICH_MAP[entryId];
