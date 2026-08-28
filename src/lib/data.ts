@@ -1,6 +1,5 @@
 import vocabData from '@/data/vocab.json';
-import enrichment11 from '@/data/enrichment/units-11.json';
-import enrichment12 from '@/data/enrichment/units-12.json';
+import { ENRICHMENTS } from '@/lib/enrichmentRegistry';
 import type {
   VocabData,
   VocabUnit,
@@ -10,10 +9,6 @@ import type {
 } from '@/types/index';
 
 const VOCAB = vocabData as VocabData;
-const ENRICHMENTS: Record<string, EnrichmentData> = {
-  '11': enrichment11 as EnrichmentData,
-  '12': enrichment12 as EnrichmentData,
-};
 
 export function getVocabData(): VocabData {
   return VOCAB;

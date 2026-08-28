@@ -1,8 +1,28 @@
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { readFileSync, readdirSync } from 'node:fs';
+import { resolve, join } from 'node:path';
 import type { VocabData, VocabEntry, EnrichmentData, EnrichedEntry, ClozeQuestion } from '../src/types/index.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
+
+// Ground-truth counts per unit, kept in one place for tooling.
+// (Mirrors src/lib/enrichmentRegistry.ts UNIT_METADATA.)
+const UNIT_METADATA: Record<string, { total: number; important: number }> = {
+  '11': { total: 123, important: 65 },
+  '12': { total: 130, important: 76 },
+};
+
+// Discover enrichment files instead of hardcoding unit numbers (P1-8).
+function enrichmentPaths(): string[] {
+  const dir = resolve(ROOT, 'src/data/enrichment');
+  return readdirSync(dir)
+    .filter((f) => /^units-\d+\.json$/.test(f))
+    .sort((a, b) => {
+      const na = Number(a.match(/\d+/)![0]);
+      const nb = Number(b.match(/\d+/)![0]);
+      return na - nb;
+    })
+    .map((f) => join(dir, f));
+}
 
 let errors = 0;
 let warnings = 0;
@@ -24,20 +44,34 @@ function validateVocab() {
   const data = JSON.parse(raw) as VocabData;
   if (data.schemaVersion !== 1) fail(`vocab schemaVersion=${data.schemaVersion}`);
 
-  const u11 = data.units.find((u) => u.unit === '11');
-  const u12 = data.units.find((u) => u.unit === '12');
-  if (!u11) return fail('Unit 11 missing');
-  if (!u12) return fail('Unit 12 missing');
+  // Fixed-count checks only for units with known workbook metadata;
+  // all other units just need internally consistent counts.
+  for (const u of data.units) {
+    const meta = UNIT_METADATA[u.unit];
+    if (!meta) {
+      if (u.total !== u.entries.length) {
+        fail(`Unit ${u.unit} total=${u.total} != entries ${u.entries.length}`);
+      }
+      if (u.importantCount !== u.entries.filter((e) => e.important).length) {
+        fail(`Unit ${u.unit} importantCount inconsistent with entries`);
+      } else {
+        ok(`Unit ${u.unit} counts internally consistent (${u.total} words)`);
+      }
+      continue;
+    }
+    if (u.total !== meta.total) fail(`Unit ${u.unit} total=${u.total}, expected ${meta.total}`);
+    else ok(`Unit ${u.unit} total = ${meta.total}`);
+    if (u.importantCount !== meta.important) fail(`Unit ${u.unit} important=${u.importantCount}, expected ${meta.important}`);
+    else ok(`Unit ${u.unit} important = ${meta.important}`);
+  }
 
-  // Expected counts from the workbook.
-  if (u11.total !== 123) fail(`Unit 11 total=${u11.total}, expected 123`);
-  else ok('Unit 11 total = 123');
-  if (u11.importantCount !== 65) fail(`Unit 11 important=${u11.importantCount}, expected 65`);
-  else ok('Unit 11 important = 65');
-  if (u12.total !== 130) fail(`Unit 12 total=${u12.total}, expected 130`);
-  else ok('Unit 12 total = 130');
-  if (u12.importantCount !== 76) fail(`Unit 12 important=${u12.importantCount}, expected 76`);
-  else ok('Unit 12 important = 76');
+  // Every enrichment unit must exist in vocab.
+  for (const p of enrichmentPaths()) {
+    const enr = JSON.parse(readFileSync(p, 'utf8')) as EnrichmentData;
+    if (!data.units.find((u) => u.unit === enr.unit)) {
+      fail(`enrichment unit ${enr.unit} (${p}) missing from vocab.json`);
+    }
+  }
 
   // No within-Unit duplicates.
   for (const u of data.units) {
@@ -69,10 +103,8 @@ function validateVocab() {
 }
 
 function validateEnrichment() {
-  const paths = [
-    resolve(ROOT, 'src/data/enrichment/units-11.json'),
-    resolve(ROOT, 'src/data/enrichment/units-12.json'),
-  ];
+  const paths = enrichmentPaths();
+  if (paths.length === 0) return warn('No enrichment files found');
   for (const p of paths) {
     const raw = readFileSync(p, 'utf8');
     const data = JSON.parse(raw) as EnrichmentData;
