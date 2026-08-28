@@ -739,6 +739,14 @@ h2.section-title {
   color: var(--success);
 }
 
+/* Flashcard post-rating meaning — the key info after a self-rating. */
+.flashcard-zh {
+  margin-top: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
 /* Wrong answers grouped per unit (P1-5). */
 .group-practice-btn {
   margin-top: 12px;

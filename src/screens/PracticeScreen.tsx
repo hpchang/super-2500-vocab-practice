@@ -168,9 +168,8 @@ export function PracticeScreen({
     const r = gradeFlashcard(rating);
     setChosen(rating);
     applyResult(r.correct, q.type, rating);
-    // 單字卡選完即走：釋義已在卡上、無新資訊需要停留，直接進下一題
-    // （最後一題仍由 next() 導向結果頁）。
-    next();
+    // 注意：單字卡的中文釋義只出現在 feedback 區（prompt 只有英文單字），
+    // 所以這裡不能「選完即走」——必須停留顯示釋義，讓使用者看完再前進。
   };
 
   const applyResult = (
@@ -435,13 +434,20 @@ export function PracticeScreen({
               }}
             >
               <div>
-                {feedback.state === 'correct' ? '✓ 答對了！' : '✗ 答錯了'}
+                {q.type === 'flashcard'
+                  ? flashcardFeedbackTitle(String(chosen))
+                  : feedback.state === 'correct'
+                    ? '✓ 答對了！'
+                    : '✗ 答錯了'}
               </div>
               {enriched && (
                 <>
+                  {/* 單字卡的釋義是答後最重要的資訊，放大顯示在例句前。 */}
+                  <div className={q.type === 'flashcard' ? 'flashcard-zh' : 'translation'}>
+                    釋義：{enriched.zh}
+                  </div>
                   <div className="sentence">{enriched.example}</div>
                   <div className="translation">{enriched.exampleZh}</div>
-                  <div className="translation">釋義：{enriched.zh}</div>
                   <div className="speaker-row feedback-speakers">
                     <SpeakerButton text={wordToSpeak(q)} size="sm" label="唸單字" />
                     <SpeakerButton text={enriched.example} size="sm" label="唸例句" />
@@ -472,6 +478,18 @@ export function PracticeScreen({
       )}
     </>
   );
+}
+
+/** Flashcard feedback title — self-rating, not a right/wrong verdict. */
+function flashcardFeedbackTitle(rating: string): string {
+  switch (rating) {
+    case 'forgot':
+      return '沒關係，再看一次釋義';
+    case 'familiar':
+      return '有點熟——再看一次加深印象';
+    default:
+      return '✓ 記得！';
+  }
 }
 
 function typeLabel(t?: QuestionType): string {
