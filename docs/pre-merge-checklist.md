@@ -1,7 +1,8 @@
 # Pre-merge checklist / Definition of Done
 
 每個 PR／branch merge 回 `main`（= 自動部署上線）前逐條勾選。
-「為什麼」見 `docs/invariants.md`——這份是操作清單，那份是原理。
+整體風險與測試分層見 `docs/engineering-quality.md`；具體系統保證見
+`docs/invariants.md`。這份文件只負責可執行的 Definition of Done。
 
 ## Definition of Done（任何程式碼改動）
 
