@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { loadSession, saveResult } from '@/session';
 import type { SessionConfig } from '@/session';
 import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
@@ -43,9 +43,16 @@ function buildQuestions(
 ): Question[] {
   const unit = getUnit(session.unit);
   if (!unit) return [];
-  const entries = session.entryIds
-    .map((id) => unit.entries.find((e) => e.entryId === id))
-    .filter(Boolean) as VocabEntry[];
+  const entries = (
+    session.entryIds
+      .map((id) => unit.entries.find((e) => e.entryId === id))
+      .filter(Boolean) as VocabEntry[]
+  ).slice(
+    0,
+    // Honor the batch size limit — previously batchSize was recorded but
+    // never applied, so large wrong-queue sessions exceeded it (P0-3).
+    session.batchSize,
+  );
   if (session.type === 'cloze') {
     return buildClozeSession(entries, session.difficulty ?? 'adaptive', progress.entries);
   }
@@ -66,6 +73,7 @@ export function PracticeScreen({
   const [results, setResults] = useState<
     { entryId: string; type: QuestionType; correct: boolean }[]
   >([]);
+  const feedbackRef = useRef<HTMLDivElement | null>(null);
 
   // Questions are built ONCE at session start, then rebuilt only in next()
   // with the latest progress. Building from render-time progress here (as a
@@ -135,22 +143,28 @@ export function PracticeScreen({
     if (feedback.state !== 'none') return;
     const r = gradeFlashcard(rating);
     setChosen(rating);
-    applyResult(r.correct, q.type);
+    applyResult(r.correct, q.type, rating);
   };
 
-  const applyResult = (correct: boolean, type: QuestionType) => {
+  const applyResult = (
+    correct: boolean,
+    type: QuestionType,
+    rating?: 'forgot' | 'familiar' | 'remembered',
+  ) => {
     const now = Date.now();
     updateEntryProgress(q.entryId, (prev) => {
-      const updated = recordAnswer(prev, correct, type, now);
+      const updated = recordAnswer(prev, correct, type, now, rating);
       // Record which cloze variant was used (for adaptive repeat avoidance).
       if (type === 'cloze' && q.clozeDifficulty != null && q.clozeVariant != null) {
         const prevUsed = prev.clozeUsed?.[q.clozeDifficulty] ?? [];
         const totalAtDiff = countClozeVariants(q.entryId, q.clozeDifficulty);
-        const used = prevUsed.length >= totalAtDiff ? [] : prevUsed; // reset if all used
+        // Reset only the CURRENT difficulty's list when its pool is exhausted —
+        // always keep other tiers' usage records (P0-6).
+        const used = prevUsed.length >= totalAtDiff ? [] : prevUsed;
         return {
           ...updated,
           clozeUsed: {
-            ...used.length ? prev.clozeUsed : {},
+            ...prev.clozeUsed,
             [q.clozeDifficulty]: [...used, q.clozeVariant],
           },
         };
@@ -159,6 +173,9 @@ export function PracticeScreen({
     });
     setFeedback({ state: correct ? 'correct' : 'wrong' });
     setResults((prev) => [...prev, { entryId: q.entryId, type, correct }]);
+    // Move focus to the feedback region so keyboard/SR users land on the
+    // answer feedback instead of staying on a now-disabled control (P0-10).
+    requestAnimationFrame(() => feedbackRef.current?.focus());
     // After answering: auto-speak the word for spelling & cloze.
     // (flashcard/en2zh are spoken before answering instead.)
     if (type === 'spelling' || type === 'cloze') {
@@ -174,7 +191,12 @@ export function PracticeScreen({
     const rebuilt = buildQuestions(session, getSnapshot());
     if (index + 1 >= rebuilt.length) {
       // Save results and navigate.
-      saveResult({ unit: session.unit, type: session.type, results });
+      saveResult({
+        unit: session.unit,
+        type: session.type,
+        difficulty: session.difficulty,
+        results,
+      });
       navigate('/results');
       return;
     }
@@ -219,8 +241,15 @@ export function PracticeScreen({
           )}
         </span>
       </div>
-      <div className="progress-bar">
-        <div style={{ width: `${(index / questions.length) * 100}%` }} />
+      <div
+        className="progress-bar"
+        role="progressbar"
+        aria-valuenow={index + 1}
+        aria-valuemin={1}
+        aria-valuemax={questions.length}
+        aria-label={`第 ${index + 1} / ${questions.length} 題`}
+      >
+        <div style={{ width: `${((index + 1) / questions.length) * 100}%` }} />
       </div>
 
       {q && (
@@ -266,12 +295,17 @@ export function PracticeScreen({
           {/* Spelling: pronunciation hidden before answering to avoid leaking the answer */}
           {q.type === 'spelling' && (
             <>
+              <label className="visually-hidden" htmlFor="spell-input">
+                輸入英文單字
+              </label>
               <input
+                id="spell-input"
                 className="spell-input"
                 value={spellInput}
                 onChange={(e) => setSpellInput(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && submitSpelling()}
                 placeholder="輸入英文單字"
+                aria-label="輸入英文單字"
                 disabled={feedback.state !== 'none'}
                 autoFocus
               />
@@ -327,10 +361,18 @@ export function PracticeScreen({
             </>
           )}
 
-          {/* Feedback */}
+          {/* Feedback — announced to assistive tech; not just color (P0-10/P0-11). */}
           {feedback.state !== 'none' && (
-            <div className={`feedback ${feedback.state}`}>
-              <div>{feedback.state === 'correct' ? '✓ 答對了！' : '✗ 答錯了'}</div>
+            <div
+              ref={feedbackRef}
+              className={`feedback ${feedback.state}`}
+              role="status"
+              aria-live="polite"
+              tabIndex={-1}
+            >
+              <div>
+                {feedback.state === 'correct' ? '✓ 答對了！' : '✗ 答錯了'}
+              </div>
               {enriched && (
                 <>
                   <div className="sentence">{enriched.example}</div>

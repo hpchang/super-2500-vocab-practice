@@ -23,10 +23,11 @@ export function UnitCard({
     <button
       className="unit-card"
       onClick={() => navigate(`/unit/${unit.unit}/setup`)}
-      aria-label={`${unit.title} 設定`}
     >
       <div className="title">{unit.title}</div>
       <div className="stats">
+        {/* Text content is the accessible name — an aria-label here would
+            mask the per-unit stats from screen readers (P0-10). */}
         <span className="badge">共 {unit.total} 字</span>
         <span className="badge">重要 {unit.importantCount} 字</span>
         <span className="badge practicable">可練習 {practicable} 字</span>

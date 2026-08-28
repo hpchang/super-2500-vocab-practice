@@ -63,6 +63,30 @@ describe('scheduler', () => {
     expect(after.wrongCount).toBe(0);
   });
 
+  it('familiar rating (P0-5) keeps the stage and uses a shorter interval', () => {
+    // new → familiar: stays in learning (not review), interval < 1 day.
+    const p = recordAnswer(makeInitialProgress('x'), true, 'flashcard', NOW, 'familiar');
+    expect(p.stage).toBe('learning');
+    expect(p.nextReviewAt).toBe(NOW + 0.5 * DAY_MS);
+    expect(p.totalCorrect).toBe(1);
+    expect(p.inWrongQueue).toBe(false);
+  });
+
+  it('familiar rating does not advance from learning to review', () => {
+    const p = recordAnswer(makeInitialProgress('x'), true, 'flashcard', NOW, 'remembered');
+    expect(p.stage).toBe('learning');
+    const after = recordAnswer(p, true, 'flashcard', NOW + DAY_MS, 'familiar');
+    expect(after.stage).toBe('learning');
+    expect(after.nextReviewAt).toBe(NOW + DAY_MS + 0.5 * DAY_MS);
+  });
+
+  it('remembered rating advances the stage as before', () => {
+    const p = recordAnswer(makeInitialProgress('x'), true, 'flashcard', NOW, 'remembered');
+    expect(p.stage).toBe('learning');
+    const after = recordAnswer(p, true, 'flashcard', NOW + DAY_MS, 'remembered');
+    expect(after.stage).toBe('review');
+  });
+
   it('dueEntries returns entries with null or past nextReviewAt', () => {
     const a = recordAnswer(makeInitialProgress('a'), true, 'cloze', NOW); // due at NOW+1d
     const b = recordAnswer(makeInitialProgress('b'), false, 'cloze', NOW); // due at NOW+1d

@@ -4,7 +4,7 @@ import type { EntryProgress } from '@/types/index';
 /**
  * Adaptive difficulty selection per the agreed rules:
  * - First time (totalAnswered === 0)  → medium
- * - Error rate >= 50% OR streak <= -2  → easy
+ * - Error rate >= 50% (accuracy <= 0.5) OR consecutive wrong >= 2 → easy
  * - Accuracy >= 80% AND streak >= 2   → hard
  * - Otherwise                          → medium
  *
@@ -19,8 +19,8 @@ export function chooseDifficulty(p: EntryProgress | undefined): Difficulty {
   const consecutiveCorrect = p.streak;
   const consecutiveWrong = p.wrongCount;
 
-  // Error rate >= 50% or 2+ consecutive wrong → drop to easy
-  if (accuracy < 0.5 || consecutiveWrong >= 2) return 'easy';
+  // Error rate >= 50% (i.e. accuracy <= 0.5) or 2+ consecutive wrong → drop to easy
+  if (accuracy <= 0.5 || consecutiveWrong >= 2) return 'easy';
 
   // Accuracy >= 80% and 2+ consecutive correct → challenge with hard
   if (accuracy >= 0.8 && consecutiveCorrect >= 2) return 'hard';

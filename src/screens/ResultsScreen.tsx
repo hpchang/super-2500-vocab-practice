@@ -23,11 +23,17 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
 
   const repracticeWrong = () => {
     if (wrongEntries.length === 0) return;
+    // Wrong entries may span units (mixed sessions); PracticeScreen resolves
+    // entries from a single unit, so keep only this unit's wrong entries
+    // instead of silently dropping the rest (P0-3).
+    const unitWrong = wrongEntries.filter((w) =>
+      w.entryId.startsWith(`u${result.unit}:`),
+    );
     saveSession({
       unit: result.unit,
-      entryIds: wrongEntries.map((w) => w.entryId),
+      entryIds: unitWrong.map((w) => w.entryId),
       type: 'mixed',
-      batchSize: Math.min(20, wrongEntries.length),
+      batchSize: 20,
     });
     navigate('/practice');
   };
@@ -66,7 +72,7 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       </div>
 
       <div className="card">
-        <div className="section-title">各題型表現</div>
+        <h2 className="section-title">各題型表現</h2>
         {Object.entries(summary.byType).map(([type, s]) => (
           <div className="result-stat" key={type}>
             <span className="label">{typeLabel(type as any)}</span>
@@ -78,9 +84,9 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       </div>
 
       <div className="card">
-        <div className="section-title">
+        <h2 className="section-title">
           需要再練的單字 ({wrongEntries.length})
-        </div>
+        </h2>
         {wrongEntries.length === 0 ? (
           <div className="empty">全部答對，太棒了！</div>
         ) : (
@@ -107,7 +113,15 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         >
           重練錯題
         </button>
-        <button className="btn secondary" onClick={() => navigate(`/unit/${result.unit}/setup/${result.type}`)}>
+        <button
+          className="btn secondary"
+          onClick={() => {
+            // Carry the cloze difficulty through so a fixed difficulty
+            // (e.g. 艱難) survives into the next batch (P0-7).
+            const diff = result.difficulty && result.difficulty !== 'adaptive' ? `/${result.difficulty}` : '';
+            navigate(`/unit/${result.unit}/setup/${result.type}${diff}`);
+          }}
+        >
           下一批
         </button>
       </div>

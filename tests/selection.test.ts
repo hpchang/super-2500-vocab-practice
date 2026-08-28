@@ -147,4 +147,32 @@ describe('filterEntries', () => {
     );
     expect(result.map((e) => e.entryId)).toEqual(['a']);
   });
+
+  it('review mode returns due entries but not future ones (P0-1)', () => {
+    const entries = [entry('a'), entry('b'), entry('c')];
+    const now = Date.now();
+    const progress = {
+      a: due('a'), // overdue
+      b: practiced('b'), // not due yet
+    };
+    const result = filterEntries(
+      entries,
+      progress,
+      { mode: 'review' },
+      false,
+      now,
+    );
+    expect(result.map((e) => e.entryId)).toEqual(['a']);
+  });
+
+  it('review mode with empty progress returns nothing', () => {
+    const result = filterEntries(
+      [entry('a')],
+      {},
+      { mode: 'review' },
+      false,
+      Date.now(),
+    );
+    expect(result).toEqual([]);
+  });
 });

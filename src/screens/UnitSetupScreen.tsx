@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { getUnit, getEnrichment, getPracticableEntries } from '@/lib/data';
+import { getUnit, getEnrichment, getPracticableEntries, isPracticable } from '@/lib/data';
 import {
   filterEntries,
   buildBatch,
@@ -34,19 +34,27 @@ export function UnitSetupScreen({
   unit,
   navigate,
   type,
+  filter,
+  difficulty: initialDifficulty,
 }: {
   unit: string;
   navigate: (to: string) => void;
   /** Pre-selected question type (from "下一批"), falls back to 'mixed'. */
   type?: QuestionType | 'mixed';
+  /** Pre-selected filter mode (deep-link, e.g. Home「繼續學習」→ review/wrong). */
+  filter?: FilterMode;
+  /** Pre-selected cloze difficulty (P0-7: keep a fixed difficulty across batches). */
+  difficulty?: DifficultyMode;
 }) {
   const vocabUnit = getUnit(unit);
   const progress = useProgress();
-  const [mode, setMode] = useState<FilterMode>('important');
+  const [mode, setMode] = useState<FilterMode>(filter ?? 'important');
   const [customIds, setCustomIds] = useState<Set<string>>(new Set());
   const [batchSize, setBatchSize] = useState<BatchSize>(DEFAULT_BATCH_SIZE);
   const [qType, setQType] = useState<QuestionType | 'mixed'>(type ?? 'mixed');
-  const [difficulty, setDifficulty] = useState<DifficultyMode>('adaptive');
+  const [difficulty, setDifficulty] = useState<DifficultyMode>(
+    initialDifficulty ?? 'adaptive',
+  );
 
   const enrichment = getEnrichment(unit);
   const practicableEntries = useMemo(
@@ -91,10 +99,13 @@ export function UnitSetupScreen({
   };
 
   const start = () => {
-    if (batch.length === 0) return;
+    // Defense in depth (P0-8): never let a non-practiceable entry reach a
+    // session, regardless of the filter mode used for browsing.
+    const finalBatch = batch.filter((e) => isPracticable(e.entryId));
+    if (finalBatch.length === 0) return;
     saveSession({
       unit,
-      entryIds: batch.map((e) => e.entryId),
+      entryIds: finalBatch.map((e) => e.entryId),
       type: qType,
       batchSize,
       difficulty,
@@ -130,12 +141,13 @@ export function UnitSetupScreen({
         </button>
       </div>
 
-      <div className="section-title">篩選</div>
+      <h2 className="section-title">篩選</h2>
       <div className="chip-row">
         {filters.map((f) => (
           <button
             key={f.key}
             className={`chip${mode === f.key ? ' active' : ''}`}
+            aria-pressed={mode === f.key}
             onClick={() => setMode(f.key)}
           >
             {f.label}
@@ -143,9 +155,9 @@ export function UnitSetupScreen({
         ))}
       </div>
 
-      <div className="section-title">
-        目前可練習 {practicableEntries.length} / {vocabUnit.total} 字
-      </div>
+      <h2 className="section-title">
+        已選 {filtered.length} 字 / 可練習 {practicableEntries.length} / {vocabUnit.total} 字
+      </h2>
 
       {mode === 'custom' && (
         <WordPicker
@@ -155,12 +167,13 @@ export function UnitSetupScreen({
         />
       )}
 
-      <div className="section-title">批次大小</div>
+      <h2 className="section-title">批次大小</h2>
       <div className="segment">
         {BATCH_SIZES.map((s) => (
           <button
             key={s}
             className={batchSize === s ? 'active' : ''}
+            aria-pressed={batchSize === s}
             onClick={() => setBatchSize(s)}
           >
             {s} 題
@@ -168,7 +181,7 @@ export function UnitSetupScreen({
         ))}
       </div>
 
-      <div className="section-title">題型</div>
+      <h2 className="section-title">題型</h2>
       <div className="segment">
         {QUESTION_TYPES.map((t) => {
           const count = availableForType(t.key);
@@ -177,6 +190,7 @@ export function UnitSetupScreen({
             <button
               key={t.key}
               className={qType === t.key ? 'active' : ''}
+              aria-pressed={qType === t.key}
               disabled={disabled}
               onClick={() => setQType(t.key)}
             >
@@ -189,12 +203,13 @@ export function UnitSetupScreen({
 
       {qType === 'cloze' && (
         <>
-          <div className="section-title">難度</div>
+          <h2 className="section-title">難度</h2>
           <div className="segment">
             {DIFFICULTY_OPTIONS.map((d) => (
               <button
                 key={d.key}
                 className={difficulty === d.key ? 'active' : ''}
+                aria-pressed={difficulty === d.key}
                 onClick={() => setDifficulty(d.key)}
               >
                 {d.label}
@@ -203,7 +218,7 @@ export function UnitSetupScreen({
           </div>
           {difficulty === 'adaptive' && (
             <div className="hint" style={{ textAlign: 'left', marginTop: 4 }}>
-              適性模式：首次出中等，錯誤率 ≥50% 降簡易，答對率 ≥80% 升艱難
+              適性模式：首次出中等，答對率 ≤50% 降簡易，答對率 ≥80% 且連對 2 題升艱難
             </div>
           )}
         </>

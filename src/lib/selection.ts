@@ -13,13 +13,15 @@ export interface SelectionCriteria {
 /**
  * Resolve a filter against a Unit's full entry list + progress map.
  * Returns only entries that are practiceable (have enrichment content)
- * unless the mode is "all" (used for browsing).
+ * unless `practiceableOnly` is false (browsing only — such results must
+ * never reach a practice session).
  */
 export function filterEntries(
   entries: VocabEntry[],
   progress: Record<string, EntryProgress>,
   criteria: SelectionCriteria,
   practiceableOnly = true,
+  now: number = Date.now(),
 ): VocabEntry[] {
   let result = entries;
   switch (criteria.mode) {
@@ -30,7 +32,7 @@ export function filterEntries(
       result = entries.filter((e) => {
         const p = progress[e.entryId];
         if (!p) return false;
-        return isDueForReview(p, 0);
+        return isDueForReview(p, now);
       });
       break;
     case 'wrong':
@@ -47,7 +49,7 @@ export function filterEntries(
       result = entries;
       break;
   }
-  if (practiceableOnly && criteria.mode !== 'all') {
+  if (practiceableOnly) {
     result = result.filter((e) => isPracticable(e.entryId));
   }
   return result;

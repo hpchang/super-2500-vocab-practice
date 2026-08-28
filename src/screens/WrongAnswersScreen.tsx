@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useProgress } from '@/progressStore';
 import { resetProgress } from '@/progressStore';
 import { wrongQueueEntries } from '@/lib/scheduler';
@@ -14,17 +14,54 @@ export function WrongAnswersScreen({
   const progress = useProgress();
   const wrongs = wrongQueueEntries(progress.entries);
   const [confirming, setConfirming] = useState(false);
+  const modalRef = useRef<HTMLDivElement | null>(null);
+  const openModalBtnRef = useRef<HTMLButtonElement | null>(null);
 
-  const practiceAll = () => {
-    if (wrongs.length === 0) return;
-    // Determine the unit from the first entry.
-    const first = wrongs[0];
-    const unit = first.entryId.split(':')[0].slice(1);
+  // Focus trap + focus restore for the clear-progress dialog (P0-10).
+  useEffect(() => {
+    if (!confirming) return;
+    const modal = modalRef.current;
+    modal?.querySelector<HTMLElement>('button')?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab' || !modal) return;
+      const focusables = modal.querySelectorAll<HTMLElement>('button');
+      if (focusables.length === 0) return;
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      openModalBtnRef.current?.focus();
+    };
+  }, [confirming]);
+
+  const cancelClear = () => setConfirming(false);
+
+  // Group wrong entries by unit — PracticeScreen resolves entries from a
+  // single unit, so a mixed-unit batch would silently drop other units'
+  // questions (P0-3). Each group gets its own session.
+  const groups = Object.entries(
+    wrongs.reduce<Record<string, typeof wrongs>>((acc, w) => {
+      const unit = w.entryId.split(':')[0].slice(1);
+      (acc[unit] ??= []).push(w);
+      return acc;
+    }, {}),
+  );
+
+  const practiceGroup = (unit: string, groupWrongs: typeof wrongs) => {
     saveSession({
       unit,
-      entryIds: wrongs.map((w) => w.entryId),
+      entryIds: groupWrongs.map((w) => w.entryId),
       type: 'mixed',
-      batchSize: Math.min(20, wrongs.length),
+      batchSize: 20,
     });
     navigate('/practice');
   };
@@ -51,7 +88,7 @@ export function WrongAnswersScreen({
       ) : (
         <>
           <div className="card">
-            <div className="section-title">錯題清單</div>
+            <h2 className="section-title">錯題清單</h2>
             {wrongs.map((w) => {
               const e = getEntry(w.entryId);
               const en = getEnrichedEntry(w.entryId);
@@ -67,28 +104,49 @@ export function WrongAnswersScreen({
               );
             })}
           </div>
-          <button className="btn" onClick={practiceAll}>
-            練習全部錯題
-          </button>
+          {groups.map(([unit, groupWrongs]) => (
+            <button
+              key={unit}
+              className="btn"
+              onClick={() => practiceGroup(unit, groupWrongs)}
+            >
+              練習 Unit {unit} 錯題（{groupWrongs.length} 字）
+            </button>
+          ))}
         </>
       )}
 
-      <div className="section-title" style={{ marginTop: 24 }}>
+      <h2 className="section-title" style={{ marginTop: 24 }}>
         進度管理
-      </div>
+      </h2>
       {!confirming ? (
-        <button className="btn danger" onClick={() => setConfirming(true)}>
+        <button
+          className="btn danger"
+          onClick={() => setConfirming(true)}
+          ref={openModalBtnRef}
+        >
           清除所有進度
         </button>
       ) : (
-        <div className="modal-overlay" onClick={() => setConfirming(false)}>
-          <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <h3>清除所有進度？</h3>
+        <div
+          className="modal-overlay"
+          onClick={() => setConfirming(false)}
+          onKeyDown={(e) => e.key === 'Escape' && setConfirming(false)}
+        >
+          <div
+            className="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="clear-progress-title"
+            onClick={(e) => e.stopPropagation()}
+            ref={modalRef}
+          >
+            <h3 id="clear-progress-title">清除所有進度？</h3>
             <p>
               這會刪除所有作答紀錄、熟悉度與錯題，且無法復原。確定要繼續嗎？
             </p>
             <div className="btn-row">
-              <button className="btn secondary" onClick={() => setConfirming(false)}>
+              <button className="btn secondary" onClick={cancelClear} autoFocus>
                 取消
               </button>
               <button className="btn danger" onClick={doClear}>

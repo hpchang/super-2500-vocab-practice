@@ -24,6 +24,12 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Test
+        run: npm test
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Validate data
+        run: npx tsx scripts/validate-data.ts
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

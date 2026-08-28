@@ -35,6 +35,11 @@ describe('chooseDifficulty', () => {
     expect(chooseDifficulty(p)).toBe('easy');
   });
 
+  it('returns easy at exactly 50% accuracy (2/4) even without consecutive wrongs (P0-4)', () => {
+    const p = makeProgress({ totalAnswered: 4, totalCorrect: 2, totalWrong: 2, streak: 1, wrongCount: 1 });
+    expect(chooseDifficulty(p)).toBe('easy');
+  });
+
   it('returns easy when 2+ consecutive wrong even if overall accuracy ok', () => {
     const p = makeProgress({ totalAnswered: 10, totalCorrect: 7, totalWrong: 3, streak: 0, wrongCount: 2 });
     // accuracy = 0.7 (>=50%) but wrongCount >= 2 → easy

@@ -9,6 +9,9 @@ const REVIEW_INTERVALS: Record<Stage, number> = {
   strong: 7,
 };
 
+/** "有點熟" review interval — shorter than a clean correct answer (1 day). */
+const FAMILIAR_INTERVAL_DAYS = 0.5;
+
 export function makeInitialProgress(entryId: string): EntryProgress {
   return {
     entryId,
@@ -39,6 +42,8 @@ export function recordAnswer(
   correct: boolean,
   type: QuestionType,
   now: number,
+  /** Flashcard self-rating; 'familiar' keeps the stage but shortens the interval. */
+  rating?: 'forgot' | 'familiar' | 'remembered',
 ): EntryProgress {
   const base: EntryProgress = {
     ...prev,
@@ -47,6 +52,21 @@ export function recordAnswer(
   };
 
   if (correct) {
+    // "有點熟" (familiar): the word was recalled with effort, so unlike a
+    // clean "remembered" it does NOT advance the stage (per the
+    // "familiar 留在 learning" rule) and gets a shorter review interval.
+    if (rating === 'familiar') {
+      return {
+        ...base,
+        totalCorrect: prev.totalCorrect + 1,
+        streak: prev.streak + 1,
+        stage: prev.stage === 'new' ? 'learning' : prev.stage,
+        nextReviewAt: now + FAMILIAR_INTERVAL_DAYS * DAY_MS,
+        inWrongQueue: false,
+        wrongCount: 0,
+        lastWrongType: prev.lastWrongType,
+      };
+    }
     const nextStage = advance(prev.stage);
     const interval = REVIEW_INTERVALS[nextStage];
     return {
