@@ -65,7 +65,12 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       </div>
 
       {/* 三 KPI（P1-4）：完成 / 答對 / 待再練；accuracy 次要。 */}
-      <div className="card">
+      <div className={`card${summary.wrong === 0 ? ' celebrate' : ''}`}>
+        {summary.wrong === 0 && (
+          <div className="celebrate-banner" role="status">
+            🎉 全對！太棒了
+          </div>
+        )}
         <div className="kpi-row">
           <div className="kpi">
             <div className="kpi-value">{summary.total}</div>
