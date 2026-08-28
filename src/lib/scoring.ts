@@ -47,7 +47,9 @@ export function summarize(
   results: { entryId: string; type: QuestionType; correct: boolean }[],
 ): SessionSummary {
   const byType: Record<string, { total: number; correct: number }> = {};
-  const wrongEntries: { entryId: string; type: QuestionType }[] = [];
+  // Deduplicate by entryId — a word answered wrong twice (e.g. mixed
+  // sessions) should appear once in 待再練 (P1-4).
+  const wrongMap = new Map<string, { entryId: string; type: QuestionType }>();
   let correct = 0;
   for (const r of results) {
     const key = r.type;
@@ -56,8 +58,8 @@ export function summarize(
     if (r.correct) {
       correct++;
       byType[key].correct++;
-    } else {
-      wrongEntries.push({ entryId: r.entryId, type: r.type });
+    } else if (!wrongMap.has(r.entryId)) {
+      wrongMap.set(r.entryId, { entryId: r.entryId, type: r.type });
     }
   }
   const total = results.length;
@@ -67,6 +69,6 @@ export function summarize(
     wrong: total - correct,
     accuracy: total === 0 ? 0 : correct / total,
     byType,
-    wrongEntries,
+    wrongEntries: [...wrongMap.values()],
   };
 }

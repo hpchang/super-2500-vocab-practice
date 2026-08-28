@@ -1,11 +1,11 @@
 :root {
-  --bg: #f7f8fa;
+  --bg: #f6f8fc;
   --surface: #ffffff;
-  --surface-2: #f1f3f6;
-  --border: #e3e6ec;
-  --text: #1f2937;
-  --text-muted: #6b7280;
-  --primary: #1f6feb;
+  --surface-2: #eef3f8;
+  --border: #d7e0ea;
+  --text: #172033;
+  --text-muted: #526174;
+  --primary: #1d4ed8;
   --primary-weak: #e8f0ff;
   --success: #166534;
   --success-weak: #e7f7ed;
@@ -14,8 +14,8 @@
   --warning: #92400e;
   --warning-weak: #fff5e6;
   --focus: #7c3aed;
-  --radius: 12px;
-  --radius-sm: 8px;
+  --radius: 16px;
+  --radius-sm: 12px;
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.04);
   --maxw: 640px;
 }
@@ -68,14 +68,84 @@
   outline-offset: 3px;
 }
 
-/* Respect the user's reduced-motion preference (P0-10). */
+/* Respect the user's reduced-motion preference (P0-10).
+   .force-motion (settings drawer, P1-6) lets users re-enable animations. */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
+  html:not(.force-motion) *,
+  html:not(.force-motion) *::before,
+  html:not(.force-motion) *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+
+html.force-motion {
+  scroll-behavior: auto;
+}
+
+/* Responsive (P1-10): 320px no horizontal scroll, list items wrap,
+   segments stay usable on narrow screens. */
+.list-item {
+  min-width: 0;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.list-item span:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  /* Question-type / batch segments: 3 per row instead of 6 across. */
+  .segment {
+    flex-wrap: wrap;
+  }
+
+  .segment button {
+    flex: 1 1 30%;
+    min-height: 44px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero .btn {
+    width: 100%;
+  }
+
+  .kpi-value {
+    font-size: 1.3rem;
+  }
+
+  .qprompt {
+    font-size: 1.75rem;
+  }
+
+  .qprompt.cloze {
+    font-size: 1.3rem;
+  }
+
+  .flashcard-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .word-toolbar {
+    flex-wrap: wrap;
+  }
+
+  .word-search {
+    flex: 1 1 100%;
+  }
+}
+
+/* 200% zoom support: content reflows instead of scrolling sideways. */
+@media (max-width: 360px) {
+  body {
+    font-size: 15px;
   }
 }
 
@@ -165,6 +235,11 @@ a {
   box-shadow: var(--shadow);
   margin-bottom: 12px;
   color: var(--text);
+  transition: border-color 0.15s ease, transform 0.1s ease;
+}
+
+.unit-card:hover {
+  border-color: var(--primary);
 }
 
 .unit-card:active {
@@ -230,6 +305,12 @@ h2.section-title {
   font-size: 1rem;
   font-weight: 500;
   width: 100%;
+  min-height: 44px;
+  transition: filter 0.15s ease, transform 0.1s ease;
+}
+
+.btn:hover:not(:disabled) {
+  filter: brightness(1.08);
 }
 
 .btn:active {
@@ -282,6 +363,12 @@ h2.section-title {
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 0.85rem;
+  min-height: 44px;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.chip:hover {
+  border-color: var(--primary);
 }
 
 .chip.active {
@@ -318,6 +405,50 @@ h2.section-title {
 
 .segment button:disabled {
   opacity: 0.4;
+}
+
+/* Word picker toolbar + search (P1-3). */
+.word-picker {
+  margin-bottom: 12px;
+}
+
+.word-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bg);
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+
+.word-search {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.word-tool-btn {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.85rem;
+  min-height: 44px;
+}
+
+.word-count {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  white-space: nowrap;
 }
 
 /* Word picker list */
@@ -394,14 +525,14 @@ h2.section-title {
 }
 
 .qprompt {
-  font-size: 1.3rem;
+  font-size: 2.25rem;
   font-weight: 600;
   margin: 12px 0 20px;
   text-align: center;
 }
 
 .qprompt.cloze {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 
@@ -422,7 +553,13 @@ h2.section-title {
   color: var(--text);
   text-align: left;
   font-size: 1rem;
-  min-height: 56px;
+  min-height: 64px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  background: var(--primary-weak);
 }
 
 .option-btn .key {
@@ -593,6 +730,146 @@ h2.section-title {
   color: var(--success);
 }
 
+/* Wrong answers grouped per unit (P1-5). */
+.group-practice-btn {
+  margin-top: 12px;
+}
+
+/* Persistent settings entry + drawer (P1-6). */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.settings-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  min-height: 44px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.settings-modal {
+  max-width: 400px;
+}
+
+.settings-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.settings-row select {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.settings-row input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.settings-note {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.settings-danger {
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.settings-danger-title {
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.settings-confirm p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
+/* Results — three KPIs (P1-4). */
+.kpi-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.kpi {
+  flex: 1;
+  text-align: center;
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 12px 4px;
+}
+
+.kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.kpi-success {
+  color: var(--success);
+}
+
+.kpi-warn {
+  color: var(--danger);
+}
+
+.kpi-label {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  margin-top: 2px;
+}
+
+.accuracy-line {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* Shared action-button spacing (replaces inline marginTop: 12). */
+.action-btn {
+  margin-top: 12px;
+}
+
+.feedback-speakers {
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.tag-wrong {
+  color: var(--danger);
+}
+
 /* Results */
 .result-stat {
   display: flex;
@@ -684,6 +961,103 @@ h2.section-title {
   border-radius: var(--radius-sm);
   font-size: 0.82rem;
   margin-bottom: 12px;
+}
+
+/* Home hero (P1-1): today's task + one primary CTA. */
+.hero {
+  background: var(--primary-weak);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.hero-sub {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.hero .btn {
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Setup one-click start + advanced drawer (P1-2). */
+.quick-start {
+  margin-bottom: 12px;
+}
+
+.quick-summary {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-top: 6px;
+}
+
+.advanced-drawer {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  margin-bottom: 12px;
+}
+
+.advanced-drawer summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+}
+
+.advanced-drawer summary::before {
+  content: '▸';
+  transition: transform 0.15s ease;
+  display: inline-block;
+}
+
+.advanced-drawer[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.drawer-body {
+  padding: 0 16px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.drawer-hint {
+  text-align: left;
+  margin-top: 4px;
+}
+
+.drawer-card {
+  box-shadow: none;
+  background: var(--surface-2);
+}
+
+.drawer-note {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 4px;
 }
 
 /* Screen-reader-only text (P0-10). */

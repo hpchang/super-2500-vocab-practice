@@ -1,6 +1,7 @@
 import { loadResult } from '@/session';
 import { summarize } from '@/lib/scoring';
 import { getEntry, getEnrichedEntry } from '@/lib/data';
+import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
 
 export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) {
@@ -38,6 +39,15 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
     navigate('/practice');
   };
 
+  // 下一批 carries question type + fixed cloze difficulty (P0-7).
+  const nextBatch = () => {
+    const diff =
+      result.difficulty && result.difficulty !== 'adaptive'
+        ? `/${result.difficulty}`
+        : '';
+    navigate(`/unit/${result.unit}/setup/${result.type}${diff}`);
+  };
+
   return (
     <>
       <div className="app-header">
@@ -45,29 +55,38 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
           <h1>練習結果</h1>
           <div className="sub">{unitTitle} · {typeLabel(result.type)}</div>
         </div>
-        <button className="back-btn" onClick={() => navigate('/')}>
-          ← 返回
-        </button>
+        <div className="header-actions">
+          <SettingsDrawer />
+          <button className="back-btn" onClick={() => navigate('/')}>
+            ← 返回
+          </button>
+        </div>
       </div>
 
+      {/* 三 KPI（P1-4）：完成 / 答對 / 待再練；accuracy 次要。 */}
       <div className="card">
-        <div className="summary-big">
-          <div className="pct">{Math.round(summary.accuracy * 100)}%</div>
-          <div className="frac">
-            {summary.correct} / {summary.total} 題答對
+        <div className="kpi-row">
+          <div className="kpi">
+            <div className="kpi-value">{summary.total}</div>
+            <div className="kpi-label">完成</div>
+          </div>
+          <div className="kpi">
+            <div className="kpi-value kpi-success">
+              {summary.correct}
+            </div>
+            <div className="kpi-label">答對</div>
+          </div>
+          <div className="kpi">
+            <div
+              className={`kpi-value${wrongEntries.length > 0 ? ' kpi-warn' : ''}`}
+            >
+              {wrongEntries.length}
+            </div>
+            <div className="kpi-label">待再練</div>
           </div>
         </div>
-        <div className="result-stat">
-          <span className="label">答對</span>
-          <span className="value" style={{ color: 'var(--success)' }}>
-            {summary.correct}
-          </span>
-        </div>
-        <div className="result-stat">
-          <span className="label">答錯</span>
-          <span className="value" style={{ color: 'var(--danger)' }}>
-            {summary.wrong}
-          </span>
+        <div className="accuracy-line">
+          正確率 {Math.round(summary.accuracy * 100)}%
         </div>
       </div>
 
@@ -105,26 +124,25 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         )}
       </div>
 
+      {/* 情境 CTA（P1-4）：有錯題→重練這些字；全對→下一批；不渲染 disabled primary。 */}
       <div className="btn-row">
-        <button
-          className="btn"
-          disabled={wrongEntries.length === 0}
-          onClick={repracticeWrong}
-        >
-          重練錯題
-        </button>
-        <button
-          className="btn secondary"
-          onClick={() => {
-            // Carry the cloze difficulty through so a fixed difficulty
-            // (e.g. 艱難) survives into the next batch (P0-7).
-            const diff = result.difficulty && result.difficulty !== 'adaptive' ? `/${result.difficulty}` : '';
-            navigate(`/unit/${result.unit}/setup/${result.type}${diff}`);
-          }}
-        >
-          下一批
-        </button>
+        {wrongEntries.length > 0 ? (
+          <button className="btn" onClick={repracticeWrong}>
+            重練這些字（{wrongEntries.length}）
+          </button>
+        ) : (
+          <button className="btn" onClick={nextBatch}>
+            下一批
+          </button>
+        )}
       </div>
+      {wrongEntries.length > 0 && (
+        <div className="btn-row">
+          <button className="btn secondary" onClick={nextBatch}>
+            下一批
+          </button>
+        </div>
+      )}
       <div className="btn-row">
         <button className="btn ghost" onClick={() => navigate('/')}>
           返回首頁

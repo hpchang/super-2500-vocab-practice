@@ -11,6 +11,7 @@ import { warmUpVoices, speak } from '@/lib/speak';
 import { countClozeVariants } from '@/lib/clozeGenerator';
 import { updateEntryProgress, getSnapshot } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
+import { SettingsDrawer } from '@/components/SettingsDrawer';
 import type { QuestionType, VocabEntry, ProgressData } from '@/types/index';
 
 type Feedback =
@@ -217,14 +218,18 @@ export function PracticeScreen({
           <h1>{session.unit === '11' ? 'Unit 11' : `Unit ${session.unit}`}</h1>
           <div className="sub">{typeLabel(q?.type)}</div>
         </div>
-        <button
-          className="back-btn"
-          onClick={() => {
-            if (confirm('確定要結束本次練習？進度不會儲存為完成。')) navigate('/');
-          }}
-        >
-          結束
-        </button>
+        <div className="header-actions">
+          {/* Practice 用不離題 drawer（P1-6）：只有設定，沒有離開按鈕。 */}
+          <SettingsDrawer />
+          <button
+            className="back-btn"
+            onClick={() => {
+              if (confirm('確定要結束本次練習？進度不會儲存為完成。')) navigate('/');
+            }}
+          >
+            結束
+          </button>
+        </div>
       </div>
 
       <div className="qmeta">
@@ -332,8 +337,7 @@ export function PracticeScreen({
               )}
               {feedback.state === 'none' && (
                 <button
-                  className="btn"
-                  style={{ marginTop: 12 }}
+                  className="btn action-btn"
                   onClick={submitSpelling}
                   disabled={!spellInput.trim()}
                 >
@@ -378,7 +382,7 @@ export function PracticeScreen({
                   <div className="sentence">{enriched.example}</div>
                   <div className="translation">{enriched.exampleZh}</div>
                   <div className="translation">釋義：{enriched.zh}</div>
-                  <div className="speaker-row" style={{ justifyContent: 'flex-start', marginTop: 8 }}>
+                  <div className="speaker-row feedback-speakers">
                     <SpeakerButton text={wordToSpeak(q)} size="sm" label="唸單字" />
                     <SpeakerButton text={enriched.example} size="sm" label="唸例句" />
                   </div>
@@ -398,7 +402,7 @@ export function PracticeScreen({
           )}
 
           {feedback.state !== 'none' && (
-            <button className="btn" style={{ marginTop: 12 }} onClick={next}>
+            <button className="btn action-btn" onClick={next}>
               {index + 1 >= questions.length ? '查看結果' : '下一題'}
             </button>
           )}

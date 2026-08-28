@@ -1,4 +1,4 @@
-import { isSpeechSupported, speak } from '@/lib/speak';
+import { isSpeechSupported, speakNow } from '@/lib/speak';
 
 interface Props {
   /** The English word/phrase to pronounce. */
@@ -17,7 +17,7 @@ export function SpeakerButton({ text, size = 'lg', label, ariaLabel }: Props) {
   return (
     <button
       className={cls}
-      onClick={() => speak(text)}
+      onClick={() => speakNow(text)}
       aria-label={ariaLabel ?? `發音：${text}`}
       type="button"
     >

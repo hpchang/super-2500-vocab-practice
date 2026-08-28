@@ -166,18 +166,29 @@ describe('HomeScreen 繼續學習 targeting (P0-2)', () => {
     });
   });
 
-  it('keeps 繼續學習 disabled when nothing is due or wrong', async () => {
+  it('falls back to 開始學新字 when nothing is due or wrong (P1-1)', async () => {
+    let lastNav: string | null = null;
     const container = document.createElement('div');
     document.body.appendChild(container);
     const root = createRoot(container);
     await act(async () => {
-      root.render(<HomeScreen navigate={() => {}} />);
+      root.render(
+        <HomeScreen navigate={(to: string) => (lastNav = to)} />,
+      );
     });
 
+    // Hero CTA always exists; with no tasks it invites learning new words.
     const btn = Array.from(document.querySelectorAll('button')).find((b) =>
-      b.textContent?.includes('繼續學習'),
+      b.textContent?.includes('開始學新字'),
     ) as HTMLButtonElement;
-    expect(btn.disabled).toBe(true);
+    expect(btn).toBeDefined();
+    expect(btn.disabled).toBe(false);
+
+    await act(async () => {
+      btn.click();
+    });
+    // First practiceable unit's setup page.
+    expect(lastNav).toBe('/unit/11/setup');
 
     await act(async () => {
       root.unmount();

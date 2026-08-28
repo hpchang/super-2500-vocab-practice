@@ -1,5 +1,6 @@
 import { getUnits, isPracticable } from '@/lib/data';
 import { UnitCard } from '@/components/UnitCard';
+import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { useProgress } from '@/progressStore';
 import { wrongQueueEntries, dueEntries } from '@/lib/scheduler';
 
@@ -10,8 +11,9 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
   const totalWrong = wrongQueueEntries(progress.entries).length;
   const totalReview = dueEntries(progress.entries, now).length;
 
-  // 「繼續學習」導向第一個有到期字的 Unit（錯題優先），並帶上對應 filter，
-  // 讓按鈕真的練到該 Unit 的待辦字，而非固定 Unit 11（P0-2）。
+  // Hero CTA（P1-1，含 P0-2 導向邏輯）：有錯題→錯題、有到期→複習、
+  // 都沒有→開始學新字。導向第一個真的有任務的 Unit，並帶上對應 filter，
+  // 而非固定 Unit 11。
   const wrongUnit = units.find((u) =>
     wrongQueueEntries(progress.entries).some((w) =>
       u.entries.some((e) => e.entryId === w.entryId && isPracticable(e.entryId)),
@@ -24,14 +26,19 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
     ),
   );
 
-  let continueLabel = '繼續學習';
-  let continueTarget: string | null = null;
+  let heroLabel: string;
+  let heroTarget: string;
   if (wrongUnit) {
-    continueTarget = `/unit/${wrongUnit.unit}/setup/mixed/wrong`;
-    continueLabel += `（${totalWrong} 錯題）`;
+    heroTarget = `/unit/${wrongUnit.unit}/setup/mixed/wrong`;
+    heroLabel = `繼續學習：複習錯題（${totalWrong} 字）`;
   } else if (reviewUnit) {
-    continueTarget = `/unit/${reviewUnit.unit}/setup/mixed/review`;
-    continueLabel += `（${totalReview} 待複習）`;
+    heroTarget = `/unit/${reviewUnit.unit}/setup/mixed/review`;
+    heroLabel = `繼續學習：待複習（${totalReview} 字）`;
+  } else {
+    // 無待辦 → 導向第一個可練習單元的「重要字」預設設定頁。
+    const firstOpen = units.find((u) => u.entries.some((e) => isPracticable(e.entryId)));
+    heroTarget = firstOpen ? `/unit/${firstOpen.unit}/setup` : '/wrong';
+    heroLabel = '開始學新字';
   }
 
   return (
@@ -41,6 +48,23 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
           <h1>Super 2500 字彙練習</h1>
           <div className="sub">國中英文 · PoC</div>
         </div>
+        <SettingsDrawer />
+      </div>
+
+      <div className="hero">
+        <div className="hero-text">
+          <div className="hero-title">今日任務</div>
+          <div className="hero-sub">
+            {wrongUnit
+              ? `${totalWrong} 個錯題字等著重練`
+              : reviewUnit
+                ? `${totalReview} 個單字到期複習`
+                : '沒有到期任務，學新字正是時候'}
+          </div>
+        </div>
+        <button className="btn" onClick={() => navigate(heroTarget)}>
+          {heroLabel}
+        </button>
       </div>
 
       <div className="note">
@@ -54,13 +78,6 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
 
       <h2 className="section-title">快速入口</h2>
       <div className="btn-row">
-        <button
-          className="btn secondary"
-          disabled={continueTarget === null}
-          onClick={() => continueTarget && navigate(continueTarget)}
-        >
-          {continueTarget ? continueLabel : '繼續學習'}
-        </button>
         <button
           className="btn secondary"
           disabled={totalWrong === 0}

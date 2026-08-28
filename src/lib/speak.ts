@@ -1,5 +1,7 @@
 /** Browser text-to-speech wrapper around window.speechSynthesis. */
 
+import { getPrefs } from '@/prefs';
+
 export function isSpeechSupported(): boolean {
   return (
     typeof window !== 'undefined' &&
@@ -25,6 +27,15 @@ let cachedVoice: SpeechSynthesisVoice | null = null;
 
 /** Speak an English word/phrase once, canceling any in-flight utterance. */
 export function speak(text: string): void {
+  if (!isSpeechSupported()) return;
+  // Respect the user's autoplay setting (P1-6); manual speaker buttons call
+  // speakNow() directly so they always work.
+  if (!getPrefs().speechAutoplay) return;
+  speakNow(text);
+}
+
+/** Speak regardless of the autoplay preference — for explicit buttons. */
+export function speakNow(text: string): void {
   if (!isSpeechSupported()) return;
   const synth = window.speechSynthesis;
   synth.cancel(); // stop overlapping speech

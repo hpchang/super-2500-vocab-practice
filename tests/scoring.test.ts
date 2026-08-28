@@ -47,4 +47,13 @@ describe('scoring', () => {
     expect(s.byType['en2zh']).toEqual({ total: 2, correct: 1 });
     expect(s.wrongEntries.map((w) => w.entryId)).toEqual(['b']);
   });
+
+  it('summarize deduplicates wrongEntries by entryId (P1-4)', () => {
+    const s = summarize([
+      { entryId: 'a', type: 'cloze', correct: false },
+      { entryId: 'a', type: 'spelling', correct: false },
+      { entryId: 'b', type: 'en2zh', correct: false },
+    ]);
+    expect(s.wrongEntries.map((w) => w.entryId)).toEqual(['a', 'b']);
+  });
 });
