@@ -38,14 +38,32 @@ export function speak(text: string): void {
 export function speakNow(text: string): void {
   if (!isSpeechSupported()) return;
   const synth = window.speechSynthesis;
-  synth.cancel(); // stop overlapping speech
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
   u.rate = 0.9; // slightly slower for learners
   u.pitch = 1;
   if (!cachedVoice) cachedVoice = pickEnglishVoice();
   if (cachedVoice) u.voice = cachedVoice;
-  synth.speak(u);
+
+  // Chrome drops utterances when cancel() and speak() run in the same tick,
+  // and speech stuck in a paused state never plays without resume().
+  // Cancel only when something is actually playing, then defer the new
+  // utterance to the next tick (fixes 「有按鈕、沒聲音」).
+  const guardedResume = () => {
+    try {
+      synth.resume?.();
+    } catch {
+      // resume() missing/throwing is harmless when nothing is paused.
+    }
+  };
+  if (synth.speaking || synth.pending || synth.paused) {
+    synth.cancel();
+    guardedResume();
+    setTimeout(() => synth.speak(u), 0);
+  } else {
+    guardedResume();
+    synth.speak(u);
+  }
 }
 
 /**
@@ -61,4 +79,19 @@ export function warmUpVoices(): void {
       cachedVoice = pickEnglishVoice();
     };
   }
+}
+
+/** Diagnostic: report why speech may be silent (console, dev only). */
+export function diagnoseSpeech(): string {
+  if (!isSpeechSupported()) return 'speechSynthesis unsupported';
+  const voices = window.speechSynthesis.getVoices();
+  const en = voices.filter((v) => v.lang.startsWith('en'));
+  return [
+    `voices=${voices.length}`,
+    `enVoices=${en.length}`,
+    `cachedVoice=${cachedVoice ? cachedVoice.name : 'none'}`,
+    `speaking=${window.speechSynthesis.speaking}`,
+    `pending=${window.speechSynthesis.pending}`,
+    `paused=${window.speechSynthesis.paused}`,
+  ].join(', ');
 }

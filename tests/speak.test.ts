@@ -42,6 +42,10 @@ describe('speak (text-to-speech)', () => {
       speechSynthesis: {
         speak: () => {},
         cancel: () => {},
+        resume: () => {},
+        speaking: false,
+        pending: false,
+        paused: false,
         getVoices: () => [],
         onvoiceschanged: null,
       },
