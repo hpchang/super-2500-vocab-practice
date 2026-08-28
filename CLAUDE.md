@@ -20,13 +20,14 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 
 ### 來源資料
 - Excel 全文 2,485 字已可匯入。`scripts/import-workbook.ts` 預設只輸出 Unit 11、12。
-- `src/data/vocab.json` 目前只含 Unit 11（123 字/65 重要字）、Unit 12（130 字/76 重要字）。
-- **Unit 1–10、13–32 尚未匯入 vocab.json**，需要時跑：
+- `src/data/vocab.json` 目前含 Unit 11–18（共 622 字）。各 Unit 字數：
+  U11 123、U12 130、U13 212、U14 87、U15 24、U16 73、U17 30、U18 73。
+- **Unit 1–10、19–32 尚未匯入 vocab.json**，需要時跑：
   `npx tsx scripts/import-workbook.ts -- --units=1,2,...,32`
 
 ### Enrichment（中文/詞性/例句/題目）
-- Unit 11: 123 字、Unit 12: 130 字，全部 253 字已有完整 enrichment。
-- 其餘 30 個單元無 enrichment（網站標「尚未提供練習」）。
+- Unit 11–18 全部 622 字已有完整 enrichment（每字 5+1 題情境填空，共 3,732 題）。
+- 其餘 24 個單元無 enrichment（網站標「尚未提供練習」）。
 
 ### 題型（6 種）
 單字卡、英選中、中選英、情境填空、拼字、混合。
@@ -37,7 +38,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 出過的題目記錄避免重複，同難度用完才重出。
 - Unit 設定頁選情境填空時可選難度：適性／簡易／中等／艱難（預設適性）。
 - 干擾項可跨 Unit，但優先選同 Unit；難題的相關選項由人工語境與搭配確認答案唯一。
-- **決定性線索品質標準（Unit 11、12 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句。
+- **決定性線索品質標準（Unit 11–18 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句。
 
 ### 批次選擇（`src/lib/selection.ts`）
 - `buildBatch` 依優先序分組：**錯題（inWrongQueue）→ 到期複習（isDueForReview）→ 未練過（無 progress）→ 其餘（練過未到期）**，每組內維持工作簿字母序。
@@ -102,7 +103,7 @@ npx tsx scripts/validate-data.ts     驗證資料
 3. **已修：Unit 12 情境填空對齊決定性線索**（2026-08-28，commit `f1795bd`）。
    - 重寫全部 130 字 × 5 題（650 題），比照 Unit 11 品質標準；保留 `zh/pos/example/exampleZh/spellingHint/status/source` 不變。
    - 產製流程：subagent 分批（A–F）寫入 `src/data/enrichment/.staging/` → 稽核腳本檢查 7 個品質維度 → 合併回 `units-12.json` → 刪除 staging。
-   - 驗證：`tests/unit11ClozeData.test.ts` 參數化涵蓋 Unit 11＋12（87→97 tests）、`validate-data` 0 errors、build 成功。
+   - 驗證：`tests/unit11ClozeData.test.ts` 參數化涵蓋 Unit 11–18（87→173 tests）、`validate-data` 0 errors、build 成功。
 
 4. **Code review 修復：P0 + P1 已完成**（2026-08-28）。
    - **P0 已修**（commit `5450324`，12 項全數）：待複習 now=0、首頁導向有任務的
