@@ -32,8 +32,20 @@
 npm install        # 安裝依賴
 npm run dev        # 本機開發
 npm run build      # 正式建置
-npm test           # 跑測試
+npm test           # 跑單元／組件測試
+npm run check      # 正式 build + Playwright 瀏覽器 smoke
 ```
+
+## 工程品質
+
+本專案採風險導向的測試分層：unit tests、資料驗證、jsdom component tests，
+以及執行真實 `dist/` 的 Playwright smoke。品質原則、風險與演進方式見
+[`docs/engineering-quality.md`](docs/engineering-quality.md)；系統保證與合併前操作分別見
+[`docs/invariants.md`](docs/invariants.md) 和
+[`docs/pre-merge-checklist.md`](docs/pre-merge-checklist.md)。
+
+尚未接受的品質改善構想以 GitHub Issues（建議標籤 `quality`）追蹤；正式採用後才更新
+專案策略、invariants、checklist 或 ADR。
 
 ## 部署
 

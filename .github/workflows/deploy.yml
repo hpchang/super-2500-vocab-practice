@@ -30,7 +30,12 @@ jobs:
         run: npx tsc --noEmit
       - name: Validate data
         run: npx tsx scripts/validate-data.ts
-      - run: npm run build
+      # E2E smoke against the real dist/ bundle — the layer that catches
+      # "unit tests green but the shipped page is broken" (lazy-load timing).
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+      - name: E2E smoke (build + preview + browser)
+        run: npm run check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

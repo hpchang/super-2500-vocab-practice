@@ -1,6 +1,7 @@
 import { loadResult } from '@/session';
 import { summarize } from '@/lib/scoring';
 import { getEntry, getEnrichedEntry } from '@/lib/data';
+import { loadHistory, historyDailySeries } from '@/lib/history';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
 
@@ -64,7 +65,12 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       </div>
 
       {/* 三 KPI（P1-4）：完成 / 答對 / 待再練；accuracy 次要。 */}
-      <div className="card">
+      <div className={`card${summary.wrong === 0 ? ' celebrate' : ''}`}>
+        {summary.wrong === 0 && (
+          <div className="celebrate-banner" role="status">
+            🎉 全對！太棒了
+          </div>
+        )}
         <div className="kpi-row">
           <div className="kpi">
             <div className="kpi-value">{summary.total}</div>
@@ -100,6 +106,12 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
             </span>
           </div>
         ))}
+      </div>
+
+      {/* 近 14 天練習趨勢（P2-3）：每天一根柱，高度＝當日題數，顏色＝正確率。 */}
+      <div className="card">
+        <h2 className="section-title">近 14 天練習趨勢</h2>
+        <HistoryChart />
       </div>
 
       <div className="card">
@@ -149,6 +161,45 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         </button>
       </div>
     </>
+  );
+}
+
+/** 近 14 天趨勢：純 CSS 柱狀圖，高度＝當日題數，顏色＝正確率。 */
+function HistoryChart() {
+  const records = loadHistory();
+  const series = historyDailySeries(records, Date.now(), 14);
+  const maxTotal = Math.max(...series.map((d) => d.total), 1);
+  const activeDays = series.filter((d) => d.total > 0).length;
+
+  if (activeDays === 0) {
+    return <div className="empty">還沒有練習紀錄——完成一次練習後這裡會顯示趨勢。</div>;
+  }
+
+  return (
+    <div
+      className="trend-chart"
+      role="img"
+      aria-label={`近 14 天練習趨勢：有練習 ${activeDays} 天`}
+    >
+      {series.map((d) => {
+        const acc = d.total === 0 ? 0 : d.correct / d.total;
+        // Color by accuracy; gray when there is no data for the day.
+        const barClass =
+          d.total === 0 ? '' : acc >= 0.8 ? 'good' : acc >= 0.5 ? 'mid' : 'low';
+        return (
+          <div className="trend-col" key={d.day}>
+            <div className="trend-bar-area">
+              <div
+                className={`trend-bar ${barClass}`}
+                style={{ height: `${Math.max((d.total / maxTotal) * 100, d.total > 0 ? 8 : 2)}%` }}
+                title={`${d.day}：${d.correct}/${d.total} 題`}
+              />
+            </div>
+            <div className="trend-day">{d.day}</div>
+          </div>
+        );
+      })}
+    </div>
   );
 }
 

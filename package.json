@@ -9,6 +9,8 @@
     "preview": "vite preview --port 4173",
     "test": "vitest run",
     "test:watch": "vitest",
+    "e2e": "playwright test",
+    "check": "npm run build && playwright test",
     "import": "tsx scripts/import-workbook.ts",
     "validate": "tsx scripts/validate-data.ts"
   },
@@ -17,6 +19,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@types/node": "^26.3.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",

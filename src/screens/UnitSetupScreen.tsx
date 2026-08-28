@@ -12,6 +12,7 @@ import { useProgress } from '@/progressStore';
 import { WordPicker } from '@/components/WordPicker';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
+import { clearCheckpoint } from '@/lib/checkpoint';
 import type { DifficultyMode } from '@/lib/questions';
 import type { QuestionType } from '@/types/index';
 
@@ -109,6 +110,8 @@ export function UnitSetupScreen({
     // session, regardless of the filter mode used for browsing.
     const finalBatch = batch.filter((e) => isPracticable(e.entryId));
     if (finalBatch.length === 0) return;
+    // A brand-new session invalidates any in-flight resume checkpoint (P2-1).
+    clearCheckpoint();
     saveSession({
       unit,
       entryIds: finalBatch.map((e) => e.entryId),

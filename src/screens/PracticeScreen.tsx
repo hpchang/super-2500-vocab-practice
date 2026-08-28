@@ -10,6 +10,11 @@ import { recordAnswer } from '@/lib/scheduler';
 import { progressiveHint, isMaxHint, MAX_HINT_LEVEL } from '@/lib/hints';
 import { warmUpVoices, speak } from '@/lib/speak';
 import { countClozeVariants } from '@/lib/clozeGenerator';
+import {
+  loadCheckpoint,
+  saveCheckpoint,
+  clearCheckpoint,
+} from '@/lib/checkpoint';
 import { updateEntryProgress, getSnapshot } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
@@ -67,14 +72,19 @@ export function PracticeScreen({
   navigate: (to: string) => void;
 }) {
   const session = loadSession();
-  const [index, setIndex] = useState(0);
+  // Resume (P2-1): a valid checkpoint restores the exact in-flight session —
+  // locked question list, position, partial results — after a refresh or a
+  // closed tab. The questions come from the checkpoint itself (not rebuilt),
+  // so the presented questions are identical to the ones the student saw.
+  const restored = loadCheckpoint();
+  const [index, setIndex] = useState(restored ? restored.index : 0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [spellInput, setSpellInput] = useState('');
   const [feedback, setFeedback] = useState<Feedback>({ state: 'none' });
   const [hintLevel, setHintLevel] = useState(0);
-  const [results, setResults] = useState<
-    { entryId: string; type: QuestionType; correct: boolean }[]
-  >([]);
+  const initialResults: { entryId: string; type: QuestionType; correct: boolean }[] =
+    restored ? restored.results : [];
+  const [results, setResults] = useState(initialResults);
   const feedbackRef = useRef<HTMLDivElement | null>(null);
   // Auto-advance bookkeeping (see applyResult).
   const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -91,7 +101,11 @@ export function PracticeScreen({
   // keeps the presented question stable; adaptive difficulty/variant choice
   // is deferred to next(), where it reads fresh progress.
   const [questions, setQuestions] = useState<Question[]>(() =>
-    session ? buildQuestions(session, getSnapshot()) : [],
+    restored
+      ? restored.questions
+      : session
+        ? buildQuestions(session, getSnapshot())
+        : [],
   );
 
   const q = questions[index];
@@ -130,6 +144,22 @@ export function PracticeScreen({
   useEffect(() => {
     warmUpVoices();
   }, []);
+
+  // Persist the resume checkpoint whenever position or results change
+  // (P2-1). The effect skips the very first mount of a restored session
+  // (state already matches the checkpoint); a fresh session saves nothing
+  // until the first answer lands (index/results change).
+  const mountRef = useRef(true);
+  useEffect(() => {
+    if (mountRef.current) {
+      mountRef.current = false;
+      return;
+    }
+    if (!session || questions.length === 0) return;
+    if (index >= questions.length) return;
+    saveCheckpoint({ session, questions, index, results, savedAt: Date.now() });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, results]);
 
   // Auto-speak on question load for flashcard & en2zh (word is shown before answering).
   useEffect(() => {
@@ -234,7 +264,9 @@ export function PracticeScreen({
     // this point — answering never swaps the current question.
     const rebuilt = buildQuestions(session, getSnapshot());
     if (index + 1 >= rebuilt.length) {
-      // Save results and navigate.
+      // Session complete: drop the resume checkpoint (P2-1) — a finished
+      // session must not be offered again — then save results and navigate.
+      clearCheckpoint();
       saveResult({
         unit: session.unit,
         type: session.type,
