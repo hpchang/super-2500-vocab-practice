@@ -1,0 +1,4822 @@
+{
+  "schemaVersion": 1,
+  "unit": "20",
+  "entries": [
+    {
+      "entryId": "u20:America",
+      "zh": "美國",
+      "pos": "noun",
+      "example": "America is a big country on the other side of the Pacific Ocean.",
+      "exampleZh": "美國是太平洋另一端的大國。",
+      "spellingHint": "a-m-e-r-i-c-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The president of ___ lives in the White House in Washington, D.C.",
+        "fullSentence": "The president of America lives in the White House in Washington, D.C.",
+        "translation": "美國總統住在華盛頓特區的白宮裡。",
+        "clue": "白宮是總統官邸的國家",
+        "answerEntryId": "u20:America",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Asia",
+          "u20:Australia"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a large country between Canada and Mexico.",
+          "fullSentence": "America is a large country between Canada and Mexico.",
+          "translation": "美國是一個位於加拿大和墨西哥之間的大國。",
+          "clue": "北接加拿大、南接墨西哥的大國",
+          "answerEntryId": "u20:America",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:American",
+            "u20:European"
+          ]
+        },
+        {
+          "sentence": "Hot dogs, hamburgers, and Hollywood movies all come from ___.",
+          "fullSentence": "Hot dogs, hamburgers, and Hollywood movies all come from America.",
+          "translation": "熱狗、漢堡和好萊塢電影都來自美國。",
+          "clue": "好萊塢與速食的發源地",
+          "answerEntryId": "u20:America",
+          "distractorEntryIds": [
+            "u20:American",
+            "u20:flag",
+            "u20:section"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Many students dream of visiting the Grand Canyon, a famous natural park in ___.",
+          "fullSentence": "Many students dream of visiting the Grand Canyon, a famous natural park in America.",
+          "translation": "許多學生夢想去美國參觀著名的自然景觀大峽谷。",
+          "clue": "大峽谷所在的國家",
+          "answerEntryId": "u20:America",
+          "distractorEntryIds": [
+            "u20:Canada",
+            "u20:section",
+            "u20:state"
+          ]
+        },
+        {
+          "sentence": "The Statue of Liberty stands near New York, the busiest harbor city in ___.",
+          "fullSentence": "The Statue of Liberty stands near New York, the busiest harbor city in America.",
+          "translation": "自由女神像佇立在美國最繁忙的港都紐約附近。",
+          "clue": "自由女神像所在的國家",
+          "answerEntryId": "u20:America",
+          "distractorEntryIds": [
+            "u20:Canada",
+            "u20:Asia",
+            "u20:England"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and Canada are neighbors, they use different money and have different flags.",
+        "fullSentence": "Although America and Canada are neighbors, they use different money and have different flags.",
+        "translation": "雖然美國和加拿大是鄰居，兩國使用的錢幣和國旗都不一樣。",
+        "clue": "與加拿大相鄰的國家",
+        "answerEntryId": "u20:America",
+        "distractorEntryIds": [
+          "u20:China",
+          "u20:Asia",
+          "u20:Britain"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:American",
+      "zh": "美國的；美國人的",
+      "pos": "adjective",
+      "example": "My American friend loves to eat hamburgers and hot dogs.",
+      "exampleZh": "我的美國朋友喜歡吃漢堡和熱狗。",
+      "spellingHint": "a-m-e-r-i-c-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Uncle Sam and the bald eagle are famous ___ symbols.",
+        "fullSentence": "Uncle Sam and the bald eagle are famous American symbols.",
+        "translation": "山姆大叔和白頭鷹是著名的美國象徵。",
+        "clue": "以山姆大叔為象徵的國家",
+        "answerEntryId": "u20:American",
+        "distractorEntryIds": [
+          "u20:Asian",
+          "u20:Korean",
+          "u20:Australian"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Hot dogs and hamburgers are popular ___ foods.",
+          "fullSentence": "Hot dogs and hamburgers are popular American foods.",
+          "translation": "熱狗和漢堡是受歡迎的美式食物。",
+          "clue": "熱狗漢堡的發源地",
+          "answerEntryId": "u20:American",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:Germany",
+            "u20:Canadian"
+          ]
+        },
+        {
+          "sentence": "The ___ flag has fifty stars and thirteen stripes.",
+          "fullSentence": "The American flag has fifty stars and thirteen stripes.",
+          "translation": "美國國旗有五十顆星和十三條條紋。",
+          "clue": "國旗有五十顆星的國家",
+          "answerEntryId": "u20:American",
+          "distractorEntryIds": [
+            "u20:Taiwanese",
+            "u20:Englishman",
+            "u20:British"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Thanksgiving turkey is a traditional dish for ___ families every November.",
+          "fullSentence": "Thanksgiving turkey is a traditional dish for American families every November.",
+          "translation": "每到十一月，烤火雞是美國家庭的傳統菜餚。",
+          "clue": "十一月過感恩節的國家",
+          "answerEntryId": "u20:American",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:German",
+            "u20:governmental"
+          ]
+        },
+        {
+          "sentence": "Neil Armstrong, the first man to walk on the moon, was a famous ___ astronaut.",
+          "fullSentence": "Neil Armstrong, the first man to walk on the moon, was a famous American astronaut.",
+          "translation": "第一位踏上月球的太空人阿姆斯壯是美國人。",
+          "clue": "阿姆斯壯的國籍",
+          "answerEntryId": "u20:American",
+          "distractorEntryIds": [
+            "u20:Russian",
+            "u20:Taiwanese",
+            "u20:Canadian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ president lives in the White House and gives a speech on important holidays.",
+        "fullSentence": "The American president lives in the White House and gives a speech on important holidays.",
+        "translation": "美國總統住在白宮，並在重要節日發表演說。",
+        "clue": "總統住在白宮的國家",
+        "answerEntryId": "u20:American",
+        "distractorEntryIds": [
+          "u20:Asian",
+          "u20:Russian",
+          "u20:German"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Asia",
+      "zh": "亞洲",
+      "pos": "noun",
+      "example": "Taiwan and Japan are both part of Asia.",
+      "exampleZh": "台灣和日本都屬於亞洲。",
+      "spellingHint": "a-s-i-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "China, Japan, and Korea are all countries on the continent of ___.",
+        "fullSentence": "China, Japan, and Korea are all countries on the continent of Asia.",
+        "translation": "中國、日本和韓國都是亞洲的國家。",
+        "clue": "包含中日韓的大洲",
+        "answerEntryId": "u20:Asia",
+        "distractorEntryIds": [
+          "u20:Europe",
+          "u20:America",
+          "u20:Australia"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Giant pandas and tigers are well-known wild animals in ___.",
+          "fullSentence": "Giant pandas and tigers are well-known wild animals in Asia.",
+          "translation": "貓熊和老虎是亞洲著名的野生動物。",
+          "clue": "貓熊家鄉所在的大洲",
+          "answerEntryId": "u20:Asia",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:Taiwan",
+            "u20:Australia"
+          ]
+        },
+        {
+          "sentence": "Taipei, Tokyo, and Seoul are all busy cities in ___.",
+          "fullSentence": "Taipei, Tokyo, and Seoul are all busy cities in Asia.",
+          "translation": "台北、東京和首爾都是亞洲熱鬧的城市。",
+          "clue": "台灣東京首爾所在的大洲",
+          "answerEntryId": "u20:Asia",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:Taiwan",
+            "u20:Australia"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Typhoons often form over the ocean and hit countries in ___ like the Philippines and Taiwan.",
+          "fullSentence": "Typhoons often form over the ocean and hit countries in Asia like the Philippines and Taiwan.",
+          "translation": "颱風常在海上形成，襲擊菲律賓和台灣等亞洲國家。",
+          "clue": "常有颱風侵襲的大洲",
+          "answerEntryId": "u20:Asia",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:Englishman",
+            "u20:Australia"
+          ]
+        },
+        {
+          "sentence": "More than half of all the people on Earth live in ___.",
+          "fullSentence": "More than half of all the people on Earth live in Asia.",
+          "translation": "世界上超過一半的人口住在亞洲。",
+          "clue": "人口最多的大洲",
+          "answerEntryId": "u20:Asia",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:Englishman",
+            "u20:Australia"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike families in ___, people on the other great continents rarely celebrate Lunar New Year with red envelopes.",
+        "fullSentence": "Unlike families in Asia, people on the other great continents rarely celebrate Lunar New Year with red envelopes.",
+        "translation": "和亞洲家庭不同，歐洲人很少用紅包慶祝農曆新年。",
+        "clue": "不過農曆新年發紅包的大洲",
+        "answerEntryId": "u20:Asia",
+        "distractorEntryIds": [
+          "u20:Europe",
+          "u20:America",
+          "u20:Australia"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Asian",
+      "zh": "亞洲的；亞洲人的",
+      "pos": "adjective",
+      "example": "Rice is the main food in many Asian countries.",
+      "exampleZh": "米飯是許多亞洲國家的主食。",
+      "spellingHint": "a-s-i-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Taiwan, Japan, and Korea are all ___ countries with delicious night-market food.",
+        "fullSentence": "Taiwan, Japan, and Korea are all Asian countries with delicious night-market food.",
+        "translation": "台灣、日本和韓國都是擁有美味夜市小吃的亞洲國家。",
+        "clue": "台日韓所屬的洲別",
+        "answerEntryId": "u20:Asian",
+        "distractorEntryIds": [
+          "u20:European",
+          "u20:American",
+          "u20:Australian"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The giant panda, which loves to eat bamboo, is a famous ___ animal.",
+          "fullSentence": "The giant panda, which loves to eat bamboo, is a famous Asian animal.",
+          "translation": "愛吃竹子的貓熊是著名的亞洲動物。",
+          "clue": "貓熊所屬的洲別",
+          "answerEntryId": "u20:Asian",
+          "distractorEntryIds": [
+            "u20:European",
+            "u20:American",
+            "u20:Australian"
+          ]
+        },
+        {
+          "sentence": "Rice and tea are basic foods in most ___ countries.",
+          "fullSentence": "Rice and tea are basic foods in most Asian countries.",
+          "translation": "米飯和茶是大多數亞洲國家的基本食物。",
+          "clue": "以米飯茶葉為主食的洲別",
+          "answerEntryId": "u20:Asian",
+          "distractorEntryIds": [
+            "u20:European",
+            "u20:American",
+            "u20:Australian"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Lunar New Year is the biggest holiday in many ___ cultures.",
+          "fullSentence": "Lunar New Year is the biggest holiday in many Asian cultures.",
+          "translation": "農曆新年是許多亞洲文化中最重要的節日。",
+          "clue": "過農曆新年的文化",
+          "answerEntryId": "u20:Asian",
+          "distractorEntryIds": [
+            "u20:European",
+            "u20:American",
+            "u20:Australian"
+          ]
+        },
+        {
+          "sentence": "Our school held an ___ food fair with booths from Japan, Korea, and Vietnam.",
+          "fullSentence": "Our school held an Asian food fair with booths from Japan, Korea, and Vietnam.",
+          "translation": "我們學校舉辦了亞洲美食展，有日本、韓國和越南的攤位。",
+          "clue": "日本韓國越南所屬的洲別",
+          "answerEntryId": "u20:Asian",
+          "distractorEntryIds": [
+            "u20:European",
+            "u20:American",
+            "u20:Australian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike most ___ countries, Taiwan has no snow even in the coldest month.",
+        "fullSentence": "Unlike most Asian countries, Taiwan has no snow even in the coldest month.",
+        "translation": "台灣和大多數亞洲國家不同，最冷的月份也不下雪。",
+        "clue": "台灣所屬的洲別",
+        "answerEntryId": "u20:Asian",
+        "distractorEntryIds": [
+          "u20:European",
+          "u20:American",
+          "u20:Australian"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Australia",
+      "zh": "澳洲",
+      "pos": "noun",
+      "example": "Kangaroos and koalas live only in Australia.",
+      "exampleZh": "袋鼠和無尾熊只住在澳洲。",
+      "spellingHint": "a-u-s-t-r-a-l-i-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Kangaroos and koalas are wild animals that come from ___.",
+        "fullSentence": "Kangaroos and koalas are wild animals that come from Australia.",
+        "translation": "袋鼠和無尾熊是來自澳洲的野生動物。",
+        "clue": "袋鼠與無尾熊的家鄉",
+        "answerEntryId": "u20:Australia",
+        "distractorEntryIds": [
+          "u20:America",
+          "u20:Korea",
+          "u20:Canada"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Sydney, with its famous opera house, is the biggest city in ___.",
+          "fullSentence": "Sydney, with its famous opera house, is the biggest city in Australia.",
+          "translation": "擁有著名歌劇院的雪梨是澳洲最大的城市。",
+          "clue": "雪梨歌劇院所在的國家",
+          "answerEntryId": "u20:Australia",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:section",
+            "u20:Canada"
+          ]
+        },
+        {
+          "sentence": "My cousin moved to ___ and often sees kangaroos jumping near her house.",
+          "fullSentence": "My cousin moved to Australia and often sees kangaroos jumping near her house.",
+          "translation": "我表姊搬到澳洲，常看到袋鼠在她家附近跳來跳去。",
+          "clue": "袋鼠成群跳躍的國家",
+          "answerEntryId": "u20:Australia",
+          "distractorEntryIds": [
+            "u20:flag",
+            "u20:Asia",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Canberra, not Sydney, is the capital of ___.",
+          "fullSentence": "Canberra, not Sydney, is the capital of Australia.",
+          "translation": "澳洲的首都是坎培拉，不是雪梨。",
+          "clue": "首都為坎培拉的國家",
+          "answerEntryId": "u20:Australia",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:England",
+            "u20:section"
+          ]
+        },
+        {
+          "sentence": "Because ___ is in the Southern Hemisphere, Christmas there comes in summer.",
+          "fullSentence": "Because Australia is in the Southern Hemisphere, Christmas there comes in summer.",
+          "translation": "因為澳洲位於南半球，當地的聖誕節在夏天。",
+          "clue": "南半球的國家",
+          "answerEntryId": "u20:Australia",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:England",
+            "u20:Britain"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Sheep farming is a huge industry in ___, where there are more sheep than people.",
+        "fullSentence": "Sheep farming is a huge industry in Australia, where there are more sheep than people.",
+        "translation": "澳洲的綿羊比人還多，養羊業規模龐大。",
+        "clue": "綿羊比人多的國家",
+        "answerEntryId": "u20:Australia",
+        "distractorEntryIds": [
+          "u20:Asia",
+          "u20:Korea",
+          "u20:Britain"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Australian",
+      "zh": "澳洲的；澳洲人的",
+      "pos": "adjective",
+      "example": "The Australian swimmer won two gold medals at the games.",
+      "exampleZh": "這位澳洲游泳選手在比賽中贏得兩面金牌。",
+      "spellingHint": "a-u-s-t-r-a-l-i-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Sydney Opera House is the most famous ___ building in the world.",
+        "fullSentence": "The Sydney Opera House is the most famous Australian building in the world.",
+        "translation": "雪梨歌劇院是世界上最著名的澳洲建築。",
+        "clue": "雪梨歌劇院的洲別",
+        "answerEntryId": "u20:Australian",
+        "distractorEntryIds": [
+          "u20:American",
+          "u20:Asian",
+          "u20:British"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Koalas and kangaroos are the best-known ___ animals.",
+          "fullSentence": "Koalas and kangaroos are the best-known Australian animals.",
+          "translation": "無尾熊和袋鼠是最有名的澳洲動物。",
+          "clue": "無尾熊袋鼠的洲別",
+          "answerEntryId": "u20:Australian",
+          "distractorEntryIds": [
+            "u20:Englishman",
+            "u20:British",
+            "u20:Canadian"
+          ]
+        },
+        {
+          "sentence": "My ___ friend says Christmas in his country comes in the hot summer.",
+          "fullSentence": "My Australian friend says Christmas in his country comes in the hot summer.",
+          "translation": "我的澳洲朋友說他們國家的聖誕節在炎熱的夏天。",
+          "clue": "聖誕節在夏天的國家",
+          "answerEntryId": "u20:Australian",
+          "distractorEntryIds": [
+            "u20:Germany",
+            "u20:Englishman",
+            "u20:British"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ Open is a famous tennis tournament held in Melbourne every January.",
+          "fullSentence": "The Australian Open is a famous tennis tournament held in Melbourne every January.",
+          "translation": "澳洲公開賽是每年一月在墨爾本舉行的著名網球賽。",
+          "clue": "一月在墨爾本舉行的公開賽",
+          "answerEntryId": "u20:Australian",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:American",
+            "u20:English"
+          ]
+        },
+        {
+          "sentence": "The didgeridoo, a long wooden horn, is a traditional ___ instrument.",
+          "fullSentence": "The didgeridoo, a long wooden horn, is a traditional Australian instrument.",
+          "translation": "迪吉里杜管是一種長木管，是傳統的澳洲樂器。",
+          "clue": "原住民木管樂器的洲別",
+          "answerEntryId": "u20:Australian",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:German",
+            "u20:Asian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because ___ seasons are opposite to ours, people there go to the beach at Christmas.",
+        "fullSentence": "Because Australian seasons are opposite to ours, people there go to the beach at Christmas.",
+        "translation": "因為澳洲的季節和我們相反，當地人聖誕節時會去海邊。",
+        "clue": "季節與台灣相反的國家",
+        "answerEntryId": "u20:Australian",
+        "distractorEntryIds": [
+          "u20:American",
+          "u20:Korean",
+          "u20:British"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Britain",
+      "zh": "英國",
+      "pos": "noun",
+      "example": "Britain is an island country with rainy weather.",
+      "exampleZh": "英國是一個天氣多雨的島國。",
+      "spellingHint": "b-r-i-t-a-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Tower Bridge and Big Ben are famous landmarks in ___.",
+        "fullSentence": "Tower Bridge and Big Ben are famous landmarks in Britain.",
+        "translation": "倫敦塔橋和大笨鐘是英國著名的地標。",
+        "clue": "塔橋與大笨鐘的所在國",
+        "answerEntryId": "u20:Britain",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Germany",
+          "u20:America"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "London, the capital of ___, is famous for its red double-decker buses.",
+          "fullSentence": "London, the capital of Britain, is famous for its red double-decker buses.",
+          "translation": "英國首都倫敦以紅色雙層巴士聞名。",
+          "clue": "首都倫敦的國家",
+          "answerEntryId": "u20:Britain",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:Asia",
+            "u20:Canada"
+          ]
+        },
+        {
+          "sentence": "Fish and chips is a popular traditional food in ___.",
+          "fullSentence": "Fish and chips is a popular traditional food in Britain.",
+          "translation": "炸魚薯條是英國受歡迎的傳統食物。",
+          "clue": "炸魚薯條的發源地",
+          "answerEntryId": "u20:Britain",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:flag",
+            "u20:Canada"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Oxford and Cambridge, two of the oldest universities in the world, are both in ___.",
+          "fullSentence": "Oxford and Cambridge, two of the oldest universities in the world, are both in Britain.",
+          "translation": "牛津和劍橋這兩所世界最古老的大學都在英國。",
+          "clue": "牛津劍橋的所在國",
+          "answerEntryId": "u20:Britain",
+          "distractorEntryIds": [
+            "u20:state",
+            "u20:Taiwan",
+            "u20:Englishman"
+          ]
+        },
+        {
+          "sentence": "People in ___ drive on the left side of the road, just like drivers in Japan.",
+          "fullSentence": "People in Britain drive on the left side of the road, just like drivers in Japan.",
+          "translation": "英國人開車靠左行駛，就像日本的駕駛一樣。",
+          "clue": "開車靠左的歐洲國家",
+          "answerEntryId": "u20:Britain",
+          "distractorEntryIds": [
+            "u20:France",
+            "u20:Germany",
+            "u20:Canada"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The Union Jack, the national flag of ___, combines the crosses of three old kingdoms.",
+        "fullSentence": "The Union Jack, the national flag of Britain, combines the crosses of three old kingdoms.",
+        "translation": "英國國旗「米字旗」結合了三個古老王國的十字。",
+        "clue": "國旗叫 Union Jack 的國家",
+        "answerEntryId": "u20:Britain",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Germany",
+          "u20:America"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:British",
+      "zh": "英國的；英國人的",
+      "pos": "adjective",
+      "example": "The British writer J. K. Rowling created Harry Potter.",
+      "exampleZh": "英國作家J.K.羅琳創造了哈利波特。",
+      "spellingHint": "b-r-i-t-i-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Harry Potter was written by a famous ___ author who lives in England.",
+        "fullSentence": "Harry Potter was written by a famous British author who lives in England.",
+        "translation": "哈利波特是一位住在英格蘭的英國名作家寫的。",
+        "clue": "哈利波特的作者國籍",
+        "answerEntryId": "u20:British",
+        "distractorEntryIds": [
+          "u20:Asian",
+          "u20:German",
+          "u20:American"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ flag is called the Union Jack.",
+          "fullSentence": "The British flag is called the Union Jack.",
+          "translation": "英國國旗叫做「米字旗」。",
+          "clue": "國旗叫 Union Jack 的國家",
+          "answerEntryId": "u20:British",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:state",
+            "u20:Englishman"
+          ]
+        },
+        {
+          "sentence": "Red double-decker buses run on the streets of London, a ___ city.",
+          "fullSentence": "Red double-decker buses run on the streets of London, a British city.",
+          "translation": "紅色雙層巴士行駛在英國城市倫敦的街道上。",
+          "clue": "倫敦所屬的國家",
+          "answerEntryId": "u20:British",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:state",
+            "u20:governmental"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ Museum in London keeps millions of treasures from around the world.",
+          "fullSentence": "The British Museum in London keeps millions of treasures from around the world.",
+          "translation": "倫敦的大英博物館收藏了世界各地數百萬件珍寶。",
+          "clue": "倫敦大博物館的名稱",
+          "answerEntryId": "u20:British",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:German",
+            "u20:English"
+          ]
+        },
+        {
+          "sentence": "The ___ royal family lives in Buckingham Palace.",
+          "fullSentence": "The British royal family lives in Buckingham Palace.",
+          "translation": "英國王室住在白金漢宮。",
+          "clue": "王室住白金漢宮的國家",
+          "answerEntryId": "u20:British",
+          "distractorEntryIds": [
+            "u20:Australian",
+            "u20:German",
+            "u20:Russian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Fish and chips eaten by the seaside is a classic ___ meal.",
+        "fullSentence": "Fish and chips eaten by the seaside is a classic British meal.",
+        "translation": "在海邊吃的炸魚薯條是經典的英式餐點。",
+        "clue": "炸魚薯條的發源國",
+        "answerEntryId": "u20:British",
+        "distractorEntryIds": [
+          "u20:American",
+          "u20:German",
+          "u20:Russian"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Canada",
+      "zh": "加拿大",
+      "pos": "noun",
+      "example": "My uncle moved to Canada to work in Toronto.",
+      "exampleZh": "我叔叔搬到加拿大，在多倫多工作。",
+      "spellingHint": "c-a-n-a-d-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The national flag of ___ has a red maple leaf in the middle.",
+        "fullSentence": "The national flag of Canada has a red maple leaf in the middle.",
+        "translation": "加拿大國旗的中間有一片紅色楓葉。",
+        "clue": "國旗有紅色楓葉的國家",
+        "answerEntryId": "u20:Canada",
+        "distractorEntryIds": [
+          "u20:America",
+          "u20:Korea",
+          "u20:France"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Toronto and Vancouver are two big cities in ___.",
+          "fullSentence": "Toronto and Vancouver are two big cities in Canada.",
+          "translation": "多倫多和溫哥華是加拿大的兩個大城市。",
+          "clue": "多倫多溫哥華的所在國",
+          "answerEntryId": "u20:Canada",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:France",
+            "u20:flag"
+          ]
+        },
+        {
+          "sentence": "Niagara Falls is on the border between America and ___.",
+          "fullSentence": "Niagara Falls is on the border between America and Canada.",
+          "translation": "尼加拉瀑布位於美國和加拿大的邊界。",
+          "clue": "與美國接壤的北方大國",
+          "answerEntryId": "u20:Canada",
+          "distractorEntryIds": [
+            "u20:state",
+            "u20:Asian",
+            "u20:flag"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "In ___, winter is long and cold, and people love skating on frozen lakes.",
+          "fullSentence": "In Canada, winter is long and cold, and people love skating on frozen lakes.",
+          "translation": "在加拿大，冬天又長又冷，人們喜歡在結冰的湖上滑冰。",
+          "clue": "湖水會結冰的北美國家",
+          "answerEntryId": "u20:Canada",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:Europe",
+            "u20:Taiwan"
+          ]
+        },
+        {
+          "sentence": "Maple syrup, ice hockey, and beautiful forests are all symbols of ___.",
+          "fullSentence": "Maple syrup, ice hockey, and beautiful forests are all symbols of Canada.",
+          "translation": "楓糖漿、冰球和美麗的森林都是加拿大的象徵。",
+          "clue": "以楓糖漿聞名的國家",
+          "answerEntryId": "u20:Canada",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:England",
+            "u20:Europe"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Hockey teams from ___ often win gold medals at the Winter Olympics.",
+        "fullSentence": "Hockey teams from Canada often win gold medals at the Winter Olympics.",
+        "translation": "加拿大的冰球隊常在冬季奧運贏得金牌。",
+        "clue": "冰球隊常奪金的北方大國",
+        "answerEntryId": "u20:Canada",
+        "distractorEntryIds": [
+          "u20:Singapore",
+          "u20:Philippines",
+          "u20:Taiwan"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Canadian",
+      "zh": "加拿大的；加拿大人的",
+      "pos": "adjective",
+      "example": "The Canadian flag shows a red maple leaf.",
+      "exampleZh": "加拿大國旗上有一片紅色楓葉。",
+      "spellingHint": "c-a-n-a-d-i-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Wayne Gretzky, the greatest ice hockey player in history, was a ___ superstar.",
+        "fullSentence": "Wayne Gretzky, the greatest ice hockey player in history, was a Canadian superstar.",
+        "translation": "冰球史上最偉大的球員葛瑞茲基是加拿大超級明星。",
+        "clue": "冰球巨星的國籍",
+        "answerEntryId": "u20:Canadian",
+        "distractorEntryIds": [
+          "u20:American",
+          "u20:Russian",
+          "u20:Korean"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Maple syrup, the sweet topping for pancakes, is a famous ___ product.",
+          "fullSentence": "Maple syrup, the sweet topping for pancakes, is a famous Canadian product.",
+          "translation": "楓糖漿是淋在鬆餅上的甜醬，是加拿大有名的產品。",
+          "clue": "楓糖漿的產地國",
+          "answerEntryId": "u20:Canadian",
+          "distractorEntryIds": [
+            "u20:Englishman",
+            "u20:governmental",
+            "u20:England"
+          ]
+        },
+        {
+          "sentence": "My ___ pen pal says snow covers his town in Toronto for months every winter.",
+          "fullSentence": "My Canadian pen pal says snow covers his town in Toronto for months every winter.",
+          "translation": "我的加拿大筆友說多倫多的小鎮每年冬天都積雪好幾個月。",
+          "clue": "多倫多的所屬國籍",
+          "answerEntryId": "u20:Canadian",
+          "distractorEntryIds": [
+            "u20:Englishman",
+            "u20:governmental",
+            "u20:Taiwanese"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The beaver, an animal that builds dams in rivers, is a national symbol of ___ culture.",
+          "fullSentence": "The beaver, an animal that builds dams in rivers, is a national symbol of Canadian culture.",
+          "translation": "會在河裡築水壩的河狸是加拿大文化的國家象徵。",
+          "clue": "以河狸為象徵的國家",
+          "answerEntryId": "u20:Canadian",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:Australian",
+            "u20:governmental"
+          ]
+        },
+        {
+          "sentence": "Niagara Falls lies on the ___ side of the border with America.",
+          "fullSentence": "Niagara Falls lies on the Canadian side of the border with America.",
+          "translation": "尼加拉瀑布位於與美國接壤的加拿大這一側。",
+          "clue": "與美國陸地相接的國籍",
+          "answerEntryId": "u20:Canadian",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:governmental",
+            "u20:British"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ city of Vancouver hosted the Winter Olympics in 2010.",
+        "fullSentence": "The Canadian city of Vancouver hosted the Winter Olympics in 2010.",
+        "translation": "加拿大城市溫哥華在2010年舉辦了冬季奧運。",
+        "clue": "2010冬奧主辦城市的國籍",
+        "answerEntryId": "u20:Canadian",
+        "distractorEntryIds": [
+          "u20:Japanese",
+          "u20:Korean",
+          "u20:American"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:China",
+      "zh": "中國",
+      "pos": "noun",
+      "example": "China has the largest population in the world.",
+      "exampleZh": "中國有世界上最多的人口。",
+      "spellingHint": "c-h-i-n-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Great Wall is the longest wall in ___.",
+        "fullSentence": "The Great Wall is the longest wall in China.",
+        "translation": "萬里長城是中國最長的城牆。",
+        "clue": "萬里長城的所在國",
+        "answerEntryId": "u20:China",
+        "distractorEntryIds": [
+          "u20:Asia",
+          "u20:Korea",
+          "u20:Britain"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Giant pandas live in the bamboo forests of ___.",
+          "fullSentence": "Giant pandas live in the bamboo forests of China.",
+          "translation": "貓熊生活在中國的竹林裡。",
+          "clue": "野生貓熊的家鄉",
+          "answerEntryId": "u20:China",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:Canada",
+            "u20:Britain"
+          ]
+        },
+        {
+          "sentence": "Beijing, with its Forbidden City, is the capital of ___.",
+          "fullSentence": "Beijing, with its Forbidden City, is the capital of China.",
+          "translation": "有紫禁城的北京是中國的首都。",
+          "clue": "首都北京所在國",
+          "answerEntryId": "u20:China",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:flag",
+            "u20:Philippines"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Yangtze, the longest river in ___, flows through many big cities.",
+          "fullSentence": "The Yangtze, the longest river in China, flows through many big cities.",
+          "translation": "長江是中國最長的河流，流經許多大城市。",
+          "clue": "長江的所在國",
+          "answerEntryId": "u20:China",
+          "distractorEntryIds": [
+            "u20:Australia",
+            "u20:Englishman",
+            "u20:flag"
+          ]
+        },
+        {
+          "sentence": "Most of the giant pandas in zoos around the world were born in ___.",
+          "fullSentence": "Most of the giant pandas in zoos around the world were born in China.",
+          "translation": "世界各地動物園的貓熊大多在中國出生。",
+          "clue": "貓熊的出生國",
+          "answerEntryId": "u20:China",
+          "distractorEntryIds": [
+            "u20:Englishman",
+            "u20:Canada",
+            "u20:Australia"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ is a huge country, its neighbor across the strait, Taiwan, is much smaller.",
+        "fullSentence": "Although China is a huge country, its neighbor across the strait, Taiwan, is much smaller.",
+        "translation": "雖然中國是幅員廣大的國家，但一海之隔的台灣小得多。",
+        "clue": "台灣西邊的大鄰國",
+        "answerEntryId": "u20:China",
+        "distractorEntryIds": [
+          "u20:Asia",
+          "u20:Korea",
+          "u20:Britain"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Chinese",
+      "zh": "中國的；中文的",
+      "pos": "adjective",
+      "example": "We ate dumplings at a Chinese restaurant last night.",
+      "exampleZh": "我們昨晚在一家中式餐廳吃水餃。",
+      "spellingHint": "c-h-i-n-e-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Great Wall and the Forbidden City are famous ___ landmarks.",
+        "fullSentence": "The Great Wall and the Forbidden City are famous Chinese landmarks.",
+        "translation": "萬里長城和紫禁城是著名的中國地標。",
+        "clue": "長城紫禁城的洲別文化",
+        "answerEntryId": "u20:Chinese",
+        "distractorEntryIds": [
+          "u20:Japanese",
+          "u20:Korean",
+          "u20:French"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Red envelopes with lucky money are a traditional ___ gift at New Year.",
+          "fullSentence": "Red envelopes with lucky money are a traditional Chinese gift at New Year.",
+          "translation": "裝壓歲錢的紅包是過年時傳統的中國禮物。",
+          "clue": "發紅包的文化",
+          "answerEntryId": "u20:Chinese",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:Canadian",
+            "u20:state"
+          ]
+        },
+        {
+          "sentence": "My grandmother from Beijing makes wonderful ___ noodles by hand.",
+          "fullSentence": "My grandmother from Beijing makes wonderful Chinese noodles by hand.",
+          "translation": "來自北京的奶奶會手工做出美味的麵條。",
+          "clue": "北京奶奶的手藝屬於哪國菜",
+          "answerEntryId": "u20:Chinese",
+          "distractorEntryIds": [
+            "u20:Europe",
+            "u20:governmental",
+            "u20:Canadian"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The giant panda is a national symbol of ___ culture.",
+          "fullSentence": "The giant panda is a national symbol of Chinese culture.",
+          "translation": "貓熊是中國文化的國家象徵。",
+          "clue": "貓熊象徵的文化",
+          "answerEntryId": "u20:Chinese",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:governmental",
+            "u20:British"
+          ]
+        },
+        {
+          "sentence": "The Forbidden City, where emperors lived for five hundred years, is a famous ___ palace in Beijing.",
+          "fullSentence": "The Forbidden City, where emperors lived for five hundred years, is a famous Chinese palace in Beijing.",
+          "translation": "皇帝住了五百年的紫禁城是北京著名的中國宮殿。",
+          "clue": "北京紫禁城的文化",
+          "answerEntryId": "u20:Chinese",
+          "distractorEntryIds": [
+            "u20:European",
+            "u20:governmental",
+            "u20:Canadian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Calligraphy with a brush and ink is a traditional ___ art that began thousands of years ago.",
+        "fullSentence": "Calligraphy with a brush and ink is a traditional Chinese art that began thousands of years ago.",
+        "translation": "用毛筆和墨寫書法是數千年前開始的中國傳統藝術。",
+        "clue": "毛筆書法的發源文化",
+        "answerEntryId": "u20:Chinese",
+        "distractorEntryIds": [
+          "u20:Japanese",
+          "u20:Korean",
+          "u20:French"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:country",
+      "zh": "國家",
+      "pos": "noun",
+      "example": "Taiwan is a small but beautiful country.",
+      "exampleZh": "台灣是個小而美麗的國家。",
+      "spellingHint": "c-o-u-n-t-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Japan is an island ___ with four main islands.",
+        "fullSentence": "Japan is an island country with four main islands.",
+        "translation": "日本是一個由四個主要島嶼組成的島國。",
+        "clue": "由島嶼組成的政治體",
+        "answerEntryId": "u20:country",
+        "distractorEntryIds": [
+          "u20:Hong Kong",
+          "u20:London",
+          "u20:Paris"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How many ___ are there in the world? Almost two hundred.",
+          "fullSentence": "How many country are there in the world? Almost two hundred.",
+          "translation": "世界上有幾個國家？將近兩百個。",
+          "clue": "全世界有將近兩百個的單位",
+          "answerEntryId": "u20:country",
+          "distractorEntryIds": [
+            "u20:ROC",
+            "u20:Taiwanese",
+            "u20:Taiwan"
+          ]
+        },
+        {
+          "sentence": "Each ___ has its own flag, capital, and government.",
+          "fullSentence": "Each country has its own flag, capital, and government.",
+          "translation": "每個國家都有自己的國旗、首都和政府。",
+          "clue": "擁有國旗和政府的單位",
+          "answerEntryId": "u20:country",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Taiwanese",
+            "u20:New York"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Canada is the second largest ___ in the world after Russia.",
+          "fullSentence": "Canada is the second largest country in the world after Russia.",
+          "translation": "加拿大是僅次於俄羅斯的世界第二大國家。",
+          "clue": "俄羅斯之外面積最大的政治體",
+          "answerEntryId": "u20:country",
+          "distractorEntryIds": [
+            "u20:state",
+            "u20:Taiwan",
+            "u20:USA"
+          ]
+        },
+        {
+          "sentence": "After the war, the two ___ signed an agreement to keep the peace.",
+          "fullSentence": "After the war, the two country signed an agreement to keep the peace.",
+          "translation": "戰後，兩國簽署協議維持和平。",
+          "clue": "戰後簽和平協議的雙方",
+          "answerEntryId": "u20:country",
+          "distractorEntryIds": [
+            "u20:state",
+            "u20:USA",
+            "u20:Taiwan"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "A ___ is a large area of land where people share one government and one flag.",
+        "fullSentence": "A country is a large area of land where people share one government and one flag.",
+        "translation": "國家是人們共享同一個政府和國旗的一大片土地。",
+        "clue": "有政府有國旗的政治體",
+        "answerEntryId": "u20:country",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:Paris",
+          "u20:Taichung"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:England",
+      "zh": "英格蘭；英國",
+      "pos": "noun",
+      "example": "England is famous for its green hills and rainy weather.",
+      "exampleZh": "英格蘭以綠色山丘和多雨的天氣聞名。",
+      "spellingHint": "e-n-g-l-a-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The River Thames flows through London, the capital of ___.",
+        "fullSentence": "The River Thames flows through London, the capital of England.",
+        "translation": "泰晤士河流經英格蘭首都倫敦。",
+        "clue": "首都為倫敦的國家",
+        "answerEntryId": "u20:England",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Asia",
+          "u20:Canada"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Soccer was first played with official rules in ___ more than one hundred years ago.",
+          "fullSentence": "Soccer was first played with official rules in England more than one hundred years ago.",
+          "translation": "一百多年前，足球最早在英格蘭訂定正式規則。",
+          "clue": "現代足球的發源地",
+          "answerEntryId": "u20:England",
+          "distractorEntryIds": [
+            "u20:Australia",
+            "u20:Germany",
+            "u20:Canada"
+          ]
+        },
+        {
+          "sentence": "Big Ben, Tower Bridge, and Oxford University are all in ___.",
+          "fullSentence": "Big Ben, Tower Bridge, and Oxford University are all in England.",
+          "translation": "大笨鐘、倫敦塔橋和牛津大學都在英格蘭。",
+          "clue": "大笨鐘與牛津的所在國",
+          "answerEntryId": "u20:England",
+          "distractorEntryIds": [
+            "u20:America",
+            "u20:France",
+            "u20:Mandarin"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The English Channel separates ___ from France.",
+          "fullSentence": "The English Channel separates England from France.",
+          "translation": "英吉利海峽將英格蘭與法國隔開。",
+          "clue": "與法國隔海相望的國家",
+          "answerEntryId": "u20:England",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Englishman",
+            "u20:Canada"
+          ]
+        },
+        {
+          "sentence": "Shakespeare, the world-famous writer of plays, was born in a small town in ___.",
+          "fullSentence": "Shakespeare, the world-famous writer of plays, was born in a small town in England.",
+          "translation": "世界知名的劇作家莎士比亞出生在英格蘭的小鎮。",
+          "clue": "莎士比亞的出生國",
+          "answerEntryId": "u20:England",
+          "distractorEntryIds": [
+            "u20:France",
+            "u20:Germany",
+            "u20:Europe"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Of the four parts of the UK, ___ is the largest and holds the capital, London.",
+        "fullSentence": "Of the four parts of the UK, England is the largest and holds the capital, London.",
+        "translation": "在英國的四個構成國中，英格蘭最大，首都倫敦也在這裡。",
+        "clue": "英國最大、擁有倫敦的部分",
+        "answerEntryId": "u20:England",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Germany",
+          "u20:Asia"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Englishman",
+      "zh": "英國人；英格蘭男人",
+      "pos": "noun",
+      "example": "The Englishman drank a cup of hot tea in the afternoon.",
+      "exampleZh": "這位英國人下午喝了一杯熱茶。",
+      "spellingHint": "e-n-g-l-i-s-h-m-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "An ___ from London ordered fish and chips at the restaurant.",
+        "fullSentence": "An Englishman from London ordered fish and chips at the restaurant.",
+        "translation": "一位來自倫敦的英國人在餐廳點了炸魚薯條。",
+        "clue": "來自倫敦的男性",
+        "answerEntryId": "u20:Englishman",
+        "distractorEntryIds": [
+          "u20:China",
+          "u20:Korea",
+          "u20:Germany"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Shakespeare, a famous ___, wrote plays four hundred years ago.",
+          "fullSentence": "Shakespeare, a famous Englishman, wrote plays four hundred years ago.",
+          "translation": "莎士比亞是四百年前寫劇本的英國人。",
+          "clue": "莎士比亞的國籍與性別",
+          "answerEntryId": "u20:Englishman",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:kingdom",
+            "u20:England"
+          ]
+        },
+        {
+          "sentence": "An ___ usually drinks tea with milk in the afternoon.",
+          "fullSentence": "An Englishman usually drinks tea with milk in the afternoon.",
+          "translation": "英國人下午常喝加牛奶的茶。",
+          "clue": "下午喝奶茶的男性國籍",
+          "answerEntryId": "u20:Englishman",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:Russian",
+            "u20:England"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "An ___ took off his hat politely when he entered Buckingham Palace.",
+          "fullSentence": "An Englishman took off his hat politely when he entered Buckingham Palace.",
+          "translation": "這位英國人走進白金漢宮時，有禮貌地脫下帽子。",
+          "clue": "走進白金漢宮的男性",
+          "answerEntryId": "u20:Englishman",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Europe",
+            "u20:Germany"
+          ]
+        },
+        {
+          "sentence": "My pen pal is an ___ who lives near Oxford University in England.",
+          "fullSentence": "My pen pal is an Englishman who lives near Oxford University in England.",
+          "translation": "我的筆友是住在英格蘭牛津大學附近的英國人。",
+          "clue": "住牛津附近的男性國籍",
+          "answerEntryId": "u20:Englishman",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Korea",
+            "u20:Canada"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "A man who grows up speaking English with fish and chips on Sundays is probably an ___.",
+        "fullSentence": "A man who grows up speaking English with fish and chips on Sundays is probably an Englishman.",
+        "translation": "說英語、週日吃炸魚薯條的男性多半是英國人。",
+        "clue": "吃炸魚薯條的男性國籍",
+        "answerEntryId": "u20:Englishman",
+        "distractorEntryIds": [
+          "u20:China",
+          "u20:Korea",
+          "u20:Germany"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:English",
+      "zh": "英文；英語的；英國的",
+      "pos": "adjective",
+      "example": "I practice English every day after school.",
+      "exampleZh": "我每天放學後練習英文。",
+      "spellingHint": "e-n-g-l-i-s-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Students in Taiwan learn ___, math, and science at school.",
+        "fullSentence": "Students in Taiwan learn English, math, and science at school.",
+        "translation": "台灣的學生在學校學英文、數學和自然。",
+        "clue": "台灣學校教的語言科目",
+        "answerEntryId": "u20:English",
+        "distractorEntryIds": [
+          "u20:French",
+          "u20:Japanese",
+          "u20:German"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The word \"hello\" comes from the ___ language.",
+          "fullSentence": "The word \"hello\" comes from the English language.",
+          "translation": "hello 這個字來自英文。",
+          "clue": "hello 的來源語言",
+          "answerEntryId": "u20:English",
+          "distractorEntryIds": [
+            "u20:England",
+            "u20:Europe",
+            "u20:German"
+          ]
+        },
+        {
+          "sentence": "Big Ben and red double-decker buses are famous ___ landmarks in London.",
+          "fullSentence": "Big Ben and red double-decker buses are famous English landmarks in London.",
+          "translation": "大笨鐘和紅色雙層巴士是倫敦著名的英國地標。",
+          "clue": "倫敦地標的文化",
+          "answerEntryId": "u20:English",
+          "distractorEntryIds": [
+            "u20:England",
+            "u20:Europe",
+            "u20:German"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Most ___ words have fewer letters than long German words.",
+          "fullSentence": "Most English words have fewer letters than long German words.",
+          "translation": "大多數英文字的字母比德文的長單字少。",
+          "clue": "與德文對比的語言",
+          "answerEntryId": "u20:English",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:European",
+            "u20:governmental"
+          ]
+        },
+        {
+          "sentence": "Our ___ teacher taught us how to write a friendly letter.",
+          "fullSentence": "Our English teacher taught us how to write a friendly letter.",
+          "translation": "我們的英文老師教我們如何寫問候信。",
+          "clue": "教語文的科目老師",
+          "answerEntryId": "u20:English",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:European",
+            "u20:overseas"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Shakespeare wrote his famous plays in ___, not in any other language.",
+        "fullSentence": "Shakespeare wrote his famous plays in English, not in any other language.",
+        "translation": "莎士比亞用英文寫出他的名劇，不是用其他語言。",
+        "clue": "莎士比亞使用的語言",
+        "answerEntryId": "u20:English",
+        "distractorEntryIds": [
+          "u20:French",
+          "u20:German",
+          "u20:Japanese"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Europe",
+      "zh": "歐洲",
+      "pos": "noun",
+      "example": "France, Germany, and Italy are all in Europe.",
+      "exampleZh": "法國、德國和義大利都在歐洲。",
+      "spellingHint": "e-u-r-o-p-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "France, Germany, and Italy are all countries on the continent of ___.",
+        "fullSentence": "France, Germany, and Italy are all countries on the continent of Europe.",
+        "translation": "法國、德國和義大利都是歐洲的國家。",
+        "clue": "含法德義的大洲",
+        "answerEntryId": "u20:Europe",
+        "distractorEntryIds": [
+          "u20:Asia",
+          "u20:America",
+          "u20:Australia"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The euro, used by many countries from Portugal to Finland, is the common money of ___.",
+          "fullSentence": "The euro, used by many countries from Portugal to Finland, is the common money of Europe.",
+          "translation": "從葡萄牙到芬蘭，許多國家使用的歐元是歐洲的共同貨幣。",
+          "clue": "歐元通行的洲別",
+          "answerEntryId": "u20:Europe",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:America",
+            "u20:Australia"
+          ]
+        },
+        {
+          "sentence": "The Alps, famous snowy mountains, stretch across countries in ___.",
+          "fullSentence": "The Alps, famous snowy mountains, stretch across countries in Europe.",
+          "translation": "著名的阿爾卑斯山橫跨歐洲多國。",
+          "clue": "阿爾卑斯山所在的洲別",
+          "answerEntryId": "u20:Europe",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:America",
+            "u20:Australia"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Danube, a long river in ___, flows through four capitals.",
+          "fullSentence": "The Danube, a long river in Europe, flows through four capitals.",
+          "translation": "多瑙河是歐洲的長河，流經四個首都。",
+          "clue": "多瑙河所在的洲別",
+          "answerEntryId": "u20:Europe",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:flag",
+            "u20:Australia"
+          ]
+        },
+        {
+          "sentence": "Students from ___ often take trains from one country to another in a single day.",
+          "fullSentence": "Students from Europe often take trains from one country to another in a single day.",
+          "translation": "歐洲的學生常在一天內搭火車跨越數國。",
+          "clue": "一日跨國火車旅行的洲別",
+          "answerEntryId": "u20:Europe",
+          "distractorEntryIds": [
+            "u20:Asia",
+            "u20:America",
+            "u20:Australia"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Countries in ___ have much longer histories than young nations like Canada.",
+        "fullSentence": "Countries in Europe have much longer histories than young nations like Canada.",
+        "translation": "歐洲國家的歷史比加拿大等年輕國家悠久許多。",
+        "clue": "歷史悠久的大洲",
+        "answerEntryId": "u20:Europe",
+        "distractorEntryIds": [
+          "u20:Asia",
+          "u20:America",
+          "u20:Australia"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:European",
+      "zh": "歐洲的；歐洲人的",
+      "pos": "adjective",
+      "example": "Many European countries use the same money, the euro.",
+      "exampleZh": "許多歐洲國家使用同一種貨幣：歐元。",
+      "spellingHint": "e-u-r-o-p-e-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "France, Germany, and Spain are all ___ countries.",
+        "fullSentence": "France, Germany, and Spain are all European countries.",
+        "translation": "法國、德國和西班牙都是歐洲國家。",
+        "clue": "法德西所屬的洲別",
+        "answerEntryId": "u20:European",
+        "distractorEntryIds": [
+          "u20:Asian",
+          "u20:American",
+          "u20:Australian"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The euro is the money used in many ___ countries.",
+          "fullSentence": "The euro is the money used in many European countries.",
+          "translation": "歐元是許多歐洲國家使用的貨幣。",
+          "clue": "使用歐元的洲別",
+          "answerEntryId": "u20:European",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:American",
+            "u20:Australian"
+          ]
+        },
+        {
+          "sentence": "Snow-capped mountains and old castles are common ___ sights.",
+          "fullSentence": "Snow-capped mountains and old castles are common European sights.",
+          "translation": "雪白的山脈和古老的城堡是常見的歐洲景色。",
+          "clue": "古堡林立的洲別",
+          "answerEntryId": "u20:European",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:American",
+            "u20:Australian"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The EU helps ___ countries trade with each other.",
+          "fullSentence": "The EU helps European countries trade with each other.",
+          "translation": "歐盟幫助歐洲國家彼此貿易。",
+          "clue": "歐盟成員的洲別",
+          "answerEntryId": "u20:European",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:American",
+            "u20:Australian"
+          ]
+        },
+        {
+          "sentence": "Soccer fans in ___ often paint their faces with their team colors.",
+          "fullSentence": "Soccer fans in European often paint their faces with their team colors.",
+          "translation": "歐洲的足球迷常把臉塗上球隊的顏色。",
+          "clue": "足球迷文化盛行的洲別",
+          "answerEntryId": "u20:European",
+          "distractorEntryIds": [
+            "u20:Asian",
+            "u20:American",
+            "u20:Australian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike most ___ cities, Taipei and Tokyo are hit by typhoons every summer.",
+        "fullSentence": "Unlike most European cities, Taipei and Tokyo are hit by typhoons every summer.",
+        "translation": "台北和東京跟大多數歐洲城市不同，夏天常遭颱風侵襲。",
+        "clue": "少颱風的對比洲別",
+        "answerEntryId": "u20:European",
+        "distractorEntryIds": [
+          "u20:Asian",
+          "u20:American",
+          "u20:Australian"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:flag",
+      "zh": "國旗；旗子",
+      "pos": "noun",
+      "example": "The students raised the flag at the morning assembly.",
+      "exampleZh": "學生們在晨會時升起國旗。",
+      "spellingHint": "f-l-a-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The red, white, and blue ___ of America waves in the wind.",
+        "fullSentence": "The red, white, and blue flag of America waves in the wind.",
+        "translation": "美國紅白藍的國旗在風中飄揚。",
+        "clue": "紅白藍三色的旗子",
+        "answerEntryId": "u20:flag",
+        "distractorEntryIds": [
+          "u20:world",
+          "u20:kingdom",
+          "u20:nation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "At the sports game, fans waved a ___ with their team name on it.",
+          "fullSentence": "At the sports game, fans waved a flag with their team name on it.",
+          "translation": "在球賽中，球迷揮舞著印有球隊名字的旗子。",
+          "clue": "揮舞的布條",
+          "answerEntryId": "u20:flag",
+          "distractorEntryIds": [
+            "u20:world",
+            "u20:kingdom",
+            "u20:overseas"
+          ]
+        },
+        {
+          "sentence": "Every country has its own ___ with special colors and symbols.",
+          "fullSentence": "Every country has its own flag with special colors and symbols.",
+          "translation": "每個國家都有自己獨特顏色和圖案的國旗。",
+          "clue": "代表國家的旗子",
+          "answerEntryId": "u20:flag",
+          "distractorEntryIds": [
+            "u20:world",
+            "u20:overseas",
+            "u20:state"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "During National Day, people hang the national ___ outside their houses.",
+          "fullSentence": "During National Day, people hang the national flag outside their houses.",
+          "translation": "國慶日時，人們把國旗掛在屋外。",
+          "clue": "掛在屋外的國家象徵",
+          "answerEntryId": "u20:flag",
+          "distractorEntryIds": [
+            "u20:world",
+            "u20:kingdom",
+            "u20:section"
+          ]
+        },
+        {
+          "sentence": "The maple leaf is the famous picture on the ___ of Canada.",
+          "fullSentence": "The maple leaf is the famous picture on the flag of Canada.",
+          "translation": "楓葉是加拿大國旗上著名的圖案。",
+          "clue": "楓葉所在的布幟",
+          "answerEntryId": "u20:flag",
+          "distractorEntryIds": [
+            "u20:world",
+            "u20:kingdom",
+            "u20:Mandarin"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Before the game starts, the captain of each team shakes hands under the ___ of his country.",
+        "fullSentence": "Before the game starts, the captain of each team shakes hands under the flag of his country.",
+        "translation": "比賽開始前，各隊隊長在自己國家的國旗下握手。",
+        "clue": "象徵國家的旗子",
+        "answerEntryId": "u20:flag",
+        "distractorEntryIds": [
+          "u20:world",
+          "u20:region",
+          "u20:nation"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:France",
+      "zh": "法國",
+      "pos": "noun",
+      "example": "France is famous for the Eiffel Tower and delicious bread.",
+      "exampleZh": "法國以艾菲爾鐵塔和美味的麵包聞名。",
+      "spellingHint": "f-r-a-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Eiffel Tower stands in Paris, the capital of ___.",
+        "fullSentence": "The Eiffel Tower stands in Paris, the capital of France.",
+        "translation": "艾菲爾鐵塔位於法國首都巴黎。",
+        "clue": "首都為巴黎的國家",
+        "answerEntryId": "u20:France",
+        "distractorEntryIds": [
+          "u20:Germany",
+          "u20:Britain",
+          "u20:Japan"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The Louvre Museum, home of the Mona Lisa, is in ___.",
+          "fullSentence": "The Louvre Museum, home of the Mona Lisa, is in France.",
+          "translation": "收藏蒙娜麗莎的羅浮宮在法國。",
+          "clue": "羅浮宮的所在國",
+          "answerEntryId": "u20:France",
+          "distractorEntryIds": [
+            "u20:Germany",
+            "u20:Britain",
+            "u20:governmental"
+          ]
+        },
+        {
+          "sentence": "People in ___ love to eat baguettes, croissants, and cheese.",
+          "fullSentence": "People in France love to eat baguettes, croissants, and cheese.",
+          "translation": "法國人愛吃長棍麵包、可頌和起司。",
+          "clue": "以長棍麵包聞名的國家",
+          "answerEntryId": "u20:France",
+          "distractorEntryIds": [
+            "u20:Germany",
+            "u20:Australia",
+            "u20:governmental"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The most famous bicycle race in the world crosses ___ every summer.",
+          "fullSentence": "The most famous bicycle race in the world crosses France every summer.",
+          "translation": "世界上最著名的自行車賽每年穿越法國。",
+          "clue": "環法自行車賽的主辦國",
+          "answerEntryId": "u20:France",
+          "distractorEntryIds": [
+            "u20:Germany",
+            "u20:Britain",
+            "u20:America"
+          ]
+        },
+        {
+          "sentence": "Wine and cheese from ___ are sold in supermarkets all over the world.",
+          "fullSentence": "Wine and cheese from France are sold in supermarkets all over the world.",
+          "translation": "法國的葡萄酒和起司在全世界超市都買得到。",
+          "clue": "葡萄酒起司的名產國",
+          "answerEntryId": "u20:France",
+          "distractorEntryIds": [
+            "u20:Germany",
+            "u20:England",
+            "u20:Korea"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although both are in Europe, ___ and Germany once fought two terrible wars against each other.",
+        "fullSentence": "Although both are in Europe, France and Germany once fought two terrible wars against each other.",
+        "translation": "雖然法國和德國都在歐洲，兩國曾打過兩次慘烈的戰爭。",
+        "clue": "與德國交戰過的鄰國",
+        "answerEntryId": "u20:France",
+        "distractorEntryIds": [
+          "u20:Japan",
+          "u20:Korea",
+          "u20:America"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:French",
+      "zh": "法國的；法文的",
+      "pos": "adjective",
+      "example": "Croissants and baguettes are French breads.",
+      "exampleZh": "可頌和長棍麵包是法國麵包。",
+      "spellingHint": "f-r-e-n-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Eiffel Tower is a famous ___ landmark that millions of tourists visit every year.",
+        "fullSentence": "The Eiffel Tower is a famous French landmark that millions of tourists visit every year.",
+        "translation": "艾菲爾鐵塔是著名的法國地標，每年有數百萬遊客造訪。",
+        "clue": "艾菲爾鐵塔的國籍",
+        "answerEntryId": "u20:French",
+        "distractorEntryIds": [
+          "u20:German",
+          "u20:British",
+          "u20:Japanese"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Croissants and baguettes are popular ___ breads.",
+          "fullSentence": "Croissants and baguettes are popular French breads.",
+          "translation": "可頌和長棍麵包是受歡迎的法國麵包。",
+          "clue": "可頌長棍的來源國",
+          "answerEntryId": "u20:French",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:British",
+            "u20:European"
+          ]
+        },
+        {
+          "sentence": "My sister is learning ___ because she wants to visit Paris one day.",
+          "fullSentence": "My sister is learning French because she wants to visit Paris one day.",
+          "translation": "我姐姐在學法文，因為她想有一天去巴黎。",
+          "clue": "去巴黎要學的語言",
+          "answerEntryId": "u20:French",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:European",
+            "u20:Mandarin"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ Open is a famous tennis tournament played on red clay courts.",
+          "fullSentence": "The French Open is a famous tennis tournament played on red clay courts.",
+          "translation": "法國公開賽是在紅土球場舉行的著名網球賽。",
+          "clue": "紅土網球公開賽的國籍",
+          "answerEntryId": "u20:French",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:British",
+            "u20:American"
+          ]
+        },
+        {
+          "sentence": "The Mona Lisa speaks to visitors in a whisper only a ___ guide can translate.",
+          "fullSentence": "The Mona Lisa speaks to visitors in a whisper only a French guide can translate.",
+          "translation": "只有法國導遊才能為遊客解說蒙娜麗莎的故事。",
+          "clue": "羅浮宮所在國的語言",
+          "answerEntryId": "u20:French",
+          "distractorEntryIds": [
+            "u20:German",
+            "u20:British",
+            "u20:Russian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the ___ flag with its three vertical stripes, the American flag has stars and stripes.",
+        "fullSentence": "Unlike the French flag with its three vertical stripes, the American flag has stars and stripes.",
+        "translation": "法國國旗是三條直條紋，美國國旗則有星星和橫條。",
+        "clue": "三色直條紋國旗的國家",
+        "answerEntryId": "u20:French",
+        "distractorEntryIds": [
+          "u20:German",
+          "u20:British",
+          "u20:Russian"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:German",
+      "zh": "德國的；德文的；德國人",
+      "pos": "adjective",
+      "example": "The German soccer team played very well last night.",
+      "exampleZh": "德國足球隊昨晚表現很好。",
+      "spellingHint": "g-e-r-m-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Cars like BMW and Mercedes-Benz come from famous ___ car companies.",
+        "fullSentence": "Cars like BMW and Mercedes-Benz come from famous German car companies.",
+        "translation": "BMW 和賓士等汽車來自著名的德國車廠。",
+        "clue": "BMW賓士的所屬國",
+        "answerEntryId": "u20:German",
+        "distractorEntryIds": [
+          "u20:French",
+          "u20:British",
+          "u20:Japanese"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "BMW, Mercedes-Benz, and Volkswagen are all ___ car brands.",
+          "fullSentence": "BMW, Mercedes-Benz, and Volkswagen are all German car brands.",
+          "translation": "BMW、賓士和福斯都是德國汽車品牌。",
+          "clue": "這些車廠的來源國",
+          "answerEntryId": "u20:German",
+          "distractorEntryIds": [
+            "u20:England",
+            "u20:British",
+            "u20:European"
+          ]
+        },
+        {
+          "sentence": "My father drives a ___ car that was made in Stuttgart.",
+          "fullSentence": "My father drives a German car that was made in Stuttgart.",
+          "translation": "我爸爸開的是史圖加特製造的德國車。",
+          "clue": "史圖加特製造的車",
+          "answerEntryId": "u20:German",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:British",
+            "u20:Mandarin"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Berlin Wall once divided the ___ capital into east and west.",
+          "fullSentence": "The Berlin Wall once divided the German capital into east and west.",
+          "translation": "柏林圍牆曾把德國首都分成東西兩半。",
+          "clue": "柏林的所屬國",
+          "answerEntryId": "u20:German",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:British",
+            "u20:Russian"
+          ]
+        },
+        {
+          "sentence": "Oktoberfest, the biggest beer festival in the world, is a famous ___ tradition in Munich.",
+          "fullSentence": "Oktoberfest, the biggest beer festival in the world, is a famous German tradition in Munich.",
+          "translation": "慕尼黑啤酒節是世界最大的啤酒節，是著名的德國傳統。",
+          "clue": "慕尼黑啤酒節的文化",
+          "answerEntryId": "u20:German",
+          "distractorEntryIds": [
+            "u20:Canadian",
+            "u20:British",
+            "u20:European"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the ___ language, which shares many words with English, the tongue of France looks very different on the page.",
+        "fullSentence": "Unlike the German language, which shares many words with English, the tongue of France looks very different on the page.",
+        "translation": "德語和英語有許多同源字，法語則看起來大不相同。",
+        "clue": "與英語同源的語言",
+        "answerEntryId": "u20:German",
+        "distractorEntryIds": [
+          "u20:French",
+          "u20:British",
+          "u20:Russian"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Germany",
+      "zh": "德國",
+      "pos": "noun",
+      "example": "Germany is in the middle of Europe.",
+      "exampleZh": "德國位於歐洲中部。",
+      "spellingHint": "g-e-r-m-a-n-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Berlin, the capital of ___, has a famous wall that once divided the city.",
+        "fullSentence": "Berlin, the capital of Germany, has a famous wall that once divided the city.",
+        "translation": "德國首都柏林有一道曾把城市分成兩半的著名圍牆。",
+        "clue": "首都為柏林的國家",
+        "answerEntryId": "u20:Germany",
+        "distractorEntryIds": [
+          "u20:France",
+          "u20:Britain",
+          "u20:Japan"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "BMW, Mercedes-Benz, and Volkswagen cars are all made in ___.",
+          "fullSentence": "BMW, Mercedes-Benz, and Volkswagen cars are all made in Germany.",
+          "translation": "BMW、賓士和福斯汽車都在德國製造。",
+          "clue": "這些車廠的所在國",
+          "answerEntryId": "u20:Germany",
+          "distractorEntryIds": [
+            "u20:France",
+            "u20:Britain",
+            "u20:Korea"
+          ]
+        },
+        {
+          "sentence": "The Berlin Wall divided ___ for almost thirty years.",
+          "fullSentence": "The Berlin Wall divided Germany for almost thirty years.",
+          "translation": "柏林圍牆把德國分隔了近三十年。",
+          "clue": "被圍牆分隔的國家",
+          "answerEntryId": "u20:Germany",
+          "distractorEntryIds": [
+            "u20:France",
+            "u20:Britain",
+            "u20:America"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Oktoberfest, the biggest beer festival in the world, takes place in Munich, ___.",
+          "fullSentence": "Oktoberfest, the biggest beer festival in the world, takes place in Munich, Germany.",
+          "translation": "世界最大的啤酒節「慕尼黑啤酒節」在德國慕尼黑舉行。",
+          "clue": "慕尼黑啤酒節所在國",
+          "answerEntryId": "u20:Germany",
+          "distractorEntryIds": [
+            "u20:France",
+            "u20:Britain",
+            "u20:America"
+          ]
+        },
+        {
+          "sentence": "Soccer teams from ___ have won the World Cup four times.",
+          "fullSentence": "Soccer teams from Germany have won the World Cup four times.",
+          "translation": "德國的足球隊贏過四次世界盃。",
+          "clue": "四屆世界盃冠軍的歐洲強隊",
+          "answerEntryId": "u20:Germany",
+          "distractorEntryIds": [
+            "u20:Britain",
+            "u20:France",
+            "u20:America"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and France are close neighbors today, their armies fought each other in two world wars.",
+        "fullSentence": "Although Germany and France are close neighbors today, their armies fought each other in two world wars.",
+        "translation": "雖然德國和法國現在是緊密鄰國，兩國曾在兩次世界大戰交戰。",
+        "clue": "與法國接壤並曾交戰的國家",
+        "answerEntryId": "u20:Germany",
+        "distractorEntryIds": [
+          "u20:Japan",
+          "u20:Korea",
+          "u20:Philippines"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:governmental",
+      "zh": "政府的；與政府有關的",
+      "pos": "adjective",
+      "example": "The city built a new library with governmental money.",
+      "exampleZh": "政府出錢蓋了一座新圖書館。",
+      "spellingHint": "g-o-v-e-r-n-m-e-n-t-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The new bridge was built with ___ money sent from the capital, not from town taxes.",
+        "fullSentence": "The new bridge was built with governmental money sent from the capital, not from town taxes.",
+        "translation": "新橋是用來自首都的政府經費蓋的，不是靠小鎮稅金。",
+        "clue": "由政府出資的工程",
+        "answerEntryId": "u20:governmental",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:international",
+          "u20:local"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The city hall is a ___ building where officials make important decisions.",
+          "fullSentence": "The city hall is a governmental building where officials make important decisions.",
+          "translation": "市政廳是官員做出重要決定的政府建築。",
+          "clue": "官員辦公的政府建築",
+          "answerEntryId": "u20:governmental",
+          "distractorEntryIds": [
+            "u20:Taiwanese",
+            "u20:Russia",
+            "u20:Russian"
+          ]
+        },
+        {
+          "sentence": "Public schools are ___ institutions that every child can attend for free.",
+          "fullSentence": "Public schools are governmental institutions that every child can attend for free.",
+          "translation": "公立學校是每個孩子都能免費就讀的政府機構。",
+          "clue": "免費入學的政府機構",
+          "answerEntryId": "u20:governmental",
+          "distractorEntryIds": [
+            "u20:Taiwanese",
+            "u20:Russia",
+            "u20:Russian"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ decision to build a new airport changed the whole region.",
+          "fullSentence": "The governmental decision to build a new airport changed the whole region.",
+          "translation": "興建新機場的政府決定改變了整個區域。",
+          "clue": "由政府做出的決定",
+          "answerEntryId": "u20:governmental",
+          "distractorEntryIds": [
+            "u20:Taiwanese",
+            "u20:overseas",
+            "u20:Russian"
+          ]
+        },
+        {
+          "sentence": "Post offices and public schools are examples of ___ services.",
+          "fullSentence": "Post offices and public schools are examples of governmental services.",
+          "translation": "郵局和公立學校是政府服務的例子。",
+          "clue": "由政府提供的服務",
+          "answerEntryId": "u20:governmental",
+          "distractorEntryIds": [
+            "u20:Taiwanese",
+            "u20:overseas",
+            "u20:Russian"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a personal choice made by one family, a ___ decision affects every citizen in the country.",
+        "fullSentence": "Unlike a personal choice made by one family, a governmental decision affects every citizen in the country.",
+        "translation": "家庭個人的選擇只影響一家人，政府決定則影響全國每位公民。",
+        "clue": "影響全國公民的決定",
+        "answerEntryId": "u20:governmental",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:international",
+          "u20:local"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Hong Kong",
+      "zh": "香港",
+      "pos": "noun",
+      "example": "My family visited Hong Kong and ate egg tarts there.",
+      "exampleZh": "我們全家去香港旅遊，在那裡吃了蛋撻。",
+      "spellingHint": "h-o-n-g k-o-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Victoria Harbour, with its tall buildings and bright lights, is the most famous view in ___.",
+        "fullSentence": "Victoria Harbour, with its tall buildings and bright lights, is the most famous view in Hong Kong.",
+        "translation": "維多利亞港的高樓與燈火是香港最著名的景觀。",
+        "clue": "維多利亞港所在城市",
+        "answerEntryId": "u20:Hong Kong",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:Paris",
+          "u20:New York"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Dim sum and egg tarts are famous foods in ___.",
+          "fullSentence": "Dim sum and egg tarts are famous foods in Hong Kong.",
+          "translation": "點心和蛋撻是香港著名的食物。",
+          "clue": "以點心蛋撻聞名的城市",
+          "answerEntryId": "u20:Hong Kong",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Paris",
+            "u20:world"
+          ]
+        },
+        {
+          "sentence": "___ is a busy harbor city where millions of people live in tall apartment towers.",
+          "fullSentence": "Hong Kong is a busy harbor city where millions of people live in tall apartment towers.",
+          "translation": "香港是熱鬧的港灣城市，數百萬人住在高樓大廈裡。",
+          "clue": "高樓林立的港灣城市",
+          "answerEntryId": "u20:Hong Kong",
+          "distractorEntryIds": [
+            "u20:Russia",
+            "u20:Paris",
+            "u20:world"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Tourists in ___ love to ride the Star Ferry across the harbor.",
+          "fullSentence": "Tourists in Hong Kong love to ride the Star Ferry across the harbor.",
+          "translation": "到香港的遊客喜歡搭天星小輪渡海。",
+          "clue": "天星小輪行駛的城市",
+          "answerEntryId": "u20:Hong Kong",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:New York"
+          ]
+        },
+        {
+          "sentence": "Cantonese, not Mandarin, is the language most people speak at home in ___.",
+          "fullSentence": "Cantonese, not Mandarin, is the language most people speak at home in Hong Kong.",
+          "translation": "在香港，多數人居家說的是粵語而不是國語。",
+          "clue": "通行粵語的城市",
+          "answerEntryId": "u20:Hong Kong",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:New York"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ is part of China, it keeps its own laws and even prints its own dollars.",
+        "fullSentence": "Although Hong Kong is part of China, it keeps its own laws and even prints its own dollars.",
+        "translation": "香港雖屬中國，仍保有自己的法律，甚至自行發行港幣。",
+        "clue": "保有自己的法律與港幣的地方",
+        "answerEntryId": "u20:Hong Kong",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:Paris",
+          "u20:New York"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Hualien",
+      "zh": "花蓮",
+      "pos": "noun",
+      "example": "Hualien is on the east coast of Taiwan.",
+      "exampleZh": "花蓮位於台灣東部海岸。",
+      "spellingHint": "h-u-a-l-i-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Taroko Gorge, with its tall marble cliffs, is the most famous scenery in ___.",
+        "fullSentence": "Taroko Gorge, with its tall marble cliffs, is the most famous scenery in Hualien.",
+        "translation": "大理石峽谷太魯閣是花蓮最著名的景觀。",
+        "clue": "太魯閣所在的城市",
+        "answerEntryId": "u20:Hualien",
+        "distractorEntryIds": [
+          "u20:Kaohsiung",
+          "u20:Tainan",
+          "u20:Taichung"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a quiet city on the east coast of Taiwan.",
+          "fullSentence": "Hualien is a quiet city on the east coast of Taiwan.",
+          "translation": "花蓮是台灣東岸的寧靜城市。",
+          "clue": "台灣東岸的城市",
+          "answerEntryId": "u20:Hualien",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        },
+        {
+          "sentence": "Many tourists take the train along the coast to see the beautiful mountains in ___.",
+          "fullSentence": "Many tourists take the train along the coast to see the beautiful mountains in Hualien.",
+          "translation": "許多遊客搭火車沿著海岸去看花蓮美麗的山。",
+          "clue": "以山海景色聞名的東部城市",
+          "answerEntryId": "u20:Hualien",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Dolphins and whales often swim near the coast of ___, so boat tours are popular there.",
+          "fullSentence": "Dolphins and whales often swim near the coast of Hualien, so boat tours are popular there.",
+          "translation": "花蓮外海常有海豚鯨魚出沒，賞鯨船之旅很受歡迎。",
+          "clue": "賞鯨著名的城市",
+          "answerEntryId": "u20:Hualien",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        },
+        {
+          "sentence": "Compared with busy harbor cities in the south, ___ is calm and close to nature.",
+          "fullSentence": "Compared with busy harbor cities in the south, Hualien is calm and close to nature.",
+          "translation": "和忙碌的南方港都相比，花蓮安靜又親近自然。",
+          "clue": "安靜親近自然的東部城市",
+          "answerEntryId": "u20:Hualien",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ is smaller and quieter, the busy southern port of Taiwan is only a train ride away.",
+        "fullSentence": "Although Hualien is smaller and quieter, the busy southern port of Taiwan is only a train ride away.",
+        "translation": "雖然花蓮小而寧靜，繁忙的南方商港搭火車就到。",
+        "clue": "台灣東部的寧靜城市",
+        "answerEntryId": "u20:Hualien",
+        "distractorEntryIds": [
+          "u20:Kaohsiung",
+          "u20:Tainan",
+          "u20:Taichung"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:international",
+      "zh": "國際的",
+      "pos": "adjective",
+      "example": "Our city holds an international food fair every year.",
+      "exampleZh": "我們的城市每年舉辦國際美食展。",
+      "spellingHint": "i-n-t-e-r-n-a-t-i-o-n-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Olympic Games is an ___ event with players from many countries.",
+        "fullSentence": "The Olympic Games is an international event with players from many countries.",
+        "translation": "奧運是有各國選手參加的國際賽事。",
+        "clue": "各國選手同場的賽事",
+        "answerEntryId": "u20:international",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:local",
+          "u20:regional"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The UN is an ___ organization with almost two hundred member countries.",
+          "fullSentence": "The UN is an international organization with almost two hundred member countries.",
+          "translation": "聯合國是將近兩百個會員國組成的國際組織。",
+          "clue": "會員含各國的組織",
+          "answerEntryId": "u20:international",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:Russian",
+            "u20:regional"
+          ]
+        },
+        {
+          "sentence": "Planes land at the ___ airport from Tokyo, Seoul, and Los Angeles every day.",
+          "fullSentence": "Planes land at the international airport from Tokyo, Seoul, and Los Angeles every day.",
+          "translation": "每天都有來自東京、首爾和洛杉磯的班機降落在國際機場。",
+          "clue": "跨國航線使用的機場",
+          "answerEntryId": "u20:international",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:Russian",
+            "u20:regional"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ news reports events happening in many different countries.",
+          "fullSentence": "The international news reports events happening in many different countries.",
+          "translation": "國際新聞報導世界各國發生的事件。",
+          "clue": "報導世界各國的新聞",
+          "answerEntryId": "u20:international",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:overseas",
+            "u20:Taiwanese"
+          ]
+        },
+        {
+          "sentence": "Our school welcomed ___ students from Japan, Korea, and France.",
+          "fullSentence": "Our school welcomed international students from Japan, Korea, and France.",
+          "translation": "我們學校接待了來自日本、韓國和法國的國際學生。",
+          "clue": "來自多國的學生",
+          "answerEntryId": "u20:international",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:Taiwanese",
+            "u11:downstairs"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a city bus that only runs inside one town, an ___ flight crosses borders to other countries.",
+        "fullSentence": "Unlike a city bus that only runs inside one town, an international flight crosses borders to other countries.",
+        "translation": "市區公車只在市內行駛，國際航班則跨越國界飛往他國。",
+        "clue": "跨越國界的航班",
+        "answerEntryId": "u20:international",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:local",
+          "u20:regional"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Japanese",
+      "zh": "日本的；日文的",
+      "pos": "adjective",
+      "example": "I ate sushi at a Japanese restaurant with my family.",
+      "exampleZh": "我和家人在一家日本餐廳吃壽司。",
+      "spellingHint": "j-a-p-a-n-e-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mount Fuji and cherry blossoms are famous ___ symbols.",
+        "fullSentence": "Mount Fuji and cherry blossoms are famous Japanese symbols.",
+        "translation": "富士山和櫻花是著名的日本象徵。",
+        "clue": "富士山櫻花的國家",
+        "answerEntryId": "u20:Japanese",
+        "distractorEntryIds": [
+          "u20:Chinese",
+          "u20:Korean",
+          "u20:French"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Sushi and ramen are popular ___ foods.",
+          "fullSentence": "Sushi and ramen are popular Japanese foods.",
+          "translation": "壽司和拉麵是受歡迎的日本食物。",
+          "clue": "壽司拉麵的來源國",
+          "answerEntryId": "u20:Japanese",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:Korean",
+            "u20:English"
+          ]
+        },
+        {
+          "sentence": "The ___ flag has a red circle on a white background.",
+          "fullSentence": "The Japanese flag has a red circle on a white background.",
+          "translation": "日本國旗是白底紅圓。",
+          "clue": "白底紅圓國旗的國家",
+          "answerEntryId": "u20:Japanese",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:Korean",
+            "u20:English"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The shinkansen, a super-fast bullet train, is a famous ___ invention.",
+          "fullSentence": "The shinkansen, a super-fast bullet train, is a famous Japanese invention.",
+          "translation": "新幹線超快速子彈列車是日本著名的發明。",
+          "clue": "子彈列車的發明國",
+          "answerEntryId": "u20:Japanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Korean",
+            "u20:French"
+          ]
+        },
+        {
+          "sentence": "Cherry blossoms bloom in spring, so people in ___ culture enjoy flower-viewing parties.",
+          "fullSentence": "Cherry blossoms bloom in spring, so people in Japanese culture enjoy flower-viewing parties.",
+          "translation": "櫻花春天盛開，日本文化因此有賞花聚會。",
+          "clue": "有賞花文化的國家",
+          "answerEntryId": "u20:Japanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Korean",
+            "u20:French"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the thousands of strokes needed for characters borrowed from China, ___ writing also uses two simple sound alphabets.",
+        "fullSentence": "Unlike the thousands of strokes needed for characters borrowed from China, Japanese writing also uses two simple sound alphabets.",
+        "translation": "與借自中國、筆畫繁多的漢字不同，日文書寫還使用兩套簡單的音標字母。",
+        "clue": "使用音標字母的書寫系統",
+        "answerEntryId": "u20:Japanese",
+        "distractorEntryIds": [
+          "u20:Chinese",
+          "u20:Korean",
+          "u20:French"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Japan",
+      "zh": "日本",
+      "pos": "noun",
+      "example": "Japan is an island country to the east of Taiwan.",
+      "exampleZh": "日本是台灣東邊的島國。",
+      "spellingHint": "j-a-p-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mount Fuji, a beautiful snow-capped volcano, is the highest mountain in ___.",
+        "fullSentence": "Mount Fuji, a beautiful snow-capped volcano, is the highest mountain in Japan.",
+        "translation": "山頂覆雪的美麗火山富士山是日本最高的山。",
+        "clue": "富士山的所在國",
+        "answerEntryId": "u20:Japan",
+        "distractorEntryIds": [
+          "u20:Korea",
+          "u20:China",
+          "u20:Philippines"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Tokyo, the capital of ___, is one of the biggest cities in the world.",
+          "fullSentence": "Tokyo, the capital of Japan, is one of the biggest cities in the world.",
+          "translation": "日本首都東京是世界最大的城市之一。",
+          "clue": "首都東京所在國",
+          "answerEntryId": "u20:Japan",
+          "distractorEntryIds": [
+            "u20:Korea",
+            "u20:Mandarin",
+            "u20:Britain"
+          ]
+        },
+        {
+          "sentence": "Sushi and ramen noodles come from ___.",
+          "fullSentence": "Sushi and ramen noodles come from Japan.",
+          "translation": "壽司和拉麵來自日本。",
+          "clue": "壽司拉麵的發源地",
+          "answerEntryId": "u20:Japan",
+          "distractorEntryIds": [
+            "u20:Korea",
+            "u20:Mandarin",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Trains in ___ are famous for being fast, quiet, and always on time.",
+          "fullSentence": "Trains in Japan are famous for being fast, quiet, and always on time.",
+          "translation": "日本的火車以快速、安靜、準時聞名。",
+          "clue": "火車以準時聞名的國家",
+          "answerEntryId": "u20:Japan",
+          "distractorEntryIds": [
+            "u20:Korea",
+            "u20:flag",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "In ___, people take off their shoes before entering a house.",
+          "fullSentence": "In Japan, people take off their shoes before entering a house.",
+          "translation": "在日本，人們進屋前會脫鞋。",
+          "clue": "進屋脫鞋的國家",
+          "answerEntryId": "u20:Japan",
+          "distractorEntryIds": [
+            "u20:Korea",
+            "u20:flag",
+            "u20:Britain"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and Korea are close neighbors, they write with different writing systems.",
+        "fullSentence": "Although Japan and Korea are close neighbors, they write with different writing systems.",
+        "translation": "雖然日本和韓國是鄰國，兩國的文字系統不同。",
+        "clue": "與韓國相鄰的島國",
+        "answerEntryId": "u20:Japan",
+        "distractorEntryIds": [
+          "u20:China",
+          "u20:Philippines",
+          "u20:Singapore"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Kaohsiung",
+      "zh": "高雄",
+      "pos": "noun",
+      "example": "Kaohsiung is a big harbor city in southern Taiwan.",
+      "exampleZh": "高雄是台灣南部的大港都。",
+      "spellingHint": "k-a-o-h-s-i-u-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Love River, with cafes along its banks, flows through the harbor city of ___.",
+        "fullSentence": "The Love River, with cafes along its banks, flows through the harbor city of Kaohsiung.",
+        "translation": "愛河流經港都高雄，河岸有許多咖啡館。",
+        "clue": "愛河流經的城市",
+        "answerEntryId": "u20:Kaohsiung",
+        "distractorEntryIds": [
+          "u20:Hualien",
+          "u20:Tainan",
+          "u20:Taichung"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___, a big harbor city in southern Taiwan, is famous for its night markets.",
+          "fullSentence": "Kaohsiung, a big harbor city in southern Taiwan, is famous for its night markets.",
+          "translation": "高雄是台灣南部的大港都，以夜市聞名。",
+          "clue": "南部港都城市",
+          "answerEntryId": "u20:Kaohsiung",
+          "distractorEntryIds": [
+            "u20:Hualien",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        },
+        {
+          "sentence": "Huge container ships from around the world dock at the port of ___.",
+          "fullSentence": "Huge container ships from around the world dock at the port of Kaohsiung.",
+          "translation": "世界各地的貨櫃輪停泊在高雄港。",
+          "clue": "以大港聞名的城市",
+          "answerEntryId": "u20:Kaohsiung",
+          "distractorEntryIds": [
+            "u20:Hualien",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ skyline looks beautiful at night from the top of the former British Consulate.",
+          "fullSentence": "The Kaohsiung skyline looks beautiful at night from the top of the former British Consulate.",
+          "translation": "從打狗英國領事館俯瞰，高雄的夜景很美。",
+          "clue": "有英國領事館遺跡的城市",
+          "answerEntryId": "u20:Kaohsiung",
+          "distractorEntryIds": [
+            "u20:Hualien",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        },
+        {
+          "sentence": "___ MRT connects the airport, the harbor, and the biggest night markets.",
+          "fullSentence": "Kaohsiung MRT connects the airport, the harbor, and the biggest night markets.",
+          "translation": "高雄捷運連接機場、港口和最大的夜市。",
+          "clue": "有自己的捷運的南部城市",
+          "answerEntryId": "u20:Kaohsiung",
+          "distractorEntryIds": [
+            "u20:Hualien",
+            "u20:Tainan",
+            "u20:Taichung"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Sitting at the southern tip of Taiwan, ___ is even farther from Taipei than the old capital beside it.",
+        "fullSentence": "Sitting at the southern tip of Taiwan, Kaohsiung is even farther from Taipei than the old capital beside it.",
+        "translation": "高雄位於台灣南端，離台北比旁邊的舊首都更遠。",
+        "clue": "台灣最南端的都會",
+        "answerEntryId": "u20:Kaohsiung",
+        "distractorEntryIds": [
+          "u20:Tainan",
+          "u20:Hualien",
+          "u20:Taichung"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:kingdom",
+      "zh": "王國",
+      "pos": "noun",
+      "example": "Long ago, the island was ruled by a small kingdom.",
+      "exampleZh": "很久以前，這座島由一個小王國統治。",
+      "spellingHint": "k-i-n-g-d-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The old ___ was ruled by a king and his family for two hundred years.",
+        "fullSentence": "The old kingdom was ruled by a king and his family for two hundred years.",
+        "translation": "這個古老的王國由國王和其家族統治了兩百年。",
+        "clue": "由國王統治的國度",
+        "answerEntryId": "u20:kingdom",
+        "distractorEntryIds": [
+          "u20:nation",
+          "u20:country",
+          "u20:region"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "In the story, a dragon attacked the ___ and stole the crown.",
+          "fullSentence": "In the story, a dragon attacked the kingdom and stole the crown.",
+          "translation": "故事裡，一條龍襲擊王國並偷走王冠。",
+          "clue": "有國王和王冠的國度",
+          "answerEntryId": "u20:kingdom",
+          "distractorEntryIds": [
+            "u20:overseas",
+            "u20:Philippines",
+            "u20:state"
+          ]
+        },
+        {
+          "sentence": "The United ___ includes England, Scotland, Wales, and Northern Ireland.",
+          "fullSentence": "The United kingdom includes England, Scotland, Wales, and Northern Ireland.",
+          "translation": "英國（聯合王國）包含英格蘭、蘇格蘭、威爾斯和北愛爾蘭。",
+          "clue": "含英格蘭的政治體",
+          "answerEntryId": "u20:kingdom",
+          "distractorEntryIds": [
+            "u20:overseas",
+            "u20:Philippines",
+            "u20:Taiwan"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The king built a tall castle to protect his ___ from enemies.",
+          "fullSentence": "The king built a tall castle to protect his kingdom from enemies.",
+          "translation": "國王建造高大的城堡保護他的王國。",
+          "clue": "國王以城堡守護的領地",
+          "answerEntryId": "u20:kingdom",
+          "distractorEntryIds": [
+            "u20:flag",
+            "u20:Mandarin",
+            "u20:state"
+          ]
+        },
+        {
+          "sentence": "Before it became a republic, France was once a ___ ruled by kings.",
+          "fullSentence": "Before it became a republic, France was once a kingdom ruled by kings.",
+          "translation": "法國成為共和國之前，曾是由國王統治的王國。",
+          "clue": "改制共和前的政體",
+          "answerEntryId": "u20:kingdom",
+          "distractorEntryIds": [
+            "u20:Mandarin",
+            "u20:ROC",
+            "u20:state"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "A ___ is ruled by a king or queen, while a republic is led by a president.",
+        "fullSentence": "A kingdom is ruled by a king or queen, while a republic is led by a president.",
+        "translation": "王國由國王或女王統治，共和國則由總統領導。",
+        "clue": "由君主統治的政體",
+        "answerEntryId": "u20:kingdom",
+        "distractorEntryIds": [
+          "u20:nation",
+          "u20:country",
+          "u20:region"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Korea",
+      "zh": "韓國",
+      "pos": "noun",
+      "example": "My favorite singer comes from Korea.",
+      "exampleZh": "我最喜歡的歌手來自韓國。",
+      "spellingHint": "k-o-r-e-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Seoul, the capital of ___, is famous for K-pop and street food.",
+        "fullSentence": "Seoul, the capital of Korea, is famous for K-pop and street food.",
+        "translation": "韓國首都首爾以K-pop和街頭小吃聞名。",
+        "clue": "首都首爾的所在國",
+        "answerEntryId": "u20:Korea",
+        "distractorEntryIds": [
+          "u20:Japan",
+          "u20:China",
+          "u20:Philippines"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Kimchi and K-pop are famous things from ___.",
+          "fullSentence": "Kimchi and K-pop are famous things from Korea.",
+          "translation": "泡菜和K-pop是韓國的著名事物。",
+          "clue": "泡菜與K-pop的發源地",
+          "answerEntryId": "u20:Korea",
+          "distractorEntryIds": [
+            "u20:Australian",
+            "u20:Mandarin",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "My cousin studies in ___ and learns the local tongue at school there.",
+          "fullSentence": "My cousin studies in Korea and learns the local tongue at school there.",
+          "translation": "我表哥在韓國讀書，在當地學當地語言。",
+          "clue": "表哥留學的國家",
+          "answerEntryId": "u20:Korea",
+          "distractorEntryIds": [
+            "u20:Australian",
+            "u20:New York",
+            "u20:Britain"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Kimchi, a spicy cabbage dish, is eaten with almost every meal in ___.",
+          "fullSentence": "Kimchi, a spicy cabbage dish, is eaten with almost every meal in Korea.",
+          "translation": "在韓國，幾乎每餐都會吃辣泡菜。",
+          "clue": "餐餐吃泡菜的國家",
+          "answerEntryId": "u20:Korea",
+          "distractorEntryIds": [
+            "u20:England",
+            "u20:flag",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "The Winter Olympics were held in Pyeongchang, ___, in 2018.",
+          "fullSentence": "The Winter Olympics were held in Pyeongchang, Korea, in 2018.",
+          "translation": "2018年冬季奧運在韓國平昌舉行。",
+          "clue": "平昌冬奧主辦國",
+          "answerEntryId": "u20:Korea",
+          "distractorEntryIds": [
+            "u20:Japan",
+            "u20:Russia",
+            "u20:Philippines"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and Japan are close island neighbors, they use different writing systems.",
+        "fullSentence": "Although Korea and Japan are close island neighbors, they use different writing systems.",
+        "translation": "雖然韓國和日本是相鄰的島國，兩國文字不同。",
+        "clue": "與日本相鄰的半島國家",
+        "answerEntryId": "u20:Korea",
+        "distractorEntryIds": [
+          "u20:China",
+          "u20:Philippines",
+          "u20:Singapore"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Korean",
+      "zh": "韓國的；韓文的",
+      "pos": "adjective",
+      "example": "The Korean singer danced and sang on the stage.",
+      "exampleZh": "這位韓國歌手在舞台上又唱又跳。",
+      "spellingHint": "k-o-r-e-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Kimchi and K-pop are famous ___ things loved around the world.",
+        "fullSentence": "Kimchi and K-pop are famous Korean things loved around the world.",
+        "translation": "泡菜和K-pop是享譽全球的韓國事物。",
+        "clue": "泡菜K-pop的國家",
+        "answerEntryId": "u20:Korean",
+        "distractorEntryIds": [
+          "u20:Japanese",
+          "u20:Chinese",
+          "u20:French"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Kimchi is a spicy ___ dish made from cabbage.",
+          "fullSentence": "Kimchi is a spicy Korean dish made from cabbage.",
+          "translation": "泡菜是一道用白菜做成的辛辣韓國菜。",
+          "clue": "泡菜的來源國",
+          "answerEntryId": "u20:Korean",
+          "distractorEntryIds": [
+            "u20:Japanese",
+            "u20:Chinese",
+            "u20:French"
+          ]
+        },
+        {
+          "sentence": "The ___ flag has black bars and a red-and-blue circle.",
+          "fullSentence": "The Korean flag has black bars and a red-and-blue circle.",
+          "translation": "韓國國旗有黑色卦線和紅藍圓形。",
+          "clue": "卦線與紅藍圓國旗的國家",
+          "answerEntryId": "u20:Korean",
+          "distractorEntryIds": [
+            "u20:Japanese",
+            "u20:Chinese",
+            "u20:French"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "BTS, a famous ___ boy band, has fans all over the world.",
+          "fullSentence": "BTS, a famous Korean boy band, has fans all over the world.",
+          "translation": "韓國男團BTS在全球都有粉絲。",
+          "clue": "BTS的國籍",
+          "answerEntryId": "u20:Korean",
+          "distractorEntryIds": [
+            "u20:Japanese",
+            "u20:Chinese",
+            "u20:French"
+          ]
+        },
+        {
+          "sentence": "Hangul, the ___ writing system, was invented by a king five hundred years ago.",
+          "fullSentence": "Hangul, the Korean writing system, was invented by a king five hundred years ago.",
+          "translation": "韓文字母「訓民正音」是古代一位國王發明的。",
+          "clue": "韓文字所屬的書寫系統",
+          "answerEntryId": "u20:Korean",
+          "distractorEntryIds": [
+            "u20:Japanese",
+            "u20:Chinese",
+            "u20:French"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The spicy cabbage dish called kimchi is a famous part of ___ cooking.",
+        "fullSentence": "The spicy cabbage dish called kimchi is a famous part of Korean cooking.",
+        "translation": "辛辣泡菜是韓式料理的著名代表。",
+        "clue": "泡菜所屬的料理文化",
+        "answerEntryId": "u20:Korean",
+        "distractorEntryIds": [
+          "u20:Japanese",
+          "u20:French",
+          "u20:British"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:local",
+      "zh": "在地的；當地的",
+      "pos": "adjective",
+      "example": "We buy fresh fruit at the local market every Sunday.",
+      "exampleZh": "我們每週日在當地市場買新鮮水果。",
+      "spellingHint": "l-o-c-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ night market near my house opens only on weekends.",
+        "fullSentence": "The local night market near my house opens only on weekends.",
+        "translation": "我家附近的地方夜市只在週末開市。",
+        "clue": "住家附近的夜市",
+        "answerEntryId": "u20:local",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:international",
+          "u20:regional"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We asked a ___ farmer for directions to the temple.",
+          "fullSentence": "We asked a local farmer for directions to the temple.",
+          "translation": "我們向當地農夫問路去廟裡。",
+          "clue": "住在當地的農夫",
+          "answerEntryId": "u20:local",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:Russia",
+            "u20:regional"
+          ]
+        },
+        {
+          "sentence": "The ___ news tells us about events in our own city.",
+          "fullSentence": "The local news tells us about events in our own city.",
+          "translation": "地方新聞告訴我們本市發生的事件。",
+          "clue": "報導本市的新聞",
+          "answerEntryId": "u20:local",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:Russian",
+            "u20:regional"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ people know the best places to eat that tourists never find.",
+          "fullSentence": "local people know the best places to eat that tourists never find.",
+          "translation": "在地人知道遊客找不到的美食好去處。",
+          "clue": "熟悉當地的人",
+          "answerEntryId": "u20:local",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:overseas",
+            "u20:regional"
+          ]
+        },
+        {
+          "sentence": "The mayor asked ___ businesses to support the school sports day.",
+          "fullSentence": "The mayor asked local businesses to support the school sports day.",
+          "translation": "市長請地方商家支持學校運動會。",
+          "clue": "在本地經營的商家",
+          "answerEntryId": "u20:local",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:overseas",
+            "u20:regional"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike island-wide TV news, a ___ newspaper only reports stories from our own town.",
+        "fullSentence": "Unlike island-wide TV news, a local newspaper only reports stories from our own town.",
+        "translation": "和來自台北的全國新聞不同，地方報只報導我們小鎮的消息。",
+        "clue": "只報導小鎮消息的報紙",
+        "answerEntryId": "u20:local",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:international",
+          "u20:regional"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:London",
+      "zh": "倫敦",
+      "pos": "noun",
+      "example": "London is the capital city of Britain.",
+      "exampleZh": "倫敦是英國的首都。",
+      "spellingHint": "l-o-n-d-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Big Ben and Tower Bridge stand beside the Thames in ___.",
+        "fullSentence": "Big Ben and Tower Bridge stand beside the Thames in London.",
+        "translation": "大笨鐘和倫敦塔橋矗立在倫敦泰晤士河畔。",
+        "clue": "塔橋與大笨鐘所在城市",
+        "answerEntryId": "u20:London",
+        "distractorEntryIds": [
+          "u20:Paris",
+          "u20:New York",
+          "u20:Taichung"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "In ___, buses are red and famous phone booths are red, too.",
+          "fullSentence": "In London, buses are red and famous phone booths are red, too.",
+          "translation": "在倫敦，公車是紅色的，著名的電話亭也是紅色的。",
+          "clue": "紅色公車與電話亭的城市",
+          "answerEntryId": "u20:London",
+          "distractorEntryIds": [
+            "u20:Paris",
+            "u20:New York",
+            "u20:USA"
+          ]
+        },
+        {
+          "sentence": "Tourists in ___ love to watch the changing of the guard at Buckingham Palace.",
+          "fullSentence": "Tourists in London love to watch the changing of the guard at Buckingham Palace.",
+          "translation": "到倫敦的遊客喜歡看白金漢宮的衛兵交接。",
+          "clue": "白金漢宮所在城市",
+          "answerEntryId": "u20:London",
+          "distractorEntryIds": [
+            "u20:Paris",
+            "u20:New York",
+            "u20:Taiwan"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "A giant Ferris wheel by the Thames gives visitors a great view of ___.",
+          "fullSentence": "A giant Ferris wheel by the Thames gives visitors a great view of London.",
+          "translation": "泰晤士河畔的巨大摩天輪讓遊客飽覽倫敦市景。",
+          "clue": "摩天輪所在城市",
+          "answerEntryId": "u20:London",
+          "distractorEntryIds": [
+            "u20:Paris",
+            "u20:New York",
+            "u20:Russia"
+          ]
+        },
+        {
+          "sentence": "The Underground, the oldest subway system in the world, carries millions of people around ___ every day.",
+          "fullSentence": "The Underground, the oldest subway system in the world, carries millions of people around London every day.",
+          "translation": "世界最老的地鐵「倫敦地鐵」每天載運數百萬人在倫敦通行。",
+          "clue": "世界最老地鐵所在城市",
+          "answerEntryId": "u20:London",
+          "distractorEntryIds": [
+            "u20:Paris",
+            "u20:New York",
+            "u20:Russia"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Rainy days are common in ___, so people there often carry umbrellas.",
+        "fullSentence": "Rainy days are common in London, so people there often carry umbrellas.",
+        "translation": "倫敦常下雨，當地人出門常帶傘。",
+        "clue": "多雨的英國首都",
+        "answerEntryId": "u20:London",
+        "distractorEntryIds": [
+          "u20:Paris",
+          "u20:New York",
+          "u20:Singapore"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Mandarin",
+      "zh": "國語；華語；普通話",
+      "pos": "noun",
+      "example": "Most people in Taiwan speak Mandarin at school.",
+      "exampleZh": "台灣大多數人在學校說國語。",
+      "spellingHint": "m-a-n-d-a-r-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "In Taiwan, most classes are taught in ___, the official tongue of the island.",
+        "fullSentence": "In Taiwan, most classes are taught in Mandarin, the official tongue of the island.",
+        "translation": "在台灣，多數課程以官方語言「國語」上課。",
+        "clue": "台灣的官方語言",
+        "answerEntryId": "u20:Mandarin",
+        "distractorEntryIds": [
+          "u13:language",
+          "u13:word",
+          "u13:letter"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My cousin from Canada is learning ___ so she can talk with our grandmother.",
+          "fullSentence": "My cousin from Canada is learning Mandarin so she can talk with our grandmother.",
+          "translation": "來自加拿大的表姊在學華語，才能和奶奶說話。",
+          "clue": "和奶奶溝通的語言",
+          "answerEntryId": "u20:Mandarin",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:French",
+            "u20:Japanese"
+          ]
+        },
+        {
+          "sentence": "Teachers in Taiwan speak ___ in class, so students understand every word.",
+          "fullSentence": "Teachers in Taiwan speak Mandarin in class, so students understand every word.",
+          "translation": "台灣老師上課說國語，學生每個字都聽得懂。",
+          "clue": "台灣課堂上的語言",
+          "answerEntryId": "u20:Mandarin",
+          "distractorEntryIds": [
+            "u20:English",
+            "u20:French",
+            "u20:Japanese"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "More than a billion people speak ___, the official tongue of Taiwan and China.",
+          "fullSentence": "More than a billion people speak Mandarin, the official tongue of Taiwan and China.",
+          "translation": "超過十億人說國語，它是台灣和中國的官方語言。",
+          "clue": "十億人使用的官方語言",
+          "answerEntryId": "u20:Mandarin",
+          "distractorEntryIds": [
+            "u13:language",
+            "u13:word",
+            "u13:sentence"
+          ]
+        },
+        {
+          "sentence": "At the speech contest, every student spoke ___ with clear pronunciation and no English.",
+          "fullSentence": "At the speech contest, every student spoke Mandarin with clear pronunciation and no English.",
+          "translation": "演講比賽中，每位學生都用清晰的發音說國語，完全不夾英文。",
+          "clue": "比賽使用的語言",
+          "answerEntryId": "u20:Mandarin",
+          "distractorEntryIds": [
+            "u13:language",
+            "u13:word",
+            "u13:letter"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ is the first tongue of more people on Earth, English is used more often on the Internet.",
+        "fullSentence": "Although Mandarin is the first tongue of more people on Earth, English is used more often on the Internet.",
+        "translation": "雖然華語是全球最多人的母語，網路上英文更常見。",
+        "clue": "最多母語人口的語言",
+        "answerEntryId": "u20:Mandarin",
+        "distractorEntryIds": [
+          "u13:language",
+          "u13:word",
+          "u13:sentence"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:nation",
+      "zh": "國家；民族",
+      "pos": "noun",
+      "example": "The whole nation celebrated the team winning the championship.",
+      "exampleZh": "全國都在慶祝球隊贏得冠軍。",
+      "spellingHint": "n-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The whole ___ was proud when its team won the world championship.",
+        "fullSentence": "The whole nation was proud when its team won the world championship.",
+        "translation": "國家隊贏得世界冠軍時，全國都很驕傲。",
+        "clue": "為國家隊驕傲的整體",
+        "answerEntryId": "u20:nation",
+        "distractorEntryIds": [
+          "u20:country",
+          "u20:kingdom",
+          "u20:region"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ is a group of people who share one land, government, and culture.",
+          "fullSentence": "A nation is a group of people who share one land, government, and culture.",
+          "translation": "國家是共享土地、政府與文化的人群。",
+          "clue": "有政府與文化的群體",
+          "answerEntryId": "u20:nation",
+          "distractorEntryIds": [
+            "u20:ROC",
+            "u20:kingdom",
+            "u20:region"
+          ]
+        },
+        {
+          "sentence": "Leaders from every ___ met to talk about world peace.",
+          "fullSentence": "Leaders from every nation met to talk about world peace.",
+          "translation": "各國領袖聚會討論世界和平。",
+          "clue": "派領袖開會的單位",
+          "answerEntryId": "u20:nation",
+          "distractorEntryIds": [
+            "u20:ROC",
+            "u20:kingdom",
+            "u20:region"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "After winning Olympic gold, the young athlete became a hero for the entire ___.",
+          "fullSentence": "After winning Olympic gold, the young athlete became a hero for the entire nation.",
+          "translation": "贏得奧運金牌後，這位年輕選手成為全國的英雄。",
+          "clue": "以奧運選手為榮的整體",
+          "answerEntryId": "u20:nation",
+          "distractorEntryIds": [
+            "u20:Mandarin",
+            "u20:kingdom",
+            "u20:region"
+          ]
+        },
+        {
+          "sentence": "The new president promised to make the ___ stronger and safer.",
+          "fullSentence": "The new president promised to make the nation stronger and safer.",
+          "translation": "新總統承諾讓國家更強大更安全。",
+          "clue": "總統領導的整體",
+          "answerEntryId": "u20:nation",
+          "distractorEntryIds": [
+            "u20:ROC",
+            "u20:kingdom",
+            "u20:region"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a ___ that is ruled by a king, a modern republic like France is led by an elected president.",
+        "fullSentence": "Unlike a nation that is ruled by a king, a modern republic like France is led by an elected president.",
+        "translation": "王國由國王統治，而法國這類現代共和國由民選總統領導。",
+        "clue": "由民選總統領導的政體",
+        "answerEntryId": "u20:nation",
+        "distractorEntryIds": [
+          "u20:kingdom",
+          "u20:country",
+          "u20:region"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:national",
+      "zh": "全國的；國家的",
+      "pos": "adjective",
+      "example": "October tenth is a national holiday in Taiwan.",
+      "exampleZh": "十月十日是台灣的國定假日。",
+      "spellingHint": "n-a-t-i-o-n-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ flag was raised during the opening ceremony of the games.",
+        "fullSentence": "The national flag was raised during the opening ceremony of the games.",
+        "translation": "開幕典禮上升起了國旗。",
+        "clue": "代表國家的旗子",
+        "answerEntryId": "u20:national",
+        "distractorEntryIds": [
+          "u20:local",
+          "u20:regional",
+          "u20:international"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Christmas is not a ___ holiday in Taiwan, so people still go to work.",
+          "fullSentence": "Christmas is not a national holiday in Taiwan, so people still go to work.",
+          "translation": "聖誕節在台灣不是國定假日，所以大家照常上班。",
+          "clue": "全國放假的日子",
+          "answerEntryId": "u20:national",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:regional",
+            "u20:international"
+          ]
+        },
+        {
+          "sentence": "The ___ anthem was sung by everyone in the stadium.",
+          "fullSentence": "The national anthem was sung by everyone in the stadium.",
+          "translation": "全場觀眾唱起國歌。",
+          "clue": "代表國家的歌曲",
+          "answerEntryId": "u20:national",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:regional",
+            "u20:international"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ basketball team will play against teams from other countries.",
+          "fullSentence": "The national basketball team will play against teams from other countries.",
+          "translation": "國家籃球隊將與其他國家的隊伍比賽。",
+          "clue": "代表國家出賽的隊伍",
+          "answerEntryId": "u20:national",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:regional",
+            "u20:international"
+          ]
+        },
+        {
+          "sentence": "Double Tenth Day is a ___ celebration with fireworks and parades.",
+          "fullSentence": "Double Tenth Day is a national celebration with fireworks and parades.",
+          "translation": "雙十節是全國性的慶典，有煙火和遊行。",
+          "clue": "全國同慶的節日",
+          "answerEntryId": "u20:national",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:regional",
+            "u20:international"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ parks like Taroko are protected by the government for everyone to enjoy.",
+        "fullSentence": "national parks like Taroko are protected by the government for everyone to enjoy.",
+        "translation": "太魯閣等國家公園由政府保護，供全民享受。",
+        "clue": "政府設立的保護區",
+        "answerEntryId": "u20:national",
+        "distractorEntryIds": [
+          "u20:local",
+          "u20:regional",
+          "u20:international"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:New York",
+      "zh": "紐約",
+      "pos": "noun",
+      "example": "New York is one of the busiest cities in America.",
+      "exampleZh": "紐約是美國最忙碌的城市之一。",
+      "spellingHint": "n-e-w y-o-r-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Statue of Liberty holds her torch high over the harbor of ___.",
+        "fullSentence": "The Statue of Liberty holds her torch high over the harbor of New York.",
+        "translation": "自由女神像在紐約港高舉火炬。",
+        "clue": "自由女神像所在城市",
+        "answerEntryId": "u20:New York",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:Paris",
+          "u20:Hong Kong"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Times Square and Central Park are famous places in ___.",
+          "fullSentence": "Times Square and Central Park are famous places in New York.",
+          "translation": "時代廣場和中央公園是紐約的著名景點。",
+          "clue": "時代廣場所在城市",
+          "answerEntryId": "u20:New York",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:USA"
+          ]
+        },
+        {
+          "sentence": "Skyscrapers in ___ reach higher than in almost any other city in America.",
+          "fullSentence": "Skyscrapers in New York reach higher than in almost any other city in America.",
+          "translation": "紐約的摩天大樓比美國其他城市都高。",
+          "clue": "以摩天樓聞名的美國城市",
+          "answerEntryId": "u20:New York",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:Hong Kong"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Central Park gives people in ___ a big green space to relax in.",
+          "fullSentence": "Central Park gives people in New York a big green space to relax in.",
+          "translation": "中央公園讓紐約人有大片綠地可以休息。",
+          "clue": "有中央公園的城市",
+          "answerEntryId": "u20:New York",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:section"
+          ]
+        },
+        {
+          "sentence": "The subway in ___ runs all day and all night.",
+          "fullSentence": "The subway in New York runs all day and all night.",
+          "translation": "紐約的地鐵日夜行駛。",
+          "clue": "二十四小時地鐵的城市",
+          "answerEntryId": "u20:New York",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:Paris",
+            "u20:Taiwan"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and Los Angeles are both in America, one is on the east coast and the other is on the west.",
+        "fullSentence": "Although New York and Los Angeles are both in America, one is on the east coast and the other is on the west.",
+        "translation": "紐約和洛杉磯都在美國，一個在東岸，一個在西岸。",
+        "clue": "位於美國東岸的大城",
+        "answerEntryId": "u20:New York",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:Paris",
+          "u20:Taiwan"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:overseas",
+      "zh": "海外的；在國外",
+      "pos": "adjective",
+      "example": "My brother works overseas in Singapore.",
+      "exampleZh": "我哥哥在海外的新加坡工作。",
+      "spellingHint": "o-v-e-r-s-e-a-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Our company opened an ___ office in Singapore last year.",
+        "fullSentence": "Our company opened an overseas office in Singapore last year.",
+        "translation": "我們公司去年在新加坡設立海外辦公室。",
+        "clue": "設在外國的分公司",
+        "answerEntryId": "u20:overseas",
+        "distractorEntryIds": [
+          "u20:regional",
+          "u20:local",
+          "u20:international"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Many students hope to study ___ one day.",
+          "fullSentence": "Many students hope to study overseas one day.",
+          "translation": "許多學生希望有一天能出國留學。",
+          "clue": "去外國讀書",
+          "answerEntryId": "u20:overseas",
+          "distractorEntryIds": [
+            "u30:abroad",
+            "u20:local",
+            "u20:international"
+          ]
+        },
+        {
+          "sentence": "The company sells its products ___, not just in Taiwan.",
+          "fullSentence": "The company sells its products overseas, not just in Taiwan.",
+          "translation": "這家公司把產品賣到海外，不只是台灣。",
+          "clue": "把貨賣到外國",
+          "answerEntryId": "u20:overseas",
+          "distractorEntryIds": [
+            "u30:abroad",
+            "u20:local",
+            "u20:international"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Grandfather receives a letter from his ___ friend in Canada every month.",
+          "fullSentence": "Grandfather receives a letter from his overseas friend in Canada every month.",
+          "translation": "爺爺每個月都收到加拿大海外老友的來信。",
+          "clue": "遠在加拿大的朋友",
+          "answerEntryId": "u20:overseas",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:international",
+            "u20:regional"
+          ]
+        },
+        {
+          "sentence": "Flying ___ takes many hours, so people pack carefully before the trip.",
+          "fullSentence": "Flying overseas takes many hours, so people pack carefully before the trip.",
+          "translation": "搭機出國要飛好幾小時，所以行前要仔細收拾行李。",
+          "clue": "搭機前往外國",
+          "answerEntryId": "u20:overseas",
+          "distractorEntryIds": [
+            "u20:local",
+            "u20:international",
+            "u20:regional"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a ___ trip across town, this journey takes you across oceans to another country.",
+        "fullSentence": "Unlike a overseas trip across town, this journey takes you across oceans to another country.",
+        "translation": "市區小旅行只穿越市鎮，這趟旅程則跨越海洋抵達另一個國家。",
+        "clue": "跨海出國的旅程",
+        "answerEntryId": "u20:overseas",
+        "distractorEntryIds": [
+          "u20:regional",
+          "u20:local",
+          "u20:national"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Paris",
+      "zh": "巴黎",
+      "pos": "noun",
+      "example": "Paris is the capital city of France.",
+      "exampleZh": "巴黎是法國的首都。",
+      "spellingHint": "p-a-r-i-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Eiffel Tower lights up the night sky over ___.",
+        "fullSentence": "The Eiffel Tower lights up the night sky over Paris.",
+        "translation": "艾菲爾鐵塔照亮了巴黎的夜空。",
+        "clue": "艾菲爾鐵塔所在城市",
+        "answerEntryId": "u20:Paris",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:New York",
+          "u20:Taichung"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The Louvre, the museum with the Mona Lisa, is in ___.",
+          "fullSentence": "The Louvre, the museum with the Mona Lisa, is in Paris.",
+          "translation": "收藏蒙娜麗莎的羅浮宮在巴黎。",
+          "clue": "羅浮宮所在城市",
+          "answerEntryId": "u20:Paris",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:New York",
+            "u20:Hong Kong"
+          ]
+        },
+        {
+          "sentence": "Artists from around the world come to ___ to study painting.",
+          "fullSentence": "Artists from around the world come to Paris to study painting.",
+          "translation": "世界各地的藝術家來巴黎學畫。",
+          "clue": "藝術學生聚集的城市",
+          "answerEntryId": "u20:Paris",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:New York",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Cafes along the Seine River are a famous sight in ___.",
+          "fullSentence": "Cafes along the Seine River are a famous sight in Paris.",
+          "translation": "塞納河畔的咖啡館是巴黎著名的景色。",
+          "clue": "塞納河流經的城市",
+          "answerEntryId": "u20:Paris",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:New York",
+            "u20:Hong Kong"
+          ]
+        },
+        {
+          "sentence": "The Metro carries millions of people under the streets of ___ every day.",
+          "fullSentence": "The Metro carries millions of people under the streets of Paris every day.",
+          "translation": "巴黎地鐵每天在街道下載運數百萬人。",
+          "clue": "Metro 地鐵的城市",
+          "answerEntryId": "u20:Paris",
+          "distractorEntryIds": [
+            "u20:London",
+            "u20:New York",
+            "u20:Hong Kong"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "In ___, the capital of France, old buildings stand beside modern glass towers.",
+        "fullSentence": "In Paris, the capital of France, old buildings stand beside modern glass towers.",
+        "translation": "在法國首都巴黎，古蹟與現代玻璃高樓並肩而立。",
+        "clue": "法國的首都",
+        "answerEntryId": "u20:Paris",
+        "distractorEntryIds": [
+          "u20:London",
+          "u20:New York",
+          "u20:Taiwan"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Philippines",
+      "zh": "菲律賓",
+      "pos": "noun",
+      "example": "The Philippines is made of more than seven thousand islands.",
+      "exampleZh": "菲律賓由七千多個島嶼組成。",
+      "spellingHint": "p-h-i-l-i-p-p-i-n-e-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ beaches like Boracay attract tourists from around the world.",
+        "fullSentence": "Philippines beaches like Boracay attract tourists from around the world.",
+        "translation": "菲律賓的長灘島等海灘吸引世界各地的遊客。",
+        "clue": "長灘島所在的群島國家",
+        "answerEntryId": "u20:Philippines",
+        "distractorEntryIds": [
+          "u20:Japan",
+          "u20:Korea",
+          "u20:Singapore"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Many foreign workers in Taiwan come from the ___.",
+          "fullSentence": "Many foreign workers in Taiwan come from the Philippines.",
+          "translation": "在台灣的許多外籍工作者來自菲律賓。",
+          "clue": "輸出移工的島國",
+          "answerEntryId": "u20:Philippines",
+          "distractorEntryIds": [
+            "u20:Canada",
+            "u20:Korea",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "Manila, the capital of the ___, is a very busy port city.",
+          "fullSentence": "Manila, the capital of the Philippines, is a very busy port city.",
+          "translation": "菲律賓首都馬尼拉是非常忙碌的港城。",
+          "clue": "首都馬尼拉的國家",
+          "answerEntryId": "u20:Philippines",
+          "distractorEntryIds": [
+            "u20:Japan",
+            "u20:Korea",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Because the ___ has so many islands, people often travel between them by boat.",
+          "fullSentence": "Because the Philippines has so many islands, people often travel between them by boat.",
+          "translation": "因為菲律賓島嶼眾多，人們常搭船往來島嶼之間。",
+          "clue": "多島國家的代表",
+          "answerEntryId": "u20:Philippines",
+          "distractorEntryIds": [
+            "u20:Japan",
+            "u20:Korea",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "Beaches like Boracay make the ___ famous for water sports and white sand.",
+          "fullSentence": "Beaches like Boracay make the Philippines famous for water sports and white sand.",
+          "translation": "長灘島等海灘讓菲律賓以水上活動和白沙聞名。",
+          "clue": "以白沙海灘聞名的國家",
+          "answerEntryId": "u20:Philippines",
+          "distractorEntryIds": [
+            "u20:Japan",
+            "u20:Korea",
+            "u20:Britain"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although the ___ is close to Taiwan, its weather is even hotter because it lies near the equator.",
+        "fullSentence": "Although the Philippines is close to Taiwan, its weather is even hotter because it lies near the equator.",
+        "translation": "菲律賓離台灣不遠，但更近赤道，天氣更熱。",
+        "clue": "近赤道的鄰國",
+        "answerEntryId": "u20:Philippines",
+        "distractorEntryIds": [
+          "u20:Japan",
+          "u20:Korea",
+          "u20:Singapore"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:ROC",
+      "zh": "中華民國（Taiwan 的正式簡稱）",
+      "pos": "noun",
+      "example": "ROC is the short form of the official name of Taiwan.",
+      "exampleZh": "ROC 是台灣正式名稱的縮寫。",
+      "spellingHint": "r-o-c",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Passports of ___ show the official name of the country that includes Taiwan.",
+        "fullSentence": "Passports of ROC show the official name of the country that includes Taiwan.",
+        "translation": "中華民國護照上印著這個包含台灣的國家正式名稱。",
+        "clue": "護照上的正式國名縮寫",
+        "answerEntryId": "u20:ROC",
+        "distractorEntryIds": [
+          "u20:USA",
+          "u20:China",
+          "u20:Japan"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ stands for the official name of the republic on this island.",
+          "fullSentence": "ROC stands for the official name of the republic on this island.",
+          "translation": "ROC 代表這座島上共和國的正式名稱。",
+          "clue": "Republic of China 的縮寫",
+          "answerEntryId": "u20:ROC",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:overseas",
+            "u20:Korea"
+          ]
+        },
+        {
+          "sentence": "The date on the ___ calendar counts years from 1912.",
+          "fullSentence": "The date on the ROC calendar counts years from 1912.",
+          "translation": "中華民國的紀年從1912年開始算。",
+          "clue": "從1912年紀年的國家縮寫",
+          "answerEntryId": "u20:ROC",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:overseas",
+            "u20:Japan"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Coins in ___ show the name of the country in both letters and Chinese characters.",
+          "fullSentence": "Coins in ROC show the name of the country in both letters and Chinese characters.",
+          "translation": "中華民國的硬幣上以英文縮寫和中文標示國名。",
+          "clue": "硬幣上的國名縮寫",
+          "answerEntryId": "u20:ROC",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:China",
+            "u20:Singapore"
+          ]
+        },
+        {
+          "sentence": "Officials from ___ join international meetings under this official short name.",
+          "fullSentence": "Officials from ROC join international meetings under this official short name.",
+          "translation": "中華民國官員以這個縮寫參加國際會議。",
+          "clue": "參與國際會議的縮寫",
+          "answerEntryId": "u20:ROC",
+          "distractorEntryIds": [
+            "u20:USA",
+            "u20:China",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike a huge country that covers a whole continent, ___ is a much smaller republic made of one main island.",
+        "fullSentence": "Unlike a huge country that covers a whole continent, ROC is a much smaller republic made of one main island.",
+        "translation": "橫跨大陸的大國之外，中華民國是由一座大島組成的小共和國。",
+        "clue": "由台灣島組成的國家縮寫",
+        "answerEntryId": "u20:ROC",
+        "distractorEntryIds": [
+          "u20:USA",
+          "u20:China",
+          "u20:Japan"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:region",
+      "zh": "地區；區域",
+      "pos": "noun",
+      "example": "Hualien is a beautiful region on the east coast.",
+      "exampleZh": "花蓮是東海岸美麗的地區。",
+      "spellingHint": "r-e-g-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The southern ___ of the island gets the most sunshine all year.",
+        "fullSentence": "The southern region of the island gets the most sunshine all year.",
+        "translation": "島嶼南部的地區全年陽光最充足。",
+        "clue": "島嶼南部的區域",
+        "answerEntryId": "u20:region",
+        "distractorEntryIds": [
+          "u20:section",
+          "u20:country",
+          "u20:nation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Farmers in this ___ grow tea in the cool mountains.",
+          "fullSentence": "Farmers in this region grow tea in the cool mountains.",
+          "translation": "這個地區的農夫在涼爽的山上種茶。",
+          "clue": "種茶的地域",
+          "answerEntryId": "u20:region",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:ROC",
+            "u20:Philippines"
+          ]
+        },
+        {
+          "sentence": "The earthquake affected a wide ___, from the mountains to the coast.",
+          "fullSentence": "The earthquake affected a wide region, from the mountains to the coast.",
+          "translation": "地震影響了從山區到海岸的廣大地區。",
+          "clue": "地震波及的範圍",
+          "answerEntryId": "u20:region",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:ROC",
+            "u20:Philippines"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "People in every ___ of the island watched the final game on TV.",
+          "fullSentence": "People in every region of the island watched the final game on TV.",
+          "translation": "全國每個地區的人都在電視上看決賽。",
+          "clue": "國家內部的分區",
+          "answerEntryId": "u20:region",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:ROC",
+            "u20:Mandarin"
+          ]
+        },
+        {
+          "sentence": "This rainy ___ is a good place to grow rice all year round.",
+          "fullSentence": "This rainy region is a good place to grow rice all year round.",
+          "translation": "這個多雨的地區一年四季都適合種稻。",
+          "clue": "多雨宜稻的地域",
+          "answerEntryId": "u20:region",
+          "distractorEntryIds": [
+            "u20:section",
+            "u20:ROC",
+            "u20:Mandarin"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The east coast is one quiet ___ of Taiwan, while the capital sits in the busy north.",
+        "fullSentence": "The east coast is one quiet region of Taiwan, while the capital sits in the busy north.",
+        "translation": "東部海岸是台灣寧靜的一區，首都則位於熱鬧的北部。",
+        "clue": "台灣內部的分區",
+        "answerEntryId": "u20:region",
+        "distractorEntryIds": [
+          "u20:country",
+          "u20:nation",
+          "u20:section"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:regional",
+      "zh": "區域的；地區性的",
+      "pos": "adjective",
+      "example": "The regional contest brought students from nearby towns together.",
+      "exampleZh": "區域賽讓附近城鎮的學生齊聚一堂。",
+      "spellingHint": "r-e-g-i-o-n-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Trains on the ___ line stop at every small town between the big cities.",
+        "fullSentence": "Trains on the regional line stop at every small town between the big cities.",
+        "translation": "區間車停靠大城市之間的每個小站。",
+        "clue": "每站都停的火車",
+        "answerEntryId": "u20:regional",
+        "distractorEntryIds": [
+          "u20:national",
+          "u20:local",
+          "u20:international"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The storm knocked out power across the whole ___ area.",
+          "fullSentence": "The storm knocked out power across the whole regional area.",
+          "translation": "暴風雨讓整個區域停電。",
+          "clue": "受災的整片區域",
+          "answerEntryId": "u20:regional",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:local",
+            "u20:international"
+          ]
+        },
+        {
+          "sentence": "Our team won first place in the ___ contest before going to the finals.",
+          "fullSentence": "Our team won first place in the regional contest before going to the finals.",
+          "translation": "我們隊在區域賽拿第一，才晉級決賽。",
+          "clue": "決賽前的地區賽",
+          "answerEntryId": "u20:regional",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:local",
+            "u20:international"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ buses connect the towns around Taipei with the capital.",
+          "fullSentence": "regional buses connect the towns around Taipei with the capital.",
+          "translation": "區域客運連接台北周圍的城鎮與首都。",
+          "clue": "串聯城鎮的客運",
+          "answerEntryId": "u20:regional",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:local",
+            "u20:international"
+          ]
+        },
+        {
+          "sentence": "The hospital is the main ___ medical center for three nearby counties.",
+          "fullSentence": "The hospital is the main regional medical center for three nearby counties.",
+          "translation": "這家醫院是鄰近三個縣的主要區域醫療中心。",
+          "clue": "服務三縣的醫院",
+          "answerEntryId": "u20:regional",
+          "distractorEntryIds": [
+            "u20:national",
+            "u20:local",
+            "u20:international"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "A ___ hospital serves several towns at once, while a small clinic only serves one neighborhood.",
+        "fullSentence": "A regional hospital serves several towns at once, while a small clinic only serves one neighborhood.",
+        "translation": "區域醫院同時服務數個城鎮，小型診所只服務一個社區。",
+        "clue": "服務多個城鎮的醫院",
+        "answerEntryId": "u20:regional",
+        "distractorEntryIds": [
+          "u20:local",
+          "u20:national",
+          "u20:international"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Russia",
+      "zh": "俄羅斯",
+      "pos": "noun",
+      "example": "Russia is the largest country in the world.",
+      "exampleZh": "俄羅斯是世界上最大的國家。",
+      "spellingHint": "r-u-s-s-i-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___, the largest country in the world, stretches from Europe all the way to Asia.",
+        "fullSentence": "Russia, the largest country in the world, stretches from Europe all the way to Asia.",
+        "translation": "俄羅斯是世界最大的國家，領土從歐洲延伸到亞洲。",
+        "clue": "世界上面積最大的國家",
+        "answerEntryId": "u20:Russia",
+        "distractorEntryIds": [
+          "u20:America",
+          "u20:China",
+          "u20:Germany"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Snow covers much of ___ for many months every year.",
+          "fullSentence": "Snow covers much of Russia for many months every year.",
+          "translation": "俄羅斯每年大部分地區積雪好幾個月。",
+          "clue": "長期大雪的北方大國",
+          "answerEntryId": "u20:Russia",
+          "distractorEntryIds": [
+            "u20:America",
+            "u20:China",
+            "u20:Philippines"
+          ]
+        },
+        {
+          "sentence": "Moscow, the capital of ___, has beautiful churches with golden domes.",
+          "fullSentence": "Moscow, the capital of Russia, has beautiful churches with golden domes.",
+          "translation": "俄羅斯首都莫斯科有金色洋蔥頂的美麗教堂。",
+          "clue": "首都莫斯科的國家",
+          "answerEntryId": "u20:Russia",
+          "distractorEntryIds": [
+            "u20:America",
+            "u20:China",
+            "u20:Germany"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Trans-Siberian Railway crosses ___ from Moscow to the Pacific Ocean.",
+          "fullSentence": "The Trans-Siberian Railway crosses Russia from Moscow to the Pacific Ocean.",
+          "translation": "西伯利亞大鐵路從莫斯科橫越俄羅斯到太平洋。",
+          "clue": "西伯利亞鐵路的所在國",
+          "answerEntryId": "u20:Russia",
+          "distractorEntryIds": [
+            "u20:America",
+            "u20:China",
+            "u20:Germany"
+          ]
+        },
+        {
+          "sentence": "Figure skating is a sport where athletes from ___ often win gold medals.",
+          "fullSentence": "Figure skating is a sport where athletes from Russia often win gold medals.",
+          "translation": "俄羅斯的花式滑冰選手常贏得金牌。",
+          "clue": "花滑強國",
+          "answerEntryId": "u20:Russia",
+          "distractorEntryIds": [
+            "u20:America",
+            "u20:Japan",
+            "u20:Philippines"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ and China share a very long border, people in the two countries speak different languages.",
+        "fullSentence": "Although Russia and China share a very long border, people in the two countries speak different languages.",
+        "translation": "雖然俄羅斯和中國有很長的邊界，兩國語言不同。",
+        "clue": "與中國接壤的北方大國",
+        "answerEntryId": "u20:Russia",
+        "distractorEntryIds": [
+          "u20:America",
+          "u20:Japan",
+          "u20:Philippines"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Russian",
+      "zh": "俄羅斯的；俄文的",
+      "pos": "adjective",
+      "example": "The Russian dancer practiced every day for the show.",
+      "exampleZh": "這位俄羅斯舞者每天為演出練習。",
+      "spellingHint": "r-u-s-s-i-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Matryoshka dolls, the wooden dolls that fit inside each other, are a famous ___ craft.",
+        "fullSentence": "Matryoshka dolls, the wooden dolls that fit inside each other, are a famous Russian craft.",
+        "translation": "一層套一層的木頭娃娃「套娃」是著名的俄羅斯工藝。",
+        "clue": "套娃的來源國",
+        "answerEntryId": "u20:Russian",
+        "distractorEntryIds": [
+          "u20:Chinese",
+          "u20:French",
+          "u20:Korean"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The largest country in the world is ___ territory that crosses two continents.",
+          "fullSentence": "The largest country in the world is Russian territory that crosses two continents.",
+          "translation": "世界上面積最大的俄羅斯領土橫跨兩大洲。",
+          "clue": "最大國的國籍",
+          "answerEntryId": "u20:Russian",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:French",
+            "u20:Korean"
+          ]
+        },
+        {
+          "sentence": "My ___ friend says winter in Moscow is colder than in Taipei.",
+          "fullSentence": "My Russian friend says winter in Moscow is colder than in Taipei.",
+          "translation": "我的俄羅斯朋友說莫斯科的冬天比台北冷多了。",
+          "clue": "莫斯科朋友的國籍",
+          "answerEntryId": "u20:Russian",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:French",
+            "u20:Korean"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ language uses a special alphabet with thirty-three letters.",
+          "fullSentence": "The Russian language uses a special alphabet with thirty-three letters.",
+          "translation": "俄文使用三十三個字母的特殊文字。",
+          "clue": "特殊字母系統的語言",
+          "answerEntryId": "u20:Russian",
+          "distractorEntryIds": [
+            "u20:French",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        },
+        {
+          "sentence": "The ___ ballet is admired by dancers all over the world.",
+          "fullSentence": "The Russian ballet is admired by dancers all over the world.",
+          "translation": "俄羅斯芭蕾受到全世界舞者的讚賞。",
+          "clue": "芭蕾著名的國家",
+          "answerEntryId": "u20:Russian",
+          "distractorEntryIds": [
+            "u20:French",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the ___ alphabet, the English alphabet has only twenty-six letters.",
+        "fullSentence": "Unlike the Russian alphabet, the English alphabet has only twenty-six letters.",
+        "translation": "英文只有二十六個字母，俄文字母則有三十三個。",
+        "clue": "字母較多的文字系統",
+        "answerEntryId": "u20:Russian",
+        "distractorEntryIds": [
+          "u20:French",
+          "u20:Japanese",
+          "u20:Korean"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:section",
+      "zh": "部分；區段",
+      "pos": "noun",
+      "example": "The smoking section is at the back of the train.",
+      "exampleZh": "吸菸區在火車的後段。",
+      "spellingHint": "s-e-c-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The sports ___ of the newspaper lists all the scores from yesterday.",
+        "fullSentence": "The sports section of the newspaper lists all the scores from yesterday.",
+        "translation": "報紙的體育版列出昨天的所有比數。",
+        "clue": "報紙裡的體育版",
+        "answerEntryId": "u20:section",
+        "distractorEntryIds": [
+          "u20:region",
+          "u20:country",
+          "u20:nation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Please read the first ___ of the story for homework tonight.",
+          "fullSentence": "Please read the first section of the story for homework tonight.",
+          "translation": "請閱讀故事的第一段當今晚的功課。",
+          "clue": "故事開頭的段落",
+          "answerEntryId": "u20:section",
+          "distractorEntryIds": [
+            "u20:region",
+            "u20:country",
+            "u20:nation"
+          ]
+        },
+        {
+          "sentence": "The library has a quiet ___ where nobody is allowed to talk.",
+          "fullSentence": "The library has a quiet section where nobody is allowed to talk.",
+          "translation": "圖書館有安靜區，那裡不准說話。",
+          "clue": "不准交談的區塊",
+          "answerEntryId": "u20:section",
+          "distractorEntryIds": [
+            "u20:region",
+            "u20:country",
+            "u20:nation"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The business ___ of the city is full of tall office buildings.",
+          "fullSentence": "The business section of the city is full of tall office buildings.",
+          "translation": "城市的商業區滿是高樓辦公室。",
+          "clue": "辦公大樓林立的區塊",
+          "answerEntryId": "u20:section",
+          "distractorEntryIds": [
+            "u20:region",
+            "u20:country",
+            "u20:nation"
+          ]
+        },
+        {
+          "sentence": "My favorite ___ of the newspaper is the one with comics and puzzles.",
+          "fullSentence": "My favorite section of the newspaper is the one with comics and puzzles.",
+          "translation": "報紙上我最喜歡的部分是漫畫和謎題版。",
+          "clue": "報紙中的漫畫部分",
+          "answerEntryId": "u20:section",
+          "distractorEntryIds": [
+            "u20:region",
+            "u20:country",
+            "u20:nation"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The front ___ of the train goes to Taichung, while the back part goes to Kaohsiung.",
+        "fullSentence": "The front section of the train goes to Taichung, while the back part goes to Kaohsiung.",
+        "translation": "火車的前段開往台中，後段開往高雄。",
+        "clue": "列車中可分開的一段",
+        "answerEntryId": "u20:section",
+        "distractorEntryIds": [
+          "u20:region",
+          "u20:country",
+          "u20:nation"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Singapore",
+      "zh": "新加坡",
+      "pos": "noun",
+      "example": "Singapore is a small island country in Southeast Asia.",
+      "exampleZh": "新加坡是東南亞的小島國。",
+      "spellingHint": "s-i-n-g-a-p-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The Merlion, half lion and half fish, is the famous symbol of ___.",
+        "fullSentence": "The Merlion, half lion and half fish, is the famous symbol of Singapore.",
+        "translation": "半獅半魚的魚尾獅是新加坡著名的象徵。",
+        "clue": "魚尾獅的城市",
+        "answerEntryId": "u20:Singapore",
+        "distractorEntryIds": [
+          "u20:Hong Kong",
+          "u20:London",
+          "u20:Paris"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a clean and green island city near the equator.",
+          "fullSentence": "Singapore is a clean and green island city near the equator.",
+          "translation": "新加坡是靠近赤道、乾淨綠化的島城。",
+          "clue": "近赤道的乾淨島國",
+          "answerEntryId": "u20:Singapore",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:London",
+            "u20:Taiwan"
+          ]
+        },
+        {
+          "sentence": "Changi Airport in ___ is often ranked the best airport in the world.",
+          "fullSentence": "Changi Airport in Singapore is often ranked the best airport in the world.",
+          "translation": "新加坡的樟宜機場常被評為世界最佳機場。",
+          "clue": "樟宜機場所在國",
+          "answerEntryId": "u20:Singapore",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:London",
+            "u20:Japan"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "In ___, chewing gum is famous for being hard to buy.",
+          "fullSentence": "In Singapore, chewing gum is famous for being hard to buy.",
+          "translation": "在新加坡，口香糖出了名地難買。",
+          "clue": "禁賣口香糖聞名的國家",
+          "answerEntryId": "u20:Singapore",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Japan",
+            "u20:Philippines"
+          ]
+        },
+        {
+          "sentence": "People in ___ speak English, Mandarin, and Malay in daily life.",
+          "fullSentence": "People in Singapore speak English, Mandarin, and Malay in daily life.",
+          "translation": "新加坡人日常生活說英語、華語和馬來語。",
+          "clue": "多語並用的城市國家",
+          "answerEntryId": "u20:Singapore",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Japan",
+            "u20:Philippines"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although both are small Asian trading ports, ___ is an independent country while the other harbor city belongs to China.",
+        "fullSentence": "Although both are small Asian trading ports, Singapore is an independent country while the other harbor city belongs to China.",
+        "translation": "同為亞洲小貿易港，新加坡是獨立國家，另一個港城則屬於中國。",
+        "clue": "自己是國家的城巿",
+        "answerEntryId": "u20:Singapore",
+        "distractorEntryIds": [
+          "u20:Hong Kong",
+          "u20:Japan",
+          "u20:London"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:state",
+      "zh": "州；國家；狀態",
+      "pos": "noun",
+      "example": "California is a large state on the west coast of America.",
+      "exampleZh": "加州是美國西部的大州。",
+      "spellingHint": "s-t-a-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Texas, the biggest ___ on the mainland of America, once governed itself as an independent land.",
+        "fullSentence": "Texas, the biggest state on the mainland of America, once governed itself as an independent land.",
+        "translation": "德州是美國本土最大的州，曾是獨立國家。",
+        "clue": "美國本土最大的州",
+        "answerEntryId": "u20:state",
+        "distractorEntryIds": [
+          "u20:country",
+          "u20:nation",
+          "u20:kingdom"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Hawaii is the only ___ of America that lies in the Pacific Ocean far from the mainland.",
+          "fullSentence": "Hawaii is the only state of America that lies in the Pacific Ocean far from the mainland.",
+          "translation": "夏威夷是美國唯一遠離本土、位於太平洋的州。",
+          "clue": "太平洋中的州",
+          "answerEntryId": "u20:state",
+          "distractorEntryIds": [
+            "u20:country",
+            "u20:nation",
+            "u20:kingdom"
+          ]
+        },
+        {
+          "sentence": "Each ___ in America makes some of its own laws.",
+          "fullSentence": "Each state in America makes some of its own laws.",
+          "translation": "美國每個州都制定一些自己的法律。",
+          "clue": "制定部分法律的單位",
+          "answerEntryId": "u20:state",
+          "distractorEntryIds": [
+            "u20:country",
+            "u20:nation",
+            "u20:kingdom"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "California is a ___ on the west coast where many movies are made.",
+          "fullSentence": "California is a state on the west coast where many movies are made.",
+          "translation": "加州是美國西岸的州，許多電影在那裡拍攝。",
+          "clue": "西岸的州",
+          "answerEntryId": "u20:state",
+          "distractorEntryIds": [
+            "u20:country",
+            "u20:nation",
+            "u20:kingdom"
+          ]
+        },
+        {
+          "sentence": "New York ___ is bigger than the famous city that sits inside it.",
+          "fullSentence": "New York state is bigger than the famous city that sits inside it.",
+          "translation": "紐約州比位於其中的著名城市更大。",
+          "clue": "含紐約市的行政區",
+          "answerEntryId": "u20:state",
+          "distractorEntryIds": [
+            "u20:country",
+            "u20:nation",
+            "u20:kingdom"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "In America, each ___ has its own capital city and makes some of its own laws.",
+        "fullSentence": "In America, each state has its own capital city and makes some of its own laws.",
+        "translation": "在美國，每一州都有自己的首府，並制定部分自己的法律。",
+        "clue": "美國五十個的下級單位",
+        "answerEntryId": "u20:state",
+        "distractorEntryIds": [
+          "u20:country",
+          "u20:nation",
+          "u20:region"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Taichung",
+      "zh": "台中",
+      "pos": "noun",
+      "example": "Taichung is in the middle of Taiwan.",
+      "exampleZh": "台中位於台灣的中部。",
+      "spellingHint": "t-a-i-c-h-u-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The curved walls of its famous theater make ___ the landmark city of central Taiwan.",
+        "fullSentence": "The curved walls of its famous theater make Taichung the landmark city of central Taiwan.",
+        "translation": "著名歌劇院的曲面外牆讓台中成為台灣中部的地標城市。",
+        "clue": "台灣中部的歌劇院城市",
+        "answerEntryId": "u20:Taichung",
+        "distractorEntryIds": [
+          "u20:Kaohsiung",
+          "u20:Tainan",
+          "u20:Hualien"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is famous for its sunny weather, so people call it the sunny city.",
+          "fullSentence": "Taichung is famous for its sunny weather, so people call it the sunny city.",
+          "translation": "台中以晴朗天氣聞名，被稱為陽光城市。",
+          "clue": "以晴天聞名的中部城市",
+          "answerEntryId": "u20:Taichung",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Hualien"
+          ]
+        },
+        {
+          "sentence": "Bubble tea was invented in ___ and is now popular around the world.",
+          "fullSentence": "Bubble tea was invented in Taichung and is now popular around the world.",
+          "translation": "珍珠奶茶發明於台中，現在風靡全球。",
+          "clue": "珍珠奶茶的發明城市",
+          "answerEntryId": "u20:Taichung",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Hualien"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Luce Memorial Chapel, a famous brick building, stands on the university campus in ___.",
+          "fullSentence": "The Luce Memorial Chapel, a famous brick building, stands on the university campus in Taichung.",
+          "translation": "著名的磚造建築路思義教堂矗立於台中的大學校園。",
+          "clue": "路思義教堂所在城市",
+          "answerEntryId": "u20:Taichung",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Hualien"
+          ]
+        },
+        {
+          "sentence": "Because ___ sits halfway down the island, the high-speed rail reaches it in less than an hour from Taipei.",
+          "fullSentence": "Because Taichung sits halfway down the island, the high-speed rail reaches it in less than an hour from Taipei.",
+          "translation": "台中位於本島中段，高鐵從台北出發不到一小時就到。",
+          "clue": "高鐵中途停靠的中部城市",
+          "answerEntryId": "u20:Taichung",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Tainan",
+            "u20:Hualien"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ faces the Taiwan Strait on the west, the city across the mountains faces the Pacific Ocean.",
+        "fullSentence": "Although Taichung faces the Taiwan Strait on the west, the city across the mountains faces the Pacific Ocean.",
+        "translation": "台中面對西邊的台灣海峽，越過山脈的另一座城市則面向太平洋。",
+        "clue": "位於台灣西岸的中部城市",
+        "answerEntryId": "u20:Taichung",
+        "distractorEntryIds": [
+          "u20:Hualien",
+          "u20:Kaohsiung",
+          "u20:Tainan"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Tainan",
+      "zh": "台南",
+      "pos": "noun",
+      "example": "Tainan was the old capital of Taiwan.",
+      "exampleZh": "台南是台灣的舊首都。",
+      "spellingHint": "t-a-i-n-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Anping Fort, built by the Dutch almost four hundred years ago, stands in the old city of ___.",
+        "fullSentence": "Anping Fort, built by the Dutch almost four hundred years ago, stands in the old city of Tainan.",
+        "translation": "荷蘭人近四百年前建造的安平古堡位於台南古城。",
+        "clue": "安平古堡所在城市",
+        "answerEntryId": "u20:Tainan",
+        "distractorEntryIds": [
+          "u20:Kaohsiung",
+          "u20:Taichung",
+          "u20:Hualien"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is known as the city with the oldest temples and the best snacks in Taiwan.",
+          "fullSentence": "Tainan is known as the city with the oldest temples and the best snacks in Taiwan.",
+          "translation": "台南以台灣最古老的廟宇和最美味的小吃聞名。",
+          "clue": "廟宇與小吃古城",
+          "answerEntryId": "u20:Tainan",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Taichung",
+            "u20:Hualien"
+          ]
+        },
+        {
+          "sentence": "Long ago, ___ was the capital of Taiwan before Taipei.",
+          "fullSentence": "Long ago, Tainan was the capital of Taiwan before Taipei.",
+          "translation": "很久以前，台南在台北之前是台灣的首都。",
+          "clue": "曾經的首都",
+          "answerEntryId": "u20:Tainan",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Taichung",
+            "u20:Hualien"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Food lovers travel to ___ to taste beef soup and coffin bread.",
+          "fullSentence": "Food lovers travel to Tainan to taste beef soup and coffin bread.",
+          "translation": "老饕專程到台南品嚐牛肉湯和棺材板。",
+          "clue": "以牛肉湯聞名的城市",
+          "answerEntryId": "u20:Tainan",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Taichung",
+            "u20:Hualien"
+          ]
+        },
+        {
+          "sentence": "More than three hundred temples stand in ___, earning it the name of the temple city.",
+          "fullSentence": "More than three hundred temples stand in Tainan, earning it the name of the temple city.",
+          "translation": "台南有三百多座廟宇，因此被稱為廟都。",
+          "clue": "被稱為廟都的城市",
+          "answerEntryId": "u20:Tainan",
+          "distractorEntryIds": [
+            "u20:Kaohsiung",
+            "u20:Taichung",
+            "u20:Hualien"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although ___ is older and full of historic temples, the biggest harbor city in the south lies just beside it.",
+        "fullSentence": "Although Tainan is older and full of historic temples, the biggest harbor city in the south lies just beside it.",
+        "translation": "雖然台南更古老、滿是歷史廟宇，南部最大的港都就在它旁邊。",
+        "clue": "南部歷史古城",
+        "answerEntryId": "u20:Tainan",
+        "distractorEntryIds": [
+          "u20:Kaohsiung",
+          "u20:Taichung",
+          "u20:Hualien"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Taiwan",
+      "zh": "台灣",
+      "pos": "noun",
+      "example": "Taiwan is an island with friendly people and great food.",
+      "exampleZh": "台灣是一個有人情味和美食的島嶼。",
+      "spellingHint": "t-a-i-w-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The island of ___ lies off the east coast of the huge continent, with the Pacific Ocean on its east.",
+        "fullSentence": "The island of Taiwan lies off the east coast of the huge continent, with the Pacific Ocean on its east.",
+        "translation": "台灣島位於大陸東岸外海，東臨太平洋。",
+        "clue": "東臨太平洋的島嶼",
+        "answerEntryId": "u20:Taiwan",
+        "distractorEntryIds": [
+          "u20:Hong Kong",
+          "u20:Philippines",
+          "u20:Singapore"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Bubble tea and beef noodle soup are famous foods from ___.",
+          "fullSentence": "Bubble tea and beef noodle soup are famous foods from Taiwan.",
+          "translation": "珍珠奶茶和牛肉麵是台灣著名的美食。",
+          "clue": "珍奶牛肉麵的故鄉",
+          "answerEntryId": "u20:Taiwan",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Japan",
+            "u20:China"
+          ]
+        },
+        {
+          "sentence": "Taipei 101, once the tallest building in the world, is in ___.",
+          "fullSentence": "Taipei 101, once the tallest building in the world, is in Taiwan.",
+          "translation": "曾是世界第一高樓的台北101在台灣。",
+          "clue": "台北101所在的地方",
+          "answerEntryId": "u20:Taiwan",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Japan",
+            "u20:China"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The Tropic of Cancer passes through the middle of ___, giving it both tropical and subtropical weather.",
+          "fullSentence": "The Tropic of Cancer passes through the middle of Taiwan, giving it both tropical and subtropical weather.",
+          "translation": "北回歸線穿過台灣中部，使其同時有熱帶和亞熱帶氣候。",
+          "clue": "北回歸線經過的島嶼",
+          "answerEntryId": "u20:Taiwan",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Philippines",
+            "u20:China"
+          ]
+        },
+        {
+          "sentence": "Night markets in ___ stay open late and sell everything from stinky tofu to bubble tea.",
+          "fullSentence": "Night markets in Taiwan stay open late and sell everything from stinky tofu to bubble tea.",
+          "translation": "台灣的夜市開到很晚，賣的東西從臭豆腐到珍珠奶茶應有盡有。",
+          "clue": "以夜市聞名的島嶼",
+          "answerEntryId": "u20:Taiwan",
+          "distractorEntryIds": [
+            "u20:Hong Kong",
+            "u20:Philippines",
+            "u20:Singapore"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although people in ___ and in the harbor city to its west both speak Mandarin, only the island holds its own presidential elections.",
+        "fullSentence": "Although people in Taiwan and in the harbor city to its west both speak Mandarin, only the island holds its own presidential elections.",
+        "translation": "雖然台灣和西邊港城的居民都說國語，只有這座島自己選總統。",
+        "clue": "自己選總統的島嶼",
+        "answerEntryId": "u20:Taiwan",
+        "distractorEntryIds": [
+          "u20:Hong Kong",
+          "u20:Philippines",
+          "u20:Singapore"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:Taiwanese",
+      "zh": "台灣的；台灣人的",
+      "pos": "adjective",
+      "example": "The Taiwanese night market is always full of visitors.",
+      "exampleZh": "台灣的夜市總是擠滿遊客。",
+      "spellingHint": "t-a-i-w-a-n-e-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Bubble tea, invented in Taichung, is the most famous ___ drink in the world.",
+        "fullSentence": "Bubble tea, invented in Taichung, is the most famous Taiwanese drink in the world.",
+        "translation": "發明於台中的珍珠奶茶是世界最著名的台灣飲品。",
+        "clue": "珍珠奶茶的國籍",
+        "answerEntryId": "u20:Taiwanese",
+        "distractorEntryIds": [
+          "u20:Chinese",
+          "u20:Japanese",
+          "u20:Korean"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Night markets with stinky tofu and oyster omelets are a famous ___ culture.",
+          "fullSentence": "Night markets with stinky tofu and oyster omelets are a famous Taiwanese culture.",
+          "translation": "賣臭豆腐和蚵仔煎的夜市是著名的台灣文化。",
+          "clue": "夜市小吃的所屬文化",
+          "answerEntryId": "u20:Taiwanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        },
+        {
+          "sentence": "Taipei 101, a famous ___ skyscraper, was the tallest building in the world for six years.",
+          "fullSentence": "Taipei 101, a famous Taiwanese skyscraper, was the tallest building in the world for six years.",
+          "translation": "台灣地標台北101曾連續六年是世界最高樓。",
+          "clue": "台北101的國籍",
+          "answerEntryId": "u20:Taiwanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ flag carries a white sun on a blue sky and a red earth below.",
+          "fullSentence": "The Taiwanese flag carries a white sun on a blue sky and a red earth below.",
+          "translation": "台灣國旗是藍天白日和紅地。",
+          "clue": "青天白日紅地旗的國家",
+          "answerEntryId": "u20:Taiwanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        },
+        {
+          "sentence": "Many ___ families visit temples during Lunar New Year to pray for good luck.",
+          "fullSentence": "Many Taiwanese families visit temples during Lunar New Year to pray for good luck.",
+          "translation": "許多台灣家庭過年時到廟裡祈福。",
+          "clue": "過年到廟裡的文化",
+          "answerEntryId": "u20:Taiwanese",
+          "distractorEntryIds": [
+            "u20:Chinese",
+            "u20:Japanese",
+            "u20:Korean"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike the bitter hot tea served at a traditional dinner table, ___ bubble tea is sweet, cold, and full of chewy pearls.",
+        "fullSentence": "Unlike the bitter hot tea served at a traditional dinner table, Taiwanese bubble tea is sweet, cold, and full of chewy pearls.",
+        "translation": "傳統餐桌上的熱茶帶苦味，台灣珍珠奶茶則冰甜又有Q彈珍珠。",
+        "clue": "珍珠奶茶的所屬文化",
+        "answerEntryId": "u20:Taiwanese",
+        "distractorEntryIds": [
+          "u20:Chinese",
+          "u20:Japanese",
+          "u20:Korean"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:USA",
+      "zh": "美國（United States of America 的縮寫）",
+      "pos": "noun",
+      "example": "The USA has fifty states.",
+      "exampleZh": "美國有五十個州。",
+      "spellingHint": "u-s-a",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Passports issued in Washington, D.C., carry the three letters ___ on their dark blue cover.",
+        "fullSentence": "Passports issued in Washington, D.C., carry the three letters USA on their dark blue cover.",
+        "translation": "華盛頓特區核發的護照深藍色封面上印有 USA 三個字母。",
+        "clue": "護照上的美國縮寫",
+        "answerEntryId": "u20:USA",
+        "distractorEntryIds": [
+          "u20:ROC",
+          "u20:China",
+          "u20:Japan"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ is a country of fifty states between Canada and Mexico.",
+          "fullSentence": "The USA is a country of fifty states between Canada and Mexico.",
+          "translation": "美國是介於加拿大和墨西哥之間、有五十州的國家。",
+          "clue": "加拿大墨西哥之間的國家縮寫",
+          "answerEntryId": "u20:USA",
+          "distractorEntryIds": [
+            "u20:China",
+            "u20:Japan",
+            "u20:France"
+          ]
+        },
+        {
+          "sentence": "The dollar, the money of the ___, is used in trade all over the world.",
+          "fullSentence": "The dollar, the money of the USA, is used in trade all over the world.",
+          "translation": "美元是美國的貨幣，在全球貿易通用。",
+          "clue": "使用美元的國家縮寫",
+          "answerEntryId": "u20:USA",
+          "distractorEntryIds": [
+            "u20:China",
+            "u20:France",
+            "u20:ROC"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "NASA, the space agency of the ___, first sent astronauts to the moon.",
+          "fullSentence": "NASA, the space agency of the USA, first sent astronauts to the moon.",
+          "translation": "美國的太空總署NASA最先送太空人上月球。",
+          "clue": "NASA所屬國家縮寫",
+          "answerEntryId": "u20:USA",
+          "distractorEntryIds": [
+            "u20:China",
+            "u20:France",
+            "u20:ROC"
+          ]
+        },
+        {
+          "sentence": "Basketball teams from the ___ often win gold at the Olympic Games.",
+          "fullSentence": "Basketball teams from the USA often win gold at the Olympic Games.",
+          "translation": "美國的籃球隊常在奧運奪金。",
+          "clue": "籃球強國的縮寫",
+          "answerEntryId": "u20:USA",
+          "distractorEntryIds": [
+            "u20:China",
+            "u20:France",
+            "u20:ROC"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The three letters ___ stand for a huge country that is made of fifty states.",
+        "fullSentence": "The three letters USA stand for a huge country that is made of fifty states.",
+        "translation": "USA 三個字母代表由五十州組成的大國。",
+        "clue": "由五十州組成的國家縮寫",
+        "answerEntryId": "u20:USA",
+        "distractorEntryIds": [
+          "u20:America",
+          "u20:China",
+          "u20:ROC"
+        ]
+      }
+    },
+    {
+      "entryId": "u20:world",
+      "zh": "世界",
+      "pos": "noun",
+      "example": "She wants to travel around the world someday.",
+      "exampleZh": "她希望有一天能環遊世界。",
+      "spellingHint": "w-o-r-l-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Soccer fans from around the ___ watch the Cup finals every four years.",
+        "fullSentence": "Soccer fans from around the world watch the Cup finals every four years.",
+        "translation": "來自世界各地的足球迷每四年觀看世界盃決賽。",
+        "clue": "全球球迷所在的地方",
+        "answerEntryId": "u20:world",
+        "distractorEntryIds": [
+          "u20:nation",
+          "u20:country",
+          "u20:region"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The Earth is the ___ we all live on, so we must protect it.",
+          "fullSentence": "The Earth is the world we all live on, so we must protect it.",
+          "translation": "地球是我們共同生活的世界，必須保護它。",
+          "clue": "我們共同生活的地球",
+          "answerEntryId": "u20:world",
+          "distractorEntryIds": [
+            "u20:nation",
+            "u20:country",
+            "u20:region"
+          ]
+        },
+        {
+          "sentence": "There are more than seven billion people in the ___.",
+          "fullSentence": "There are more than seven billion people in the world.",
+          "translation": "世界上有七十多億人口。",
+          "clue": "七十億人所在的地方",
+          "answerEntryId": "u20:world",
+          "distractorEntryIds": [
+            "u20:nation",
+            "u20:country",
+            "u20:region"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Mount Everest is the highest mountain in the ___.",
+          "fullSentence": "Mount Everest is the highest mountain in the world.",
+          "translation": "聖母峰是世界最高的山。",
+          "clue": "最高峰所在範圍",
+          "answerEntryId": "u20:world",
+          "distractorEntryIds": [
+            "u20:nation",
+            "u20:country",
+            "u20:region"
+          ]
+        },
+        {
+          "sentence": "News from around the ___ reaches our phones in seconds.",
+          "fullSentence": "News from around the world reaches our phones in seconds.",
+          "translation": "世界各地的消息幾秒內就傳到手機。",
+          "clue": "消息傳遍的整體",
+          "answerEntryId": "u20:world",
+          "distractorEntryIds": [
+            "u20:nation",
+            "u20:country",
+            "u20:region"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ Record Book lists the tallest, fastest, and strangest achievements of all people.",
+        "fullSentence": "The world Record Book lists the tallest, fastest, and strangest achievements of all people.",
+        "translation": "金氏世界紀錄收錄了最高、最快、最奇特的紀錄。",
+        "clue": "收錄各種紀錄的書",
+        "answerEntryId": "u20:world",
+        "distractorEntryIds": [
+          "u20:nation",
+          "u20:country",
+          "u20:region"
+        ]
+      }
+    }
+  ]
+}

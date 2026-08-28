@@ -1,0 +1,4650 @@
+{
+  "schemaVersion": 1,
+  "unit": "30",
+  "entries": [
+    {
+      "entryId": "u30:abroad",
+      "zh": "在國外；到國外",
+      "pos": "adverb",
+      "example": "My cousin is studying abroad in Australia this year.",
+      "exampleZh": "我表哥今年在澳洲留學。",
+      "spellingHint": "a-b-r-o-a-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Uncle Ken works ___ in Japan, so we only see him once a year.",
+        "fullSentence": "Uncle Ken works abroad in Japan, so we only see him once a year.",
+        "translation": "肯叔在日本工作，所以我們一年只見到他一次。",
+        "clue": "人在日本，不在國內",
+        "answerEntryId": "u30:abroad",
+        "distractorEntryIds": [
+          "u30:ahead",
+          "u30:anywhere",
+          "u30:away"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Wendy has never been ___; this summer she will finally visit France.",
+          "fullSentence": "Wendy has never been abroad; this summer she will finally visit France.",
+          "translation": "溫蒂從來沒出過國；今年夏天她終於要去法國。",
+          "clue": "要去法國旅行，就是出國",
+          "answerEntryId": "u30:abroad",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        },
+        {
+          "sentence": "Dad is working ___ this month, so he can't have dinner with us.",
+          "fullSentence": "Dad is working abroad this month, so he can't have dinner with us.",
+          "translation": "爸爸這個月在國外工作，所以無法和我們一起吃晚餐。",
+          "clue": "人不在家，在國外工作",
+          "answerEntryId": "u30:abroad",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:somewhere",
+            "u30:still"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Sending letters ___ used to take weeks, but email arrives in seconds.",
+          "fullSentence": "Sending letters abroad used to take weeks, but email arrives in seconds.",
+          "translation": "以前寄信到國外要花好幾個星期，但電子郵件幾秒就到了。",
+          "clue": "寄信到別的國家",
+          "answerEntryId": "u30:abroad",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        },
+        {
+          "sentence": "The national team flew ___ to play in the World Cup.",
+          "fullSentence": "The national team flew abroad to play in the World Cup.",
+          "translation": "國家代表隊搭飛機出國參加世界盃比賽。",
+          "clue": "搭飛機出國比賽",
+          "answerEntryId": "u30:abroad",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:somewhere",
+            "u30:still"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken moved ___ to Canada for his new job, so he now needs a visa.",
+        "fullSentence": "Ken moved abroad to Canada for his new job, so he now needs a visa.",
+        "translation": "肯為了新工作搬到國外的加拿大，所以他現在需要簽證。",
+        "clue": "需要簽證，表示人移居國外",
+        "answerEntryId": "u30:abroad",
+        "distractorEntryIds": [
+          "u30:ahead",
+          "u30:anywhere",
+          "u30:away"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:actually",
+      "zh": "其實；實際上",
+      "pos": "adverb",
+      "example": "I thought the test was hard, but actually it was easy.",
+      "exampleZh": "我以為考試很難，但其實很簡單。",
+      "spellingHint": "a-c-t-u-a-l-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Everyone thinks Mr. Lin is strict, but ___ he is very kind.",
+        "fullSentence": "Everyone thinks Mr. Lin is strict, but actually he is very kind.",
+        "translation": "大家都覺得林老師很嚴格，但其實他非常親切。",
+        "clue": "真實情況和大家的印象相反",
+        "answerEntryId": "u30:actually",
+        "distractorEntryIds": [
+          "u30:certainly",
+          "u30:doubtless",
+          "u30:maybe"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The movie looks boring, but ___ it is really exciting.",
+          "fullSentence": "The movie looks boring, but actually it is really exciting.",
+          "translation": "這部電影看起來很無聊，但其實非常精采。",
+          "clue": "實際上和表面看起來不一樣",
+          "answerEntryId": "u30:actually",
+          "distractorEntryIds": [
+            "u30:certainly",
+            "u30:doubtless",
+            "u30:maybe"
+          ]
+        },
+        {
+          "sentence": "Sorry I'm late — I ___ left my phone at home and went back for it.",
+          "fullSentence": "Sorry I'm late — I actually left my phone at home and went back for it.",
+          "translation": "抱歉我遲到了——我其實把手機留在家裡，後來又回去拿。",
+          "clue": "說明真正發生的事",
+          "answerEntryId": "u30:actually",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:probably",
+            "u30:really"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You don't need to pay — this gift is ___ free.",
+          "fullSentence": "You don't need to pay — this gift is actually free.",
+          "translation": "你不用付錢——這個禮物其實是免費的。",
+          "clue": "真實情況是免費的",
+          "answerEntryId": "u30:actually",
+          "distractorEntryIds": [
+            "u30:together",
+            "u30:certainly",
+            "u30:doubtless"
+          ]
+        },
+        {
+          "sentence": "It looked like rain, but ___ the sun came out all day.",
+          "fullSentence": "It looked like rain, but actually the sun came out all day.",
+          "translation": "看起來像要下雨，但實際上太陽出來了一整天。",
+          "clue": "實際天氣和預期的不同",
+          "answerEntryId": "u30:actually",
+          "distractorEntryIds": [
+            "u30:maybe",
+            "u30:perhaps",
+            "u30:probably"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I didn't tell her about the party, but she ___ already knew everything.",
+        "fullSentence": "I didn't tell her about the party, but she actually already knew everything.",
+        "translation": "我沒有跟她說派對的事，但她其實早就全部知道了。",
+        "clue": "她真實的情況是早就知道",
+        "answerEntryId": "u30:actually",
+        "distractorEntryIds": [
+          "u30:certainly",
+          "u30:doubtless",
+          "u30:maybe"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:again",
+      "zh": "再；又；再一次",
+      "pos": "adverb",
+      "example": "Please say that again more slowly.",
+      "exampleZh": "請再說一次，說慢一點。",
+      "spellingHint": "a-g-a-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I didn't hear you clearly. Could you say that ___?",
+        "fullSentence": "I didn't hear you clearly. Could you say that again?",
+        "translation": "我沒聽清楚，你可以再說一次嗎？",
+        "clue": "沒聽清楚，請對方重複",
+        "answerEntryId": "u30:again",
+        "distractorEntryIds": [
+          "u30:always",
+          "u30:even",
+          "u30:ever"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My grandmother is much better and can walk ___ now.",
+          "fullSentence": "My grandmother is much better and can walk again now.",
+          "translation": "我阿嬤好多了，現在又能走路了。",
+          "clue": "恢復原本能做到的事",
+          "answerEntryId": "u30:again",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:even",
+            "u30:ever"
+          ]
+        },
+        {
+          "sentence": "The baby cried all night, and in the morning she started crying ___.",
+          "fullSentence": "The baby cried all night, and in the morning she started crying again.",
+          "translation": "嬰兒哭了一整夜，早上又開始哭了。",
+          "clue": "哭的動作又發生",
+          "answerEntryId": "u30:again",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:never",
+            "u30:often"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The washing machine broke down last week, and it broke down ___ today.",
+          "fullSentence": "The washing machine broke down last week, and it broke down again today.",
+          "translation": "洗衣機上星期壞掉，今天又壞掉了。",
+          "clue": "同樣的問題又發生",
+          "answerEntryId": "u30:again",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:even",
+            "u30:ever"
+          ]
+        },
+        {
+          "sentence": "Tom failed the driving test, so he wants to try ___ next month.",
+          "fullSentence": "Tom failed the driving test, so he wants to try again next month.",
+          "translation": "湯姆沒通過路考，所以他想下個月再試一次。",
+          "clue": "失敗後重新嘗試",
+          "answerEntryId": "u30:again",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:never",
+            "u30:often"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "We loved her singing, so we asked her to sing the song ___.",
+        "fullSentence": "We loved her singing, so we asked her to sing the song again.",
+        "translation": "我們很喜歡她唱的歌，所以請她再唱一次。",
+        "clue": "太喜歡了，請她重複表演",
+        "answerEntryId": "u30:again",
+        "distractorEntryIds": [
+          "u30:together",
+          "u30:always",
+          "u30:even"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:ahead",
+      "zh": "在前面；向前；提前",
+      "pos": "adverb",
+      "example": "The road ahead is closed for repairs.",
+      "exampleZh": "前面的道路封閉整修中。",
+      "spellingHint": "a-h-e-a-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Walk straight on, and you will see the bank about fifty meters ___.",
+        "fullSentence": "Walk straight on, and you will see the bank about fifty meters ahead.",
+        "translation": "直直往前走，大約五十公尺處你就會看到銀行。",
+        "clue": "在前方五十公尺處",
+        "answerEntryId": "u30:ahead",
+        "distractorEntryIds": [
+          "u30:abroad",
+          "u30:everywhere",
+          "u30:somewhere"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Look ___ before you step into the street.",
+          "fullSentence": "Look ahead before you step into the street.",
+          "translation": "過馬路前要先看前方。",
+          "clue": "看向前方再過馬路",
+          "answerEntryId": "u30:ahead",
+          "distractorEntryIds": [
+            "u30:together",
+            "u30:anywhere",
+            "u18:far"
+          ]
+        },
+        {
+          "sentence": "Plan ___ so you won't be nervous before the big test.",
+          "fullSentence": "Plan ahead so you won't be nervous before the big test.",
+          "translation": "提前計畫，大考前就不會緊張。",
+          "clue": "事先準備、提早安排",
+          "answerEntryId": "u30:ahead",
+          "distractorEntryIds": [
+            "u30:abroad",
+            "u30:away",
+            "u30:everywhere"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The line for tickets was long, but we got there early, so we were ___ of everyone.",
+          "fullSentence": "The line for tickets was long, but we got there early, so we were ahead of everyone.",
+          "translation": "買票的隊伍很長，但我們到得早，所以排在所有人前面。",
+          "clue": "排在隊伍最前面",
+          "answerEntryId": "u30:ahead",
+          "distractorEntryIds": [
+            "u30:anywhere",
+            "u30:away",
+            "u18:far"
+          ]
+        },
+        {
+          "sentence": "The weather report says a storm is moving ___ toward the coast.",
+          "fullSentence": "The weather report says a storm is moving ahead toward the coast.",
+          "translation": "天氣預報說暴風雨正朝著海岸前進。",
+          "clue": "往前移動、朝目標前進",
+          "answerEntryId": "u30:ahead",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:somewhere",
+            "u18:far"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The two runners were side by side, but Ken pulled ___ in the last ten meters and won.",
+        "fullSentence": "The two runners were side by side, but Ken pulled ahead in the last ten meters and won.",
+        "translation": "兩位跑者並肩前進，但肯在最後十公尺超前並贏得比賽。",
+        "clue": "最後一刻超前對手",
+        "answerEntryId": "u30:ahead",
+        "distractorEntryIds": [
+          "u30:together",
+          "u30:abroad",
+          "u30:everywhere"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:almost",
+      "zh": "幾乎；差不多",
+      "pos": "adverb",
+      "example": "It's almost time for dinner.",
+      "exampleZh": "快到晚餐時間了。",
+      "spellingHint": "a-l-m-o-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My alarm didn't ring, so I was ___ late for school this morning.",
+        "fullSentence": "My alarm didn't ring, so I was almost late for school this morning.",
+        "translation": "我的鬧鐘沒響，所以今天早上我差點遲到。",
+        "clue": "鬧鐘沒響，差一點遲到",
+        "answerEntryId": "u30:almost",
+        "distractorEntryIds": [
+          "u30:altogether",
+          "u30:hardly",
+          "u30:nearly"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There were ___ a hundred people waiting in line for the concert tickets.",
+          "fullSentence": "There were almost a hundred people waiting in line for the concert tickets.",
+          "translation": "將近一百個人在排隊等演唱會的票。",
+          "clue": "數量接近一百",
+          "answerEntryId": "u30:almost",
+          "distractorEntryIds": [
+            "u30:altogether",
+            "u30:nearly",
+            "u30:quite"
+          ]
+        },
+        {
+          "sentence": "She was ___ crying when she saw the cute puppy.",
+          "fullSentence": "She was almost crying when she saw the cute puppy.",
+          "translation": "她看到那隻可愛的小狗時差點哭出來。",
+          "clue": "差一點就要哭了",
+          "answerEntryId": "u30:almost",
+          "distractorEntryIds": [
+            "u30:very",
+            "u30:altogether",
+            "u30:even"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "We walked for three hours and were ___ home when it started to rain.",
+          "fullSentence": "We walked for three hours and were almost home when it started to rain.",
+          "translation": "我們走了三個小時，快到家時開始下雨。",
+          "clue": "快要到家了",
+          "answerEntryId": "u30:almost",
+          "distractorEntryIds": [
+            "u30:altogether",
+            "u30:nearly",
+            "u30:quite"
+          ]
+        },
+        {
+          "sentence": "The bridge is ___ finished; the workers only need to paint it.",
+          "fullSentence": "The bridge is almost finished; the workers only need to paint it.",
+          "translation": "這座橋快完工了，工人只需要上漆。",
+          "clue": "只剩下最後一個步驟",
+          "answerEntryId": "u30:almost",
+          "distractorEntryIds": [
+            "u30:really",
+            "u30:very",
+            "u30:altogether"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Dad ___ never eats junk food because he says it is unhealthy.",
+        "fullSentence": "Dad almost never eats junk food because he says it is unhealthy.",
+        "translation": "爸爸幾乎從不吃垃圾食物，因為他說那不健康。",
+        "clue": "頻率極低，用 almost never 表達",
+        "answerEntryId": "u30:almost",
+        "distractorEntryIds": [
+          "u30:altogether",
+          "u30:hardly",
+          "u30:nearly"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:aloud",
+      "zh": "大聲地；出聲地",
+      "pos": "adverb",
+      "example": "The teacher asked us to read the poem aloud.",
+      "exampleZh": "老師要我們把這首詩朗讀出來。",
+      "spellingHint": "a-l-o-u-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The shy boy was afraid to speak ___ in front of the whole class.",
+        "fullSentence": "The shy boy was afraid to speak aloud in front of the whole class.",
+        "translation": "害羞的男孩不敢在全班面前大聲說話。",
+        "clue": "要發出聲音讓全班聽見",
+        "answerEntryId": "u30:aloud",
+        "distractorEntryIds": [
+          "u30:also",
+          "u30:especially",
+          "u30:lately"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Mom told me not to laugh ___ in the library.",
+          "fullSentence": "Mom told me not to laugh aloud in the library.",
+          "translation": "媽媽叫我在圖書館裡不要笑出聲。",
+          "clue": "笑出聲音會吵到別人",
+          "answerEntryId": "u30:aloud",
+          "distractorEntryIds": [
+            "u30:also",
+            "u30:especially",
+            "u30:least"
+          ]
+        },
+        {
+          "sentence": "Please say your name ___ so everyone can hear you.",
+          "fullSentence": "Please say your name aloud so everyone can hear you.",
+          "translation": "請大聲說出你的名字，讓每個人都聽得到。",
+          "clue": "讓大家聽見，要出聲",
+          "answerEntryId": "u30:aloud",
+          "distractorEntryIds": [
+            "u30:recently",
+            "u30:simply",
+            "u30:whenever"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher asked Amy to read the story ___ to her group.",
+          "fullSentence": "The teacher asked Amy to read the story aloud to her group.",
+          "translation": "老師請艾米把故事大聲唸給她的小組聽。",
+          "clue": "唸出來給組員聽",
+          "answerEntryId": "u30:aloud",
+          "distractorEntryIds": [
+            "u30:also",
+            "u30:especially",
+            "u30:least"
+          ]
+        },
+        {
+          "sentence": "When you practice spelling, it helps to say each letter ___.",
+          "fullSentence": "When you practice spelling, it helps to say each letter aloud.",
+          "translation": "練習拼字時，把每個字母唸出來會有幫助。",
+          "clue": "把字母唸出聲",
+          "answerEntryId": "u30:aloud",
+          "distractorEntryIds": [
+            "u30:recently",
+            "u30:simply",
+            "u30:whenever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "In the speaking test, you must answer ___ so the recorder can pick up your voice.",
+        "fullSentence": "In the speaking test, you must answer aloud so the recorder can pick up your voice.",
+        "translation": "口說測驗時，你必須出聲回答，錄音器才收得到你的聲音。",
+        "clue": "錄音要收音，必須出聲",
+        "answerEntryId": "u30:aloud",
+        "distractorEntryIds": [
+          "u30:also",
+          "u30:anyway",
+          "u30:especially"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:also",
+      "zh": "也；而且",
+      "pos": "adverb",
+      "example": "Amy speaks Chinese, and she also speaks Japanese.",
+      "exampleZh": "艾米會說中文，她也會說日語。",
+      "spellingHint": "a-l-s-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken plays basketball, and he ___ swims every weekend.",
+        "fullSentence": "Ken plays basketball, and he also swims every weekend.",
+        "translation": "肯會打籃球，他也每個週末游泳。",
+        "clue": "除此之外還有另一項活動",
+        "answerEntryId": "u30:also",
+        "distractorEntryIds": [
+          "u30:aloud",
+          "u30:least",
+          "u30:recently"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Mr. Brown is our math teacher, and he is ___ the basketball coach.",
+          "fullSentence": "Mr. Brown is our math teacher, and he is also the basketball coach.",
+          "translation": "布朗老師是我們的數學老師，他也是籃球教練。",
+          "clue": "同一人有另一個身分",
+          "answerEntryId": "u30:also",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:anyway",
+            "u30:especially"
+          ]
+        },
+        {
+          "sentence": "The hotel is cheap, and ___ it is close to the beach.",
+          "fullSentence": "The hotel is cheap, and also it is close to the beach.",
+          "translation": "這間飯店很便宜，而且離海灘很近。",
+          "clue": "補充另一個優點",
+          "answerEntryId": "u30:also",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:lately",
+            "u30:least"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "We visited the palace museum, and ___ we walked around the old streets nearby.",
+          "fullSentence": "We visited the palace museum, and also we walked around the old streets nearby.",
+          "translation": "我們參觀了故宮，還在附近的老街走了走。",
+          "clue": "行程中另一項活動",
+          "answerEntryId": "u30:also",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:yes/yeah",
+            "u30:anyway"
+          ]
+        },
+        {
+          "sentence": "The app is free, and it ___ works without Wi-Fi.",
+          "fullSentence": "The app is free, and it also works without Wi-Fi.",
+          "translation": "這個 App 是免費的，而且沒有 Wi-Fi 也能用。",
+          "clue": "補充另一項功能",
+          "answerEntryId": "u30:also",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:especially",
+            "u30:lately"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ben is on the soccer team, and ___ he plays the trumpet in the school band.",
+        "fullSentence": "Ben is on the soccer team, and also he plays the trumpet in the school band.",
+        "translation": "班是足球校隊，他也在校內樂團吹小號。",
+        "clue": "除了球隊之外的另一項活動",
+        "answerEntryId": "u30:also",
+        "distractorEntryIds": [
+          "u30:aloud",
+          "u30:lately",
+          "u30:least"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:altogether",
+      "zh": "總共；一共",
+      "pos": "adverb",
+      "example": "Altogether, eight friends joined the camping trip.",
+      "exampleZh": "總共有八個朋友參加露營。",
+      "spellingHint": "a-l-t-o-g-e-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The tickets, lunch, and the hotel cost ___ six thousand dollars.",
+        "fullSentence": "The tickets, lunch, and the hotel cost altogether six thousand dollars.",
+        "translation": "車票、午餐和飯店加起來總共六千元。",
+        "clue": "所有項目加起來的金額",
+        "answerEntryId": "u30:altogether",
+        "distractorEntryIds": [
+          "u30:almost",
+          "u30:quite",
+          "u30:rather"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There are ___ twenty-four hours in one day.",
+          "fullSentence": "There are altogether twenty-four hours in one day.",
+          "translation": "一天總共有二十四小時。",
+          "clue": "合計的總數",
+          "answerEntryId": "u30:altogether",
+          "distractorEntryIds": [
+            "u30:almost",
+            "u30:hardly",
+            "u30:nearly"
+          ]
+        },
+        {
+          "sentence": "Count them all: ___ there are fifteen books on the shelf.",
+          "fullSentence": "Count them all: altogether there are fifteen books on the shelf.",
+          "translation": "全部數一數：書架上總共有十五本書。",
+          "clue": "全部加起來的數量",
+          "answerEntryId": "u30:altogether",
+          "distractorEntryIds": [
+            "u30:almost",
+            "u30:quite",
+            "u30:rather"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The family spent thirty thousand dollars ___ on their trip to Okinawa.",
+          "fullSentence": "The family spent thirty thousand dollars altogether on their trip to Okinawa.",
+          "translation": "這家人去沖繩旅行總共花了三萬元。",
+          "clue": "整趟旅程合計的花費",
+          "answerEntryId": "u30:altogether",
+          "distractorEntryIds": [
+            "u30:again",
+            "u30:almost",
+            "u30:even"
+          ]
+        },
+        {
+          "sentence": "The three boxes weigh ___ fifteen kilograms.",
+          "fullSentence": "The three boxes weigh altogether fifteen kilograms.",
+          "translation": "三個箱子總共重十五公斤。",
+          "clue": "合計的重量",
+          "answerEntryId": "u30:altogether",
+          "distractorEntryIds": [
+            "u30:almost",
+            "u30:hardly",
+            "u30:nearly"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The concert raised more than a million dollars ___ for the children's hospital.",
+        "fullSentence": "The concert raised more than a million dollars altogether for the children's hospital.",
+        "translation": "這場演唱會總共為兒童醫院募得超過一百萬元。",
+        "clue": "全部募款合計的金額",
+        "answerEntryId": "u30:altogether",
+        "distractorEntryIds": [
+          "u30:almost",
+          "u30:quite",
+          "u30:rather"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:always",
+      "zh": "總是；一直",
+      "pos": "adverb",
+      "example": "Grandma always keeps a light on for us.",
+      "exampleZh": "阿嬤總是為我們留一盞燈。",
+      "spellingHint": "a-l-w-a-y-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The sun ___ rises in the east and sets in the west.",
+        "fullSentence": "The sun always rises in the east and sets in the west.",
+        "translation": "太陽總是從東邊升起，從西邊落下。",
+        "clue": "不變的事實，每一次都一樣",
+        "answerEntryId": "u30:always",
+        "distractorEntryIds": [
+          "u30:again",
+          "u30:never",
+          "u30:often"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My dog ___ gets excited when I come home.",
+          "fullSentence": "My dog always gets excited when I come home.",
+          "translation": "每次我回家，我的狗總是很興奮。",
+          "clue": "每一次都一樣",
+          "answerEntryId": "u30:always",
+          "distractorEntryIds": [
+            "u30:again",
+            "u30:seldom",
+            "u30:sometimes"
+          ]
+        },
+        {
+          "sentence": "You can ___ call me if you need help.",
+          "fullSentence": "You can always call me if you need help.",
+          "translation": "你需要幫忙時隨時都可以打給我。",
+          "clue": "任何時候都可以",
+          "answerEntryId": "u30:always",
+          "distractorEntryIds": [
+            "u30:usually",
+            "u30:yet",
+            "u30:again"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She is ___ polite to the customers, even the rude ones.",
+          "fullSentence": "She is always polite to the customers, even the rude ones.",
+          "translation": "她對客人總是很有禮貌，連無禮的客人也一樣。",
+          "clue": "連例外情況都不改變",
+          "answerEntryId": "u30:always",
+          "distractorEntryIds": [
+            "u30:seldom",
+            "u30:sometimes",
+            "u30:usually"
+          ]
+        },
+        {
+          "sentence": "He is ___ complaining about the weather, so nobody listens anymore.",
+          "fullSentence": "He is always complaining about the weather, so nobody listens anymore.",
+          "translation": "他老是抱怨天氣，所以沒有人想再聽了。",
+          "clue": "抱怨變成習慣，一直發生",
+          "answerEntryId": "u30:always",
+          "distractorEntryIds": [
+            "u30:yet",
+            "u30:again",
+            "u30:ever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I have ___ wanted to visit Japan, and this summer my dream will finally come true.",
+        "fullSentence": "I have always wanted to visit Japan, and this summer my dream will finally come true.",
+        "translation": "我一直想去日本，今年夏天我的夢想終於要實現了。",
+        "clue": "願望從以前到現在都沒變",
+        "answerEntryId": "u30:always",
+        "distractorEntryIds": [
+          "u30:again",
+          "u30:ever",
+          "u30:never"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:anyway",
+      "zh": "無論如何；反正",
+      "pos": "adverb",
+      "example": "It was raining, but we went hiking anyway.",
+      "exampleZh": "雖然在下雨，我們還是去健行了。",
+      "spellingHint": "a-n-y-w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The store was closed, but we enjoyed the walk ___.",
+        "fullSentence": "The store was closed, but we enjoyed the walk anyway.",
+        "translation": "雖然店沒開，我們還是享受了這趟散步。",
+        "clue": "結果不受前面的阻礙影響",
+        "answerEntryId": "u30:anyway",
+        "distractorEntryIds": [
+          "u30:simply",
+          "u30:whenever",
+          "u30:aloud"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I know it's late. Thanks for coming ___.",
+          "fullSentence": "I know it's late. Thanks for coming anyway.",
+          "translation": "我知道很晚了，但你還是來了，謝謝。",
+          "clue": "即使很晚還是來了",
+          "answerEntryId": "u30:anyway",
+          "distractorEntryIds": [
+            "u30:also",
+            "u30:recently",
+            "u30:simply"
+          ]
+        },
+        {
+          "sentence": "The ticket was expensive, but Dad bought it ___.",
+          "fullSentence": "The ticket was expensive, but Dad bought it anyway.",
+          "translation": "票價很貴，但爸爸還是買了。",
+          "clue": "不管貴，仍舊買了",
+          "answerEntryId": "u30:anyway",
+          "distractorEntryIds": [
+            "u30:whenever",
+            "u30:yes/yeah",
+            "u30:aloud"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You don't have to help me, but thanks ___ for offering.",
+          "fullSentence": "You don't have to help me, but thanks anyway for offering.",
+          "translation": "你不必幫我，但無論如何謝謝你的好意。",
+          "clue": "不管結果如何仍要道謝",
+          "answerEntryId": "u30:anyway",
+          "distractorEntryIds": [
+            "u30:also",
+            "u30:least",
+            "u30:recently"
+          ]
+        },
+        {
+          "sentence": "Amy said she might be busy, but she promised to call ___.",
+          "fullSentence": "Amy said she might be busy, but she promised to call anyway.",
+          "translation": "艾米說她可能很忙，但她答應無論如何都會打電話。",
+          "clue": "不管忙不忙都會打",
+          "answerEntryId": "u30:anyway",
+          "distractorEntryIds": [
+            "u30:simply",
+            "u30:whenever",
+            "u30:yes/yeah"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Nobody believed Ken could finish the marathon, but he finished it ___.",
+        "fullSentence": "Nobody believed Ken could finish the marathon, but he finished it anyway.",
+        "translation": "沒有人相信肯能跑完馬拉松，但他還是跑完了。",
+        "clue": "與所有人的預期相反，仍完成",
+        "answerEntryId": "u30:anyway",
+        "distractorEntryIds": [
+          "u30:recently",
+          "u30:simply",
+          "u30:whenever"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:anywhere",
+      "zh": "任何地方（用於否定句與疑問句）",
+      "pos": "adverb",
+      "example": "I can't find my key anywhere.",
+      "exampleZh": "我到處都找不到我的鑰匙。",
+      "spellingHint": "a-n-y-w-h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My pen fell out of my bag, but I can't find it ___.",
+        "fullSentence": "My pen fell out of my bag, but I can't find it anywhere.",
+        "translation": "我的筆從包包掉出去了，但我到處都找不到。",
+        "clue": "否定句：哪裡都找不到",
+        "answerEntryId": "u30:anywhere",
+        "distractorEntryIds": [
+          "u30:anyway",
+          "u30:still",
+          "u30:together"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Are you going ___ during the winter vacation?",
+          "fullSentence": "Are you going anywhere during the winter vacation?",
+          "translation": "寒假你會去什麼地方嗎？",
+          "clue": "疑問句：問去任何地方嗎",
+          "answerEntryId": "u30:anywhere",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:somewhere",
+            "u30:still"
+          ]
+        },
+        {
+          "sentence": "It's so quiet here. There isn't a restaurant ___ near the hotel.",
+          "fullSentence": "It's so quiet here. There isn't a restaurant anywhere near the hotel.",
+          "translation": "這裡好安靜，飯店附近哪裡都沒有餐廳。",
+          "clue": "否定句：附近任何地方都沒有",
+          "answerEntryId": "u30:anywhere",
+          "distractorEntryIds": [
+            "u30:anyway",
+            "u30:together",
+            "u30:abroad"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Sit ___ you like; all the seats are free today.",
+          "fullSentence": "Sit anywhere you like; all the seats are free today.",
+          "translation": "你想坐哪裡就坐哪裡，今天所有位子都空著。",
+          "clue": "任何位子都可以坐",
+          "answerEntryId": "u30:anywhere",
+          "distractorEntryIds": [
+            "u30:anyway",
+            "u30:ahead",
+            "u30:still"
+          ]
+        },
+        {
+          "sentence": "The doctor told Grandpa not to go ___ without his medicine.",
+          "fullSentence": "The doctor told Grandpa not to go anywhere without his medicine.",
+          "clue": "否定句：任何地方都不能去",
+          "translation": "醫生叫阿公不要在沒帶藥的情況下去任何地方。",
+          "answerEntryId": "u30:anywhere",
+          "distractorEntryIds": [
+            "u30:together",
+            "u30:abroad",
+            "u30:ahead"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "With this bus pass, you can travel ___ in the city for one low price.",
+        "fullSentence": "With this bus pass, you can travel anywhere in the city for one low price.",
+        "translation": "有了這張公車票券，只要一個低價就能在市內任何地方搭車。",
+        "clue": "強調「任何地方」都到得了",
+        "answerEntryId": "u30:anywhere",
+        "distractorEntryIds": [
+          "u30:somewhere",
+          "u30:still",
+          "u30:abroad"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:away",
+      "zh": "離開；遠離；不在",
+      "pos": "adverb",
+      "example": "The bird flew away when I opened the window.",
+      "exampleZh": "我打開窗戶時，小鳥飛走了。",
+      "spellingHint": "a-w-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Please throw the empty can ___. Don't leave it on the desk.",
+        "fullSentence": "Please throw the empty can away. Don't leave it on the desk.",
+        "translation": "請把空罐子丟掉，不要留在桌上。",
+        "clue": "把東西丟到別處去",
+        "answerEntryId": "u30:away",
+        "distractorEntryIds": [
+          "u30:abroad",
+          "u30:ahead",
+          "u30:anywhere"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The school is only two blocks ___, so we walk there.",
+          "fullSentence": "The school is only two blocks away, so we walk there.",
+          "translation": "學校離這裡只有兩個街區，所以我們走路上學。",
+          "clue": "表達距離有多遠",
+          "answerEntryId": "u30:away",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:everywhere"
+          ]
+        },
+        {
+          "sentence": "Mr. Wu is ___ this week, so there is no math class today.",
+          "fullSentence": "Mr. Wu is away this week, so there is no math class today.",
+          "translation": "吳老師這個星期不在，所以今天沒有數學課。",
+          "clue": "人不在這裡",
+          "answerEntryId": "u30:away",
+          "distractorEntryIds": [
+            "u30:somewhere",
+            "u30:still",
+            "u30:together"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The kids ran ___ as soon as the bell rang for recess.",
+          "fullSentence": "The kids ran away as soon as the bell rang for recess.",
+          "translation": "下課鐘一響，孩子們就跑開了。",
+          "clue": "朝離開的方向跑",
+          "answerEntryId": "u30:away",
+          "distractorEntryIds": [
+            "u30:anywhere",
+            "u30:everywhere",
+            "u30:somewhere"
+          ]
+        },
+        {
+          "sentence": "Keep the matches ___ from the little children.",
+          "fullSentence": "Keep the matches away from the little children.",
+          "translation": "把火柴放在小孩子拿不到的地方。",
+          "clue": "使某物遠離某人",
+          "answerEntryId": "u30:away",
+          "distractorEntryIds": [
+            "u30:still",
+            "u30:together",
+            "u30:abroad"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The beach is an hour's drive ___, so let's leave early tomorrow morning.",
+        "fullSentence": "The beach is an hour's drive away, so let's leave early tomorrow morning.",
+        "translation": "海灘開車要一小時遠，所以我們明天早上早點出發。",
+        "clue": "用距離搭配：an hour's drive ___",
+        "answerEntryId": "u30:away",
+        "distractorEntryIds": [
+          "u30:ahead",
+          "u30:anywhere",
+          "u30:everywhere"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:certainly",
+      "zh": "當然；無疑地",
+      "pos": "adverb",
+      "example": "You may certainly borrow my notes for the test.",
+      "exampleZh": "你當然可以借我的筆記去考試。",
+      "spellingHint": "c-e-r-t-a-i-n-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The line moves fast, so you will ___ get in before noon.",
+        "fullSentence": "The line moves fast, so you will certainly get in before noon.",
+        "translation": "隊伍移動很快，所以你一定會在中午前入場。",
+        "clue": "證據充分，結果毫無疑問",
+        "answerEntryId": "u30:certainly",
+        "distractorEntryIds": [
+          "u30:perhaps",
+          "u30:probably",
+          "u30:really"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The food at this restaurant is ___ worth the price.",
+          "fullSentence": "The food at this restaurant is certainly worth the price.",
+          "translation": "這家餐廳的料理當然值這個價錢。",
+          "clue": "非常肯定地說值得",
+          "answerEntryId": "u30:certainly",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:doubtless",
+            "u30:maybe"
+          ]
+        },
+        {
+          "sentence": "You may ___ borrow my notes for the test; just return them tomorrow.",
+          "fullSentence": "You may certainly borrow my notes for the test; just return them tomorrow.",
+          "translation": "你當然可以借我的筆記去考試，明天還回來就好。",
+          "clue": "爽快允許別人的請求",
+          "answerEntryId": "u30:certainly",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:probably",
+            "u30:really"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken works harder than anyone, so he will ___ pass the exam.",
+          "fullSentence": "Ken works harder than anyone, so he will certainly pass the exam.",
+          "translation": "肯比任何人都努力，所以他一定會通過考試。",
+          "clue": "證據充分，結果毫無疑問",
+          "answerEntryId": "u30:certainly",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:doubtless",
+            "u30:maybe"
+          ]
+        },
+        {
+          "sentence": "You can ___ ask me again if the answer isn't clear.",
+          "fullSentence": "You can certainly ask me again if the answer isn't clear.",
+          "translation": "當然，如果答案不清楚，你可以再問我。",
+          "clue": "樂意讓人再問的允許",
+          "answerEntryId": "u30:certainly",
+          "distractorEntryIds": [
+            "u30:rather",
+            "u30:perhaps",
+            "u30:probably"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "It is ___ the best noodle shop in town; people line up for an hour every day.",
+        "fullSentence": "It is certainly the best noodle shop in town; people line up for an hour every day.",
+        "translation": "它無疑是鎮上最好的麵店，人們每天排隊一小時。",
+        "clue": "後句證據支持毫無疑問的判斷",
+        "answerEntryId": "u30:certainly",
+        "distractorEntryIds": [
+          "u30:actually",
+          "u30:perhaps",
+          "u30:probably"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:doubtless",
+      "zh": "無疑地；必定",
+      "pos": "adverb",
+      "example": "Doubtless, practice made her such a great pianist.",
+      "exampleZh": "毫無疑問，是練習讓她成為這麼出色的鋼琴家。",
+      "spellingHint": "d-o-u-b-t-l-e-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The city closed the old bridge last week because it is ___ unsafe.",
+        "fullSentence": "The city closed the old bridge last week because it is doubtless unsafe.",
+        "translation": "毫無疑問，那座老橋不安全，所以市府上星期把它封了。",
+        "clue": "封橋證實了毫無疑問的危險",
+        "answerEntryId": "u30:doubtless",
+        "distractorEntryIds": [
+          "u30:actually",
+          "u30:certainly",
+          "u30:maybe"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ he forgot our meeting; he never checks his calendar.",
+          "fullSentence": "doubtless he forgot our meeting; he never checks his calendar.",
+          "translation": "他無疑是忘了我們的會議，他從不看行事曆。",
+          "clue": "後句原因讓結論毫無疑問",
+          "answerEntryId": "u30:doubtless",
+          "distractorEntryIds": [
+            "u30:certainly",
+            "u30:actually",
+            "u30:maybe"
+          ]
+        },
+        {
+          "sentence": "The show will ___ sell out; every seat is already booked.",
+          "fullSentence": "The show will doubtless sell out; every seat is already booked.",
+          "translation": "他無疑是忘了我們的會議，他從不看行事曆。",
+          "clue": "每個位子都被訂走，客滿無疑",
+          "answerEntryId": "u30:doubtless",
+          "distractorEntryIds": [
+            "u30:rather",
+            "u30:certainly",
+            "u30:perhaps"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The team practiced every day, so ___ they will win the championship.",
+          "fullSentence": "The team practiced every day, so doubtless they will win the championship.",
+          "translation": "這支球隊每天練習，所以他們無疑會贏得冠軍。",
+          "clue": "每天練習使結果無疑",
+          "answerEntryId": "u30:doubtless",
+          "distractorEntryIds": [
+            "u30:certainly",
+            "u30:really",
+            "u30:actually"
+          ]
+        },
+        {
+          "sentence": "___ the show will sell out; every seat is already booked.",
+          "fullSentence": "doubtless the show will sell out; every seat is already booked.",
+          "translation": "信毫無疑問在抽屜裡，我親眼看到你放進去的。",
+          "clue": "每個位子都被訂走，客滿無疑",
+          "answerEntryId": "u30:doubtless",
+          "distractorEntryIds": [
+            "u30:certainly",
+            "u30:maybe",
+            "u30:perhaps"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "She has won five contests in a row, so ___ the judges know her name.",
+        "fullSentence": "She has won five contests in a row, so doubtless the judges know her name.",
+        "translation": "她已連續贏得五場比賽，評審無疑都認得她的名字。",
+        "clue": "五連勝的事實讓推論無疑",
+        "answerEntryId": "u30:doubtless",
+        "distractorEntryIds": [
+          "u30:really",
+          "u30:actually",
+          "u30:certainly"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:either",
+      "zh": "也（不）；兩者之一",
+      "pos": "adverb",
+      "example": "I don't like coffee, and my sister doesn't either.",
+      "exampleZh": "我不喜歡咖啡，我妹妹也不喜歡。",
+      "spellingHint": "e-i-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken doesn't eat seafood, and his wife doesn't ___.",
+        "fullSentence": "Ken doesn't eat seafood, and his wife doesn't either.",
+        "translation": "肯不吃海鮮，他太太也不吃。",
+        "clue": "否定句中表達「也不」",
+        "answerEntryId": "u30:either",
+        "distractorEntryIds": [
+          "u30:neither",
+          "u30:no",
+          "u30:nor"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I haven't seen that movie, and Ben hasn't ___.",
+          "fullSentence": "I haven't seen that movie, and Ben hasn't either.",
+          "translation": "我沒看過那部電影，班也沒看過。",
+          "clue": "否定句：同樣沒有",
+          "answerEntryId": "u30:either",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:no",
+            "u30:nor"
+          ]
+        },
+        {
+          "sentence": "The bus doesn't stop here, and it doesn't stop at the next corner ___.",
+          "fullSentence": "The bus doesn't stop here, and it doesn't stop at the next corner either.",
+          "translation": "公車不在這裡停，下一個街角也不停。",
+          "clue": "否定句：兩處都不停",
+          "answerEntryId": "u30:either",
+          "distractorEntryIds": [
+            "u30:not",
+            "u30:too",
+            "u30:ever"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You can take the stairs or the elevator — ___ way, you'll get there quickly.",
+          "fullSentence": "You can take the stairs or the elevator — either way, you'll get there quickly.",
+          "translation": "你可以走樓梯或搭電梯——任一種方式都會很快到達。",
+          "clue": "兩個選擇中的任何一個",
+          "answerEntryId": "u30:either",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:no",
+            "u30:nor"
+          ]
+        },
+        {
+          "sentence": "There are two cakes left, so you can have ___ one you like.",
+          "fullSentence": "There are two cakes left, so you can have either one you like.",
+          "translation": "剩兩塊蛋糕，你可以任選一塊你喜歡的。",
+          "clue": "兩者之中任選其一",
+          "answerEntryId": "u30:either",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:not",
+            "u30:too"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "We can't make the cake because we are out of sugar and milk ___.",
+        "fullSentence": "We can't make the cake because we are out of sugar and milk either.",
+        "translation": "糖和牛奶都用完了，所以我們也做不了蛋糕。",
+        "clue": "否定結論句尾的「也（不）」",
+        "answerEntryId": "u30:either",
+        "distractorEntryIds": [
+          "u30:neither",
+          "u30:no",
+          "u30:nor"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:especially",
+      "zh": "尤其；特別",
+      "pos": "adverb",
+      "example": "I love fruit, especially mangoes in summer.",
+      "exampleZh": "我愛吃水果，尤其是夏天的芒果。",
+      "spellingHint": "e-s-p-e-c-i-a-l-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Everyone enjoyed the school fair, ___ the magic show.",
+        "fullSentence": "Everyone enjoyed the school fair, especially the magic show.",
+        "translation": "大家都很享受園遊會，尤其是魔術表演。",
+        "clue": "全部之中特別突出的一項",
+        "answerEntryId": "u30:especially",
+        "distractorEntryIds": [
+          "u30:also",
+          "u30:anyway",
+          "u30:lately"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandma likes sweets, ___ chocolate cake.",
+          "fullSentence": "Grandma likes sweets, especially chocolate cake.",
+          "translation": "阿嬤喜歡甜食，尤其是巧克力蛋糕。",
+          "clue": "眾多甜食中最愛的一種",
+          "answerEntryId": "u30:especially",
+          "distractorEntryIds": [
+            "u30:also",
+            "u30:anyway",
+            "u30:lately"
+          ]
+        },
+        {
+          "sentence": "It's noisy in the city, ___ during rush hour.",
+          "fullSentence": "It's noisy in the city, especially during rush hour.",
+          "translation": "城市裡很吵，尤其是在交通尖峰時間。",
+          "clue": "某時段特別明顯",
+          "answerEntryId": "u30:especially",
+          "distractorEntryIds": [
+            "u30:least",
+            "u30:recently",
+            "u30:simply"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "This winter is cold, ___ in the mountains where it snows every night.",
+          "fullSentence": "This winter is cold, especially in the mountains where it snows every night.",
+          "translation": "今年冬天很冷，尤其是山區，那裡每晚都下雪。",
+          "clue": "某地區程度特別高",
+          "answerEntryId": "u30:especially",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:also",
+            "u30:anyway"
+          ]
+        },
+        {
+          "sentence": "Ken is good at sports, ___ swimming; he has won three gold medals.",
+          "fullSentence": "Ken is good at sports, especially swimming; he has won three gold medals.",
+          "translation": "肯很擅長運動，尤其是游泳，他已經贏得三面金牌。",
+          "clue": "後句證明游泳最突出",
+          "answerEntryId": "u30:especially",
+          "distractorEntryIds": [
+            "u30:lately",
+            "u30:least",
+            "u30:recently"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Be careful with your bag in crowded places, ___ on the night market streets.",
+        "fullSentence": "Be careful with your bag in crowded places, especially on the night market streets.",
+        "translation": "在人多的地方要小心你的包包，尤其是在夜市的街道上。",
+        "clue": "特別指出風險最高之處",
+        "answerEntryId": "u30:especially",
+        "distractorEntryIds": [
+          "u30:yes/yeah",
+          "u30:aloud",
+          "u30:also"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:even",
+      "zh": "甚至；連",
+      "pos": "adverb",
+      "example": "It was so cold that even the lake froze.",
+      "exampleZh": "天氣冷到連湖都結冰了。",
+      "spellingHint": "e-v-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken is ___ faster than his older brother, who can't catch him.",
+        "fullSentence": "Ken is even faster than his older brother, who can't catch him.",
+        "translation": "肯跑得甚至比他哥哥還快，哥哥追不上他。",
+        "clue": "比較級前加強程度",
+        "answerEntryId": "u30:even",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:still",
+          "u30:yet"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The box was so heavy that Dad couldn't ___ lift it.",
+          "fullSentence": "The box was so heavy that Dad couldn't even lift it.",
+          "translation": "箱子重到連爸爸都抬不動。",
+          "clue": "連最基本的動作都做不到",
+          "answerEntryId": "u30:even",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:still",
+            "u30:yet"
+          ]
+        },
+        {
+          "sentence": "She was tired, but she ___ finished all her homework before dinner.",
+          "fullSentence": "She was tired, but she even finished all her homework before dinner.",
+          "translation": "她很累，但她甚至在晚餐前就把全部功課寫完了。",
+          "clue": "超出預期，連功課都寫完",
+          "answerEntryId": "u30:even",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Everyone laughed, ___ the teacher who is usually very serious.",
+          "fullSentence": "Everyone laughed, even the teacher who is usually very serious.",
+          "translation": "每個人都笑了，連平常非常嚴肅的老師也笑了。",
+          "clue": "連最不可能的人也一樣",
+          "answerEntryId": "u30:even",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:so",
+            "u30:suddenly"
+          ]
+        },
+        {
+          "sentence": "The soup tastes good today — ___ better than Mom's cooking.",
+          "fullSentence": "The soup tastes good today — even better than Mom's cooking.",
+          "translation": "今天的湯很好喝，甚至比媽媽煮的還好喝。",
+          "clue": "比較級前加強程度",
+          "answerEntryId": "u30:even",
+          "distractorEntryIds": [
+            "u30:therefore",
+            "u30:thus",
+            "u30:finally"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The museum is free on Sundays, and ___ the special show costs nothing then.",
+        "fullSentence": "The museum is free on Sundays, and even the special show costs nothing then.",
+        "translation": "博物館星期日免費，連特展那天也不收費。",
+        "clue": "連通常要錢的項目也免費",
+        "answerEntryId": "u30:even",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:so",
+          "u30:suddenly"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:ever",
+      "zh": "曾經；究竟",
+      "pos": "adverb",
+      "example": "Have you ever been to Kenting?",
+      "exampleZh": "你去過墾丁嗎？",
+      "spellingHint": "e-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Have you ___ tried stinky tofu? It smells strong but tastes great.",
+        "fullSentence": "Have you ever tried stinky tofu? It smells strong but tastes great.",
+        "translation": "你曾經吃過臭豆腐嗎？它聞起來很重，但味道很棒。",
+        "clue": "問過去到目前為止的經驗",
+        "answerEntryId": "u30:ever",
+        "distractorEntryIds": [
+          "u30:either",
+          "u30:not",
+          "u30:too"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "This is the best pizza I have ___ eaten.",
+          "fullSentence": "This is the best pizza I have ever eaten.",
+          "translation": "這是我吃過最好吃的披薩。",
+          "clue": "最高級 + 到目前為止的經驗",
+          "answerEntryId": "u30:ever",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:neither",
+            "u30:never"
+          ]
+        },
+        {
+          "sentence": "Has your cousin ___ ridden a horse before?",
+          "fullSentence": "Has your cousin ever ridden a horse before?",
+          "translation": "你表哥以前曾經騎過馬嗎？",
+          "clue": "疑問句問過去的經驗",
+          "answerEntryId": "u30:ever",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:no",
+            "u30:nor"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Hardly ___ do we see snow in Taipei, so the kids were so excited.",
+          "fullSentence": "Hardly ever do we see snow in Taipei, so the kids were so excited.",
+          "translation": "台北幾乎從不下雪，所以孩子們超級興奮。",
+          "clue": "hardly ___ 表示幾乎從不",
+          "answerEntryId": "u30:ever",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:never",
+            "u30:no"
+          ]
+        },
+        {
+          "sentence": "If you ___ come to Tainan, please visit my family.",
+          "fullSentence": "If you ever come to Tainan, please visit my family.",
+          "translation": "如果你有機會來台南，請來我家坐坐。",
+          "clue": "假設語氣中的「曾經、有機會」",
+          "answerEntryId": "u30:ever",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:nor",
+            "u30:not"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Nobody ___ guessed the correct answer, so the teacher finally gave a hint.",
+        "fullSentence": "Nobody ever guessed the correct answer, so the teacher finally gave a hint.",
+        "translation": "從來沒有人猜對答案，所以老師最後給了提示。",
+        "clue": "nobody + 強調到目前為止皆無",
+        "answerEntryId": "u30:ever",
+        "distractorEntryIds": [
+          "u30:either",
+          "u30:not",
+          "u30:too"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:everywhere",
+      "zh": "到處；處處",
+      "pos": "adverb",
+      "example": "After the party, there was trash everywhere.",
+      "exampleZh": "派對過後，到處都是垃圾。",
+      "spellingHint": "e-v-e-r-y-w-h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Spring is here! You can see flowers ___ in the park.",
+        "fullSentence": "Spring is here! You can see flowers everywhere in the park.",
+        "translation": "春天來了！公園裡到處都看得到花。",
+        "clue": "整個公園每個角落都有",
+        "answerEntryId": "u30:everywhere",
+        "distractorEntryIds": [
+          "u30:away",
+          "u30:somewhere",
+          "u30:still"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I looked for my glasses, and they were ___ — on the sofa and even in the fridge!",
+          "fullSentence": "I looked for my glasses, and they were everywhere — on the sofa and even in the fridge!",
+          "translation": "我到處找我的眼鏡，結果到處都是——沙發上、甚至冰箱裡都有！",
+          "clue": "沙發上、冰箱裡都有",
+          "answerEntryId": "u30:everywhere",
+          "distractorEntryIds": [
+            "u30:away",
+            "u30:abroad",
+            "u30:ahead"
+          ]
+        },
+        {
+          "sentence": "The little puppy follows its owner ___, even into the bathroom.",
+          "fullSentence": "The little puppy follows its owner everywhere, even into the bathroom.",
+          "translation": "小狗跟著主人到處跑，甚至跟進浴室。",
+          "clue": "每個地方都跟著",
+          "answerEntryId": "u30:everywhere",
+          "distractorEntryIds": [
+            "u30:anywhere",
+            "u30:away",
+            "u30:somewhere"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The famous singer's posters are ___ in the city this month.",
+          "fullSentence": "The famous singer's posters are everywhere in the city this month.",
+          "translation": "這個月這位歌手的海報在城裡到處都是。",
+          "clue": "整個城市每個角落都有海報",
+          "answerEntryId": "u30:everywhere",
+          "distractorEntryIds": [
+            "u30:away",
+            "u30:ahead",
+            "u30:anywhere"
+          ]
+        },
+        {
+          "sentence": "Water was leaking from the pipe, and soon there was water ___ on the floor.",
+          "fullSentence": "Water was leaking from the pipe, and soon there was water everywhere on the floor.",
+          "translation": "水管漏水，很快地板上到處都是水。",
+          "clue": "整片地板都是水",
+          "answerEntryId": "u30:everywhere",
+          "distractorEntryIds": [
+            "u30:away",
+            "u30:somewhere",
+            "u30:still"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Smartphones are ___ these days; it is hard to find someone without one.",
+        "fullSentence": "Smartphones are everywhere these days; it is hard to find someone without one.",
+        "translation": "現在智慧型手機無所不在，很難找到沒有手機的人。",
+        "clue": "後句「很難找到沒有的人」表示到處都有",
+        "answerEntryId": "u30:everywhere",
+        "distractorEntryIds": [
+          "u30:away",
+          "u30:somewhere",
+          "u30:still"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:finally",
+      "zh": "最後；終於",
+      "pos": "adverb",
+      "example": "We waited for an hour, and the bus finally came.",
+      "exampleZh": "我們等了一小時，公車終於來了。",
+      "spellingHint": "f-i-n-a-l-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "After three hours of climbing, we ___ reached the top of the mountain.",
+        "fullSentence": "After three hours of climbing, we finally reached the top of the mountain.",
+        "translation": "爬了三個小時之後，我們終於到達山頂。",
+        "clue": "經過長時間努力後達成",
+        "answerEntryId": "u30:finally",
+        "distractorEntryIds": [
+          "u30:actually",
+          "u30:then",
+          "u30:thus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The movie was long, but it ___ ended at midnight.",
+          "fullSentence": "The movie was long, but it finally ended at midnight.",
+          "translation": "電影很長，但終於在午夜結束了。",
+          "clue": "漫長等待後的結束",
+          "answerEntryId": "u30:finally",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:so",
+            "u30:suddenly"
+          ]
+        },
+        {
+          "sentence": "Dad ___ found his glasses; they were on his head!",
+          "fullSentence": "Dad finally found his glasses; they were on his head!",
+          "translation": "爸爸終於找到他的眼鏡，眼鏡就在他頭上！",
+          "clue": "找了很久之後找到",
+          "answerEntryId": "u30:finally",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "First we packed our bags, and ___ we locked the door and left.",
+          "fullSentence": "First we packed our bags, and finally we locked the door and left.",
+          "translation": "我們先收拾行李，最後鎖門離開。",
+          "clue": "一連串動作的最後一步",
+          "answerEntryId": "u30:finally",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:so",
+            "u30:suddenly"
+          ]
+        },
+        {
+          "sentence": "The two countries argued for years, but they ___ signed a peace agreement.",
+          "fullSentence": "The two countries argued for years, but they finally signed a peace agreement.",
+          "translation": "兩國爭執多年，但最後簽署了和平協議。",
+          "clue": "長期僵持後的結果",
+          "answerEntryId": "u30:finally",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The little bird tried many times to fly, and on the tenth try it ___ flew over the wall.",
+        "fullSentence": "The little bird tried many times to fly, and on the tenth try it finally flew over the wall.",
+        "translation": "小鳥試了很多次才學會飛，第十次終於飛過了牆。",
+        "clue": "多次嘗試後的成功",
+        "answerEntryId": "u30:finally",
+        "distractorEntryIds": [
+          "u30:then",
+          "u30:therefore",
+          "u30:thus"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:hardly",
+      "zh": "幾乎不；簡直不",
+      "pos": "adverb",
+      "example": "It was so noisy that I could hardly sleep.",
+      "exampleZh": "太吵了，我幾乎睡不著。",
+      "spellingHint": "h-a-r-d-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandpa speaks so quietly that we can ___ hear him.",
+        "fullSentence": "Grandpa speaks so quietly that we can hardly hear him.",
+        "translation": "阿公說話太小聲了，我們幾乎聽不到。",
+        "clue": "聲音太小，接近聽不到",
+        "answerEntryId": "u30:hardly",
+        "distractorEntryIds": [
+          "u30:very",
+          "u30:almost",
+          "u30:altogether"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ben is so shy that he ___ talks to new people.",
+          "fullSentence": "Ben is so shy that he hardly talks to new people.",
+          "translation": "班很害羞，幾乎不跟新認識的人說話。",
+          "clue": "非常害羞，接近不說話",
+          "answerEntryId": "u30:hardly",
+          "distractorEntryIds": [
+            "u30:very",
+            "u30:almost",
+            "u30:altogether"
+          ]
+        },
+        {
+          "sentence": "There was ___ any food left in the fridge last night.",
+          "fullSentence": "There was hardly any food left in the fridge last night.",
+          "translation": "昨晚冰箱裡幾乎沒剩什麼食物。",
+          "clue": "數量少到接近零",
+          "answerEntryId": "u30:hardly",
+          "distractorEntryIds": [
+            "u30:even",
+            "u30:nearly",
+            "u30:quite"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I ___ watch TV now, maybe once a year.",
+          "fullSentence": "I hardly watch TV now, maybe once a year.",
+          "translation": "我現在幾乎不看電視，一年大概看一次。",
+          "clue": "一年一次，頻率極低",
+          "answerEntryId": "u30:hardly",
+          "distractorEntryIds": [
+            "u30:quite",
+            "u30:rather",
+            "u30:very"
+          ]
+        },
+        {
+          "sentence": "The old clock was ___ working, ticking only once a minute.",
+          "fullSentence": "The old clock was hardly working, ticking only once a minute.",
+          "translation": "那個老時鐘幾乎不走了，一分鐘才滴答一聲。",
+          "clue": "功能接近停擺",
+          "answerEntryId": "u30:hardly",
+          "distractorEntryIds": [
+            "u30:almost",
+            "u30:altogether",
+            "u30:even"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "She had studied all night, so she could ___ keep her eyes open in class.",
+        "fullSentence": "She had studied all night, so she could hardly keep her eyes open in class.",
+        "translation": "她熬夜讀書，所以上課時眼睛幾乎睜不開。",
+        "clue": "熬夜導致接近做不到",
+        "answerEntryId": "u30:hardly",
+        "distractorEntryIds": [
+          "u30:very",
+          "u30:almost",
+          "u30:altogether"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:lately",
+      "zh": "最近；近來",
+      "pos": "adverb",
+      "example": "Have you seen Amy lately? She cut her hair short.",
+      "exampleZh": "你最近有看到艾米嗎？她剪了短髮。",
+      "spellingHint": "l-a-t-e-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It has rained every day ___, so the park is always wet.",
+        "fullSentence": "It has rained every day lately, so the park is always wet.",
+        "translation": "最近天天下雨，所以公園總是濕濕的。",
+        "clue": "持續到現在的近來狀況",
+        "answerEntryId": "u30:lately",
+        "distractorEntryIds": [
+          "u30:especially",
+          "u30:least",
+          "u30:recently"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Have you been sleeping well ___? You look tired.",
+          "fullSentence": "Have you been sleeping well lately? You look tired.",
+          "translation": "你最近睡得好嗎？你看起來很累。",
+          "clue": "問最近這段時間",
+          "answerEntryId": "u30:lately",
+          "distractorEntryIds": [
+            "u30:especially",
+            "u30:whenever",
+            "u30:yes/yeah"
+          ]
+        },
+        {
+          "sentence": "I haven't heard from my uncle ___. Maybe he is too busy.",
+          "fullSentence": "I haven't heard from my uncle lately. Maybe he is too busy.",
+          "translation": "我最近沒有叔叔的消息，也許他太忙了。",
+          "clue": "到現在為止的最近期間",
+          "answerEntryId": "u30:lately",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:also",
+            "u30:anyway"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The bakery has sold out early ___, so we go there in the morning.",
+          "fullSentence": "The bakery has sold out early lately, so we go there in the morning.",
+          "translation": "麵包店最近很早賣完，所以我們早上去。",
+          "clue": "最近持續的變化",
+          "answerEntryId": "u30:lately",
+          "distractorEntryIds": [
+            "u30:especially",
+            "u30:simply",
+            "u30:whenever"
+          ]
+        },
+        {
+          "sentence": "What have you been reading ___? Tell me about your new book.",
+          "fullSentence": "What have you been reading lately? Tell me about your new book.",
+          "translation": "你最近在讀什麼？跟我說說你的新書。",
+          "clue": "問最近的持續動作",
+          "answerEntryId": "u30:lately",
+          "distractorEntryIds": [
+            "u30:yes/yeah",
+            "u30:aloud",
+            "u30:also"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Dad has been working overtime ___, so we hardly see him.",
+        "fullSentence": "Dad has been working overtime lately, so we hardly see him.",
+        "translation": "爸爸最近一直在加班，我們幾乎見不到他。",
+        "clue": "最近持續到現在的狀態",
+        "answerEntryId": "u30:lately",
+        "distractorEntryIds": [
+          "u30:anyway",
+          "u30:especially",
+          "u30:least"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:least",
+      "zh": "最少；最小（little 的最高級）",
+      "pos": "adverb",
+      "example": "Ken talks the least in our class, but he thinks the most.",
+      "exampleZh": "肯是我們班說話最少的，但他想得最多。",
+      "spellingHint": "l-e-a-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Of all the subjects, I like math the ___; I practice it every day.",
+        "fullSentence": "Of all the subjects, I like math the least; I practice it every day.",
+        "translation": "在所有科目中，我最不喜歡數學，所以我每天練習。",
+        "clue": "所有科目中程度最低的喜好",
+        "answerEntryId": "u30:least",
+        "distractorEntryIds": [
+          "u30:simply",
+          "u30:whenever",
+          "u30:yes/yeah"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Amy chose the ___ expensive souvenir in the shop.",
+          "fullSentence": "Amy chose the least expensive souvenir in the shop.",
+          "translation": "艾米選了店裡最便宜的紀念品。",
+          "clue": "價格最低的那個",
+          "answerEntryId": "u30:least",
+          "distractorEntryIds": [
+            "u30:especially",
+            "u30:lately",
+            "u30:recently"
+          ]
+        },
+        {
+          "sentence": "Drink two glasses of water after exercise at ___.",
+          "fullSentence": "Drink two glasses of water after exercise at least.",
+          "translation": "至少，運動後要喝兩杯水。",
+          "clue": "at ___ = 至少",
+          "answerEntryId": "u30:least",
+          "distractorEntryIds": [
+            "u30:simply",
+            "u30:whenever",
+            "u30:yes/yeah"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Grandpa is over eighty but worries the ___ about small things.",
+          "fullSentence": "Grandpa is over eighty but worries the least about small things.",
+          "translation": "阿公八十多歲了，但最不為小事煩心。",
+          "clue": "the + ___ 表示程度最低",
+          "answerEntryId": "u30:least",
+          "distractorEntryIds": [
+            "u30:anyway",
+            "u30:especially",
+            "u30:lately"
+          ]
+        },
+        {
+          "sentence": "This is the ___ useful app on my phone; I never open it.",
+          "fullSentence": "This is the least useful app on my phone; I never open it.",
+          "translation": "這是我手機上最沒用的 App，我從不打開它。",
+          "clue": "從不使用，所以程度最低",
+          "answerEntryId": "u30:least",
+          "distractorEntryIds": [
+            "u30:recently",
+            "u30:simply",
+            "u30:whenever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Everyone was tired, but Ken looked the ___ tired of all and kept running.",
+        "fullSentence": "Everyone was tired, but Ken looked the least tired of all and kept running.",
+        "translation": "大家都累了，但肯看起來最不累，繼續跑著。",
+        "clue": "其他人累，他程度最低",
+        "answerEntryId": "u30:least",
+        "distractorEntryIds": [
+          "u30:lately",
+          "u30:recently",
+          "u30:simply"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:maybe",
+      "zh": "也許；大概",
+      "pos": "adverb",
+      "example": "Maybe it will snow tonight, so bring a warm coat.",
+      "exampleZh": "今晚也許會下雪，帶件暖外套吧。",
+      "spellingHint": "m-a-y-b-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "I'm not sure if Ken is home. ___ he is still at the office.",
+        "fullSentence": "I'm not sure if Ken is home. maybe he is still at the office.",
+        "translation": "我不確定肯是否在家，也許他還在辦公室。",
+        "clue": "不確定的推測",
+        "answerEntryId": "u30:maybe",
+        "distractorEntryIds": [
+          "u30:doubtless",
+          "u30:perhaps",
+          "u30:probably"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ we can go swimming tomorrow if the weather is good.",
+          "fullSentence": "maybe we can go swimming tomorrow if the weather is good.",
+          "translation": "也許明天天氣好我們就能去游泳。",
+          "clue": "可能性不確定",
+          "answerEntryId": "u30:maybe",
+          "distractorEntryIds": [
+            "u30:doubtless",
+            "u30:probably",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "Mr. Wang is ___ in the classroom; I saw him near the library a minute ago.",
+          "fullSentence": "Mr. Wang is maybe in the classroom; I saw him near the library a minute ago.",
+          "translation": "王老師也許在教室裡，我一分鐘前看到他在圖書館附近。",
+          "clue": "不確定的推測",
+          "answerEntryId": "u30:maybe",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:certainly",
+            "u30:doubtless"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The light is on, so ___ someone is still working inside.",
+          "fullSentence": "The light is on, so maybe someone is still working inside.",
+          "translation": "燈還亮著，所以也許還有人在裡面工作。",
+          "clue": "根據線索的不確定推測",
+          "answerEntryId": "u30:maybe",
+          "distractorEntryIds": [
+            "u30:doubtless",
+            "u30:probably",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "___ the train was delayed; it usually arrives at six but isn't here yet.",
+          "fullSentence": "maybe the train was delayed; it usually arrives at six but isn't here yet.",
+          "translation": "也許火車誤點了，它通常六點到，但現在還沒來。",
+          "clue": "根據異常情況猜測",
+          "answerEntryId": "u30:maybe",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:certainly",
+            "u30:doubtless"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I don't know the answer for sure, but ___ the museum closes at five on Mondays.",
+        "fullSentence": "I don't know the answer for sure, but maybe the museum closes at five on Mondays.",
+        "translation": "我不確定答案，但也許博物館星期一五點關門。",
+        "clue": "前句明說不確定",
+        "answerEntryId": "u30:maybe",
+        "distractorEntryIds": [
+          "u30:doubtless",
+          "u30:perhaps",
+          "u30:probably"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:nearly",
+      "zh": "將近；快要（差距很小）",
+      "pos": "adverb",
+      "example": "The movie is nearly over, so don't leave yet.",
+      "exampleZh": "電影快結束了，先別走。",
+      "spellingHint": "n-e-a-r-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The train was ___ full, so we had to stand the whole way.",
+        "fullSentence": "The train was nearly full, so we had to stand the whole way.",
+        "translation": "火車幾乎客滿，所以我們全程都站著。",
+        "clue": "接近滿座所以沒位子",
+        "answerEntryId": "u30:nearly",
+        "distractorEntryIds": [
+          "u30:even",
+          "u30:hardly",
+          "u30:quite"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "It is ___ ten o'clock, so we should go to bed soon.",
+          "fullSentence": "It is nearly ten o'clock, so we should go to bed soon.",
+          "translation": "快十點了，我們應該要就寢了。",
+          "clue": "時間接近十點",
+          "answerEntryId": "u30:nearly",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:rather",
+            "u30:very"
+          ]
+        },
+        {
+          "sentence": "I was ___ hit by a bicycle because I was looking at my phone.",
+          "fullSentence": "I was nearly hit by a bicycle because I was looking at my phone.",
+          "translation": "我因為看手機，差點被自行車撞到。",
+          "clue": "危險差一點發生",
+          "answerEntryId": "u30:nearly",
+          "distractorEntryIds": [
+            "u30:almost",
+            "u30:altogether",
+            "u30:even"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The jar is ___ empty; only a few cookies remain.",
+          "fullSentence": "The jar is nearly empty; only a few cookies remain.",
+          "translation": "罐子幾乎空了，只剩幾塊餅乾。",
+          "clue": "只剰一點，接近空",
+          "answerEntryId": "u30:nearly",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:quite",
+            "u30:rather"
+          ]
+        },
+        {
+          "sentence": "Ken ran so fast that he ___ broke the school record.",
+          "fullSentence": "Ken ran so fast that he nearly broke the school record.",
+          "translation": "肯跑得超快，差點打破校紀錄。",
+          "clue": "差一點達成但沒有",
+          "answerEntryId": "u30:nearly",
+          "distractorEntryIds": [
+            "u30:very",
+            "u30:almost",
+            "u30:altogether"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The rescue team worked for two days and ___ gave up before they heard the dog barking.",
+        "fullSentence": "The rescue team worked for two days and nearly gave up before they heard the dog barking.",
+        "translation": "救難隊工作了兩天，在聽到狗叫聲前差點放棄。",
+        "clue": "接近放棄但最後沒有",
+        "answerEntryId": "u30:nearly",
+        "distractorEntryIds": [
+          "u30:even",
+          "u30:hardly",
+          "u30:quite"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:neither",
+      "zh": "兩者都不",
+      "pos": "adverb",
+      "example": "Neither answer is correct, so try again.",
+      "exampleZh": "兩個答案都不對，再試一次。",
+      "spellingHint": "n-e-i-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "—Do you want tea or juice? —I want ___ of them; just water, thanks.",
+        "fullSentence": "—Do you want tea or juice? —I want neither of them; just water, thanks.",
+        "translation": "——你要茶還是果汁？——兩種都不要，我只要水。",
+        "clue": "兩個選項都拒絕",
+        "answerEntryId": "u30:neither",
+        "distractorEntryIds": [
+          "u30:either",
+          "u30:ever",
+          "u30:never"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ of my parents drinks coffee, so we only buy tea at home.",
+          "fullSentence": "neither of my parents drinks coffee, so we only buy tea at home.",
+          "translation": "我爸媽都不喝咖啡，所以我們家只買茶。",
+          "clue": "兩人都不喝",
+          "answerEntryId": "u30:neither",
+          "distractorEntryIds": [
+            "u30:not",
+            "u30:too",
+            "u30:either"
+          ]
+        },
+        {
+          "sentence": "I tried two keys, but ___ of them opened the old door.",
+          "fullSentence": "I tried two keys, but neither of them opened the old door.",
+          "translation": "我試了兩把鑰匙，但沒有一把能打開那扇舊門。",
+          "clue": "兩把都打不開",
+          "answerEntryId": "u30:neither",
+          "distractorEntryIds": [
+            "u30:ever",
+            "u30:never",
+            "u30:no"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The food was cold and the soup was salty, so ___ dish was worth the price.",
+          "fullSentence": "The food was cold and the soup was salty, so neither dish was worth the price.",
+          "translation": "餐點是冷的、湯太鹹，所以兩道菜都不值那個價錢。",
+          "clue": "兩道菜都有缺點",
+          "answerEntryId": "u30:neither",
+          "distractorEntryIds": [
+            "u30:too",
+            "u30:either",
+            "u30:ever"
+          ]
+        },
+        {
+          "sentence": "___ answer on the test was perfect, but Ken's had fewer mistakes.",
+          "fullSentence": "neither answer on the test was perfect, but Ken's had fewer mistakes.",
+          "translation": "測驗中兩份答案都不完美，但肯的錯比較少。",
+          "clue": "兩份都不完美",
+          "answerEntryId": "u30:neither",
+          "distractorEntryIds": [
+            "u30:never",
+            "u30:no",
+            "u30:nor"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My brother and I wanted different movies, but in the end we watched ___ and stayed home.",
+        "fullSentence": "My brother and I wanted different movies, but in the end we watched neither and stayed home.",
+        "translation": "我和哥哥想看的電影不同，最後兩部都沒看，待在家裡。",
+        "clue": "最後兩部都沒看",
+        "answerEntryId": "u30:neither",
+        "distractorEntryIds": [
+          "u30:either",
+          "u30:ever",
+          "u30:never"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:never",
+      "zh": "從不；從未",
+      "pos": "adverb",
+      "example": "Ken never eats breakfast before ten.",
+      "exampleZh": "肯從來不在十點前吃早餐。",
+      "spellingHint": "n-e-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My uncle ___ smokes because he knows it is bad for his health.",
+        "fullSentence": "My uncle never smokes because he knows it is bad for his health.",
+        "translation": "我叔叔從不抽菸，因為他知道抽菸有害健康。",
+        "clue": "因為有害所以完全不做",
+        "answerEntryId": "u30:never",
+        "distractorEntryIds": [
+          "u30:neither",
+          "u30:no",
+          "u30:nor"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I have ___ been to Europe, but I hope to go someday.",
+          "fullSentence": "I have never been to Europe, but I hope to go someday.",
+          "translation": "我從來沒去過歐洲，但我希望有一天能去。",
+          "clue": "到目前為止沒有過",
+          "answerEntryId": "u30:never",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:nor",
+            "u30:not"
+          ]
+        },
+        {
+          "sentence": "Amy is so kind that she ___ says anything bad about others.",
+          "fullSentence": "Amy is so kind that she never says anything bad about others.",
+          "translation": "艾米很善良，從不說別人的壞話。",
+          "clue": "善良的人完全不會做的事",
+          "answerEntryId": "u30:never",
+          "distractorEntryIds": [
+            "u30:too",
+            "u30:either",
+            "u30:ever"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Better late than ___; hurry up and join us.",
+          "fullSentence": "Better late than never; hurry up and join us.",
+          "translation": "遲到總比不到好，快點加入我們。",
+          "clue": "諺語：寧可遲也不可無",
+          "answerEntryId": "u30:never",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:not",
+            "u30:too"
+          ]
+        },
+        {
+          "sentence": "After the big fight, he promised to lie to his friends ___ again.",
+          "fullSentence": "After the big fight, he promised to lie to his friends never again.",
+          "translation": "大吵一架之後，他承諾再也不對朋友說謊。",
+          "clue": "承諾不再發生",
+          "answerEntryId": "u30:never",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:ever",
+            "u30:neither"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The old dog ___ barks at strangers, so the thief thought the house was empty.",
+        "fullSentence": "The old dog never barks at strangers, so the thief thought the house was empty.",
+        "translation": "老狗從不對陌生人吠，所以小偷以為屋子裡沒人。",
+        "clue": "狗的習慣是一直不吠",
+        "answerEntryId": "u30:never",
+        "distractorEntryIds": [
+          "u30:neither",
+          "u30:no",
+          "u30:nor"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:no",
+      "zh": "不；沒有",
+      "pos": "adverb",
+      "example": "No, thank you. I don't need any help.",
+      "exampleZh": "不用了，謝謝。我不需要任何幫忙。",
+      "spellingHint": "n-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "—Do you mind if I open the window? —___, go ahead.",
+        "fullSentence": "—Do you mind if I open the window? —no, go ahead.",
+        "translation": "——你介意我打開窗戶嗎？——不介意，一點也不。",
+        "clue": "回答 mind 的否定答覆",
+        "answerEntryId": "u30:no",
+        "distractorEntryIds": [
+          "u30:yes/yeah",
+          "u30:not",
+          "u30:too"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "—Are you hungry? —___; I just ate a big lunch.",
+          "fullSentence": "—Are you hungry? —no; I just ate a big lunch.",
+          "translation": "——你餓嗎？——不餓，我剛吃了一頓豐盛的午餐。",
+          "clue": "剛吃飽，所以否定",
+          "answerEntryId": "u30:no",
+          "distractorEntryIds": [
+            "u30:yes/yeah",
+            "u30:neither",
+            "u30:never"
+          ]
+        },
+        {
+          "sentence": "Borrowing my bike today? —___, the tire is flat.",
+          "fullSentence": "Borrowing my bike today? —no, the tire is flat.",
+          "translation": "不行，你今天不能借我的自行車，輪胎沒氣了。",
+          "clue": "拒絕請求",
+          "answerEntryId": "u30:no",
+          "distractorEntryIds": [
+            "u30:nor",
+            "u30:not",
+            "u30:too"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "There is ___ smoking in the library, so please put out your cigarette.",
+          "fullSentence": "There is no smoking in the library, so please put out your cigarette.",
+          "translation": "圖書館裡禁止吸菸，請把菸熄掉。",
+          "clue": "there is + ___ 表示禁止",
+          "answerEntryId": "u30:no",
+          "distractorEntryIds": [
+            "u30:never",
+            "u30:nor",
+            "u30:not"
+          ]
+        },
+        {
+          "sentence": "—Will you come to the party? —___; I have to study for the test.",
+          "fullSentence": "—Will you come to the party? —no; I have to study for the test.",
+          "translation": "——你會來派對嗎？——不來，我要準備考試。",
+          "clue": "因為要讀書而拒絕",
+          "answerEntryId": "u30:no",
+          "distractorEntryIds": [
+            "u30:too",
+            "u30:either",
+            "u30:ever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "We asked three shops, but ___ one had the part we needed.",
+        "fullSentence": "We asked three shops, but no one had the part we needed.",
+        "translation": "我們問了三家店，但沒有任何一家有我們需要的零件。",
+        "clue": "no + 名詞表示完全沒有",
+        "answerEntryId": "u30:no",
+        "distractorEntryIds": [
+          "u30:not",
+          "u30:too",
+          "u30:either"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:nor",
+      "zh": "也不（用於 neither 之後或否定句後）",
+      "pos": "adverb",
+      "example": "She doesn't sing, nor does she dance.",
+      "exampleZh": "她不唱歌，也不跳舞。",
+      "spellingHint": "n-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken can't swim, ___ can his little brother.",
+        "fullSentence": "Ken can't swim, nor can his little brother.",
+        "translation": "肯不會游泳，他弟弟也不會。",
+        "clue": "否定句後接「也不」，後面倒裝",
+        "answerEntryId": "u30:nor",
+        "distractorEntryIds": [
+          "u30:either",
+          "u30:ever",
+          "u30:neither"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I don't like horror movies, ___ do my parents.",
+          "fullSentence": "I don't like horror movies, nor do my parents.",
+          "translation": "我不喜歡恐怖片，我父母也不喜歡。",
+          "clue": "否定句後表達「也不」",
+          "answerEntryId": "u30:nor",
+          "distractorEntryIds": [
+            "u30:no",
+            "u30:either",
+            "u30:ever"
+          ]
+        },
+        {
+          "sentence": "The bus didn't come, ___ did the next one, so we walked home.",
+          "fullSentence": "The bus didn't come, nor did the next one, so we walked home.",
+          "translation": "公車沒來，下一班也沒來，所以我們走路回家。",
+          "clue": "兩班車都沒來",
+          "answerEntryId": "u30:nor",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:never",
+            "u30:no"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "He has neither time ___ money for the trip this year.",
+          "fullSentence": "He has neither time nor money for the trip this year.",
+          "translation": "他今年既沒有時間也沒有錢去旅行。",
+          "clue": "neither...___... 固定搭配",
+          "answerEntryId": "u30:nor",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:not",
+            "u30:too"
+          ]
+        },
+        {
+          "sentence": "The shop had neither bread ___ milk left when we arrived.",
+          "fullSentence": "The shop had neither bread nor milk left when we arrived.",
+          "translation": "我們到的時候，店裡麵包和牛奶都沒有了。",
+          "clue": "neither...___... 兩者皆無",
+          "answerEntryId": "u30:nor",
+          "distractorEntryIds": [
+            "u30:either",
+            "u30:not",
+            "u30:so"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Amy wasn't at the library, ___ was she in the music room; she was at the dentist.",
+        "fullSentence": "Amy wasn't at the library, nor was she in the music room; she was at the dentist.",
+        "translation": "艾米不在圖書館，也不在音樂教室；她在牙醫那裡。",
+        "clue": "前句否定，後句接「也不」倒裝",
+        "answerEntryId": "u30:nor",
+        "distractorEntryIds": [
+          "u30:ever",
+          "u30:neither",
+          "u30:never"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:not",
+      "zh": "不（構成否定）",
+      "pos": "adverb",
+      "example": "I am not hungry because I ate a big lunch.",
+      "exampleZh": "我不餓，因為我吃了一頓豐盛的午餐。",
+      "spellingHint": "n-o-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken is ___ coming to the picnic because he has a cold.",
+        "fullSentence": "Ken is not coming to the picnic because he has a cold.",
+        "translation": "肯不會來野餐，因為他感冒了。",
+        "clue": "因為感冒所以否定",
+        "answerEntryId": "u30:not",
+        "distractorEntryIds": [
+          "u30:never",
+          "u30:no",
+          "u30:nor"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Do ___ run in the hallway; it's dangerous.",
+          "fullSentence": "Do not run in the hallway; it's dangerous.",
+          "translation": "不要在走廊上奔跑，很危險。",
+          "clue": "否定命令句：Do ___",
+          "answerEntryId": "u30:not",
+          "distractorEntryIds": [
+            "u30:nor",
+            "u30:too",
+            "u30:either"
+          ]
+        },
+        {
+          "sentence": "The movie was ___ as funny as I expected.",
+          "fullSentence": "The movie was not as funny as I expected.",
+          "translation": "這部電影沒有我想像的那麼好笑。",
+          "clue": "___ as...as 的否定比較",
+          "answerEntryId": "u30:not",
+          "distractorEntryIds": [
+            "u30:ever",
+            "u30:neither",
+            "u30:never"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I told Amy twice, but she did ___ listen to me.",
+          "fullSentence": "I told Amy twice, but she did not listen to me.",
+          "translation": "我跟艾米說了兩次，但她沒有聽我的。",
+          "clue": "did + ___ 構成過去否定",
+          "answerEntryId": "u30:not",
+          "distractorEntryIds": [
+            "u30:nor",
+            "u30:either",
+            "u30:ever"
+          ]
+        },
+        {
+          "sentence": "We have ___ decided where to go yet for the holiday.",
+          "fullSentence": "We have not decided where to go yet for the holiday.",
+          "translation": "我們還沒決定假日要去哪裡。",
+          "clue": "have + ___ + yet 的完成否定",
+          "answerEntryId": "u30:not",
+          "distractorEntryIds": [
+            "u30:neither",
+            "u30:never",
+            "u30:no"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The gift is lovely, but I do ___ need it right now.",
+        "fullSentence": "The gift is lovely, but I do not need it right now.",
+        "translation": "禮物很漂亮，但我現在確實不需要。",
+        "clue": "助動詞 do 之後的否定詞",
+        "answerEntryId": "u30:not",
+        "distractorEntryIds": [
+          "u30:no",
+          "u30:nor",
+          "u30:too"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:often",
+      "zh": "常常；經常",
+      "pos": "adverb",
+      "example": "We often play badminton after school.",
+      "exampleZh": "我們常常放學後打羽球。",
+      "spellingHint": "o-f-t-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My family ___ visits Grandma on Sundays; almost every week.",
+        "fullSentence": "My family often visits Grandma on Sundays; almost every week.",
+        "translation": "我們家常在星期日去看阿嬤，幾乎每個星期都去。",
+        "clue": "幾乎每星期都發生",
+        "answerEntryId": "u30:often",
+        "distractorEntryIds": [
+          "u30:seldom",
+          "u30:sometimes",
+          "u30:usually"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "It ___ rains in Taipei in spring, so carry an umbrella.",
+          "fullSentence": "It often rains in Taipei in spring, so carry an umbrella.",
+          "translation": "台北春天常常下雨，所以要帶傘。",
+          "clue": "雨下得頻繁",
+          "answerEntryId": "u30:often",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:seldom",
+            "u30:sometimes"
+          ]
+        },
+        {
+          "sentence": "How ___ do you go to the movies? —About twice a month.",
+          "fullSentence": "How often do you go to the movies? —About twice a month.",
+          "translation": "你多久看一次電影？——大約一個月兩次。",
+          "clue": "how ___ 問頻率",
+          "answerEntryId": "u30:often",
+          "distractorEntryIds": [
+            "u30:usually",
+            "u30:yet",
+            "u30:again"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken doesn't eat sweets very ___, but he loves ice cream in summer.",
+          "fullSentence": "Ken doesn't eat sweets very often, but he loves ice cream in summer.",
+          "translation": "肯不常吃甜食，但夏天很愛吃冰淇淋。",
+          "clue": "not very ___ = 不常",
+          "answerEntryId": "u30:often",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:seldom",
+            "u30:sometimes"
+          ]
+        },
+        {
+          "sentence": "We ___ see deer on the mountain road, more than once a week.",
+          "fullSentence": "We often see deer on the mountain road, more than once a week.",
+          "translation": "我們常在山路上看到鹿，一個星期不止一次。",
+          "clue": "一週多次的頻率",
+          "answerEntryId": "u30:often",
+          "distractorEntryIds": [
+            "u30:usually",
+            "u30:yet",
+            "u30:again"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "More ___ than not, Amy wins the spelling contest; she has a great memory.",
+        "fullSentence": "More often than not, Amy wins the spelling contest; she has a great memory.",
+        "translation": "艾米多半會贏得拼字比賽，她的記憶力很好。",
+        "clue": "more ___ than not = 多半",
+        "answerEntryId": "u30:often",
+        "distractorEntryIds": [
+          "u30:seldom",
+          "u30:sometimes",
+          "u30:usually"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:perhaps",
+      "zh": "也許；可能",
+      "pos": "adverb",
+      "example": "Perhaps we should take the earlier bus.",
+      "exampleZh": "也許我們該搭早一點的公車。",
+      "spellingHint": "p-e-r-h-a-p-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The store is ___ closed on Mondays; we can try again tomorrow.",
+        "fullSentence": "The store is perhaps closed on Mondays; we can try again tomorrow.",
+        "translation": "也許那家店星期一沒開，我們可以晚點再試。",
+        "clue": "不確定的猜測",
+        "answerEntryId": "u30:perhaps",
+        "distractorEntryIds": [
+          "u30:really",
+          "u30:actually",
+          "u30:certainly"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "It's cloudy, so ___ it will rain this afternoon.",
+          "fullSentence": "It's cloudy, so perhaps it will rain this afternoon.",
+          "translation": "天空多雲，所以下午也許會下雨。",
+          "clue": "根據天色的可能推測",
+          "answerEntryId": "u30:perhaps",
+          "distractorEntryIds": [
+            "u30:maybe",
+            "u30:probably",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "Maybe Ken missed the train. ___ we should call him.",
+          "fullSentence": "Maybe Ken missed the train. perhaps we should call him.",
+          "translation": "也許肯沒趕上火車，或許我們該打給他。",
+          "clue": "提出可能的建議",
+          "answerEntryId": "u30:perhaps",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:certainly",
+            "u30:doubtless"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You look pale. ___ you should see a doctor.",
+          "fullSentence": "You look pale. perhaps you should see a doctor.",
+          "translation": "你看起來臉色蒼白，也許你該去看醫生。",
+          "clue": "委婉的建議",
+          "answerEntryId": "u30:perhaps",
+          "distractorEntryIds": [
+            "u30:maybe",
+            "u30:probably",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "___ the oldest recipe in this book is more than two hundred years old.",
+          "fullSentence": "perhaps the oldest recipe in this book is more than two hundred years old.",
+          "translation": "也許這本書裡最老的食譜已有兩百多年的歷史。",
+          "clue": "語氣保守的可能推測",
+          "answerEntryId": "u30:perhaps",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:certainly",
+            "u30:doubtless"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The door is locked and nobody answers, so ___ the family is on vacation.",
+        "fullSentence": "The door is locked and nobody answers, so perhaps the family is on vacation.",
+        "translation": "門鎖著也沒人應門，所以也許這家人去度假了。",
+        "clue": "根據線索但語氣不確定",
+        "answerEntryId": "u30:perhaps",
+        "distractorEntryIds": [
+          "u30:maybe",
+          "u30:really",
+          "u30:actually"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:probably",
+      "zh": "大概；很可能",
+      "pos": "adverb",
+      "example": "Look at those clouds. It will probably rain soon.",
+      "exampleZh": "看那些雲，很可能很快就會下雨。",
+      "spellingHint": "p-r-o-b-a-b-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken practices every day, so he will ___ make the school team.",
+        "fullSentence": "Ken practices every day, so he will probably make the school team.",
+        "translation": "肯每天練習，所以他很可能會進校隊。",
+        "clue": "依證據推測可能性高",
+        "answerEntryId": "u30:probably",
+        "distractorEntryIds": [
+          "u30:doubtless",
+          "u30:maybe",
+          "u30:perhaps"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The bus is late again; it ___ left already.",
+          "fullSentence": "The bus is late again; it probably left already.",
+          "translation": "公車又遲了，它大概已經開走了。",
+          "clue": "依情況做出的高可能推測",
+          "answerEntryId": "u30:probably",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:maybe",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "It's almost six, so Mom is ___ cooking dinner now.",
+          "fullSentence": "It's almost six, so Mom is probably cooking dinner now.",
+          "translation": "快六點了，媽媽現在大概正在做晚餐。",
+          "clue": "依時間的合理推測",
+          "answerEntryId": "u30:probably",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:actually",
+            "u30:certainly"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The tickets are cheap and the show is popular, so they will ___ sell out fast.",
+          "fullSentence": "The tickets are cheap and the show is popular, so they will probably sell out fast.",
+          "translation": "票價便宜而且表演很受歡迎，所以很可能很快就售完。",
+          "clue": "綜合線索的高可能推測",
+          "answerEntryId": "u30:probably",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:maybe",
+            "u30:really"
+          ]
+        },
+        {
+          "sentence": "___ the oldest tree in this park is more than a hundred years old.",
+          "fullSentence": "probably the oldest tree in this park is more than a hundred years old.",
+          "translation": "這座公園裡最老的樹大概有一百多歲了。",
+          "clue": "合理但非確定的推估",
+          "answerEntryId": "u30:probably",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:actually",
+            "u30:certainly"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken hasn't replied to my messages all day; he ___ forgot his phone at home.",
+        "fullSentence": "Ken hasn't replied to my messages all day; he probably forgot his phone at home.",
+        "translation": "肯一整天沒回訊息，他很可能把手機忘在家裡了。",
+        "clue": "由線索推出的最可能原因",
+        "answerEntryId": "u30:probably",
+        "distractorEntryIds": [
+          "u30:certainly",
+          "u30:doubtless",
+          "u30:maybe"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:quite",
+      "zh": "相當；很",
+      "pos": "adverb",
+      "example": "The story is quite interesting, so I read it twice.",
+      "exampleZh": "這個故事相當有趣，所以我讀了兩次。",
+      "spellingHint": "q-u-i-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The mountain path is ___ steep, so wear good shoes.",
+        "fullSentence": "The mountain path is quite steep, so wear good shoes.",
+        "translation": "這條山路相當陡，要穿好走的鞋子。",
+        "clue": "程度高，要提醒人注意",
+        "answerEntryId": "u30:quite",
+        "distractorEntryIds": [
+          "u30:nearly",
+          "u30:rather",
+          "u30:very"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The test was ___ easy, so everyone finished early.",
+          "fullSentence": "The test was quite easy, so everyone finished early.",
+          "translation": "考試相當簡單，所以大家都很早寫完。",
+          "clue": "程度相當高",
+          "answerEntryId": "u30:quite",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:nearly",
+            "u30:rather"
+          ]
+        },
+        {
+          "sentence": "Grandma's new house is ___ big, with four bedrooms.",
+          "fullSentence": "Grandma's new house is quite big, with four bedrooms.",
+          "translation": "阿嬤的新房子相當大，有四間臥室。",
+          "clue": "用程度形容大小",
+          "answerEntryId": "u30:quite",
+          "distractorEntryIds": [
+            "u30:still",
+            "u30:very",
+            "u30:almost"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I'm ___ sure the concert starts at seven, so we have time for dinner.",
+          "fullSentence": "I'm quite sure the concert starts at seven, so we have time for dinner.",
+          "translation": "我很確定演唱會七點開始，所以我們有時間吃晚餐。",
+          "clue": "加強確定程度",
+          "answerEntryId": "u30:quite",
+          "distractorEntryIds": [
+            "u30:nearly",
+            "u30:even",
+            "u30:hardly"
+          ]
+        },
+        {
+          "sentence": "The noodles here are ___ different from the ones in my hometown.",
+          "fullSentence": "The noodles here are quite different from the ones in my hometown.",
+          "translation": "這裡的麵和我家鄉的相當不同。",
+          "clue": "修飾形容詞差異程度",
+          "answerEntryId": "u30:quite",
+          "distractorEntryIds": [
+            "u30:nearly",
+            "u30:rather",
+            "u30:very"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Don't worry — the water is ___ warm today, so you can swim comfortably.",
+        "fullSentence": "Don't worry — the water is quite warm today, so you can swim comfortably.",
+        "translation": "別擔心——今天水相當溫暖，你可以放心游泳。",
+        "clue": "足以安心游泳的溫度程度",
+        "answerEntryId": "u30:quite",
+        "distractorEntryIds": [
+          "u30:nearly",
+          "u30:rather",
+          "u30:very"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:rather",
+      "zh": "相當；頗；寧可",
+      "pos": "adverb",
+      "example": "The soup is rather salty, so I added some water.",
+      "exampleZh": "這湯蠻鹹的，所以我加了一些水。",
+      "spellingHint": "r-a-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It was ___ cold this morning, so I wore my winter coat.",
+        "fullSentence": "It was rather cold this morning, so I wore my winter coat.",
+        "translation": "今天早上相當冷，所以我穿了冬衣。",
+        "clue": "程度偏高所以穿冬衣",
+        "answerEntryId": "u30:rather",
+        "distractorEntryIds": [
+          "u30:almost",
+          "u30:altogether",
+          "u30:even"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The movie was ___ long; we didn't get home until midnight.",
+          "fullSentence": "The movie was rather long; we didn't get home until midnight.",
+          "translation": "這部電影蠻長的，我們到午夜才到家。",
+          "clue": "程度偏高造成結果",
+          "answerEntryId": "u30:rather",
+          "distractorEntryIds": [
+            "u30:quite",
+            "u30:altogether",
+            "u30:even"
+          ]
+        },
+        {
+          "sentence": "I would ___ stay home and read than go shopping today.",
+          "fullSentence": "I would rather stay home and read than go shopping today.",
+          "translation": "我今天寧可待在家看書，也不想出去逛街。",
+          "clue": "would ___ = 寧可",
+          "answerEntryId": "u30:rather",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:nearly",
+            "u30:quite"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken speaks English ___ well for a beginner; people often think he has lived abroad.",
+          "fullSentence": "Ken speaks English rather well for a beginner; people often think he has lived abroad.",
+          "translation": "以初學者來說，肯英文說得相當好，別人常以為他住過國外。",
+          "clue": "修飾程度高於預期",
+          "answerEntryId": "u30:rather",
+          "distractorEntryIds": [
+            "u30:quite",
+            "u30:almost",
+            "u30:altogether"
+          ]
+        },
+        {
+          "sentence": "The bus was ___ crowded, so we decided to wait for the next one.",
+          "fullSentence": "The bus was rather crowded, so we decided to wait for the next one.",
+          "translation": "公車相當擁擠，所以我們決定等下一班。",
+          "clue": "程度高到影響決定",
+          "answerEntryId": "u30:rather",
+          "distractorEntryIds": [
+            "u30:even",
+            "u30:hardly",
+            "u30:nearly"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I would ___ wait at the station until the rain stops than walk home wet.",
+        "fullSentence": "I would rather wait at the station until the rain stops than walk home wet.",
+        "translation": "我寧可在車站等到雨停，也不要濕著走回家。",
+        "clue": "兩個選項間的偏好選擇",
+        "answerEntryId": "u30:rather",
+        "distractorEntryIds": [
+          "u30:almost",
+          "u30:altogether",
+          "u30:even"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:really",
+      "zh": "真的很；非常",
+      "pos": "adverb",
+      "example": "The hot pot smells really good.",
+      "exampleZh": "這鍋熱湯聞起來真的很香。",
+      "spellingHint": "r-e-a-l-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This puzzle is ___ difficult; even Dad can't solve it.",
+        "fullSentence": "This puzzle is really difficult; even Dad can't solve it.",
+        "translation": "這個拼圖真的很難，連爸爸都解不開。",
+        "clue": "加強形容詞的程度",
+        "answerEntryId": "u30:really",
+        "distractorEntryIds": [
+          "u30:probably",
+          "u30:actually",
+          "u30:certainly"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I ___ love this song; I play it every morning.",
+          "fullSentence": "I really love this song; I play it every morning.",
+          "translation": "我真的很愛這首歌，每天早上都播放。",
+          "clue": "加強喜愛的程度",
+          "answerEntryId": "u30:really",
+          "distractorEntryIds": [
+            "u30:probably",
+            "u30:doubtless",
+            "u30:maybe"
+          ]
+        },
+        {
+          "sentence": "It's ___ cold outside, so put on your gloves.",
+          "fullSentence": "It's really cold outside, so put on your gloves.",
+          "translation": "外面真的很冷，戴上你的手套。",
+          "clue": "程度強，所以要注意保暖",
+          "answerEntryId": "u30:really",
+          "distractorEntryIds": [
+            "u30:perhaps",
+            "u30:probably",
+            "u30:least"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "—Did you ___ climb the mountain at night? —Yes, we started at three in the morning.",
+          "fullSentence": "—Did you really climb the mountain at night? —Yes, we started at three in the morning.",
+          "translation": "——你們真的在晚上爬山嗎？——對，我們凌晨三點就出發。",
+          "clue": "驚訝地確認事實",
+          "answerEntryId": "u30:really",
+          "distractorEntryIds": [
+            "u30:actually",
+            "u30:probably",
+            "u30:doubtless"
+          ]
+        },
+        {
+          "sentence": "Ken said he was sick, but he was ___ playing games at home.",
+          "fullSentence": "Ken said he was sick, but he was really playing games at home.",
+          "translation": "肯說他生病了，但其實他真的在家打電動。",
+          "clue": "真實情況的強調",
+          "answerEntryId": "u30:really",
+          "distractorEntryIds": [
+            "u30:maybe",
+            "u30:perhaps",
+            "u30:probably"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Amy ___ wants to be a vet; she reads books about animals every day.",
+        "fullSentence": "Amy really wants to be a vet; she reads books about animals every day.",
+        "translation": "艾米真的很想當獸醫，她每天讀動物相關的書。",
+        "clue": "每天讀相關書籍證明強烈意願",
+        "answerEntryId": "u30:really",
+        "distractorEntryIds": [
+          "u30:perhaps",
+          "u30:probably",
+          "u30:actually"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:recently",
+      "zh": "不久前；最近（不久前發生）",
+      "pos": "adverb",
+      "example": "My family moved to Taichung recently.",
+      "exampleZh": "我們家最近搬到台中。",
+      "spellingHint": "r-e-c-e-n-t-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken ___ joined the swim team, so he is still learning the rules.",
+        "fullSentence": "Ken recently joined the swim team, so he is still learning the rules.",
+        "translation": "肯最近剛加入學校游泳隊，所以他還在學規則。",
+        "clue": "不久前才發生",
+        "answerEntryId": "u30:recently",
+        "distractorEntryIds": [
+          "u30:aloud",
+          "u30:also",
+          "u30:anyway"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The store opened ___, so many people keep coming to look around.",
+          "fullSentence": "The store opened recently, so many people keep coming to look around.",
+          "translation": "這家店最近開幕，所以很多人一直來參觀。",
+          "clue": "開幕不久",
+          "answerEntryId": "u30:recently",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:also",
+            "u30:anyway"
+          ]
+        },
+        {
+          "sentence": "Have you visited the new science museum ___? It opened last month.",
+          "fullSentence": "Have you visited the new science museum recently? It opened last month.",
+          "translation": "你最近有去參觀新的科學博物館嗎？它上個月開幕。",
+          "clue": "問最近這段時間",
+          "answerEntryId": "u30:recently",
+          "distractorEntryIds": [
+            "u30:lately",
+            "u30:especially",
+            "u30:least"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Prices have gone up ___, so we spend more on food than before.",
+          "fullSentence": "Prices have gone up recently, so we spend more on food than before.",
+          "translation": "物價最近上漲，所以我們在食物上花得比以前多。",
+          "clue": "近期發生的變化",
+          "answerEntryId": "u30:recently",
+          "distractorEntryIds": [
+            "u30:lately",
+            "u30:least",
+            "u30:yes/yeah"
+          ]
+        },
+        {
+          "sentence": "I saw Mr. Chen at the hospital ___, and he looked much better.",
+          "fullSentence": "I saw Mr. Chen at the hospital recently, and he looked much better.",
+          "translation": "我最近在醫院看到陳先生，他看起來好多了。",
+          "clue": "不久前的見面",
+          "answerEntryId": "u30:recently",
+          "distractorEntryIds": [
+            "u30:aloud",
+            "u30:also",
+            "u30:anyway"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The bridge was ___ repaired, which is why it looks brand new.",
+        "fullSentence": "The bridge was recently repaired, which is why it looks brand new.",
+        "translation": "這座橋最近才修好，所以看起來嶄新。",
+        "clue": "由外觀推知修繕不久前發生",
+        "answerEntryId": "u30:recently",
+        "distractorEntryIds": [
+          "u30:whenever",
+          "u30:yes/yeah",
+          "u30:aloud"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:seldom",
+      "zh": "很少；不常",
+      "pos": "adverb",
+      "example": "Ken seldom watches TV on school nights.",
+      "exampleZh": "肯上學日的晚上很少看電視。",
+      "spellingHint": "s-e-l-d-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Amy lives far from the beach, so she ___ goes swimming in the sea.",
+        "fullSentence": "Amy lives far from the beach, so she seldom goes swimming in the sea.",
+        "translation": "艾米住得離海邊很遠，所以她很少去海邊游泳。",
+        "clue": "距離遠導致頻率低",
+        "answerEntryId": "u30:seldom",
+        "distractorEntryIds": [
+          "u30:yet",
+          "u30:again",
+          "u30:always"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa ___ gets angry; he is patient with us all the time.",
+          "fullSentence": "Grandpa seldom gets angry; he is patient with us all the time.",
+          "translation": "阿公很少生氣，他對我們一直很有耐心。",
+          "clue": "很有耐心所以很少生氣",
+          "answerEntryId": "u30:seldom",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:always",
+            "u30:sometimes"
+          ]
+        },
+        {
+          "sentence": "It ___ snows in this city, maybe once in ten years.",
+          "fullSentence": "It seldom snows in this city, maybe once in ten years.",
+          "translation": "這個城市很少下雪，也許十年一次。",
+          "clue": "十年一次，頻率極低",
+          "answerEntryId": "u30:seldom",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:usually",
+            "u30:yet"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken is a quiet student who ___ speaks unless the teacher asks him a question.",
+          "fullSentence": "Ken is a quiet student who seldom speaks unless the teacher asks him a question.",
+          "translation": "肯是個安靜的學生，除非老師問他，否則很少開口。",
+          "clue": "安靜的個性導致很少說話",
+          "answerEntryId": "u30:seldom",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:always",
+            "u30:sometimes"
+          ]
+        },
+        {
+          "sentence": "The old restaurant is expensive, so we ___ eat there, only on special days.",
+          "fullSentence": "The old restaurant is expensive, so we seldom eat there, only on special days.",
+          "translation": "那家老餐廳很貴，所以我們很少去，只在特別的日子去。",
+          "clue": "只在特別日子，頻率低",
+          "answerEntryId": "u30:seldom",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:usually",
+            "u30:yet"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ does the museum open at night, so tonight's show is a special chance.",
+        "fullSentence": "seldom does the museum open at night, so tonight's show is a special chance.",
+        "translation": "博物館很少在夜間開放，所以今晚的表演是難得的機會。",
+        "clue": "倒裝句首，表示頻率低",
+        "answerEntryId": "u30:seldom",
+        "distractorEntryIds": [
+          "u30:often",
+          "u30:yet",
+          "u30:again"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:simply",
+      "zh": "只是；簡直；簡單地",
+      "pos": "adverb",
+      "example": "I didn't break the window; I simply touched it.",
+      "exampleZh": "我沒有弄破窗戶，我只是碰了它一下。",
+      "spellingHint": "s-i-m-p-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The recipe is ___ too hard for beginners, so let's pick an easier one.",
+        "fullSentence": "The recipe is simply too hard for beginners, so let's pick an easier one.",
+        "translation": "這食譜對初學者來說實在太難了，我們選個簡單一點的吧。",
+        "clue": "加強 too，表示實在如此",
+        "answerEntryId": "u30:simply",
+        "distractorEntryIds": [
+          "u30:especially",
+          "u30:everywhere",
+          "u30:lately"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I'm not angry with you; I ___ need some quiet time.",
+          "fullSentence": "I'm not angry with you; I simply need some quiet time.",
+          "translation": "我沒有生你的氣，我只是需要安靜一下。",
+          "clue": "澄清真正的原因很單純",
+          "answerEntryId": "u30:simply",
+          "distractorEntryIds": [
+            "u30:lately",
+            "u30:recently",
+            "u30:together"
+          ]
+        },
+        {
+          "sentence": "Explain the rule ___ so the new students can understand.",
+          "fullSentence": "Explain the rule simply so the new students can understand.",
+          "translation": "簡單地說明規則，讓新同學能聽懂。",
+          "clue": "用簡單的方式說明",
+          "answerEntryId": "u30:simply",
+          "distractorEntryIds": [
+            "u30:very",
+            "u30:whenever",
+            "u30:yes/yeah"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You don't need a big kitchen; you ___ need a good knife and a hot pan.",
+          "fullSentence": "You don't need a big kitchen; you simply need a good knife and a hot pan.",
+          "translation": "你不需要大廚房，你只需要一把好刀和一個熱鍋。",
+          "clue": "只要、僅僅需要",
+          "answerEntryId": "u30:simply",
+          "distractorEntryIds": [
+            "u30:especially",
+            "u30:lately",
+            "u30:least"
+          ]
+        },
+        {
+          "sentence": "The door was locked, so we ___ couldn't get in without the key.",
+          "fullSentence": "The door was locked, so we simply couldn't get in without the key.",
+          "translation": "門鎖著，所以沒有鑰匙我們根本進不去。",
+          "clue": "加強「完全無法」",
+          "answerEntryId": "u30:simply",
+          "distractorEntryIds": [
+            "u30:recently",
+            "u30:together",
+            "u30:very"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken didn't refuse the invitation; he ___ forgot to check his messages.",
+        "fullSentence": "Ken didn't refuse the invitation; he simply forgot to check his messages.",
+        "translation": "肯不是拒絕邀請，他只是忘了看訊息。",
+        "clue": "用對比說明原因很單純",
+        "answerEntryId": "u30:simply",
+        "distractorEntryIds": [
+          "u30:also",
+          "u30:anyway",
+          "u30:especially"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:so",
+      "zh": "如此；這麼；因此",
+      "pos": "adverb",
+      "example": "The bag is so heavy that I can't carry it.",
+      "exampleZh": "這個包包重到我提不動。",
+      "spellingHint": "s-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The music was ___ loud that we had to cover our ears.",
+        "fullSentence": "The music was so loud that we had to cover our ears.",
+        "translation": "音樂大聲到我們必須摀住耳朵。",
+        "clue": "so + 形容詞 + that 表結果",
+        "answerEntryId": "u30:so",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:suddenly",
+          "u30:then"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I was ___ tired that I fell asleep on the bus.",
+          "fullSentence": "I was so tired that I fell asleep on the bus.",
+          "translation": "我累到在公車上睡著了。",
+          "clue": "so + 形容詞 + that",
+          "answerEntryId": "u30:so",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:suddenly",
+            "u30:then"
+          ]
+        },
+        {
+          "sentence": "The little puppy is ___ cute that everyone wants to hold it.",
+          "fullSentence": "The little puppy is so cute that everyone wants to hold it.",
+          "translation": "小狗可愛到每個人都想抱牠。",
+          "clue": "程度高造成結果",
+          "answerEntryId": "u30:so",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "It was raining ___ hard that the game was canceled.",
+          "fullSentence": "It was raining so hard that the game was canceled.",
+          "translation": "雨下得太大，比賽因此取消了。",
+          "clue": "修飾副詞 hard 表示程度",
+          "answerEntryId": "u30:so",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:suddenly",
+            "u30:then"
+          ]
+        },
+        {
+          "sentence": "Don't speak ___ fast; the new students can't follow you.",
+          "fullSentence": "Don't speak so fast; the new students can't follow you.",
+          "translation": "別說這麼快，新同學跟不上你。",
+          "clue": "so + 副詞表示這麼",
+          "answerEntryId": "u30:so",
+          "distractorEntryIds": [
+            "u30:therefore",
+            "u30:thus",
+            "u30:finally"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "There were ___ many people at the night market that we lost each other.",
+        "fullSentence": "There were so many people at the night market that we lost each other.",
+        "translation": "夜市人多到我們彼此走散了。",
+        "clue": "so many + 複數名詞",
+        "answerEntryId": "u30:so",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:suddenly",
+          "u30:then"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:sometimes",
+      "zh": "有時候",
+      "pos": "adverb",
+      "example": "Sometimes I walk to school, and sometimes I take the bus.",
+      "exampleZh": "我有時候走路去上學，有時候搭公車。",
+      "spellingHint": "s-o-m-e-t-i-m-e-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ my dad cooks dinner, but most days Mom does the cooking.",
+        "fullSentence": "sometimes my dad cooks dinner, but most days Mom does the cooking.",
+        "translation": "有時候是爸爸做晚餐，但大多數日子是媽媽煮。",
+        "clue": "非每次，偶爾發生",
+        "answerEntryId": "u30:sometimes",
+        "distractorEntryIds": [
+          "u30:often",
+          "u30:seldom",
+          "u30:usually"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I ___ forget my key, but not very often.",
+          "fullSentence": "I sometimes forget my key, but not very often.",
+          "clue": "偶爾發生，不常",
+          "translation": "我有時候會忘記帶鑰匙，但不常發生。",
+          "answerEntryId": "u30:sometimes",
+          "distractorEntryIds": [
+            "u30:seldom",
+            "u30:again",
+            "u30:always"
+          ]
+        },
+        {
+          "sentence": "We ___ play board games on rainy weekends.",
+          "fullSentence": "We sometimes play board games on rainy weekends.",
+          "translation": "下雨的週末我們有時會玩桌遊。",
+          "clue": "雨天週末的偶爾活動",
+          "answerEntryId": "u30:sometimes",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:seldom",
+            "u30:usually"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ it takes me thirty minutes to get home, depending on the traffic.",
+          "fullSentence": "sometimes it takes me thirty minutes to get home, depending on the traffic.",
+          "translation": "有時候我回家要三十分鐘，看交通狀況而定。",
+          "clue": "時間依情況而變",
+          "answerEntryId": "u30:sometimes",
+          "distractorEntryIds": [
+            "u30:seldom",
+            "u30:again",
+            "u30:always"
+          ]
+        },
+        {
+          "sentence": "Ken is ___ late for practice, but most days he arrives early.",
+          "fullSentence": "Ken is sometimes late for practice, but most days he arrives early.",
+          "translation": "肯有時候練習遲到，但大多數日子他很早到。",
+          "clue": "少數日子才發生",
+          "answerEntryId": "u30:sometimes",
+          "distractorEntryIds": [
+            "u30:often",
+            "u30:seldom",
+            "u30:usually"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Even the best players ___ miss easy shots; nobody is perfect.",
+        "fullSentence": "Even the best players sometimes miss easy shots; nobody is perfect.",
+        "translation": "連最厲害的球員有時候也會失手，沒有人是完美的。",
+        "clue": "沒有人完美，偶爾會失手",
+        "answerEntryId": "u30:sometimes",
+        "distractorEntryIds": [
+          "u30:always",
+          "u30:often",
+          "u30:seldom"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:somewhere",
+      "zh": "在某處；到某個地方",
+      "pos": "adverb",
+      "example": "I put my glasses somewhere in this room.",
+      "exampleZh": "我把眼鏡放在這個房間的某個地方。",
+      "spellingHint": "s-o-m-e-w-h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The cat is hiding ___ in the house; I can hear it but can't see it.",
+        "fullSentence": "The cat is hiding somewhere in the house; I can hear it but can't see it.",
+        "translation": "貓躲在家裡的某個地方，我聽得到牠卻看不到。",
+        "clue": "聽得到但看不到，表示在某處",
+        "answerEntryId": "u30:somewhere",
+        "distractorEntryIds": [
+          "u30:everywhere",
+          "u30:together",
+          "u30:abroad"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Let's go ___ quiet this weekend, maybe the mountains.",
+          "fullSentence": "Let's go somewhere quiet this weekend, maybe the mountains.",
+          "translation": "這週末我們去個安靜的地方吧，也許去山上。",
+          "clue": "要去某個安靜的地方",
+          "answerEntryId": "u30:somewhere",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:together",
+            "u30:abroad"
+          ]
+        },
+        {
+          "sentence": "I've seen this actor before, but I can't remember ___ I know him from.",
+          "fullSentence": "I've seen this actor before, but I can't remember somewhere I know him from.",
+          "translation": "我以前看過這位演員，但想不起來是在哪裡看過他。",
+          "clue": "記得看過但忘了地點",
+          "answerEntryId": "u30:somewhere",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "We should eat ___ before the movie, or we'll be hungry inside.",
+          "fullSentence": "We should eat somewhere before the movie, or we'll be hungry inside.",
+          "translation": "我們應該在看電影前找個地方吃東西，不然等一下會餓。",
+          "clue": "找個地方吃飯",
+          "answerEntryId": "u30:somewhere",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:together",
+            "u30:abroad"
+          ]
+        },
+        {
+          "sentence": "The coin rolled under the sofa, so it must be ___ in the living room.",
+          "fullSentence": "The coin rolled under the sofa, so it must be somewhere in the living room.",
+          "translation": "硬幣滾到沙發下面，所以它一定在客廳的某個地方。",
+          "clue": "滾進客廳，一定在某處",
+          "answerEntryId": "u30:somewhere",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken wants to move ___ warmer next winter because he hates the cold.",
+        "fullSentence": "Ken wants to move somewhere warmer next winter because he hates the cold.",
+        "translation": "肯明年冬天想搬到比較溫暖的地方，因為他怕冷。",
+        "clue": "比較級 warmer 修飾某個地方",
+        "answerEntryId": "u30:somewhere",
+        "distractorEntryIds": [
+          "u30:abroad",
+          "u30:ahead",
+          "u30:anywhere"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:still",
+      "zh": "仍然；還",
+      "pos": "adverb",
+      "example": "It's ten o'clock, and Ken is still doing his homework.",
+      "exampleZh": "十點了，肯還在寫功課。",
+      "spellingHint": "s-t-i-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The party ended an hour ago, but the music is ___ playing next door.",
+        "fullSentence": "The party ended an hour ago, but the music is still playing next door.",
+        "translation": "派對一小時前就結束了，但隔壁的音樂還在放。",
+        "clue": "動作持續到現在",
+        "answerEntryId": "u30:still",
+        "distractorEntryIds": [
+          "u30:so",
+          "u30:therefore",
+          "u30:thus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa is seventy, but he ___ swims every morning.",
+          "fullSentence": "Grandpa is seventy, but he still swims every morning.",
+          "translation": "阿公七十歲了，但仍然每天早上游泳。",
+          "clue": "年紀大但仍持續做",
+          "answerEntryId": "u30:still",
+          "distractorEntryIds": [
+            "u30:so",
+            "u30:finally",
+            "u30:suddenly"
+          ]
+        },
+        {
+          "sentence": "Are you ___ hungry after that big meal?",
+          "fullSentence": "Are you still hungry after that big meal?",
+          "translation": "吃了那一頓大餐之後你還餓嗎？",
+          "clue": "狀態持續",
+          "answerEntryId": "u30:still",
+          "distractorEntryIds": [
+            "u30:so",
+            "u30:then",
+            "u30:therefore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken has lived in Kaohsiung for ten years and ___ loves the city.",
+          "fullSentence": "Ken has lived in Kaohsiung for ten years and still loves the city.",
+          "translation": "肯住高雄十年了，仍然很愛這個城市。",
+          "clue": "經過長時間後狀態不變",
+          "answerEntryId": "u30:still",
+          "distractorEntryIds": [
+            "u30:so",
+            "u30:suddenly",
+            "u30:then"
+          ]
+        },
+        {
+          "sentence": "The doctor said the medicine hurts, but it is ___ the best choice for her.",
+          "fullSentence": "The doctor said the medicine hurts, but it is still the best choice for her.",
+          "translation": "醫生說這藥會痛，但它仍是對她最好的選擇。",
+          "clue": "讓步之後的結論不變",
+          "answerEntryId": "u30:still",
+          "distractorEntryIds": [
+            "u30:so",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The rain stopped in the morning, but the streets were ___ wet at noon.",
+        "fullSentence": "The rain stopped in the morning, but the streets were still wet at noon.",
+        "translation": "早上雨停了，但中午時街道還是濕的。",
+        "clue": "雨停後狀態持續未變",
+        "answerEntryId": "u30:still",
+        "distractorEntryIds": [
+          "u30:so",
+          "u30:therefore",
+          "u30:thus"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:suddenly",
+      "zh": "突然地",
+      "pos": "adverb",
+      "example": "Suddenly, all the lights in the house went out.",
+      "exampleZh": "突然間，家裡的燈全熄了。",
+      "spellingHint": "s-u-d-d-e-n-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We were talking quietly when Ken ___ started to laugh loudly.",
+        "fullSentence": "We were talking quietly when Ken suddenly started to laugh loudly.",
+        "translation": "我們正在安靜地聊天，肯突然大聲笑了起來。",
+        "clue": "毫無預警地發生",
+        "answerEntryId": "u30:suddenly",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:so",
+          "u30:still"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "It ___ began to rain heavily, and we ran into the store.",
+          "fullSentence": "It suddenly began to rain heavily, and we ran into the store.",
+          "translation": "突然下起雨來，所以我們跑進店裡。",
+          "clue": "毫無預警開始下雨",
+          "answerEntryId": "u30:suddenly",
+          "distractorEntryIds": [
+            "u30:thus",
+            "u30:finally",
+            "u30:so"
+          ]
+        },
+        {
+          "sentence": "The dog was sleeping, but it ___ jumped up when the door opened.",
+          "fullSentence": "The dog was sleeping, but it suddenly jumped up when the door opened.",
+          "translation": "狗本來在睡覺，但門一開牠突然跳了起來。",
+          "clue": "一瞬間的動作變化",
+          "answerEntryId": "u30:suddenly",
+          "distractorEntryIds": [
+            "u30:still",
+            "u30:then",
+            "u30:therefore"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The bus was moving slowly when it ___ stopped in the middle of the road.",
+          "fullSentence": "The bus was moving slowly when it suddenly stopped in the middle of the road.",
+          "translation": "公車慢慢行駛時，突然在路中間停了下來。",
+          "clue": "預期之外的停止",
+          "answerEntryId": "u30:suddenly",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:so",
+            "u30:still"
+          ]
+        },
+        {
+          "sentence": "I was almost asleep when the phone rang ___ in the dark.",
+          "fullSentence": "I was almost asleep when the phone rang suddenly in the dark.",
+          "translation": "我快睡著時，電話突然在黑暗中響起。",
+          "clue": "打破安靜的突發事件",
+          "answerEntryId": "u30:suddenly",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:therefore",
+            "u30:thus"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The sky was clear all day, but ___ a strong wind knocked down the tents.",
+        "fullSentence": "The sky was clear all day, but suddenly a strong wind knocked down the tents.",
+        "translation": "一整天天空晴朗，但突然一陣強風吹倒了帳篷。",
+        "clue": "晴朗一天後毫無預警的變化",
+        "answerEntryId": "u30:suddenly",
+        "distractorEntryIds": [
+          "u30:finally",
+          "u30:so",
+          "u30:still"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:then",
+      "zh": "然後；接著；那時",
+      "pos": "adverb",
+      "example": "We had dinner first, and then we watched a movie.",
+      "exampleZh": "我們先吃晚餐，然後看了一部電影。",
+      "spellingHint": "t-h-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Brush your teeth, ___ go to bed; don't reverse the order.",
+        "fullSentence": "Brush your teeth, then go to bed; don't reverse the order.",
+        "translation": "先刷牙，然後上床睡覺；順序不要顛倒。",
+        "clue": "先後順序中的第二步",
+        "answerEntryId": "u30:then",
+        "distractorEntryIds": [
+          "u30:suddenly",
+          "u30:therefore",
+          "u30:thus"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "First mix the eggs, ___ add the sugar slowly.",
+          "fullSentence": "First mix the eggs, then add the sugar slowly.",
+          "translation": "先攪拌雞蛋，然後慢慢加入糖。",
+          "clue": "步驟的下一步",
+          "answerEntryId": "u30:then",
+          "distractorEntryIds": [
+            "u30:suddenly",
+            "u30:thus",
+            "u30:even"
+          ]
+        },
+        {
+          "sentence": "I lived in Taipei as a child; ___ my family moved to Tainan.",
+          "fullSentence": "I lived in Taipei as a child; then my family moved to Tainan.",
+          "translation": "我小時候住台北；後來我們家搬到台南。",
+          "clue": "那之後發生的事",
+          "answerEntryId": "u30:then",
+          "distractorEntryIds": [
+            "u30:finally",
+            "u30:so",
+            "u30:still"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "If the red light is on, ___ you must wait; you can't cross yet.",
+          "fullSentence": "If the red light is on, then you must wait; you can't cross yet.",
+          "translation": "如果紅燈亮了，那麼你必須等，還不能過馬路。",
+          "clue": "if...___ 表示「那麼」",
+          "answerEntryId": "u30:then",
+          "distractorEntryIds": [
+            "u30:suddenly",
+            "u30:even",
+            "u30:finally"
+          ]
+        },
+        {
+          "sentence": "The soup needs salt now; ___ it will taste better.",
+          "fullSentence": "The soup needs salt now; then it will taste better.",
+          "translation": "湯現在需要加鹽；這樣味道就會更好。",
+          "clue": "加鹽之後的結果",
+          "answerEntryId": "u30:then",
+          "distractorEntryIds": [
+            "u30:so",
+            "u30:still",
+            "u30:suddenly"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken was poor ___, but he worked hard and now owns two restaurants.",
+        "fullSentence": "Ken was poor then, but he worked hard and now owns two restaurants.",
+        "translation": "肯那時很窮，但他努力工作，現在擁有兩家餐廳。",
+        "clue": "與 now 對比的過去時點",
+        "answerEntryId": "u30:then",
+        "distractorEntryIds": [
+          "u30:suddenly",
+          "u30:therefore",
+          "u30:thus"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:therefore",
+      "zh": "因此；所以",
+      "pos": "adverb",
+      "example": "Ken was the fastest runner; therefore, he won the race.",
+      "exampleZh": "肯是跑得最快的選手；因此他贏了比賽。",
+      "spellingHint": "t-h-e-r-e-f-o-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "It was raining hard; ___, the school trip was postponed.",
+        "fullSentence": "It was raining hard; therefore, the school trip was postponed.",
+        "translation": "雨下得很大；因此校外教學延期了。",
+        "clue": "前句原因，後句結果",
+        "answerEntryId": "u30:therefore",
+        "distractorEntryIds": [
+          "u30:then",
+          "u30:even",
+          "u30:finally"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ken missed the bus; ___, he was late for school.",
+          "fullSentence": "Ken missed the bus; therefore, he was late for school.",
+          "translation": "肯沒趕上公車；所以他上學遲到了。",
+          "clue": "沒搭上車導致遲到",
+          "answerEntryId": "u30:therefore",
+          "distractorEntryIds": [
+            "u30:suddenly",
+            "u30:then",
+            "u30:thus"
+          ]
+        },
+        {
+          "sentence": "The store was closed; ___, we bought bread at another shop.",
+          "fullSentence": "The store was closed; therefore, we bought bread at another shop.",
+          "translation": "那家店沒開；所以我們在另一家店買了麵包。",
+          "clue": "店沒開導致換店購買",
+          "answerEntryId": "u30:therefore",
+          "distractorEntryIds": [
+            "u30:simply",
+            "u30:yet",
+            "u30:aloud"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The medicine is strong; ___, you must follow the doctor's directions exactly.",
+          "fullSentence": "The medicine is strong; therefore, you must follow the doctor's directions exactly.",
+          "translation": "這藥藥效很強；因此你必須完全遵照醫生的指示。",
+          "clue": "由特性推出的結論",
+          "answerEntryId": "u30:therefore",
+          "distractorEntryIds": [
+            "u30:then",
+            "u30:thus",
+            "u30:simply"
+          ]
+        },
+        {
+          "sentence": "Amy studied every night for a month; ___, she got the highest score.",
+          "fullSentence": "Amy studied every night for a month; therefore, she got the highest score.",
+          "translation": "艾米每晚讀書持續一個月；因此她拿到最高分。",
+          "clue": "努力帶來的結果",
+          "answerEntryId": "u30:therefore",
+          "distractorEntryIds": [
+            "u30:whenever",
+            "u30:yes/yeah",
+            "u30:yet"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The old elevator fails safety checks; ___, the building will replace it next month.",
+        "fullSentence": "The old elevator fails safety checks; therefore, the building will replace it next month.",
+        "translation": "老舊電梯未通過安全檢查；因此大樓下個月將更換它。",
+        "clue": "檢查不合格導致的決定",
+        "answerEntryId": "u30:therefore",
+        "distractorEntryIds": [
+          "u30:then",
+          "u30:even",
+          "u30:finally"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:thus",
+      "zh": "因此；如此（較正式）",
+      "pos": "adverb",
+      "example": "The road was flooded; thus, we took the train instead.",
+      "exampleZh": "道路淹水；因此我們改搭火車。",
+      "spellingHint": "t-h-u-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bridge was under repair; ___, all buses changed their routes.",
+        "fullSentence": "The bridge was under repair; thus, all buses changed their routes.",
+        "translation": "橋樑整修中；因此所有公車都改了路線。",
+        "clue": "前因導致後果",
+        "answerEntryId": "u30:thus",
+        "distractorEntryIds": [
+          "u30:therefore",
+          "u30:so",
+          "u30:still"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ken saved money for a year; ___, he could buy the new bike.",
+          "fullSentence": "Ken saved money for a year; thus, he could buy the new bike.",
+          "translation": "肯存了一年的錢；因此他買得起新自行車。",
+          "clue": "存錢帶來的結果",
+          "answerEntryId": "u30:thus",
+          "distractorEntryIds": [
+            "u30:therefore",
+            "u30:also",
+            "u30:anyway"
+          ]
+        },
+        {
+          "sentence": "The team won every game; ___, it became the champion.",
+          "fullSentence": "The team won every game; thus, it became the champion.",
+          "translation": "這支球隊贏了每一場比賽；因此成為冠軍。",
+          "clue": "全勝導致冠軍",
+          "answerEntryId": "u30:thus",
+          "distractorEntryIds": [
+            "u30:especially",
+            "u30:everywhere",
+            "u30:lately"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The water here is not clean; ___, the village built a new filter system.",
+          "fullSentence": "The water here is not clean; thus, the village built a new filter system.",
+          "translation": "這裡的水不乾淨；因此村莊建了新的過濾系統。",
+          "clue": "問題促使解決方案",
+          "answerEntryId": "u30:thus",
+          "distractorEntryIds": [
+            "u30:therefore",
+            "u30:aloud",
+            "u30:also"
+          ]
+        },
+        {
+          "sentence": "The museum is free on Tuesdays; ___, it is always crowded that day.",
+          "fullSentence": "The museum is free on Tuesdays; thus, it is always crowded that day.",
+          "translation": "博物館星期二免費；因此那天總是人潮擁擠。",
+          "clue": "免費造成人多",
+          "answerEntryId": "u30:thus",
+          "distractorEntryIds": [
+            "u30:anyway",
+            "u30:especially",
+            "u30:everywhere"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Amy explained the rule twice, and ___ everyone understood the game.",
+        "fullSentence": "Amy explained the rule twice, and thus everyone understood the game.",
+        "translation": "艾米把規則解釋了兩次，因此大家都懂了玩法。",
+        "clue": "解釋帶來理解",
+        "answerEntryId": "u30:thus",
+        "distractorEntryIds": [
+          "u30:so",
+          "u30:still",
+          "u30:suddenly"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:together",
+      "zh": "一起；共同",
+      "pos": "adverb",
+      "example": "Let's work together to clean the classroom.",
+      "exampleZh": "我們一起打掃教室吧。",
+      "spellingHint": "t-o-g-e-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The twins do everything ___, even wear the same socks.",
+        "fullSentence": "The twins do everything together, even wear the same socks.",
+        "translation": "這對雙胞胎什麼事都一起做，連襪子都穿一樣的。",
+        "clue": "兩人共同做每件事",
+        "answerEntryId": "u30:together",
+        "distractorEntryIds": [
+          "u30:ahead",
+          "u30:anywhere",
+          "u30:away"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The whole family eats dinner ___ every evening.",
+          "fullSentence": "The whole family eats dinner together every evening.",
+          "translation": "全家人每天晚上一起吃晚餐。",
+          "clue": "全家人共同吃飯",
+          "answerEntryId": "u30:together",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:somewhere",
+            "u30:abroad"
+          ]
+        },
+        {
+          "sentence": "Singing ___ makes the song louder and more fun.",
+          "fullSentence": "Singing together makes the song louder and more fun.",
+          "translation": "大家一起唱歌讓歌聲更響亮也更有趣。",
+          "clue": "眾人共同唱",
+          "answerEntryId": "u30:together",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The volunteers worked ___ all morning to plant two hundred trees.",
+          "fullSentence": "The volunteers worked together all morning to plant two hundred trees.",
+          "translation": "志工們整個早上一起合作種了兩百棵樹。",
+          "clue": "合作完成任務",
+          "answerEntryId": "u30:together",
+          "distractorEntryIds": [
+            "u30:everywhere",
+            "u30:somewhere",
+            "u30:abroad"
+          ]
+        },
+        {
+          "sentence": "Glue the two paper circles ___ to make a ball.",
+          "fullSentence": "Glue the two paper circles together to make a ball.",
+          "translation": "把兩個紙圓圈黏在一起做成球。",
+          "clue": "把兩樣東西黏合",
+          "answerEntryId": "u30:together",
+          "distractorEntryIds": [
+            "u30:ahead",
+            "u30:anywhere",
+            "u30:away"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The two puzzle boxes were packed ___ in one big carton to save space.",
+        "fullSentence": "The two puzzle boxes were packed together in one big carton to save space.",
+        "translation": "兩個拼圖盒被一起裝進一個大紙箱以節省空間。",
+        "clue": "兩盒合裝一箱，表示一起",
+        "answerEntryId": "u30:together",
+        "distractorEntryIds": [
+          "u30:away",
+          "u30:everywhere",
+          "u30:somewhere"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:too",
+      "zh": "也；太",
+      "pos": "adverb",
+      "example": "Ken likes baseball, and Amy likes it, too.",
+      "exampleZh": "肯喜歡棒球，艾米也喜歡。",
+      "spellingHint": "t-o-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The soup is ___ hot to drink right now; let it cool first.",
+        "fullSentence": "The soup is too hot to drink right now; let it cool first.",
+        "translation": "湯現在太燙不能喝，先讓它涼一下。",
+        "clue": "too + 形容詞 + to do",
+        "answerEntryId": "u30:too",
+        "distractorEntryIds": [
+          "u30:not",
+          "u30:either",
+          "u30:ever"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I'm hungry, and my little brother is hungry, ___.",
+          "fullSentence": "I'm hungry, and my little brother is hungry, too.",
+          "translation": "我肚子餓，我弟弟也餓。",
+          "clue": "肯定句句尾的「也」",
+          "answerEntryId": "u30:too",
+          "distractorEntryIds": [
+            "u30:not",
+            "u30:no",
+            "u30:nor"
+          ]
+        },
+        {
+          "sentence": "This box is ___ heavy for me to lift alone.",
+          "fullSentence": "This box is too heavy for me to lift alone.",
+          "translation": "這個箱子太重，我一個人抬不動。",
+          "clue": "too...to 結構",
+          "answerEntryId": "u30:too",
+          "distractorEntryIds": [
+            "u30:not",
+            "u30:least",
+            "u30:rather"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Ken arrived ___ late for the train and had to wait an hour.",
+          "fullSentence": "Ken arrived too late for the train and had to wait an hour.",
+          "translation": "肯到得太晚沒趕上火車，只好等一小時。",
+          "clue": "too...for 結構造成結果",
+          "answerEntryId": "u30:too",
+          "distractorEntryIds": [
+            "u30:nor",
+            "u30:not",
+            "u30:lately"
+          ]
+        },
+        {
+          "sentence": "Amy plays the piano, and she sings ___.",
+          "fullSentence": "Amy plays the piano, and she sings too.",
+          "translation": "艾米會彈鋼琴，她也會唱歌。",
+          "clue": "句尾補充「也」",
+          "answerEntryId": "u30:too",
+          "distractorEntryIds": [
+            "u30:least",
+            "u30:quite",
+            "u30:rather"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "It's never ___ late to say sorry to an old friend.",
+        "fullSentence": "It's never too late to say sorry to an old friend.",
+        "translation": "向老朋友道歉永遠不嫌晚。",
+        "clue": "never too...to 慣用句型",
+        "answerEntryId": "u30:too",
+        "distractorEntryIds": [
+          "u30:not",
+          "u30:either",
+          "u30:ever"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:usually",
+      "zh": "通常",
+      "pos": "adverb",
+      "example": "We usually eat breakfast at seven.",
+      "exampleZh": "我們通常七點吃早餐。",
+      "spellingHint": "u-s-u-a-l-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "School starts at eight, but ___ I get there ten minutes early.",
+        "fullSentence": "School starts at eight, but usually I get there ten minutes early.",
+        "translation": "學校八點上課，但我通常提早十分鐘到。",
+        "clue": "多數時候的習慣",
+        "answerEntryId": "u30:usually",
+        "distractorEntryIds": [
+          "u30:sometimes",
+          "u30:yet",
+          "u30:again"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ken ___ takes the bus to school, except on rainy days when his dad drives him.",
+          "fullSentence": "Ken usually takes the bus to school, except on rainy days when his dad drives him.",
+          "translation": "肯通常搭公車上學，下雨天則由爸爸開車送他。",
+          "clue": "多數日子如此",
+          "answerEntryId": "u30:usually",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:yet",
+            "u30:again"
+          ]
+        },
+        {
+          "sentence": "What time do you ___ go to bed on school nights?",
+          "fullSentence": "What time do you usually go to bed on school nights?",
+          "translation": "上學日的晚上你通常幾點睡覺？",
+          "clue": "問平常的習慣",
+          "answerEntryId": "u30:usually",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:often",
+            "u30:seldom"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The bakery ___ sells out of melon bread by noon, so buy it early.",
+          "fullSentence": "The bakery usually sells out of melon bread by noon, so buy it early.",
+          "translation": "這家麵包店的菠蘿麵包通常中午前就賣完，所以要早點買。",
+          "clue": "常態而非偶爾",
+          "answerEntryId": "u30:usually",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:yet",
+            "u30:again"
+          ]
+        },
+        {
+          "sentence": "Grandma ___ waters her flowers in the morning, though today it is raining.",
+          "fullSentence": "Grandma usually waters her flowers in the morning, though today it is raining.",
+          "translation": "阿嬤通常早上澆花，雖然今天在下雨。",
+          "clue": "今日為例外的平常習慣",
+          "answerEntryId": "u30:usually",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:often",
+            "u30:seldom"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I don't ___ drink coffee, but today I need to stay awake for the night shift.",
+        "fullSentence": "I don't usually drink coffee, but today I need to stay awake for the night shift.",
+        "translation": "我平常不喝咖啡，但今天為了夜班需要保持清醒。",
+        "clue": "今日例外，平常的習慣",
+        "answerEntryId": "u30:usually",
+        "distractorEntryIds": [
+          "u30:sometimes",
+          "u30:yet",
+          "u30:again"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:very",
+      "zh": "非常；很",
+      "pos": "adverb",
+      "example": "The elephant is very big.",
+      "exampleZh": "大象非常大。",
+      "spellingHint": "v-e-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken was ___ happy when he won the writing contest.",
+        "fullSentence": "Ken was very happy when he won the writing contest.",
+        "translation": "肯贏得作文比賽時非常開心。",
+        "clue": "加強形容詞的程度",
+        "answerEntryId": "u30:very",
+        "distractorEntryIds": [
+          "u30:hardly",
+          "u30:nearly",
+          "u30:quite"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The math problem was ___ difficult, so only three students solved it.",
+          "fullSentence": "The math problem was very difficult, so only three students solved it.",
+          "translation": "這道數學題非常難，只有三個學生解出來。",
+          "clue": "程度很強",
+          "answerEntryId": "u30:very",
+          "distractorEntryIds": [
+            "u30:rather",
+            "u30:almost",
+            "u30:altogether"
+          ]
+        },
+        {
+          "sentence": "Thank you ___ much for helping me move the desk.",
+          "fullSentence": "Thank you very much for helping me move the desk.",
+          "translation": "非常謝謝你幫我搬桌子。",
+          "clue": "thank you ___ much 慣用語",
+          "answerEntryId": "u30:very",
+          "distractorEntryIds": [
+            "u30:hardly",
+            "u30:nearly",
+            "u30:quite"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The library is ___ quiet during exam week; you can hear a pin drop.",
+          "fullSentence": "The library is very quiet during exam week; you can hear a pin drop.",
+          "translation": "考試週圖書館非常安靜，連一根針掉在地上都聽得到。",
+          "clue": "後句誇張說明程度之強",
+          "answerEntryId": "u30:very",
+          "distractorEntryIds": [
+            "u30:quite",
+            "u30:rather",
+            "u30:almost"
+          ]
+        },
+        {
+          "sentence": "Grandma walks ___ slowly up the stairs because of her knees.",
+          "fullSentence": "Grandma walks very slowly up the stairs because of her knees.",
+          "translation": "阿嬤因為膝蓋不好，上樓梯走得很慢。",
+          "clue": "修飾副詞 slow 的程度",
+          "answerEntryId": "u30:very",
+          "distractorEntryIds": [
+            "u30:altogether",
+            "u30:hardly",
+            "u30:nearly"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The night market smells ___ good, but the food is only okay.",
+        "fullSentence": "The night market smells very good, but the food is only okay.",
+        "translation": "夜市聞起來非常香，但食物還好而已。",
+        "clue": "but 後的對比加強前面程度",
+        "answerEntryId": "u30:very",
+        "distractorEntryIds": [
+          "u30:hardly",
+          "u30:nearly",
+          "u30:quite"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:whenever",
+      "zh": "每當；無論何時",
+      "pos": "adverb",
+      "example": "I feel happy whenever I see my old friends.",
+      "exampleZh": "每當我看到老朋友，我就感到開心。",
+      "spellingHint": "w-h-e-n-e-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ it snows, the children run outside to make snowmen.",
+        "fullSentence": "whenever it snows, the children run outside to make snowmen.",
+        "translation": "每當下雪，孩子們就跑到外面堆雪人。",
+        "clue": "每次下雪都會發生",
+        "answerEntryId": "u30:whenever",
+        "distractorEntryIds": [
+          "u30:least",
+          "u30:rather",
+          "u30:really"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Come and visit us ___ you are free.",
+          "fullSentence": "Come and visit us whenever you are free.",
+          "translation": "你有空的時候隨時來找我們。",
+          "clue": "任何有空的時候都可以",
+          "answerEntryId": "u30:whenever",
+          "distractorEntryIds": [
+            "u30:really",
+            "u30:recently",
+            "u30:simply"
+          ]
+        },
+        {
+          "sentence": "___ Ken hears this song, he thinks of his summer at the beach.",
+          "fullSentence": "whenever Ken hears this song, he thinks of his summer at the beach.",
+          "translation": "每當肯聽到這首歌，他就想起在海邊的夏天。",
+          "clue": "每次聽到都有同樣感受",
+          "answerEntryId": "u30:whenever",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:somewhere",
+            "u30:together"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You can borrow my dictionary ___ you need it; just return it after class.",
+          "fullSentence": "You can borrow my dictionary whenever you need it; just return it after class.",
+          "translation": "你需要時隨時可以借我的字典，下課還我就好。",
+          "clue": "任何需要的時刻",
+          "answerEntryId": "u30:whenever",
+          "distractorEntryIds": [
+            "u30:really",
+            "u30:recently",
+            "u30:simply"
+          ]
+        },
+        {
+          "sentence": "___ the doorbell rings, my dog runs to the window first.",
+          "fullSentence": "whenever the doorbell rings, my dog runs to the window first.",
+          "translation": "每當門鈴響，我的狗總是先跑到窗邊。",
+          "clue": "鈴響就發生的固定反應",
+          "answerEntryId": "u30:whenever",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:somewhere",
+            "u30:together"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ I smell fresh bread, I remember visiting my grandmother's kitchen.",
+        "fullSentence": "whenever I smell fresh bread, I remember visiting my grandmother's kitchen.",
+        "translation": "每當我聞到剛烤好的麵包香，就想起去阿嬤廚房的時光。",
+        "clue": "氣味每次觸發同樣回憶",
+        "answerEntryId": "u30:whenever",
+        "distractorEntryIds": [
+          "u30:lately",
+          "u30:least",
+          "u30:rather"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:yes/yeah",
+      "zh": "是；是的（yes 較正式，yeah 較口語）",
+      "pos": "adverb",
+      "example": "—Are you ready? —Yes, let's go.",
+      "exampleZh": "——你準備好了嗎？——是的，準備好了。",
+      "spellingHint": "y-e-s y-e-a-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "—Did you finish your project? —___ , I handed it in this morning.",
+        "fullSentence": "—Did you finish your project? —yes/yeah , I handed it in this morning.",
+        "translation": "——你完成報告了嗎？——是的，我今天早上交了。",
+        "clue": "肯定回答問題",
+        "answerEntryId": "u30:yes/yeah",
+        "distractorEntryIds": [
+          "u30:recently",
+          "u30:simply",
+          "u30:sometimes"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "—Do you want some more rice? —___ , please. It's delicious.",
+          "fullSentence": "—Do you want some more rice? —yes/yeah , please. It's delicious.",
+          "translation": "——要再來點飯嗎？——好，麻煩你，很好吃。",
+          "clue": "接受提議的肯定回答",
+          "answerEntryId": "u30:yes/yeah",
+          "distractorEntryIds": [
+            "u30:too",
+            "u30:usually",
+            "u30:very"
+          ]
+        },
+        {
+          "sentence": "—Is this seat taken? —No. —___! Then I'll sit here, thanks.",
+          "fullSentence": "—Is this seat taken? —No. —yes/yeah! Then I'll sit here, thanks.",
+          "translation": "——這個位子有人坐嗎？——沒有。——太好了，那我坐這裡。",
+          "clue": "得知有空位後的肯定回應",
+          "answerEntryId": "u30:yes/yeah",
+          "distractorEntryIds": [
+            "u30:whenever",
+            "u30:yet",
+            "u30:abroad"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "—You're coming to the game, right? —___ , of course. I bought my ticket last week.",
+          "fullSentence": "—You're coming to the game, right? —yes/yeah , of course. I bought my ticket last week.",
+          "translation": "——你會來看比賽吧？——當然會，我上星期就買票了。",
+          "clue": "口語的肯定回應",
+          "answerEntryId": "u30:yes/yeah",
+          "distractorEntryIds": [
+            "u30:too",
+            "u30:usually",
+            "u30:very"
+          ]
+        },
+        {
+          "sentence": "—Have the guests arrived? —___ , they're all in the meeting room now.",
+          "fullSentence": "—Have the guests arrived? —yes/yeah , they're all in the meeting room now.",
+          "translation": "——客人到了嗎？——到了，他們現在都在會議室裡。",
+          "clue": "肯定並補充現況",
+          "answerEntryId": "u30:yes/yeah",
+          "distractorEntryIds": [
+            "u30:whenever",
+            "u30:yet",
+            "u30:abroad"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "—You didn't watch the news last night, did you? —___ , I did; I saw the storm report.",
+        "fullSentence": "—You didn't watch the news last night, did you? —yes/yeah , I did; I saw the storm report.",
+        "translation": "——你昨晚沒看新聞吧？——有看，我看了風暴的報導。",
+        "clue": "否定問句的肯定回答，後句補充事實",
+        "answerEntryId": "u30:yes/yeah",
+        "distractorEntryIds": [
+          "u30:really",
+          "u30:recently",
+          "u30:seldom"
+        ]
+      }
+    },
+    {
+      "entryId": "u30:yet",
+      "zh": "還（沒）；尚（用於否定句與疑問句）",
+      "pos": "adverb",
+      "example": "Dinner isn't ready yet.",
+      "exampleZh": "晚餐還沒好。",
+      "spellingHint": "y-e-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The movie starts at eight, but Ken hasn't left home ___.",
+        "fullSentence": "The movie starts at eight, but Ken hasn't left home yet.",
+        "translation": "電影八點開演，但肯還沒出門。",
+        "clue": "否定完成式句尾的「還沒」",
+        "answerEntryId": "u30:yet",
+        "distractorEntryIds": [
+          "u30:always",
+          "u30:often",
+          "u30:seldom"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Is the mail here ___? I'm waiting for a letter from my aunt.",
+          "fullSentence": "Is the mail here yet? I'm waiting for a letter from my aunt.",
+          "translation": "郵件到了嗎？我在等我阿姨的信。",
+          "clue": "疑問句問是否已經發生",
+          "answerEntryId": "u30:yet",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:usually",
+            "u30:again"
+          ]
+        },
+        {
+          "sentence": "Don't wake the baby; he isn't asleep ___.",
+          "fullSentence": "Don't wake the baby; he isn't asleep yet.",
+          "translation": "別吵醒寶寶，他還沒睡著。",
+          "clue": "尚未發生",
+          "answerEntryId": "u30:yet",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:often",
+            "u30:seldom"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The library is open, but the study rooms aren't ready ___ for the new semester.",
+          "fullSentence": "The library is open, but the study rooms aren't ready yet for the new semester.",
+          "translation": "圖書館開放了，但自習室還沒為新學期準備好。",
+          "clue": "尚未完成的狀態",
+          "answerEntryId": "u30:yet",
+          "distractorEntryIds": [
+            "u30:sometimes",
+            "u30:usually",
+            "u30:again"
+          ]
+        },
+        {
+          "sentence": "Ken has lived here for two months but hasn't visited the night market ___.",
+          "fullSentence": "Ken has lived here for two months but hasn't visited the night market yet.",
+          "translation": "肯住在這裡兩個月了，但還沒去過夜市。",
+          "clue": "到目前為止還沒發生",
+          "answerEntryId": "u30:yet",
+          "distractorEntryIds": [
+            "u30:always",
+            "u30:often",
+            "u30:seldom"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The snow hasn't melted ___ even though the sun is shining brightly.",
+        "fullSentence": "The snow hasn't melted yet even though the sun is shining brightly.",
+        "translation": "雖然陽光燦爛，雪還沒有融化。",
+        "clue": "否定完成式 + 還未發生",
+        "answerEntryId": "u30:yet",
+        "distractorEntryIds": [
+          "u30:usually",
+          "u30:always",
+          "u30:often"
+        ]
+      }
+    }
+  ]
+}

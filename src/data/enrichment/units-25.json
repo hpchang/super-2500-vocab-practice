@@ -1,0 +1,1382 @@
+{
+  "schemaVersion": 1,
+  "unit": "25",
+  "entries": [
+    {
+      "entryId": "u25:good-bye",
+      "zh": "再見；道別",
+      "pos": "phrase",
+      "example": "She waved good-bye to her teacher and got on the bus.",
+      "exampleZh": "她向老師揮手道別，然後上了公車。",
+      "spellingHint": "g-o-o-d-b-y-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Before Amy got on the train, she turned and said, '___, Grandpa. I'll call you tonight.'",
+        "fullSentence": "Before Amy got on the train, she turned and said, 'good-bye, Grandpa. I'll call you tonight.'",
+        "translation": "Amy 上火車前轉過身說：「爺爺再見，我今晚會打電話給你。」",
+        "clue": "即將離開時說的道別語",
+        "answerEntryId": "u25:good-bye",
+        "distractorEntryIds": [
+          "u25:hello",
+          "u25:hey",
+          "u25:whether"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The birthday party was over, so we thanked Aunt Lee and said '___' to her at the door.",
+          "fullSentence": "The birthday party was over, so we thanked Aunt Lee and said 'good-bye' to her at the door.",
+          "translation": "生日派對結束了，我們在門口向李阿姨道謝並說再見。",
+          "clue": "活動結束要離開時說的話",
+          "answerEntryId": "u25:good-bye",
+          "distractorEntryIds": [
+            "u25:hi",
+            "u25:hello",
+            "u15:all"
+          ]
+        },
+        {
+          "sentence": "At the airport, we waved and shouted '___' as Uncle Sam walked toward the gate.",
+          "fullSentence": "At the airport, we waved and shouted 'good-bye' as Uncle Sam walked toward the gate.",
+          "translation": "在機場，當山姆叔叔走向登機門時，我們揮手大喊再見。",
+          "clue": "送機時的道別語",
+          "answerEntryId": "u25:good-bye",
+          "distractorEntryIds": [
+            "u25:hey",
+            "u25:hello",
+            "u15:some"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "School ended at four, so Ken said '___' to his classmates and rode his bike home.",
+          "fullSentence": "School ended at four, so Ken said 'good-bye' to his classmates and rode his bike home.",
+          "translation": "四點放學了，Ken 跟同學說再見，然後騎腳踏車回家。",
+          "clue": "放學離開學校時說的話",
+          "answerEntryId": "u25:good-bye",
+          "distractorEntryIds": [
+            "u25:hey",
+            "u25:hi",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "The movie ended late, so Amy said '___' to her friends and took a taxi home.",
+          "fullSentence": "The movie ended late, so Amy said 'good-bye' to her friends and took a taxi home.",
+          "translation": "電影很晚才結束，Amy 和朋友說再見，然後搭計程車回家。",
+          "clue": "分開各自回家前說的話",
+          "answerEntryId": "u25:good-bye",
+          "distractorEntryIds": [
+            "u25:hello",
+            "u25:hey",
+            "u15:both"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Dad is leaving for a business trip this evening, so we are going to the station to say '___' to him.",
+        "fullSentence": "Dad is leaving for a business trip this evening, so we are going to the station to say 'good-bye' to him.",
+        "translation": "爸爸今晚要出差，所以我們要去車站跟他道別。",
+        "clue": "出發遠行前的道別語",
+        "answerEntryId": "u25:good-bye",
+        "distractorEntryIds": [
+          "u25:hello",
+          "u25:hi",
+          "u25:hey"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:hello",
+      "zh": "哈囉；你好（打招呼或接電話用）",
+      "pos": "phrase",
+      "example": "Hello, Mr. Wu. My name is Amy.",
+      "exampleZh": "哈囉，吳老師。我叫 Amy。",
+      "spellingHint": "h-e-l-l-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "'___? This is Mary speaking. Is Ken at home?'",
+        "fullSentence": "'hello? This is Mary speaking. Is Ken at home?'",
+        "translation": "「喂？我是 Mary，Ken 在家嗎？」",
+        "clue": "接起電話時說的第一個字",
+        "answerEntryId": "u25:hello",
+        "distractorEntryIds": [
+          "u25:good-bye",
+          "u25:hey",
+          "u25:whom"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "'___, I am Peter. Nice to meet you.'",
+          "fullSentence": "'hello, I am Peter. Nice to meet you.'",
+          "translation": "「哈囉，我是 Peter。很高興認識你。」",
+          "clue": "第一次見面時的打招呼語",
+          "answerEntryId": "u25:hello",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:hey",
+            "u15:many"
+          ]
+        },
+        {
+          "sentence": "The phone rang twice before Mom picked it up and said, '___?'",
+          "fullSentence": "The phone rang twice before Mom picked it up and said, 'hello?'",
+          "translation": "電話響了兩聲，媽媽才接起來說：「喂？」",
+          "clue": "接電話時的開場語",
+          "answerEntryId": "u25:hello",
+          "distractorEntryIds": [
+            "u25:whose",
+            "u25:hey",
+            "u15:a few"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "When you answer the phone, you usually say '___' first and then tell the caller your name.",
+          "fullSentence": "When you answer the phone, you usually say 'hello' first and then tell the caller your name.",
+          "translation": "接電話時，你通常會先說「喂」，再告訴對方你的名字。",
+          "clue": "接電話的慣用語",
+          "answerEntryId": "u25:hello",
+          "distractorEntryIds": [
+            "u25:hey",
+            "u25:hi",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "Sue saw her teacher at the supermarket, so she smiled and said, '___, Miss Chang.'",
+          "fullSentence": "Sue saw her teacher at the supermarket, so she smiled and said, 'hello, Miss Chang.'",
+          "translation": "Sue 在超市看到老師，於是微笑著說：「哈囉，張老師。」",
+          "clue": "遇到認識的人時的打招呼語",
+          "answerEntryId": "u25:hello",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:hey",
+            "u15:several"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ken picked up the phone, but nobody spoke, so he asked, '___? Is anyone there?'",
+        "fullSentence": "Ken picked up the phone, but nobody spoke, so he asked, 'hello? Is anyone there?'",
+        "translation": "Ken 接起電話但沒人說話，於是他問：「喂？有人在嗎？」",
+        "clue": "電話沒人回應時的問話",
+        "answerEntryId": "u25:hello",
+        "distractorEntryIds": [
+          "u25:good-bye",
+          "u25:hi",
+          "u25:hey"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:hey",
+      "zh": "嘿；喂（打招呼或引起注意）",
+      "pos": "phrase",
+      "example": "Hey, Jack! Wait for me at the school gate.",
+      "exampleZh": "嘿，Jack！在學校門口等我。",
+      "spellingHint": "h-e-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "'___! Watch out! You almost spilled the hot soup!'",
+        "fullSentence": "'hey! Watch out! You almost spilled the hot soup!'",
+        "translation": "「嘿！小心！你差點把熱湯打翻！」",
+        "clue": "提醒別人注意危險時的喊聲",
+        "answerEntryId": "u25:hey",
+        "distractorEntryIds": [
+          "u25:good-bye",
+          "u25:hello",
+          "u25:whether"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "'___, Amy! Your shoelace is untied!'",
+          "fullSentence": "'hey, Amy! Your shoelace is untied!'",
+          "translation": "「嘿，Amy！你的鞋帶鬆了！」",
+          "clue": "叫住別人提醒她的喊聲",
+          "answerEntryId": "u25:hey",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:which",
+            "u15:much"
+          ]
+        },
+        {
+          "sentence": "'___, you two! Stop running in the hallway!'",
+          "fullSentence": "'hey, you two! Stop running in the hallway!'",
+          "translation": "「嘿，你們兩個！不要在走廊上奔跑！」",
+          "clue": "叫人停下來注意的喊聲",
+          "answerEntryId": "u25:hey",
+          "distractorEntryIds": [
+            "u25:hi",
+            "u25:good-bye",
+            "u15:little"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "'___! Don't touch the wet paint on the wall!'",
+          "fullSentence": "'hey! Don't touch the wet paint on the wall!'",
+          "translation": "「嘿！不要碰牆上未乾的油漆！」",
+          "clue": "出聲制止別人的喊聲",
+          "answerEntryId": "u25:hey",
+          "distractorEntryIds": [
+            "u25:hello",
+            "u25:hi",
+            "u15:less"
+          ]
+        },
+        {
+          "sentence": "Sam forgot his notebook, so his classmate called, '___, Sam! You left it in the classroom!'",
+          "fullSentence": "Sam forgot his notebook, so his classmate called, 'hey, Sam! You left it in the classroom!'",
+          "translation": "Sam 忘了帶筆記本，同學在後面叫他：「嘿，Sam！你把它留在教室裡了！」",
+          "clue": "在後面叫住同學的喊聲",
+          "answerEntryId": "u25:hey",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:whom",
+            "u15:little"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "'___! That's my seat. Could you please sit somewhere else?'",
+        "fullSentence": "'hey! That's my seat. Could you please sit somewhere else?'",
+        "translation": "「嘿！那是我的位子。可以請你坐別的地方嗎？」",
+        "clue": "引人注意並表達抗議的喊聲",
+        "answerEntryId": "u25:hey",
+        "distractorEntryIds": [
+          "u25:hello",
+          "u25:while",
+          "u25:whom"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:hi",
+      "zh": "嗨；你好",
+      "pos": "phrase",
+      "example": "Hi, Amy! Do you want to play basketball with us?",
+      "exampleZh": "嗨，Amy！你想和我們一起打籃球嗎？",
+      "spellingHint": "h-i",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Remember to say '___' to your grandmother for me when you call her tonight.",
+        "fullSentence": "Remember to say 'hi' to your grandmother for me when you call her tonight.",
+        "translation": "你今晚打電話給奶奶時，記得替我向她問好。",
+        "clue": "替別人向長輩問候時說的話",
+        "answerEntryId": "u25:hi",
+        "distractorEntryIds": [
+          "u25:good-bye",
+          "u25:hey",
+          "u25:whatever"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "'___, Ken! What a surprise to see you at the mall!'",
+          "fullSentence": "'hi, Ken! What a surprise to see you at the mall!'",
+          "translation": "「嗨，Ken！在商場看到你真意外！」",
+          "clue": "巧遇朋友時的打招呼語",
+          "answerEntryId": "u25:hi",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:hello",
+            "u15:few"
+          ]
+        },
+        {
+          "sentence": "The new student smiled and said, '___, everyone. I'm Lisa. I just moved here.'",
+          "fullSentence": "The new student smiled and said, 'hi, everyone. I'm Lisa. I just moved here.'",
+          "translation": "新同學微笑著說：「嗨，大家好，我是 Lisa，我剛搬來這裡。」",
+          "clue": "自我介紹前的打招呼語",
+          "answerEntryId": "u25:hi",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:while",
+            "u15:more"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Every morning, Ben waves to his neighbor and says '___' with a big smile.",
+          "fullSentence": "Every morning, Ben waves to his neighbor and says 'hi' with a big smile.",
+          "translation": "每天早上，Ben 都會笑著向鄰居揮手說「嗨」。",
+          "clue": "每天見面時的簡短問候",
+          "answerEntryId": "u25:hi",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:whom",
+            "u15:several"
+          ]
+        },
+        {
+          "sentence": "'___, Dad! I'm home. Something smells really good!'",
+          "fullSentence": "'hi, Dad! I'm home. Something smells really good!'",
+          "translation": "「嗨，老爸！我回來了，好像有什麼東西好香！」",
+          "clue": "回家時跟家人打招呼",
+          "answerEntryId": "u25:hi",
+          "distractorEntryIds": [
+            "u25:good-bye",
+            "u25:hello",
+            "u25:while"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Eric saw his friend across the street, so he waved and shouted, '___, Judy! Wait for me!'",
+        "fullSentence": "Eric saw his friend across the street, so he waved and shouted, 'hi, Judy! Wait for me!'",
+        "translation": "Eric 看到朋友在街對面，於是揮手大喊：「嗨，Judy！等我一下！」",
+        "clue": "大聲叫住朋友的打招呼語",
+        "answerEntryId": "u25:hi",
+        "distractorEntryIds": [
+          "u25:good-bye",
+          "u25:whether",
+          "u25:whatever"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:how",
+      "zh": "如何；怎樣（詢問方法、狀況或程度）",
+      "pos": "adverb",
+      "example": "How do you go to school? — I ride a bike.",
+      "exampleZh": "你怎麼去上學？——我騎腳踏車。",
+      "spellingHint": "h-o-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ do you keep fit? — I swim twice a week.",
+        "fullSentence": "how do you keep fit? — I swim twice a week.",
+        "translation": "你如何保持健康？——我每週游泳兩次。",
+        "clue": "詢問保持健康的方法",
+        "answerEntryId": "u25:how",
+        "distractorEntryIds": [
+          "u25:when",
+          "u25:where",
+          "u16:now"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is the weather in Kaohsiung in summer? — It's hot and humid.",
+          "fullSentence": "how is the weather in Kaohsiung in summer? — It's hot and humid.",
+          "translation": "高雄夏天的天氣如何？——又熱又潮濕。",
+          "clue": "詢問天氣的狀況",
+          "answerEntryId": "u25:how",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:why",
+            "u25:where"
+          ]
+        },
+        {
+          "sentence": "___ does your father go to work? — He usually drives our car.",
+          "fullSentence": "how does your father go to work? — He usually drives our car.",
+          "translation": "你爸爸怎麼去上班？——他通常開我們家的車。",
+          "clue": "詢問上班的交通方式",
+          "answerEntryId": "u25:how",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:where",
+            "u16:tomorrow"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ do you spell 'elephant'? — E-L-E-P-H-A-N-T.",
+          "fullSentence": "how do you spell 'elephant'? — E-L-E-P-H-A-N-T.",
+          "translation": "elephant 這個字怎麼拼？——E-L-E-P-H-A-N-T。",
+          "clue": "詢問拼字的方法",
+          "answerEntryId": "u25:how",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:where",
+            "u16:once"
+          ]
+        },
+        {
+          "sentence": "___ was your school trip to Kenting? — It was wonderful. We swam every day.",
+          "fullSentence": "how was your school trip to Kenting? — It was wonderful. We swam every day.",
+          "translation": "你們去墾丁的畢業旅行好玩嗎？——很棒，我們每天游泳。",
+          "clue": "詢問旅行玩得如何",
+          "answerEntryId": "u25:how",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:where",
+            "u16:ago"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ do you say '謝謝' in English? — Thank you.",
+        "fullSentence": "how do you say '謝謝' in English? — Thank you.",
+        "translation": "「謝謝」的英文怎麼說？——Thank you。",
+        "clue": "詢問某個詞的英文說法",
+        "answerEntryId": "u25:how",
+        "distractorEntryIds": [
+          "u25:when",
+          "u25:where",
+          "u16:o'clock"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:what",
+      "zh": "什麼",
+      "pos": "phrase",
+      "example": "What is your favorite subject? — English.",
+      "exampleZh": "你最喜歡的科目是什麼？——英文。",
+      "spellingHint": "w-h-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ is that girl's name? — Her name is Grace.",
+        "fullSentence": "what is that girl's name? — Her name is Grace.",
+        "translation": "那個女生叫什麼名字？——她叫 Grace。",
+        "clue": "詢問名字",
+        "answerEntryId": "u25:what",
+        "distractorEntryIds": [
+          "u25:which",
+          "u25:who",
+          "u15:any"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ do you usually have for breakfast? — Bread, eggs, and milk.",
+          "fullSentence": "what do you usually have for breakfast? — Bread, eggs, and milk.",
+          "translation": "你早餐通常吃什麼？——麵包、蛋和牛奶。",
+          "clue": "詢問吃的東西",
+          "answerEntryId": "u25:what",
+          "distractorEntryIds": [
+            "u25:hi",
+            "u25:while",
+            "u15:many"
+          ]
+        },
+        {
+          "sentence": "___ did you buy at the night market? — Some bubble tea and fried chicken.",
+          "fullSentence": "what did you buy at the night market? — Some bubble tea and fried chicken.",
+          "translation": "你在夜市買了什麼？——一些珍珠奶茶和炸雞。",
+          "clue": "詢問買的東西",
+          "answerEntryId": "u25:what",
+          "distractorEntryIds": [
+            "u25:hello",
+            "u25:hey",
+            "u15:much"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ do you want to be in the future? — A nurse.",
+          "fullSentence": "what do you want to be in the future? — A nurse.",
+          "translation": "你未來想成為什麼？——護理師。",
+          "clue": "詢問未來想從事的職業",
+          "answerEntryId": "u25:what",
+          "distractorEntryIds": [
+            "u25:hello",
+            "u25:hi",
+            "u15:little"
+          ]
+        },
+        {
+          "sentence": "___ a beautiful sunset this is! Let's take a photo.",
+          "fullSentence": "what a beautiful sunset this is! Let's take a photo.",
+          "translation": "這夕陽真美！我們來拍張照吧。",
+          "clue": "讚美事物時的驚嘆句型",
+          "answerEntryId": "u25:what",
+          "distractorEntryIds": [
+            "u25:whose",
+            "u25:good-bye",
+            "u25:hello"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I don't know ___ to do with this old computer. Should we sell it or give it away?",
+        "fullSentence": "I don't know what to do with this old computer. Should we sell it or give it away?",
+        "translation": "我不知道該拿這台舊電腦怎麼辦，要賣掉還是送人？",
+        "clue": "詢問處理的方法（what + to V）",
+        "answerEntryId": "u25:what",
+        "distractorEntryIds": [
+          "u25:which",
+          "u25:whether",
+          "u25:whose"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:whatever",
+      "zh": "無論什麼；任何事物",
+      "pos": "phrase",
+      "example": "You can order whatever you like on the menu.",
+      "exampleZh": "菜單上的東西你想點什麼都可以。",
+      "spellingHint": "w-h-a-t-e-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ you decide, I will always stand by you.",
+        "fullSentence": "whatever you decide, I will always stand by you.",
+        "translation": "無論你做什麼決定，我都會一直支持你。",
+        "clue": "表示「無論…都」的讓步語氣",
+        "answerEntryId": "u25:whatever",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:which",
+          "u25:whether"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Take ___ seat you like; every seat is empty.",
+          "fullSentence": "Take whatever seat you like; every seat is empty.",
+          "translation": "你想坐哪個座位就坐哪個座位，每個位子都是空的。",
+          "clue": "任何一個座位都可以",
+          "answerEntryId": "u25:whatever",
+          "distractorEntryIds": [
+            "u25:hi",
+            "u25:whose",
+            "u25:whether"
+          ]
+        },
+        {
+          "sentence": "___ happens, don't forget to call me tonight.",
+          "fullSentence": "whatever happens, don't forget to call me tonight.",
+          "translation": "無論發生什麼事，今晚別忘了打電話給我。",
+          "clue": "不論發生什麼事",
+          "answerEntryId": "u25:whatever",
+          "distractorEntryIds": [
+            "u25:which",
+            "u25:who",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ you do, do it with your best effort.",
+          "fullSentence": "whatever you do, do it with your best effort.",
+          "translation": "無論你做什麼事，都要盡全力去做。",
+          "clue": "「無論做什麼」的讓步句型",
+          "answerEntryId": "u25:whatever",
+          "distractorEntryIds": [
+            "u25:hey",
+            "u25:hi",
+            "u25:whom"
+          ]
+        },
+        {
+          "sentence": "___ the weather is like tomorrow, the game will go on.",
+          "fullSentence": "whatever the weather is like tomorrow, the game will go on.",
+          "translation": "無論明天天氣如何，比賽都會照常舉行。",
+          "clue": "表示不論天氣如何",
+          "answerEntryId": "u25:whatever",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:while",
+            "u25:whether"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ difficult problem he meets, Ken never asks others for help.",
+        "fullSentence": "whatever difficult problem he meets, Ken never asks others for help.",
+        "translation": "無論遇到多難的問題，Ken 從不開口向別人求助。",
+        "clue": "「無論遇到什麼問題」的讓步語氣",
+        "answerEntryId": "u25:whatever",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:who",
+          "u25:whether"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:when",
+      "zh": "何時；什麼時候",
+      "pos": "adverb",
+      "example": "When is your birthday? — It's on March fifth.",
+      "exampleZh": "你的生日是什麼時候？——三月五日。",
+      "spellingHint": "w-h-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ did the movie start last night? — At seven thirty.",
+        "fullSentence": "when did the movie start last night? — At seven thirty.",
+        "translation": "昨晚電影幾點開演？——七點半。",
+        "clue": "詢問電影開演的時間",
+        "answerEntryId": "u25:when",
+        "distractorEntryIds": [
+          "u25:how",
+          "u25:where",
+          "u16:o'clock"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ do you get up on school days? — At six thirty.",
+          "fullSentence": "when do you get up on school days? — At six thirty.",
+          "translation": "上學日你幾點起床？——六點半。",
+          "clue": "詢問起床的時間",
+          "answerEntryId": "u25:when",
+          "distractorEntryIds": [
+            "u25:where",
+            "u25:why",
+            "u16:today"
+          ]
+        },
+        {
+          "sentence": "___ is the school picnic? — Next Friday.",
+          "fullSentence": "when is the school picnic? — Next Friday.",
+          "translation": "學校遠足是什麼時候？——下星期五。",
+          "clue": "詢問活動舉辦的日期",
+          "answerEntryId": "u25:when",
+          "distractorEntryIds": [
+            "u25:how",
+            "u25:why",
+            "u16:ago"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Grandpa still remembers the day ___ he first came to Taipei.",
+          "fullSentence": "Grandpa still remembers the day when he first came to Taipei.",
+          "translation": "爺爺仍然記得他第一次來台北的那一天。",
+          "clue": "代替前面的 the day，表示時間",
+          "answerEntryId": "u25:when",
+          "distractorEntryIds": [
+            "u25:why",
+            "u25:where",
+            "u16:already"
+          ]
+        },
+        {
+          "sentence": "I'm not sure ___ the train to Taichung leaves. — It says 9:05 on the timetable.",
+          "fullSentence": "I'm not sure when the train to Taichung leaves. — It says 9:05 on the timetable.",
+          "translation": "我不確定往台中的火車幾點開。——時刻表上寫九點零五分。",
+          "clue": "時刻表回答的是時間",
+          "answerEntryId": "u25:when",
+          "distractorEntryIds": [
+            "u25:how",
+            "u25:where",
+            "u16:soon"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ you finish your homework, you can watch TV for half an hour.",
+        "fullSentence": "when you finish your homework, you can watch TV for half an hour.",
+        "translation": "當你寫完功課，就可以看半小時的電視。",
+        "clue": "連接子句，表示「…的時候」",
+        "answerEntryId": "u25:when",
+        "distractorEntryIds": [
+          "u25:why",
+          "u25:how",
+          "u16:now"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:where",
+      "zh": "哪裡；在哪裡",
+      "pos": "adverb",
+      "example": "Where did you put the remote control? — On the table.",
+      "exampleZh": "你把遙控器放在哪裡？——在桌上。",
+      "spellingHint": "w-h-e-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ were you during the fire drill? — In the playground with my class.",
+        "fullSentence": "where were you during the fire drill? — In the playground with my class.",
+        "translation": "防災演練的時候你在哪裡？——和班上同學在操場。",
+        "clue": "回答的是所在位置",
+        "answerEntryId": "u25:where",
+        "distractorEntryIds": [
+          "u25:when",
+          "u25:how",
+          "u12:there"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is my school bag? — It's under your chair.",
+          "fullSentence": "where is my school bag? — It's under your chair.",
+          "translation": "我的書包在哪裡？——在你的椅子下面。",
+          "clue": "回答的是東西的位置",
+          "answerEntryId": "u25:where",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:why",
+            "u16:tonight"
+          ]
+        },
+        {
+          "sentence": "Do you know ___ the nearest MRT station is? — Yes, it's just around the corner.",
+          "fullSentence": "Do you know where the nearest MRT station is? — Yes, it's just around the corner.",
+          "translation": "你知道最近的捷運站在哪裡嗎？——知道，就在轉角附近。",
+          "clue": "回答的是地點",
+          "answerEntryId": "u25:where",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:how",
+            "u16:soon"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "This is the small restaurant ___ I first met my best friend.",
+          "fullSentence": "This is the small restaurant where I first met my best friend.",
+          "translation": "這就是我第一次遇見我最好朋友的那間小餐館。",
+          "clue": "代替前面的 restaurant，表示地點",
+          "answerEntryId": "u25:where",
+          "distractorEntryIds": [
+            "u25:why",
+            "u25:when",
+            "u16:already"
+          ]
+        },
+        {
+          "sentence": "Excuse me, could you tell me ___ I can buy a city map? — At that bookstore over there.",
+          "fullSentence": "Excuse me, could you tell me where I can buy a city map? — At that bookstore over there.",
+          "translation": "不好意思，可以告訴我在哪裡買得到市區地圖嗎？——在那邊的書店。",
+          "clue": "回答的是購買地點",
+          "answerEntryId": "u25:where",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:how",
+            "u16:later"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Tainan is the old city ___ my grandmother grew up.",
+        "fullSentence": "Tainan is the old city where my grandmother grew up.",
+        "translation": "台南是我奶奶長大的古老城市。",
+        "clue": "表示成長的「地方」",
+        "answerEntryId": "u25:where",
+        "distractorEntryIds": [
+          "u25:why",
+          "u25:when",
+          "u16:ago"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:why",
+      "zh": "為什麼",
+      "pos": "adverb",
+      "example": "Why are you late? — Because I missed the bus.",
+      "exampleZh": "你為什麼遲到？——因為我錯過了公車。",
+      "spellingHint": "w-h-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ was the little boy crying? — Because he couldn't find his mom.",
+        "fullSentence": "why was the little boy crying? — Because he couldn't find his mom.",
+        "translation": "小男孩為什麼在哭？——因為他找不到媽媽。",
+        "clue": "Because 回答的是理由",
+        "answerEntryId": "u25:why",
+        "distractorEntryIds": [
+          "u25:when",
+          "u25:where",
+          "u16:now"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ didn't you come to Amy's birthday party? — Because I was sick.",
+          "fullSentence": "why didn't you come to Amy's birthday party? — Because I was sick.",
+          "translation": "你為什麼沒來 Amy 的生日派對？——因為我生病了。",
+          "clue": "詢問沒來的理由",
+          "answerEntryId": "u25:why",
+          "distractorEntryIds": [
+            "u25:how",
+            "u25:where",
+            "u16:today"
+          ]
+        },
+        {
+          "sentence": "___ does Ken hate carrots so much? — Because they taste bitter.",
+          "fullSentence": "why does Ken hate carrots so much? — Because they taste bitter.",
+          "translation": "Ken 為什麼這麼討厭胡蘿蔔？——因為吃起來有苦味。",
+          "clue": "詢問討厭的理由",
+          "answerEntryId": "u25:why",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:where",
+            "u16:once"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The teacher asked me ___ I was late for class again.",
+          "fullSentence": "The teacher asked me why I was late for class again.",
+          "translation": "老師問我為什麼上課又遲到。",
+          "clue": "詢問遲到的理由",
+          "answerEntryId": "u25:why",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:how",
+            "u16:ago"
+          ]
+        },
+        {
+          "sentence": "___ do birds fly south before winter comes? — To find warmer places.",
+          "fullSentence": "why do birds fly south before winter comes? — To find warmer places.",
+          "translation": "鳥類為什麼在冬天來臨前飛往南方？——為了找更溫暖的地方。",
+          "clue": "回答的是目的與理由",
+          "answerEntryId": "u25:why",
+          "distractorEntryIds": [
+            "u25:when",
+            "u25:how",
+            "u16:soon"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ is the sky blue, Mom? — Because sunlight spreads in the air.",
+        "fullSentence": "why is the sky blue, Mom? — Because sunlight spreads in the air.",
+        "translation": "媽媽，天空為什麼是藍色的？——因為陽光在空氣中散射。",
+        "clue": "Because 回答的是原因",
+        "answerEntryId": "u25:why",
+        "distractorEntryIds": [
+          "u25:when",
+          "u25:how",
+          "u16:already"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:whether",
+      "zh": "是否",
+      "pos": "phrase",
+      "example": "I don't know whether Ken will join us or not.",
+      "exampleZh": "我不知道 Ken 到底會不會加入我們。",
+      "spellingHint": "w-h-e-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We are not sure ___ the outdoor game will be held tomorrow or not.",
+        "fullSentence": "We are not sure whether the outdoor game will be held tomorrow or not.",
+        "translation": "我們不確定明天的戶外比賽到底會不會舉行。",
+        "clue": "搭配 or not，表示「會不會」",
+        "answerEntryId": "u25:whether",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:which",
+          "u25:while"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Please tell me ___ you can come to my party or not.",
+          "fullSentence": "Please tell me whether you can come to my party or not.",
+          "translation": "請告訴我你到底能不能來參加我的派對。",
+          "clue": "搭配 or not，表示能不能",
+          "answerEntryId": "u25:whether",
+          "distractorEntryIds": [
+            "u25:whatever",
+            "u25:who",
+            "u15:both"
+          ]
+        },
+        {
+          "sentence": "Mom asked ___ I had finished packing my bag yet.",
+          "fullSentence": "Mom asked whether I had finished packing my bag yet.",
+          "translation": "媽媽問我行李收好了沒有。",
+          "clue": "轉述「是否」收好了",
+          "answerEntryId": "u25:whether",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:which",
+            "u15:some"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I can't decide ___ to take the early bus or the MRT.",
+          "fullSentence": "I can't decide whether to take the early bus or the MRT.",
+          "translation": "我無法決定要搭早班公車還是捷運。",
+          "clue": "whether + to V，在兩個選項間做選擇",
+          "answerEntryId": "u25:whether",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:whatever",
+            "u25:whom"
+          ]
+        },
+        {
+          "sentence": "The weather report will tell us ___ it will rain tomorrow or not.",
+          "fullSentence": "The weather report will tell us whether it will rain tomorrow or not.",
+          "translation": "天氣預報會告訴我們明天到底會不會下雨。",
+          "clue": "搭配 or not，表示會不會",
+          "answerEntryId": "u25:whether",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:which",
+            "u25:while"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I wonder ___ Ken passed the driving test or not; he looks so happy today.",
+        "fullSentence": "I wonder whether Ken passed the driving test or not; he looks so happy today.",
+        "translation": "我想知道 Ken 到底有沒有通過駕照考試；他今天看起來很開心。",
+        "clue": "搭配 or not，表示有沒有通過",
+        "answerEntryId": "u25:whether",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:which",
+          "u25:who"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:which",
+      "zh": "哪一個；哪些",
+      "pos": "phrase",
+      "example": "Which color do you like better, red or blue?",
+      "exampleZh": "紅色和藍色，你比較喜歡哪一個？",
+      "spellingHint": "w-h-i-c-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ of these two shirts do you like, the blue one or the white one?",
+        "fullSentence": "which of these two shirts do you like, the blue one or the white one?",
+        "translation": "這兩件上衣你喜歡哪一件，藍色的還是白色的？",
+        "clue": "在兩件之中做選擇",
+        "answerEntryId": "u25:which",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:whose",
+          "u15:both"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ bus goes to the train station, number 3 or number 12?",
+          "fullSentence": "which bus goes to the train station, number 3 or number 12?",
+          "translation": "哪一路公車會到火車站，3 路還是 12 路？",
+          "clue": "兩班公車中選一班",
+          "answerEntryId": "u25:which",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:whom",
+            "u15:few"
+          ]
+        },
+        {
+          "sentence": "There are three cakes on the table. ___ one do you want?",
+          "fullSentence": "There are three cakes on the table. which one do you want?",
+          "translation": "桌上有三塊蛋糕。你想要哪一塊？",
+          "clue": "從三塊蛋糕中選一個",
+          "answerEntryId": "u25:which",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:while",
+            "u15:any"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I have two dictionaries. ___ one would you like to borrow, the thick one or the thin one?",
+          "fullSentence": "I have two dictionaries. which one would you like to borrow, the thick one or the thin one?",
+          "translation": "我有兩本字典。你想借哪一本，厚的還是薄的？",
+          "clue": "兩本之中選一本",
+          "answerEntryId": "u25:which",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:whom",
+            "u25:whether"
+          ]
+        },
+        {
+          "sentence": "Tell me ___ train you will take, the 8:15 or the 9:00 express, so I can pick you up.",
+          "fullSentence": "Tell me which train you will take, the 8:15 or the 9:00 express, so I can pick you up.",
+          "translation": "告訴我你會搭哪班火車，八點十五分還是九點的快車，我才能去接你。",
+          "clue": "兩班火車中選一班",
+          "answerEntryId": "u25:which",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:while",
+            "u25:who"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I can't decide ___ of the two phones to buy; they both look nice.",
+        "fullSentence": "I can't decide which of the two phones to buy; they both look nice.",
+        "translation": "我無法決定這兩支手機要買哪一支，兩支都很好看。",
+        "clue": "兩支之中選一支",
+        "answerEntryId": "u25:which",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:whether",
+          "u25:whom"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:while",
+      "zh": "當…的時候；然而",
+      "pos": "phrase",
+      "example": "I listened to music while I was cleaning my room.",
+      "exampleZh": "我打掃房間的時候一邊聽音樂。",
+      "spellingHint": "w-h-i-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My brother was watching TV ___ I was studying for the math test.",
+        "fullSentence": "My brother was watching TV while I was studying for the math test.",
+        "translation": "我在準備數學考試的時候，我哥哥在看電視。",
+        "clue": "兩件事同時進行",
+        "answerEntryId": "u25:while",
+        "distractorEntryIds": [
+          "u25:whether",
+          "u25:whatever",
+          "u25:who"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa fell asleep ___ he was reading the newspaper.",
+          "fullSentence": "Grandpa fell asleep while he was reading the newspaper.",
+          "translation": "爺爺看報紙看到睡著了。",
+          "clue": "兩件事同時發生",
+          "answerEntryId": "u25:while",
+          "distractorEntryIds": [
+            "u25:whom",
+            "u25:which",
+            "u15:a little"
+          ]
+        },
+        {
+          "sentence": "___ we were waiting for the bus, it started to rain.",
+          "fullSentence": "while we were waiting for the bus, it started to rain.",
+          "translation": "我們在等公車的時候，開始下雨了。",
+          "clue": "句首表示「當…的時候」",
+          "answerEntryId": "u25:while",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:whatever",
+            "u15:some"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Dad read a book ___ Mom prepared dinner in the kitchen.",
+          "fullSentence": "Dad read a book while Mom prepared dinner in the kitchen.",
+          "translation": "爸爸看書，而媽媽同時在廚房做晚飯。",
+          "clue": "前後兩件事同時進行",
+          "answerEntryId": "u25:while",
+          "distractorEntryIds": [
+            "u25:whether",
+            "u25:which",
+            "u15:any"
+          ]
+        },
+        {
+          "sentence": "Please take notes ___ the teacher explains the new grammar rules.",
+          "fullSentence": "Please take notes while the teacher explains the new grammar rules.",
+          "translation": "老師講解新文法規則時，請做筆記。",
+          "clue": "一邊聽講一邊寫筆記",
+          "answerEntryId": "u25:while",
+          "distractorEntryIds": [
+            "u25:whether",
+            "u25:who",
+            "u25:whatever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My sister likes sweet drinks, ___ I prefer plain tea without sugar.",
+        "fullSentence": "My sister likes sweet drinks, while I prefer plain tea without sugar.",
+        "translation": "我妹妹喜歡甜飲，而我偏好無糖的清茶。",
+        "clue": "前後對照兩人不同的喜好",
+        "answerEntryId": "u25:while",
+        "distractorEntryIds": [
+          "u25:whether",
+          "u25:what",
+          "u25:whom"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:who",
+      "zh": "誰",
+      "pos": "phrase",
+      "example": "Who is that tall boy over there? — He is my cousin.",
+      "exampleZh": "那邊那個高個子男生是誰？——他是我表哥。",
+      "spellingHint": "w-h-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ told you the good news about the school trip? — My class leader did.",
+        "fullSentence": "who told you the good news about the school trip? — My class leader did.",
+        "translation": "是誰告訴你校外教學的好消息？——是班長。",
+        "clue": "詢問報消息的人",
+        "answerEntryId": "u25:who",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:which",
+          "u25:whose"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is knocking on the door so late? — Maybe it's Dad.",
+          "fullSentence": "who is knocking on the door so late? — Maybe it's Dad.",
+          "translation": "這麼晚了是誰在敲門？——也許是爸爸。",
+          "clue": "詢問敲門的人（當主詞）",
+          "answerEntryId": "u25:who",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:whether",
+            "u25:whom"
+          ]
+        },
+        {
+          "sentence": "Do you know ___ won the singing contest yesterday? — Lisa from Class Two.",
+          "fullSentence": "Do you know who won the singing contest yesterday? — Lisa from Class Two.",
+          "translation": "你知道昨天歌唱比賽誰贏了嗎？——二班的 Lisa。",
+          "clue": "詢問獲勝的人",
+          "answerEntryId": "u25:who",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:which",
+            "u25:whether"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ is going to represent our class in the speech contest? — Helen is.",
+          "fullSentence": "who is going to represent our class in the speech contest? — Helen is.",
+          "translation": "誰要代表我們班參加演講比賽？——Helen。",
+          "clue": "詢問代表班上的人（當主詞）",
+          "answerEntryId": "u25:who",
+          "distractorEntryIds": [
+            "u25:which",
+            "u25:whether",
+            "u25:whose"
+          ]
+        },
+        {
+          "sentence": "Nobody knows ___ left the classroom window open last night.",
+          "fullSentence": "Nobody knows who left the classroom window open last night.",
+          "translation": "沒有人知道昨晚是誰沒關教室的窗戶。",
+          "clue": "詢問做那件事的人",
+          "answerEntryId": "u25:who",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:which",
+            "u25:whether"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ broke the vase, you or your little brother? — It was my brother.",
+        "fullSentence": "who broke the vase, you or your little brother? — It was my brother.",
+        "translation": "花瓶是誰打破的，你還是你弟弟？——是我弟弟。",
+        "clue": "詢問打破花瓶的人（當主詞）",
+        "answerEntryId": "u25:who",
+        "distractorEntryIds": [
+          "u25:what",
+          "u25:whose",
+          "u25:whom"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:whom",
+      "zh": "誰（受格）",
+      "pos": "phrase",
+      "example": "To whom did you give the letter? — My English teacher.",
+      "exampleZh": "你把那封信交給了誰？——我的英文老師。",
+      "spellingHint": "w-h-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "To ___ should I give this invitation card? — To our new classmate.",
+        "fullSentence": "To whom should I give this invitation card? — To our new classmate.",
+        "translation": "這張邀請卡我該交給誰？——給我們的新同學。",
+        "clue": "介系詞 To 後面用受格",
+        "answerEntryId": "u25:whom",
+        "distractorEntryIds": [
+          "u25:who",
+          "u25:whose",
+          "u25:what"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "For ___ did you buy this lovely scarf? — For my mom. It's her birthday today.",
+          "fullSentence": "For whom did you buy this lovely scarf? — For my mom. It's her birthday today.",
+          "translation": "這條漂亮的圍巾你是買給誰的？——給我媽媽，今天是她生日。",
+          "clue": "介系詞 For 後面用受格",
+          "answerEntryId": "u25:whom",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:whose",
+            "u25:whether"
+          ]
+        },
+        {
+          "sentence": "With ___ did Amy practice the piano after school? — Her cousin.",
+          "fullSentence": "With whom did Amy practice the piano after school? — Her cousin.",
+          "translation": "放學後 Amy 和誰一起練鋼琴？——她的表姐。",
+          "clue": "With 後面用受格",
+          "answerEntryId": "u25:whom",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:whether",
+            "u25:whatever"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "To ___ did you send the New Year card, Uncle Lee or Aunt Sue?",
+          "fullSentence": "To whom did you send the New Year card, Uncle Lee or Aunt Sue?",
+          "translation": "那張賀年卡你寄給誰，李叔叔還是蘇阿姨？",
+          "clue": "介系詞 To 之後用受格",
+          "answerEntryId": "u25:whom",
+          "distractorEntryIds": [
+            "u25:what",
+            "u25:whose",
+            "u25:while"
+          ]
+        },
+        {
+          "sentence": "___ should we thank for planning such a wonderful party? — Ms. Lin, our homeroom teacher.",
+          "fullSentence": "whom should we thank for planning such a wonderful party? — Ms. Lin, our homeroom teacher.",
+          "translation": "我們該感謝誰策畫了這麼棒的派對？——班導林老師。",
+          "clue": "thank 的對象（受詞）用受格",
+          "answerEntryId": "u25:whom",
+          "distractorEntryIds": [
+            "u25:whose",
+            "u25:which",
+            "u25:who"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "To ___ did this old letter belong? The name on the envelope was almost gone.",
+        "fullSentence": "To whom did this old letter belong? The name on the envelope was almost gone.",
+        "translation": "這封舊信是寫給誰的？信封上的名字幾乎看不見了。",
+        "clue": "belong to 之後用受格",
+        "answerEntryId": "u25:whom",
+        "distractorEntryIds": [
+          "u25:who",
+          "u25:whose",
+          "u25:whether"
+        ]
+      }
+    },
+    {
+      "entryId": "u25:whose",
+      "zh": "誰的",
+      "pos": "phrase",
+      "example": "Whose umbrella is this? — It's Judy's.",
+      "exampleZh": "這是誰的雨傘？——是 Judy 的。",
+      "spellingHint": "w-h-o-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ bicycle is parked in front of our house? — It's my uncle's.",
+        "fullSentence": "whose bicycle is parked in front of our house? — It's my uncle's.",
+        "translation": "誰的腳踏車停在我們家前面？——是我叔叔的。",
+        "clue": "詢問腳踏車的主人",
+        "answerEntryId": "u25:whose",
+        "distractorEntryIds": [
+          "u25:who",
+          "u25:which",
+          "u25:whom"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Do you know ___ glasses these are? They look like Grandpa's.",
+          "fullSentence": "Do you know whose glasses these are? They look like Grandpa's.",
+          "translation": "你知道這是誰的眼鏡嗎？看起來像爺爺的。",
+          "clue": "詢問眼鏡的主人",
+          "answerEntryId": "u25:whose",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:what",
+            "u25:whether"
+          ]
+        },
+        {
+          "sentence": "___ turn is it to clean the blackboard today? — It's my turn.",
+          "fullSentence": "whose turn is it to clean the blackboard today? — It's my turn.",
+          "translation": "今天輪到誰擦黑板？——輪到我了。",
+          "clue": "詢問該輪到誰",
+          "answerEntryId": "u25:whose",
+          "distractorEntryIds": [
+            "u25:whom",
+            "u25:which",
+            "u25:whatever"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ idea was it to have a picnic by the lake? — It was Nina's.",
+          "fullSentence": "whose idea was it to have a picnic by the lake? — It was Nina's.",
+          "translation": "去湖邊野餐這個主意是誰想的？——是 Nina 想的。",
+          "clue": "詢問主意是誰的",
+          "answerEntryId": "u25:whose",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:whom",
+            "u25:whatever"
+          ]
+        },
+        {
+          "sentence": "I found a set of keys near the playground. Do you know ___ they are?",
+          "fullSentence": "I found a set of keys near the playground. Do you know whose they are?",
+          "translation": "我在操場附近撿到一串鑰匙。你知道是誰的嗎？",
+          "clue": "詢問鑰匙的主人",
+          "answerEntryId": "u25:whose",
+          "distractorEntryIds": [
+            "u25:who",
+            "u25:which",
+            "u25:whatever"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ handwriting is the neatest in your class? — I think Amy's is.",
+        "fullSentence": "whose handwriting is the neatest in your class? — I think Amy's is.",
+        "translation": "你們班上誰的字最工整？——我覺得是 Amy 的。",
+        "clue": "詢問字跡的主人",
+        "answerEntryId": "u25:whose",
+        "distractorEntryIds": [
+          "u25:who",
+          "u25:which",
+          "u25:whom"
+        ]
+      }
+    }
+  ]
+}

@@ -15,6 +15,20 @@ const UNIT_METADATA: Record<string, { total: number; important: number }> = {
   '16': { total: 73, important: 62 },
   '17': { total: 30, important: 18 },
   '18': { total: 73, important: 39 },
+  '19': { total: 29, important: 18 },
+  '20': { total: 56, important: 10 },
+  '21': { total: 42, important: 3 },
+  '22': { total: 71, important: 46 },
+  '23': { total: 90, important: 47 },
+  '24': { total: 30, important: 30 },
+  '25': { total: 16, important: 12 },
+  '26': { total: 12, important: 10 },
+  '27': { total: 53, important: 41 },
+  '28': { total: 23, important: 23 },
+  '29': { total: 146, important: 28 },
+  '30': { total: 54, important: 32 },
+  '31': { total: 136, important: 24 },
+  '32': { total: 239, important: 111 },
 };
 
 // Discover enrichment files instead of hardcoding unit numbers (P1-8).

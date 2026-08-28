@@ -1,0 +1,2586 @@
+{
+ "schemaVersion": 1,
+ "unit": "24",
+ "entries": [
+  {
+   "entryId": "u24:a/an",
+   "zh": "一個；一（不定冠詞）",
+   "pos": "phrase",
+   "example": "I have a cat and an umbrella at home.",
+   "exampleZh": "我家裡有一隻貓和一把雨傘。",
+   "spellingHint": "a-a-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My brother is ___ engineer in a big company in Taipei.",
+    "fullSentence": "My brother is a/an engineer in a big company in Taipei.",
+    "translation": "我哥哥是台北一家大公司的工程師。",
+    "clue": "單數職業、第一次提到",
+    "answerEntryId": "u24:a/an",
+    "distractorEntryIds": [
+     "u24:these",
+     "u24:most",
+     "u24:none"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "There is ___ big banyan tree in our school yard.",
+     "fullSentence": "There is a/an big banyan tree in our school yard.",
+     "translation": "我們學校操場上有一棵大榕樹。",
+     "clue": "單數可數名詞、第一次提到",
+     "answerEntryId": "u24:a/an",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:both",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "She wants to be ___ artist when she grows up.",
+     "fullSentence": "She wants to be a/an artist when she grows up.",
+     "translation": "她長大後想成為一名畫家。",
+     "clue": "單數職業",
+     "answerEntryId": "u24:a/an",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:many",
+      "u24:none"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We waited for ___ hour outside the busy train station.",
+     "fullSentence": "We waited for a/an hour outside the busy train station.",
+     "translation": "我們在忙碌的火車站外等了一個小時。",
+     "clue": "一小時、單數時間",
+     "answerEntryId": "u24:a/an",
+     "distractorEntryIds": [
+      "u24:most",
+      "u24:these",
+      "u24:none"
+     ]
+    },
+    {
+     "sentence": "My uncle bought ___ new scooter last weekend.",
+     "fullSentence": "My uncle bought a/an new scooter last weekend.",
+     "translation": "我叔叔上週末買了一輛新的機車。",
+     "clue": "單數、第一次提到",
+     "answerEntryId": "u24:a/an",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:these",
+      "u24:both"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ honest answer is better than a pretty lie.",
+    "fullSentence": "a/an honest answer is better than a pretty lie.",
+    "translation": "誠實的回答比美麗的謊言更好。",
+    "clue": "單數、第一次提到的不定冠詞",
+    "answerEntryId": "u24:a/an",
+    "distractorEntryIds": [
+     "u15:much",
+     "u24:these",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:all",
+   "zh": "全部；所有的（三者以上）",
+   "pos": "phrase",
+   "example": "All the students in my class joined the science club.",
+   "exampleZh": "我班上所有學生都加入了科學社。",
+   "spellingHint": "a-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ three of my cousins came to our family dinner last night.",
+    "fullSentence": "all three of my cousins came to our family dinner last night.",
+    "translation": "我的三個表哥妹昨晚全都來參加家庭聚餐了。",
+    "clue": "三個以上全部",
+    "answerEntryId": "u24:all",
+    "distractorEntryIds": [
+     "u24:both",
+     "u24:each",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ of the milk is gone, so please buy some more.",
+     "fullSentence": "all of the milk is gone, so please buy some more.",
+     "translation": "牛奶全部喝完了，請再買一些。",
+     "clue": "milk 不可數，動詞 is",
+     "answerEntryId": "u24:all",
+     "distractorEntryIds": [
+      "u24:many",
+      "u24:both",
+      "u15:several"
+     ]
+    },
+    {
+     "sentence": "There were fifty questions on the test, and ___ of my answers were right.",
+     "fullSentence": "There were fifty questions on the test, and all of my answers were right.",
+     "translation": "考試有五十題，我的答案全部都對。",
+     "clue": "五十題全對",
+     "answerEntryId": "u24:all",
+     "distractorEntryIds": [
+      "u24:both",
+      "u15:much",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ of the thirty students in my class passed the final exam; nobody failed.",
+     "fullSentence": "all of the thirty students in my class passed the final exam; nobody failed.",
+     "translation": "我所有同學都通過了期末考；沒有人不及格。",
+     "clue": "後面說沒人不及格",
+     "answerEntryId": "u24:all",
+     "distractorEntryIds": [
+      "u24:some",
+      "u24:both",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "___ the water in the pool evaporated during the hot week.",
+     "fullSentence": "all the water in the pool evaporated during the hot week.",
+     "translation": "炎熱的那一週，泳池裡的水全部蒸發了。",
+     "clue": "water 不可數、全數",
+     "answerEntryId": "u24:all",
+     "distractorEntryIds": [
+      "u24:many",
+      "u24:both",
+      "u15:several"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The teacher collected ___ of the exam papers before the bell rang, and not a single one was left on the desks.",
+    "fullSentence": "The teacher collected all of the exam papers before the bell rang, and not a single one was left on the desks.",
+    "translation": "老師在鐘響前收齐了所有的考卷，桌上一張都不剩。",
+    "clue": "一張都不剩",
+    "answerEntryId": "u24:all",
+    "distractorEntryIds": [
+     "u24:some",
+     "u24:both",
+     "u15:any"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:another",
+   "zh": "另一個；再一個",
+   "pos": "phrase",
+   "example": "This cookie is delicious. Can I have another one?",
+   "exampleZh": "這塊餅乾真好吃。我可以再來一塊嗎？",
+   "spellingHint": "a-n-o-t-h-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "This shirt is too small for me. Please show me ___ one in a bigger size.",
+    "fullSentence": "This shirt is too small for me. Please show me another one in a bigger size.",
+    "translation": "這件襯衫我穿太小了。請給我看另一件大一點的。",
+    "clue": "同類的再一件",
+    "answerEntryId": "u24:another",
+    "distractorEntryIds": [
+     "u24:other",
+     "u24:each",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I finished this novel, so my dad bought me ___ one yesterday.",
+     "fullSentence": "I finished this novel, so my dad bought me another one yesterday.",
+     "translation": "我讀完了這本小說，所以爸爸昨天又買了一本給我。",
+     "clue": "再買一本",
+     "answerEntryId": "u24:another",
+     "distractorEntryIds": [
+      "u24:other",
+      "u24:that",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "The song was so beautiful that we asked the singer to sing ___ one.",
+     "fullSentence": "The song was so beautiful that we asked the singer to sing another one.",
+     "translation": "這首歌太好聽了，所以我們請歌手再唱一首。",
+     "clue": "再唱一首",
+     "answerEntryId": "u24:another",
+     "distractorEntryIds": [
+      "u24:other",
+      "u24:these",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "One of my shoes broke, so I have to buy ___ pair tomorrow.",
+     "fullSentence": "One of my shoes broke, so I have to buy another pair tomorrow.",
+     "translation": "我的一隻鞋壞了，所以我明天得再買一雙。",
+     "clue": "壞了一隻 → 再買一雙",
+     "answerEntryId": "u24:another",
+     "distractorEntryIds": [
+      "u24:other",
+      "u24:every",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "Can I ask you ___ question after this one?",
+     "fullSentence": "Can I ask you another question after this one?",
+     "translation": "這題之後我可以再問你一個問題嗎？",
+     "clue": "再問一個",
+     "answerEntryId": "u24:another",
+     "distractorEntryIds": [
+      "u24:other",
+      "u15:much",
+      "u24:none"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The fast finishers got ___ worksheet to try while the others were still writing.",
+    "fullSentence": "The fast finishers got another worksheet to try while the others were still writing.",
+    "translation": "先寫完的人拿到另一張學習單來練習，其他人還在寫。",
+    "clue": "做完後再發一張",
+    "answerEntryId": "u24:another",
+    "distractorEntryIds": [
+     "u24:other",
+     "u24:each",
+     "u24:such"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:any",
+   "zh": "任何；一些（用於否定句與疑問句）",
+   "pos": "phrase",
+   "example": "Do you have any questions about today's lesson?",
+   "exampleZh": "你對今天的課程有任何問題嗎？",
+   "spellingHint": "a-n-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I do not have ___ brothers or sisters, so I often play with my cousins.",
+    "fullSentence": "I do not have any brothers or sisters, so I often play with my cousins.",
+    "translation": "我沒有兄弟姊妹，所以我常和表兄妹一起玩。",
+    "clue": "否定句＋可數複數",
+    "answerEntryId": "u24:any",
+    "distractorEntryIds": [
+     "u24:some",
+     "u15:much",
+     "u24:both"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Are there ___ seats left for the movie tonight?",
+     "fullSentence": "Are there any seats left for the movie tonight?",
+     "translation": "今晚的電影還有座位嗎？",
+     "clue": "疑問句",
+     "answerEntryId": "u24:any",
+     "distractorEntryIds": [
+      "u24:something",
+      "u15:much",
+      "u24:both"
+     ]
+    },
+    {
+     "sentence": "There is not ___ milk left in the refrigerator.",
+     "fullSentence": "There is not any milk left in the refrigerator.",
+     "translation": "冰箱裡一點牛奶都不剩了。",
+     "clue": "milk 不可數＋否定句",
+     "answerEntryId": "u24:any",
+     "distractorEntryIds": [
+      "u24:many",
+      "u24:some",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We do not have ___ classes tomorrow afternoon, so let us play basketball.",
+     "fullSentence": "We do not have any classes tomorrow afternoon, so let us play basketball.",
+     "translation": "我們明天下午沒有任何課，所以我們來打籃球吧。",
+     "clue": "否定句",
+     "answerEntryId": "u24:any",
+     "distractorEntryIds": [
+      "u24:some",
+      "u24:each",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "You can borrow ___ two books you like from my bookshelf.",
+     "fullSentence": "You can borrow any two books you like from my bookshelf.",
+     "translation": "你可以從我的書架上借你喜歡的任何兩本書。",
+     "clue": "隨便哪兩本都可以",
+     "answerEntryId": "u24:any",
+     "distractorEntryIds": [
+      "u24:both",
+      "u24:some",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Hardly ___ of the students knew the answer to the last question on the math test.",
+    "fullSentence": "Hardly any of the students knew the answer to the last question on the math test.",
+    "translation": "數學考卷最後一題，幾乎沒有學生知道答案。",
+    "clue": "hardly 半否定",
+    "answerEntryId": "u24:any",
+    "distractorEntryIds": [
+     "u24:some",
+     "u24:all",
+     "u24:each"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:anybody",
+   "zh": "任何人（疑問句、否定句）",
+   "pos": "phrase",
+   "example": "Did anybody see my glasses on the desk?",
+   "exampleZh": "有人看到我的眼鏡在桌上嗎？",
+   "spellingHint": "a-n-y-b-o-d-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The hallway was completely empty; I did not meet ___ on my way to the office.",
+    "fullSentence": "The hallway was completely empty; I did not meet anybody on my way to the office.",
+    "translation": "體育館空空的；我完全沒有看到任何人。",
+    "clue": "否定句、指人",
+    "answerEntryId": "u24:anybody",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:nobody",
+     "u24:everybody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I don't think there is ___ in this classroom who can lift this heavy piano by himself.",
+     "fullSentence": "I don't think there is anybody in this classroom who can lift this heavy piano by himself.",
+     "translation": "我認為這間教室裡沒有人能獨自搬起這台沉重的鋼琴。",
+     "clue": "否定句、後面接 who 指人",
+     "answerEntryId": "u24:anybody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:everyone",
+      "u24:something"
+     ]
+    },
+    {
+     "sentence": "If ___ calls for me, please tell them I am in the library.",
+     "fullSentence": "If anybody calls for me, please tell them I am in the library.",
+     "translation": "如果有人找我，請告訴他們我在圖書館。",
+     "clue": "條件句、指人",
+     "answerEntryId": "u24:anybody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:everybody",
+      "u24:something"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I did not invite ___ to the surprise party, so our teacher really had no idea.",
+     "fullSentence": "I did not invite anybody to the surprise party, so our teacher really had no idea.",
+     "translation": "我沒有告訴任何人關於我們老師的驚喜派對。",
+     "clue": "tell 的對象是人",
+     "answerEntryId": "u24:anybody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:somebody"
+     ]
+    },
+    {
+     "sentence": "The new museum is hard to find; hardly ___ knows the way there.",
+     "fullSentence": "The new museum is hard to find; hardly anybody knows the way there.",
+     "translation": "有人知道市中心那座新博物館怎麼走嗎？",
+     "clue": "問人、疑問句",
+     "answerEntryId": "u24:anybody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:everyone",
+      "u24:someone"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The math problem was so difficult that hardly ___ in the class could solve it.",
+    "fullSentence": "The math problem was so difficult that hardly anybody in the class could solve it.",
+    "translation": "這道數學題太難了，班上幾乎沒有人會解。",
+    "clue": "hardly 半否定、指人",
+    "answerEntryId": "u24:anybody",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:everybody",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:anyone",
+   "zh": "任何人（疑問句、否定句）",
+   "pos": "phrase",
+   "example": "Has anyone finished the science homework yet?",
+   "exampleZh": "有人已經寫完科學功課了嗎？",
+   "spellingHint": "a-n-y-o-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I do not think ___ will argue with such a fair plan.",
+    "fullSentence": "I do not think anyone will argue with such a fair plan.",
+    "translation": "我不認為會有人反對這麼公平的計畫。",
+    "clue": "否定句、指人",
+    "answerEntryId": "u24:anyone",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:nobody",
+     "u24:someone"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I do not think ___ in our class can speak Japanese, so let us ask Mr. Lin.",
+     "fullSentence": "I do not think anyone in our class can speak Japanese, so let us ask Mr. Lin.",
+     "translation": "這裡有人會說一點日語嗎？",
+     "clue": "疑問句、指人",
+     "answerEntryId": "u24:anyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:someone",
+      "u24:everyone"
+     ]
+    },
+    {
+     "sentence": "Is there ___ in this class who cannot swim at all?",
+     "fullSentence": "Is there anyone in this class who cannot swim at all?",
+     "translation": "如果有人需要鉛筆，我桌上有一些。",
+     "clue": "條件句、指人",
+     "answerEntryId": "u24:anyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:everyone",
+      "u24:something"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The guard did not question ___ near the school gate last night.",
+     "fullSentence": "The guard did not question anyone near the school gate last night.",
+     "translation": "想參加合唱團的人要在星期五前報名。",
+     "clue": "指任何一個人",
+     "answerEntryId": "u24:anyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:someone",
+      "u24:everybody"
+     ]
+    },
+    {
+     "sentence": "I have not met ___ from Canada before, so I have many questions.",
+     "fullSentence": "I have not met anyone from Canada before, so I have many questions.",
+     "translation": "我以前沒見過加拿大來的人，所以我有好多問題。",
+     "clue": "否定句、指人",
+     "answerEntryId": "u24:anyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:someone"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The secret stayed safe because ___ who knew about it promised not to tell.",
+    "fullSentence": "The secret stayed safe because anyone who knew about it promised not to tell.",
+    "translation": "祕密保住了，因為每個知道的人（任何人）都答應不說出去。",
+    "clue": "任何知道的人",
+    "answerEntryId": "u24:anyone",
+    "distractorEntryIds": [
+     "u24:someone",
+     "u24:nobody",
+     "u24:anything"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:anything",
+   "zh": "任何事物（疑問句、否定句）",
+   "pos": "phrase",
+   "example": "Is there anything good on TV tonight?",
+   "exampleZh": "今晚電視有什麼好看的節目嗎？",
+   "spellingHint": "a-n-y-t-h-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My grandmother cannot eat ___ sweet because of her health.",
+    "fullSentence": "My grandmother cannot eat anything sweet because of her health.",
+    "translation": "因為健康因素，我奶奶不能吃任何甜的東西。",
+    "clue": "否定句、指事物",
+    "answerEntryId": "u24:anything",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:nothing",
+     "u24:everything"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I did not buy ___ at the night market last night because it started to rain.",
+     "fullSentence": "I did not buy anything at the night market last night because it started to rain.",
+     "translation": "你昨晚在夜市有買什麼東西嗎？",
+     "clue": "疑問句、指物",
+     "answerEntryId": "u24:anything",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:something",
+      "u24:everything"
+     ]
+    },
+    {
+     "sentence": "There is not ___ in my lunch box because I forgot it at home.",
+     "fullSentence": "There is not anything in my lunch box because I forgot it at home.",
+     "translation": "我的便當盒裡什麼都沒有，因為忘在家裡了。",
+     "clue": "否定句、指物",
+     "answerEntryId": "u24:anything",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:nobody",
+      "u24:something"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You may order ___ you like on the menu; it is my treat today.",
+     "fullSentence": "You may order anything you like on the menu; it is my treat today.",
+     "translation": "菜單上你喜歡的都可以點；今天我請客。",
+     "clue": "任何東西都行",
+     "answerEntryId": "u24:anything",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:something",
+      "u24:everything"
+     ]
+    },
+    {
+     "sentence": "I could not find ___ about that history topic in the school library.",
+     "fullSentence": "I could not find anything about that history topic in the school library.",
+     "translation": "在學校圖書館我找不到任何關於那個歷史主題的資料。",
+     "clue": "否定句、指物",
+     "answerEntryId": "u24:anything",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:nobody",
+      "u24:something"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The detective said that ___ could have happened that night, so he had to check every clue twice.",
+    "fullSentence": "The detective said that anything could have happened that night, so he had to check every clue twice.",
+    "translation": "偵探說那晚什麼事都可能發生，所以每條線索都得查兩遍。",
+    "clue": "任何事都有可能",
+    "answerEntryId": "u24:anything",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:everybody",
+     "u24:nothing"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:both",
+   "zh": "兩者（都）",
+   "pos": "phrase",
+   "example": "Both of my parents are teachers.",
+   "exampleZh": "我的父母都是老師。",
+   "spellingHint": "b-o-t-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I have two best friends, and ___ of them live near my house.",
+    "fullSentence": "I have two best friends, and both of them live near my house.",
+    "translation": "我有兩個最好的朋友，他們兩個都住在我家附近。",
+    "clue": "兩個朋友",
+    "answerEntryId": "u24:both",
+    "distractorEntryIds": [
+     "u24:all",
+     "u24:each",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ answers are correct, so you can choose either one.",
+     "fullSentence": "both answers are correct, so you can choose either one.",
+     "translation": "兩個答案都對，所以你可以任選一個。",
+     "clue": "either one → 兩個",
+     "answerEntryId": "u24:both",
+     "distractorEntryIds": [
+      "u24:all",
+      "u15:much",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "There are two cakes on the table, and ___ of them look delicious.",
+     "fullSentence": "There are two cakes on the table, and both of them look delicious.",
+     "translation": "桌上有兩個蛋糕，兩個看起來都很好吃。",
+     "clue": "兩個蛋糕",
+     "answerEntryId": "u24:both",
+     "distractorEntryIds": [
+      "u24:all",
+      "u15:much",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "My brother and I ___ love playing basketball after school.",
+     "fullSentence": "My brother and I both love playing basketball after school.",
+     "translation": "我和哥哥放學後都愛打籃球。",
+     "clue": "兩個人",
+     "answerEntryId": "u24:both",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:each",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "The twins ___ enjoy reading detective novels before bed.",
+     "fullSentence": "The twins both enjoy reading detective novels before bed.",
+     "translation": "這對雙胞胎睡前都喜歡讀偵探小說。",
+     "clue": "雙胞胎＝兩人",
+     "answerEntryId": "u24:both",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:any",
+      "u24:most"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Of the two routes to the beach, ___ are usually busy on weekends, so we left early in the morning.",
+    "fullSentence": "Of the two routes to the beach, both are usually busy on weekends, so we left early in the morning.",
+    "translation": "去海灘的兩條路，週末通常都很擠，所以我們一大早就出發。",
+    "clue": "兩條路都",
+    "answerEntryId": "u24:both",
+    "distractorEntryIds": [
+     "u24:all",
+     "u24:each",
+     "u15:much"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:each",
+   "zh": "每個（兩個或以上，逐一分開看）",
+   "pos": "phrase",
+   "example": "Each student has a different answer to this riddle.",
+   "exampleZh": "每個學生對這個謎語都有不同的答案。",
+   "spellingHint": "e-a-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ player on the team gets a medal after winning the game.",
+    "fullSentence": "each player on the team gets a medal after winning the game.",
+    "translation": "贏得比賽後，隊上每個球員都得到一面獎牌。",
+    "clue": "逐一發給每一個、單數動詞",
+    "answerEntryId": "u24:each",
+    "distractorEntryIds": [
+     "u24:all",
+     "u24:both",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "There are four seasons, and ___ season has its own beauty.",
+     "fullSentence": "There are four seasons, and each season has its own beauty.",
+     "translation": "有四個季節，每個季節都有各自的美。",
+     "clue": "season 單數、逐一",
+     "answerEntryId": "u24:each",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:many",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "___ morning I drink a glass of warm water before breakfast.",
+     "fullSentence": "each morning I drink a glass of warm water before breakfast.",
+     "translation": "每天早上我早餐前喝一杯溫水。",
+     "clue": "每一天早上",
+     "answerEntryId": "u24:each",
+     "distractorEntryIds": [
+      "u24:many",
+      "u15:much",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The teacher gave ___ of us a different topic for the speech.",
+     "fullSentence": "The teacher gave each of us a different topic for the speech.",
+     "translation": "老師給我們每個人不同的演講題目。",
+     "clue": "題目各不相同 → 逐一",
+     "answerEntryId": "u24:each",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:both",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "___ of the two bridges has a bike lane for riders.",
+     "fullSentence": "each of the two bridges has a bike lane for riders.",
+     "translation": "兩座橋各有一條自行車道。",
+     "clue": "兩座橋逐一、單數動詞 has",
+     "answerEntryId": "u24:each",
+     "distractorEntryIds": [
+      "u24:both",
+      "u24:all",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "There are twelve zodiac animals, and ___ one takes a turn every year in order.",
+    "fullSentence": "There are twelve zodiac animals, and each one takes a turn every year in order.",
+    "translation": "十二生肖輪流，每個動物依序每年值一年。",
+    "clue": "輪流、單數 one",
+    "answerEntryId": "u24:each",
+    "distractorEntryIds": [
+     "u24:all",
+     "u24:both",
+     "u24:another"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:every",
+   "zh": "每一；每個（強調全體，動詞單數）",
+   "pos": "phrase",
+   "example": "Every student must wear a uniform at our school.",
+   "exampleZh": "每個學生都必須穿制服。",
+   "spellingHint": "e-v-e-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ morning, the mail carrier delivers letters on our street.",
+    "fullSentence": "every morning, the mail carrier delivers letters on our street.",
+    "translation": "每天早上，郵差在我們街上送信。",
+    "clue": "每天早上、無例外",
+    "answerEntryId": "u24:every",
+    "distractorEntryIds": [
+     "u24:both",
+     "u24:many",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ student in the class passed the spelling test this time.",
+     "fullSentence": "every student in the class passed the spelling test this time.",
+     "translation": "這次班上每個學生都通過了拼字測驗。",
+     "clue": "全體無例外",
+     "answerEntryId": "u24:every",
+     "distractorEntryIds": [
+      "u24:both",
+      "u15:much",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "The library is open ___ day of the week except Monday.",
+     "fullSentence": "The library is open every day of the week except Monday.",
+     "translation": "圖書館除了週一，每天開放。",
+     "clue": "一週每一天",
+     "answerEntryId": "u24:every",
+     "distractorEntryIds": [
+      "u24:both",
+      "u15:much",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ time I visit Grandma, she bakes my favorite cookies.",
+     "fullSentence": "every time I visit Grandma, she bakes my favorite cookies.",
+     "translation": "每次我去看奶奶，她都會烤我最愛的餅乾。",
+     "clue": "每一次、無例外",
+     "answerEntryId": "u24:every",
+     "distractorEntryIds": [
+      "u24:both",
+      "u24:many",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "The bus to the museum leaves ___ hour, so we will not wait long.",
+     "fullSentence": "The bus to the museum leaves every hour, so we will not wait long.",
+     "translation": "往博物館的公車每小時一班，所以我們不用等太久。",
+     "clue": "每小時一班",
+     "answerEntryId": "u24:every",
+     "distractorEntryIds": [
+      "u24:both",
+      "u24:many",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Almost ___ corner of the old market sells something different, from toys to tea.",
+    "fullSentence": "Almost every corner of the old market sells something different, from toys to tea.",
+    "translation": "老市場幾乎每個角落賣的東西都不一樣，從玩具到茶葉都有。",
+    "clue": "almost every 慣用搭配",
+    "answerEntryId": "u24:every",
+    "distractorEntryIds": [
+     "u24:each",
+     "u24:all",
+     "u24:both"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:everybody",
+   "zh": "每個人；大家",
+   "pos": "phrase",
+   "example": "Everybody in our family enjoys watching baseball games together.",
+   "exampleZh": "我們家每個人都喜歡一起看棒球比賽。",
+   "spellingHint": "e-v-e-r-y-b-o-d-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ was excited when the school announced a free field trip.",
+    "fullSentence": "everybody was excited when the school announced a free field trip.",
+    "translation": "學校宣布免費校外教學時，大家都很興奮。",
+    "clue": "全體、單數動詞 was",
+    "answerEntryId": "u24:everybody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:nobody",
+     "u24:everything"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ loves a warm bowl of noodle soup on a cold day.",
+     "fullSentence": "everybody loves a warm bowl of noodle soup on a cold day.",
+     "translation": "冷天裡大家都愛一碗熱騰騰的湯麵。",
+     "clue": "所有的人",
+     "answerEntryId": "u24:everybody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:somebody",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "Good morning, ___! Please take out your homework now.",
+     "fullSentence": "Good morning, everybody! Please take out your homework now.",
+     "translation": "大家早安！請現在把功課拿出來。",
+     "clue": "稱呼全體",
+     "answerEntryId": "u24:everybody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:nobody",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ in our class brought a dish to the party; even Ken, who hates cooking, made egg tarts.",
+     "fullSentence": "everybody in our class brought a dish to the party; even Ken, who hates cooking, made egg tarts.",
+     "translation": "班上派對時，每個人都帶了一道家裡的菜來分享。",
+     "clue": "全體都帶",
+     "answerEntryId": "u24:everybody",
+     "distractorEntryIds": [
+      "u24:somebody",
+      "u24:anybody",
+      "u24:everything"
+     ]
+    },
+    {
+     "sentence": "___ in the audience stood up and clapped together at the end of the show.",
+     "fullSentence": "everybody in the audience stood up and clapped together at the end of the show.",
+     "translation": "表演結束時，全場觀眾都起立鼓掌。",
+     "clue": "全體觀眾",
+     "answerEntryId": "u24:everybody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:nobody",
+      "u24:someone"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Almost ___ I know uses the MRT, from my little cousin to my grandfather.",
+    "fullSentence": "Almost everybody I know uses the MRT, from my little cousin to my grandfather.",
+    "translation": "我認識的人幾乎都搭捷運，從我小表弟到我爺爺都是。",
+    "clue": "幾乎所有人",
+    "answerEntryId": "u24:everybody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:nobody",
+     "u24:anything"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:everyone",
+   "zh": "每個人；人人",
+   "pos": "phrase",
+   "example": "Everyone in the choir sang the last song together.",
+   "exampleZh": "合唱團的每個人一起唱了最後一首歌。",
+   "spellingHint": "e-v-e-r-y-o-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "When the fireworks started, ___ looked up at the sky at the same time.",
+    "fullSentence": "When the fireworks started, everyone looked up at the sky at the same time.",
+    "translation": "煙火開始時，每個人都同時抬頭看天空。",
+    "clue": "全體、指人",
+    "answerEntryId": "u24:everyone",
+    "distractorEntryIds": [
+     "u24:anyone",
+     "u24:nobody",
+     "u24:everything"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ in our school, from first graders to teachers, knows Coach Chen's whistle.",
+     "fullSentence": "everyone in our school, from first graders to teachers, knows Coach Chen's whistle.",
+     "translation": "每個人都知道熊貓是最受歡迎的動物園明星。",
+     "clue": "所有的人",
+     "answerEntryId": "u24:everyone",
+     "distractorEntryIds": [
+      "u24:anyone",
+      "u24:someone",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "Happy birthday, ___ is waiting for you in the living room!",
+     "fullSentence": "Happy birthday, everyone is waiting for you in the living room!",
+     "translation": "生日快樂，大家都在客廳等你！",
+     "clue": "全體、指人",
+     "answerEntryId": "u24:everyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:anyone",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The new student was friendly, and soon ___ in the class wanted to be her partner, even the shyest boy.",
+     "fullSentence": "The new student was friendly, and soon everyone in the class wanted to be her partner, even the shyest boy.",
+     "translation": "新同學很友善，很快每個人都想跟她一組。",
+     "clue": "全體、指人",
+     "answerEntryId": "u24:everyone",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:someone",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "The coach promised that ___ who finishes the relay race gets a small bottle of juice, even the slowest runner.",
+     "fullSentence": "The coach promised that everyone who finishes the relay race gets a small bottle of juice, even the slowest runner.",
+     "translation": "跑完接力賽的每個人都會得到一小瓶果汁。",
+     "clue": "完賽的每一個人",
+     "answerEntryId": "u24:everyone",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:somebody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The teacher asked a question, and ___ raised a hand, even the quietest student in the back row.",
+    "fullSentence": "The teacher asked a question, and everyone raised a hand, even the quietest student in the back row.",
+    "translation": "老師問了一個問題，每個人都舉手，連最後排最安靜的學生也是。",
+    "clue": "連最安靜的都舉手 → 全體",
+    "answerEntryId": "u24:everyone",
+    "distractorEntryIds": [
+     "u24:anyone",
+     "u24:nobody",
+     "u24:anything"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:everything",
+   "zh": "每件事；一切",
+   "pos": "phrase",
+   "example": "Dad checks everything on his list before the trip.",
+   "exampleZh": "爸爸出發前會檢查清單上的每一件事。",
+   "spellingHint": "e-v-e-r-y-t-h-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ in the night market smells delicious, from fried chicken to bubble tea.",
+    "fullSentence": "everything in the night market smells delicious, from fried chicken to bubble tea.",
+    "translation": "夜市裡每樣東西聞起來都好香，從炸雞到珍珠奶茶。",
+    "clue": "全部事物",
+    "answerEntryId": "u24:everything",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:nothing",
+     "u24:everybody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The movers packed ___ in boxes before we left the old apartment.",
+     "fullSentence": "The movers packed everything in boxes before we left the old apartment.",
+     "translation": "搬家工人把所有東西都裝箱後，我們才離開舊公寓。",
+     "clue": "所有東西、指物",
+     "answerEntryId": "u24:everything",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:something",
+      "u24:anybody"
+     ]
+    },
+    {
+     "sentence": "___ on the menu looks good, so I cannot decide what to order.",
+     "fullSentence": "everything on the menu looks good, so I cannot decide what to order.",
+     "translation": "菜單上的每樣都看起來很好吃，所以我無法決定點什麼。",
+     "clue": "全部、指物",
+     "answerEntryId": "u24:everything",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:anybody",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The new robot vacuum cleaned ___ in the house, and now every corner shines.",
+     "fullSentence": "The new robot vacuum cleaned everything in the house, and now every corner shines.",
+     "translation": "新款掃地機器人可以自己清掃所有地方，連床下都行。",
+     "clue": "全部、指物",
+     "answerEntryId": "u24:everything",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:everybody",
+      "u24:anyone"
+     ]
+    },
+    {
+     "sentence": "Grandma taught me ___ I know about making dumplings.",
+     "fullSentence": "Grandma taught me everything I know about making dumplings.",
+     "translation": "我會包餃子的一切都是奶奶教我的。",
+     "clue": "所知的一切",
+     "answerEntryId": "u24:everything",
+     "distractorEntryIds": [
+      "u24:something",
+      "u24:anything",
+      "u24:anybody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Money cannot buy ___, like true friendship and warm memories.",
+    "fullSentence": "Money cannot buy everything, like true friendship and warm memories.",
+    "translation": "金錢買不到一切，像真摯的友誼和溫暖的回憶。",
+    "clue": "並非一切都能買",
+    "answerEntryId": "u24:everything",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:something",
+     "u24:anybody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:many",
+   "zh": "許多（修飾可數名詞）",
+   "pos": "phrase",
+   "example": "Many tourists visit the night market every weekend.",
+   "exampleZh": "每個週末都有許多觀光客逛夜市。",
+   "spellingHint": "m-a-n-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There are ___ cherry trees along the river, and they bloom in March.",
+    "fullSentence": "There are many cherry trees along the river, and they bloom in March.",
+    "translation": "河邊有許多櫻花樹，三月開花。",
+    "clue": "trees 複數可數、數量多",
+    "answerEntryId": "u24:many",
+    "distractorEntryIds": [
+     "u15:much",
+     "u24:both",
+     "u24:nobody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "How ___ pencils do you have in your pencil box?",
+     "fullSentence": "How many pencils do you have in your pencil box?",
+     "translation": "你的鉛筆盒裡有幾支鉛筆？",
+     "clue": "pencils 可數、問數量",
+     "answerEntryId": "u24:many",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:some",
+      "u15:little"
+     ]
+    },
+    {
+     "sentence": "___ people waited in line for the famous beef noodle soup.",
+     "fullSentence": "many people waited in line for the famous beef noodle soup.",
+     "translation": "許多人排隊等那家有名的牛肉麵。",
+     "clue": "people 可數、隊伍長",
+     "answerEntryId": "u24:many",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:none",
+      "u15:little"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Not ___ students can solve this puzzle in one minute; in fact, only two of us could last year.",
+     "fullSentence": "Not many students can solve this puzzle in one minute; in fact, only two of us could last year.",
+     "translation": "沒有多少學生能在一分鐘內解開這個謎題。",
+     "clue": "數量不多、可數",
+     "answerEntryId": "u24:many",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:all",
+      "u24:each"
+     ]
+    },
+    {
+     "sentence": "___ of the five hundred visitors take photos of the sunrise at Alishan.",
+     "fullSentence": "many of the five hundred visitors take photos of the sunrise at Alishan.",
+     "translation": "許多遊客在阿里山拍日出的照片。",
+     "clue": "可數訪客、數量多",
+     "answerEntryId": "u24:many",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:both",
+      "u24:each"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The museum received ___ new paintings this year, more than two hundred in total.",
+    "fullSentence": "The museum received many new paintings this year, more than two hundred in total.",
+    "translation": "博物館今年收到許多新畫作，總共超過兩百幅。",
+    "clue": "超過兩百幅",
+    "answerEntryId": "u24:many",
+    "distractorEntryIds": [
+     "u15:much",
+     "u15:few",
+     "u15:a little"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:most",
+   "zh": "最多的；大多數的",
+   "pos": "phrase",
+   "example": "Most students in our school take the MRT to class.",
+   "exampleZh": "我們學校大多數學生搭捷運上學。",
+   "spellingHint": "m-o-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ of my thirty classmates walk to school because it is close by.",
+    "fullSentence": "most of my thirty classmates walk to school because it is close by.",
+    "translation": "我大多數同學走路上下學，因為學校很近。",
+    "clue": "超過半數",
+    "answerEntryId": "u24:most",
+    "distractorEntryIds": [
+     "u24:both",
+     "u24:each",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Lisa scored the ___ points in the tournament, so she became the MVP.",
+     "fullSentence": "Lisa scored the most points in the tournament, so she became the MVP.",
+     "translation": "昨天的籃球賽誰得到最多分？",
+     "clue": "比較級之最",
+     "answerEntryId": "u24:most",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:any",
+      "u15:more"
+     ]
+    },
+    {
+     "sentence": "I spend ___ of my free time, more than half, reading comics in my room.",
+     "fullSentence": "I spend most of my free time, more than half, reading comics in my room.",
+     "translation": "我把大部分空閒時間花在房間裡看漫畫。",
+     "clue": "超過一半 → 大部分",
+     "answerEntryId": "u24:most",
+     "distractorEntryIds": [
+      "u15:much",
+      "u24:each",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ people in Taiwan can speak more than one language.",
+     "fullSentence": "most people in Taiwan can speak more than one language.",
+     "translation": "台灣大多數人會說一種以上的語言。",
+     "clue": "超過半數的人",
+     "answerEntryId": "u24:most",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:each",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "I like both cakes, but this chocolate one is ___ delicious of the two.",
+     "fullSentence": "I like both cakes, but this chocolate one is most delicious of the two.",
+     "translation": "兩個蛋糕我都喜歡，但這個巧克力的最好吃。",
+     "clue": "兩者之中最",
+     "answerEntryId": "u24:most",
+     "distractorEntryIds": [
+      "u24:all",
+      "u15:much",
+      "u24:any"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The survey showed that ___ of the students, about ninety percent, bring their own water bottles to school.",
+    "fullSentence": "The survey showed that most of the students, about ninety percent, bring their own water bottles to school.",
+    "translation": "調查顯示大約九成的學生自帶水壺上學。",
+    "clue": "九成 → 大多數",
+    "answerEntryId": "u24:most",
+    "distractorEntryIds": [
+     "u24:all",
+     "u24:some",
+     "u24:each"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:nobody",
+   "zh": "沒有人",
+   "pos": "phrase",
+   "example": "Nobody answered the phone, so Mom left a message.",
+   "exampleZh": "沒有人接電話，所以媽媽留了訊息。",
+   "spellingHint": "n-o-b-o-d-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ was in the classroom during lunch, so I ate my bento alone.",
+    "fullSentence": "nobody was in the classroom during lunch, so I ate my bento alone.",
+    "translation": "午餐時間教室裡沒有人，所以我一個人吃便當。",
+    "clue": "單獨吃 → 沒人",
+    "answerEntryId": "u24:nobody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:nothing",
+     "u24:everybody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ knew where the school picnic would be, so the teacher told us twice.",
+     "fullSentence": "nobody knew where the school picnic would be, so the teacher told us twice.",
+     "translation": "沒有人知道校外教學會在哪裡，所以老師講了兩次。",
+     "clue": "再講一次 → 沒人知道",
+     "answerEntryId": "u24:nobody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anyone",
+      "u24:nothing"
+     ]
+    },
+    {
+     "sentence": "I knocked on the door many times, but ___ opened it.",
+     "fullSentence": "I knocked on the door many times, but nobody opened it.",
+     "translation": "我敲了好多次門，但沒有人開門。",
+     "clue": "指人、沒開門",
+     "answerEntryId": "u24:nobody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:anybody",
+      "u24:nothing"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The test was so hard that ___ in my class got a perfect score.",
+     "fullSentence": "The test was so hard that nobody in my class got a perfect score.",
+     "translation": "考試太難了，我班上沒有人得到滿分。",
+     "clue": "太難 → 沒人滿分",
+     "answerEntryId": "u24:nobody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:everybody",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "___ likes to be laughed at, so please be kind to your classmates.",
+     "fullSentence": "nobody likes to be laughed at, so please be kind to your classmates.",
+     "translation": "沒有人喜歡被嘲笑，所以請對同學友善。",
+     "clue": "指人、全無",
+     "answerEntryId": "u24:nobody",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:anybody",
+      "u24:everyone"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "When the fire drill started, ___ stayed in the library; all the students lined up on the playground.",
+    "fullSentence": "When the fire drill started, nobody stayed in the library; all the students lined up on the playground.",
+    "translation": "消防演練開始時，沒有人留在圖書館；所有學生都在操場排隊。",
+    "clue": "全部到操場 → 沒人留下",
+    "answerEntryId": "u24:nobody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:nothing",
+     "u24:everybody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:none",
+   "zh": "一個也沒有；沒有任何（人／物）",
+   "pos": "phrase",
+   "example": "I checked three stores, but none of them had the game.",
+   "exampleZh": "我查了三家店，但沒有一家有那個遊戲。",
+   "spellingHint": "n-o-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I invited five friends to my party, but ___ of them could come because of the typhoon.",
+    "fullSentence": "I invited five friends to my party, but none of them could come because of the typhoon.",
+    "translation": "我邀了五個朋友來派對，但因為颱風，他們一個也來不了。",
+    "clue": "五個全部沒來",
+    "answerEntryId": "u24:none",
+    "distractorEntryIds": [
+     "u24:nobody",
+     "u24:all",
+     "u24:both"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We looked for the lost cat the whole afternoon, but ___ of us found it.",
+     "fullSentence": "We looked for the lost cat the whole afternoon, but none of us found it.",
+     "translation": "我們找了一下午走失的貓，但沒有人找到。",
+     "clue": "一個也沒找到",
+     "answerEntryId": "u24:none",
+     "distractorEntryIds": [
+      "u24:nobody",
+      "u24:all",
+      "u24:many"
+     ]
+    },
+    {
+     "sentence": "There were ten cookies on the plate, and now ___ are left.",
+     "fullSentence": "There were ten cookies on the plate, and now none are left.",
+     "translation": "盤子裡本來有十塊餅乾，現在一塊都不剩。",
+     "clue": "全部吃完",
+     "answerEntryId": "u24:none",
+     "distractorEntryIds": [
+      "u24:nobody",
+      "u24:all",
+      "u24:some"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ of the four answers on the board is correct, so we must try again.",
+     "fullSentence": "none of the four answers on the board is correct, so we must try again.",
+     "translation": "黑板上的四個答案沒有一個是對的，所以我們得再試一次。",
+     "clue": "四個全不對",
+     "answerEntryId": "u24:none",
+     "distractorEntryIds": [
+      "u24:nobody",
+      "u24:all",
+      "u24:each"
+     ]
+    },
+    {
+     "sentence": "I tried on six shirts, but ___ of them was the right size.",
+     "fullSentence": "I tried on six shirts, but none of them was the right size.",
+     "translation": "我試穿了六件襯衫，但沒有一件尺寸合適。",
+     "clue": "六件全不合",
+     "answerEntryId": "u24:none",
+     "distractorEntryIds": [
+      "u24:nobody",
+      "u24:some",
+      "u24:both"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The quiz had eight questions, and ___ of my answers was wrong, so I got a perfect score.",
+    "fullSentence": "The quiz had eight questions, and none of my answers was wrong, so I got a perfect score.",
+    "translation": "小考有八題，我的答案沒有一題錯，所以我拿了滿分。",
+    "clue": "滿分 → 全對",
+    "answerEntryId": "u24:none",
+    "distractorEntryIds": [
+     "u24:all",
+     "u15:much",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:nothing",
+   "zh": "沒有東西；什麼也沒有",
+   "pos": "phrase",
+   "example": "There is nothing in the box but old newspapers.",
+   "exampleZh": "箱子裡什麼都沒有，只有舊報紙。",
+   "spellingHint": "n-o-t-h-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The refrigerator was almost empty; there was ___ to eat except one egg.",
+    "fullSentence": "The refrigerator was almost empty; there was nothing to eat except one egg.",
+    "translation": "冰箱幾乎是空的；除了一顆蛋，什麼吃的都沒有。",
+    "clue": "幾乎空 → 沒東西",
+    "answerEntryId": "u24:nothing",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:nobody",
+     "u24:everything"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I looked everywhere for my eraser, but I found ___.",
+     "fullSentence": "I looked everywhere for my eraser, but I found nothing.",
+     "translation": "我到處找我的橡皮擦，但什麼也沒找到。",
+     "clue": "到處找 → 沒找到",
+     "answerEntryId": "u24:nothing",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:something"
+     ]
+    },
+    {
+     "sentence": "The dog searched under the bed but smelled ___ there.",
+     "fullSentence": "The dog searched under the bed but smelled nothing there.",
+     "translation": "狗在床下搜了搜，但那裡什麼味道也沒有。",
+     "clue": "指物、沒有",
+     "answerEntryId": "u24:nothing",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anything",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We could hear ___ except the sound of rain on the window.",
+     "fullSentence": "We could hear nothing except the sound of rain on the window.",
+     "translation": "除了雨打窗戶的聲音，我們什麼也聽不見。",
+     "clue": "除了雨聲 → 沒別的",
+     "answerEntryId": "u24:nothing",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:something"
+     ]
+    },
+    {
+     "sentence": "___ is impossible if you keep practicing every single day.",
+     "fullSentence": "nothing is impossible if you keep practicing every single day.",
+     "translation": "只要你每天練習，沒有什麼是不可能的。",
+     "clue": "慣用諺語",
+     "answerEntryId": "u24:nothing",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:nobody",
+      "u24:anybody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the big race, the runners said they wanted ___ more than a long, cold drink of water.",
+    "fullSentence": "After the big race, the runners said they wanted nothing more than a long, cold drink of water.",
+    "translation": "大賽結束後，跑者說他們最想要的莫過於一大杯冰水。",
+    "clue": "nothing more than 慣用",
+    "answerEntryId": "u24:nothing",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:something",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:other",
+   "zh": "其他的；另外的",
+   "pos": "phrase",
+   "example": "Some students like math, and other students like art.",
+   "exampleZh": "有些學生喜歡數學，其他學生喜歡美術。",
+   "spellingHint": "o-t-h-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Some people like sweet food, while ___ people prefer salty snacks.",
+    "fullSentence": "Some people like sweet food, while other people prefer salty snacks.",
+    "translation": "有些人喜歡甜食，而其他人偏愛鹹的點心。",
+    "clue": "對比另外一群人",
+    "answerEntryId": "u24:other",
+    "distractorEntryIds": [
+     "u24:another",
+     "u15:much",
+     "u24:nobody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "One hand is holding the racket, and the ___ hand is holding the ball.",
+     "fullSentence": "One hand is holding the racket, and the other hand is holding the ball.",
+     "translation": "一隻手拿著球拍，另一隻手拿著球。",
+     "clue": "the other + 單數、兩者之一",
+     "answerEntryId": "u24:other",
+     "distractorEntryIds": [
+      "u24:another",
+      "u24:both",
+      "u24:each"
+     ]
+    },
+    {
+     "sentence": "This shoe is here, but where is the ___ one?",
+     "fullSentence": "This shoe is here, but where is the other one?",
+     "translation": "這隻鞋在這裡，但另一隻在哪裡？",
+     "clue": "一雙鞋的另一隻",
+     "answerEntryId": "u24:other",
+     "distractorEntryIds": [
+      "u24:another",
+      "u24:all",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I have two pens; one is blue, and the ___ is black.",
+     "fullSentence": "I have two pens; one is blue, and the other is black.",
+     "translation": "我有兩支筆；一支是藍的，另一支是黑的。",
+     "clue": "兩者中另一支",
+     "answerEntryId": "u24:other",
+     "distractorEntryIds": [
+      "u24:another",
+      "u24:both",
+      "u24:each"
+     ]
+    },
+    {
+     "sentence": "___ countries also celebrate the Moon Festival with special foods.",
+     "fullSentence": "other countries also celebrate the Moon Festival with special foods.",
+     "translation": "其他國家也用特別的食物慶祝中秋節。",
+     "clue": "複數其他的國家",
+     "answerEntryId": "u24:other",
+     "distractorEntryIds": [
+      "u24:another",
+      "u24:each",
+      "u24:every"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Three of my classmates joined the choir, and the ___ students formed a small band instead.",
+    "fullSentence": "Three of my classmates joined the choir, and the other students formed a small band instead.",
+    "translation": "我的三個同學參加了合唱團，其餘的學生則組了一個小樂團。",
+    "clue": "其餘的（特定一群）",
+    "answerEntryId": "u24:other",
+    "distractorEntryIds": [
+     "u24:another",
+     "u24:any",
+     "u24:each"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:part",
+   "zh": "部分；一部分",
+   "pos": "noun",
+   "example": "I read part of the novel before going to bed.",
+   "exampleZh": "我睡前讀了那本小說的一部分。",
+   "spellingHint": "p-a-r-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Only a small ___ of the class joined the hiking trip because of the rain.",
+    "fullSentence": "Only a small part of the class joined the hiking trip because of the rain.",
+    "translation": "因為下雨，班上只有一小部分學生參加健行。",
+    "clue": "整體中的一小部分",
+    "answerEntryId": "u24:part",
+    "distractorEntryIds": [
+     "u18:piece",
+     "u18:pair",
+     "u18:side"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "My grandfather lives in the northern ___ of Taiwan.",
+     "fullSentence": "My grandfather lives in the northern part of Taiwan.",
+     "translation": "我爺爺住在台灣的北部地區。",
+     "clue": "地區的一部分",
+     "answerEntryId": "u24:part",
+     "distractorEntryIds": [
+      "u18:piece",
+      "u18:pair",
+      "u18:amount"
+     ]
+    },
+    {
+     "sentence": "The best ___ of the movie is the ending, when the family reunites.",
+     "fullSentence": "The best part of the movie is the ending, when the family reunites.",
+     "translation": "電影最精采的部分是結尾一家人團聚的時候。",
+     "clue": "電影的段落",
+     "answerEntryId": "u24:part",
+     "distractorEntryIds": [
+      "u18:piece",
+      "u18:pair",
+      "u18:level"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Each team member took ___ in the science project, so everyone got credit.",
+     "fullSentence": "Each team member took part in the science project, so everyone got credit.",
+     "translation": "每位組員都參與了這個科學專題，所以每個人都拿到成績。",
+     "clue": "take part in 慣用片語",
+     "answerEntryId": "u24:part",
+     "distractorEntryIds": [
+      "u18:piece",
+      "u18:side",
+      "u18:point"
+     ]
+    },
+    {
+     "sentence": "A large ___ of our grade practices basketball after school.",
+     "fullSentence": "A large part of our grade practices basketball after school.",
+     "translation": "我們年級有很大一部分學生放學後練籃球。",
+     "clue": "整體的份額",
+     "answerEntryId": "u24:part",
+     "distractorEntryIds": [
+      "u18:piece",
+      "u18:pair",
+      "u18:level"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The handle is the ___ of the door that you pull to open it.",
+    "fullSentence": "The handle is the part of the door that you pull to open it.",
+    "translation": "拼圖缺了角落附近的一小塊，所以圖案一直不完整。",
+    "clue": "整體組成的一塊",
+    "answerEntryId": "u24:part",
+    "distractorEntryIds": [
+     "u18:amount",
+     "u18:pair",
+     "u18:level"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:some",
+   "zh": "一些；若干（用於肯定句）",
+   "pos": "phrase",
+   "example": "I bought some fruit at the market this morning.",
+   "exampleZh": "我今天早上在市場買了一些水果。",
+   "spellingHint": "s-o-m-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There are ___ good restaurants near our new school.",
+    "fullSentence": "There are some good restaurants near our new school.",
+    "translation": "我們新學校附近有幾家不錯的餐廳。",
+    "clue": "肯定句",
+    "answerEntryId": "u24:some",
+    "distractorEntryIds": [
+     "u24:any",
+     "u15:much",
+     "u24:both"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mom put ___ sugar in my milk to make it sweeter.",
+     "fullSentence": "Mom put some sugar in my milk to make it sweeter.",
+     "translation": "媽媽在我的牛奶裡加了一些糖，讓它更甜。",
+     "clue": "肯定句",
+     "answerEntryId": "u24:some",
+     "distractorEntryIds": [
+      "u24:any",
+      "u24:many",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "Would you like ___ tea? I just made a fresh pot.",
+     "fullSentence": "Would you like some tea? I just made a fresh pot.",
+     "translation": "你想喝點茶嗎？我剛泡了一壺。",
+     "clue": "邀請、期望對方答應",
+     "answerEntryId": "u24:some",
+     "distractorEntryIds": [
+      "u24:any",
+      "u24:many",
+      "u24:anything"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ of my classmates are going to the science fair on Friday.",
+     "fullSentence": "some of my classmates are going to the science fair on Friday.",
+     "translation": "我的一些同學星期五要去參觀科學展。",
+     "clue": "部分同學",
+     "answerEntryId": "u24:some",
+     "distractorEntryIds": [
+      "u24:all",
+      "u24:each",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "I need ___ help with my math homework, please.",
+     "fullSentence": "I need some help with my math homework, please.",
+     "translation": "我的數學功課需要一些幫忙，麻煩你。",
+     "clue": "肯定句、不可數 help",
+     "answerEntryId": "u24:some",
+     "distractorEntryIds": [
+      "u24:any",
+      "u24:many",
+      "u15:several"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The rain stopped, so ___ of the picnic guests finally came out from under the tent.",
+    "fullSentence": "The rain stopped, so some of the picnic guests finally came out from under the tent.",
+    "translation": "雨停了，所以野餐的客人中有些人終於從帳篷下出來了。",
+    "clue": "部分客人出來",
+    "answerEntryId": "u24:some",
+    "distractorEntryIds": [
+     "u24:any",
+     "u24:all",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:somebody",
+   "zh": "某人；有人（肯定句）",
+   "pos": "phrase",
+   "example": "Somebody left an umbrella on the school bus this morning.",
+   "exampleZh": "今天早上有人把一把傘忘在校車上了。",
+   "spellingHint": "s-o-m-e-b-o-d-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ knocked on our door twice this morning, but I was in the shower both times.",
+    "fullSentence": "somebody knocked on our door twice this morning, but I was in the shower both times.",
+    "translation": "有人敲了兩次門，但我打開時，沒有人在。",
+    "clue": "肯定句、指人",
+    "answerEntryId": "u24:somebody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:something",
+     "u24:everybody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ in my class won first prize in the speech contest.",
+     "fullSentence": "somebody in my class won first prize in the speech contest.",
+     "translation": "我們班有某人贏得演講比賽第一名。",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:somebody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anyone",
+      "u24:something"
+     ]
+    },
+    {
+     "sentence": "I think ___ took my pen by mistake because it is not on my desk.",
+     "fullSentence": "I think somebody took my pen by mistake because it is not on my desk.",
+     "translation": "我想有人不小心拿走我的筆，因為它不在我桌上。",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:somebody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anything",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ has to feed the class rabbit during the winter vacation.",
+     "fullSentence": "somebody has to feed the class rabbit during the winter vacation.",
+     "translation": "寒假期間得有人餵班上的兔子。",
+     "clue": "某個人、指人",
+     "answerEntryId": "u24:somebody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anything",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "When I got home, I noticed that ___ had washed the dishes for me.",
+     "fullSentence": "When I got home, I noticed that somebody had washed the dishes for me.",
+     "translation": "回到家時，我發現有人幫我洗了碗。",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:somebody",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anything",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ must have seen the accident at the corner, because the police are asking people questions there.",
+    "fullSentence": "somebody must have seen the accident at the corner, because the police are asking people questions there.",
+    "translation": "一定有人看到了轉角那場事故，因為警察正在那裡問話。",
+    "clue": "肯定推測、指人",
+    "answerEntryId": "u24:somebody",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:anything",
+     "u24:something"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:someone",
+   "zh": "某人；有人（肯定句）",
+   "pos": "phrase",
+   "example": "Someone is singing a lovely song in the music room.",
+   "exampleZh": "有人在音樂教室裡唱著好聽的歌。",
+   "spellingHint": "s-o-m-e-o-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ from the basketball club invited me to practice this Saturday.",
+    "fullSentence": "someone from the basketball club invited me to practice this Saturday.",
+    "translation": "籃球社的某個人邀我這週六去練球。",
+    "clue": "肯定句、指人",
+    "answerEntryId": "u24:someone",
+    "distractorEntryIds": [
+     "u24:nobody",
+     "u24:anybody",
+     "u24:something"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ special will visit our school next month: a famous writer!",
+     "fullSentence": "someone special will visit our school next month: a famous writer!",
+     "translation": "下個月會有特別的人物來訪：一位名作家！",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:someone",
+     "distractorEntryIds": [
+      "u24:anyone",
+      "u24:anything",
+      "u24:something"
+     ]
+    },
+    {
+     "sentence": "I heard ___ laughing behind the bookshelf, but I could not see who.",
+     "fullSentence": "I heard someone laughing behind the bookshelf, but I could not see who.",
+     "translation": "我聽到有人在書架後面笑，但看不到是誰。",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:someone",
+     "distractorEntryIds": [
+      "u24:anyone",
+      "u24:anybody",
+      "u24:nothing"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "My mother is ___ I can always talk to when I feel sad.",
+     "fullSentence": "My mother is someone I can always talk to when I feel sad.",
+     "translation": "如果你想成為好廚師，應該跟有經驗的人學。",
+     "clue": "某個有經驗的人",
+     "answerEntryId": "u24:someone",
+     "distractorEntryIds": [
+      "u24:anyone",
+      "u24:anybody",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "___ finally fixed the broken printer in the teachers' office.",
+     "fullSentence": "someone finally fixed the broken printer in the teachers' office.",
+     "translation": "終於有人修好了老師辦公室那台壞掉的印表機。",
+     "clue": "肯定句、指人",
+     "answerEntryId": "u24:someone",
+     "distractorEntryIds": [
+      "u24:anyone",
+      "u24:nobody",
+      "u24:something"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ left a bunch of flowers on my desk with a card that said 'Good luck!'",
+    "fullSentence": "someone left a bunch of flowers on my desk with a card that said 'Good luck!'",
+    "translation": "每天練琴的人，進步會比從不練習的學生快得多。",
+    "clue": "肯定句、指人",
+    "answerEntryId": "u24:someone",
+    "distractorEntryIds": [
+     "u24:anybody",
+     "u24:anything",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:something",
+   "zh": "某事；某物（肯定句）",
+   "pos": "phrase",
+   "example": "There is something sweet in this cake; maybe honey.",
+   "exampleZh": "這蛋糕裡有甜甜的東西；也許是蜂蜜。",
+   "spellingHint": "s-o-m-e-t-h-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I want to eat ___ cold on this hot afternoon, like ice cream.",
+    "fullSentence": "I want to eat something cold on this hot afternoon, like ice cream.",
+    "translation": "這麼熱的下午我想吃點涼的，像是冰淇淋。",
+    "clue": "肯定句、指物",
+    "answerEntryId": "u24:something",
+    "distractorEntryIds": [
+     "u24:anything",
+     "u24:nothing",
+     "u24:anybody"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mom said she will make ___ delicious for dinner tonight.",
+     "fullSentence": "Mom said she will make something delicious for dinner tonight.",
+     "translation": "媽媽說今晚會做點好吃的當晚餐。",
+     "clue": "肯定句、指物",
+     "answerEntryId": "u24:something",
+     "distractorEntryIds": [
+      "u24:anybody",
+      "u24:anything",
+      "u24:someone"
+     ]
+    },
+    {
+     "sentence": "I felt ___ moving in my backpack, and it was a little frog!",
+     "fullSentence": "I felt something moving in my backpack, and it was a little frog!",
+     "translation": "我感覺書包裡有東西在動，結果是一隻小青蛙！",
+     "clue": "肯定句、指物",
+     "answerEntryId": "u24:something",
+     "distractorEntryIds": [
+      "u24:someone",
+      "u24:anything",
+      "u24:anybody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Would you like ___ to drink after the long basketball practice?",
+     "fullSentence": "Would you like something to drink after the long basketball practice?",
+     "translation": "長時間的籃球練習後，想喝點什麼嗎？",
+     "clue": "邀請、期望對方答應",
+     "answerEntryId": "u24:something",
+     "distractorEntryIds": [
+      "u24:anything",
+      "u24:anybody",
+      "u24:everything"
+     ]
+    },
+    {
+     "sentence": "The teacher showed us ___ interesting about volcanoes in science class.",
+     "fullSentence": "The teacher showed us something interesting about volcanoes in science class.",
+     "translation": "自然課上老師給我們看了一些關於火山的有趣內容。",
+     "clue": "肯定句、指物",
+     "answerEntryId": "u24:something",
+     "distractorEntryIds": [
+      "u24:someone",
+      "u24:anything",
+      "u24:anybody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The dog kept barking because ___ was hiding under the porch, and finally a kitten ran out.",
+    "fullSentence": "The dog kept barking because something was hiding under the porch, and finally a kitten ran out.",
+    "translation": "狗一直叫，因為門廊下藏著什麼東西，最後一隻小貓跑了出來。",
+    "clue": "指物不是人",
+    "answerEntryId": "u24:something",
+    "distractorEntryIds": [
+     "u24:someone",
+     "u24:anybody",
+     "u24:nobody"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:such",
+   "zh": "這樣的；如此的",
+   "pos": "phrase",
+   "example": "I have never seen such a tall building in my town.",
+   "exampleZh": "我在我們鎮上從沒見過這麼高的建築。",
+   "spellingHint": "s-u-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "It was ___ a hot day that we drank three bottles of water each.",
+    "fullSentence": "It was such a hot day that we drank three bottles of water each.",
+    "translation": "那天熱到我們每個人喝了三瓶水。",
+    "clue": "such a + 形容詞 + 名詞",
+    "answerEntryId": "u24:such",
+    "distractorEntryIds": [
+     "u15:much",
+     "u24:many",
+     "u24:most"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She is ___ a kind girl that everyone likes her.",
+     "fullSentence": "She is such a kind girl that everyone likes her.",
+     "translation": "她是這麼善良的女孩，大家都喜歡她。",
+     "clue": "such a + 名詞",
+     "answerEntryId": "u24:such",
+     "distractorEntryIds": [
+      "u15:much",
+      "u15:a few",
+      "u24:most"
+     ]
+    },
+    {
+     "sentence": "I have never heard ___ a funny joke in my life.",
+     "fullSentence": "I have never heard such a funny joke in my life.",
+     "translation": "我這輩子從沒聽過這麼好笑的笑話。",
+     "clue": "such a + 名詞",
+     "answerEntryId": "u24:such",
+     "distractorEntryIds": [
+      "u15:much",
+      "u15:more",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The typhoon brought ___ strong wind that quite a few trees fell down.",
+     "fullSentence": "The typhoon brought such strong wind that quite a few trees fell down.",
+     "translation": "颱風帶來如此強的風，許多樹都倒了。",
+     "clue": "such + 形容詞 + 名詞",
+     "answerEntryId": "u24:such",
+     "distractorEntryIds": [
+      "u15:many",
+      "u15:much",
+      "u15:more"
+     ]
+    },
+    {
+     "sentence": "They are ___ good friends that they share everything with each other.",
+     "fullSentence": "They are such good friends that they share everything with each other.",
+     "translation": "他們是這麼好的朋友，什麼都互相分享。",
+     "clue": "such + 形容詞 + 名詞",
+     "answerEntryId": "u24:such",
+     "distractorEntryIds": [
+      "u15:many",
+      "u15:much",
+      "u15:more"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Don't make ___ a big noise at night; the neighbors upstairs need to sleep.",
+    "fullSentence": "Don't make such a big noise at night; the neighbors upstairs need to sleep.",
+    "translation": "晚上不要弄這麼大的聲音；樓上鄰居要睡覺。",
+    "clue": "such a + 名詞組",
+    "answerEntryId": "u24:such",
+    "distractorEntryIds": [
+     "u15:many",
+     "u15:much",
+     "u15:more"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:that",
+   "zh": "那；那個",
+   "pos": "phrase",
+   "example": "That building over there is our new library.",
+   "exampleZh": "在那邊的那棟建築是我們的新圖書館。",
+   "spellingHint": "t-h-a-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is the tallest mountain in Taiwan.",
+    "fullSentence": "that is the tallest mountain in Taiwan.",
+    "translation": "那是台灣最高的山。",
+    "clue": "指遠處那座山",
+    "answerEntryId": "u24:that",
+    "distractorEntryIds": [
+     "u24:these",
+     "u24:those",
+     "u24:many"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Who is ___ man standing near the school gate?",
+     "fullSentence": "Who is that man standing near the school gate?",
+     "translation": "站在校門口附近的那個男人是誰？",
+     "clue": "遠處那一位、單數",
+     "answerEntryId": "u24:that",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "___ car parked outside belongs to my uncle.",
+     "fullSentence": "that car parked outside belongs to my uncle.",
+     "translation": "停在外面那輛車是我叔叔的。",
+     "clue": "外面那輛、單數",
+     "answerEntryId": "u24:that",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:this",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Is ___ your backpack on the bench over there?",
+     "fullSentence": "Is that your backpack on the bench over there?",
+     "translation": "在那邊長椅上的背包是你的嗎？",
+     "clue": "over there 遠處、單數",
+     "answerEntryId": "u24:that",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:these",
+      "u24:such"
+     ]
+    },
+    {
+     "sentence": "I cannot believe ___ happened at the party last night!",
+     "fullSentence": "I cannot believe that happened at the party last night!",
+     "translation": "我不敢相信昨晚派對上發生了那件事！",
+     "clue": "提到過的那件事",
+     "answerEntryId": "u24:that",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u24:everybody"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Do you remember ___ summer we spent at Grandma's farm ten years ago?",
+    "fullSentence": "Do you remember that summer we spent at Grandma's farm ten years ago?",
+    "translation": "你記得十年前我們在奶奶農場度過的那個夏天嗎？",
+    "clue": "回憶過去的那個夏天",
+    "answerEntryId": "u24:that",
+    "distractorEntryIds": [
+     "u24:this",
+     "u24:these",
+     "u24:each"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:the",
+   "zh": "定冠詞，指特定的人或物",
+   "pos": "phrase",
+   "example": "My mother is cooking dinner in the kitchen.",
+   "exampleZh": "我媽媽正在廚房裡做晚餐。",
+   "spellingHint": "t-h-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please turn off ___ light before you leave this room.",
+    "fullSentence": "Please turn off the light before you leave this room.",
+    "translation": "離開房間前請把燈關掉。",
+    "clue": "雙方都知道的那盞燈",
+    "answerEntryId": "u24:the",
+    "distractorEntryIds": [
+     "u15:much",
+     "u24:nobody",
+     "u24:something"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Can you pass me ___ salt? It is next to your bowl.",
+     "fullSentence": "Can you pass me the salt? It is next to your bowl.",
+     "translation": "可以把鹽遞給我嗎？它就在你的碗旁邊。",
+     "clue": "雙方都知道的那罐鹽",
+     "answerEntryId": "u24:the",
+     "distractorEntryIds": [
+      "u24:something",
+      "u24:many",
+      "u24:everybody"
+     ]
+    },
+    {
+     "sentence": "Look at ___ moon! It is so round and bright tonight.",
+     "fullSentence": "Look at the moon! It is so round and bright tonight.",
+     "translation": "看那個月亮！今晚又圓又亮。",
+     "clue": "獨一無二的月亮",
+     "answerEntryId": "u24:the",
+     "distractorEntryIds": [
+      "u24:something",
+      "u15:much",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ sun gives us light and heat every day.",
+     "fullSentence": "the sun gives us light and heat every day.",
+     "translation": "太陽每天給我們光和熱。",
+     "clue": "獨一無二的太陽",
+     "answerEntryId": "u24:the",
+     "distractorEntryIds": [
+      "u24:each",
+      "u24:both",
+      "u24:many"
+     ]
+    },
+    {
+     "sentence": "Have you seen ___ key anywhere? I cannot open my locker.",
+     "fullSentence": "Have you seen the key anywhere? I cannot open my locker.",
+     "translation": "你在哪裡有看到那把鑰匙嗎？我打不開置物櫃。",
+     "clue": "說話雙方都知道的那把鑰匙",
+     "answerEntryId": "u24:the",
+     "distractorEntryIds": [
+      "u24:both",
+      "u24:many",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "I bought a new bicycle yesterday, and ___ bicycle is already dirty because I rode it in yesterday's rain.",
+    "fullSentence": "I bought a new bicycle yesterday, and the bicycle is already dirty because I rode it in yesterday's rain.",
+    "translation": "我昨天買了一輛新腳踏車，那輛腳踏車已經髒了，因為我在雨中騎過它。",
+    "clue": "指前面剛提到的那一輛",
+    "answerEntryId": "u24:the",
+    "distractorEntryIds": [
+     "u24:each",
+     "u24:every",
+     "u24:another"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:these",
+   "zh": "這些",
+   "pos": "phrase",
+   "example": "These apples are fresh from the market.",
+   "exampleZh": "這些蘋果是市場上剛買新鮮的。",
+   "spellingHint": "t-h-e-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ are my favorite photos from the school trip.",
+    "fullSentence": "these are my favorite photos from the school trip.",
+    "translation": "這些是我校外教學最喜歡的照片。",
+    "clue": "後面動詞是 are，複數",
+    "answerEntryId": "u24:these",
+    "distractorEntryIds": [
+     "u24:this",
+     "u24:that",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ shoes are too small for me now, so Mom will buy me new ones.",
+     "fullSentence": "these shoes are too small for me now, so Mom will buy me new ones.",
+     "translation": "這雙鞋我現在穿太小了，所以媽媽會買新的給我。",
+     "clue": "shoes 複數",
+     "answerEntryId": "u24:these",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "I like ___ cookies very much. Did your mom bake them?",
+     "fullSentence": "I like these cookies very much. Did your mom bake them?",
+     "translation": "我非常喜歡這些餅乾。是你媽媽烤的嗎？",
+     "clue": "cookies 複數，後面用 them",
+     "answerEntryId": "u24:these",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ students over here finished their homework early.",
+     "fullSentence": "these students over here finished their homework early.",
+     "translation": "這裡這些學生很早就寫完功課了。",
+     "clue": "附近這些、複數",
+     "answerEntryId": "u24:these",
+     "distractorEntryIds": [
+      "u24:those",
+      "u24:this",
+      "u15:much"
+     ]
+    },
+    {
+     "sentence": "Please put ___ dirty clothes into the washing machine.",
+     "fullSentence": "Please put these dirty clothes into the washing machine.",
+     "translation": "請把這些髒衣服放進洗衣機。",
+     "clue": "clothes 複數",
+     "answerEntryId": "u24:these",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ flowers in my hands are for your mother, and the ones in the vase are mine.",
+    "fullSentence": "these flowers in my hands are for your mother, and the ones in the vase are mine.",
+    "translation": "我手上這些花是要送給你媽媽的，花瓶裡那些是我的。",
+    "clue": "手上這些花，對照花瓶裡那些",
+    "answerEntryId": "u24:these",
+    "distractorEntryIds": [
+     "u24:this",
+     "u24:every",
+     "u24:most"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:this",
+   "zh": "這；這個",
+   "pos": "phrase",
+   "example": "This is my favorite song on the new album.",
+   "exampleZh": "這是專輯裡我最喜歡的歌。",
+   "spellingHint": "t-h-i-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ is my English teacher, Mrs. Lin.",
+    "fullSentence": "this is my English teacher, Mrs. Lin.",
+    "translation": "這是我的英文老師，林老師。",
+    "clue": "介紹眼前這一位",
+    "answerEntryId": "u24:this",
+    "distractorEntryIds": [
+     "u24:these",
+     "u24:those",
+     "u24:many"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ book in my hand is a birthday gift from my sister.",
+     "fullSentence": "this book in my hand is a birthday gift from my sister.",
+     "translation": "我手上這本書是我姐姐送的生日禮物。",
+     "clue": "手上這一本",
+     "answerEntryId": "u24:this",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u24:nobody"
+     ]
+    },
+    {
+     "sentence": "___ chair near the window is broken, so please do not sit on it.",
+     "fullSentence": "this chair near the window is broken, so please do not sit on it.",
+     "translation": "窗戶附近的這張椅子壞了，所以請不要坐。",
+     "clue": "近處這一張",
+     "answerEntryId": "u24:this",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u24:nobody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ is the fastest way to the train station from here.",
+     "fullSentence": "this is the fastest way to the train station from here.",
+     "translation": "從這裡到火車站，這是最快的一條路。",
+     "clue": "眼前這一條路線",
+     "answerEntryId": "u24:this",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u24:many"
+     ]
+    },
+    {
+     "sentence": "May I borrow ___ pen for a minute? I left mine at home.",
+     "fullSentence": "May I borrow this pen for a minute? I left mine at home.",
+     "translation": "我可以借這支筆一下嗎？我把筆留在家里了。",
+     "clue": "你手上這一支",
+     "answerEntryId": "u24:this",
+     "distractorEntryIds": [
+      "u24:these",
+      "u24:those",
+      "u24:such"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ apple in my hand looks delicious, but the one on the table looks too green.",
+    "fullSentence": "this apple in my hand looks delicious, but the one on the table looks too green.",
+    "translation": "我手上這顆蘋果看起來很好吃，但桌上的那顆太青了。",
+    "clue": "近處的這一顆，對照桌上那顆",
+    "answerEntryId": "u24:this",
+    "distractorEntryIds": [
+     "u24:these",
+     "u24:that",
+     "u24:most"
+    ]
+   }
+  },
+  {
+   "entryId": "u24:those",
+   "zh": "那些",
+   "pos": "phrase",
+   "example": "Those birds fly south every winter.",
+   "exampleZh": "那些鳥每年冬天飛往南方。",
+   "spellingHint": "t-h-o-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ clouds in the sky look like cotton candy.",
+    "fullSentence": "those clouds in the sky look like cotton candy.",
+    "translation": "天上那些雲看起來像棉花糖。",
+    "clue": "clouds 複數",
+    "answerEntryId": "u24:those",
+    "distractorEntryIds": [
+     "u24:this",
+     "u24:that",
+     "u15:much"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ cookies on the top shelf are for Grandpa's birthday.",
+     "fullSentence": "those cookies on the top shelf are for Grandpa's birthday.",
+     "translation": "最上層那些餅乾是要給爺爺過生日的。",
+     "clue": "cookies 複數",
+     "answerEntryId": "u24:those",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u24:anything"
+     ]
+    },
+    {
+     "sentence": "Are ___ your books over there on the grass?",
+     "fullSentence": "Are those your books over there on the grass?",
+     "translation": "草地上那邊那些書是你的嗎？",
+     "clue": "over there 遠處、複數",
+     "answerEntryId": "u24:those",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u24:everybody"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I do not like ___ loud neighbors upstairs; they play drums at midnight.",
+     "fullSentence": "I do not like those loud neighbors upstairs; they play drums at midnight.",
+     "translation": "我不喜歡樓上那些吵鬧的鄰居；他們半夜打鼓。",
+     "clue": "neighbors 複數",
+     "answerEntryId": "u24:those",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u24:none"
+     ]
+    },
+    {
+     "sentence": "___ pictures we took in Hualien turned out really beautiful.",
+     "fullSentence": "those pictures we took in Hualien turned out really beautiful.",
+     "translation": "我們在花蓮拍的那些照片拍得真的很美。",
+     "clue": "pictures 複數",
+     "answerEntryId": "u24:those",
+     "distractorEntryIds": [
+      "u24:this",
+      "u24:that",
+      "u15:much"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ shoes over there look bigger than the pair next to them.",
+    "fullSentence": "those shoes over there look bigger than the pair next to them.",
+    "translation": "那邊那些鞋看起來比旁邊那雙大。",
+    "clue": "shoes 複數、遠處那邊",
+    "answerEntryId": "u24:those",
+    "distractorEntryIds": [
+     "u24:this",
+     "u24:that",
+     "u24:each"
+    ]
+   }
+  }
+ ]
+}

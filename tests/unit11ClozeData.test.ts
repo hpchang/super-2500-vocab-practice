@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type {
   ClozeQuestion,
@@ -11,30 +11,20 @@ import { buildClozeSession } from '../src/lib/questions.js';
 import { getEntry } from '../src/lib/data.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const unit11 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-11.json'), 'utf8'),
-) as EnrichmentData;
-const unit12 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-12.json'), 'utf8'),
-) as EnrichmentData;
-const unit13 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-13.json'), 'utf8'),
-) as EnrichmentData;
-const unit14 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-14.json'), 'utf8'),
-) as EnrichmentData;
-const unit15 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-15.json'), 'utf8'),
-) as EnrichmentData;
-const unit16 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-16.json'), 'utf8'),
-) as EnrichmentData;
-const unit17 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-17.json'), 'utf8'),
-) as EnrichmentData;
-const unit18 = JSON.parse(
-  readFileSync(resolve(ROOT, 'src/data/enrichment/units-18.json'), 'utf8'),
-) as EnrichmentData;
+
+// Units with enrichment; discovered from the enrichment directory so new
+// units-<n>.json files are picked up automatically.
+const UNIT_NUMBERS = readdirSync(resolve(ROOT, 'src/data/enrichment'))
+  .filter((f) => /^units-\d+\.json$/.test(f))
+  .map((f) => f.match(/\d+/)![0]);
+const unitData = Object.fromEntries(
+  UNIT_NUMBERS.map((n) => [
+    n,
+    JSON.parse(
+      readFileSync(resolve(ROOT, `src/data/enrichment/units-${n}.json`), 'utf8'),
+    ) as EnrichmentData,
+  ]),
+);
 const vocab = JSON.parse(
   readFileSync(resolve(ROOT, 'src/data/vocab.json'), 'utf8'),
 ) as VocabData;
@@ -43,7 +33,10 @@ const vocabMap = new Map(
   vocab.units.flatMap((unit) => unit.entries.map((entry) => [entry.entryId, entry])),
 );
 const enrichmentMap = new Map(
-  [...unit11.entries, ...unit12.entries, ...unit13.entries, ...unit14.entries, ...unit15.entries, ...unit16.entries, ...unit17.entries, ...unit18.entries].map((entry) => [entry.entryId, entry]),
+  UNIT_NUMBERS.flatMap((n) => unitData[n].entries).map((entry) => [
+    entry.entryId,
+    entry,
+  ]),
 );
 
 interface NamedCloze {
@@ -69,16 +62,10 @@ function containsOption(stem: string, option: string): boolean {
   return new RegExp(`(?:^|[^A-Za-z])${escaped}(?=$|[^A-Za-z])`, 'i').test(stem);
 }
 
-for (const { name, data } of [
-  { name: '11', data: unit11 },
-  { name: '12', data: unit12 },
-  { name: '13', data: unit13 },
-  { name: '14', data: unit14 },
-  { name: '15', data: unit15 },
-  { name: '16', data: unit16 },
-  { name: '17', data: unit17 },
-  { name: '18', data: unit18 },
-]) {
+for (const { name, data } of UNIT_NUMBERS.map((n) => ({
+  name: n,
+  data: unitData[n],
+}))) {
   describe(`Unit ${name} cloze content quality`, () => {
     it(`contains ${data.entries.length} entries and complete cloze records`, () => {
       expect(data.entries.flatMap(allCloze)).toHaveLength(data.entries.length * 6);

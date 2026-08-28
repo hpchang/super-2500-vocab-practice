@@ -1,0 +1,1984 @@
+{
+ "schemaVersion": 1,
+ "unit": "28",
+ "entries": [
+  {
+   "entryId": "u28:am",
+   "zh": "是（主詞 I 專用的 be 動詞）",
+   "pos": "verb",
+   "example": "I am a student at Sunshine Junior High.",
+   "exampleZh": "我是陽光國中的學生。",
+   "spellingHint": "a-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I ___ twelve years old this year.",
+    "fullSentence": "I am twelve years old this year.",
+    "translation": "我今年十二歲。",
+    "clue": "主詞是 I 時現在用的 be 動詞",
+    "answerEntryId": "u28:am",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:are",
+     "u28:be"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Don't worry; I ___ right here behind you.",
+     "fullSentence": "Don't worry; I am right here behind you.",
+     "translation": "別擔心，我就在你後面。",
+     "clue": "說話者用 I 自稱時的 be 動詞",
+     "answerEntryId": "u28:am",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:are",
+      "u11:camera"
+     ]
+    },
+    {
+     "sentence": "A: Are you ready for the test? B: Yes, I ___.",
+     "fullSentence": "A: Are you ready for the test? B: Yes, I am.",
+     "translation": "A：你準備好考試了嗎？B：是的，我準備好了。",
+     "clue": "回答 Are you…? 的固定簡答",
+     "answerEntryId": "u28:am",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:were",
+      "u16:now"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I ___ not good at math, but I keep practicing every day.",
+     "fullSentence": "I am not good at math, but I keep practicing every day.",
+     "translation": "我數學不好，但我每天持續練習。",
+     "clue": "I 加 not 表示現在「我不是」",
+     "answerEntryId": "u28:am",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:are",
+      "u28:was"
+     ]
+    },
+    {
+     "sentence": "My brother is tall, but I ___ short.",
+     "fullSentence": "My brother is tall, but I am short.",
+     "translation": "我哥哥很高，但我很矮。",
+     "clue": "前後對比：he 用 is，I 用另一個",
+     "answerEntryId": "u28:am",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:was",
+      "u28:be"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "In the past I feared dogs, but now I ___ not afraid of them.",
+    "fullSentence": "In the past I feared dogs, but now I am not afraid of them.",
+    "translation": "以前我怕狗，但現在我不怕牠們了。",
+    "clue": "主詞 I 的現在否定 be 動詞，與 in the past 對比",
+    "answerEntryId": "u28:am",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:was",
+     "u28:are"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:are",
+   "zh": "是（you / we / they 及複數主詞用的 be 動詞）",
+   "pos": "verb",
+   "example": "You are my best friend in the class.",
+   "exampleZh": "你是我在班上最好的朋友。",
+   "spellingHint": "a-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Tom and Tim ___ in the school band together.",
+    "fullSentence": "Tom and Tim are in the school band together.",
+    "translation": "Tom 和 Tim 一起參加學校樂團。",
+    "clue": "兩個人當主詞（=they）的現在 be 動詞",
+    "answerEntryId": "u28:are",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:am",
+     "u28:be"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We ___ going to the night market this weekend.",
+     "fullSentence": "We are going to the night market this weekend.",
+     "translation": "我們這個週末要去夜市。",
+     "clue": "主詞 we 的現在 be 動詞",
+     "answerEntryId": "u28:are",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:am",
+      "u11:camera"
+     ]
+    },
+    {
+     "sentence": "___ your parents at home right this minute?",
+     "fullSentence": "are your parents at home right this minute?",
+     "translation": "你的爸媽此刻在家嗎？",
+     "clue": "主詞 your parents，現在問句開頭",
+     "answerEntryId": "u28:are",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:was",
+      "u16:today"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There ___ four seasons in a year.",
+     "fullSentence": "There are four seasons in a year.",
+     "translation": "一年有四季。",
+     "clue": "There be 句型，後面是 four seasons（複數）",
+     "answerEntryId": "u28:are",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:was",
+      "u28:be"
+     ]
+    },
+    {
+     "sentence": "The windows ___ dirty, so Dad cleans them every Sunday.",
+     "fullSentence": "The windows are dirty, so Dad cleans them every Sunday.",
+     "translation": "窗戶很髒，所以爸爸每個星期天清洗。",
+     "clue": "主詞 the windows 是複數",
+     "answerEntryId": "u28:are",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:am",
+      "u28:be"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Where ___ you going? — To the library.",
+    "fullSentence": "Where are you going? — To the library.",
+    "translation": "你要去哪裡？——去圖書館。",
+    "clue": "問句主詞 you，現在進行",
+    "answerEntryId": "u28:are",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:am",
+     "u28:were"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:be",
+   "zh": "是；成為（be 動詞原形）",
+   "pos": "verb",
+   "example": "I want to be a doctor in the future.",
+   "exampleZh": "我將來想成為醫生。",
+   "spellingHint": "b-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Don't ___ late for school tomorrow.",
+    "fullSentence": "Don't be late for school tomorrow.",
+    "translation": "明天上學不要遲到。",
+    "clue": "Don't 後面接動詞原形",
+    "answerEntryId": "u28:be",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:are",
+     "u28:am"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She hopes to ___ a nurse when she grows up.",
+     "fullSentence": "She hopes to be a nurse when she grows up.",
+     "translation": "她希望長大後當護士。",
+     "clue": "to 後面接動詞原形",
+     "answerEntryId": "u28:be",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:are",
+      "u28:am"
+     ]
+    },
+    {
+     "sentence": "I'll ___ home all weekend.",
+     "fullSentence": "I'll be home all weekend.",
+     "translation": "我整個週末都會在家。",
+     "clue": "will 後面接動詞原形",
+     "answerEntryId": "u28:be",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:am",
+      "u28:was"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You should ___ quiet in the library.",
+     "fullSentence": "You should be quiet in the library.",
+     "translation": "在圖書館裡你應該保持安靜。",
+     "clue": "should 後面接動詞原形",
+     "answerEntryId": "u28:be",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:are",
+      "u28:was"
+     ]
+    },
+    {
+     "sentence": "It may ___ rainy tomorrow, so bring an umbrella.",
+     "fullSentence": "It may be rainy tomorrow, so bring an umbrella.",
+     "translation": "明天可能會下雨，所以帶把傘。",
+     "clue": "may 後面接動詞原形",
+     "answerEntryId": "u28:be",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:was",
+      "u28:were"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ken hopes to ___ a pilot, so he studies hard.",
+    "fullSentence": "Ken hopes to be a pilot, so he studies hard.",
+    "translation": "Ken 希望成為機師，所以他用功讀書。",
+    "clue": "to + 動詞原形，表示「成為」",
+    "answerEntryId": "u28:be",
+    "distractorEntryIds": [
+     "u28:is",
+     "u28:are",
+     "u28:been"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:been",
+   "zh": "曾經；已經（be 的過去分詞）",
+   "pos": "verb",
+   "example": "I have been to Kenting twice.",
+   "exampleZh": "我去過墾丁兩次。",
+   "spellingHint": "b-e-e-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "She has ___ sick since Monday, so she stays home.",
+    "fullSentence": "She has been sick since Monday, so she stays home.",
+    "translation": "她從星期一就一直生病，所以待在家裡。",
+    "clue": "has 後面接過去分詞，完成式",
+    "answerEntryId": "u28:been",
+    "distractorEntryIds": [
+     "u28:be",
+     "u28:was",
+     "u28:is"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I have never ___ to Japan, but I hope to go someday.",
+     "fullSentence": "I have never been to Japan, but I hope to go someday.",
+     "translation": "我從來沒去過日本，但我希望有天能去。",
+     "clue": "have + 過去分詞，表示「去過」",
+     "answerEntryId": "u28:been",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:be",
+      "u13:learn"
+     ]
+    },
+    {
+     "sentence": "Where have you ___? Dinner is cold.",
+     "fullSentence": "Where have you been? Dinner is cold.",
+     "translation": "你跑去哪裡了？晚餐都涼了。",
+     "clue": "have + 過去分詞問經歷",
+     "answerEntryId": "u28:been",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:be",
+      "u28:was"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The dog has ___ in the yard for two hours.",
+     "fullSentence": "The dog has been in the yard for two hours.",
+     "translation": "這隻狗已經在院子裡兩個小時了。",
+     "clue": "for + 一段時間，用完成式",
+     "answerEntryId": "u28:been",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:is",
+      "u28:be"
+     ]
+    },
+    {
+     "sentence": "My dad has ___ a teacher for twenty years.",
+     "fullSentence": "My dad has been a teacher for twenty years.",
+     "translation": "我爸當老師已經二十年了。",
+     "clue": "has + 過去分詞，持續到現在",
+     "answerEntryId": "u28:been",
+     "distractorEntryIds": [
+      "u28:is",
+      "u28:was",
+      "u28:be"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Have you ever ___ to a night market? The food there tastes great.",
+    "fullSentence": "Have you ever been to a night market? The food there tastes great.",
+    "translation": "你去過夜市嗎？那裡的食物很好吃。",
+    "clue": "Have you ever + 過去分詞，問經驗",
+    "answerEntryId": "u28:been",
+    "distractorEntryIds": [
+     "u28:be",
+     "u28:was",
+     "u28:do"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:can",
+   "zh": "能；會；可以（表示能力或許可）",
+   "pos": "verb",
+   "example": "My sister can play the piano very well.",
+   "exampleZh": "我妹妹鋼琴彈得很好。",
+   "spellingHint": "c-a-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Ben ___ swim across the pool without stopping.",
+    "fullSentence": "Ben can swim across the pool without stopping.",
+    "translation": "Ben 能不停頓地游過整個泳池。",
+    "clue": "後面直接接動詞原形，表示能力",
+    "answerEntryId": "u28:can",
+    "distractorEntryIds": [
+     "u28:may",
+     "u28:must",
+     "u28:could"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ you help me carry this heavy box?",
+     "fullSentence": "can you help me carry this heavy box?",
+     "translation": "你能幫我搬這個重箱子嗎？",
+     "clue": "開頭的助動詞，請求幫忙",
+     "answerEntryId": "u28:can",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:must",
+      "u28:should"
+     ]
+    },
+    {
+     "sentence": "A fish ___ breathe under water.",
+     "fullSentence": "A fish can breathe under water.",
+     "translation": "魚能在水下呼吸。",
+     "clue": "表示天生有能力",
+     "answerEntryId": "u28:can",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:should",
+      "u28:will"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Visitors ___ take a free tour every Saturday morning.",
+     "fullSentence": "Visitors can take a free tour every Saturday morning.",
+     "translation": "訪客每週六可以參加免費導覽。",
+     "clue": "表示「被允許」的規定",
+     "answerEntryId": "u28:can",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:may",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "Dad says we ___ watch one movie tonight.",
+     "fullSentence": "Dad says we can watch one movie tonight.",
+     "translation": "爸爸說我們今晚可以看一部電影。",
+     "clue": "表示「獲得許可」",
+     "answerEntryId": "u28:can",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:should",
+      "u28:may"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Grandpa is 90, but he still ___ climb the stairs by himself.",
+    "fullSentence": "Grandpa is 90, but he still can climb the stairs by himself.",
+    "translation": "爺爺九十歲了，但仍然能自己爬樓梯。",
+    "clue": "高齡仍具備的能力，用現在式",
+    "answerEntryId": "u28:can",
+    "distractorEntryIds": [
+     "u28:may",
+     "u28:must",
+     "u28:will"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:could",
+   "zh": "能；可以（can 的過去式，或更客氣的請求）",
+   "pos": "verb",
+   "example": "My grandma could read without glasses when she was young.",
+   "exampleZh": "我奶奶年輕時不看眼鏡也能看書。",
+   "spellingHint": "c-o-u-l-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "When I was five, I ___ already ride a bike.",
+    "fullSentence": "When I was five, I could already ride a bike.",
+    "translation": "我五歲時就會騎腳踏車了。",
+    "clue": "過去擁有的能力",
+    "answerEntryId": "u28:could",
+    "distractorEntryIds": [
+     "u28:can",
+     "u28:may",
+     "u28:would"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ you please open the window? It's hot in here.",
+     "fullSentence": "could you please open the window? It's hot in here.",
+     "translation": "麻煩你打開窗戶好嗎？這裡很熱。",
+     "clue": "比 can 更客氣的請求",
+     "answerEntryId": "u28:could",
+     "distractorEntryIds": [
+      "u28:can",
+      "u28:must",
+      "u28:should"
+     ]
+    },
+    {
+     "sentence": "The door was locked, but Grandpa ___ open it with his old key.",
+     "fullSentence": "The door was locked, but Grandpa could open it with his old key.",
+     "translation": "門鎖住了，但爺爺用他的舊鑰匙打得開。",
+     "clue": "過去成功做到的能力",
+     "answerEntryId": "u28:could",
+     "distractorEntryIds": [
+      "u28:can",
+      "u28:will",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I wish I ___ fly like a bird.",
+     "fullSentence": "I wish I could fly like a bird.",
+     "translation": "真希望我能像鳥一樣飛。",
+     "clue": "對不可能之事的願望，用過去式助動詞",
+     "answerEntryId": "u28:could",
+     "distractorEntryIds": [
+      "u28:can",
+      "u28:may",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "Last night I heard a noise, but I ___ not find out what it was.",
+     "fullSentence": "Last night I heard a noise, but I could not find out what it was.",
+     "translation": "昨晚我聽到怪聲，但無法查明是什麼。",
+     "clue": "過去「無法」做到",
+     "answerEntryId": "u28:could",
+     "distractorEntryIds": [
+      "u28:can",
+      "u28:must",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Excuse me, ___ you tell me where the station is?",
+    "fullSentence": "Excuse me, could you tell me where the station is?",
+    "translation": "不好意思，可以告訴我車站在哪裡嗎？",
+    "clue": "問路時最禮貌的開頭",
+    "answerEntryId": "u28:could",
+    "distractorEntryIds": [
+     "u28:can",
+     "u28:may",
+     "u28:should"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:did",
+   "zh": "做（do 的過去式）；助動詞（過去式問句/否定）",
+   "pos": "verb",
+   "example": "I did my homework after dinner yesterday.",
+   "exampleZh": "我昨天晚餐後寫了功課。",
+   "spellingHint": "d-i-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We ___ a science project about plants last month.",
+    "fullSentence": "We did a science project about plants last month.",
+    "translation": "我們上個月做了一個關於植物的科學報告。",
+    "clue": "過去的「做」，主詞 we",
+    "answerEntryId": "u28:did",
+    "distractorEntryIds": [
+     "u28:do",
+     "u28:does",
+     "u28:done"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ you finish the book last night?",
+     "fullSentence": "did you finish the book last night?",
+     "translation": "你昨晚把那本書看完了嗎？",
+     "clue": "過去問句的開頭助動詞",
+     "answerEntryId": "u28:did",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:does",
+      "u28:have"
+     ]
+    },
+    {
+     "sentence": "Amy ___ not come to school yesterday because she was sick.",
+     "fullSentence": "Amy did not come to school yesterday because she was sick.",
+     "translation": "Amy 昨天沒來上學，因為她生病了。",
+     "clue": "過去否定的助動詞",
+     "answerEntryId": "u28:did",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:does",
+      "u28:has"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "How ___ you spend your winter vacation? — I visited my grandparents.",
+     "fullSentence": "How did you spend your winter vacation? — I visited my grandparents.",
+     "translation": "你的寒假怎麼過的？——我去拜訪祖父母。",
+     "clue": "過去問句：How + 助動詞",
+     "answerEntryId": "u28:did",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:does",
+      "u28:have"
+     ]
+    },
+    {
+     "sentence": "My mom ___ the laundry and swept the kitchen this morning.",
+     "fullSentence": "My mom did the laundry and swept the kitchen this morning.",
+     "translation": "我媽媽今天早上洗了衣服、掃了廚房。",
+     "clue": "過去式的「做（家事）」",
+     "answerEntryId": "u28:did",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:does",
+      "u13:paint"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ you see the fireworks last night? — Yes, they were beautiful.",
+    "fullSentence": "did you see the fireworks last night? — Yes, they were beautiful.",
+    "translation": "你昨晚看到煙火了嗎？——有，很漂亮。",
+    "clue": "對過去事件的問句，用過去式助動詞",
+    "answerEntryId": "u28:did",
+    "distractorEntryIds": [
+     "u28:do",
+     "u28:was",
+     "u28:have"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:do",
+   "zh": "做；助動詞（現在式問句/否定，主詞為 I/you/we/they）",
+   "pos": "verb",
+   "example": "What do you do on weekends? — I ride my bike.",
+   "exampleZh": "你週末都做什麼？——我騎腳踏車。",
+   "spellingHint": "d-o",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ you like bubble tea? — Yes, I drink it every week.",
+    "fullSentence": "do you like bubble tea? — Yes, I drink it every week.",
+    "translation": "你喜歡珍珠奶茶嗎？——喜歡，我每週都喝。",
+    "clue": "現在問句，主詞是 you",
+    "answerEntryId": "u28:do",
+    "distractorEntryIds": [
+     "u28:does",
+     "u28:did",
+     "u28:is"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I always ___ the dishes after dinner.",
+     "fullSentence": "I always do the dishes after dinner.",
+     "translation": "我晚餐後總是洗碗。",
+     "clue": "現在式「做（家事）」",
+     "answerEntryId": "u28:do",
+     "distractorEntryIds": [
+      "u28:does",
+      "u28:did",
+      "u13:practice"
+     ]
+    },
+    {
+     "sentence": "___ your friends play basketball after school?",
+     "fullSentence": "do your friends play basketball after school?",
+     "translation": "你的朋友們放學後打籃球嗎？",
+     "clue": "主詞 your friends 是複數，現在問句",
+     "answerEntryId": "u28:do",
+     "distractorEntryIds": [
+      "u28:does",
+      "u28:did",
+      "u28:are"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We ___ not have class on national holidays.",
+     "fullSentence": "We do not have class on national holidays.",
+     "translation": "國定假日我們沒有課。",
+     "clue": "現在否定，主詞 we",
+     "answerEntryId": "u28:do",
+     "distractorEntryIds": [
+      "u28:does",
+      "u28:did",
+      "u28:is"
+     ]
+    },
+    {
+     "sentence": "How much ___ these shoes sell for?",
+     "fullSentence": "How much do these shoes sell for?",
+     "translation": "這雙鞋賣多少錢？",
+     "clue": "現在問句，主詞 these shoes 是複數",
+     "answerEntryId": "u28:do",
+     "distractorEntryIds": [
+      "u28:does",
+      "u28:did",
+      "u17:spend"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ your best on the test, and don't give up.",
+    "fullSentence": "do your best on the test, and don't give up.",
+    "translation": "在考試上盡你最大的努力，不要放棄。",
+    "clue": "祈使句用原形 do one's best",
+    "answerEntryId": "u28:do",
+    "distractorEntryIds": [
+     "u28:does",
+     "u28:did",
+     "u28:done"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:does",
+   "zh": "做；助動詞（第三人稱單數現在式）",
+   "pos": "verb",
+   "example": "My father does exercise every morning.",
+   "exampleZh": "我爸爸每天早上運動。",
+   "spellingHint": "d-o-e-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ your brother like spicy food? — No, he hates it.",
+    "fullSentence": "does your brother like spicy food? — No, he hates it.",
+    "translation": "你哥哥喜歡吃辣嗎？——不喜歡，他很討厭。",
+    "clue": "現在問句，主詞 your brother 是第三人稱單數",
+    "answerEntryId": "u28:does",
+    "distractorEntryIds": [
+     "u28:do",
+     "u28:did",
+     "u28:is"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She ___ not eat breakfast before six.",
+     "fullSentence": "She does not eat breakfast before six.",
+     "translation": "她六點前不吃早餐。",
+     "clue": "第三人稱單數否定",
+     "answerEntryId": "u28:does",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:did",
+      "u28:has"
+     ]
+    },
+    {
+     "sentence": "Kevin ___ his homework right after school every day.",
+     "fullSentence": "Kevin does his homework right after school every day.",
+     "translation": "Kevin 每天放學後立刻寫功課。",
+     "clue": "第三人稱單數的「做」",
+     "answerEntryId": "u28:does",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:did",
+      "u13:study"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Where ___ your mother work? — In a hospital.",
+     "fullSentence": "Where does your mother work? — In a hospital.",
+     "translation": "你媽媽在哪裡工作？——在醫院。",
+     "clue": "第三人稱單數現在問句",
+     "answerEntryId": "u28:does",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:did",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "___ Hank play the violin? — Yes, he practices every evening.",
+     "fullSentence": "does Hank play the violin? — Yes, he practices every evening.",
+     "translation": "Hank 會拉小提琴嗎？——會，他每晚都練習。",
+     "clue": "現在問句，主詞 Hank 單數",
+     "answerEntryId": "u28:does",
+     "distractorEntryIds": [
+      "u28:do",
+      "u28:did",
+      "u28:can"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "My sister ___ not like coffee, but she loves milk tea.",
+    "fullSentence": "My sister does not like coffee, but she loves milk tea.",
+    "translation": "我妹妹不喜歡咖啡，但她很愛奶茶。",
+    "clue": "第三人稱單數否定，後面接原形 like",
+    "answerEntryId": "u28:does",
+    "distractorEntryIds": [
+     "u28:do",
+     "u28:did",
+     "u28:must"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:done",
+   "zh": "做完的；完成（do 的過去分詞）",
+   "pos": "verb",
+   "example": "I am almost done with my report.",
+   "exampleZh": "我的報告快做完了。",
+   "spellingHint": "d-o-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The teacher asked if we were ___ with the worksheet.",
+    "fullSentence": "The teacher asked if we were done with the worksheet.",
+    "translation": "老師問我們學習單寫完了沒有。",
+    "clue": "be done with 表示「做完…」",
+    "answerEntryId": "u28:done",
+    "distractorEntryIds": [
+     "u28:did",
+     "u28:do",
+     "u28:does"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The work is finally ___; we can go home now.",
+     "fullSentence": "The work is finally done; we can go home now.",
+     "translation": "工作終於完成了，我們可以回家了。",
+     "clue": "is + 過去分詞，表示「做完的」",
+     "answerEntryId": "u28:done",
+     "distractorEntryIds": [
+      "u28:did",
+      "u28:do",
+      "u28:does"
+     ]
+    },
+    {
+     "sentence": "All the cakes are ___; the kitchen smells wonderful.",
+     "fullSentence": "All the cakes are done; the kitchen smells wonderful.",
+     "translation": "所有的蛋糕都烤好了，廚房聞起來很香。",
+     "clue": "are + 過去分詞，表示「完成的」",
+     "answerEntryId": "u28:done",
+     "distractorEntryIds": [
+      "u28:did",
+      "u28:do",
+      "u28:been"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She has ___ her chores, so she can watch TV now.",
+     "fullSentence": "She has done her chores, so she can watch TV now.",
+     "translation": "她做完了家事，所以現在可以看電視。",
+     "clue": "has + 過去分詞，表示已完成",
+     "answerEntryId": "u28:done",
+     "distractorEntryIds": [
+      "u28:did",
+      "u28:do",
+      "u28:does"
+     ]
+    },
+    {
+     "sentence": "Once the project is ___, we'll celebrate with pizza.",
+     "fullSentence": "Once the project is done, we'll celebrate with pizza.",
+     "translation": "計畫一完成，我們就要用披薩慶祝。",
+     "clue": "is + 過去分詞，表示「完成之後」",
+     "answerEntryId": "u28:done",
+     "distractorEntryIds": [
+      "u28:did",
+      "u28:do",
+      "u28:been"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Well ___! You passed the driving test on the first try.",
+    "fullSentence": "Well done! You passed the driving test on the first try.",
+    "translation": "做得好！你第一次就考過駕照了。",
+    "clue": "誇獎別人的固定用語",
+    "answerEntryId": "u28:done",
+    "distractorEntryIds": [
+     "u28:did",
+     "u28:do",
+     "u28:does"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:had",
+   "zh": "有（have 的過去式）；had + p.p. 過去完成式",
+   "pos": "verb",
+   "example": "We had a great time at the amusement park.",
+   "exampleZh": "我們在遊樂園玩得很開心。",
+   "spellingHint": "h-a-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "I ___ a cold last week, so I missed two days of school.",
+    "fullSentence": "I had a cold last week, so I missed two days of school.",
+    "translation": "我上星期感冒，所以缺課兩天。",
+    "clue": "過去的「有／得到」",
+    "answerEntryId": "u28:had",
+    "distractorEntryIds": [
+     "u28:has",
+     "u28:have",
+     "u28:was"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The family ___ dinner at Grandma's house last night.",
+     "fullSentence": "The family had dinner at Grandma's house last night.",
+     "translation": "這家人昨晚在奶奶家吃晚餐。",
+     "clue": "過去式「吃／舉行」",
+     "answerEntryId": "u28:had",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:have",
+      "u17:pay"
+     ]
+    },
+    {
+     "sentence": "We ___ a picnic in the park last Sunday.",
+     "fullSentence": "We had a picnic in the park last Sunday.",
+     "translation": "我們上星期天在公園野餐。",
+     "clue": "過去式「進行（活動）」",
+     "answerEntryId": "u28:had",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:have",
+      "u28:did"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "By the time we arrived, the movie already ___ started.",
+     "fullSentence": "By the time we arrived, the movie already had started.",
+     "translation": "我們抵達時，電影已經開始了。",
+     "clue": "過去完成式 had + 過去分詞",
+     "answerEntryId": "u28:had",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:have",
+      "u28:did"
+     ]
+    },
+    {
+     "sentence": "We ___ better leave now; the train leaves at six.",
+     "fullSentence": "We had better leave now; the train leaves at six.",
+     "translation": "我們最好現在出發，火車六點開。",
+     "clue": "had better 表示「最好…」",
+     "answerEntryId": "u28:had",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:have",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After he ___ finished the race, he drank a lot of water.",
+    "fullSentence": "After he had finished the race, he drank a lot of water.",
+    "translation": "他跑完比賽之後，喝了很多水。",
+    "clue": "過去完成式 had + 過去分詞，比過去更早",
+    "answerEntryId": "u28:had",
+    "distractorEntryIds": [
+     "u28:has",
+     "u28:have",
+     "u28:did"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:has",
+   "zh": "有（第三人稱單數現在式）；has + p.p. 完成式",
+   "pos": "verb",
+   "example": "My uncle has two dogs and a cat.",
+   "exampleZh": "我叔叔養兩隻狗和一隻貓。",
+   "spellingHint": "h-a-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Angela ___ long hair and big eyes.",
+    "fullSentence": "Angela has long hair and big eyes.",
+    "translation": "Angela 有長頭髮和大眼睛。",
+    "clue": "第三人稱單數的「有」",
+    "answerEntryId": "u28:has",
+    "distractorEntryIds": [
+     "u28:have",
+     "u28:had",
+     "u28:is"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The bus ___ left; we missed it.",
+     "fullSentence": "The bus has left; we missed it.",
+     "translation": "公車開走了，我們沒搭到。",
+     "clue": "第三人稱單數完成式",
+     "answerEntryId": "u28:has",
+     "distractorEntryIds": [
+      "u28:have",
+      "u28:had",
+      "u16:already"
+     ]
+    },
+    {
+     "sentence": "Everyone in my class ___ a locker.",
+     "fullSentence": "Everyone in my class has a locker.",
+     "translation": "我們班每個人都有一個置物櫃。",
+     "clue": "everyone 視為單數",
+     "answerEntryId": "u28:has",
+     "distractorEntryIds": [
+      "u28:have",
+      "u28:had",
+      "u28:does"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Peter ___ studied English for six years.",
+     "fullSentence": "Peter has studied English for six years.",
+     "translation": "Peter 學英文已經六年了。",
+     "clue": "for + 一段時間，第三人稱單數完成式",
+     "answerEntryId": "u28:has",
+     "distractorEntryIds": [
+      "u28:have",
+      "u28:had",
+      "u13:study"
+     ]
+    },
+    {
+     "sentence": "A: ___ your sister ever visited Europe? B: No, never.",
+     "fullSentence": "A: has your sister ever visited Europe? B: No, never.",
+     "translation": "你姊姊去過歐洲嗎？——從來沒有。",
+     "clue": "第三人稱單數完成式問句",
+     "answerEntryId": "u28:has",
+     "distractorEntryIds": [
+      "u28:have",
+      "u28:had",
+      "u28:does"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "My grandma ___ lived in this town all her life.",
+    "fullSentence": "My grandma has lived in this town all her life.",
+    "translation": "我奶奶一輩子都住在這個小鎮。",
+    "clue": "all her life + 完成式，第三人稱單數",
+    "answerEntryId": "u28:has",
+    "distractorEntryIds": [
+     "u28:have",
+     "u28:had",
+     "u28:was"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:have",
+   "zh": "有；have to 必须；have + p.p. 完成式",
+   "pos": "verb",
+   "example": "I have a piano lesson on Wednesday.",
+   "exampleZh": "我星期三有一堂鋼琴課。",
+   "spellingHint": "h-a-v-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The students ___ already finished their science reports.",
+    "fullSentence": "The students have already finished their science reports.",
+    "translation": "學生們已經完成他們的科學報告了。",
+    "clue": "複數主詞 + 已經 + 完成式",
+    "answerEntryId": "u28:have",
+    "distractorEntryIds": [
+     "u28:has",
+     "u28:had",
+     "u28:are"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We ___ two tests tomorrow, so I need to study tonight.",
+     "fullSentence": "We have two tests tomorrow, so I need to study tonight.",
+     "translation": "我們明天有兩個考試，所以我今晚要讀書。",
+     "clue": "現在的「有」，主詞 we",
+     "answerEntryId": "u28:have",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:had",
+      "u17:buy"
+     ]
+    },
+    {
+     "sentence": "___ you ever eaten durian? It smells strange but tastes sweet.",
+     "fullSentence": "have you ever eaten durian? It smells strange but tastes sweet.",
+     "translation": "你吃過榴槤嗎？味道很怪但吃起來甜。",
+     "clue": "完成式問句，主詞 you",
+     "answerEntryId": "u28:have",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:had",
+      "u14:cook"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I ___ to clean my room before I go out.",
+     "fullSentence": "I have to clean my room before I go out.",
+     "translation": "我出門前必須打掃房間。",
+     "clue": "have to 表示「必須」",
+     "answerEntryId": "u28:have",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:had",
+      "u28:must"
+     ]
+    },
+    {
+     "sentence": "They ___ lived next door to us since 2020.",
+     "fullSentence": "They have lived next door to us since 2020.",
+     "translation": "他們從 2020 年起就住在我們隔壁。",
+     "clue": "since + 過去時間點，複數完成式",
+     "answerEntryId": "u28:have",
+     "distractorEntryIds": [
+      "u28:has",
+      "u28:had",
+      "u28:are"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "You should ___ breakfast every morning; it gives you energy.",
+    "fullSentence": "You should have breakfast every morning; it gives you energy.",
+    "translation": "你應該每天早上吃早餐，它給你能量。",
+    "clue": "should 後接原形 have（吃）",
+    "answerEntryId": "u28:have",
+    "distractorEntryIds": [
+     "u28:has",
+     "u28:had",
+     "u17:pay"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:is",
+   "zh": "是（he / she / it 及單數主詞用的 be 動詞）",
+   "pos": "verb",
+   "example": "The library is quiet in the afternoon.",
+   "exampleZh": "圖書館下午很安靜。",
+   "spellingHint": "i-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My favorite subject ___ science.",
+    "fullSentence": "My favorite subject is science.",
+    "translation": "我最喜歡的科目是自然。",
+    "clue": "主詞 subject 是單數，現在 be 動詞",
+    "answerEntryId": "u28:is",
+    "distractorEntryIds": [
+     "u28:are",
+     "u28:am",
+     "u28:be"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A: How ___ the weather today? B: It's sunny and warm.",
+     "fullSentence": "A: How is the weather today? B: It's sunny and warm.",
+     "translation": "今天天氣如何？——晴天又溫暖。",
+     "clue": "問天氣的固定句型，主詞 the weather 單數",
+     "answerEntryId": "u28:is",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:was",
+      "u12:fly"
+     ]
+    },
+    {
+     "sentence": "There ___ a big sale at the mall this weekend.",
+     "fullSentence": "There is a big sale at the mall this weekend.",
+     "translation": "這個週末商場有大特價。",
+     "clue": "There be 句型，後面 a big sale 單數",
+     "answerEntryId": "u28:is",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:was",
+      "u28:be"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The milk ___ in the fridge, not on the table.",
+     "fullSentence": "The milk is in the fridge, not on the table.",
+     "translation": "牛奶在冰箱裡，不在桌上。",
+     "clue": "主詞 the milk 單數，現在位置",
+     "answerEntryId": "u28:is",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:am",
+      "u28:be"
+     ]
+    },
+    {
+     "sentence": "Everyone ___ excited about the school trip.",
+     "fullSentence": "Everyone is excited about the school trip.",
+     "translation": "大家都很期待校外教學。",
+     "clue": "everyone 視為單數",
+     "answerEntryId": "u28:is",
+     "distractorEntryIds": [
+      "u28:are",
+      "u28:was",
+      "u28:be"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Yesterday the sky was cloudy, but today it ___ clear.",
+    "fullSentence": "Yesterday the sky was cloudy, but today it is clear.",
+    "translation": "昨天天空多雲，但今天很晴朗。",
+    "clue": "對比 yesterday 與 today，單數現在",
+    "answerEntryId": "u28:is",
+    "distractorEntryIds": [
+     "u28:are",
+     "u28:be",
+     "u28:were"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:may",
+   "zh": "可以；可能（表示許可或可能性）",
+   "pos": "verb",
+   "example": "May I borrow your eraser? — Sure, here you are.",
+   "exampleZh": "我可以借你的橡皮擦嗎？——可以，給你。",
+   "spellingHint": "m-a-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ I go to the restroom, Ms. Lin?",
+    "fullSentence": "may I go to the restroom, Ms. Lin?",
+    "translation": "林老師，我可以去洗手間嗎？",
+    "clue": "上課時請求許可的客氣說法",
+    "answerEntryId": "u28:may",
+    "distractorEntryIds": [
+     "u28:can",
+     "u28:must",
+     "u28:will"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "It ___ rain this afternoon, so take an umbrella just in case.",
+     "fullSentence": "It may rain this afternoon, so take an umbrella just in case.",
+     "translation": "今天下午可能會下雨，所以以防萬一帶把傘。",
+     "clue": "表示「可能會」",
+     "answerEntryId": "u28:may",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:can",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "___ I take your order now? — Yes, two beef noodles, please.",
+     "fullSentence": "may I take your order now? — Yes, two beef noodles, please.",
+     "translation": "現在可以點餐了嗎？——好，請給我兩碗牛肉麵。",
+     "clue": "店員請求點餐的客氣問法",
+     "answerEntryId": "u28:may",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:should",
+      "u28:could"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You ___ not use your phone during the test.",
+     "fullSentence": "You may not use your phone during the test.",
+     "translation": "考試期間你不可以使用手機。",
+     "clue": "表示「不被允許」",
+     "answerEntryId": "u28:may",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:can",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "Visitors ___ take photos in the garden, but not in the museum.",
+     "fullSentence": "Visitors may take photos in the garden, but not in the museum.",
+     "translation": "訪客可以在花園裡拍照，但不能在博物館裡。",
+     "clue": "表示「被允許」的規定",
+     "answerEntryId": "u28:may",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:should",
+      "u28:can"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Hurry up, or we ___ miss the last train.",
+    "fullSentence": "Hurry up, or we may miss the last train.",
+    "translation": "快一點，不然我們可能會錯過末班車。",
+    "clue": "表示可能發生的壞結果",
+    "answerEntryId": "u28:may",
+    "distractorEntryIds": [
+     "u28:must",
+     "u28:can",
+     "u28:shall"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:might",
+   "zh": "可能（may 的過去式，語氣較不確定）",
+   "pos": "verb",
+   "example": "I might go camping with my cousins next month.",
+   "exampleZh": "我下個月可能會和堂表兄弟姊妹去露營。",
+   "spellingHint": "m-i-g-h-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Look at those dark clouds; it ___ snow tonight.",
+    "fullSentence": "Look at those dark clouds; it might snow tonight.",
+    "translation": "看看那些烏雲，今晚可能會下雪。",
+    "clue": "表示可能性不高但有可能",
+    "answerEntryId": "u28:might",
+    "distractorEntryIds": [
+     "u28:must",
+     "u28:can",
+     "u28:should"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She said she ___ be a little late for dinner.",
+     "fullSentence": "She said she might be a little late for dinner.",
+     "translation": "她說她晚餐可能會晚一點到。",
+     "clue": "轉述別人說的「可能」",
+     "answerEntryId": "u28:might",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:can",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "We ___ not have time to visit the museum, but we'll try.",
+     "fullSentence": "We might not have time to visit the museum, but we'll try.",
+     "translation": "我們可能沒時間參觀博物館，但我們會試試。",
+     "clue": "否定的「可能不會」",
+     "answerEntryId": "u28:might",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:should",
+      "u28:can"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "If you leave now, you ___ catch the early bus.",
+     "fullSentence": "If you leave now, you might catch the early bus.",
+     "translation": "如果你現在出發，也許能趕上早班公車。",
+     "clue": "條件句中表示小小的可能性",
+     "answerEntryId": "u28:might",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:can",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "Tony isn't home yet; he ___ still be practicing basketball.",
+     "fullSentence": "Tony isn't home yet; he might still be practicing basketball.",
+     "translation": "Tony 還沒到家，他可能還在練籃球。",
+     "clue": "對現在情況的猜測",
+     "answerEntryId": "u28:might",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:can",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "I'm not sure, but this key ___ open the back door.",
+    "fullSentence": "I'm not sure, but this key might open the back door.",
+    "translation": "我不確定，但這把鑰匙也許能開後門。",
+    "clue": "表示不確定的功能",
+    "answerEntryId": "u28:might",
+    "distractorEntryIds": [
+     "u28:must",
+     "u28:can",
+     "u28:will"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:must",
+   "zh": "必須；一定（表示義務或強推測）",
+   "pos": "verb",
+   "example": "You must wear a helmet when you ride a scooter.",
+   "exampleZh": "騎機車時你必須戴安全帽。",
+   "spellingHint": "m-u-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Students ___ return their library books before the semester ends.",
+    "fullSentence": "Students must return their library books before the semester ends.",
+    "translation": "學生必須在學期結束前歸還圖書。",
+    "clue": "表示「非做不可」的義務",
+    "answerEntryId": "u28:must",
+    "distractorEntryIds": [
+     "u28:may",
+     "u28:can",
+     "u28:should"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "It's late; you ___ go to bed now.",
+     "fullSentence": "It's late; you must go to bed now.",
+     "translation": "很晚了，你現在必須去睡覺。",
+     "clue": "語氣最強的「必須」",
+     "answerEntryId": "u28:must",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:could",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "This library book is due today, so I ___ return it today.",
+     "fullSentence": "This library book is due today, so I must return it today.",
+     "translation": "這本圖書館的書今天到期，所以我今天一定得還。",
+     "clue": "期限造成的義務",
+     "answerEntryId": "u28:must",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:can",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You ___ not swim here; the water is too deep.",
+     "fullSentence": "You must not swim here; the water is too deep.",
+     "translation": "你不可以在這裡游泳，水太深了。",
+     "clue": "強烈的禁止",
+     "answerEntryId": "u28:must",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:can",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "Every passenger ___ fasten the seat belt before takeoff.",
+     "fullSentence": "Every passenger must fasten the seat belt before takeoff.",
+     "translation": "每位乘客起飛前必須繫好安全帶。",
+     "clue": "規定要求的義務",
+     "answerEntryId": "u28:must",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:could",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "This bag ___ belong to Judy; her name is on it.",
+    "fullSentence": "This bag must belong to Judy; her name is on it.",
+    "translation": "這個袋子一定是 Judy 的，上面有她的名字。",
+    "clue": "有明確證據時的肯定推測",
+    "answerEntryId": "u28:must",
+    "distractorEntryIds": [
+     "u28:may",
+     "u28:can",
+     "u28:could"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:shall",
+   "zh": "要不要；將（ Shall I/We…? 提議，或 shall 表示未來）",
+   "pos": "verb",
+   "example": "Shall we dance?",
+   "exampleZh": "我們來跳舞好嗎？",
+   "spellingHint": "s-h-a-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ we meet at the main gate at nine?",
+    "fullSentence": "shall we meet at the main gate at nine?",
+    "translation": "我們九點在大門口碰面好嗎？",
+    "clue": "Shall we…? 表示提議",
+    "answerEntryId": "u28:shall",
+    "distractorEntryIds": [
+     "u28:will",
+     "u28:may",
+     "u28:must"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ I carry that heavy suitcase for you?",
+     "fullSentence": "shall I carry that heavy suitcase for you?",
+     "translation": "我幫你提那個重的行李箱好嗎？",
+     "clue": "Shall I…? 主動提供幫忙",
+     "answerEntryId": "u28:shall",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:can"
+     ]
+    },
+    {
+     "sentence": "We ___ never forget the kind people who helped us.",
+     "fullSentence": "We shall never forget the kind people who helped us.",
+     "translation": "我們永遠不會忘記那些善良的人們。",
+     "clue": "較正式的「將會」",
+     "answerEntryId": "u28:shall",
+     "distractorEntryIds": [
+      "u28:may",
+      "u28:can",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ I turn on the air conditioner? It's so hot in here.",
+     "fullSentence": "shall I turn on the air conditioner? It's so hot in here.",
+     "translation": "我開冷氣好嗎？這裡好熱。",
+     "clue": "徵詢對方意見的提議",
+     "answerEntryId": "u28:shall",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:may"
+     ]
+    },
+    {
+     "sentence": "___ we say goodbye to the teacher before we leave? — Good idea.",
+     "fullSentence": "shall we say goodbye to the teacher before we leave? — Good idea.",
+     "translation": "離開前我們跟老師道別好嗎？——好主意。",
+     "clue": "Shall we…? 徵詢對方同意的提議",
+     "answerEntryId": "u28:shall",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:may"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "What ___ we do this weekend? — How about going to the beach?",
+    "fullSentence": "What shall we do this weekend? — How about going to the beach?",
+    "translation": "我們這個週末做什麼好？——去海灘如何？",
+    "clue": "Shall we…? 邀請對方一起做某事",
+    "answerEntryId": "u28:shall",
+    "distractorEntryIds": [
+     "u28:will",
+     "u28:must",
+     "u28:can"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:should",
+   "zh": "應該（表示建議或責任）",
+   "pos": "verb",
+   "example": "You should drink more water when you have a cold.",
+   "exampleZh": "感冒時你應該多喝水。",
+   "spellingHint": "s-h-o-u-l-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "You look tired; you ___ go to bed earlier tonight.",
+    "fullSentence": "You look tired; you should go to bed earlier tonight.",
+    "translation": "你看起來很累，今晚應該早點睡。",
+    "clue": "給別人建議",
+    "answerEntryId": "u28:should",
+    "distractorEntryIds": [
+     "u28:must",
+     "u28:may",
+     "u28:would"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I have a stomachache. What ___ I do?",
+     "fullSentence": "I have a stomachache. What should I do?",
+     "translation": "我胃痛，我該怎麼辦？",
+     "clue": "徵求建議的問法",
+     "answerEntryId": "u28:should",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:may",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "We ___ not talk loudly on the MRT.",
+     "fullSentence": "We should not talk loudly on the MRT.",
+     "translation": "我們在捷運上不應該大聲說話。",
+     "clue": "表示不該做的行為",
+     "answerEntryId": "u28:should",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:may",
+      "u28:can"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Students ___ raise their hands before they speak in class.",
+     "fullSentence": "Students should raise their hands before they speak in class.",
+     "translation": "學生上課發言前應該先舉手。",
+     "clue": "教室常規的建議",
+     "answerEntryId": "u28:should",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:may",
+      "u28:will"
+     ]
+    },
+    {
+     "sentence": "If you want to lose weight, you ___ exercise three times a week.",
+     "fullSentence": "If you want to lose weight, you should exercise three times a week.",
+     "translation": "如果你想要減重，應該一週運動三次。",
+     "clue": "達成目標的建議方法",
+     "answerEntryId": "u28:should",
+     "distractorEntryIds": [
+      "u28:must",
+      "u28:may",
+      "u28:could"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The bus is crowded, so we ___ let the elderly sit down.",
+    "fullSentence": "The bus is crowded, so we should let the elderly sit down.",
+    "translation": "公車很擁擠，所以我們應該讓位給長輩。",
+    "clue": "基於禮貌的應該",
+    "answerEntryId": "u28:should",
+    "distractorEntryIds": [
+     "u28:must",
+     "u28:may",
+     "u28:would"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:was",
+   "zh": "是（is/am 的過去式）",
+   "pos": "verb",
+   "example": "I was at the beach with my family last Sunday.",
+   "exampleZh": "上星期天我和家人在海邊。",
+   "spellingHint": "w-a-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The weather ___ hot and humid yesterday.",
+    "fullSentence": "The weather was hot and humid yesterday.",
+    "translation": "昨天天氣又熱又潮濕。",
+    "clue": "過去的狀態，主詞 the weather 單數",
+    "answerEntryId": "u28:was",
+    "distractorEntryIds": [
+     "u28:were",
+     "u28:is",
+     "u28:are"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The test ___ easy, so everyone got a high score.",
+     "fullSentence": "The test was easy, so everyone got a high score.",
+     "translation": "那次考試很簡單，所以大家都拿到高分。",
+     "clue": "過去的狀態，主詞 the test 單數",
+     "answerEntryId": "u28:was",
+     "distractorEntryIds": [
+      "u28:were",
+      "u28:is",
+      "u28:are"
+     ]
+    },
+    {
+     "sentence": "My grandma ___ born in 1950.",
+     "fullSentence": "My grandma was born in 1950.",
+     "translation": "我奶奶出生於 1950 年。",
+     "clue": "be born 的過去式，單數主詞",
+     "answerEntryId": "u28:was",
+     "distractorEntryIds": [
+      "u28:were",
+      "u28:is",
+      "u28:had"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There ___ only one hospital in this town fifty years ago.",
+     "fullSentence": "There was only one hospital in this town fifty years ago.",
+     "translation": "五十年前這個鎮上只有一家醫院。",
+     "clue": "There be 過去式，後面 one hospital 單數",
+     "answerEntryId": "u28:was",
+     "distractorEntryIds": [
+      "u28:were",
+      "u28:is",
+      "u28:are"
+     ]
+    },
+    {
+     "sentence": "The movie ___ boring, so we left early.",
+     "fullSentence": "The movie was boring, so we left early.",
+     "translation": "這部電影很無聊，所以我們早退了。",
+     "clue": "主詞 the movie 單數，過去狀態",
+     "answerEntryId": "u28:was",
+     "distractorEntryIds": [
+      "u28:were",
+      "u28:is",
+      "u28:had"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "When I ___ a child, I lived near the ocean.",
+    "fullSentence": "When I was a child, I lived near the ocean.",
+    "translation": "我小的時候住在海邊。",
+    "clue": "回顧童年，主詞 I 的過去 be 動詞",
+    "answerEntryId": "u28:was",
+    "distractorEntryIds": [
+     "u28:were",
+     "u28:am",
+     "u28:is"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:were",
+   "zh": "是（are 的過去式，you/we/they 及複數主詞用）",
+   "pos": "verb",
+   "example": "We were very happy at the class reunion.",
+   "exampleZh": "我們在同學會上非常開心。",
+   "spellingHint": "w-e-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My friends ___ at my birthday party last Saturday.",
+    "fullSentence": "My friends were at my birthday party last Saturday.",
+    "translation": "我的朋友們上星期六在我的生日派對上。",
+    "clue": "複數主詞的過去 be 動詞",
+    "answerEntryId": "u28:were",
+    "distractorEntryIds": [
+     "u28:was",
+     "u28:are",
+     "u28:is"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ you at the basketball game last Friday?",
+     "fullSentence": "were you at the basketball game last Friday?",
+     "translation": "上星期五你在籃球賽現場嗎？",
+     "clue": "主詞 you 的過去問句",
+     "answerEntryId": "u28:were",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:are",
+      "u28:is"
+     ]
+    },
+    {
+     "sentence": "The twins ___ born two minutes apart.",
+     "fullSentence": "The twins were born two minutes apart.",
+     "translation": "這對雙胞胎出生時間相差兩分鐘。",
+     "clue": "複數主詞 + be born",
+     "answerEntryId": "u28:were",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:is",
+      "u28:had"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There ___ a lot of people at the night market last weekend.",
+     "fullSentence": "There were a lot of people at the night market last weekend.",
+     "translation": "上個週末夜市人很多。",
+     "clue": "There be 過去式，後面 people 複數",
+     "answerEntryId": "u28:were",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:are",
+      "u28:is"
+     ]
+    },
+    {
+     "sentence": "The cookies ___ delicious, so I ate three.",
+     "fullSentence": "The cookies were delicious, so I ate three.",
+     "translation": "餅乾很好吃，所以我吃了三塊。",
+     "clue": "複數主詞的過去狀態",
+     "answerEntryId": "u28:were",
+     "distractorEntryIds": [
+      "u28:was",
+      "u28:are",
+      "u28:is"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "If I ___ you, I would apologize to her first.",
+    "fullSentence": "If I were you, I would apologize to her first.",
+    "translation": "如果我是你，我會先向她道歉。",
+    "clue": "與現在事實相反的假設，主詞 I 用 were",
+    "answerEntryId": "u28:were",
+    "distractorEntryIds": [
+     "u28:was",
+     "u28:am",
+     "u28:is"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:will",
+   "zh": "將；會（表示未來或意願）",
+   "pos": "verb",
+   "example": "I will call you after I get home tonight.",
+   "exampleZh": "我今晚到家後會打電話給你。",
+   "spellingHint": "w-i-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Don't worry; the exam ___ be easy if you prepare well.",
+    "fullSentence": "Don't worry; the exam will be easy if you prepare well.",
+    "translation": "別擔心，只要你準備充分，考試會很簡單。",
+    "clue": "表示未來會發生的事",
+    "answerEntryId": "u28:will",
+    "distractorEntryIds": [
+     "u28:would",
+     "u28:may",
+     "u28:must"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I ___ be twelve years old next month.",
+     "fullSentence": "I will be twelve years old next month.",
+     "translation": "我下個月就滿十二歲了。",
+     "clue": "未來時間 next month",
+     "answerEntryId": "u28:will",
+     "distractorEntryIds": [
+      "u28:would",
+      "u28:was",
+      "u28:is"
+     ]
+    },
+    {
+     "sentence": "___ you marry me? — Yes, of course!",
+     "fullSentence": "will you marry me? — Yes, of course!",
+     "translation": "你願意嫁給我嗎？——當然願意！",
+     "clue": "will 開頭問意願",
+     "answerEntryId": "u28:will",
+     "distractorEntryIds": [
+      "u28:would",
+      "u28:may",
+      "u28:must"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "I promise I ___ return your comic book tomorrow.",
+     "fullSentence": "I promise I will return your comic book tomorrow.",
+     "translation": "我保證明天會把你的漫畫書還你。",
+     "clue": "承諾的「會」",
+     "answerEntryId": "u28:will",
+     "distractorEntryIds": [
+      "u28:would",
+      "u28:may",
+      "u28:must"
+     ]
+    },
+    {
+     "sentence": "If it rains tomorrow, the picnic ___ be canceled.",
+     "fullSentence": "If it rains tomorrow, the picnic will be canceled.",
+     "translation": "如果明天下雨，野餐就會取消。",
+     "clue": "條件句的未來結果",
+     "answerEntryId": "u28:will",
+     "distractorEntryIds": [
+      "u28:would",
+      "u28:may",
+      "u28:can"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Take an umbrella; it ___ probably rain this evening.",
+    "fullSentence": "Take an umbrella; it will probably rain this evening.",
+    "translation": "帶把傘，今天傍晚可能會下雨。",
+    "clue": "預測即將發生的事",
+    "answerEntryId": "u28:will",
+    "distractorEntryIds": [
+     "u28:would",
+     "u28:may",
+     "u28:must"
+    ]
+   }
+  },
+  {
+   "entryId": "u28:would",
+   "zh": "將會；願意（ will 的過去式，或客氣的邀請）",
+   "pos": "verb",
+   "example": "Would you like some more rice? — No, thanks. I'm full.",
+   "exampleZh": "再來點飯好嗎？——不用了，謝謝。我飽了。",
+   "spellingHint": "w-o-u-l-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "When we visited Hualien, Grandpa ___ always take us to the harbor.",
+    "fullSentence": "When we visited Hualien, Grandpa would always take us to the harbor.",
+    "translation": "我們去花蓮時，爺爺總是會帶我們去港口。",
+    "clue": "過去的習慣動作",
+    "answerEntryId": "u28:would",
+    "distractorEntryIds": [
+     "u28:will",
+     "u28:may",
+     "u28:must"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ you like to join us for dinner tonight?",
+     "fullSentence": "would you like to join us for dinner tonight?",
+     "translation": "你今晚想和我們一起吃晚餐嗎？",
+     "clue": "客氣邀請的開頭",
+     "answerEntryId": "u28:would",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:should"
+     ]
+    },
+    {
+     "sentence": "I ___ rather stay home and read than go shopping.",
+     "fullSentence": "I would rather stay home and read than go shopping.",
+     "translation": "我寧願待在家看書，也不想逛街。",
+     "clue": "would rather 表示「寧願」",
+     "answerEntryId": "u28:would",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She said she ___ call me as soon as she arrived.",
+     "fullSentence": "She said she would call me as soon as she arrived.",
+     "translation": "她說她一到就會打電話給我。",
+     "clue": "過去敘述中的未來",
+     "answerEntryId": "u28:would",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:may",
+      "u28:must"
+     ]
+    },
+    {
+     "sentence": "___ you mind closing the door? It's noisy outside.",
+     "fullSentence": "would you mind closing the door? It's noisy outside.",
+     "translation": "麻煩你關門好嗎？外面很吵。",
+     "clue": "Would you mind…? 客氣請求",
+     "answerEntryId": "u28:would",
+     "distractorEntryIds": [
+      "u28:will",
+      "u28:must",
+      "u28:should"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "If I had more free time, I ___ learn how to cook.",
+    "fullSentence": "If I had more free time, I would learn how to cook.",
+    "translation": "如果我有更多空閒時間，我會學做菜。",
+    "clue": "與現在事實相反的假設句",
+    "answerEntryId": "u28:would",
+    "distractorEntryIds": [
+     "u28:will",
+     "u28:may",
+     "u28:must"
+    ]
+   }
+  }
+ ]
+}

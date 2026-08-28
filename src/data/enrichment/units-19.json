@@ -1,0 +1,2500 @@
+{
+  "schemaVersion": 1,
+  "unit": "19",
+  "entries": [
+    {
+      "entryId": "u19:album",
+      "zh": "相簿；專輯",
+      "pos": "noun",
+      "example": "She put the photos into a new album.",
+      "exampleZh": "她把照片放進一本新相簿裡。",
+      "spellingHint": "a-l-b-u-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandpa keeps all his old pictures in a big ___.",
+        "fullSentence": "Grandpa keeps all his old pictures in a big album.",
+        "translation": "爺爺把他所有的舊照片保存在一本大相簿裡。",
+        "clue": "用來收藏照片的本子",
+        "answerEntryId": "u19:album",
+        "distractorEntryIds": [
+          "u19:memory",
+          "u19:invitation",
+          "u19:gift"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "After the trip, we printed the pictures and put them in an ___.",
+          "fullSentence": "After the trip, we printed the pictures and put them in an album.",
+          "translation": "旅行結束後，我們把照片印出來放進相簿裡。",
+          "clue": "裝照片的冊子",
+          "answerEntryId": "u19:album",
+          "distractorEntryIds": [
+            "u19:gift",
+            "u19:birthday",
+            "u19:vacation"
+          ]
+        },
+        {
+          "sentence": "My favorite singer will release a new ___ next month.",
+          "fullSentence": "My favorite singer will release a new album next month.",
+          "translation": "我最喜歡的歌手下個月要發行新專輯。",
+          "clue": "歌手發行的音樂作品集",
+          "answerEntryId": "u19:album",
+          "distractorEntryIds": [
+            "u19:party",
+            "u19:photo",
+            "u19:festival"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Mom showed me a photo ___ full of pictures of her childhood.",
+          "fullSentence": "Mom showed me a photo album full of pictures of her childhood.",
+          "translation": "媽媽給我看一本滿是她童年照片的相簿。",
+          "clue": "photo ___ 指收集照片的冊子",
+          "answerEntryId": "u19:album",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:custom"
+          ]
+        },
+        {
+          "sentence": "It took Dad three hours to put two hundred pictures into the ___.",
+          "fullSentence": "It took Dad three hours to put two hundred pictures into the album.",
+          "translation": "爸爸花了三小時才把兩百張照片放進相簿。",
+          "clue": "可以一頁頁放入許多照片的東西",
+          "answerEntryId": "u19:album",
+          "distractorEntryIds": [
+            "u19:memory",
+            "u19:holiday",
+            "u19:gift"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "An ___ keeps many pictures together in one book, page by page.",
+        "translation": "相簿把許多照片按頁收在同一本書裡。",
+        "clue": "一頁頁收藏照片的冊子",
+        "answerEntryId": "u19:album",
+        "distractorEntryIds": [
+          "u19:memory",
+          "u19:invitation",
+          "u19:culture"
+        ],
+        "fullSentence": "An album keeps many pictures together in one book, page by page."
+      }
+    },
+    {
+      "entryId": "u19:birthday",
+      "zh": "生日",
+      "pos": "noun",
+      "example": "My little sister's birthday is in May.",
+      "exampleZh": "我妹妹的生日在五月。",
+      "spellingHint": "b-i-r-t-h-d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She made a wish before blowing out the candles on her ___.",
+        "fullSentence": "She made a wish before blowing out the candles on her birthday.",
+        "translation": "她吹蠟燭許願來過生日。",
+        "clue": "吹蠟燭許願的日子",
+        "answerEntryId": "u19:birthday",
+        "distractorEntryIds": [
+          "u19:invitation",
+          "u19:holiday",
+          "u19:gift"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How old will you be on your next ___?",
+          "fullSentence": "How old will you be on your next birthday?",
+          "translation": "你下次生日時會幾歲？",
+          "clue": "一年一次、會長一歲的日子",
+          "answerEntryId": "u19:birthday",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:party",
+            "u19:gift"
+          ]
+        },
+        {
+          "sentence": "He invited ten friends to celebrate his ___.",
+          "fullSentence": "He invited ten friends to celebrate his birthday.",
+          "translation": "他邀請十個朋友來慶祝他的生日。",
+          "clue": "每個人出生那天、一年慶祝一次",
+          "answerEntryId": "u19:birthday",
+          "distractorEntryIds": [
+            "u19:vacation",
+            "u19:invitation",
+            "u19:party"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She wished for a puppy when she blew out the ___ candles.",
+          "fullSentence": "She wished for a puppy when she blew out the birthday candles.",
+          "translation": "她吹生日蠟燭時許願想要一隻小狗。",
+          "clue": "蛋糕上按年齡插的蠟燭",
+          "answerEntryId": "u19:birthday",
+          "distractorEntryIds": [
+            "u19:party",
+            "u19:gift",
+            "u19:invitation"
+          ]
+        },
+        {
+          "sentence": "Grandma always remembers the ___ of everyone in our family.",
+          "fullSentence": "Grandma always remembers the birthday of everyone in our family.",
+          "translation": "奶奶總是記得我們家每個人的生日。",
+          "clue": "每個人出生的紀念日",
+          "answerEntryId": "u19:birthday",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:memory",
+            "u19:party"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Your ___ comes on the same date every year and belongs only to you.",
+        "fullSentence": "Your birthday comes on the same date every year and belongs only to you.",
+        "translation": "你的生日每年都在同一天，而且只屬於你。",
+        "clue": "每年同一天、屬於個人的日子",
+        "answerEntryId": "u19:birthday",
+        "distractorEntryIds": [
+          "u19:party",
+          "u19:gift",
+          "u19:invitation"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:celebrate",
+      "zh": "慶祝",
+      "pos": "verb",
+      "example": "We celebrate Mom's birthday with a big dinner.",
+      "exampleZh": "我們用一頓豐盛的晚餐慶祝媽媽的生日。",
+      "spellingHint": "c-e-l-e-b-r-a-t-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "People ___ the New Year with fireworks at midnight.",
+        "fullSentence": "People celebrate the New Year with fireworks at midnight.",
+        "translation": "人們在午夜用煙火慶祝新年。",
+        "clue": "用歡樂活動紀念重要的日子",
+        "answerEntryId": "u19:celebrate",
+        "distractorEntryIds": [
+          "u13:prepare",
+          "u13:learn",
+          "u13:discuss"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "How do you ___ your birthday every year?",
+          "fullSentence": "How do you celebrate your birthday every year?",
+          "translation": "你每年都怎麼慶祝生日？",
+          "clue": "用派對或大餐歡度特別的日子",
+          "answerEntryId": "u19:celebrate",
+          "distractorEntryIds": [
+            "u13:study",
+            "u19:gift",
+            "u19:party"
+          ]
+        },
+        {
+          "sentence": "The whole family will ___ Grandpa's seventieth birthday this weekend.",
+          "fullSentence": "The whole family will celebrate Grandpa's seventieth birthday this weekend.",
+          "translation": "全家人這個週末要慶祝爺爺的七十歲生日。",
+          "clue": "為壽星舉辦活動同樂",
+          "answerEntryId": "u19:celebrate",
+          "distractorEntryIds": [
+            "u13:teach",
+            "u14:cook",
+            "u13:practice"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Every December, Christians around the world ___ the birth of Jesus at Christmas.",
+          "fullSentence": "Every December, Christians around the world celebrate the birth of Jesus at Christmas.",
+          "translation": "每年十二月，全世界的基督徒在聖誕節慶祝耶穌的誕生。",
+          "clue": "節日的目的就是歡慶紀念",
+          "answerEntryId": "u19:celebrate",
+          "distractorEntryIds": [
+            "u13:describe",
+            "u13:explain",
+            "u13:repeat"
+          ]
+        },
+        {
+          "sentence": "After winning the game, the players began to ___ in the locker room.",
+          "translation": "贏得比賽後，球員們開始在休息室裡慶祝。",
+          "clue": "獲勝後開心同樂的動作",
+          "answerEntryId": "u19:celebrate",
+          "distractorEntryIds": [
+            "u13:listen",
+            "u13:talk",
+            "u13:copy"
+          ],
+          "fullSentence": "After winning the game, the players began to celebrate in the locker room."
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Winning was not enough; the players wanted to ___ all night with music and dancing.",
+        "fullSentence": "Winning was not enough; the players wanted to celebrate all night with music and dancing.",
+        "translation": "贏球還不夠；球員們想用音樂和跳舞慶祝一整晚。",
+        "clue": "用音樂舞樂歡度整晚",
+        "answerEntryId": "u19:celebrate",
+        "distractorEntryIds": [
+          "u13:describe",
+          "u13:explain",
+          "u13:repeat"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Chinese New Year",
+      "zh": "農曆新年；春節",
+      "pos": "noun",
+      "example": "We eat dumplings and get red envelopes during Chinese New Year.",
+      "exampleZh": "我們在春節吃餃子、拿紅包。",
+      "spellingHint": "c-h-i-n-e-s-e n-e-w y-e-a-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "During ___, children receive red envelopes from their elders.",
+        "fullSentence": "During Chinese New Year, children receive red envelopes from their elders.",
+        "translation": "春節期間，孩子們會收到長輩給的紅包。",
+        "clue": "發紅包、吃年夜飯的節日",
+        "answerEntryId": "u19:Chinese New Year",
+        "distractorEntryIds": [
+          "u19:Moon Festival",
+          "u19:Dragon Boat Festival",
+          "u19:Lantern Festival"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is the most important traditional holiday for Chinese families.",
+          "fullSentence": "Chinese New Year is the most important traditional holiday for Chinese families.",
+          "translation": "春節是華人家庭最重要的傳統節日。",
+          "clue": "華人最重要的傳統節日",
+          "answerEntryId": "u19:Chinese New Year",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Thanksgiving",
+            "u19:Easter"
+          ]
+        },
+        {
+          "sentence": "Before ___, people clean their houses and put up spring couplets.",
+          "fullSentence": "Before Chinese New Year, people clean their houses and put up spring couplets.",
+          "translation": "春節前，人們打掃家裡並貼春聯。",
+          "clue": "大掃除、貼春聯都是為了這個節日",
+          "answerEntryId": "u19:Chinese New Year",
+          "distractorEntryIds": [
+            "u19:Halloween",
+            "u19:Valentine's Day",
+            "u19:Double Tenth Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "On the last night of ___, family members gather for a big reunion dinner.",
+          "fullSentence": "On the last night of Chinese New Year, family members gather for a big reunion dinner.",
+          "translation": "在春節的最後一晚，家人團聚吃豐盛的團圓飯。",
+          "clue": "有團圓飯、走春拜年的年節",
+          "answerEntryId": "u19:Chinese New Year",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:New Year's Eve",
+            "u19:Dragon Boat Festival"
+          ]
+        },
+        {
+          "sentence": "Students get a long winter break from school for ___, the biggest festival of the lunar year.",
+          "fullSentence": "Students get a long winter break from school for Chinese New Year, the biggest festival of the lunar year.",
+          "translation": "學生們為了農曆年中最盛大的春節，放了一個長長的寒假。",
+          "clue": "農曆年中最盛大的節日",
+          "answerEntryId": "u19:Chinese New Year",
+          "distractorEntryIds": [
+            "u19:Thanksgiving",
+            "u19:Moon Festival",
+            "u19:Christmas"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ ends with the Lantern Festival, when people carry glowing lanterns at night.",
+        "fullSentence": "The Chinese New Year ends with the Lantern Festival, when people carry glowing lanterns at night.",
+        "translation": "春節在元宵節結束，人們會在夜晚提著發亮的花燈。",
+        "clue": "以元宵節作結的節日是春節",
+        "answerEntryId": "u19:Chinese New Year",
+        "distractorEntryIds": [
+          "u19:Dragon Boat Festival",
+          "u19:Moon Festival",
+          "u19:Double Tenth Day"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Christmas",
+      "zh": "聖誕節",
+      "pos": "noun",
+      "example": "We decorated a tree for Christmas.",
+      "exampleZh": "我們為聖誕節佈置了一棵聖誕樹。",
+      "spellingHint": "c-h-r-i-s-t-m-a-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Children hope to find presents under the tree on ___ morning.",
+        "fullSentence": "Children hope to find presents under the tree on Christmas morning.",
+        "translation": "孩子們希望在聖誕節早晨在樹下找到禮物。",
+        "clue": "有聖誕樹與禮物的節日",
+        "answerEntryId": "u19:Christmas",
+        "distractorEntryIds": [
+          "u19:Easter",
+          "u19:Halloween",
+          "u19:Thanksgiving"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is on December 25 every year.",
+          "fullSentence": "Christmas is on December 25 every year.",
+          "translation": "聖誕節在每年的十二月二十五日。",
+          "clue": "十二月二十五日的西方節日",
+          "answerEntryId": "u19:Christmas",
+          "distractorEntryIds": [
+            "u19:Halloween",
+            "u19:Easter",
+            "u19:New Year's Day"
+          ]
+        },
+        {
+          "sentence": "My family sings carols together every ___.",
+          "fullSentence": "My family sings carols together every Christmas.",
+          "translation": "我家人每年聖誕節一起唱聖歌。",
+          "clue": "唱聖誕歌、慶祝耶穌誕生的節日",
+          "answerEntryId": "u19:Christmas",
+          "distractorEntryIds": [
+            "u19:Thanksgiving",
+            "u19:Valentine's Day",
+            "u19:Double Tenth Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Stores are full of lights and gifts before ___, the biggest holiday in December.",
+          "fullSentence": "Stores are full of lights and gifts before Christmas, the biggest holiday in December.",
+          "translation": "聖誕節前，商店裡到處是燈飾和禮物，它是十二月最重要的節日。",
+          "clue": "十二月最重要的節日",
+          "answerEntryId": "u19:Christmas",
+          "distractorEntryIds": [
+            "u19:New Year's Eve",
+            "u19:Easter",
+            "u19:Halloween"
+          ]
+        },
+        {
+          "sentence": "Santa Claus brings presents to good children on ___, according to the story.",
+          "fullSentence": "Santa Claus brings presents to good children on Christmas, according to the story.",
+          "translation": "照故事所說，聖誕老公公在聖誕節送禮物給乖孩子。",
+          "clue": "聖誕老公公出現的節日",
+          "answerEntryId": "u19:Christmas",
+          "distractorEntryIds": [
+            "u19:Easter",
+            "u19:Halloween",
+            "u19:Mother's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "On ___, children hang stockings by the fireplace for Santa to fill.",
+        "fullSentence": "On Christmas, children hang stockings by the fireplace for Santa to fill.",
+        "translation": "聖誕節時，孩子們在壁爐邊掛上襪子，讓聖誕老公公裝滿禮物。",
+        "clue": "聖誕老公公塞禮物進襪子的節日",
+        "answerEntryId": "u19:Christmas",
+        "distractorEntryIds": [
+          "u19:Easter",
+          "u19:Thanksgiving",
+          "u19:Halloween"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:congratulation",
+      "zh": "祝賀；恭喜",
+      "pos": "noun",
+      "example": "Please accept my congratulations on your graduation.",
+      "exampleZh": "請接受我對你畢業的祝賀。",
+      "spellingHint": "c-o-n-g-r-a-t-u-l-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She sent a card of ___ when her brother passed the exam.",
+        "fullSentence": "She sent a card of congratulation when her brother passed the exam.",
+        "translation": "她哥哥考試及格時，她寄了一張祝賀卡。",
+        "clue": "對通過考試表達的祝賀",
+        "answerEntryId": "u19:congratulation",
+        "distractorEntryIds": [
+          "u19:invitation",
+          "u19:memory",
+          "u19:gift"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Everyone said a word of ___ to Ben for winning the writing contest.",
+          "fullSentence": "Everyone said a word of congratulation to Ben for winning the writing contest.",
+          "translation": "大家向贏得寫作比賽的阿班說了一句祝賀的話。",
+          "clue": "對得獎者說的好話",
+          "answerEntryId": "u19:congratulation",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:party"
+          ]
+        },
+        {
+          "sentence": "Dad wrote a letter of ___ to the young pianist after her wonderful concert.",
+          "fullSentence": "Dad wrote a letter of congratulation to the young pianist after her wonderful concert.",
+          "translation": "年輕鋼琴家演奏會結束後，爸爸寫了一封祝賀信給她。",
+          "clue": "稱讚演出成功的信",
+          "answerEntryId": "u19:congratulation",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:gift",
+            "u19:custom"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The principal gave a speech of ___ to the winning team.",
+          "fullSentence": "The principal gave a speech of congratulation to the winning team.",
+          "translation": "校長對獲勝的隊伍發表祝賀演說。",
+          "clue": "校長致詞祝賀得勝隊伍",
+          "answerEntryId": "u19:congratulation",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:culture"
+          ]
+        },
+        {
+          "sentence": "Instead of a present, he wrote a note of ___ for his teacher's award.",
+          "fullSentence": "Instead of a present, he wrote a note of congratulation for his teacher's award.",
+          "translation": "他沒有送禮物，而是為老師得獎寫了一張祝賀卡。",
+          "clue": "祝賀的文字，不是禮物",
+          "answerEntryId": "u19:congratulation",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:photo"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "A ___ praises someone for a success, while an invitation asks someone to come to an event.",
+        "fullSentence": "A congratulation praises someone for a success, while an invitation asks someone to come to an event.",
+        "translation": "祝賀是為別人的成功稱讚他，邀請函則是請別人來參加活動。",
+        "clue": "為成功稱讚他人的話語",
+        "answerEntryId": "u19:congratulation",
+        "distractorEntryIds": [
+          "u19:memory",
+          "u19:gift",
+          "u19:custom"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:culture",
+      "zh": "文化",
+      "pos": "noun",
+      "example": "Studying abroad helped me understand another culture.",
+      "exampleZh": "出國留學幫助我了解另一種文化。",
+      "spellingHint": "c-u-l-t-u-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Special days, food, and language are all parts of a country's ___.",
+        "fullSentence": "Special days, food, and language are all parts of a country's culture.",
+        "translation": "節慶、食物和語言都是一國文化的一部分。",
+        "clue": "節慶、飲食、語言的總稱",
+        "answerEntryId": "u19:culture",
+        "distractorEntryIds": [
+          "u19:custom",
+          "u19:memory",
+          "u19:holiday"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Food and special days show a lot about a country's ___.",
+          "fullSentence": "Food and special days show a lot about a country's culture.",
+          "translation": "食物和節慶能展現一個國家的文化。",
+          "clue": "一個民族生活方式的總稱",
+          "answerEntryId": "u19:culture",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:holiday",
+            "u19:vacation"
+          ]
+        },
+        {
+          "sentence": "We learned about Japanese ___ by wearing yukata at the event.",
+          "fullSentence": "We learned about Japanese culture by wearing yukata at the event.",
+          "translation": "我們在活動中穿浴衣，體驗日本文化。",
+          "clue": "透過體驗認識的生活與傳統",
+          "answerEntryId": "u19:culture",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:festival",
+            "u19:invitation"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Exchange students live with local families to experience the ___ up close.",
+          "fullSentence": "Exchange students live with local families to experience the culture up close.",
+          "translation": "交換學生住在當地家庭，近距離體驗當地文化。",
+          "clue": "長期生活才能體驗的整體風俗",
+          "answerEntryId": "u19:culture",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:festival",
+            "u19:vacation"
+          ]
+        },
+        {
+          "sentence": "There is a big difference between the ___ of the East and the West.",
+          "fullSentence": "There is a big difference between the culture of the East and the West.",
+          "translation": "東西方文化有很大的差異。",
+          "clue": "東西方整體生活方式的差異",
+          "answerEntryId": "u19:culture",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:memory",
+            "u19:holiday"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Tea ceremonies, calligraphy, and old stories together form traditional Chinese ___.",
+        "fullSentence": "Tea ceremonies, calligraphy, and old stories together form traditional Chinese culture.",
+        "translation": "茶道、書法和古老故事共同形成傳統的中華文化。",
+        "clue": "許多事物合起來構成的整體",
+        "answerEntryId": "u19:culture",
+        "distractorEntryIds": [
+          "u19:custom",
+          "u19:memory",
+          "u19:holiday"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:custom",
+      "zh": "習俗；風俗",
+      "pos": "noun",
+      "example": "It is a custom to eat rice cakes on New Year's Day in Japan.",
+      "exampleZh": "在日本，新年吃麻糬是一種習俗。",
+      "spellingHint": "c-u-s-t-o-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "In Taiwan, it is a common ___ to set off firecrackers during big celebrations.",
+        "fullSentence": "In Taiwan, it is a common custom to set off firecrackers during big celebrations.",
+        "translation": "在台灣，盛大慶典時放鞭炮是一種常見的習俗。",
+        "clue": "流傳下來的常見做法",
+        "answerEntryId": "u19:custom",
+        "distractorEntryIds": [
+          "u19:culture",
+          "u19:memory",
+          "u19:holiday"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Wearing red is a ___ for good luck during Chinese New Year.",
+          "fullSentence": "Wearing red is a custom for good luck during Chinese New Year.",
+          "translation": "春節穿紅色是求好運的習俗。",
+          "clue": "代代相傳的做法",
+          "answerEntryId": "u19:custom",
+          "distractorEntryIds": [
+            "u19:culture",
+            "u19:gift",
+            "u19:festival"
+          ]
+        },
+        {
+          "sentence": "Each country has its own ___ at the dinner table.",
+          "fullSentence": "Each country has its own custom at the dinner table.",
+          "translation": "每個國家在餐桌上都有自己的習俗。",
+          "clue": "特定場合的固定做法",
+          "answerEntryId": "u19:custom",
+          "distractorEntryIds": [
+            "u19:culture",
+            "u19:memory",
+            "u19:party"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "An old ___ says we should sweep away bad luck before the New Year.",
+          "fullSentence": "An old custom says we should sweep away bad luck before the New Year.",
+          "translation": "一項古老的習俗說我們應該在新年前掃除霉運。",
+          "clue": "流傳已久的做法",
+          "answerEntryId": "u19:custom",
+          "distractorEntryIds": [
+            "u19:culture",
+            "u19:festival",
+            "u19:invitation"
+          ]
+        },
+        {
+          "sentence": "Following local ___ shows respect when you visit another country.",
+          "fullSentence": "Following local custom shows respect when you visit another country.",
+          "translation": "拜訪別的國家時，遵守當地習俗是一種尊重。",
+          "clue": "入境隨俗指的是習俗",
+          "answerEntryId": "u19:custom",
+          "distractorEntryIds": [
+            "u19:culture",
+            "u19:holiday",
+            "u19:vacation"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Taking off your shoes before entering a Japanese home is a ___ that visitors should follow.",
+        "fullSentence": "Taking off your shoes before entering a Japanese home is a custom that visitors should follow.",
+        "translation": "進入日本人家裡前脫鞋，是訪客應該遵守的習俗。",
+        "clue": "單一、具體的固定做法",
+        "answerEntryId": "u19:custom",
+        "distractorEntryIds": [
+          "u19:culture",
+          "u19:memory",
+          "u19:holiday"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Double Tenth Day",
+      "zh": "雙十節；國慶日",
+      "pos": "noun",
+      "example": "We watched a parade on Double Tenth Day.",
+      "exampleZh": "我們在雙十節看遊行。",
+      "spellingHint": "d-o-u-b-l-e t-e-n-t-h d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "There is a big parade and fireworks on ___ in Taiwan.",
+        "fullSentence": "There is a big parade and fireworks on Double Tenth Day in Taiwan.",
+        "translation": "台灣在雙十節有大遊行和煙火。",
+        "clue": "十月十日舉行國慶遊行",
+        "answerEntryId": "u19:Double Tenth Day",
+        "distractorEntryIds": [
+          "u19:New Year's Day",
+          "u19:Moon Festival",
+          "u19:Teacher's Day"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is Taiwan's national day, on October 10.",
+          "fullSentence": "Double Tenth Day is Taiwan's national day, on October 10.",
+          "translation": "雙十節是台灣的國慶日，在十月十日。",
+          "clue": "十月十日的國慶日",
+          "answerEntryId": "u19:Double Tenth Day",
+          "distractorEntryIds": [
+            "u19:Teacher's Day",
+            "u19:New Year's Day",
+            "u19:Father's Day"
+          ]
+        },
+        {
+          "sentence": "On October 10, people in Taiwan celebrate ___, the birthday of their nation.",
+          "fullSentence": "On October 10, people in Taiwan celebrate Double Tenth Day, the birthday of their nation.",
+          "translation": "十月十日，台灣人民慶祝雙十節——國家的生日。",
+          "clue": "十月十日慶祝國家生日",
+          "answerEntryId": "u19:Double Tenth Day",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:New Year's Eve",
+            "u19:Lantern Festival"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Schools hold flag-raising ceremonies to celebrate ___, the founding of the Republic of China.",
+          "fullSentence": "Schools hold flag-raising ceremonies to celebrate Double Tenth Day, the founding of the Republic of China.",
+          "translation": "學校舉行升旗典禮慶祝雙十節，即中華民國的誕生。",
+          "clue": "紀念中華民國成立的國慶",
+          "answerEntryId": "u19:Double Tenth Day",
+          "distractorEntryIds": [
+            "u19:Teacher's Day",
+            "u19:New Year's Day",
+            "u19:Dragon Boat Festival"
+          ]
+        },
+        {
+          "sentence": "The ___ parade in front of the Presidential Office Building is broadcast live every October.",
+          "fullSentence": "The Double Tenth Day parade in front of the Presidential Office Building is broadcast live every October.",
+          "translation": "每年十月，總統府前的雙十節遊行都有現場轉播。",
+          "clue": "總統府前的國慶遊行",
+          "answerEntryId": "u19:Double Tenth Day",
+          "distractorEntryIds": [
+            "u19:New Year's Day",
+            "u19:Teacher's Day",
+            "u19:Moon Festival"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___, which falls on October 10, is also called the birthday of the Republic of China.",
+        "fullSentence": "Double Tenth Day, which falls on October 10, is also called the birthday of the Republic of China.",
+        "translation": "雙十節在十月十日，也被稱為中華民國的生日。",
+        "clue": "十月十日這天的國家慶典",
+        "answerEntryId": "u19:Double Tenth Day",
+        "distractorEntryIds": [
+          "u19:Teacher's Day",
+          "u19:Mother's Day",
+          "u19:New Year's Day"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Dragon Boat Festival",
+      "zh": "端午節",
+      "pos": "noun",
+      "example": "We eat rice dumplings at the Dragon Boat Festival.",
+      "exampleZh": "我們在端午節吃粽子。",
+      "spellingHint": "d-r-a-g-o-n b-o-a-t f-e-s-t-i-v-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Teams race long boats during the ___.",
+        "fullSentence": "Teams race long boats during the Dragon Boat Festival.",
+        "translation": "端午節時，各隊伍競划長舟。",
+        "clue": "划龍舟、吃粽子的節日",
+        "answerEntryId": "u19:Dragon Boat Festival",
+        "distractorEntryIds": [
+          "u19:Moon Festival",
+          "u19:Lantern Festival",
+          "u19:festival"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "People watch exciting boat races at the ___.",
+          "fullSentence": "People watch exciting boat races at the Dragon Boat Festival.",
+          "translation": "人們在端午節觀看刺激的划船比賽。",
+          "clue": "有龍舟競賽的傳統節日",
+          "answerEntryId": "u19:Dragon Boat Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Lantern Festival",
+            "u19:Chinese New Year"
+          ]
+        },
+        {
+          "sentence": "Grandma wraps rice dumplings every year for the ___.",
+          "fullSentence": "Grandma wraps rice dumplings every year for the Dragon Boat Festival.",
+          "translation": "奶奶每年為端午節包粽子。",
+          "clue": "吃粽子、紀念屈原的日子",
+          "answerEntryId": "u19:Dragon Boat Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Lantern Festival",
+            "u19:Double Tenth Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "On the fifth day of the fifth lunar month, families hang herbs and celebrate the ___.",
+          "fullSentence": "On the fifth day of the fifth lunar month, families hang herbs and celebrate the Dragon Boat Festival.",
+          "translation": "在農曆五月初五，家家掛艾草、慶祝端午節。",
+          "clue": "農曆五月五日的節日",
+          "answerEntryId": "u19:Dragon Boat Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Lantern Festival",
+            "u19:Chinese New Year"
+          ]
+        },
+        {
+          "sentence": "The drummer at the front of the boat beats the drum during the ___ races to keep the rowers together.",
+          "fullSentence": "The drummer at the front of the boat beats the drum during the Dragon Boat Festival races to keep the rowers together.",
+          "translation": "端午節龍舟賽時，鼓手在船頭擊鼓讓划手整齊一致。",
+          "clue": "龍舟賽的擊鼓場景",
+          "answerEntryId": "u19:Dragon Boat Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Lantern Festival",
+            "u19:festival"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "To remember the poet Qu Yuan, people throw rice dumplings into the river during the ___.",
+        "fullSentence": "To remember the poet Qu Yuan, people throw rice dumplings into the river during the Dragon Boat Festival.",
+        "translation": "為了紀念詩人屈原，人們在端午節把粽子丟進河裡。",
+        "clue": "紀念屈原、投粽入江的節日",
+        "answerEntryId": "u19:Dragon Boat Festival",
+        "distractorEntryIds": [
+          "u19:Moon Festival",
+          "u19:Lantern Festival",
+          "u19:Chinese New Year"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Easter",
+      "zh": "復活節",
+      "pos": "noun",
+      "example": "The children looked for colored eggs on Easter.",
+      "exampleZh": "孩子們在復活節找彩蛋。",
+      "spellingHint": "e-a-s-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, children hunt for colorful eggs hidden in the garden.",
+        "fullSentence": "On Easter, children hunt for colorful eggs hidden in the garden.",
+        "translation": "復活節時，孩子們在花園裡尋找藏起來的彩蛋。",
+        "clue": "找彩蛋的節日",
+        "answerEntryId": "u19:Easter",
+        "distractorEntryIds": [
+          "u19:Halloween",
+          "u19:Christmas",
+          "u19:Thanksgiving"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a spring holiday with eggs and bunnies.",
+          "fullSentence": "Easter is a spring holiday with eggs and bunnies.",
+          "translation": "復活節是春天有彩蛋和兔子的節日。",
+          "clue": "彩蛋與兔子的春天節日",
+          "answerEntryId": "u19:Easter",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Halloween",
+            "u19:Valentine's Day"
+          ]
+        },
+        {
+          "sentence": "We paint eggs with bright colors before ___ every year.",
+          "fullSentence": "We paint eggs with bright colors before Easter every year.",
+          "translation": "我們每年復活節前把蛋塗上鮮豔的顏色。",
+          "clue": "畫彩蛋是為了復活節",
+          "answerEntryId": "u19:Easter",
+          "distractorEntryIds": [
+            "u19:Halloween",
+            "u19:Thanksgiving",
+            "u19:Mother's Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Christians go to church on ___ to remember the resurrection of Jesus.",
+          "fullSentence": "Christians go to church on Easter to remember the resurrection of Jesus.",
+          "translation": "基督徒在復活節上教會紀念耶穌復活。",
+          "clue": "紀念耶穌復活的節日",
+          "answerEntryId": "u19:Easter",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Thanksgiving",
+            "u19:Halloween"
+          ]
+        },
+        {
+          "sentence": "The teacher hid chocolate eggs around the classroom for our ___ party.",
+          "fullSentence": "The teacher hid chocolate eggs around the classroom for our Easter party.",
+          "translation": "老師為了我們的復活節派對在教室裡藏了巧克力蛋。",
+          "clue": "找蛋遊戲屬於復活節",
+          "answerEntryId": "u19:Easter",
+          "distractorEntryIds": [
+            "u19:Halloween",
+            "u19:Christmas",
+            "u19:Valentine's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Children wake up early to find candy left by the bunny during ___, the day Christians mark the resurrection of Jesus.",
+        "fullSentence": "Children wake up early to find candy left by the bunny during Easter, the day Christians mark the resurrection of Jesus.",
+        "translation": "復活節這天，孩子們一早起來找兔子留下的糖果，這也是基督徒紀念耶穌復活的日子。",
+        "clue": "兔子送糖、紀念耶穌復活的日子",
+        "answerEntryId": "u19:Easter",
+        "distractorEntryIds": [
+          "u19:Halloween",
+          "u19:Christmas",
+          "u19:Thanksgiving"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Father's Day",
+      "zh": "父親節",
+      "pos": "noun",
+      "example": "I gave Dad a card on Father's Day.",
+      "exampleZh": "父親節那天我送給爸爸一張卡片。",
+      "spellingHint": "f-a-t-h-e-r-s d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, the kids made breakfast for their dad.",
+        "fullSentence": "On Father's Day, the kids made breakfast for their dad.",
+        "translation": "父親節那天，孩子們為爸爸做早餐。",
+        "clue": "感謝爸爸的節日",
+        "answerEntryId": "u19:Father's Day",
+        "distractorEntryIds": [
+          "u19:Mother's Day",
+          "u19:Teacher's Day",
+          "u19:Valentine's Day"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a day to thank our dads.",
+          "fullSentence": "Father's Day is a day to thank our dads.",
+          "translation": "父親節是感謝爸爸的日子。",
+          "clue": "屬於爸爸的節日",
+          "answerEntryId": "u19:Father's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Teacher's Day",
+            "u19:New Year's Day"
+          ]
+        },
+        {
+          "sentence": "We bought a tie for Dad to celebrate ___.",
+          "fullSentence": "We bought a tie for Dad to celebrate Father's Day.",
+          "translation": "我們買了一條領帶給爸爸慶祝父親節。",
+          "clue": "送禮給爸爸的節日",
+          "answerEntryId": "u19:Father's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Halloween",
+            "u19:Easter"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "My brother washed the car for Dad because it was ___.",
+          "fullSentence": "My brother washed the car for Dad because it was Father's Day.",
+          "translation": "因為是父親節，我哥哥幫爸爸洗車。",
+          "clue": "為爸爸做事的節日",
+          "answerEntryId": "u19:Father's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Teacher's Day",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "In Taiwan, ___ falls on August 8, so people call it the Double Eighth.",
+          "fullSentence": "In Taiwan, Father's Day falls on August 8, so people call it the Double Eighth.",
+          "translation": "在台灣，父親節在八月八日，所以被稱為八八節。",
+          "clue": "台灣八月八日的節日",
+          "answerEntryId": "u19:Father's Day",
+          "distractorEntryIds": [
+            "u19:Teacher's Day",
+            "u19:Mother's Day",
+            "u19:Double Tenth Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "On ___, the children washed Dad's car and made him a thank-you card.",
+        "translation": "父親節那天，孩子們幫爸爸洗車，並做了一張感謝卡給他。",
+        "clue": "受感謝的人是爸爸",
+        "answerEntryId": "u19:Father's Day",
+        "distractorEntryIds": [
+          "u19:Mother's Day",
+          "u19:Teacher's Day",
+          "u19:Valentine's Day"
+        ],
+        "fullSentence": "On Father's Day, the children washed Dad's car and made him a thank-you card."
+      }
+    },
+    {
+      "entryId": "u19:festival",
+      "zh": "節日；節慶",
+      "pos": "noun",
+      "example": "The town holds a music festival every summer.",
+      "exampleZh": "這個小鎮每年夏天舉辦音樂節。",
+      "spellingHint": "f-e-s-t-i-v-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ with glowing lantern displays is one of the most colorful nights of the year.",
+        "translation": "滿是花燈的節慶是一年中最繽紛的夜晚之一。",
+        "clue": "燈會所屬的節慶類型",
+        "answerEntryId": "u19:festival",
+        "distractorEntryIds": [
+          "u19:holiday",
+          "u19:vacation",
+          "u19:party"
+        ],
+        "fullSentence": "The festival with glowing lantern displays is one of the most colorful nights of the year."
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The town had a big ___ with parades, music, and dancing in the streets.",
+          "fullSentence": "The town had a big festival with parades, music, and dancing in the streets.",
+          "translation": "小鎮舉辦了盛大的節慶，街上有遊行、音樂和舞蹈。",
+          "clue": "有遊行與表演的盛大慶典",
+          "answerEntryId": "u19:festival",
+          "distractorEntryIds": [
+            "u19:party",
+            "u19:holiday",
+            "u19:invitation"
+          ]
+        },
+        {
+          "sentence": "Which traditional ___ do you like best, Dragon Boat or Mid-Autumn?",
+          "fullSentence": "Which traditional festival do you like best, Dragon Boat or Mid-Autumn?",
+          "translation": "你最喜歡哪個傳統節日，端午節還是中秋節？",
+          "clue": "節日的統稱",
+          "answerEntryId": "u19:festival",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:culture",
+            "u19:party"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "During the ___ , people wear costumes and dance through the streets all night.",
+          "fullSentence": "During the festival , people wear costumes and dance through the streets all night.",
+          "translation": "節慶期間，人們穿著服裝整夜在街上跳舞。",
+          "clue": "持續慶祝、有活動的日子",
+          "answerEntryId": "u19:festival",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:vacation",
+            "u19:custom"
+          ]
+        },
+        {
+          "sentence": "Every autumn, the village holds a harvest ___ to thank the land.",
+          "fullSentence": "Every autumn, the village holds a harvest festival to thank the land.",
+          "translation": "每年秋天，村莊舉行豐收節來感謝土地。",
+          "clue": "為豐收舉辦的慶典",
+          "answerEntryId": "u19:festival",
+          "distractorEntryIds": [
+            "u19:party",
+            "u19:holiday",
+            "u19:invitation"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Every spring the town holds a three-day ___ with boat races, music, and street food.",
+        "translation": "每年春天，小鎮舉辦為期三天的節慶，有划船比賽、音樂和街頭小吃。",
+        "clue": "持續數日、有活動表演的盛大慶典",
+        "answerEntryId": "u19:festival",
+        "distractorEntryIds": [
+          "u19:holiday",
+          "u19:vacation",
+          "u19:custom"
+        ],
+        "fullSentence": "Every spring the town holds a three-day festival with boat races, music, and street food."
+      }
+    },
+    {
+      "entryId": "u19:gift",
+      "zh": "禮物",
+      "pos": "noun",
+      "example": "She opened her gifts on Christmas morning.",
+      "exampleZh": "她在聖誕節早晨打開了禮物。",
+      "spellingHint": "g-i-f-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mom wrapped the ___ in colorful paper and put it under the tree.",
+        "fullSentence": "Mom wrapped the gift in colorful paper and put it under the tree.",
+        "translation": "媽媽把禮物包上彩色包裝紙，放在樹下。",
+        "clue": "包起來送人的東西",
+        "answerEntryId": "u19:gift",
+        "distractorEntryIds": [
+          "u19:invitation",
+          "u19:memory",
+          "u19:photo"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Thank you for the wonderful ___! I love it.",
+          "fullSentence": "Thank you for the wonderful gift! I love it.",
+          "translation": "謝謝你送的美好禮物！我好喜歡。",
+          "clue": "別人送給你的東西",
+          "answerEntryId": "u19:gift",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:party",
+            "u19:photo"
+          ]
+        },
+        {
+          "sentence": "What ___ should we buy for Grandma's birthday?",
+          "fullSentence": "What gift should we buy for Grandma's birthday?",
+          "translation": "我們該買什麼禮物給奶奶當生日禮物？",
+          "clue": "買來送人的東西",
+          "answerEntryId": "u19:gift",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:holiday"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Red envelopes are a special ___ from elders to children at New Year.",
+          "fullSentence": "Red envelopes are a special gift from elders to children at New Year.",
+          "translation": "紅包是過年時長輩給孩子的特別禮物。",
+          "clue": "長輩贈送的東西",
+          "answerEntryId": "u19:gift",
+          "distractorEntryIds": [
+            "u19:custom",
+            "u19:invitation",
+            "u19:memory"
+          ]
+        },
+        {
+          "sentence": "She thanked him with a small ___ for helping her move.",
+          "fullSentence": "She thanked him with a small gift for helping her move.",
+          "translation": "她送了一份小禮物感謝他幫忙搬家。",
+          "clue": "用來表達謝意的物品",
+          "answerEntryId": "u19:gift",
+          "distractorEntryIds": [
+            "u19:invitation",
+            "u19:memory",
+            "u19:photo"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Grandma smiled as she unwrapped the ___ and found a warm scarf inside.",
+        "translation": "奶奶一邊拆禮物一邊微笑，發現裡面是一條溫暖的圍巾。",
+        "clue": "拆開包裝後裡面有東西的物品",
+        "answerEntryId": "u19:gift",
+        "distractorEntryIds": [
+          "u19:invitation",
+          "u19:photo",
+          "u19:album"
+        ],
+        "fullSentence": "Grandma smiled as she unwrapped the gift and found a warm scarf inside."
+      }
+    },
+    {
+      "entryId": "u19:Halloween",
+      "zh": "萬聖節",
+      "pos": "noun",
+      "example": "Kids wear costumes and go trick-or-treating on Halloween.",
+      "exampleZh": "孩子們在萬聖節變裝去要糖果。",
+      "spellingHint": "h-a-l-l-o-w-e-e-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, children knock on doors and shout trick or treat.",
+        "fullSentence": "On Halloween, children knock on doors and shout trick or treat.",
+        "translation": "萬聖節時，孩子們敲門喊著「不給糖就搗蛋」。",
+        "clue": "要糖、變裝的節日",
+        "answerEntryId": "u19:Halloween",
+        "distractorEntryIds": [
+          "u19:Christmas",
+          "u19:Easter",
+          "u19:Thanksgiving"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is on October 31 every year.",
+          "fullSentence": "Halloween is on October 31 every year.",
+          "translation": "萬聖節在每年的十月三十一日。",
+          "clue": "十月三十一日的節日",
+          "answerEntryId": "u19:Halloween",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Easter",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "We carved a scary face into a pumpkin for ___.",
+          "fullSentence": "We carved a scary face into a pumpkin for Halloween.",
+          "translation": "我們為萬聖節在南瓜上刻了一張可怕的臉。",
+          "clue": "做南瓜燈的節日",
+          "answerEntryId": "u19:Halloween",
+          "distractorEntryIds": [
+            "u19:Thanksgiving",
+            "u19:Christmas",
+            "u19:Easter"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Everyone wore witches and ghost costumes to the ___ party.",
+          "fullSentence": "Everyone wore witches and ghost costumes to the Halloween party.",
+          "translation": "大家穿著女巫和鬼怪的服裝去參加萬聖節派對。",
+          "clue": "扮鬼怪服裝的派對",
+          "answerEntryId": "u19:Halloween",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Easter",
+            "u19:Valentine's Day"
+          ]
+        },
+        {
+          "sentence": "People decorate their houses with black cats and spiders for ___.",
+          "fullSentence": "People decorate their houses with black cats and spiders for Halloween.",
+          "translation": "人們用黑貓和蜘蛛裝飾房子迎接萬聖節。",
+          "clue": "以怪異裝飾聞名的節日",
+          "answerEntryId": "u19:Halloween",
+          "distractorEntryIds": [
+            "u19:Thanksgiving",
+            "u19:Christmas",
+            "u19:New Year's Eve"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Costumed children go door to door shouting trick or treat on ___ , when carved pumpkins glow on the porches.",
+        "translation": "萬聖節時，變裝的孩子們挨家挨戶喊著不給糖就搗蛋，門廊上的南瓜燈發著光。",
+        "clue": "不給糖就搗蛋、南瓜燈的夜晚",
+        "answerEntryId": "u19:Halloween",
+        "distractorEntryIds": [
+          "u19:Easter",
+          "u19:Christmas",
+          "u19:Thanksgiving"
+        ],
+        "fullSentence": "Costumed children go door to door shouting trick or treat on Halloween , when carved pumpkins glow on the porches."
+      }
+    },
+    {
+      "entryId": "u19:holiday",
+      "zh": "假日；節日",
+      "pos": "noun",
+      "example": "Schools are closed on national holidays.",
+      "exampleZh": "國定假日學校不上課。",
+      "spellingHint": "h-o-l-i-d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Banks and schools are closed because tomorrow is a national ___.",
+        "fullSentence": "Banks and schools are closed because tomorrow is a national holiday.",
+        "translation": "銀行和學校都放假，因為明天是國定假日。",
+        "clue": "全國放假的法定日子",
+        "answerEntryId": "u19:holiday",
+        "distractorEntryIds": [
+          "u19:vacation",
+          "u19:festival",
+          "u19:party"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "What are you doing during the winter ___?",
+          "fullSentence": "What are you doing during the winter holiday?",
+          "translation": "寒假假期你打算做什麼？",
+          "clue": "不用上學的放假日子",
+          "answerEntryId": "u19:holiday",
+          "distractorEntryIds": [
+            "u19:vacation",
+            "u19:party",
+            "u19:festival"
+          ]
+        },
+        {
+          "sentence": "Merry ___! Everyone shouted with joy.",
+          "fullSentence": "Merry holiday! Everyone shouted with joy.",
+          "translation": "「節日快樂！」大家開心地喊著。",
+          "clue": "祝福語中指歡樂的節日",
+          "answerEntryId": "u19:holiday",
+          "distractorEntryIds": [
+            "u19:vacation",
+            "u19:festival",
+            "u19:memory"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Christmas is the biggest ___ of the year in many Western countries.",
+          "fullSentence": "Christmas is the biggest holiday of the year in many Western countries.",
+          "translation": "聖誕節是許多西方國家一年中最大的節日。",
+          "clue": "聖誕節被歸類為全國放假的日子",
+          "answerEntryId": "u19:holiday",
+          "distractorEntryIds": [
+            "u19:festival",
+            "u19:vacation",
+            "u19:custom"
+          ]
+        },
+        {
+          "sentence": "We have three days off because a national ___ starts tomorrow.",
+          "translation": "我們放三天假，因為國定假日明天開始。",
+          "clue": "放假開始的日子",
+          "answerEntryId": "u19:holiday",
+          "distractorEntryIds": [
+            "u19:vacation",
+            "u19:festival",
+            "u19:party"
+          ],
+          "fullSentence": "We have three days off because a national holiday starts tomorrow."
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The post office is closed tomorrow because it is a national ___.",
+        "translation": "郵局明天不營業，因為那天是國定假日。",
+        "clue": "全國統一放假的日子",
+        "answerEntryId": "u19:holiday",
+        "distractorEntryIds": [
+          "u19:vacation",
+          "u19:festival",
+          "u19:party"
+        ],
+        "fullSentence": "The post office is closed tomorrow because it is a national holiday."
+      }
+    },
+    {
+      "entryId": "u19:invitation",
+      "zh": "邀請函；邀請",
+      "pos": "noun",
+      "example": "We got an invitation to Amy's wedding.",
+      "exampleZh": "我們收到艾米婚禮的邀請函。",
+      "spellingHint": "i-n-v-i-t-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She sent each friend an ___ to her birthday party.",
+        "fullSentence": "She sent each friend an invitation to her birthday party.",
+        "translation": "她寄給每個朋友一張生日派對的邀請函。",
+        "clue": "請人來參加派對的卡片",
+        "answerEntryId": "u19:invitation",
+        "distractorEntryIds": [
+          "u19:congratulation",
+          "u19:memory",
+          "u19:gift"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Did you get an ___ to the school dance?",
+          "fullSentence": "Did you get an invitation to the school dance?",
+          "translation": "你收到學校舞會的邀請了嗎？",
+          "clue": "請你參加活動的卡片或訊息",
+          "answerEntryId": "u19:invitation",
+          "distractorEntryIds": [
+            "u19:congratulation",
+            "u19:gift",
+            "u19:memory"
+          ]
+        },
+        {
+          "sentence": "The wedding ___ had a beautiful gold design.",
+          "fullSentence": "The wedding invitation had a beautiful gold design.",
+          "translation": "婚禮邀請函上有漂亮的金色圖案。",
+          "clue": "通知婚禮的卡片",
+          "answerEntryId": "u19:invitation",
+          "distractorEntryIds": [
+            "u19:congratulation",
+            "u19:photo",
+            "u19:album"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Please reply to the ___ by Friday so we know how many people are coming.",
+          "fullSentence": "Please reply to the invitation by Friday so we know how many people are coming.",
+          "translation": "請在星期五前回覆邀請，這樣我們才知道有多少人會來。",
+          "clue": "需要回覆的邀請卡",
+          "answerEntryId": "u19:invitation",
+          "distractorEntryIds": [
+            "u19:congratulation",
+            "u19:custom",
+            "u19:memory"
+          ]
+        },
+        {
+          "sentence": "He was proud to receive an ___ to speak at the conference.",
+          "fullSentence": "He was proud to receive an invitation to speak at the conference.",
+          "translation": "他很榮幸收到在研討會上演講的邀請。",
+          "clue": "受邀去演講",
+          "answerEntryId": "u19:invitation",
+          "distractorEntryIds": [
+            "u19:congratulation",
+            "u19:gift",
+            "u19:photo"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Two weeks before the wedding, every guest received a card telling them the time and place; it was an ___.",
+        "translation": "婚禮兩週前，每位賓客都收到一張寫明時間地點的卡片，那就是邀請函。",
+        "clue": "告知活動時間地點的卡片",
+        "answerEntryId": "u19:invitation",
+        "distractorEntryIds": [
+          "u19:congratulation",
+          "u19:memory",
+          "u19:gift"
+        ],
+        "fullSentence": "Two weeks before the wedding, every guest received a card telling them the time and place; it was an invitation."
+      }
+    },
+    {
+      "entryId": "u19:Lantern Festival",
+      "zh": "元宵節",
+      "pos": "noun",
+      "example": "We saw beautiful lanterns at the Lantern Festival.",
+      "exampleZh": "我們在元宵節看到漂亮的花燈。",
+      "spellingHint": "l-a-n-t-e-r-n f-e-s-t-i-v-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "People carry glowing lanterns in the streets during the ___.",
+        "fullSentence": "People carry glowing lanterns in the streets during the Lantern Festival.",
+        "translation": "元宵節時，人們提著發亮的花燈走在街上。",
+        "clue": "提花燈、賞燈的節日",
+        "answerEntryId": "u19:Lantern Festival",
+        "distractorEntryIds": [
+          "u19:Dragon Boat Festival",
+          "u19:Moon Festival",
+          "u19:Chinese New Year"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "On the ___ , children walk with colorful lanterns at night.",
+          "fullSentence": "On the Lantern Festival , children walk with colorful lanterns at night.",
+          "translation": "元宵節夜晚，孩子們提著彩色燈籠散步。",
+          "clue": "夜晚提燈籠的節日",
+          "answerEntryId": "u19:Lantern Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Dragon Boat Festival",
+            "u19:Halloween"
+          ]
+        },
+        {
+          "sentence": "We ate sweet rice balls called tangyuan at the ___.",
+          "fullSentence": "We ate sweet rice balls called tangyuan at the Lantern Festival.",
+          "translation": "我們在元宵節吃了叫湯圓的甜糯米糰。",
+          "clue": "吃湯圓、賞燈的節日",
+          "answerEntryId": "u19:Lantern Festival",
+          "distractorEntryIds": [
+            "u19:Dragon Boat Festival",
+            "u19:Moon Festival",
+            "u19:Chinese New Year"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ marks the end of the New Year celebrations with lantern riddles and shows.",
+          "fullSentence": "The Lantern Festival marks the end of the New Year celebrations with lantern riddles and shows.",
+          "translation": "元宵節以燈謎和表演為新年慶祝活動畫下句點。",
+          "clue": "新年慶典的最後一天",
+          "answerEntryId": "u19:Lantern Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Dragon Boat Festival",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "Thousands of visitors come to Pingxi to release sky lanterns during the ___.",
+          "fullSentence": "Thousands of visitors come to Pingxi to release sky lanterns during the Lantern Festival.",
+          "translation": "元宵節時，成千上萬的遊客到平溪放天燈。",
+          "clue": "放天燈的節日",
+          "answerEntryId": "u19:Lantern Festival",
+          "distractorEntryIds": [
+            "u19:Moon Festival",
+            "u19:Dragon Boat Festival",
+            "u19:Chinese New Year"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Fifteen days after New Year's Day comes the ___ , when the first full moon of the year shines.",
+        "fullSentence": "Fifteen days after New Year's Day comes the Lantern Festival , when the first full moon of the year shines.",
+        "translation": "新正月初一之後十五天就是元宵節，那晚是一年中第一個滿月。",
+        "clue": "新年後第十五天的滿月節日",
+        "answerEntryId": "u19:Lantern Festival",
+        "distractorEntryIds": [
+          "u19:Moon Festival",
+          "u19:Dragon Boat Festival",
+          "u19:Double Tenth Day"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:memory",
+      "zh": "回憶；記憶",
+      "pos": "noun",
+      "example": "The old song brought back sweet memories.",
+      "exampleZh": "這首老歌喚起了甜美的回憶。",
+      "spellingHint": "m-e-m-o-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Looking at the old pictures brought back a happy ___.",
+        "fullSentence": "Looking at the old pictures brought back a happy memory.",
+        "translation": "看著舊照片喚起了一段快樂的回憶。",
+        "clue": "照片讓人想起的往事",
+        "answerEntryId": "u19:memory",
+        "distractorEntryIds": [
+          "u19:album",
+          "u19:gift",
+          "u19:invitation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I keep this necklace to remember my trip; it holds a special ___.",
+          "fullSentence": "I keep this necklace to remember my trip; it holds a special memory.",
+          "translation": "我留著這條項鍊紀念我的旅行，它保存了一段特別的回憶。",
+          "clue": "紀念品承載的往事",
+          "answerEntryId": "u19:memory",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:photo",
+            "u19:custom"
+          ]
+        },
+        {
+          "sentence": "She has a great ___ for names; she never forgets anyone.",
+          "fullSentence": "She has a great memory for names; she never forgets anyone.",
+          "translation": "她對名字的記性很好，從不忘記任何人。",
+          "clue": "記住事情的能力",
+          "answerEntryId": "u19:memory",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:photo",
+            "u19:party"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The graduation photos will become a precious ___ in the future.",
+          "fullSentence": "The graduation photos will become a precious memory in the future.",
+          "translation": "畢業照片將來會成為珍貴的回憶。",
+          "clue": "照片將來變成的東西",
+          "answerEntryId": "u19:memory",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:photo",
+            "u19:gift"
+          ]
+        },
+        {
+          "sentence": "Grandpa told us stories from his childhood ___ of the farm.",
+          "fullSentence": "Grandpa told us stories from his childhood memory of the farm.",
+          "translation": "爺爺告訴我們他童年對農場的回憶。",
+          "clue": "腦中保存的往事",
+          "answerEntryId": "u19:memory",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:culture",
+            "u19:custom"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ faded over the years, so Grandpa wrote it down in a diary before he forgot.",
+        "fullSentence": "The memory faded over the years, so Grandpa wrote it down in a diary before he forgot.",
+        "translation": "那段回憶隨著歲月淡去，爺爺便在忘記前寫進日記裡。",
+        "clue": "會隨時間淡去、需要寫下的往事",
+        "answerEntryId": "u19:memory",
+        "distractorEntryIds": [
+          "u19:album",
+          "u19:photo",
+          "u19:invitation"
+        ]
+      }
+    },
+    {
+      "entryId": "u19:Moon Festival",
+      "zh": "中秋節",
+      "pos": "noun",
+      "example": "Families get together and eat mooncakes at the Moon Festival.",
+      "exampleZh": "中秋節時，家人團聚一起吃月餅。",
+      "spellingHint": "m-o-o-n f-e-s-t-i-v-a-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "During the ___ , families barbecue outside and watch the full moon.",
+        "fullSentence": "During the Moon Festival , families barbecue outside and watch the full moon.",
+        "translation": "中秋節時，家家戶戶在外烤肉、賞滿月。",
+        "clue": "烤肉、賞月的節日",
+        "answerEntryId": "u19:Moon Festival",
+        "distractorEntryIds": [
+          "u19:Dragon Boat Festival",
+          "u19:Lantern Festival",
+          "u19:Chinese New Year"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We eat mooncakes and pomelos at the ___.",
+          "fullSentence": "We eat mooncakes and pomelos at the Moon Festival.",
+          "translation": "我們在中秋節吃月餅和柚子。",
+          "clue": "吃月餅、賞月的節日",
+          "answerEntryId": "u19:Moon Festival",
+          "distractorEntryIds": [
+            "u19:Lantern Festival",
+            "u19:Dragon Boat Festival",
+            "u19:Chinese New Year"
+          ]
+        },
+        {
+          "sentence": "The ___ comes in autumn when the moon is fullest.",
+          "fullSentence": "The Moon Festival comes in autumn when the moon is fullest.",
+          "translation": "中秋節在秋天月亮最圓的時候到來。",
+          "clue": "秋天滿月時的節日",
+          "answerEntryId": "u19:Moon Festival",
+          "distractorEntryIds": [
+            "u19:Lantern Festival",
+            "u19:Double Tenth Day",
+            "u19:Dragon Boat Festival"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Grandma tells the story of Chang'e flying to the moon every ___.",
+          "fullSentence": "Grandma tells the story of Chang'e flying to the moon every Moon Festival.",
+          "translation": "奶奶每年中秋節都講嫦娥奔月的故事。",
+          "clue": "講嫦娥故事的中秋夜晚",
+          "answerEntryId": "u19:Moon Festival",
+          "distractorEntryIds": [
+            "u19:Lantern Festival",
+            "u19:Dragon Boat Festival",
+            "u19:Chinese New Year"
+          ]
+        },
+        {
+          "sentence": "The ___ is also called the Mid-Autumn Festival because it falls in the middle of autumn.",
+          "fullSentence": "The Moon Festival is also called the Mid-Autumn Festival because it falls in the middle of autumn.",
+          "translation": "中秋節也被稱為中秋節（Mid-Autumn Festival），因為它在秋季中期。",
+          "clue": "中秋賞月的另一個稱呼",
+          "answerEntryId": "u19:Moon Festival",
+          "distractorEntryIds": [
+            "u19:Lantern Festival",
+            "u19:Double Tenth Day",
+            "u19:Dragon Boat Festival"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Families barbecue outdoors and admire the roundest moon of the year during the ___.",
+        "translation": "中秋節時，家家戶戶在戶外烤肉、欣賞一年中最圓的月亮。",
+        "clue": "賞最圓月亮、烤肉的節日",
+        "answerEntryId": "u19:Moon Festival",
+        "distractorEntryIds": [
+          "u19:Dragon Boat Festival",
+          "u19:Lantern Festival",
+          "u19:Chinese New Year"
+        ],
+        "fullSentence": "Families barbecue outdoors and admire the roundest moon of the year during the Moon Festival."
+      }
+    },
+    {
+      "entryId": "u19:Mother's Day",
+      "zh": "母親節",
+      "pos": "noun",
+      "example": "We gave Mom flowers on Mother's Day.",
+      "exampleZh": "母親節那天我們送給媽媽花。",
+      "spellingHint": "m-o-t-h-e-r-s d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, Mom got breakfast in bed and a big bouquet of flowers.",
+        "fullSentence": "On Mother's Day, Mom got breakfast in bed and a big bouquet of flowers.",
+        "translation": "母親節那天，媽媽收到床上早餐和一大束花。",
+        "clue": "送花給媽媽的節日",
+        "answerEntryId": "u19:Mother's Day",
+        "distractorEntryIds": [
+          "u19:Father's Day",
+          "u19:Teacher's Day",
+          "u19:Valentine's Day"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a day to thank our moms.",
+          "fullSentence": "Mother's Day is a day to thank our moms.",
+          "translation": "母親節是感謝媽媽的日子。",
+          "clue": "屬於媽媽的節日",
+          "answerEntryId": "u19:Mother's Day",
+          "distractorEntryIds": [
+            "u19:Father's Day",
+            "u19:Teacher's Day",
+            "u19:New Year's Day"
+          ]
+        },
+        {
+          "sentence": "Carnations are the classic flower for ___.",
+          "fullSentence": "Carnations are the classic flower for Mother's Day.",
+          "translation": "康乃馨是母親節的經典花朵。",
+          "clue": "送康乃馨的節日",
+          "answerEntryId": "u19:Mother's Day",
+          "distractorEntryIds": [
+            "u19:Father's Day",
+            "u19:Valentine's Day",
+            "u19:Teacher's Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "In the United States, ___ is on the second Sunday of May.",
+          "fullSentence": "In the United States, Mother's Day is on the second Sunday of May.",
+          "translation": "在美國，母親節是五月的第二個星期日。",
+          "clue": "五月第二個週日的節日",
+          "answerEntryId": "u19:Mother's Day",
+          "distractorEntryIds": [
+            "u19:Father's Day",
+            "u19:Teacher's Day",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "The children drew cards and washed the dishes for ___ to help their mom rest.",
+          "fullSentence": "The children drew cards and washed the dishes for Mother's Day to help their mom rest.",
+          "translation": "孩子們畫卡片、洗碗來過母親節，讓媽媽好好休息。",
+          "clue": "讓媽媽休息的節日",
+          "answerEntryId": "u19:Mother's Day",
+          "distractorEntryIds": [
+            "u19:Father's Day",
+            "u19:Teacher's Day",
+            "u19:Valentine's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The children served Mom breakfast in bed and gave her carnations on ___.",
+        "translation": "母親節那天，孩子們端早餐到床上給媽媽，並送她康乃馨。",
+        "clue": "被照顧的是媽媽、花是康乃馨",
+        "answerEntryId": "u19:Mother's Day",
+        "distractorEntryIds": [
+          "u19:Father's Day",
+          "u19:Teacher's Day",
+          "u19:Valentine's Day"
+        ],
+        "fullSentence": "The children served Mom breakfast in bed and gave her carnations on Mother's Day."
+      }
+    },
+    {
+      "entryId": "u19:New Year's Day",
+      "zh": "元旦；新年（一月一日）",
+      "pos": "noun",
+      "example": "New Year's Day is the first day of the year.",
+      "exampleZh": "元旦是一年的第一天。",
+      "spellingHint": "n-e-w y-e-a-r-s d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Many people make new plans for the year on ___.",
+        "fullSentence": "Many people make new plans for the year on New Year's Day.",
+        "translation": "許多人在元旦為新的一年制定新計畫。",
+        "clue": "一月一日、一年的開始",
+        "answerEntryId": "u19:New Year's Day",
+        "distractorEntryIds": [
+          "u19:New Year's Eve",
+          "u19:Christmas",
+          "u19:Double Tenth Day"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is on January 1, the first day of the calendar year.",
+          "fullSentence": "New Year's Day is on January 1, the first day of the calendar year.",
+          "translation": "元旦在一月一日，是曆法上一年的第一天。",
+          "clue": "一月一日的節日",
+          "answerEntryId": "u19:New Year's Day",
+          "distractorEntryIds": [
+            "u19:New Year's Eve",
+            "u19:Christmas",
+            "u19:Valentine's Day"
+          ]
+        },
+        {
+          "sentence": "We ate longevity noodles at my grandparents' house on ___.",
+          "fullSentence": "We ate longevity noodles at my grandparents' house on New Year's Day.",
+          "translation": "元旦那天我們在祖父母家吃了長壽麵。",
+          "clue": "新年頭一天全家吃的團圓餐",
+          "answerEntryId": "u19:New Year's Day",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Thanksgiving",
+            "u19:Easter"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Shops are closed on ___ because it is a national holiday in most countries.",
+          "fullSentence": "Shops are closed on New Year's Day because it is a national holiday in most countries.",
+          "translation": "元旦那天商家都不營業，因為它在大多數國家都是國定假日。",
+          "clue": "一月一日的國定假日",
+          "answerEntryId": "u19:New Year's Day",
+          "distractorEntryIds": [
+            "u19:New Year's Eve",
+            "u19:Christmas",
+            "u19:Halloween"
+          ]
+        },
+        {
+          "sentence": "People greet each other with Happy New Year all through ___.",
+          "fullSentence": "People greet each other with Happy New Year all through New Year's Day.",
+          "translation": "整個元旦，人們互相說「新年快樂」。",
+          "clue": "互道新年快樂的那一天",
+          "answerEntryId": "u19:New Year's Day",
+          "distractorEntryIds": [
+            "u19:New Year's Eve",
+            "u19:Double Tenth Day",
+            "u19:Mother's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ is the first morning of the year, when people rest after staying up late the night before.",
+        "translation": "元旦是一年的第一個早晨，人們在前一晚熬夜後休息。",
+        "clue": "熬夜跨年後的隔天早上",
+        "answerEntryId": "u19:New Year's Day",
+        "distractorEntryIds": [
+          "u19:New Year's Eve",
+          "u19:Christmas",
+          "u19:Double Tenth Day"
+        ],
+        "fullSentence": "New Year's Day is the first morning of the year, when people rest after staying up late the night before."
+      }
+    },
+    {
+      "entryId": "u19:New Year's Eve",
+      "zh": "新年前夜；跨年夜",
+      "pos": "noun",
+      "example": "We stayed up until midnight on New Year's Eve.",
+      "exampleZh": "我們在新年前夜熬夜到午夜。",
+      "spellingHint": "n-e-w y-e-a-r-s e-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, people count down from ten as midnight arrives.",
+        "fullSentence": "On New Year's Eve, people count down from ten as midnight arrives.",
+        "translation": "新年前夜，人們在午夜來臨時從十倒數。",
+        "clue": "跨年倒數的夜晚",
+        "answerEntryId": "u19:New Year's Eve",
+        "distractorEntryIds": [
+          "u19:New Year's Day",
+          "u19:Christmas",
+          "u19:Halloween"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is the night before January 1.",
+          "fullSentence": "New Year's Eve is the night before January 1.",
+          "translation": "新年前夜是一月一日的前一晚。",
+          "clue": "跨年夜、十二月三十一日晚上",
+          "answerEntryId": "u19:New Year's Eve",
+          "distractorEntryIds": [
+            "u19:New Year's Day",
+            "u19:Christmas",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "Everyone sang and shouted Happy New Year on ___.",
+          "fullSentence": "Everyone sang and shouted Happy New Year on New Year's Eve.",
+          "translation": "跨年夜大家唱著歌、喊著新年快樂。",
+          "clue": "跨年慶祝的那一晚",
+          "answerEntryId": "u19:New Year's Eve",
+          "distractorEntryIds": [
+            "u19:New Year's Day",
+            "u19:Thanksgiving",
+            "u19:Easter"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Taipei 101 holds a famous fireworks show every ___.",
+          "fullSentence": "Taipei 101 holds a famous fireworks show every New Year's Eve.",
+          "translation": "台北 101 每年跨年夜都有著名的煙火秀。",
+          "clue": "跨年煙火施放的夜晚",
+          "answerEntryId": "u19:New Year's Eve",
+          "distractorEntryIds": [
+            "u19:New Year's Day",
+            "u19:Double Tenth Day",
+            "u19:Lantern Festival"
+          ]
+        },
+        {
+          "sentence": "Families share a big dinner and wait for midnight together on ___.",
+          "fullSentence": "Families share a big dinner and wait for midnight together on New Year's Eve.",
+          "translation": "跨年夜，家人一起吃豐盛的晚餐，等待午夜到來。",
+          "clue": "等到午夜十二點跨年的一晚",
+          "answerEntryId": "u19:New Year's Eve",
+          "distractorEntryIds": [
+            "u19:New Year's Day",
+            "u19:Thanksgiving",
+            "u19:Christmas"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Crowds gather at Taipei 101 on ___ to count down the last ten seconds of December.",
+        "translation": "跨年夜時，人群聚集在台北 101，倒數十二月的最後十秒。",
+        "clue": "十二月最後一晚的倒數活動",
+        "answerEntryId": "u19:New Year's Eve",
+        "distractorEntryIds": [
+          "u19:New Year's Day",
+          "u19:Double Tenth Day",
+          "u19:Lantern Festival"
+        ],
+        "fullSentence": "Crowds gather at Taipei 101 on New Year's Eve to count down the last ten seconds of December."
+      }
+    },
+    {
+      "entryId": "u19:party",
+      "zh": "派對；聚會",
+      "pos": "noun",
+      "example": "We danced all night at the party.",
+      "exampleZh": "我們在派對上跳了一整晚的舞。",
+      "spellingHint": "p-a-r-t-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Jenny blew out the candles at her ___ while everyone cheered.",
+        "fullSentence": "Jenny blew out the candles at her party while everyone cheered.",
+        "translation": "妮妮在派對上吹熄蠟燭，大家歡呼。",
+        "clue": "大家一起玩樂慶祝的活動",
+        "answerEntryId": "u19:party",
+        "distractorEntryIds": [
+          "u19:festival",
+          "u19:holiday",
+          "u19:vacation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ken invited the whole class to his ___ on Saturday.",
+          "fullSentence": "Ken invited the whole class to his party on Saturday.",
+          "translation": "阿肯邀請全班星期六去他的派對。",
+          "clue": "請朋友來家裡同樂的聚會",
+          "answerEntryId": "u19:party",
+          "distractorEntryIds": [
+            "u19:festival",
+            "u19:invitation",
+            "u19:vacation"
+          ]
+        },
+        {
+          "sentence": "They wore funny hats and danced at the ___.",
+          "fullSentence": "They wore funny hats and danced at the party.",
+          "translation": "他們戴著搞笑的帽子在派對上跳舞。",
+          "clue": "有音樂、跳舞的聚會",
+          "answerEntryId": "u19:party",
+          "distractorEntryIds": [
+            "u19:festival",
+            "u19:holiday",
+            "u19:memory"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Mom prepared snacks and drinks for the ___ guests.",
+          "fullSentence": "Mom prepared snacks and drinks for the party guests.",
+          "translation": "媽媽為派對的客人準備了點心和飲料。",
+          "clue": "派對上招待的賓客",
+          "answerEntryId": "u19:party",
+          "distractorEntryIds": [
+            "u19:festival",
+            "u19:holiday",
+            "u19:invitation"
+          ]
+        },
+        {
+          "sentence": "The ___ ended with games and a big cake.",
+          "fullSentence": "The party ended with games and a big cake.",
+          "translation": "派對在遊戲和一個大蛋糕後結束。",
+          "clue": "有遊戲和蛋糕的場合",
+          "answerEntryId": "u19:party",
+          "distractorEntryIds": [
+            "u19:festival",
+            "u19:vacation",
+            "u19:holiday"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Ben invited only six close friends to his home for a small ___ with cake and games.",
+        "translation": "阿班只邀請六個好朋友來家裡，辦了一場有蛋糕和遊戲的小派對。",
+        "clue": "少數好友參加的小型聚會",
+        "answerEntryId": "u19:party",
+        "distractorEntryIds": [
+          "u19:festival",
+          "u19:holiday",
+          "u19:vacation"
+        ],
+        "fullSentence": "Ben invited only six close friends to his home for a small party with cake and games."
+      }
+    },
+    {
+      "entryId": "u19:photo",
+      "zh": "照片",
+      "pos": "noun",
+      "example": "Let me take a photo of you and your sister.",
+      "exampleZh": "讓我幫你和妳妹妹拍一張照片。",
+      "spellingHint": "p-h-o-t-o",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Everyone smiled and said cheese when the teacher took a class ___.",
+        "fullSentence": "Everyone smiled and said cheese when the teacher took a class photo.",
+        "translation": "老師拍班级合照時，大家都笑著說 cheese。",
+        "clue": "被拍下來的影像",
+        "answerEntryId": "u19:photo",
+        "distractorEntryIds": [
+          "u19:album",
+          "u19:memory",
+          "u19:invitation"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Can you take a ___ of us in front of the temple?",
+          "fullSentence": "Can you take a photo of us in front of the temple?",
+          "translation": "可以幫我們在廟前拍一張照嗎？",
+          "clue": "用相機拍下的畫面",
+          "answerEntryId": "u19:photo",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:memory",
+            "u19:gift"
+          ]
+        },
+        {
+          "sentence": "This ___ of Grandpa was taken fifty years ago.",
+          "fullSentence": "This photo of Grandpa was taken fifty years ago.",
+          "translation": "爺爺的這張照片是五十年前拍的。",
+          "clue": "被拍下來的影像",
+          "answerEntryId": "u19:photo",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:invitation",
+            "u19:memory"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She framed her favorite ___ from the trip and hung it on the wall.",
+          "fullSentence": "She framed her favorite photo from the trip and hung it on the wall.",
+          "translation": "她把旅行中最喜歡的一張照片裱框掛在牆上。",
+          "clue": "可以裱框的單張影像",
+          "answerEntryId": "u19:photo",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:memory",
+            "u19:gift"
+          ]
+        },
+        {
+          "sentence": "The reporter took a ___ of the parade for tomorrow's newspaper.",
+          "fullSentence": "The reporter took a photo of the parade for tomorrow's newspaper.",
+          "translation": "記者為明天的報紙拍了一張遊行照片。",
+          "clue": "報紙上刊登的影像",
+          "answerEntryId": "u19:photo",
+          "distractorEntryIds": [
+            "u19:album",
+            "u19:invitation",
+            "u19:memory"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The journalist took one clear ___ of the runner crossing the finish line.",
+        "translation": "記者拍下一張跑者衝過終點線的清晰照片。",
+        "clue": "單張拍下的影像",
+        "answerEntryId": "u19:photo",
+        "distractorEntryIds": [
+          "u19:album",
+          "u19:memory",
+          "u19:invitation"
+        ],
+        "fullSentence": "The journalist took one clear photo of the runner crossing the finish line."
+      }
+    },
+    {
+      "entryId": "u19:Teacher's Day",
+      "zh": "教師節",
+      "pos": "noun",
+      "example": "Students gave their teacher flowers on Teacher's Day.",
+      "exampleZh": "教師節那天，學生送給老師花。",
+      "spellingHint": "t-e-a-c-h-e-r-s d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___, the whole class wrote thank-you cards for Ms. Lin.",
+        "fullSentence": "On Teacher's Day, the whole class wrote thank-you cards for Ms. Lin.",
+        "translation": "教師節那天，全班為林老師寫了感謝卡。",
+        "clue": "向老師道謝的節日",
+        "answerEntryId": "u19:Teacher's Day",
+        "distractorEntryIds": [
+          "u19:Mother's Day",
+          "u19:Father's Day",
+          "u19:Valentine's Day"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a day to honor the people who teach us.",
+          "fullSentence": "Teacher's Day is a day to honor the people who teach us.",
+          "translation": "教師節是尊崇教導我們的人的日子。",
+          "clue": "感謝老師的節日",
+          "answerEntryId": "u19:Teacher's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Father's Day",
+            "u19:New Year's Day"
+          ]
+        },
+        {
+          "sentence": "In Taiwan, ___ is on September 28, the birthday of Confucius.",
+          "fullSentence": "In Taiwan, Teacher's Day is on September 28, the birthday of Confucius.",
+          "translation": "在台灣，教師節是九月二十八日，孔子誕辰。",
+          "clue": "九月二十八日、紀念孔子的節日",
+          "answerEntryId": "u19:Teacher's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Father's Day",
+            "u19:Double Tenth Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The students gave Ms. Chen a small gift and a bow for ___.",
+          "fullSentence": "The students gave Ms. Chen a small gift and a bow for Teacher's Day.",
+          "translation": "學生們為教師節送給陳老師小禮物並鞠躬致意。",
+          "clue": "學生向老師致敬的日子",
+          "answerEntryId": "u19:Teacher's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Father's Day",
+            "u19:Double Tenth Day"
+          ]
+        },
+        {
+          "sentence": "Schools hold ceremonies to honor Confucius on ___.",
+          "fullSentence": "Schools hold ceremonies to honor Confucius on Teacher's Day.",
+          "translation": "學校在教師節舉行祭孔典禮。",
+          "clue": "舉行祭孔儀式的節日",
+          "answerEntryId": "u19:Teacher's Day",
+          "distractorEntryIds": [
+            "u19:Double Tenth Day",
+            "u19:Mother's Day",
+            "u19:Father's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "On ___ , students bowed to Ms. Huang and thanked her for every lesson.",
+        "translation": "教師節那天，學生們向黃老師鞠躬，感謝她的每一堂課。",
+        "clue": "受學生致敬的是老師",
+        "answerEntryId": "u19:Teacher's Day",
+        "distractorEntryIds": [
+          "u19:Mother's Day",
+          "u19:Father's Day",
+          "u19:Valentine's Day"
+        ],
+        "fullSentence": "On Teacher's Day , students bowed to Ms. Huang and thanked her for every lesson."
+      }
+    },
+    {
+      "entryId": "u19:Thanksgiving",
+      "zh": "感恩節",
+      "pos": "noun",
+      "example": "We eat turkey with our family on Thanksgiving.",
+      "exampleZh": "感恩節時我們和家人一起吃火雞。",
+      "spellingHint": "t-h-a-n-k-s-g-i-v-i-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "American families roast a turkey and share what they are thankful for on ___.",
+        "fullSentence": "American families roast a turkey and share what they are thankful for on Thanksgiving.",
+        "translation": "美國家庭在感恩節烤火雞，並分享值得感謝的事。",
+        "clue": "吃火雞、表達感謝的節日",
+        "answerEntryId": "u19:Thanksgiving",
+        "distractorEntryIds": [
+          "u19:Christmas",
+          "u19:Easter",
+          "u19:Halloween"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is a harvest holiday in the United States, on the fourth Thursday of November.",
+          "fullSentence": "Thanksgiving is a harvest holiday in the United States, on the fourth Thursday of November.",
+          "translation": "感恩節是美國的節日，在十一月的第四個星期四。",
+          "clue": "十一月第四個週四的美國節日",
+          "answerEntryId": "u19:Thanksgiving",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Halloween",
+            "u19:Easter"
+          ]
+        },
+        {
+          "sentence": "The whole family gathered to eat turkey and pumpkin pie for ___.",
+          "fullSentence": "The whole family gathered to eat turkey and pumpkin pie for Thanksgiving.",
+          "translation": "全家人在感恩節團聚吃火雞和南瓜派。",
+          "clue": "火雞大餐屬於的節日",
+          "answerEntryId": "u19:Thanksgiving",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Easter",
+            "u19:New Year's Eve"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "On ___, people say what they are thankful for before dinner starts.",
+          "fullSentence": "On Thanksgiving, people say what they are thankful for before dinner starts.",
+          "translation": "感恩節晚餐開始前，人們會說出自己感謝的事。",
+          "clue": "表達感謝的傳統節日",
+          "answerEntryId": "u19:Thanksgiving",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Easter",
+            "u19:Valentine's Day"
+          ]
+        },
+        {
+          "sentence": "Schools close for a long weekend in November for ___.",
+          "fullSentence": "Schools close for a long weekend in November for Thanksgiving.",
+          "translation": "學校在十一月感恩節時放長週末假期。",
+          "clue": "十一月連假的由來",
+          "answerEntryId": "u19:Thanksgiving",
+          "distractorEntryIds": [
+            "u19:Halloween",
+            "u19:Christmas",
+            "u19:Easter"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Before the turkey dinner, everyone at the table said one thing to be thankful for on ___.",
+        "translation": "感恩節火雞大餐前，桌上的每個人都說出一件感謝的事。",
+        "clue": "火雞大餐前表達感謝的節日",
+        "answerEntryId": "u19:Thanksgiving",
+        "distractorEntryIds": [
+          "u19:Christmas",
+          "u19:Easter",
+          "u19:Halloween"
+        ],
+        "fullSentence": "Before the turkey dinner, everyone at the table said one thing to be thankful for on Thanksgiving."
+      }
+    },
+    {
+      "entryId": "u19:vacation",
+      "zh": "假期；度假",
+      "pos": "noun",
+      "example": "Our family takes a vacation to the beach every summer.",
+      "exampleZh": "我們家每年夏天去海邊度假。",
+      "spellingHint": "v-a-c-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "We spent our summer ___ traveling around the island by train.",
+        "fullSentence": "We spent our summer vacation traveling around the island by train.",
+        "translation": "我們的暑假假期坐火車環島旅行。",
+        "clue": "學校放的長假",
+        "answerEntryId": "u19:vacation",
+        "distractorEntryIds": [
+          "u19:holiday",
+          "u19:festival",
+          "u19:memory"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Where are you going for your winter ___?",
+          "fullSentence": "Where are you going for your winter vacation?",
+          "translation": "寒假假期你要去哪裡？",
+          "clue": "較長的出遊放假時間",
+          "answerEntryId": "u19:vacation",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:party",
+            "u19:invitation"
+          ]
+        },
+        {
+          "sentence": "Dad is on ___ this week, so he stays home with us.",
+          "fullSentence": "Dad is on vacation this week, so he stays home with us.",
+          "translation": "爸爸這週休假，所以在家陪我們。",
+          "clue": "放下工作休息的期間",
+          "answerEntryId": "u19:vacation",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:memory",
+            "u19:invitation"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "They took photos everywhere during their ___ to Japan.",
+          "fullSentence": "They took photos everywhere during their vacation to Japan.",
+          "translation": "他們在日本度假時到處拍照。",
+          "clue": "出國旅遊度過的假期",
+          "answerEntryId": "u19:vacation",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:festival",
+            "u19:memory"
+          ]
+        },
+        {
+          "sentence": "Students have two months of summer ___ every year.",
+          "fullSentence": "Students have two months of summer vacation every year.",
+          "translation": "學生每年有兩個月的暑假。",
+          "clue": "學校放的長假",
+          "answerEntryId": "u19:vacation",
+          "distractorEntryIds": [
+            "u19:holiday",
+            "u19:festival",
+            "u19:custom"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "After working all year, Dad took a two-week ___ to relax by the sea.",
+        "translation": "工作了一整年後，爸爸放了兩週的假去海邊放鬆。",
+        "clue": "較長、可安排旅遊的休假",
+        "answerEntryId": "u19:vacation",
+        "distractorEntryIds": [
+          "u19:holiday",
+          "u19:festival",
+          "u19:custom"
+        ],
+        "fullSentence": "After working all year, Dad took a two-week vacation to relax by the sea."
+      }
+    },
+    {
+      "entryId": "u19:Valentine's Day",
+      "zh": "情人節",
+      "pos": "noun",
+      "example": "He gave her roses on Valentine's Day.",
+      "exampleZh": "他在情人節送她玫瑰。",
+      "spellingHint": "v-a-l-e-n-t-i-n-e-s d-a-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "On ___ , couples give each other chocolates and cards.",
+        "translation": "情人節時，情侶互相贈送巧克力和卡片。",
+        "clue": "情侶互送巧克力的節日",
+        "answerEntryId": "u19:Valentine's Day",
+        "distractorEntryIds": [
+          "u19:Christmas",
+          "u19:Mother's Day",
+          "u19:Easter"
+        ],
+        "fullSentence": "On Valentine's Day , couples give each other chocolates and cards."
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ is on February 14 every year.",
+          "fullSentence": "Valentine's Day is on February 14 every year.",
+          "translation": "情人節在每年的二月十四日。",
+          "clue": "二月十四日的節日",
+          "answerEntryId": "u19:Valentine's Day",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Halloween",
+            "u19:Mother's Day"
+          ]
+        },
+        {
+          "sentence": "Flower shops sell many roses before ___.",
+          "fullSentence": "Flower shops sell many roses before Valentine's Day.",
+          "translation": "情人節前花店賣出很多玫瑰。",
+          "clue": "送玫瑰表達愛意的節日",
+          "answerEntryId": "u19:Valentine's Day",
+          "distractorEntryIds": [
+            "u19:Mother's Day",
+            "u19:Teacher's Day",
+            "u19:Father's Day"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Tom wrote a secret card to Amy for ___.",
+          "fullSentence": "Tom wrote a secret card to Amy for Valentine's Day.",
+          "translation": "阿湯為了情人節寫了一張秘密卡片給艾咪。",
+          "clue": "寫卡片表達愛意的節日",
+          "answerEntryId": "u19:Valentine's Day",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:Mother's Day",
+            "u19:Teacher's Day"
+          ]
+        },
+        {
+          "sentence": "Restaurants are fully booked on ___ because many couples go out for dinner.",
+          "fullSentence": "Restaurants are fully booked on Valentine's Day because many couples go out for dinner.",
+          "translation": "情人節餐廳客滿，因為很多情侶外出晚餐。",
+          "clue": "情侶約會晚餐的節日",
+          "answerEntryId": "u19:Valentine's Day",
+          "distractorEntryIds": [
+            "u19:Christmas",
+            "u19:New Year's Eve",
+            "u19:Mother's Day"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The restaurant was fully booked on ___ , the fourteenth of February, because couples wanted a quiet dinner.",
+        "translation": "二月十四日情人節那天餐廳客滿，因為情侶們想安靜地吃頓晚餐。",
+        "clue": "二月十四日情侶約會的節日",
+        "answerEntryId": "u19:Valentine's Day",
+        "distractorEntryIds": [
+          "u19:Christmas",
+          "u19:Mother's Day",
+          "u19:New Year's Eve"
+        ],
+        "fullSentence": "The restaurant was fully booked on Valentine's Day , the fourteenth of February, because couples wanted a quiet dinner."
+      }
+    }
+  ]
+}

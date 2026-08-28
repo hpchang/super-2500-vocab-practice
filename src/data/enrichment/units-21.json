@@ -1,0 +1,3660 @@
+{
+ "schemaVersion": 1,
+ "unit": "21",
+ "entries": [
+  {
+   "entryId": "u21:attack",
+   "zh": "攻擊",
+   "pos": "verb",
+   "example": "The dog tried to attack the mailman.",
+   "exampleZh": "那隻狗試圖攻擊郵差。",
+   "spellingHint": "a-t-t-a-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The soldiers will ___ the enemy camp under cover of darkness.",
+    "fullSentence": "The soldiers will attack the enemy camp under cover of darkness.",
+    "translation": "士兵們將在夜色掩護下攻擊敵人的營區。",
+    "clue": "出其不意地對目標發動攻勢",
+    "answerEntryId": "u21:attack",
+    "distractorEntryIds": [
+     "u21:protect",
+     "u21:pollute",
+     "u21:elect"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Bees may ___ anyone who tries to hurt their nest.",
+     "fullSentence": "Bees may attack anyone who tries to hurt their nest.",
+     "translation": "蜜蜂可能會攻擊任何想傷害蜂巢的人。",
+     "clue": "蜂群為了護巢會撲向人",
+     "answerEntryId": "u21:attack",
+     "distractorEntryIds": [
+      "u21:shoot",
+      "u21:democracy",
+      "u13:copy"
+     ]
+    },
+    {
+     "sentence": "The shark may ___ swimmers if it swims too close to the beach.",
+     "fullSentence": "The shark may attack swimmers if it swims too close to the beach.",
+     "translation": "鯊魚若游得太靠近海灘，可能會攻擊戲水的人。",
+     "clue": "鯊魚靠近時會撲咬人",
+     "answerEntryId": "u21:attack",
+     "distractorEntryIds": [
+      "u21:protection",
+      "u21:pollute",
+      "u13:compare"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The army planned to ___ the island before dawn and take control of it.",
+     "fullSentence": "The army planned to attack the island before dawn and take control of it.",
+     "translation": "軍隊計畫在黎明前攻擊那座島並控制它。",
+     "clue": "要奪下控制權就得先發動攻擊",
+     "answerEntryId": "u21:attack",
+     "distractorEntryIds": [
+      "u21:shoot",
+      "u11:build",
+      "u11:clean"
+     ]
+    },
+    {
+     "sentence": "The terrorists tried to ___ the airport, but the police stopped them in time.",
+     "fullSentence": "The terrorists tried to attack the airport, but the police stopped them in time.",
+     "translation": "恐怖份子試圖攻擊機場，但警察即時阻止了他們。",
+     "clue": "以暴力手段襲擊公共場所",
+     "answerEntryId": "u21:attack",
+     "distractorEntryIds": [
+      "u21:pollute",
+      "u21:protect",
+      "u13:copy"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The mother bear jumped at the hunter with her claws to ___ him and save her cubs.",
+    "fullSentence": "The mother bear jumped at the hunter with her claws to attack him and save her cubs.",
+    "translation": "熊媽媽撲向獵人攻擊他，以救出小熊。",
+    "clue": "張爪撲向對方就是攻擊",
+    "answerEntryId": "u21:attack",
+    "distractorEntryIds": [
+     "u21:protect",
+     "u21:shoot",
+     "u21:elect"
+    ]
+   },
+   "_sent": "The mother bear jumped at the hunter with her claws to ___ him and save her cubs."
+  },
+  {
+   "entryId": "u21:bomb",
+   "zh": "炸彈",
+   "pos": "noun",
+   "example": "The movie showed a robot defusing a bomb.",
+   "exampleZh": "電影演出機器人拆除炸彈。",
+   "spellingHint": "b-o-m-b",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The police found a ___ under the car; it could explode at any time.",
+    "fullSentence": "The police found a bomb under the car; it could explode at any time.",
+    "translation": "警察在車下發現一枚炸彈，它隨時可能爆炸。",
+    "clue": "會爆炸的危險物品",
+    "answerEntryId": "u21:bomb",
+    "distractorEntryIds": [
+     "u21:gun",
+     "u21:weapon",
+     "u21:democracy"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In the movie, a ___ fell on the old bridge and the bridge exploded.",
+     "fullSentence": "In the movie, a bomb fell on the old bridge and the bridge exploded.",
+     "translation": "電影中一枚炸彈落在老橋上，橋就爆炸了。",
+     "clue": "落下後引發爆炸的東西",
+     "answerEntryId": "u21:bomb",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:respondent",
+      "u21:shot"
+     ]
+    },
+    {
+     "sentence": "Soldiers trained carefully to carry a ___, because it might blow up in their hands.",
+     "fullSentence": "Soldiers trained carefully to carry a bomb, because it might blow up in their hands.",
+     "translation": "士兵們小心地訓練搬運炸彈，因為它可能在手中爆炸。",
+     "clue": "搬不好就會爆炸",
+     "answerEntryId": "u21:bomb",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:weapon",
+      "u11:apartment"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The whole airport was closed after someone called and said there was a ___ on board the plane.",
+     "fullSentence": "The whole airport was closed after someone called and said there was a bomb on board the plane.",
+     "translation": "有人打電話說機上有炸彈後，整座機場關閉了。",
+     "clue": "謊報機上放置爆炸物",
+     "answerEntryId": "u21:bomb",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:democracy",
+      "u21:image"
+     ]
+    },
+    {
+     "sentence": "The experts wore thick suits before touching the ___, because it might explode.",
+     "fullSentence": "The experts wore thick suits before touching the bomb, because it might explode.",
+     "translation": "專家穿上厚重的防爆衣才去碰那枚炸彈，因為它可能會爆炸。",
+     "clue": "拆彈前要先穿防爆衣",
+     "answerEntryId": "u21:bomb",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:weapon",
+      "u21:protection"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The enemy dropped a ___ on the old bridge, and the bridge exploded.",
+    "fullSentence": "The enemy dropped a bomb on the old bridge, and the bridge exploded.",
+    "translation": "敵人對老橋投下炸彈，橋就爆炸了。",
+    "clue": "落下後引發爆炸的圓形物體",
+    "answerEntryId": "u21:bomb",
+    "distractorEntryIds": [
+     "u21:gun",
+     "u21:weapon",
+     "u21:democracy"
+    ]
+   },
+   "_sent": "The enemy dropped a ___ on the old bridge, and the bridge exploded."
+  },
+  {
+   "entryId": "u21:contract",
+   "zh": "合約；契約",
+   "pos": "noun",
+   "example": "Read the contract carefully before you sign it.",
+   "exampleZh": "簽名前要仔細閱讀合約。",
+   "spellingHint": "c-o-n-t-r-a-c-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The two companies signed a ___ to build the new bridge together.",
+    "fullSentence": "The two companies signed a contract to build the new bridge together.",
+    "translation": "兩家公司簽了合約，要一起建造新橋。",
+    "clue": "公司之間約定合作的文件",
+    "answerEntryId": "u21:contract",
+    "distractorEntryIds": [
+     "u21:document",
+     "u21:image",
+     "u21:law"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The worker was happy because his new ___ promised a higher salary and five paid holidays.",
+     "fullSentence": "The worker was happy because his new contract promised a higher salary and five paid holidays.",
+     "translation": "那位工人很開心，因為他的新合約保障更高的薪水與五天有薪假。",
+     "clue": "白紙黑字寫明待遇的約定",
+     "answerEntryId": "u21:contract",
+     "distractorEntryIds": [
+      "u21:document",
+      "u11:balcony",
+      "u11:basket"
+     ]
+    },
+    {
+     "sentence": "The singer cannot work for another company until her ___ ends next year.",
+     "fullSentence": "The singer cannot work for another company until her contract ends next year.",
+     "translation": "這位歌手的合約明年才到期，之前不能為別家公司工作。",
+     "clue": "合約到期前不能跳槽",
+     "answerEntryId": "u21:contract",
+     "distractorEntryIds": [
+      "u11:bathroom",
+      "u21:document",
+      "u21:election"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She hired a lawyer to check the ___ before she signed it.",
+     "fullSentence": "She hired a lawyer to check the contract before she signed it.",
+     "translation": "她簽約前先請律師檢查合約。",
+     "clue": "簽署前要請律師看的約定文件",
+     "answerEntryId": "u21:contract",
+     "distractorEntryIds": [
+      "u21:document",
+      "u21:respondent",
+      "u21:law"
+     ]
+    },
+    {
+     "sentence": "According to the ___, the factory must deliver the shoes by June or pay a fine.",
+     "fullSentence": "According to the contract, the factory must deliver the shoes by June or pay a fine.",
+     "translation": "依照合約，工廠必須在六月前交鞋，否則要付罰款。",
+     "clue": "合約裡寫明雙方要履行的義務",
+     "answerEntryId": "u21:contract",
+     "distractorEntryIds": [
+      "u21:document",
+      "u21:law",
+      "u21:shot"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A spoken promise is not enough; the builder asked the owner to put every detail of the job into a written ___, so both sides must keep their promises.",
+    "fullSentence": "A spoken promise is not enough; the builder asked the owner to put every detail of the job into a written contract, so both sides must keep their promises.",
+    "translation": "口頭承諾不夠，營造商請屋主把工程細節寫進書面合約，讓雙方都必須守約。",
+    "clue": "寫下來讓雙方都有義務遵守的約定",
+    "answerEntryId": "u21:contract",
+    "distractorEntryIds": [
+     "u21:document",
+     "u21:form",
+     "u21:policy"
+    ]
+   },
+   "_sent": "A spoken promise is not enough; the builder asked the owner to put every detail of the job into a written ___, so both sides must keep their promises."
+  },
+  {
+   "entryId": "u21:crime",
+   "zh": "犯罪",
+   "pos": "noun",
+   "example": "Stealing money from a bank is a serious crime.",
+   "exampleZh": "偷銀行的錢是嚴重的犯罪。",
+   "spellingHint": "c-r-i-m-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Anyone who steals or robs others has committed a ___.",
+    "fullSentence": "Anyone who steals or robs others has committed a crime.",
+    "translation": "任何偷竊或搶劫的人都犯了罪。",
+    "clue": "偷搶都是犯罪行為",
+    "answerEntryId": "u21:crime",
+    "distractorEntryIds": [
+     "u21:war",
+     "u21:pollution",
+     "u21:protection"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Because the ___ rate kept going up, more police officers now walk the streets at night.",
+     "fullSentence": "Because the crime rate kept going up, more police officers now walk the streets at night.",
+     "translation": "因為犯罪率持續上升，現在夜裡有更多警察在街上巡邏。",
+     "clue": "犯罪率上升，警察加強巡邏",
+     "answerEntryId": "u21:crime",
+     "distractorEntryIds": [
+      "u21:pollution",
+      "u21:population",
+      "u11:bedroom"
+     ]
+    },
+    {
+     "sentence": "He spent two years in jail because of his ___.",
+     "fullSentence": "He spent two years in jail because of his crime.",
+     "translation": "他因為犯罪在牢裡待了兩年。",
+     "clue": "做了壞事才會坐牢",
+     "answerEntryId": "u21:crime",
+     "distractorEntryIds": [
+      "u21:war",
+      "u21:trial",
+      "u11:camera"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The city started a night patrol program to fight ___ in busy areas, so people feel safer walking home.",
+     "fullSentence": "The city started a night patrol program to fight crime in busy areas, so people feel safer walking home.",
+     "translation": "市政府推出夜間巡邏計畫打擊犯罪，讓人們走夜路更安心。",
+     "clue": "有巡邏才敢走夜路，要對付的是犯罪",
+     "answerEntryId": "u21:crime",
+     "distractorEntryIds": [
+      "u21:pollution",
+      "u11:apartment",
+      "u11:balcony"
+     ]
+    },
+    {
+     "sentence": "Detectives studied the fingerprints to find out who committed the ___.",
+     "fullSentence": "Detectives studied the fingerprints to find out who committed the crime.",
+     "translation": "偵探研究指紋，想查出是誰犯下這起犯罪。",
+     "clue": "commit 是「犯罪」的固定搭配",
+     "answerEntryId": "u21:crime",
+     "distractorEntryIds": [
+      "u11:basket",
+      "u11:bathroom",
+      "u11:bedroom"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Because this was the teenager's first ___, the judge gave him a chance instead of sending him to jail.",
+    "fullSentence": "Because this was the teenager's first crime, the judge gave him a chance instead of sending him to jail.",
+    "translation": "因為這是少年的初犯，法官給他機會而不送他坐牢。",
+    "clue": "初犯才會從輕處理",
+    "answerEntryId": "u21:crime",
+    "distractorEntryIds": [
+     "u21:trial",
+     "u21:image",
+     "u21:election"
+    ]
+   },
+   "_sent": "Because this was the teenager's first ___, the judge gave him a chance instead of sending him to jail."
+  },
+  {
+   "entryId": "u21:crisis",
+   "zh": "危機",
+   "pos": "noun",
+   "example": "The team stayed calm during the crisis.",
+   "exampleZh": "危機期間團隊保持冷靜。",
+   "spellingHint": "c-r-i-s-i-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The company almost lost all its money, but the manager solved the ___ in time.",
+    "fullSentence": "The company almost lost all its money, but the manager solved the crisis in time.",
+    "translation": "公司差點賠光所有錢，但經理及時化解了危機。",
+    "clue": "差點倒店的緊急關頭",
+    "answerEntryId": "u21:crisis",
+    "distractorEntryIds": [
+     "u21:crime",
+     "u21:war",
+     "u21:policy"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "When the flood hit the town, the mayor worked day and night to deal with the ___.",
+     "fullSentence": "When the flood hit the town, the mayor worked day and night to deal with the crisis.",
+     "translation": "洪水襲擊小鎮時，鎮長日夜不休地處理這場危機。",
+     "clue": "天災來襲時要處理的緊急狀況",
+     "answerEntryId": "u21:crisis",
+     "distractorEntryIds": [
+      "u21:crime",
+      "u21:election",
+      "u11:candle"
+     ]
+    },
+    {
+     "sentence": "A wise leader stays calm and makes quick decisions during a ___.",
+     "fullSentence": "A wise leader stays calm and makes quick decisions during a crisis.",
+     "translation": "有智慧的領導者在危機中保持冷靜、快速決策。",
+     "clue": "緊急時刻從容應變",
+     "answerEntryId": "u21:crisis",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u11:kitchen",
+      "u21:document"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "After the earthquake, people had no clean water; the government called it a national ___.",
+     "fullSentence": "After the earthquake, people had no clean water; the government called it a national crisis.",
+     "translation": "地震後人們沒有乾淨的水，政府稱之為全國性危機。",
+     "clue": "全國緊急的困境就是危機",
+     "answerEntryId": "u21:crisis",
+     "distractorEntryIds": [
+      "u11:camera",
+      "u21:crime",
+      "u11:candle"
+     ]
+    },
+    {
+     "sentence": "The small bank needed help because it could not survive the financial ___ alone.",
+     "fullSentence": "The small bank needed help because it could not survive the financial crisis alone.",
+     "translation": "那家小銀行撐不過金融危機，需要援助。",
+     "clue": "financial 常與危機搭配",
+     "answerEntryId": "u21:crisis",
+     "distractorEntryIds": [
+      "u21:crime",
+      "u11:kitchen",
+      "u11:lamp"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor told the family the patient was out of danger; the medical ___ was finally over.",
+    "fullSentence": "The doctor told the family the patient was out of danger; the medical crisis was finally over.",
+    "translation": "醫生告訴家屬病人已脫離險境，這場醫療危機終於結束。",
+    "clue": "病情危急又轉安就是醫療危機",
+    "answerEntryId": "u21:crisis",
+    "distractorEntryIds": [
+     "u21:crime",
+     "u21:trial",
+     "u21:election"
+    ]
+   },
+   "_sent": "The doctor told the family the patient was out of danger; the medical ___ was finally over."
+  },
+  {
+   "entryId": "u21:democracy",
+   "zh": "民主",
+   "pos": "noun",
+   "example": "In a democracy, citizens choose their own leaders.",
+   "exampleZh": "在民主制度中，人民自己選擇領袖。",
+   "spellingHint": "d-e-m-o-c-r-a-c-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The students learned that in a ___, every adult citizen can help choose the country's leaders.",
+    "fullSentence": "The students learned that in a democracy, every adult citizen can help choose the country's leaders.",
+    "translation": "學生學到：在民主制度中，每位成年公民都能參與選出國家領袖。",
+    "clue": "由人民作主選領袖就是民主",
+    "answerEntryId": "u21:democracy",
+    "distractorEntryIds": [
+     "u21:respondent",
+     "u21:shot",
+     "u11:apartment"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Our teacher said ___ means 'rule by the people'; citizens can speak freely and choose their leaders.",
+     "fullSentence": "Our teacher said democracy means 'rule by the people'; citizens can speak freely and choose their leaders.",
+     "translation": "老師說民主就是「人民作主」，公民能自由發言並選擇領袖。",
+     "clue": "人民作主的制度",
+     "answerEntryId": "u21:democracy",
+     "distractorEntryIds": [
+      "u11:lamp",
+      "u11:living room",
+      "u11:sofa"
+     ]
+    },
+    {
+     "sentence": "In a ___, citizens are free to choose and even replace their leaders.",
+     "fullSentence": "In a democracy, citizens are free to choose and even replace their leaders.",
+     "translation": "在民主制度下，公民可以自由選擇、甚至更換領袖。",
+     "clue": "能自由選擇領袖的體制",
+     "answerEntryId": "u21:democracy",
+     "distractorEntryIds": [
+      "u11:table",
+      "u11:telephone",
+      "u11:television"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "In a true ___, it is the people, not one ruler, who have the final say.",
+     "fullSentence": "In a true democracy, it is the people, not one ruler, who have the final say.",
+     "translation": "在真正的民主中，擁有最終決定權的是人民，而非統治者。",
+     "clue": "最後說了算的是全體人民",
+     "answerEntryId": "u21:democracy",
+     "distractorEntryIds": [
+      "u11:living room",
+      "u11:sofa",
+      "u11:table"
+     ]
+    },
+    {
+     "sentence": "The country moved from royal rule to ___ after the people demanded the power to choose.",
+     "fullSentence": "The country moved from royal rule to democracy after the people demanded the power to choose.",
+     "translation": "人民爭取到選擇的權力後，國家從王權走向民主。",
+     "clue": "告別王權、人民當家就是民主",
+     "answerEntryId": "u21:democracy",
+     "distractorEntryIds": [
+      "u11:telephone",
+      "u11:television",
+      "u11:address"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Unlike a kingdom where the crown passes to the king's child, a ___ lets ordinary citizens pick who governs them.",
+    "fullSentence": "Unlike a kingdom where the crown passes to the king's child, a democracy lets ordinary citizens pick who governs them.",
+    "translation": "王國由國王的孩子繼位，民主則讓平民自己選出治理者。",
+    "clue": "平民可自選統治者的制度",
+    "answerEntryId": "u21:democracy",
+    "distractorEntryIds": [
+     "u21:society",
+     "u21:organization",
+     "u21:freedom"
+    ]
+   },
+   "_sent": "Unlike a kingdom where the crown passes to the king's child, a ___ lets ordinary citizens pick who governs them."
+  },
+  {
+   "entryId": "u21:democratic",
+   "zh": "民主的",
+   "pos": "adjective",
+   "example": "The class made a democratic decision and everyone accepted it.",
+   "exampleZh": "班上做了民主的決定，大家都接受。",
+   "spellingHint": "d-e-m-o-c-r-a-t-i-c",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The club voted on every big change, so members called it a very ___ organization.",
+    "fullSentence": "The club voted on every big change, so members called it a very democratic organization.",
+    "translation": "社團每項重大改動都表決，成員都說它是非常民主的組織。",
+    "clue": "凡事表決就是民主作風",
+    "answerEntryId": "u21:democratic",
+    "distractorEntryIds": [
+     "u21:effective",
+     "u21:powerful",
+     "u21:legal"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In a ___ country, people can speak freely and choose their own leaders.",
+     "fullSentence": "In a democratic country, people can speak freely and choose their own leaders.",
+     "translation": "在民主國家，人們能自由發言並選擇自己的領袖。",
+     "clue": "可自由發聲、自選領袖的國家",
+     "answerEntryId": "u21:democratic",
+     "distractorEntryIds": [
+      "u21:powerful",
+      "u21:legal",
+      "u11:build"
+     ]
+    },
+    {
+     "sentence": "The teacher used a ___ way to pick the trip date: everyone raised a hand and the majority won.",
+     "fullSentence": "The teacher used a democratic way to pick the trip date: everyone raised a hand and the majority won.",
+     "translation": "老師用民主方式決定旅行日期：大家舉手表決，由多數決定。",
+     "clue": "多數表決就是民主方式",
+     "answerEntryId": "u21:democratic",
+     "distractorEntryIds": [
+      "u11:clean",
+      "u11:fix",
+      "u21:lawful"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Critics said the decision was not ___ because the public never got a chance to give their opinions.",
+     "fullSentence": "Critics said the decision was not democratic because the public never got a chance to give their opinions.",
+     "translation": "批評者說這項決定不民主，因為民眾從未有機會表達意見。",
+     "clue": "沒徵詢民意就是不民主",
+     "answerEntryId": "u21:democratic",
+     "distractorEntryIds": [
+      "u11:downstairs",
+      "u21:legal",
+      "u21:equal"
+     ]
+    },
+    {
+     "sentence": "The country held its first ___ election, and for the first time ordinary people could choose the president.",
+     "fullSentence": "The country held its first democratic election, and for the first time ordinary people could choose the president.",
+     "translation": "該國舉行首次民主選舉，老百姓第一次能自己選總統。",
+     "clue": "由人民投票選總統的選舉",
+     "answerEntryId": "u21:democratic",
+     "distractorEntryIds": [
+      "u11:electric",
+      "u21:powerful",
+      "u21:legal"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ government listens to its people before it makes big changes; a king who rules alone does not need to.",
+    "fullSentence": "A democratic government listens to its people before it makes big changes; a king who rules alone does not need to.",
+    "translation": "民主政府做重大改變前會聽取民意；專制的國王則不必。",
+    "clue": "先聽民意再做決定",
+    "answerEntryId": "u21:democratic",
+    "distractorEntryIds": [
+     "u21:powerful",
+     "u21:effective",
+     "u21:equal"
+    ]
+   },
+   "_sent": "A ___ government listens to its people before it makes big changes; a king who rules alone does not need to."
+  },
+  {
+   "entryId": "u21:document",
+   "zh": "文件",
+   "pos": "noun",
+   "example": "Please sign the document at the bottom.",
+   "exampleZh": "請在文件底部簽名。",
+   "spellingHint": "d-o-c-u-m-e-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The lawyer asked her to read the ___ carefully before signing her name at the bottom.",
+    "fullSentence": "The lawyer asked her to read the document carefully before signing her name at the bottom.",
+    "translation": "律師請她在署名前仔細閱讀文件。",
+    "clue": "要簽名前先細讀的文件",
+    "answerEntryId": "u21:document",
+    "distractorEntryIds": [
+     "u21:contract",
+     "u21:form",
+     "u21:law"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "You need an important ___, like a passport, before you can travel to another country.",
+     "fullSentence": "You need an important document, like a passport, before you can travel to another country.",
+     "translation": "出國前需要護照等重要文件。",
+     "clue": "過海關要出示的證件",
+     "answerEntryId": "u21:document",
+     "distractorEntryIds": [
+      "u11:lock",
+      "u11:tidy",
+      "u21:gun"
+     ]
+    },
+    {
+     "sentence": "The secretary printed the ___ and gave copies to everyone at the meeting.",
+     "fullSentence": "The secretary printed the document and gave copies to everyone at the meeting.",
+     "translation": "秘書印出文件，發給與會的每個人。",
+     "clue": "會議中傳閱的書面資料",
+     "answerEntryId": "u21:document",
+     "distractorEntryIds": [
+      "u21:form",
+      "u11:wash",
+      "u21:image"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Historians found an old ___ from 1800 that describes how people lived in this town.",
+     "fullSentence": "Historians found an old document from 1800 that describes how people lived in this town.",
+     "translation": "歷史學家發現一份 1800 年的古老文件，描述了當時小鎮的生活。",
+     "clue": "記載歷史的書面資料",
+     "answerEntryId": "u21:document",
+     "distractorEntryIds": [
+      "u21:form",
+      "u11:air conditioner",
+      "u11:armchair"
+     ]
+    },
+    {
+     "sentence": "Keep this ___ in a safe place; you will need it to prove who you are at the bank.",
+     "fullSentence": "Keep this document in a safe place; you will need it to prove who you are at the bank.",
+     "translation": "把這份文件收好，到銀行證明身分時會用到。",
+     "clue": "可證明身分的書面資料",
+     "answerEntryId": "u21:document",
+     "distractorEntryIds": [
+      "u21:form",
+      "u11:basement",
+      "u11:bath"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The historian kept every written ___ he found, from old letters to official reports.",
+    "fullSentence": "The historian kept every written document he found, from old letters to official reports.",
+    "translation": "歷史學家保存所有找到的書面文件，從舊信件到官方報告。",
+    "clue": "泛指任何書面紀錄",
+    "answerEntryId": "u21:document",
+    "distractorEntryIds": [
+     "u21:contract",
+     "u21:form",
+     "u21:policy"
+    ]
+   },
+   "_sent": "The historian kept every written ___ he found, from old letters to official reports."
+  },
+  {
+   "entryId": "u21:duty",
+   "zh": "責任；義務",
+   "pos": "noun",
+   "example": "It is my duty to help my teammates.",
+   "exampleZh": "幫助隊友是我的責任。",
+   "spellingHint": "d-u-t-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "As a doctor, saving lives is her ___.",
+    "fullSentence": "As a doctor, saving lives is her duty.",
+    "translation": "身為醫生，救人就是她的職責。",
+    "clue": "醫生分內該做的事",
+    "answerEntryId": "u21:duty",
+    "distractorEntryIds": [
+     "u21:freedom",
+     "u21:right",
+     "u11:balcony"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Firefighters risk their lives on ___ every day to save people from fires.",
+     "fullSentence": "Firefighters risk their lives on duty every day to save people from fires.",
+     "translation": "消防隊員每天冒著生命危險出勤救人。",
+     "clue": "執勤就是消防員的職責",
+     "answerEntryId": "u21:duty",
+     "distractorEntryIds": [
+      "u11:address",
+      "u21:right",
+      "u11:air conditioner"
+     ]
+    },
+    {
+     "sentence": "Paying taxes is every citizen's ___ to the country.",
+     "fullSentence": "Paying taxes is every citizen's duty to the country.",
+     "translation": "納稅是每位公民對國家的義務。",
+     "clue": "公民分內該做的事",
+     "answerEntryId": "u21:duty",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:freedom",
+      "u11:armchair"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The nurse stayed three hours after her shift because she felt it was her ___ to watch the sick child.",
+     "fullSentence": "The nurse stayed three hours after her shift because she felt it was her duty to watch the sick child.",
+     "translation": "護理師下班後多留三小時，因為她覺得照顧病童是她的職責。",
+     "clue": "出於職責自願留下",
+     "answerEntryId": "u21:duty",
+     "distractorEntryIds": [
+      "u21:right",
+      "u11:bed",
+      "u11:bench"
+     ]
+    },
+    {
+     "sentence": "Jury ___ means ordinary citizens must help decide if someone broke the law.",
+     "fullSentence": "Jury duty means ordinary citizens must help decide if someone broke the law.",
+     "translation": "陪審義務是指公民必須協助判斷某人是否違法。",
+     "clue": "公民被要求履行的義務",
+     "answerEntryId": "u21:duty",
+     "distractorEntryIds": [
+      "u21:right",
+      "u11:blanket",
+      "u11:bookcase"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Students must finish their homework on time; it is a ___ that cannot be skipped.",
+    "fullSentence": "Students must finish their homework on time; it is a duty that cannot be skipped.",
+    "translation": "學生必須準時完成功課，這是不能逃避的責任。",
+    "clue": "分內必須做到的事",
+    "answerEntryId": "u21:duty",
+    "distractorEntryIds": [
+     "u21:right",
+     "u21:freedom",
+     "u21:pollution"
+    ]
+   },
+   "_sent": "Students must finish their homework on time; it is a ___ that cannot be skipped."
+  },
+  {
+   "entryId": "u21:effective",
+   "zh": "有效的",
+   "pos": "adjective",
+   "example": "This medicine is effective against headaches.",
+   "exampleZh": "這種藥對頭痛有效。",
+   "spellingHint": "e-f-f-e-c-t-i-v-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Washing hands with soap is an ___ way to stop the spread of germs.",
+    "fullSentence": "Washing hands with soap is an effective way to stop the spread of germs.",
+    "translation": "用肥皂洗手是阻止細菌傳播的有效方法。",
+    "clue": "真的能發揮作用的方法",
+    "answerEntryId": "u21:effective",
+    "distractorEntryIds": [
+     "u21:powerful",
+     "u21:democratic",
+     "u21:legal"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The new study plan was ___; all the students passed the exam this time.",
+     "fullSentence": "The new study plan was effective; all the students passed the exam this time.",
+     "translation": "新的讀書計畫很有效，這次學生全部及格。",
+     "clue": "用過之後真的見效",
+     "answerEntryId": "u21:effective",
+     "distractorEntryIds": [
+      "u21:democratic",
+      "u21:powerful",
+      "u21:equal"
+     ]
+    },
+    {
+     "sentence": "Doctors say this vaccine is highly ___ at protecting people from the flu.",
+     "fullSentence": "Doctors say this vaccine is highly effective at protecting people from the flu.",
+     "translation": "醫生說這支疫苗預防流感非常有效。",
+     "clue": "疫苗能發揮保護效果",
+     "answerEntryId": "u21:effective",
+     "distractorEntryIds": [
+      "u21:powerful",
+      "u21:lawful",
+      "u21:equal"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The teacher tried several ways and found that group discussion was the most ___ one for shy students.",
+     "fullSentence": "The teacher tried several ways and found that group discussion was the most effective one for shy students.",
+     "translation": "老師試過幾種方法，發現小組討論對害羞的學生最有效。",
+     "clue": "比較之下最能見效的方法",
+     "answerEntryId": "u21:effective",
+     "distractorEntryIds": [
+      "u21:powerful",
+      "u21:democratic",
+      "u21:legal"
+     ]
+    },
+    {
+     "sentence": "The medicine became ___ only after the patient took it for a full week.",
+     "fullSentence": "The medicine became effective only after the patient took it for a full week.",
+     "translation": "這藥病人服用整整一週後才開始見效。",
+     "clue": "服用一段時間後見效",
+     "answerEntryId": "u21:effective",
+     "distractorEntryIds": [
+      "u21:powerful",
+      "u21:lawful",
+      "u21:democratic"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ method actually works and gets results, while a merely loud method only sounds impressive.",
+    "fullSentence": "A effective method actually works and gets results, while a merely loud method only sounds impressive.",
+    "translation": "有效的方法真正行得通、有成果；光是大聲的方法只是聽起來厲害。",
+    "clue": "真正管用而非空響",
+    "answerEntryId": "u21:effective",
+    "distractorEntryIds": [
+     "u21:powerful",
+     "u21:democratic",
+     "u21:legal"
+    ]
+   },
+   "_sent": "A ___ method actually works and gets results, while a merely loud method only sounds impressive."
+  },
+  {
+   "entryId": "u21:elect",
+   "zh": "選舉；選出",
+   "pos": "verb",
+   "example": "The class will elect a new leader today.",
+   "exampleZh": "班上今天要選出新的班長。",
+   "spellingHint": "e-l-e-c-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Citizens go to the polling station to ___ a new president every four years.",
+    "fullSentence": "Citizens go to the polling station to elect a new president every four years.",
+    "translation": "公民每四年到投票所選出新總統。",
+    "clue": "用選票選出領袖",
+    "answerEntryId": "u21:elect",
+    "distractorEntryIds": [
+     "u21:vote",
+     "u21:protect",
+     "u21:organize"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The members will ___ a new chairperson at tonight's meeting.",
+     "fullSentence": "The members will elect a new chairperson at tonight's meeting.",
+     "translation": "社員將在今晚的會議中選出新的會長。",
+     "clue": "會議中選出新幹部",
+     "answerEntryId": "u21:elect",
+     "distractorEntryIds": [
+      "u11:basement",
+      "u11:bath",
+      "u21:shoot"
+     ]
+    },
+    {
+     "sentence": "Americans ___ their president by voting every four years.",
+     "fullSentence": "Americans elect their president by voting every four years.",
+     "translation": "美國人每四年投票選出總統。",
+     "clue": "投票選出國家元首",
+     "answerEntryId": "u21:elect",
+     "distractorEntryIds": [
+      "u11:bed",
+      "u21:protect",
+      "u13:copy"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The committee met to ___ officers for next year; whoever gets the most support will lead the club.",
+     "fullSentence": "The committee met to elect officers for next year; whoever gets the most support will lead the club.",
+     "translation": "委員會開會選出明年的幹部；獲得最多支持者將領導社團。",
+     "clue": "由組織成員選出幹部",
+     "answerEntryId": "u21:elect",
+     "distractorEntryIds": [
+      "u21:vote",
+      "u11:fix",
+      "u21:pollute"
+     ]
+    },
+    {
+     "sentence": "The people of that country finally won the right to ___ their own government.",
+     "fullSentence": "The people of that country finally won the right to elect their own government.",
+     "translation": "那個國家的人民終於贏得選出自家政府的權利。",
+     "clue": "人民有權選出自己的政府",
+     "answerEntryId": "u21:elect",
+     "distractorEntryIds": [
+      "u21:vote",
+      "u11:lock",
+      "u21:protect"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "First you ___ the person you support by marking the ballot, and the one with the most marks wins the seat.",
+    "fullSentence": "First you elect the person you support by marking the ballot, and the one with the most marks wins the seat.",
+    "translation": "先在選票上圈選支持的人，得到最多圈選者贏得席位。",
+    "clue": "圈選選票支持候選人",
+    "answerEntryId": "u21:elect",
+    "distractorEntryIds": [
+     "u21:vote",
+     "u21:organize",
+     "u21:protect"
+    ]
+   },
+   "_sent": "First you ___ the person you support by marking the ballot, and the one with the most marks wins the seat."
+  },
+  {
+   "entryId": "u21:election",
+   "zh": "選舉",
+   "pos": "noun",
+   "example": "The election for class president is next Friday.",
+   "exampleZh": "班長選舉在下週五舉行。",
+   "spellingHint": "e-l-e-c-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Millions of people lined up to choose their leaders in the most important ___ of the decade.",
+    "fullSentence": "Millions of people lined up to choose their leaders in the most important election of the decade.",
+    "translation": "數百萬人排隊在這十年最重要的選舉中選出領袖。",
+    "clue": "全國投票選領袖的活動",
+    "answerEntryId": "u21:election",
+    "distractorEntryIds": [
+     "u21:trial",
+     "u21:war",
+     "u21:crisis"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Before the ___, each candidate gave speeches to win people's support.",
+     "fullSentence": "Before the election, each candidate gave speeches to win people's support.",
+     "translation": "選舉前，每位候選人都發表演說爭取支持。",
+     "clue": "候選人拜票的活動就是選舉",
+     "answerEntryId": "u21:election",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u21:war",
+      "u11:bench"
+     ]
+    },
+    {
+     "sentence": "The results of the ___ will be announced tonight, and the winner will give a speech.",
+     "fullSentence": "The results of the election will be announced tonight, and the winner will give a speech.",
+     "translation": "選舉結果今晚公布，勝選者將發表演說。",
+     "clue": "開票公布的活動",
+     "answerEntryId": "u21:election",
+     "distractorEntryIds": [
+      "u11:blanket",
+      "u21:trial",
+      "u11:bookcase"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "During the ___, posters and TV ads appeared everywhere as candidates tried to win support.",
+     "fullSentence": "During the election, posters and TV ads appeared everywhere as candidates tried to win support.",
+     "translation": "選舉期間，候選人為了贏得支持，海報和電視廣告到處出現。",
+     "clue": "候選人競選造勢的期間",
+     "answerEntryId": "u21:election",
+     "distractorEntryIds": [
+      "u11:brick",
+      "u21:war",
+      "u11:brush"
+     ]
+    },
+    {
+     "sentence": "The mayor lost the ___ because most citizens preferred the younger candidate.",
+     "fullSentence": "The mayor lost the election because most citizens preferred the younger candidate.",
+     "translation": "市長輸掉了選舉，因為多數市民較支持年輕的候選人。",
+     "clue": "候選人之間的得票競爭",
+     "answerEntryId": "u21:election",
+     "distractorEntryIds": [
+      "u11:bucket",
+      "u11:building",
+      "u21:war"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ happens every four years in that country, and everyone over eighteen may cast a ballot in it.",
+    "fullSentence": "A election happens every four years in that country, and everyone over eighteen may cast a ballot in it.",
+    "translation": "該國每四年舉行一次選舉，年滿十八歲者都能參與投票。",
+    "clue": "定期由公民投票的活動",
+    "answerEntryId": "u21:election",
+    "distractorEntryIds": [
+     "u21:trial",
+     "u21:war",
+     "u21:crisis"
+    ]
+   },
+   "_sent": "A ___ happens every four years in that country, and everyone over eighteen may cast a ballot in it."
+  },
+  {
+   "entryId": "u21:equal",
+   "zh": "相等的；平等的",
+   "pos": "adjective",
+   "example": "The two boxes are equal in size.",
+   "exampleZh": "這兩個箱子大小相等。",
+   "spellingHint": "e-q-u-a-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Divide the cake into six ___ pieces so every child gets the same amount.",
+    "fullSentence": "Divide the cake into six equal pieces so every child gets the same amount.",
+    "translation": "把蛋糕切成六等分，讓每個孩子分到一樣多。",
+    "clue": "每份都一樣多",
+    "answerEntryId": "u21:equal",
+    "distractorEntryIds": [
+     "u21:lawful",
+     "u21:effective",
+     "u21:democratic"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In math class we learned that four plus four is ___ to eight.",
+     "fullSentence": "In math class we learned that four plus four is equal to eight.",
+     "translation": "數學課上我們學到四加四等於八。",
+     "clue": "兩邊數量相同就是相等",
+     "answerEntryId": "u21:equal",
+     "distractorEntryIds": [
+      "u21:lawful",
+      "u21:legal",
+      "u11:brick"
+     ]
+    },
+    {
+     "sentence": "All players must follow ___ rules; no one gets special treatment.",
+     "fullSentence": "All players must follow equal rules; no one gets special treatment.",
+     "translation": "所有球員都要遵守同樣的規則，沒有人有特權。",
+     "clue": "規則對每個人相同",
+     "answerEntryId": "u21:equal",
+     "distractorEntryIds": [
+      "u11:brush",
+      "u21:lawful",
+      "u21:powerful"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The law says men and women should receive ___ pay for the same work.",
+     "fullSentence": "The law says men and women should receive equal pay for the same work.",
+     "translation": "法律規定男女同工應同酬。",
+     "clue": "同樣工作領相同報酬",
+     "answerEntryId": "u21:equal",
+     "distractorEntryIds": [
+      "u11:flat",
+      "u21:lawful",
+      "u21:democratic"
+     ]
+    },
+    {
+     "sentence": "Each side of a perfect square is ___ in length to the others.",
+     "fullSentence": "Each side of a perfect square is equal in length to the others.",
+     "translation": "正方形的四邊長度相等。",
+     "clue": "四邊長度相同",
+     "answerEntryId": "u21:equal",
+     "distractorEntryIds": [
+      "u21:legal",
+      "u21:lawful",
+      "u11:upstairs"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "One kilogram is ___ to one thousand grams, so the two bags weigh exactly the same.",
+    "fullSentence": "One kilogram is equal to one thousand grams, so the two bags weigh exactly the same.",
+    "translation": "一公斤等於一千公克，所以兩袋重量完全相同。",
+    "clue": "重量數值相同就是相等",
+    "answerEntryId": "u21:equal",
+    "distractorEntryIds": [
+     "u21:lawful",
+     "u21:legal",
+     "u21:effective"
+    ]
+   },
+   "_sent": "One kilogram is ___ to one thousand grams, so the two bags weigh exactly the same."
+  },
+  {
+   "entryId": "u21:form",
+   "zh": "表格",
+   "pos": "noun",
+   "example": "Fill out this form with your name and address.",
+   "exampleZh": "在這張表格上填寫姓名和地址。",
+   "spellingHint": "f-o-r-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please fill out this ___ with your name, phone number, and address.",
+    "fullSentence": "Please fill out this form with your name, phone number, and address.",
+    "translation": "請在這張表格上填寫姓名、電話和地址。",
+    "clue": "留空待填的申請單",
+    "answerEntryId": "u21:form",
+    "distractorEntryIds": [
+     "u21:document",
+     "u21:contract",
+     "u21:policy"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "To join the club, you must first complete an application ___.",
+     "fullSentence": "To join the club, you must first complete an application form.",
+     "translation": "要加入社團，必須先填寫申請表。",
+     "clue": "申請時要填的單子",
+     "answerEntryId": "u21:form",
+     "distractorEntryIds": [
+      "u21:document",
+      "u11:bucket",
+      "u11:building"
+     ]
+    },
+    {
+     "sentence": "The teacher handed out a ___ for parents to sign before the field trip.",
+     "fullSentence": "The teacher handed out a form for parents to sign before the field trip.",
+     "translation": "老師發下一張表格，請家長在校外教學前簽名。",
+     "clue": "請家長簽名的同意書表格",
+     "answerEntryId": "u21:form",
+     "distractorEntryIds": [
+      "u21:document",
+      "u11:cabinet",
+      "u11:can"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The clerk checked every line of the ___ to make sure nothing was left blank.",
+     "fullSentence": "The clerk checked every line of the form to make sure nothing was left blank.",
+     "translation": "職員逐行檢查表格，確認沒有漏填。",
+     "clue": "逐行檢查有無漏填",
+     "answerEntryId": "u21:form",
+     "distractorEntryIds": [
+      "u21:document",
+      "u11:cabinet",
+      "u11:can"
+     ]
+    },
+    {
+     "sentence": "You cannot enter the country without filling in the arrival ___ first.",
+     "fullSentence": "You cannot enter the country without filling in the arrival form first.",
+     "translation": "不先填寫入境表格就無法入境。",
+     "clue": "入境前必填的單子",
+     "answerEntryId": "u21:form",
+     "distractorEntryIds": [
+      "u21:document",
+      "u21:contract",
+      "u11:carpet"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Before the interview, every applicant must complete the ___ by writing answers in each blank space.",
+    "fullSentence": "Before the interview, every applicant must complete the form by writing answers in each blank space.",
+    "translation": "面試前，每位申請者都要在每個空白欄填答，完成這份表格。",
+    "clue": "有空白欄位待填的單子",
+    "answerEntryId": "u21:form",
+    "distractorEntryIds": [
+     "u21:document",
+     "u21:contract",
+     "u21:policy"
+    ]
+   },
+   "_sent": "Before the interview, every applicant must complete the ___ by writing answers in each blank space."
+  },
+  {
+   "entryId": "u21:freedom",
+   "zh": "自由",
+   "pos": "noun",
+   "example": "Birds have the freedom to fly anywhere.",
+   "exampleZh": "鳥兒有到處飛翔的自由。",
+   "spellingHint": "f-r-e-e-d-o-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After the guards opened the gate, the prisoner at last walked out and tasted ___ for the first time in ten years.",
+    "fullSentence": "After the guards opened the gate, the prisoner at last walked out and tasted freedom for the first time in ten years.",
+    "translation": "獄警打開大門後，囚犯終於走出牢門，十年來第一次嚐到自由的滋味。",
+    "clue": "出獄後重獲的狀態",
+    "answerEntryId": "u21:freedom",
+    "distractorEntryIds": [
+     "u21:right",
+     "u21:power",
+     "u21:duty"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In a free country, people enjoy the ___ to say what they think.",
+     "fullSentence": "In a free country, people enjoy the freedom to say what they think.",
+     "translation": "在自由的國家，人們享有表達想法的自由。",
+     "clue": "暢所欲言的權利",
+     "answerEntryId": "u21:freedom",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:power",
+      "u11:carpet"
+     ]
+    },
+    {
+     "sentence": "The prisoners dreamed of the day they would win their ___.",
+     "fullSentence": "The prisoners dreamed of the day they would win their freedom.",
+     "translation": "囚犯夢想著重獲自由的那一天。",
+     "clue": "囚犯最渴望的狀態",
+     "answerEntryId": "u21:freedom",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:power",
+      "u21:duty"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The constitution protects the ___ of speech, so citizens may share their opinions openly.",
+     "fullSentence": "The constitution protects the freedom of speech, so citizens may share their opinions openly.",
+     "translation": "憲法保障言論自由，公民可以公開表達意見。",
+     "clue": "openly share opinions 靠言論自由",
+     "answerEntryId": "u21:freedom",
+     "distractorEntryIds": [
+      "u21:right",
+      "u11:cassette",
+      "u21:duty"
+     ]
+    },
+    {
+     "sentence": "Teenagers often ask for more ___ from their parents, like choosing their own clothes.",
+     "fullSentence": "Teenagers often ask for more freedom from their parents, like choosing their own clothes.",
+     "translation": "青少年常向父母要求更多自由，例如自己選衣服。",
+     "clue": "自主決定的空間",
+     "answerEntryId": "u21:freedom",
+     "distractorEntryIds": [
+      "u21:right",
+      "u11:ceiling",
+      "u21:contract"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "When the cage door opened, the bird finally enjoyed its ___, flying anywhere it wished.",
+    "fullSentence": "When the cage door opened, the bird finally enjoyed its freedom, flying anywhere it wished.",
+    "translation": "籠門打開後，小鳥終於重享自由，飛向任何地方。",
+    "clue": "不受束縛的狀態",
+    "answerEntryId": "u21:freedom",
+    "distractorEntryIds": [
+     "u21:right",
+     "u21:power",
+     "u21:duty"
+    ]
+   },
+   "_sent": "When the cage door opened, the bird finally enjoyed its ___, flying anywhere it wished."
+  },
+  {
+   "entryId": "u21:government",
+   "zh": "政府",
+   "pos": "noun",
+   "example": "The government built new schools last year.",
+   "exampleZh": "政府去年蓋了新學校。",
+   "spellingHint": "g-o-v-e-r-n-m-e-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ___ announced a new plan to improve hospitals in every city.",
+    "fullSentence": "The government announced a new plan to improve hospitals in every city.",
+    "translation": "政府宣布改善各城市醫院的新計畫。",
+    "clue": "制定全國政策的機關",
+    "answerEntryId": "u21:government",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:society",
+     "u21:system"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The ___ collects taxes from citizens and uses the money to build roads.",
+     "fullSentence": "The government collects taxes from citizens and uses the money to build roads.",
+     "translation": "政府向人民收稅，並用這些錢修路。",
+     "clue": "收稅並建設公共設施的機關",
+     "answerEntryId": "u21:government",
+     "distractorEntryIds": [
+      "u11:cassette",
+      "u11:ceiling",
+      "u11:chair"
+     ]
+    },
+    {
+     "sentence": "Leaders of the ___ met to discuss how to protect the environment.",
+     "fullSentence": "Leaders of the government met to discuss how to protect the environment.",
+     "translation": "政府領袖開會討論如何保護環境。",
+     "clue": "治理國家的團隊",
+     "answerEntryId": "u21:government",
+     "distractorEntryIds": [
+      "u11:closet",
+      "u11:computer",
+      "u21:system"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "During the flood, the ___ sent soldiers and food to help the people in the mountains.",
+     "fullSentence": "During the flood, the government sent soldiers and food to help the people in the mountains.",
+     "translation": "洪水期間，政府派兵並送食物幫助山區居民。",
+     "clue": "災時調度資源的國家機關",
+     "answerEntryId": "u21:government",
+     "distractorEntryIds": [
+      "u11:chair",
+      "u11:closet",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "Citizens in a democracy choose the people who will run the ___.",
+     "fullSentence": "Citizens in a democracy choose the people who will run the government.",
+     "translation": "民主國家的公民選出治理政府的人。",
+     "clue": "由人民選出的治理機關",
+     "answerEntryId": "u21:government",
+     "distractorEntryIds": [
+      "u11:computer",
+      "u11:couch",
+      "u21:system"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ runs a whole country and makes laws for everyone, while a company runs a business only for itself.",
+    "fullSentence": "A government runs a whole country and makes laws for everyone, while a company runs a business only for itself.",
+    "translation": "政府治理全國、為全民立法；公司只為自身營運。",
+    "clue": "治理全國的機關",
+    "answerEntryId": "u21:government",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:society",
+     "u21:system"
+    ]
+   },
+   "_sent": "A ___ runs a whole country and makes laws for everyone, while a company runs a business only for itself."
+  },
+  {
+   "entryId": "u21:gun",
+   "zh": "槍",
+   "pos": "noun",
+   "example": "Policemen carry a gun for protection.",
+   "exampleZh": "警察攜帶槍自衛。",
+   "spellingHint": "g-u-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The hunter carried a ___ to shoot animals in the forest.",
+    "fullSentence": "The hunter carried a gun to shoot animals in the forest.",
+    "translation": "獵人帶著槍到森林裡射獵動物。",
+    "clue": "可發射子彈的武器",
+    "answerEntryId": "u21:gun",
+    "distractorEntryIds": [
+     "u21:weapon",
+     "u21:bomb",
+     "u21:power"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In the old movie, the cowboy wore a ___ on his belt.",
+     "fullSentence": "In the old movie, the cowboy wore a gun on his belt.",
+     "translation": "老電影裡，牛仔腰間配掛一把槍。",
+     "clue": "牛仔配掛的武器",
+     "answerEntryId": "u21:gun",
+     "distractorEntryIds": [
+      "u21:weapon",
+      "u21:bomb",
+      "u21:prison"
+     ]
+    },
+    {
+     "sentence": "The police officer drew his ___ when the thief tried to run.",
+     "fullSentence": "The police officer drew his gun when the thief tried to run.",
+     "translation": "小偷想逃跑時，警察拔出了槍。",
+     "clue": "警察面對嫌犯拔出的武器",
+     "answerEntryId": "u21:gun",
+     "distractorEntryIds": [
+      "u21:weapon",
+      "u21:bomb",
+      "u21:law"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Soldiers learn to fire a ___ with great care during training.",
+     "fullSentence": "Soldiers learn to fire a gun with great care during training.",
+     "translation": "士兵受訓時學習謹慎地開槍。",
+     "clue": "fire 是開槍的搭配動詞",
+     "answerEntryId": "u21:gun",
+     "distractorEntryIds": [
+      "u21:weapon",
+      "u21:bomb",
+      "u11:curtain"
+     ]
+    },
+    {
+     "sentence": "Many countries do not allow ordinary people to own a ___.",
+     "fullSentence": "Many countries do not allow ordinary people to own a gun.",
+     "translation": "許多國家不允許平民擁有槍枝。",
+     "clue": "管制持有的殺傷性武器",
+     "answerEntryId": "u21:gun",
+     "distractorEntryIds": [
+      "u21:weapon",
+      "u21:bomb",
+      "u21:prison"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Unlike a knife which cuts by hand, a ___ fires a small bullet with great force when the trigger is pulled.",
+    "fullSentence": "Unlike a knife which cuts by hand, a gun fires a small bullet with great force when the trigger is pulled.",
+    "translation": "刀靠手力切割，槍則在扣扳機時強力射出子彈。",
+    "clue": "扣扳機射出子彈",
+    "answerEntryId": "u21:gun",
+    "distractorEntryIds": [
+     "u21:weapon",
+     "u21:bomb",
+     "u21:shot"
+    ]
+   },
+   "_sent": "Unlike a knife which cuts by hand, a ___ fires a small bullet with great force when the trigger is pulled."
+  },
+  {
+   "entryId": "u21:image",
+   "zh": "形象；影像",
+   "pos": "noun",
+   "example": "The company wants a friendly image.",
+   "exampleZh": "這家公司想要親切的形象。",
+   "spellingHint": "i-m-a-g-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The star wears simple clothes so that her public ___ stays friendly and honest.",
+    "fullSentence": "The star wears simple clothes so that her public image stays friendly and honest.",
+    "translation": "這位明星穿著樸素，讓她的公眾形象保持親切誠實。",
+    "clue": "別人眼中的樣子",
+    "answerEntryId": "u21:image",
+    "distractorEntryIds": [
+     "u21:policy",
+     "u21:power",
+     "u21:society"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The camera on the new phone takes a clear ___ even at night.",
+     "fullSentence": "The camera on the new phone takes a clear image even at night.",
+     "translation": "新手機的相機即使在夜間也能拍出清晰的影像。",
+     "clue": "相機拍出的畫面",
+     "answerEntryId": "u21:image",
+     "distractorEntryIds": [
+      "u21:document",
+      "u21:form",
+      "u21:contract"
+     ]
+    },
+    {
+     "sentence": "A good first ___ helps you make friends quickly at a new school.",
+     "fullSentence": "A good first image helps you make friends quickly at a new school.",
+     "translation": "好的第一印象能幫助你在新學校快速交到朋友。",
+     "clue": "初見時給人的觀感",
+     "answerEntryId": "u21:image",
+     "distractorEntryIds": [
+      "u11:couch",
+      "u11:curtain",
+      "u11:decorate"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "After the scandal, the company spent millions to repair its ___.",
+     "fullSentence": "After the scandal, the company spent millions to repair its image.",
+     "translation": "醜聞過後，公司花費數百萬修復形象。",
+     "clue": "醜聞後要修復的是形象",
+     "answerEntryId": "u21:image",
+     "distractorEntryIds": [
+      "u11:design",
+      "u11:desk",
+      "u11:dining room"
+     ]
+    },
+    {
+     "sentence": "The screen showed a strange ___ that looked like a bird flying across the moon.",
+     "fullSentence": "The screen showed a strange image that looked like a bird flying across the moon.",
+     "translation": "螢幕上出現奇怪的影像，看起來像隻鳥飛過月亮。",
+     "clue": "螢幕上顯現的畫面",
+     "answerEntryId": "u21:image",
+     "distractorEntryIds": [
+      "u21:document",
+      "u21:form",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A mirror shows your real face, but a public ___ is the picture of you that other people carry in their minds.",
+    "fullSentence": "A mirror shows your real face, but a public image is the picture of you that other people carry in their minds.",
+    "translation": "鏡子照出真實的臉，公眾形象則是他人心中的你的模樣。",
+    "clue": "他人心中對你的觀感",
+    "answerEntryId": "u21:image",
+    "distractorEntryIds": [
+     "u21:policy",
+     "u21:power",
+     "u21:document"
+    ]
+   },
+   "_sent": "A mirror shows your real face, but a public ___ is the picture of you that other people carry in their minds."
+  },
+  {
+   "entryId": "u21:law",
+   "zh": "法律",
+   "pos": "noun",
+   "example": "Everyone must obey the law.",
+   "exampleZh": "每個人都必須遵守法律。",
+   "spellingHint": "l-a-w",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ___ says drivers must stop when the light turns red.",
+    "fullSentence": "The law says drivers must stop when the light turns red.",
+    "translation": "法律規定駕駛在紅燈時必須停車。",
+    "clue": "人人必須遵守的規定",
+    "answerEntryId": "u21:law",
+    "distractorEntryIds": [
+     "u21:policy",
+     "u21:system",
+     "u21:contract"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "It is against the ___ to steal things from a store.",
+     "fullSentence": "It is against the law to steal things from a store.",
+     "translation": "從商店偷東西是違法的。",
+     "clue": "偷竊違反法律",
+     "answerEntryId": "u21:law",
+     "distractorEntryIds": [
+      "u11:design",
+      "u21:contract",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "The government passed a new ___ to protect rivers from pollution.",
+     "fullSentence": "The government passed a new law to protect rivers from pollution.",
+     "translation": "政府通過新法律保護河川免受污染。",
+     "clue": "由政府通過的法案",
+     "answerEntryId": "u21:law",
+     "distractorEntryIds": [
+      "u11:desk",
+      "u21:contract",
+      "u21:system"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She studied ___ at the university for four years because she wants to become a judge.",
+     "fullSentence": "She studied law at the university for four years because she wants to become a judge.",
+     "translation": "她在大學攻讀法律四年，因為想成為法官。",
+     "clue": "想當法官要先讀法律",
+     "answerEntryId": "u21:law",
+     "distractorEntryIds": [
+      "u21:policy",
+      "u21:contract",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "The police caught the man who broke the ___ by driving much too fast.",
+     "fullSentence": "The police caught the man who broke the law by driving much too fast.",
+     "translation": "警察逮捕了超速違法駕駛的男子。",
+     "clue": "超速是違法行為",
+     "answerEntryId": "u21:law",
+     "distractorEntryIds": [
+      "u21:policy",
+      "u21:contract",
+      "u21:system"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "There is a new ___ against smoking in restaurants; anyone who breaks it must pay a fine.",
+    "fullSentence": "There is a new law against smoking in restaurants; anyone who breaks it must pay a fine.",
+    "translation": "新法律禁止在餐廳吸菸，違者必須繳罰款。",
+    "clue": "全國都需遵守的規定",
+    "answerEntryId": "u21:law",
+    "distractorEntryIds": [
+     "u21:policy",
+     "u21:contract",
+     "u21:system"
+    ]
+   },
+   "_sent": "There is a new ___ against smoking in restaurants; anyone who breaks it must pay a fine."
+  },
+  {
+   "entryId": "u21:lawful",
+   "zh": "合法的",
+   "pos": "adjective",
+   "example": "The police checked if his actions were lawful.",
+   "exampleZh": "警察檢查他的行為是否合法。",
+   "spellingHint": "l-a-w-f-u-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Because the police had a ___ reason, they were allowed to search the car.",
+    "fullSentence": "Because the police had a lawful reason, they were allowed to search the car.",
+    "translation": "因為警察有合法理由，所以他們可以搜查那輛車。",
+    "clue": "有正當法律依據",
+    "answerEntryId": "u21:lawful",
+    "distractorEntryIds": [
+     "u21:legal",
+     "u21:equal",
+     "u21:effective"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Keeping a wild tiger as a pet is not ___ in most countries.",
+     "fullSentence": "Keeping a wild tiger as a pet is not lawful in most countries.",
+     "translation": "在多數國家，養野生老虎當寵物並不合法。",
+     "clue": "法律不允許的行為",
+     "answerEntryId": "u21:lawful",
+     "distractorEntryIds": [
+      "u21:legal",
+      "u21:effective",
+      "u21:equal"
+     ]
+    },
+    {
+     "sentence": "The judge said the arrest was ___ because the officers followed every rule.",
+     "fullSentence": "The judge said the arrest was lawful because the officers followed every rule.",
+     "translation": "法官說這次逮捕合法，因為警察完全依照規定。",
+     "clue": "完全照規定就是合法",
+     "answerEntryId": "u21:lawful",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:equal",
+      "u21:democratic"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Only adults with a special permit may carry a ___ weapon in public.",
+     "fullSentence": "Only adults with a special permit may carry a lawful weapon in public.",
+     "translation": "只有持特別許可的成年人才能在公共場所攜帶合法武器。",
+     "clue": "持有許可才合法",
+     "answerEntryId": "u21:lawful",
+     "distractorEntryIds": [
+      "u21:legal",
+      "u21:effective",
+      "u21:powerful"
+     ]
+    },
+    {
+     "sentence": "The court decided that the strike was ___ because the workers followed the proper steps.",
+     "fullSentence": "The court decided that the strike was lawful because the workers followed the proper steps.",
+     "translation": "法院裁定罷工合法，因為工人遵循了正當程序。",
+     "clue": "程序正確即屬合法",
+     "answerEntryId": "u21:lawful",
+     "distractorEntryIds": [
+      "u21:legal",
+      "u21:equal",
+      "u21:effective"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The court said the search was ___ because the officers had a warrant signed by a judge.",
+    "fullSentence": "The court said the search was lawful because the officers had a warrant signed by a judge.",
+    "translation": "法院裁定搜查合法，因為警察持有法官簽發的搜索票。",
+    "clue": "有正當法律依據",
+    "answerEntryId": "u21:lawful",
+    "distractorEntryIds": [
+     "u21:legal",
+     "u21:equal",
+     "u21:effective"
+    ]
+   },
+   "_sent": "The court said the search was ___ because the officers had a warrant signed by a judge."
+  },
+  {
+   "entryId": "u21:legal",
+   "zh": "法律的；合法的",
+   "pos": "adjective",
+   "example": "She needs legal advice from a lawyer.",
+   "exampleZh": "她需要律師的法律建議。",
+   "spellingHint": "l-e-g-a-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "You must be eighteen years old to make a ___ contract by yourself.",
+    "fullSentence": "You must be eighteen years old to make a legal contract by yourself.",
+    "translation": "必須年滿十八歲才能獨立簽訂合法合約。",
+    "clue": "達到年齡才有法律效力",
+    "answerEntryId": "u21:legal",
+    "distractorEntryIds": [
+     "u21:lawful",
+     "u21:effective",
+     "u21:equal"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The company asked a ___ expert to read the contract before signing.",
+     "fullSentence": "The company asked a legal expert to read the contract before signing.",
+     "translation": "公司簽約前先請法律專家審閱合約。",
+     "clue": "簽約前諮詢法律專家",
+     "answerEntryId": "u21:legal",
+     "distractorEntryIds": [
+      "u21:lawful",
+      "u21:democratic",
+      "u21:effective"
+     ]
+    },
+    {
+     "sentence": "In Taiwan, it is ___ to drive only after you get a driver's license.",
+     "fullSentence": "In Taiwan, it is legal to drive only after you get a driver's license.",
+     "translation": "在台灣，取得駕照後開車才是合法的。",
+     "clue": "有駕照開車才合法",
+     "answerEntryId": "u21:legal",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:equal",
+      "u21:democratic"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The suspect could not afford a lawyer, so the court provided free ___ help.",
+     "fullSentence": "The suspect could not afford a lawyer, so the court provided free legal help.",
+     "translation": "被告請不起律師，法院因此提供免費的法律協助。",
+     "clue": "法院提供的法律援助",
+     "answerEntryId": "u21:legal",
+     "distractorEntryIds": [
+      "u21:lawful",
+      "u21:effective",
+      "u21:powerful"
+     ]
+    },
+    {
+     "sentence": "Buying medicine without a doctor's prescription is not a ___ way to treat the illness.",
+     "fullSentence": "Buying medicine without a doctor's prescription is not a legal way to treat the illness.",
+     "translation": "沒有醫師處方就買藥，並不是合法的治病方式。",
+     "clue": "憑處方購藥才合法",
+     "answerEntryId": "u21:legal",
+     "distractorEntryIds": [
+      "u21:lawful",
+      "u21:equal",
+      "u21:effective"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Before you sign the rental agreement, ask a ___ expert to check that everything in it follows the rules.",
+    "fullSentence": "Before you sign the rental agreement, ask a legal expert to check that everything in it follows the rules.",
+    "translation": "簽租約前，先請法律專家確認內容完全合乎規定。",
+    "clue": "符合法律規定",
+    "answerEntryId": "u21:legal",
+    "distractorEntryIds": [
+     "u21:lawful",
+     "u21:effective",
+     "u21:equal"
+    ]
+   },
+   "_sent": "Before you sign the rental agreement, ask a ___ expert to check that everything in it follows the rules."
+  },
+  {
+   "entryId": "u21:organization",
+   "zh": "組織；機構",
+   "pos": "noun",
+   "example": "She joined an organization that helps animals.",
+   "exampleZh": "她加入了一個幫助動物的組織。",
+   "spellingHint": "o-r-g-a-n-i-z-a-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The Red Cross is a large ___ that helps people after disasters around the world.",
+    "fullSentence": "The Red Cross is a large organization that helps people after disasters around the world.",
+    "translation": "紅十字會是大型組織，在全球災後援助人們。",
+    "clue": "跨國救災的團體",
+    "answerEntryId": "u21:organization",
+    "distractorEntryIds": [
+     "u21:government",
+     "u21:society",
+     "u21:system"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Our school started an ___ to recycle paper and bottles every week.",
+     "fullSentence": "Our school started an organization to recycle paper and bottles every week.",
+     "translation": "我們學校成立了每週回收紙類和瓶子的組織。",
+     "clue": "為回收而組成的團體",
+     "answerEntryId": "u21:organization",
+     "distractorEntryIds": [
+      "u11:dial",
+      "u11:dining room",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "The charity ___ raised money to build wells in dry villages.",
+     "fullSentence": "The charity organization raised money to build wells in dry villages.",
+     "translation": "慈善組織募款為乾旱的村莊挖井。",
+     "clue": "募款行善的團體",
+     "answerEntryId": "u21:organization",
+     "distractorEntryIds": [
+      "u21:government",
+      "u11:door",
+      "u11:downstairs"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "As president of the student ___, she organizes activities for all the clubs.",
+     "fullSentence": "As president of the student organization, she organizes activities for all the clubs.",
+     "translation": "身為學生組織會長，她為各社團安排活動。",
+     "clue": "統籌社團活動的單位",
+     "answerEntryId": "u21:organization",
+     "distractorEntryIds": [
+      "u21:government",
+      "u11:door",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "Each member of the ___ must follow its rules and attend the monthly meeting.",
+     "fullSentence": "Each member of the organization must follow its rules and attend the monthly meeting.",
+     "translation": "組織的每位成員都必須遵守規則並出席月會。",
+     "clue": "有成員與規則的團體",
+     "answerEntryId": "u21:organization",
+     "distractorEntryIds": [
+      "u21:government",
+      "u11:drawer",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The charity is an ___ that sends free books to children in poor villages every year.",
+    "fullSentence": "The charity is an organization that sends free books to children in poor villages every year.",
+    "translation": "這個慈善組織每年寄送免費書籍給貧困村莊的孩子。",
+    "clue": "為共同目標合作的團體",
+    "answerEntryId": "u21:organization",
+    "distractorEntryIds": [
+     "u21:society",
+     "u21:government",
+     "u21:system"
+    ]
+   },
+   "_sent": "The charity is an ___ that sends free books to children in poor villages every year."
+  },
+  {
+   "entryId": "u21:organize",
+   "zh": "組織；安排",
+   "pos": "verb",
+   "example": "Let's organize a birthday party for Mom.",
+   "exampleZh": "我們來幫媽媽籌辦生日派對。",
+   "spellingHint": "o-r-g-a-n-i-z-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The students will ___ a cleanup day to pick up trash on the beach.",
+    "fullSentence": "The students will organize a cleanup day to pick up trash on the beach.",
+    "translation": "學生將舉辦淨灘日，到海灘撿垃圾。",
+    "clue": "事先安排活動的進行",
+    "answerEntryId": "u21:organize",
+    "distractorEntryIds": [
+     "u21:elect",
+     "u21:protect",
+     "u21:pollute"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Can you ___ your desk so that every book has its own place?",
+     "fullSentence": "Can you organize your desk so that every book has its own place?",
+     "translation": "你能整理書桌，讓每本書都有固定位置嗎？",
+     "clue": "把東西收拾整齊",
+     "answerEntryId": "u21:organize",
+     "distractorEntryIds": [
+      "u11:drawer",
+      "u21:protect",
+      "u21:vote"
+     ]
+    },
+    {
+     "sentence": "The teacher asked the class to ___ the cards from the smallest number to the largest.",
+     "fullSentence": "The teacher asked the class to organize the cards from the smallest number to the largest.",
+     "translation": "老師請全班把卡片從小到大排列整齊。",
+     "clue": "依順序排好",
+     "answerEntryId": "u21:organize",
+     "distractorEntryIds": [
+      "u11:dresser",
+      "u21:protect",
+      "u21:vote"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The committee meets every Monday to ___ the summer camp, booking buses and planning meals.",
+     "fullSentence": "The committee meets every Monday to organize the summer camp, booking buses and planning meals.",
+     "translation": "委員會每週一開會籌辦夏令營，訂車並規劃餐點。",
+     "clue": "事先安排營隊細節",
+     "answerEntryId": "u21:organize",
+     "distractorEntryIds": [
+      "u11:tidy",
+      "u21:protect",
+      "u21:pollute"
+     ]
+    },
+    {
+     "sentence": "Volunteers helped ___ the donated clothes by size before sending them to the shelter.",
+     "fullSentence": "Volunteers helped organize the donated clothes by size before sending them to the shelter.",
+     "translation": "志工先將捐贈衣物按尺寸整理好，再送到收容所。",
+     "clue": "按類別整理物品",
+     "answerEntryId": "u21:organize",
+     "distractorEntryIds": [
+      "u11:wash",
+      "u21:vote",
+      "u21:pollute"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "It took the class two weeks to ___ the school fair, booking booths and printing posters.",
+    "fullSentence": "It took the class two weeks to organize the school fair, booking booths and printing posters.",
+    "translation": "全班花了兩週籌辦園遊會，訂攤位並印海報。",
+    "clue": "事先規劃安排活動",
+    "answerEntryId": "u21:organize",
+    "distractorEntryIds": [
+     "u21:elect",
+     "u21:vote",
+     "u21:protect"
+    ]
+   },
+   "_sent": "It took the class two weeks to ___ the school fair, booking booths and printing posters."
+  },
+  {
+   "entryId": "u21:policy",
+   "zh": "政策",
+   "pos": "noun",
+   "example": "The school has a policy against using phones in class.",
+   "exampleZh": "學校有上課禁用手機的規定。",
+   "spellingHint": "p-o-l-i-c-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The city's new traffic ___ bans trucks from the busy streets during rush hours.",
+    "fullSentence": "The city's new traffic policy bans trucks from the busy streets during rush hours.",
+    "translation": "市政府新的交通政策禁止貨車在尖峰時段進入繁忙街道。",
+    "clue": "政府機關訂定的措施",
+    "answerEntryId": "u21:policy",
+    "distractorEntryIds": [
+     "u21:law",
+     "u21:contract",
+     "u21:system"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The company's new ___ gives workers an extra day off on their birthdays.",
+     "fullSentence": "The company's new policy gives workers an extra day off on their birthdays.",
+     "translation": "公司新政策讓員工生日多放一天假。",
+     "clue": "機構制定的辦法",
+     "answerEntryId": "u21:policy",
+     "distractorEntryIds": [
+      "u21:law",
+      "u21:contract",
+      "u11:dryer"
+     ]
+    },
+    {
+     "sentence": "Our school has a no-homework ___ on Fridays, so we can rest before the weekend.",
+     "fullSentence": "Our school has a no-homework policy on Fridays, so we can rest before the weekend.",
+     "translation": "學校規定週五無作業，週末前可以休息。",
+     "clue": "學校公告的規定",
+     "answerEntryId": "u21:policy",
+     "distractorEntryIds": [
+      "u21:law",
+      "u21:contract",
+      "u21:form"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The health ___ requires everyone entering the hospital to wash their hands first.",
+     "fullSentence": "The health policy requires everyone entering the hospital to wash their hands first.",
+     "translation": "衛生政策規定所有進醫院的人都要先洗手。",
+     "clue": "醫院公告的防疫措施",
+     "answerEntryId": "u21:policy",
+     "distractorEntryIds": [
+      "u21:law",
+      "u21:contract",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "Because the forest was disappearing, the ___ changed and cutting trees now needs a permit.",
+     "fullSentence": "Because the forest was disappearing, the policy changed and cutting trees now needs a permit.",
+     "translation": "因為森林不斷消失，政策改變，現在砍樹需要許可。",
+     "clue": "政府調整後的管理辦法",
+     "answerEntryId": "u21:policy",
+     "distractorEntryIds": [
+      "u21:law",
+      "u21:contract",
+      "u11:dresser"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The airline announced a new ___ that allows each passenger to bring one free bag on board.",
+    "fullSentence": "The airline announced a new policy that allows each passenger to bring one free bag on board.",
+    "translation": "航空公司宣布新政策，允許每位乘客免費帶一件行李上機。",
+    "clue": "機構訂定的行動方針",
+    "answerEntryId": "u21:policy",
+    "distractorEntryIds": [
+     "u21:law",
+     "u21:contract",
+     "u21:system"
+    ]
+   },
+   "_sent": "The airline announced a new ___ that allows each passenger to bring one free bag on board."
+  },
+  {
+   "entryId": "u21:pollute",
+   "zh": "污染",
+   "pos": "verb",
+   "example": "Factories should not pollute the river.",
+   "exampleZh": "工廠不應污染河川。",
+   "spellingHint": "p-o-l-l-u-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The factory pipes its dirty water into the lake and continues to ___ it every day.",
+    "fullSentence": "The factory pipes its dirty water into the lake and continues to pollute it every day.",
+    "translation": "工廠把髒水排入湖中，天天污染湖水。",
+    "clue": "排放髒水使水變髒",
+    "answerEntryId": "u21:pollute",
+    "distractorEntryIds": [
+     "u21:protect",
+     "u21:elect",
+     "u21:organize"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Cars ___ the air with smoke, so many cities encourage people to ride bicycles.",
+     "fullSentence": "Cars pollute the air with smoke, so many cities encourage people to ride bicycles.",
+     "translation": "汽車排放廢氣污染空氣，許多城市鼓勵大家騎自行車。",
+     "clue": "廢氣使空氣變髒",
+     "answerEntryId": "u21:pollute",
+     "distractorEntryIds": [
+      "u21:protect",
+      "u21:organize",
+      "u11:electric"
+     ]
+    },
+    {
+     "sentence": "Do not throw plastic bags into the sea; they ___ the water and hurt the fish.",
+     "fullSentence": "Do not throw plastic bags into the sea; they pollute the water and hurt the fish.",
+     "translation": "別把塑膠袋丟進海裡，會污染海水並傷害魚類。",
+     "clue": "塑膠垃圾使海水變髒",
+     "answerEntryId": "u21:pollute",
+     "distractorEntryIds": [
+      "u21:protect",
+      "u21:organize",
+      "u21:elect"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The old factory was closed because it kept letting poisonous chemicals ___ the soil.",
+     "fullSentence": "The old factory was closed because it kept letting poisonous chemicals pollute the soil.",
+     "translation": "老工廠被關閉，因為它不斷讓有毒化學物質污染土壤。",
+     "clue": "毒物滲入使土壤受污染",
+     "answerEntryId": "u21:pollute",
+     "distractorEntryIds": [
+      "u21:protect",
+      "u11:decorate",
+      "u11:dial"
+     ]
+    },
+    {
+     "sentence": "Loud music from the bar began to ___ the quiet neighborhood at midnight.",
+     "fullSentence": "Loud music from the bar began to pollute the quiet neighborhood at midnight.",
+     "translation": "酒吧的巨大音樂聲開始在半夜污染寧靜的社區。",
+     "clue": "噪音也是一種污染",
+     "answerEntryId": "u21:pollute",
+     "distractorEntryIds": [
+      "u21:protect",
+      "u21:elect",
+      "u21:organize"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The chemical factory was fined for letting its waste ___ the river downstream.",
+    "fullSentence": "The chemical factory was fined for letting its waste pollute the river downstream.",
+    "translation": "化工廠因廢水污染下游河川而被罰款。",
+    "clue": "使環境變髒受害",
+    "answerEntryId": "u21:pollute",
+    "distractorEntryIds": [
+     "u21:protect",
+     "u21:elect",
+     "u21:shoot"
+    ]
+   },
+   "_sent": "The chemical factory was fined for letting its waste ___ the river downstream."
+  },
+  {
+   "entryId": "u21:pollution",
+   "zh": "污染",
+   "pos": "noun",
+   "example": "Air pollution is a big problem in big cities.",
+   "exampleZh": "空氣污染是大城市的大問題。",
+   "spellingHint": "p-o-l-l-u-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The river turned dark and smelly because of ___ from the factories upstream.",
+    "fullSentence": "The river turned dark and smelly because of pollution from the factories upstream.",
+    "translation": "河川因上游工廠的污染而變得又黑又臭。",
+    "clue": "工廠排放造成的髒污",
+    "answerEntryId": "u21:pollution",
+    "distractorEntryIds": [
+     "u21:population",
+     "u21:crisis",
+     "u21:crime"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Wearing masks has become common because air ___ makes it hard to breathe in the city.",
+     "fullSentence": "Wearing masks has become common because air pollution makes it hard to breathe in the city.",
+     "translation": "因為空氣污染讓城市裡呼吸困難，戴口罩已很常見。",
+     "clue": "空氣變髒難以呼吸",
+     "answerEntryId": "u21:pollution",
+     "distractorEntryIds": [
+      "u21:population",
+      "u11:fan",
+      "u21:policy"
+     ]
+    },
+    {
+     "sentence": "The beach had to close because of ___; plastic bottles covered the sand.",
+     "fullSentence": "The beach had to close because of pollution; plastic bottles covered the sand.",
+     "translation": "海灘因污染而關閉，沙灘上全是塑膠瓶。",
+     "clue": "垃圾遍布造成的髒亂",
+     "answerEntryId": "u21:pollution",
+     "distractorEntryIds": [
+      "u21:population",
+      "u11:faucet",
+      "u21:crime"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Scientists say ___ from cars is the main cause of the gray sky over the city.",
+     "fullSentence": "Scientists say pollution from cars is the main cause of the gray sky over the city.",
+     "translation": "科學家說汽車排放的污染是城市上空灰濛濛的主因。",
+     "clue": "廢氣排放造成灰霾",
+     "answerEntryId": "u21:pollution",
+     "distractorEntryIds": [
+      "u21:population",
+      "u11:dryer",
+      "u11:fan"
+     ]
+    },
+    {
+     "sentence": "The government measured water ___ in the lake and found it twice over the safe limit.",
+     "fullSentence": "The government measured water pollution in the lake and found it twice over the safe limit.",
+     "translation": "政府檢測湖水污染，發現超過安全標準兩倍。",
+     "clue": "檢測水質受污染程度",
+     "answerEntryId": "u21:pollution",
+     "distractorEntryIds": [
+      "u21:population",
+      "u11:faucet",
+      "u21:power"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Factories upstream are responsible for the ___ that killed all the fish in the lake.",
+    "fullSentence": "Factories upstream are responsible for the pollution that killed all the fish in the lake.",
+    "translation": "上游工廠是造成湖中魚類死亡污染的元兇。",
+    "clue": "使環境變髒的問題",
+    "answerEntryId": "u21:pollution",
+    "distractorEntryIds": [
+     "u21:population",
+     "u21:crisis",
+     "u21:power"
+    ]
+   },
+   "_sent": "Factories upstream are responsible for the ___ that killed all the fish in the lake."
+  },
+  {
+   "entryId": "u21:population",
+   "zh": "人口",
+   "pos": "noun",
+   "example": "The population of this town is about ten thousand.",
+   "exampleZh": "這個鎮的人口約一萬人。",
+   "spellingHint": "p-o-p-u-l-a-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ___ of the world passed eight billion people last year.",
+    "fullSentence": "The population of the world passed eight billion people last year.",
+    "translation": "世界人口去年突破了八十億。",
+    "clue": "某地居住的人數",
+    "answerEntryId": "u21:population",
+    "distractorEntryIds": [
+     "u21:society",
+     "u21:organization",
+     "u21:system"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Because the ___ of the village is small, there is only one school there.",
+     "fullSentence": "Because the population of the village is small, there is only one school there.",
+     "translation": "因為村子人口少，那裡只有一所學校。",
+     "clue": "人數少所以學校少",
+     "answerEntryId": "u21:population",
+     "distractorEntryIds": [
+      "u21:society",
+      "u21:government",
+      "u11:fence"
+     ]
+    },
+    {
+     "sentence": "The city's ___ grows quickly because many workers move there for jobs.",
+     "fullSentence": "The city's population grows quickly because many workers move there for jobs.",
+     "translation": "城市人口快速成長，因為許多工人移入工作。",
+     "clue": "移入使居民數增加",
+     "answerEntryId": "u21:population",
+     "distractorEntryIds": [
+      "u21:society",
+      "u21:government",
+      "u11:flashlight"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Doctors say one third of the ___ in this country is over sixty years old.",
+     "fullSentence": "Doctors say one third of the population in this country is over sixty years old.",
+     "translation": "醫生說該國人口有三分之一超過六十歲。",
+     "clue": "全體居民中的一部分",
+     "answerEntryId": "u21:population",
+     "distractorEntryIds": [
+      "u21:society",
+      "u21:government",
+      "u11:fence"
+     ]
+    },
+    {
+     "sentence": "The island's ___ of penguins has doubled since fishing was banned nearby.",
+     "fullSentence": "The island's population of penguins has doubled since fishing was banned nearby.",
+     "translation": "自從附近禁漁後，島上企鵝的族群數量翻倍。",
+     "clue": "動物的族群數量",
+     "answerEntryId": "u21:population",
+     "distractorEntryIds": [
+      "u21:society",
+      "u21:government",
+      "u11:flashlight"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A country with a large ___ needs more schools and hospitals, because it simply has more people living in it.",
+    "fullSentence": "A country with a large population needs more schools and hospitals, because it simply has more people living in it.",
+    "translation": "人口眾多的國家需要更多學校和醫院，因為居民人數多。",
+    "clue": "居民總數",
+    "answerEntryId": "u21:population",
+    "distractorEntryIds": [
+     "u21:society",
+     "u21:government",
+     "u21:organization"
+    ]
+   },
+   "_sent": "A country with a large ___ needs more schools and hospitals, because it simply has more people living in it."
+  },
+  {
+   "entryId": "u21:power",
+   "zh": "力量；權力；電力",
+   "pos": "noun",
+   "example": "The storm cut off power to the whole city.",
+   "exampleZh": "暴風雨切斷了全城的電力。",
+   "spellingHint": "p-o-w-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After the typhoon, the whole town was without ___ for three dark nights.",
+    "fullSentence": "After the typhoon, the whole town was without power for three dark nights.",
+    "translation": "颱風過後，全鎮停電三個黑夜。",
+    "clue": "停電就是電力中斷",
+    "answerEntryId": "u21:power",
+    "distractorEntryIds": [
+     "u21:right",
+     "u21:freedom",
+     "u21:duty"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The sun gives us ___ to make electricity for our homes.",
+     "fullSentence": "The sun gives us power to make electricity for our homes.",
+     "translation": "太陽給我們能量，為家庭發電。",
+     "clue": "太陽能可轉成電力",
+     "answerEntryId": "u21:power",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:freedom",
+      "u21:duty"
+     ]
+    },
+    {
+     "sentence": "The president has the ___ to sign new laws for the country.",
+     "fullSentence": "The president has the power to sign new laws for the country.",
+     "translation": "總統有為國家簽署新法律的權力。",
+     "clue": "職位賦予的權力",
+     "answerEntryId": "u21:power",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:freedom",
+      "u21:duty"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The dam uses falling water to produce ___ for thousands of homes.",
+     "fullSentence": "The dam uses falling water to produce power for thousands of homes.",
+     "translation": "水壩利用落水為數千家庭產生電力。",
+     "clue": "水力發電產生電力",
+     "answerEntryId": "u21:power",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:freedom",
+      "u21:duty"
+     ]
+    },
+    {
+     "sentence": "In a democracy, ___ belongs to the people, who choose their leaders by voting.",
+     "fullSentence": "In a democracy, power belongs to the people, who choose their leaders by voting.",
+     "translation": "民主制度中，權力屬於人民，由投票選出領袖。",
+     "clue": "主權在民的權力",
+     "answerEntryId": "u21:power",
+     "distractorEntryIds": [
+      "u21:right",
+      "u21:freedom",
+      "u21:duty"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Wind turbines turn moving air into ___ that lights our lamps at night.",
+    "fullSentence": "Wind turbines turn moving air into power that lights our lamps at night.",
+    "translation": "風力發電機把流動的空氣轉成電力，在夜裡點亮燈火。",
+    "clue": "點亮燈火的能源",
+    "answerEntryId": "u21:power",
+    "distractorEntryIds": [
+     "u21:duty",
+     "u21:right",
+     "u21:freedom"
+    ]
+   },
+   "_sent": "Wind turbines turn moving air into ___ that lights our lamps at night."
+  },
+  {
+   "entryId": "u21:powerful",
+   "zh": "強大的；有力的",
+   "pos": "adjective",
+   "example": "The lion is a powerful animal.",
+   "exampleZh": "獅子是強大的動物。",
+   "spellingHint": "p-o-w-e-r-f-u-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ___ storm blew the roofs off several houses in one night.",
+    "fullSentence": "The powerful storm blew the roofs off several houses in one night.",
+    "translation": "強大的暴風一夜吹走了好幾戶人家的屋頂。",
+    "clue": "破壞力強大的風暴",
+    "answerEntryId": "u21:powerful",
+    "distractorEntryIds": [
+     "u21:effective",
+     "u21:democratic",
+     "u21:equal"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The ___ king controlled an army of one hundred thousand soldiers.",
+     "fullSentence": "The powerful king controlled an army of one hundred thousand soldiers.",
+     "translation": "強大的國王掌控十萬大軍。",
+     "clue": "掌握大軍的強勢君主",
+     "answerEntryId": "u21:powerful",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:democratic",
+      "u21:lawful"
+     ]
+    },
+    {
+     "sentence": "This small engine is surprisingly ___; it can pull a truck up the hill.",
+     "fullSentence": "This small engine is surprisingly powerful; it can pull a truck up the hill.",
+     "translation": "這顆小引擎出奇有力，能拉著卡車上山。",
+     "clue": "小而有力的引擎",
+     "answerEntryId": "u21:powerful",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:democratic",
+      "u21:equal"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The newspaper is ___ enough to change the government's plans with one story.",
+     "fullSentence": "The newspaper is powerful enough to change the government's plans with one story.",
+     "translation": "這家報紙影響力夠大，一篇報導就能改變政府的計畫。",
+     "clue": "媒體的影響力",
+     "answerEntryId": "u21:powerful",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:democratic",
+      "u21:lawful"
+     ]
+    },
+    {
+     "sentence": "The medicine tastes sweet but is ___ against strong pain.",
+     "fullSentence": "The medicine tastes sweet but is powerful against strong pain.",
+     "translation": "這藥嚐起來甜，卻能對抗劇痛，藥效很強。",
+     "clue": "藥效強烈",
+     "answerEntryId": "u21:powerful",
+     "distractorEntryIds": [
+      "u21:effective",
+      "u21:equal",
+      "u21:democratic"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ___ general commanded the whole army, and even the king listened to his advice.",
+    "fullSentence": "The powerful general commanded the whole army, and even the king listened to his advice.",
+    "translation": "強大的將軍統領全軍，連國王都要聽他的建議。",
+    "clue": "權勢強大令人服從",
+    "answerEntryId": "u21:powerful",
+    "distractorEntryIds": [
+     "u21:effective",
+     "u21:democratic",
+     "u21:equal"
+    ]
+   },
+   "_sent": "The ___ general commanded the whole army, and even the king listened to his advice."
+  },
+  {
+   "entryId": "u21:prison",
+   "zh": "監獄",
+   "pos": "noun",
+   "example": "The thief was sent to prison for three years.",
+   "exampleZh": "小偷被關進監獄三年。",
+   "spellingHint": "p-r-i-s-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The judge sent the robber to ___ for ten years.",
+    "fullSentence": "The judge sent the robber to prison for ten years.",
+    "translation": "法官判搶匪關進監獄十年。",
+    "clue": "犯罪服刑的地方",
+    "answerEntryId": "u21:prison",
+    "distractorEntryIds": [
+     "u21:trial",
+     "u21:crisis",
+     "u21:organization"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Visitors must show their ID cards before entering the ___.",
+     "fullSentence": "Visitors must show their ID cards before entering the prison.",
+     "translation": "訪客進入監獄前必須出示證件。",
+     "clue": "探監要出示證件的場所",
+     "answerEntryId": "u21:prison",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u11:flat",
+      "u21:government"
+     ]
+    },
+    {
+     "sentence": "In the movie, the hero dug a tunnel to escape from the ___.",
+     "fullSentence": "In the movie, the hero dug a tunnel to escape from the prison.",
+     "translation": "電影中，主角挖地道逃出監獄。",
+     "clue": "受刑人設法逃離的地方",
+     "answerEntryId": "u21:prison",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u21:crisis",
+      "u21:society"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "He spent five years in ___ before the court found out he was innocent.",
+     "fullSentence": "He spent five years in prison before the court found out he was innocent.",
+     "translation": "他坐了五年牢，法院才發現他是無辜的。",
+     "clue": "被關押服刑",
+     "answerEntryId": "u21:prison",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u21:war",
+      "u11:floor"
+     ]
+    },
+    {
+     "sentence": "The old ___ is now a museum where tourists can see the tiny cells.",
+     "fullSentence": "The old prison is now a museum where tourists can see the tiny cells.",
+     "translation": "舊監獄如今是博物館，遊客可以參觀小小的牢房。",
+     "clue": "有牢房的建築",
+     "answerEntryId": "u21:prison",
+     "distractorEntryIds": [
+      "u21:trial",
+      "u11:freezer",
+      "u21:society"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The guard locked every door of the ___ before the lights went out at nine.",
+    "fullSentence": "The guard locked every door of the prison before the lights went out at nine.",
+    "translation": "獄警在九點熄燈前鎖上監獄的每扇門。",
+    "clue": "關押受刑人的場所",
+    "answerEntryId": "u21:prison",
+    "distractorEntryIds": [
+     "u21:trial",
+     "u21:crisis",
+     "u21:election"
+    ]
+   },
+   "_sent": "The guard locked every door of the ___ before the lights went out at nine."
+  },
+  {
+   "entryId": "u21:protect",
+   "zh": "保護",
+   "pos": "verb",
+   "example": "Wear a helmet to protect your head.",
+   "exampleZh": "戴安全帽保護你的頭。",
+   "spellingHint": "p-r-o-t-e-c-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Sunscreen helps ___ your skin from the hot summer sun.",
+    "fullSentence": "Sunscreen helps protect your skin from the hot summer sun.",
+    "translation": "防曬乳能保護皮膚，隔離炎夏烈陽。",
+    "clue": "使皮膚不受傷害",
+    "answerEntryId": "u21:protect",
+    "distractorEntryIds": [
+     "u21:pollute",
+     "u21:shoot",
+     "u21:elect"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mother bears ___ their babies by standing between them and danger.",
+     "fullSentence": "Mother bears protect their babies by standing between them and danger.",
+     "translation": "熊媽媽站在幼熊與危險之間保護牠們。",
+     "clue": "擋在危險之前",
+     "answerEntryId": "u21:protect",
+     "distractorEntryIds": [
+      "u21:pollute",
+      "u21:elect",
+      "u21:organize"
+     ]
+    },
+    {
+     "sentence": "Firefighters wear heavy coats to ___ themselves from the flames.",
+     "fullSentence": "Firefighters wear heavy coats to protect themselves from the flames.",
+     "translation": "消防員穿厚重外套保護自己不被火燒傷。",
+     "clue": "隔絕火焰的傷害",
+     "answerEntryId": "u21:protect",
+     "distractorEntryIds": [
+      "u21:pollute",
+      "u21:elect",
+      "u21:vote"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The new law was written to ___ sea turtles; now no one may take their eggs.",
+     "fullSentence": "The new law was written to protect sea turtles; now no one may take their eggs.",
+     "translation": "新法律旨在保護海龜，現在沒有人能撿牠們的蛋。",
+     "clue": "立法使動物不受傷害",
+     "answerEntryId": "u21:protect",
+     "distractorEntryIds": [
+      "u21:pollute",
+      "u21:elect",
+      "u21:organize"
+     ]
+    },
+    {
+     "sentence": "Vaccines train the body to ___ itself against the flu virus before it arrives.",
+     "fullSentence": "Vaccines train the body to protect itself against the flu virus before it arrives.",
+     "translation": "疫苗訓練身體在病毒來襲前先自我防護。",
+     "clue": "事先抵禦病毒",
+     "answerEntryId": "u21:protect",
+     "distractorEntryIds": [
+      "u21:pollute",
+      "u21:vote",
+      "u21:elect"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The mother bird will ___ her eggs by covering them with her warm wings.",
+    "fullSentence": "The mother bird will protect her eggs by covering them with her warm wings.",
+    "translation": "鳥媽媽用溫暖的翅膀蓋住蛋來保護它們。",
+    "clue": "使免於受害",
+    "answerEntryId": "u21:protect",
+    "distractorEntryIds": [
+     "u21:pollute",
+     "u21:elect",
+     "u21:shoot"
+    ]
+   },
+   "_sent": "The mother bird will ___ her eggs by covering them with her warm wings."
+  },
+  {
+   "entryId": "u21:protection",
+   "zh": "保護；防護",
+   "pos": "noun",
+   "example": "This jacket gives protection from the rain.",
+   "exampleZh": "這件外套能防雨。",
+   "spellingHint": "p-r-o-t-e-c-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The umbrella offers little ___ in such a heavy storm.",
+    "fullSentence": "The umbrella offers little protection in such a heavy storm.",
+    "translation": "這麼大的暴風雨中，雨傘的防護力很小。",
+    "clue": "遮風擋雨的防護",
+    "answerEntryId": "u21:protection",
+    "distractorEntryIds": [
+     "u21:freedom",
+     "u21:power",
+     "u21:policy"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The fence around the garden gives the vegetables ___ from rabbits.",
+     "fullSentence": "The fence around the garden gives the vegetables protection from rabbits.",
+     "translation": "花園的籬笆保護蔬菜不被兔子吃。",
+     "clue": "阻擋兔子入侵",
+     "answerEntryId": "u21:protection",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:power",
+      "u21:duty"
+     ]
+    },
+    {
+     "sentence": "Police officers provide ___ for the president wherever he goes.",
+     "fullSentence": "Police officers provide protection for the president wherever he goes.",
+     "translation": "警察無論總統到哪都提供保護。",
+     "clue": "隨行維安",
+     "answerEntryId": "u21:protection",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:power",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Sunscreen gives your skin ___ against the burning sun at the beach.",
+     "fullSentence": "Sunscreen gives your skin protection against the burning sun at the beach.",
+     "translation": "防曬乳在海邊保護皮膚，抵擋烈日。",
+     "clue": "隔離紫外線的防護",
+     "answerEntryId": "u21:protection",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:power",
+      "u21:duty"
+     ]
+    },
+    {
+     "sentence": "Wearing a helmet is the best ___ for your head when you ride a scooter.",
+     "fullSentence": "Wearing a helmet is the best protection for your head when you ride a scooter.",
+     "translation": "騎機車時戴安全帽是保護頭部的最佳方式。",
+     "clue": "頭部的安全防護",
+     "answerEntryId": "u21:protection",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:power",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The thick walls of the castle gave the soldiers ___ from the arrows of the enemy.",
+    "fullSentence": "The thick walls of the castle gave the soldiers protection from the arrows of the enemy.",
+    "translation": "城堡厚牆給予士兵保護，抵擋敵人的箭。",
+    "clue": "抵擋攻擊的防護",
+    "answerEntryId": "u21:protection",
+    "distractorEntryIds": [
+     "u21:freedom",
+     "u21:duty",
+     "u21:power"
+    ]
+   },
+   "_sent": "The thick walls of the castle gave the soldiers ___ from the arrows of the enemy."
+  },
+  {
+   "entryId": "u21:respondent",
+   "zh": "回答者；應答者",
+   "pos": "noun",
+   "example": "Each respondent answered the survey questions.",
+   "exampleZh": "每位受訪者都回答了調查問題。",
+   "spellingHint": "r-e-s-p-o-n-d-e-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "In the survey, every ___ was asked how many hours they sleep each night.",
+    "fullSentence": "In the survey, every respondent was asked how many hours they sleep each night.",
+    "translation": "調查中，每位受訪者都被問到每晚睡幾小時。",
+    "clue": "回答問卷的人",
+    "answerEntryId": "u21:respondent",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:society",
+     "u21:government"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Half of the ___ said they would like a longer lunch break at school.",
+     "fullSentence": "Half of the respondent said they would like a longer lunch break at school.",
+     "translation": "半數受訪者說希望學校午休時間更長。",
+     "clue": "接受訪問作答的人",
+     "answerEntryId": "u21:respondent",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:population",
+      "u21:crisis"
+     ]
+    },
+    {
+     "sentence": "The reporter thanked each ___ for sharing honest opinions about the new park.",
+     "fullSentence": "The reporter thanked each respondent for sharing honest opinions about the new park.",
+     "translation": "記者感謝每位受訪者分享對新公園的看法。",
+     "clue": "表達意見的受訪者",
+     "answerEntryId": "u21:respondent",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:population",
+      "u21:society"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Most ___ preferred shopping online, according to the market study.",
+     "fullSentence": "Most respondent preferred shopping online, according to the market study.",
+     "translation": "根據市場調查，多數受訪者偏好網購。",
+     "clue": "調查中作答的人",
+     "answerEntryId": "u21:respondent",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:population",
+      "u21:society"
+     ]
+    },
+    {
+     "sentence": "The ___ who answered 'yes' were mostly students under eighteen.",
+     "fullSentence": "The respondent who answered 'yes' were mostly students under eighteen.",
+     "translation": "回答「是」的受訪者大多是十八歲以下的學生。",
+     "clue": "作答表示同意者",
+     "answerEntryId": "u21:respondent",
+     "distractorEntryIds": [
+      "u21:population",
+      "u21:organization",
+      "u11:furniture"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Each ___ in the interview answered all ten questions about shopping habits.",
+    "fullSentence": "Each respondent in the interview answered all ten questions about shopping habits.",
+    "translation": "訪談中每位受訪者都回答了十個購物習慣問題。",
+    "clue": "接受提問作答的人",
+    "answerEntryId": "u21:respondent",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:population",
+     "u21:society"
+    ]
+   },
+   "_sent": "Each ___ in the interview answered all ten questions about shopping habits."
+  },
+  {
+   "entryId": "u21:right",
+   "zh": "權利；右邊",
+   "pos": "noun",
+   "example": "Everyone has the right to learn.",
+   "exampleZh": "每個人都有學習的權利。",
+   "spellingHint": "r-i-g-h-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Every child in this country has the ___ to go to school for free.",
+    "fullSentence": "Every child in this country has the right to go to school for free.",
+    "translation": "這個國家的每個孩子都有受教的權利。",
+    "clue": "法律保障每個人享有的",
+    "answerEntryId": "u21:right",
+    "distractorEntryIds": [
+     "u21:freedom",
+     "u21:duty",
+     "u21:power"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Every adult citizen may use the ___ to choose the leaders of the country at the ballot box.",
+     "fullSentence": "Every adult citizen may use the right to choose the leaders of the country at the ballot box.",
+     "translation": "每位成年公民都能在投票所行使權利，選出國家領袖。",
+     "clue": "法律保障可行使的權利",
+     "answerEntryId": "u21:right",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:duty",
+      "u21:power"
+     ]
+    },
+    {
+     "sentence": "The sign says: 'Keep to the ___ side of the stairs.'",
+     "fullSentence": "The sign says: 'Keep to the right side of the stairs.'",
+     "translation": "告示寫著：「請靠樓梯右側行走。」",
+     "clue": "方向的右邊",
+     "answerEntryId": "u21:right",
+     "distractorEntryIds": [
+      "u12:left",
+      "u21:power",
+      "u21:duty"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Free speech is a basic ___ that protects what people may say in public.",
+     "fullSentence": "Free speech is a basic right that protects what people may say in public.",
+     "translation": "言論自由是保障公開發言的基本權利。",
+     "clue": "受法律保障的基本權利",
+     "answerEntryId": "u21:right",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:duty",
+      "u21:power"
+     ]
+    },
+    {
+     "sentence": "Workers fought for the ___ to take one day of rest each week.",
+     "fullSentence": "Workers fought for the right to take one day of rest each week.",
+     "translation": "工人爭取每週休息一天的權利。",
+     "clue": "經爭取獲得的權利",
+     "answerEntryId": "u21:right",
+     "distractorEntryIds": [
+      "u21:freedom",
+      "u21:duty",
+      "u21:power"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "In this country, every adult has the ___ to choose the leaders by casting a ballot.",
+    "fullSentence": "In this country, every adult has the right to choose the leaders by casting a ballot.",
+    "translation": "在這個國家，每位成人都有投票選出領袖的權利。",
+    "clue": "法律允許享有的",
+    "answerEntryId": "u21:right",
+    "distractorEntryIds": [
+     "u21:duty",
+     "u21:freedom",
+     "u21:power"
+    ]
+   },
+   "_sent": "In this country, every adult has the ___ to choose the leaders by casting a ballot."
+  },
+  {
+   "entryId": "u21:shoot",
+   "zh": "射擊；拍攝",
+   "pos": "verb",
+   "example": "The soldiers learned how to shoot a target.",
+   "exampleZh": "士兵學習如何射擊目標。",
+   "spellingHint": "s-h-o-o-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "In basketball class, we practiced how to ___ the ball into the basket.",
+    "fullSentence": "In basketball class, we practiced how to shoot the ball into the basket.",
+    "translation": "籃球課上我們練習如何把球投進籃框。",
+    "clue": "投籃得分",
+    "answerEntryId": "u21:shoot",
+    "distractorEntryIds": [
+     "u21:attack",
+     "u21:vote",
+     "u21:elect"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The photographer asked everyone to ___ a peace sign for the camera.",
+     "fullSentence": "The photographer asked everyone to shoot a peace sign for the camera.",
+     "translation": "攝影師請大家對鏡頭比出和平手勢拍攝。",
+     "clue": "用相機拍攝",
+     "answerEntryId": "u21:shoot",
+     "distractorEntryIds": [
+      "u21:attack",
+      "u21:vote",
+      "u21:organize"
+     ]
+    },
+    {
+     "sentence": "The hunter raised his gun and ___ at a moving target.",
+     "fullSentence": "The hunter raised his gun and shoot at a moving target.",
+     "translation": "獵人舉槍朝移動的目標射擊。",
+     "clue": "舉槍射擊",
+     "answerEntryId": "u21:shoot",
+     "distractorEntryIds": [
+      "u21:attack",
+      "u21:vote",
+      "u21:elect"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The director chose an old castle in Europe to ___ the final scene of the movie.",
+     "fullSentence": "The director chose an old castle in Europe to shoot the final scene of the movie.",
+     "translation": "導演選了歐洲一座古堡來拍攝電影的最後一幕。",
+     "clue": "選景拍攝影片",
+     "answerEntryId": "u21:shoot",
+     "distractorEntryIds": [
+      "u21:attack",
+      "u21:organize",
+      "u21:vote"
+     ]
+    },
+    {
+     "sentence": "Fireworks ___ into the night sky and explode into colorful sparks.",
+     "fullSentence": "Fireworks shoot into the night sky and explode into colorful sparks.",
+     "translation": "煙火射向夜空，炸開繽紛的火花。",
+     "clue": "向上發射",
+     "answerEntryId": "u21:shoot",
+     "distractorEntryIds": [
+      "u21:attack",
+      "u21:elect",
+      "u21:organize"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The archer took a deep breath and ___ the arrow straight at the red center of the target.",
+    "fullSentence": "The archer took a deep breath and shoot the arrow straight at the red center of the target.",
+    "translation": "弓箭手深呼吸，將箭直直射向靶心紅點。",
+    "clue": "發射箭或子彈",
+    "answerEntryId": "u21:shoot",
+    "distractorEntryIds": [
+     "u21:attack",
+     "u21:vote",
+     "u21:elect"
+    ]
+   },
+   "_sent": "The archer took a deep breath and ___ the arrow straight at the red center of the target."
+  },
+  {
+   "entryId": "u21:shot",
+   "zh": "射擊；一擊；注射",
+   "pos": "noun",
+   "example": "The nurse gave me a shot quickly.",
+   "exampleZh": "護理師很快地幫我打了一針。",
+   "spellingHint": "s-h-o-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "His last ___ at the basket missed by just one centimeter.",
+    "fullSentence": "His last shot at the basket missed by just one centimeter.",
+    "translation": "他最後一投在籃框偏了一公分。",
+    "clue": "投籃的動作",
+    "answerEntryId": "u21:shot",
+    "distractorEntryIds": [
+     "u21:war",
+     "u21:crisis",
+     "u21:trial"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The doctor gave the player a ___ so the pain in his knee would stop.",
+     "fullSentence": "The doctor gave the player a shot so the pain in his knee would stop.",
+     "translation": "醫生幫球員打針，讓膝蓋不再疼痛。",
+     "clue": "注射針劑",
+     "answerEntryId": "u21:shot",
+     "distractorEntryIds": [
+      "u21:war",
+      "u21:crisis",
+      "u21:vote"
+     ]
+    },
+    {
+     "sentence": "We heard a loud ___ from the hunter's rifle far away in the woods.",
+     "fullSentence": "We heard a loud shot from the hunter's rifle far away in the woods.",
+     "translation": "我們聽到遠方森林裡獵人步槍的巨大槍響。",
+     "clue": "步槍發出的聲響",
+     "answerEntryId": "u21:shot",
+     "distractorEntryIds": [
+      "u21:war",
+      "u21:crisis",
+      "u21:bomb"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Flu season is coming, so Grandma went to the clinic for her ___ yesterday.",
+     "fullSentence": "Flu season is coming, so Grandma went to the clinic for her shot yesterday.",
+     "translation": "流感季將至，奶奶昨天去診所打了針。",
+     "clue": "接種疫苗注射",
+     "answerEntryId": "u21:shot",
+     "distractorEntryIds": [
+      "u21:war",
+      "u11:garage",
+      "u21:trial"
+     ]
+    },
+    {
+     "sentence": "The player made an amazing ___ from the middle of the court, and the crowd jumped up.",
+     "fullSentence": "The player made an amazing shot from the middle of the court, and the crowd jumped up.",
+     "translation": "球員從球場中央投出漂亮一擊，觀眾全都跳了起來。",
+     "clue": "球場上的精彩出手",
+     "answerEntryId": "u21:shot",
+     "distractorEntryIds": [
+      "u21:war",
+      "u21:trial",
+      "u11:garbage"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the ___ was given in his arm, the little boy said the needle hurt less than he expected.",
+    "fullSentence": "After the shot was given in his arm, the little boy said the needle hurt less than he expected.",
+    "translation": "針劑打在手臂上後，小男孩說針沒有想像中痛。",
+    "clue": "手臂上打針",
+    "answerEntryId": "u21:shot",
+    "distractorEntryIds": [
+     "u21:war",
+     "u21:trial",
+     "u21:crisis"
+    ]
+   },
+   "_sent": "After the ___ was given in his arm, the little boy said the needle hurt less than he expected."
+  },
+  {
+   "entryId": "u21:society",
+   "zh": "社會",
+   "pos": "noun",
+   "example": "Technology has changed our society a lot.",
+   "exampleZh": "科技大幅改變了我們的社會。",
+   "spellingHint": "s-o-c-i-e-t-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Helping the elderly is a value that our ___ deeply respects.",
+    "fullSentence": "Helping the elderly is a value that our society deeply respects.",
+    "translation": "扶助老人是我們社會深深敬重的價值。",
+    "clue": "眾人共同生活的群體",
+    "answerEntryId": "u21:society",
+    "distractorEntryIds": [
+     "u21:government",
+     "u21:organization",
+     "u21:system"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In a healthy ___, people trust and help one another.",
+     "fullSentence": "In a healthy society, people trust and help one another.",
+     "translation": "在健康的社會中，人們彼此信任互助。",
+     "clue": "大家共同生活的群體",
+     "answerEntryId": "u21:society",
+     "distractorEntryIds": [
+      "u21:government",
+      "u21:organization",
+      "u21:system"
+     ]
+    },
+    {
+     "sentence": "Laws exist to keep order in ___.",
+     "fullSentence": "Laws exist to keep order in society.",
+     "translation": "法律的存在是為了維持社會秩序。",
+     "clue": "法律維持的秩序",
+     "answerEntryId": "u21:society",
+     "distractorEntryIds": [
+      "u21:government",
+      "u21:organization",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Modern ___ depends on the Internet for banking, shopping, and study.",
+     "fullSentence": "Modern society depends on the Internet for banking, shopping, and study.",
+     "translation": "現代社會在金融、購物和學習上都依賴網路。",
+     "clue": "整體生活方式",
+     "answerEntryId": "u21:society",
+     "distractorEntryIds": [
+      "u21:government",
+      "u21:organization",
+      "u21:population"
+     ]
+    },
+    {
+     "sentence": "The film shows how ___ treated people with different ideas a hundred years ago.",
+     "fullSentence": "The film shows how society treated people with different ideas a hundred years ago.",
+     "translation": "電影呈現百年前社會如何對待持不同想法的人。",
+     "clue": "當時人們的集體風氣",
+     "answerEntryId": "u21:society",
+     "distractorEntryIds": [
+      "u21:government",
+      "u21:organization",
+      "u21:crisis"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "In our ___, people expect young passengers to give up their seats on the bus for the elderly.",
+    "fullSentence": "In our society, people expect young passengers to give up their seats on the bus for the elderly.",
+    "translation": "在我們的社會，人們期待年輕乘客在公車上讓座給長者。",
+    "clue": "眾人共同生活的群體",
+    "answerEntryId": "u21:society",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:government",
+     "u21:system"
+    ]
+   },
+   "_sent": "In our ___, people expect young passengers to give up their seats on the bus for the elderly."
+  },
+  {
+   "entryId": "u21:system",
+   "zh": "制度；系統",
+   "pos": "noun",
+   "example": "The school uses a new grading system.",
+   "exampleZh": "學校採用新的評分制度。",
+   "spellingHint": "s-y-s-t-e-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The city's bus ___ covers every neighborhood, so no one needs a car.",
+    "fullSentence": "The city's bus system covers every neighborhood, so no one needs a car.",
+    "translation": "這座城市的公車系統涵蓋每個社區，沒有人需要開車。",
+    "clue": "串連全市的路線網絡",
+    "answerEntryId": "u21:system",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:society",
+     "u21:policy"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The computer ___ stopped working, so no one could print their homework.",
+     "fullSentence": "The computer system stopped working, so no one could print their homework.",
+     "translation": "電腦系統當機，大家都印不出作業。",
+     "clue": "機器運作的系統",
+     "answerEntryId": "u21:system",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:society",
+      "u21:contract"
+     ]
+    },
+    {
+     "sentence": "Our school has a house ___ that puts every student in one of four teams.",
+     "fullSentence": "Our school has a house system that puts every student in one of four teams.",
+     "translation": "我們學校有學院制度，把學生分到四個隊伍之一。",
+     "clue": "分組運作的制度",
+     "answerEntryId": "u21:system",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:society",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Doctors checked the patient's nervous ___ to see why his hands were shaking.",
+     "fullSentence": "Doctors checked the patient's nervous system to see why his hands were shaking.",
+     "translation": "醫生檢查病人的神經系統，看他的手為何顫抖。",
+     "clue": "身體運作的系統",
+     "answerEntryId": "u21:system",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:society",
+      "u21:crisis"
+     ]
+    },
+    {
+     "sentence": "Under the new tax ___, small shops pay less than big companies.",
+     "fullSentence": "Under the new tax system, small shops pay less than big companies.",
+     "translation": "在新稅制下，小商店比大公司繳得少。",
+     "clue": "政府課稅的制度",
+     "answerEntryId": "u21:system",
+     "distractorEntryIds": [
+      "u21:organization",
+      "u21:society",
+      "u21:policy"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The heating ___ keeps every room in the building warm during the cold winter.",
+    "fullSentence": "The heating system keeps every room in the building warm during the cold winter.",
+    "translation": "暖氣系統讓大樓裡每個房間在寒冬保持溫暖。",
+    "clue": "相互連作的整體機制",
+    "answerEntryId": "u21:system",
+    "distractorEntryIds": [
+     "u21:organization",
+     "u21:society",
+     "u21:policy"
+    ]
+   },
+   "_sent": "The heating ___ keeps every room in the building warm during the cold winter."
+  },
+  {
+   "entryId": "u21:trial",
+   "zh": "審判；試驗",
+   "pos": "noun",
+   "example": "The trial of the case took two weeks.",
+   "exampleZh": "這件案子的審判花了兩週。",
+   "spellingHint": "t-r-i-a-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "During the ___, the judge listened to both sides before making a decision.",
+    "fullSentence": "During the trial, the judge listened to both sides before making a decision.",
+    "translation": "審判中，法官聽取雙方陳述後才做決定。",
+    "clue": "法庭上聽證的過程",
+    "answerEntryId": "u21:trial",
+    "distractorEntryIds": [
+     "u21:prison",
+     "u21:election",
+     "u21:crisis"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The new medicine passed its first ___ with twenty volunteers.",
+     "fullSentence": "The new medicine passed its first trial with twenty volunteers.",
+     "translation": "新藥通過了二十位志願者參與的首次試驗。",
+     "clue": "檢驗新藥的過程",
+     "answerEntryId": "u21:trial",
+     "distractorEntryIds": [
+      "u21:prison",
+      "u21:election",
+      "u21:policy"
+     ]
+    },
+    {
+     "sentence": "The team gave the new app a one-month ___ before deciding whether to buy it.",
+     "fullSentence": "The team gave the new app a one-month trial before deciding whether to buy it.",
+     "translation": "團隊先讓新 App 試用一個月，再決定是否購買。",
+     "clue": "購買前先試驗",
+     "answerEntryId": "u21:trial",
+     "distractorEntryIds": [
+      "u21:prison",
+      "u21:election",
+      "u21:war"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The thief faced ___ in court, where witnesses told the judge what they saw.",
+     "fullSentence": "The thief faced trial in court, where witnesses told the judge what they saw.",
+     "translation": "小偷在法庭接受審判，證人向法官描述所見。",
+     "clue": "法庭審理程序",
+     "answerEntryId": "u21:trial",
+     "distractorEntryIds": [
+      "u21:prison",
+      "u21:election",
+      "u21:war"
+     ]
+    },
+    {
+     "sentence": "Before the new bus route opened, there was a two-week ___ to test the traffic.",
+     "fullSentence": "Before the new bus route opened, there was a two-week trial to test the traffic.",
+     "translation": "新路線開通前，先試營運兩週測試交通。",
+     "clue": "正式實施前的試驗",
+     "answerEntryId": "u21:trial",
+     "distractorEntryIds": [
+      "u21:prison",
+      "u21:election",
+      "u21:crisis"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the fair ___ ended, the judge decided the man was innocent and did not send him to jail.",
+    "fullSentence": "After the fair trial ended, the judge decided the man was innocent and did not send him to jail.",
+    "translation": "公正的審判結束後，法官裁定此人無罪，沒有送他入獄。",
+    "clue": "法庭裁定無罪的程序",
+    "answerEntryId": "u21:trial",
+    "distractorEntryIds": [
+     "u21:prison",
+     "u21:election",
+     "u21:crisis"
+    ]
+   },
+   "_sent": "After the fair ___ ended, the judge decided the man was innocent and did not send him to jail."
+  },
+  {
+   "entryId": "u21:vote",
+   "zh": "投票",
+   "pos": "verb",
+   "example": "We will vote for our class leader tomorrow.",
+   "exampleZh": "我們明天要投票選班長。",
+   "spellingHint": "v-o-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Every citizen over eighteen may ___ in the national election.",
+    "fullSentence": "Every citizen over eighteen may vote in the national election.",
+    "translation": "年滿十八歲的公民都能在全國選舉中投票。",
+    "clue": "以選票表達支持",
+    "answerEntryId": "u21:vote",
+    "distractorEntryIds": [
+     "u21:elect",
+     "u21:organize",
+     "u21:protect"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Raise your hand if you ___ for the blue banner; we count the hands at the end.",
+     "fullSentence": "Raise your hand if you vote for the blue banner; we count the hands at the end.",
+     "translation": "支持藍色布條的請舉手表決，最後統計人數。",
+     "clue": "舉手表達選擇",
+     "answerEntryId": "u21:vote",
+     "distractorEntryIds": [
+      "u21:elect",
+      "u21:organize",
+      "u21:attack"
+     ]
+    },
+    {
+     "sentence": "In some countries, people ___ by writing an X next to their favorite name.",
+     "fullSentence": "In some countries, people vote by writing an X next to their favorite name.",
+     "translation": "有些國家的人投票時在最喜歡的名字旁打 X。",
+     "clue": "在選票上做記號",
+     "answerEntryId": "u21:vote",
+     "distractorEntryIds": [
+      "u21:elect",
+      "u21:protect",
+      "u21:organize"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The committee members will ___ on the plan after everyone has finished speaking.",
+     "fullSentence": "The committee members will vote on the plan after everyone has finished speaking.",
+     "translation": "委員們會在大家發言完畢後針對方案表決。",
+     "clue": "針對方案進行表決",
+     "answerEntryId": "u21:vote",
+     "distractorEntryIds": [
+      "u21:elect",
+      "u21:organize",
+      "u21:attack"
+     ]
+    },
+    {
+     "sentence": "Millions of citizens ___ at polling stations across the country on election day.",
+     "fullSentence": "Millions of citizens vote at polling stations across the country on election day.",
+     "translation": "選舉日當天，數百萬公民在全國各投票所投票。",
+     "clue": "到投票所行使投票權",
+     "answerEntryId": "u21:vote",
+     "distractorEntryIds": [
+      "u21:elect",
+      "u21:protect",
+      "u21:organize"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "In the student council meeting, every member may ___ for the candidate they believe will do the best job.",
+    "fullSentence": "In the student council meeting, every member may vote for the candidate they believe will do the best job.",
+    "translation": "學生會會議中，每位成員都能投票支持自己認為最稱職的候選人。",
+    "clue": "以選票表達選擇",
+    "answerEntryId": "u21:vote",
+    "distractorEntryIds": [
+     "u21:elect",
+     "u21:organize",
+     "u21:attack"
+    ]
+   },
+   "_sent": "In the student council meeting, every member may ___ for the candidate they believe will do the best job."
+  },
+  {
+   "entryId": "u21:war",
+   "zh": "戰爭",
+   "pos": "noun",
+   "example": "The two countries ended their long war.",
+   "exampleZh": "兩國結束了漫長的戰爭。",
+   "spellingHint": "w-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "During the ___, soldiers lived in tents far from their families.",
+    "fullSentence": "During the war, soldiers lived in tents far from their families.",
+    "translation": "戰爭期間，士兵住在遠離家人的帳篷裡。",
+    "clue": "軍人作戰的時期",
+    "answerEntryId": "u21:war",
+    "distractorEntryIds": [
+     "u21:crisis",
+     "u21:prison",
+     "u21:trial"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The museum shows photos of soldiers and tanks from the old ___.",
+     "fullSentence": "The museum shows photos of soldiers and tanks from the old war.",
+     "translation": "博物館展示舊戰爭中士兵和坦克的照片。",
+     "clue": "有坦克士兵的衝突",
+     "answerEntryId": "u21:war",
+     "distractorEntryIds": [
+      "u21:crisis",
+      "u21:prison",
+      "u21:policy"
+     ]
+    },
+    {
+     "sentence": "After the ___ ended, the two countries signed a peace agreement.",
+     "fullSentence": "After the war ended, the two countries signed a peace agreement.",
+     "translation": "戰爭結束後，兩國簽署和平協議。",
+     "clue": "戰後簽和平協議",
+     "answerEntryId": "u21:war",
+     "distractorEntryIds": [
+      "u21:crisis",
+      "u21:prison",
+      "u21:election"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The country spent most of its money on the ___ instead of schools and hospitals.",
+     "fullSentence": "The country spent most of its money on the war instead of schools and hospitals.",
+     "translation": "該國把大部分經費花在戰爭而非學校和醫院。",
+     "clue": "耗費鉅資的軍事衝突",
+     "answerEntryId": "u21:war",
+     "distractorEntryIds": [
+      "u21:crisis",
+      "u21:trial",
+      "u21:crime"
+     ]
+    },
+    {
+     "sentence": "Grandpa still remembers how his village changed after the ___ broke out.",
+     "fullSentence": "Grandpa still remembers how his village changed after the war broke out.",
+     "translation": "爺爺仍記得戰爭爆發後村莊的變化。",
+     "clue": "戰爭爆發的時刻",
+     "answerEntryId": "u21:war",
+     "distractorEntryIds": [
+      "u21:crisis",
+      "u21:trial",
+      "u21:prison"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The two armies fought for four years before the ___ finally ended in winter.",
+    "fullSentence": "The two armies fought for four years before the war finally ended in winter.",
+    "translation": "兩軍交戰四年，戰爭終於在冬天結束。",
+    "clue": "動用軍隊的國家衝突",
+    "answerEntryId": "u21:war",
+    "distractorEntryIds": [
+     "u21:crisis",
+     "u21:trial",
+     "u21:prison"
+    ]
+   },
+   "_sent": "The two armies fought for four years before the ___ finally ended in winter."
+  },
+  {
+   "entryId": "u21:weapon",
+   "zh": "武器",
+   "pos": "noun",
+   "example": "Swords were common weapons long ago.",
+   "exampleZh": "劍是古代常見的武器。",
+   "spellingHint": "w-e-a-p-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The soldiers carried every ___ they needed, from rifles to knives.",
+    "fullSentence": "The soldiers carried every weapon they needed, from rifles to knives.",
+    "translation": "士兵們帶齊了從步槍到刀的所有武器。",
+    "clue": "作戰攻防的工具",
+    "answerEntryId": "u21:weapon",
+    "distractorEntryIds": [
+     "u21:gun",
+     "u21:bomb",
+     "u21:power"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "In the story, the knight's favorite ___ was a long silver sword.",
+     "fullSentence": "In the story, the knight's favorite weapon was a long silver sword.",
+     "translation": "故事裡，騎士最愛的武器是一把銀色長劍。",
+     "clue": "騎士手持的武器",
+     "answerEntryId": "u21:weapon",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:bomb",
+      "u21:prison"
+     ]
+    },
+    {
+     "sentence": "The museum displays each ___ that knights once used in battles.",
+     "fullSentence": "The museum displays each weapon that knights once used in battles.",
+     "translation": "博物館展示騎士昔日戰鬥使用的各種武器。",
+     "clue": "展示的作戰工具",
+     "answerEntryId": "u21:weapon",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:bomb",
+      "u21:system"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Police searched the house and found one hidden ___ behind a bookcase.",
+     "fullSentence": "Police searched the house and found one hidden weapon behind a bookcase.",
+     "translation": "警察搜查房屋，在書櫃後發現一件武器。",
+     "clue": "被藏起的殺傷工具",
+     "answerEntryId": "u21:weapon",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:bomb",
+      "u21:crisis"
+     ]
+    },
+    {
+     "sentence": "Words can be a ___ too; a cruel sentence can hurt more than a slap.",
+     "fullSentence": "Words can be a weapon too; a cruel sentence can hurt more than a slap.",
+     "translation": "言語也能成為武器，殘酷的話有時比巴掌更傷人。",
+     "clue": "能傷人的手段",
+     "answerEntryId": "u21:weapon",
+     "distractorEntryIds": [
+      "u21:gun",
+      "u21:bomb",
+      "u21:power"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The museum keeps its oldest ___ in a glass box: a bronze sword made three thousand years ago.",
+    "fullSentence": "The museum keeps its oldest weapon in a glass box: a bronze sword made three thousand years ago.",
+    "translation": "博物館把最古老的武器放在玻璃箱裡：一把三千年前打造的青銅劍。",
+    "clue": "作戰傷人的工具",
+    "answerEntryId": "u21:weapon",
+    "distractorEntryIds": [
+     "u21:gun",
+     "u21:bomb",
+     "u21:power"
+    ]
+   },
+   "_sent": "The museum keeps its oldest ___ in a glass box: a bronze sword made three thousand years ago."
+  }
+ ]
+}

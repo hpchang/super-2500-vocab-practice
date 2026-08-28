@@ -1,0 +1,4564 @@
+{
+ "schemaVersion": 1,
+ "unit": "27",
+ "entries": [
+  {
+   "entryId": "u27:about",
+   "zh": "大約；關於",
+   "pos": "phrase",
+   "example": "The movie is about a brave dog.",
+   "exampleZh": "這部電影是關於一隻勇敢的狗。",
+   "spellingHint": "a-b-o-u-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We waited ___ twenty minutes for the bus.",
+    "fullSentence": "We waited about twenty minutes for the bus.",
+    "translation": "我們等公車等了大約二十分鐘。",
+    "clue": "時間長度的估計，不是剛好",
+    "answerEntryId": "u27:about",
+    "distractorEntryIds": [
+     "u27:around",
+     "u27:during",
+     "u27:until"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "There are ___ thirty students in our class, maybe a few more.",
+     "fullSentence": "There are about thirty students in our class, maybe a few more.",
+     "translation": "我們班大約有三十個學生，也許再多幾個。",
+     "clue": "數量接近但不確定",
+     "answerEntryId": "u27:about",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:over",
+      "u27:toward"
+     ]
+    },
+    {
+     "sentence": "Grandpa told us a story ___ his childhood on the farm.",
+     "fullSentence": "Grandpa told us a story about his childhood on the farm.",
+     "translation": "爺爺告訴我們一個關於他童年在農場的故事。",
+     "clue": "故事的主題內容",
+     "answerEntryId": "u27:about",
+     "distractorEntryIds": [
+      "u27:against",
+      "u27:without",
+      "u27:except"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The teacher asked a question ___ the last chapter.",
+     "fullSentence": "The teacher asked a question about the last chapter.",
+     "translation": "老師問了一個關於最後一章的問題。",
+     "clue": "問題的主題",
+     "answerEntryId": "u27:about",
+     "distractorEntryIds": [
+      "u27:throughout",
+      "u27:beyond",
+      "u27:concerning"
+     ]
+    },
+    {
+     "sentence": "Don't worry ___ the test; you have studied hard.",
+     "fullSentence": "Don't worry about the test; you have studied hard.",
+     "translation": "別擔心考試；你已經很認真讀書了。",
+     "clue": "擔心的對象",
+     "answerEntryId": "u27:about",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:without",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The rope reached ___ the same length on both sides, so the team stayed even.",
+    "fullSentence": "The rope reached about the same length on both sides, so the team stayed even.",
+    "translation": "繩子兩邊拉出的長度差不多，所以兩隊維持平手。",
+    "clue": "長度或數量接近相同",
+    "answerEntryId": "u27:about",
+    "distractorEntryIds": [
+     "u27:near",
+     "u27:like",
+     "u27:of"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:above",
+   "zh": "在…上方（未接觸）",
+   "pos": "phrase",
+   "example": "A plane flew above our heads.",
+   "exampleZh": "一架飛機從我們頭上飛過。",
+   "spellingHint": "a-b-o-v-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The lamp hangs ___ the desk, high up and not touching anything.",
+    "fullSentence": "The lamp hangs above the desk, high up and not touching anything.",
+    "translation": "吊燈掛在書桌上方，位置很高且沒有碰到書桌。",
+    "clue": "位置比某物高，且沒有接觸",
+    "answerEntryId": "u27:above",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:over",
+     "u27:beside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Look! The moon is ___ the tall trees in the sky.",
+     "fullSentence": "Look! The moon is above the tall trees in the sky.",
+     "translation": "你看！月亮在那些高樹上方的天空裡。",
+     "clue": "位置比樹還要高",
+     "answerEntryId": "u27:above",
+     "distractorEntryIds": [
+      "u27:below",
+      "u27:under",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "The temperature rose ___ thirty degrees today.",
+     "fullSentence": "The temperature rose above thirty degrees today.",
+     "translation": "今天氣溫升到三十度以上。",
+     "clue": "溫度超過某個數字",
+     "answerEntryId": "u27:above",
+     "distractorEntryIds": [
+      "u27:below",
+      "u27:under",
+      "u27:during"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You must be eighteen or ___ to see this movie.",
+     "fullSentence": "You must be eighteen or above to see this movie.",
+     "translation": "你必須滿十八歲或以上才能看這部電影。",
+     "clue": "數量達到或超過某標準",
+     "answerEntryId": "u27:above",
+     "distractorEntryIds": [
+      "u27:below",
+      "u27:under",
+      "u27:beyond"
+     ]
+    },
+    {
+     "sentence": "The captain's office is ___ ours, one floor higher.",
+     "fullSentence": "The captain's office is above ours, one floor higher.",
+     "translation": "隊長的辦公室在我們的上方，高出一層樓。",
+     "clue": "樓層比較高",
+     "answerEntryId": "u27:above",
+     "distractorEntryIds": [
+      "u27:below",
+      "u27:in",
+      "u27:out"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The plane flew ___ the clouds, so we could not see it from the ground.",
+    "fullSentence": "The plane flew above the clouds, so we could not see it from the ground.",
+    "translation": "飛機飛在雲層上方，所以我們從地面看不到它。",
+    "clue": "高過某物且未接觸，與 below 相對",
+    "answerEntryId": "u27:above",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:inside",
+     "u27:toward"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:across",
+   "zh": "橫越；穿過；在…對面",
+   "pos": "phrase",
+   "example": "The boys ran across the playground.",
+   "exampleZh": "男孩們跑著穿越操場。",
+   "spellingHint": "a-c-r-o-s-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There is a small bakery ___ the street from my house.",
+    "fullSentence": "There is a small bakery across the street from my house.",
+    "translation": "我家對面的街上有一家小麵包店。",
+    "clue": "在街道的另一側",
+    "answerEntryId": "u27:across",
+    "distractorEntryIds": [
+     "u27:along",
+     "u27:inside",
+     "u27:during"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Be careful when you walk ___ the busy road.",
+     "fullSentence": "Be careful when you walk across the busy road.",
+     "translation": "過那條車多的馬路時要小心。",
+     "clue": "從一邊走到另一邊",
+     "answerEntryId": "u27:across",
+     "distractorEntryIds": [
+      "u27:through",
+      "u27:toward",
+      "u27:without"
+     ]
+    },
+    {
+     "sentence": "My aunt lives ___ the river, so we take a boat to visit her.",
+     "fullSentence": "My aunt lives across the river, so we take a boat to visit her.",
+     "translation": "我阿姨住在河對岸，所以我們搭船去拜訪她。",
+     "clue": "在河的另一邊",
+     "answerEntryId": "u27:across",
+     "distractorEntryIds": [
+      "u27:along",
+      "u27:inside",
+      "u27:under"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "It took us ten minutes to swim ___ the pool.",
+     "fullSentence": "It took us ten minutes to swim across the pool.",
+     "translation": "我們花了十分鐘游過整座泳池。",
+     "clue": "從一端到另一端",
+     "answerEntryId": "u27:across",
+     "distractorEntryIds": [
+      "u27:throughout",
+      "u27:within",
+      "u27:upon"
+     ]
+    },
+    {
+     "sentence": "The two banks stand ___ from each other, on opposite sides.",
+     "fullSentence": "The two banks stand across from each other, on opposite sides.",
+     "translation": "這兩家銀行彼此相對，各在一側。",
+     "clue": "位於相對的兩側",
+     "answerEntryId": "u27:across",
+     "distractorEntryIds": [
+      "u27:beside",
+      "u27:near",
+      "u27:besides"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A new bridge will carry trains ___ the wide river.",
+    "fullSentence": "A new bridge will carry trains across the wide river.",
+    "translation": "一座新橋將讓火車跨越那條寬闊的河。",
+    "clue": "從一岸跨到另一岸",
+    "answerEntryId": "u27:across",
+    "distractorEntryIds": [
+     "u27:through",
+     "u27:into",
+     "u27:along"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:after",
+   "zh": "在…之後",
+   "pos": "phrase",
+   "example": "We played soccer after school.",
+   "exampleZh": "我們放學後踢足球。",
+   "spellingHint": "a-f-t-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Wash your hands ___ dinner so they are clean at the table.",
+    "fullSentence": "Wash your hands after dinner so they are clean at the table.",
+    "translation": "晚餐前先把手洗乾淨再上桌。",
+    "clue": "時間順序：晚餐接下來",
+    "answerEntryId": "u27:after",
+    "distractorEntryIds": [
+     "u27:before",
+     "u27:during",
+     "u27:until"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The dog ran ___ the cat, trying to catch it.",
+     "fullSentence": "The dog ran after the cat, trying to catch it.",
+     "translation": "狗追著貓跑，想抓住牠。",
+     "clue": "跟在後面追趕",
+     "answerEntryId": "u27:after",
+     "distractorEntryIds": [
+      "u27:against",
+      "u27:without",
+      "u27:during"
+     ]
+    },
+    {
+     "sentence": "___ the movie ended, we went out for some tea.",
+     "fullSentence": "after the movie ended, we went out for some tea.",
+     "translation": "電影結束後，我們出去喝了杯茶。",
+     "clue": "前一件事結束才發生",
+     "answerEntryId": "u27:after",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:until",
+      "u27:during"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Night comes ___ the day, when the sun goes down.",
+     "fullSentence": "Night comes after the day, when the sun goes down.",
+     "translation": "夜晚在白天之後到來，太陽下山時。",
+     "clue": "時間先後順序",
+     "answerEntryId": "u27:after",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:during",
+      "u27:throughout"
+     ]
+    },
+    {
+     "sentence": "Shut the door ___ you when you leave the classroom.",
+     "fullSentence": "Shut the door after you when you leave the classroom.",
+     "translation": "離開教室時隨手關門。",
+     "clue": "跟在後面一起帶上",
+     "answerEntryId": "u27:after",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:with",
+      "u27:without"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The police asked questions ___ the accident to find out what happened.",
+    "fullSentence": "The police asked questions after the accident to find out what happened.",
+    "translation": "意外發生之後，警察問話以查明經過。",
+    "clue": "事情結束後才進行",
+    "answerEntryId": "u27:after",
+    "distractorEntryIds": [
+     "u27:before",
+     "u27:during",
+     "u27:since"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:against",
+   "zh": "反對；倚靠；對抗",
+   "pos": "phrase",
+   "example": "Some people are against building the new mall.",
+   "exampleZh": "有些人反對興建新購物中心。",
+   "spellingHint": "a-g-a-i-n-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The old man leaned his umbrella ___ the wall.",
+    "fullSentence": "The old man leaned his umbrella against the wall.",
+    "translation": "老人把雨傘倚靠在牆上。",
+    "clue": "東西靠在某物表面",
+    "answerEntryId": "u27:against",
+    "distractorEntryIds": [
+     "u27:on",
+     "u27:into",
+     "u27:within"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Our team will play ___ the champions this Saturday.",
+     "fullSentence": "Our team will play against the champions this Saturday.",
+     "translation": "我們隊這星期六要對上冠軍隊。",
+     "clue": "兩隊比賽互相對抗",
+     "answerEntryId": "u27:against",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "He pushed the heavy box ___ the door to keep it shut.",
+     "fullSentence": "He pushed the heavy box against the door to keep it shut.",
+     "translation": "他把沉重的箱子抵住門，讓門保持關閉。",
+     "clue": "靠著某物施力",
+     "answerEntryId": "u27:against",
+     "distractorEntryIds": [
+      "u27:through",
+      "u27:under",
+      "u27:off"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Many people spoke ___ the plan, so it was canceled.",
+     "fullSentence": "Many people spoke against the plan, so it was canceled.",
+     "translation": "許多人發言反對這個計畫，所以它被取消了。",
+     "clue": "表示不贊成的一方",
+     "answerEntryId": "u27:against",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:of",
+      "u27:toward"
+     ]
+    },
+    {
+     "sentence": "The little boat was thrown ___ the rocks by the big waves.",
+     "fullSentence": "The little boat was thrown against the rocks by the big waves.",
+     "translation": "小船被大浪拋向岩石。",
+     "clue": "撞上某個堅硬的表面",
+     "answerEntryId": "u27:against",
+     "distractorEntryIds": [
+      "u27:toward",
+      "u27:over",
+      "u27:inside"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Climbing ___ the strong wind took us almost three hours.",
+    "fullSentence": "Climbing against the strong wind took us almost three hours.",
+    "translation": "逆著強風攀爬花了我們將近三小時。",
+    "clue": "朝著相反的力量前進",
+    "answerEntryId": "u27:against",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:under",
+     "u27:throughout"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:along",
+   "zh": "沿著",
+   "pos": "phrase",
+   "example": "We took a walk along the beach.",
+   "exampleZh": "我們沿著海灘散步。",
+   "spellingHint": "a-l-o-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There are cherry trees all ___ the river.",
+    "fullSentence": "There are cherry trees all along the river.",
+    "translation": "沿著那條河種滿櫻花樹。",
+    "clue": "跟著某條線狀物走",
+    "answerEntryId": "u27:along",
+    "distractorEntryIds": [
+     "u27:across",
+     "u27:inside",
+     "u27:against"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Jog ___ this path to reach the sports field.",
+     "fullSentence": "Jog along this path to reach the sports field.",
+     "translation": "沿著這條小路慢跑就會到操場。",
+     "clue": "順著路徑前進",
+     "answerEntryId": "u27:along",
+     "distractorEntryIds": [
+      "u27:into",
+      "u27:over",
+      "u27:without"
+     ]
+    },
+    {
+     "sentence": "The bus stops ___ the main road every ten minutes.",
+     "fullSentence": "The bus stops along the main road every ten minutes.",
+     "translation": "公車沿著大馬路每十分鐘停靠一次。",
+     "clue": "路線上的各個點",
+     "answerEntryId": "u27:along",
+     "distractorEntryIds": [
+      "u27:between",
+      "u27:during",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Cyclists must stay ___ the marked lane.",
+     "fullSentence": "Cyclists must stay along the marked lane.",
+     "translation": "自行車騎士必須走在畫好的車道上。",
+     "clue": "順著指定路線",
+     "answerEntryId": "u27:along",
+     "distractorEntryIds": [
+      "u27:among",
+      "u27:within",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "We cycled ___ the coast road and enjoyed the sea view.",
+     "fullSentence": "We cycled along the coast road and enjoyed the sea view.",
+     "translation": "我們沿著海濱道路騎車，享受海景。",
+     "clue": "跟著海岸線走",
+     "answerEntryId": "u27:along",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:over",
+      "u27:throughout"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Walk straight ___ the hallway and the library is the last door.",
+    "fullSentence": "Walk straight along the hallway and the library is the last door.",
+    "translation": "沿著走廊直走，圖書館是最後一扇門。",
+    "clue": "順著走廊一路前進",
+    "answerEntryId": "u27:along",
+    "distractorEntryIds": [
+     "u27:across",
+     "u27:through",
+     "u27:into"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:among",
+   "zh": "在…（三者以上）之間",
+   "pos": "phrase",
+   "example": "The village is among the mountains.",
+   "exampleZh": "這座村莊位於群山之間。",
+   "spellingHint": "a-m-o-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The secret stayed ___ the three friends.",
+    "fullSentence": "The secret stayed among the three friends.",
+    "translation": "這個祕密只留在三個朋友之間。",
+    "clue": "三人以上共同擁有",
+    "answerEntryId": "u27:among",
+    "distractorEntryIds": [
+     "u27:between",
+     "u27:beside",
+     "u27:without"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She found her lost ring ___ the old papers.",
+     "fullSentence": "She found her lost ring among the old papers.",
+     "translation": "她在舊文件堆中找到遺失的戒指。",
+     "clue": "混在一堆東西裡面",
+     "answerEntryId": "u27:among",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:over",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "Divide the candy ___ all the children in the class.",
+     "fullSentence": "Divide the candy among all the children in the class.",
+     "translation": "把糖果分給全班所有孩子。",
+     "clue": "分配給群體裡的每個人",
+     "answerEntryId": "u27:among",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:with",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The singer is very popular ___ young people.",
+     "fullSentence": "The singer is very popular among young people.",
+     "translation": "這位歌手在年輕人之間很受歡迎。",
+     "clue": "群體之中的範圍",
+     "answerEntryId": "u27:among",
+     "distractorEntryIds": [
+      "u27:between",
+      "u27:during",
+      "u27:along"
+     ]
+    },
+    {
+     "sentence": "Choose one picture ___ the four on the wall.",
+     "fullSentence": "Choose one picture among the four on the wall.",
+     "translation": "從牆上四張圖片中選一張。",
+     "clue": "從群體中挑選",
+     "answerEntryId": "u27:among",
+     "distractorEntryIds": [
+      "u27:between",
+      "u27:of",
+      "u27:off"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A tall gray tower stood ___ the small wooden houses.",
+    "fullSentence": "A tall gray tower stood among the small wooden houses.",
+    "translation": "一座高大的灰色塔樓矗立在許多小木屋之間。",
+    "clue": "被一群同類事物包圍，數量多於兩個",
+    "answerEntryId": "u27:among",
+    "distractorEntryIds": [
+     "u27:between",
+     "u27:beside",
+     "u27:near"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:around",
+   "zh": "大約；在…周圍；到處",
+   "pos": "phrase",
+   "example": "The kids sat around the campfire.",
+   "exampleZh": "孩子們圍坐在營火旁。",
+   "spellingHint": "a-r-o-u-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My grandmother will visit us ___ Christmas this year.",
+    "fullSentence": "My grandmother will visit us around Christmas this year.",
+    "translation": "我奶奶今年會在聖誕節前後來拜訪我們。",
+    "clue": "時間點前後不精確",
+    "answerEntryId": "u27:around",
+    "distractorEntryIds": [
+     "u27:at",
+     "u27:during",
+     "u27:throughout"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The earth moves ___ the sun.",
+     "fullSentence": "The earth moves around the sun.",
+     "translation": "地球繞著太陽轉。",
+     "clue": "環繞某個中心",
+     "answerEntryId": "u27:around",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:through",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "Please turn ___ the corner and you will see the gate.",
+     "fullSentence": "Please turn around the corner and you will see the gate.",
+     "translation": "請在轉角處轉彎，你就會看到大門。",
+     "clue": "沿著彎曲處轉向",
+     "answerEntryId": "u27:around",
+     "distractorEntryIds": [
+      "u27:toward",
+      "u27:until",
+      "u27:among"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We put a fence ___ the garden to keep the rabbits out.",
+     "fullSentence": "We put a fence around the garden to keep the rabbits out.",
+     "translation": "我們在花園四周圍籬笆，把兔子擋在外面。",
+     "clue": "包圍四周",
+     "answerEntryId": "u27:around",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:under",
+      "u27:against"
+     ]
+    },
+    {
+     "sentence": "The trip will cost ___ two thousand dollars.",
+     "fullSentence": "The trip will cost around two thousand dollars.",
+     "translation": "這趟旅行大約要花兩千美元。",
+     "clue": "數量的估計",
+     "answerEntryId": "u27:around",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:under",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The moon travels ___ the earth once every twenty-seven days.",
+    "fullSentence": "The moon travels around the earth once every twenty-seven days.",
+    "translation": "月球每二十七天繞地球一圈。",
+    "clue": "環繞運行的軌道",
+    "answerEntryId": "u27:around",
+    "distractorEntryIds": [
+     "u27:across",
+     "u27:through",
+     "u27:toward"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:at",
+   "zh": "在（時間點、地點）；朝向",
+   "pos": "phrase",
+   "example": "The bus stops at the station.",
+   "exampleZh": "公車在車站停靠。",
+   "spellingHint": "a-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "School begins ___ eight o'clock sharp.",
+    "fullSentence": "School begins at eight o'clock sharp.",
+    "translation": "學校八點整開始上課。",
+    "clue": "確定的時間點",
+    "answerEntryId": "u27:at",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:on",
+     "u27:during"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Someone is knocking ___ the door.",
+     "fullSentence": "Someone is knocking at the door.",
+     "translation": "有人在敲門。",
+     "clue": "動作朝向某個點",
+     "answerEntryId": "u27:at",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:against",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "I will meet you ___ the front gate of the school.",
+     "fullSentence": "I will meet you at the front gate of the school.",
+     "translation": "我會在學校前門等你。",
+     "clue": "明確的會面地點",
+     "answerEntryId": "u27:at",
+     "distractorEntryIds": [
+      "u27:into",
+      "u27:within",
+      "u27:among"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She is very good ___ math and science.",
+     "fullSentence": "She is very good at math and science.",
+     "translation": "她非常擅長數學和自然科學。",
+     "clue": "擅長某種能力的搭配",
+     "answerEntryId": "u27:at",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "We laughed ___ the funny clown's tricks.",
+     "fullSentence": "We laughed at the funny clown's tricks.",
+     "translation": "我們被小丑有趣的把戲逗笑了。",
+     "clue": "笑的對象",
+     "answerEntryId": "u27:at",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:toward",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The two teams threw snowballs ___ each other during the break.",
+    "fullSentence": "The two teams threw snowballs at each other during the break.",
+    "translation": "下課時兩隊朝著彼此丟雪球。",
+    "clue": "動作瞄準的目標",
+    "answerEntryId": "u27:at",
+    "distractorEntryIds": [
+     "u27:to",
+     "u27:with",
+     "u27:for"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:before",
+   "zh": "在…之前",
+   "pos": "phrase",
+   "example": "Wash your hands before lunch.",
+   "exampleZh": "午餐前要先洗手。",
+   "spellingHint": "b-e-f-o-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Finish your homework ___ nine o'clock tonight.",
+    "fullSentence": "Finish your homework before nine o'clock tonight.",
+    "translation": "九點前把功課寫完。",
+    "clue": "期限在某時刻之前",
+    "answerEntryId": "u27:before",
+    "distractorEntryIds": [
+     "u27:after",
+     "u27:during",
+     "u27:since"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Look both ways ___ you cross the street.",
+     "fullSentence": "Look both ways before you cross the street.",
+     "translation": "過馬路前要先看兩邊。",
+     "clue": "某動作發生的前一刻",
+     "answerEntryId": "u27:before",
+     "distractorEntryIds": [
+      "u27:after",
+      "u27:during",
+      "u27:until"
+     ]
+    },
+    {
+     "sentence": "The letter arrived ___ the weekend, so we read it on Friday.",
+     "fullSentence": "The letter arrived before the weekend, so we read it on Friday.",
+     "translation": "信在週末前送達，所以我們星期五就讀了。",
+     "clue": "比某時間早",
+     "answerEntryId": "u27:before",
+     "distractorEntryIds": [
+      "u27:during",
+      "u27:throughout",
+      "u27:till"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Your name comes ___ mine because A comes earlier in the alphabet.",
+     "fullSentence": "Your name comes before mine because A comes earlier in the alphabet.",
+     "translation": "你的名字排在我前面，因為 A 在字母順序較前面。",
+     "clue": "順序在前",
+     "answerEntryId": "u27:before",
+     "distractorEntryIds": [
+      "u27:after",
+      "u27:behind",
+      "u27:beyond"
+     ]
+    },
+    {
+     "sentence": "The bride walked ___ everyone into the hall.",
+     "fullSentence": "The bride walked before everyone into the hall.",
+     "translation": "新娘走在所有人前面走進大廳。",
+     "clue": "隊伍位置在前",
+     "answerEntryId": "u27:before",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:across",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Please stand ___ the line starts moving, so we will not lose our place.",
+    "fullSentence": "Please stand before the line starts moving, so we will not lose our place.",
+    "translation": "排隊開始移動前請先站好，才不會失去位置。",
+    "clue": "在某事發生前先做",
+    "answerEntryId": "u27:before",
+    "distractorEntryIds": [
+     "u27:after",
+     "u27:during",
+     "u27:until"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:behind",
+   "zh": "在…後面；落後",
+   "pos": "phrase",
+   "example": "The garage is behind the house.",
+   "exampleZh": "車庫在房子後面。",
+   "spellingHint": "b-e-h-i-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The sun went ___ the clouds and the sky turned gray.",
+    "fullSentence": "The sun went behind the clouds and the sky turned gray.",
+    "translation": "太陽躲到雲後面，天空變灰了。",
+    "clue": "位置移到某物後方",
+    "answerEntryId": "u27:behind",
+    "distractorEntryIds": [
+     "u27:in front of",
+     "u27:above",
+     "u27:beside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The mouse hid ___ the sofa so the cat could not see it.",
+     "fullSentence": "The mouse hid behind the sofa so the cat could not see it.",
+     "translation": "老鼠躲在沙發後面，貓就看不到牠。",
+     "clue": "藏身於某物後方",
+     "answerEntryId": "u27:behind",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:on",
+      "u27:near"
+     ]
+    },
+    {
+     "sentence": "Our team is two points ___ theirs right now.",
+     "fullSentence": "Our team is two points behind theirs right now.",
+     "translation": "我們隊目前落後他們兩分。",
+     "clue": "比數落後",
+     "answerEntryId": "u27:behind",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:against",
+      "u27:among"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The students lined up and walked ___ the teacher.",
+     "fullSentence": "The students lined up and walked behind the teacher.",
+     "translation": "學生們排好隊，跟在老師後面走。",
+     "clue": "跟隨在後",
+     "answerEntryId": "u27:behind",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:with",
+      "u27:across"
+     ]
+    },
+    {
+     "sentence": "The sun disappeared ___ the mountains at sunset.",
+     "fullSentence": "The sun disappeared behind the mountains at sunset.",
+     "translation": "日落時太陽消失在山後。",
+     "clue": "被山擋住的後方",
+     "answerEntryId": "u27:behind",
+     "distractorEntryIds": [
+      "u27:above",
+      "u27:over",
+      "u27:throughout"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The cat sat ___ the door, waiting for someone to open it.",
+    "fullSentence": "The cat sat behind the door, waiting for someone to open it.",
+    "translation": "貓坐在門後面，等著有人開門。",
+    "clue": "位置在某物的正後方",
+    "answerEntryId": "u27:behind",
+    "distractorEntryIds": [
+     "u27:in front of",
+     "u27:under",
+     "u27:inside"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:below",
+   "zh": "在…下方；低於",
+   "pos": "phrase",
+   "example": "Write your name below the line.",
+   "exampleZh": "把你的名字寫在線的下面。",
+   "spellingHint": "b-e-l-o-w",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The village lies ___ the old castle on the hill.",
+    "fullSentence": "The village lies below the old castle on the hill.",
+    "translation": "村莊位於山上古堡的下方。",
+    "clue": "位置比某物低",
+    "answerEntryId": "u27:below",
+    "distractorEntryIds": [
+     "u27:above",
+     "u27:over",
+     "u27:inside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Do not write anything ___ this line on the form.",
+     "fullSentence": "Do not write anything below this line on the form.",
+     "translation": "表格上這條線以下不要寫任何字。",
+     "clue": "位置在基準線以下",
+     "answerEntryId": "u27:below",
+     "distractorEntryIds": [
+      "u27:above",
+      "u27:over",
+      "u27:among"
+     ]
+    },
+    {
+     "sentence": "The temperature fell ___ zero last night.",
+     "fullSentence": "The temperature fell below zero last night.",
+     "translation": "昨晚氣溫降到零度以下。",
+     "clue": "溫度低於某數字",
+     "answerEntryId": "u27:below",
+     "distractorEntryIds": [
+      "u27:above",
+      "u27:over",
+      "u27:during"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Please see the notes ___ for more details.",
+     "fullSentence": "Please see the notes below for more details.",
+     "translation": "請看下面的備註以了解詳情。",
+     "clue": "文件較下方的部分",
+     "answerEntryId": "u27:below",
+     "distractorEntryIds": [
+      "u27:above",
+      "u27:beyond",
+      "u27:besides"
+     ]
+    },
+    {
+     "sentence": "The divers swam ___ the surface to look at the coral.",
+     "fullSentence": "The divers swam below the surface to look at the coral.",
+     "translation": "潛水人員游到水面下看珊瑚。",
+     "clue": "低於水面",
+     "answerEntryId": "u27:below",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:across",
+      "u27:up"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "From the top of the tower, the cars looked like toys ___ us.",
+    "fullSentence": "From the top of the tower, the cars looked like toys below us.",
+    "translation": "從塔頂往下看，底下的汽車像玩具一樣。",
+    "clue": "位置遠低於觀看者",
+    "answerEntryId": "u27:below",
+    "distractorEntryIds": [
+     "u27:above",
+     "u27:over",
+     "u27:beyond"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:beside",
+   "zh": "在…旁邊",
+   "pos": "phrase",
+   "example": "The cat is sleeping beside the stove.",
+   "exampleZh": "貓睡在暖爐旁邊。",
+   "spellingHint": "b-e-s-i-d-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Come and sit ___ me on the bench.",
+    "fullSentence": "Come and sit beside me on the bench.",
+    "translation": "過來坐在長椅上我的旁邊。",
+    "clue": "緊鄰著某人",
+    "answerEntryId": "u27:beside",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:among",
+     "u27:against"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The lamp stood ___ the bed, within easy reach.",
+     "fullSentence": "The lamp stood beside the bed, within easy reach.",
+     "translation": "檯燈放在床邊，伸手就搆得到。",
+     "clue": "緊貼在某物側邊",
+     "answerEntryId": "u27:beside",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:above",
+      "u27:between"
+     ]
+    },
+    {
+     "sentence": "She keeps her bicycle ___ the garage door.",
+     "fullSentence": "She keeps her bicycle beside the garage door.",
+     "translation": "她把腳踏車停在車庫門旁。",
+     "clue": "靠在某物旁",
+     "answerEntryId": "u27:beside",
+     "distractorEntryIds": [
+      "u27:into",
+      "u27:over",
+      "u27:throughout"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "His answers seemed strange ___ the others in the class.",
+     "fullSentence": "His answers seemed strange beside the others in the class.",
+     "translation": "和班上其他人相比，他的答案顯得奇怪。",
+     "clue": "與…相比",
+     "answerEntryId": "u27:beside",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "A small stream runs ___ the country road.",
+     "fullSentence": "A small stream runs beside the country road.",
+     "translation": "一條小溪沿著鄉間道路流淌。",
+     "clue": "與道路平行相鄰",
+     "answerEntryId": "u27:beside",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:into",
+      "u27:under"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Nobody was sitting ___ me, so I had two seats to myself.",
+    "fullSentence": "Nobody was sitting beside me, so I had two seats to myself.",
+    "translation": "我旁邊沒有人坐，所以兩個座位都是我的。",
+    "clue": "緊鄰自己的旁邊位置",
+    "answerEntryId": "u27:beside",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:in front of",
+     "u27:among"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:besides",
+   "zh": "除…之外（還有）",
+   "pos": "phrase",
+   "example": "Besides English, she also speaks Japanese.",
+   "exampleZh": "除了英文，她也會說日文。",
+   "spellingHint": "b-e-s-i-d-e-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ math, we also learned some history today.",
+    "fullSentence": "besides math, we also learned some history today.",
+    "translation": "除了數學，我們今天還學了一些歷史。",
+    "clue": "包含式的「還有」",
+    "answerEntryId": "u27:besides",
+    "distractorEntryIds": [
+     "u27:except",
+     "u27:without",
+     "u27:against"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "What other fruits do you like ___ apples and bananas?",
+     "fullSentence": "What other fruits do you like besides apples and bananas?",
+     "translation": "除了蘋果和香蕉，你還喜歡哪些水果？",
+     "clue": "把已提到的也算進來",
+     "answerEntryId": "u27:besides",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:against",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "___ his brother, nobody knows the secret.",
+     "fullSentence": "besides his brother, nobody knows the secret.",
+     "translation": "除了他弟弟，沒有人知道這個祕密。",
+     "clue": "強調還有另一人也知道",
+     "answerEntryId": "u27:besides",
+     "distractorEntryIds": [
+      "u27:without",
+      "u27:except",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "___ being cheap, the noodles taste great.",
+     "fullSentence": "besides being cheap, the noodles taste great.",
+     "translation": "這麵不但便宜，味道也很棒。",
+     "clue": "附加另一個優點",
+     "answerEntryId": "u27:besides",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:during",
+      "u27:till"
+     ]
+    },
+    {
+     "sentence": "There will be five of us ___ the two teachers.",
+     "fullSentence": "There will be five of us besides the two teachers.",
+     "translation": "除了兩位老師，還會有我們五個人。",
+     "clue": "把老師加進總數",
+     "answerEntryId": "u27:besides",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:without",
+      "u27:near"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ a camera, Ken also packed a warm coat for the trip.",
+    "fullSentence": "besides a camera, Ken also packed a warm coat for the trip.",
+    "translation": "除了相機，Ken 還為旅行帶了一件保暖外套。",
+    "clue": "清單裡另外還包含",
+    "answerEntryId": "u27:besides",
+    "distractorEntryIds": [
+     "u27:except",
+     "u27:without",
+     "u27:beyond"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:between",
+   "zh": "在…（兩者）之間",
+   "pos": "phrase",
+   "example": "The bank is between the hotel and the station.",
+   "exampleZh": "銀行在飯店和車站之間。",
+   "spellingHint": "b-e-t-w-e-e-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The letter B comes ___ A and C in the alphabet.",
+    "fullSentence": "The letter B comes between A and C in the alphabet.",
+    "translation": "字母 B 在字母 A 和 C 之間。",
+    "clue": "兩個東西的中間",
+    "answerEntryId": "u27:between",
+    "distractorEntryIds": [
+     "u27:among",
+     "u27:during",
+     "u27:throughout"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Share the cake ___ the two of you.",
+     "fullSentence": "Share the cake between the two of you.",
+     "translation": "這蛋糕你們兩個分著吃。",
+     "clue": "分配給兩個人",
+     "answerEntryId": "u27:between",
+     "distractorEntryIds": [
+      "u27:among",
+      "u27:with",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "There is a nonstop train ___ the two cities.",
+     "fullSentence": "There is a nonstop train between the two cities.",
+     "translation": "這兩個城市之間有直達火車。",
+     "clue": "連接兩個地點",
+     "answerEntryId": "u27:between",
+     "distractorEntryIds": [
+      "u27:along",
+      "u27:across",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Talk quietly ___ ourselves; this is a secret.",
+     "fullSentence": "Talk quietly between ourselves; this is a secret.",
+     "translation": "我們小聲說就好；這是祕密。",
+     "clue": "限兩人私下",
+     "answerEntryId": "u27:between",
+     "distractorEntryIds": [
+      "u27:among",
+      "u27:beside",
+      "u27:near"
+     ]
+    },
+    {
+     "sentence": "The soccer game is ___ three and five in the afternoon.",
+     "fullSentence": "The soccer game is between three and five in the afternoon.",
+     "translation": "足球賽在下午三點到五點之間。",
+     "clue": "兩個時間點的範圍",
+     "answerEntryId": "u27:between",
+     "distractorEntryIds": [
+      "u27:from",
+      "u27:during",
+      "u27:until"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The narrow path runs ___ the two old walls.",
+    "fullSentence": "The narrow path runs between the two old walls.",
+    "translation": "那條窄路從兩道舊牆之間穿過。",
+    "clue": "被兩個物體夾在中間",
+    "answerEntryId": "u27:between",
+    "distractorEntryIds": [
+     "u27:among",
+     "u27:throughout",
+     "u27:beside"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:beyond",
+   "zh": "超過；在…更遠處",
+   "pos": "phrase",
+   "example": "The farm is beyond those hills.",
+   "exampleZh": "農場在那些丘陵更遠的地方。",
+   "spellingHint": "b-e-y-o-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The hotel is ___ the bridge, so keep walking straight.",
+    "fullSentence": "The hotel is beyond the bridge, so keep walking straight.",
+    "translation": "飯店在橋的另一頭，所以繼續直走。",
+    "clue": "比某地標更遠",
+    "answerEntryId": "u27:beyond",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:beside",
+     "u27:inside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "This math problem is ___ me; it is too hard.",
+     "fullSentence": "This math problem is beyond me; it is too hard.",
+     "translation": "這道數學題超出我的能力，太難了。",
+     "clue": "能力超過範圍",
+     "answerEntryId": "u27:beyond",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:of",
+      "u27:with"
+     ]
+    },
+    {
+     "sentence": "Do not drive ___ the speed limit.",
+     "fullSentence": "Do not drive beyond the speed limit.",
+     "translation": "開車不要超過速限。",
+     "clue": "超過規定數量",
+     "answerEntryId": "u27:beyond",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:below",
+      "u27:within"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The radio signal reached ___ the mountains to far villages.",
+     "fullSentence": "The radio signal reached beyond the mountains to far villages.",
+     "translation": "無線電訊號越過群山傳到遠方的村落。",
+     "clue": "跨越更遠的範圍",
+     "answerEntryId": "u27:beyond",
+     "distractorEntryIds": [
+      "u27:within",
+      "u27:inside",
+      "u27:during"
+     ]
+    },
+    {
+     "sentence": "The story is so strange that it is ___ belief.",
+     "fullSentence": "The story is so strange that it is beyond belief.",
+     "translation": "這故事太離奇，令人難以相信。",
+     "clue": "超出某種程度",
+     "answerEntryId": "u27:beyond",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:near",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The desert stretched ___ the horizon, with no end in sight.",
+    "fullSentence": "The desert stretched beyond the horizon, with no end in sight.",
+    "translation": "沙漠延伸到地平線之外，一望無際。",
+    "clue": "延伸超過可見的範圍",
+    "answerEntryId": "u27:beyond",
+    "distractorEntryIds": [
+     "u27:within",
+     "u27:across",
+     "u27:along"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:by",
+   "zh": "藉由；被；在…之前；在…旁",
+   "pos": "phrase",
+   "example": "We went to the museum by bus.",
+   "exampleZh": "我們搭公車去博物館。",
+   "spellingHint": "b-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please finish the report ___ Friday.",
+    "fullSentence": "Please finish the report by Friday.",
+    "translation": "請在星期五前完成報告。",
+    "clue": "期限不晚於某時",
+    "answerEntryId": "u27:by",
+    "distractorEntryIds": [
+     "u27:until",
+     "u27:during",
+     "u27:within"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The novel was written ___ a teenage writer.",
+     "fullSentence": "The novel was written by a teenage writer.",
+     "translation": "這本小說是一位青少年作家寫的。",
+     "clue": "被動語態的行為者",
+     "answerEntryId": "u27:by",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:from",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "She sends messages ___ email instead of letters.",
+     "fullSentence": "She sends messages by email instead of letters.",
+     "translation": "她用電子郵件傳訊息，而不是寫信。",
+     "clue": "表示使用的方式",
+     "answerEntryId": "u27:by",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:in",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You can improve ___ practicing every day.",
+     "fullSentence": "You can improve by practicing every day.",
+     "translation": "你可以靠每天練習來進步。",
+     "clue": "藉助某方法達成",
+     "answerEntryId": "u27:by",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "There is a lemon tree ___ the back door.",
+     "fullSentence": "There is a lemon tree by the back door.",
+     "translation": "後門旁邊有一棵檸檬樹。",
+     "clue": "緊鄰在某物旁",
+     "answerEntryId": "u27:by",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:under",
+      "u27:among"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ the time we arrived, the show had already started.",
+    "fullSentence": "by the time we arrived, the show had already started.",
+    "translation": "等我們到的時候，表演已經開始了。",
+    "clue": "到某時間點為止",
+    "answerEntryId": "u27:by",
+    "distractorEntryIds": [
+     "u27:at",
+     "u27:in",
+     "u27:during"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:concerning",
+   "zh": "關於；有關",
+   "pos": "phrase",
+   "example": "The teacher asked us questions concerning safety.",
+   "exampleZh": "老師問了我們一些關於安全的問題。",
+   "spellingHint": "c-o-n-c-e-r-n-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The city held a meeting ___ the new bike path.",
+    "fullSentence": "The city held a meeting concerning the new bike path.",
+    "translation": "市政府開會討論有關新自行車道的事。",
+    "clue": "議題的相關內容",
+    "answerEntryId": "u27:concerning",
+    "distractorEntryIds": [
+     "u27:during",
+     "u27:without",
+     "u27:except"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She wrote a report ___ pollution in the river.",
+     "fullSentence": "She wrote a report concerning pollution in the river.",
+     "translation": "她寫了一份有關河川汙染的報告。",
+     "clue": "報告的主題",
+     "answerEntryId": "u27:concerning",
+     "distractorEntryIds": [
+      "u27:throughout",
+      "u27:against",
+      "u27:until"
+     ]
+    },
+    {
+     "sentence": "Do you have any information ___ the lost dog?",
+     "fullSentence": "Do you have any information concerning the lost dog?",
+     "translation": "你有任何關於那隻走失狗狗的消息嗎？",
+     "clue": "消息的相關對象",
+     "answerEntryId": "u27:concerning",
+     "distractorEntryIds": [
+      "u27:besides",
+      "u27:beyond",
+      "u27:within"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The doctor gave advice ___ healthy eating.",
+     "fullSentence": "The doctor gave advice concerning healthy eating.",
+     "translation": "醫生給了有關健康飲食的建議。",
+     "clue": "建議的主題",
+     "answerEntryId": "u27:concerning",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "They discussed the rules ___ the school trip.",
+     "fullSentence": "They discussed the rules concerning the school trip.",
+     "translation": "他們討論了有關校外教學的規定。",
+     "clue": "討論內容的範圍",
+     "answerEntryId": "u27:concerning",
+     "distractorEntryIds": [
+      "u27:during",
+      "u27:along",
+      "u27:near"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The letter said nothing ___ the money we were promised.",
+    "fullSentence": "The letter said nothing concerning the money we were promised.",
+    "translation": "信裡完全沒提到說好要給我們的錢。",
+    "clue": "涉及某主題",
+    "answerEntryId": "u27:concerning",
+    "distractorEntryIds": [
+     "u27:about",
+     "u27:against",
+     "u27:without"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:down",
+   "zh": "沿…往下；向下",
+   "pos": "phrase",
+   "example": "The tears ran down her face.",
+   "exampleZh": "眼淚從她臉上流下。",
+   "spellingHint": "d-o-w-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Put the boxes ___ in the basement, please.",
+    "fullSentence": "Put the boxes down in the basement, please.",
+    "translation": "請把箱子搬到樓下去。",
+    "clue": "往樓下的方向",
+    "answerEntryId": "u27:down",
+    "distractorEntryIds": [
+     "u27:up",
+     "u27:into",
+     "u27:under"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The ball rolled ___ the hill and into the pond.",
+     "fullSentence": "The ball rolled down the hill and into the pond.",
+     "translation": "球滾下山丘，掉進池塘裡。",
+     "clue": "由高處往低處移動",
+     "answerEntryId": "u27:down",
+     "distractorEntryIds": [
+      "u27:up",
+      "u27:across",
+      "u27:through"
+     ]
+    },
+    {
+     "sentence": "Skiers raced ___ the snowy mountain.",
+     "fullSentence": "Skiers raced down the snowy mountain.",
+     "translation": "滑雪的人從雪山往下疾馳。",
+     "clue": "沿斜面向下",
+     "answerEntryId": "u27:down",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:under",
+      "u27:around"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Walk ___ this street until you reach the park.",
+     "fullSentence": "Walk down this street until you reach the park.",
+     "translation": "沿著這條街往下走，直到公園。",
+     "clue": "沿著街道前進",
+     "answerEntryId": "u27:down",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:through",
+      "u27:beyond"
+     ]
+    },
+    {
+     "sentence": "The elevator will take you ___ to the parking lot.",
+     "fullSentence": "The elevator will take you down to the parking lot.",
+     "translation": "電梯會帶你下到停車場。",
+     "clue": "往下層移動",
+     "answerEntryId": "u27:down",
+     "distractorEntryIds": [
+      "u27:up",
+      "u27:out",
+      "u27:off"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The little boat drifted ___ the river toward the sea.",
+    "fullSentence": "The little boat drifted down the river toward the sea.",
+    "translation": "小船順著河流往下游漂向大海。",
+    "clue": "沿水流向低處",
+    "answerEntryId": "u27:down",
+    "distractorEntryIds": [
+     "u27:up",
+     "u27:across",
+     "u27:throughout"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:during",
+   "zh": "在…期間",
+   "pos": "phrase",
+   "example": "It rained during the whole game.",
+   "exampleZh": "整場比賽期間都在下雨。",
+   "spellingHint": "d-u-r-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We visited the museum ___ our trip to London.",
+    "fullSentence": "We visited the museum during our trip to London.",
+    "translation": "我們在倫敦旅行期間參觀了博物館。",
+    "clue": "發生在某段時間之中",
+    "answerEntryId": "u27:during",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:at",
+     "u27:for"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please stay quiet ___ the movie.",
+     "fullSentence": "Please stay quiet during the movie.",
+     "translation": "看電影期間請保持安靜。",
+     "clue": "整段時間內",
+     "answerEntryId": "u27:during",
+     "distractorEntryIds": [
+      "u27:until",
+      "u27:before",
+      "u27:after"
+     ]
+    },
+    {
+     "sentence": "Many stores close ___ the New Year holiday.",
+     "fullSentence": "Many stores close during the New Year holiday.",
+     "translation": "許多店家在過年期間休息。",
+     "clue": "假期這段期間",
+     "answerEntryId": "u27:during",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:on",
+      "u27:by"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The students discussed the topic ___ the break.",
+     "fullSentence": "The students discussed the topic during the break.",
+     "translation": "學生們在下課時間討論這個主題。",
+     "clue": "發生在休息時段",
+     "answerEntryId": "u27:during",
+     "distractorEntryIds": [
+      "u27:throughout",
+      "u27:since",
+      "u27:till"
+     ]
+    },
+    {
+     "sentence": "___ the summer, we swim almost every day.",
+     "fullSentence": "during the summer, we swim almost every day.",
+     "translation": "夏天期間，我們幾乎每天游泳。",
+     "clue": "季節持續的期間",
+     "answerEntryId": "u27:during",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:at",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The lights went out ___ the storm and stayed off for hours.",
+    "fullSentence": "The lights went out during the storm and stayed off for hours.",
+    "translation": "暴風雨期間停電，好幾個小時都沒電。",
+    "clue": "在事件進行的過程中",
+    "answerEntryId": "u27:during",
+    "distractorEntryIds": [
+     "u27:before",
+     "u27:after",
+     "u27:since"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:except",
+   "zh": "除…之外（不包括）",
+   "pos": "phrase",
+   "example": "Everyone passed the test except Ben.",
+   "exampleZh": "除了Ben，大家都通過考試。",
+   "spellingHint": "e-x-c-e-p-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The store is open every day ___ Mondays.",
+    "fullSentence": "The store is open every day except Mondays.",
+    "translation": "這家店每天營業，星期一除外。",
+    "clue": "把某天排除在外",
+    "answerEntryId": "u27:except",
+    "distractorEntryIds": [
+     "u27:besides",
+     "u27:without",
+     "u27:during"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I like all subjects ___ math.",
+     "fullSentence": "I like all subjects except math.",
+     "translation": "除了數學，我喜歡所有科目。",
+     "clue": "不喜歡的那一科被排除",
+     "answerEntryId": "u27:except",
+     "distractorEntryIds": [
+      "u27:including",
+      "u27:with",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "The park stays quiet ___ the birds singing.",
+     "fullSentence": "The park stays quiet except the birds singing.",
+     "translation": "公園裡很安靜，只有鳥在唱歌。",
+     "clue": "唯一例外",
+     "answerEntryId": "u27:except",
+     "distractorEntryIds": [
+      "u27:among",
+      "u27:against",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We go swimming every weekend ___ when it rains.",
+     "fullSentence": "We go swimming every weekend except when it rains.",
+     "translation": "我們每個週末都去游泳，下雨例外。",
+     "clue": "排除特殊情況",
+     "answerEntryId": "u27:except",
+     "distractorEntryIds": [
+      "u27:besides",
+      "u27:during",
+      "u27:within"
+     ]
+    },
+    {
+     "sentence": "Nobody came to the party ___ Sam and Lily.",
+     "fullSentence": "Nobody came to the party except Sam and Lily.",
+     "translation": "除了Sam和Lily，沒有人來參加派對。",
+     "clue": "只有他們兩人來",
+     "answerEntryId": "u27:except",
+     "distractorEntryIds": [
+      "u27:including",
+      "u27:besides",
+      "u27:without"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The museum is free for students ___ during special shows.",
+    "fullSentence": "The museum is free for students except during special shows.",
+    "translation": "博物館對學生免費，特展期間例外。",
+    "clue": "排除在外的情況",
+    "answerEntryId": "u27:except",
+    "distractorEntryIds": [
+     "u27:including",
+     "u27:besides",
+     "u27:throughout"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:for",
+   "zh": "為了；給；持續（時間）",
+   "pos": "phrase",
+   "example": "This letter is for you.",
+   "exampleZh": "這封信是給你的。",
+   "spellingHint": "f-o-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Our family stayed there ___ ten years.",
+    "fullSentence": "Our family stayed there for ten years.",
+    "translation": "我們家在那裡待了十年。",
+    "clue": "持續一段時間的長度",
+    "answerEntryId": "u27:for",
+    "distractorEntryIds": [
+     "u27:since",
+     "u27:during",
+     "u27:till"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mom bought a new backpack ___ my little brother.",
+     "fullSentence": "Mom bought a new backpack for my little brother.",
+     "translation": "媽媽買了一個新背包給我弟弟。",
+     "clue": "東西的接收者",
+     "answerEntryId": "u27:for",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:with",
+      "u27:from"
+     ]
+    },
+    {
+     "sentence": "Thank you ___ helping me carry the heavy box.",
+     "fullSentence": "Thank you for helping me carry the heavy box.",
+     "translation": "謝謝你幫我搬沉重的箱子。",
+     "clue": "感謝的原因",
+     "answerEntryId": "u27:for",
+     "distractorEntryIds": [
+      "u27:of",
+      "u27:at",
+      "u27:near"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The train leaves ___ Kaohsiung in the morning.",
+     "fullSentence": "The train leaves for Kaohsiung in the morning.",
+     "translation": "火車早上開往高雄。",
+     "clue": "目的地",
+     "answerEntryId": "u27:for",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:toward",
+      "u27:by"
+     ]
+    },
+    {
+     "sentence": "He saved money ___ a new bicycle.",
+     "fullSentence": "He saved money for a new bicycle.",
+     "translation": "他存錢要買新腳踏車。",
+     "clue": "存錢的目的",
+     "answerEntryId": "u27:for",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:from",
+      "u27:by"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor told her to rest ___ two weeks after the operation.",
+    "fullSentence": "The doctor told her to rest for two weeks after the operation.",
+    "translation": "醫生要她手術後休息兩個星期。",
+    "clue": "動作持續的時間長度",
+    "answerEntryId": "u27:for",
+    "distractorEntryIds": [
+     "u27:during",
+     "u27:since",
+     "u27:until"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:from",
+   "zh": "從；來自；距離",
+   "pos": "phrase",
+   "example": "The train from Taipei arrives at noon.",
+   "exampleZh": "從台北來的火車中午抵達。",
+   "spellingHint": "f-r-o-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "School starts ___ eight thirty in the morning.",
+    "fullSentence": "School starts from eight thirty in the morning.",
+    "translation": "學校從早上八點三十分開始上課。",
+    "clue": "開始的時間點",
+    "answerEntryId": "u27:from",
+    "distractorEntryIds": [
+     "u27:until",
+     "u27:at",
+     "u27:since"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "This postcard is ___ my pen pal in Japan.",
+     "fullSentence": "This postcard is from my pen pal in Japan.",
+     "translation": "這張明信片是我在日本的筆友寄來的。",
+     "clue": "來源出處",
+     "answerEntryId": "u27:from",
+     "distractorEntryIds": [
+      "u27:of",
+      "u27:by",
+      "u27:with"
+     ]
+    },
+    {
+     "sentence": "The library is two blocks ___ our house.",
+     "fullSentence": "The library is two blocks from our house.",
+     "translation": "圖書館離我家兩個街區。",
+     "clue": "表示距離",
+     "answerEntryId": "u27:from",
+     "distractorEntryIds": [
+      "u27:near",
+      "u27:beside",
+      "u27:beyond"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Borrowed books must be returned ___ the library by Friday.",
+     "fullSentence": "Borrowed books must be returned from the library by Friday.",
+     "translation": "借的書必須在星期五前還給圖書館。",
+     "clue": "歸還的對象",
+     "answerEntryId": "u27:from",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:at",
+      "u27:in"
+     ]
+    },
+    {
+     "sentence": "He learned to cook ___ his grandmother.",
+     "fullSentence": "He learned to cook from his grandmother.",
+     "translation": "他跟奶奶學會做菜。",
+     "clue": "學習的來源",
+     "answerEntryId": "u27:from",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The wind blew the kite ___ our hands and over the fence.",
+    "fullSentence": "The wind blew the kite from our hands and over the fence.",
+    "translation": "風把風箏從我們手中吹走，越過了圍籬。",
+    "clue": "起點位置",
+    "answerEntryId": "u27:from",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:on",
+     "u27:under"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:in",
+   "zh": "在…裡面；在（期間）",
+   "pos": "phrase",
+   "example": "The keys are in the drawer.",
+   "exampleZh": "鑰匙在抽屜裡。",
+   "spellingHint": "i-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My cousin was born ___ July.",
+    "fullSentence": "My cousin was born in July.",
+    "translation": "我表弟在七月出生。",
+    "clue": "月份前用的介系詞",
+    "answerEntryId": "u27:in",
+    "distractorEntryIds": [
+     "u27:on",
+     "u27:at",
+     "u27:during"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "There are five pencils ___ the pencil box.",
+     "fullSentence": "There are five pencils in the pencil box.",
+     "translation": "鉛筆盒裡有五支鉛筆。",
+     "clue": "東西在容器內部",
+     "answerEntryId": "u27:in",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:under",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "We usually visit Grandma ___ the winter holidays.",
+     "fullSentence": "We usually visit Grandma in the winter holidays.",
+     "translation": "我們通常在寒假去看奶奶。",
+     "clue": "季節或期間",
+     "answerEntryId": "u27:in",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:on",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She is the tallest girl ___ her class.",
+     "fullSentence": "She is the tallest girl in her class.",
+     "translation": "她是班上最高的女生。",
+     "clue": "所屬的範圍",
+     "answerEntryId": "u27:in",
+     "distractorEntryIds": [
+      "u27:of",
+      "u27:among",
+      "u27:between"
+     ]
+    },
+    {
+     "sentence": "Please write your answer ___ ink, not pencil.",
+     "fullSentence": "Please write your answer in ink, not pencil.",
+     "translation": "請用原子筆（墨水）寫答案，不要用鉛筆。",
+     "clue": "使用的材料",
+     "answerEntryId": "u27:in",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:of"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The children are playing ___ the yard because it is a sunny day.",
+    "fullSentence": "The children are playing in the yard because it is a sunny day.",
+    "translation": "孩子們在院子裡玩，因為今天是晴天。",
+    "clue": "在某個範圍之內",
+    "answerEntryId": "u27:in",
+    "distractorEntryIds": [
+     "u27:outside",
+     "u27:above",
+     "u27:behind"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:in back of",
+   "zh": "在…後面",
+   "pos": "phrase",
+   "example": "The parking lot is in back of the supermarket.",
+   "exampleZh": "停車場在超級市場後面。",
+   "spellingHint": "i-n b-a-c-k o-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The players waited ___ the stage before the show.",
+    "fullSentence": "The players waited in back of the stage before the show.",
+    "translation": "表演開始前，演員們在舞台後面等候。",
+    "clue": "位置在某物的後方",
+    "answerEntryId": "u27:in back of",
+    "distractorEntryIds": [
+     "u27:in front of",
+     "u27:above",
+     "u27:under"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The garden tools are kept ___ the tool shed, not inside it.",
+     "fullSentence": "The garden tools are kept in back of the tool shed, not inside it.",
+     "translation": "園藝工具放在工具屋後面，不是裡面。",
+     "clue": "在小型建築的後方",
+     "answerEntryId": "u27:in back of",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:within",
+      "u27:over"
+     ]
+    },
+    {
+     "sentence": "The bus parked ___ the school, near the sports field.",
+     "fullSentence": "The bus parked in back of the school, near the sports field.",
+     "translation": "公車停在学校後面，靠近操場。",
+     "clue": "校舍後方的停車位置",
+     "answerEntryId": "u27:in back of",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:beside",
+      "u27:among"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The dog slept ___ the garage, out of the rain.",
+     "fullSentence": "The dog slept in back of the garage, out of the rain.",
+     "translation": "狗睡在車庫後面，避開雨水。",
+     "clue": "躲在建築後方",
+     "answerEntryId": "u27:in back of",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:into",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "A small hill rises ___ the temple.",
+     "fullSentence": "A small hill rises in back of the temple.",
+     "translation": "小山丘聳立在寺廟後面。",
+     "clue": "位於建築物的背面",
+     "answerEntryId": "u27:in back of",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:over",
+      "u27:throughout"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Please wait ___ the last person so the line stays in order.",
+    "fullSentence": "Please wait in back of the last person so the line stays in order.",
+    "translation": "請排在最後一個人的後面，隊伍才不會亂。",
+    "clue": "隊伍中的後方位置",
+    "answerEntryId": "u27:in back of",
+    "distractorEntryIds": [
+     "u27:in front of",
+     "u27:under",
+     "u27:inside"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:in front of",
+   "zh": "在…前面",
+   "pos": "phrase",
+   "example": "There is a tall tree in front of the library.",
+   "exampleZh": "圖書館前面有一棵大樹。",
+   "spellingHint": "i-n f-r-o-n-t o-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The taxi stopped ___ the station and we got off.",
+    "fullSentence": "The taxi stopped in front of the station and we got off.",
+    "translation": "計程車停在車站前面，我們下了車。",
+    "clue": "位置在某建築的正前方",
+    "answerEntryId": "u27:in front of",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:inside",
+     "u27:above"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please stand ___ the class and introduce yourself.",
+     "fullSentence": "Please stand in front of the class and introduce yourself.",
+     "translation": "請站在全班面前介紹你自己。",
+     "clue": "在眾人前方",
+     "answerEntryId": "u27:in front of",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:among",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "A white car is parked ___ our gate, blocking the way.",
+     "fullSentence": "A white car is parked in front of our gate, blocking the way.",
+     "translation": "一輛白車停在我們大門前，擋住了路。",
+     "clue": "門口前方",
+     "answerEntryId": "u27:in front of",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:within",
+      "u27:over"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The teacher wrote the answer ___ the students, on the blackboard.",
+     "fullSentence": "The teacher wrote the answer in front of the students, on the blackboard.",
+     "translation": "老師在學生前方的黑板上寫下答案。",
+     "clue": "面向學生的前方位置",
+     "answerEntryId": "u27:in front of",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:beside",
+      "u27:among"
+     ]
+    },
+    {
+     "sentence": "We took photos ___ the famous tower.",
+     "fullSentence": "We took photos in front of the famous tower.",
+     "translation": "我們在那座著名的塔前拍照。",
+     "clue": "景點前方",
+     "answerEntryId": "u27:in front of",
+     "distractorEntryIds": [
+      "u27:behind",
+      "u27:inside",
+      "u27:below"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The bus driver sits ___ all the passengers, near the big door.",
+    "fullSentence": "The bus driver sits in front of all the passengers, near the big door.",
+    "translation": "公車司機坐在所有乘客前面，靠近大門。",
+    "clue": "車內最前方的位置",
+    "answerEntryId": "u27:in front of",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:under",
+     "u27:among"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:including",
+   "zh": "包括；包含",
+   "pos": "phrase",
+   "example": "The price includes breakfast, including coffee.",
+   "exampleZh": "這個價格包含早餐，包括咖啡。",
+   "spellingHint": "i-n-c-l-u-d-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Six students joined the contest, ___ two from our class.",
+    "fullSentence": "Six students joined the contest, including two from our class.",
+    "translation": "有六名學生參加比賽，包括我們班的兩個人。",
+    "clue": "把某些項目算進總數",
+    "answerEntryId": "u27:including",
+    "distractorEntryIds": [
+     "u27:except",
+     "u27:without",
+     "u27:besides"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "All my cousins came to the reunion, ___ the baby.",
+     "fullSentence": "All my cousins came to the reunion, including the baby.",
+     "translation": "我所有的表親都來團聚，包括嬰兒。",
+     "clue": "連最小的也算在內",
+     "answerEntryId": "u27:including",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:against",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "The museum is open every day, ___ Sundays.",
+     "fullSentence": "The museum is open every day, including Sundays.",
+     "translation": "博物館每天開放，星期天也開。",
+     "clue": "含週日在內",
+     "answerEntryId": "u27:including",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:without",
+      "u27:during"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The team won ten games this season, ___ the final one.",
+     "fullSentence": "The team won ten games this season, including the final one.",
+     "translation": "球隊這一季贏了十場比賽，包括最後一場。",
+     "clue": "總數中含特別一場",
+     "answerEntryId": "u27:including",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:beyond",
+      "u27:till"
+     ]
+    },
+    {
+     "sentence": "Rent is two thousand dollars a month, ___ the water fee.",
+     "fullSentence": "Rent is two thousand dollars a month, including the water fee.",
+     "translation": "房租一個月兩千元，水費包含在內。",
+     "clue": "費用已包含",
+     "answerEntryId": "u27:including",
+     "distractorEntryIds": [
+      "u27:except",
+      "u27:without",
+      "u27:besides"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The package weighs five kilograms, ___ the heavy wooden box.",
+    "fullSentence": "The package weighs five kilograms, including the heavy wooden box.",
+    "translation": "包裹含沉重的木箱在內重五公斤。",
+    "clue": "把箱子重量算進總重",
+    "answerEntryId": "u27:including",
+    "distractorEntryIds": [
+     "u27:except",
+     "u27:without",
+     "u27:of"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:inside",
+   "zh": "在…裡面；往…裡面",
+   "pos": "phrase",
+   "example": "It started to rain, so we ran inside the building.",
+   "exampleZh": "開始下雨了，所以我們跑進建築物裡。",
+   "spellingHint": "i-n-s-i-d-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The cat hid ___ the cardboard house.",
+    "fullSentence": "The cat hid inside the cardboard house.",
+    "translation": "貓躲在紙板屋裡面。",
+    "clue": "在某物的內部",
+    "answerEntryId": "u27:inside",
+    "distractorEntryIds": [
+     "u27:outside",
+     "u27:above",
+     "u27:beside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Open the box and look ___ it.",
+     "fullSentence": "Open the box and look inside it.",
+     "translation": "打開盒子往裡面看看。",
+     "clue": "朝容器內部看",
+     "answerEntryId": "u27:inside",
+     "distractorEntryIds": [
+      "u27:outside",
+      "u27:over",
+      "u27:behind"
+     ]
+    },
+    {
+     "sentence": "The tickets are ___ my green backpack.",
+     "fullSentence": "The tickets are inside my green backpack.",
+     "translation": "車票在我的綠色背包裡。",
+     "clue": "在包的內層",
+     "answerEntryId": "u27:inside",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:near",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Only members can go ___ the club room.",
+     "fullSentence": "Only members can go inside the club room.",
+     "translation": "只有社員能進入社辦裡面。",
+     "clue": "進到內部空間",
+     "answerEntryId": "u27:inside",
+     "distractorEntryIds": [
+      "u27:outside",
+      "u27:beyond",
+      "u27:toward"
+     ]
+    },
+    {
+     "sentence": "The letter was folded ___ the envelope.",
+     "fullSentence": "The letter was folded inside the envelope.",
+     "translation": "信被摺好放在信封裡。",
+     "clue": "包在信封內",
+     "answerEntryId": "u27:inside",
+     "distractorEntryIds": [
+      "u27:around",
+      "u27:over",
+      "u27:under"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ the cave, the explorers found old drawings on the walls.",
+    "fullSentence": "inside the cave, the explorers found old drawings on the walls.",
+    "translation": "在洞穴內部，探險者發現牆上有古老的畫。",
+    "clue": "深入內部的空間",
+    "answerEntryId": "u27:inside",
+    "distractorEntryIds": [
+     "u27:outside",
+     "u27:above",
+     "u27:beyond"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:into",
+   "zh": "進入…裡面",
+   "pos": "phrase",
+   "example": "The mouse ran into its little hole.",
+   "exampleZh": "老鼠跑進牠的小洞裡。",
+   "spellingHint": "i-n-t-o",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Pour the milk ___ the cup slowly.",
+    "fullSentence": "Pour the milk into the cup slowly.",
+    "translation": "把牛奶慢慢倒進杯子裡。",
+    "clue": "由外往內移動",
+    "answerEntryId": "u27:into",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:on",
+     "u27:over"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The children jumped ___ the pool one after another.",
+     "fullSentence": "The children jumped into the pool one after another.",
+     "translation": "孩子們一個接一個跳進游泳池。",
+     "clue": "跳入水中",
+     "answerEntryId": "u27:into",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:above",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "She walked ___ the office and closed the door.",
+     "fullSentence": "She walked into the office and closed the door.",
+     "translation": "她走進辦公室並關上門。",
+     "clue": "從外面進到裡面",
+     "answerEntryId": "u27:into",
+     "distractorEntryIds": [
+      "u27:out of",
+      "u27:toward",
+      "u27:beside"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "He turned the old barn ___ a warm studio.",
+     "fullSentence": "He turned the old barn into a warm studio.",
+     "translation": "他把舊穀倉改造成工作室。",
+     "clue": "轉變成另一種狀態",
+     "answerEntryId": "u27:into",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:with",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "The cat jumped ___ the table to reach the fish.",
+     "fullSentence": "The cat jumped into the table to reach the fish.",
+     "translation": "貓跳上桌子去夠魚。",
+     "clue": "跳到平面上",
+     "answerEntryId": "u27:into",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:under",
+      "u27:from"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Dad backed the car ___ the narrow garage very carefully.",
+    "fullSentence": "Dad backed the car into the narrow garage very carefully.",
+    "translation": "爸爸非常小心地把車倒進狹窄的車庫。",
+    "clue": "移動到內部空間",
+    "answerEntryId": "u27:into",
+    "distractorEntryIds": [
+     "u27:up",
+     "u27:out of",
+     "u27:over"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:like",
+   "zh": "像；如同",
+   "pos": "phrase",
+   "example": "The baby panda looks like a small bear.",
+   "exampleZh": "熊貓寶寶看起來像隻小熊。",
+   "spellingHint": "l-i-k-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "On hot days, the road feels ___ a stove.",
+    "fullSentence": "On hot days, the road feels like a stove.",
+    "translation": "大熱天時，馬路摸起來像爐子一樣燙。",
+    "clue": "比喻某物像什麼",
+    "answerEntryId": "u27:like",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:of",
+     "u27:for"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She sings ___ a professional singer.",
+     "fullSentence": "She sings like a professional singer.",
+     "translation": "她唱歌像專業歌手一樣。",
+     "clue": "程度相當",
+     "answerEntryId": "u27:like",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:from"
+     ]
+    },
+    {
+     "sentence": "What was the weather ___ during your camping trip?",
+     "fullSentence": "What was the weather like during your camping trip?",
+     "translation": "你們露營時天氣怎麼樣？",
+     "clue": "詢問樣貌的固定句型",
+     "answerEntryId": "u27:like",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:in",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Climbing the stairs felt ___ climbing a mountain.",
+     "fullSentence": "Climbing the stairs felt like climbing a mountain.",
+     "translation": "爬樓梯的感覺就像爬山。",
+     "clue": "感受的比擬",
+     "answerEntryId": "u27:like",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "He ran quickly, ___ a cat chasing food.",
+     "fullSentence": "He ran quickly, like a cat chasing food.",
+     "translation": "他跑得很快，像貓追食物一樣。",
+     "clue": "動作的比喻",
+     "answerEntryId": "u27:like",
+     "distractorEntryIds": [
+      "u27:than",
+      "u27:of",
+      "u27:at"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The lake at sunset looked ___ a huge golden mirror.",
+    "fullSentence": "The lake at sunset looked like a huge golden mirror.",
+    "translation": "夕陽下的湖面看起來像一面巨大的金色鏡子。",
+    "clue": "外觀的相似",
+    "answerEntryId": "u27:like",
+    "distractorEntryIds": [
+     "u27:near",
+     "u27:of",
+     "u27:with"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:near",
+   "zh": "在…附近；接近",
+   "pos": "phrase",
+   "example": "Our school is near the train station.",
+   "exampleZh": "我們學校在火車站附近。",
+   "spellingHint": "n-e-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Don't play ___ the busy road; it is dangerous.",
+    "fullSentence": "Don't play near the busy road; it is dangerous.",
+    "translation": "不要在車多的馬路附近玩耍，很危險。",
+    "clue": "靠近某處",
+    "answerEntryId": "u27:near",
+    "distractorEntryIds": [
+     "u27:inside",
+     "u27:into",
+     "u27:under"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The supermarket is ___ my house, only five minutes away.",
+     "fullSentence": "The supermarket is near my house, only five minutes away.",
+     "translation": "超市在我家附近，走路只要五分鐘。",
+     "clue": "距離短",
+     "answerEntryId": "u27:near",
+     "distractorEntryIds": [
+      "u27:beyond",
+      "u27:inside",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "Be quiet; it is ___ midnight and everyone is sleeping.",
+     "fullSentence": "Be quiet; it is near midnight and everyone is sleeping.",
+     "translation": "快午夜了，大家都在睡，安靜點。",
+     "clue": "接近某時間",
+     "answerEntryId": "u27:near",
+     "distractorEntryIds": [
+      "u27:since",
+      "u27:after",
+      "u27:during"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We sat ___ the window to enjoy the view.",
+     "fullSentence": "We sat near the window to enjoy the view.",
+     "translation": "我們坐在靠窗的位置欣賞風景。",
+     "clue": "鄰近某物",
+     "answerEntryId": "u27:near",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:under",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "The old photo looks ___ new after careful repair.",
+     "fullSentence": "The old photo looks near new after careful repair.",
+     "translation": "那張舊照片經過細心修復後看起來像新的一樣。",
+     "clue": "狀態接近",
+     "answerEntryId": "u27:near",
+     "distractorEntryIds": [
+      "u27:like",
+      "u27:of",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The firefighters arrived just ___ the end of the parade.",
+    "fullSentence": "The firefighters arrived just near the end of the parade.",
+    "translation": "消防人員在遊行接近尾聲時才到。",
+    "clue": "時間點接近",
+    "answerEntryId": "u27:near",
+    "distractorEntryIds": [
+     "u27:at",
+     "u27:in",
+     "u27:on"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:next to",
+   "zh": "緊鄰在…旁邊",
+   "pos": "phrase",
+   "example": "The bakery is next to the bank.",
+   "exampleZh": "麵包店緊鄰銀行旁邊。",
+   "spellingHint": "n-e-x-t t-o",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Sit ___ your partner and share the textbook.",
+    "fullSentence": "Sit next to your partner and share the textbook.",
+    "translation": "坐在你同伴旁邊，一起看課本。",
+    "clue": "緊靠某人的位置",
+    "answerEntryId": "u27:next to",
+    "distractorEntryIds": [
+     "u27:behind",
+     "u27:among",
+     "u27:into"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The smallest box is ___ the biggest one on the shelf.",
+     "fullSentence": "The smallest box is next to the biggest one on the shelf.",
+     "translation": "架子上最小的盒子緊鄰最大的盒子。",
+     "clue": "相鄰擺放",
+     "answerEntryId": "u27:next to",
+     "distractorEntryIds": [
+      "u27:in front of",
+      "u27:within",
+      "u27:beyond"
+     ]
+    },
+    {
+     "sentence": "My locker is ___ Amy's, so we meet every morning.",
+     "fullSentence": "My locker is next to Amy's, so we meet every morning.",
+     "translation": "我的置物櫃在Amy旁邊，所以我們每天早上都會碰到。",
+     "clue": "兩個置物櫃相鄰",
+     "answerEntryId": "u27:next to",
+     "distractorEntryIds": [
+      "u27:between",
+      "u27:under",
+      "u27:off"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The lamp fell ___ the sofa when the cat jumped on it.",
+     "fullSentence": "The lamp fell next to the sofa when the cat jumped on it.",
+     "translation": "貓跳上去時，檯燈掉到沙發旁邊。",
+     "clue": "倒在某物側旁",
+     "answerEntryId": "u27:next to",
+     "distractorEntryIds": [
+      "u27:up",
+      "u27:into",
+      "u27:over"
+     ]
+    },
+    {
+     "sentence": "Write the date ___ your name on the paper.",
+     "fullSentence": "Write the date next to your name on the paper.",
+     "translation": "在紙上把日期寫在名字旁邊。",
+     "clue": "位置相鄰",
+     "answerEntryId": "u27:next to",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:above",
+      "u27:within"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The quiet study room is ___ the noisy cafeteria, but the walls are thick.",
+    "fullSentence": "The quiet study room is next to the noisy cafeteria, but the walls are thick.",
+    "translation": "安靜的自習室在吵鬧的餐廳旁邊，但牆很厚。",
+    "clue": "兩個空間緊鄰",
+    "answerEntryId": "u27:next to",
+    "distractorEntryIds": [
+     "u27:between",
+     "u27:among",
+     "u27:during"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:of",
+   "zh": "…的；屬於",
+   "pos": "phrase",
+   "example": "He is a friend of mine.",
+   "exampleZh": "他是我的朋友。",
+   "spellingHint": "o-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Please drink a glass ___ water after running.",
+    "fullSentence": "Please drink a glass of water after running.",
+    "translation": "跑完步後請喝一杯水。",
+    "clue": "表示單位所含內容",
+    "answerEntryId": "u27:of",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:in",
+     "u27:for"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The legs ___ the table are very strong.",
+     "fullSentence": "The legs of the table are very strong.",
+     "translation": "桌子的桌腳非常堅固。",
+     "clue": "所屬關係",
+     "answerEntryId": "u27:of",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:at",
+      "u27:by"
+     ]
+    },
+    {
+     "sentence": "Taiwan is famous ___ its night markets.",
+     "fullSentence": "Taiwan is famous of its night markets.",
+     "translation": "台灣以夜市聞名。",
+     "clue": "著名的原因",
+     "answerEntryId": "u27:of",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:at",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She bought three bags ___ rice for the camping trip.",
+     "fullSentence": "She bought three bags of rice for the camping trip.",
+     "translation": "她為露營旅行買了三袋米。",
+     "clue": "數量單位",
+     "answerEntryId": "u27:of",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:from",
+      "u27:by"
+     ]
+    },
+    {
+     "sentence": "It was very kind ___ that nurse to visit Grandpa every week.",
+     "fullSentence": "It was very kind of that nurse to visit Grandpa every week.",
+     "translation": "那位護士每週去看爺爺，真是善良。",
+     "clue": "形容人品的句型",
+     "answerEntryId": "u27:of",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:near",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "One slice ___ bread is not enough for a growing boy.",
+    "fullSentence": "One slice of bread is not enough for a growing boy.",
+    "translation": "一片麵包不夠一個成長中的孩子吃。",
+    "clue": "單位與整體的關係",
+    "answerEntryId": "u27:of",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:from",
+     "u27:near"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:off",
+   "zh": "離開；脫離；（從…）落下",
+   "pos": "phrase",
+   "example": "The picture fell off the wall.",
+   "exampleZh": "那幅畫從牆上掉下來。",
+   "spellingHint": "o-f-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Take your shoes ___ before you enter the room.",
+    "fullSentence": "Take your shoes off before you enter the room.",
+    "translation": "進門前先把鞋子脫掉。",
+    "clue": "脫離身體",
+    "answerEntryId": "u27:off",
+    "distractorEntryIds": [
+     "u27:on",
+     "u27:up",
+     "u27:in"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The cat jumped ___ the table and landed softly.",
+     "fullSentence": "The cat jumped off the table and landed softly.",
+     "translation": "貓從桌上跳下來，輕輕落地。",
+     "clue": "離開某表面",
+     "answerEntryId": "u27:off",
+     "distractorEntryIds": [
+      "u27:up",
+      "u27:under",
+      "u27:above"
+     ]
+    },
+    {
+     "sentence": "Turn ___ the lights when you leave the classroom.",
+     "fullSentence": "Turn off the lights when you leave the classroom.",
+     "translation": "離開教室時要把燈關掉。",
+     "clue": "關閉電源",
+     "answerEntryId": "u27:off",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:in",
+      "u27:up"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Keep ___ the grass; it was just planted.",
+     "fullSentence": "Keep off the grass; it was just planted.",
+     "translation": "不要踩草地，剛種下去。",
+     "clue": "遠離某處",
+     "answerEntryId": "u27:off",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:into",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "The train doors open when it stops ___ the platform.",
+     "fullSentence": "The train doors open when it stops off the platform.",
+     "translation": "火車停靠月台後車門才會打開。",
+     "clue": "離開月台位置",
+     "answerEntryId": "u27:off",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:at",
+      "u27:in"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The button came ___ my coat, so I had to sew it back.",
+    "fullSentence": "The button came off my coat, so I had to sew it back.",
+    "translation": "外套的扣子掉了，我只好把它縫回去。",
+    "clue": "從附著狀態脫落",
+    "answerEntryId": "u27:off",
+    "distractorEntryIds": [
+     "u27:on",
+     "u27:up",
+     "u27:over"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:on",
+   "zh": "在…上面（接觸）；關於；在（日子）",
+   "pos": "phrase",
+   "example": "Your eraser is on the desk.",
+   "exampleZh": "你的橡皮擦在桌子上。",
+   "spellingHint": "o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We have no classes ___ Saturday.",
+    "fullSentence": "We have no classes on Saturday.",
+    "translation": "我們星期六沒有課。",
+    "clue": "星期幾前用的介系詞",
+    "answerEntryId": "u27:on",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:at",
+     "u27:during"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The children drew flowers ___ the paper.",
+     "fullSentence": "The children drew flowers on the paper.",
+     "translation": "孩子們在紙上畫花。",
+     "clue": "畫在某物表面",
+     "answerEntryId": "u27:on",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:under",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "My birthday is ___ October tenth.",
+     "fullSentence": "My birthday is on October tenth.",
+     "translation": "我的生日在十月十日。",
+     "clue": "日期前用",
+     "answerEntryId": "u27:on",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:at",
+      "u27:since"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There is a report ___ pandas in today's newspaper.",
+     "fullSentence": "There is a report on pandas in today's newspaper.",
+     "translation": "今天報紙上有一篇關於熊貓的報導。",
+     "clue": "文章的主題",
+     "answerEntryId": "u27:on",
+     "distractorEntryIds": [
+      "u27:about",
+      "u27:of",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "Turn ___ the radio; I want to hear the weather.",
+     "fullSentence": "Turn on the radio; I want to hear the weather.",
+     "translation": "把收音機打開，我想聽天氣。",
+     "clue": "開啟電源",
+     "answerEntryId": "u27:on",
+     "distractorEntryIds": [
+      "u27:off",
+      "u27:up",
+      "u27:in"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The old woman sat ___ the wooden bench and fed the birds.",
+    "fullSentence": "The old woman sat on the wooden bench and fed the birds.",
+    "translation": "老婦人坐在木頭長椅上餵鳥。",
+    "clue": "身體接觸某表面",
+    "answerEntryId": "u27:on",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:into",
+     "u27:beside"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:out",
+   "zh": "往外；在外面；熄滅",
+   "pos": "phrase",
+   "example": "The children ran out to play.",
+   "exampleZh": "孩子們跑出去玩了。",
+   "spellingHint": "o-u-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The candle went ___ when the wind blew.",
+    "fullSentence": "The candle went out when the wind blew.",
+    "translation": "風一吹，蠟燭就熄滅了。",
+    "clue": "火焰熄滅",
+    "answerEntryId": "u27:out",
+    "distractorEntryIds": [
+     "u27:out of",
+     "u27:off",
+     "u27:over"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Let's eat ___ tonight instead of cooking.",
+     "fullSentence": "Let's eat out tonight instead of cooking.",
+     "translation": "我們今晚出去吃，不要在家煮。",
+     "clue": "離開家去外面",
+     "answerEntryId": "u27:out",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:inside",
+      "u27:up"
+     ]
+    },
+    {
+     "sentence": "The secret got ___ quickly, and everyone knew it.",
+     "fullSentence": "The secret got out quickly, and everyone knew it.",
+     "translation": "祕密很快傳出去，大家都知道了。",
+     "clue": "消息傳開",
+     "answerEntryId": "u27:out",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:up",
+      "u27:in"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The moon is ___ tonight, so the sky is bright.",
+     "fullSentence": "The moon is out tonight, so the sky is bright.",
+     "translation": "今晚月亮出來了，天空很亮。",
+     "clue": "出現在外",
+     "answerEntryId": "u27:out",
+     "distractorEntryIds": [
+      "u27:off",
+      "u27:over",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "Summer vacation is only one week ___.",
+     "fullSentence": "Summer vacation is only one week out.",
+     "translation": "暑假只剩一個星期就要到了。",
+     "clue": "距離時間點還有",
+     "answerEntryId": "u27:out",
+     "distractorEntryIds": [
+      "u27:up",
+      "u27:in",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Shout ___ if you need help while swimming.",
+    "fullSentence": "Shout out if you need help while swimming.",
+    "translation": "游泳時如果需要幫忙就大聲喊。",
+    "clue": "向外喊出聲",
+    "answerEntryId": "u27:out",
+    "distractorEntryIds": [
+     "u27:up",
+     "u27:in",
+     "u27:over"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:out of",
+   "zh": "從…出來；用完；在…之外",
+   "pos": "phrase",
+   "example": "The bird flew out of its cage.",
+   "exampleZh": "小鳥飛出了鳥籠。",
+   "spellingHint": "o-u-t o-f",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We are ___ bread, so please buy some.",
+    "fullSentence": "We are out of bread, so please buy some.",
+    "translation": "我們的麵包用完了，請買一些。",
+    "clue": "某物用光了",
+    "answerEntryId": "u27:out of",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:inside",
+     "u27:within"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She walked ___ the classroom with a big smile.",
+     "fullSentence": "She walked out of the classroom with a big smile.",
+     "translation": "她滿臉笑容地走出教室。",
+     "clue": "從裡面到外面",
+     "answerEntryId": "u27:out of",
+     "distractorEntryIds": [
+      "u27:into",
+      "u27:inside",
+      "u27:toward"
+     ]
+    },
+    {
+     "sentence": "The player caught the flying ball ___ mid-air.",
+     "fullSentence": "The player caught the flying ball out of mid-air.",
+     "translation": "球員在半空中接住飛來的球。",
+     "clue": "從空中接住",
+     "answerEntryId": "u27:out of",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:over",
+      "u27:under"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Ten ___ twelve students chose the museum trip.",
+     "fullSentence": "Ten out of twelve students chose the museum trip.",
+     "translation": "十二個學生中有十個選擇去博物館。",
+     "clue": "比例的說法",
+     "answerEntryId": "u27:out of",
+     "distractorEntryIds": [
+      "u27:of",
+      "u27:from",
+      "u27:in"
+     ]
+    },
+    {
+     "sentence": "The car ran ___ gas halfway home.",
+     "fullSentence": "The car ran out of gas halfway home.",
+     "translation": "車子在回家半路上沒油了。",
+     "clue": "耗盡了油",
+     "answerEntryId": "u27:out of",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:near",
+      "u27:by"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The kitten squeezed ___ the fence and chased a butterfly.",
+    "fullSentence": "The kitten squeezed out of the fence and chased a butterfly.",
+    "translation": "小貓從圍籬鑽出去追蝴蝶。",
+    "clue": "通過縫隙離開",
+    "answerEntryId": "u27:out of",
+    "distractorEntryIds": [
+     "u27:into",
+     "u27:inside",
+     "u27:under"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:outside",
+   "zh": "在…外面",
+   "pos": "phrase",
+   "example": "The students played outside the classroom.",
+   "exampleZh": "學生們在教室外面玩。",
+   "spellingHint": "o-u-t-s-i-d-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "It is warmer ___ the house than in it today.",
+    "fullSentence": "It is warmer outside the house than in it today.",
+    "translation": "今天屋外比屋裡暖和。",
+    "clue": "建築物的外部",
+    "answerEntryId": "u27:outside",
+    "distractorEntryIds": [
+     "u27:inside",
+     "u27:under",
+     "u27:within"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please wait ___ the office until the teacher calls you.",
+     "fullSentence": "Please wait outside the office until the teacher calls you.",
+     "translation": "請在辦公室外等老師叫你。",
+     "clue": "門外等候",
+     "answerEntryId": "u27:outside",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:into",
+      "u27:upon"
+     ]
+    },
+    {
+     "sentence": "The dog slept ___ the tent, guarding the camp.",
+     "fullSentence": "The dog slept outside the tent, guarding the camp.",
+     "translation": "狗睡在帳篷外面守著營地。",
+     "clue": "帳篷外部",
+     "answerEntryId": "u27:outside",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:under",
+      "u27:over"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There is a small garden ___ our apartment.",
+     "fullSentence": "There is a small garden outside our apartment.",
+     "translation": "我們公寓外面有個小花園。",
+     "clue": "建築外部空間",
+     "answerEntryId": "u27:outside",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:among",
+      "u27:between"
+     ]
+    },
+    {
+     "sentence": "The team practiced ___ the gym because it was full.",
+     "fullSentence": "The team practiced outside the gym because it was full.",
+     "translation": "體育館客滿，球隊就在館外練習。",
+     "clue": "建築物之外",
+     "answerEntryId": "u27:outside",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:within",
+      "u27:into"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The noise came ___ the window, from the busy street.",
+    "fullSentence": "The noise came outside the window, from the busy street.",
+    "translation": "噪音從窗外的熱鬧街道傳來。",
+    "clue": "建築外部的來源",
+    "answerEntryId": "u27:outside",
+    "distractorEntryIds": [
+     "u27:inside",
+     "u27:under",
+     "u27:beyond"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:over",
+   "zh": "在…上方；越過；超過",
+   "pos": "phrase",
+   "example": "The plane flew over the mountains.",
+   "exampleZh": "飛機飛越群山。",
+   "spellingHint": "o-v-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "There is a thick blanket ___ the bed to keep us warm.",
+    "fullSentence": "There is a thick blanket over the bed to keep us warm.",
+    "translation": "床上蓋著厚毯子保暖。",
+    "clue": "覆蓋在某物之上",
+    "answerEntryId": "u27:over",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:beside",
+     "u27:inside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The horse jumped ___ the low fence easily.",
+     "fullSentence": "The horse jumped over the low fence easily.",
+     "translation": "馬輕易跳過了矮圍籬。",
+     "clue": "從上方越過",
+     "answerEntryId": "u27:over",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:into",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "More ___ fifty students joined the club.",
+     "fullSentence": "More over fifty students joined the club.",
+     "translation": "超過五十名學生加入了社團。",
+     "clue": "數量超過",
+     "answerEntryId": "u27:over",
+     "distractorEntryIds": [
+      "u27:than",
+      "u27:under",
+      "u27:below"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "We talked ___ the phone for an hour.",
+     "fullSentence": "We talked over the phone for an hour.",
+     "translation": "我們講了一小時的電話。",
+     "clue": "透過電話的搭配",
+     "answerEntryId": "u27:over",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:in",
+      "u27:by"
+     ]
+    },
+    {
+     "sentence": "The lamp hangs ___ the dining table.",
+     "fullSentence": "The lamp hangs over the dining table.",
+     "translation": "吊燈掛在餐桌上方。",
+     "clue": "懸在正上方",
+     "answerEntryId": "u27:over",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:on",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ball rolled ___ the fence and landed in the next yard.",
+    "fullSentence": "The ball rolled over the fence and landed in the next yard.",
+    "translation": "球滾過圍籬，落在隔壁院子。",
+    "clue": "越過障礙物",
+    "answerEntryId": "u27:over",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:into",
+     "u27:beside"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:since",
+   "zh": "自從；從…以來",
+   "pos": "phrase",
+   "example": "I have known her since kindergarten.",
+   "exampleZh": "我從幼稚園就認識她。",
+   "spellingHint": "s-i-n-c-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "He has stayed at the hospital ___ Monday.",
+    "fullSentence": "He has stayed at the hospital since Monday.",
+    "translation": "他從星期一起就住院了。",
+    "clue": "起點延續到現在",
+    "answerEntryId": "u27:since",
+    "distractorEntryIds": [
+     "u27:for",
+     "u27:during",
+     "u27:in"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "___ she moved away, we write letters every month.",
+     "fullSentence": "since she moved away, we write letters every month.",
+     "translation": "自從她搬走後，我們每個月都寫信。",
+     "clue": "從過去某時持續",
+     "answerEntryId": "u27:since",
+     "distractorEntryIds": [
+      "u27:until",
+      "u27:before",
+      "u27:during"
+     ]
+    },
+    {
+     "sentence": "The shop has been closed ___ last Friday.",
+     "fullSentence": "The shop has been closed since last Friday.",
+     "translation": "這家店從上星期五起就關了。",
+     "clue": "以過去某日為起點",
+     "answerEntryId": "u27:since",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:till",
+      "u27:by"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "It has not rained ___ the end of June.",
+     "fullSentence": "It has not rained since the end of June.",
+     "translation": "從六月底到現在都沒下雨。",
+     "clue": "持續到現在的起點",
+     "answerEntryId": "u27:since",
+     "distractorEntryIds": [
+      "u27:during",
+      "u27:until",
+      "u27:in"
+     ]
+    },
+    {
+     "sentence": "We have been friends ___ we were seven years old.",
+     "fullSentence": "We have been friends since we were seven years old.",
+     "translation": "我們從七歲起就是朋友。",
+     "clue": "自某年紀起",
+     "answerEntryId": "u27:since",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:till",
+      "u27:after"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "___ the new bus line opened, going downtown is much faster.",
+    "fullSentence": "since the new bus line opened, going downtown is much faster.",
+    "translation": "自從新公車路線開通後，去市中心快多了。",
+    "clue": "某事發生後持續至今",
+    "answerEntryId": "u27:since",
+    "distractorEntryIds": [
+     "u27:before",
+     "u27:until",
+     "u27:during"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:than",
+   "zh": "比（用於比較）",
+   "pos": "phrase",
+   "example": "My backpack is heavier than yours.",
+   "exampleZh": "我的背包比你的重。",
+   "spellingHint": "t-h-a-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "This exercise is easier ___ the last one.",
+    "fullSentence": "This exercise is easier than the last one.",
+    "translation": "這個練習比上一個簡單。",
+    "clue": "比較級的搭配",
+    "answerEntryId": "u27:than",
+    "distractorEntryIds": [
+     "u27:near",
+     "u27:of",
+     "u27:to"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Ben reads faster ___ his twin sister.",
+     "fullSentence": "Ben reads faster than his twin sister.",
+     "translation": "Ben讀書比他的雙胞胎妹妹快。",
+     "clue": "速度的比較",
+     "answerEntryId": "u27:than",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "There are more trees ___ cars around this park.",
+     "fullSentence": "There are more trees than cars around this park.",
+     "translation": "這個公園附近樹比車多。",
+     "clue": "數量比較",
+     "answerEntryId": "u27:than",
+     "distractorEntryIds": [
+      "u27:of",
+      "u27:in",
+      "u27:with"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Nothing smells better ___ fresh bread in the morning.",
+     "fullSentence": "Nothing smells better than fresh bread in the morning.",
+     "translation": "早晨沒有什麼比新鮮麵包更香。",
+     "clue": "最高級的比較",
+     "answerEntryId": "u27:than",
+     "distractorEntryIds": [
+      "u27:near",
+      "u27:of",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "She arrived earlier ___ the teacher expected.",
+     "fullSentence": "She arrived earlier than the teacher expected.",
+     "translation": "她到得比老師預期的早。",
+     "clue": "與預期比較",
+     "answerEntryId": "u27:than",
+     "distractorEntryIds": [
+      "u27:beyond",
+      "u27:of",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Fewer students failed the quiz ___ the last time.",
+    "fullSentence": "Fewer students failed the quiz than the last time.",
+    "translation": "這次小考不及格的學生比上次少。",
+    "clue": "與前次狀況比較",
+    "answerEntryId": "u27:than",
+    "distractorEntryIds": [
+     "u27:near",
+     "u27:in",
+     "u27:of"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:through",
+   "zh": "穿過；通過；透過",
+   "pos": "phrase",
+   "example": "The train went through a long tunnel.",
+   "exampleZh": "火車穿過一條長隧道。",
+   "spellingHint": "t-h-r-o-u-g-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Sunlight came ___ the window and woke me up.",
+    "fullSentence": "Sunlight came through the window and woke me up.",
+    "translation": "陽光透過窗戶照進來把我喚醒。",
+    "clue": "光線穿透",
+    "answerEntryId": "u27:through",
+    "distractorEntryIds": [
+     "u27:across",
+     "u27:over",
+     "u27:under"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The thief got in ___ the open window.",
+     "fullSentence": "The thief got in through the open window.",
+     "translation": "小偷從敞開的窗戶進來。",
+     "clue": "通過開口進入",
+     "answerEntryId": "u27:through",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:over",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "We drove ___ the tunnel in five minutes.",
+     "fullSentence": "We drove through the tunnel in five minutes.",
+     "translation": "我們五分鐘就開車穿過了隧道。",
+     "clue": "穿越內部空間",
+     "answerEntryId": "u27:through",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:over",
+      "u27:above"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Read the story again ___ the very end.",
+     "fullSentence": "Read the story again through the very end.",
+     "translation": "把故事從頭讀到最後。",
+     "clue": "從頭到尾",
+     "answerEntryId": "u27:through",
+     "distractorEntryIds": [
+      "u27:until",
+      "u27:till",
+      "u27:toward"
+     ]
+    },
+    {
+     "sentence": "She became stronger ___ years of daily drills.",
+     "fullSentence": "She became stronger through years of daily drills.",
+     "translation": "她經過多年的日常鍛鍊變得更強。",
+     "clue": "經由某過程",
+     "answerEntryId": "u27:through",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:against"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The river flows ___ the valley between the two mountain ranges.",
+    "fullSentence": "The river flows through the valley between the two mountain ranges.",
+    "translation": "河流穿過兩條山脈之間的山谷。",
+    "clue": "沿內部通道流過",
+    "answerEntryId": "u27:through",
+    "distractorEntryIds": [
+     "u27:across",
+     "u27:over",
+     "u27:under"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:throughout",
+   "zh": "遍及；在整個…期間",
+   "pos": "phrase",
+   "example": "The song was popular throughout the country.",
+   "exampleZh": "這首歌在全國都很受歡迎。",
+   "spellingHint": "t-h-r-o-u-g-h-o-u-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The museum is open ___ the whole year.",
+    "fullSentence": "The museum is open throughout the whole year.",
+    "translation": "博物館整年都開放。",
+    "clue": "涵蓋全部時間",
+    "answerEntryId": "u27:throughout",
+    "distractorEntryIds": [
+     "u27:during",
+     "u27:until",
+     "u27:in"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Fireworks could be heard ___ the whole city.",
+     "fullSentence": "Fireworks could be heard throughout the whole city.",
+     "translation": "整座城市都聽得到煙火聲。",
+     "clue": "遍佈整個地區",
+     "answerEntryId": "u27:throughout",
+     "distractorEntryIds": [
+      "u27:across",
+      "u27:inside",
+      "u27:within"
+     ]
+    },
+    {
+     "sentence": "She stayed calm ___ the long exam.",
+     "fullSentence": "She stayed calm throughout the long exam.",
+     "translation": "她在整場漫長的考試中保持冷靜。",
+     "clue": "全程之中",
+     "answerEntryId": "u27:throughout",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:after",
+      "u27:since"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Flags were hung ___ the school for the sports day.",
+     "fullSentence": "Flags were hung throughout the school for the sports day.",
+     "translation": "運動會期間旗子掛滿全校。",
+     "clue": "遍及各處",
+     "answerEntryId": "u27:throughout",
+     "distractorEntryIds": [
+      "u27:among",
+      "u27:between",
+      "u27:beside"
+     ]
+    },
+    {
+     "sentence": "___ history, people have loved telling stories.",
+     "fullSentence": "throughout history, people have loved telling stories.",
+     "translation": "整個歷史上，人們一直喜歡講故事。",
+     "clue": "綿延的時間",
+     "answerEntryId": "u27:throughout",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:at",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The smell of fresh bread filled the bakery ___ the morning.",
+    "fullSentence": "The smell of fresh bread filled the bakery throughout the morning.",
+    "translation": "整個早晨，麵包香味瀰漫整間麵包店。",
+    "clue": "持續充滿整段時間",
+    "answerEntryId": "u27:throughout",
+    "distractorEntryIds": [
+     "u27:at",
+     "u27:in",
+     "u27:by"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:till",
+   "zh": "直到",
+   "pos": "phrase",
+   "example": "The library stays open till nine.",
+   "exampleZh": "圖書館開放到晚上。",
+   "spellingHint": "t-i-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We played ___ the sun went down.",
+    "fullSentence": "We played till the sun went down.",
+    "translation": "我們一直玩到太陽下山。",
+    "clue": "持續到某時刻",
+    "answerEntryId": "u27:till",
+    "distractorEntryIds": [
+     "u27:since",
+     "u27:during",
+     "u27:for"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The store is open ___ ten every night.",
+     "fullSentence": "The store is open till ten every night.",
+     "translation": "這家店每晚營業到十點。",
+     "clue": "營業結束時間",
+     "answerEntryId": "u27:till",
+     "distractorEntryIds": [
+      "u27:from",
+      "u27:at",
+      "u27:by"
+     ]
+    },
+    {
+     "sentence": "Wait here ___ I come back.",
+     "fullSentence": "Wait here till I come back.",
+     "translation": "在這裡等到我回來。",
+     "clue": "等待結束點",
+     "answerEntryId": "u27:till",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:after",
+      "u27:since"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Keep stirring the soup ___ it gets thick.",
+     "fullSentence": "Keep stirring the soup till it gets thick.",
+     "translation": "持續攪拌湯到變濃稠。",
+     "clue": "動作持續的終點",
+     "answerEntryId": "u27:till",
+     "distractorEntryIds": [
+      "u27:after",
+      "u27:during",
+      "u27:within"
+     ]
+    },
+    {
+     "sentence": "The kids stayed by the sea ___ sunset.",
+     "fullSentence": "The kids stayed by the sea till sunset.",
+     "translation": "孩子們在海邊待到日落。",
+     "clue": "停留結束時刻",
+     "answerEntryId": "u27:till",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:in",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Nobody spoke ___ the movie was completely over.",
+    "fullSentence": "Nobody spoke till the movie was completely over.",
+    "translation": "電影完全結束前沒有人說話。",
+    "clue": "延續至事件結束",
+    "answerEntryId": "u27:till",
+    "distractorEntryIds": [
+     "u27:after",
+     "u27:during",
+     "u27:since"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:to",
+   "zh": "到；向；給",
+   "pos": "phrase",
+   "example": "Give the book to your teacher.",
+   "exampleZh": "把書交給你的老師。",
+   "spellingHint": "t-o",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "It takes ten minutes ___ walk from here.",
+    "fullSentence": "It takes ten minutes to walk from here.",
+    "translation": "從這裡走路要十分鐘。",
+    "clue": "不定詞的 to",
+    "answerEntryId": "u27:to",
+    "distractorEntryIds": [
+     "u27:for",
+     "u27:of",
+     "u27:with"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "This gift is ___ you from everyone here.",
+     "fullSentence": "This gift is to you from everyone here.",
+     "translation": "這是在場每個人送你的禮物。",
+     "clue": "贈與對象",
+     "answerEntryId": "u27:to",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:near",
+      "u27:with"
+     ]
+    },
+    {
+     "sentence": "Turn left ___ the post office and go straight.",
+     "fullSentence": "Turn left to the post office and go straight.",
+     "translation": "在郵局左轉然後直走。",
+     "clue": "朝向某地",
+     "answerEntryId": "u27:to",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:in",
+      "u27:from"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The bus goes ___ the airport every half hour.",
+     "fullSentence": "The bus goes to the airport every half hour.",
+     "translation": "公車每小時開往機場。",
+     "clue": "目的地",
+     "answerEntryId": "u27:to",
+     "distractorEntryIds": [
+      "u27:until",
+      "u27:till",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "She is kind ___ every student in the class.",
+     "fullSentence": "She is kind to every student in the class.",
+     "translation": "她對班上每位學生都很親切。",
+     "clue": "對待的對象",
+     "answerEntryId": "u27:to",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The time is quarter ___ nine, so the bus comes soon.",
+    "fullSentence": "The time is quarter to nine, so the bus comes soon.",
+    "translation": "現在是八點四十五（差一刻九點），公車快來了。",
+    "clue": "時間的說法",
+    "answerEntryId": "u27:to",
+    "distractorEntryIds": [
+     "u27:till",
+     "u27:at",
+     "u27:in"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:toward",
+   "zh": "朝向；對於；接近",
+   "pos": "phrase",
+   "example": "The cat walked toward the kitchen.",
+   "exampleZh": "貓朝廚房走去。",
+   "spellingHint": "t-o-w-a-r-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The runners moved ___ the finish line.",
+    "fullSentence": "The runners moved toward the finish line.",
+    "translation": "跑者們朝終點線移動。",
+    "clue": "朝某方向前進",
+    "answerEntryId": "u27:toward",
+    "distractorEntryIds": [
+     "u27:into",
+     "u27:over",
+     "u27:across"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She was very kind ___ the new student.",
+     "fullSentence": "She was very kind toward the new student.",
+     "translation": "她對新學生非常友善。",
+     "clue": "對人的態度",
+     "answerEntryId": "u27:toward",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:for",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "We saved money ___ the class trip.",
+     "fullSentence": "We saved money toward the class trip.",
+     "translation": "我們為班級旅行存錢。",
+     "clue": "為某目標累積",
+     "answerEntryId": "u27:toward",
+     "distractorEntryIds": [
+      "u27:for",
+      "u27:with",
+      "u27:by"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The wind changed ___ the north last night.",
+     "fullSentence": "The wind changed toward the north last night.",
+     "translation": "昨晚風向轉為北方。",
+     "clue": "方向轉變",
+     "answerEntryId": "u27:toward",
+     "distractorEntryIds": [
+      "u27:into",
+      "u27:from",
+      "u27:at"
+     ]
+    },
+    {
+     "sentence": "It was almost midnight ___ the end of the party.",
+     "fullSentence": "It was almost midnight toward the end of the party.",
+     "translation": "派對接近尾聲時已快午夜。",
+     "clue": "接近某時刻",
+     "answerEntryId": "u27:toward",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:in",
+      "u27:on"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The dog swam ___ the shore, carrying the stick.",
+    "fullSentence": "The dog swam toward the shore, carrying the stick.",
+    "translation": "狗叼著棍子游向岸邊。",
+    "clue": "朝目標移動但未說明抵達",
+    "answerEntryId": "u27:toward",
+    "distractorEntryIds": [
+     "u27:into",
+     "u27:over",
+     "u27:through"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:under",
+   "zh": "在…下面；少於",
+   "pos": "phrase",
+   "example": "The dog is sleeping under the table.",
+   "exampleZh": "狗睡在桌子下面。",
+   "spellingHint": "u-n-d-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The treasure box was buried ___ the old tree.",
+    "fullSentence": "The treasure box was buried under the old tree.",
+    "translation": "寶箱埋在老樹下面。",
+    "clue": "在某物正下方",
+    "answerEntryId": "u27:under",
+    "distractorEntryIds": [
+     "u27:over",
+     "u27:above",
+     "u27:beside"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Children ___ twelve must ride with an adult.",
+     "fullSentence": "Children under twelve must ride with an adult.",
+     "translation": "十二歲以下的兒童必須由大人陪同乘車。",
+     "clue": "年齡少於某數",
+     "answerEntryId": "u27:under",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:up",
+      "u27:above"
+     ]
+    },
+    {
+     "sentence": "Put the blanket ___ the mattress to protect it.",
+     "fullSentence": "Put the blanket under the mattress to protect it.",
+     "translation": "把毯子鋪在床墊下面保護床墊。",
+     "clue": "夾在某物之下",
+     "answerEntryId": "u27:under",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:on",
+      "u27:into"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The soldiers walked ___ the bridge to stay hidden.",
+     "fullSentence": "The soldiers walked under the bridge to stay hidden.",
+     "translation": "士兵們從橋下走過以保持隱蔽。",
+     "clue": "穿越下方空間",
+     "answerEntryId": "u27:under",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:across",
+      "u27:up"
+     ]
+    },
+    {
+     "sentence": "She kept the letters ___ her pillow.",
+     "fullSentence": "She kept the letters under her pillow.",
+     "translation": "她把信藏在枕頭下面。",
+     "clue": "藏在某物下",
+     "answerEntryId": "u27:under",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:inside",
+      "u27:beside"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The swimmers stayed ___ the water until their air ran out.",
+    "fullSentence": "The swimmers stayed under the water until their air ran out.",
+    "translation": "游泳的人潛在水下直到沒氣。",
+    "clue": "被水覆蓋的下方",
+    "answerEntryId": "u27:under",
+    "distractorEntryIds": [
+     "u27:over",
+     "u27:out of",
+     "u27:above"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:until",
+   "zh": "直到…為止",
+   "pos": "phrase",
+   "example": "Wait here until I return.",
+   "exampleZh": "在這裡等到我回來。",
+   "spellingHint": "u-n-t-i-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The shop stays open ___ midnight on weekends.",
+    "fullSentence": "The shop stays open until midnight on weekends.",
+    "translation": "週末這家店營業到午夜。",
+    "clue": "結束的時間點",
+    "answerEntryId": "u27:until",
+    "distractorEntryIds": [
+     "u27:since",
+     "u27:during",
+     "u27:in"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Keep stirring ___ the sugar melts completely.",
+     "fullSentence": "Keep stirring until the sugar melts completely.",
+     "translation": "持續攪拌直到糖完全融化。",
+     "clue": "動作持續到結果",
+     "answerEntryId": "u27:until",
+     "distractorEntryIds": [
+      "u27:before",
+      "u27:after",
+      "u27:since"
+     ]
+    },
+    {
+     "sentence": "We did not leave ___ the rain stopped.",
+     "fullSentence": "We did not leave until the rain stopped.",
+     "translation": "雨停之前我們沒有離開。",
+     "clue": "某事發生才行動",
+     "answerEntryId": "u27:until",
+     "distractorEntryIds": [
+      "u27:after",
+      "u27:during",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The kids stayed up ___ midnight to see the new year.",
+     "fullSentence": "The kids stayed up until midnight to see the new year.",
+     "translation": "孩子們熬夜到午夜看新年到來。",
+     "clue": "持續到深夜",
+     "answerEntryId": "u27:until",
+     "distractorEntryIds": [
+      "u27:at",
+      "u27:in",
+      "u27:on"
+     ]
+    },
+    {
+     "sentence": "Walk straight ___ you reach the traffic light.",
+     "fullSentence": "Walk straight until you reach the traffic light.",
+     "translation": "直走到紅綠燈為止。",
+     "clue": "行進的終點",
+     "answerEntryId": "u27:until",
+     "distractorEntryIds": [
+      "u27:till",
+      "u27:to",
+      "u27:at"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The baby cried ___ her mother picked her up.",
+    "fullSentence": "The baby cried until her mother picked her up.",
+    "translation": "嬰兒一直哭到媽媽抱起她。",
+    "clue": "狀態持續的終點",
+    "answerEntryId": "u27:until",
+    "distractorEntryIds": [
+     "u27:before",
+     "u27:during",
+     "u27:since"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:up",
+   "zh": "沿…往上；向上",
+   "pos": "phrase",
+   "example": "The children climbed up the stairs.",
+   "exampleZh": "孩子們爬上樓梯。",
+   "spellingHint": "u-p",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Walk ___ the stairs to the art room.",
+    "fullSentence": "Walk up the stairs to the art room.",
+    "translation": "沿樓梯往上走到美術教室。",
+    "clue": "往樓上的方向",
+    "answerEntryId": "u27:up",
+    "distractorEntryIds": [
+     "u27:down",
+     "u27:into",
+     "u27:over"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Sailors climbed ___ the mast to fix the sail.",
+     "fullSentence": "Sailors climbed up the mast to fix the sail.",
+     "translation": "水手爬上桅杆修帆。",
+     "clue": "向高處攀爬",
+     "answerEntryId": "u27:up",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:across",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "Please stand ___ when your name is called.",
+     "fullSentence": "Please stand up when your name is called.",
+     "translation": "被叫到名字時請起立。",
+     "clue": "由坐而站",
+     "answerEntryId": "u27:up",
+     "distractorEntryIds": [
+      "u27:down",
+      "u27:off",
+      "u27:out"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The cat ran ___ the tree to escape the dog.",
+     "fullSentence": "The cat ran up the tree to escape the dog.",
+     "translation": "貓爬上樹躲開狗。",
+     "clue": "沿樹幹向上",
+     "answerEntryId": "u27:up",
+     "distractorEntryIds": [
+      "u27:down",
+      "u27:through",
+      "u27:under"
+     ]
+    },
+    {
+     "sentence": "The balloons flew high ___ the sky and vanished.",
+     "fullSentence": "The balloons flew high up the sky and vanished.",
+     "translation": "氣球飛上高空然後消失了。",
+     "clue": "往高處飛",
+     "answerEntryId": "u27:up",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:off",
+      "u27:in"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The hikers went ___ the steep path, holding the rope tightly.",
+    "fullSentence": "The hikers went up the steep path, holding the rope tightly.",
+    "translation": "登山者抓緊繩子沿陡峭的小路往上走。",
+    "clue": "沿路徑向上",
+    "answerEntryId": "u27:up",
+    "distractorEntryIds": [
+     "u27:down",
+     "u27:across",
+     "u27:throughout"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:upon",
+   "zh": "在…之上（較正式）；一…就",
+   "pos": "phrase",
+   "example": "The letter was left upon the desk.",
+   "exampleZh": "信被留在桌子上。",
+   "spellingHint": "u-p-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "___ hearing the news, she jumped with joy.",
+    "fullSentence": "upon hearing the news, she jumped with joy.",
+    "translation": "一聽到消息，她就高興得跳起來。",
+    "clue": "once upon 的正式用法",
+    "answerEntryId": "u27:upon",
+    "distractorEntryIds": [
+     "u27:on",
+     "u27:in",
+     "u27:at"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The castle stood ___ a high hill.",
+     "fullSentence": "The castle stood upon a high hill.",
+     "translation": "城堡矗立在高丘之上。",
+     "clue": "位於某物之上",
+     "answerEntryId": "u27:upon",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:beside",
+      "u27:into"
+     ]
+    },
+    {
+     "sentence": "Once ___ a time, a dragon lived by the sea.",
+     "fullSentence": "Once upon a time, a dragon lived by the sea.",
+     "translation": "從前，海邊住著一條龍。",
+     "clue": "故事開頭的固定用法",
+     "answerEntryId": "u27:upon",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:at",
+      "u27:in"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The book fell ___ the floor with a loud sound.",
+     "fullSentence": "The book fell upon the floor with a loud sound.",
+     "translation": "書砰的一聲掉到地上。",
+     "clue": "落到某表面",
+     "answerEntryId": "u27:upon",
+     "distractorEntryIds": [
+      "u27:over",
+      "u27:under",
+      "u27:from"
+     ]
+    },
+    {
+     "sentence": "Her success depends ___ daily practice.",
+     "fullSentence": "Her success depends upon daily practice.",
+     "translation": "她的成功取決於每天的練習。",
+     "clue": "依賴的搭配",
+     "answerEntryId": "u27:upon",
+     "distractorEntryIds": [
+      "u27:on",
+      "u27:in",
+      "u27:of"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Snow lay thick ___ the fields after the storm.",
+    "fullSentence": "Snow lay thick upon the fields after the storm.",
+    "translation": "暴風雪過後，田地上積了厚厚的雪。",
+    "clue": "覆蓋在表面之上",
+    "answerEntryId": "u27:upon",
+    "distractorEntryIds": [
+     "u27:under",
+     "u27:beside",
+     "u27:into"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:with",
+   "zh": "和…一起；用；帶有",
+   "pos": "phrase",
+   "example": "I walked to school with my best friend.",
+   "exampleZh": "我和朋友一起走路去上學。",
+   "spellingHint": "w-i-t-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "She cut the paper ___ sharp scissors.",
+    "fullSentence": "She cut the paper with sharp scissors.",
+    "translation": "她用鋒利的剪刀剪紙。",
+    "clue": "使用的工具",
+    "answerEntryId": "u27:with",
+    "distractorEntryIds": [
+     "u27:by",
+     "u27:for",
+     "u27:near"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The girl ___ long hair is my classmate.",
+     "fullSentence": "The girl with long hair is my classmate.",
+     "translation": "那個留長髮的女孩是我同學。",
+     "clue": "帶有某特徵",
+     "answerEntryId": "u27:with",
+     "distractorEntryIds": [
+      "u27:in",
+      "u27:of",
+      "u27:on"
+     ]
+    },
+    {
+     "sentence": "Would you like coffee ___ your cake?",
+     "fullSentence": "Would you like coffee with your cake?",
+     "translation": "你的蛋糕要配咖啡嗎？",
+     "clue": "伴隨的東西",
+     "answerEntryId": "u27:with",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:for",
+      "u27:of"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "He finished the repair work ___ his father's help.",
+     "fullSentence": "He finished the repair work with his father's help.",
+     "translation": "他在爸爸的協助下完成修理工作。",
+     "clue": "靠某人的協助完成",
+     "answerEntryId": "u27:with",
+     "distractorEntryIds": [
+      "u27:under",
+      "u27:by",
+      "u27:from"
+     ]
+    },
+    {
+     "sentence": "Be patient ___ little children.",
+     "fullSentence": "Be patient with little children.",
+     "translation": "對小孩子要有耐心。",
+     "clue": "對某人的態度",
+     "answerEntryId": "u27:with",
+     "distractorEntryIds": [
+      "u27:to",
+      "u27:for",
+      "u27:of"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The teacher walked into the room ___ a big smile.",
+    "fullSentence": "The teacher walked into the room with a big smile.",
+    "translation": "老師面帶大大的笑容走進教室。",
+    "clue": "伴隨的樣子",
+    "answerEntryId": "u27:with",
+    "distractorEntryIds": [
+     "u27:in",
+     "u27:on",
+     "u27:of"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:within",
+   "zh": "在…之內；不超過",
+   "pos": "phrase",
+   "example": "The pharmacy is within the supermarket.",
+   "exampleZh": "藥局在賣場之內。",
+   "spellingHint": "w-i-t-h-i-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "You must finish the test ___ thirty minutes.",
+    "fullSentence": "You must finish the test within thirty minutes.",
+    "translation": "你必須在三十分鐘內完成考試。",
+    "clue": "時間期限之內",
+    "answerEntryId": "u27:within",
+    "distractorEntryIds": [
+     "u27:during",
+     "u27:in",
+     "u27:for"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The hotel is ___ walking distance of the beach.",
+     "fullSentence": "The hotel is within walking distance of the beach.",
+     "translation": "飯店在海灘步行可到的距離內。",
+     "clue": "範圍之內",
+     "answerEntryId": "u27:within",
+     "distractorEntryIds": [
+      "u27:near",
+      "u27:beside",
+      "u27:beyond"
+     ]
+    },
+    {
+     "sentence": "Please keep the noise ___ reason at night.",
+     "fullSentence": "Please keep the noise within reason at night.",
+     "translation": "晚上請保持安靜，在合理範圍內。",
+     "clue": "不超過界限",
+     "answerEntryId": "u27:within",
+     "distractorEntryIds": [
+      "u27:beyond",
+      "u27:over",
+      "u27:above"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The answer lies ___ the first three pages.",
+     "fullSentence": "The answer lies within the first three pages.",
+     "translation": "答案就在前三頁之中。",
+     "clue": "在某範圍裡面",
+     "answerEntryId": "u27:within",
+     "distractorEntryIds": [
+      "u27:outside",
+      "u27:beyond",
+      "u27:over"
+     ]
+    },
+    {
+     "sentence": "The fire alarm rang again ___ a week.",
+     "fullSentence": "The fire alarm rang again within a week.",
+     "translation": "火災警報一星期內又響了。",
+     "clue": "期間不超過",
+     "answerEntryId": "u27:within",
+     "distractorEntryIds": [
+      "u27:after",
+      "u27:since",
+      "u27:from"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "All the answers you need are ___ this one book.",
+    "fullSentence": "All the answers you need are within this one book.",
+    "translation": "你需要的答案都在這一本書裡。",
+    "clue": "包含在某物之中",
+    "answerEntryId": "u27:within",
+    "distractorEntryIds": [
+     "u27:outside",
+     "u27:beside",
+     "u27:beyond"
+    ]
+   }
+  },
+  {
+   "entryId": "u27:without",
+   "zh": "沒有；不帶",
+   "pos": "phrase",
+   "example": "You cannot buy snacks without money.",
+   "exampleZh": "沒有錢就買不了零食。",
+   "spellingHint": "w-i-t-h-o-u-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "He went to school ___ his umbrella on the rainy day.",
+    "fullSentence": "He went to school without his umbrella on the rainy day.",
+    "translation": "下雨天他沒帶傘就去上學。",
+    "clue": "缺少某物",
+    "answerEntryId": "u27:without",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:in",
+     "u27:of"
+    ]
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Do not leave the room ___ asking the teacher.",
+     "fullSentence": "Do not leave the room without asking the teacher.",
+     "translation": "沒有問過老師不要離開教室。",
+     "clue": "未經許可",
+     "answerEntryId": "u27:without",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:for"
+     ]
+    },
+    {
+     "sentence": "The team lost the game ___ giving up.",
+     "fullSentence": "The team lost the game without giving up.",
+     "translation": "球隊輸了比賽但沒有放棄。",
+     "clue": "未做某動作",
+     "answerEntryId": "u27:without",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She read the room ___ turning on the light.",
+     "fullSentence": "She read the room without turning on the light.",
+     "translation": "她不開燈就看完了整個房間。",
+     "clue": "省略某動作",
+     "answerEntryId": "u27:without",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:of"
+     ]
+    },
+    {
+     "sentence": "We managed the heavy box ___ any help.",
+     "fullSentence": "We managed the heavy box without any help.",
+     "translation": "我們沒有任何幫忙也搬動了沉重的箱子。",
+     "clue": "缺少協助",
+     "answerEntryId": "u27:without",
+     "distractorEntryIds": [
+      "u27:with",
+      "u27:by",
+      "u27:for"
+     ]
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The recipe tastes just as good ___ the sugar.",
+    "fullSentence": "The recipe tastes just as good without the sugar.",
+    "translation": "這食譜不加糖也一樣好吃。",
+    "clue": "省略某材料",
+    "answerEntryId": "u27:without",
+    "distractorEntryIds": [
+     "u27:with",
+     "u27:in",
+     "u27:of"
+    ]
+   }
+  }
+ ]
+}

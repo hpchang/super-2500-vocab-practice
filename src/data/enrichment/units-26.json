@@ -1,0 +1,1038 @@
+{
+  "schemaVersion": 1,
+  "unit": "26",
+  "entries": [
+    {
+      "entryId": "u26:and",
+      "zh": "和；而且",
+      "pos": "phrase",
+      "example": "Mom bought some fruit and vegetables at the market.",
+      "exampleZh": "媽媽在市場買了一些水果和蔬菜。",
+      "spellingHint": "a-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Tom ___ Jerry are in the same class this year.",
+        "fullSentence": "Tom and Jerry are in the same class this year.",
+        "translation": "Tom 和 Jerry 今年同班。",
+        "clue": "兩個人一起，用這個字連接",
+        "answerEntryId": "u26:and",
+        "distractorEntryIds": [
+          "u26:or",
+          "u26:but",
+          "u26:because"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I have a red pen ___ two blue pens in my pencil box.",
+          "fullSentence": "I have a red pen and two blue pens in my pencil box.",
+          "translation": "我的鉛筆盒裡有一支紅筆和兩支藍筆。",
+          "clue": "兩樣東西都擁有",
+          "answerEntryId": "u26:and",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:than",
+            "u26:because"
+          ]
+        },
+        {
+          "sentence": "We need paper, glue, ___ scissors to make the card.",
+          "fullSentence": "We need paper, glue, and scissors to make the card.",
+          "translation": "我們需要紙、膠水和剪刀來做卡片。",
+          "clue": "三樣材料全都要用",
+          "answerEntryId": "u26:and",
+          "distractorEntryIds": [
+            "u26:though",
+            "u26:but",
+            "u26:because"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Dad washed the car, ___ Mom watered the flowers in the garden.",
+          "fullSentence": "Dad washed the car, and Mom watered the flowers in the garden.",
+          "translation": "爸爸洗了車，而媽媽澆了花園裡的花。",
+          "clue": "兩件事並列，沒有對比",
+          "answerEntryId": "u26:and",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:but",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "The moon is bright, ___ the stars are shining in the sky.",
+          "fullSentence": "The moon is bright, and the stars are shining in the sky.",
+          "translation": "月亮很亮，星星也在天空中閃耀。",
+          "clue": "兩個景象同時存在",
+          "answerEntryId": "u26:and",
+          "distractorEntryIds": [
+            "u26:but",
+            "u26:because",
+            "u26:if"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The apartment has two bedrooms, a kitchen, ___ a big balcony.",
+        "fullSentence": "The apartment has two bedrooms, a kitchen, and a big balcony.",
+        "translation": "這間公寓有兩間臥室、一間廚房和一個大陽台。",
+        "clue": "房內設備全部列出",
+        "answerEntryId": "u26:and",
+        "distractorEntryIds": [
+          "u26:or",
+          "u26:but",
+          "u26:though"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:as",
+      "zh": "當…時；如同",
+      "pos": "phrase",
+      "example": "As I was walking home, I saw a little cat.",
+      "exampleZh": "我走回家的時候，看到一隻小貓。",
+      "spellingHint": "a-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ I was cooking dinner, the phone rang.",
+        "fullSentence": "as I was cooking dinner, the phone rang.",
+        "translation": "我在做晚飯的時候，電話響了。",
+        "clue": "兩件事同時發生",
+        "answerEntryId": "u26:as",
+        "distractorEntryIds": [
+          "u26:or",
+          "u26:if",
+          "u26:though"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ Mom was cutting vegetables, the doorbell rang.",
+          "fullSentence": "as Mom was cutting vegetables, the doorbell rang.",
+          "translation": "媽媽在切菜的時候，門鈴響了。",
+          "clue": "兩個動作同時進行",
+          "answerEntryId": "u26:as",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:though",
+            "u26:or"
+          ]
+        },
+        {
+          "sentence": "___ we were walking in the park, we met our old teacher.",
+          "fullSentence": "as we were walking in the park, we met our old teacher.",
+          "translation": "我們在公園散步的時候，遇到了以前的老師。",
+          "clue": "散步期間發生的事",
+          "answerEntryId": "u26:as",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:if",
+            "u26:though"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ the movie started, everyone stopped talking.",
+          "fullSentence": "as the movie started, everyone stopped talking.",
+          "translation": "電影開始時，大家都停止說話。",
+          "clue": "動作發生的時間點",
+          "answerEntryId": "u26:as",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:though",
+            "u26:or"
+          ]
+        },
+        {
+          "sentence": "___ Dad was reading the newspaper, the cat jumped onto his lap.",
+          "fullSentence": "as Dad was reading the newspaper, the cat jumped onto his lap.",
+          "translation": "爸爸在看報紙的時候，貓跳到他的腿上。",
+          "clue": "看報紙期間發生的事",
+          "answerEntryId": "u26:as",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:or",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ the bus was leaving, Ben ran to the stop and waved his hand.",
+        "fullSentence": "as the bus was leaving, Ben ran to the stop and waved his hand.",
+        "translation": "公車正要開走的時候，Ben 跑到站牌邊揮手。",
+        "clue": "兩件事正好發生在同一刻",
+        "answerEntryId": "u26:as",
+        "distractorEntryIds": [
+          "u26:if",
+          "u26:than",
+          "u26:or"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:because",
+      "zh": "因為",
+      "pos": "phrase",
+      "example": "I stayed home because I was sick.",
+      "exampleZh": "因為我生病了，所以我待在家裡。",
+      "spellingHint": "b-e-c-a-u-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Amy passed the exam easily ___ she studied hard every day.",
+        "fullSentence": "Amy passed the exam easily because she studied hard every day.",
+        "translation": "Amy 很輕鬆地通過考試，因為她每天認真讀書。",
+        "clue": "認真讀書是通過考試的原因",
+        "answerEntryId": "u26:because",
+        "distractorEntryIds": [
+          "u26:but",
+          "u26:or",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I ate two bowls of rice ___ I was very hungry.",
+          "fullSentence": "I ate two bowls of rice because I was very hungry.",
+          "translation": "我吃了兩碗飯，因為我非常餓。",
+          "clue": "肚子餓是吃兩碗飯的原因",
+          "answerEntryId": "u26:because",
+          "distractorEntryIds": [
+            "u26:but",
+            "u26:if",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "The kids are excited ___ the school trip is tomorrow.",
+          "fullSentence": "The kids are excited because the school trip is tomorrow.",
+          "translation": "孩子們很興奮，因為學校旅行就在明天。",
+          "clue": "明天要去旅行，所以很興奮",
+          "answerEntryId": "u26:because",
+          "distractorEntryIds": [
+            "u26:but",
+            "u26:or",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "She didn't come to school ___ she was sick in bed.",
+          "fullSentence": "She didn't come to school because she was sick in bed.",
+          "translation": "她沒有來上學，因為她生病躺在床上。",
+          "clue": "生病是沒來上學的原因",
+          "answerEntryId": "u26:because",
+          "distractorEntryIds": [
+            "u26:but",
+            "u26:however",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "The ground is wet ___ it rained last night.",
+          "fullSentence": "The ground is wet because it rained last night.",
+          "translation": "地面是濕的，因為昨天晚上下過雨。",
+          "clue": "下雨解釋了地面為什麼是濕的",
+          "answerEntryId": "u26:because",
+          "distractorEntryIds": [
+            "u26:but",
+            "u26:though",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I couldn't sleep well last night ___ the neighbor's dog was barking.",
+        "fullSentence": "I couldn't sleep well last night because the neighbor's dog was barking.",
+        "translation": "我昨晚睡不好，因為鄰居的狗一直叫。",
+        "clue": "狗叫聲讓人睡不著",
+        "answerEntryId": "u26:because",
+        "distractorEntryIds": [
+          "u26:though",
+          "u26:but",
+          "u26:or"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:but",
+      "zh": "但是",
+      "pos": "phrase",
+      "example": "The test was hard, but I passed it.",
+      "exampleZh": "考試很難，但是我通過了。",
+      "spellingHint": "b-u-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My grandfather is eighty, ___ he still works in his garden every day.",
+        "fullSentence": "My grandfather is eighty, but he still works in his garden every day.",
+        "translation": "我的祖父八十歲了，但他仍然每天在花園裡工作。",
+        "clue": "年紀大卻還在工作，語氣轉折",
+        "answerEntryId": "u26:but",
+        "distractorEntryIds": [
+          "u26:or",
+          "u26:because",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The bag looks small, ___ it can hold a lot of books.",
+          "fullSentence": "The bag looks small, but it can hold a lot of books.",
+          "translation": "這個袋子看起來很小，卻能裝很多書。",
+          "clue": "外觀小和能裝很多形成對比",
+          "answerEntryId": "u26:but",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:because",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "Everyone in my family likes coffee, ___ I don't.",
+          "fullSentence": "Everyone in my family likes coffee, but I don't.",
+          "translation": "我家每個人都喜歡咖啡，但我不要。",
+          "clue": "後面半句意思相反",
+          "answerEntryId": "u26:but",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:because",
+            "u26:or"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The questions were easy, ___ nobody got full marks.",
+          "fullSentence": "The questions were easy, but nobody got full marks.",
+          "translation": "題目很簡單，但沒有人得到滿分。",
+          "clue": "簡單卻沒人滿分，意思轉折",
+          "answerEntryId": "u26:but",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:or",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "I did my best, ___ I still failed the test.",
+          "fullSentence": "I did my best, but I still failed the test.",
+          "translation": "我盡了全力，但還是考砸了。",
+          "clue": "盡力了結果卻不如預期",
+          "answerEntryId": "u26:but",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:or",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "I'd love to go swimming with you, ___ I have to do my homework first.",
+        "fullSentence": "I'd love to go swimming with you, but I have to do my homework first.",
+        "translation": "我很想跟你一起去游泳，但我得先寫功課。",
+        "clue": "想去卻不能去，語氣轉折",
+        "answerEntryId": "u26:but",
+        "distractorEntryIds": [
+          "u26:and",
+          "u26:or",
+          "u26:because"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:however",
+      "zh": "然而；不過",
+      "pos": "phrase",
+      "example": "The plan sounds good. However, it costs too much money.",
+      "exampleZh": "這個計畫聽起來不錯。然而，它要花太多錢。",
+      "spellingHint": "h-o-w-e-v-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The shirt looks nice. ___, it is too small for me.",
+        "fullSentence": "The shirt looks nice. however, it is too small for me.",
+        "translation": "這件襯衫看起來不錯。然而，它對我來說太小了。",
+        "clue": "第二句轉折，放在句首",
+        "answerEntryId": "u26:however",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ben studied hard for the test. ___, he did not pass it.",
+          "fullSentence": "Ben studied hard for the test. however, he did not pass it.",
+          "translation": "Ben 為考試認真讀書。然而，他沒有通過。",
+          "clue": "努力了結果卻相反",
+          "answerEntryId": "u26:however",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "I like city life. ___, it is sometimes too noisy at night.",
+          "fullSentence": "I like city life. however, it is sometimes too noisy at night.",
+          "translation": "我喜歡城市生活。不過，晚上有時太吵了。",
+          "clue": "先說優點，再轉到缺點",
+          "answerEntryId": "u26:however",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:if",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Everyone in our class passed the test. ___, our teacher still gave us more homework.",
+          "fullSentence": "Everyone in our class passed the test. however, our teacher still gave us more homework.",
+          "translation": "我們全班都通過了考試。然而，老師還是給了我們更多功課。",
+          "clue": "通過了卻還有更多功課",
+          "answerEntryId": "u26:however",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:or",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "The apartment is small. ___, it is clean and comfortable.",
+          "fullSentence": "The apartment is small. however, it is clean and comfortable.",
+          "translation": "這間公寓很小。不過，它乾淨又舒服。",
+          "clue": "小是缺點，乾淨舒服是優點",
+          "answerEntryId": "u26:however",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "She was very busy last week. ___, she still came to my birthday party.",
+        "fullSentence": "She was very busy last week. however, she still came to my birthday party.",
+        "translation": "她上週非常忙。然而，她還是來參加了我的生日聚會。",
+        "clue": "很忙卻還是來了",
+        "answerEntryId": "u26:however",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:if"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:if",
+      "zh": "如果；是否",
+      "pos": "phrase",
+      "example": "If it rains tomorrow, we will stay home.",
+      "exampleZh": "如果明天下雨，我們就會待在家裡。",
+      "spellingHint": "i-f",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ I were you, I would say sorry to her first.",
+        "fullSentence": "if I were you, I would say sorry to her first.",
+        "translation": "如果我是你，我會先跟她說抱歉。",
+        "clue": "假設身分，後面用 would",
+        "answerEntryId": "u26:if",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ I had a million dollars, I would travel around the world.",
+          "fullSentence": "if I had a million dollars, I would travel around the world.",
+          "translation": "如果我有一百萬，我會環遊世界。",
+          "clue": "假設語氣，had 配 would",
+          "answerEntryId": "u26:if",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:though",
+            "u26:or"
+          ]
+        },
+        {
+          "sentence": "___ it snows tomorrow, school will be closed.",
+          "fullSentence": "if it snows tomorrow, school will be closed.",
+          "translation": "如果明天下雪，學校就會停課。",
+          "clue": "假設的條件，後面接 will",
+          "answerEntryId": "u26:if",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:though",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ I won the lottery, I would buy my parents a new house.",
+          "fullSentence": "if I won the lottery, I would buy my parents a new house.",
+          "translation": "如果我中了彩票，我會幫爸媽買一棟新房子。",
+          "clue": "假設還沒發生的事，用 would",
+          "answerEntryId": "u26:if",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:though",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "I wonder ___ it will rain this weekend.",
+          "fullSentence": "I wonder if it will rain this weekend.",
+          "translation": "我想知道這個週末會不會下雨。",
+          "clue": "放在 wonder 後面，表示「是否」",
+          "answerEntryId": "u26:if",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:though",
+            "u26:or"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ you had taken my advice, you wouldn't be in trouble now.",
+        "fullSentence": "if you had taken my advice, you wouldn't be in trouble now.",
+        "translation": "如果你當時聽了我的建議，現在就不會有麻煩了。",
+        "clue": "與過去事實相反的假設",
+        "answerEntryId": "u26:if",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:or"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:neither...nor",
+      "zh": "既不…也不（兩者都不）",
+      "pos": "phrase",
+      "example": "Neither my dad nor my mom drinks coffee.",
+      "exampleZh": "我爸爸和媽媽都不喝咖啡。",
+      "spellingHint": "n-e-i-t-h-e-r n-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ Ken nor Amy finished lunch, so they are both hungry now.",
+        "fullSentence": "neither...nor Ken nor Amy finished lunch, so they are both hungry now.",
+        "translation": "Ken 和 Amy 都沒有吃完午餐，所以他們現在都餓了。",
+        "clue": "兩個人都沒有，句子裡有 nor",
+        "answerEntryId": "u26:neither...nor",
+        "distractorEntryIds": [
+          "u26:and",
+          "u26:or",
+          "u26:but"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "___ my brother nor my sister likes horror movies, so we never watch them.",
+          "fullSentence": "neither...nor my brother nor my sister likes horror movies, so we never watch them.",
+          "translation": "我哥哥和姊姊都不喜歡恐怖片，所以我們從不看。",
+          "clue": "兩人都不喜歡，後面接 nor",
+          "answerEntryId": "u26:neither...nor",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:if",
+            "u26:because"
+          ]
+        },
+        {
+          "sentence": "___ the blue shirt nor the white one fits me, so I didn't buy either.",
+          "fullSentence": "neither...nor the blue shirt nor the white one fits me, so I didn't buy either.",
+          "translation": "藍襯衫和白色那件都不適合我，所以我兩件都沒買。",
+          "clue": "兩件都不合，句子裡有 nor",
+          "answerEntryId": "u26:neither...nor",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:or",
+            "u26:though"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "___ Tom nor his parents were at home when I called.",
+          "fullSentence": "neither...nor Tom nor his parents were at home when I called.",
+          "translation": "我打電話的時候，Tom 和他的爸媽都不在家。",
+          "clue": "兩方都不在家",
+          "answerEntryId": "u26:neither...nor",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:but",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "___ the bus nor the train goes to that small village, so we took a taxi.",
+          "fullSentence": "neither...nor the bus nor the train goes to that small village, so we took a taxi.",
+          "translation": "公車和火車都不開到那個小村落，所以我們搭了計程車。",
+          "clue": "兩種交通工具都不到",
+          "answerEntryId": "u26:neither...nor",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:or",
+            "u26:because"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ the red pen nor the black one writes well, so I need a new pen.",
+        "fullSentence": "neither...nor the red pen nor the black one writes well, so I need a new pen.",
+        "translation": "紅筆和黑筆寫起來都不順，所以我需要一支新筆。",
+        "clue": "兩支筆都不好用；注意別和 both 混淆",
+        "answerEntryId": "u26:neither...nor",
+        "distractorEntryIds": [
+          "u26:or",
+          "u15:both",
+          "u26:if"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:or",
+      "zh": "或；還是",
+      "pos": "phrase",
+      "example": "Do you want to walk or take the bus?",
+      "exampleZh": "你想要走路，還是搭公車？",
+      "spellingHint": "o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Is your English class in the morning ___ in the afternoon?",
+        "fullSentence": "Is your English class in the morning or in the afternoon?",
+        "translation": "你的英文課是在上午還是下午？",
+        "clue": "二選一的疑問句",
+        "answerEntryId": "u26:or",
+        "distractorEntryIds": [
+          "u26:and",
+          "u26:but",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Which season do you like more, summer ___ winter?",
+          "fullSentence": "Which season do you like more, summer or winter?",
+          "translation": "夏天和冬天，你更喜歡哪一個季節？",
+          "clue": "兩個季節選一個",
+          "answerEntryId": "u26:or",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:but",
+            "u26:if"
+          ]
+        },
+        {
+          "sentence": "Hurry up, ___ we will miss the train!",
+          "fullSentence": "Hurry up, or we will miss the train!",
+          "translation": "快一點，不然我們會趕不上火車！",
+          "clue": "命令句後面表示「不然」",
+          "answerEntryId": "u26:or",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:though",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Is your birthday in April ___ in May?",
+          "fullSentence": "Is your birthday in April or in May?",
+          "translation": "你的生日是在四月還是五月？",
+          "clue": "兩個月份選一個",
+          "answerEntryId": "u26:or",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:because",
+            "u26:though"
+          ]
+        },
+        {
+          "sentence": "Which color do you want for your new bike, red ___ blue?",
+          "fullSentence": "Which color do you want for your new bike, red or blue?",
+          "translation": "你的新腳踏車想要紅色還是藍色？",
+          "clue": "which 問哪一個，二選一",
+          "answerEntryId": "u26:or",
+          "distractorEntryIds": [
+            "u26:and",
+            "u26:but",
+            "u26:than"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Tell me now: do you want juice ___ milk? There is no third choice.",
+        "fullSentence": "Tell me now: do you want juice or milk? There is no third choice.",
+        "translation": "現在告訴我：你要果汁還是牛奶？沒有第三個選擇。",
+        "clue": "明說只有兩個選項",
+        "answerEntryId": "u26:or",
+        "distractorEntryIds": [
+          "u26:and",
+          "u26:because",
+          "u26:than"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:since",
+      "zh": "自從；既然",
+      "pos": "phrase",
+      "example": "I have lived in Taipei since 2015.",
+      "exampleZh": "我從 2015 年起就住在台北。",
+      "spellingHint": "s-i-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Ken has played the piano ___ he was five years old.",
+        "fullSentence": "Ken has played the piano since he was five years old.",
+        "translation": "Ken 從五歲起就一直在彈鋼琴。",
+        "clue": "現在完成式 + 過去的時間點",
+        "answerEntryId": "u26:since",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We have been good friends ___ 2010.",
+          "fullSentence": "We have been good friends since 2010.",
+          "translation": "我們從 2010 年起就是好朋友了。",
+          "clue": "年份 + 現在完成式",
+          "answerEntryId": "u26:since",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:but",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "She has worked at the bank ___ she left college.",
+          "fullSentence": "She has worked at the bank since she left college.",
+          "translation": "自從她大學畢業後，就在這家銀行工作。",
+          "clue": "從過去的起點持續到現在",
+          "answerEntryId": "u26:since",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:or",
+            "u26:however"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "It has been raining ___ early this morning.",
+          "fullSentence": "It has been raining since early this morning.",
+          "translation": "從今天一大早開始，雨就一直下著。",
+          "clue": "從過去某時持續到現在",
+          "answerEntryId": "u26:since",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:but",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "I have known Uncle Wang ___ I was a little boy.",
+          "fullSentence": "I have known Uncle Wang since I was a little boy.",
+          "translation": "從我還是小男孩的時候，我就認識王叔叔了。",
+          "clue": "認識的起點在過去",
+          "answerEntryId": "u26:since",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:or"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My family has lived in this quiet town ___ I was born.",
+        "fullSentence": "My family has lived in this quiet town since I was born.",
+        "translation": "從我出生起，我家就住在這個安靜的小鎮。",
+        "clue": "出生是起點，一直住到現在",
+        "answerEntryId": "u26:since",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:though",
+          "u26:or"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:than",
+      "zh": "比（用於比較）",
+      "pos": "phrase",
+      "example": "My sister is taller than me.",
+      "exampleZh": "我姊姊比我高。",
+      "spellingHint": "t-h-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Winter in Canada is much colder ___ winter in Taiwan.",
+        "fullSentence": "Winter in Canada is much colder than winter in Taiwan.",
+        "translation": "加拿大的冬天比台灣的冬天冷得多。",
+        "clue": "colder 是比較級，後面接比較對象",
+        "answerEntryId": "u26:than",
+        "distractorEntryIds": [
+          "u26:as",
+          "u26:because",
+          "u26:but"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There are more students in our class ___ in their class.",
+          "fullSentence": "There are more students in our class than in their class.",
+          "translation": "我們班的學生比他們班多。",
+          "clue": "more 比較級，後面接比較對象",
+          "answerEntryId": "u26:than",
+          "distractorEntryIds": [
+            "u26:as",
+            "u26:but",
+            "u26:if"
+          ]
+        },
+        {
+          "sentence": "I can swim faster ___ my older brother.",
+          "fullSentence": "I can swim faster than my older brother.",
+          "translation": "我游得比我哥哥快。",
+          "clue": "faster 比較級 + 比較對象",
+          "answerEntryId": "u26:than",
+          "distractorEntryIds": [
+            "u26:as",
+            "u26:or",
+            "u26:because"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Nothing is more important to me ___ my family.",
+          "fullSentence": "Nothing is more important to me than my family.",
+          "translation": "對我來說，沒有什麼比家人更重要。",
+          "clue": "more important 比較級",
+          "answerEntryId": "u26:than",
+          "distractorEntryIds": [
+            "u26:as",
+            "u26:though",
+            "u26:or"
+          ]
+        },
+        {
+          "sentence": "This street is wider ___ the one next to the park.",
+          "fullSentence": "This street is wider than the one next to the park.",
+          "translation": "這條街比公園旁邊那條寬。",
+          "clue": "wider 比較級，比較兩條街",
+          "answerEntryId": "u26:than",
+          "distractorEntryIds": [
+            "u26:as",
+            "u26:because",
+            "u26:if"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "It rained more heavily today ___ it did yesterday.",
+        "fullSentence": "It rained more heavily today than it did yesterday.",
+        "translation": "今天雨下得比昨天大。",
+        "clue": "more heavily 比較級，和昨天比",
+        "answerEntryId": "u26:than",
+        "distractorEntryIds": [
+          "u26:as",
+          "u26:but",
+          "u26:though"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:that",
+      "zh": "那個；（引導子句用）",
+      "pos": "phrase",
+      "example": "I think that math is fun.",
+      "exampleZh": "我覺得數學很有趣。",
+      "spellingHint": "t-h-a-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She said ___ she was too tired to go out.",
+        "fullSentence": "She said that she was too tired to go out.",
+        "translation": "她說她太累了，不想出門。",
+        "clue": "引導所說的內容",
+        "answerEntryId": "u26:that",
+        "distractorEntryIds": [
+          "u26:if",
+          "u26:or",
+          "u26:though"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I hope ___ you can come to my birthday party next Friday.",
+          "fullSentence": "I hope that you can come to my birthday party next Friday.",
+          "translation": "我希望你下週五能來參加我的生日聚會。",
+          "clue": "引導希望的事情",
+          "answerEntryId": "u26:that",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:because",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "The teacher told us ___ the test would be next Monday.",
+          "fullSentence": "The teacher told us that the test would be next Monday.",
+          "translation": "老師告訴我們，考試將在下週一舉行。",
+          "clue": "引導告訴的內容",
+          "answerEntryId": "u26:that",
+          "distractorEntryIds": [
+            "u26:or",
+            "u26:but",
+            "u26:if"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I'm glad ___ your team won the game yesterday.",
+          "fullSentence": "I'm glad that your team won the game yesterday.",
+          "translation": "我很高興你的球隊昨天贏了比賽。",
+          "clue": "引導高興的原因內容",
+          "answerEntryId": "u26:that",
+          "distractorEntryIds": [
+            "u26:if",
+            "u26:or",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "He promised ___ he would help me clean the room.",
+          "fullSentence": "He promised that he would help me clean the room.",
+          "translation": "他答應會幫我打掃房間。",
+          "clue": "引導答應的內容",
+          "answerEntryId": "u26:that",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:though"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My dream is ___ I can be a pilot in the future.",
+        "fullSentence": "My dream is that I can be a pilot in the future.",
+        "translation": "我的夢想是將來能當一名飛行員。",
+        "clue": "引導夢想的內容",
+        "answerEntryId": "u26:that",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:if",
+          "u26:though"
+        ]
+      }
+    },
+    {
+      "entryId": "u26:though",
+      "zh": "雖然；不過",
+      "pos": "phrase",
+      "example": "Though it was cold, we still went hiking.",
+      "exampleZh": "雖然天氣很冷，我們還是去健行了。",
+      "spellingHint": "t-h-o-u-g-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "___ he is only six, he can swim across the pool.",
+        "fullSentence": "though he is only six, he can swim across the pool.",
+        "translation": "雖然他只有六歲，他卻能游過整個泳池。",
+        "clue": "年紀小卻做得到，讓步語氣",
+        "answerEntryId": "u26:though",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:if",
+          "u26:than"
+        ]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "It was raining hard, ___ we still had the picnic.",
+          "fullSentence": "It was raining hard, though we still had the picnic.",
+          "translation": "雨下得很大，不過我們還是去野餐了。",
+          "clue": "下雨卻照常野餐",
+          "answerEntryId": "u26:though",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:or",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "___ she was tired, she kept studying until midnight.",
+          "fullSentence": "though she was tired, she kept studying until midnight.",
+          "translation": "雖然她很累，她還是讀書讀到半夜。",
+          "clue": "累了卻繼續讀，讓步語氣",
+          "answerEntryId": "u26:though",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:or"
+          ]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "I know the answer. It is too hard to explain, ___.",
+          "fullSentence": "I know the answer. It is too hard to explain, though.",
+          "translation": "我知道答案。不過它太難解釋了。",
+          "clue": "放在句尾，表示「不過」",
+          "answerEntryId": "u26:though",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:or",
+            "u26:than"
+          ]
+        },
+        {
+          "sentence": "___ the team lost the game, the players smiled and waved to their fans.",
+          "fullSentence": "though the team lost the game, the players smiled and waved to their fans.",
+          "translation": "雖然球隊輸了比賽，球員們還是微笑著向球迷揮手。",
+          "clue": "輸球卻微笑，讓步語氣",
+          "answerEntryId": "u26:though",
+          "distractorEntryIds": [
+            "u26:because",
+            "u26:if",
+            "u26:or"
+          ]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "___ my grandma is ninety, she still remembers every neighbor's name.",
+        "fullSentence": "though my grandma is ninety, she still remembers every neighbor's name.",
+        "translation": "雖然我奶奶九十歲了，她仍然記得每位鄰居的名字。",
+        "clue": "年紀大卻記性好",
+        "answerEntryId": "u26:though",
+        "distractorEntryIds": [
+          "u26:because",
+          "u26:if",
+          "u26:than"
+        ]
+      }
+    }
+  ]
+}
