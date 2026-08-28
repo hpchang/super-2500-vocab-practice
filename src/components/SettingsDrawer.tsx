@@ -78,6 +78,15 @@ export function SettingsDrawer() {
               )}
 
               <div className="settings-row">
+                <label htmlFor="pref-auto">答對自動下一題</label>
+                <input
+                  id="pref-auto"
+                  type="checkbox"
+                  checked={prefs.autoAdvance}
+                  onChange={(e) => updatePrefs({ autoAdvance: e.target.checked })}
+                />
+              </div>
+              <div className="settings-row">
                 <label htmlFor="pref-motion">減少動態效果</label>
                 <input
                   id="pref-motion"

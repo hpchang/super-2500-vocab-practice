@@ -110,6 +110,14 @@ describe('PracticeScreen cloze (待辦 #2 regression)', () => {
     expect(promptAfter).toBe(promptBefore);
     expect(optionsAfter).toEqual(optionsBefore);
 
+    // Clicking the feedback area advances (click-to-continue, 下一題 UX):
+    // the feedback clears, moving to the next question or the results page
+    // (either is correct for a short session).
+    await act(async () => {
+      (document.querySelector('.feedback') as HTMLElement).click();
+    });
+    expect(document.querySelector('.feedback')).toBeNull();
+
     await act(async () => {
       root.unmount();
     });

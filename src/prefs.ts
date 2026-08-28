@@ -17,6 +17,8 @@ export interface Prefs {
   reducedMotion: boolean;
   /** 'system' follows the OS; 'light' / 'dark' force a theme. */
   theme: 'system' | 'light' | 'dark';
+  /** Advance to the next question automatically after a correct answer. */
+  autoAdvance: boolean;
 }
 
 const DEFAULT_PREFS: Prefs = {
@@ -24,6 +26,7 @@ const DEFAULT_PREFS: Prefs = {
   speechAutoplay: true,
   reducedMotion: true,
   theme: 'system',
+  autoAdvance: false,
 };
 
 let state: Prefs = load();
@@ -43,6 +46,8 @@ function load(): Prefs {
       theme: ['system', 'light', 'dark'].includes(parsed.theme ?? '')
         ? (parsed.theme as Prefs['theme'])
         : 'system',
+      autoAdvance:
+        typeof parsed.autoAdvance === 'boolean' ? parsed.autoAdvance : false,
     };
   } catch {
     return DEFAULT_PREFS;

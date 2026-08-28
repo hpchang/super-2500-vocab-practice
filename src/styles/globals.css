@@ -696,6 +696,15 @@ h2.section-title {
   color: var(--text);
 }
 
+/* Click-to-advance affordance (下一題 UX). */
+.feedback-clickable {
+  cursor: pointer;
+}
+
+.feedback-clickable:hover {
+  filter: brightness(0.98);
+}
+
 .feedback .translation {
   margin-top: 4px;
   color: var(--text-muted);

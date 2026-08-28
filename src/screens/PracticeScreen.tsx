@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { getPrefs } from '@/prefs';
 import { loadSession, saveResult } from '@/session';
 import type { SessionConfig } from '@/session';
 import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
@@ -75,6 +76,12 @@ export function PracticeScreen({
     { entryId: string; type: QuestionType; correct: boolean }[]
   >([]);
   const feedbackRef = useRef<HTMLDivElement | null>(null);
+  // Auto-advance bookkeeping (see applyResult).
+  const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hoveringFeedback = useRef(false);
+  // Set when auto-advance was deferred because the student was reading
+  // (hovering); advancing happens when they move the pointer away.
+  const advanceOnLeave = useRef(false);
 
   // Questions are built ONCE at session start, then rebuilt only in next()
   // with the latest progress. Building from render-time progress here (as a
@@ -89,13 +96,29 @@ export function PracticeScreen({
 
   const q = questions[index];
 
-  // Keyboard shortcuts 1-4 for choice questions.
+  // Keyboard: 1-4 answers choice questions; Enter/Space advances during
+  // feedback so the whole session is doable without leaving the keys.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (!q || !q.options || feedback.state !== 'none') return;
-      const n = parseInt(e.key, 10);
-      if (n >= 1 && n <= q.options.length) {
-        submitChoice(q.options[n - 1].entryId);
+      if (!q) return;
+      if (feedback.state === 'none') {
+        if (!q.options) return;
+        const n = parseInt(e.key, 10);
+        if (n >= 1 && n <= q.options.length) {
+          submitChoice(q.options[n - 1].entryId);
+        }
+        return;
+      }
+      // Feedback phase: Enter/Space → next question. Ignore keys pressed
+      // while a button/input inside the feedback has focus so Space still
+      // activates the focused control (e.g. speaker buttons).
+      const tag = (e.target as HTMLElement | null)?.tagName;
+      if (tag === 'BUTTON' || tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') {
+        return;
+      }
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        next();
       }
     };
     window.addEventListener('keydown', onKey);
@@ -145,6 +168,9 @@ export function PracticeScreen({
     const r = gradeFlashcard(rating);
     setChosen(rating);
     applyResult(r.correct, q.type, rating);
+    // 單字卡選完即走：釋義已在卡上、無新資訊需要停留，直接進下一題
+    // （最後一題仍由 next() 導向結果頁）。
+    next();
   };
 
   const applyResult = (
@@ -182,9 +208,27 @@ export function PracticeScreen({
     if (type === 'spelling' || type === 'cloze') {
       speak(wordToSpeak(q));
     }
+
+    // Auto-advance (P2 UX): a correct answer moves on by itself after a
+    // short beat; wrong answers stay so the student can read the feedback.
+    // opt-in via settings; hover over feedback pauses the timer; the last
+    // question still waits for an explicit click (results are a milestone).
+    if (correct && getPrefs().autoAdvance && index + 1 < questions.length) {
+      const timer = setTimeout(() => {
+        if (!hoveringFeedback.current) next();
+        else advanceOnLeave.current = true;
+      }, 1200);
+      autoAdvanceTimer.current = timer;
+    }
   };
 
   const next = () => {
+    if (autoAdvanceTimer.current) {
+      clearTimeout(autoAdvanceTimer.current);
+      autoAdvanceTimer.current = null;
+    }
+    advanceOnLeave.current = false;
+    hoveringFeedback.current = false;
     // Rebuild with the LATEST progress (getSnapshot, not render-time state)
     // so the next question's adaptive difficulty and cloze variant reflect
     // the answer just recorded. The presented question stays locked until
@@ -365,14 +409,30 @@ export function PracticeScreen({
             </>
           )}
 
-          {/* Feedback — announced to assistive tech; not just color (P0-10/P0-11). */}
+          {/* Feedback — announced to assistive tech; not just color (P0-10/P0-11).
+              Clicking anywhere in it advances (mobile-friendly), except on
+              the speaker buttons inside. Hovering pauses auto-advance. */}
           {feedback.state !== 'none' && (
             <div
               ref={feedbackRef}
-              className={`feedback ${feedback.state}`}
+              className={`feedback ${feedback.state} feedback-clickable`}
               role="status"
               aria-live="polite"
               tabIndex={-1}
+              onClick={(e) => {
+                if ((e.target as HTMLElement).closest('button')) return;
+                next();
+              }}
+              onMouseEnter={() => {
+                hoveringFeedback.current = true;
+              }}
+              onMouseLeave={() => {
+                hoveringFeedback.current = false;
+                if (advanceOnLeave.current) {
+                  advanceOnLeave.current = false;
+                  next();
+                }
+              }}
             >
               <div>
                 {feedback.state === 'correct' ? '✓ 答對了！' : '✗ 答錯了'}
@@ -403,7 +463,9 @@ export function PracticeScreen({
 
           {feedback.state !== 'none' && (
             <button className="btn action-btn" onClick={next}>
-              {index + 1 >= questions.length ? '查看結果' : '下一題'}
+              {index + 1 >= questions.length
+                ? '查看結果'
+                : '下一題（Enter）'}
             </button>
           )}
         </>
