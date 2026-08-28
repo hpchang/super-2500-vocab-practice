@@ -21,7 +21,7 @@ import { act } from 'react';
 import { PracticeScreen } from '../src/screens/PracticeScreen.js';
 import { saveSession } from '../src/session.js';
 import { resetProgress } from '../src/progressStore.js';
-import { getUnit } from '../src/lib/data.js';
+import { getUnit, getEnrichedEntry } from '../src/lib/data.js';
 import { generateClozeForEntry } from '../src/lib/clozeGenerator.js';
 
 /** Minimal test driver that renders PracticeScreen and exposes the DOM. */
@@ -117,6 +117,44 @@ describe('PracticeScreen cloze (待辦 #2 regression)', () => {
       (document.querySelector('.feedback') as HTMLElement).click();
     });
     expect(document.querySelector('.feedback')).toBeNull();
+
+    await act(async () => {
+      root.unmount();
+    });
+  });
+
+  it('flashcard: the Chinese meaning appears after self-rating (回歸: 選完即走吞掉釋義)', async () => {
+    const unit = getUnit('11')!;
+    const entry = unit.entries.find((e) => {
+      const en = getEnrichedEntry(e.entryId);
+      return en?.zh && en.example; // needs enrichment for feedback content
+    })!;
+    expect(entry).toBeDefined();
+    const zh = getEnrichedEntry(entry.entryId)!.zh;
+
+    saveSession({
+      unit: '11',
+      entryIds: [entry.entryId],
+      type: 'flashcard',
+      batchSize: 1,
+    });
+
+    const { root } = await renderPractice();
+
+    // Rating buttons are visible; no feedback yet.
+    expect(document.querySelector('.flashcard-actions')).toBeTruthy();
+    expect(document.querySelector('.feedback')).toBeNull();
+
+    // Self-rate 「記得」 — feedback must now show the Chinese meaning.
+    await act(async () => {
+      (
+        document.querySelector('.flashcard-actions .remembered') as HTMLButtonElement
+      ).click();
+    });
+
+    const feedback = document.querySelector('.feedback');
+    expect(feedback).not.toBeNull();
+    expect(feedback!.textContent).toContain(zh);
 
     await act(async () => {
       root.unmount();
