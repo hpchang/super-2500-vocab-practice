@@ -51,7 +51,8 @@ npx tsx scripts/import-workbook.ts -- --units=N
 ```bash
 npx tsx scripts/validate-data.ts   # 0 errors
 npm test                            # 全過
-npm run build                       # 成功
+npm run check                       # build + Playwright smoke（唯一執行
+                                    # dist/ 產物的驗證，一律要跑）
 ```
 
 新增 unit 後 `src/lib/data.ts` 與 validator **不需要改**——registry 用
@@ -61,4 +62,4 @@ npm run build                       # 成功
 
 - CLAUDE.md 更新「目前完成範圍」（Unit 數、字數）。
 - commit 切分：字表匯入與 enrichment 分開（`feat(data): ...` / `feat(enrichment): ...`）。
-- push 即自動部署（CI 會跑 test + tsc + validate）。
+- push 即自動部署（CI 會跑 test + tsc + validate + Playwright smoke）。

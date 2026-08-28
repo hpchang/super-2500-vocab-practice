@@ -2,7 +2,7 @@
 // 用法：node scripts/audit-staging.mjs <unit號...>
 // 例如批 1：node scripts/audit-staging.mjs 19 20 21 22 23 24 25 26 27 28 29 30 31 32
 // 兩輪式：先註冊所有檔案（含 11/12）的 pos 再驗證，避免同檔後位 entry 誤報。
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -15,11 +15,14 @@ if (!unitArgs.length) {
 const vocab = JSON.parse(readFileSync(resolve(ROOT, 'src/data/vocab.json'), 'utf8'));
 const vocabMap = new Map(vocab.units.flatMap((u) => u.entries.map((e) => [e.entryId, e])));
 
-// 第一輪：讀入所有檔案，註冊每個 entry 的 pos（staging 指定單位 + 已合併的 11/12）
+// 第一輪：讀入所有檔案，註冊每個 entry 的 pos（staging 指定單位 + 所有已合併 units-*.json）
 const posMap = new Map();
 const stagingData = new Map();
-for (const f of ['units-11.json', 'units-12.json']) {
-  const d = JSON.parse(readFileSync(resolve(ROOT, 'src/data/enrichment', f), 'utf8'));
+const enrichmentDir = resolve(ROOT, 'src/data/enrichment');
+for (const f of readdirSync(enrichmentDir)
+  .filter((f) => /^units-\d+\.json$/.test(f))
+  .sort()) {
+  const d = JSON.parse(readFileSync(resolve(enrichmentDir, f), 'utf8'));
   for (const e of d.entries) posMap.set(e.entryId, e.pos);
 }
 for (const n of unitArgs) {
