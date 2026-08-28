@@ -13,6 +13,8 @@ export interface Prefs {
   schema: number;
   /** Auto-pronounce words on question load / after answering. */
   speechAutoplay: boolean;
+  /** Speech rate for pronunciation (0.5 slow — 1.4 fast; default 0.9). */
+  speechRate: number;
   /** Respect prefers-reduced-motion (default) or force animations on. */
   reducedMotion: boolean;
   /** 'system' follows the OS; 'light' / 'dark' force a theme. */
@@ -21,9 +23,12 @@ export interface Prefs {
   autoAdvance: boolean;
 }
 
+export const SPEECH_RATE_STEPS = [0.6, 0.75, 0.9, 1.1, 1.3] as const;
+
 const DEFAULT_PREFS: Prefs = {
   schema: SCHEMA,
   speechAutoplay: true,
+  speechRate: 0.9,
   reducedMotion: true,
   theme: 'system',
   autoAdvance: false,
@@ -48,6 +53,11 @@ function load(): Prefs {
         : 'system',
       autoAdvance:
         typeof parsed.autoAdvance === 'boolean' ? parsed.autoAdvance : false,
+      speechRate:
+        typeof parsed.speechRate === 'number' &&
+        SPEECH_RATE_STEPS.includes(parsed.speechRate as any)
+          ? parsed.speechRate
+          : DEFAULT_PREFS.speechRate,
     };
   } catch {
     return DEFAULT_PREFS;

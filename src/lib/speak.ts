@@ -44,7 +44,7 @@ export function speakNow(text: string): void {
   const synth = window.speechSynthesis;
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
-  u.rate = 0.9; // slightly slower for learners
+  u.rate = getPrefs().speechRate; // learner-adjustable (P2-2); default slightly slow
   u.pitch = 1;
   if (!cachedVoice) cachedVoice = pickEnglishVoice();
   if (cachedVoice) u.voice = cachedVoice;
@@ -60,7 +60,7 @@ export function speakNow(text: string): void {
     synth.cancel();
     const fallback = new SpeechSynthesisUtterance(text);
     fallback.lang = 'en-US';
-    fallback.rate = 0.9;
+    fallback.rate = getPrefs().speechRate;
     synth.speak(fallback);
   }, 1200);
 

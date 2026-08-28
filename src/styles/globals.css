@@ -807,6 +807,27 @@ h2.section-title {
   height: 20px;
 }
 
+/* Speech-rate row: label above a compact segmented control (5 steps won't
+   fit side-by-side with a label on a 320px screen). */
+.settings-row-stack {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.settings-label-text {
+  color: var(--text);
+}
+
+.segment-sm {
+  margin-bottom: 0;
+}
+
+.segment-sm button {
+  padding: 7px 2px;
+  font-size: 0.8rem;
+}
+
 .settings-note {
   color: var(--text-muted);
   font-size: 0.78rem;

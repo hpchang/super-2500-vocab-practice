@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { usePrefs, updatePrefs } from '@/prefs';
+import { usePrefs, updatePrefs, SPEECH_RATE_STEPS } from '@/prefs';
 import { resetProgress } from '@/progressStore';
-import { isSpeechSupported } from '@/lib/speak';
+import { isSpeechSupported, speakNow } from '@/lib/speak';
 
 /**
  * 常駐「進度與設定」drawer (P1-6): reachable from every screen's header.
@@ -76,6 +76,34 @@ export function SettingsDrawer() {
               {!isSpeechSupported() && (
                 <div className="settings-note">此瀏覽器不支援語音</div>
               )}
+
+              <div className="settings-row settings-row-stack">
+                <span className="settings-label-text" id="pref-rate-label">
+                  語音速度
+                </span>
+                <div
+                  className="segment segment-sm"
+                  role="group"
+                  aria-labelledby="pref-rate-label"
+                >
+                  {SPEECH_RATE_STEPS.map((r) => (
+                    <button
+                      key={r}
+                      type="button"
+                      className={prefs.speechRate === r ? 'active' : ''}
+                      aria-pressed={prefs.speechRate === r}
+                      disabled={!isSpeechSupported()}
+                      onClick={() => {
+                        updatePrefs({ speechRate: r });
+                        // Sample the new rate so the choice is audible.
+                        speakNow('practice');
+                      }}
+                    >
+                      {r < 0.9 ? '慢' : r === 0.9 ? '標準' : '快'}
+                    </button>
+                  ))}
+                </div>
+              </div>
 
               <div className="settings-row">
                 <label htmlFor="pref-auto">答對自動下一題</label>
