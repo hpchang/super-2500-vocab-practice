@@ -1,5 +1,6 @@
 import type { QuestionType } from '@/types/index';
 import type { DifficultyMode } from '@/lib/questions';
+import { appendHistory } from '@/lib/history';
 
 const KEY = 'vocab-super2500-session';
 const RESULT_KEY = 'vocab-super2500-lastresult';
@@ -130,6 +131,17 @@ export function loadSession(): SessionConfig | null {
 }
 
 export function saveResult(r: SessionResult): boolean {
+  // History (P2-3): append the completed session so trends can be shown.
+  // Done here (not in ResultsScreen) so a screen refresh never double-records.
+  if (r.results.length > 0) {
+    appendHistory({
+      at: Date.now(),
+      unit: r.unit,
+      type: r.type,
+      total: r.results.length,
+      correct: r.results.filter((x) => x.correct).length,
+    });
+  }
   return safeSetItem(RESULT_KEY, JSON.stringify(r));
 }
 

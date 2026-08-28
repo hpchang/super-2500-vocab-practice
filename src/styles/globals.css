@@ -1110,3 +1110,53 @@ h2.section-title {
   white-space: nowrap;
   border: 0;
 }
+/* 近 14 天練習趨勢（P2-3）：純 CSS 柱狀圖。 */
+.trend-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 96px;
+}
+
+.trend-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.trend-bar-area {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.trend-bar {
+  width: 70%;
+  max-width: 18px;
+  border-radius: 3px 3px 0 0;
+  background: var(--border);
+  min-height: 2px;
+}
+
+.trend-bar.good {
+  background: var(--success);
+}
+
+.trend-bar.mid {
+  background: var(--warning);
+}
+
+.trend-bar.low {
+  background: var(--danger);
+}
+
+.trend-day {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
