@@ -14,6 +14,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 批次排序：錯題 → 到期複習 → 未練過 → 其餘（`src/lib/selection.ts`）
 - 「下一批」延續原題型（URL 帶 type 參數）
 - 單字卡照字母序、其他題型 seeded 隨機（`src/lib/questions.ts`）
+- **Unit 11、12 情境填空全部重寫為「決定性線索」**（`3c311ed`、`f1795bd`）
 
 ## 目前完成範圍
 
@@ -36,6 +37,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 出過的題目記錄避免重複，同難度用完才重出。
 - Unit 設定頁選情境填空時可選難度：適性／簡易／中等／艱難（預設適性）。
 - 干擾項可跨 Unit，但優先選同 Unit；難題的相關選項由人工語境與搭配確認答案唯一。
+- **決定性線索品質標準（Unit 11、12 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句。
 
 ### 批次選擇（`src/lib/selection.ts`）
 - `buildBatch` 依優先序分組：**錯題（inWrongQueue）→ 到期複習（isDueForReview）→ 未練過（無 progress）→ 其餘（練過未到期）**，每組內維持工作簿字母序。
@@ -77,14 +79,14 @@ vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（87 tests）
+npm test             跑測試（97 tests）
 npx tsx scripts/import-workbook.ts    匯入 Excel
 npx tsx scripts/validate-data.ts     驗證資料
 ```
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 87 tests 全通過（含 `tests/unit11ClozeData.test.ts` 10 個、`tests/practiceCloze.test.tsx` 1 個）
+- `npm test` → 97 tests 全通過（含 `tests/unit11ClozeData.test.ts` 20 個——參數化涵蓋 Unit 11＋12、`tests/practiceCloze.test.tsx` 1 個）
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - Runtime（jsdom）→ 0 錯誤
@@ -96,7 +98,11 @@ npx tsx scripts/validate-data.ts     驗證資料
    產製流程已包成 skill：`/generate-vocab-enrichment`（含格式、品質規則、驗證與合併步驟）。
 2. **已修：情境填空作答後題目錯位**（2026-08）。
    - **修法**：`PracticeScreen` 的 `questions` 由 useMemo（依賴 `progress.entries`）改為 useState，只在 `next()` 以 `getSnapshot()`（store 最新進度）重建——作答當下鎖定已呈現題目，適性難度／variant 決策移到下一題。
-   - **驗證**：新增 `tests/practiceCloze.test.tsx` 回歸測試（jsdom 組件層，作答後題幹/選項不變）；對舊程式碼可重現失敗、對新程式碼通過。`npm test` 87 全過、build 成功。
+   - **驗證**：新增 `tests/practiceCloze.test.tsx` 回歸測試（jsdom 組件層，作答後題幹/選項不變）；對舊程式碼可重現失敗、對新程式碼通過。`npm test` 97 全過、build 成功。
+3. **已修：Unit 12 情境填空對齊決定性線索**（2026-08-28，commit `f1795bd`）。
+   - 重寫全部 130 字 × 5 題（650 題），比照 Unit 11 品質標準；保留 `zh/pos/example/exampleZh/spellingHint/status/source` 不變。
+   - 產製流程：subagent 分批（A–F）寫入 `src/data/enrichment/.staging/` → 稽核腳本檢查 7 個品質維度 → 合併回 `units-12.json` → 刪除 staging。
+   - 驗證：`tests/unit11ClozeData.test.ts` 參數化涵蓋 Unit 11＋12（87→97 tests）、`validate-data` 0 errors、build 成功。
 
 ## 注意事項
 
