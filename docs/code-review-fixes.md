@@ -255,3 +255,56 @@ dark tokens 已達標（約 8.2/9.5/6.2），分開保留；不可只靠顏色�
 每個 P0 項目一個 commit（fix: ...），共約 11 個；P0-10/P0-11 可各拆 2 個（語意/對比）。
 P1 依 IA 頁面切（feat: home hero / setup drawer / wordpicker / results kpi / wrong grouping），
 P1-7、P1-8 各獨立 commit。文件更新（本檔＋CLAUDE.md）用 docs: commit。
+
+---
+
+## 執行紀錄（2026-08-28，全部完成）
+
+- **P0（12 項）**：commit `5450324`。實際以單一 commit 合併（多項共用檔案，
+  hunk 級拆分風險高於收益），body 逐項列出。
+- **P1（10 項）**：commits `652d672`（P1-7 importer＋P1-8 registry）、
+  `f1c9e57`（P1-1..6、P1-9..10）。
+- **CI**：Node 20 → 22（jsdom/undici 需要較新 API；首次 CI 測試跑抓到，
+  commit `f1c326e`）。新流程 test + tsc + validate 全過才 build。
+- **P2**：未開始。prefs.ts（主題/語音/動態）已是 P2-3/P2-4 的 UI 基礎。
+
+## 上線後使用者回饋與修復（2026-08-28）
+
+### 回饋 1：Chrome 發音沒有聲音（Safari 正常）
+
+- **診斷**：Console watchdog log 顯示 `speaking=true, paused=false` 但
+  `onstart` 永不觸發——Chrome 的 macOS TTS 引擎卡在殭屍狀態（自稱播放中、
+  不出聲、不丟錯誤），任何網頁端程式碼都無法喚醒。Safari 走 macOS 原生
+  語音管線所以正常。
+- **程式端已修**（commits `b65dd4d`、`f969a12`）：
+  - cancel+ speak 同 tick 會被 Chrome 靜默丟棄 → 只在真的有語音時 cancel，
+    並 defer 到下一 tick；每次 nudge `resume()`（feature-checked）。
+  - 210 個 voice 中部分系統新穎聲音註冊了但不會出聲 → 選 voice 改優先
+    `localService`（本機 en-US → 本機 en-* → 任意 en-US → 任意 en-*）。
+  - 1.2s watchdog：無 onstart 就用預設聲音重試一次並 log 診斷
+    （`diagnoseSpeech()`）。
+- **環境端解法**：完全結束 Chrome（Cmd+Q）重啟即恢復（macOS 更新/切換
+  音訊裝置後 Chrome TTS 引擎可能卡死）。使用者已確認重啟後正常。
+
+### 回饋 2：「下一題」按鈕擾人（commit `8ccc1f5`）
+
+- Feedback 階段 **Enter/Space 前進**（focus 在 button/input 時不攔截，
+  Space 仍可啟動喇叭按鈕）；選擇題 1-4 作答全程不離鍵。
+- **Feedback 區整塊可點即前進**（內部喇叭按鈕除外）。
+- **單字卡選完即走**＋**答對自動前進**（1.2s、答錯停留、hover 暫停、
+  最後一題不自動跳），自動前進預設關閉、⚙ 設定可開。
+
+### 回饋 3：單字卡評分後不顯示中文意思（commits `a0b4b5b`、`99bfeb3`）
+
+- **根因**：回饋 2 的「選完即走」是設計錯誤——單字卡 prompt 只有英文單字，
+  **中文釋義只存在 feedback 區**，立即 next() 使 feedback 永不渲染。
+- **教訓**：112 個既有測試全綠，因為該行為本來就沒有測試。既有測試只證明
+  「沒弄壞舊功能」，不證明「新行為是對的」。
+- **修法**：單字卡評分後停留顯示釋義（Enter/點擊/自動前進仍適用，停留很短）；
+  釋義放大置頂；feedback 標題依評量顯示（「沒關係，再看一次釋義」）。
+- **預防準則（已存入專案記憶）**：
+  1. 改 UI 行為先列「使用者會看到什麼」，每條寫渲染層斷言（先紅後綠）。
+  2. 「減少一步」類改動先問：被刪的那步原本提供什麼資訊？資訊只在
+     feedback 出現的題型不能跳過 feedback。
+  3. 新 UX 行為的 commit 必須至少配一個 component 測試。
+- 測試現況：**113 tests**（新增 flashcard 釋義回歸測試）。
