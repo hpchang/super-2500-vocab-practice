@@ -79,17 +79,17 @@ vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（97 tests）
-npx tsx scripts/import-workbook.ts    匯入 Excel
+npm test             跑測試（112 tests）
+npx tsx scripts/import-workbook.ts --units=N    匯入 Excel（merge 模式；--dry-run 可預覽）
 npx tsx scripts/validate-data.ts     驗證資料
 ```
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 97 tests 全通過（含 `tests/unit11ClozeData.test.ts` 20 個——參數化涵蓋 Unit 11＋12、`tests/practiceCloze.test.tsx` 1 個）
+- `npm test` → 112 tests 全通過
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
-- Runtime（jsdom）→ 0 錯誤
+- `npx tsc --noEmit` → 0 errors
 
 ## 待辦
 
@@ -104,16 +104,27 @@ npx tsx scripts/validate-data.ts     驗證資料
    - 產製流程：subagent 分批（A–F）寫入 `src/data/enrichment/.staging/` → 稽核腳本檢查 7 個品質維度 → 合併回 `units-12.json` → 刪除 staging。
    - 驗證：`tests/unit11ClozeData.test.ts` 參數化涵蓋 Unit 11＋12（87→97 tests）、`validate-data` 0 errors、build 成功。
 
-4. **Code review 完成，修復計畫已定案**（2026-08-28）。
-   - 全專案唯讀審查（工程＋UI＋UX，兩輪交叉評審已達共識）。
-   - 基線：97 tests 全過、build 成功、validate 0 errors、tsc 通過；無 Critical 問題。
-   - **執行依據：`docs/code-review-fixes.md`**——P0（12 項學習正確性/CI/a11y）→
-     P1（IA 重整＋32 Units registry/importer）→ P2（resume/dynamic import/設定頁）。
-   - P0 重點：待複習 now=0（`selection.ts`）、首頁固定 U11、跨 Unit 錯題丟題、
-     adaptive 50% 邊界、familiar 排程語意、clozeUsed reset、固定難度不延續、
-     storage adapter、a11y 基本盤、對比改 #166534/#92400E/#B91C1C、CI 補 test+validate。
-   - UI/UX 共識：不採 stepper；一鍵開始＋進階 drawer；Results 三 KPI；
-     錯題按 Unit 分組；常駐「進度與設定」；resume 須用版本化 localStorage。
+4. **Code review 修復：P0 + P1 已完成**（2026-08-28）。
+   - **P0 已修**（commit `5450324`，12 項全數）：待複習 now=0、首頁導向有任務的
+     Unit（route 帶 filter）、跨 Unit 錯題分組＋batchSize slice、adaptive 50% 邊界、
+     familiar 不升 stage（0.5 天間隔）、clozeUsed 保留其他難度、固定難度延續
+     （`SessionResult.difficulty`）、practiceable 強制過濾、session storage 安全介面
+     （try/catch + schema 驗證）、a11y 基本盤（focus-visible/aria-live/dialog/
+     reduced-motion）、對比 #166534/#92400E/#B91C1C、CI 補 test+tsc+validate。
+   - **P1 已完成**（commits `652d672`、`f1c9e57`，10 項全數）：
+     - Registry 泛化：`src/lib/enrichmentRegistry.ts` 用 `import.meta.glob` 取代
+       硬編碼 11/12——新增 Unit 只需放 JSON 檔；validator 迭代 enrichment 目錄。
+     - Importer：改讀 `docs/` workbook、merge 模式預設保留既有 units、
+       `--dry-run`／`--full-replace`、atomic write、unit 參數驗證。
+     - IA：Home 今日任務 hero（錯題→複習→開始學新字）、Setup 一鍵開始＋進階
+       drawer、WordPicker 搜尋/全選、Results 三 KPI＋情境 CTA、錯題依 Unit 分組、
+       常駐「進度與設定」drawer（語音自動播放/減少動態/主題，`src/prefs.ts`
+       localStorage 獨立於學習進度）。
+     - 視覺/響應式：tokens 更新、題幹 2.25rem、選項 64px、tap ≥44px、
+       320px 不橫捲、hover/active 狀態。
+5. **P2 尚未開始**（見 `docs/code-review-fixes.md`）：session resume（localStorage
+   checkpoint）、enrichment dynamic import（主 chunk 約 660kB）、語音速度、
+   歷史成效、慶祝元素。prefs.ts 的主題/語音開關已是 P2-3/P2-4 的 UI 基礎。
 
 ## 注意事項
 
