@@ -22,3 +22,9 @@ if (jsdomWindow) {
     });
   }
 }
+
+// Enrichment data loads via dynamic import (P2-5). Kick it off in every test
+// environment the way main.tsx does before rendering — the glob resolves to
+// plain JSON imports in vitest, so it settles immediately.
+import { loadEnrichments } from '../src/lib/enrichmentRegistry.js';
+void loadEnrichments();
