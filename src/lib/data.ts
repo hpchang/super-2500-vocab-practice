@@ -30,22 +30,6 @@ export function getEnrichedEntry(entryId: string): EnrichedEntry | undefined {
   return ENRICH_MAP[entryId];
 }
 
-/** Whether an entry has PoC-practiceable enrichment content. */
-export function isPracticable(entryId: string): boolean {
-  return Boolean(ENRICH_MAP[entryId]);
-}
-
-export function getPracticableEntries(unit: string): VocabEntry[] {
-  const u = getUnit(unit);
-  if (!u) return [];
-  return u.entries.filter((e) => isPracticable(e.entryId));
-}
-
-/** Count of words currently practiceable in a unit. */
-export function practicableCount(unit: string): number {
-  return getPracticableEntries(unit).length;
-}
-
 export function getEntry(entryId: string): VocabEntry | undefined {
   const unit = entryId.split(':')[0].slice(1);
   return getUnit(unit)?.entries.find((e) => e.entryId === entryId);

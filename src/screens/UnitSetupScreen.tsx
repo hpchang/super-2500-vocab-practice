@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { getUnit, getEnrichment, getPracticableEntries, isPracticable } from '@/lib/data';
+import { getUnit, getEnrichment } from '@/lib/data';
 import {
   filterEntries,
   buildBatch,
@@ -64,19 +64,13 @@ export function UnitSetupScreen({
   );
 
   const enrichment = getEnrichment(unit);
-  const practicableEntries = useMemo(
-    () => getPracticableEntries(unit),
-    [unit],
-  );
 
   const filtered = useMemo(
     () =>
-      filterEntries(
-        vocabUnit?.entries ?? [],
-        progress.entries,
-        { mode, customIds: [...customIds] },
-        true,
-      ),
+      filterEntries(vocabUnit?.entries ?? [], progress.entries, {
+        mode,
+        customIds: [...customIds],
+      }),
     [vocabUnit, progress.entries, mode, customIds],
   );
 
@@ -106,15 +100,12 @@ export function UnitSetupScreen({
   };
 
   const start = () => {
-    // Defense in depth (P0-8): never let a non-practiceable entry reach a
-    // session, regardless of the filter mode used for browsing.
-    const finalBatch = batch.filter((e) => isPracticable(e.entryId));
-    if (finalBatch.length === 0) return;
+    if (batch.length === 0) return;
     // A brand-new session invalidates any in-flight resume checkpoint (P2-1).
     clearCheckpoint();
     saveSession({
       unit,
-      entryIds: finalBatch.map((e) => e.entryId),
+      entryIds: batch.map((e) => e.entryId),
       type: qType,
       batchSize,
       difficulty,
@@ -192,7 +183,7 @@ export function UnitSetupScreen({
           </div>
 
           <h2 className="section-title">
-            已選 {filtered.length} 字 / 可練習 {practicableEntries.length} / {vocabUnit.total} 字
+            已選 {filtered.length} 字 / {vocabUnit.total} 字
           </h2>
 
           {mode === 'custom' && (
@@ -267,7 +258,7 @@ export function UnitSetupScreen({
             )}
             {filtered.length === 0 && (
               <div className="drawer-note">
-                目前沒有符合條件的可練習單字，請調整篩選
+                沒有符合條件的單字，請調整篩選
               </div>
             )}
             {enrichment && (

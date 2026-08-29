@@ -139,12 +139,7 @@ describe('filterEntries', () => {
       { ...entry('a'), important: true },
       { ...entry('b'), important: false },
     ];
-    const result = filterEntries(
-      entries,
-      {},
-      { mode: 'important' },
-      false,
-    );
+    const result = filterEntries(entries, {}, { mode: 'important' });
     expect(result.map((e) => e.entryId)).toEqual(['a']);
   });
 
@@ -155,13 +150,7 @@ describe('filterEntries', () => {
       a: due('a'), // overdue
       b: practiced('b'), // not due yet
     };
-    const result = filterEntries(
-      entries,
-      progress,
-      { mode: 'review' },
-      false,
-      now,
-    );
+    const result = filterEntries(entries, progress, { mode: 'review' }, now);
     expect(result.map((e) => e.entryId)).toEqual(['a']);
   });
 
@@ -170,7 +159,6 @@ describe('filterEntries', () => {
       [entry('a')],
       {},
       { mode: 'review' },
-      false,
       Date.now(),
     );
     expect(result).toEqual([]);

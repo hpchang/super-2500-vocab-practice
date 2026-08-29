@@ -1,5 +1,4 @@
 import type { VocabEntry } from '@/types/index';
-import { isPracticable } from './data';
 import type { EntryProgress } from '@/types/index';
 
 export type FilterMode = 'important' | 'review' | 'wrong' | 'custom' | 'all';
@@ -12,15 +11,11 @@ export interface SelectionCriteria {
 
 /**
  * Resolve a filter against a Unit's full entry list + progress map.
- * Returns only entries that are practiceable (have enrichment content)
- * unless `practiceableOnly` is false (browsing only — such results must
- * never reach a practice session).
  */
 export function filterEntries(
   entries: VocabEntry[],
   progress: Record<string, EntryProgress>,
   criteria: SelectionCriteria,
-  practiceableOnly = true,
   now: number = Date.now(),
 ): VocabEntry[] {
   let result = entries;
@@ -48,9 +43,6 @@ export function filterEntries(
     default:
       result = entries;
       break;
-  }
-  if (practiceableOnly) {
-    result = result.filter((e) => isPracticable(e.entryId));
   }
   return result;
 }
