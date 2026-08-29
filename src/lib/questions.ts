@@ -36,17 +36,33 @@ export interface Question {
   clozeVariant?: number;
 }
 
-/** Deterministic pseudo-shuffle so the same batch is stable per session index. */
+/**
+ * Deterministic shuffle (mulberry32 + Fisher–Yates) — the same seed always
+ * produces the same permutation, but the permutation quality does not
+ * degrade with small arrays: an LCG's low bits are strongly patterned and
+ * made every 4-option answer land on the same position for small batches
+ * (fixed 2026-08-29). Seeds come from per-question identity, not the bare
+ * index, so position patterns do not repeat across batches and units.
+ */
 function shuffle<T>(arr: T[], seed: number): T[] {
   const out = arr.slice();
-  // Keep multiplication in exact 32-bit arithmetic so low bits stay random.
-  let s = Math.imul(seed, 2654435761) >>> 0;
+  let a = seed >>> 0;
+  const nextRandom = () => {
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
   for (let i = out.length - 1; i > 0; i--) {
-    s = (Math.imul(s, 1103515245) + 12345) >>> 0;
-    const j = s % (i + 1);
+    const j = Math.floor(nextRandom() * (i + 1));
     [out[i], out[j]] = [out[j], out[i]];
   }
   return out;
+}
+
+/** Options seed for a question: identity-based so layouts vary per word. */
+function optionSeed(entryId: string, type: string, extra = ''): number {
+  return hashString(`${entryId}:${type}${extra ? `:${extra}` : ''}`);
 }
 
 /** FNV-1a hash of a string, for deriving a stable shuffle seed. */
@@ -100,7 +116,7 @@ export function buildQuestion(
       const distractors = pickDistractorZh(entry, enriched);
       const options = shuffle(
         [{ entryId: entry.entryId, label: enriched.zh }, ...distractors],
-        index + 1,
+        optionSeed(entry.entryId, type),
       );
       return {
         entryId: entry.entryId,
@@ -115,7 +131,7 @@ export function buildQuestion(
       const distractors = pickDistractorWords(entry, enriched);
       const options = shuffle(
         [{ entryId: entry.entryId, label: entry.word }, ...distractors],
-        index + 2,
+        optionSeed(entry.entryId, type),
       );
       return {
         entryId: entry.entryId,
@@ -136,7 +152,9 @@ export function buildQuestion(
       });
       const options = shuffle(
         [{ entryId: c.answerEntryId, label: entry.word }, ...distractors],
-        index + 3,
+        // Include the index: legacy cloze reuses the same clue per word, so
+        // the index is what distinguishes repeated appearances in a batch.
+        optionSeed(entry.entryId, type, String(index)),
       );
       return {
         entryId: entry.entryId,
@@ -253,8 +271,8 @@ export function buildClozeSession(
   progress: Record<string, EntryProgress>,
 ): Question[] {
   const out: Question[] = [];
-  sessionOrder(entries, 'cloze').forEach((entry, i) => {
-    const q = buildAdaptiveCloze(entry, difficulty, progress, i);
+  sessionOrder(entries, 'cloze').forEach((entry) => {
+    const q = buildAdaptiveCloze(entry, difficulty, progress);
     if (q) out.push(q);
   });
   return out;
@@ -264,7 +282,6 @@ function buildAdaptiveCloze(
   entry: VocabEntry,
   difficulty: DifficultyMode,
   progress: Record<string, EntryProgress>,
-  index: number,
 ): Question | null {
   const byDifficulty = clozeQuestionsForEntry(entry.entryId);
   let diff: Difficulty;
@@ -290,7 +307,7 @@ function buildAdaptiveCloze(
   });
   const options = shuffle(
     [{ entryId: cloze.answerEntryId, label: entry.word }, ...distractors],
-    index + 3,
+    optionSeed(entry.entryId, 'cloze', `${diff}:${cloze.clue}`),
   );
 
   return {

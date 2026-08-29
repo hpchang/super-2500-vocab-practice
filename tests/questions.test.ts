@@ -134,6 +134,61 @@ describe('question construction', () => {
     }
   });
 
+  it('covers all option positions across 5-question batches (smallest supported)', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!);
+    const types = ['en2zh', 'zh2en', 'cloze'] as const;
+
+    for (const type of types) {
+      // 5 is a supported batch size (selection.ts BATCH_SIZES). A short
+      // session can legitimately miss a position by chance, but across the
+      // whole unit no position may be systematically "never right" — the
+      // old LCG put the answer at position 4 for every small batch
+      // (P1 review 2026-08-29).
+      const positions: number[] = [];
+      for (let start = 0; start + 5 <= entries.length; start += 5) {
+        const batch = entries.slice(start, start + 5);
+        const batchPositions = buildSession(batch, type).map((question) =>
+          question.options!.findIndex(
+            (option) => option.entryId === question.answer,
+          ),
+        );
+        positions.push(...batchPositions);
+      }
+      const counts = [0, 1, 2, 3].map(
+        (p) => positions.filter((x) => x === p).length,
+      );
+      // Short batches can miss a position by chance, but across the unit no
+      // position may be systematically "never right" (the old LCG put every
+      // small-batch answer at position 4), and no position may dominate.
+      expect(Math.min(...counts), type).toBeGreaterThan(0);
+      expect(Math.max(...counts), type).toBeLessThanOrEqual(positions.length / 2);
+    }
+  });
+
+  it('does not repeat the same answer-position sequence across units', () => {
+    // Seeds must derive from question identity, not the bare index —
+    // otherwise every unit repeats the same position pattern and a learner
+    // can memorize it (P1 review 2026-08-29).
+    const units = ['11', '12', '13', '14'];
+    for (const type of ['en2zh', 'zh2en'] as const) {
+      const sequences = units.map((unit) => {
+        const en = loadEnrichment(unit);
+        const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
+        return buildSession(entries, type).map((question) =>
+          question.options!.findIndex(
+            (option) => option.entryId === question.answer,
+          ),
+        );
+      });
+      // At most one unit may share unit 11's exact sequence out of 4.
+      const same = sequences.filter(
+        (seq) => JSON.stringify(seq) === JSON.stringify(sequences[0]),
+      ).length;
+      expect(same, type).toBeLessThanOrEqual(1);
+    }
+  });
+
   it('quiz and option shuffles are stable for the same input batch', () => {
     const en = loadEnrichment('11');
     const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
