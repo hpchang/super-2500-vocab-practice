@@ -21,17 +21,12 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 ### 來源資料
 - Excel 全文 2,485 字已可匯入。`scripts/import-workbook.ts` 預設 merge 模式
   （`--units=N,...` 指定要匯入的 Unit，`--dry-run` 可預覽）。
-- `src/data/vocab.json` 目前含 Unit 11–32（共 2,346 字）。各 Unit 字數：
-  U11 123、U12 130、U13 212、U14 87、U15 24、U16 73、U17 30、U18 73、
-  U19 29、U20 56、U21 42、U22 71、U23 90、U24 30、U25 16、U26 12、U27 53、
-  U28 23、U29 146、U30 54、U31 136、U32 239。
-  （U32 workbook 有 9 個同字跨頁重複列，importer 保留首筆並警告，故 239 非 248。）
-- **Unit 1–10 尚未匯入 vocab.json**（批次計畫批 2/3），需要時跑：
-  `npx tsx scripts/import-workbook.ts -- --units=1,2,...`
+- **`src/data/vocab.json` 已含全部 32 個 Unit（共 2,476 字）**。
+  U32 workbook 有 9 個同字跨頁重複列，importer 保留首筆並警告（239 非 248）。
 
 ### Enrichment（中文/詞性/例句/題目）
-- Unit 11–32 全部 2,346 字已有完整 enrichment（每字 5+1 題情境填空，共 14,076 題）。
-- 其餘 10 個單元（1–10）無 enrichment（網站標「尚未提供練習」）。
+- **Unit 1–32 全部 2,476 字已有完整 enrichment**（每字 5 題情境填空，
+  共 12,380 題；三批產製完成於 2026-08-29，均通過 audit-staging 全量稽核）。
 
 ### 題型（6 種）
 單字卡、英選中、中選英、情境填空、拼字、混合。
@@ -42,7 +37,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 出過的題目記錄避免重複，同難度用完才重出。
 - Unit 設定頁選情境填空時可選難度：適性／簡易／中等／艱難（預設適性）。
 - 干擾項可跨 Unit，但優先選同 Unit；難題的相關選項由人工語境與搭配確認答案唯一。
-- **決定性線索品質標準（Unit 11–32 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形，照 vocab word 原樣含大小寫）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句；legacy 中文釋義（zh）四選項唯一。
+- **決定性線索品質標準（Unit 1–32 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形，照 vocab word 原樣含大小寫）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句；legacy 中文釋義（zh）四選項唯一。
 
 ### 批次選擇（`src/lib/selection.ts`）
 - `buildBatch` 依優先序分組：**錯題（inWrongQueue）→ 到期複習（isDueForReview）→ 未練過（無 progress）→ 其餘（練過未到期）**，每組內維持工作簿字母序。
@@ -84,7 +79,7 @@ vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（335 tests）
+npm test             跑測試（435 tests）
 npm run check        build + Playwright smoke over dist（唯一跑 dist 的驗證）
 node scripts/audit-staging.mjs <unit號...>   稽核 staging 檔（兩輪式 pos）
 npx tsx scripts/import-workbook.ts --units=N    匯入 Excel（merge 模式；--dry-run 可預覽）
@@ -93,16 +88,16 @@ npx tsx scripts/validate-data.ts     驗證資料
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 335 tests 全通過
+- `npm test` → 435 tests 全通過
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - `npx tsc --noEmit` → 0 errors
 
 ## 待辦
 
-1. **完成批 2/3（Unit 1–10）**：照 `docs/enrichment-batch-plan.md` 逐批執行
-   （批 1＝Unit 19–32 已於 2026-08-29 完成）。產製流程見 skill：
-   `/add-vocab-unit` + `/generate-vocab-enrichment`。
+1. **批次計畫已全部完成（2026-08-29）**：Unit 1–32 全部字表與 enrichment
+   上線，commit 在 local main（未 push）。待使用者檢查整體成果後決定
+   push 時點（push 即自動部署）。
 2. **已修：情境填空作答後題目錯位**（2026-08）。
    - **修法**：`PracticeScreen` 的 `questions` 由 useMemo（依賴 `progress.entries`）改為 useState，只在 `next()` 以 `getSnapshot()`（store 最新進度）重建——作答當下鎖定已呈現題目，適性難度／variant 決策移到下一題。
    - **驗證**：新增 `tests/practiceCloze.test.tsx` 回歸測試（jsdom 組件層，作答後題幹/選項不變）；對舊程式碼可重現失敗、對新程式碼通過。`npm test` 97 全過、build 成功。
