@@ -1,0 +1,4564 @@
+{
+ "schemaVersion": 1,
+ "unit": "7",
+ "entries": [
+  {
+   "entryId": "u7:burst",
+   "zh": "爆裂；突然爆發",
+   "pos": "verb",
+   "example": "The old balloon burst with a loud pop at the party.",
+   "exampleZh": "派對上那顆舊氣球啵的一聲爆掉了。",
+   "spellingHint": "b-u-r-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The old tire ___ on the highway, and the driver had to stop at once.",
+    "translation": "舊輪胎在高速公路上爆裂，駕駛只好立刻停車。",
+    "clue": "輪胎爆掉",
+    "answerEntryId": "u7:burst",
+    "distractorEntryIds": [
+     "u1:drop",
+     "u1:push",
+     "u1:shake"
+    ],
+    "fullSentence": "The old tire burst on the highway, and the driver had to stop at once."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Blow one more time and the little balloon will ___.",
+     "translation": "再吹一口氣，小氣球就會爆掉。",
+     "clue": "氣球吹太多氣會爆",
+     "answerEntryId": "u7:burst",
+     "distractorEntryIds": [
+      "u1:jump",
+      "u1:fall",
+      "u1:move"
+     ],
+     "fullSentence": "Blow one more time and the little balloon will burst."
+    },
+    {
+     "sentence": "Hearing the funny joke, Grandpa ___ out laughing at the dinner table.",
+     "translation": "聽到那個好笑的笑話，爺爺在餐桌上突然大笑起來。",
+     "clue": "___ out laughing 突然大笑",
+     "answerEntryId": "u7:burst",
+     "distractorEntryIds": [
+      "u1:shout",
+      "u1:cry",
+      "u1:yell"
+     ],
+     "fullSentence": "Hearing the funny joke, Grandpa burst out laughing at the dinner table."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The water pipe ___ last night, so the kitchen floor was all wet in the morning.",
+     "translation": "水管昨晚爆裂，所以早上廚房地板全濕了。",
+     "clue": "水管破裂使地板變濕",
+     "answerEntryId": "u7:burst",
+     "distractorEntryIds": [
+      "u1:drop",
+      "u1:flow",
+      "u1:slip"
+     ],
+     "fullSentence": "The water pipe burst last night, so the kitchen floor was all wet in the morning."
+    },
+    {
+     "sentence": "Ken ___ into tears when he heard that his grandfather was safe after the storm.",
+     "translation": "Ken 聽到爺爺在風災後平安無事時，突然哭了出來。",
+     "clue": "___ into tears 突然大哭",
+     "answerEntryId": "u7:burst",
+     "distractorEntryIds": [
+      "u1:laugh",
+      "u1:walk",
+      "u1:stand"
+     ],
+     "fullSentence": "Ken burst into tears when he heard that his grandfather was safe after the storm."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The old dam could not hold the heavy rain any longer and finally ___ , flooding the fields below.",
+    "translation": "老水壩再也擋不住大雨，終於潰堤，淹沒了下方的田地。",
+    "clue": "擋不住水量而爆開",
+    "answerEntryId": "u7:burst",
+    "distractorEntryIds": [
+     "u1:fall",
+     "u1:drop",
+     "u1:shake"
+    ],
+    "fullSentence": "The old dam could not hold the heavy rain any longer and finally burst , flooding the fields below."
+   }
+  },
+  {
+   "entryId": "u7:afraid",
+   "zh": "害怕的",
+   "pos": "adjective",
+   "example": "Do not be afraid of the dark; I am right here.",
+   "exampleZh": "不要害怕黑暗；我就在這裡。",
+   "spellingHint": "a-f-r-a-i-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Many small children are ___ of loud thunder at night.",
+    "translation": "許多小孩晚上害怕大聲的雷聲。",
+    "clue": "be ___ of 表示害怕某事物",
+    "answerEntryId": "u7:afraid",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:lonely",
+     "u7:glad"
+    ],
+    "fullSentence": "Many small children are afraid of loud thunder at night."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The little boy is ___ of dogs, so he never touches them.",
+     "translation": "那個小男孩怕狗，所以從來不摸牠們。",
+     "clue": "怕狗所以不敢碰",
+     "answerEntryId": "u7:afraid",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:hungry",
+      "u7:busy"
+     ],
+     "fullSentence": "The little boy is afraid of dogs, so he never touches them."
+    },
+    {
+     "sentence": "I was too ___ to look down from the tall tower.",
+     "translation": "我太害怕了，不敢從高塔往下看。",
+     "clue": "在高處不敢往下看",
+     "answerEntryId": "u7:afraid",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "I was too afraid to look down from the tall tower."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Ken is ___ of the water, so he never joins our swimming lessons.",
+     "translation": "Ken 怕水，所以他從不參加我們的游泳課。",
+     "clue": "怕水所以不上游泳課",
+     "answerEntryId": "u7:afraid",
+     "distractorEntryIds": [
+      "u7:worried",
+      "u7:nervous",
+      "u7:curious"
+     ],
+     "fullSentence": "Ken is afraid of the water, so he never joins our swimming lessons."
+    },
+    {
+     "sentence": "She was ___ to touch the little snake, so she stepped back.",
+     "translation": "她不敢碰那條小蛇，於是往後退了一步。",
+     "clue": "be ___ to do 表示不敢做某事",
+     "answerEntryId": "u7:afraid",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:unhappy"
+     ],
+     "fullSentence": "She was afraid to touch the little snake, so she stepped back."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "People are often ___ of things they do not understand, so learning about them helps.",
+    "translation": "人們常常害怕自己不了解的事物，所以了解它們會有幫助。",
+    "clue": "only ___ of + 名詞 搭配成立；nervous/curious/worried 都接 about",
+    "answerEntryId": "u7:afraid",
+    "distractorEntryIds": [
+     "u7:nervous",
+     "u7:curious",
+     "u7:worried"
+    ],
+    "fullSentence": "People are often afraid of things they do not understand, so learning about them helps."
+   }
+  },
+  {
+   "entryId": "u7:anger",
+   "zh": "憤怒；怒氣",
+   "pos": "noun",
+   "example": "He could not hide his anger when his bike was broken.",
+   "exampleZh": "腳踏車被弄壞時，他無法掩飾怒氣。",
+   "spellingHint": "a-n-g-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "He could not hide his ___ when someone broke his new bike.",
+    "translation": "有人弄壞他的新腳踏車時，他無法隱藏怒氣。",
+    "clue": "東西被弄壞時湧上的怒氣",
+    "answerEntryId": "u7:anger",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:surprise",
+     "u7:envy"
+    ],
+    "fullSentence": "He could not hide his anger when someone broke his new bike."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Shouting at others is a bad way to show your ___.",
+     "translation": "對人大吼是表達怒氣的糟糕方式。",
+     "clue": "大吼表達的是怒氣",
+     "answerEntryId": "u7:anger",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:patience",
+      "u7:surprise"
+     ],
+     "fullSentence": "Shouting at others is a bad way to show your anger."
+    },
+    {
+     "sentence": "The unfair decision filled the whole classroom with ___.",
+     "translation": "那個不公平的決定讓全班充滿怒氣。",
+     "clue": "不公平的決定讓人憤怒",
+     "answerEntryId": "u7:anger",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:surprise",
+      "u7:patience"
+     ],
+     "fullSentence": "The unfair decision filled the whole classroom with anger."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Everyone could feel the ___ in Dad's voice when he saw the broken lamp.",
+     "translation": "爸爸看到摔壞的檯燈時，大家都能感受到他話中的怒氣。",
+     "clue": "看到東西被摔壞時語氣中的怒氣",
+     "answerEntryId": "u7:anger",
+     "distractorEntryIds": [
+      "u7:surprise",
+      "u7:joy",
+      "u7:patience"
+     ],
+     "fullSentence": "Everyone could feel the anger in Dad's voice when he saw the broken lamp."
+    },
+    {
+     "sentence": "Years of unfair treatment turned his quiet worry into deep ___.",
+     "translation": "長年的不公平對待把他安靜的憂慮化成深深的怒氣。",
+     "clue": "長期委屈累積成的怒氣",
+     "answerEntryId": "u7:anger",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:surprise",
+      "u7:envy"
+     ],
+     "fullSentence": "Years of unfair treatment turned his quiet worry into deep anger."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Instead of showing ___ , the teacher calmly explained the rule one more time.",
+    "translation": "老師沒有表現出怒氣，而是冷靜地再把規則解釋一次。",
+    "clue": "與 calmly 相對的情緒是怒氣",
+    "answerEntryId": "u7:anger",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:surprise",
+     "u7:envy"
+    ],
+    "fullSentence": "Instead of showing anger , the teacher calmly explained the rule one more time."
+   }
+  },
+  {
+   "entryId": "u7:angry",
+   "zh": "生氣的",
+   "pos": "adjective",
+   "example": "Dad was angry because I came home after midnight.",
+   "exampleZh": "爸爸很生氣，因為我過了半夜才回家。",
+   "spellingHint": "a-n-g-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Mom got ___ when she saw the broken window.",
+    "translation": "媽媽看到打破的窗戶時很生氣。",
+    "clue": "東西被打破時的反應",
+    "answerEntryId": "u7:angry",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:lonely",
+     "u7:hungry"
+    ],
+    "fullSentence": "Mom got angry when she saw the broken window."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dad was ___ with me for coming home so late.",
+     "translation": "爸爸因為我太晚回家而生我的氣。",
+     "clue": "be ___ with 表示生某人的氣",
+     "answerEntryId": "u7:angry",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:afraid",
+      "u7:lonely"
+     ],
+     "fullSentence": "Dad was angry with me for coming home so late."
+    },
+    {
+     "sentence": "Ken made an ___ face and left the room without a word.",
+     "translation": "Ken 露出生氣的表情，一句話也沒說就離開房間。",
+     "clue": "氣到說不出話的表情",
+     "answerEntryId": "u7:angry",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:busy",
+      "u7:hungry"
+     ],
+     "fullSentence": "Ken made an angry face and left the room without a word."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The coach was ___ at the players for losing such an easy game.",
+     "translation": "教練對球員輸掉這麼簡單的比賽感到生氣。",
+     "clue": "be ___ at 表示對某事生氣",
+     "answerEntryId": "u7:angry",
+     "distractorEntryIds": [
+      "u7:pleased",
+      "u7:worried",
+      "u7:surprised"
+     ],
+     "fullSentence": "The coach was angry at the players for losing such an easy game."
+    },
+    {
+     "sentence": "Nothing makes Grandpa ___ faster than loud music at midnight.",
+     "translation": "沒有什麼比半夜大聲的音樂更容易讓爺爺生氣。",
+     "clue": "半夜噪音惹人生氣",
+     "answerEntryId": "u7:angry",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:surprised",
+      "u7:hungry"
+     ],
+     "fullSentence": "Nothing makes Grandpa angry faster than loud music at midnight."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ken tried not to look ___ , but his red face gave him away.",
+    "translation": "Ken 努力不讓自己看起來在生氣，但他漲紅的臉出賣了他。",
+    "clue": "漲紅的臉透露的是怒氣",
+    "answerEntryId": "u7:angry",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:lonely",
+     "u7:curious"
+    ],
+    "fullSentence": "Ken tried not to look angry , but his red face gave him away."
+   }
+  },
+  {
+   "entryId": "u7:bored",
+   "zh": "感到無聊的；覺得厭煩的",
+   "pos": "adjective",
+   "example": "I felt bored during the long bus ride.",
+   "exampleZh": "搭長途公車時我覺得很無聊。",
+   "spellingHint": "b-o-r-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The whole class looked ___ when the teacher repeated the same lesson for the third time.",
+    "translation": "老師第三次重複同一課時，全班看起來很無聊。",
+    "clue": "內容重複讓人（人）感覺無聊",
+    "answerEntryId": "u7:bored",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:interested",
+     "u7:nervous"
+    ],
+    "fullSentence": "The whole class looked bored when the teacher repeated the same lesson for the third time."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I was so ___ that I fell asleep during the long speech.",
+     "translation": "我無聊到在漫長的演講中睡著了。",
+     "clue": "無聊到睡著的是人",
+     "answerEntryId": "u7:bored",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:busy",
+      "u7:happy"
+     ],
+     "fullSentence": "I was so bored that I fell asleep during the long speech."
+    },
+    {
+     "sentence": "He soon got ___ with the video game and gave it away.",
+     "translation": "他很快就對那個電動玩具厭煩，把它送給別人。",
+     "clue": "厭煩到把遊戲送人",
+     "answerEntryId": "u7:bored",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:glad",
+      "u7:hungry"
+     ],
+     "fullSentence": "He soon got bored with the video game and gave it away."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The show was repeated so many times that people got ___ and stopped watching.",
+     "translation": "那個節目重播太多次，大家覺得厭煩就不看了。",
+     "clue": "重播太多讓觀眾厭煩",
+     "answerEntryId": "u7:bored",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:pleased",
+      "u7:nervous"
+     ],
+     "fullSentence": "The show was repeated so many times that people got bored and stopped watching."
+    },
+    {
+     "sentence": "Halfway through the slow tour, several visitors took out their phones because they felt ___.",
+     "translation": "緩慢的導覽進行到一半時，幾位訪客因覺得無聊而拿出手機。",
+     "clue": "行程太慢讓人無聊",
+     "answerEntryId": "u7:bored",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:excited",
+      "u7:worried"
+     ],
+     "fullSentence": "Halfway through the slow tour, several visitors took out their phones because they felt bored."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The film was two gray hours long; even my father, who loves movies, sat there looking ___.",
+    "translation": "那部電影沉悶地演了兩小時；連愛看電影的爸爸都坐在那裡一臉無聊。",
+    "clue": "主詞是 my father（人）⇒ 用 -ed；boring 是事物用的字",
+    "answerEntryId": "u7:bored",
+    "distractorEntryIds": [
+     "u7:boring",
+     "u7:interested",
+     "u7:excited"
+    ],
+    "fullSentence": "The film was two gray hours long; even my father, who loves movies, sat there looking bored."
+   }
+  },
+  {
+   "entryId": "u7:boring",
+   "zh": "無聊的；令人厭煩的",
+   "pos": "adjective",
+   "example": "That TV show is boring, so let us go outside.",
+   "exampleZh": "那個電視節目很無聊，我們出去玩吧。",
+   "spellingHint": "b-o-r-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The two-hour bus ride was so ___ that people kept checking their watches.",
+    "translation": "那兩個小時的車程無聊到大家一直看錶。",
+    "clue": "讓人一直看錶的漫長事物很無聊",
+    "answerEntryId": "u7:boring",
+    "distractorEntryIds": [
+     "u7:bored",
+     "u7:interesting",
+     "u7:pleasant"
+    ],
+    "fullSentence": "The two-hour bus ride was so boring that people kept checking their watches."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nobody wants to listen to that ___ speech again.",
+     "translation": "沒有人想再聽那場無聊的演講。",
+     "clue": "修飾事物（演講）的形容詞",
+     "answerEntryId": "u7:boring",
+     "distractorEntryIds": [
+      "u7:exciting",
+      "u7:crazy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Nobody wants to listen to that boring speech again."
+    },
+    {
+     "sentence": "There is nothing to do in this small town on rainy days; it is so ___.",
+     "translation": "下雨天在這個小鎮沒事可做；真無聊。",
+     "clue": "鎮上生活無聊",
+     "answerEntryId": "u7:boring",
+     "distractorEntryIds": [
+      "u7:bored",
+      "u7:interested",
+      "u7:hungry"
+     ],
+     "fullSentence": "There is nothing to do in this small town on rainy days; it is so boring."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The guide talked in a flat, ___ voice, and half of the tourists fell asleep.",
+     "translation": "導遊用平板無聊的音調講話，一半的觀光客都睡著了。",
+     "clue": "讓人睡著的音調很無聊",
+     "answerEntryId": "u7:boring",
+     "distractorEntryIds": [
+      "u7:pleasant",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "The guide talked in a flat, boring voice, and half of the tourists fell asleep."
+    },
+    {
+     "sentence": "I stopped reading the novel because its first fifty pages were ___, not because they were too hard.",
+     "translation": "我不再讀那本小說，因為前五十頁很無聊，而不是太難。",
+     "clue": "not because too hard 排除難，指向無聊",
+     "answerEntryId": "u7:boring",
+     "distractorEntryIds": [
+      "u7:interesting",
+      "u7:pleasant",
+      "u7:lonely"
+     ],
+     "fullSentence": "I stopped reading the novel because its first fifty pages were boring, not because they were too hard."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Everyone says history is ___, but our new teacher turns every lesson into a story.",
+    "translation": "大家說歷史很無聊，但我們的新老師把每堂課變成故事。",
+    "clue": "主詞 history（事物）⇒ 用 -ing",
+    "answerEntryId": "u7:boring",
+    "distractorEntryIds": [
+     "u7:bored",
+     "u7:interested",
+     "u7:excited"
+    ],
+    "fullSentence": "Everyone says history is boring, but our new teacher turns every lesson into a story."
+   }
+  },
+  {
+   "entryId": "u7:busy",
+   "zh": "忙碌的",
+   "pos": "adjective",
+   "example": "Mom was busy in the kitchen all morning.",
+   "exampleZh": "媽媽整個早上都在廚房忙。",
+   "spellingHint": "b-u-s-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The bank was full of people because every clerk was ___ with a customer.",
+    "translation": "銀行擠滿人，因為每位行員都在忙著服務客人。",
+    "clue": "be ___ with 表示忙於某事",
+    "answerEntryId": "u7:busy",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:glad",
+     "u7:curious"
+    ],
+    "fullSentence": "The bank was full of people because every clerk was busy with a customer."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mom is too ___ to drive us to the zoo today.",
+     "translation": "媽媽今天太忙，沒辦法開車帶我們去動物園。",
+     "clue": "太忙所以沒空出門",
+     "answerEntryId": "u7:busy",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:glad",
+      "u7:lonely"
+     ],
+     "fullSentence": "Mom is too busy to drive us to the zoo today."
+    },
+    {
+     "sentence": "Phones ring all day long in this ___ office.",
+     "translation": "在這間忙碌的辦公室裡，電話整天響個不停。",
+     "clue": "電話響不停的辦公室",
+     "answerEntryId": "u7:busy",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:terrible",
+      "u7:pleasant"
+     ],
+     "fullSentence": "Phones ring all day long in this busy office."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Farmers are usually ___ in September, when the rice is ready to cut.",
+     "translation": "農夫在九月稻子成熟可以收割時通常很忙。",
+     "clue": "收割季節農夫忙碌",
+     "answerEntryId": "u7:busy",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:lonely",
+      "u7:pleased"
+     ],
+     "fullSentence": "Farmers are usually busy in September, when the rice is ready to cut."
+    },
+    {
+     "sentence": "Mr. Lin keeps his phone on all night because he is ___ with his new store.",
+     "translation": "林先生整晚開著手機，因為他忙著照顧新店面。",
+     "clue": "手機整夜不關代表忙",
+     "answerEntryId": "u7:busy",
+     "distractorEntryIds": [
+      "u7:angry",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "Mr. Lin keeps his phone on all night because he is busy with his new store."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the doctor was ___ with other patients, she still took time to answer our questions.",
+    "translation": "雖然醫生忙著照顧其他病人，她仍撥時間回答我們的問題。",
+    "clue": "still took time 與忙碌形成轉折",
+    "answerEntryId": "u7:busy",
+    "distractorEntryIds": [
+     "u7:pleased",
+     "u7:lonely",
+     "u7:curious"
+    ],
+    "fullSentence": "Although the doctor was busy with other patients, she still took time to answer our questions."
+   }
+  },
+  {
+   "entryId": "u7:calm",
+   "zh": "冷靜的；平靜的",
+   "pos": "adjective",
+   "example": "Try to stay calm when you give your speech.",
+   "exampleZh": "演講時試著保持冷靜。",
+   "spellingHint": "c-a-l-m",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Take a deep breath and try to stay ___ before you give your speech.",
+    "translation": "演講前深呼吸並試著保持冷靜。",
+    "clue": "深呼吸幫助保持冷靜",
+    "answerEntryId": "u7:calm",
+    "distractorEntryIds": [
+     "u7:nervous",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "Take a deep breath and try to stay calm before you give your speech."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Early in the morning, the lake is ___ , with no wind at all.",
+     "translation": "清晨的湖面很平靜，完全沒有風。",
+     "clue": "沒有風的湖面很平靜",
+     "answerEntryId": "u7:calm",
+     "distractorEntryIds": [
+      "u7:terrible",
+      "u7:crazy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Early in the morning, the lake is calm , with no wind at all."
+    },
+    {
+     "sentence": "The nurse spoke in a soft ___ voice, and the crying baby soon stopped.",
+     "translation": "護理師用輕柔平穩的聲音說話，哭泣的寶寶很快就安靜下來。",
+     "clue": "讓寶寶停止哭泣的平穩聲音",
+     "answerEntryId": "u7:calm",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:angry",
+      "u7:busy"
+     ],
+     "fullSentence": "The nurse spoke in a soft calm voice, and the crying baby soon stopped."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "A good pilot must keep ___ when problems happen in the air.",
+     "translation": "優秀的飛行員在空中出狀況時必須保持冷靜。",
+     "clue": "出狀況時仍需冷靜",
+     "answerEntryId": "u7:calm",
+     "distractorEntryIds": [
+      "u7:worried",
+      "u7:afraid",
+      "u7:nervous"
+     ],
+     "fullSentence": "A good pilot must keep calm when problems happen in the air."
+    },
+    {
+     "sentence": "After the storm passed, the sea finally became ___ again.",
+     "translation": "暴風雨過後，大海終於恢復平靜。",
+     "clue": "暴風雨過後海面平靜",
+     "answerEntryId": "u7:calm",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:hungry",
+      "u7:crazy"
+     ],
+     "fullSentence": "After the storm passed, the sea finally became calm again."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The nurse used a ___ voice and steady hands to check the hurt boy, not to make him more scared.",
+    "translation": "護理師用平靜的聲音和穩定的雙手檢查受傷的男孩，而不是讓他更害怕。",
+    "clue": "目的是避免讓他更害怕，所以要用冷靜",
+    "answerEntryId": "u7:calm",
+    "distractorEntryIds": [
+     "u7:nervous",
+     "u7:angry",
+     "u7:lonely"
+    ],
+    "fullSentence": "The nurse used a calm voice and steady hands to check the hurt boy, not to make him more scared."
+   }
+  },
+  {
+   "entryId": "u7:care",
+   "zh": "照顧；小心",
+   "pos": "noun",
+   "example": "Take care of your little sister when I am out.",
+   "exampleZh": "我出門時，照顧一下妳妹妹。",
+   "spellingHint": "c-a-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The vet took special ___ of the sick puppy until it could run again.",
+    "translation": "獸醫特別照顧那隻生病的小狗，直到牠能再跑。",
+    "clue": "take ___ of 表示照顧",
+    "answerEntryId": "u7:care",
+    "distractorEntryIds": [
+     "u13:attention",
+     "u13:advice",
+     "u17:money"
+    ],
+    "fullSentence": "The vet took special care of the sick puppy until it could run again."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Cross the street with ___ ; the cars come fast here.",
+     "translation": "過馬路要小心；這裡車子開得很快。",
+     "clue": "with ___ 表示小心地",
+     "answerEntryId": "u7:care",
+     "distractorEntryIds": [
+      "u19:gift",
+      "u13:homework",
+      "u31:noise"
+     ],
+     "fullSentence": "Cross the street with care ; the cars come fast here."
+    },
+    {
+     "sentence": "My grandmother cannot walk well, so she needs someone's ___ every day.",
+     "translation": "我的祖母走路不方便，所以每天都需要人照顧。",
+     "clue": "行動不便的人需要照顧",
+     "answerEntryId": "u7:care",
+     "distractorEntryIds": [
+      "u13:homework",
+      "u19:gift",
+      "u31:noise"
+     ],
+     "fullSentence": "My grandmother cannot walk well, so she needs someone's care every day."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "This old garden gets little ___ now, so many of its flowers are dying.",
+     "translation": "這座老花園現在很少人照顧，許多花都枯死了。",
+     "clue": "乏人照顧所以花枯",
+     "answerEntryId": "u7:care",
+     "distractorEntryIds": [
+      "u13:homework",
+      "u17:price",
+      "u31:danger"
+     ],
+     "fullSentence": "This old garden gets little care now, so many of its flowers are dying."
+    },
+    {
+     "sentence": "The old man thanked the nurse for her kind ___ during his three-month stay.",
+     "translation": "老人感謝護理師在他住院三個月期間的細心照顧。",
+     "clue": "住院期間受到的照顧",
+     "answerEntryId": "u7:care",
+     "distractorEntryIds": [
+      "u19:gift",
+      "u13:rule",
+      "u31:silence"
+     ],
+     "fullSentence": "The old man thanked the nurse for her kind care during his three-month stay."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Grandpa always handles his old camera with ___ and wipes it after every use.",
+    "translation": "爺爺總是小心對待他的舊相機，每次用完都擦拭。",
+    "clue": "with ___ 表示小心地處理",
+    "answerEntryId": "u7:care",
+    "distractorEntryIds": [
+     "u13:attention",
+     "u13:advice",
+     "u13:pressure"
+    ],
+    "fullSentence": "Grandpa always handles his old camera with care and wipes it after every use."
+   }
+  },
+  {
+   "entryId": "u7:catch",
+   "zh": "接住；抓住；趕上",
+   "pos": "verb",
+   "example": "The goalkeeper tried to catch the ball with both hands.",
+   "exampleZh": "守門員試著用雙手接住球。",
+   "spellingHint": "c-a-t-c-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Dad held up some food, hoping the dog would stop so he could ___ it.",
+    "translation": "爸爸舉起食物，希望狗停下來，這樣他就能抓住牠。",
+    "clue": "讓狗停下來以便抓住牠",
+    "answerEntryId": "u7:catch",
+    "distractorEntryIds": [
+     "u1:push",
+     "u1:throw",
+     "u1:pull"
+    ],
+    "fullSentence": "Dad held up some food, hoping the dog would stop so he could catch it."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Put on a warm coat, or you may ___ a cold.",
+     "translation": "穿上厚外套，不然你可能會感冒。",
+     "clue": "___ a cold 感冒的固定用法",
+     "answerEntryId": "u7:catch",
+     "distractorEntryIds": [
+      "u1:drop",
+      "u1:fall",
+      "u1:grow"
+     ],
+     "fullSentence": "Put on a warm coat, or you may catch a cold."
+    },
+    {
+     "sentence": "Run to the corner if you want to ___ the early bus!",
+     "translation": "想趕上早班公車就快跑到轉角！",
+     "clue": "趕上公車要用 run 幫忙",
+     "answerEntryId": "u7:catch",
+     "distractorEntryIds": [
+      "u12:fly",
+      "u1:clap",
+      "u1:wave"
+     ],
+     "fullSentence": "Run to the corner if you want to catch the early bus!"
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The zookeeper used a net to ___ the monkey that escaped from its cage.",
+     "translation": "動物管理員用網子抓住逃出籠子的猴子。",
+     "clue": "用網子抓住動物",
+     "answerEntryId": "u7:catch",
+     "distractorEntryIds": [
+      "u1:throw",
+      "u1:push",
+      "u1:kick"
+     ],
+     "fullSentence": "The zookeeper used a net to catch the monkey that escaped from its cage."
+    },
+    {
+     "sentence": "If we leave now, we can still ___ the last train home.",
+     "translation": "如果我們現在出發，還來得及趕上回家的末班車。",
+     "clue": "趕上末班車",
+     "answerEntryId": "u7:catch",
+     "distractorEntryIds": [
+      "u12:cross",
+      "u12:fly",
+      "u12:drive"
+     ],
+     "fullSentence": "If we leave now, we can still catch the last train home."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The team ran faster and faster, trying to ___ up with the leaders in the last round.",
+    "translation": "隊伍在最後一圈努力想追上領先者。",
+    "clue": "___ up with 表示趕上、追上",
+    "answerEntryId": "u7:catch",
+    "distractorEntryIds": [
+     "u1:run",
+     "u12:rush",
+     "u1:walk"
+    ],
+    "fullSentence": "The team ran faster and faster, trying to catch up with the leaders in the last round."
+   }
+  },
+  {
+   "entryId": "u7:complain",
+   "zh": "抱怨；投訴",
+   "pos": "verb",
+   "example": "The customer walked to the manager to complain about the cold soup.",
+   "exampleZh": "客人走向經理，投訴湯是冷的。",
+   "spellingHint": "c-o-m-p-l-a-i-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The guests ___ about the noise upstairs, so the hotel moved them to a quiet room.",
+    "translation": "客人抱怨樓上的噪音，於是飯店幫他們換到安靜的房間。",
+    "clue": "對噪音不滿而提出抱怨",
+    "answerEntryId": "u7:complain",
+    "distractorEntryIds": [
+     "u1:sleep",
+     "u1:knock",
+     "u1:smile"
+    ],
+    "fullSentence": "The guests complain about the noise upstairs, so the hotel moved them to a quiet room."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Students sometimes ___ that they have too much homework.",
+     "translation": "學生有時會抱怨功課太多。",
+     "clue": "說出對功課太多的不滿",
+     "answerEntryId": "u7:complain",
+     "distractorEntryIds": [
+      "u13:copy",
+      "u13:spell",
+      "u13:count"
+     ],
+     "fullSentence": "Students sometimes complain that they have too much homework."
+    },
+    {
+     "sentence": "Grandpa always ___ about the cold weather, even in early autumn.",
+     "translation": "爺爺總是抱怨天氣冷，連初秋也一樣。",
+     "clue": "老是說天氣冷＝抱怨",
+     "answerEntryId": "u7:complain",
+     "distractorEntryIds": [
+      "u32:wait",
+      "u1:smile",
+      "u32:sleep"
+     ],
+     "fullSentence": "Grandpa always complain about the cold weather, even in early autumn."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Instead of ___ about the rain, we put on our raincoats and kept walking.",
+     "translation": "我們沒有抱怨下雨，而是穿上雨衣繼續走。",
+     "clue": "instead of + V-ing 表達抱怨",
+     "answerEntryId": "u7:complain",
+     "distractorEntryIds": [
+      "u13:count",
+      "u13:copy",
+      "u1:clap"
+     ],
+     "fullSentence": "Instead of complain about the rain, we put on our raincoats and kept walking."
+    },
+    {
+     "sentence": "Jim ___ to the front desk because his room was not clean.",
+     "translation": "Jim 向櫃檯投訴，因為他的房間不乾淨。",
+     "clue": "向櫃檯提出不滿",
+     "answerEntryId": "u7:complain",
+     "distractorEntryIds": [
+      "u14:play",
+      "u14:swim",
+      "u32:wait"
+     ],
+     "fullSentence": "Jim complain to the front desk because his room was not clean."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "He never says anything when the food is too salty, but my aunt ___ about every small dish.",
+    "translation": "食物太鹹時他從不說什麼，但我阿姨對每道小菜都要抱怨。",
+    "clue": "對每道菜有意見＝抱怨",
+    "answerEntryId": "u7:complain",
+    "distractorEntryIds": [
+     "u13:repeat",
+     "u13:discuss",
+     "u13:prepare"
+    ],
+    "fullSentence": "He never says anything when the food is too salty, but my aunt complain about every small dish."
+   }
+  },
+  {
+   "entryId": "u7:concern",
+   "zh": "擔心；關心",
+   "pos": "noun",
+   "example": "Her main concern is her son's poor eyesight.",
+   "exampleZh": "她最擔心的是兒子的視力。",
+   "spellingHint": "c-o-n-c-e-r-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The teacher showed deep ___ for the sick student and called her parents at once.",
+    "translation": "老師非常關心生病的學生，立刻打電話給她的父母。",
+    "clue": "對生病學生的關心",
+    "answerEntryId": "u7:concern",
+    "distractorEntryIds": [
+     "u7:envy",
+     "u7:anger",
+     "u7:joy"
+    ],
+    "fullSentence": "The teacher showed deep concern for the sick student and called her parents at once."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Thank you for your ___ ; your calls made me feel much better.",
+     "translation": "謝謝你的關心；你的問候電話讓我好多了。",
+     "clue": "問候與打電話代表關心",
+     "answerEntryId": "u7:concern",
+     "distractorEntryIds": [
+      "u19:gift",
+      "u13:homework",
+      "u31:silence"
+     ],
+     "fullSentence": "Thank you for your concern ; your calls made me feel much better."
+    },
+    {
+     "sentence": "Mom looked at my red eyes with ___ on her face.",
+     "translation": "媽媽一臉關心地看着我紅腫的雙眼。",
+     "clue": "看到孩子眼睛紅紅的擔憂",
+     "answerEntryId": "u7:concern",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:anger",
+      "u7:envy"
+     ],
+     "fullSentence": "Mom looked at my red eyes with concern on her face."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There is growing public ___ about food safety in school lunches.",
+     "translation": "大眾對學校營養午餐的食品安全的憂慮越來越深。",
+     "clue": "對食品安全日漸增加的憂慮",
+     "answerEntryId": "u7:concern",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:envy",
+      "u7:patience"
+     ],
+     "fullSentence": "There is growing public concern about food safety in school lunches."
+    },
+    {
+     "sentence": "One big ___ about online games is that some students play them all night.",
+     "translation": "線上遊戲的一大隱憂是有些學生整夜打電動。",
+     "clue": "令人憂慮的問題點",
+     "answerEntryId": "u7:concern",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:envy",
+      "u7:tear"
+     ],
+     "fullSentence": "One big concern about online games is that some students play them all night."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Money was his private ___ , and he told no one about his troubles.",
+    "translation": "錢的事是他私人的憂慮，他沒有告訴任何人他的困擾。",
+    "clue": "藏著不說的私人憂慮",
+    "answerEntryId": "u7:concern",
+    "distractorEntryIds": [
+     "u7:shock",
+     "u7:patience",
+     "u7:surprise"
+    ],
+    "fullSentence": "Money was his private concern , and he told no one about his troubles."
+   }
+  },
+  {
+   "entryId": "u7:confuse",
+   "zh": "使困惑；使混淆",
+   "pos": "verb",
+   "example": "Long math problems sometimes confuse me.",
+   "exampleZh": "又長又難的數學題有時會讓我困惑。",
+   "spellingHint": "c-o-n-f-u-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The two identical school bags on the chair ___ me for a moment; I did not know which one was mine.",
+    "translation": "椅子上兩個一模一樣的書包讓我困惑了一下；我不知道哪個是我的。",
+    "clue": "分不清楚哪一個是自己的",
+    "answerEntryId": "u7:confuse",
+    "distractorEntryIds": [
+     "u7:excite",
+     "u7:satisfy",
+     "u7:please"
+    ],
+    "fullSentence": "The two identical school bags on the chair confuse me for a moment; I did not know which one was mine."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Too many signs on one door can ___ young children.",
+     "translation": "一扇門上太多標誌會讓小孩困惑。",
+     "clue": "太多標誌讓人分不清",
+     "answerEntryId": "u7:confuse",
+     "distractorEntryIds": [
+      "u13:repeat",
+      "u13:copy",
+      "u13:count"
+     ],
+     "fullSentence": "Too many signs on one door can confuse young children."
+    },
+    {
+     "sentence": "Do not ___ Austria with Australia; they are different countries.",
+     "translation": "別把奧地利和澳洲搞混；它們是不同的國家。",
+     "clue": "___ A with B 把兩者搞混",
+     "answerEntryId": "u7:confuse",
+     "distractorEntryIds": [
+      "u13:repeat",
+      "u13:describe",
+      "u13:count"
+     ],
+     "fullSentence": "Do not confuse Austria with Australia; they are different countries."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The teacher drew one simple picture so the long grammar rules would not ___ us.",
+     "translation": "老師畫了一張簡單的圖，免得落落長的文法規則把我們弄糊塗。",
+     "clue": "複雜規則讓人困惑",
+     "answerEntryId": "u7:confuse",
+     "distractorEntryIds": [
+      "u7:excite",
+      "u7:please",
+      "u7:satisfy"
+     ],
+     "fullSentence": "The teacher drew one simple picture so the long grammar rules would not confuse us."
+    },
+    {
+     "sentence": "The strange street names in this old town all ___ visitors, so most of them take a map.",
+     "translation": "這個老城鎮奇怪的路名讓訪客摸不著頭腦，所以大部分人都帶地圖。",
+     "clue": "路名奇怪所以人都要帶地圖",
+     "answerEntryId": "u7:confuse",
+     "distractorEntryIds": [
+      "u7:excite",
+      "u7:satisfy",
+      "u7:please"
+     ],
+     "fullSentence": "The strange street names in this old town all confuse visitors, so most of them take a map."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Questions 5 and 6 look almost the same and easily ___ students during the test.",
+    "translation": "第 5 題和第 6 題長得幾乎一樣，考試時學生很容易搞混。",
+    "clue": "題目相似導致搞混",
+    "answerEntryId": "u7:confuse",
+    "distractorEntryIds": [
+     "u7:excite",
+     "u7:please",
+     "u7:satisfy"
+    ],
+    "fullSentence": "Questions 5 and 6 look almost the same and easily confuse students during the test."
+   }
+  },
+  {
+   "entryId": "u7:crazy",
+   "zh": "瘋狂的；著迷的",
+   "pos": "adjective",
+   "example": "It is crazy to swim in the sea during a typhoon.",
+   "exampleZh": "颱風天在海裡游泳真是瘋狂。",
+   "spellingHint": "c-r-a-z-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My cousin is ___ about baseball and watches a game almost every night.",
+    "translation": "我表哥瘋狂著迷於棒球，幾乎每晚都看比賽。",
+    "clue": "be ___ about 表示著迷",
+    "answerEntryId": "u7:crazy",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:lonely",
+     "u7:worried"
+    ],
+    "fullSentence": "My cousin is crazy about baseball and watches a game almost every night."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "You want to eat ten hamburgers for lunch? That is ___ !",
+     "translation": "你午餐要吃十個漢堡？太瘋狂了！",
+     "clue": "誇張的想法很瘋狂",
+     "answerEntryId": "u7:crazy",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "You want to eat ten hamburgers for lunch? That is crazy !"
+    },
+    {
+     "sentence": "The fans went ___ when their team scored in the last minute.",
+     "translation": "球隊在最後一分鐘進球時，球迷們都瘋狂了。",
+     "clue": "go ___ 表示興奮到瘋狂",
+     "answerEntryId": "u7:crazy",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:lonely",
+      "u7:worried"
+     ],
+     "fullSentence": "The fans went crazy when their team scored in the last minute."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Driving so fast on this narrow mountain road is simply ___ .",
+     "translation": "在這條狹窄的山路上開這麼快簡直是瘋了。",
+     "clue": "危險誇張的行為叫瘋狂",
+     "answerEntryId": "u7:crazy",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:hungry",
+      "u7:terrible"
+     ],
+     "fullSentence": "Driving so fast on this narrow mountain road is simply crazy ."
+    },
+    {
+     "sentence": "She is ___ about her favorite band and owns all of their songs.",
+     "translation": "她瘋狂迷上最愛的樂團，收集了他們所有的歌。",
+     "clue": "be ___ about 熱愛著迷",
+     "answerEntryId": "u7:crazy",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:lonely",
+      "u7:jealous"
+     ],
+     "fullSentence": "She is crazy about her favorite band and owns all of their songs."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Everyone laughed at his plan at first, but his ___ ideas later won the school science prize.",
+    "translation": "大家起初嘲笑他的計畫，但那些瘋狂的點子後來贏得學校科學獎。",
+    "clue": "起初被笑、後來得獎的瘋狂點子",
+    "answerEntryId": "u7:crazy",
+    "distractorEntryIds": [
+     "u7:terrible",
+     "u7:cruel",
+     "u7:lonely"
+    ],
+    "fullSentence": "Everyone laughed at his plan at first, but his crazy ideas later won the school science prize."
+   }
+  },
+  {
+   "entryId": "u7:cruel",
+   "zh": "殘酷的；殘忍的",
+   "pos": "adjective",
+   "example": "It is cruel to make a small dog run in the hot sun all day.",
+   "exampleZh": "讓小狗在烈日下跑一整天很殘忍。",
+   "spellingHint": "c-r-u-e-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "It was ___ of the older boys to laugh at the crying child.",
+    "translation": "那些大男孩嘲笑哭泣的孩子，真是殘忍。",
+    "clue": "嘲笑哭泣的孩子是殘忍的行為",
+    "answerEntryId": "u7:cruel",
+    "distractorEntryIds": [
+     "u7:pleasant",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "It was cruel of the older boys to laugh at the crying child."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Throwing stones at stray cats is a ___ thing to do.",
+     "translation": "對流浪貓丟石頭是很殘忍的行為。",
+     "clue": "傷害動物的殘忍行為",
+     "answerEntryId": "u7:cruel",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "Throwing stones at stray cats is a cruel thing to do."
+    },
+    {
+     "sentence": "The king in the story was so ___ that everyone in his town feared him.",
+     "translation": "故事裡的國王非常殘暴，鎮上每個人都怕他。",
+     "clue": "讓人害怕的殘暴國王",
+     "answerEntryId": "u7:cruel",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "The king in the story was so cruel that everyone in his town feared him."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Keeping a large dog locked in a tiny room is ___ to animals.",
+     "translation": "把大狗關在小小的房間裡對動物很殘忍。",
+     "clue": "___ to animals 表示對動物殘忍",
+     "answerEntryId": "u7:cruel",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "Keeping a large dog locked in a tiny room is cruel to animals."
+    },
+    {
+     "sentence": "The winter wind was ___ to the farmers; it destroyed half of their rice.",
+     "translation": "冬天的風對農夫很無情；它毀了他們一半的稻子。",
+     "clue": "無情摧毀作物的風",
+     "answerEntryId": "u7:cruel",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "The winter wind was cruel to the farmers; it destroyed half of their rice."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Laughing at a classmate's mistake is not just rude; it is ___ , because your words can really hurt.",
+    "translation": "嘲笑同學的錯誤不只是沒禮貌——那很殘忍，因為你的話真的會傷人。",
+    "clue": "真的會傷人的程度比 rude 更深",
+    "answerEntryId": "u7:cruel",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:crazy",
+     "u7:nervous"
+    ],
+    "fullSentence": "Laughing at a classmate's mistake is not just rude; it is cruel , because your words can really hurt."
+   }
+  },
+  {
+   "entryId": "u7:curious",
+   "zh": "好奇的",
+   "pos": "adjective",
+   "example": "The boy was curious about how the robot worked.",
+   "exampleZh": "那男孩很好奇機器人怎麼運作。",
+   "spellingHint": "c-u-r-i-o-u-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The new student was ___ about everything in our school and asked a hundred questions on the first day.",
+    "translation": "新生對學校的每件事都很好奇，第一天就問了一百個問題。",
+    "clue": "問個不停＝好奇",
+    "answerEntryId": "u7:curious",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:lonely",
+     "u7:afraid"
+    ],
+    "fullSentence": "The new student was curious about everything in our school and asked a hundred questions on the first day."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Cats are ___ animals and love to open every closed box in the house.",
+     "translation": "貓是好奇的動物，喜歡打開家裡每個關著的箱子。",
+     "clue": "愛開箱查探＝好奇",
+     "answerEntryId": "u7:curious",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "Cats are curious animals and love to open every closed box in the house."
+    },
+    {
+     "sentence": "I was ___ to know what was inside the big red box under the tree.",
+     "translation": "我很想知道樹下那個大紅箱裡裝了什麼。",
+     "clue": "be ___ to do 表示很想查明",
+     "answerEntryId": "u7:curious",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "I was curious to know what was inside the big red box under the tree."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Small babies are naturally ___ and put everything into their mouths.",
+     "translation": "小寶寶天生好奇，什麼東西都往嘴裡放。",
+     "clue": "什麼都想抓來看，因此放入口中",
+     "answerEntryId": "u7:curious",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "Small babies are naturally curious and put everything into their mouths."
+    },
+    {
+     "sentence": "Good reporters stay ___ and never stop asking why.",
+     "translation": "好的記者保持好奇，追問到底為什麼。",
+     "clue": "一直問為什麼＝好奇",
+     "answerEntryId": "u7:curious",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:nervous"
+     ],
+     "fullSentence": "Good reporters stay curious and never stop asking why."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Tom was ___ enough to follow the strange truck for two hours just to see where it went.",
+    "translation": "湯姆好奇心旺盛，跟著那輛奇怪的卡車兩個小時，只為看它開去哪裡。",
+    "clue": "跟蹤只為查明去向＝強烈好奇",
+    "answerEntryId": "u7:curious",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:lonely",
+     "u7:scared"
+    ],
+    "fullSentence": "Tom was curious enough to follow the strange truck for two hours just to see where it went."
+   }
+  },
+  {
+   "entryId": "u7:embarrass",
+   "zh": "使尷尬；使不好意思",
+   "pos": "verb",
+   "example": "I did not mean to embarrass you in front of the whole class.",
+   "exampleZh": "我不是故意要在全班面前讓你尷尬。",
+   "spellingHint": "e-m-b-a-r-r-a-s-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Dad loves telling my old baby stories, because in front of my friends they always ___ me.",
+    "translation": "爸爸很愛講我小時候的故事，因為在朋友面前那些故事總是讓我很尷尬。",
+    "clue": "當眾講孩提糗事使人難為情",
+    "answerEntryId": "u7:embarrass",
+    "distractorEntryIds": [
+     "u7:excite",
+     "u7:please",
+     "u7:satisfy"
+    ],
+    "fullSentence": "Dad loves telling my old baby stories, because in front of my friends they always embarrass me."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please do not ___ me by singing my nickname in front of everyone.",
+     "translation": "請不要在大家面前唱我的綽號讓我好尷尬。",
+     "clue": "在眾人前讓人難為情",
+     "answerEntryId": "u7:embarrass",
+     "distractorEntryIds": [
+      "u1:drop",
+      "u12:fly",
+      "u14:swim"
+     ],
+     "fullSentence": "Please do not embarrass me by singing my nickname in front of everyone."
+    },
+    {
+     "sentence": "Long silences after a wrong answer can ___ students who want to try again.",
+     "translation": "答錯後長時間的沉默會讓想再嘗試的學生很不好意思。",
+     "clue": "公開沉默使學生難堪",
+     "answerEntryId": "u7:embarrass",
+     "distractorEntryIds": [
+      "u14:lose",
+      "u12:cross",
+      "u13:underline"
+     ],
+     "fullSentence": "Long silences after a wrong answer can embarrass students who want to try again."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Teachers should never ___ students who answer wrong; it only stops them from trying.",
+     "translation": "老師不該讓答錯的學生難堪；那只會讓他們不敢再試。",
+     "clue": "讓答錯的人當眾丟臉",
+     "answerEntryId": "u7:embarrass",
+     "distractorEntryIds": [
+      "u7:please",
+      "u7:satisfy",
+      "u7:excite"
+     ],
+     "fullSentence": "Teachers should never embarrass students who answer wrong; it only stops them from trying."
+    },
+    {
+     "sentence": "Ken's little cousin loves to ___ him by showing his old photos to his friends.",
+     "translation": "Ken 的小表妹很喜歡把他的舊照片拿給朋友看，讓他好尷尬。",
+     "clue": "公開難堪的照片使人尷尬",
+     "answerEntryId": "u7:embarrass",
+     "distractorEntryIds": [
+      "u7:please",
+      "u7:satisfy",
+      "u7:excite"
+     ],
+     "fullSentence": "Ken's little cousin loves to embarrass him by showing his old photos to his friends."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Mom lowered her voice on purpose, because telling the whole family would only ___ the shy birthday girl.",
+    "translation": "媽媽故意壓低聲音，因為告訴全家人只會讓害羞的壽星不好意思。",
+    "clue": "當眾說出私密的事使人難堪",
+    "answerEntryId": "u7:embarrass",
+    "distractorEntryIds": [
+     "u7:please",
+     "u7:satisfy",
+     "u7:confuse"
+    ],
+    "fullSentence": "Mom lowered her voice on purpose, because telling the whole family would only embarrass the shy birthday girl."
+   }
+  },
+  {
+   "entryId": "u7:emotion",
+   "zh": "情緒；情感",
+   "pos": "noun",
+   "example": "Happiness, sadness, and anger are all emotions.",
+   "exampleZh": "快樂、悲傷和憤怒都是情感。",
+   "spellingHint": "e-m-o-t-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Crying at weddings shows a strong ___ , not weakness.",
+    "translation": "在婚禮上哭泣顯示的是強烈的情感，而不是軟弱。",
+    "clue": "哭泣背後強烈的內心感受",
+    "answerEntryId": "u7:emotion",
+    "distractorEntryIds": [
+     "u7:envy",
+     "u13:pressure",
+     "u31:silence"
+    ],
+    "fullSentence": "Crying at weddings shows a strong emotion , not weakness."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Sadness is a normal human ___ , just like happiness.",
+     "translation": "悲傷和快樂一樣，都是人類正常的情感。",
+     "clue": "與 happiness 並列的情感",
+     "answerEntryId": "u7:emotion",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:fear",
+      "u7:patience"
+     ],
+     "fullSentence": "Sadness is a normal human emotion , just like happiness."
+    },
+    {
+     "sentence": "Small children often cannot control their ___ , so they cry or shout in public.",
+     "translation": "幼兒常常無法控制情感，所以在公共場合又哭又叫。",
+     "clue": "會失控的是情感",
+     "answerEntryId": "u7:emotion",
+     "distractorEntryIds": [
+      "u13:homework",
+      "u12:traffic",
+      "u31:fun"
+     ],
+     "fullSentence": "Small children often cannot control their emotion , so they cry or shout in public."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Music can carry an ___ across cultures even when people do not understand the words.",
+     "translation": "即使聽不懂歌詞，音樂也能把情感傳達給不同文化的人。",
+     "clue": "音樂承載的單數情感",
+     "answerEntryId": "u7:emotion",
+     "distractorEntryIds": [
+      "u31:danger",
+      "u13:pressure",
+      "u19:gift"
+     ],
+     "fullSentence": "Music can carry an emotion across cultures even when people do not understand the words."
+    },
+    {
+     "sentence": "Even the actors said they cried during the last scene because the ___ was so strong.",
+     "translation": "連演員都說最後一幕的的情感太強烈，他們也哭了。",
+     "clue": "讓演員落淚的強烈情感",
+     "answerEntryId": "u7:emotion",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:patience",
+      "u7:envy"
+     ],
+     "fullSentence": "Even the actors said they cried during the last scene because the emotion was so strong."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Actors learn to show each ___ on their faces, from anger to quiet joy.",
+    "translation": "演員要學會把每種情感表現在臉上，從憤怒到淡淡的喜悅。",
+    "clue": "脸上要表現的各種情感",
+    "answerEntryId": "u7:emotion",
+    "distractorEntryIds": [
+     "u7:tear",
+     "u7:tension",
+     "u7:patience"
+    ],
+    "fullSentence": "Actors learn to show each emotion on their faces, from anger to quiet joy."
+   }
+  },
+  {
+   "entryId": "u7:envy",
+   "zh": "羨慕；忌妒",
+   "pos": "noun",
+   "example": "He looked at his brother's new bike with envy.",
+   "exampleZh": "他羨慕地看著哥哥的新腳踏車。",
+   "spellingHint": "e-n-v-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "His classmate looked at my new camera with ___ in his eyes and then asked to borrow it.",
+    "translation": "同學眼帶羨慕地看著我的新相機，然後開口借。",
+    "clue": "看著好物想借走的眼神",
+    "answerEntryId": "u7:envy",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:fear",
+     "u7:surprise"
+    ],
+    "fullSentence": "His classmate looked at my new camera with envy in his eyes and then asked to borrow it."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Winning the big prize, he felt a little ___ when he saw his friend's faster new bike.",
+     "translation": "贏了大獎之後，看到朋友更快的新車，他心裡起了點忌妒。",
+     "clue": "看到別人更好的東西時的心情",
+     "answerEntryId": "u7:envy",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:fear",
+      "u7:surprise"
+     ],
+     "fullSentence": "Winning the big prize, he felt a little envy when he saw his friend's faster new bike."
+    },
+    {
+     "sentence": "Her beautiful handwriting is the ___ of the whole class.",
+     "translation": "她漂亮的字是全班羨慕的對象。",
+     "clue": "the ___ of 表示令人羨慕的人或物",
+     "answerEntryId": "u7:envy",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:surprise",
+      "u7:patience"
+     ],
+     "fullSentence": "Her beautiful handwriting is the envy of the whole class."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Instead of feeling ___ , try to learn from people who do better than you.",
+     "translation": "與其忌妒，不如向表現比你好的人學習。",
+     "clue": "feeling ___ 表示內心的忌妒",
+     "answerEntryId": "u7:envy",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:fear",
+      "u7:tension"
+     ],
+     "fullSentence": "Instead of feeling envy , try to learn from people who do better than you."
+    },
+    {
+     "sentence": "Old stories paint this feeling green, so a very jealous person is said to be green with ___.",
+     "translation": "古老的故事把這種情緒畫成綠色，所以非常忌妒的人被說是 green with envy。",
+     "clue": "green with ___ 是忌妒的固定說法",
+     "answerEntryId": "u7:envy",
+     "distractorEntryIds": [
+      "u7:fear",
+      "u7:joy",
+      "u7:anger"
+     ],
+     "fullSentence": "Old stories paint this feeling green, so a very jealous person is said to be green with envy."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although everyone clapped for the winner, the runner-up smiled with hidden ___ .",
+    "translation": "雖然大家都為冠軍鼓掌，亞軍卻帶著隱藏的忌妒微笑。",
+    "clue": "笑容之下藏著的忌妒",
+    "answerEntryId": "u7:envy",
+    "distractorEntryIds": [
+     "u7:shock",
+     "u7:patience",
+     "u7:surprise"
+    ],
+    "fullSentence": "Although everyone clapped for the winner, the runner-up smiled with hidden envy ."
+   }
+  },
+  {
+   "entryId": "u7:excite",
+   "zh": "使興奮；使激動",
+   "pos": "verb",
+   "example": "The good news excited the whole team.",
+   "exampleZh": "那個好消息讓全隊都很興奮。",
+   "spellingHint": "e-x-c-i-t-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The bright fireworks over the river ___ every child at the festival, and they all jumped with joy.",
+    "translation": "河上璀璨的煙火讓嘉年華上的每個孩子都興奮起來，開心得跳起來。",
+    "clue": "讓人開心得跳起來＝使興奮",
+    "answerEntryId": "u7:excite",
+    "distractorEntryIds": [
+     "u7:satisfy",
+     "u7:confuse",
+     "u7:worry"
+    ],
+    "fullSentence": "The bright fireworks over the river excite every child at the festival, and they all jumped with joy."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Fast roller coasters ___ most young people who love speed.",
+     "translation": "快速的雲霄飛車讓大多愛速度的年輕人興奮。",
+     "clue": "雲霄飛車使人興奮",
+     "answerEntryId": "u7:excite",
+     "distractorEntryIds": [
+      "u13:spell",
+      "u13:count",
+      "u13:copy"
+     ],
+     "fullSentence": "Fast roller coasters excite most young people who love speed."
+    },
+    {
+     "sentence": "Loud drums and colorful flags ___ the crowd before the game begins.",
+     "translation": "響亮的鼓聲和繽紛的旗幟讓開賽前的人群興奮起來。",
+     "clue": "賽前的鼓聲旗海振奮人群",
+     "answerEntryId": "u7:excite",
+     "distractorEntryIds": [
+      "u13:underline",
+      "u13:pronounce",
+      "u13:repeat"
+     ],
+     "fullSentence": "Loud drums and colorful flags excite the crowd before the game begins."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Stories of sea pirates ___ the boy's imagination every night.",
+     "translation": "海盗故事每晚都讓男孩的想像力興奮不已。",
+     "clue": "激發想像力使之興奮",
+     "answerEntryId": "u7:excite",
+     "distractorEntryIds": [
+      "u7:confuse",
+      "u7:satisfy",
+      "u7:please"
+     ],
+     "fullSentence": "Stories of sea pirates excite the boy's imagination every night."
+    },
+    {
+     "sentence": "Do not ___ the puppy right before bedtime, or he will not want to sleep.",
+     "translation": "睡前別逗小狗太興奮，不然他會不肯睡。",
+     "clue": "睡前別讓牠興奮",
+     "answerEntryId": "u7:excite",
+     "distractorEntryIds": [
+      "u7:complain",
+      "u7:express",
+      "u7:burst"
+     ],
+     "fullSentence": "Do not excite the puppy right before bedtime, or he will not want to sleep."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The coach's short talk was designed to ___ the team before the final game, not to teach anything new.",
+    "translation": "教練簡短的演說是為了在決賽前振奮全隊，而不是教新戰術。",
+    "clue": "賽前演說的目的在於振奮",
+    "answerEntryId": "u7:excite",
+    "distractorEntryIds": [
+     "u7:confuse",
+     "u7:satisfy",
+     "u7:please"
+    ],
+    "fullSentence": "The coach's short talk was designed to excite the team before the final game, not to teach anything new."
+   }
+  },
+  {
+   "entryId": "u7:excited",
+   "zh": "感到興奮的",
+   "pos": "adjective",
+   "example": "The children were excited about the school trip.",
+   "exampleZh": "孩子們對校外教學感到很興奮。",
+   "spellingHint": "e-x-c-i-t-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "When our favorite singer walked onto the stage, all of us were too ___ to sit down.",
+    "translation": "最喜歡的歌手走上舞台時，我們興奮得都坐不住。",
+    "clue": "看到最愛的歌手，人非常興奮",
+    "answerEntryId": "u7:excited",
+    "distractorEntryIds": [
+     "u7:exciting",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "When our favorite singer walked onto the stage, all of us were too excited to sit down."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Jay was so ___ about the coming field trip that he packed his bag two days early.",
+     "translation": "Jay 對即將到來的校外教學興奮不已，提早兩天就收拾好行囊。",
+     "clue": "對活動非常期待（人）",
+     "answerEntryId": "u7:excited",
+     "distractorEntryIds": [
+      "u7:unhappy",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Jay was so excited about the coming field trip that he packed his bag two days early."
+    },
+    {
+     "sentence": "Grandpa sounded really ___ on the phone when he heard about the new grandchild.",
+     "translation": "聽到新孫子出生時，爺爺在電話裡聽起來非常興奮。",
+     "clue": "好消息讓人（人）興奮",
+     "answerEntryId": "u7:excited",
+     "distractorEntryIds": [
+      "u7:angry",
+      "u7:lonely",
+      "u7:unhappy"
+     ],
+     "fullSentence": "Grandpa sounded really excited on the phone when he heard about the new grandchild."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The players were ___ to meet their favorite star after the big game.",
+     "translation": "球員們賽後見到最愛的球星感到很興奮。",
+     "clue": "be ___ to do 表示興奮地做某事（修飾人）",
+     "answerEntryId": "u7:excited",
+     "distractorEntryIds": [
+      "u7:exciting",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "The players were excited to meet their favorite star after the big game."
+    },
+    {
+     "sentence": "Nobody in the quiet reading room looked ___ ; everyone kept their eyes on their books.",
+     "translation": "安靜的閱覽室裡沒有人看起來很興奮；大家都盯著自己的書。",
+     "clue": "修飾人的神情（人）⇒ -ed",
+     "answerEntryId": "u7:excited",
+     "distractorEntryIds": [
+      "u7:exciting",
+      "u7:terrible",
+      "u7:lonely"
+     ],
+     "fullSentence": "Nobody in the quiet reading room looked excited ; everyone kept their eyes on their books."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the museum looked old and gray outside, the kids came out asking questions, clearly ___ about what they saw.",
+    "translation": "雖然博物館外觀灰舊，孩子們出來時不停問問題，顯然對所見非常興奮。",
+    "clue": "主詞是 kids（人）⇒ -ed；exciting 修飾事物",
+    "answerEntryId": "u7:excited",
+    "distractorEntryIds": [
+     "u7:exciting",
+     "u7:bored",
+     "u7:unhappy"
+    ],
+    "fullSentence": "Although the museum looked old and gray outside, the kids came out asking questions, clearly excited about what they saw."
+   }
+  },
+  {
+   "entryId": "u7:exciting",
+   "zh": "令人興奮的；刺激的",
+   "pos": "adjective",
+   "example": "The final minute of the game was really exciting.",
+   "exampleZh": "比賽最後一分鐘真的很刺激。",
+   "spellingHint": "e-x-c-i-t-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The final game between the two schools was so ___ that nobody left at halftime.",
+    "translation": "那場兩校對決的冠軍賽刺激到沒有人在中場離席。",
+    "clue": "讓人不肯離席的比賽很刺激",
+    "answerEntryId": "u7:exciting",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:lonely",
+     "u7:terrible"
+    ],
+    "fullSentence": "The final game between the two schools was so exciting that nobody left at halftime."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "That was the most ___ movie I have ever seen; I want to watch it again.",
+     "translation": "那是我看過最刺激的電影；我想再看一次。",
+     "clue": "修飾事物（電影）⇒ -ing",
+     "answerEntryId": "u7:exciting",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:bored",
+      "u7:lonely"
+     ],
+     "fullSentence": "That was the most exciting movie I have ever seen; I want to watch it again."
+    },
+    {
+     "sentence": "Fireworks over the river made a very ___ night for the whole town.",
+     "translation": "河上的煙火為全鎮帶來一個非常興奮刺激的夜晚。",
+     "clue": "修飾夜晚（事物）⇒ -ing",
+     "answerEntryId": "u7:exciting",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:terrible",
+      "u7:lonely"
+     ],
+     "fullSentence": "Fireworks over the river made a very exciting night for the whole town."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "My uncle told us ___ stories about climbing snowy mountains.",
+     "translation": "我叔叔告訴我們雪中高山的故事 — 非常刺激。",
+     "clue": "修飾故事（事物）⇒ -ing",
+     "answerEntryId": "u7:exciting",
+     "distractorEntryIds": [
+      "u7:bored",
+      "u7:cruel",
+      "u7:lonely"
+     ],
+     "fullSentence": "My uncle told us exciting stories about climbing snowy mountains."
+    },
+    {
+     "sentence": "The small village is quiet at night, but the city never stops being ___.",
+     "translation": "小村莊晚上很安靜，但城市夜晚從不停止它的熱鬧刺激。",
+     "clue": "village 的 quiet 對比 city 的刺激",
+     "answerEntryId": "u7:exciting",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:lonely",
+      "u7:scared"
+     ],
+     "fullSentence": "The small village is quiet at night, but the city never stops being exciting."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The ride itself was not really ___ , but the children screamed because they were thrilled.",
+    "translation": "設施本身並不特別刺激，孩子們尖叫是因為他們太興奮。",
+    "clue": "主詞是 ride（事物）⇒ -ing；excited 修飾人",
+    "answerEntryId": "u7:exciting",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:interested",
+     "u7:lonely"
+    ],
+    "fullSentence": "The ride itself was not really exciting , but the children screamed because they were thrilled."
+   }
+  },
+  {
+   "entryId": "u7:express",
+   "zh": "表達；表示",
+   "pos": "verb",
+   "example": "Words sometimes fail to express how thankful we are.",
+   "exampleZh": "言語有時無法表達我們的感激。",
+   "spellingHint": "e-x-p-r-e-s-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Mia gave her mother a big hug to ___ her thanks.",
+    "translation": "Mia 給媽媽一個大擁抱來表達謝意。",
+    "clue": "用擁抱來表達謝意",
+    "answerEntryId": "u7:express",
+    "distractorEntryIds": [
+     "u32:thank",
+     "u13:repeat",
+     "u13:copy"
+    ],
+    "fullSentence": "Mia gave her mother a big hug to express her thanks."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Some people ___ anger by shouting, and others by going quiet.",
+     "translation": "有些人用大叫表達怒氣，有些人用沉默。",
+     "clue": "用某種方式表達怒氣",
+     "answerEntryId": "u7:express",
+     "distractorEntryIds": [
+      "u1:nod",
+      "u1:walk",
+      "u32:wait"
+     ],
+     "fullSentence": "Some people express anger by shouting, and others by going quiet."
+    },
+    {
+     "sentence": "It is hard to ___ my thanks in just a few words.",
+     "translation": "很難用幾句話就表達我的謝意。",
+     "clue": "用言語表達謝意",
+     "answerEntryId": "u7:express",
+     "distractorEntryIds": [
+      "u14:win",
+      "u17:buy",
+      "u14:lose"
+     ],
+     "fullSentence": "It is hard to express my thanks in just a few words."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Very young children often cannot ___ their feelings with words alone.",
+     "translation": "幼兒往往無法單用言語表達自己的感受。",
+     "clue": "用言語表達感受",
+     "answerEntryId": "u7:express",
+     "distractorEntryIds": [
+      "u7:confuse",
+      "u7:please",
+      "u7:satisfy"
+     ],
+     "fullSentence": "Very young children often cannot express their feelings with words alone."
+    },
+    {
+     "sentence": "In art class we learned how painters ___ sadness through dark colors and slow lines.",
+     "translation": "我們在美術課學到畫家如何用深色和慢線條表達悲傷。",
+     "clue": "用色彩線條表達情緒",
+     "answerEntryId": "u7:express",
+     "distractorEntryIds": [
+      "u7:excite",
+      "u32:thank",
+      "u7:satisfy"
+     ],
+     "fullSentence": "In art class we learned how painters express sadness through dark colors and slow lines."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "He did not ___ his opinion directly; instead, he asked questions that led us to think.",
+    "translation": "他沒有直接表達意見，而是用問題引導我們思考。",
+    "clue": "directly 修飾的是表達意見的方式",
+    "answerEntryId": "u7:express",
+    "distractorEntryIds": [
+     "u13:copy",
+     "u13:underline",
+     "u13:repeat"
+    ],
+    "fullSentence": "He did not express his opinion directly; instead, he asked questions that led us to think."
+   }
+  },
+  {
+   "entryId": "u7:fear",
+   "zh": "恐懼；害怕",
+   "pos": "noun",
+   "example": "The dark forest filled the lost boy with fear.",
+   "exampleZh": "黑暗的森林讓迷路的男孩充滿恐懼。",
+   "spellingHint": "f-e-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The dark forest filled the lost boy with ___ , and his legs would not move.",
+    "translation": "黑暗的森林讓迷路的男孩充满恐懼，雙腿動彈不得。",
+    "clue": "be filled with ___ 充滿恐懼",
+    "answerEntryId": "u7:fear",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:anger",
+     "u7:envy"
+    ],
+    "fullSentence": "The dark forest filled the lost boy with fear , and his legs would not move."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "He spoke in a very quiet voice because of his ___ of his strict father.",
+     "translation": "他因為害怕嚴格的爸爸，連說話都不敢大聲。",
+     "clue": "because of one's ___ of 表示因害怕",
+     "answerEntryId": "u7:fear",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:surprise",
+      "u7:patience"
+     ],
+     "fullSentence": "He spoke in a very quiet voice because of his fear of his strict father."
+    },
+    {
+     "sentence": "Her biggest ___ is standing up and speaking in front of the whole class.",
+     "translation": "她最害怕的事就是站起來在全班面前說話。",
+     "clue": "最害怕的事",
+     "answerEntryId": "u7:fear",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:surprise",
+      "u7:tension"
+     ],
+     "fullSentence": "Her biggest fear is standing up and speaking in front of the whole class."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "To finish the mountain climb, we must learn to deal with our ___ of high places.",
+     "translation": "要完成這次登山，我們必須學會面對對高處的恐懼。",
+     "clue": "對高處的恐懼",
+     "answerEntryId": "u7:fear",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:envy",
+      "u7:patience"
+     ],
+     "fullSentence": "To finish the mountain climb, we must learn to deal with our fear of high places."
+    },
+    {
+     "sentence": "Even the strongest soldier felt a sudden ___ when the ground began to shake.",
+     "translation": "地面開始搖晃時，連最強壯的士兵都突然感到恐懼。",
+     "clue": "地震時突然湧上的恐懼",
+     "answerEntryId": "u7:fear",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:joy",
+      "u7:surprise"
+     ],
+     "fullSentence": "Even the strongest soldier felt a sudden fear when the ground began to shake."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The guide said ___ of the dark is natural, but together we can walk through the cave.",
+    "translation": "嚮導說怕黑是很自然的，但我們一起就能走過這個洞穴。",
+    "clue": "怕黑這種情緒作主詞",
+    "answerEntryId": "u7:fear",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:envy",
+     "u7:surprise"
+    ],
+    "fullSentence": "The guide said fear of the dark is natural, but together we can walk through the cave."
+   }
+  },
+  {
+   "entryId": "u7:feeling",
+   "zh": "感覺；感受",
+   "pos": "noun",
+   "example": "I have a good feeling about this new class.",
+   "exampleZh": "我對這門新課有很好的感覺。",
+   "spellingHint": "f-e-e-l-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After the long walk in the rain, I lost all ___ in my toes.",
+    "translation": "在雨中走了很久之後，我的腳趾完全失去感覺。",
+    "clue": "身體失去的感覺",
+    "answerEntryId": "u7:feeling",
+    "distractorEntryIds": [
+     "u1:sight",
+     "u1:voice",
+     "u13:knowledge"
+    ],
+    "fullSentence": "After the long walk in the rain, I lost all feeling in my toes."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A soft blanket gives me a warm and comfortable ___ .",
+     "translation": "柔軟的毯子給我溫暖舒適的感覺。",
+     "clue": "毯子帶來的觸感體驗",
+     "answerEntryId": "u7:feeling",
+     "distractorEntryIds": [
+      "u1:sight",
+      "u13:pressure",
+      "u19:gift"
+     ],
+     "fullSentence": "A soft blanket gives me a warm and comfortable feeling ."
+    },
+    {
+     "sentence": "The cold medicine made his tongue lose its ___ , so the food tasted like paper.",
+     "translation": "感冒藥讓他的舌頭失去味覺，所以食物吃起來像紙。",
+     "clue": "舌頭失去的感覺",
+     "answerEntryId": "u7:feeling",
+     "distractorEntryIds": [
+      "u1:sign",
+      "u13:pressure",
+      "u31:silence"
+     ],
+     "fullSentence": "The cold medicine made his tongue lose its feeling , so the food tasted like paper."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "My ___ tells me this cheap watch will break within a week.",
+     "translation": "我的直覺告訴我這支便宜的手錶一週內就會壞。",
+     "clue": "內心的直覺感受",
+     "answerEntryId": "u7:feeling",
+     "distractorEntryIds": [
+      "u31:choice",
+      "u17:price",
+      "u31:dream"
+     ],
+     "fullSentence": "My feeling tells me this cheap watch will break within a week."
+    },
+    {
+     "sentence": "I had a bad ___ about that deal, and sure enough, the company closed the next week.",
+     "translation": "我對那筆交易有種不好的預感，果然公司下週就倒了。",
+     "clue": "a bad ___ 表示不好的預感",
+     "answerEntryId": "u7:feeling",
+     "distractorEntryIds": [
+      "u31:choice",
+      "u19:gift",
+      "u31:peace"
+     ],
+     "fullSentence": "I had a bad feeling about that deal, and sure enough, the company closed the next week."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Walking into the old wooden temple gives most visitors a quiet ___ of another century.",
+    "translation": "走進這座老木廟，多數訪客會有一種彷彿回到另一個世紀的靜謐感受。",
+    "clue": "gives a quiet ___ of 表示帶來一種感受",
+    "answerEntryId": "u7:feeling",
+    "distractorEntryIds": [
+     "u31:choice",
+     "u31:confusion",
+     "u13:pressure"
+    ],
+    "fullSentence": "Walking into the old wooden temple gives most visitors a quiet feeling of another century."
+   }
+  },
+  {
+   "entryId": "u7:frighten",
+   "zh": "使驚嚇；使害怕",
+   "pos": "verb",
+   "example": "Loud thunder can frighten small animals.",
+   "exampleZh": "大聲的雷聲會嚇到小動物。",
+   "spellingHint": "f-r-i-g-h-t-e-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Horror movies are designed to ___ the brave people who watch them.",
+    "translation": "恐怖片就是設計來嚇那些膽大的觀眾。",
+    "clue": "恐怖片的目的是嚇人",
+    "answerEntryId": "u7:frighten",
+    "distractorEntryIds": [
+     "u7:please",
+     "u7:satisfy",
+     "u7:confuse"
+    ],
+    "fullSentence": "Horror movies are designed to frighten the brave people who watch them."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Did the loud midnight thunder ___ you last night?",
+     "translation": "昨晚大聲的雷聲有嚇到你嗎？",
+     "clue": "巨響使人受驚",
+     "answerEntryId": "u7:frighten",
+     "distractorEntryIds": [
+      "u1:knock",
+      "u1:push",
+      "u1:clap"
+     ],
+     "fullSentence": "Did the loud midnight thunder frighten you last night?"
+    },
+    {
+     "sentence": "Take off that scary mask, or you will ___ the baby.",
+     "translation": "把那個可怕的面具拿掉，不然你會嚇到寶寶。",
+     "clue": "可怕的面具會嚇到人",
+     "answerEntryId": "u7:frighten",
+     "distractorEntryIds": [
+      "u7:please",
+      "u7:satisfy",
+      "u32:thank"
+     ],
+     "fullSentence": "Take off that scary mask, or you will frighten the baby."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Farmers put bright lights in the rice fields to ___ the birds away.",
+     "translation": "農夫在稻田裡放亮燈來嚇走鳥類。",
+     "clue": "___ away 表示把鳥嚇跑",
+     "answerEntryId": "u7:frighten",
+     "distractorEntryIds": [
+      "u7:please",
+      "u7:satisfy",
+      "u7:confuse"
+     ],
+     "fullSentence": "Farmers put bright lights in the rice fields to frighten the birds away."
+    },
+    {
+     "sentence": "The sudden sound of thunder ___ the horses, and they began to run.",
+     "translation": "突然的雷聲嚇到了馬群，牠們開始奔跑。",
+     "clue": "嚇到馬使牠們奔跑",
+     "answerEntryId": "u7:frighten",
+     "distractorEntryIds": [
+      "u1:push",
+      "u1:knock",
+      "u1:clap"
+     ],
+     "fullSentence": "The sudden sound of thunder frighten the horses, and they began to run."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The haunted house uses cold air and strange sounds to ___ its visitors, never to hurt them.",
+    "translation": "鬼屋用冷風和怪聲音來嚇訪客，絕不傷害他們。",
+    "clue": "嚇人與傷人的對比",
+    "answerEntryId": "u7:frighten",
+    "distractorEntryIds": [
+     "u7:please",
+     "u7:satisfy",
+     "u7:excite"
+    ],
+    "fullSentence": "The haunted house uses cold air and strange sounds to frighten its visitors, never to hurt them."
+   }
+  },
+  {
+   "entryId": "u7:glad",
+   "zh": "高興的；樂意的",
+   "pos": "adjective",
+   "example": "I am glad you could come to my birthday party.",
+   "exampleZh": "很高興你能來我的生日會。",
+   "spellingHint": "g-l-a-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We were ___ to hear that Grandma left the hospital and felt much better.",
+    "translation": "聽到祖母出院而且好多了，我們都很高興。",
+    "clue": "好消息讓人高興",
+    "answerEntryId": "u7:glad",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:busy",
+     "u7:afraid"
+    ],
+    "fullSentence": "We were glad to hear that Grandma left the hospital and felt much better."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I am so ___ that you like the gift I chose for you.",
+     "translation": "我很高興你喜歡我為你挑的禮物。",
+     "clue": "對方喜歡禮物讓人高興",
+     "answerEntryId": "u7:glad",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "I am so glad that you like the gift I chose for you."
+    },
+    {
+     "sentence": "Please sit down and rest; I am ___ to help you carry the heavy box.",
+     "translation": "請坐；我很樂意幫你提那個重箱子。",
+     "clue": "be ___ to do 表示樂意做某事",
+     "answerEntryId": "u7:glad",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:unhappy",
+      "u7:afraid"
+     ],
+     "fullSentence": "Please sit down and rest; I am glad to help you carry the heavy box."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "She was ___ to see her old friend arrive at the station after ten years.",
+     "translation": "十年後在車站見到老朋友抵达，她很高興。",
+     "clue": "十年重逢的喜悅",
+     "answerEntryId": "u7:glad",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "She was glad to see her old friend arrive at the station after ten years."
+    },
+    {
+     "sentence": "The teacher was ___ that every student remembered to bring his or her own book.",
+     "translation": "老師很高興每個學生都記得帶自己的課本。",
+     "clue": "學生都守規矩讓老師高興",
+     "answerEntryId": "u7:glad",
+     "distractorEntryIds": [
+      "u7:angry",
+      "u7:lonely",
+      "u7:busy"
+     ],
+     "fullSentence": "The teacher was glad that every student remembered to bring his or her own book."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "I am ___ that you asked before borrowing my notes, because most people never even knock.",
+    "translation": "你借筆記前先問過我，我很高興——大部分人都直接拿走。",
+    "clue": "對方有禮貌讓人樂意借",
+    "answerEntryId": "u7:glad",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:nervous",
+     "u7:terrible"
+    ],
+    "fullSentence": "I am glad that you asked before borrowing my notes, because most people never even knock."
+   }
+  },
+  {
+   "entryId": "u7:happy",
+   "zh": "快樂的；高興的",
+   "pos": "adjective",
+   "example": "The children are happy when they play in the park together.",
+   "exampleZh": "孩子們一起在公園裡玩時很快樂。",
+   "spellingHint": "h-a-p-p-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Mia was so ___ about her new bicycle that she rode it every afternoon.",
+    "translation": "Mia 對她的新腳踏車非常滿意，每天下午都騎。",
+    "clue": "be ___ about 表示對某事感到高興",
+    "answerEntryId": "u7:happy",
+    "distractorEntryIds": [
+     "u7:unhappy",
+     "u7:lonely",
+     "u7:terrible"
+    ],
+    "fullSentence": "Mia was so happy about her new bicycle that she rode it every afternoon."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A ___ birthday to my best friend in the whole world!",
+     "translation": "祝世界上最好的朋友生日快樂！",
+     "clue": "___ birthday 生日快樂的固定說法",
+     "answerEntryId": "u7:happy",
+     "distractorEntryIds": [
+      "u7:terrible",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "A happy birthday to my best friend in the whole world!"
+    },
+    {
+     "sentence": "The puppy wagged its little tail because it was ___.",
+     "translation": "小狗搖著小尾巴，因為牠很開心。",
+     "clue": "搖尾巴表示開心",
+     "answerEntryId": "u7:happy",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:hungry",
+      "u7:lonely"
+     ],
+     "fullSentence": "The puppy wagged its little tail because it was happy."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Ken was ___ with his test result, even though it was not perfect.",
+     "translation": "Ken 對考試成績感到滿意，雖然並不完美。",
+     "clue": "be ___ with 表示對…滿意",
+     "answerEntryId": "u7:happy",
+     "distractorEntryIds": [
+      "u7:unhappy",
+      "u7:afraid",
+      "u7:lonely"
+     ],
+     "fullSentence": "Ken was happy with his test result, even though it was not perfect."
+    },
+    {
+     "sentence": "Watching the sunset by the sea is a ___ way to end a summer day.",
+     "translation": "在海邊看夕陽是結束夏日的一天很愉快的方式。",
+     "clue": "修飾 way（事物）的正面形容詞",
+     "answerEntryId": "u7:happy",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:terrible",
+      "u7:afraid"
+     ],
+     "fullSentence": "Watching the sunset by the sea is a happy way to end a summer day."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The movie ended sadly, but everyone left the cinema feeling ___ because the story gave them hope.",
+    "translation": "電影結局悲傷，但大家離開戲院時心情愉快，因為故事給了希望。",
+    "clue": "sad 結局卻帶來希望 ⇒ 心情愉快",
+    "answerEntryId": "u7:happy",
+    "distractorEntryIds": [
+     "u7:unhappy",
+     "u7:afraid",
+     "u7:lonely"
+    ],
+    "fullSentence": "The movie ended sadly, but everyone left the cinema feeling happy because the story gave them hope."
+   }
+  },
+  {
+   "entryId": "u7:hungry",
+   "zh": "飢餓的",
+   "pos": "adjective",
+   "example": "After the long game, all the players were very hungry.",
+   "exampleZh": "漫長的比賽後，球員們都餓壞了。",
+   "spellingHint": "h-u-n-g-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We skipped lunch, so by four o'clock everyone was ___.",
+    "translation": "我們沒吃午餐，所以四點時大家都很餓。",
+    "clue": "沒吃午餐自然會餓",
+    "answerEntryId": "u7:hungry",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:busy",
+     "u7:afraid"
+    ],
+    "fullSentence": "We skipped lunch, so by four o'clock everyone was hungry."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The baby cries when he is ___ or sleepy, so Mom always checks the clock first.",
+     "translation": "寶寶餓了或想睡時就會哭，所以媽媽總是先看時鐘。",
+     "clue": "嬰兒哭的兩個常見原因",
+     "answerEntryId": "u7:hungry",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "The baby cries when he is hungry or sleepy, so Mom always checks the clock first."
+    },
+    {
+     "sentence": "Is anyone ___ ? I can make some noodles right now.",
+     "translation": "有人餓了嗎？我現在就可以煮點麵。",
+     "clue": "要煮麵先問餓不餓",
+     "answerEntryId": "u7:hungry",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:busy",
+      "u7:afraid"
+     ],
+     "fullSentence": "Is anyone hungry ? I can make some noodles right now."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The smell of fresh bread made the boy's stomach growl; he was ___ than he thought.",
+     "translation": "現烤麵包的香味讓男孩的肚子咕咕叫；他比自己想的還餓。",
+     "clue": "肚子咕咕叫代表飢餓",
+     "answerEntryId": "u7:hungry",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:curious",
+      "u7:lonely"
+     ],
+     "fullSentence": "The smell of fresh bread made the boy's stomach growl; he was hungry than he thought."
+    },
+    {
+     "sentence": "Many people around the world go to bed ___ every night, so we should never waste food.",
+     "translation": "世界上有很多人每晚餓著入睡，所以我們不該浪費食物。",
+     "clue": "go to bed ___ 餓著入睡",
+     "answerEntryId": "u7:hungry",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:busy",
+      "u7:afraid"
+     ],
+     "fullSentence": "Many people around the world go to bed hungry every night, so we should never waste food."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "For ___ young learners, even a bus timetable is a chance to collect new words.",
+    "translation": "對求知若渴的年輕學習者來說，連公車時刻表都是收集新單字的機會。",
+    "clue": "___ learners 比喻求知若渴（學習的飢渴），非佩服或忙碌",
+    "answerEntryId": "u7:hungry",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:curious",
+     "u7:lonely"
+    ],
+    "fullSentence": "For hungry young learners, even a bus timetable is a chance to collect new words."
+   }
+  },
+  {
+   "entryId": "u7:interest",
+   "zh": "興趣",
+   "pos": "noun",
+   "example": "She shows a great interest in foreign languages.",
+   "exampleZh": "她對外語展現出濃厚的興趣。",
+   "spellingHint": "i-n-t-e-r-e-s-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "His ___ in dinosaurs began the day his father took him to the natural history museum.",
+    "translation": "他對恐龍的興趣始於爸爸帶他去自然史博物館那天。",
+    "clue": "對恐龍產生的興趣",
+    "answerEntryId": "u7:interest",
+    "distractorEntryIds": [
+     "u7:fear",
+     "u7:care",
+     "u7:envy"
+    ],
+    "fullSentence": "His interest in dinosaurs began the day his father took him to the natural history museum."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "My main ___ outside school is photography.",
+     "translation": "我課外最主要的興趣是攝影。",
+     "clue": "課餘投入的興趣",
+     "answerEntryId": "u7:interest",
+     "distractorEntryIds": [
+      "u7:care",
+      "u7:patience",
+      "u7:fear"
+     ],
+     "fullSentence": "My main interest outside school is photography."
+    },
+    {
+     "sentence": "The magic show kept the ___ of every child in the room.",
+     "translation": "魔術表演緊緊抓住了屋裡每個孩子的興趣。",
+     "clue": "keep one's ___ 表示維持某人興趣",
+     "answerEntryId": "u7:interest",
+     "distractorEntryIds": [
+      "u7:care",
+      "u7:patience",
+      "u7:envy"
+     ],
+     "fullSentence": "The magic show kept the interest of every child in the room."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "To hold the readers' ___ , good writers begin each chapter with a puzzle.",
+     "translation": "為了抓住讀者的興趣，好作家每章都以謎題開頭。",
+     "clue": "hold the readers' ___ 保持讀者興趣",
+     "answerEntryId": "u7:interest",
+     "distractorEntryIds": [
+      "u7:patience",
+      "u7:care",
+      "u7:fear"
+     ],
+     "fullSentence": "To hold the readers' interest , good writers begin each chapter with a puzzle."
+    },
+    {
+     "sentence": "The bank pays ___ on every dollar you leave in your savings account.",
+     "translation": "你存在帳戶裡的每一塊錢，銀行都會支付利息。",
+     "clue": "銀行為存款支付的利息",
+     "answerEntryId": "u7:interest",
+     "distractorEntryIds": [
+      "u17:money",
+      "u17:price",
+      "u17:prize"
+     ],
+     "fullSentence": "The bank pays interest on every dollar you leave in your savings account."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Because of a conflict of ___ , the judge handed the case to another court.",
+    "translation": "基於利益迴避，法官把案子移交另一個法庭。",
+    "clue": "conflict of ___ 利益衝突的固定用語",
+    "answerEntryId": "u7:interest",
+    "distractorEntryIds": [
+     "u7:care",
+     "u7:patience",
+     "u7:fear"
+    ],
+    "fullSentence": "Because of a conflict of interest , the judge handed the case to another court."
+   }
+  },
+  {
+   "entryId": "u7:interested",
+   "zh": "感興趣的",
+   "pos": "adjective",
+   "example": "I am interested in learning how planes stay in the sky.",
+   "exampleZh": "我有興趣了解飛機怎麼停在空中。",
+   "spellingHint": "i-n-t-e-r-e-s-t-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My sister is ___ in stars, so we bought her a small telescope for her birthday.",
+    "translation": "我妹妹對星星感興趣，所以我們買了小望遠鏡當她的生日禮物。",
+    "clue": "送望遠鏡是因為她（人）感興趣 ⇒ -ed",
+    "answerEntryId": "u7:interested",
+    "distractorEntryIds": [
+     "u7:interesting",
+     "u7:exciting",
+     "u7:lonely"
+    ],
+    "fullSentence": "My sister is interested in stars, so we bought her a small telescope for her birthday."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "He did not look ___ at all and walked away in the middle of my story.",
+     "translation": "他看起來一點也不感興趣，我故事講到一半他就走開了。",
+     "clue": "主詞是 he（人）⇒ -ed",
+     "answerEntryId": "u7:interested",
+     "distractorEntryIds": [
+      "u7:interesting",
+      "u7:exciting",
+      "u7:busy"
+     ],
+     "fullSentence": "He did not look interested at all and walked away in the middle of my story."
+    },
+    {
+     "sentence": "Are you ___ in joining our chess club this year?",
+     "translation": "你有興趣今年加入我們的西洋棋社嗎？",
+     "clue": "be ___ in doing 表示有興趣做某事",
+     "answerEntryId": "u7:interested",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:afraid",
+      "u7:busy"
+     ],
+     "fullSentence": "Are you interested in joining our chess club this year?"
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The tourists looked most ___ in the night market food, not in the old temples.",
+     "translation": "觀光客似乎對夜市小吃最感興趣，而不是老廟宇。",
+     "clue": "修飾人的感受（遊客）⇒ -ed",
+     "answerEntryId": "u7:interested",
+     "distractorEntryIds": [
+      "u7:interesting",
+      "u7:glad",
+      "u7:pleased"
+     ],
+     "fullSentence": "The tourists looked most interested in the night market food, not in the old temples."
+    },
+    {
+     "sentence": "Only two students raised their hands; the rest did not seem ___ in the question.",
+     "translation": "只有兩個學生舉手；其他人對那個問題似乎不感興趣。",
+     "clue": "修飾人（學生）⇒ -ed",
+     "answerEntryId": "u7:interested",
+     "distractorEntryIds": [
+      "u7:interesting",
+      "u7:glad",
+      "u7:nervous"
+     ],
+     "fullSentence": "Only two students raised their hands; the rest did not seem interested in the question."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The lecture was long, but the robot section kept everyone ___ until the very last minute.",
+    "translation": "那場演講很長，但機器人的部分讓每個人都感興趣到最後一刻。",
+    "clue": "keep + 人 + ___ 修飾人 ⇒ -ed",
+    "answerEntryId": "u7:interested",
+    "distractorEntryIds": [
+     "u7:interesting",
+     "u7:exciting",
+     "u7:pleased"
+    ],
+    "fullSentence": "The lecture was long, but the robot section kept everyone interested until the very last minute."
+   }
+  },
+  {
+   "entryId": "u7:interesting",
+   "zh": "有趣的",
+   "pos": "adjective",
+   "example": "That book has many interesting pictures of animals.",
+   "exampleZh": "那本書有很多有趣的動物圖片。",
+   "spellingHint": "i-n-t-e-r-e-s-t-i-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Our guide told us ___ facts about every old building on that street.",
+    "translation": "我們的導遊告訴我們那條街上每棟老建築的有趣故事。",
+    "clue": "修飾 facts（事物）⇒ -ing",
+    "answerEntryId": "u7:interesting",
+    "distractorEntryIds": [
+     "u7:interested",
+     "u7:excited",
+     "u7:cruel"
+    ],
+    "fullSentence": "Our guide told us interesting facts about every old building on that street."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Whales can sleep while they swim; that is a truly ___ fact!",
+     "translation": "鯨魚能邊游邊睡——真是個有趣的事實！",
+     "clue": "修飾 fact（事物）⇒ -ing",
+     "answerEntryId": "u7:interesting",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:cruel",
+      "u7:terrible"
+     ],
+     "fullSentence": "Whales can sleep while they swim; that is a truly interesting fact!"
+    },
+    {
+     "sentence": "Grandpa's stories about his childhood village are always ___.",
+     "translation": "爺爺講他老家村莊的故事總是很有趣。",
+     "clue": "修飾 stories（事物）⇒ -ing",
+     "answerEntryId": "u7:interesting",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "Grandpa's stories about his childhood village are always interesting."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Museums try to make science ___ for children who think it is too hard.",
+     "translation": "博物館努力讓科學對覺得太難的孩子變得有趣。",
+     "clue": "make + 事物 + ___（修飾科學）⇒ -ing",
+     "answerEntryId": "u7:interesting",
+     "distractorEntryIds": [
+      "u7:exciting",
+      "u7:interested",
+      "u7:cruel"
+     ],
+     "fullSentence": "Museums try to make science interesting for children who think it is too hard."
+    },
+    {
+     "sentence": "The oldest clock in the museum is more ___ than any movie I have seen this year.",
+     "translation": "博物館裡最老的鐘比今年我看過的任何電影都更有趣。",
+     "clue": "more ___ than 修飾 clock（事物）⇒ -ing",
+     "answerEntryId": "u7:interesting",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:busy",
+      "u17:cheap"
+     ],
+     "fullSentence": "The oldest clock in the museum is more interesting than any movie I have seen this year."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Her opening question sounded ___ , but the answer she gave surprised everyone even more.",
+    "translation": "她的開場問題聽起來很有意思，但她給的答案卻讓大家更吃驚。",
+    "clue": "修飾 question（事物）⇒ -ing",
+    "answerEntryId": "u7:interesting",
+    "distractorEntryIds": [
+     "u7:interested",
+     "u7:excited",
+     "u7:crazy"
+    ],
+    "fullSentence": "Her opening question sounded interesting , but the answer she gave surprised everyone even more."
+   }
+  },
+  {
+   "entryId": "u7:jealous",
+   "zh": "忌妒的；羨慕的",
+   "pos": "adjective",
+   "example": "He was jealous when his friend got a higher score.",
+   "exampleZh": "他朋友考得更高分時，他很忌妒。",
+   "spellingHint": "j-e-a-l-o-u-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Ken was ___ of his younger brother because everyone praised the little one.",
+    "translation": "Ken 忌妒他的弟弟，因為大家都稱讚小弟弟。",
+    "clue": "be ___ of 表示忌妒某人",
+    "answerEntryId": "u7:jealous",
+    "distractorEntryIds": [
+     "u7:afraid",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "Ken was jealous of his younger brother because everyone praised the little one."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She gets ___ whenever other classmates borrow her best friend at lunch.",
+     "translation": "午休時有同學約她最好的朋友，她就會忌妒。",
+     "clue": "友情被分享時的不服氣",
+     "answerEntryId": "u7:jealous",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:glad",
+      "u7:busy"
+     ],
+     "fullSentence": "She gets jealous whenever other classmates borrow her best friend at lunch."
+    },
+    {
+     "sentence": "Do not be ___ ; your turn to play the new game will come soon.",
+     "translation": "別忌妒；很快就會輪到你玩。",
+     "clue": "叫人不要忌妒",
+     "answerEntryId": "u7:jealous",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "Do not be jealous ; your turn to play the new game will come soon."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Some people feel ___ of their classmates' success instead of working harder themselves.",
+     "translation": "有些人忌妒同學的成功，而不是自己更努力。",
+     "clue": "對他人成就的忌妒",
+     "answerEntryId": "u7:jealous",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:curious",
+      "u7:pleased"
+     ],
+     "fullSentence": "Some people feel jealous of their classmates' success instead of working harder themselves."
+    },
+    {
+     "sentence": "The old cat grew ___ whenever its owner hugged the new puppy.",
+     "translation": "每當主人抱起新來的小狗，老貓就會忌妒。",
+     "clue": "寵物間的忌妒",
+     "answerEntryId": "u7:jealous",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:scared",
+      "u7:busy"
+     ],
+     "fullSentence": "The old cat grew jealous whenever its owner hugged the new puppy."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A ___ friend smiles at you but feels unhappy inside whenever good things happen to you.",
+    "translation": "忌妒的朋友會對你微笑，但每當好事發生在你身上，他心裡並不好受。",
+    "clue": "表面祝福、內心不甘的修飾語",
+    "answerEntryId": "u7:jealous",
+    "distractorEntryIds": [
+     "u7:cruel",
+     "u7:lonely",
+     "u7:busy"
+    ],
+    "fullSentence": "A jealous friend smiles at you but feels unhappy inside whenever good things happen to you."
+   }
+  },
+  {
+   "entryId": "u7:joy",
+   "zh": "喜悅；歡樂",
+   "pos": "noun",
+   "example": "The children shouted with joy when school ended early.",
+   "exampleZh": "學校提早放學時，孩子們開心的大叫。",
+   "spellingHint": "j-o-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "When the lost dog finally came home, tears of ___ ran down the girl's face.",
+    "translation": "走失的狗終於回家時，女孩臉上流下喜悅的眼淚。",
+    "clue": "tears of ___ 喜悅的眼淚",
+    "answerEntryId": "u7:joy",
+    "distractorEntryIds": [
+     "u7:fear",
+     "u7:surprise",
+     "u7:anger"
+    ],
+    "fullSentence": "When the lost dog finally came home, tears of joy ran down the girl's face."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The winning team jumped with ___ right after the final goal.",
+     "translation": "終場進球後，獲勝的隊伍開心到跳起來。",
+     "clue": "贏球那一刻的歡樂",
+     "answerEntryId": "u7:joy",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:surprise",
+      "u7:patience"
+     ],
+     "fullSentence": "The winning team jumped with joy right after the final goal."
+    },
+    {
+     "sentence": "Grandma says cooking for the whole family on Sunday is a simple ___ .",
+     "translation": "奶奶說週日為全家人做飯是一種單純的樂趣。",
+     "clue": "生活中的小樂趣",
+     "answerEntryId": "u7:joy",
+     "distractorEntryIds": [
+      "u7:care",
+      "u7:patience",
+      "u7:fear"
+     ],
+     "fullSentence": "Grandma says cooking for the whole family on Sunday is a simple joy ."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Giving, not just receiving, brings people true ___ .",
+     "translation": "給予而不只是接受，才能帶來真正的喜悅。",
+     "clue": "給予帶來的內心喜悅",
+     "answerEntryId": "u7:joy",
+     "distractorEntryIds": [
+      "u7:surprise",
+      "u7:patience",
+      "u7:fear"
+     ],
+     "fullSentence": "Giving, not just receiving, brings people true joy ."
+    },
+    {
+     "sentence": "The old song filled the hall with ___ , and nobody wanted to go home.",
+     "translation": "那首老歌讓大廳洋溢歡樂，沒有人想回家。",
+     "clue": "充滿大廳的歡樂",
+     "answerEntryId": "u7:joy",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:surprise",
+      "u7:envy"
+     ],
+     "fullSentence": "The old song filled the hall with joy , and nobody wanted to go home."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Short pleasure fades fast, but the ___ of watching your own child learn lasts for years.",
+    "translation": "短暫的快樂很快就消逝，但看著自己的小孩成長學習的喜悅能持續好幾年。",
+    "clue": "與 fades fast 相對的長久情感",
+    "answerEntryId": "u7:joy",
+    "distractorEntryIds": [
+     "u7:surprise",
+     "u7:tension",
+     "u7:patience"
+    ],
+    "fullSentence": "Short pleasure fades fast, but the joy of watching your own child learn lasts for years."
+   }
+  },
+  {
+   "entryId": "u7:lonely",
+   "zh": "孤單的；寂寞的",
+   "pos": "adjective",
+   "example": "Old people often feel lonely when their children move away.",
+   "exampleZh": "孩子搬走後，老人常常覺得孤單。",
+   "spellingHint": "l-o-n-e-l-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "He lived alone on the small island for years and often felt ___ at night.",
+    "translation": "他獨自在小島上住了好幾年，夜晚常常感到孤單。",
+    "clue": "獨居者夜晚的孤單",
+    "answerEntryId": "u7:lonely",
+    "distractorEntryIds": [
+     "u7:happy",
+     "u7:busy",
+     "u7:afraid"
+    ],
+    "fullSentence": "He lived alone on the small island for years and often felt lonely at night."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The new student ate lunch alone and looked ___ , so we invited him to join us.",
+     "translation": "新生獨自吃午餐，看起來很孤單，所以我們邀他一起。",
+     "clue": "獨自吃飯的孤單樣子",
+     "answerEntryId": "u7:lonely",
+     "distractorEntryIds": [
+      "u7:hungry",
+      "u7:angry",
+      "u7:afraid"
+     ],
+     "fullSentence": "The new student ate lunch alone and looked lonely , so we invited him to join us."
+    },
+    {
+     "sentence": "Grandma keeps a small dog so she will not feel ___ at home.",
+     "translation": "奶奶養了隻小狗，這樣在家就不會感到寂寞。",
+     "clue": "養狗排解寂寞",
+     "answerEntryId": "u7:lonely",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:busy",
+      "u7:hungry"
+     ],
+     "fullSentence": "Grandma keeps a small dog so she will not feel lonely at home."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "You can feel ___ in a noisy classroom if nobody talks to you.",
+     "translation": "在吵鬧的教室裡如果沒有人理你，也可能感到孤單。",
+     "clue": "人多的地方也可能寂寞",
+     "answerEntryId": "u7:lonely",
+     "distractorEntryIds": [
+      "u7:angry",
+      "u7:nervous",
+      "u7:afraid"
+     ],
+     "fullSentence": "You can feel lonely in a noisy classroom if nobody talks to you."
+    },
+    {
+     "sentence": "The lighthouse keeper wrote a long letter every week because his days were quiet and ___.",
+     "translation": "燈塔看守員每週寫一封長信，因為他的日子安靜又孤寂。",
+     "clue": "又安靜又孤寂的日子",
+     "answerEntryId": "u7:lonely",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:terrible",
+      "u7:crazy"
+     ],
+     "fullSentence": "The lighthouse keeper wrote a long letter every week because his days were quiet and lonely."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the beach town was full of tourists in summer, its empty winter streets left the shop owners feeling ___.",
+    "translation": "雖然海邊小鎮夏天擠滿觀光客，冬天空蕩的街道卻讓店家感到孤單。",
+    "clue": "觀光客走後的小鎮讓人孤單",
+    "answerEntryId": "u7:lonely",
+    "distractorEntryIds": [
+     "u7:angry",
+     "u7:unhappy",
+     "u7:afraid"
+    ],
+    "fullSentence": "Although the beach town was full of tourists in summer, its empty winter streets left the shop owners feeling lonely."
+   }
+  },
+  {
+   "entryId": "u7:mad",
+   "zh": "很生氣的；瘋狂的（口語）",
+   "pos": "adjective",
+   "example": "Mom was mad at me for breaking her favorite cup.",
+   "exampleZh": "媽媽因為我打破她的杯子而生我的氣。",
+   "spellingHint": "m-a-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Dad will be ___ if he finds out we used his car without asking.",
+    "translation": "如果爸爸發現我們沒問就開他的車，他會很生氣。",
+    "clue": "口語的「很生氣」",
+    "answerEntryId": "u7:mad",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "Dad will be mad if he finds out we used his car without asking."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She was ___ at her brother for reading her diary without asking.",
+     "translation": "她因為哥哥偷看她的日記而很生氣。",
+     "clue": "be ___ at 口語生氣",
+     "answerEntryId": "u7:mad",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:glad",
+      "u7:lonely"
+     ],
+     "fullSentence": "She was mad at her brother for reading her diary without asking."
+    },
+    {
+     "sentence": "The little boy went ___ with happiness when he saw the puppy under the tree.",
+     "translation": "小男孩看到樹下的小狗，高興得快瘋了。",
+     "clue": "go ___ 高興到瘋狂",
+     "answerEntryId": "u7:mad",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "The little boy went mad with happiness when he saw the puppy under the tree."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "It will ___ you completely when people keep talking during a great movie in the theater.",
+     "translation": "在電影院看精彩電影時有人一直說話，一定會讓你抓狂。",
+     "clue": "drive + 人 + ___ 使人抓狂",
+     "answerEntryId": "u7:mad",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "It will mad you completely when people keep talking during a great movie in the theater."
+    },
+    {
+     "sentence": "People once believed that flying machines were only a dream of ___ inventors.",
+     "translation": "人們曾一度認為飛行器只是瘋狂發明家的夢想。",
+     "clue": "修飾 inventors（因狂想而不被理解的人）",
+     "answerEntryId": "u7:mad",
+     "distractorEntryIds": [
+      "u7:terrible",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "People once believed that flying machines were only a dream of mad inventors."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Do not get ___ with me about the pen; I only borrowed it, and your book is still on your desk.",
+    "translation": "別為了那支筆對我發火；我只是借用，你的書還在桌上。",
+    "clue": "get ___ at 口語生氣",
+    "answerEntryId": "u7:mad",
+    "distractorEntryIds": [
+     "u7:crazy",
+     "u7:lonely",
+     "u7:hungry"
+    ],
+    "fullSentence": "Do not get mad with me about the pen; I only borrowed it, and your book is still on your desk."
+   }
+  },
+  {
+   "entryId": "u7:nervous",
+   "zh": "緊張的",
+   "pos": "adjective",
+   "example": "I always feel nervous before a math test.",
+   "exampleZh": "數學考試前我總是很緊張。",
+   "spellingHint": "n-e-r-v-o-u-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Tina felt ___ before her first piano contest, and her hands were shaking a little.",
+    "translation": "Tina 第一次鋼琴比賽前很緊張，手都有些發抖。",
+    "clue": "手發抖＝緊張",
+    "answerEntryId": "u7:nervous",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "Tina felt nervous before her first piano contest, and her hands were shaking a little."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Do not be ___ ; the dentist only wants to check your teeth.",
+     "translation": "別緊張；牙醫只是要檢查你的牙齒。",
+     "clue": "看牙醫前的緊張",
+     "answerEntryId": "u7:nervous",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Do not be nervous ; the dentist only wants to check your teeth."
+    },
+    {
+     "sentence": "He got ___ when the teacher called his name out in class.",
+     "translation": "老師在課堂上點他的名字時，他變得很緊張。",
+     "clue": "被點名時的緊張",
+     "answerEntryId": "u7:nervous",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:hungry"
+     ],
+     "fullSentence": "He got nervous when the teacher called his name out in class."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Speaking in front of a hundred people makes most students ___ .",
+     "translation": "在一百個人面前說話讓大部分學生緊張。",
+     "clue": "公開演說讓人緊張",
+     "answerEntryId": "u7:nervous",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Speaking in front of a hundred people makes most students nervous ."
+    },
+    {
+     "sentence": "The little dog became ___ during the fireworks and hid under the bed until they stopped.",
+     "translation": "放煙火時小狗變得很緊張，躲到床底下直到煙火結束。",
+     "clue": "噪音讓寵物緊張而躲藏",
+     "answerEntryId": "u7:nervous",
+     "distractorEntryIds": [
+      "u7:hungry",
+      "u7:busy",
+      "u7:afraid"
+     ],
+     "fullSentence": "The little dog became nervous during the fireworks and hid under the bed until they stopped."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although she looked ___ when the music began, her voice grew stronger with every line of the song.",
+    "translation": "雖然音樂響起時她看起來很緊張，但她每唱一句就更有力。",
+    "clue": "開場緊張、逐漸轉強的對比",
+    "answerEntryId": "u7:nervous",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:afraid",
+     "u7:busy"
+    ],
+    "fullSentence": "Although she looked nervous when the music began, her voice grew stronger with every line of the song."
+   }
+  },
+  {
+   "entryId": "u7:patience",
+   "zh": "耐心",
+   "pos": "noun",
+   "example": "Teaching little kids needs a lot of patience.",
+   "exampleZh": "教小孩子需要很大的耐心。",
+   "spellingHint": "p-a-t-i-e-n-c-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fishing quietly by the river for hours teaches children ___ , because fish do not always bite.",
+    "translation": "在河邊安靜釣幾個小時的魚能教會孩子耐心，因為魚不會一直上鉤。",
+    "clue": "慢慢等魚上鉤需要耐心",
+    "answerEntryId": "u7:patience",
+    "distractorEntryIds": [
+     "u7:tension",
+     "u13:attention",
+     "u7:care"
+    ],
+    "fullSentence": "Fishing quietly by the river for hours teaches children patience , because fish do not always bite."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please have ___ ; the bus will arrive in five more minutes.",
+     "translation": "請有點耐心；公車再五分鐘就到。",
+     "clue": "have ___ 表示有耐心",
+     "answerEntryId": "u7:patience",
+     "distractorEntryIds": [
+      "u7:care",
+      "u13:pressure",
+      "u17:money"
+     ],
+     "fullSentence": "Please have patience ; the bus will arrive in five more minutes."
+    },
+    {
+     "sentence": "Grandpa read the same storybook again with great ___ , smiling at every page.",
+     "translation": "爺爺非常有耐心地把同一本故事書再讀一次，每頁都微笑。",
+     "clue": "with great ___ 表示非常有耐心",
+     "answerEntryId": "u7:patience",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:care",
+      "u13:pressure"
+     ],
+     "fullSentence": "Grandpa read the same storybook again with great patience , smiling at every page."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Learning a new language takes ___ ; you cannot speak it well in one week.",
+     "translation": "學新語言需要耐心；你不可能一週就說得流利。",
+     "clue": "take ___ 表示需要耐心",
+     "answerEntryId": "u7:patience",
+     "distractorEntryIds": [
+      "u7:care",
+      "u7:tension",
+      "u13:pressure"
+     ],
+     "fullSentence": "Learning a new language takes patience ; you cannot speak it well in one week."
+    },
+    {
+     "sentence": "The young nurse answered the old man's questions again and again without losing ___ .",
+     "translation": "年輕的護理師一次又一次回答老人的問題，沒有失去耐心。",
+     "clue": "lose ___ 失去耐心",
+     "answerEntryId": "u7:patience",
+     "distractorEntryIds": [
+      "u7:tension",
+      "u7:care",
+      "u7:joy"
+     ],
+     "fullSentence": "The young nurse answered the old man's questions again and again without losing patience ."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The puzzle had a thousand tiny pieces, and only a child with real ___ could finish it without giving up.",
+    "translation": "那副拼圖有一千個小片，只有真正有耐心的孩子才能不被打敗、拼完它。",
+    "clue": "千片拼圖最需要的是耐心",
+    "answerEntryId": "u7:patience",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u13:attention",
+     "u7:care"
+    ],
+    "fullSentence": "The puzzle had a thousand tiny pieces, and only a child with real patience could finish it without giving up."
+   }
+  },
+  {
+   "entryId": "u7:pleasant",
+   "zh": "令人愉快的；友善的",
+   "pos": "adjective",
+   "example": "We had a pleasant walk along the river last night.",
+   "exampleZh": "昨晚我們沿著河邊散步，非常愉快。",
+   "spellingHint": "p-l-e-a-s-a-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "A cool river wind made our long summer evening walk very ___ .",
+    "translation": "河邊涼爽的風讓我們夏日傍晚的長時間散步非常愉快。",
+    "clue": "涼風讓散步很舒服",
+    "answerEntryId": "u7:pleasant",
+    "distractorEntryIds": [
+     "u7:terrible",
+     "u7:lonely",
+     "u7:afraid"
+    ],
+    "fullSentence": "A cool river wind made our long summer evening walk very pleasant ."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The hotel staff gave us a ___ welcome with cold juice and soft towels.",
+     "translation": "飯店人員端上冰果汁和軟毛巾，歡迎得令人愉快。",
+     "clue": "讓人愉快的歡迎",
+     "answerEntryId": "u7:pleasant",
+     "distractorEntryIds": [
+      "u7:terrible",
+      "u7:busy",
+      "u7:afraid"
+     ],
+     "fullSentence": "The hotel staff gave us a pleasant welcome with cold juice and soft towels."
+    },
+    {
+     "sentence": "Have a ___ flight, and call us when you land in Tokyo.",
+     "translation": "祝你旅途愉快，到了東京落地後打給我們。",
+     "clue": "旅途愉快的祝福",
+     "answerEntryId": "u7:pleasant",
+     "distractorEntryIds": [
+      "u7:lonely",
+      "u7:busy",
+      "u7:terrible"
+     ],
+     "fullSentence": "Have a pleasant flight, and call us when you land in Tokyo."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Her ___ smile made every new student feel welcome on the first morning of school.",
+     "translation": "她親切愉快的微笑讓新生開學第一天就覺得受歡迎。",
+     "clue": "親切友善的微笑",
+     "answerEntryId": "u7:pleasant",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "Her pleasant smile made every new student feel welcome on the first morning of school."
+    },
+    {
+     "sentence": "Fresh cookies filled the whole house with a ___ smell.",
+     "translation": "現烤餅乾的香味讓整個屋子充滿好聞的氣味。",
+     "clue": "好聞的氣味",
+     "answerEntryId": "u7:pleasant",
+     "distractorEntryIds": [
+      "u7:terrible",
+      "u7:lonely",
+      "u7:crazy"
+     ],
+     "fullSentence": "Fresh cookies filled the whole house with a pleasant smell."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The train was slow and the seat was hard, but the company of old friends made the whole trip ___ .",
+    "translation": "火車又慢、座椅又硬，但有老朋友作伴，整趟旅程就很愉快。",
+    "clue": "but 轉折後描述的是愉快",
+    "answerEntryId": "u7:pleasant",
+    "distractorEntryIds": [
+     "u7:lonely",
+     "u7:afraid",
+     "u7:terrible"
+    ],
+    "fullSentence": "The train was slow and the seat was hard, but the company of old friends made the whole trip pleasant ."
+   }
+  },
+  {
+   "entryId": "u7:please",
+   "zh": "取悅；使高興",
+   "pos": "verb",
+   "example": "A small gift can please an old friend more than you think.",
+   "exampleZh": "一份小禮物能讓老朋友開心，勝過你想像。",
+   "spellingHint": "p-l-e-a-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The clown used his funniest jokes to ___ the children at the birthday party.",
+    "translation": "小丑用他最好笑的笑話逗生日會上的孩子們開心。",
+    "clue": "用笑話讓孩子高興",
+    "answerEntryId": "u7:please",
+    "distractorEntryIds": [
+     "u7:express",
+     "u7:confuse",
+     "u7:worry"
+    ],
+    "fullSentence": "The clown used his funniest jokes to please the children at the birthday party."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "You cannot ___ everybody, so just do what you know is right.",
+     "translation": "你無法討好每一個人，所以做你認為對的事就好。",
+     "clue": "討好每個人",
+     "answerEntryId": "u7:please",
+     "distractorEntryIds": [
+      "u7:express",
+      "u7:confuse",
+      "u7:worry"
+     ],
+     "fullSentence": "You cannot please everybody, so just do what you know is right."
+    },
+    {
+     "sentence": "Mia cooked her father's favorite dish to ___ him on his birthday.",
+     "translation": "Mia 煮了爸爸最愛的菜，在他生日時讓他開心。",
+     "clue": "煮愛吃的菜讓人高興",
+     "answerEntryId": "u7:please",
+     "distractorEntryIds": [
+      "u7:express",
+      "u7:confuse",
+      "u7:worry"
+     ],
+     "fullSentence": "Mia cooked her father's favorite dish to please him on his birthday."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Good manners are small actions that ___ the people around you and show your respect.",
+     "translation": "好禮貌是讓別人高興並表達尊重的小小舉動。",
+     "clue": "禮貌使人高興",
+     "answerEntryId": "u7:please",
+     "distractorEntryIds": [
+      "u7:express",
+      "u7:confuse",
+      "u7:worry"
+     ],
+     "fullSentence": "Good manners are small actions that please the people around you and show your respect."
+    },
+    {
+     "sentence": "The musicians played the old song one more time to ___ their longtime fans.",
+     "translation": "樂手們把老歌再演奏一次，取悅他們許多年的歌迷。",
+     "clue": "表演讓歌迷滿意高興",
+     "answerEntryId": "u7:please",
+     "distractorEntryIds": [
+      "u7:express",
+      "u7:confuse",
+      "u7:worry"
+     ],
+     "fullSentence": "The musicians played the old song one more time to please their longtime fans."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "He works late not to ___ his boss, but because he truly loves what he does.",
+    "translation": "他加班不是為了討好老闆，而是因為真心熱愛自己的工作。",
+    "clue": "討好老闆 vs 熱愛工作的對比",
+    "answerEntryId": "u7:please",
+    "distractorEntryIds": [
+     "u7:express",
+     "u7:confuse",
+     "u7:worry"
+    ],
+    "fullSentence": "He works late not to please his boss, but because he truly loves what he does."
+   }
+  },
+  {
+   "entryId": "u7:pleased",
+   "zh": "高興的；滿意的",
+   "pos": "adjective",
+   "example": "The teacher was pleased with our hard work this semester.",
+   "exampleZh": "老師對我們這學期的努力很滿意。",
+   "spellingHint": "p-l-e-a-s-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Mom was ___ with the birthday card her class made for her.",
+    "translation": "媽媽對學生為她做的生日卡片很滿意。",
+    "clue": "be ___ with 表示對…滿意",
+    "answerEntryId": "u7:pleased",
+    "distractorEntryIds": [
+     "u7:unhappy",
+     "u7:lonely",
+     "u7:afraid"
+    ],
+    "fullSentence": "Mom was pleased with the birthday card her class made for her."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "We were ___ to hear that our school team won the final game.",
+     "translation": "聽說校隊贏了決賽，我們都很高興。",
+     "clue": "be ___ to do 表示高興地（人）",
+     "answerEntryId": "u7:pleased",
+     "distractorEntryIds": [
+      "u7:unhappy",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "We were pleased to hear that our school team won the final game."
+    },
+    {
+     "sentence": "The old man looked ___ when the young man gave him his seat on the crowded bus.",
+     "translation": "年輕人在擁擠的公車上讓座時，那位老先生看起來很高興。",
+     "clue": "被讓座時的高興神情（人）",
+     "answerEntryId": "u7:pleased",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:surprised",
+      "u7:worried"
+     ],
+     "fullSentence": "The old man looked pleased when the young man gave him his seat on the crowded bus."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The boss was clearly ___ with the new plan and smiled twice during the meeting.",
+     "translation": "老闆顯然對新計畫很滿意，會議中笑了兩次。",
+     "clue": "微笑顯示他的滿意",
+     "answerEntryId": "u7:pleased",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "The boss was clearly pleased with the new plan and smiled twice during the meeting."
+    },
+    {
+     "sentence": "The new student said ___ to meet you with a warm handshake, and everyone smiled back.",
+     "translation": "新同學一邊熱情地握手一邊說「很高興（認識你）」，大家都回以微笑。",
+     "clue": "初次見面的客套話 Pleased to meet you",
+     "answerEntryId": "u7:pleased",
+     "distractorEntryIds": [
+      "u7:crazy",
+      "u7:lonely",
+      "u7:terrible"
+     ],
+     "fullSentence": "The new student said pleased to meet you with a warm handshake, and everyone smiled back."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the marks were only average, her father was ___ because she had tried her best all year.",
+    "translation": "雖然成績只有中等，爸爸還是很滿意，因為她已經盡了全力。",
+    "clue": "雖成績普通仍滿意，因為盡力",
+    "answerEntryId": "u7:pleased",
+    "distractorEntryIds": [
+     "u7:angry",
+     "u7:worried",
+     "u7:unhappy"
+    ],
+    "fullSentence": "Although the marks were only average, her father was pleased because she had tried her best all year."
+   }
+  },
+  {
+   "entryId": "u7:satisfy",
+   "zh": "使滿意；滿足",
+   "pos": "verb",
+   "example": "A small bowl of soup will satisfy your hunger for now.",
+   "exampleZh": "一小碗湯就能暫時止餓。",
+   "spellingHint": "s-a-t-i-s-f-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The ramen shop changed its menu twice a year to ___ more customers.",
+    "translation": "那家拉麵店每年改兩次菜單，滿足更多客人。",
+    "clue": "改菜單的目的在讓客人滿意",
+    "answerEntryId": "u7:satisfy",
+    "distractorEntryIds": [
+     "u7:please",
+     "u7:confuse",
+     "u7:worry"
+    ],
+    "fullSentence": "The ramen shop changed its menu twice a year to satisfy more customers."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nothing but a big dinner will ___ my hunger after the ten-kilometer run.",
+     "translation": "跑完十公里後只有一頓大餐能满足我的飢餓。",
+     "clue": "滿足口腹之欲",
+     "answerEntryId": "u7:satisfy",
+     "distractorEntryIds": [
+      "u32:feed",
+      "u32:fill",
+      "u1:throw"
+     ],
+     "fullSentence": "Nothing but a big dinner will satisfy my hunger after the ten-kilometer run."
+    },
+    {
+     "sentence": "The coach said a short warm-up will not ___ the team's need for real practice.",
+     "translation": "教練說短暫的暖身無法滿足球隊真正練習的需求。",
+     "clue": "___ a need 滿足需求",
+     "answerEntryId": "u7:satisfy",
+     "distractorEntryIds": [
+      "u7:please",
+      "u7:confuse",
+      "u7:worry"
+     ],
+     "fullSentence": "The coach said a short warm-up will not satisfy the team's need for real practice."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "No pile of new toys can ___ a child who really just wants your time.",
+     "translation": "再多新玩具也無法滿足真正想跟你相處的孩子。",
+     "clue": "滿足內心的需要",
+     "answerEntryId": "u7:satisfy",
+     "distractorEntryIds": [
+      "u32:feed",
+      "u32:fill",
+      "u1:throw"
+     ],
+     "fullSentence": "No pile of new toys can satisfy a child who really just wants your time."
+    },
+    {
+     "sentence": "This small desk will ___ the needs of a student who only has a tiny room.",
+     "translation": "這張小書桌能滿足房間很小的學生的需求。",
+     "clue": "___ the needs 滿足需求",
+     "answerEntryId": "u7:satisfy",
+     "distractorEntryIds": [
+      "u32:feed",
+      "u1:throw",
+      "u32:fill"
+     ],
+     "fullSentence": "This small desk will satisfy the needs of a student who only has a tiny room."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Finishing the long report on time ___ the manager that her team could be trusted with bigger jobs.",
+    "translation": "準時完成漫長的報告，讓經理確信這個團隊能夠承擔更大的任務。",
+    "clue": "___ someone that… 使某人確信／滿意",
+    "answerEntryId": "u7:satisfy",
+    "distractorEntryIds": [
+     "u7:please",
+     "u7:confuse",
+     "u13:teach"
+    ],
+    "fullSentence": "Finishing the long report on time satisfy the manager that her team could be trusted with bigger jobs."
+   }
+  },
+  {
+   "entryId": "u7:scared",
+   "zh": "害怕的",
+   "pos": "adjective",
+   "example": "The cat got scared and ran under the bed.",
+   "exampleZh": "貓受到驚嚇，跑到床底下。",
+   "spellingHint": "s-c-a-r-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Some people are ___ of flying, so they take the slow train instead.",
+    "translation": "有些人害怕搭飛機，所以寧可搭慢車。",
+    "clue": "be ___ of 表示害怕某事物",
+    "answerEntryId": "u7:scared",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:glad",
+     "u7:curious"
+    ],
+    "fullSentence": "Some people are scared of flying, so they take the slow train instead."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The loud badm left the girl ___ and shaking behind the door.",
+     "translation": "巨大的聲響讓女孩又驚又怕，躲在門後發抖。",
+     "clue": "嚇到發抖的是人",
+     "answerEntryId": "u7:scared",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "The loud badm left the girl scared and shaking behind the door."
+    },
+    {
+     "sentence": "There is nothing to be ___ of; this hospital doctor is very kind.",
+     "translation": "沒什麼好怕的；醫院的醫生人很好。",
+     "clue": "沒什麼好怕的",
+     "answerEntryId": "u7:scared",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "There is nothing to be scared of; this hospital doctor is very kind."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The campers were too ___ to sleep after they heard wolves in the dark.",
+     "translation": "聽到狼嚎後，露營的人嚇得睡不著。",
+     "clue": "too ___ to sleep 嚇得睡不著",
+     "answerEntryId": "u7:scared",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:excited",
+      "u7:lonely"
+     ],
+     "fullSentence": "The campers were too scared to sleep after they heard wolves in the dark."
+    },
+    {
+     "sentence": "He looked ___ when the teacher suddenly asked him to read his essay aloud.",
+     "translation": "老師突然請他朗讀自己的作文時，他看起來嚇到了。",
+     "clue": "突然被點名的神情",
+     "answerEntryId": "u7:scared",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:pleased",
+      "u7:busy"
+     ],
+     "fullSentence": "He looked scared when the teacher suddenly asked him to read his essay aloud."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The old bridge shook a little, and the horse stopped, too ___ to take one more step.",
+    "translation": "老橋微微晃動，馬停了下來，嚇得不敢再走一步。",
+    "clue": "嚇到不敢往前（動物）",
+    "answerEntryId": "u7:scared",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:curious",
+     "u7:glad"
+    ],
+    "fullSentence": "The old bridge shook a little, and the horse stopped, too scared to take one more step."
+   }
+  },
+  {
+   "entryId": "u7:sensitive",
+   "zh": "敏感的；體貼的",
+   "pos": "adjective",
+   "example": "Be gentle with her; she is sensitive about her height.",
+   "exampleZh": "對她溫柔一點；她對身高很敏感。",
+   "spellingHint": "s-e-n-s-i-t-i-v-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "My skin is ___ to bright summer sunshine, so I always wear a hat outdoors.",
+    "translation": "我的皮膚對烈日敏感，所以夏天總是戴帽子。",
+    "clue": "be ___ to 表示對…敏感",
+    "answerEntryId": "u7:sensitive",
+    "distractorEntryIds": [
+     "u7:afraid",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "My skin is sensitive to bright summer sunshine, so I always wear a hat outdoors."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A ___ friend notices that you are sad, even when you say you are fine.",
+     "translation": "體貼的朋友會察覺你難過，即使你說自己沒事。",
+     "clue": "能察覺他人情緒＝體貼敏銳",
+     "answerEntryId": "u7:sensitive",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:lonely",
+      "u7:afraid"
+     ],
+     "fullSentence": "A sensitive friend notices that you are sad, even when you say you are fine."
+    },
+    {
+     "sentence": "Please do not joke about weight in front of Sam; he is ___ about it.",
+     "translation": "別在 Sam 面前開體重的玩笑；他對這件事很敏感。",
+     "clue": "對特定話題敏感",
+     "answerEntryId": "u7:sensitive",
+     "distractorEntryIds": [
+      "u7:happy",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Please do not joke about weight in front of Sam; he is sensitive about it."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Dogs have ___ noses, so rescue teams use them to find lost people.",
+     "translation": "狗的鼻子很靈敏，所以救難隊用牠們尋找失蹤的人。",
+     "clue": "靈敏的嗅覺",
+     "answerEntryId": "u7:sensitive",
+     "distractorEntryIds": [
+      "u18:long",
+      "u17:expensive",
+      "u29:common"
+     ],
+     "fullSentence": "Dogs have sensitive noses, so rescue teams use them to find lost people."
+    },
+    {
+     "sentence": "Grandpa's ancient radio is ___ to the weather; it works badly on rainy days.",
+     "translation": "那台舊收音機對天氣很敏感；下雨天就收得不好。",
+     "clue": "對天氣變化敏感的機器",
+     "answerEntryId": "u7:sensitive",
+     "distractorEntryIds": [
+      "u4:old",
+      "u12:slow",
+      "u13:difficult"
+     ],
+     "fullSentence": "Grandpa's ancient radio is sensitive to the weather; it works badly on rainy days."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A good reporter must be ___ to small changes in a person's voice when the story gets painful.",
+    "translation": "故事變得沉重時，好的記者必須敏銳察覺受訪者聲音的細微變化。",
+    "clue": "be ___ to 表示對…敏銳察覺",
+    "answerEntryId": "u7:sensitive",
+    "distractorEntryIds": [
+     "u7:curious",
+     "u7:afraid",
+     "u7:busy"
+    ],
+    "fullSentence": "A good reporter must be sensitive to small changes in a person's voice when the story gets painful."
+   }
+  },
+  {
+   "entryId": "u7:shock",
+   "zh": "震驚；電擊",
+   "pos": "noun",
+   "example": "The news of the accident came as a great shock to us.",
+   "exampleZh": "那個意外的消息讓我們大為震驚。",
+   "spellingHint": "s-h-o-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The team's sudden loss came as a ___ to everyone who expected an easy win.",
+    "translation": "球隊突然落敗，讓每個預期輕鬆獲勝的人大為震驚。",
+    "clue": "意外結果帶來的震撼",
+    "answerEntryId": "u7:shock",
+    "distractorEntryIds": [
+     "u7:surprise",
+     "u7:fear",
+     "u7:envy"
+    ],
+    "fullSentence": "The team's sudden loss came as a shock to everyone who expected an easy win."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The bad news left Grandma in ___ for a whole day.",
+     "translation": "那個壞消息讓奶奶震驚了一整天。",
+     "clue": "in ___ 表示震驚的狀態",
+     "answerEntryId": "u7:shock",
+     "distractorEntryIds": [
+      "u31:silence",
+      "u12:hospital",
+      "u31:danger"
+     ],
+     "fullSentence": "The bad news left Grandma in shock for a whole day."
+    },
+    {
+     "sentence": "Never touch a broken wire; the electric ___ can really hurt you.",
+     "translation": "不要碰斷掉的電線；電擊真的會傷人。",
+     "clue": "electric ___ 電擊",
+     "answerEntryId": "u7:shock",
+     "distractorEntryIds": [
+      "u11:light",
+      "u23:wind",
+      "u31:danger"
+     ],
+     "fullSentence": "Never touch a broken wire; the electric shock can really hurt you."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "It was a big ___ to the whole family when their quiet son suddenly joined the army.",
+     "translation": "安靜的兒子突然從軍，對全家人是很大的震撼。",
+     "clue": "a big ___ to 令…震撼的消息",
+     "answerEntryId": "u7:shock",
+     "distractorEntryIds": [
+      "u7:surprise",
+      "u7:fear",
+      "u7:tension"
+     ],
+     "fullSentence": "It was a big shock to the whole family when their quiet son suddenly joined the army."
+    },
+    {
+     "sentence": "The news that the old bookstore would close after eighty years was a ___ to all its readers.",
+     "translation": "營業八十年的老書店要熄燈的消息，讓所有讀者震驚。",
+     "clue": "讓人震驚的消息",
+     "answerEntryId": "u7:shock",
+     "distractorEntryIds": [
+      "u7:surprise",
+      "u7:fear",
+      "u7:tension"
+     ],
+     "fullSentence": "The news that the old bookstore would close after eighty years was a shock to all its readers."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Hearing her own name read out on the radio gave my quiet grandmother a real ___ , and she turned bright red.",
+    "translation": "在收音機裡聽到自己的名字被報出來，安靜的祖母嚇了一大跳，整個臉紅了起來。",
+    "clue": "give + 人 + a ___ 震驚某人",
+    "answerEntryId": "u7:shock",
+    "distractorEntryIds": [
+     "u7:surprise",
+     "u7:tension",
+     "u7:tear"
+    ],
+    "fullSentence": "Hearing her own name read out on the radio gave my quiet grandmother a real shock , and she turned bright red."
+   }
+  },
+  {
+   "entryId": "u7:surprise",
+   "zh": "驚訝；驚喜",
+   "pos": "noun",
+   "example": "The party in the office was a wonderful surprise for Dad.",
+   "exampleZh": "辦公室裡的派對是給爸爸的美好驚喜。",
+   "spellingHint": "s-u-r-p-r-i-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We planned a quiet dinner for Mom's birthday, but she ___ us first with concert tickets.",
+    "translation": "我們為媽媽計畫一頓安靜的晚餐，她卻先用演唱會門票給我們驚喜。",
+    "clue": "在意料之外先送出禮物＝讓人驚喜",
+    "answerEntryId": "u7:surprise",
+    "distractorEntryIds": [
+     "u7:shock",
+     "u7:tension",
+     "u7:patience"
+    ],
+    "fullSentence": "We planned a quiet dinner for Mom's birthday, but she surprise us first with concert tickets."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "To my ___ , the quietest boy in class sang a beautiful song at the school show.",
+     "translation": "令我驚訝的是，班上最安靜的男孩在校慶表演唱了一首動聽的歌。",
+     "clue": "to my ___ 令我驚訝的是",
+     "answerEntryId": "u7:surprise",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:fear",
+      "u7:care"
+     ],
+     "fullSentence": "To my surprise , the quietest boy in class sang a beautiful song at the school show."
+    },
+    {
+     "sentence": "Mom made my favorite cake as a little ___ for my good report card.",
+     "translation": "媽媽做了我最愛的蛋糕，慶祝我拿到好成績，給我一個小驚喜。",
+     "clue": "意料之外的甜點與蛋糕",
+     "answerEntryId": "u7:surprise",
+     "distractorEntryIds": [
+      "u19:gift",
+      "u7:care",
+      "u7:joy"
+     ],
+     "fullSentence": "Mom made my favorite cake as a little surprise for my good report card."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The magician's last trick drew loud gasps of ___ from the whole audience.",
+     "translation": "魔術師的壓軸魔術引來全場觀眾的驚呼。",
+     "clue": "gasps of ___ 表示驚訝的呼聲",
+     "answerEntryId": "u7:surprise",
+     "distractorEntryIds": [
+      "u7:fear",
+      "u7:joy",
+      "u7:envy"
+     ],
+     "fullSentence": "The magician's last trick drew loud gasps of surprise from the whole audience."
+    },
+    {
+     "sentence": "The exam results were no ___ at all; Mia had studied every night for a month.",
+     "translation": "考試結果一點也不意外；Mia 已經讀了一個月的書。",
+     "clue": "no ___ 毫不意外",
+     "answerEntryId": "u7:surprise",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:envy",
+      "u7:tension"
+     ],
+     "fullSentence": "The exam results were no surprise at all; Mia had studied every night for a month."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Everyone hid behind the sofa; when Dad opened the door, they all shouted his name — the whole evening was planned as a ___ .",
+    "translation": "大家躲在沙發後面；當爸爸開門時，齊聲喊出他的名字——整個晚上就是一場策畫好的驚喜。",
+    "clue": "藏起來等門開，只為讓人意外 ⇒ 名詞",
+    "answerEntryId": "u7:surprise",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u19:party",
+     "u7:tear"
+    ],
+    "fullSentence": "Everyone hid behind the sofa; when Dad opened the door, they all shouted his name — the whole evening was planned as a surprise ."
+   }
+  },
+  {
+   "entryId": "u7:surprised",
+   "zh": "感到驚訝的",
+   "pos": "adjective",
+   "example": "I was surprised to see snow on the mountains in April.",
+   "exampleZh": "四月看到山上還有雪，我很驚訝。",
+   "spellingHint": "s-u-r-p-r-i-s-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "We were ___ to see our math teacher buying fried chicken at the night market on Sunday.",
+    "translation": "星期日在夜市看到數學老師買炸雞，我們很驚訝。",
+    "clue": "意料之外的畫面讓人（人）驚訝 ⇒ -ed",
+    "answerEntryId": "u7:surprised",
+    "distractorEntryIds": [
+     "u7:exciting",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "We were surprised to see our math teacher buying fried chicken at the night market on Sunday."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "She looked ___ when her classmates jumped out and shouted 'Happy birthday!'",
+     "translation": "同學們跳出來喊生日快樂時，她看起來很驚訝。",
+     "clue": "主詞是 she（人）⇒ -ed",
+     "answerEntryId": "u7:surprised",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:cruel",
+      "u7:afraid"
+     ],
+     "fullSentence": "She looked surprised when her classmates jumped out and shouted 'Happy birthday!'"
+    },
+    {
+     "sentence": "Nobody was ___ that the fastest runner in school won the race again.",
+     "translation": "全校跑最快的選手又贏了，沒有人感到意外。",
+     "clue": "主詞是 nobody（人）⇒ -ed",
+     "answerEntryId": "u7:surprised",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:interested",
+      "u7:terrible"
+     ],
+     "fullSentence": "Nobody was surprised that the fastest runner in school won the race again."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The quiet student everyone ignored gave the best speech, leaving the whole class ___ and proud.",
+     "translation": "被大家忽視的安靜學生做出了最好的演講，讓全班驚訝又驕傲。",
+     "clue": "修飾人（the class）的感受 ⇒ -ed",
+     "answerEntryId": "u7:surprised",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:unhappy",
+      "u7:busy"
+     ],
+     "fullSentence": "The quiet student everyone ignored gave the best speech, leaving the whole class surprised and proud."
+    },
+    {
+     "sentence": "I am ___ that you finished the whole novel in one night; it took me a week.",
+     "translation": "你一個晚上讀完整本小說，我很驚訝；我可是花了一個星期。",
+     "clue": "主詞是 I（人）⇒ -ed",
+     "answerEntryId": "u7:surprised",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:glad",
+      "u7:lonely"
+     ],
+     "fullSentence": "I am surprised that you finished the whole novel in one night; it took me a week."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the news had already spread across the school by morning, Grandmother was still ___ because she had heard it first, straight from the headmaster.",
+    "translation": "雖然那消息一早就在全校傳開了，祖母仍舊很驚訝，因為她是最早從校長本人那裡聽到的人。",
+    "clue": "耳聞多時仍覺意外 ⇒ 修飾人（祖母）用 -ed；excited/glad 與 context 不合",
+    "answerEntryId": "u7:surprised",
+    "distractorEntryIds": [
+     "u7:excited",
+     "u7:glad",
+     "u7:pleased"
+    ],
+    "fullSentence": "Although the news had already spread across the school by morning, Grandmother was still surprised because she had heard it first, straight from the headmaster."
+   }
+  },
+  {
+   "entryId": "u7:tear",
+   "zh": "眼淚",
+   "pos": "noun",
+   "example": "A single tear ran down her cheek during the sad movie.",
+   "exampleZh": "看悲傷的電影時，一滴眼淚滑過她的臉頰。",
+   "spellingHint": "t-e-a-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Grandma wiped away a ___ while she read her son's long letter.",
+    "translation": "奶奶讀著兒子的長信，拭去一滴淚水。",
+    "clue": "讀信時流下的一滴淚",
+    "answerEntryId": "u7:tear",
+    "distractorEntryIds": [
+     "u1:eye",
+     "u7:emotion",
+     "u19:photo"
+    ],
+    "fullSentence": "Grandma wiped away a tear while she read her son's long letter."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The sad movie brought ___ to almost everyone in the theater.",
+     "translation": "那部悲傷的電影讓戲院裡幾乎每個人都流淚。",
+     "clue": "bring ___ to one's eyes 使人流淚",
+     "answerEntryId": "u7:tear",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u1:drop",
+      "u13:story"
+     ],
+     "fullSentence": "The sad movie brought tear to almost everyone in the theater."
+    },
+    {
+     "sentence": "She held back her ___ until her friends left the room.",
+     "translation": "她忍住眼淚，直到朋友們離開房間。",
+     "clue": "hold back one's ___ 忍住淚水",
+     "answerEntryId": "u7:tear",
+     "distractorEntryIds": [
+      "u1:voice",
+      "u7:joy",
+      "u31:speech"
+     ],
+     "fullSentence": "She held back her tear until her friends left the room."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Holding her gold medal, the young player smiled through her ___ .",
+     "translation": "贏得金牌的年輕選手含淚微笑。",
+     "clue": "又哭又笑的當下",
+     "answerEntryId": "u7:tear",
+     "distractorEntryIds": [
+      "u7:joy",
+      "u7:patience",
+      "u7:emotion"
+     ],
+     "fullSentence": "Holding her gold medal, the young player smiled through her tear ."
+    },
+    {
+     "sentence": "Cutting onions always makes my ___ run, so I ask my brother to help in the kitchen.",
+     "translation": "切洋蔥總是讓我流眼淚，所以我請弟弟進廚房幫忙。",
+     "clue": "切洋蔥引起的流淚",
+     "answerEntryId": "u7:tear",
+     "distractorEntryIds": [
+      "u1:eye",
+      "u1:nose",
+      "u7:emotion"
+     ],
+     "fullSentence": "Cutting onions always makes my tear run, so I ask my brother to help in the kitchen."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "He is not sad at all; those drops on his face are ___ of laughter, not of sadness.",
+    "translation": "他一點也不難過；他臉上的水珠是笑出來的眼淚，不是傷心的淚。",
+    "clue": "___ of laughter 笑出來的淚",
+    "answerEntryId": "u7:tear",
+    "distractorEntryIds": [
+     "u7:joy",
+     "u7:surprise",
+     "u31:noise"
+    ],
+    "fullSentence": "He is not sad at all; those drops on his face are tear of laughter, not of sadness."
+   }
+  },
+  {
+   "entryId": "u7:tension",
+   "zh": "緊張（氣氛）；緊繃",
+   "pos": "noun",
+   "example": "We could feel the tension in the room before the results were announced.",
+   "exampleZh": "結果公布前，我們可以感受到全場的緊張氣氛。",
+   "spellingHint": "t-e-n-s-i-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Everyone stopped talking while the judges checked the scores, and you could feel the ___ in the hall.",
+    "translation": "評審核對分數時大家都不說話，整個大廳都感覺得到那股緊張氣氛。",
+    "clue": "等待宣布結果時的緊張氣氛",
+    "answerEntryId": "u7:tension",
+    "distractorEntryIds": [
+     "u7:anger",
+     "u31:silence",
+     "u7:fear"
+    ],
+    "fullSentence": "Everyone stopped talking while the judges checked the scores, and you could feel the tension in the hall."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A warm bath before bed helps relax the ___ in your neck and shoulders.",
+     "translation": "睡前泡熱水澡有助於放鬆頸肩的緊繃。",
+     "clue": "肌肉的緊繃",
+     "answerEntryId": "u7:tension",
+     "distractorEntryIds": [
+      "u1:joint",
+      "u1:movement",
+      "u13:pressure"
+     ],
+     "fullSentence": "A warm bath before bed helps relax the tension in your neck and shoulders."
+    },
+    {
+     "sentence": "A short walk after work can release the ___ of a long day.",
+     "translation": "下班後短短的散步可以釋放一整天的緊張。",
+     "clue": "release the ___ 釋放緊張",
+     "answerEntryId": "u7:tension",
+     "distractorEntryIds": [
+      "u13:effort",
+      "u7:care",
+      "u13:pressure"
+     ],
+     "fullSentence": "A short walk after work can release the tension of a long day."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There was clear ___ between the two teams long before the final match began.",
+     "translation": "決賽開始前很久，兩隊之間就已經劍拔弩張。",
+     "clue": "兩隊之間的緊張關係",
+     "answerEntryId": "u7:tension",
+     "distractorEntryIds": [
+      "u7:envy",
+      "u13:friendship",
+      "u7:care"
+     ],
+     "fullSentence": "There was clear tension between the two teams long before the final match began."
+    },
+    {
+     "sentence": "Everyone laughed at the driver's joke, and the ___ in the crowded bus slowly melted away.",
+     "translation": "大家被司機的笑話逗笑，擁擠公車上的緊張氣氛慢慢融化了。",
+     "clue": "被笑聲化解的緊張",
+     "answerEntryId": "u7:tension",
+     "distractorEntryIds": [
+      "u7:fear",
+      "u7:anger",
+      "u7:envy"
+     ],
+     "fullSentence": "Everyone laughed at the driver's joke, and the tension in the crowded bus slowly melted away."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A good leader notices rising ___ before an argument starts and changes the topic just in time.",
+    "translation": "好的領導者在爭執爆發前就察覺到升高的緊張，及時轉換話題。",
+    "clue": "爭執前升高的緊張氣氛",
+    "answerEntryId": "u7:tension",
+    "distractorEntryIds": [
+     "u7:anger",
+     "u7:fear",
+     "u13:pressure"
+    ],
+    "fullSentence": "A good leader notices rising tension before an argument starts and changes the topic just in time."
+   }
+  },
+  {
+   "entryId": "u7:terrible",
+   "zh": "糟糕的；可怕的",
+   "pos": "adjective",
+   "example": "The traffic this morning was terrible, so I was late for class.",
+   "exampleZh": "今天早上的交通糟透了，所以我上課遲到。",
+   "spellingHint": "t-e-r-r-i-b-l-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The food at that new restaurant was so ___ that nobody finished their plate.",
+    "translation": "那家新餐廳的東西難吃到沒有人把盤子吃完。",
+    "clue": "難吃到沒人吃完",
+    "answerEntryId": "u7:terrible",
+    "distractorEntryIds": [
+     "u7:pleasant",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "The food at that new restaurant was so terrible that nobody finished their plate."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "I had a ___ headache last night and could not sleep at all.",
+     "translation": "我昨晚頭痛得厲害，完全睡不著。",
+     "clue": "劇烈難受的頭痛",
+     "answerEntryId": "u7:terrible",
+     "distractorEntryIds": [
+      "u29:soft",
+      "u18:tiny",
+      "u7:pleasant"
+     ],
+     "fullSentence": "I had a terrible headache last night and could not sleep at all."
+    },
+    {
+     "sentence": "What a ___ price for one small bottle of water!",
+     "translation": "一小瓶水要好貴的價錢！",
+     "clue": "貴得離譜的糟糕價錢",
+     "answerEntryId": "u7:terrible",
+     "distractorEntryIds": [
+      "u17:cheap",
+      "u29:common",
+      "u29:wonderful"
+     ],
+     "fullSentence": "What a terrible price for one small bottle of water!"
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The team practiced in the rain all afternoon and caught a ___ case of the flu the next day.",
+     "translation": "球隊在雨中比賽，隔天就得到重感冒。",
+     "clue": "病情嚴重的感冒",
+     "answerEntryId": "u7:terrible",
+     "distractorEntryIds": [
+      "u23:cold",
+      "u12:slow",
+      "u29:silent"
+     ],
+     "fullSentence": "The team practiced in the rain all afternoon and caught a terrible case of the flu the next day."
+    },
+    {
+     "sentence": "Driving through this heavy snow is not just dangerous; some roads are truly ___ at night.",
+     "translation": "在這種大雪中開車不只是危險；夜裡有些路段真的很可怕。",
+     "clue": "比危險更可怕的路段",
+     "answerEntryId": "u7:terrible",
+     "distractorEntryIds": [
+      "u12:fast",
+      "u13:difficult",
+      "u12:slow"
+     ],
+     "fullSentence": "Driving through this heavy snow is not just dangerous; some roads are truly terrible at night."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The typhoon forecast looked ___ , so the school closed a day early and families stored water and food.",
+    "translation": "颱風預報看起來很可怕，所以學校提前一天停課，家家戶戶儲水備糧。",
+    "clue": "讓學校停課、家庭備糧的可怕預報",
+    "answerEntryId": "u7:terrible",
+    "distractorEntryIds": [
+     "u13:difficult",
+     "u29:different",
+     "u29:silent"
+    ],
+    "fullSentence": "The typhoon forecast looked terrible , so the school closed a day early and families stored water and food."
+   }
+  },
+  {
+   "entryId": "u7:unhappy",
+   "zh": "不高興的；不滿意的",
+   "pos": "adjective",
+   "example": "Ken was unhappy about losing his favorite toy.",
+   "exampleZh": "Ken 因為弄丟了心愛的玩具而不高興。",
+   "spellingHint": "u-n-h-a-p-p-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Many workers were ___ about the new rule that took away their lunch break.",
+    "translation": "許多員工對取消午休的新規定感到不滿。",
+    "clue": "be ___ about 表示對…不滿",
+    "answerEntryId": "u7:unhappy",
+    "distractorEntryIds": [
+     "u7:busy",
+     "u7:afraid",
+     "u7:lonely"
+    ],
+    "fullSentence": "Many workers were unhappy about the new rule that took away their lunch break."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Why do you look so ___ ? Did something bad happen at school?",
+     "translation": "你看起來怎麼這麼不高興？在學校發生什麼事了嗎？",
+     "clue": "不快樂的神情",
+     "answerEntryId": "u7:unhappy",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:afraid",
+      "u7:busy"
+     ],
+     "fullSentence": "Why do you look so unhappy ? Did something bad happen at school?"
+    },
+    {
+     "sentence": "The little girl was ___ when the rain stopped her long-awaited picnic.",
+     "translation": "下雨讓期待已久的野餐泡湯，小女孩很不高興。",
+     "clue": "計畫泡湯的不高興",
+     "answerEntryId": "u7:unhappy",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:busy",
+      "u7:afraid"
+     ],
+     "fullSentence": "The little girl was unhappy when the rain stopped her long-awaited picnic."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "He stayed ___ for days after his best friend moved to another city.",
+     "translation": "最好的朋友搬到另一個城市後，他好幾天都悶悶不樂。",
+     "clue": "朋友離開後持續的低落",
+     "answerEntryId": "u7:unhappy",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u7:afraid",
+      "u7:hungry"
+     ],
+     "fullSentence": "He stayed unhappy for days after his best friend moved to another city."
+    },
+    {
+     "sentence": "If you are ___ with our service, please tell the manager directly.",
+     "translation": "如果您對我們的服務不滿意，請直接告訴經理。",
+     "clue": "be ___ with 表示對…不滿",
+     "answerEntryId": "u7:unhappy",
+     "distractorEntryIds": [
+      "u7:pleased",
+      "u7:worried",
+      "u7:curious"
+     ],
+     "fullSentence": "If you are unhappy with our service, please tell the manager directly."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although the team lost the final game, nobody looked ___ , because they had played the best match of their lives.",
+    "translation": "雖然球隊輸了決賽，卻沒有人看起來不開心，因為他們打了有史以來最好的一場。",
+    "clue": "雖敗猶榮 ⇒ 沒有不開心",
+    "answerEntryId": "u7:unhappy",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:busy",
+     "u7:afraid"
+    ],
+    "fullSentence": "Although the team lost the final game, nobody looked unhappy , because they had played the best match of their lives."
+   }
+  },
+  {
+   "entryId": "u7:worried",
+   "zh": "擔心的；發愁的",
+   "pos": "adjective",
+   "example": "Mom looked worried when I came home after midnight.",
+   "exampleZh": "我過了半夜才回家，媽媽一臉擔心。",
+   "spellingHint": "w-o-r-r-i-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The parents looked ___ when their son still had not come home at eleven.",
+    "translation": "到了十一點兒子還沒回家，爸媽看起來很擔心。",
+    "clue": "孩子遲遲未歸時父母的擔心",
+    "answerEntryId": "u7:worried",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:busy",
+     "u7:lonely"
+    ],
+    "fullSentence": "The parents looked worried when their son still had not come home at eleven."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Do not be ___ ; the doctor said it is only a small cold.",
+     "translation": "別擔心；醫生說只是小感冒。",
+     "clue": "叫人不要擔心",
+     "answerEntryId": "u7:worried",
+     "distractorEntryIds": [
+      "u7:afraid",
+      "u7:busy",
+      "u7:lonely"
+     ],
+     "fullSentence": "Do not be worried ; the doctor said it is only a small cold."
+    },
+    {
+     "sentence": "She was ___ about her dog during the typhoon and kept looking out of the window.",
+     "translation": "颱風期間她很擔心她的狗，一直看著窗外。",
+     "clue": "be ___ about 表示擔心",
+     "answerEntryId": "u7:worried",
+     "distractorEntryIds": [
+      "u7:interested",
+      "u7:excited",
+      "u7:pleased"
+     ],
+     "fullSentence": "She was worried about her dog during the typhoon and kept looking out of the window."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Grandpa gets ___ whenever the news shows storms near our island.",
+     "translation": "新聞播出島嶼附近的暴風雨時，爺爺就會擔心。",
+     "clue": "看到壞消息而擔心",
+     "answerEntryId": "u7:worried",
+     "distractorEntryIds": [
+      "u7:excited",
+      "u7:glad",
+      "u7:pleased"
+     ],
+     "fullSentence": "Grandpa gets worried whenever the news shows storms near our island."
+    },
+    {
+     "sentence": "Although the text said everything was fine, her trembling voice left her friends ___ .",
+     "translation": "雖然訊息上說一切都好，但她顫抖的聲音還是讓朋友們很擔心。",
+     "clue": "修飾人（朋友）的感受 ⇒ -ed",
+     "answerEntryId": "u7:worried",
+     "distractorEntryIds": [
+      "u7:glad",
+      "u7:interested",
+      "u7:busy"
+     ],
+     "fullSentence": "Although the text said everything was fine, her trembling voice left her friends worried ."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although she smiled at the party, her parents stayed ___ the whole evening because she never answered her phone.",
+    "translation": "雖然她在派對上笑著，爸媽整晚都很擔心，因為她一直沒接電話。",
+    "clue": "女兒失聯讓父母整晚擔心",
+    "answerEntryId": "u7:worried",
+    "distractorEntryIds": [
+     "u7:glad",
+     "u7:angry",
+     "u7:lonely"
+    ],
+    "fullSentence": "Although she smiled at the party, her parents stayed worried the whole evening because she never answered her phone."
+   }
+  },
+  {
+   "entryId": "u7:worry",
+   "zh": "擔心；煩惱",
+   "pos": "verb",
+   "example": "Do not worry; I will help you with the homework.",
+   "exampleZh": "別擔心；我會幫你處理功課。",
+   "spellingHint": "w-o-r-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "You do not need to ___ about the test; you have studied hard for two whole weeks.",
+    "translation": "你不用擔心考試；你已經認真讀了整整兩個星期。",
+    "clue": "___ about 表示擔心某事",
+    "answerEntryId": "u7:worry",
+    "distractorEntryIds": [
+     "u13:study",
+     "u32:ask",
+     "u32:wait"
+    ],
+    "fullSentence": "You do not need to worry about the test; you have studied hard for two whole weeks."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Please do not ___ ; the doctor will call us as soon as he knows the results.",
+     "translation": "請別擔心；醫生一出結果就會打給我們。",
+     "clue": "安撫對方不要擔心",
+     "answerEntryId": "u7:worry",
+     "distractorEntryIds": [
+      "u1:cry",
+      "u1:run",
+      "u32:wait"
+     ],
+     "fullSentence": "Please do not worry ; the doctor will call us as soon as he knows the results."
+    },
+    {
+     "sentence": "It is easy to ___ too much about small things and forget to enjoy the day.",
+     "translation": "人很容易為小事煩心，忘了享受當下。",
+     "clue": "為小事煩惱",
+     "answerEntryId": "u7:worry",
+     "distractorEntryIds": [
+      "u13:learn",
+      "u32:wait",
+      "u32:hurry"
+     ],
+     "fullSentence": "It is easy to worry too much about small things and forget to enjoy the day."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The heavy rain began to ___ the farmers, whose rice was almost ready to cut.",
+     "translation": "大雨開始讓稻子將熟的農夫們憂心。",
+     "clue": "使人憂心的事物",
+     "answerEntryId": "u7:worry",
+     "distractorEntryIds": [
+      "u7:excite",
+      "u7:please",
+      "u13:teach"
+     ],
+     "fullSentence": "The heavy rain began to worry the farmers, whose rice was almost ready to cut."
+    },
+    {
+     "sentence": "One small test should not ___ you so much that you cannot sleep at night.",
+     "translation": "一次小考不該讓你煩惱到晚上睡不著。",
+     "clue": "煩惱到睡不著",
+     "answerEntryId": "u7:worry",
+     "distractorEntryIds": [
+      "u7:please",
+      "u32:meet",
+      "u32:stop"
+     ],
+     "fullSentence": "One small test should not worry you so much that you cannot sleep at night."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "She spends hours helping everyone else with their problems, but she never lets small problems ___ herself.",
+    "translation": "她花了好多小時幫別人解決問題，卻從不讓小煩惱困擾自己。",
+    "clue": "let + 事物 + 動詞（使…煩惱）",
+    "answerEntryId": "u7:worry",
+    "distractorEntryIds": [
+     "u32:stop",
+     "u7:please",
+     "u1:move"
+    ],
+    "fullSentence": "She spends hours helping everyone else with their problems, but she never lets small problems worry herself."
+   }
+  }
+ ]
+}

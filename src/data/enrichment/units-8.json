@@ -1,0 +1,3962 @@
+{
+ "schemaVersion": 1,
+ "unit": "8",
+ "entries": [
+  {
+   "entryId": "u8:AIDS",
+   "zh": "愛滋病",
+   "pos": "noun",
+   "example": "Doctors teach students how to prevent AIDS in health class.",
+   "exampleZh": "醫生在健康課教學生如何預防愛滋病。",
+   "spellingHint": "a-i-d-s",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "December 1 is World ___ Day, and people wear red ribbons to show their care.",
+    "translation": "十二月一日是世界愛滋病日，人們戴上紅絲帶表示關懷。",
+    "clue": "戴上紅絲帶表示關懷病友的疾病紀念日",
+    "answerEntryId": "u8:AIDS",
+    "distractorEntryIds": [
+     "u8:cancer",
+     "u8:flu",
+     "u8:cold"
+    ],
+    "fullSentence": "December 1 is World AIDS Day, and people wear red ribbons to show their care."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A red ribbon is a well-known symbol of care for people living with ___.",
+     "translation": "紅絲帶是關懷愛滋病友的知名象徵。",
+     "clue": "紅絲帶象徵的病友疾病",
+     "answerEntryId": "u8:AIDS",
+     "distractorEntryIds": [
+      "u8:cancer",
+      "u8:cold",
+      "u8:wound"
+     ],
+     "fullSentence": "A red ribbon is a well-known symbol of care for people living with AIDS."
+    },
+    {
+     "sentence": "The letters of ___ stand for a disease caused by the HIV virus.",
+     "translation": "AIDS這幾個字母代表由HIV病毒引起的疾病。",
+     "clue": "由HIV病毒引起的重大傳染病",
+     "answerEntryId": "u8:AIDS",
+     "distractorEntryIds": [
+      "u8:cancer",
+      "u8:flu",
+      "u8:hunger"
+     ],
+     "fullSentence": "The letters of AIDS stand for a disease caused by the HIV virus."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Sharing needles can spread ___ and other diseases through blood.",
+     "translation": "共用針頭會透過血液傳染愛滋病和其他疾病。",
+     "clue": "經由血液傳染的疾病",
+     "answerEntryId": "u8:AIDS",
+     "distractorEntryIds": [
+      "u8:flu",
+      "u8:cold",
+      "u8:cancer"
+     ],
+     "fullSentence": "Sharing needles can spread AIDS and other diseases through blood."
+    },
+    {
+     "sentence": "Every year on December 1, people hold events to support patients with ___.",
+     "translation": "每年十二月一日，人們舉辦活動支持愛滋病友。",
+     "clue": "世界愛滋病日支持的患者",
+     "answerEntryId": "u8:AIDS",
+     "distractorEntryIds": [
+      "u8:cancer",
+      "u8:hunger",
+      "u8:cold"
+     ],
+     "fullSentence": "Every year on December 1, people hold events to support patients with AIDS."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Doctors use a blood test to find HIV, the virus that causes ___.",
+    "translation": "醫生用血液檢驗找出HIV——引起愛滋病的病毒。",
+    "clue": "由HIV病毒引起、可經血液檢驗確認",
+    "answerEntryId": "u8:AIDS",
+    "distractorEntryIds": [
+     "u8:cancer",
+     "u8:flu",
+     "u8:cold"
+    ],
+    "fullSentence": "Doctors use a blood test to find HIV, the virus that causes AIDS."
+   }
+  },
+  {
+   "entryId": "u8:cancer",
+   "zh": "癌症",
+   "pos": "noun",
+   "example": "Regular health checks can find cancer early, when it is easier to treat.",
+   "exampleZh": "定期健康檢查能早期發現癌症，治療起來較容易。",
+   "spellingHint": "c-a-n-c-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The doctor found a small lump in her neck and checked whether it was ___.",
+    "translation": "醫生在她頸部發現小腫塊，檢查是否為癌症。",
+    "clue": "身體異常腫塊需確認的重病",
+    "answerEntryId": "u8:cancer",
+    "distractorEntryIds": [
+     "u8:AIDS",
+     "u8:flu",
+     "u8:cold"
+    ],
+    "fullSentence": "The doctor found a small lump in her neck and checked whether it was cancer."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Quitting smoking lowers the chance of getting lung ___.",
+     "translation": "戒菸能降低得到肺癌的機會。",
+     "clue": "抽菸最可能導致的疾病",
+     "answerEntryId": "u8:cancer",
+     "distractorEntryIds": [
+      "u8:AIDS",
+      "u8:death",
+      "u8:hunger"
+     ],
+     "fullSentence": "Quitting smoking lowers the chance of getting lung cancer."
+    },
+    {
+     "sentence": "Her uncle beat ___ after two years of treatment, and now he is healthy again.",
+     "translation": "她叔叔經過兩年治療戰勝了癌症，現在又健康了。",
+     "clue": "治療兩年才康復的重病",
+     "answerEntryId": "u8:cancer",
+     "distractorEntryIds": [
+      "u8:flu",
+      "u8:fever",
+      "u8:cold"
+     ],
+     "fullSentence": "Her uncle beat cancer after two years of treatment, and now he is healthy again."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Thanks to new medicine, many kinds of ___ can now be controlled for years.",
+     "translation": "拜新藥之賜，許多癌症如今能被控制多年。",
+     "clue": "醫療進步使此類重病可長期控制",
+     "answerEntryId": "u8:cancer",
+     "distractorEntryIds": [
+      "u8:AIDS",
+      "u8:hunger",
+      "u8:fever"
+     ],
+     "fullSentence": "Thanks to new medicine, many kinds of cancer can now be controlled for years."
+    },
+    {
+     "sentence": "Wearing sunscreen protects your skin against the most dangerous kind of skin ___.",
+     "translation": "擦防曬能保護皮膚遠離最危險的皮膚癌。",
+     "clue": "防曬可預防的皮膚重病",
+     "answerEntryId": "u8:cancer",
+     "distractorEntryIds": [
+      "u8:AIDS",
+      "u8:fever",
+      "u8:injury"
+     ],
+     "fullSentence": "Wearing sunscreen protects your skin against the most dangerous kind of skin cancer."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Scientists believe that smoking is the main cause of many cases of lung ___.",
+    "translation": "科學家認為吸菸是許多肺癌病例的主要成因。",
+    "clue": "與吸菸高度相關的肺部重病",
+    "answerEntryId": "u8:cancer",
+    "distractorEntryIds": [
+     "u8:AIDS",
+     "u8:injury",
+     "u8:fever"
+    ],
+    "fullSentence": "Scientists believe that smoking is the main cause of many cases of lung cancer."
+   }
+  },
+  {
+   "entryId": "u8:cold",
+   "zh": "感冒",
+   "pos": "noun",
+   "example": "I caught a cold after walking in the rain without an umbrella.",
+   "exampleZh": "我沒帶傘走在雨中，之後就感冒了。",
+   "spellingHint": "c-o-l-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Sneezing and a runny nose usually mean you are getting a ___.",
+    "translation": "打噴嚏和流鼻水通常表示你要感冒了。",
+    "clue": "症狀輕微、打噴嚏流鼻水的呼吸道小病",
+    "answerEntryId": "u8:cold",
+    "distractorEntryIds": [
+     "u8:flu",
+     "u8:fever",
+     "u8:headache"
+    ],
+    "fullSentence": "Sneezing and a runny nose usually mean you are getting a cold."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dad caught a ___ after standing in the icy wind for hours.",
+     "translation": "爸爸在冷風中站了幾小時後感冒了。",
+     "clue": "吹風著涼後得到的常見小病",
+     "answerEntryId": "u8:cold",
+     "distractorEntryIds": [
+      "u8:flu",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "Dad caught a cold after standing in the icy wind for hours."
+    },
+    {
+     "sentence": "Grandma told me to rest and drink warm water, and my ___ would be gone in two days.",
+     "translation": "奶奶叫我休息喝溫水，感冒兩天就會好。",
+     "clue": "休息兩天就痊癒的輕微小病",
+     "answerEntryId": "u8:cold",
+     "distractorEntryIds": [
+      "u8:cancer",
+      "u8:AIDS",
+      "u8:injury"
+     ],
+     "fullSentence": "Grandma told me to rest and drink warm water, and my cold would be gone in two days."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There is no real cure for the common ___, so rest and water are the best help.",
+     "translation": "一般感冒沒有真正的特效藥，休息和多喝水最有用。",
+     "clue": "英文常說 common ___ 的輕微呼吸道疾病",
+     "answerEntryId": "u8:cold",
+     "distractorEntryIds": [
+      "u8:flu",
+      "u8:fever",
+      "u8:headache"
+     ],
+     "fullSentence": "There is no real cure for the common cold, so rest and water are the best help."
+    },
+    {
+     "sentence": "He washed his hands often that winter, hoping to avoid the mild ___ going around his class.",
+     "translation": "那年冬天他勤洗手，希望避開班上流行的小感冒。",
+     "clue": "症狀輕微、在班上流行的傳染小病",
+     "answerEntryId": "u8:cold",
+     "distractorEntryIds": [
+      "u8:flu",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "He washed his hands often that winter, hoping to avoid the mild cold going around his class."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor said the mild symptoms were just a common ___, so Tim went back to school the next day.",
+    "translation": "醫生說症狀輕微只是一般感冒，所以小提隔天就回學校上課。",
+    "clue": "症狀輕微、隔天能上學的common小病",
+    "answerEntryId": "u8:cold",
+    "distractorEntryIds": [
+     "u8:flu",
+     "u8:fever",
+     "u8:effect"
+    ],
+    "fullSentence": "The doctor said the mild symptoms were just a common cold, so Tim went back to school the next day."
+   }
+  },
+  {
+   "entryId": "u8:comfortable",
+   "zh": "舒服的；舒適的",
+   "pos": "adjective",
+   "example": "These soft pillows make my bed very comfortable.",
+   "exampleZh": "這些柔軟的枕頭讓我的床非常舒服。",
+   "spellingHint": "c-o-m-f-o-r-t-a-b-l-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After taking the medicine, the patient felt ___ enough to fall asleep at last.",
+    "translation": "服藥之後，病人終於舒服到能入睡。",
+    "clue": "不再疼痛難受的感覺",
+    "answerEntryId": "u8:comfortable",
+    "distractorEntryIds": [
+     "u8:painful",
+     "u8:weak",
+     "u8:dizzy"
+    ],
+    "fullSentence": "After taking the medicine, the patient felt comfortable enough to fall asleep at last."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The hospital bed can be raised, so Grandpa sits up and stays ___ while reading.",
+     "translation": "病床可以搖高，所以爺爺坐著看書也很舒服。",
+     "clue": "可調整的床讓人躺得舒服",
+     "answerEntryId": "u8:comfortable",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:dizzy",
+      "u8:pale"
+     ],
+     "fullSentence": "The hospital bed can be raised, so Grandpa sits up and stays comfortable while reading."
+    },
+    {
+     "sentence": "She changed into loose clothes because tight jeans were not ___ for studying all night.",
+     "translation": "她換上寬鬆的衣服，因為緊身牛仔褲熬夜讀書不舒服。",
+     "clue": "寬鬆衣物讓身體感到舒服",
+     "answerEntryId": "u8:comfortable",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u8:strong",
+      "u8:fine"
+     ],
+     "fullSentence": "She changed into loose clothes because tight jeans were not comfortable for studying all night."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The sofa was so ___ that Ken fell asleep on it within five minutes.",
+     "translation": "那張沙發舒服到小賢五分鐘就在上面睡著了。",
+     "clue": "一坐就想睡的沙發",
+     "answerEntryId": "u8:comfortable",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sleepy",
+      "u8:sick"
+     ],
+     "fullSentence": "The sofa was so comfortable that Ken fell asleep on it within five minutes."
+    },
+    {
+     "sentence": "The dentist's chair moves gently to hold your head in a ___ position during the exam.",
+     "translation": "牙醫椅會輕輕調整，讓你在檢查時頭部擺在舒服的位置。",
+     "clue": "令身體姿勢放鬆不費力的位置",
+     "answerEntryId": "u8:comfortable",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sick",
+      "u8:dizzy"
+     ],
+     "fullSentence": "The dentist's chair moves gently to hold your head in a comfortable position during the exam."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The chair's back tilted to a ___ angle, and Ken stopped shifting around after only a minute.",
+    "translation": "椅背調到舒服的角度，小賢一分鐘後就不再扭來扭去了。",
+    "clue": "角度調對讓人不再扭動＝坐得舒服",
+    "answerEntryId": "u8:comfortable",
+    "distractorEntryIds": [
+     "u8:painful",
+     "u8:fine",
+     "u8:weak"
+    ],
+    "fullSentence": "The chair's back tilted to a comfortable angle, and Ken stopped shifting around after only a minute."
+   }
+  },
+  {
+   "entryId": "u8:cough",
+   "zh": "咳嗽",
+   "pos": "verb",
+   "example": "Cover your mouth when you cough so you will not spread germs.",
+   "exampleZh": "咳嗽時要摀住嘴巴，才不會傳播細菌。",
+   "spellingHint": "c-o-u-g-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The smoke in the room made everyone ___ and rub their eyes.",
+    "translation": "房間裡的煙嗆得每個人咳嗽、揉眼睛。",
+    "clue": "煙嗆到喉嚨時的反應",
+    "answerEntryId": "u8:cough",
+    "distractorEntryIds": [
+     "u8:die",
+     "u8:recover",
+     "u8:hurt"
+    ],
+    "fullSentence": "The smoke in the room made everyone cough and rub their eyes."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Tom keeps ___ in class, so the teacher gave him a glass of warm water.",
+     "translation": "小湯上課一直咳嗽，所以老師給了他一杯溫水。",
+     "clue": "喉嚨癢時喉嚨發出的動作",
+     "answerEntryId": "u8:cough",
+     "distractorEntryIds": [
+      "u8:die",
+      "u8:recover",
+      "u8:ease"
+     ],
+     "fullSentence": "Tom keeps cough in class, so the teacher gave him a glass of warm water."
+    },
+    {
+     "sentence": "The baby started ___ after drinking milk too fast, so Mom patted her back gently.",
+     "translation": "寶寶喝奶喝太快開始咳嗽，媽媽輕拍她的背。",
+     "clue": "嗆奶時的反應動作",
+     "answerEntryId": "u8:cough",
+     "distractorEntryIds": [
+      "u8:lie",
+      "u8:cure",
+      "u8:ease"
+     ],
+     "fullSentence": "The baby started cough after drinking milk too fast, so Mom patted her back gently."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "People ___ politely into their elbows to keep germs from spreading on the bus.",
+     "translation": "大家在公車上用時彎摀著禮貌地咳嗽，避免病菌傳播。",
+     "clue": "防止病菌傳播的禮儀動作",
+     "answerEntryId": "u8:cough",
+     "distractorEntryIds": [
+      "u8:die",
+      "u8:lie",
+      "u8:cure"
+     ],
+     "fullSentence": "People cough politely into their elbows to keep germs from spreading on the bus."
+    },
+    {
+     "sentence": "Cigarette smoke makes Ben ___ more than usual, and his doctor told him to stay away from it.",
+     "translation": "香菸的煙讓小本咳得比平常厲害，醫生叫他遠離菸害。",
+     "clue": "吸到菸味引起的喉嚨反應",
+     "answerEntryId": "u8:cough",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:die",
+      "u8:ease"
+     ],
+     "fullSentence": "Cigarette smoke makes Ben cough more than usual, and his doctor told him to stay away from it."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The dry air scratches Grandma's throat and makes her ___ until she falls asleep.",
+    "translation": "乾燥的空氣刺激奶奶的喉嚨，让她咳到入睡為止。",
+    "clue": "喉嚨受刺激時的反射動作",
+    "answerEntryId": "u8:cough",
+    "distractorEntryIds": [
+     "u8:hurt",
+     "u8:recover",
+     "u8:die"
+    ],
+    "fullSentence": "The dry air scratches Grandma's throat and makes her cough until she falls asleep."
+   }
+  },
+  {
+   "entryId": "u8:cure",
+   "zh": "治癒",
+   "pos": "verb",
+   "example": "This new medicine can cure the disease in a few weeks.",
+   "exampleZh": "這種新藥能在幾週內治癒這個疾病。",
+   "spellingHint": "c-u-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Doctors hope this new pill will ___ the disease completely.",
+    "translation": "醫生希望這種新藥能完全治癒這個疾病。",
+    "clue": "使疾病完全消失的動作",
+    "answerEntryId": "u8:cure",
+    "distractorEntryIds": [
+     "u8:recover",
+     "u8:ease",
+     "u8:hurt"
+    ],
+    "fullSentence": "Doctors hope this new pill will cure the disease completely."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Antibiotics can ___ many sicknesses that once had no medicine.",
+     "translation": "抗生素能治癒許多曾經無藥可醫的疾病。",
+     "clue": "藥物讓疾病痊癒",
+     "answerEntryId": "u8:cure",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:lie",
+      "u8:ease"
+     ],
+     "fullSentence": "Antibiotics can cure many sicknesses that once had no medicine."
+    },
+    {
+     "sentence": "The doctor promised to ___ the girl's ear infection with simple drops.",
+     "translation": "醫生承諾用簡單的藥水治癒女孩的耳部感染。",
+     "clue": "醫生用藥把病治好",
+     "answerEntryId": "u8:cure",
+     "distractorEntryIds": [
+      "u8:hurt",
+      "u8:die",
+      "u8:recover"
+     ],
+     "fullSentence": "The doctor promised to cure the girl's ear infection with simple drops."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "There is still no way to ___ this sickness, but medicine can control it for years.",
+     "translation": "目前仍無法根治這個疾病，但藥物能控制多年。",
+     "clue": "根除疾病使其不再存在",
+     "answerEntryId": "u8:cure",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u32:advance",
+      "u8:ease"
+     ],
+     "fullSentence": "There is still no way to cure this sickness, but medicine can control it for years."
+    },
+    {
+     "sentence": "Antibiotics will not ___ a viral infection, so the doctor only suggested rest and fluids.",
+     "translation": "抗生素無法治癒病毒感染，所以醫生只建議休息和多喝水。",
+     "clue": "讓疾病徹底消失",
+     "answerEntryId": "u8:cure",
+     "distractorEntryIds": [
+      "u8:ease",
+      "u8:recover",
+      "u8:hurt"
+     ],
+     "fullSentence": "Antibiotics will not cure a viral infection, so the doctor only suggested rest and fluids."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Rest alone cannot ___ the infection, so the doctor gave Amy real medicine to take.",
+    "translation": "光休息無法治癒感染，所以醫生開了真正的藥給小艾服用。",
+    "clue": "需要靠藥物才能真正除去的病",
+    "answerEntryId": "u8:cure",
+    "distractorEntryIds": [
+     "u8:ease",
+     "u8:recover",
+     "u8:hurt"
+    ],
+    "fullSentence": "Rest alone cannot cure the infection, so the doctor gave Amy real medicine to take."
+   }
+  },
+  {
+   "entryId": "u8:dead",
+   "zh": "死掉的；枯萎的",
+   "pos": "adjective",
+   "example": "The battery is dead, so my phone will not turn on.",
+   "exampleZh": "電池沒電了，所以我的手機開不了機。",
+   "spellingHint": "d-e-a-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The old tree in the yard is ___; no leaves grew on it this spring.",
+    "translation": "院子裡的老樹枯死了，今年春天一片葉子都沒長。",
+    "clue": "完全沒有生命的狀態",
+    "answerEntryId": "u8:dead",
+    "distractorEntryIds": [
+     "u8:strong",
+     "u8:healthy",
+     "u8:fine"
+    ],
+    "fullSentence": "The old tree in the yard is dead; no leaves grew on it this spring."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "This flower is ___ because nobody watered it for a whole month.",
+     "translation": "這朵花枯死了，因為整個月沒人澆水。",
+     "clue": "缺水一個月後的植物狀態",
+     "answerEntryId": "u8:dead",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:healthy",
+      "u8:fine"
+     ],
+     "fullSentence": "This flower is dead because nobody watered it for a whole month."
+    },
+    {
+     "sentence": "The fish in the pond floated to the top, ___ from the polluted water.",
+     "translation": "池塘裡的魚浮上水面，被污染的水毒死了。",
+     "clue": "被污染毒死的無生命狀態",
+     "answerEntryId": "u8:dead",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:weak",
+      "u8:pale"
+     ],
+     "fullSentence": "The fish in the pond floated to the top, dead from the polluted water."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "My flashlight does not work; I think the batteries are ___.",
+     "translation": "手電筒不亮，我想是電池沒電了。",
+     "clue": "英文電池沒電就叫 dead batteries",
+     "answerEntryId": "u8:dead",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:strong",
+      "u8:fine"
+     ],
+     "fullSentence": "My flashlight does not work; I think the batteries are dead."
+    },
+    {
+     "sentence": "Nothing is growing in that corner of the garden; the soil there seems completely ___.",
+     "translation": "花園那個角落什麼都不長，那裡的土壤似乎完全死寂。",
+     "clue": "寸草不生的死寂土壤",
+     "answerEntryId": "u8:dead",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:ill",
+      "u8:sleepy"
+     ],
+     "fullSentence": "Nothing is growing in that corner of the garden; the soil there seems completely dead."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor listened carefully, but there was no heartbeat at all — the old man was already ___.",
+    "translation": "醫生仔細聽，但完全沒有心跳——老人已經死了。",
+    "clue": "毫無心跳的狀態",
+    "answerEntryId": "u8:dead",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:weak",
+     "u8:ill"
+    ],
+    "fullSentence": "The doctor listened carefully, but there was no heartbeat at all — the old man was already dead."
+   }
+  },
+  {
+   "entryId": "u8:death",
+   "zh": "死亡",
+   "pos": "noun",
+   "example": "The death of her goldfish made the little girl cry for a whole day.",
+   "exampleZh": "金魚的死讓小女孩哭了一整天。",
+   "spellingHint": "d-e-a-t-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The news of the famous singer's ___ shocked fans around the world.",
+    "translation": "那位知名歌手的死訊震驚了全球歌迷。",
+    "clue": "喪生消息給人的震撼",
+    "answerEntryId": "u8:death",
+    "distractorEntryIds": [
+     "u8:life",
+     "u8:health",
+     "u8:hunger"
+    ],
+    "fullSentence": "The news of the famous singer's death shocked fans around the world."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Grandma talked about the ___ of her pet dog with tears in her eyes.",
+     "translation": "奶奶談到她寵物狗的死，眼中含淚。",
+     "clue": "寵物離世這件事",
+     "answerEntryId": "u8:death",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:health",
+      "u8:medicine"
+     ],
+     "fullSentence": "Grandma talked about the death of her pet dog with tears in her eyes."
+    },
+    {
+     "sentence": "The police are trying to find the cause of the driver's ___.",
+     "translation": "警方正在設法找出司機的死因。",
+     "clue": "英文死因說 cause of ___",
+     "answerEntryId": "u8:death",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:hunger",
+      "u8:injury"
+     ],
+     "fullSentence": "The police are trying to find the cause of the driver's death."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Wearing a seat belt greatly lowers the risk of ___ in car accidents.",
+     "translation": "繫安全帶能大幅降低車禍喪命的風險。",
+     "clue": "繫安全帶降低的風險",
+     "answerEntryId": "u8:death",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:health",
+      "u8:hunger"
+     ],
+     "fullSentence": "Wearing a seat belt greatly lowers the risk of death in car accidents."
+    },
+    {
+     "sentence": "Her grandfather lived to ninety and met his ___ peacefully in his sleep.",
+     "translation": "她的祖父活到九十歲，在睡夢中安詳離世。",
+     "clue": "壽終正寢時迎來的事",
+     "answerEntryId": "u8:death",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:effect",
+      "u8:health"
+     ],
+     "fullSentence": "Her grandfather lived to ninety and met his death peacefully in his sleep."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor did everything possible, but the patient's ___ still came in the early morning.",
+    "translation": "醫生盡了全力，病人的死還是降臨在清晨。",
+    "clue": "形容生命走到盡頭的那一刻",
+    "answerEntryId": "u8:death",
+    "distractorEntryIds": [
+     "u8:life",
+     "u8:hunger",
+     "u8:effect"
+    ],
+    "fullSentence": "The doctor did everything possible, but the patient's death still came in the early morning."
+   }
+  },
+  {
+   "entryId": "u8:die",
+   "zh": "死",
+   "pos": "verb",
+   "example": "Many plants die if you forget to water them for weeks.",
+   "exampleZh": "如果你幾星期忘記澆水，很多植物會枯死。",
+   "spellingHint": "d-i-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Without clean water, people in the desert village would ___ within days.",
+    "translation": "沒有乾淨的水，沙漠村落的人們幾天內就會喪命。",
+    "clue": "缺水導致失去生命的結果",
+    "answerEntryId": "u8:die",
+    "distractorEntryIds": [
+     "u8:recover",
+     "u8:cure",
+     "u8:hurt"
+    ],
+    "fullSentence": "Without clean water, people in the desert village would die within days."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Dinosaurs all ___ out long ago, and no one is sure exactly why.",
+     "translation": "恐龍早就滅絕了，沒有人確切知道原因。",
+     "clue": "整個物種從世上消失",
+     "answerEntryId": "u8:die",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:lie",
+      "u8:hurt"
+     ],
+     "fullSentence": "Dinosaurs all die out long ago, and no one is sure exactly why."
+    },
+    {
+     "sentence": "The little bird was too weak to fly and ___ the next morning.",
+     "translation": "小鳥虛弱得飛不起來，第二天早上死了。",
+     "clue": "虛弱到失去生命",
+     "answerEntryId": "u8:die",
+     "distractorEntryIds": [
+      "u8:cure",
+      "u8:recover",
+      "u8:ease"
+     ],
+     "fullSentence": "The little bird was too weak to fly and die the next morning."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Fish in the lake began to ___ when the factory dumped waste into the water.",
+     "translation": "工廠把廢水排進湖裡後，湖中的魚開始死亡。",
+     "clue": "污染造成生物喪命",
+     "answerEntryId": "u8:die",
+     "distractorEntryIds": [
+      "u8:hurt",
+      "u8:recover",
+      "u8:cure"
+     ],
+     "fullSentence": "Fish in the lake began to die when the factory dumped waste into the water."
+    },
+    {
+     "sentence": "The old man lived alone with his dog, and when he grew older he began to ___ as his strength faded.",
+     "translation": "老人與狗獨居，隨著年紀更大、體力衰退，他開始走向生命終點。",
+     "clue": "生命逐漸走到盡頭",
+     "answerEntryId": "u8:die",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:cure",
+      "u8:ease"
+     ],
+     "fullSentence": "The old man lived alone with his dog, and when he grew older he began to die as his strength faded."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The flowers stayed in the hot car all afternoon without water, so most of them started to ___.",
+    "translation": "花整個下午留在沒水的熱車裡，所以大多開始枯死。",
+    "clue": "缺水枯萎到失去生命",
+    "answerEntryId": "u8:die",
+    "distractorEntryIds": [
+     "u8:hurt",
+     "u8:recover",
+     "u8:ease"
+    ],
+    "fullSentence": "The flowers stayed in the hot car all afternoon without water, so most of them started to die."
+   }
+  },
+  {
+   "entryId": "u8:dizzy",
+   "zh": "頭暈的",
+   "pos": "adjective",
+   "example": "Lily felt dizzy after standing up too fast.",
+   "exampleZh": "小麗站得太快，之後覺得頭暈。",
+   "spellingHint": "d-i-z-z-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nate felt ___ as soon as he stood up, and he had to hold the wall.",
+    "translation": "小奈一站起來就頭暈，只好扶著牆。",
+    "clue": "站太快時天旋地轉的感覺",
+    "answerEntryId": "u8:dizzy",
+    "distractorEntryIds": [
+     "u8:sleepy",
+     "u8:weak",
+     "u8:pale"
+    ],
+    "fullSentence": "Nate felt dizzy as soon as he stood up, and he had to hold the wall."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The spinning ride left me so ___ that I could not walk straight.",
+     "translation": "旋轉設施讓我頭暈得走路都歪歪的。",
+     "clue": "轉圈之後天旋地轉的感覺",
+     "answerEntryId": "u8:dizzy",
+     "distractorEntryIds": [
+      "u8:sleepy",
+      "u8:weak",
+      "u8:sick"
+     ],
+     "fullSentence": "The spinning ride left me so dizzy that I could not walk straight."
+    },
+    {
+     "sentence": "Fay felt ___ because she had not eaten anything since breakfast.",
+     "translation": "小菲從早餐後就沒吃東西，餓得頭暈。",
+     "clue": "餓過頭時眼前發黑的感覺",
+     "answerEntryId": "u8:dizzy",
+     "distractorEntryIds": [
+      "u8:hunger",
+      "u8:weak",
+      "u8:well"
+     ],
+     "fullSentence": "Fay felt dizzy because she had not eaten anything since breakfast."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Holding your breath too long can make you ___ and unsteady.",
+     "translation": "憋氣太久會讓你頭暈、站不穩。",
+     "clue": "大腦缺氧時的天旋地轉",
+     "answerEntryId": "u8:dizzy",
+     "distractorEntryIds": [
+      "u8:sleepy",
+      "u8:weak",
+      "u8:painful"
+     ],
+     "fullSentence": "Holding your breath too long can make you dizzy and unsteady."
+    },
+    {
+     "sentence": "The doctor asked if the room seemed to spin whenever Ben felt ___ like this.",
+     "translation": "醫生問小本每次這樣頭暈時，是否覺得房間在旋轉。",
+     "clue": "自覺房間在轉的症狀",
+     "answerEntryId": "u8:dizzy",
+     "distractorEntryIds": [
+      "u8:sleepy",
+      "u8:weak",
+      "u8:fine"
+     ],
+     "fullSentence": "The doctor asked if the room seemed to spin whenever Ben felt dizzy like this."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The nurse helped Fay lie down quickly because her head was ___ and her face was turning white.",
+    "translation": "護理師趕快扶小艾躺下，因為她頭暈、臉色發白。",
+    "clue": "頭部天旋地轉＋臉色發白",
+    "answerEntryId": "u8:dizzy",
+    "distractorEntryIds": [
+     "u8:sleepy",
+     "u8:pale",
+     "u8:weak"
+    ],
+    "fullSentence": "The nurse helped Fay lie down quickly because her head was dizzy and her face was turning white."
+   }
+  },
+  {
+   "entryId": "u8:drug",
+   "zh": "藥；毒品",
+   "pos": "noun",
+   "example": "The pharmacy keeps many kinds of drugs behind the counter.",
+   "exampleZh": "藥局把許多種藥品放在櫃檯後面。",
+   "spellingHint": "d-r-u-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The school held a talk to teach students to say no to ___.",
+    "translation": "學校舉辦演講，教學生拒絕毒品。",
+    "clue": "學校宣導要拒絕的危險物品",
+    "answerEntryId": "u8:drug",
+    "distractorEntryIds": [
+     "u8:medicine",
+     "u8:treatment",
+     "u8:effect"
+    ],
+    "fullSentence": "The school held a talk to teach students to say no to drug."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The nurse checked which ___ the patient is allergic to before giving it.",
+     "translation": "護理師給藥前先確認病人對哪種藥過敏。",
+     "clue": "醫院開給病人服用的藥",
+     "answerEntryId": "u8:drug",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:cure",
+      "u8:pain"
+     ],
+     "fullSentence": "The nurse checked which drug the patient is allergic to before giving it."
+    },
+    {
+     "sentence": "Taking too many ___ at once can be dangerous for your body.",
+     "translation": "一次服用太多藥可能對身體有害。",
+     "clue": "可服用的藥品",
+     "answerEntryId": "u8:drug",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:injury",
+      "u8:fever"
+     ],
+     "fullSentence": "Taking too many drug at once can be dangerous for your body."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "This ___ lowers fever quickly, so keep it in the bathroom cabinet at home.",
+     "translation": "這種藥能快速退燒，所以放在家裡藥櫃備用。",
+     "clue": "放在藥櫃的退燒藥品",
+     "answerEntryId": "u8:drug",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:treatment",
+      "u8:poison"
+     ],
+     "fullSentence": "This drug lowers fever quickly, so keep it in the bathroom cabinet at home."
+    },
+    {
+     "sentence": "Police warned teenagers never to try illegal ___, even when friends offer them.",
+     "translation": "警方警告青少年絕不碰非法毒品，即使朋友提供也一樣。",
+     "clue": "friends offer 也不可嘗試的非法物質",
+     "answerEntryId": "u8:drug",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:poison",
+      "u8:treatment"
+     ],
+     "fullSentence": "Police warned teenagers never to try illegal drug, even when friends offer them."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The scientist spent ten years testing the new ___ before hospitals were allowed to use it.",
+    "translation": "科學家花了十年測試新藥，之後醫院才獲准使用。",
+    "clue": "需多年測試才能上市的藥",
+    "answerEntryId": "u8:drug",
+    "distractorEntryIds": [
+     "u8:treatment",
+     "u8:medicine",
+     "u8:effect"
+    ],
+    "fullSentence": "The scientist spent ten years testing the new drug before hospitals were allowed to use it."
+   }
+  },
+  {
+   "entryId": "u8:drugstore",
+   "zh": "藥局；藥妝店",
+   "pos": "noun",
+   "example": "Mom went to the drugstore to buy some bandages and vitamin C.",
+   "exampleZh": "媽媽去藥局買了一些繃帶和維生素C。",
+   "spellingHint": "d-r-u-g-s-t-o-r-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Run to the ___ around the corner and buy a bottle of cough syrup, please.",
+    "translation": "請跑到街角的藥局買一瓶咳嗽糖漿。",
+    "clue": "買成藥和日常用品的商店",
+    "answerEntryId": "u8:drugstore",
+    "distractorEntryIds": [
+     "u12:hospital",
+     "u12:bank",
+     "u12:bookstore"
+    ],
+    "fullSentence": "Run to the drugstore around the corner and buy a bottle of cough syrup, please."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "You can buy toothpaste and bandaids at any ___ on this street.",
+     "translation": "這條街上任何藥局都買得到牙膏和OK繃。",
+     "clue": "販售藥品與日用品的店",
+     "answerEntryId": "u8:drugstore",
+     "distractorEntryIds": [
+      "u12:supermarket",
+      "u12:bookstore",
+      "u12:hospital"
+     ],
+     "fullSentence": "You can buy toothpaste and bandaids at any drugstore on this street."
+    },
+    {
+     "sentence": "The ___ near our school also sells snacks, masks, and cold medicine.",
+     "translation": "我們學校附近的藥局也賣零食、口罩和感冒藥。",
+     "clue": "同時賣藥與零食的小店",
+     "answerEntryId": "u8:drugstore",
+     "distractorEntryIds": [
+      "u12:bookstore",
+      "u12:stationery store",
+      "u12:market"
+     ],
+     "fullSentence": "The drugstore near our school also sells snacks, masks, and cold medicine."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "If the cut is small, you can clean it and get antiseptic from the ___ yourself.",
+     "translation": "如果傷口很小，你可以自己清理並到藥局買消毒藥水。",
+     "clue": "自助買消毒用品的藥妝店",
+     "answerEntryId": "u8:drugstore",
+     "distractorEntryIds": [
+      "u12:hospital",
+      "u12:market",
+      "u12:department store"
+     ],
+     "fullSentence": "If the cut is small, you can clean it and get antiseptic from the drugstore yourself."
+    },
+    {
+     "sentence": "Grandpa's blood-pressure medicine ran out, so he visited the ___ to refill it.",
+     "translation": "爺爺的血壓藥吃完了，他去藥局補貨。",
+     "clue": "補領處方藥品的地點",
+     "answerEntryId": "u8:drugstore",
+     "distractorEntryIds": [
+      "u12:hospital",
+      "u12:bank",
+      "u12:post office"
+     ],
+     "fullSentence": "Grandpa's blood-pressure medicine ran out, so he visited the drugstore to refill it."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Instead of waiting hours at the clinic, Nina simply asked the ___ for a standard syrup for her dry throat.",
+    "translation": "小妮不想在診所等幾小時，直接去藥局買標準糖漿應付乾癢的喉嚨。",
+    "clue": "不需看診就能買成藥的地方",
+    "answerEntryId": "u8:drugstore",
+    "distractorEntryIds": [
+     "u12:hospital",
+     "u12:bookstore",
+     "u12:supermarket"
+    ],
+    "fullSentence": "Instead of waiting hours at the clinic, Nina simply asked the drugstore for a standard syrup for her dry throat."
+   }
+  },
+  {
+   "entryId": "u8:ease",
+   "zh": "減輕；緩和",
+   "pos": "verb",
+   "example": "Drinking warm tea will ease your sore throat a little.",
+   "exampleZh": "喝溫熱的茶會稍微減輕你的喉嚨痛。",
+   "spellingHint": "e-a-s-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The nurse gave Fay a warm blanket to ___ her shaking after the cold night.",
+    "translation": "護理師給小艾一條溫暖的毯子，緩和她度過寒夜後的發抖。",
+    "clue": "讓不舒服的感覺變輕",
+    "answerEntryId": "u8:ease",
+    "distractorEntryIds": [
+     "u8:hurt",
+     "u8:recover",
+     "u8:cure"
+    ],
+    "fullSentence": "The nurse gave Fay a warm blanket to ease her shaking after the cold night."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A gentle massage can ___ the pain in your shoulders.",
+     "translation": "輕柔的按摩能減輕肩膀的疼痛。",
+     "clue": "使疼痛減輕一些",
+     "answerEntryId": "u8:ease",
+     "distractorEntryIds": [
+      "u8:hurt",
+      "u8:cure",
+      "u8:recover"
+     ],
+     "fullSentence": "A gentle massage can ease the pain in your shoulders."
+    },
+    {
+     "sentence": "Deep breathing helped ___ Ken's worries before his test at the clinic.",
+     "translation": "深呼吸幫助小賢在看診前緩和緊張。",
+     "clue": "讓緊張的情緒平緩下來",
+     "answerEntryId": "u8:ease",
+     "distractorEntryIds": [
+      "u8:hurt",
+      "u8:lie",
+      "u8:cure"
+     ],
+     "fullSentence": "Deep breathing helped ease Ken's worries before his test at the clinic."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The lozenge did not ___ his cough completely, but he slept much better.",
+     "translation": "喉片沒能完全止住他的咳嗽，但他睡得好多了。",
+     "clue": "讓症狀緩和但未根治",
+     "answerEntryId": "u8:ease",
+     "distractorEntryIds": [
+      "u8:cure",
+      "u8:recover",
+      "u8:hurt"
+     ],
+     "fullSentence": "The lozenge did not ease his cough completely, but he slept much better."
+    },
+    {
+     "sentence": "Stretching before exercise helps ___ the tightness in your muscles.",
+     "translation": "運動前伸展能緩和肌肉的緊繃。",
+     "clue": "讓緊繃的部分放鬆變輕",
+     "answerEntryId": "u8:ease",
+     "distractorEntryIds": [
+      "u8:hurt",
+      "u8:cure",
+      "u8:recover"
+     ],
+     "fullSentence": "Stretching before exercise helps ease the tightness in your muscles."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The pills only ___ the symptoms, so the doctor still needs to find the real cause.",
+    "translation": "藥片只能減輕症狀，所以醫生仍需找出真正的病因。",
+    "clue": "只讓症狀變輕、未除根",
+    "answerEntryId": "u8:ease",
+    "distractorEntryIds": [
+     "u8:cure",
+     "u8:recover",
+     "u8:hurt"
+    ],
+    "fullSentence": "The pills only ease the symptoms, so the doctor still needs to find the real cause."
+   }
+  },
+  {
+   "entryId": "u8:effect",
+   "zh": "效果；影響",
+   "pos": "noun",
+   "example": "Getting enough sleep has a good effect on your memory.",
+   "exampleZh": "睡眠充足對記憶力有好的影響。",
+   "spellingHint": "e-f-f-e-c-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The new medicine had an immediate ___ on her fever, which dropped within an hour.",
+    "translation": "新藥對她的退燒立即見效，一小時內就退了。",
+    "clue": "藥物發揮的作用",
+    "answerEntryId": "u8:effect",
+    "distractorEntryIds": [
+     "u8:treatment",
+     "u8:pain",
+     "u8:health"
+    ],
+    "fullSentence": "The new medicine had an immediate effect on her fever, which dropped within an hour."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Exercise has many positive ___ on both body and mind.",
+     "translation": "運動對身心有許多正面的效果。",
+     "clue": "正面影響所帶來的結果",
+     "answerEntryId": "u8:effect",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:life",
+      "u8:medicine"
+     ],
+     "fullSentence": "Exercise has many positive effect on both body and mind."
+    },
+    {
+     "sentence": "Too little sleep has a bad ___ on your concentration in class.",
+     "translation": "睡眠不足對上課專注力有不良影響。",
+     "clue": "帶來的壞影響",
+     "answerEntryId": "u8:effect",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:fever",
+      "u8:medicine"
+     ],
+     "fullSentence": "Too little sleep has a bad effect on your concentration in class."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Doctors studied the side ___ of the vaccine for months before school shots began.",
+     "translation": "學生接種開始前，醫生花了數月研究疫苗的副作用。",
+     "clue": "side ___ 是藥物附帶的作用",
+     "answerEntryId": "u8:effect",
+     "distractorEntryIds": [
+      "u8:treatment",
+      "u8:pain",
+      "u8:health"
+     ],
+     "fullSentence": "Doctors studied the side effect of the vaccine for months before school shots began."
+    },
+    {
+     "sentence": "Cutting down on sugar had a surprising ___ on Dad's yearly checkup numbers.",
+     "translation": "減少吃糖對爸爸的年度健檢數字有出人意料的效果。",
+     "clue": "生活方式改變帶來的成果",
+     "answerEntryId": "u8:effect",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:injury",
+      "u8:medicine"
+     ],
+     "fullSentence": "Cutting down on sugar had a surprising effect on Dad's yearly checkup numbers."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The medicine worked, but its calming ___ made Nate too drowsy to drive home.",
+    "translation": "藥有效，但它鎮定的副作用讓小奈睏得無法開車回家。",
+    "clue": "藥物附帶產生的作用",
+    "answerEntryId": "u8:effect",
+    "distractorEntryIds": [
+     "u8:treatment",
+     "u8:pain",
+     "u8:health"
+    ],
+    "fullSentence": "The medicine worked, but its calming effect made Nate too drowsy to drive home."
+   }
+  },
+  {
+   "entryId": "u8:fever",
+   "zh": "發燒",
+   "pos": "noun",
+   "example": "The baby has a fever, so we are taking her temperature every hour.",
+   "exampleZh": "寶寶發燒了，所以我們每小時量一次體溫。",
+   "spellingHint": "f-e-v-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Lily's forehead was burning hot, so her mother knew she had a ___.",
+    "translation": "小麗的額頭燙燙的，所以媽媽知道她發燒了。",
+    "clue": "額頭發燙、體溫上升的症狀",
+    "answerEntryId": "u8:fever",
+    "distractorEntryIds": [
+     "u8:headache",
+     "u8:cold",
+     "u8:effect"
+    ],
+    "fullSentence": "Lily's forehead was burning hot, so her mother knew she had a fever."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nate stayed home with a high ___ of thirty-nine degrees.",
+     "translation": "小奈發高燒三十九度，只能待在家裡。",
+     "clue": "三十九度的高溫症狀",
+     "answerEntryId": "u8:fever",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:headache",
+      "u8:hunger"
+     ],
+     "fullSentence": "Nate stayed home with a high fever of thirty-nine degrees."
+    },
+    {
+     "sentence": "The nurse measured Lily's temperature and said the ___ was going down.",
+     "translation": "護理師量了小麗的體溫，說燒在退了。",
+     "clue": "量體溫追蹤的症狀",
+     "answerEntryId": "u8:fever",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:headache",
+      "u8:injury"
+     ],
+     "fullSentence": "The nurse measured Lily's temperature and said the fever was going down."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Resting and drinking water are the usual advice when a child runs a ___ of thirty-eight degrees.",
+     "translation": "孩子燒到三十八度時，一般的建議是休息與多喝水。",
+     "clue": "英文說 run a ___ 的發熱症狀",
+     "answerEntryId": "u8:fever",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:headache",
+      "u8:effect"
+     ],
+     "fullSentence": "Resting and drinking water are the usual advice when a child runs a fever of thirty-eight degrees."
+    },
+    {
+     "sentence": "Cool towels on the forehead helped the child's ___ come down before the clinic opened.",
+     "translation": "在診所開門前，額頭上的涼毛巾幫孩子的燒降了下來。",
+     "clue": "能被涼毛巾「降下來」的症狀",
+     "answerEntryId": "u8:fever",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:cold",
+      "u8:headache"
+     ],
+     "fullSentence": "Cool towels on the forehead helped the child's fever come down before the clinic opened."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Two days after the sneezing started, Lily's temperature jumped to 39 degrees and she was clearly running a ___.",
+    "translation": "開始打噴嚏兩天後，小麗體溫竄到39度，明顯在發燒。",
+    "clue": "跑出高體溫的英文說法 running a ___",
+    "answerEntryId": "u8:fever",
+    "distractorEntryIds": [
+     "u8:cold",
+     "u8:headache",
+     "u8:effect"
+    ],
+    "fullSentence": "Two days after the sneezing started, Lily's temperature jumped to 39 degrees and she was clearly running a fever."
+   }
+  },
+  {
+   "entryId": "u8:flu",
+   "zh": "流行性感冒",
+   "pos": "noun",
+   "example": "The flu kept the whole family in bed for three days.",
+   "exampleZh": "流行性感冒讓全家人臥床三天。",
+   "spellingHint": "f-l-u",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay caught the ___ from her classmates and spent three days in bed with chills and body aches.",
+    "translation": "小菲被同學傳染了流感，發冷又全身痠痛，臥床三天。",
+    "clue": "會高燒外加全身痠痛的流行病",
+    "answerEntryId": "u8:flu",
+    "distractorEntryIds": [
+     "u8:cold",
+     "u8:fever",
+     "u8:effect"
+    ],
+    "fullSentence": "Fay caught the flu from her classmates and spent three days in bed with chills and body aches."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Every October the school offers a shot to protect students from the seasonal ___.",
+     "translation": "每年十月學校提供疫苗接種，保護學生免於季節性流感。",
+     "clue": "秋天打疫苗預防的流行病",
+     "answerEntryId": "u8:flu",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:cancer",
+      "u8:AIDS"
+     ],
+     "fullSentence": "Every October the school offers a shot to protect students from the seasonal flu."
+    },
+    {
+     "sentence": "Ken missed the field trip because he came down with the ___ and stayed in bed.",
+     "translation": "小賢因為得了流感臥床，錯過了校外教學。",
+     "clue": "讓人臥床數天的流行感冒",
+     "answerEntryId": "u8:flu",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:headache",
+      "u8:fever"
+     ],
+     "fullSentence": "Ken missed the field trip because he came down with the flu and stayed in bed."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Unlike an ordinary ___, this winter illness arrives suddenly with chills and aching limbs.",
+     "translation": "和普通感冒不同，這種冬季疾病會突然來襲，伴隨發冷和肌肉痛。",
+     "clue": "突然來襲、發冷肌肉痛的流感",
+     "answerEntryId": "u8:flu",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:cancer",
+      "u8:AIDS"
+     ],
+     "fullSentence": "Unlike an ordinary flu, this winter illness arrives suddenly with chills and aching limbs."
+    },
+    {
+     "sentence": "The clinic was crowded in December because the ___ was spreading and whole classes were absent.",
+     "translation": "十二月診所大排長龍，因為流感蔓延，整班學生都缺席。",
+     "clue": "讓整班缺席的冬季流行病",
+     "answerEntryId": "u8:flu",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "The clinic was crowded in December because the flu was spreading and whole classes were absent."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Half the class was absent on Monday because the ___ was spreading through the whole school with high fevers.",
+    "translation": "週一班上一半學生缺席，因為流感伴隨高燒正在全校蔓延。",
+    "clue": "伴高燒全校蔓延的流行病",
+    "answerEntryId": "u8:flu",
+    "distractorEntryIds": [
+     "u8:cold",
+     "u8:effect",
+     "u8:health"
+    ],
+    "fullSentence": "Half the class was absent on Monday because the flu was spreading through the whole school with high fevers."
+   }
+  },
+  {
+   "entryId": "u8:headache",
+   "zh": "頭痛",
+   "pos": "noun",
+   "example": "Too much screen time gives me a headache.",
+   "exampleZh": "看螢幕太久讓我頭痛。",
+   "spellingHint": "h-e-a-d-a-c-h-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nate rubs his temples and squints at the bright screen because his ___ is getting worse.",
+    "translation": "小奈揉著太陽穴、瞇眼看著刺眼的螢幕，因為頭痛越來越嚴重。",
+    "clue": "太陽穴部位的疼痛",
+    "answerEntryId": "u8:headache",
+    "distractorEntryIds": [
+     "u8:stomachache",
+     "u8:toothache",
+     "u8:pain"
+    ],
+    "fullSentence": "Nate rubs his temples and squints at the bright screen because his headache is getting worse."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Lily drank water and rested in a dark room until her ___ went away.",
+     "translation": "小麗喝水並在暗處休息，直到頭痛消失。",
+     "clue": "頭部的疼痛",
+     "answerEntryId": "u8:headache",
+     "distractorEntryIds": [
+      "u8:stomachache",
+      "u8:toothache",
+      "u8:fever"
+     ],
+     "fullSentence": "Lily drank water and rested in a dark room until her headache went away."
+    },
+    {
+     "sentence": "Reading on the bumpy bus always gives Ben a ___.",
+     "translation": "在顛簸的公車上看書總是讓小本頭痛。",
+     "clue": "看書晃動造成的頭部疼痛",
+     "answerEntryId": "u8:headache",
+     "distractorEntryIds": [
+      "u8:stomachache",
+      "u8:pain",
+      "u8:fever"
+     ],
+     "fullSentence": "Reading on the bumpy bus always gives Ben a headache."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Dehydration is a common cause of ___, so keep a water bottle on your desk.",
+     "translation": "缺水是頭痛常見的原因，所以書桌上要放水壺。",
+     "clue": "喝水太少引起的頭部疼痛",
+     "answerEntryId": "u8:headache",
+     "distractorEntryIds": [
+      "u8:stomachache",
+      "u8:fever",
+      "u8:pain"
+     ],
+     "fullSentence": "Dehydration is a common cause of headache, so keep a water bottle on your desk."
+    },
+    {
+     "sentence": "The dentist said Fay's ___ was actually coming from her back molar.",
+     "translation": "牙醫說小菲的頭痛其實來自她的大臼齒。",
+     "clue": "由牙齒問題牽連的頭部疼痛",
+     "answerEntryId": "u8:headache",
+     "distractorEntryIds": [
+      "u8:toothache",
+      "u8:stomachache",
+      "u8:pain"
+     ],
+     "fullSentence": "The dentist said Fay's headache was actually coming from her back molar."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the loud concert, throbbing started behind Ben's eyes and turned into a splitting ___.",
+    "translation": "吵雜的演唱會後，小本眼後開始抽痛，變成劇烈的頭痛。",
+    "clue": "形容劇烈時說 splitting ___",
+    "answerEntryId": "u8:headache",
+    "distractorEntryIds": [
+     "u8:stomachache",
+     "u8:toothache",
+     "u8:pain"
+    ],
+    "fullSentence": "After the loud concert, throbbing started behind Ben's eyes and turned into a splitting headache."
+   }
+  },
+  {
+   "entryId": "u8:health",
+   "zh": "健康",
+   "pos": "noun",
+   "example": "Eating vegetables is good for your health.",
+   "exampleZh": "吃蔬菜對你的健康有益。",
+   "spellingHint": "h-e-a-l-t-h",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The school doctor checks each student's ___ at the start of every semester.",
+    "translation": "校醫在每學期開始時檢查每位學生的健康。",
+    "clue": "被定期檢查的身體狀況",
+    "answerEntryId": "u8:health",
+    "distractorEntryIds": [
+     "u8:life",
+     "u8:effect",
+     "u8:medicine"
+    ],
+    "fullSentence": "The school doctor checks each student's health at the start of every semester."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Regular exercise and enough sleep are the two keys to good ___.",
+     "translation": "規律運動和充足睡眠是健康的兩大關鍵。",
+     "clue": "規律運動換來的良好身體狀態",
+     "answerEntryId": "u8:health",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:hunger",
+      "u8:pain"
+     ],
+     "fullSentence": "Regular exercise and enough sleep are the two keys to good health."
+    },
+    {
+     "sentence": "Smoking seriously damages your ___, so never start.",
+     "translation": "吸菸嚴重損害健康，所以千萬不要嘗試。",
+     "clue": "吸菸傷害的東西",
+     "answerEntryId": "u8:health",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:poison",
+      "u8:effect"
+     ],
+     "fullSentence": "Smoking seriously damages your health, so never start."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The nurse recorded Grandpa's blood pressure as part of his yearly ___ check.",
+     "translation": "護理師記錄爺爺的血壓，作為年度健檢的一部分。",
+     "clue": "yearly ___ check＝年度健檢",
+     "answerEntryId": "u8:health",
+     "distractorEntryIds": [
+      "u8:treatment",
+      "u8:effect",
+      "u8:life"
+     ],
+     "fullSentence": "The nurse recorded Grandpa's blood pressure as part of his yearly health check."
+    },
+    {
+     "sentence": "Guests kept asking the restaurant for lighter, greener dishes, so the menu now leans ___ty.",
+     "translation": "客人一直要求更清爽、多蔬菜的菜色，所以菜單現在走向健康化。",
+     "clue": "走向「健康」的形容詞字尾",
+     "answerEntryId": "u8:health",
+     "distractorEntryIds": [
+      "u8:life",
+      "u8:effect",
+      "u8:medicine"
+     ],
+     "fullSentence": "Guests kept asking the restaurant for lighter, greener dishes, so the menu now leans healthty."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The chart on the wall compares how sugar, sleep, and exercise each shape a child's ___.",
+    "translation": "牆上的圖表比較了糖、睡眠和運動如何影響孩子的健康。",
+    "clue": "lifestyle 和 diet 共同影響的身體狀態",
+    "answerEntryId": "u8:health",
+    "distractorEntryIds": [
+     "u8:life",
+     "u8:effect",
+     "u8:treatment"
+    ],
+    "fullSentence": "The chart on the wall compares how sugar, sleep, and exercise each shape a child's health."
+   }
+  },
+  {
+   "entryId": "u8:healthy",
+   "zh": "健康的",
+   "pos": "adjective",
+   "example": "Fresh fruit and exercise keep you healthy.",
+   "exampleZh": "新鮮水果和運動讓你保持健康。",
+   "spellingHint": "h-e-a-l-t-h-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The doctor said Ken's heart works perfectly, because he eats ___ food and swims every week.",
+    "translation": "醫生說小賢的心臟功能很好，因為他吃得健康又每週游泳。",
+    "clue": "規律運動者常見的良好身體狀態",
+    "answerEntryId": "u8:healthy",
+    "distractorEntryIds": [
+     "u8:strong",
+     "u8:fine",
+     "u8:comfortable"
+    ],
+    "fullSentence": "The doctor said Ken's heart works perfectly, because he eats healthy food and swims every week."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Salad with olive oil is a ___ choice for lunch.",
+     "translation": "橄欖油沙拉是健康的午餐選擇。",
+     "clue": "對身體好的飲食選擇",
+     "answerEntryId": "u8:healthy",
+     "distractorEntryIds": [
+      "u8:fine",
+      "u8:strong",
+      "u8:well"
+     ],
+     "fullSentence": "Salad with olive oil is a healthy choice for lunch."
+    },
+    {
+     "sentence": "After a month of good food and sleep, the puppy looked shiny and ___.",
+     "translation": "吃好睡好一個月後，小狗看起來毛色發亮、很健康。",
+     "clue": "營養充足動物的健康樣子",
+     "answerEntryId": "u8:healthy",
+     "distractorEntryIds": [
+      "u8:pale",
+      "u8:weak",
+      "u8:sick"
+     ],
+     "fullSentence": "After a month of good food and sleep, the puppy looked shiny and healthy."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The classic signs of a ___ person are steady energy, good appetite, and deep sleep.",
+     "translation": "健康者的典型跡象是精力穩定、胃口好、睡得深。",
+     "clue": "精力旺盛等良好狀態的人",
+     "answerEntryId": "u8:healthy",
+     "distractorEntryIds": [
+      "u8:strong",
+      "u8:fine",
+      "u8:comfortable"
+     ],
+     "fullSentence": "The classic signs of a healthy person are steady energy, good appetite, and deep sleep."
+    },
+    {
+     "sentence": "Try to keep a ___ balance between study and rest during exam week.",
+     "translation": "考試週要維持讀書與休息的健康平衡。",
+     "clue": "身心兼顧的理想平衡",
+     "answerEntryId": "u8:healthy",
+     "distractorEntryIds": [
+      "u8:comfortable",
+      "u8:fine",
+      "u8:weak"
+     ],
+     "fullSentence": "Try to keep a healthy balance between study and rest during exam week."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Unlike her brother, who catches every bug at school, Nina hardly ever gets sick — she is unusually ___.",
+    "translation": "哥哥在學校什麼病菌都中鏢，小妮卻幾乎不生病——她特別健康。",
+    "clue": "不常生病＝身體狀況好",
+    "answerEntryId": "u8:healthy",
+    "distractorEntryIds": [
+     "u8:strong",
+     "u8:fine",
+     "u8:comfortable"
+    ],
+    "fullSentence": "Unlike her brother, who catches every bug at school, Nina hardly ever gets sick — she is unusually healthy."
+   }
+  },
+  {
+   "entryId": "u8:homesick",
+   "zh": "想家的",
+   "pos": "adjective",
+   "example": "Fay felt homesick during her first week at the boarding school.",
+   "exampleZh": "小菲在寄宿學校的第一週很想家。",
+   "spellingHint": "h-o-m-e-s-i-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Calling his parents every night is how Nate copes with feeling ___ at camp.",
+    "translation": "每晚打電話給爸媽是小奈在營隊想家時的應對方式。",
+    "clue": "離家在外想念家人的感覺",
+    "answerEntryId": "u8:homesick",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:sleepy",
+     "u8:tired"
+    ],
+    "fullSentence": "Calling his parents every night is how Nate copes with feeling homesick at camp."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Looking at the photo of her dog made the exchange student ___.",
+     "translation": "看著愛犬的照片，交換學生想家了。",
+     "clue": "照片勾起的思念家的情緒",
+     "answerEntryId": "u8:homesick",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:tired",
+      "u8:weak"
+     ],
+     "fullSentence": "Looking at the photo of her dog made the exchange student homesick."
+    },
+    {
+     "sentence": "Ken got so ___ that he counted the days until the bus home.",
+     "translation": "小賢想家想到開始計算回家巴士還有幾天。",
+     "clue": "渴望回家的心情",
+     "answerEntryId": "u8:homesick",
+     "distractorEntryIds": [
+      "u8:tired",
+      "u8:sleepy",
+      "u8:ill"
+     ],
+     "fullSentence": "Ken got so homesick that he counted the days until the bus home."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Even brave campers can feel ___ when the lights go out far from home.",
+     "translation": "再勇敢的營隊隊員，在離家遙遠的熄燈時刻也可能想家。",
+     "clue": "遠離家園時湧上的思念",
+     "answerEntryId": "u8:homesick",
+     "distractorEntryIds": [
+      "u8:sleepy",
+      "u8:sick",
+      "u8:tired"
+     ],
+     "fullSentence": "Even brave campers can feel homesick when the lights go out far from home."
+    },
+    {
+     "sentence": "To cheer up her ___ roommate, Lily baked cookies just like the ones from her hometown.",
+     "translation": "為了逗想家的室友開心，小麗烤了家鄉口味的餅乾。",
+     "clue": "用家鄉味安慰的情緒",
+     "answerEntryId": "u8:homesick",
+     "distractorEntryIds": [
+      "u8:tired",
+      "u8:sick",
+      "u8:weak"
+     ],
+     "fullSentence": "To cheer up her homesick roommate, Lily baked cookies just like the ones from her hometown."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The counselor noticed the new camper wasn't ___ or hurt — he just missed his mother's cooking.",
+    "translation": "輔導員發現新的營隊孩子並沒有生病或受傷——他只是想念媽媽的菜。",
+    "clue": "not sick or hurt，只是想念家",
+    "answerEntryId": "u8:homesick",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:tired",
+     "u8:sleepy"
+    ],
+    "fullSentence": "The counselor noticed the new camper wasn't homesick or hurt — he just missed his mother's cooking."
+   }
+  },
+  {
+   "entryId": "u8:hunger",
+   "zh": "飢餓",
+   "pos": "noun",
+   "example": "After the long hike, hunger hit the whole team at once.",
+   "exampleZh": "長途健行之後，全隊一起餓了起來。",
+   "spellingHint": "h-u-n-g-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "World ___ Day concerts raise money so that no child goes to bed without dinner.",
+    "translation": "世界飢餓日音樂會募款，讓每個孩子都能吃晚餐後入睡。",
+    "clue": "以音樂會募款對抗的全球問題",
+    "answerEntryId": "u8:hunger",
+    "distractorEntryIds": [
+     "u8:health",
+     "u8:pain",
+     "u8:life"
+    ],
+    "fullSentence": "World hunger Day concerts raise money so that no child goes to bed without dinner."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Skipping breakfast filled Lily with ___ by the third period.",
+     "translation": "小麗沒吃早餐，到第三節課餓得受不了。",
+     "clue": "沒吃飯時胃部的感覺",
+     "answerEntryId": "u8:hunger",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "Skipping breakfast filled Lily with hunger by the third period."
+    },
+    {
+     "sentence": "The charity collects food all winter to fight ___ in the city.",
+     "translation": "慈善機構整個冬天收集食物，對抗城裡的飢餓問題。",
+     "clue": "募集食物要解決的問題",
+     "answerEntryId": "u8:hunger",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:death",
+      "u8:pain"
+     ],
+     "fullSentence": "The charity collects food all winter to fight hunger in the city."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Dizzy spells often come from ___ , so eat breakfast before the morning run.",
+     "translation": "頭暈常常是因為餓，所以晨跑前要吃早餐。",
+     "clue": "不吃早餐產生的身體需求感",
+     "answerEntryId": "u8:hunger",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "Dizzy spells often come from hunger , so eat breakfast before the morning run."
+    },
+    {
+     "sentence": "Volunteers packed rice and canned fish to relieve ___ in the flooded towns.",
+     "translation": "志工打包白米和罐頭魚，緩解淹水城鎮的飢餓。",
+     "clue": "送食物去緩解的需求",
+     "answerEntryId": "u8:hunger",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:pain",
+      "u8:effect"
+     ],
+     "fullSentence": "Volunteers packed rice and canned fish to relieve hunger in the flooded towns."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ben ignored his ___ until the muscles in his stomach growled loudly during the quiet exam.",
+    "translation": "小本忍著飢餓，直到安靜的考試中肚子大聲咕咕叫。",
+    "clue": "肚子咕咕叫的生理需求",
+    "answerEntryId": "u8:hunger",
+    "distractorEntryIds": [
+     "u8:pain",
+     "u8:fever",
+     "u8:effect"
+    ],
+    "fullSentence": "Ben ignored his hunger until the muscles in his stomach growled loudly during the quiet exam."
+   }
+  },
+  {
+   "entryId": "u8:hurt",
+   "zh": "受傷；疼痛",
+   "pos": "verb",
+   "example": "Be careful with the knife, or you will hurt yourself.",
+   "exampleZh": "小心使用刀子，不然你會受傷。",
+   "spellingHint": "h-u-r-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay twisted her ankle during the race, and it still ___ when she walks.",
+    "translation": "小菲賽跑時扭傷腳踝，走路時仍會痛。",
+    "clue": "受傷部位活動時的痛感",
+    "answerEntryId": "u8:hurt",
+    "distractorEntryIds": [
+     "u8:recover",
+     "u8:ease",
+     "u8:cure"
+    ],
+    "fullSentence": "Fay twisted her ankle during the race, and it still hurt when she walks."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Ben fell off his bike and ___ his knee on the gravel.",
+     "translation": "小本從腳踏車上摔下來，膝蓋在碎石上受傷了。",
+     "clue": "摔倒造成的身體傷害",
+     "answerEntryId": "u8:hurt",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:lie",
+      "u8:ease"
+     ],
+     "fullSentence": "Ben fell off his bike and hurt his knee on the gravel."
+    },
+    {
+     "sentence": "Does it ___ when I press here? the doctor asked gently.",
+     "translation": "「我按這裡會痛嗎？」醫生輕聲問。",
+     "clue": "按壓時產生痛的感覺",
+     "answerEntryId": "u8:hurt",
+     "distractorEntryIds": [
+      "u8:ease",
+      "u8:recover",
+      "u8:die"
+     ],
+     "fullSentence": "Does it hurt when I press here? the doctor asked gently."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Warming up properly will stop your muscles from getting ___ during practice.",
+     "translation": "確實熱身能避免肌肉在練習中受傷。",
+     "clue": "熱身可預防的身體傷害",
+     "answerEntryId": "u8:hurt",
+     "distractorEntryIds": [
+      "u32:injure",
+      "u1:fall",
+      "u32:feel"
+     ],
+     "fullSentence": "Warming up properly will stop your muscles from getting hurt during practice."
+    },
+    {
+     "sentence": "Lily promised not to ___ her little brother's feelings, even during an argument.",
+     "translation": "小麗答應吵架時也不傷害弟弟的感情。",
+     "clue": "傷害感情、心情的動詞",
+     "answerEntryId": "u8:hurt",
+     "distractorEntryIds": [
+      "u8:ease",
+      "u8:cure",
+      "u8:recover"
+     ],
+     "fullSentence": "Lily promised not to hurt her little brother's feelings, even during an argument."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The x-ray showed nothing broken, but Nate's wrist continued to ___ for two whole weeks.",
+    "translation": "X光顯示沒有骨折，但小奈的手腕整整痛了兩週。",
+    "clue": "持續感到疼痛的動詞",
+    "answerEntryId": "u8:hurt",
+    "distractorEntryIds": [
+     "u8:die",
+     "u32:injure",
+     "u8:recover"
+    ],
+    "fullSentence": "The x-ray showed nothing broken, but Nate's wrist continued to hurt for two whole weeks."
+   }
+  },
+  {
+   "entryId": "u8:ill",
+   "zh": "生病的",
+   "pos": "adjective",
+   "example": "Mom stayed ___ from work because of a bad cold.",
+   "exampleZh": "媽媽因重感冒請假在家。",
+   "spellingHint": "i-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Grandma felt too ___ to water the flowers, so Grandpa took over the job.",
+    "translation": "奶奶病得無法澆花，所以爺爺接手了這項工作。",
+    "clue": "身體不舒服的狀態",
+    "answerEntryId": "u8:ill",
+    "distractorEntryIds": [
+     "u8:weak",
+     "u8:tired",
+     "u8:sleepy"
+    ],
+    "fullSentence": "Grandma felt too ill to water the flowers, so Grandpa took over the job."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nate was ___ with a high temperature and stayed in bed all weekend.",
+     "translation": "小奈生病發燒，整個週末都躺在床上。",
+     "clue": "發燒臥床的生病狀態",
+     "answerEntryId": "u8:ill",
+     "distractorEntryIds": [
+      "u6:lazy",
+      "u8:sleepy",
+      "u8:weak"
+     ],
+     "fullSentence": "Nate was ill with a high temperature and stayed in bed all weekend."
+    },
+    {
+     "sentence": "Her teacher missed two weeks of class because his daughter was seriously ___.",
+     "translation": "她老師缺課兩週，因為女兒病得很重。",
+     "clue": "病得很重的形容詞",
+     "answerEntryId": "u8:ill",
+     "distractorEntryIds": [
+      "u7:busy",
+      "u8:tired",
+      "u8:pale"
+     ],
+     "fullSentence": "Her teacher missed two weeks of class because his daughter was seriously ill."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The nurse asked if anyone in the family had been ___ before the chest pain started.",
+     "translation": "護理師詢問胸痛開始前，家裡是否有人生病。",
+     "clue": "生病了的正式說法",
+     "answerEntryId": "u8:ill",
+     "distractorEntryIds": [
+      "u8:pale",
+      "u8:weak",
+      "u8:tired"
+     ],
+     "fullSentence": "The nurse asked if anyone in the family had been ill before the chest pain started."
+    },
+    {
+     "sentence": "Drinking dirty water made several villagers ___ for days.",
+     "translation": "喝了髒水讓幾位村民病了好幾天。",
+     "clue": "污染水源造成的生病狀態",
+     "answerEntryId": "u8:ill",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sleepy",
+      "u29:casual"
+     ],
+     "fullSentence": "Drinking dirty water made several villagers ill for days."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ben looked pale and ___ , so the coach sent him back to the dorm to rest instead of training.",
+    "translation": "小本臉色蒼白、一臉病容，所以教練叫他回宿舍休息，不用訓練。",
+    "clue": "臉色蒼白的病態",
+    "answerEntryId": "u8:ill",
+    "distractorEntryIds": [
+     "u8:tired",
+     "u8:weak",
+     "u8:sleepy"
+    ],
+    "fullSentence": "Ben looked pale and ill , so the coach sent him back to the dorm to rest instead of training."
+   }
+  },
+  {
+   "entryId": "u8:injury",
+   "zh": "受傷；傷害",
+   "pos": "noun",
+   "example": "Wearing a helmet can prevent a serious head injury.",
+   "exampleZh": "戴安全帽能避免嚴重的頭部傷害。",
+   "spellingHint": "i-n-j-u-r-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The lifeguard checked every swimmer for ___ after the slide closed suddenly.",
+    "translation": "滑水道突然關閉後，救生員檢查每位泳客是否受傷。",
+    "clue": "事故後檢查的身體傷害",
+    "answerEntryId": "u8:injury",
+    "distractorEntryIds": [
+     "u8:pain",
+     "u8:treatment",
+     "u8:fever"
+    ],
+    "fullSentence": "The lifeguard checked every swimmer for injury after the slide closed suddenly."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Stretching before the game lowers the risk of muscle ___.",
+     "translation": "賽前熱身能降低肌肉受傷的風險。",
+     "clue": "熱身預防的身體傷害",
+     "answerEntryId": "u8:injury",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:effect",
+      "u8:poison"
+     ],
+     "fullSentence": "Stretching before the game lowers the risk of muscle injury."
+    },
+    {
+     "sentence": "Ken's knee ___ healed slowly, so he missed half of the basketball season.",
+     "translation": "小賢的膝蓋傷勢痊癒得很慢，錯過了半個籃球季。",
+     "clue": "膝蓋受的傷",
+     "answerEntryId": "u8:injury",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:fever",
+      "u8:effect"
+     ],
+     "fullSentence": "Ken's knee injury healed slowly, so he missed half of the basketball season."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Seat belts and airbags together reduce the chance of ___ in a crash.",
+     "translation": "安全帶和安全氣囊一起能降低車禍中受傷的機率。",
+     "clue": "車禍中可能造成的身體傷害",
+     "answerEntryId": "u8:injury",
+     "distractorEntryIds": [
+      "u8:death",
+      "u8:pain",
+      "u8:treatment"
+     ],
+     "fullSentence": "Seat belts and airbags together reduce the chance of injury in a crash."
+    },
+    {
+     "sentence": "The report listed one small ___ and no serious problems among the riders.",
+     "translation": "報告列出騎士中只有一人輕傷，沒有嚴重問題。",
+     "clue": "事故造成的身體損傷",
+     "answerEntryId": "u8:injury",
+     "distractorEntryIds": [
+      "u8:pain",
+      "u8:wound",
+      "u8:effect"
+     ],
+     "fullSentence": "The report listed one small injury and no serious problems among the riders."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The helmet cracked in the fall, but it did its job — Ben's only ___ was a bruise on his arm.",
+    "translation": "摔落時安全帽裂了，但它盡了職責——小本唯一的傷是手臂淤青。",
+    "clue": "事故後盤點的身體損傷",
+    "answerEntryId": "u8:injury",
+    "distractorEntryIds": [
+     "u8:wound",
+     "u8:pain",
+     "u8:treatment"
+    ],
+    "fullSentence": "The helmet cracked in the fall, but it did its job — Ben's only injury was a bruise on his arm."
+   }
+  },
+  {
+   "entryId": "u8:lie",
+   "zh": "躺",
+   "pos": "verb",
+   "example": "The doctor told Ben to lie down and rest for an hour.",
+   "exampleZh": "醫生叫小本躺下休息一小時。",
+   "spellingHint": "l-i-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay felt faint, so the nurse helped her ___ down on the couch.",
+    "translation": "小菲一陣暈眩，護理師扶她躺在長椅上。",
+    "clue": "身體平躺下來的動作",
+    "answerEntryId": "u8:lie",
+    "distractorEntryIds": [
+     "u8:recover",
+     "u8:hurt",
+     "u8:cure"
+    ],
+    "fullSentence": "Fay felt faint, so the nurse helped her lie down on the couch."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nate likes to ___ on the grass and watch clouds on sunny afternoons.",
+     "translation": "小奈喜歡在晴朗的午後躺在草地上看雲。",
+     "clue": "身體平放在草地上",
+     "answerEntryId": "u8:lie",
+     "distractorEntryIds": [
+      "u1:stand",
+      "u1:jump",
+      "u1:run"
+     ],
+     "fullSentence": "Nate likes to lie on the grass and watch clouds on sunny afternoons."
+    },
+    {
+     "sentence": "The cat will ___ in the warm sunlight by the window all morning.",
+     "translation": "貓咪整個上午都會躺在窗邊溫暖的陽光裡。",
+     "clue": "動物平躺著休息",
+     "answerEntryId": "u8:lie",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u1:sleep",
+      "u8:ease"
+     ],
+     "fullSentence": "The cat will lie in the warm sunlight by the window all morning."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The nurse asked Fay to ___ still while she took her blood pressure.",
+     "translation": "護理師請小菲量血壓時躺好不要動。",
+     "clue": "量血壓時平躺不動",
+     "answerEntryId": "u8:lie",
+     "distractorEntryIds": [
+      "u8:recover",
+      "u8:hurt",
+      "u8:ease"
+     ],
+     "fullSentence": "The nurse asked Fay to lie still while she took her blood pressure."
+    },
+    {
+     "sentence": "Grandpa likes to ___ back in his chair and read the paper after lunch.",
+     "translation": "爺爺喜歡午飯後靠在椅背上躺著看報紙。",
+     "clue": "半躺半靠的休息姿勢",
+     "answerEntryId": "u8:lie",
+     "distractorEntryIds": [
+      "u1:stand",
+      "u1:run",
+      "u8:recover"
+     ],
+     "fullSentence": "Grandpa likes to lie back in his chair and read the paper after lunch."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After her shots, Lily was told to ___ quietly for ten minutes so she would not feel dizzy on standing up.",
+    "translation": "打完針後，小麗被告知安靜躺十分鐘，站起來才不會暈。",
+    "clue": "打針後起身前先平躺",
+    "answerEntryId": "u8:lie",
+    "distractorEntryIds": [
+     "u8:recover",
+     "u8:ease",
+     "u8:hurt"
+    ],
+    "fullSentence": "After her shots, Lily was told to lie quietly for ten minutes so she would not feel dizzy on standing up."
+   }
+  },
+  {
+   "entryId": "u8:life",
+   "zh": "生活；生命",
+   "pos": "noun",
+   "example": "Grandma says a walk after dinner is her secret to a long life.",
+   "exampleZh": "奶奶說飯後散步是她長壽的秘訣。",
+   "spellingHint": "l-i-f-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Volunteers saved the drowning boy's ___ by pulling him out and giving first aid.",
+    "translation": "志工把溺水男孩拉上岸急救，救回他的性命。",
+    "clue": "急救保住的生命",
+    "answerEntryId": "u8:life",
+    "distractorEntryIds": [
+     "u8:health",
+     "u8:death",
+     "u8:effect"
+    ],
+    "fullSentence": "Volunteers saved the drowning boy's life by pulling him out and giving first aid."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Moving to the countryside changed the whole family's ___ for the better.",
+     "translation": "搬去鄉下改善了一家人的生活。",
+     "clue": "日常起居的總稱",
+     "answerEntryId": "u8:life",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:injury",
+      "u8:hunger"
+     ],
+     "fullSentence": "Moving to the countryside changed the whole family's life for the better."
+    },
+    {
+     "sentence": "Doctors worked all night to save the climber's ___.",
+     "translation": "醫生整夜搶救登山客的性命。",
+     "clue": "被急救保住的性命",
+     "answerEntryId": "u8:life",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:effect",
+      "u8:poison"
+     ],
+     "fullSentence": "Doctors worked all night to save the climber's life."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Daily exercise adds energy to every part of your ___, from school to sports.",
+     "translation": "每天的運動為你的生活每個層面帶來活力，從上課到運動。",
+     "clue": "日常作息的整體",
+     "answerEntryId": "u8:life",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:effect",
+      "u8:death"
+     ],
+     "fullSentence": "Daily exercise adds energy to every part of your life, from school to sports."
+    },
+    {
+     "sentence": "The rescue team risked their own ___ to reach the miners deep underground.",
+     "translation": "救難隊冒著自己的生命危險，深入地下接觸礦工。",
+     "clue": "冒著的性命",
+     "answerEntryId": "u8:life",
+     "distractorEntryIds": [
+      "u8:health",
+      "u8:hunger",
+      "u8:death"
+     ],
+     "fullSentence": "The rescue team risked their own life to reach the miners deep underground."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Doctors say quitting smoking is the single best way to add years to your ___.",
+    "translation": "醫生說戒菸是為生命延長歲月最有效的方法。",
+    "clue": "戒菸延長的年數加在壽命上",
+    "answerEntryId": "u8:life",
+    "distractorEntryIds": [
+     "u8:health",
+     "u8:effect",
+     "u8:hunger"
+    ],
+    "fullSentence": "Doctors say quitting smoking is the single best way to add years to your life."
+   }
+  },
+  {
+   "entryId": "u8:medical",
+   "zh": "醫療的；醫學的",
+   "pos": "adjective",
+   "example": "Nina keeps a small ___ kit in her backpack for camping trips.",
+   "exampleZh": "小妮的背包裡帶著小型醫療包去露營。",
+   "spellingHint": "m-e-d-i-c-a-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The coach checked Ben's ___ record before letting him join the team.",
+    "translation": "教練查看小本的醫療紀錄，才讓他加入球隊。",
+    "clue": "記錄就醫史的文件",
+    "answerEntryId": "u8:medical",
+    "distractorEntryIds": [
+     "u29:possible",
+     "u29:casual",
+     "u8:physical"
+    ],
+    "fullSentence": "The coach checked Ben's medical record before letting him join the team."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Call 119 and ask for ___ help right away if the bleeding does not stop.",
+     "translation": "如果血止不住，立刻打119求助醫療。",
+     "clue": "專業醫護人員提供的救助",
+     "answerEntryId": "u8:medical",
+     "distractorEntryIds": [
+      "u8:physical",
+      "u18:regular",
+      "u29:casual"
+     ],
+     "fullSentence": "Call 119 and ask for medical help right away if the bleeding does not stop."
+    },
+    {
+     "sentence": "The camp requires every camper to bring a basic ___ kit.",
+     "translation": "營隊要求每個隊員攜帶基本醫療包。",
+     "clue": "裝著繃帶和藥品的包",
+     "answerEntryId": "u8:medical",
+     "distractorEntryIds": [
+      "u8:physical",
+      "u18:regular",
+      "u18:extra"
+     ],
+     "fullSentence": "The camp requires every camper to bring a basic medical kit."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The remote village finally opened a small ___ clinic with two nurses.",
+     "translation": "偏遠村落終於開了有兩位護理師的小型醫療診所。",
+     "clue": "提供醫護服務的診所",
+     "answerEntryId": "u8:medical",
+     "distractorEntryIds": [
+      "u8:physical",
+      "u29:personal",
+      "u29:casual"
+     ],
+     "fullSentence": "The remote village finally opened a small medical clinic with two nurses."
+    },
+    {
+     "sentence": "All team members need a ___ exam before the season starts.",
+     "translation": "所有隊員在球季開始前都需要做健康檢查。",
+     "clue": "由醫護人員執行的檢查",
+     "answerEntryId": "u8:medical",
+     "distractorEntryIds": [
+      "u8:physical",
+      "u29:casual",
+      "u18:regular"
+     ],
+     "fullSentence": "All team members need a medical exam before the season starts."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The pilot must pass a strict ___ check every year, covering eyesight and heart, before flying again.",
+    "translation": "飛行員每年都要通過嚴格的醫療檢查（含視力和心臟），才能再次執飛。",
+    "clue": "由醫師執行的檢查",
+    "answerEntryId": "u8:medical",
+    "distractorEntryIds": [
+     "u8:physical",
+     "u18:regular",
+     "u29:casual"
+    ],
+    "fullSentence": "The pilot must pass a strict medical check every year, covering eyesight and heart, before flying again."
+   }
+  },
+  {
+   "entryId": "u8:medicine",
+   "zh": "藥；醫學",
+   "pos": "noun",
+   "example": "Take this medicine three times a day after meals.",
+   "exampleZh": "這個藥一天服用三次，飯後吃。",
+   "spellingHint": "m-e-d-i-c-i-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The pharmacist measured out the exact dose of ___ for Lily's cough.",
+    "translation": "藥師為小麗量出咳嗽藥水的精確劑量。",
+    "clue": "藥師配給的治療用藥",
+    "answerEntryId": "u8:medicine",
+    "distractorEntryIds": [
+     "u8:drug",
+     "u8:treatment",
+     "u8:effect"
+    ],
+    "fullSentence": "The pharmacist measured out the exact dose of medicine for Lily's cough."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Mom keeps all our ___ in a locked box high on the shelf.",
+     "translation": "媽媽把家裡的藥都鎖在架子高處的盒子裡。",
+     "clue": "家中存放的藥品",
+     "answerEntryId": "u8:medicine",
+     "distractorEntryIds": [
+      "u8:poison",
+      "u8:drug",
+      "u8:hunger"
+     ],
+     "fullSentence": "Mom keeps all our medicine in a locked box high on the shelf."
+    },
+    {
+     "sentence": "Ben felt much better after taking his ___ with warm water.",
+     "translation": "小本用溫水服藥之後好多了。",
+     "clue": "配溫水吞服的東西",
+     "answerEntryId": "u8:medicine",
+     "distractorEntryIds": [
+      "u8:effect",
+      "u8:drug",
+      "u8:hunger"
+     ],
+     "fullSentence": "Ben felt much better after taking his medicine with warm water."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The label on the ___ says one spoonful every six hours for children.",
+     "translation": "藥瓶標籤寫著兒童每六小時一匙。",
+     "clue": "附服用說明標籤的藥品",
+     "answerEntryId": "u8:medicine",
+     "distractorEntryIds": [
+      "u8:drug",
+      "u8:treatment",
+      "u8:poison"
+     ],
+     "fullSentence": "The label on the medicine says one spoonful every six hours for children."
+    },
+    {
+     "sentence": "Nate wants to study ___ at university and become a doctor like his aunt.",
+     "translation": "小奈想在大學讀醫學，像他姑姑一樣成為醫生。",
+     "clue": "大學裡培養醫生的科系",
+     "answerEntryId": "u8:medicine",
+     "distractorEntryIds": [
+      "u8:drug",
+      "u8:effect",
+      "u8:treatment"
+     ],
+     "fullSentence": "Nate wants to study medicine at university and become a doctor like his aunt."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor prescribed a seven-day course of ___ and warned Ben not to stop halfway even if he felt better.",
+    "translation": "醫生開了七天份的藥，並警告小本即使覺得好轉也不能吃一半就停。",
+    "clue": "醫師處方、按療程服用的藥",
+    "answerEntryId": "u8:medicine",
+    "distractorEntryIds": [
+     "u8:drug",
+     "u8:treatment",
+     "u8:injury"
+    ],
+    "fullSentence": "The doctor prescribed a seven-day course of medicine and warned Ben not to stop halfway even if he felt better."
+   }
+  },
+  {
+   "entryId": "u8:recover",
+   "zh": "康復；恢復",
+   "pos": "verb",
+   "example": "It took Ben a whole week to recover from the stomach flu.",
+   "exampleZh": "小本花了一整週才從腸胃炎康復。",
+   "spellingHint": "r-e-c-o-v-e-r",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nina rested for a month so her sprained ankle could fully ___ before the meet.",
+    "translation": "小妮休息了一個月，讓扭傷的腳踝在比賽前完全康復。",
+    "clue": "受傷後恢復健康",
+    "answerEntryId": "u8:recover",
+    "distractorEntryIds": [
+     "u8:lie",
+     "u8:ease",
+     "u8:hurt"
+    ],
+    "fullSentence": "Nina rested for a month so her sprained ankle could fully recover before the meet."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "After three days of sleep and water, Lily began to ___ from her cold.",
+     "translation": "睡了三天、多喝水之後，小麗的感冒開始好了。",
+     "clue": "生病後慢慢痊癒",
+     "answerEntryId": "u8:recover",
+     "distractorEntryIds": [
+      "u32:feel",
+      "u8:lie",
+      "u8:hurt"
+     ],
+     "fullSentence": "After three days of sleep and water, Lily began to recover from her cold."
+    },
+    {
+     "sentence": "The old man was weak after surgery, but doctors say he will ___ soon.",
+     "translation": "老人手術後很虛弱，但醫生說他會康復。",
+     "clue": "手術後恢復健康",
+     "answerEntryId": "u8:recover",
+     "distractorEntryIds": [
+      "u8:die",
+      "u8:hurt",
+      "u8:ease"
+     ],
+     "fullSentence": "The old man was weak after surgery, but doctors say he will recover soon."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Birds that fly into windows often cannot ___ because their wings are badly hurt.",
+     "translation": "撞上窗戶的鳥常因翅膀重傷而無法康復。",
+     "clue": "受重傷後恢復健康",
+     "answerEntryId": "u8:recover",
+     "distractorEntryIds": [
+      "u32:feel",
+      "u8:lie",
+      "u8:ease"
+     ],
+     "fullSentence": "Birds that fly into windows often cannot recover because their wings are badly hurt."
+    },
+    {
+     "sentence": "The town took years to ___ from the typhoon, rebuilding homes and the clinic.",
+     "translation": "小鎮花了數年才從颱風中恢復，重建家園和診所。",
+     "clue": "災後恢復以往狀態",
+     "answerEntryId": "u8:recover",
+     "distractorEntryIds": [
+      "u32:feel",
+      "u8:hurt",
+      "u8:lie"
+     ],
+     "fullSentence": "The town took years to recover from the typhoon, rebuilding homes and the clinic."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctors expect Fay to___ in about two weeks, so she should be back at school before the final exams.",
+    "translation": "醫生預期小菲約兩週康復，期末考前就能回學校。",
+    "clue": "預計痊癒回到學校",
+    "answerEntryId": "u8:recover",
+    "distractorEntryIds": [
+     "u8:lie",
+     "u8:ease",
+     "u8:hurt"
+    ],
+    "fullSentence": "The doctors expect Fay torecover in about two weeks, so she should be back at school before the final exams."
+   }
+  },
+  {
+   "entryId": "u8:sick",
+   "zh": "生病的",
+   "pos": "adjective",
+   "example": "Ken stayed home because he felt sick after lunch.",
+   "exampleZh": "小賢午餐後不舒服，只好待在家裡。",
+   "spellingHint": "s-i-c-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The smell of the paint made Fay feel ___ , so she opened every window.",
+    "translation": "油漆味讓小菲想吐，所以她打開所有窗戶。",
+    "clue": "噁心想吐的感覺",
+    "answerEntryId": "u8:sick",
+    "distractorEntryIds": [
+     "u8:pale",
+     "u8:weak",
+     "u8:tired"
+    ],
+    "fullSentence": "The smell of the paint made Fay feel sick , so she opened every window."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Ben's little sister is ___ , so they cannot visit Grandma this weekend.",
+     "translation": "小本的妹妹生病了，所以這週末不能去看奶奶。",
+     "clue": "身體不舒服的生病狀態",
+     "answerEntryId": "u8:sick",
+     "distractorEntryIds": [
+      "u8:homesick",
+      "u8:weak",
+      "u8:pale"
+     ],
+     "fullSentence": "Ben's little sister is sick , so they cannot visit Grandma this weekend."
+    },
+    {
+     "sentence": "The whole class got ___ from the spoiled milk at the cafeteria.",
+     "translation": "全班因為餐廳的壞掉的牛奶生病了。",
+     "clue": "吃了壞食物後生病",
+     "answerEntryId": "u8:sick",
+     "distractorEntryIds": [
+      "u8:ill",
+      "u8:sleepy",
+      "u29:casual"
+     ],
+     "fullSentence": "The whole class got sick from the spoiled milk at the cafeteria."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Many passengers feel ___ on long bus rides, so keep a plastic bag handy.",
+     "translation": "很多乘客長途搭車會暈車不適，所以準備塑膠袋在旁邊。",
+     "clue": "暈車時的反胃感",
+     "answerEntryId": "u8:sick",
+     "distractorEntryIds": [
+      "u8:pale",
+      "u8:tired",
+      "u8:weak"
+     ],
+     "fullSentence": "Many passengers feel sick on long bus rides, so keep a plastic bag handy."
+    },
+    {
+     "sentence": "The nurse sent Nate home because he looked too ___ to finish the school day.",
+     "translation": "護理師送小奈回家，因為他病得無法繼續上課。",
+     "clue": "病到無法上學",
+     "answerEntryId": "u8:sick",
+     "distractorEntryIds": [
+      "u8:tired",
+      "u29:casual",
+      "u8:pale"
+     ],
+     "fullSentence": "The nurse sent Nate home because he looked too sick to finish the school day."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Fay's face turned green on the roller coaster, and she admitted she was feeling ___ , so they stopped riding.",
+    "translation": "小菲搭雲霄飛車臉都綠了，承認自己想吐，於是他們停止乘坐。",
+    "clue": "臉綠＝想吐",
+    "answerEntryId": "u8:sick",
+    "distractorEntryIds": [
+     "u8:pale",
+     "u8:dizzy",
+     "u8:tired"
+    ],
+    "fullSentence": "Fay's face turned green on the roller coaster, and she admitted she was feeling sick , so they stopped riding."
+   }
+  },
+  {
+   "entryId": "u8:sleepy",
+   "zh": "想睡的",
+   "pos": "adjective",
+   "example": "The warm classroom made everyone sleepy in the last period.",
+   "exampleZh": "溫暖的教室讓大家最後一節課昏昏欲睡。",
+   "spellingHint": "s-l-e-e-p-y",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nate felt so ___ after lunch that he yawned three times in ten minutes.",
+    "translation": "小奈吃完午餐好睏，十分鐘內打了三次哈欠。",
+    "clue": "連連打哈欠的狀態",
+    "answerEntryId": "u8:sleepy",
+    "distractorEntryIds": [
+     "u8:tired",
+     "u8:weak",
+     "u8:sick"
+    ],
+    "fullSentence": "Nate felt so sleepy after lunch that he yawned three times in ten minutes."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Do not take this ___ syrup before driving, because it may make you drowsy.",
+     "translation": "開車前不要喝這款藥水，因為它可能讓你昏昏欲睡。",
+     "clue": "藥水帶來的睏意",
+     "answerEntryId": "u8:sleepy",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:weak",
+      "u8:pale"
+     ],
+     "fullSentence": "Do not take this sleepy syrup before driving, because it may make you drowsy."
+    },
+    {
+     "sentence": "Lily was still ___ when the bus arrived, and she missed her stop.",
+     "translation": "公車來的時候小麗還在打瞌睡，坐過了站。",
+     "clue": "坐車打瞌睡",
+     "answerEntryId": "u8:sleepy",
+     "distractorEntryIds": [
+      "u8:tired",
+      "u29:casual",
+      "u8:dizzy"
+     ],
+     "fullSentence": "Lily was still sleepy when the bus arrived, and she missed her stop."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The antihistamine warned in small print that users might become ___ and should not operate machines.",
+     "translation": "抗組織胺的小字警告使用者可能想睡，不應操作機器。",
+     "clue": "與 drowsy（昏昏欲睡）互為提示",
+     "answerEntryId": "u8:sleepy",
+     "distractorEntryIds": [
+      "u8:tired",
+      "u8:sick",
+      "u8:pale"
+     ],
+     "fullSentence": "The antihistamine warned in small print that users might become sleepy and should not operate machines."
+    },
+    {
+     "sentence": "Feeling ___ right after a big meal is normal, so Grandma takes a short walk instead.",
+     "translation": "大餐後想睡是正常的，所以奶奶改散步走一小段。",
+     "clue": "大餐後的睏意",
+     "answerEntryId": "u8:sleepy",
+     "distractorEntryIds": [
+      "u29:casual",
+      "u8:weak",
+      "u8:tired"
+     ],
+     "fullSentence": "Feeling sleepy right after a big meal is normal, so Grandma takes a short walk instead."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The medicine worked, but it left Fay so ___ that she dozed off twice during her favorite show.",
+    "translation": "藥很有效，但讓小菲睏到在最喜歡的節目中睡了兩次。",
+    "clue": "看節目兩度睡著＝藥的睏意",
+    "answerEntryId": "u8:sleepy",
+    "distractorEntryIds": [
+     "u8:tired",
+     "u8:sick",
+     "u8:weak"
+    ],
+    "fullSentence": "The medicine worked, but it left Fay so sleepy that she dozed off twice during her favorite show."
+   }
+  },
+  {
+   "entryId": "u8:sore throat",
+   "zh": "喉嚨痛",
+   "pos": "phrase",
+   "example": "Honey in warm water can calm a sore throat at night.",
+   "exampleZh": "溫水加蜂蜜能在夜裡緩解喉嚨痛。",
+   "spellingHint": "s-o-r-e t-h-r-o-a-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Ben gulped honey tea all evening to calm his ___ before the choir contest.",
+    "translation": "小本整晚灌蜂蜜茶，想在合唱比賽前緩解喉嚨痛。",
+    "clue": "唱歌前要照顧的部位",
+    "answerEntryId": "u8:sore throat",
+    "distractorEntryIds": [
+     "u27:throughout",
+     "u27:beyond",
+     "u27:without"
+    ],
+    "fullSentence": "Ben gulped honey tea all evening to calm his sore throat before the choir contest."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nina could hardly speak because of her bad ___ , so she wrote her answers on paper.",
+     "translation": "小妮喉嚨痛得說不出話，只好把答案寫在紙上。",
+     "clue": "痛到難以說話的部位",
+     "answerEntryId": "u8:sore throat",
+     "distractorEntryIds": [
+      "u27:against",
+      "u27:during",
+      "u27:besides"
+     ],
+     "fullSentence": "Nina could hardly speak because of her bad sore throat , so she wrote her answers on paper."
+    },
+    {
+     "sentence": "Fay lost her voice and had a ___ after cheering at the game.",
+     "translation": "小菲比賽加油吶喊後喉嚨痛、說不出話。",
+     "clue": "喊叫過度造成的問題",
+     "answerEntryId": "u8:sore throat",
+     "distractorEntryIds": [
+      "u27:inside",
+      "u27:outside",
+      "u27:between"
+     ],
+     "fullSentence": "Fay lost her voice and had a sore throat after cheering at the game."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Swallowing felt like pins, the classic sign of a ___.",
+     "translation": "吞嚥像吞針一樣痛，這是喉嚨痛的典型症狀。",
+     "clue": "吞口水會痛的英文病名",
+     "answerEntryId": "u8:sore throat",
+     "distractorEntryIds": [
+      "u27:throughout",
+      "u27:without",
+      "u27:against"
+     ],
+     "fullSentence": "Swallowing felt like pins, the classic sign of a sore throat."
+    },
+    {
+     "sentence": "The doctor looked at Nate's red throat with a small light and said it was just a mild ___.",
+     "translation": "醫生用小燈照了小奈發紅的喉嚨，說只是輕微喉嚨痛。",
+     "clue": "照喉嚨診斷的病症",
+     "answerEntryId": "u8:sore throat",
+     "distractorEntryIds": [
+      "u27:beyond",
+      "u27:during",
+      "u27:besides"
+     ],
+     "fullSentence": "The doctor looked at Nate's red throat with a small light and said it was just a mild sore throat."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Gargling warm salt water is the old family trick for a ___ that makes every swallow sting.",
+    "translation": "用溫鹽水漱口是家裡的老方法，對付吞嚥刺痛的喉嚨痛。",
+    "clue": "每吞一次就刺痛的問題",
+    "answerEntryId": "u8:sore throat",
+    "distractorEntryIds": [
+     "u27:during",
+     "u27:besides",
+     "u27:inside"
+    ],
+    "fullSentence": "Gargling warm salt water is the old family trick for a sore throat that makes every swallow sting."
+   }
+  },
+  {
+   "entryId": "u8:stomachache",
+   "zh": "胃痛；肚子痛",
+   "pos": "noun",
+   "example": "Ken got a stomachache after eating three boxes of candy.",
+   "exampleZh": "小賢吃了三盒糖果之後肚子痛。",
+   "spellingHint": "s-t-o-m-a-c-h-a-c-h-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nate held his belly and asked to see the nurse because his ___ would not stop.",
+    "translation": "小奈捂著肚子要去找護理師，因為肚子痛個不停。",
+    "clue": "腹部的疼痛",
+    "answerEntryId": "u8:stomachache",
+    "distractorEntryIds": [
+     "u8:headache",
+     "u8:toothache",
+     "u8:pain"
+    ],
+    "fullSentence": "Nate held his belly and asked to see the nurse because his stomachache would not stop."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Eating too much ice cream on a cold day gave Lily a ___.",
+     "translation": "冷天吃太多冰淇淋讓小麗肚子痛。",
+     "clue": "吃太多冰引起的腹痛",
+     "answerEntryId": "u8:stomachache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:cough",
+      "u8:fever"
+     ],
+     "fullSentence": "Eating too much ice cream on a cold day gave Lily a stomachache."
+    },
+    {
+     "sentence": "Ben skipped the swimming class because of a sudden ___.",
+     "translation": "小本因為突然肚子痛而缺席游泳課。",
+     "clue": "突發的腹部疼痛",
+     "answerEntryId": "u8:stomachache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:pain",
+      "u8:fever"
+     ],
+     "fullSentence": "Ben skipped the swimming class because of a sudden stomachache."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Washing fruit before eating it helps you avoid a ___ from germs.",
+     "translation": "吃水果前先洗乾淨，能避免細菌造成的肚子痛。",
+     "clue": "細菌引起的腹痛",
+     "answerEntryId": "u8:stomachache",
+     "distractorEntryIds": [
+      "u8:cold",
+      "u8:headache",
+      "u8:fever"
+     ],
+     "fullSentence": "Washing fruit before eating it helps you avoid a stomachache from germs."
+    },
+    {
+     "sentence": "The doctor pressed gently below Lily's ribs and asked exactly where the ___ hurt most.",
+     "translation": "醫生在小麗肋骨下方輕壓，問她肚子痛最痛的位置。",
+     "clue": "壓腹問診的腹痛",
+     "answerEntryId": "u8:stomachache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:toothache",
+      "u8:pain"
+     ],
+     "fullSentence": "The doctor pressed gently below Lily's ribs and asked exactly where the stomachache hurt most."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "After the picnic, Ben's stomach cramped again and again, and everyone guessed the potato salad had caused his ___.",
+    "translation": "野餐後小本的胃一陣陣絞痛，大家猜是馬鈴薯沙拉害他肚子痛。",
+    "clue": "吃壞東西引起的腹痛",
+    "answerEntryId": "u8:stomachache",
+    "distractorEntryIds": [
+     "u8:headache",
+     "u8:toothache",
+     "u8:pain"
+    ],
+    "fullSentence": "After the picnic, Ben's stomach cramped again and again, and everyone guessed the potato salad had caused his stomachache."
+   }
+  },
+  {
+   "entryId": "u8:strong",
+   "zh": "強壯的；強的",
+   "pos": "adjective",
+   "example": "Milk and exercise made the puppy big and strong.",
+   "exampleZh": "牛奶和運動讓小狗長得又大又強壯。",
+   "spellingHint": "s-t-r-o-n-g",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Ken gripped the rope with both hands while the ___ wind tried to pull the tent away.",
+    "translation": "強勁的風想掀走帳篷，小賢雙手緊抓繩子。",
+    "clue": "力道強大的風",
+    "answerEntryId": "u8:strong",
+    "distractorEntryIds": [
+     "u8:weak",
+     "u8:healthy",
+     "u8:comfortable"
+    ],
+    "fullSentence": "Ken gripped the rope with both hands while the strong wind tried to pull the tent away."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Carrying two water buckets at once shows that Dad's arms are really ___.",
+     "translation": "一次提兩桶水，顯示爸爸的手臂真的很有力。",
+     "clue": "提重物需要的體力",
+     "answerEntryId": "u8:strong",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sick",
+      "u8:pale"
+     ],
+     "fullSentence": "Carrying two water buckets at once shows that Dad's arms are really strong."
+    },
+    {
+     "sentence": "Grandpa drinks milk every morning to keep his bones ___.",
+     "translation": "爺爺每天早上喝牛奶，保持骨骼強健。",
+     "clue": "補鈣讓骨頭堅固",
+     "answerEntryId": "u8:strong",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u8:fine",
+      "u8:comfortable"
+     ],
+     "fullSentence": "Grandpa drinks milk every morning to keep his bones strong."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Even the doctor was surprised by how ___ the swimmer's heart sounded.",
+     "translation": "連醫生都對那位泳者心跳的強勁感到驚訝。",
+     "clue": "心跳有力",
+     "answerEntryId": "u8:strong",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u12:fast",
+      "u8:weak"
+     ],
+     "fullSentence": "Even the doctor was surprised by how strong the swimmer's heart sounded."
+    },
+    {
+     "sentence": "The coffee was too ___ for Lily, so she added milk and sugar.",
+     "translation": "咖啡太濃了，小麗加了牛奶和糖。",
+     "clue": "味道濃烈",
+     "answerEntryId": "u8:strong",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u23:hot",
+      "u18:big"
+     ],
+     "fullSentence": "The coffee was too strong for Lily, so she added milk and sugar."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The rope must be ___ enough to hold two climbers, so the coach checked it twice before the climb.",
+    "translation": "繩子必須夠強韌才能承受兩位攀登者，所以教練出發前檢查了兩次。",
+    "clue": "承受重量不失效",
+    "answerEntryId": "u8:strong",
+    "distractorEntryIds": [
+     "u8:weak",
+     "u8:healthy",
+     "u18:big"
+    ],
+    "fullSentence": "The rope must be strong enough to hold two climbers, so the coach checked it twice before the climb."
+   }
+  },
+  {
+   "entryId": "u8:tired",
+   "zh": "疲倦的",
+   "pos": "adjective",
+   "example": "After the three-hour hike, everyone was hot and tired.",
+   "exampleZh": "走了三小時山路後，大家又熱又累。",
+   "spellingHint": "t-i-r-e-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay was so ___ after swim practice that she fell asleep before dinner.",
+    "translation": "小菲游泳練完累得晚飯前就睡著了。",
+    "clue": "練完體力耗盡的感覺",
+    "answerEntryId": "u8:tired",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:weak",
+     "u29:casual"
+    ],
+    "fullSentence": "Fay was so tired after swim practice that she fell asleep before dinner."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nate's legs felt heavy and he was ___ after carrying boxes all afternoon.",
+     "translation": "小奈搬了一下午箱子，雙腿沈重又疲累。",
+     "clue": "勞動後身體的疲累",
+     "answerEntryId": "u8:tired",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:pale",
+      "u29:casual"
+     ],
+     "fullSentence": "Nate's legs felt heavy and he was tired after carrying boxes all afternoon."
+    },
+    {
+     "sentence": "Mom looked ___ after working two shifts at the hospital.",
+     "translation": "媽媽在醫院值了兩班後一臉倦容。",
+     "clue": "長時間工作後的狀態",
+     "answerEntryId": "u8:tired",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:pale",
+      "u8:ill"
+     ],
+     "fullSentence": "Mom looked tired after working two shifts at the hospital."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Long study sessions make Ken's eyes ___ , so he rests them every twenty minutes.",
+     "translation": "長時間讀書讓小賢的眼睛疲勞，所以每二十分鐘休息一下。",
+     "clue": "用眼過度的疲勞",
+     "answerEntryId": "u8:tired",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:dizzy",
+      "u29:casual"
+     ],
+     "fullSentence": "Long study sessions make Ken's eyes tired , so he rests them every twenty minutes."
+    },
+    {
+     "sentence": "The coach warned that ___ muscles get hurt more easily, so stretch fully first.",
+     "translation": "教練警告，疲憊的肌肉更容易受傷，所以要先充分伸展。",
+     "clue": "疲累狀態下的肌肉",
+     "answerEntryId": "u8:tired",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sick",
+      "u29:casual"
+     ],
+     "fullSentence": "The coach warned that tired muscles get hurt more easily, so stretch fully first."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although Lily felt wide awake, her arms were too ___ from practicing strokes to lift the bucket.",
+    "translation": "小麗精神還很好，但手臂因為練習划水而太累，連水桶都提不起來。",
+    "clue": "不睏但肌肉無力＝累",
+    "answerEntryId": "u8:tired",
+    "distractorEntryIds": [
+     "u8:weak",
+     "u8:sick",
+     "u29:casual"
+    ],
+    "fullSentence": "Although Lily felt wide awake, her arms were too tired from practicing strokes to lift the bucket."
+   }
+  },
+  {
+   "entryId": "u8:toothache",
+   "zh": "牙痛",
+   "pos": "noun",
+   "example": "Ben had a toothache and could not enjoy his birthday cake.",
+   "exampleZh": "小本牙痛，無法享受他的生日蛋糕。",
+   "spellingHint": "t-o-o-t-h-a-c-h-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay stopped chewing on the right side because every bite brought back the ___.",
+    "translation": "小菲不敢用右邊咀嚼，因為每次咬都又引來牙痛。",
+    "clue": "咀嚼時發作的齒痛",
+    "answerEntryId": "u8:toothache",
+    "distractorEntryIds": [
+     "u8:headache",
+     "u8:stomachache",
+     "u8:pain"
+    ],
+    "fullSentence": "Fay stopped chewing on the right side because every bite brought back the toothache."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Nate woke up with a terrible ___ and called the dentist right away.",
+     "translation": "小奈早上醒來牙痛得厲害，馬上打給牙醫。",
+     "clue": "要找牙醫的疼痛",
+     "answerEntryId": "u8:toothache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:stomachache",
+      "u8:fever"
+     ],
+     "fullSentence": "Nate woke up with a terrible toothache and called the dentist right away."
+    },
+    {
+     "sentence": "Eating too many sweets gave Ken a ___ the week before his dental checkup.",
+     "translation": "吃太多甜食讓小賢在洗牙前一週牙痛。",
+     "clue": "甜食造成的疼痛",
+     "answerEntryId": "u8:toothache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:cold",
+      "u8:pain"
+     ],
+     "fullSentence": "Eating too many sweets gave Ken a toothache the week before his dental checkup."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Cold water used to soothe Nina's ___ , but the relief never lasted long.",
+     "translation": "冷水曾經短暫緩解小妮的牙痛，但舒緩總是維持不久。",
+     "clue": "對冷熱敏感的齒痛",
+     "answerEntryId": "u8:toothache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:stomachache",
+      "u8:pain"
+     ],
+     "fullSentence": "Cold water used to soothe Nina's toothache , but the relief never lasted long."
+    },
+    {
+     "sentence": "The dentist found a small cavity that had grown into a full ___.",
+     "translation": "牙醫發現一個小蛀牙已經惡化成真正的牙痛。",
+     "clue": "蛀牙發展成的痛",
+     "answerEntryId": "u8:toothache",
+     "distractorEntryIds": [
+      "u8:headache",
+      "u8:stomachache",
+      "u8:pain"
+     ],
+     "fullSentence": "The dentist found a small cavity that had grown into a full toothache."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Grandma's home remedy for a ___ is a warm compress on the cheek and clove oil on the aching molar.",
+    "translation": "奶奶的牙痛偏方是臉頰熱敷，並在作痛的大臼齒上塗丁香精油。",
+    "clue": "塗在作痛牙齒上看的病症",
+    "answerEntryId": "u8:toothache",
+    "distractorEntryIds": [
+     "u8:headache",
+     "u8:stomachache",
+     "u8:effect"
+    ],
+    "fullSentence": "Grandma's home remedy for a toothache is a warm compress on the cheek and clove oil on the aching molar."
+   }
+  },
+  {
+   "entryId": "u8:treatment",
+   "zh": "治療",
+   "pos": "noun",
+   "example": "The treatment for a broken arm usually takes about six weeks.",
+   "exampleZh": "手臂骨折的治療通常需要約六週。",
+   "spellingHint": "t-r-e-a-t-m-e-n-t",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Doctors improved the malaria ___ , so patients recover in days instead of weeks.",
+    "translation": "醫生改進了瘧疾的治療，病人幾天就能康復，不再需要幾週。",
+    "clue": "幫助病人康復的醫療處置",
+    "answerEntryId": "u8:treatment",
+    "distractorEntryIds": [
+     "u8:injury",
+     "u8:effect",
+     "u8:medicine"
+    ],
+    "fullSentence": "Doctors improved the malaria treatment , so patients recover in days instead of weeks."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The nurse explained every step of the ___ so Fays would not be nervous.",
+     "translation": "護理師解釋治療的每個步驟，小菲才不緊張。",
+     "clue": "有步驟的醫療過程",
+     "answerEntryId": "u8:treatment",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:effect",
+      "u8:health"
+     ],
+     "fullSentence": "The nurse explained every step of the treatment so Fays would not be nervous."
+    },
+    {
+     "sentence": "Coal tar shampoo is a common ___ for itchy scalps.",
+     "translation": "煤焦油洗髮精是頭皮癢常用的治療。",
+     "clue": "針對症狀的處置方式",
+     "answerEntryId": "u8:treatment",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:medicine",
+      "u8:effect"
+     ],
+     "fullSentence": "Coal tar shampoo is a common treatment for itchy scalps."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "With early diagnosis and the right ___ , many patients return to work quickly.",
+     "translation": "早期診斷加上正確治療，許多病人很快就能回到工作崗位。",
+     "clue": "診斷後進行的處置",
+     "answerEntryId": "u8:treatment",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:effect",
+      "u8:health"
+     ],
+     "fullSentence": "With early diagnosis and the right treatment , many patients return to work quickly."
+    },
+    {
+     "sentence": "The clinic offers free dental ___ for children every summer.",
+     "translation": "診所每年夏天為兒童提供免費牙科治療。",
+     "clue": "牙科提供的服務",
+     "answerEntryId": "u8:treatment",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:injury",
+      "u8:effect"
+     ],
+     "fullSentence": "The clinic offers free dental treatment for children every summer."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Whatever drug they choose, the doctor said, sticking to the full six-month ___ plan matters more than the drug itself.",
+    "translation": "醫生說，選哪種藥其次，堅持完整的半年治療計畫比藥本身更重要。",
+    "clue": "以療程計的整體處置計畫",
+    "answerEntryId": "u8:treatment",
+    "distractorEntryIds": [
+     "u8:injury",
+     "u8:medicine",
+     "u8:effect"
+    ],
+    "fullSentence": "Whatever drug they choose, the doctor said, sticking to the full six-month treatment plan matters more than the drug itself."
+   }
+  },
+  {
+   "entryId": "u8:weak",
+   "zh": "虛弱的；弱的",
+   "pos": "adjective",
+   "example": "The puppy was too weak to stand, so the vet fed it by hand.",
+   "exampleZh": "小狗虛弱得站不起來，獸醫用手餵牠。",
+   "spellingHint": "w-e-a-k",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "After the long illness, Lily's legs were so ___ that she needed help to climb the stairs.",
+    "translation": "大病之後，小麗的腿無力得需要人扶才能爬樓梯。",
+    "clue": "大病後體力不足",
+    "answerEntryId": "u8:weak",
+    "distractorEntryIds": [
+     "u8:tired",
+     "u8:sleepy",
+     "u8:pale"
+    ],
+    "fullSentence": "After the long illness, Lily's legs were so weak that she needed help to climb the stairs."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "The old bridge posts looked ___ , so the town closed the road to trucks.",
+     "translation": "舊橋的柱子看來不牢，鎮上禁止卡車通行。",
+     "clue": "結構不牢的狀態",
+     "answerEntryId": "u8:weak",
+     "distractorEntryIds": [
+      "u8:strong",
+      "u8:healthy",
+      "u8:fine"
+     ],
+     "fullSentence": "The old bridge posts looked weak , so the town closed the road to trucks."
+    },
+    {
+     "sentence": "Nate felt ___ and dizzy after skipping both breakfast and lunch.",
+     "translation": "小奈早餐午餐都沒吃，又虛弱又頭暈。",
+     "clue": "沒進食造成的體力不足",
+     "answerEntryId": "u8:weak",
+     "distractorEntryIds": [
+      "u8:strong",
+      "u8:healthy",
+      "u8:fine"
+     ],
+     "fullSentence": "Nate felt weak and dizzy after skipping both breakfast and lunch."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The signal is too ___ here, so step outside to make the call.",
+     "translation": "這裡訊號太弱，出去外面再打電話。",
+     "clue": "訊號微弱",
+     "answerEntryId": "u8:weak",
+     "distractorEntryIds": [
+      "u8:strong",
+      "u8:sleepy",
+      "u29:empty"
+     ],
+     "fullSentence": "The signal is too weak here, so step outside to make the call."
+    },
+    {
+     "sentence": "The patient's heartbeat was ___ but steady, which the nurse said was good news.",
+     "translation": "病人心跳微弱但規律，護理師說這是好現象。",
+     "clue": "心跳微弱",
+     "answerEntryId": "u8:weak",
+     "distractorEntryIds": [
+      "u8:strong",
+      "u8:tired",
+      "u8:pale"
+     ],
+     "fullSentence": "The patient's heartbeat was weak but steady, which the nurse said was good news."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The team worried because their goalkeeper 's sprained wrist made his grip too ___ for heavy shots.",
+    "translation": "球隊很擔心，因為門將的手腕扭傷讓他握力變弱，接不住強力射門。",
+    "clue": "扭傷後握力變差",
+    "answerEntryId": "u8:weak",
+    "distractorEntryIds": [
+     "u8:tired",
+     "u8:pale",
+     "u8:sleepy"
+    ],
+    "fullSentence": "The team worried because their goalkeeper 's sprained wrist made his grip too weak for heavy shots."
+   }
+  },
+  {
+   "entryId": "u8:well",
+   "zh": "好；健康地；安好",
+   "pos": "adverb",
+   "example": "Get some rest, and soon you will be well again.",
+   "exampleZh": "好好休息，很快你就會康復。",
+   "spellingHint": "w-e-l-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The nurse asked how Ben was feeling after the operation, and he smiled and said he was doing just ___.",
+    "translation": "護理師問小下手術後感覺如何，他笑著說好多了。",
+    "clue": "表示身體狀況良好的副詞",
+    "answerEntryId": "u8:well",
+    "distractorEntryIds": [
+     "u30:very",
+     "u30:quite",
+     "u30:really"
+    ],
+    "fullSentence": "The nurse asked how Ben was feeling after the operation, and he smiled and said he was doing just well."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Grandma hopes everyone in the family keeps ___ and warm this winter.",
+     "translation": "奶奶希望全家這個冬天都安好。",
+     "clue": "身體安好的狀態",
+     "answerEntryId": "u8:well",
+     "distractorEntryIds": [
+      "u30:sometimes",
+      "u30:really",
+      "u30:very"
+     ],
+     "fullSentence": "Grandma hopes everyone in the family keeps well and warm this winter."
+    },
+    {
+     "sentence": "Eat your vegetables and sleep early, and you will do ___ in the big race.",
+     "translation": "多吃蔬菜早點睡，大賽時你的表現就會好。",
+     "clue": "表現良好的副詞",
+     "answerEntryId": "u8:well",
+     "distractorEntryIds": [
+      "u30:often",
+      "u30:again",
+      "u30:very"
+     ],
+     "fullSentence": "Eat your vegetables and sleep early, and you will do well in the big race."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "As ___ as rest, the doctor recommended plenty of water and light meals.",
+     "translation": "除了休息，醫生還建議清淡飲食。",
+     "clue": "as ___ as＝除了…還有",
+     "answerEntryId": "u8:well",
+     "distractorEntryIds": [
+      "u30:really",
+      "u30:so",
+      "u30:very"
+     ],
+     "fullSentence": "As well as rest, the doctor recommended plenty of water and light meals."
+    },
+    {
+     "sentence": "I hope this letter finds you and your family ___ , Grandma began.",
+     "translation": "「希望你和家人一切安好。」奶奶在信中寫道。",
+     "clue": "書信開頭的問候用語",
+     "answerEntryId": "u8:well",
+     "distractorEntryIds": [
+      "u30:often",
+      "u30:very",
+      "u30:again"
+     ],
+     "fullSentence": "I hope this letter finds you and your family well , Grandma began."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The doctor checked the wound twice more and finally said everything was healing ___ , so Ben could leave that evening.",
+    "translation": "醫生又檢查了傷口兩次，最後說一切癒合良好，小本當晚就能出院。",
+    "clue": "癒合良好的副詞",
+    "answerEntryId": "u8:well",
+    "distractorEntryIds": [
+     "u30:again",
+     "u30:often",
+     "u30:very"
+    ],
+    "fullSentence": "The doctor checked the wound twice more and finally said everything was healing well , so Ben could leave that evening."
+   }
+  },
+  {
+   "entryId": "u8:wound",
+   "zh": "傷口",
+   "pos": "noun",
+   "example": "The nurse cleaned the wound on Ben's knee before putting on a bandage.",
+   "exampleZh": "護理師清理小本膝蓋的傷口後才貼上繃帶。",
+   "spellingHint": "w-o-u-n-d",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The soldier's ___ healed slowly, leaving a thin white line on his arm.",
+    "translation": "士兵的傷口癒合得很慢，手臂上留下一道細細的白痕。",
+    "clue": "留下疤痕的傷",
+    "answerEntryId": "u8:wound",
+    "distractorEntryIds": [
+     "u8:injury",
+     "u8:pain",
+     "u8:effect"
+    ],
+    "fullSentence": "The soldier's wound healed slowly, leaving a thin white line on his arm."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Fay cleaned the ___ with disinfectant and covered it with a clean bandage.",
+     "translation": "小菲用消毒藥水清理傷口，貼上乾淨的繃帶。",
+     "clue": "清理後覆蓋繃帶的部位",
+     "answerEntryId": "u8:wound",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:pain",
+      "u8:fever"
+     ],
+     "fullSentence": "Fay cleaned the wound with disinfectant and covered it with a clean bandage."
+    },
+    {
+     "sentence": "Blood soaked through the bandage, so the coach checked the ___ on Nate's palm again.",
+     "translation": "血浸透了繃帶，教練再度檢查小奈手掌上的傷口。",
+     "clue": "會流血滲出繃帶的部位",
+     "answerEntryId": "u8:wound",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:pain",
+      "u8:drug"
+     ],
+     "fullSentence": "Blood soaked through the bandage, so the coach checked the wound on Nate's palm again."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Various herbs have long been used to help a ___ close without infection.",
+     "translation": "長久以來，各種草藥被用來幫助傷口癒合、避免感染。",
+     "clue": "會感染、需要癒合的部位",
+     "answerEntryId": "u8:wound",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:pain",
+      "u8:effect"
+     ],
+     "fullSentence": "Various herbs have long been used to help a wound close without infection."
+    },
+    {
+     "sentence": "The stitch closed the ___ neatly, and the doctor said to keep it dry for two days.",
+     "translation": "縫針把傷口平整地縫合，醫生說兩天內要保持乾燥。",
+     "clue": "縫合的對象",
+     "answerEntryId": "u8:wound",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:pain",
+      "u8:effect"
+     ],
+     "fullSentence": "The stitch closed the wound neatly, and the doctor said to keep it dry for two days."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "A scratch becomes a ___ only when the skin is actually broken and bleeds.",
+    "translation": "只有皮膚真的破皮流血，抓痕才算得上傷口。",
+    "clue": "破皮流血形成的部位",
+    "answerEntryId": "u8:wound",
+    "distractorEntryIds": [
+     "u8:injury",
+     "u8:pain",
+     "u8:poison"
+    ],
+    "fullSentence": "A scratch becomes a wound only when the skin is actually broken and bleeds."
+   }
+  },
+  {
+   "entryId": "u8:pain",
+   "zh": "疼痛",
+   "pos": "noun",
+   "example": "Ken felt a sharp pain in his leg after the long run.",
+   "exampleZh": "長跑之後，小賢的腿感到一陣刺痛。",
+   "spellingHint": "p-a-i-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The nurse asked Fay to rate her ___ from one to ten after surgery.",
+    "translation": "手術後，護理師請小菲為疼痛評分一到十。",
+    "clue": "術後用數字描述的感覺",
+    "answerEntryId": "u8:pain",
+    "distractorEntryIds": [
+     "u8:hunger",
+     "u8:fever",
+     "u8:effect"
+    ],
+    "fullSentence": "The nurse asked Fay to rate her pain from one to ten after surgery."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "A sharp ___ in his tooth sent Ben straight to the dentist.",
+     "translation": "牙齒一陣劇痛讓小本直奔牙醫。",
+     "clue": "牙齒傳來的痛感",
+     "answerEntryId": "u8:pain",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:hunger",
+      "u8:fever"
+     ],
+     "fullSentence": "A sharp pain in his tooth sent Ben straight to the dentist."
+    },
+    {
+     "sentence": "The ___ in Lily's shoulder went away after two days of rest.",
+     "translation": "休息兩天後，小麗肩膀的疼痛消失了。",
+     "clue": "休息後消失的疼痛",
+     "answerEntryId": "u8:pain",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:effect",
+      "u8:hunger"
+     ],
+     "fullSentence": "The pain in Lily's shoulder went away after two days of rest."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "No ___ , no gain, Grandma says whenever a workout leaves Ken sore.",
+     "translation": "每次練完小賢痠痛，奶奶就說一分耕耘一分收穫。",
+     "clue": "諺語 No ___, no gain",
+     "answerEntryId": "u8:pain",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:hunger",
+      "u8:effect"
+     ],
+     "fullSentence": "No pain , no gain, Grandma says whenever a workout leaves Ken sore."
+    },
+    {
+     "sentence": "The nurse gave Fay a gentle massage to reduce the ___ in her neck.",
+     "translation": "護理師幫小菲輕柔按摩，減輕頸部疼痛。",
+     "clue": "按摩能減輕的感覺",
+     "answerEntryId": "u8:pain",
+     "distractorEntryIds": [
+      "u8:injury",
+      "u8:fever",
+      "u8:hunger"
+     ],
+     "fullSentence": "The nurse gave Fay a gentle massage to reduce the pain in her neck."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Ben pressed on the bruise and gasped — the ___ was worse than he expected.",
+    "translation": "小本按了一下淤青處倒吸一口氣——疼痛比他想像的劇烈。",
+    "clue": "按壓傷處引發的感覺",
+    "answerEntryId": "u8:pain",
+    "distractorEntryIds": [
+     "u8:injury",
+     "u8:effect",
+     "u8:hunger"
+    ],
+    "fullSentence": "Ben pressed on the bruise and gasped — the pain was worse than he expected."
+   }
+  },
+  {
+   "entryId": "u8:painful",
+   "zh": "疼痛的",
+   "pos": "adjective",
+   "example": "The shot was quick, but the toothache was far more painful.",
+   "exampleZh": "打針很快，但牙痛痛得多。",
+   "spellingHint": "p-a-i-n-f-u-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Fay found stepping on a block so ___ that she hopped on one foot across the room.",
+    "translation": "小菲踩到積木痛得用單腳跳過整個房間。",
+    "clue": "痛到讓人單腳跳的感覺",
+    "answerEntryId": "u8:painful",
+    "distractorEntryIds": [
+     "u8:dizzy",
+     "u8:weak",
+     "u8:pale"
+    ],
+    "fullSentence": "Fay found stepping on a block so painful that she hopped on one foot across the room."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Sunburn on the shoulders made even a soft shirt ___ to wear.",
+     "translation": "肩膀曬傷後，連軟衣服穿著都痛。",
+     "clue": "碰到就痛的狀態",
+     "answerEntryId": "u8:painful",
+     "distractorEntryIds": [
+      "u8:dizzy",
+      "u8:sleepy",
+      "u23:hot"
+     ],
+     "fullSentence": "Sunburn on the shoulders made even a soft shirt painful to wear."
+    },
+    {
+     "sentence": "The removed splinter left a ___ cut on Ben's thumb.",
+     "translation": "拔掉的小刺在小本拇指上留下一個會痛的小傷口。",
+     "clue": "帶來痛感的小傷口",
+     "answerEntryId": "u8:painful",
+     "distractorEntryIds": [
+      "u18:sharp",
+      "u18:big",
+      "u29:horrible"
+     ],
+     "fullSentence": "The removed splinter left a painful cut on Ben's thumb."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Nate's wisdom tooth was so ___ that he could only eat soup for three days.",
+     "translation": "小奈的智齒痛得他三天只能喝湯。",
+     "clue": "痛到只能喝湯的牙齒問題",
+     "answerEntryId": "u8:painful",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:dizzy",
+      "u8:pale"
+     ],
+     "fullSentence": "Nate's wisdom tooth was so painful that he could only eat soup for three days."
+    },
+    {
+     "sentence": "Long-distance runners learn that the last kilometer is often the most ___.",
+     "translation": "長跑選手都知道最後一公里往往最為難熬。",
+     "clue": "最高級的「令人疼痛」",
+     "answerEntryId": "u8:painful",
+     "distractorEntryIds": [
+      "u8:sleepy",
+      "u8:weak",
+      "u8:pale"
+     ],
+     "fullSentence": "Long-distance runners learn that the last kilometer is often the most painful."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The dentist numbed Fay's gum first, so pulling the tooth was not ___ at all.",
+    "translation": "牙醫先幫小菲的牙齦麻醉，所以拔牙一點也不痛。",
+    "clue": "麻醉後消除的感覺",
+    "answerEntryId": "u8:painful",
+    "distractorEntryIds": [
+     "u8:dizzy",
+     "u18:sharp",
+     "u8:weak"
+    ],
+    "fullSentence": "The dentist numbed Fay's gum first, so pulling the tooth was not painful at all."
+   }
+  },
+  {
+   "entryId": "u8:pale",
+   "zh": "蒼白的",
+   "pos": "adjective",
+   "example": "Ben looked pale after riding the roller coaster twice.",
+   "exampleZh": "小本搭了兩次雲霄飛車後臉色發白。",
+   "spellingHint": "p-a-l-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Nate turned ___ and had to sit down when the nurse showed him the needle.",
+    "translation": "護理師拿出針頭時，小奈臉色發白只好坐下。",
+    "clue": "害怕時失去血色的臉",
+    "answerEntryId": "u8:pale",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:weak",
+     "u8:dizzy"
+    ],
+    "fullSentence": "Nate turned pale and had to sit down when the nurse showed him the needle."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Lily looked ___ in the face, so her teacher sent her to the health center.",
+     "translation": "小麗臉色蒼白，老師送她去健康中心。",
+     "clue": "血色不足的臉色",
+     "answerEntryId": "u8:pale",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:sleepy",
+      "u8:tired"
+     ],
+     "fullSentence": "Lily looked pale in the face, so her teacher sent her to the health center."
+    },
+    {
+     "sentence": "After giving blood, Ben felt ___ and drank some juice to recover.",
+     "translation": "捐血後小本臉色發白，喝了些果汁才恢復。",
+     "clue": "捐血後的臉色",
+     "answerEntryId": "u8:pale",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:dizzy",
+      "u8:ill"
+     ],
+     "fullSentence": "After giving blood, Ben felt pale and drank some juice to recover."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The doctor noticed Ken's ___ skin and asked whether he had been eating properly.",
+     "translation": "醫生注意到小賢蒼白的膚色，問他是否正常飲食。",
+     "clue": "營養不足的膚色",
+     "answerEntryId": "u8:pale",
+     "distractorEntryIds": [
+      "u8:weak",
+      "u8:sick",
+      "u8:ill"
+     ],
+     "fullSentence": "The doctor noticed Ken's pale skin and asked whether he had been eating properly."
+    },
+    {
+     "sentence": "The horror movie turned Lily's face ___ as a sheet.",
+     "translation": "恐怖片把小麗的臉嚇得像紙一樣白。",
+     "clue": "嚇到血色盡失",
+     "answerEntryId": "u8:pale",
+     "distractorEntryIds": [
+      "u8:ill",
+      "u8:weak",
+      "u8:dizzy"
+     ],
+     "fullSentence": "The horror movie turned Lily's face pale as a sheet."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Fay's lips looked ___ and gray at the finish line, so the trainer made her rest in the shade.",
+    "translation": "終點線上小菲嘴脣蒼白發灰，教練要她到陰涼處休息。",
+    "clue": "嘴脣失去血色",
+    "answerEntryId": "u8:pale",
+    "distractorEntryIds": [
+     "u8:sick",
+     "u8:weak",
+     "u8:tired"
+    ],
+    "fullSentence": "Fay's lips looked pale and gray at the finish line, so the trainer made her rest in the shade."
+   }
+  },
+  {
+   "entryId": "u8:physical",
+   "zh": "身體的；體能的",
+   "pos": "adjective",
+   "example": "Swimming is hard ___ exercise, but it is easy on the joints.",
+   "exampleZh": "游泳是費力的身體運動，但對關節很溫和。",
+   "spellingHint": "p-h-y-s-i-c-a-l",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "Students need ___ activity every day, not just mental work at a desk.",
+    "translation": "學生每天都需要身體活動，不能只是坐在書桌前動腦。",
+    "clue": "與用腦相對、用身的活動",
+    "answerEntryId": "u8:physical",
+    "distractorEntryIds": [
+     "u8:medical",
+     "u29:possible",
+     "u29:casual"
+    ],
+    "fullSentence": "Students need physical activity every day, not just mental work at a desk."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Lifting weights builds ___ strength in your arms and legs.",
+     "translation": "舉重能鍛鍊手臂和腿的身體力量。",
+     "clue": "肌肉訓練的力量",
+     "answerEntryId": "u8:physical",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u18:big",
+      "u29:dangerous"
+     ],
+     "fullSentence": "Lifting weights builds physical strength in your arms and legs."
+    },
+    {
+     "sentence": "The army test includes eye checks and other ___ exams.",
+     "translation": "軍隊的測驗包括視力檢查和其他身體檢查。",
+     "clue": "檢查身體狀況的項目",
+     "answerEntryId": "u8:physical",
+     "distractorEntryIds": [
+      "u8:medical",
+      "u29:personal",
+      "u18:regular"
+     ],
+     "fullSentence": "The army test includes eye checks and other physical exams."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "Chess is mental work, while tug-of-war is almost pure ___ effort.",
+     "translation": "下棋是腦力活，拔河則幾乎是純體力活。",
+     "clue": "與 mental（腦力）相對",
+     "answerEntryId": "u8:physical",
+     "distractorEntryIds": [
+      "u8:medical",
+      "u29:casual",
+      "u8:healthy"
+     ],
+     "fullSentence": "Chess is mental work, while tug-of-war is almost pure physical effort."
+    },
+    {
+     "sentence": "The doctor said Fay's headaches have no ___ cause, so less screen time might help.",
+     "translation": "醫生說小菲的頭痛沒有身體上的原因，少看螢幕可能會有幫助。",
+     "clue": "身體構造上的原因",
+     "answerEntryId": "u8:physical",
+     "distractorEntryIds": [
+      "u8:medical",
+      "u29:personal",
+      "u29:common"
+     ],
+     "fullSentence": "The doctor said Fay's headaches have no physical cause, so less screen time might help."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Nate trains every morning, so his ___ fitness lets him climb the long stairs without stopping.",
+    "translation": "小奈每天早晨訓練，所以他的體能讓他能一口氣爬完長長的樓梯。",
+    "clue": "訓練累積的體能狀態",
+    "answerEntryId": "u8:physical",
+    "distractorEntryIds": [
+     "u8:medical",
+     "u29:personal",
+     "u18:regular"
+    ],
+    "fullSentence": "Nate trains every morning, so his physical fitness lets him climb the long stairs without stopping."
+   }
+  },
+  {
+   "entryId": "u8:poison",
+   "zh": "毒；毒藥",
+   "pos": "noun",
+   "example": "Keep cleaning poison far away from small children and pets.",
+   "exampleZh": "清潔毒劑務必遠離幼童和寵物。",
+   "spellingHint": "p-o-i-s-o-n",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The label warns that the weedkiller is a ___ ; never touch it with bare hands.",
+    "translation": "標籤警告除草劑有毒，絕不可徒手觸碰。",
+    "clue": "碰到有害的化學物質",
+    "answerEntryId": "u8:poison",
+    "distractorEntryIds": [
+     "u8:drug",
+     "u8:medicine",
+     "u8:effect"
+    ],
+    "fullSentence": "The label warns that the weedkiller is a poison ; never touch it with bare hands."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "Some wild mushrooms look safe but are actually ___.",
+     "translation": "有些野菇看起來安全，其實有毒。",
+     "clue": "吃下會中毒的東西",
+     "answerEntryId": "u8:poison",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:drug",
+      "u8:effect"
+     ],
+     "fullSentence": "Some wild mushrooms look safe but are actually poison."
+    },
+    {
+     "sentence": "The bright berries are ___ for humans, though birds eat them safely.",
+     "translation": "這些鮮豔的漿果對人類有毒，鳥類卻能安全食用。",
+     "clue": "對人體有害的物質",
+     "answerEntryId": "u8:poison",
+     "distractorEntryIds": [
+      "u8:medicine",
+      "u8:injury",
+      "u8:effect"
+     ],
+     "fullSentence": "The bright berries are poison for humans, though birds eat them safely."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The ___ center answers calls about swallowed chemicals day and night.",
+     "translation": "毒物中心日夜接聽誤食化學品的求助電話。",
+     "clue": "中心專門處理的中毒來源",
+     "answerEntryId": "u8:poison",
+     "distractorEntryIds": [
+      "u8:drug",
+      "u8:medicine",
+      "u8:pain"
+     ],
+     "fullSentence": "The poison center answers calls about swallowed chemicals day and night."
+    },
+    {
+     "sentence": "Farmers wear gloves because the ___ on these seedlings irritates skin.",
+     "translation": "農夫戴手套，因為這些秧苗上的毒會刺激皮膚。",
+     "clue": "接觸會刺激皮膚的有毒物",
+     "answerEntryId": "u8:poison",
+     "distractorEntryIds": [
+      "u8:drug",
+      "u8:effect",
+      "u8:medicine"
+     ],
+     "fullSentence": "Farmers wear gloves because the poison on these seedlings irritates skin."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "The zoo teaches visitors that some pretty frogs carry enough ___ on their skin to harm a predator.",
+    "translation": "動物園教導遊客，有些漂亮的青蛙皮膚上帶著足以傷害天敵的毒。",
+    "clue": "動物皮膚分泌的有害物質",
+    "answerEntryId": "u8:poison",
+    "distractorEntryIds": [
+     "u8:drug",
+     "u8:medicine",
+     "u8:injury"
+    ],
+    "fullSentence": "The zoo teaches visitors that some pretty frogs carry enough poison on their skin to harm a predator."
+   }
+  },
+  {
+   "entryId": "u8:fine",
+   "zh": "很好的；沒事的",
+   "pos": "adjective",
+   "example": "Dad says the scraped knee is fine once the bandage is on.",
+   "exampleZh": "爸爸說膝蓋擦傷貼上繃帶就沒事了。",
+   "spellingHint": "f-i-n-e",
+   "status": "reviewed",
+   "source": "人工編寫",
+   "cloze": {
+    "sentence": "The doctor checked Ben twice more, shrugged, and said everything looked ___ for playing basketball tonight.",
+    "translation": "醫生又檢查了小本兩次，聳聳肩說一切沒問題，今晚可以打籃球。",
+    "clue": "醫生檢查後表示「沒問題」",
+    "answerEntryId": "u8:fine",
+    "distractorEntryIds": [
+     "u8:weak",
+     "u8:sick",
+     "u8:pale"
+    ],
+    "fullSentence": "The doctor checked Ben twice more, shrugged, and said everything looked fine for playing basketball tonight."
+   },
+   "clozeEasy": [
+    {
+     "sentence": "It is only a small scratch — you will be ___ after a little rest.",
+     "translation": "只是小擦傷——休息一下就沒事了。",
+     "clue": "小傷無礙的狀態",
+     "answerEntryId": "u8:fine",
+     "distractorEntryIds": [
+      "u8:sick",
+      "u8:weak",
+      "u8:ill"
+     ],
+     "fullSentence": "It is only a small scratch — you will be fine after a little rest."
+    },
+    {
+     "sentence": "Fay is feeling ___ now that the fever is gone, so she can go back to class.",
+     "translation": "退燒之後小菲感覺很好，可以回教室上課了。",
+     "clue": "退燒恢復後的良好狀態",
+     "answerEntryId": "u8:fine",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u8:strong",
+      "u8:comfortable"
+     ],
+     "fullSentence": "Fay is feeling fine now that the fever is gone, so she can go back to class."
+    }
+   ],
+   "clozeMedium": [
+    {
+     "sentence": "The thermometer read normal and the patient reported feeling perfectly ___.",
+     "translation": "體溫計顯示正常，病人說自己感覺好極了。",
+     "clue": "體溫正常後的自我感覺",
+     "answerEntryId": "u8:fine",
+     "distractorEntryIds": [
+      "u8:healthy",
+      "u8:strong",
+      "u8:comfortable"
+     ],
+     "fullSentence": "The thermometer read normal and the patient reported feeling perfectly fine."
+    },
+    {
+     "sentence": "Everything was ___ at the follow-up visit, so the cast came off early.",
+     "translation": "回診一切良好，所以石膏提早拆掉了。",
+     "clue": "回診結果良好",
+     "answerEntryId": "u8:fine",
+     "distractorEntryIds": [
+      "u8:comfortable",
+      "u8:healthy",
+      "u29:casual"
+     ],
+     "fullSentence": "Everything was fine at the follow-up visit, so the cast came off early."
+    }
+   ],
+   "clozeHard": {
+    "sentence": "Although Nina's arm was still in a light cast, swimming was ruled out while everything else could go on just ___.",
+    "translation": "雖然小妮的手臂還戴著輕便護具，游泳被禁止，其他活動照常進行。",
+    "clue": "活動照常無礙的副詞式形容",
+    "answerEntryId": "u8:fine",
+    "distractorEntryIds": [
+     "u8:strong",
+     "u8:healthy",
+     "u8:comfortable"
+    ],
+    "fullSentence": "Although Nina's arm was still in a light cast, swimming was ruled out while everything else could go on just fine."
+   }
+  }
+ ]
+}
