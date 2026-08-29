@@ -85,9 +85,34 @@ grep `localStorage.` 直接使用點。
 **陳述**：同一批單字與題型必須產生相同的題序及選項順序，但正確答案必須分布在
 第 1～4 項，不得因偽隨機數的低位元偏差而固定或嚴重集中在同一位置。
 
-**守護**：`tests/questions.test.ts` 以 20 題 session 覆蓋英選中、中選英、legacy
-cloze 與 generated cloze，驗證四個位置皆有答案且單一位置不超過半數；另比較相同
-輸入的完整題序與選項 ID 順序。這是純邏輯缺陷，由 unit test 捕捉。
+**守護**：`tests/questions.test.ts` 覆蓋 20 題整體分布、最小 5 題批次的跨批次
+聚合分布、跨 Unit 位置序列不得相同，以及相同輸入的完整題序與選項 ID 順序。
+不要要求單一 5 題批次必須涵蓋四格——那在真正均勻亂數下也常自然缺一格；應檢查
+多批次聚合是否有位置永遠缺席或嚴重壟斷。
+
+## I-10：checkpoint 必須還原完整作答階段並隔離 session
+
+**陳述**：checkpoint 不只保存「第幾題」，也隱含兩種 UI 階段：
+`results.length === index` 表示尚未作答；`results.length === index + 1` 表示目前題已
+作答、feedback 正在顯示。恢復後不得讓同一題再作答計分。checkpoint 只能套用到同一
+session；若 live session 不同應捨棄 checkpoint，若 sessionStorage 因關閉分頁消失則
+應從 checkpoint 內的 `session` 恢復。
+
+**守護**：`tests/sessionResume.test.tsx` 的 feedback-phase refresh case；
+`tests/sessionIsolation.test.tsx` 的跨 Unit stale checkpoint、WrongAnswers 開新 session
+清除，以及 closed-tab（sessionStorage 空）恢復。
+
+## I-11：progress storage 必須容忍損壞資料與多分頁並行
+
+**陳述**：`loadProgress()` 必須逐筆驗證 `EntryProgress`，不能只驗證外層 JSON／
+`entries`；損壞筆應剔除，不能讓 Home 的 scheduler 解引用後 crash。多分頁寫入時不得
+以過期的整份 snapshot 覆蓋其他分頁進度；寫前合併最新 storage，並接收 `storage`
+event，以 `lastAnsweredAt` 較新者為準。
+
+**守護**：`tests/storage.test.ts` 的 null／錯誤型別 entry cases；
+`tests/concurrentProgress.test.ts` 先讓另一分頁寫 A，再由舊 snapshot 寫 B，斷言 A/B
+都保留。這類測試必須實測舊程式轉紅，單一 tab 的 round-trip 測試無法守住 lost
+update。
 
 ## 附錄：過去 bug-fix 對照檢查層（為什麼需要 E2E 層）
 
@@ -102,6 +127,11 @@ cloze 與 generated cloze，驗證四個位置皆有答案且單一位置不超�
 | `ea36c92` 批次排序優先序 | 純邏輯 | **unit 層**（`selection.test.ts`）——這類不需要 E2E |
 | `e1a6827` 下一批題型延續 | URL 段解析跨檔改動 | **E2E**（smoke 深鏈 `/#/unit/11/setup/cloze` 走同一路徑） |
 | P2-5 `c1bb9e3` lazy-load 回歸 | 打包時序：module-init 固化空索引 | **E2E**（smoke 對 dist/ 斷言 unit card 有字數；已實測轉紅，I-1） |
+| `54d0550` feedback refresh 重複計分 | checkpoint 還原資料但漏了 UI phase | **jsdom 組件層**（在作答後、Next 前 remount；I-10） |
+| `1f76296` stale／closed-tab checkpoint | 只測 refresh，未測 session identity 與 sessionStorage 消失 | **jsdom 組件層**（跨 Unit＋清空 sessionStorage；I-10） |
+| `c56ec7c` malformed progress crash | 外層 JSON 合法但 nested entry 損壞 | **unit 層**（注入 null／錯誤型別；I-11） |
+| `b5af4fd` 答案位置規律 | 20 題樣本通過，但最小 5 題與跨 Unit 仍可預測 | **unit 層**（邊界設定＋跨身份樣本；I-9） |
+| `e4f5fc2` 多分頁 lost update | 單 tab round-trip 全綠，並行 stale snapshot 覆蓋整份資料 | **unit 層**（模擬兩個 writer；I-11） |
 
 **判斷規則**：改動若改變「測試環境與真實世界的差距」（載入時序、打包、
 路由、真實渲染），配 E2E 或 jsdom 渲染斷言；純邏輯配 unit；依賴外部環境
