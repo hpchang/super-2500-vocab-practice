@@ -80,7 +80,15 @@ export function PracticeScreen({
   const [index, setIndex] = useState(restored ? restored.index : 0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [spellInput, setSpellInput] = useState('');
-  const [feedback, setFeedback] = useState<Feedback>({ state: 'none' });
+  // A checkpoint saved right after answering has results.length === index+1:
+  // the current question was already answered and feedback was showing.
+  // Restore that phase, otherwise the student can re-answer the same
+  // question and record it twice (P1 review 2026-08-29).
+  const restoredFeedback: Feedback =
+    restored && restored.results.length === restored.index + 1
+      ? { state: restored.results[restored.index].correct ? 'correct' : 'wrong' }
+      : { state: 'none' };
+  const [feedback, setFeedback] = useState<Feedback>(restoredFeedback);
   const [hintLevel, setHintLevel] = useState(0);
   const initialResults: { entryId: string; type: QuestionType; correct: boolean }[] =
     restored ? restored.results : [];

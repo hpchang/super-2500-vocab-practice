@@ -170,6 +170,49 @@ describe('P2-1 session resume checkpoint', () => {
     });
   });
 
+  it('restoring a checkpoint saved during feedback does not re-present the answered question', async () => {
+    const unit = getUnit('11')!;
+    const entry = unit.entries.find((e) =>
+      e.entryId.startsWith('u11:'),
+    )!;
+    const second = unit.entries.find((e) => e.entryId !== entry.entryId)!;
+    saveSession({
+      unit: '11',
+      entryIds: [entry.entryId, second.entryId],
+      type: 'flashcard',
+      batchSize: 2,
+    });
+
+    const first = await renderAt('practice');
+    // Rate the first card. The checkpoint now holds index=0 with the result
+    // (results.length === index + 1): the feedback phase.
+    await act(async () => {
+      (
+        document.querySelector('.flashcard-actions .remembered') as HTMLButtonElement
+      ).click();
+    });
+    const promptAnswered = getPrompt();
+    expect(loadCheckpoint()!.results).toHaveLength(1);
+    await act(async () => {
+      first.root.unmount();
+    });
+    document.body.innerHTML = '';
+
+    // Remount mid-feedback (simulates refresh before pressing 下一題).
+    const secondMount = await renderAt('practice');
+    // The answered question must come back IN the feedback phase, answerable
+    // state restored — otherwise the student can re-rate it and double-record.
+    const feedbackShown = document.querySelector('.feedback');
+    expect(feedbackShown, 'feedback must be restored, not hidden').not.toBeNull();
+    // Progress for the answered entry must not change upon remount.
+    expect(loadCheckpoint()!.results).toHaveLength(1);
+    expect(getPrompt()).toBe(promptAnswered);
+
+    await act(async () => {
+      secondMount.root.unmount();
+    });
+  });
+
   it('starting a new session from setup clears a stale checkpoint', async () => {
     // Plant a checkpoint as if a session was interrupted.
     saveCheckpoint({
