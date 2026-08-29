@@ -13,6 +13,14 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
    `npx tsx scripts/import-workbook.ts -- --units=<n>`
    再跑 `npx tsx scripts/validate-data.ts` 確認 vocab 通過。
 2. 派 subagent 時給它：此 skill 名稱、Unit 編號、vocab.json 中該 Unit 的 entryId 清單（subagent 也可自己讀 `src/data/vocab.json`）。
+3. **啟動進度監控（防迴圈）**：
+   `node scripts/watch-staging.mjs <unit>:<目標字數> ...`（如 `4:79 5:19`），
+   用 Monitor 接 stdout。它以「staging 檔案對帳」而非 agent 自報判定進度，
+   事件：`progress`（唯一 entry 數淨增）、`STALLED`（25 分無寫入）、
+   `LOOP`（有寫入但唯一數 30 分不增＝重複產出迴圈）、`OVERLAP`
+   （同 Unit part 檔 entryId 重疊）、`TIMEOUT`（逾 1.5 倍估時）、
+   `DONE`（最終檔存在且唯一數達標）。收到 LOOP/TIMEOUT → TaskStop 該 agent、
+   盤點 part 檔、派接手 agent（接手 prompt 要求先盤點現有產物再補缺漏）。
 
 ## JSON 格式（schemaVersion 1）
 
@@ -117,5 +125,8 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 ## 完成定義
 
 - 每個目標 Unit 都有 `units-<n>.json`，含該 Unit 全部字。
+- **以檔案對帳認定完成（不看 agent 自報）**：唯一 entry 數 = vocab 該 Unit
+  字數（`node scripts/watch-staging.mjs` 的 DONE 或自行用腳本核對）。
+  批 2 U4 實戰：agent 自報完成但漏了 `u4:man`，對帳才發現。
 - `validate-data.ts` 0 errors、`npm test` 全過、`npm run build` 成功。
 - `src/lib/data.ts` 已註冊新 Unit。
