@@ -1,5 +1,5 @@
-import { getUnits, isPracticable } from '@/lib/data';
-import { UnitCard } from '@/components/UnitCard';
+import { getUnits } from '@/lib/data';
+import { UnitGroups } from '@/components/UnitGroups';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { useProgress } from '@/progressStore';
 import { wrongQueueEntries, dueEntries } from '@/lib/scheduler';
@@ -17,13 +17,12 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
   // 而非固定 Unit 11。
   const wrongUnit = units.find((u) =>
     wrongQueueEntries(progress.entries).some((w) =>
-      u.entries.some((e) => e.entryId === w.entryId && isPracticable(e.entryId)),
+      u.entries.some((e) => e.entryId === w.entryId),
     ),
   );
   const reviewUnit = units.find((u) =>
-    dueEntries(progress.entries, now).some(
-      (id) =>
-        u.entries.some((e) => e.entryId === id) && isPracticable(id),
+    dueEntries(progress.entries, now).some((id) =>
+      u.entries.some((e) => e.entryId === id),
     ),
   );
 
@@ -41,8 +40,8 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
     heroTarget = `/unit/${reviewUnit.unit}/setup/mixed/review`;
     heroLabel = `繼續學習：待複習（${totalReview} 字）`;
   } else {
-    // 無待辦 → 導向第一個可練習單元的「重要字」預設設定頁。
-    const firstOpen = units.find((u) => u.entries.some((e) => isPracticable(e.entryId)));
+    // 無待辦 → 導向第一個單元的「重要字」預設設定頁。
+    const firstOpen = units[0];
     heroTarget = firstOpen ? `/unit/${firstOpen.unit}/setup` : '/wrong';
     heroLabel = '開始學新字';
   }
@@ -52,7 +51,7 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
       <div className="app-header">
         <div>
           <h1>Super 2500 字彙練習</h1>
-          <div className="sub">國中英文 · PoC</div>
+          <div className="sub">國中英文超強字彙</div>
         </div>
         <SettingsDrawer />
       </div>
@@ -75,14 +74,8 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
         </button>
       </div>
 
-      <div className="note">
-        本站為 PoC 試用版，目前已開放 Unit 11、12，共 253 字完整練習；其他單元準備中。
-      </div>
-
       <h2 className="section-title">選擇單元</h2>
-      {units.map((u) => (
-        <UnitCard key={u.unit} unit={u} navigate={navigate} />
-      ))}
+      <UnitGroups units={units} navigate={navigate} />
 
       <h2 className="section-title">快速入口</h2>
       <div className="btn-row">

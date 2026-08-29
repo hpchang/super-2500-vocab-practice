@@ -15,13 +15,18 @@ test.beforeEach(async ({ page }) => {
 test('home renders unit cards with real data', async ({ page }) => {
   await page.goto('/#/home');
   // The regression this guards: enrichment loads async before first render.
-  // If the index is built from empty data, unit cards show 可練習 0 字 or
-  // disappear entirely.
+  // If the index is built from empty data, unit cards are empty or
+  // disappear entirely. Unit cards live inside collapsible groups —
+  // expand the Unit 9–16 group first.
+  const group = page.locator('.unit-group', { hasText: 'Unit 9–16' });
+  await expect(group).toBeVisible();
+  await group.locator('summary').click();
   await expect(page.getByRole('button', { name: /Unit 11/ })).toBeVisible();
   await expect(page.getByRole('button', { name: /Unit 12/ })).toBeVisible();
-  await expect(
-    page.locator('.unit-card .badge.practicable').first(),
-  ).toContainText(/[1-9]/);
+  // Enrichment loaded: every card shows a real 共 X 字 count.
+  await expect(page.locator('.unit-card .badge').first()).toContainText(
+    /[1-9]/,
+  );
 });
 
 test('full practice loop: setup → answer one question correctly', async ({

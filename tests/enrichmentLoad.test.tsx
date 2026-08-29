@@ -14,7 +14,8 @@ import { createRoot } from 'react-dom/client';
 import { act } from 'react';
 import { HomeScreen } from '../src/screens/HomeScreen.js';
 import { loadEnrichments } from '../src/lib/enrichmentRegistry.js';
-import { isPracticable, getEnrichment } from '../src/lib/data.js';
+import { getEnrichment, getEnrichedEntry } from '../src/lib/data.js';
+import { toggleGroup } from '../src/groupPrefs.js';
 
 describe('enrichment lazy-load ordering (P2-5)', () => {
   it('exposes practiceable words only after loadEnrichments settles', async () => {
@@ -30,11 +31,16 @@ describe('enrichment lazy-load ordering (P2-5)', () => {
       await loadEnrichments();
     });
 
-    // Unit 11 has enriched entries; at least one must be practiceable now.
+    // Unit 11 has enriched entries; enrichment map must serve them now.
     expect(getEnrichment('11')).toBeDefined();
-    expect(isPracticable('u11:address')).toBe(true);
+    expect(getEnrichedEntry('u11:address')).toBeDefined();
 
-    // The home screen actually lists the unit cards.
+    // Unit cards live inside collapsible groups (collapsed by default) —
+    // expand group 2 (Unit 9–16) so unit cards render into the DOM.
+    expect(container.querySelectorAll('.unit-group').length).toBeGreaterThan(0);
+    await act(async () => {
+      toggleGroup('9');
+    });
     const cards = container.querySelectorAll('.unit-card');
     expect(cards.length).toBeGreaterThan(0);
 
