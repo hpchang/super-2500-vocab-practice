@@ -15,6 +15,11 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 「下一批」延續原題型（URL 帶 type 參數）
 - 單字卡照字母序、其他題型 seeded 隨機（`src/lib/questions.ts`）
 - **Unit 11、12 情境填空全部重寫為「決定性線索」**（`3c311ed`、`f1795bd`）
+- 三批 enrichment 全部完成：全書 Unit 1–32 / 2,476 字上線（含
+  vocab.json 補漏 commit `86c4314`、watchdog `6b8a156`）
+- **主頁 UI 改版**（`880f660`、`8a92ebe`）：移除 PoC 標記與 practicable
+  機制；單元列表改 4 分組收合（`UnitGroups.tsx` + `groupPrefs.ts`，
+  localStorage 記展開狀態）；UnitCard 顯示已學 X/Y 進度條
 
 ## 目前完成範圍
 
