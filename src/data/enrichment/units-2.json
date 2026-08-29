@@ -1,0 +1,2362 @@
+{
+  "schemaVersion": 1,
+  "unit": "2",
+  "entries": [
+    {
+      "entryId": "u2:actor",
+      "zh": "男演員",
+      "pos": "noun",
+      "example": "My cousin is an actor in a small theater.",
+      "exampleZh": "我的表哥是一家小劇場的男演員。",
+      "spellingHint": "a-c-t-o-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ played a brave king in the school play.",
+        "fullSentence": "The actor played a brave king in the school play.",
+        "translation": "那位男演員在學校戲劇中扮演一位勇敢的國王。",
+        "clue": "在戲劇裡扮演國王的男性",
+        "answerEntryId": "u2:actor",
+        "distractorEntryIds": ["u2:dentist", "u2:clerk", "u2:boss"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ben wants to become a famous ___ and appear in movies.",
+          "fullSentence": "Ben wants to become a famous actor and appear in movies.",
+          "translation": "Ben 想成為有名的男演員，出演電影。",
+          "clue": "在電影裡演出的男性",
+          "answerEntryId": "u2:actor",
+          "distractorEntryIds": ["u2:dentist", "u14:game", "u13:friendship"]
+        },
+        {
+          "sentence": "The ___ forgot his lines, so everyone on stage laughed.",
+          "fullSentence": "The actor forgot his lines, so everyone on stage laughed.",
+          "translation": "那位男演員忘了台詞，所以台上大家都笑了。",
+          "clue": "會有台詞、在台上演出的人",
+          "answerEntryId": "u2:actor",
+          "distractorEntryIds": ["u13:teacher", "u19:party", "u14:doll"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "A famous ___ will visit our school and talk about making movies.",
+          "fullSentence": "A famous actor will visit our school and talk about making movies.",
+          "translation": "一位有名的男演員會來我們學校，談談拍電影的事。",
+          "clue": "談拍電影的人，職業是演戲",
+          "answerEntryId": "u2:actor",
+          "distractorEntryIds": ["u2:dentist", "u2:clerk", "u2:businessman"]
+        },
+        {
+          "sentence": "The director chose a young ___ for the main part in the movie.",
+          "fullSentence": "The director chose a young actor for the main part in the movie.",
+          "translation": "導演選了一位年輕男演員擔任電影的主角。",
+          "clue": "導演挑選來演電影的人",
+          "answerEntryId": "u2:actor",
+          "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:member"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Kevin studied acting for years, and now he finally works as an ___ in a TV show.",
+        "fullSentence": "Kevin studied acting for years, and now he finally works as an actor in a TV show.",
+        "translation": "Kevin 學了好幾年表演，現在是電視節目的男演員。",
+        "clue": "學的是表演，工作就是演戲",
+        "answerEntryId": "u2:actor",
+        "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:boss"]
+      }
+    },
+    {
+      "entryId": "u2:actress",
+      "zh": "女演員",
+      "pos": "noun",
+      "example": "The actress smiled at all her fans after the show.",
+      "exampleZh": "那位女演員在演出後對所有粉絲微笑。",
+      "spellingHint": "a-c-t-r-e-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ played a brave queen in the school play.",
+        "fullSentence": "The actress played a brave queen in the school play.",
+        "translation": "那位女演員在學校戲劇中扮演一位勇敢的皇后。",
+        "clue": "在戲劇裡扮演皇后、演戲的女性",
+        "answerEntryId": "u2:actress",
+        "distractorEntryIds": ["u2:dentist", "u2:clerk", "u2:mother"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My favorite ___ sings and dances in that new movie.",
+          "fullSentence": "My favorite actress sings and dances in that new movie.",
+          "translation": "我最喜歡的女演員在那部新電影裡又唱又跳。",
+          "clue": "在電影裡演出、我欣賞的女性",
+          "answerEntryId": "u2:actress",
+          "distractorEntryIds": ["u2:dentist", "u14:game", "u13:friendship"]
+        },
+        {
+          "sentence": "She won an award as the best ___ of the year.",
+          "fullSentence": "She won an award as the best actress of the year.",
+          "translation": "她贏得了年度最佳女演員獎。",
+          "clue": "以演技得獎的女性",
+          "answerEntryId": "u2:actress",
+          "distractorEntryIds": ["u13:teacher", "u19:party", "u2:uncle"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The movie needs an ___ who can speak both English and Japanese.",
+          "fullSentence": "The movie needs an actress who can speak both English and Japanese.",
+          "translation": "這部電影需要一位會說英語和日語的女演員。",
+          "clue": "電影在找的是演出的人（女性）",
+          "answerEntryId": "u2:actress",
+          "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:member"]
+        },
+        {
+          "sentence": "Before she was famous, the ___ worked in a small restaurant.",
+          "fullSentence": "Before she was famous, the actress worked in a small restaurant.",
+          "translation": "在出名之前，那位女演員在一家小餐廳工作。",
+          "clue": "出名前靠演技以外工作，後來是演戲的",
+          "answerEntryId": "u2:actress",
+          "distractorEntryIds": ["u2:clerk", "u2:boss", "u2:niece"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Everyone agreed that the ___ who played the doctor gave the best performance.",
+        "fullSentence": "Everyone agreed that the actress who played the doctor gave the best performance.",
+        "translation": "大家都同意那位飾演醫生的女演員表現最好。",
+        "clue": "飾演角色、以表演受到肯定的人",
+        "answerEntryId": "u2:actress",
+        "distractorEntryIds": ["u2:sister", "u2:dentist", "u2:wife"]
+      }
+    },
+    {
+      "entryId": "u2:affair",
+      "zh": "事情；事務",
+      "pos": "noun",
+      "example": "The manager takes care of the daily affairs of the office.",
+      "exampleZh": "經理負責處理辦公室的日常事務。",
+      "spellingHint": "a-f-f-a-i-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Whether we move to Tainan is our own ___.",
+        "fullSentence": "Whether we move to Tainan is our own affair.",
+        "translation": "我們要不要搬去台南是我們自己的事。",
+        "clue": "別人不能干涉的自己的事情",
+        "answerEntryId": "u2:affair",
+        "distractorEntryIds": ["u2:tradition", "u2:role", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Dad was busy, so Uncle Joe handled the family ___ that day.",
+          "fullSentence": "Dad was busy, so Uncle Joe handled the family affair that day.",
+          "translation": "爸爸很忙，所以那天由喬伊舅舅處理家裡的事。",
+          "clue": "要處理的家裡的事情",
+          "answerEntryId": "u2:affair",
+          "distractorEntryIds": ["u2:husband", "u14:trip", "u13:history"]
+        },
+        {
+          "sentence": "The manager was busy with an important ___ at the office.",
+          "fullSentence": "The manager was busy with an important affair at the office.",
+          "translation": "經理忙著處理辦公室裡的一件要事。",
+          "clue": "忙著處理的重要事情",
+          "answerEntryId": "u2:affair",
+          "distractorEntryIds": ["u13:club", "u14:game", "u2:uncle"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Each country has the right to manage its own internal ___.",
+          "fullSentence": "Each country has the right to manage its own internal affair.",
+          "translation": "每個國家都有權管理自己的內部事務。",
+          "clue": "國家自己管理的是內政事務",
+          "answerEntryId": "u2:affair",
+          "distractorEntryIds": ["u2:tradition", "u2:role", "u2:generation"]
+        },
+        {
+          "sentence": "The club held a meeting to discuss an important ___ about its future.",
+          "fullSentence": "The club held a meeting to discuss an important affair about its future.",
+          "translation": "社團開會討論有關未來的重要事務。",
+          "clue": "開會討論的是重要的事情",
+          "answerEntryId": "u2:affair",
+          "distractorEntryIds": ["u2:tradition", "u2:role", "u2:marriage"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "My love life is my own private ___; please stop asking about it.",
+        "fullSentence": "My love life is my own private affair; please stop asking about it.",
+        "translation": "我的感情生活是我自己的私事，請不要再問。",
+        "clue": "私人又隱私的，是個人的事情",
+        "answerEntryId": "u2:affair",
+        "distractorEntryIds": ["u2:role", "u2:tradition", "u2:relation"]
+      }
+    },
+    {
+      "entryId": "u2:affect",
+      "zh": "影響",
+      "pos": "verb",
+      "example": "Too much sugar can affect your health.",
+      "exampleZh": "吃太多糖會影響你的健康。",
+      "spellingHint": "a-f-f-e-c-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The heavy rain will ___ our plans for the picnic.",
+        "fullSentence": "The heavy rain will affect our plans for the picnic.",
+        "translation": "大雨會影響我們野餐的計畫。",
+        "clue": "天氣會改變、左右計畫",
+        "answerEntryId": "u2:affect",
+        "distractorEntryIds": ["u13:improve", "u13:explain", "u13:practice"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Not sleeping well can ___ your grades at school.",
+          "fullSentence": "Not sleeping well can affect your grades at school.",
+          "translation": "睡不好會影響你在學校的成績。",
+          "clue": "會讓成績跟著變差，也就是影響它",
+          "answerEntryId": "u2:affect",
+          "distractorEntryIds": ["u13:learn", "u14:swim", "u32:visit"]
+        },
+        {
+          "sentence": "Smoking can seriously ___ your lungs.",
+          "fullSentence": "Smoking can seriously affect your lungs.",
+          "translation": "吸菸會嚴重影響你的肺部。",
+          "clue": "抽菸對肺有不良的作用",
+          "answerEntryId": "u2:affect",
+          "distractorEntryIds": ["u13:study", "u14:play", "u13:count"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The new rule will ___ every student in the school, not just the seniors.",
+          "fullSentence": "The new rule will affect every student in the school, not just the seniors.",
+          "translation": "新規定會影響學校裡每一位學生，不只是高年級。",
+          "clue": "規定讓所有學生都受到改變",
+          "answerEntryId": "u2:affect",
+          "distractorEntryIds": ["u13:teach", "u13:solve", "u13:compare"]
+        },
+        {
+          "sentence": "Rising prices ___ poor families more than rich ones.",
+          "fullSentence": "Rising prices affect poor families more than rich ones.",
+          "translation": "物價上漲對貧窮家庭的影響比有錢人家更大。",
+          "clue": "物價帶給家庭的改變，窮人感受更深",
+          "answerEntryId": "u2:affect",
+          "distractorEntryIds": ["u13:describe", "u13:review", "u13:repeat"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Even a small change in temperature can ___ how well the medicine works.",
+        "fullSentence": "Even a small change in temperature can affect how well the medicine works.",
+        "translation": "即使溫度只差一點點，也會影響藥效的表現。",
+        "clue": "溫度會左右藥效的好壞",
+        "answerEntryId": "u2:affect",
+        "distractorEntryIds": ["u13:improve", "u13:complete", "u13:focus"]
+      }
+    },
+    {
+      "entryId": "u2:boss",
+      "zh": "老闆；上司",
+      "pos": "noun",
+      "example": "My boss asked me to finish the report by Friday.",
+      "exampleZh": "我的老闆要我星期五以前完成報告。",
+      "spellingHint": "b-o-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ gave everyone in the office a day off.",
+        "fullSentence": "The boss gave everyone in the office a day off.",
+        "translation": "老闆給辦公室裡的每個人放一天假。",
+        "clue": "辦公室裡有權決定放假的人",
+        "answerEntryId": "u2:boss",
+        "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:actor"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "She opened her own shop and became her own ___.",
+          "fullSentence": "She opened her own shop and became her own boss.",
+          "translation": "她開了自己的店，成為自己的老闆。",
+          "clue": "自己開店，自己就是頭家",
+          "answerEntryId": "u2:boss",
+          "distractorEntryIds": ["u2:clerk", "u2:wife", "u14:game"]
+        },
+        {
+          "sentence": "I must ask my ___ if I can take next Monday off.",
+          "fullSentence": "I must ask my boss if I can take next Monday off.",
+          "translation": "我必須問老闆下星期一能不能休假。",
+          "clue": "能准假的人就是上司",
+          "answerEntryId": "u2:boss",
+          "distractorEntryIds": ["u2:dentist", "u2:uncle", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ was angry because we arrived late for work again.",
+          "fullSentence": "The boss was angry because we arrived late for work again.",
+          "translation": "老闆很生氣，因為我們上班又遲到了。",
+          "clue": "在意員工上班遲到的是老闆",
+          "answerEntryId": "u2:boss",
+          "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:actor"]
+        },
+        {
+          "sentence": "Our ___ always says that teamwork is the key to success.",
+          "fullSentence": "Our boss always says that teamwork is the key to success.",
+          "translation": "我們的老闆常說團隊合作是成功的關鍵。",
+          "clue": "對員工講團隊合作的是上司",
+          "answerEntryId": "u2:boss",
+          "distractorEntryIds": ["u2:businessman", "u2:clerk", "u2:dentist"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "When the manager retired, Ms. Lin became the new ___ of the whole company.",
+        "fullSentence": "When the manager retired, Ms. Lin became the new boss of the whole company.",
+        "translation": "經理退休後，林小姐成為整家公司的新老闆。",
+        "clue": "接掌整家公司、職位最高的頭家",
+        "answerEntryId": "u2:boss",
+        "distractorEntryIds": ["u2:clerk", "u2:member", "u2:actor"]
+      }
+    },
+    {
+      "entryId": "u2:business",
+      "zh": "生意；商業",
+      "pos": "noun",
+      "example": "Their family business sells fruit and vegetables.",
+      "exampleZh": "他們家的生意是賣水果和蔬菜。",
+      "spellingHint": "b-u-s-i-n-e-s-s",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "After ten years, their small shop has grown into a big ___.",
+        "fullSentence": "After ten years, their small shop has grown into a big business.",
+        "translation": "十年之後，他們的小商店已經發展成大生意。",
+        "clue": "商店擴大，變成規模大的買賣",
+        "answerEntryId": "u2:business",
+        "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa started his ___ fifty years ago with only one small truck.",
+          "fullSentence": "Grandpa started his business fifty years ago with only one small truck.",
+          "translation": "爺爺五十年前只用一輛小貨車開始做生意。",
+          "clue": "開始經營買賣事業",
+          "answerEntryId": "u2:business",
+          "distractorEntryIds": ["u2:wedding", "u2:marriage", "u2:role"]
+        },
+        {
+          "sentence": "The new mall is bad for ___ near the train station.",
+          "fullSentence": "The new mall is bad for business near the train station.",
+          "translation": "新商場對火車站附近的生意不好。",
+          "clue": "商場搶走客人，買賣變差",
+          "answerEntryId": "u2:business",
+          "distractorEntryIds": ["u14:picnic", "u13:club", "u13:history"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "He went to the city to study ___ and learn how companies work.",
+          "fullSentence": "He went to the city to study business and learn how companies work.",
+          "translation": "他去城市裡學商，了解公司如何運作。",
+          "clue": "想了解公司運作，學的是商業",
+          "answerEntryId": "u2:business",
+          "distractorEntryIds": ["u13:history", "u13:science", "u13:math"]
+        },
+        {
+          "sentence": "She travels to Japan twice a month because of her ___.",
+          "fullSentence": "She travels to Japan twice a month because of her business.",
+          "translation": "她因為生意上的需要，每個月去日本兩次。",
+          "clue": "為了買賣工作而奔波",
+          "answerEntryId": "u2:business",
+          "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:generation"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The bakery is the oldest ___ in this street; it has been open for sixty years.",
+        "fullSentence": "The bakery is the oldest business in this street; it has been open for sixty years.",
+        "translation": "這家麵包店是這條街上最老的店，已經開了六十年。",
+        "clue": "開業六十年的商店買賣",
+        "answerEntryId": "u2:business",
+        "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:generation"]
+      }
+    },
+    {
+      "entryId": "u2:businessman",
+      "zh": "商人；生意人",
+      "pos": "noun",
+      "example": "The businessman flies to different countries every month.",
+      "exampleZh": "那位商人每個月搭飛機到不同的國家。",
+      "spellingHint": "b-u-s-i-n-e-s-s-m-a-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ signed a contract with a company in Taipei.",
+        "fullSentence": "The businessman signed a contract with a company in Taipei.",
+        "translation": "那位商人和台北的一家公司簽了合約。",
+        "clue": "簽合約、談買賣的人",
+        "answerEntryId": "u2:businessman",
+        "distractorEntryIds": ["u2:clerk", "u2:actor", "u2:dentist"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Mr. Wang is a busy ___ who owns three restaurants.",
+          "fullSentence": "Mr. Wang is a busy businessman who owns three restaurants.",
+          "translation": "王先生是個忙碌的商人，擁有三家餐廳。",
+          "clue": "擁有多家店、做買賣的男性",
+          "answerEntryId": "u2:businessman",
+          "distractorEntryIds": ["u2:boss", "u2:uncle", "u14:toy"]
+        },
+        {
+          "sentence": "My father became a successful ___ after years of hard work.",
+          "fullSentence": "My father became a successful businessman after years of hard work.",
+          "translation": "父親多年努力後成為成功的商人。",
+          "clue": "努力經營事業成功的男性",
+          "answerEntryId": "u2:businessman",
+          "distractorEntryIds": ["u2:actor", "u2:clerk", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The young ___ wears a suit every day and checks stock prices on his phone.",
+          "fullSentence": "The young businessman wears a suit every day and checks stock prices on his phone.",
+          "translation": "那位年輕商人每天穿西裝，用手機看股價。",
+          "clue": "穿西裝、關心股價的男性職業",
+          "answerEntryId": "u2:businessman",
+          "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:actor"]
+        },
+        {
+          "sentence": "An old ___ on the plane told us stories about his trips around the world.",
+          "fullSentence": "An old businessman on the plane told us stories about his trips around the world.",
+          "translation": "飛機上一位年長的商人告訴我們他環球出差的見聞。",
+          "clue": "常常出差旅行、談生意的男性",
+          "answerEntryId": "u2:businessman",
+          "distractorEntryIds": ["u2:uncle", "u2:boss", "u2:clerk"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Before he became a famous ___ selling computers, he sold vegetables from a small cart.",
+        "fullSentence": "Before he became a famous businessman selling computers, he sold vegetables from a small cart.",
+        "translation": "他成為賣電腦的知名商人之前，是用小推車賣菜的。",
+        "clue": "賣東西起家的男性身分",
+        "answerEntryId": "u2:businessman",
+        "distractorEntryIds": ["u2:boss", "u2:actor", "u2:clerk"]
+      }
+    },
+    {
+      "entryId": "u2:clerk",
+      "zh": "店員；職員",
+      "pos": "noun",
+      "example": "The clerk helped me find the right size of shoes.",
+      "exampleZh": "那位店員幫我找到合腳的鞋子尺寸。",
+      "spellingHint": "c-l-e-r-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ at the bank counted the money carefully.",
+        "fullSentence": "The clerk at the bank counted the money carefully.",
+        "translation": "銀行的行員小心地數錢。",
+        "clue": "銀行櫃檯處理業務的人員",
+        "answerEntryId": "u2:clerk",
+        "distractorEntryIds": ["u2:dentist", "u2:boss", "u2:member"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Ask that ___ at the counter if the store is open on Sunday.",
+          "fullSentence": "Ask that clerk at the counter if the store is open on Sunday.",
+          "translation": "問問櫃檯那位店員，商店星期天開不開。",
+          "clue": "櫃檯裡服務客人的員工",
+          "answerEntryId": "u2:clerk",
+          "distractorEntryIds": ["u2:boss", "u2:wife", "u14:game"]
+        },
+        {
+          "sentence": "The hotel ___ gave us the key to our room.",
+          "fullSentence": "The hotel clerk gave us the key to our room.",
+          "translation": "飯店的櫃檯職員給了我們房間鑰匙。",
+          "clue": "在飯店櫃檯接待客人的職員",
+          "answerEntryId": "u2:clerk",
+          "distractorEntryIds": ["u2:dentist", "u2:boss", "u13:teacher"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ typed the letters for her manager and answered the phone all day.",
+          "fullSentence": "The clerk typed the letters for her manager and answered the phone all day.",
+          "translation": "那位職員整天替經理打信件、接電話。",
+          "clue": "在辦公室做文書工作的員工",
+          "answerEntryId": "u2:clerk",
+          "distractorEntryIds": ["u2:dentist", "u2:actress", "u2:member"]
+        },
+        {
+          "sentence": "When I paid for the stamps, the ___ gave me back the wrong change.",
+          "fullSentence": "When I paid for the stamps, the clerk gave me back the wrong change.",
+          "translation": "我付郵票錢時，那位店員找錯了零錢。",
+          "clue": "收錢找零的是櫃檯店員",
+          "answerEntryId": "u2:clerk",
+          "distractorEntryIds": ["u2:boss", "u2:dentist", "u2:niece"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The store needs one more ___ to serve all the customers during the holidays.",
+        "fullSentence": "The store needs one more clerk to serve all the customers during the holidays.",
+        "translation": "假期間商店需要再多一位店員來服務所有客人。",
+        "clue": "店裡雇來服務客人的是店員",
+        "answerEntryId": "u2:clerk",
+        "distractorEntryIds": ["u2:boss", "u2:dentist", "u2:member"]
+      }
+    },
+    {
+      "entryId": "u2:cook",
+      "zh": "廚師",
+      "pos": "noun",
+      "example": "The cook made us a big breakfast this morning.",
+      "exampleZh": "廚師今天早上為我們做了豐盛的早餐。",
+      "spellingHint": "c-o-o-k",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ in this restaurant makes the best fried rice in town.",
+        "fullSentence": "The cook in this restaurant makes the best fried rice in town.",
+        "translation": "這家餐廳的廚師做出鎮上最好吃的炒飯。",
+        "clue": "餐廳裡做菜的人",
+        "answerEntryId": "u2:cook",
+        "distractorEntryIds": ["u2:dentist", "u2:clerk", "u2:boss"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Uncle Ben works as a ___ on a big ship, preparing three meals a day.",
+          "fullSentence": "Uncle Ben works as a cook on a big ship, preparing three meals a day.",
+          "translation": "班叔叔在一艘大船上當廚師，每天準備三餐。",
+          "clue": "準備三餐的工作就是廚師",
+          "answerEntryId": "u2:cook",
+          "distractorEntryIds": ["u2:actor", "u2:clerk", "u2:businessman"]
+        },
+        {
+          "sentence": "Our school ___ wears a white hat while making lunch for the students.",
+          "fullSentence": "Our school cook wears a white hat while making lunch for the students.",
+          "translation": "我們學校的廚師戴著白帽，為學生做午餐。",
+          "clue": "戴白帽做午餐的人是廚師",
+          "answerEntryId": "u2:cook",
+          "distractorEntryIds": ["u2:dentist", "u2:mother", "u13:teacher"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The restaurant needs a ___ who makes both noodles and soup well.",
+          "fullSentence": "The restaurant needs a cook who makes both noodles and soup well.",
+          "translation": "這家餐廳需要一位麵和湯都做得好的廚師。",
+          "clue": "餐廳徵的是會料理食物的人",
+          "answerEntryId": "u2:cook",
+          "distractorEntryIds": ["u2:clerk", "u2:dentist", "u2:actor"]
+        },
+        {
+          "sentence": "Everyone says the new ___ at that noodle shop is only twenty years old.",
+          "fullSentence": "Everyone says the new cook at that noodle shop is only twenty years old.",
+          "translation": "大家說那家麵店新來的廚師只有二十歲。",
+          "clue": "麵店裡掌廚的人",
+          "answerEntryId": "u2:cook",
+          "distractorEntryIds": ["u2:boss", "u2:clerk", "u2:member"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ tasted the soup, added some salt, and smiled with satisfaction.",
+        "fullSentence": "The cook tasted the soup, added some salt, and smiled with satisfaction.",
+        "translation": "廚師嚐了湯，加了一點鹽，滿意地笑了。",
+        "clue": "嚐味道、調味的是掌廚的人",
+        "answerEntryId": "u2:cook",
+        "distractorEntryIds": ["u2:dentist", "u2:boss", "u2:actress"]
+      }
+    },
+    {
+      "entryId": "u2:dentist",
+      "zh": "牙醫",
+      "pos": "noun",
+      "example": "I go to the dentist twice a year to check my teeth.",
+      "exampleZh": "我一年看兩次牙醫檢查牙齒。",
+      "spellingHint": "d-e-n-t-i-s-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ filled the cavity in my back tooth.",
+        "fullSentence": "The dentist filled the cavity in my back tooth.",
+        "translation": "牙醫補好了我臼齒上的蛀洞。",
+        "clue": "治療牙齒的醫生",
+        "answerEntryId": "u2:dentist",
+        "distractorEntryIds": ["u2:boss", "u2:clerk", "u2:actor"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My tooth hurts, so Mom will take me to the ___.",
+          "fullSentence": "My tooth hurts, so Mom will take me to the dentist.",
+          "translation": "我的牙齒好痛，所以媽媽要帶我去看牙醫。",
+          "clue": "牙痛要看的醫生",
+          "answerEntryId": "u2:dentist",
+          "distractorEntryIds": ["u2:boss", "u2:uncle", "u13:club"]
+        },
+        {
+          "sentence": "The ___ told me to brush my teeth after every meal.",
+          "fullSentence": "The dentist told me to brush my teeth after every meal.",
+          "translation": "牙醫告訴我每餐飯後要刷牙。",
+          "clue": "給牙齒保健建議的醫生",
+          "answerEntryId": "u2:dentist",
+          "distractorEntryIds": ["u2:actress", "u2:clerk", "u2:wife"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ looked at my teeth with a small mirror and a bright light.",
+          "fullSentence": "The dentist looked at my teeth with a small mirror and a bright light.",
+          "translation": "牙醫用小鏡子和亮光檢查我的牙齒。",
+          "clue": "用工具檢查牙齒的醫生",
+          "answerEntryId": "u2:dentist",
+          "distractorEntryIds": ["u2:boss", "u2:clerk", "u2:businessman"]
+        },
+        {
+          "sentence": "I was nervous before the ___ pulled out my bad tooth, but it did not hurt much.",
+          "fullSentence": "I was nervous before the dentist pulled out my bad tooth, but it did not hurt much.",
+          "translation": "拔牙前我很緊張，但其實不太痛。",
+          "clue": "拔牙的是牙醫",
+          "answerEntryId": "u2:dentist",
+          "distractorEntryIds": ["u2:actor", "u2:boss", "u2:cook"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because she loves science and wants to help people with tooth problems, Amy hopes to become a ___.",
+        "fullSentence": "Because she loves science and wants to help people with tooth problems, Amy hopes to become a dentist.",
+        "translation": "因為艾米喜歡科學又想幫助有牙齒問題的人，她希望成為牙醫。",
+        "clue": "想治療牙齒問題的志願",
+        "answerEntryId": "u2:dentist",
+        "distractorEntryIds": ["u2:actor", "u2:clerk", "u2:boss"]
+      }
+    },
+    {
+      "entryId": "u2:elder",
+      "zh": "長輩；年長者",
+      "pos": "noun",
+      "example": "We should listen to the elders in our family.",
+      "exampleZh": "我們應該聽聽家裡長輩的話。",
+      "spellingHint": "e-l-d-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "In many villages, the oldest ___ makes the final decision.",
+        "fullSentence": "In many villages, the oldest elder makes the final decision.",
+        "translation": "在許多村子裡，最年長的長輩做最後的決定。",
+        "clue": "年紀最大、說話有分量的人",
+        "answerEntryId": "u2:elder",
+        "distractorEntryIds": ["u2:parent", "u2:boss", "u2:member"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa is the oldest ___ in our big family.",
+          "fullSentence": "Grandpa is the oldest elder in our big family.",
+          "translation": "爺爺是我們大家庭裡最年長的長輩。",
+          "clue": "年紀最大的長輩",
+          "answerEntryId": "u2:elder",
+          "distractorEntryIds": ["u13:teacher", "u19:party", "u14:doll"]
+        },
+        {
+          "sentence": "Children should show respect to every ___ in the family, especially Grandpa and Grandma.",
+          "fullSentence": "Children should show respect to every elder in the family, especially Grandpa and Grandma.",
+          "translation": "孩子應該尊敬家裡的每一位長輩，特別是爺爺奶奶。",
+          "clue": "像爺爺奶奶那樣值得尊敬的年長者",
+          "answerEntryId": "u2:elder",
+          "distractorEntryIds": ["u2:parent", "u2:boss", "u13:student"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "During the New Year, children receive red envelopes from each older ___ in the family.",
+          "fullSentence": "During the New Year, children receive red envelopes from each older elder in the family.",
+          "translation": "過年時，孩子們會從家裡每位長輩那裡收到紅包。",
+          "clue": "發紅包給孩子的是長輩",
+          "answerEntryId": "u2:elder",
+          "distractorEntryIds": ["u2:parent", "u2:boss", "u2:member"]
+        },
+        {
+          "sentence": "The village ___ sat under the old tree and told stories to the children.",
+          "fullSentence": "The village elder sat under the old tree and told stories to the children.",
+          "translation": "村裡的長輩坐在老樹下，說故事給孩子聽。",
+          "clue": "在村裡受敬重、說故事給孩子的年長者",
+          "answerEntryId": "u2:elder",
+          "distractorEntryIds": ["u2:parent", "u2:boss", "u2:relation"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Everyone asks Grandpa for advice first because he is the most respected ___ in our family.",
+        "fullSentence": "Everyone asks Grandpa for advice first because he is the most respected elder in our family.",
+        "translation": "大家有事都先請教爺爺，因為他是家裡最受敬重的長輩。",
+        "clue": "受敬重、被請教的家庭年長者",
+        "answerEntryId": "u2:elder",
+        "distractorEntryIds": ["u2:parent", "u2:boss", "u2:member"]
+      }
+    },
+    {
+      "entryId": "u2:generation",
+      "zh": "世代；一代",
+      "pos": "noun",
+      "example": "My grandparents lived in a different generation.",
+      "exampleZh": "我的祖父母活在不同的世代。",
+      "spellingHint": "g-e-n-e-r-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "People born around the same time belong to the same ___.",
+        "fullSentence": "People born around the same time belong to the same generation.",
+        "translation": "出生時間相近的人屬於同一個世代。",
+        "clue": "同時期出生的人構成同一代",
+        "answerEntryId": "u2:generation",
+        "distractorEntryIds": ["u2:member", "u2:tradition", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "People in my parents' ___ did not have cell phones.",
+          "fullSentence": "People in my parents' generation did not have cell phones.",
+          "translation": "我父母那個世代的人沒有手機。",
+          "clue": "父母所處的那一個時代",
+          "answerEntryId": "u2:generation",
+          "distractorEntryIds": ["u13:teacher", "u19:party", "u14:doll"]
+        },
+        {
+          "sentence": "Each ___ of the family learns the same recipe.",
+          "fullSentence": "Each generation of the family learns the same recipe.",
+          "translation": "家裡的每一代都學同一道食譜。",
+          "clue": "一代接一代都學同一道菜",
+          "answerEntryId": "u2:generation",
+          "distractorEntryIds": ["u2:mother", "u13:group", "u14:game"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Young people today are part of a whole ___ that grows up with the Internet.",
+          "fullSentence": "Young people today are part of a whole generation that grows up with the Internet.",
+          "translation": "今天的年輕人屬於伴隨網路長大的一代。",
+          "clue": "一起長大的一群人構成一代",
+          "answerEntryId": "u2:generation",
+          "distractorEntryIds": ["u2:tradition", "u2:relation", "u2:member"]
+        },
+        {
+          "sentence": "Grandpa says life was very different in his ___; there were no computers at all.",
+          "fullSentence": "Grandpa says life was very different in his generation; there were no computers at all.",
+          "translation": "爺爺說他那個世代的生活很不同，那時完全沒有電腦。",
+          "clue": "爺爺所處的那個時代",
+          "answerEntryId": "u2:generation",
+          "distractorEntryIds": ["u2:tradition", "u2:relation", "u2:affair"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The recipe passes from Grandpa to Dad and then to me, one ___ after another.",
+        "fullSentence": "The recipe passes from Grandpa to Dad and then to me, one generation after another.",
+        "translation": "這道食譜從爺爺傳給爸爸再傳給我，一代接一代。",
+        "clue": "從爺爺到爸爸再到我，是一代接一代",
+        "answerEntryId": "u2:generation",
+        "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:role"]
+      }
+    },
+    {
+      "entryId": "u2:granddaughter",
+      "zh": "孫女；外孫女",
+      "pos": "noun",
+      "example": "Grandma knits a sweater for her little granddaughter.",
+      "exampleZh": "奶奶為她的孫女織了一件毛衣。",
+      "spellingHint": "g-r-a-n-d-d-a-u-g-h-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandpa walks his ___ to school every morning because she is only six.",
+        "fullSentence": "Grandpa walks his granddaughter to school every morning because she is only six.",
+        "translation": "爺爺每天早上陪六歲的孫女走路上學。",
+        "clue": "爺爺送的是小女生的孫女",
+        "answerEntryId": "u2:granddaughter",
+        "distractorEntryIds": ["u2:grandson", "u2:niece", "u2:sister"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My son's little girl is my ___.",
+          "fullSentence": "My son's little girl is my granddaughter.",
+          "translation": "我兒子的小女兒是我的孫女。",
+          "clue": "兒子的女兒就是孫女",
+          "answerEntryId": "u2:granddaughter",
+          "distractorEntryIds": ["u2:grandson", "u2:niece", "u2:sister"]
+        },
+        {
+          "sentence": "Grandma's ___ loves to bake cookies with her in the kitchen.",
+          "fullSentence": "Grandma's granddaughter loves to bake cookies with her in the kitchen.",
+          "translation": "奶奶的孫女喜歡和她一起在廚房烤餅乾。",
+          "clue": "和奶奶一起做餅乾的小女孩",
+          "answerEntryId": "u2:granddaughter",
+          "distractorEntryIds": ["u2:grandson", "u2:niece", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "At the wedding, the little ___ gave flowers to her grandma, the bride.",
+          "fullSentence": "At the wedding, the little granddaughter gave flowers to her grandma, the bride.",
+          "translation": "婚禮上，小孫女獻花給當新娘的奶奶。",
+          "clue": "獻花給奶奶的是孫女",
+          "answerEntryId": "u2:granddaughter",
+          "distractorEntryIds": ["u2:grandson", "u2:niece", "u2:sister"]
+        },
+        {
+          "sentence": "Every summer, the ___ visits her grandparents' farm and feeds the chickens.",
+          "fullSentence": "Every summer, the granddaughter visits her grandparents' farm and feeds the chickens.",
+          "translation": "每年夏天，孫女都會去祖父母的農場餵雞。",
+          "clue": "去祖父母家的是孫女",
+          "answerEntryId": "u2:granddaughter",
+          "distractorEntryIds": ["u2:grandson", "u2:niece", "u2:sister"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because she is Grandma's only ___, she gets pretty dresses, but her little brother gets robots.",
+        "fullSentence": "Because she is Grandma's only granddaughter, she gets pretty dresses, but her little brother gets robots.",
+        "translation": "因為她是奶奶唯一的孫女，她得到漂亮的洋裝，弟弟則得到機器人。",
+        "clue": "奶奶的孫輩中唯一的小女孩",
+        "answerEntryId": "u2:granddaughter",
+        "distractorEntryIds": ["u2:grandson", "u2:niece", "u2:sister"]
+      }
+    },
+    {
+      "entryId": "u2:grandson",
+      "zh": "孫子；外孫",
+      "pos": "noun",
+      "example": "Grandpa teaches his grandson how to fly a kite.",
+      "exampleZh": "爺爺教他的孫子放風箏。",
+      "spellingHint": "g-r-a-n-d-s-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandpa teaches his ___ how to play chess every weekend.",
+        "fullSentence": "Grandpa teaches his grandson how to play chess every weekend.",
+        "translation": "爺爺每個週末教孫子下棋。",
+        "clue": "爺爺教的是小男孩孫子",
+        "answerEntryId": "u2:grandson",
+        "distractorEntryIds": ["u2:granddaughter", "u2:nephew", "u2:son"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My daughter's little boy is my ___.",
+          "fullSentence": "My daughter's little boy is my grandson.",
+          "translation": "我女兒的小兒子是我的外孫。",
+          "clue": "女兒的兒子就是外孫",
+          "answerEntryId": "u2:grandson",
+          "distractorEntryIds": ["u2:granddaughter", "u2:nephew", "u2:son"]
+        },
+        {
+          "sentence": "The old man says his ___ looks just like him when he was young.",
+          "fullSentence": "The old man says his grandson looks just like him when he was young.",
+          "translation": "老先生說他的孫子長得跟他年輕時一模一樣。",
+          "clue": "像爺爺年輕時的小男孩",
+          "answerEntryId": "u2:grandson",
+          "distractorEntryIds": ["u2:granddaughter", "u2:nephew", "u2:son"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ helped his grandfather carry the heavy bags into the house.",
+          "fullSentence": "The grandson helped his grandfather carry the heavy bags into the house.",
+          "translation": "孫子幫爺爺把重的袋子搬進屋裡。",
+          "clue": "幫爺爺提東西的小男孩",
+          "answerEntryId": "u2:grandson",
+          "distractorEntryIds": ["u2:granddaughter", "u2:nephew", "u2:son"]
+        },
+        {
+          "sentence": "Grandma keeps a photo of her ___ in her wallet; he is wearing his baseball uniform.",
+          "fullSentence": "Grandma keeps a photo of her grandson in her wallet; he is wearing his baseball uniform.",
+          "translation": "奶奶皮夾裡放著孫子穿棒球服的照片。",
+          "clue": "穿棒球服的小男孩是孫子",
+          "answerEntryId": "u2:grandson",
+          "distractorEntryIds": ["u2:granddaughter", "u2:niece", "u2:son"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "He is the first ___ in our family, so everyone was very excited when he was born.",
+        "fullSentence": "He is the first grandson in our family, so everyone was very excited when he was born.",
+        "translation": "他是我們家第一個孫子，出生時大家都很興奮。",
+        "clue": "出生的是家裡第一個男性孫輩",
+        "answerEntryId": "u2:grandson",
+        "distractorEntryIds": ["u2:granddaughter", "u2:nephew", "u2:son"]
+      }
+    },
+    {
+      "entryId": "u2:growth",
+      "zh": "成長；發育",
+      "pos": "noun",
+      "example": "Good food and exercise help the growth of children.",
+      "exampleZh": "好的飲食和運動有助於兒童的成長。",
+      "spellingHint": "g-r-o-w-t-h",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Doctors say enough sleep is important for a child's ___.",
+        "fullSentence": "Doctors say enough sleep is important for a child's growth.",
+        "translation": "醫生說充足的睡眠對孩子的成長很重要。",
+        "clue": "睡眠影響孩子的發育",
+        "answerEntryId": "u2:growth",
+        "distractorEntryIds": ["u13:knowledge", "u13:spirit", "u14:habit"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Plants need water and sunlight for healthy ___.",
+          "fullSentence": "Plants need water and sunlight for healthy growth.",
+          "translation": "植物需要水和陽光才能健康生長。",
+          "clue": "澆水曬太陽幫助植物生長",
+          "answerEntryId": "u2:growth",
+          "distractorEntryIds": ["u14:habit", "u13:knowledge", "u2:tradition"]
+        },
+        {
+          "sentence": "The fast ___ of the city brought many new buildings.",
+          "fullSentence": "The fast growth of the city brought many new buildings.",
+          "translation": "城市的快速發展帶來了許多新大樓。",
+          "clue": "新大樓變多代表城市在成長",
+          "answerEntryId": "u2:growth",
+          "distractorEntryIds": ["u13:story", "u14:game", "u13:history"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The company reported strong ___ this year, opening five new stores.",
+          "fullSentence": "The company reported strong growth this year, opening five new stores.",
+          "translation": "公司今年公布強勁的成長，新開了五家店。",
+          "clue": "開新店代表公司規模成長",
+          "answerEntryId": "u2:growth",
+          "distractorEntryIds": ["u2:business", "u13:goal", "u14:habit"]
+        },
+        {
+          "sentence": "Milk is good for the ___ of bones and teeth.",
+          "fullSentence": "Milk is good for the growth of bones and teeth.",
+          "translation": "牛奶對骨骼和牙齒的發育很好。",
+          "clue": "牛奶幫助骨骼發育",
+          "answerEntryId": "u2:growth",
+          "distractorEntryIds": ["u13:knowledge", "u13:spirit", "u2:relation"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The teacher drew a chart to show the ___ of the plant from a seed to a tall tree.",
+        "fullSentence": "The teacher drew a chart to show the growth of the plant from a seed to a tall tree.",
+        "translation": "老師畫了一張圖，說明植物從種子長成大樹的過程。",
+        "clue": "從種子到樹，是生長的過程",
+        "answerEntryId": "u2:growth",
+        "distractorEntryIds": ["u13:knowledge", "u13:spirit", "u2:tradition"]
+      }
+    },
+    {
+      "entryId": "u2:husband",
+      "zh": "丈夫",
+      "pos": "noun",
+      "example": "Her husband cooks dinner for the family every night.",
+      "exampleZh": "她的丈夫每天晚上為家人做晚飯。",
+      "spellingHint": "h-u-s-b-a-n-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mrs. Chen and her ___ opened a small bookshop together.",
+        "fullSentence": "Mrs. Chen and her husband opened a small bookshop together.",
+        "translation": "陳太太和她的丈夫一起開了一家小書店。",
+        "clue": "和太太一起開店的男性配偶",
+        "answerEntryId": "u2:husband",
+        "distractorEntryIds": ["u2:wife", "u2:uncle", "u2:son"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A woman's ___ is the man she is married to.",
+          "fullSentence": "A woman's husband is the man she is married to.",
+          "translation": "女人的丈夫就是她結婚的對象。",
+          "clue": "結婚對象中的男性",
+          "answerEntryId": "u2:husband",
+          "distractorEntryIds": ["u2:wife", "u2:uncle", "u2:nephew"]
+        },
+        {
+          "sentence": "When the baby cried at night, the ___ got up to feed him while Mom rested.",
+          "fullSentence": "When the baby cried at night, the husband got up to feed him while Mom rested.",
+          "translation": "寶寶半夜哭時，丈夫起來餵奶讓媽媽休息。",
+          "clue": "媽媽休息時照顧寶寶的男性配偶",
+          "answerEntryId": "u2:husband",
+          "distractorEntryIds": ["u2:wife", "u2:uncle", "u2:nephew"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "On their tenth anniversary, the ___ prepared a big dinner for the whole family.",
+          "fullSentence": "On their tenth anniversary, the husband prepared a big dinner for the whole family.",
+          "translation": "結婚十週年那天，丈夫為全家準備了一頓大餐。",
+          "clue": "結婚十週年時下廚的男性配偶",
+          "answerEntryId": "u2:husband",
+          "distractorEntryIds": ["u2:wife", "u2:uncle", "u2:boss"]
+        },
+        {
+          "sentence": "While his wife helps their daughter with homework, the ___ cooks dinner for everyone.",
+          "fullSentence": "While his wife helps their daughter with homework, the husband cooks dinner for everyone.",
+          "translation": "太太陪女兒寫功課時，丈夫為大家煮晚餐。",
+          "clue": "有妻子、一起持家的男性配偶",
+          "answerEntryId": "u2:husband",
+          "distractorEntryIds": ["u2:uncle", "u2:son", "u2:boss"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because they married last month, everyone now calls David Alice's ___.",
+        "fullSentence": "Because they married last month, everyone now calls David Alice's husband.",
+        "translation": "因為他們上個月結婚了，大家現在都稱大衛是艾麗絲的丈夫。",
+        "clue": "剛結婚、成為對方男性配偶",
+        "answerEntryId": "u2:husband",
+        "distractorEntryIds": ["u2:wife", "u2:uncle", "u2:son"]
+      }
+    },
+    {
+      "entryId": "u2:live",
+      "zh": "居住；活著",
+      "pos": "verb",
+      "example": "We live in a small town near the sea.",
+      "exampleZh": "我們住在海邊的一個小鎮。",
+      "spellingHint": "l-i-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Many old people ___ in the countryside because it is quiet.",
+        "fullSentence": "Many old people live in the countryside because it is quiet.",
+        "translation": "許多老人住在鄉下，因為那裡很安靜。",
+        "clue": "住在某個地方",
+        "answerEntryId": "u2:live",
+        "distractorEntryIds": ["u14:travel", "u13:study", "u14:camp"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My grandparents ___ with us in Taipei.",
+          "fullSentence": "My grandparents live with us in Taipei.",
+          "translation": "我的祖父母和我們一起住在台北。",
+          "clue": "居住在哪裡",
+          "answerEntryId": "u2:live",
+          "distractorEntryIds": ["u14:play", "u13:learn", "u32:visit"]
+        },
+        {
+          "sentence": "Fish cannot ___ without water.",
+          "fullSentence": "Fish cannot live without water.",
+          "translation": "魚沒有水就無法生存。",
+          "clue": "維持生命、活著",
+          "answerEntryId": "u2:live",
+          "distractorEntryIds": ["u13:read", "u32:visit", "u14:climb"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "They ___ in the same building, so they see each other every day.",
+          "fullSentence": "They live in the same building, so they see each other every day.",
+          "translation": "他們住在同一棟樓，所以每天都見面。",
+          "clue": "住同一棟樓才會天天見面",
+          "answerEntryId": "u2:live",
+          "distractorEntryIds": ["u14:travel", "u13:practice", "u14:climb"]
+        },
+        {
+          "sentence": "Koalas ___ in Australia and eat eucalyptus leaves.",
+          "fullSentence": "Koalas live in Australia and eat eucalyptus leaves.",
+          "translation": "無尾熊棲息在澳洲，吃尤加利葉。",
+          "clue": "動物棲息在某地",
+          "answerEntryId": "u2:live",
+          "distractorEntryIds": ["u14:hunt", "u14:surf", "u14:camp"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although the city is noisy and expensive, millions of people still ___ there because of their jobs.",
+        "fullSentence": "Although the city is noisy and expensive, millions of people still live there because of their jobs.",
+        "translation": "雖然城市吵雜又昂貴，數百萬人仍為了工作住在那裡。",
+        "clue": "為了工作而住在一地",
+        "answerEntryId": "u2:live",
+        "distractorEntryIds": ["u14:camp", "u13:focus", "u14:ski"]
+      }
+    },
+    {
+      "entryId": "u2:marriage",
+      "zh": "婚姻",
+      "pos": "noun",
+      "example": "Their marriage has been happy for twenty years.",
+      "exampleZh": "他們的婚姻二十年來一直很幸福。",
+      "spellingHint": "m-a-r-r-i-a-g-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandma says trust and patience keep a ___ happy for many years.",
+        "fullSentence": "Grandma says trust and patience keep a marriage happy for many years.",
+        "translation": "奶奶說信任和耐心能讓婚姻多年保持幸福。",
+        "clue": "夫妻長年幸福相處靠的是經營婚姻",
+        "answerEntryId": "u2:marriage",
+        "distractorEntryIds": ["u2:wedding", "u2:tradition", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ is the relationship between a husband and a wife.",
+          "fullSentence": "A marriage is the relationship between a husband and a wife.",
+          "translation": "婚姻是丈夫和妻子之間的關係。",
+          "clue": "夫妻之間的關係叫婚姻",
+          "answerEntryId": "u2:marriage",
+          "distractorEntryIds": ["u2:wedding", "u13:friendship", "u2:tradition"]
+        },
+        {
+          "sentence": "Their ___ has lasted fifty years; they are still husband and wife.",
+          "fullSentence": "Their marriage has lasted fifty years; they are still husband and wife.",
+          "translation": "他們的婚姻已持續五十年，仍是結髮夫妻。",
+          "clue": "夫妻在一起五十年，是婚姻",
+          "answerEntryId": "u2:marriage",
+          "distractorEntryIds": ["u2:wedding", "u13:friendship", "u2:relation"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "After ten years of ___, they still hold hands when they walk.",
+          "fullSentence": "After ten years of marriage, they still hold hands when they walk.",
+          "translation": "結婚十年後，他們走路時仍會牽手。",
+          "clue": "結婚十年，是婚姻的時間",
+          "answerEntryId": "u2:marriage",
+          "distractorEntryIds": ["u2:wedding", "u2:tradition", "u2:relation"]
+        },
+        {
+          "sentence": "Grandpa believes that a happy ___ needs two people who listen to each other.",
+          "fullSentence": "Grandpa believes that a happy marriage needs two people who listen to each other.",
+          "translation": "爺爺相信幸福的婚姻需要兩個人互相傾聽。",
+          "clue": "夫妻互相傾聽才能維持婚姻",
+          "answerEntryId": "u2:marriage",
+          "distractorEntryIds": ["u2:wedding", "u2:tradition", "u2:affair"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although their ___ lasted fifty years, they never stopped caring for each other.",
+        "fullSentence": "Although their marriage lasted fifty years, they never stopped caring for each other.",
+        "translation": "雖然他們的婚姻長達五十年，他們始終互相照顧。",
+        "clue": "長達五十年的夫妻關係",
+        "answerEntryId": "u2:marriage",
+        "distractorEntryIds": ["u2:wedding", "u2:tradition", "u2:relation"]
+      }
+    },
+    {
+      "entryId": "u2:married",
+      "zh": "已婚的",
+      "pos": "adjective",
+      "example": "My married sister lives in Kaohsiung with her family.",
+      "exampleZh": "我已婚的姐姐和家人住在高雄。",
+      "spellingHint": "m-a-r-r-i-e-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "They got ___ last June and now live in Tainan.",
+        "fullSentence": "They got married last June and now live in Tainan.",
+        "translation": "他們去年六月結婚，現在住在台南。",
+        "clue": "結婚的常用說法 get + 此字",
+        "answerEntryId": "u2:married",
+        "distractorEntryIds": ["u2:single", "u13:important", "u13:final"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My aunt got ___ last year, and now she lives in Hualien with her family.",
+          "fullSentence": "My aunt got married last year, and now she lives in Hualien with her family.",
+          "translation": "我姑姑去年結婚了，現在和家人住在花蓮。",
+          "clue": "結婚了、有了自己的家庭",
+          "answerEntryId": "u2:married",
+          "distractorEntryIds": ["u13:easy", "u29:alone", "u13:final"]
+        },
+        {
+          "sentence": "She has been ___ for five years and has two kids.",
+          "fullSentence": "She has been married for five years and has two kids.",
+          "translation": "她結婚五年了，有兩個孩子。",
+          "clue": "有丈夫或妻子就是已婚",
+          "answerEntryId": "u2:married",
+          "distractorEntryIds": ["u13:easy", "u29:alone", "u13:hard"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Both of her parents are ___; they had a big wedding twenty years ago.",
+          "fullSentence": "Both of her parents are married; they had a big wedding twenty years ago.",
+          "translation": "她的父母是已婚狀態，二十年前辦了一場盛大的婚禮。",
+          "clue": "二十年前辦過婚禮，現在是已婚",
+          "answerEntryId": "u2:married",
+          "distractorEntryIds": ["u2:single", "u13:difficult", "u13:exact"]
+        },
+        {
+          "sentence": "He became ___ at thirty, and his wife teaches English.",
+          "fullSentence": "He became married at thirty, and his wife teaches English.",
+          "translation": "他三十歲結婚，太太教英文。",
+          "clue": "有妻子、進入婚姻狀態",
+          "answerEntryId": "u2:married",
+          "distractorEntryIds": ["u2:single", "u13:false", "u13:final"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "After the big wedding, everyone knew the couple was ___ and had started a new life together.",
+        "fullSentence": "After the big wedding, everyone knew the couple was married and had started a new life together.",
+        "translation": "盛大的婚禮之後，大家都知道這對新人已婚，展開了共同生活。",
+        "clue": "婚禮之後兩人的狀態是已婚",
+        "answerEntryId": "u2:married",
+        "distractorEntryIds": ["u2:single", "u13:important", "u13:exact"]
+      }
+    },
+    {
+      "entryId": "u2:marry",
+      "zh": "結婚；嫁娶",
+      "pos": "verb",
+      "example": "They plan to marry next spring.",
+      "exampleZh": "他們計畫明年春天結婚。",
+      "spellingHint": "m-a-r-r-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Amy will ___ Ken at the church near the park.",
+        "fullSentence": "Amy will marry Ken at the church near the park.",
+        "translation": "艾米將在公園附近的教堂與肯恩結婚。",
+        "clue": "和某人結婚用此動詞",
+        "answerEntryId": "u2:marry",
+        "distractorEntryIds": ["u13:teach", "u14:play", "u13:respect"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My aunt is going to ___ a doctor from Taichung.",
+          "fullSentence": "My aunt is going to marry a doctor from Taichung.",
+          "translation": "我的姑姑要嫁給一位台中來的醫生。",
+          "clue": "嫁給某人是這個動詞",
+          "answerEntryId": "u2:marry",
+          "distractorEntryIds": ["u32:meet", "u13:ask", "u32:visit"]
+        },
+        {
+          "sentence": "In many countries, people ___ in their late twenties.",
+          "fullSentence": "In many countries, people marry in their late twenties.",
+          "translation": "在許多國家，人們在二十幾歲後期結婚。",
+          "clue": "在某個年紀結婚",
+          "answerEntryId": "u2:marry",
+          "distractorEntryIds": ["u14:travel", "u13:study", "u14:dance"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Her parents hope she will ___ someone kind and hardworking.",
+          "fullSentence": "Her parents hope she will marry someone kind and hardworking.",
+          "translation": "她的父母希望她嫁給善良又勤勞的人。",
+          "clue": "希望她與好對象結婚",
+          "answerEntryId": "u2:marry",
+          "distractorEntryIds": ["u13:understand", "u32:help", "u13:respect"]
+        },
+        {
+          "sentence": "The prince decided to ___ the woman he loved, not the princess next door.",
+          "fullSentence": "The prince decided to marry the woman he loved, not the princess next door.",
+          "translation": "王子決定娶他愛的女人，而不是隔壁的公主。",
+          "clue": "決定娶某人為妻",
+          "answerEntryId": "u2:marry",
+          "distractorEntryIds": ["u32:choose", "u32:invite", "u32:remember"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although they met only twice, they decided to ___ because they felt they were made for each other.",
+        "fullSentence": "Although they met only twice, they decided to marry because they felt they were made for each other.",
+        "translation": "雖然他們只見過兩次面，還是決定結婚，因為覺得彼此是天作之合。",
+        "clue": "決定共結連理",
+        "answerEntryId": "u2:marry",
+        "distractorEntryIds": ["u13:respect", "u14:dance", "u2:support"]
+      }
+    },
+    {
+      "entryId": "u2:member",
+      "zh": "成員；會員",
+      "pos": "noun",
+      "example": "There are twelve members in our basketball club.",
+      "exampleZh": "我們的籃球社有十二位成員。",
+      "spellingHint": "m-e-m-b-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Every ___ of our club must come to the meeting on Friday.",
+        "fullSentence": "Every member of our club must come to the meeting on Friday.",
+        "translation": "我們社團的每一位成員星期五都必須來開會。",
+        "clue": "社團裡的一分子",
+        "answerEntryId": "u2:member",
+        "distractorEntryIds": ["u2:relative", "u2:boss", "u2:elder"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "She is the youngest ___ of our basketball team.",
+          "fullSentence": "She is the youngest member of our basketball team.",
+          "translation": "她是我們籃球隊最年輕的成員。",
+          "clue": "球隊中的一份子",
+          "answerEntryId": "u2:member",
+          "distractorEntryIds": ["u2:uncle", "u14:game", "u13:friend"]
+        },
+        {
+          "sentence": "My dad is a ___ of the golf club near our home.",
+          "fullSentence": "My dad is a member of the golf club near our home.",
+          "translation": "我爸爸是我們家附近高爾夫球場的會員。",
+          "clue": "加入球場、繳費的會員",
+          "answerEntryId": "u2:member",
+          "distractorEntryIds": ["u2:boss", "u13:teacher", "u14:game"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "My dad became a ___ of the fan club last month.",
+          "fullSentence": "My dad became a member of the fan club last month.",
+          "translation": "我爸爸上個月成為後援會的會員。",
+          "clue": "加入後援會的人是會員",
+          "answerEntryId": "u2:member",
+          "distractorEntryIds": ["u2:elder", "u2:uncle", "u2:boss"]
+        },
+        {
+          "sentence": "Show your card to prove you are a ___ of the swimming club.",
+          "fullSentence": "Show your card to prove you are a member of the swimming club.",
+          "translation": "出示卡片證明你是游泳會館的會員。",
+          "clue": "持卡證明身分的會員",
+          "answerEntryId": "u2:member",
+          "distractorEntryIds": ["u2:relative", "u2:boss", "u2:clerk"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Only a ___ with a special card can enter the library after eight; visitors must wait outside.",
+        "fullSentence": "Only a member with a special card can enter the library after eight; visitors must wait outside.",
+        "translation": "只有持特殊卡片的人員才能在八點後進入圖書館，訪客必須在外面等。",
+        "clue": "持卡進入、與訪客相對的是成員",
+        "answerEntryId": "u2:member",
+        "distractorEntryIds": ["u2:elder", "u2:parent", "u2:uncle"]
+      }
+    },
+    {
+      "entryId": "u2:mother",
+      "zh": "媽媽；母親",
+      "pos": "noun",
+      "example": "My mother drives me to school every morning.",
+      "exampleZh": "我媽媽每天早上開車送我上學。",
+      "spellingHint": "m-o-t-h-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Her ___ reads a story to her every night before bed.",
+        "fullSentence": "Her mother reads a story to her every night before bed.",
+        "translation": "她的媽媽每晚睡前唸故事給她聽。",
+        "clue": "睡前說故事的媽媽",
+        "answerEntryId": "u2:mother",
+        "distractorEntryIds": ["u2:wife", "u2:sister", "u2:niece"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My dad cooks, and my ___ washes the dishes.",
+          "fullSentence": "My dad cooks, and my mother washes the dishes.",
+          "translation": "爸爸煮飯，媽媽洗碗。",
+          "clue": "和爸爸相對的媽媽",
+          "answerEntryId": "u2:mother",
+          "distractorEntryIds": ["u2:sister", "u2:wife", "u13:teacher"]
+        },
+        {
+          "sentence": "A ___ is a woman who has children.",
+          "fullSentence": "A mother is a woman who has children.",
+          "translation": "母親是有孩子的女性。",
+          "clue": "有孩子的女性",
+          "answerEntryId": "u2:mother",
+          "distractorEntryIds": ["u2:wife", "u2:sister", "u2:granddaughter"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The baby bird looked for its ___ in the tall tree.",
+          "fullSentence": "The baby bird looked for its mother in the tall tree.",
+          "translation": "小鳥在高高的樹上找媽媽。",
+          "clue": "小鳥找的是鳥媽媽",
+          "answerEntryId": "u2:mother",
+          "distractorEntryIds": ["u2:sister", "u2:wife", "u2:niece"]
+        },
+        {
+          "sentence": "My ___ tucks me in every night and kisses me goodnight.",
+          "fullSentence": "My mother tucks me in every night and kisses me goodnight.",
+          "translation": "我媽媽每晚幫我蓋被子、親我道晚安。",
+          "clue": "每晚照顧我入睡的是媽媽",
+          "answerEntryId": "u2:mother",
+          "distractorEntryIds": ["u2:wife", "u2:sister", "u2:granddaughter"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because her ___ works night shifts at the hospital, Amy stays at her grandmother's house on weekdays.",
+        "fullSentence": "Because her mother works night shifts at the hospital, Amy stays at her grandmother's house on weekdays.",
+        "translation": "因為她媽媽在醫院上大夜班，艾米平日住在奶奶家。",
+        "clue": "在醫院上班的是媽媽，所以奶奶照顧她",
+        "answerEntryId": "u2:mother",
+        "distractorEntryIds": ["u2:wife", "u2:sister", "u2:niece"]
+      }
+    },
+    {
+      "entryId": "u2:nephew",
+      "zh": "姪子；外甥",
+      "pos": "noun",
+      "example": "My nephew is my brother's little son.",
+      "exampleZh": "我的姪子是哥哥的小兒子。",
+      "spellingHint": "n-e-p-h-e-w",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ came to our house and played chess with my father.",
+        "fullSentence": "My nephew came to our house and played chess with my father.",
+        "translation": "我的姪子來我們家和我父親下棋。",
+        "clue": "來家裡和父親下棋的是姪子",
+        "answerEntryId": "u2:nephew",
+        "distractorEntryIds": ["u2:niece", "u2:grandson", "u2:son"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ is a boy whose parents are your brother or sister.",
+          "fullSentence": "A nephew is a boy whose parents are your brother or sister.",
+          "translation": "姪子或外甥是父母為你兄弟姊妹的男孩。",
+          "clue": "兄弟姊妹的兒子",
+          "answerEntryId": "u2:nephew",
+          "distractorEntryIds": ["u2:niece", "u2:grandson", "u2:son"]
+        },
+        {
+          "sentence": "I bought a toy train for my little ___ on his fifth birthday.",
+          "fullSentence": "I bought a toy train for my little nephew on his fifth birthday.",
+          "translation": "我為五歲的小姪子買了玩具火車當生日禮物。",
+          "clue": "過五歲生日的小男孩親戚",
+          "answerEntryId": "u2:nephew",
+          "distractorEntryIds": ["u2:niece", "u2:granddaughter", "u13:teacher"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "At the family dinner, my ___ showed us pictures of his new baby brother.",
+          "fullSentence": "At the family dinner, my nephew showed us pictures of his new baby brother.",
+          "translation": "家庭聚餐時，姪子給我們看他新生弟弟的照片。",
+          "clue": "有小弟弟的小男孩親戚",
+          "answerEntryId": "u2:nephew",
+          "distractorEntryIds": ["u2:niece", "u2:son", "u2:grandson"]
+        },
+        {
+          "sentence": "My sister's little boy is my ___; he always calls me when he needs help with math.",
+          "fullSentence": "My sister's little boy is my nephew; he always calls me when he needs help with math.",
+          "translation": "姊姊的小兒子是我的外甥，他數學不會時都會打給我。",
+          "clue": "姊妹的兒子是外甥",
+          "answerEntryId": "u2:nephew",
+          "distractorEntryIds": ["u2:niece", "u2:grandson", "u2:son"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because he is my brother's boy and not my own child, he is my ___.",
+        "fullSentence": "Because he is my brother's boy and not my own child, he is my nephew.",
+        "translation": "因為他是我哥哥的兒子而不是我的孩子，他是我的姪子。",
+        "clue": "兄弟的兒子是姪子",
+        "answerEntryId": "u2:nephew",
+        "distractorEntryIds": ["u2:niece", "u2:son", "u2:grandson"]
+      }
+    },
+    {
+      "entryId": "u2:niece",
+      "zh": "姪女；外甥女",
+      "pos": "noun",
+      "example": "My niece draws pictures for me every time she visits.",
+      "exampleZh": "我的姪女每次來都畫圖給我。",
+      "spellingHint": "n-i-e-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My little ___ loves to braid her doll's hair, just like her mom does.",
+        "fullSentence": "My little niece loves to braid her doll's hair, just like her mom does.",
+        "translation": "我的小姪女喜歡幫洋娃娃編辮子，跟她媽媽一樣。",
+        "clue": "喜歡幫娃娃編髮的小女孩是姪女",
+        "answerEntryId": "u2:niece",
+        "distractorEntryIds": ["u2:nephew", "u2:granddaughter", "u2:sister"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ is a girl whose parents are your brother or your wife's brother.",
+          "fullSentence": "A niece is a girl whose parents are your brother or your wife's brother.",
+          "translation": "姪女或外甥女是父母為你兄弟或你太太兄弟的女孩。",
+          "clue": "兄弟或妻方兄弟的女兒",
+          "answerEntryId": "u2:niece",
+          "distractorEntryIds": ["u2:nephew", "u2:grandson", "u2:mother"]
+        },
+        {
+          "sentence": "My ___ sent me a birthday card with a big heart on it.",
+          "fullSentence": "My niece sent me a birthday card with a big heart on it.",
+          "translation": "我的姪女寄給我一張有大愛心的生日卡。",
+          "clue": "寄卡片的小女孩親戚",
+          "answerEntryId": "u2:niece",
+          "distractorEntryIds": ["u2:nephew", "u2:grandson", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "During the holidays, my ___ stays with us and shares a room with my daughter.",
+          "fullSentence": "During the holidays, my niece stays with us and shares a room with my daughter.",
+          "translation": "假期時姪女會來住，和我女兒同房。",
+          "clue": "來住並和女兒同房的小女孩親戚",
+          "answerEntryId": "u2:niece",
+          "distractorEntryIds": ["u2:nephew", "u2:granddaughter", "u2:sister"]
+        },
+        {
+          "sentence": "My brother's little girl is only three, but my ___ already sings very well.",
+          "fullSentence": "My brother's little girl is only three, but my niece already sings very well.",
+          "translation": "哥哥的小女兒才三歲，但我的姪女已經很會唱歌。",
+          "clue": "兄弟的女兒就是姪女",
+          "answerEntryId": "u2:niece",
+          "distractorEntryIds": ["u2:nephew", "u2:granddaughter", "u2:sister"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because she is my brother's girl and not my own child, she is my ___.",
+        "fullSentence": "Because she is my brother's girl and not my own child, she is my niece.",
+        "translation": "因為她是我妹妹的女兒而不是我的孩子，她是我的姪女。",
+        "clue": "姊妹的女兒是姪女",
+        "answerEntryId": "u2:niece",
+        "distractorEntryIds": ["u2:nephew", "u2:granddaughter", "u2:sister"]
+      }
+    },
+    {
+      "entryId": "u2:parent",
+      "zh": "父母；家長",
+      "pos": "noun",
+      "example": "Every parent wants their children to be happy.",
+      "exampleZh": "每位父母都希望孩子快樂。",
+      "spellingHint": "p-a-r-e-n-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Each ___ must sign the form before the school trip.",
+        "fullSentence": "Each parent must sign the form before the school trip.",
+        "translation": "校外教學前，每位家長都要簽同意書。",
+        "clue": "簽同意書的是家長",
+        "answerEntryId": "u2:parent",
+        "distractorEntryIds": ["u2:member", "u2:elder", "u2:boss"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Every ___ wants his or her children to be happy and healthy.",
+          "fullSentence": "Every parent wants his or her children to be happy and healthy.",
+          "translation": "每位父母都希望孩子快樂健康。",
+          "clue": "希望孩子好的人就是父母",
+          "answerEntryId": "u2:parent",
+          "distractorEntryIds": ["u2:uncle", "u13:friend", "u19:party"]
+        },
+        {
+          "sentence": "The teacher called the ___ because the boy broke a window.",
+          "fullSentence": "The teacher called the parent because the boy broke a window.",
+          "translation": "老師打電話給家長，因為男孩打破了窗戶。",
+          "clue": "孩子出事要聯絡家長",
+          "answerEntryId": "u2:parent",
+          "distractorEntryIds": ["u2:boss", "u2:clerk", "u2:elder"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "At the school meeting, every ___ asked questions about the new homework rules.",
+          "fullSentence": "At the school meeting, every parent asked questions about the new homework rules.",
+          "translation": "家長會上每位家長都詢問新的功課規定。",
+          "clue": "關心孩子功課的是家長",
+          "answerEntryId": "u2:parent",
+          "distractorEntryIds": ["u2:member", "u13:teacher", "u2:elder"]
+        },
+        {
+          "sentence": "A ___ takes care of the children and helps them grow up.",
+          "fullSentence": "A parent takes care of the children and helps them grow up.",
+          "translation": "父母照顧孩子並幫助他們長大。",
+          "clue": "養育孩子的角色",
+          "answerEntryId": "u2:parent",
+          "distractorEntryIds": ["u2:elder", "u2:boss", "u2:member"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because her ___ works late every day, Amy stays with her grandmother after school.",
+        "fullSentence": "Because her parent works late every day, Amy stays with her grandmother after school.",
+        "translation": "因為她爸或媽每天上班到很晚，艾米放學後和奶奶在一起。",
+        "clue": "上班到很晚、無法接孩子的是家長",
+        "answerEntryId": "u2:parent",
+        "distractorEntryIds": ["u2:member", "u2:elder", "u2:boss"]
+      }
+    },
+    {
+      "entryId": "u2:raise",
+      "zh": "養育；撫養",
+      "pos": "verb",
+      "example": "It is not easy to raise three children.",
+      "exampleZh": "養三個孩子不容易。",
+      "spellingHint": "r-a-i-s-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My grandparents worked hard to ___ six children.",
+        "fullSentence": "My grandparents worked hard to raise six children.",
+        "translation": "我的祖父母努力工作養大六個孩子。",
+        "clue": "把孩子養大",
+        "answerEntryId": "u2:raise",
+        "distractorEntryIds": ["u13:teach", "u13:complete", "u13:improve"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Farmers in that village ___ chickens and sell the eggs.",
+          "fullSentence": "Farmers in that village raise chickens and sell the eggs.",
+          "translation": "那個村子的農夫養雞賣蛋。",
+          "clue": "飼養動物",
+          "answerEntryId": "u2:raise",
+          "distractorEntryIds": ["u14:hunt", "u14:collect", "u13:count"]
+        },
+        {
+          "sentence": "They want to ___ their kids in a quiet town.",
+          "fullSentence": "They want to raise their kids in a quiet town.",
+          "translation": "他們想在安靜的小鎮養育孩子。",
+          "clue": "養育孩子",
+          "answerEntryId": "u2:raise",
+          "distractorEntryIds": ["u13:teach", "u14:camp", "u13:prepare"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "It costs a lot of money to ___ a big family.",
+          "fullSentence": "It costs a lot of money to raise a big family.",
+          "translation": "養一個大家庭要花很多錢。",
+          "clue": "花錢養育家人",
+          "answerEntryId": "u2:raise",
+          "distractorEntryIds": ["u13:teach", "u32:help", "u13:encourage"]
+        },
+        {
+          "sentence": "The students sold cookies to ___ money for the new library.",
+          "fullSentence": "The students sold cookies to raise money for the new library.",
+          "translation": "學生們賣餅乾為新圖書館募款。",
+          "clue": "賣東西籌錢是募款",
+          "answerEntryId": "u2:raise",
+          "distractorEntryIds": ["u17:spend", "u13:count", "u13:copy"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The teacher asked the class to ___ their hands before speaking.",
+        "fullSentence": "The teacher asked the class to raise their hands before speaking.",
+        "translation": "老師要求全班發言前先舉手。",
+        "clue": "舉手的說法",
+        "answerEntryId": "u2:raise",
+        "distractorEntryIds": ["u13:underline", "u14:play", "u13:copy"]
+      }
+    },
+    {
+      "entryId": "u2:related",
+      "zh": "有親屬關係的；相關的",
+      "pos": "adjective",
+      "example": "Are you related to Mr. Lin? You look like him.",
+      "exampleZh": "你和林先生有親戚關係嗎？你們長得很像。",
+      "spellingHint": "r-e-l-a-t-e-d",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The two girls look alike because they are ___ by blood.",
+        "fullSentence": "The two girls look alike because they are related by blood.",
+        "translation": "這兩個女孩長得像，因為她們有血緣關係。",
+        "clue": "有血緣關係",
+        "answerEntryId": "u2:related",
+        "distractorEntryIds": ["u2:single", "u13:important", "u13:basic"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Are you ___ to the singer? Your voices sound just alike.",
+          "fullSentence": "Are you related to the singer? Your voices sound just alike.",
+          "translation": "你和那位歌手有親戚關係嗎？你們的聲音好像。",
+          "clue": "聲音像，懷疑是否有親屬關係",
+          "answerEntryId": "u2:related",
+          "distractorEntryIds": ["u13:basic", "u29:alone", "u13:final"]
+        },
+        {
+          "sentence": "My cousin and I are ___ through our grandmothers.",
+          "fullSentence": "My cousin and I are related through our grandmothers.",
+          "translation": "我和表哥是透過祖母那邊的親戚關係。",
+          "clue": "透過親屬關係相連",
+          "answerEntryId": "u2:related",
+          "distractorEntryIds": ["u13:useful", "u29:common", "u13:hard"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The police found that the two cases are ___ to each other.",
+          "fullSentence": "The police found that the two cases are related to each other.",
+          "translation": "警方發現這兩件案子彼此相關。",
+          "clue": "兩件事有關聯",
+          "answerEntryId": "u2:related",
+          "distractorEntryIds": ["u29:same", "u13:important", "u13:exact"]
+        },
+        {
+          "sentence": "The two events are closely ___; one happened right after the other.",
+          "fullSentence": "The two events are closely related; one happened right after the other.",
+          "translation": "這兩起事件密切相關，一件緊接著另一件發生。",
+          "clue": "前後接連發生，表示兩事相關",
+          "answerEntryId": "u2:related",
+          "distractorEntryIds": ["u29:same", "u13:important", "u13:exact"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Even though they grew up in different countries, the twins are still ___ by blood.",
+        "fullSentence": "Even though they grew up in different countries, the twins are still related by blood.",
+        "translation": "雖然雙胞胎在不同國家長大，他們仍有血緣關係。",
+        "clue": "雙胞胎有血緣",
+        "answerEntryId": "u2:related",
+        "distractorEntryIds": ["u2:single", "u29:same", "u13:important"]
+      }
+    },
+    {
+      "entryId": "u2:relation",
+      "zh": "關係",
+      "pos": "noun",
+      "example": "Good communication improves the relation between friends.",
+      "exampleZh": "良好的溝通能改善彼此的關係。",
+      "spellingHint": "r-e-l-a-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The two countries hope to build a friendly ___.",
+        "fullSentence": "The two countries hope to build a friendly relation.",
+        "translation": "兩國希望建立友好的關係。",
+        "clue": "國與國之間的往來關係",
+        "answerEntryId": "u2:relation",
+        "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:role"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "There is a close ___ between diet and health.",
+          "fullSentence": "There is a close relation between diet and health.",
+          "translation": "飲食和健康之間關係密切。",
+          "clue": "兩者之間的關係",
+          "answerEntryId": "u2:relation",
+          "distractorEntryIds": ["u2:tradition", "u2:business", "u2:growth"]
+        },
+        {
+          "sentence": "The teacher talked about the ___ between exercise and sleep.",
+          "fullSentence": "The teacher talked about the relation between exercise and sleep.",
+          "translation": "老師談到運動和睡眠之間的關係。",
+          "clue": "兩件事之間的關聯",
+          "answerEntryId": "u2:relation",
+          "distractorEntryIds": ["u2:affair", "u2:tradition", "u2:marriage"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Their trade ___ with that company started ten years ago.",
+          "fullSentence": "Their trade relation with that company started ten years ago.",
+          "translation": "他們和那家公司的貿易往來關係十年前就開始了。",
+          "clue": "公司之間的往來關係",
+          "answerEntryId": "u2:relation",
+          "distractorEntryIds": ["u2:tradition", "u2:affair", "u2:generation"]
+        },
+        {
+          "sentence": "The map shows the ___ of the school to the train station.",
+          "fullSentence": "The map shows the relation of the school to the train station.",
+          "translation": "地圖顯示學校和火車站之間的位置關係。",
+          "clue": "位置之間的關係",
+          "answerEntryId": "u2:relation",
+          "distractorEntryIds": ["u2:role", "u2:tradition", "u2:generation"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The study explains the ___ between what you eat and how you feel every day.",
+        "fullSentence": "The study explains the relation between what you eat and how you feel every day.",
+        "translation": "這項研究解釋了飲食和每天心情之間的關係。",
+        "clue": "解釋兩者之間的關聯",
+        "answerEntryId": "u2:relation",
+        "distractorEntryIds": ["u2:affair", "u2:role", "u2:growth"]
+      }
+    },
+    {
+      "entryId": "u2:relative",
+      "zh": "親戚",
+      "pos": "noun",
+      "example": "Over thirty relatives came to our family party.",
+      "exampleZh": "超過三十位親戚來參加我們的家庭聚會。",
+      "spellingHint": "r-e-l-a-t-i-v-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "During the New Year, we visit an old ___ and bring her fruit.",
+        "fullSentence": "During the New Year, we visit an old relative and bring her fruit.",
+        "translation": "過年時，我們拜訪一位年長的親戚並帶水果給她。",
+        "clue": "過年拜訪的是親戚",
+        "answerEntryId": "u2:relative",
+        "distractorEntryIds": ["u2:member", "u2:parent", "u13:friend"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "One ___ from Canada stayed with us for a week.",
+          "fullSentence": "One relative from Canada stayed with us for a week.",
+          "translation": "一位加拿大的親戚和我們住了一個星期。",
+          "clue": "從加拿大來住的是親戚",
+          "answerEntryId": "u2:relative",
+          "distractorEntryIds": ["u2:member", "u2:boss", "u13:teacher"]
+        },
+        {
+          "sentence": "A ___ is a person in your family, like an aunt or a cousin.",
+          "fullSentence": "A relative is a person in your family, like an aunt or a cousin.",
+          "translation": "親戚是家族裡的人，例如姑姑或表哥。",
+          "clue": "家族裡的人",
+          "answerEntryId": "u2:relative",
+          "distractorEntryIds": ["u2:member", "u13:friend", "u13:teacher"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "At the wedding, we met a ___ we had never seen before.",
+          "fullSentence": "At the wedding, we met a relative we had never seen before.",
+          "translation": "婚禮上我們遇到了以前沒見過的親戚。",
+          "clue": "婚禮上見到的是親戚",
+          "answerEntryId": "u2:relative",
+          "distractorEntryIds": ["u2:member", "u2:parent", "u2:elder"]
+        },
+        {
+          "sentence": "Grandma keeps a photo of every ___ on the living room wall.",
+          "fullSentence": "Grandma keeps a photo of every relative on the living room wall.",
+          "translation": "奶奶把每位親戚的照片掛在客廳牆上。",
+          "clue": "牆上掛的是親戚的照片",
+          "answerEntryId": "u2:relative",
+          "distractorEntryIds": ["u2:member", "u13:friend", "u2:boss"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because she is my father's cousin's girl, she is my ___ but not my sister.",
+        "fullSentence": "Because she is my father's cousin's girl, she is my relative but not my sister.",
+        "translation": "因為她是我爸爸表妹的女兒，她是我的親戚而不是姊妹。",
+        "clue": "有家族關係但不是姊妹",
+        "answerEntryId": "u2:relative",
+        "distractorEntryIds": ["u2:member", "u13:friend", "u2:elder"]
+      }
+    },
+    {
+      "entryId": "u2:role",
+      "zh": "角色",
+      "pos": "noun",
+      "example": "The teacher plays an important role in the classroom.",
+      "exampleZh": "老師在課堂上扮演重要的角色。",
+      "spellingHint": "r-o-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Parents play an important ___ in their children's education.",
+        "fullSentence": "Parents play an important role in their children's education.",
+        "translation": "父母在孩子的教育中扮演重要的角色。",
+        "clue": "扮演的重要角色",
+        "answerEntryId": "u2:role",
+        "distractorEntryIds": ["u24:part", "u2:affair", "u2:tradition"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "She got the main ___ in the school play.",
+          "fullSentence": "She got the main role in the school play.",
+          "translation": "她在學校戲劇中得到主要角色。",
+          "clue": "戲劇中的角色",
+          "answerEntryId": "u2:role",
+          "distractorEntryIds": ["u24:part", "u2:member", "u13:story"]
+        },
+        {
+          "sentence": "Computers now play a big ___ in our daily lives.",
+          "fullSentence": "Computers now play a big role in our daily lives.",
+          "translation": "電腦在我們日常生活中扮演重要的角色。",
+          "clue": "扮演的角色",
+          "answerEntryId": "u2:role",
+          "distractorEntryIds": ["u24:part", "u2:affair", "u2:tradition"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The director gave him the ___ of a brave soldier.",
+          "fullSentence": "The director gave him the role of a brave soldier.",
+          "translation": "導演給他勇敢士兵的角色。",
+          "clue": "導演分配的角色",
+          "answerEntryId": "u2:role",
+          "distractorEntryIds": ["u24:part", "u2:member", "u2:affair"]
+        },
+        {
+          "sentence": "Each ___ in the team has its own purpose.",
+          "fullSentence": "Each role in the team has its own purpose.",
+          "translation": "團隊中每個角色都有它的任務。",
+          "clue": "團隊裡的角色",
+          "answerEntryId": "u2:role",
+          "distractorEntryIds": ["u24:part", "u2:member", "u2:tradition"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although she is new, her ___ as team leader is already clear to everyone.",
+        "fullSentence": "Although she is new, her role as team leader is already clear to everyone.",
+        "translation": "雖然她是新人，她做為隊長的角色已經很清楚。",
+        "clue": "身分上的角色",
+        "answerEntryId": "u2:role",
+        "distractorEntryIds": ["u24:part", "u2:affair", "u2:member"]
+      }
+    },
+    {
+      "entryId": "u2:single",
+      "zh": "單身的；單一的",
+      "pos": "adjective",
+      "example": "My uncle is still single at forty.",
+      "exampleZh": "我叔叔四十歲了還是單身。",
+      "spellingHint": "s-i-n-g-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "He is still ___ because he has not found the right person yet.",
+        "fullSentence": "He is still single because he has not found the right person yet.",
+        "translation": "他還是單身，因為還沒遇到對的人。",
+        "clue": "還沒結婚的狀態",
+        "answerEntryId": "u2:single",
+        "distractorEntryIds": ["u2:married", "u13:important", "u13:basic"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My uncle is forty and still ___.",
+          "fullSentence": "My uncle is forty and still single.",
+          "translation": "我叔叔四十歲了還是單身。",
+          "clue": "還沒結婚的狀態",
+          "answerEntryId": "u2:single",
+          "distractorEntryIds": ["u2:married", "u13:easy", "u29:alone"]
+        },
+        {
+          "sentence": "She is still ___; she has never had a boyfriend.",
+          "fullSentence": "She is still single; she has never had a boyfriend.",
+          "translation": "她還是單身，從沒交過男朋友。",
+          "clue": "從沒交往過，就是單身",
+          "answerEntryId": "u2:single",
+          "distractorEntryIds": ["u13:easy", "u29:alone", "u13:final"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Many young people stay ___ longer because of work.",
+          "fullSentence": "Many young people stay single longer because of work.",
+          "translation": "許多年輕人因為工作晚婚、維持單身。",
+          "clue": "維持未結婚狀態",
+          "answerEntryId": "u2:single",
+          "distractorEntryIds": ["u2:married", "u13:difficult", "u13:useful"]
+        },
+        {
+          "sentence": "This is a ___ ticket, so I will come back by train tomorrow.",
+          "fullSentence": "This is a single ticket, so I will come back by train tomorrow.",
+          "translation": "這是單程票，所以我明天會搭火車回來。",
+          "clue": "明天才回來，表示只買單程",
+          "answerEntryId": "u2:single",
+          "distractorEntryIds": ["u13:final", "u13:exact", "u13:difficult"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Unlike her ___ friends who live alone, Amy lives with her husband and three children.",
+        "fullSentence": "Unlike her single friends who live alone, Amy lives with her husband and three children.",
+        "translation": "和她單身獨居的朋友不同，艾米和丈夫還有三個孩子同住。",
+        "clue": "獨居、和有丈夫的艾米對比的是單身",
+        "answerEntryId": "u2:single",
+        "distractorEntryIds": ["u2:married", "u13:important", "u13:basic"]
+      }
+    },
+    {
+      "entryId": "u2:sister",
+      "zh": "姊妹；姊姊；妹妹",
+      "pos": "noun",
+      "example": "My little sister learns to ride a bike.",
+      "exampleZh": "我的小妹妹正在學騎腳踏車。",
+      "spellingHint": "s-i-s-t-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My ___ and I share the same bedroom and the same birthday.",
+        "fullSentence": "My sister and I share the same bedroom and the same birthday.",
+        "translation": "我和我姊妹同房又同一天生日。",
+        "clue": "一起長大的女性手足",
+        "answerEntryId": "u2:sister",
+        "distractorEntryIds": ["u2:mother", "u2:wife", "u2:niece"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My older ___ helps me with my homework every day.",
+          "fullSentence": "My older sister helps me with my homework every day.",
+          "translation": "我姊姊每天幫我做功課。",
+          "clue": "年紀大的女性手足",
+          "answerEntryId": "u2:sister",
+          "distractorEntryIds": ["u2:mother", "u2:wife", "u13:teacher"]
+        },
+        {
+          "sentence": "A ___ is a girl who has the same parents as you.",
+          "fullSentence": "A sister is a girl who has the same parents as you.",
+          "translation": "姊妹是和你有相同父母的女孩。",
+          "clue": "同父母的女孩",
+          "answerEntryId": "u2:sister",
+          "distractorEntryIds": ["u2:mother", "u2:wife", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Her twin ___ wears the same dress, so people often mix them up.",
+          "fullSentence": "Her twin sister wears the same dress, so people often mix them up.",
+          "translation": "她的雙胞胎姊妹穿同樣的衣服，大家常認錯。",
+          "clue": "雙胞胎的女性手足",
+          "answerEntryId": "u2:sister",
+          "distractorEntryIds": ["u2:mother", "u2:wife", "u2:granddaughter"]
+        },
+        {
+          "sentence": "My little ___ was born two years after me.",
+          "fullSentence": "My little sister was born two years after me.",
+          "translation": "我妹妹在我兩年後出生。",
+          "clue": "晚出生的女性手足",
+          "answerEntryId": "u2:sister",
+          "distractorEntryIds": ["u2:niece", "u2:granddaughter", "u2:nephew"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because we have the same parents but I am a boy and she is a girl, she is my ___.",
+        "fullSentence": "Because we have the same parents but I am a boy and she is a girl, she is my sister.",
+        "translation": "因為我們同父母但我是男孩她是女孩，她是我的姊妹。",
+        "clue": "同父母的女性手足",
+        "answerEntryId": "u2:sister",
+        "distractorEntryIds": ["u2:mother", "u2:wife", "u2:granddaughter"]
+      }
+    },
+    {
+      "entryId": "u2:son",
+      "zh": "兒子",
+      "pos": "noun",
+      "example": "Their son wants to be a pilot when he grows up.",
+      "exampleZh": "他們的兒子長大想當飛行員。",
+      "spellingHint": "s-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Their ___ just learned to walk, so the new parents watch him all the time.",
+        "fullSentence": "Their son just learned to walk, so the new parents watch him all the time.",
+        "translation": "他們的兒子剛學會走路，新手父母隨時看著他。",
+        "clue": "新手父母照顧的小男孩是兒子",
+        "answerEntryId": "u2:son",
+        "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A ___ is a couple's male child.",
+          "fullSentence": "A son is a couple's male child.",
+          "translation": "兒子是夫妻的男孩。",
+          "clue": "父母的孩子中的男孩",
+          "answerEntryId": "u2:son",
+          "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+        },
+        {
+          "sentence": "David and Alice's baby boy is their first ___.",
+          "fullSentence": "David and Alice's baby boy is their first son.",
+          "translation": "大衛和艾麗絲的男寶寶是他們的第一個兒子。",
+          "clue": "夫妻自己的男孩是兒子",
+          "answerEntryId": "u2:son",
+          "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Her ___ is only six; she and her spouse take turns walking him to school.",
+          "fullSentence": "Her son is only six; she and her spouse take turns walking him to school.",
+          "translation": "她兒子才六歲，她和丈夫輪流陪他走路上學。",
+          "clue": "夫妻照顧的小男孩是兒子",
+          "answerEntryId": "u2:son",
+          "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+        },
+        {
+          "sentence": "The old man lives with his ___ and his daughter-in-law.",
+          "fullSentence": "The old man lives with his son and his daughter-in-law.",
+          "translation": "老人和兒子及兒媳同住。",
+          "clue": "兒媳的丈夫就是兒子",
+          "answerEntryId": "u2:son",
+          "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because David was born to them twenty years ago, he is their only ___.",
+        "fullSentence": "Because David was born to them twenty years ago, he is their only son.",
+        "translation": "因為大衛二十年前出生，他是他們唯一的兒子。",
+        "clue": "父母生的男孩",
+        "answerEntryId": "u2:son",
+        "distractorEntryIds": ["u2:grandson", "u2:nephew", "u2:husband"]
+      }
+    },
+    {
+      "entryId": "u2:support",
+      "zh": "支持；養活",
+      "pos": "verb",
+      "example": "Her family supports her dream of being a singer.",
+      "exampleZh": "她的家人支持她成為歌手的夢想。",
+      "spellingHint": "s-u-p-p-o-r-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My parents ___ my decision to study art in Paris.",
+        "fullSentence": "My parents support my decision to study art in Paris.",
+        "translation": "我父母支持我去巴黎學藝術的決定。",
+        "clue": "贊成、支持別人的決定",
+        "answerEntryId": "u2:support",
+        "distractorEntryIds": ["u13:teach", "u32:help", "u13:encourage"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We should ___ our friends when they have problems.",
+          "fullSentence": "We should support our friends when they have problems.",
+          "translation": "朋友有困難時我們應該支持他們。",
+          "clue": "給予支持",
+          "answerEntryId": "u2:support",
+          "distractorEntryIds": ["u13:teach", "u32:visit", "u13:ask"]
+        },
+        {
+          "sentence": "Thousands of fans ___ the team at every game.",
+          "fullSentence": "Thousands of fans support the team at every game.",
+          "translation": "每場比賽都有數千名球迷支持球隊。",
+          "clue": "球迷力挺球隊",
+          "answerEntryId": "u2:support",
+          "distractorEntryIds": ["u32:watch", "u14:play", "u13:listen"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "He works two jobs to ___ his family of five.",
+          "fullSentence": "He works two jobs to support his family of five.",
+          "translation": "他做兩份工作來養活五口之家。",
+          "clue": "賺錢養家",
+          "answerEntryId": "u2:support",
+          "distractorEntryIds": ["u32:help", "u13:teach", "u13:encourage"]
+        },
+        {
+          "sentence": "The mayor promised to ___ the plan for a new park.",
+          "fullSentence": "The mayor promised to support the plan for a new park.",
+          "translation": "市長承諾支持新公園的計畫。",
+          "clue": "公開支持計畫",
+          "answerEntryId": "u2:support",
+          "distractorEntryIds": ["u13:improve", "u32:start", "u13:explain"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although she never plays music herself, she will always ___ her daughter's violin lessons with both time and money.",
+        "fullSentence": "Although she never plays music herself, she will always support her daughter's violin lessons with both time and money.",
+        "translation": "雖然她從不演奏，她總是用時間和金錢支持女兒學小提琴。",
+        "clue": "用時間金錢支持",
+        "answerEntryId": "u2:support",
+        "distractorEntryIds": ["u13:teach", "u32:help", "u13:practice"]
+      }
+    },
+    {
+      "entryId": "u2:tradition",
+      "zh": "傳統",
+      "pos": "noun",
+      "example": "It is a tradition to eat rice balls at the New Year.",
+      "exampleZh": "過年吃湯圓是一種傳統。",
+      "spellingHint": "t-r-a-d-i-t-i-o-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Wearing red during the New Year is an old ___ in our family.",
+        "fullSentence": "Wearing red during the New Year is an old tradition in our family.",
+        "translation": "過年穿紅衣是我們家的老傳統。",
+        "clue": "流傳下來的習慣",
+        "answerEntryId": "u2:tradition",
+        "distractorEntryIds": ["u2:marriage", "u2:affair", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Every family has its own ___ for the holidays.",
+          "fullSentence": "Every family has its own tradition for the holidays.",
+          "translation": "每個家庭都有自己的過節傳統。",
+          "clue": "家裡流傳的習俗",
+          "answerEntryId": "u2:tradition",
+          "distractorEntryIds": ["u2:affair", "u2:business", "u2:generation"]
+        },
+        {
+          "sentence": "The dragon dance is an old ___ in Chinese culture.",
+          "fullSentence": "The dragon dance is an old tradition in Chinese culture.",
+          "translation": "舞龍是中華文化裡的古老傳統。",
+          "clue": "流傳已久的文化習俗",
+          "answerEntryId": "u2:tradition",
+          "distractorEntryIds": ["u2:affair", "u2:growth", "u2:role"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Grandma taught us to keep the ___ of making mooncakes together.",
+          "fullSentence": "Grandma taught us to keep the tradition of making mooncakes together.",
+          "translation": "奶奶教我們保留一起做月餅的傳統。",
+          "clue": "保留流傳的做月餅習俗",
+          "answerEntryId": "u2:tradition",
+          "distractorEntryIds": ["u2:affair", "u2:marriage", "u2:role"]
+        },
+        {
+          "sentence": "Young people sometimes question an old ___ to fit modern life.",
+          "fullSentence": "Young people sometimes question an old tradition to fit modern life.",
+          "translation": "年輕人有時會質疑舊傳統來配合現代生活。",
+          "clue": "被重新思考的是舊習俗",
+          "answerEntryId": "u2:tradition",
+          "distractorEntryIds": ["u2:affair", "u2:relation", "u2:role"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although they live in a big city now, the family still follows the ___ of eating together on the first day of the New Year.",
+        "fullSentence": "Although they live in a big city now, the family still follows the tradition of eating together on the first day of the New Year.",
+        "translation": "雖然現在在大城市生活，這家人仍遵守初一一起吃飯的傳統。",
+        "clue": "遵循的是過年的傳統習俗",
+        "answerEntryId": "u2:tradition",
+        "distractorEntryIds": ["u2:affair", "u2:generation", "u2:marriage"]
+      }
+    },
+    {
+      "entryId": "u2:uncle",
+      "zh": "叔叔；舅舅；伯父",
+      "pos": "noun",
+      "example": "My uncle takes me fishing on Sundays.",
+      "exampleZh": "我叔叔星期天帶我去釣魚。",
+      "spellingHint": "u-n-c-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My father's brother is my favorite ___.",
+        "fullSentence": "My father's brother is my favorite uncle.",
+        "translation": "我爸爸的弟弟是我最喜歡的叔叔。",
+        "clue": "爸爸的兄弟",
+        "answerEntryId": "u2:uncle",
+        "distractorEntryIds": ["u2:elder", "u2:nephew", "u2:grandson"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "An ___ is the brother of your mom or dad.",
+          "fullSentence": "An uncle is the brother of your mom or dad.",
+          "translation": "叔叔或舅舅是媽媽或爸爸的兄弟。",
+          "clue": "父母親的兄弟",
+          "answerEntryId": "u2:uncle",
+          "distractorEntryIds": ["u2:elder", "u2:nephew", "u2:grandson"]
+        },
+        {
+          "sentence": "My ___ gave me a puppy for my birthday.",
+          "fullSentence": "My uncle gave me a puppy for my birthday.",
+          "translation": "我叔叔送我一隻小狗當生日禮物。",
+          "clue": "送小狗的男性長輩親戚",
+          "answerEntryId": "u2:uncle",
+          "distractorEntryIds": ["u2:elder", "u2:niece", "u2:granddaughter"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Every summer, our ___ takes the whole family to the beach.",
+          "fullSentence": "Every summer, our uncle takes the whole family to the beach.",
+          "translation": "每年夏天，叔叔帶全家去海邊。",
+          "clue": "帶全家出遊的男性長輩",
+          "answerEntryId": "u2:uncle",
+          "distractorEntryIds": ["u2:elder", "u2:nephew", "u2:grandson"]
+        },
+        {
+          "sentence": "My mom's brother lives in Taitung, and I call him ___.",
+          "fullSentence": "My mom's brother lives in Taitung, and I call him uncle.",
+          "translation": "媽媽的哥哥住台東，我叫他舅舅。",
+          "clue": "媽媽的兄弟的稱呼",
+          "answerEntryId": "u2:uncle",
+          "distractorEntryIds": ["u2:elder", "u2:nephew", "u2:grandson"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because he is my dad's younger brother and not my grandfather, he is my ___.",
+        "fullSentence": "Because he is my dad's younger brother and not my grandfather, he is my uncle.",
+        "translation": "因為他是我爸爸的弟弟而不是爺爺，他是我的叔叔。",
+        "clue": "爸爸的弟弟是叔叔",
+        "answerEntryId": "u2:uncle",
+        "distractorEntryIds": ["u2:elder", "u2:nephew", "u2:grandson"]
+      }
+    },
+    {
+      "entryId": "u2:wedding",
+      "zh": "婚禮",
+      "pos": "noun",
+      "example": "The wedding was at a small church near the lake.",
+      "exampleZh": "婚禮在湖邊附近的一座小教堂舉行。",
+      "spellingHint": "w-e-d-d-i-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The bride wore a white dress at the ___ last Saturday.",
+        "fullSentence": "The bride wore a white dress at the wedding last Saturday.",
+        "translation": "上星期六的婚禮上，新娘穿著白色禮服。",
+        "clue": "新娘參加的結婚儀式",
+        "answerEntryId": "u2:wedding",
+        "distractorEntryIds": ["u2:affair", "u2:tradition", "u2:relation"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "We were invited to my teacher's ___; the bride will wear a white dress.",
+          "fullSentence": "We were invited to my teacher's wedding; the bride will wear a white dress.",
+          "translation": "我們受邀參加老師的婚禮，新娘會穿白色禮服。",
+          "clue": "有新娘的是婚禮",
+          "answerEntryId": "u2:wedding",
+          "distractorEntryIds": ["u19:party", "u14:trip", "u14:picnic"]
+        },
+        {
+          "sentence": "Everyone threw flowers after the ___.",
+          "fullSentence": "Everyone threw flowers after the wedding.",
+          "translation": "婚禮後大家灑花瓣。",
+          "clue": "結婚儀式後的慶祝",
+          "answerEntryId": "u2:wedding",
+          "distractorEntryIds": ["u19:party", "u14:game", "u14:trip"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The bride and groom took photos in the garden before the ___ started.",
+          "fullSentence": "The bride and groom took photos in the garden before the wedding started.",
+          "translation": "婚禮開始前，新人在花園拍照。",
+          "clue": "新人舉行的結婚儀式",
+          "answerEntryId": "u2:wedding",
+          "distractorEntryIds": ["u19:party", "u14:trip", "u2:affair"]
+        },
+        {
+          "sentence": "She sang a song at her best friend's ___; the groom cried with joy.",
+          "fullSentence": "She sang a song at her best friend's wedding; the groom cried with joy.",
+          "translation": "上週末她在好友的婚禮上獻唱，新郎感動落淚。",
+          "clue": "有新郎在場的是婚禮",
+          "answerEntryId": "u2:wedding",
+          "distractorEntryIds": ["u19:party", "u14:game", "u2:affair"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Although their ___ was small, with only twenty guests, the bride and groom were full of joy.",
+        "fullSentence": "Although their wedding was small, with only twenty guests, the bride and groom were full of joy.",
+        "translation": "雖然他們的婚禮很小，只有二十位賓客，新人卻滿心歡喜。",
+        "clue": "有賓客、有新娘新郎的是婚禮",
+        "answerEntryId": "u2:wedding",
+        "distractorEntryIds": ["u19:party", "u14:trip", "u2:affair"]
+      }
+    },
+    {
+      "entryId": "u2:wife",
+      "zh": "妻子；太太",
+      "pos": "noun",
+      "example": "His wife is a nurse at the city hospital.",
+      "exampleZh": "他的妻子是市立醫院的護理師。",
+      "spellingHint": "w-i-f-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Mr. Lin and his ___ run a small restaurant together.",
+        "fullSentence": "Mr. Lin and his wife run a small restaurant together.",
+        "translation": "林先生和他的妻子一起經營一家小餐廳。",
+        "clue": "和丈夫一起經營餐廳的女性配偶",
+        "answerEntryId": "u2:wife",
+        "distractorEntryIds": ["u2:husband", "u2:sister", "u2:niece"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "A man's ___ is the woman he is married to.",
+          "fullSentence": "A man's wife is the woman he is married to.",
+          "translation": "男人的妻子就是他結婚的對象。",
+          "clue": "結婚對象中的女性",
+          "answerEntryId": "u2:wife",
+          "distractorEntryIds": ["u2:husband", "u2:mother", "u13:teacher"]
+        },
+        {
+          "sentence": "David loves his ___ very much; they got married two years ago.",
+          "fullSentence": "David loves his wife very much; they got married two years ago.",
+          "translation": "大衛很愛他的妻子，他們兩年前結婚。",
+          "clue": "結婚兩年、他深愛的女性配偶",
+          "answerEntryId": "u2:wife",
+          "distractorEntryIds": ["u2:mother", "u2:sister", "u13:friend"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Before leaving, the ___ kissed her husband goodbye at the station.",
+          "fullSentence": "Before leaving, the wife kissed her husband goodbye at the station.",
+          "translation": "出發前，妻子在車站吻別丈夫。",
+          "clue": "向丈夫道別的女性配偶",
+          "answerEntryId": "u2:wife",
+          "distractorEntryIds": ["u2:mother", "u2:sister", "u2:niece"]
+        },
+        {
+          "sentence": "He thanked his ___ for taking care of him when he was sick.",
+          "fullSentence": "He thanked his wife for taking care of him when he was sick.",
+          "translation": "他感謝妻子在他生病時照顧他。",
+          "clue": "照顧他的女性配偶",
+          "answerEntryId": "u2:wife",
+          "distractorEntryIds": ["u2:mother", "u2:sister", "u2:elder"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Because they married last month, everyone now calls Amy David's ___.",
+        "fullSentence": "Because they married last month, everyone now calls Amy David's wife.",
+        "translation": "因為他們上個月結婚，大家現在都稱艾米是大衛的妻子。",
+        "clue": "剛結婚、成為對方女性配偶",
+        "answerEntryId": "u2:wife",
+        "distractorEntryIds": ["u2:husband", "u2:sister", "u2:niece"]
+      }
+    }
+  ]
+}

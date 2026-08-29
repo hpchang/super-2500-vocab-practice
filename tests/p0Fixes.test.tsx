@@ -187,8 +187,8 @@ describe('HomeScreen 繼續學習 targeting (P0-2)', () => {
     await act(async () => {
       btn.click();
     });
-    // First practiceable unit's setup page.
-    expect(lastNav).toBe('/unit/11/setup');
+    // First practiceable unit's setup page (Unit 1 exists now, batch 2 landed).
+    expect(lastNav).toBe('/unit/1/setup');
 
     await act(async () => {
       root.unmount();

@@ -1,0 +1,1184 @@
+{
+  "schemaVersion": 1,
+  "unit": "5",
+  "entries": [
+    {
+      "entryId": "u5:appearance",
+      "zh": "外表；外觀",
+      "pos": "noun",
+      "example": "People often judge others by their appearance.",
+      "exampleZh": "人們常以外表來評斷他人。",
+      "spellingHint": "a-p-p-e-a-r-a-n-c-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "At the costume party, everyone hid their real ___ under a mask.",
+        "fullSentence": "At the costume party, everyone hid their real appearance under a mask.",
+        "translation": "在變裝派對上，每個人都用面具遮住自己真正的外表。",
+        "clue": "面具遮住的是人的外表",
+        "answerEntryId": "u5:appearance",
+        "distractorEntryIds": ["u18:height", "u18:weight", "u11:mirror"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ of the old building caught everyone's eye after it was repainted.",
+          "fullSentence": "The appearance of the old building caught everyone's eye after it was repainted.",
+          "translation": "老建築重新粉刷後，它的外觀吸引了大家的目光。",
+          "clue": "粉刷之後改變的是建築的外觀",
+          "answerEntryId": "u5:appearance",
+          "distractorEntryIds": ["u18:weight", "u11:mirror", "u18:pair"]
+        },
+        {
+          "sentence": "The ___ of the new shopping mall attracts many visitors every weekend.",
+          "fullSentence": "The appearance of the new shopping mall attracts many visitors every weekend.",
+          "translation": "新購物中心的外觀每個週末都吸引許多遊客。",
+          "clue": "讓人想參觀的是建築的外觀",
+          "answerEntryId": "u5:appearance",
+          "distractorEntryIds": ["u11:kitchen", "u18:pair", "u11:mirror"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The police asked her to describe the suspect's ___, including his clothes and face.",
+          "fullSentence": "The police asked her to describe the suspect's appearance, including his clothes and face.",
+          "translation": "警方請她描述嫌疑人的外表，包括他的衣著和長相。",
+          "clue": "包含衣著和長相的整體描述是外表",
+          "answerEntryId": "u5:appearance",
+          "distractorEntryIds": ["u18:height", "u18:weight", "u18:size"]
+        },
+        {
+          "sentence": "The actor changed his ___ completely with a wig, glasses, and a fake beard.",
+          "fullSentence": "The actor changed his appearance completely with a wig, glasses, and a fake beard.",
+          "translation": "那個演員用假髮、眼鏡和假鬍子徹底改變了自己的外表。",
+          "clue": "假髮和鬍子改變的是整體外表",
+          "answerEntryId": "u5:appearance",
+          "distractorEntryIds": ["u18:height", "u18:weight", "u18:pair"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Her ___ at the interview was neat and professional.",
+        "fullSentence": "Her appearance at the interview was neat and professional.",
+        "translation": "她面試時的外表整潔又有專業感。",
+        "clue": "面試時給人的整體觀感是外表",
+        "answerEntryId": "u5:appearance",
+        "distractorEntryIds": ["u18:shape", "u18:size", "u18:height"]
+      }
+    },
+    {
+      "entryId": "u5:chubby",
+      "zh": "圓胖的；豐滿的",
+      "pos": "adjective",
+      "example": "The chubby baby laughed and clapped his hands.",
+      "exampleZh": "那個圓胖的寶寶笑著拍手。",
+      "spellingHint": "c-h-u-b-b-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ baby with round cheeks smiled at everyone.",
+        "fullSentence": "The chubby baby with round cheeks smiled at everyone.",
+        "translation": "那個有著圓臉頰的圓胖寶寶對大家微笑。",
+        "clue": "圓圓的臉頰表示寶寶胖胖的",
+        "answerEntryId": "u5:chubby",
+        "distractorEntryIds": ["u5:skinny", "u5:slim", "u5:thin"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandma pinched the boy's ___ cheeks and gave him a cookie.",
+          "fullSentence": "Grandma pinched the boy's chubby cheeks and gave him a cookie.",
+          "translation": "奶奶捏了捏男孩圓胖的臉頰，給他一塊餅乾。",
+          "clue": "可以捏的肉肉臉頰是圓胖的",
+          "answerEntryId": "u5:chubby",
+          "distractorEntryIds": ["u5:tall", "u5:young", "u5:deaf"]
+        },
+        {
+          "sentence": "Babies with ___ arms look extra cute in summer clothes.",
+          "fullSentence": "Babies with chubby arms look extra cute in summer clothes.",
+          "translation": "手臂圓胖的寶寶穿夏裝看起來特別可愛。",
+          "clue": "蓮藕般的嬰兒手臂是圓胖的",
+          "answerEntryId": "u5:chubby",
+          "distractorEntryIds": ["u5:deaf", "u5:tall", "u5:young"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "After eating fried chicken every day for a month, he got ___.",
+          "fullSentence": "After eating fried chicken every day for a month, he got chubby.",
+          "translation": "連續一個月每天吃炸雞之後，他變圓胖了。",
+          "clue": "天天吃炸雞會變圓胖而不是變瘦",
+          "answerEntryId": "u5:chubby",
+          "distractorEntryIds": ["u5:thin", "u5:skinny", "u5:slim"]
+        },
+        {
+          "sentence": "The ___ toddler waddled across the room like a little penguin.",
+          "fullSentence": "The chubby toddler waddled across the room like a little penguin.",
+          "translation": "那個圓胖的學步兒像小企鵝一樣搖搖擺擺地走過房間。",
+          "clue": "像企鵝一樣搖搖晃晃的是圓胖的身形",
+          "answerEntryId": "u5:chubby",
+          "distractorEntryIds": ["u5:slender", "u5:under-weight", "u5:deaf"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Her ___ face and round shoulders made everyone call her a little doll.",
+        "fullSentence": "Her chubby face and round shoulders made everyone call her a little doll.",
+        "translation": "她圓胖的臉和渾圓的肩膀讓大家叫她小娃娃。",
+        "clue": "圓滾滾的臉和肩膀是圓胖的特徵",
+        "answerEntryId": "u5:chubby",
+        "distractorEntryIds": ["u5:over-weight", "u5:under-weight", "u5:skinny"]
+      }
+    },
+    {
+      "entryId": "u5:deaf",
+      "zh": "聽不見的；失聰的",
+      "pos": "adjective",
+      "example": "The deaf girl talks with her hands using sign language.",
+      "exampleZh": "那個失聰的女孩用手語交談。",
+      "spellingHint": "d-e-a-f",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "He has been ___ since birth, so he learned sign language early.",
+        "fullSentence": "He has been deaf since birth, so he learned sign language early.",
+        "translation": "他一出生就聽不見，所以很早就學會手語。",
+        "clue": "需要手語溝通是因為聽不見",
+        "answerEntryId": "u5:deaf",
+        "distractorEntryIds": ["u5:tall", "u5:ugly", "u5:fashionable"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The ___ boy wears hearing aids in both ears.",
+          "fullSentence": "The deaf boy wears hearing aids in both ears.",
+          "translation": "那個聽不見的男孩兩耳都戴著助聽器。",
+          "clue": "需要助聽器是因為聽不見",
+          "answerEntryId": "u5:deaf",
+          "distractorEntryIds": ["u5:young", "u5:thin", "u5:ugly"]
+        },
+        {
+          "sentence": "She reads the teacher's lips because she is ___.",
+          "fullSentence": "She reads the teacher's lips because she is deaf.",
+          "translation": "她讀老師的唇語，因為她聽不見。",
+          "clue": "讀唇語的人是聽不見的",
+          "answerEntryId": "u5:deaf",
+          "distractorEntryIds": ["u5:slim", "u5:fashionable", "u5:young"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The composer kept writing symphonies even after he became completely ___.",
+          "fullSentence": "The composer kept writing symphonies even after he became completely deaf.",
+          "translation": "那位作曲家即使完全失聰後仍持續創作交響曲。",
+          "clue": "貝多芬失聰仍創作的名故",
+          "answerEntryId": "u5:deaf",
+          "distractorEntryIds": ["u5:dumb", "u5:ugly", "u5:slim"]
+        },
+        {
+          "sentence": "Please face Grandpa and speak clearly — he is ___ in both ears.",
+          "fullSentence": "Please face Grandpa and speak clearly — he is deaf in both ears.",
+          "translation": "請面對爺爺並說清楚一點——他兩耳都聽不見。",
+          "clue": "要面對面說話表示他聽不見",
+          "answerEntryId": "u5:deaf",
+          "distractorEntryIds": ["u5:dumb", "u5:slim", "u5:ugly"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "She was born ___, so she has never heard her mother's voice.",
+        "fullSentence": "She was born deaf, so she has never heard her mother's voice.",
+        "translation": "她出生時就失聰，所以從沒聽過媽媽的聲音。",
+        "clue": "從沒聽過聲音表示是聽不見而非不能說話",
+        "answerEntryId": "u5:deaf",
+        "distractorEntryIds": ["u5:dumb", "u5:slender", "u5:over-weight"]
+      }
+    },
+    {
+      "entryId": "u5:dumb",
+      "zh": "啞的；說不出話的",
+      "pos": "adjective",
+      "example": "He was struck dumb with fear when he saw the snake.",
+      "exampleZh": "他看到那條蛇時嚇得說不出話來。",
+      "spellingHint": "d-u-m-b",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Fear left her ___ — she opened her mouth but no words came out.",
+        "fullSentence": "Fear left her dumb — she opened her mouth but no words came out.",
+        "translation": "恐懼讓她說不出話——她張開嘴卻一個字也說不出來。",
+        "clue": "張嘴卻發不出聲音是說不出話",
+        "answerEntryId": "u5:dumb",
+        "distractorEntryIds": ["u5:deaf", "u5:ugly", "u5:tall"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "The shock made him speechless; for a whole minute he stood ___.",
+          "fullSentence": "The shock made him speechless; for a whole minute he stood dumb.",
+          "translation": "那個震驚讓他說不出話；整整一分鐘他啞口無言地站著。",
+          "clue": "speechless（說不出話）就是啞的",
+          "answerEntryId": "u5:dumb",
+          "distractorEntryIds": ["u5:deaf", "u5:young", "u5:skinny"]
+        },
+        {
+          "sentence": "He is not deaf; he simply cannot speak because he was born ___.",
+          "fullSentence": "He is not deaf; he simply cannot speak because he was born dumb.",
+          "translation": "他不聾；他只是不能說話，因為他天生啞。",
+          "clue": "不能說話（而非聽不到）是啞",
+          "answerEntryId": "u5:dumb",
+          "distractorEntryIds": ["u5:tall", "u5:slim", "u5:over-weight"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The shocking news left the whole class ___ — nobody could say a word.",
+          "fullSentence": "The shocking news left the whole class dumb — nobody could say a word.",
+          "translation": "那個驚人的消息讓全班說不出話——沒有人能講出半個字。",
+          "clue": "沒人能說出話是啞口無言",
+          "answerEntryId": "u5:dumb",
+          "distractorEntryIds": ["u5:deaf", "u5:slim", "u5:fashionable"]
+        },
+        {
+          "sentence": "Too scared to speak, the little witness stood ___ before the judge.",
+          "fullSentence": "Too scared to speak, the little witness stood dumb before the judge.",
+          "translation": "小證人嚇得不敢說話，啞口無言地站在法官面前。",
+          "clue": "嚇得不敢說話所以說不出話",
+          "answerEntryId": "u5:dumb",
+          "distractorEntryIds": ["u5:deaf", "u5:young", "u5:over-weight"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "In the fairy tale, the mermaid traded her voice for legs and became ___, unable to sing again.",
+        "fullSentence": "In the fairy tale, the mermaid traded her voice for legs and became dumb, unable to sing again.",
+        "translation": "在童話裡，小美人魚用聲音換取雙腿，變得啞了，再也無法唱歌。",
+        "clue": "失去聲音不能唱是不能說話，不是聽不見",
+        "answerEntryId": "u5:dumb",
+        "distractorEntryIds": ["u5:deaf", "u5:slender", "u5:ugly"]
+      }
+    },
+    {
+      "entryId": "u5:fashionable",
+      "zh": "時髦的；流行的",
+      "pos": "adjective",
+      "example": "She always wears fashionable clothes to school.",
+      "exampleZh": "她總是穿著時髦的衣服上學。",
+      "spellingHint": "f-a-s-h-i-o-n-a-b-l-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Grandma may be seventy, but her wide-brim hat is very ___.",
+        "fullSentence": "Grandma may be seventy, but her wide-brim hat is very fashionable.",
+        "translation": "奶奶雖然七十歲了，但她那頂寬簷帽非常時髦。",
+        "clue": "跟得上流行的是帽子的款式",
+        "answerEntryId": "u5:fashionable",
+        "distractorEntryIds": ["u5:ugly", "u5:slim", "u5:young"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Those ___ sneakers were designed by a famous brand.",
+          "fullSentence": "Those fashionable sneakers were designed by a famous brand.",
+          "translation": "那雙時髦的球鞋是知名品牌設計的。",
+          "clue": "知名品牌設計的鞋很流行",
+          "answerEntryId": "u5:fashionable",
+          "distractorEntryIds": ["u5:ugly", "u5:deaf", "u5:skinny"]
+        },
+        {
+          "sentence": "This hairstyle is very ___ among teenagers this year.",
+          "fullSentence": "This hairstyle is very fashionable among teenagers this year.",
+          "translation": "這個髮型今年在青少年之間非常流行。",
+          "clue": "在青少年間盛行就是流行",
+          "answerEntryId": "u5:fashionable",
+          "distractorEntryIds": ["u5:ugly", "u5:young", "u5:tall"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The magazine shows the most ___ outfits for spring.",
+          "fullSentence": "The magazine shows the most fashionable outfits for spring.",
+          "translation": "雜誌展示了春天最時髦的穿搭。",
+          "clue": "雜誌介紹的是當季流行的穿搭",
+          "answerEntryId": "u5:fashionable",
+          "distractorEntryIds": ["u5:ugly", "u5:slender", "u5:over-weight"]
+        },
+        {
+          "sentence": "He spent all his pocket money on ___ sunglasses.",
+          "fullSentence": "He spent all his pocket money on fashionable sunglasses.",
+          "translation": "他把所有零用錢都花在時髦的太陽眼鏡上。",
+          "clue": "願意花零用錢買的是流行的款式",
+          "answerEntryId": "u5:fashionable",
+          "distractorEntryIds": ["u5:deaf", "u5:young", "u5:skinny"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Baggy pants are in this season, so they are the most ___ style on campus now.",
+        "fullSentence": "Baggy pants are in this season, so they are the most fashionable style on campus now.",
+        "translation": "寬褲這一季正流行，所以它們是現在校園裡最時髦的穿著。",
+        "clue": "正流行（are in）代表最時髦",
+        "answerEntryId": "u5:fashionable",
+        "distractorEntryIds": ["u5:ugly", "u5:slim", "u5:skinny"]
+      }
+    },
+    {
+      "entryId": "u5:figure",
+      "zh": "身材；體型",
+      "pos": "noun",
+      "example": "Swimming every week helps her keep a good figure.",
+      "exampleZh": "每週游泳幫助她保持好身材。",
+      "spellingHint": "f-i-g-u-r-e",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Doing exercise every day helps you keep a healthy ___.",
+        "fullSentence": "Doing exercise every day helps you keep a healthy figure.",
+        "translation": "每天運動幫助你保持健康的身材。",
+        "clue": "運動維持的是健康的身材",
+        "answerEntryId": "u5:figure",
+        "distractorEntryIds": ["u18:pair", "u11:mirror", "u13:glasses"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "She dances for an hour every day to keep her ___.",
+          "fullSentence": "She dances for an hour every day to keep her figure.",
+          "translation": "她每天跳舞一小時來保持身材。",
+          "clue": "跳舞是為了維持身材",
+          "answerEntryId": "u5:figure",
+          "distractorEntryIds": ["u11:mirror", "u13:glasses", "u18:pair"]
+        },
+        {
+          "sentence": "After months of swimming, his ___ looks stronger and straighter.",
+          "fullSentence": "After months of swimming, his figure looks stronger and straighter.",
+          "translation": "游了幾個月的泳之後，他的身材看起來更強壯挺拔。",
+          "clue": "游泳練出來的是身材",
+          "answerEntryId": "u5:figure",
+          "distractorEntryIds": ["u13:glasses", "u11:mirror", "u18:pair"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Yoga three times a week keeps her ___ slim and graceful.",
+          "fullSentence": "Yoga three times a week keeps her figure slim and graceful.",
+          "translation": "一週三次瑜珈讓她的身材保持苗條優雅。",
+          "clue": "能變得苗條優雅的是身材",
+          "answerEntryId": "u5:figure",
+          "distractorEntryIds": ["u18:weight", "u18:height", "u18:pair"]
+        },
+        {
+          "sentence": "The swimmer's strong ___ shows years of training.",
+          "fullSentence": "The swimmer's strong figure shows years of training.",
+          "translation": "那位泳者強健的身材展現了多年的訓練。",
+          "clue": "訓練多年練出的是強健的身材",
+          "answerEntryId": "u5:figure",
+          "distractorEntryIds": ["u11:mirror", "u13:glasses", "u18:pair"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "She watches her ___ carefully, so she never eats late at night.",
+        "fullSentence": "She watches her figure carefully, so she never eats late at night.",
+        "translation": "她很注意自己的身材，所以深夜從不進食。",
+        "clue": "為了身材才拒絕吃宵夜",
+        "answerEntryId": "u5:figure",
+        "distractorEntryIds": ["u18:height", "u11:mirror", "u13:glasses"]
+      }
+    },
+    {
+      "entryId": "u5:fit",
+      "zh": "適合；合身",
+      "pos": "verb",
+      "example": "These shoes fit me perfectly.",
+      "exampleZh": "這雙鞋子非常合我的腳。",
+      "spellingHint": "f-i-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "This T-shirt is too small — it doesn't ___ me anymore.",
+        "fullSentence": "This T-shirt is too small — it doesn't fit me anymore.",
+        "translation": "這件 T 恤太小了——已經不合我的身了。",
+        "clue": "衣服太小就是不合身",
+        "answerEntryId": "u5:fit",
+        "distractorEntryIds": ["u11:fix", "u11:build", "u13:describe"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I love these clothes because they can ___ me well.",
+          "fullSentence": "I love these clothes because they can fit me well.",
+          "translation": "我喜歡這些衣服，因為它們很合我身。",
+          "clue": "衣服「很合我」用 fit",
+          "answerEntryId": "u5:fit",
+          "distractorEntryIds": ["u11:clean", "u11:wash", "u11:build"]
+        },
+        {
+          "sentence": "Try the bigger size; the small one doesn't ___ you.",
+          "fullSentence": "Try the bigger size; the small one doesn't fit you.",
+          "translation": "試試大一號的；小號的不適合你。",
+          "clue": "尺寸不合就是不適合",
+          "answerEntryId": "u5:fit",
+          "distractorEntryIds": ["u11:lock", "u12:drive", "u13:describe"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The tailor adjusted the pants so they would ___ better.",
+          "fullSentence": "The tailor adjusted the pants so they would fit better.",
+          "translation": "裁縫修改了褲子，讓它們更合身。",
+          "clue": "裁縫修改是為了讓衣服合身",
+          "answerEntryId": "u5:fit",
+          "distractorEntryIds": ["u11:repair", "u11:build", "u12:arrive"]
+        },
+        {
+          "sentence": "Both jackets are too tight; neither one can ___ him.",
+          "fullSentence": "Both jackets are too tight; neither one can fit him.",
+          "translation": "兩件夾克都太緊了；沒有一件合他的身。",
+          "clue": "太緊的衣服就是不合身",
+          "answerEntryId": "u5:fit",
+          "distractorEntryIds": ["u11:fix", "u11:lock", "u11:wash"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The shop offers free changes so that every suit can ___ its owner exactly.",
+        "fullSentence": "The shop offers free changes so that every suit can fit its owner exactly.",
+        "translation": "這家店提供免費修改，讓每套西裝都能完全合主人的身。",
+        "clue": "修改的目的是讓西裝合身",
+        "answerEntryId": "u5:fit",
+        "distractorEntryIds": ["u11:fix", "u11:repair", "u11:decorate"]
+      }
+    },
+    {
+      "entryId": "u5:haircut",
+      "zh": "理髮；髮型",
+      "pos": "noun",
+      "example": "My brother got a haircut before the school photo day.",
+      "exampleZh": "我哥哥在學校拍畢業照前先去理了髮。",
+      "spellingHint": "h-a-i-r-c-u-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Your hair looks great — did you get a new ___?",
+        "fullSentence": "Your hair looks great — did you get a new haircut?",
+        "translation": "你的頭髮看起來很棒——你換了新髮型嗎？",
+        "clue": "頭髮變好看是因為剪了新髮型",
+        "answerEntryId": "u5:haircut",
+        "distractorEntryIds": ["u18:height", "u18:weight", "u11:mirror"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "I go to the barber every month to get a ___.",
+          "fullSentence": "I go to the barber every month to get a haircut.",
+          "translation": "我每個月去理髮廳剪頭髮。",
+          "clue": "去理髮廳是為了理髮",
+          "answerEntryId": "u5:haircut",
+          "distractorEntryIds": ["u11:bed", "u11:bathroom", "u18:pair"]
+        },
+        {
+          "sentence": "Mom says my new ___ makes me look like a movie star.",
+          "fullSentence": "Mom says my new haircut makes me look like a movie star.",
+          "translation": "媽媽說我的新髮型讓我看起來像電影明星。",
+          "clue": "讓人變帥的是新髮型",
+          "answerEntryId": "u5:haircut",
+          "distractorEntryIds": ["u11:bed", "u11:mirror", "u18:pair"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The barber gave the boy a short ___ for the hot summer.",
+          "fullSentence": "The barber gave the boy a short haircut for the hot summer.",
+          "translation": "為了炎熱的夏天，理髮師幫男孩剪了短髮型。",
+          "clue": "理髮師剪出來的是短髮型",
+          "answerEntryId": "u5:haircut",
+          "distractorEntryIds": ["u11:brush", "u18:shape", "u18:pair"]
+        },
+        {
+          "sentence": "She was nervous when the stylist started her ___.",
+          "fullSentence": "She was nervous when the stylist started her haircut.",
+          "translation": "設計師開始剪她的頭髮時，她很緊張。",
+          "clue": "設計師開始的是剪髮",
+          "answerEntryId": "u5:haircut",
+          "distractorEntryIds": ["u11:brush", "u18:height", "u18:weight"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "His ___ was so uneven that he wore a hat for a week.",
+        "fullSentence": "His haircut was so uneven that he wore a hat for a week.",
+        "translation": "他的髮型剪得太不整齊，所以他戴了一個星期的帽子。",
+        "clue": "剪壞了才需要用帽子遮",
+        "answerEntryId": "u5:haircut",
+        "distractorEntryIds": ["u11:brush", "u11:mirror", "u18:pair"]
+      }
+    },
+    {
+      "entryId": "u5:nice-looking",
+      "zh": "好看的；漂亮的",
+      "pos": "adjective",
+      "example": "That is a nice-looking backpack for school.",
+      "exampleZh": "那是一個好看的上學書包。",
+      "spellingHint": "n-i-c-e-l-o-o-k-i-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "What a ___ bike! Where did you buy it?",
+        "fullSentence": "What a nice-looking bike! Where did you buy it?",
+        "translation": "好漂亮的腳踏車！你在哪裡買的？",
+        "clue": "想問哪裡買表示覺得它好看",
+        "answerEntryId": "u5:nice-looking",
+        "distractorEntryIds": ["u5:slim", "u5:over-weight", "u5:young"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Your new haircut looks really ___.",
+          "fullSentence": "Your new haircut looks really nice-looking.",
+          "translation": "你的新髮型看起來真好看。",
+          "clue": "稱讚髮型好看",
+          "answerEntryId": "u5:nice-looking",
+          "distractorEntryIds": ["u5:deaf", "u5:skinny", "u5:over-weight"]
+        },
+        {
+          "sentence": "The bride wore a ___ white dress and smiled all day.",
+          "fullSentence": "The bride wore a nice-looking white dress and smiled all day.",
+          "translation": "新娘穿著一襲漂亮的白紗禮服，整天笑瞇瞇。",
+          "clue": "新娘的婚紗是漂亮的",
+          "answerEntryId": "u5:nice-looking",
+          "distractorEntryIds": ["u5:deaf", "u5:tall", "u5:under-weight"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The garden is full of ___ flowers in spring.",
+          "fullSentence": "The garden is full of nice-looking flowers in spring.",
+          "translation": "春天花園裡開滿了漂亮的花。",
+          "clue": "春天盛開的花很好看",
+          "answerEntryId": "u5:nice-looking",
+          "distractorEntryIds": ["u5:slim", "u5:over-weight", "u5:deaf"]
+        },
+        {
+          "sentence": "Everyone agreed the cover design was simple but ___.",
+          "fullSentence": "Everyone agreed the cover design was simple but nice-looking.",
+          "translation": "大家都同意這個封面設計簡單但好看。",
+          "clue": "簡單卻討人喜歡的設計是好看",
+          "answerEntryId": "u5:nice-looking",
+          "distractorEntryIds": ["u5:slim", "u5:young", "u5:deaf"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Compared with the old gray uniform, the bright new one is far more ___.",
+        "fullSentence": "Compared with the old gray uniform, the bright new one is far more nice-looking.",
+        "translation": "和舊的灰色制服相比，亮色的新制服好看多了。",
+        "clue": "亮色新衣比灰色舊衣更好看",
+        "answerEntryId": "u5:nice-looking",
+        "distractorEntryIds": ["u5:slender", "u5:over-weight", "u5:deaf"]
+      }
+    },
+    {
+      "entryId": "u5:over-weight",
+      "zh": "過重的；超重的",
+      "pos": "adjective",
+      "example": "Eating fast food every day made him over-weight.",
+      "exampleZh": "每天吃速食使他過重了。",
+      "spellingHint": "o-v-e-r-w-e-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The doctor said he is ___ and should eat fewer snacks.",
+        "fullSentence": "The doctor said he is over-weight and should eat fewer snacks.",
+        "translation": "醫生說他體重過重，應該少吃點心。",
+        "clue": "要少吃點心是因為體重過重",
+        "answerEntryId": "u5:over-weight",
+        "distractorEntryIds": ["u5:under-weight", "u5:slim", "u5:skinny"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "He is ___ because he eats hamburgers and fries every day.",
+          "fullSentence": "He is over-weight because he eats hamburgers and fries every day.",
+          "translation": "他體重過重，因為他每天吃漢堡和薯條。",
+          "clue": "天天吃速食容易變過重",
+          "answerEntryId": "u5:over-weight",
+          "distractorEntryIds": ["u5:deaf", "u5:slender", "u5:dumb"]
+        },
+        {
+          "sentence": "Too many sweets and no exercise made the dog ___.",
+          "fullSentence": "Too many sweets and no exercise made the dog over-weight.",
+          "translation": "太多甜食又完全不運動，讓那隻狗過重了。",
+          "clue": "吃多不動會讓體重過重",
+          "answerEntryId": "u5:over-weight",
+          "distractorEntryIds": ["u5:deaf", "u5:fashionable", "u5:slender"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The coach asked him to eat less sugar because he was ___.",
+          "fullSentence": "The coach asked him to eat less sugar because he was over-weight.",
+          "translation": "教練叫他少吃糖，因為他體重過重。",
+          "clue": "被要求少吃是因為過重",
+          "answerEntryId": "u5:over-weight",
+          "distractorEntryIds": ["u5:under-weight", "u5:slender", "u5:skinny"]
+        },
+        {
+          "sentence": "Weighing ninety kilograms at age ten, the boy was clearly ___.",
+          "fullSentence": "Weighing ninety kilograms at age ten, the boy was clearly over-weight.",
+          "translation": "十歲就重達九十公斤，那個男孩明顯過重。",
+          "clue": "九十公斤對十歲孩子來說是過重",
+          "answerEntryId": "u5:over-weight",
+          "distractorEntryIds": ["u5:under-weight", "u5:tall", "u5:deaf"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The boxer moved up to a heavier class because he is ___ for the light one.",
+        "fullSentence": "The boxer moved up to a heavier class because he is over-weight for the light one.",
+        "translation": "那個拳擊手升到較重的量級，因為他對輕量級來說過重了。",
+        "clue": "要升到更重的量級表示原本過重",
+        "answerEntryId": "u5:over-weight",
+        "distractorEntryIds": ["u5:under-weight", "u5:skinny", "u5:slender"]
+      }
+    },
+    {
+      "entryId": "u5:skinny",
+      "zh": "皮包骨的；極瘦的",
+      "pos": "adjective",
+      "example": "The skinny cat was rescued and fed until healthy.",
+      "exampleZh": "那隻皮包骨的貓被救援後餵養到恢復健康。",
+      "spellingHint": "s-k-i-n-n-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "After weeks with almost no food, the lost hikers were weak and ___.",
+        "fullSentence": "After weeks with almost no food, the lost hikers were weak and skinny.",
+        "translation": "幾乎沒有東西吃了好幾週之後，迷路的登山客變得虛弱又皮包骨。",
+        "clue": "長期沒吃東西會瘦到皮包骨",
+        "answerEntryId": "u5:skinny",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:fashionable"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "My arms are so ___ that even this light bag feels heavy.",
+          "fullSentence": "My arms are so skinny that even this light bag feels heavy.",
+          "translation": "我的手臂瘦得連這個輕袋子都覺得重。",
+          "clue": "沒力氣提輕物表示手臂極瘦",
+          "answerEntryId": "u5:skinny",
+          "distractorEntryIds": ["u5:deaf", "u5:fashionable", "u5:tall"]
+        },
+        {
+          "sentence": "A ___ little monkey hung from the branch by one arm.",
+          "fullSentence": "A skinny little monkey hung from the branch by one arm.",
+          "translation": "一隻瘦小的猴子用一隻手臂掛在樹枝上。",
+          "clue": "用單臂吊掛的瘦小身形是皮包骨",
+          "answerEntryId": "u5:skinny",
+          "distractorEntryIds": ["u5:deaf", "u5:fashionable", "u5:tall"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The doctor asked the ___ boy to eat more rice and meat every day.",
+          "fullSentence": "The doctor asked the skinny boy to eat more rice and meat every day.",
+          "translation": "醫生要那個皮包骨的男孩每天多吃飯和肉。",
+          "clue": "要多吃是因為太瘦",
+          "answerEntryId": "u5:skinny",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:slender"]
+        },
+        {
+          "sentence": "Her wrists are so ___ that the watch slides right off.",
+          "fullSentence": "Her wrists are so skinny that the watch slides right off.",
+          "translation": "她的手腕瘦到手錶直接滑落。",
+          "clue": "手錶會滑落表示手腕極瘦",
+          "answerEntryId": "u5:skinny",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The ___ prisoner's cheeks were hollow and his ribs showed after months in the dark cell.",
+        "fullSentence": "The skinny prisoner's cheeks were hollow and his ribs showed after months in the dark cell.",
+        "translation": "在黑暗牢房裡待了幾個月後，那個皮包骨的囚犯兩頰凹陷、肋骨突出。",
+        "clue": "兩頰凹陷、肋骨可見是極瘦",
+        "answerEntryId": "u5:skinny",
+        "distractorEntryIds": ["u5:slim", "u5:slender", "u5:chubby"]
+      }
+    },
+    {
+      "entryId": "u5:slender",
+      "zh": "纖細的；修長的",
+      "pos": "adjective",
+      "example": "The ballet dancer has a slender body.",
+      "exampleZh": "那位芭蕾舞者有著纖細的身材。",
+      "spellingHint": "s-l-e-n-d-e-r",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ___ dancer moved gracefully across the stage.",
+        "fullSentence": "The slender dancer moved gracefully across the stage.",
+        "translation": "那位纖細的舞者優雅地移過舞台。",
+        "clue": "舞者的體態是纖細的",
+        "answerEntryId": "u5:slender",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:deaf"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Her ___ fingers moved quickly and lightly over the piano keys.",
+          "fullSentence": "Her slender fingers moved quickly and lightly over the piano keys.",
+          "translation": "她纖細的手指輕快地滑過琴鍵。",
+          "clue": "輕巧靈活的手指是纖細的",
+          "answerEntryId": "u5:slender",
+          "distractorEntryIds": ["u5:over-weight", "u5:deaf", "u5:ugly"]
+        },
+        {
+          "sentence": "The deer's long ___ legs let it run very fast.",
+          "fullSentence": "The deer's long slender legs let it run very fast.",
+          "translation": "那隻鹿修長纖細的腿讓牠跑得非常快。",
+          "clue": "又長又細的腿是纖細修長",
+          "answerEntryId": "u5:slender",
+          "distractorEntryIds": ["u5:chubby", "u5:deaf", "u5:over-weight"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Her ___ waist makes the long dress look elegant.",
+          "fullSentence": "Her slender waist makes the long dress look elegant.",
+          "translation": "她纖細的腰身讓這件長禮服看起來很優雅。",
+          "clue": "能讓長禮服顯優雅的是纖細腰身",
+          "answerEntryId": "u5:slender",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+        },
+        {
+          "sentence": "The ballet teacher has a ___ body from years of practice.",
+          "fullSentence": "The ballet teacher has a slender body from years of practice.",
+          "translation": "那位芭蕾老師因多年練習而有纖細的身材。",
+          "clue": "多年舞蹈練習練出纖細體態",
+          "answerEntryId": "u5:slender",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:young"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The princess in the painting has a ___ waist that looks almost too thin to be real.",
+        "fullSentence": "The princess in the painting has a slender waist that looks almost too thin to be real.",
+        "translation": "畫中的公主有著纖細的腰，瘦得幾乎不像真的。",
+        "clue": "畫中優雅的細腰是纖細的",
+        "answerEntryId": "u5:slender",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+      }
+    },
+    {
+      "entryId": "u5:slim",
+      "zh": "苗條的；纖瘦的",
+      "pos": "adjective",
+      "example": "My aunt stays slim by walking every morning.",
+      "exampleZh": "我阿姨每天早上散步來保持苗條。",
+      "spellingHint": "s-l-i-m",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "She hopes to get ___ before summer by jogging every day.",
+        "fullSentence": "She hopes to get slim before summer by jogging every day.",
+        "translation": "她希望藉著每天慢跑在夏天來臨前變苗條。",
+        "clue": "每天慢跑是為了變苗條",
+        "answerEntryId": "u5:slim",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Eating more vegetables and less junk food keeps you healthy and ___.",
+          "fullSentence": "Eating more vegetables and less junk food keeps you healthy and slim.",
+          "translation": "多吃蔬菜、少吃垃圾食物能讓你健康又苗條。",
+          "clue": "健康飲食讓身材苗條",
+          "answerEntryId": "u5:slim",
+          "distractorEntryIds": ["u5:over-weight", "u5:deaf", "u5:ugly"]
+        },
+        {
+          "sentence": "My grandma is seventy but still ___ because she walks every morning.",
+          "fullSentence": "My grandma is seventy but still slim because she walks every morning.",
+          "translation": "我奶奶七十歲了依然苗條，因為她每天早上散步。",
+          "clue": "天天散步維持苗條",
+          "answerEntryId": "u5:slim",
+          "distractorEntryIds": ["u5:deaf", "u5:ugly", "u5:over-weight"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "After three months of swimming, Tom's waist became ___.",
+          "fullSentence": "After three months of swimming, Tom's waist became slim.",
+          "translation": "游了三個月的泳之後，湯姆的腰變細了。",
+          "clue": "長期游泳讓腰圍變細",
+          "answerEntryId": "u5:slim",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+        },
+        {
+          "sentence": "The bride looked ___ and beautiful in her simple white dress after months of yoga.",
+          "fullSentence": "The bride looked slim and beautiful in her simple white dress after months of yoga.",
+          "translation": "做了幾個月瑜珈之後，新娘穿著簡約白紗看起來苗條又美麗。",
+          "clue": "練瑜珈後穿婚紗顯得苗條",
+          "answerEntryId": "u5:slim",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:under-weight"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Though he eats a lot, he stays ___ because he swims every day.",
+        "fullSentence": "Though he eats a lot, he stays slim because he swims every day.",
+        "translation": "雖然他吃很多，但因為天天游泳，他依然保持苗條。",
+        "clue": "吃多卻不胖是因為運動保持苗條",
+        "answerEntryId": "u5:slim",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:skinny"]
+      }
+    },
+    {
+      "entryId": "u5:tall",
+      "zh": "高的",
+      "pos": "adjective",
+      "example": "My father is tall enough to touch the top of the door.",
+      "exampleZh": "我爸爸高得能碰到門的上緣。",
+      "spellingHint": "t-a-l-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The basketball player is almost two meters ___.",
+        "fullSentence": "The basketball player is almost two meters tall.",
+        "translation": "那位籃球選身高接近兩公尺。",
+        "clue": "兩公尺描述的是身高",
+        "answerEntryId": "u5:tall",
+        "distractorEntryIds": ["u5:young", "u5:thin", "u5:ugly"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Giraffes are very ___ animals with long necks.",
+          "fullSentence": "Giraffes are very tall animals with long necks.",
+          "translation": "長頸鹿是有著長脖子的高大動物。",
+          "clue": "長脖子讓長頸鹿很高",
+          "answerEntryId": "u5:tall",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:young"]
+        },
+        {
+          "sentence": "The ___ boy in the back row can see over everyone's heads.",
+          "fullSentence": "The tall boy in the back row can see over everyone's heads.",
+          "translation": "後排那個高個子男孩能越過大家的頭看過去。",
+          "clue": "能越過眾人的頭看是因為個子高",
+          "answerEntryId": "u5:tall",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:skinny"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "You must be over 120 centimeters ___ to ride the roller coaster.",
+          "fullSentence": "You must be over 120 centimeters tall to ride the roller coaster.",
+          "translation": "你必須身高超過一二○公分才能搭雲霄飛車。",
+          "clue": "一二○公分是身高限制",
+          "answerEntryId": "u5:tall",
+          "distractorEntryIds": ["u5:young", "u5:thin", "u5:slim"]
+        },
+        {
+          "sentence": "The sunflower grew ___ enough to peek over the garden fence.",
+          "fullSentence": "The sunflower grew tall enough to peek over the garden fence.",
+          "translation": "那株向日葵長得夠高，能探出花園圍籬外。",
+          "clue": "能越過圍籬是因為長得高",
+          "answerEntryId": "u5:tall",
+          "distractorEntryIds": ["u5:thin", "u5:young", "u5:slim"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "He can pick apples from the highest branch because he is so ___.",
+        "fullSentence": "He can pick apples from the highest branch because he is so tall.",
+        "clue": "能採到最高處的蘋果是因為身高高",
+        "translation": "他能摘到最高枝上的蘋果，因為他個子很高。",
+        "answerEntryId": "u5:tall",
+        "distractorEntryIds": ["u5:thin", "u5:young", "u5:skinny"]
+      }
+    },
+    {
+      "entryId": "u5:thin",
+      "zh": "瘦的；薄的",
+      "pos": "adjective",
+      "example": "She wore a thin jacket in the warm weather.",
+      "exampleZh": "天氣暖和，她穿了一件薄外套。",
+      "spellingHint": "t-h-i-n",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The ice on the lake is too ___ to walk on.",
+        "fullSentence": "The ice on the lake is too thin to walk on.",
+        "translation": "湖面上的冰太薄了，不能在上行走。",
+        "clue": "不能踩的冰是太薄的冰",
+        "answerEntryId": "u5:thin",
+        "distractorEntryIds": ["u5:skinny", "u5:slim", "u5:slender"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa has grown ___ since he started running marathons.",
+          "fullSentence": "Grandpa has grown thin since he started running marathons.",
+          "translation": "自從開始跑馬拉松，爺爺變瘦了。",
+          "clue": "長跑讓人變瘦",
+          "answerEntryId": "u5:thin",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:deaf"]
+        },
+        {
+          "sentence": "She cut the cake into ___ slices so everyone could have one.",
+          "fullSentence": "She cut the cake into thin slices so everyone could have one.",
+          "translation": "她把蛋糕切成薄片，讓每個人都能分到一塊。",
+          "clue": "要讓大家都有得吃就切薄片",
+          "answerEntryId": "u5:thin",
+          "distractorEntryIds": ["u5:deaf", "u5:tall", "u5:young"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "He is tall but very ___ because he hardly eats any meat.",
+          "fullSentence": "He is tall but very thin because he hardly eats any meat.",
+          "translation": "他很高但很瘦，因為他幾乎不吃肉。",
+          "clue": "吃得少所以瘦",
+          "answerEntryId": "u5:thin",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:fashionable"]
+        },
+        {
+          "sentence": "Wrap the gift in ___ paper so it is easy to fold.",
+          "fullSentence": "Wrap the gift in thin paper so it is easy to fold.",
+          "translation": "用薄紙包禮物，這樣容易摺。",
+          "clue": "容易摺的是薄紙",
+          "answerEntryId": "u5:thin",
+          "distractorEntryIds": ["u5:slim", "u5:skinny", "u5:young"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Only the ___ kitten could squeeze through the fence gap; the others all got stuck.",
+        "fullSentence": "Only the thin kitten could squeeze through the fence gap; the others all got stuck.",
+        "translation": "只有那隻瘦小貓能擠過圍籬縫隙；其他的都卡住了。",
+        "clue": "能擠過窄縫的必須是瘦的",
+        "answerEntryId": "u5:thin",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:fashionable"]
+      }
+    },
+    {
+      "entryId": "u5:ugly",
+      "zh": "醜的；難看的",
+      "pos": "adjective",
+      "example": "The ugly duckling grew into a beautiful swan.",
+      "exampleZh": "那隻醜小鴨長成了美麗的天鵝。",
+      "spellingHint": "u-g-l-y",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The witch in the story has an ___ nose with a wart on it.",
+        "fullSentence": "The witch in the story has an ugly nose with a wart on it.",
+        "translation": "故事裡的巫婆有一個長著疣的醜鼻子。",
+        "clue": "長疣的鼻子讓人覺得醜",
+        "answerEntryId": "u5:ugly",
+        "distractorEntryIds": ["u5:over-weight", "u5:deaf", "u5:under-weight"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Nobody wanted the ___ broken chair, so we put it outside.",
+          "fullSentence": "Nobody wanted the ugly broken chair, so we put it outside.",
+          "translation": "沒有人要那把又醜又壞的椅子，所以我們把它放到外面。",
+          "clue": "沒人想要的舊椅子是難看的",
+          "answerEntryId": "u5:ugly",
+          "distractorEntryIds": ["u5:young", "u5:tall", "u5:deaf"]
+        },
+        {
+          "sentence": "The monster mask looked so ___ that the little girl started to cry.",
+          "fullSentence": "The monster mask looked so ugly that the little girl started to cry.",
+          "translation": "那個怪獸面具看起來好醜，小女孩都哭了。",
+          "clue": "嚇哭小孩的面具是醜的",
+          "answerEntryId": "u5:ugly",
+          "distractorEntryIds": ["u5:deaf", "u5:slender", "u5:tall"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Polluted water gives the river an ___ smell and color.",
+          "fullSentence": "Polluted water gives the river an ugly smell and color.",
+          "translation": "受污染的水讓這條河散發難聞的氣味、呈現難看的顏色。",
+          "clue": "污染讓河的氣味與顏色變得難看",
+          "answerEntryId": "u5:ugly",
+          "distractorEntryIds": ["u5:slender", "u5:young", "u5:deaf"]
+        },
+        {
+          "sentence": "Rude words can make a friendly conversation turn ___.",
+          "fullSentence": "Rude words can make a friendly conversation turn ugly.",
+          "translation": "粗魯的話會讓友好的對話變得難看（火爆）。",
+          "clue": "對話失控變糟用 turn ugly",
+          "answerEntryId": "u5:ugly",
+          "distractorEntryIds": ["u5:slim", "u5:over-weight", "u5:young"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The troll's ___ grin frightened the travelers on the bridge.",
+        "fullSentence": "The troll's ugly grin frightened the travelers on the bridge.",
+        "translation": "橋上妖怪醜陋的咧嘴笑嚇壞了旅人。",
+        "clue": "嚇人的咧嘴笑是醜陋的",
+        "answerEntryId": "u5:ugly",
+        "distractorEntryIds": ["u5:slender", "u5:deaf", "u5:young"]
+      }
+    },
+    {
+      "entryId": "u5:under-weight",
+      "zh": "過輕的；體重不足的",
+      "pos": "adjective",
+      "example": "The under-weight puppy needed special milk to grow.",
+      "exampleZh": "那隻體重過輕的小狗需要特殊奶粉才能長大。",
+      "spellingHint": "u-n-d-e-r-w-e-i-g-h-t",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "The nurse said the baby is ___ for her age and needs more milk.",
+        "fullSentence": "The nurse said the baby is under-weight for her age and needs more milk.",
+        "translation": "護理師說這個寶寶以她的年齡來說體重過輕，需要多喝奶。",
+        "clue": "要多喝奶是因為體重不足",
+        "answerEntryId": "u5:under-weight",
+        "distractorEntryIds": ["u5:over-weight", "u5:tall", "u5:fashionable"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Being ___ can be just as unhealthy as being too heavy.",
+          "fullSentence": "Being under-weight can be just as unhealthy as being too heavy.",
+          "translation": "體重過輕和過重一樣不健康。",
+          "clue": "too heavy（過重）的相反是過輕",
+          "answerEntryId": "u5:under-weight",
+          "distractorEntryIds": ["u5:deaf", "u5:young", "u5:fashionable"]
+        },
+        {
+          "sentence": "The lifeguard weighed every camper and found that two were ___.",
+          "fullSentence": "The lifeguard weighed every camper and found that two were under-weight.",
+          "translation": "救生員幫每位營隊學員量體重，發現有兩人體重過輕。",
+          "clue": "量體重後發現的是體重不足",
+          "answerEntryId": "u5:under-weight",
+          "distractorEntryIds": ["u5:deaf", "u5:fashionable", "u5:ugly"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "Because the puppy is ___, the vet gave it special high-calorie food.",
+          "fullSentence": "Because the puppy is under-weight, the vet gave it special high-calorie food.",
+          "translation": "因為小狗體重過輕，獸醫給牠特殊的高熱量食物。",
+          "clue": "需要高熱量食物是因為體重不足",
+          "answerEntryId": "u5:under-weight",
+          "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:fashionable"]
+        },
+        {
+          "sentence": "The newborn was ___ and needed feedings every two hours.",
+          "fullSentence": "The newborn was under-weight and needed feedings every two hours.",
+          "translation": "那個新生兒體重不足，需要每兩小時餵一次奶。",
+          "clue": "需要密集餵奶是因為體重不足",
+          "answerEntryId": "u5:under-weight",
+          "distractorEntryIds": ["u5:over-weight", "u5:tall", "u5:deaf"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "The coach put him in the lightest weight class because he is ___ compared with the other boxers.",
+        "fullSentence": "The coach put him in the lightest weight class because he is under-weight compared with the other boxers.",
+        "translation": "教練把他分到最輕量級，因為和其他拳擊手相比他體重過輕。",
+        "clue": "被分到最輕量級表示體重不足",
+        "answerEntryId": "u5:under-weight",
+        "distractorEntryIds": ["u5:over-weight", "u5:chubby", "u5:tall"]
+      }
+    },
+    {
+      "entryId": "u5:young",
+      "zh": "年輕的；幼小的",
+      "pos": "adjective",
+      "example": "The young teacher plays basketball with us after class.",
+      "exampleZh": "那位年輕的老師下課後和我們一起打籃球。",
+      "spellingHint": "y-o-u-n-g",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "My grandmother is seventy, but she feels ___ at heart.",
+        "fullSentence": "My grandmother is seventy, but she feels young at heart.",
+        "translation": "我奶奶七十歲了，但她的心依然年輕。",
+        "clue": "七十歲但心境依然年輕",
+        "answerEntryId": "u5:young",
+        "distractorEntryIds": ["u5:tall", "u5:deaf", "u5:ugly"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Mom carries my ___ brother on her back because he is only two years old.",
+          "fullSentence": "Mom carries my young brother on her back because he is only two years old.",
+          "translation": "媽媽背著我年幼的弟弟，因為他才兩歲。",
+          "clue": "才兩歲的弟弟是年幼的",
+          "answerEntryId": "u5:young",
+          "distractorEntryIds": ["u5:deaf", "u5:ugly", "u5:tall"]
+        },
+        {
+          "sentence": "Puppies and kittens are very ___ and need gentle care.",
+          "fullSentence": "Puppies and kittens are very young and need gentle care.",
+          "translation": "小狗和小貓非常幼小，需要溫柔的照顧。",
+          "clue": "需要細心照顧的小動物是幼小的",
+          "answerEntryId": "u5:young",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:tall"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The ___ lady over there is my grandmother, yet people often mistake her for my aunt.",
+          "fullSentence": "The young lady over there is my grandmother, yet people often mistake her for my aunt.",
+          "translation": "那邊那位年輕的女士是我奶奶，可是大家常把她誤認成我阿姨。",
+          "clue": "被誤認成阿姨表示看起來年輕",
+          "answerEntryId": "u5:young",
+          "distractorEntryIds": ["u5:deaf", "u5:ugly", "u5:tall"]
+        },
+        {
+          "sentence": "The ___ leaves of spring are light green and soft.",
+          "fullSentence": "The young leaves of spring are light green and soft.",
+          "translation": "春天剛長出的嫩葉是淺綠色而且柔軟的。",
+          "clue": "剛長出的葉子是嫩葉",
+          "answerEntryId": "u5:young",
+          "distractorEntryIds": ["u5:deaf", "u5:slim", "u5:ugly"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "In the old photo, Grandpa looks ___ because his hair was still black then.",
+        "fullSentence": "In the old photo, Grandpa looks young because his hair was still black then.",
+        "translation": "在舊照片裡，爺爺看起來很年輕，因為那時他的頭髮還是黑的。",
+        "clue": "頭髮還黑的時候人顯得年輕",
+        "answerEntryId": "u5:young",
+        "distractorEntryIds": ["u5:slim", "u5:tall", "u5:skinny"]
+      }
+    },
+    {
+      "entryId": "u5:youthful",
+      "zh": "有青春活力的；顯得年輕的",
+      "pos": "adjective",
+      "example": "My grandfather has a youthful spirit and learns new things every day.",
+      "exampleZh": "我爺爺有著年輕的精神，每天學新事物。",
+      "spellingHint": "y-o-u-t-h-f-u-l",
+      "status": "reviewed",
+      "source": "人工編寫",
+      "cloze": {
+        "sentence": "Regular exercise and a good mood keep her face ___.",
+        "fullSentence": "Regular exercise and a good mood keep her face youthful.",
+        "translation": "規律運動和好心情讓她的臉保持年輕有活力。",
+        "clue": "運動和好心情讓臉顯得年輕有活力",
+        "answerEntryId": "u5:youthful",
+        "distractorEntryIds": ["u5:over-weight", "u5:slender", "u5:ugly"]
+      },
+      "clozeEasy": [
+        {
+          "sentence": "Grandpa's ___ energy surprises everyone at the park.",
+          "fullSentence": "Grandpa's youthful energy surprises everyone at the park.",
+          "translation": "爺爺充滿青春活力的模樣讓公園裡的每個人都驚訝。",
+          "clue": "高齡卻活力充沛是青春活力",
+          "answerEntryId": "u5:youthful",
+          "distractorEntryIds": ["u5:deaf", "u5:tall", "u5:ugly"]
+        },
+        {
+          "sentence": "She has a ___ way of dressing, full of bright colors and fun patterns.",
+          "fullSentence": "She has a youthful way of dressing, full of bright colors and fun patterns.",
+          "translation": "她的穿搭很有青春氣息，充滿明亮色彩和有趣圖案。",
+          "clue": "明亮有趣的穿搭顯得年輕有活力",
+          "answerEntryId": "u5:youthful",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:tall"]
+        }
+      ],
+      "clozeMedium": [
+        {
+          "sentence": "The actor's ___ looks make him popular with teenage fans.",
+          "fullSentence": "The actor's youthful looks make him popular with teenage fans.",
+          "translation": "那位演員顯得年輕的外表讓他深受青少年粉絲歡迎。",
+          "clue": "受青少年歡迎的是顯得年輕的長相",
+          "answerEntryId": "u5:youthful",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:ugly"]
+        },
+        {
+          "sentence": "Her ___ smile made the tired travelers feel welcome.",
+          "fullSentence": "Her youthful smile made the tired travelers feel welcome.",
+          "translation": "她充滿青春活力的笑容讓疲憊的旅人感到溫暖。",
+          "clue": "充滿活力的笑容是青春的",
+          "answerEntryId": "u5:youthful",
+          "distractorEntryIds": ["u5:deaf", "u5:over-weight", "u5:slender"]
+        }
+      ],
+      "clozeHard": {
+        "sentence": "Even at eighty, Grandma keeps a ___ curiosity about new technology.",
+        "fullSentence": "Even at eighty, Grandma keeps a youthful curiosity about new technology.",
+        "translation": "即使八十歲了，奶奶對新科技仍保持年輕般的好奇心。",
+        "clue": "高齡仍有的好奇心像年輕人一樣",
+        "answerEntryId": "u5:youthful",
+        "distractorEntryIds": ["u5:young", "u5:tall", "u5:over-weight"]
+      }
+    }
+  ]
+}
