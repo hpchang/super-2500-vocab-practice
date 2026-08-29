@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { getPrefs } from '@/prefs';
-import { loadSession, saveResult } from '@/session';
+import { loadSession, saveSession, saveResult } from '@/session';
 import type { SessionConfig } from '@/session';
 import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
 import { buildSession, buildClozeSession } from '@/lib/questions';
@@ -71,12 +71,30 @@ export function PracticeScreen({
 }: {
   navigate: (to: string) => void;
 }) {
-  const session = loadSession();
   // Resume (P2-1): a valid checkpoint restores the exact in-flight session —
   // locked question list, position, partial results — after a refresh or a
   // closed tab. The questions come from the checkpoint itself (not rebuilt),
   // so the presented questions are identical to the ones the student saw.
-  const restored = loadCheckpoint();
+  // The checkpoint is only usable when it belongs to the live session: when
+  // this tab already started a DIFFERENT session, the stored questions are
+  // stale and must not leak into the new session (P1 review 2026-08-29).
+  // When sessionStorage is empty (closed tab), the checkpoint's own session
+  // config revives the session so the resume actually works.
+  let restored = loadCheckpoint();
+  let session = loadSession();
+  if (restored && !session) {
+    // Closed-tab case: restore the session recorded in the checkpoint.
+    saveSession(restored.session);
+    session = restored.session;
+  } else if (
+    restored &&
+    session &&
+    JSON.stringify(session) !== JSON.stringify(restored.session)
+  ) {
+    // This tab moved on to a different session — the checkpoint is stale.
+    clearCheckpoint();
+    restored = null;
+  }
   const [index, setIndex] = useState(restored ? restored.index : 0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [spellInput, setSpellInput] = useState('');

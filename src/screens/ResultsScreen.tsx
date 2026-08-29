@@ -4,6 +4,7 @@ import { getEntry, getEnrichedEntry } from '@/lib/data';
 import { loadHistory, historyDailySeries } from '@/lib/history';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
+import { clearCheckpoint } from '@/lib/checkpoint';
 
 export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) {
   const result = loadResult();
@@ -37,6 +38,8 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       type: 'mixed',
       batchSize: 20,
     });
+    // A new session invalidates any in-flight checkpoint (P1 review 2026-08-29).
+    clearCheckpoint();
     navigate('/practice');
   };
 

@@ -3,6 +3,7 @@ import { wrongQueueEntries } from '@/lib/scheduler';
 import { getEntry, getEnrichedEntry } from '@/lib/data';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
+import { clearCheckpoint } from '@/lib/checkpoint';
 import type { QuestionType } from '@/types/index';
 
 export function WrongAnswersScreen({
@@ -31,6 +32,11 @@ export function WrongAnswersScreen({
       type: 'mixed',
       batchSize: 20,
     });
+    // Starting a new session invalidates any in-flight checkpoint — a stale
+    // one would otherwise restore unrelated questions into this session
+    // (P1 review 2026-08-29). PracticeScreen does the matching check too,
+    // but clearing here keeps checkpoint state consistent at the source.
+    clearCheckpoint();
     navigate('/practice');
   };
 
