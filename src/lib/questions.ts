@@ -36,14 +36,13 @@ export interface Question {
   clozeVariant?: number;
 }
 
-const SHUFFLE_SEED_STEPS = 17;
-
 /** Deterministic pseudo-shuffle so the same batch is stable per session index. */
 function shuffle<T>(arr: T[], seed: number): T[] {
   const out = arr.slice();
-  let s = (seed * 2654435761) >>> 0;
+  // Keep multiplication in exact 32-bit arithmetic so low bits stay random.
+  let s = Math.imul(seed, 2654435761) >>> 0;
   for (let i = out.length - 1; i > 0; i--) {
-    s = (s * 1103515245 + 12345) >>> 0;
+    s = (Math.imul(s, 1103515245) + 12345) >>> 0;
     const j = s % (i + 1);
     [out[i], out[j]] = [out[j], out[i]];
   }
@@ -309,5 +308,3 @@ function buildAdaptiveCloze(
     clozeVariant: vIdx < 0 ? 0 : vIdx,
   };
 }
-
-export { SHUFFLE_SEED_STEPS };

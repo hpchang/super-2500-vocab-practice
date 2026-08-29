@@ -80,6 +80,15 @@ grep `localStorage.` 直接使用點。
 **守護**：`tests/storage.test.ts` 的舊版資料 case；改 schema 時先加一個
 「舊資料載入」測試再動程式碼。
 
+## I-9：選擇題答案位置穩定但不得固定
+
+**陳述**：同一批單字與題型必須產生相同的題序及選項順序，但正確答案必須分布在
+第 1～4 項，不得因偽隨機數的低位元偏差而固定或嚴重集中在同一位置。
+
+**守護**：`tests/questions.test.ts` 以 20 題 session 覆蓋英選中、中選英、legacy
+cloze 與 generated cloze，驗證四個位置皆有答案且單一位置不超過半數；另比較相同
+輸入的完整題序與選項 ID 順序。這是純邏輯缺陷，由 unit test 捕捉。
+
 ## 附錄：過去 bug-fix 對照檢查層（為什麼需要 E2E 層）
 
 用歷史 fix 回答「這三層（unit / jsdom 組件 / E2E smoke）各抓什麼」——

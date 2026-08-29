@@ -2,7 +2,11 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { EnrichmentData } from '../src/types/index.js';
-import { buildQuestion } from '../src/lib/questions.js';
+import {
+  buildClozeSession,
+  buildQuestion,
+  buildSession,
+} from '../src/lib/questions.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
 
@@ -16,7 +20,6 @@ function loadEnrichment(unit: string): EnrichmentData {
 // The questions lib imports data via '@/...' alias; for tests we replicate
 // minimal entries directly from the enrichment JSON to validate question logic.
 
-import { buildSession } from '../src/lib/questions.js';
 import { getEnrichedEntry, getEntry } from '../src/lib/data.js';
 
 describe('question construction', () => {
@@ -108,12 +111,39 @@ describe('question construction', () => {
     expect(moved).toBeGreaterThan(5);
   });
 
-  it('quiz shuffle is stable for the same input batch', () => {
+  it('distributes correct answers across option positions', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 20);
+    const sessions = [
+      ['en2zh', buildSession(entries, 'en2zh')],
+      ['zh2en', buildSession(entries, 'zh2en')],
+      ['legacy cloze', buildSession(entries, 'cloze')],
+      ['generated cloze', buildClozeSession(entries, 'medium', {})],
+    ] as const;
+
+    for (const [name, questions] of sessions) {
+      const positions = questions.map((question) =>
+        question.options!.findIndex((option) => option.entryId === question.answer),
+      );
+      const counts = [0, 1, 2, 3].map(
+        (position) => positions.filter((value) => value === position).length,
+      );
+
+      expect(new Set(positions), name).toEqual(new Set([0, 1, 2, 3]));
+      expect(Math.max(...counts), name).toBeLessThanOrEqual(questions.length / 2);
+    }
+  });
+
+  it('quiz and option shuffles are stable for the same input batch', () => {
     const en = loadEnrichment('11');
     const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
-    const a = buildSession(entries, 'zh2en').map((q) => q.entryId);
-    const b = buildSession(entries, 'zh2en').map((q) => q.entryId);
-    expect(a).toEqual(b);
+    const snapshot = () =>
+      buildSession(entries, 'zh2en').map((question) => ({
+        entryId: question.entryId,
+        optionEntryIds: question.options!.map((option) => option.entryId),
+      }));
+
+    expect(snapshot()).toEqual(snapshot());
   });
 
   it('en2zh options contain the correct Chinese gloss', () => {
