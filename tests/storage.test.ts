@@ -75,6 +75,37 @@ describe('storage', () => {
     expect(Object.keys(p.entries)).toHaveLength(0);
   });
 
+  it('malformed entry values are dropped instead of crash later', () => {
+    // Shape-valid JSON with a structurally broken EntryProgress — Home
+    // dereferences p.inWrongQueue / p.nextReviewAt, so a null-ish entry
+    // must not survive loadProgress (P1 review 2026-08-29).
+    (globalThis as any).window.localStorage.setItem(
+      'vocab-super2500-progress',
+      JSON.stringify({
+        schemaVersion: CURRENT_SCHEMA,
+        entries: { bad: null, worse: 42, 'u11:bed': makeInitialProgress('u11:bed') },
+      }),
+    );
+    const p = loadProgress();
+    expect(p.entries['bad']).toBeUndefined();
+    expect(p.entries['worse']).toBeUndefined();
+    expect(p.entries['u11:bed']).toBeDefined();
+  });
+
+  it('entry with wrong field types is dropped', () => {
+    (globalThis as any).window.localStorage.setItem(
+      'vocab-super2500-progress',
+      JSON.stringify({
+        schemaVersion: CURRENT_SCHEMA,
+        entries: {
+          'u11:bad': { entryId: 7, stage: 'new', attempts: 'x' },
+        },
+      }),
+    );
+    const p = loadProgress();
+    expect(p.entries['u11:bad']).toBeUndefined();
+  });
+
   it('old/wrong-schema data is migrated to current schema keeping entries', () => {
     const old: ProgressData = {
       schemaVersion: 0,

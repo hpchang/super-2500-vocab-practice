@@ -12,20 +12,51 @@ function isBrowser(): boolean {
   return typeof window !== 'undefined' && typeof window.localStorage !== 'undefined';
 }
 
+const STAGES = ['new', 'learning', 'review', 'strong'];
+
+/**
+ * Structural check for a restored EntryProgress. Home dereferences fields
+ * (inWrongQueue, nextReviewAt) directly, so a malformed entry saved by an
+ * older version or corrupt update must be dropped, never propagated.
+ */
+function isValidEntry(v: unknown): v is EntryProgress {
+  if (typeof v !== 'object' || v === null) return false;
+  const e = v as Record<string, unknown>;
+  return (
+    typeof e.entryId === 'string' &&
+    typeof e.stage === 'string' &&
+    STAGES.includes(e.stage) &&
+    typeof e.totalAnswered === 'number' &&
+    typeof e.totalCorrect === 'number' &&
+    typeof e.totalWrong === 'number' &&
+    typeof e.streak === 'number' &&
+    typeof e.inWrongQueue === 'boolean' &&
+    typeof e.wrongCount === 'number' &&
+    (e.lastAnsweredAt === null || typeof e.lastAnsweredAt === 'number') &&
+    (e.nextReviewAt === null || typeof e.nextReviewAt === 'number') &&
+    (e.lastWrongType === null || typeof e.lastWrongType === 'string')
+  );
+}
+
 /** Load progress, safely recovering from corruption or old schema. */
 export function loadProgress(): ProgressData {
   if (!isBrowser()) return emptyProgress();
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return emptyProgress();
-    const parsed = JSON.parse(raw) as ProgressData;
+    let parsed = JSON.parse(raw) as ProgressData;
     if (!parsed || typeof parsed !== 'object' || !parsed.entries) {
       return emptyProgress();
     }
     if (parsed.schemaVersion !== CURRENT_SCHEMA) {
-      return migrate(parsed);
+      parsed = migrate(parsed);
     }
-    return parsed;
+    // Drop malformed entries instead of crash later during render.
+    const entries: ProgressData['entries'] = {};
+    for (const [id, v] of Object.entries(parsed.entries)) {
+      if (isValidEntry(v)) entries[id] = v;
+    }
+    return { schemaVersion: CURRENT_SCHEMA, entries };
   } catch {
     // Corrupted data — start fresh rather than crashing.
     return emptyProgress();
