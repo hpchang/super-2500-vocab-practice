@@ -18,9 +18,9 @@
         "clue": "腳和小腿相連的關節",
         "answerEntryId": "u1:ankle",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:knee",
-          "u1:throat"
+          "u1:arm",
+          "u1:ear",
+          "u1:eye"
         ]
       },
       "clozeEasy": [
@@ -31,9 +31,9 @@
           "clue": "位於腳上方的關節",
           "answerEntryId": "u1:ankle",
           "distractorEntryIds": [
-            "u1:neck",
-            "u1:waist",
-            "u1:lip"
+            "u1:stomach",
+            "u1:bottom",
+            "u1:daughter"
           ]
         },
         {
@@ -43,9 +43,9 @@
           "clue": "連接腳與小腿的部位",
           "answerEntryId": "u1:ankle",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:nose",
-            "u1:blood"
+            "u1:shoulder",
+            "u1:brother",
+            "u1:grandfather"
           ]
         }
       ],
@@ -57,9 +57,9 @@
           "clue": "腳部上方容易扭傷的關節",
           "answerEntryId": "u1:ankle",
           "distractorEntryIds": [
-            "u1:shoulder",
-            "u1:hip",
-            "u1:knee"
+            "u1:foot",
+            "u1:knee",
+            "u1:hip"
           ]
         },
         {
@@ -69,17 +69,17 @@
           "clue": "支撐腳轉動的關節",
           "answerEntryId": "u1:ankle",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:neck",
-            "u12:back"
+            "u1:leg",
+            "u1:toe",
+            "u1:hip"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "A basketball player often sprains a foot joint, but a tennis player sprains a ___.",
-        "fullSentence": "A basketball player often sprains a foot joint, but a tennis player sprains a ankle.",
-        "translation": "籃球員常扭傷腳的關節，網球員則常扭傷手腕。",
-        "clue": "打球揮拍扭到的是手末端關節",
+        "sentence": "The runner injured the joint just above his foot, so the doctor examined his ___.",
+        "fullSentence": "The runner injured the joint just above his foot, so the doctor examined his ankle.",
+        "translation": "跑者傷到了腳正上方的關節，所以醫生檢查了他的腳踝。",
+        "clue": "位於腳與小腿連接處的關節",
         "answerEntryId": "u1:ankle",
         "distractorEntryIds": [
           "u1:wrist",
@@ -104,9 +104,9 @@
         "clue": "從肩膀到手的部分",
         "answerEntryId": "u1:arm",
         "distractorEntryIds": [
-          "u1:lip",
-          "u1:neck",
-          "u1:stomach"
+          "u1:gesture",
+          "u1:aunt",
+          "u1:back"
         ]
       },
       "clozeEasy": [
@@ -117,9 +117,9 @@
           "clue": "肩膀以下到手的部位",
           "answerEntryId": "u1:arm",
           "distractorEntryIds": [
+            "u1:mouth",
             "u1:sense",
-            "u2:son",
-            "u1:head"
+            "u1:motion"
           ]
         },
         {
@@ -129,9 +129,9 @@
           "clue": "用來拿東西的上肢",
           "answerEntryId": "u1:arm",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:knee",
-            "u1:toe"
+            "u1:ankle",
+            "u1:beard",
+            "u1:cousin"
           ]
         }
       ],
@@ -144,8 +144,8 @@
           "answerEntryId": "u1:arm",
           "distractorEntryIds": [
             "u1:hand",
-            "u1:neck",
-            "u1:waist"
+            "u1:nail",
+            "u1:finger"
           ]
         },
         {
@@ -155,9 +155,9 @@
           "clue": "用來扶持或提物的部位",
           "answerEntryId": "u1:arm",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:aunt",
-            "u1:family"
+            "u1:thumb",
+            "u1:wrist",
+            "u1:shoulder"
           ]
         }
       ],
@@ -168,9 +168,9 @@
         "clue": "上半身的肢體才被袖子遮住",
         "answerEntryId": "u1:arm",
         "distractorEntryIds": [
-          "u1:family",
-          "u1:motion",
-          "u1:knee"
+          "u1:finger",
+          "u1:hand",
+          "u1:nail"
         ]
       }
     },
@@ -190,9 +190,9 @@
         "clue": "父母的姐妹",
         "answerEntryId": "u1:aunt",
         "distractorEntryIds": [
-          "u1:cousin",
-          "u1:brother",
-          "u1:daughter"
+          "u1:movement",
+          "u1:body",
+          "u1:bone"
         ]
       },
       "clozeEasy": [
@@ -203,9 +203,9 @@
           "clue": "爸媽的姐妹",
           "answerEntryId": "u1:aunt",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:brother",
-            "u1:grandmother"
+            "u1:face",
+            "u1:hair",
+            "u1:bow"
           ]
         },
         {
@@ -215,9 +215,9 @@
           "clue": "家族中長輩女性的稱呼",
           "answerEntryId": "u1:aunt",
           "distractorEntryIds": [
-            "u2:uncle",
-            "u1:gesture",
-            "u1:soul"
+            "u1:family",
+            "u1:father",
+            "u1:follow"
           ]
         }
       ],
@@ -229,9 +229,9 @@
           "clue": "可代替父母接送孩子的女性親屬",
           "answerEntryId": "u1:aunt",
           "distractorEntryIds": [
+            "u1:grandmother",
             "u1:cousin",
-            "u1:daughter",
-            "u1:grandmother"
+            "u1:grandfather"
           ]
         },
         {
@@ -241,9 +241,9 @@
           "clue": "帶料理來聚會的長輩女性",
           "answerEntryId": "u1:aunt",
           "distractorEntryIds": [
+            "u1:daughter",
             "u1:brother",
-            "u1:cousin",
-            "u1:father"
+            "u1:family"
           ]
         }
       ],
@@ -254,9 +254,9 @@
         "clue": "長輩才會被稱呼，同輩是表親",
         "answerEntryId": "u1:aunt",
         "distractorEntryIds": [
-          "u1:brother",
-          "u1:daughter",
-          "u1:grandmother"
+          "u1:father",
+          "u1:grandmother",
+          "u1:brother"
         ]
       }
     },
@@ -276,9 +276,9 @@
         "clue": "身體後面從肩到腰的部位",
         "answerEntryId": "u1:back",
         "distractorEntryIds": [
-          "u1:motion",
-          "u1:neck",
-          "u1:stomach"
+          "u1:lip",
+          "u1:blood",
+          "u1:brain"
         ]
       },
       "clozeEasy": [
@@ -289,9 +289,9 @@
           "clue": "仰躺時貼地的身體面",
           "answerEntryId": "u1:back",
           "distractorEntryIds": [
-            "u1:face",
-            "u1:toe",
-            "u1:hand"
+            "u1:head",
+            "u1:neck",
+            "u1:throat"
           ]
         },
         {
@@ -301,9 +301,9 @@
           "clue": "背對大家時露出的部位",
           "answerEntryId": "u1:back",
           "distractorEntryIds": [
-            "u1:face",
             "u1:nose",
-            "u1:mouth"
+            "u1:sign",
+            "u1:beat"
           ]
         }
       ],
@@ -315,9 +315,9 @@
           "clue": "可以背東西的身體後面",
           "answerEntryId": "u1:back",
           "distractorEntryIds": [
-            "u1:shoulder",
-            "u1:head",
-            "u1:hip"
+            "u1:waist",
+            "u1:stomach",
+            "u1:body"
           ]
         },
         {
@@ -327,9 +327,9 @@
           "clue": "挺直時用力的軀幹後側",
           "answerEntryId": "u1:back",
           "distractorEntryIds": [
-            "u1:neck",
-            "u1:toe",
-            "u1:knee"
+            "u1:hip",
+            "u1:shoulder",
+            "u1:neck"
           ]
         }
       ],
@@ -340,9 +340,9 @@
         "clue": "軀幹後側才會被按摩放鬆",
         "answerEntryId": "u1:back",
         "distractorEntryIds": [
-          "u1:aunt",
-          "u1:toe",
-          "u1:thumb"
+          "u1:waist",
+          "u1:body",
+          "u1:neck"
         ]
       }
     },
@@ -362,9 +362,9 @@
         "clue": "長在下巴與臉頰的毛",
         "answerEntryId": "u1:beard",
         "distractorEntryIds": [
-          "u1:hair",
+          "u1:heart",
           "u1:joint",
-          "u1:lip"
+          "u1:sight"
         ]
       },
       "clozeEasy": [
@@ -375,9 +375,9 @@
           "clue": "男性下巴上的毛",
           "answerEntryId": "u1:beard",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:tooth",
-            "u1:eye"
+            "u1:skin",
+            "u1:soul",
+            "u1:carry"
           ]
         },
         {
@@ -387,9 +387,9 @@
           "clue": "聖誕老人下巴上的長毛",
           "answerEntryId": "u1:beard",
           "distractorEntryIds": [
-            "u1:blood",
-            "u1:bone",
-            "u1:heart"
+            "u1:tooth",
+            "u1:voice",
+            "u1:chase"
           ]
         }
       ],
@@ -401,9 +401,9 @@
           "clue": "刮鬍刀處理的下巴毛",
           "answerEntryId": "u1:beard",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:finger",
-            "u1:nose"
+            "u1:mouth",
+            "u1:ear",
+            "u1:eye"
           ]
         },
         {
@@ -413,9 +413,9 @@
           "clue": "讓臉部外觀改變的毛",
           "answerEntryId": "u1:beard",
           "distractorEntryIds": [
+            "u1:face",
             "u1:hair",
-            "u1:eye",
-            "u1:tooth"
+            "u1:head"
           ]
         }
       ],
@@ -427,8 +427,8 @@
         "answerEntryId": "u1:beard",
         "distractorEntryIds": [
           "u1:lip",
-          "u1:neck",
-          "u1:joint"
+          "u1:nose",
+          "u1:tooth"
         ]
       }
     },
@@ -448,9 +448,9 @@
         "clue": "比賽中獲勝",
         "answerEntryId": "u1:beat",
         "distractorEntryIds": [
-          "u1:carry",
-          "u1:follow",
-          "u1:shout"
+          "u1:cry",
+          "u1:hop",
+          "u1:laugh"
         ]
       },
       "clozeEasy": [
@@ -461,9 +461,9 @@
           "clue": "贏過別人",
           "answerEntryId": "u1:beat",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:sit",
-            "u1:laugh"
+            "u1:hug",
+            "u1:lay",
+            "u1:knock"
           ]
         },
         {
@@ -473,9 +473,9 @@
           "clue": "競賽獲勝",
           "answerEntryId": "u1:beat",
           "distractorEntryIds": [
-            "u1:walk",
-            "u1:pick",
-            "u1:drop"
+            "u1:bite",
+            "u1:blow",
+            "u1:born"
           ]
         }
       ],
@@ -487,9 +487,9 @@
           "clue": "比分領先而獲勝",
           "answerEntryId": "u1:beat",
           "distractorEntryIds": [
-            "u1:follow",
-            "u1:throw",
-            "u1:press"
+            "u1:chase",
+            "u1:hug",
+            "u1:laugh"
           ]
         },
         {
@@ -499,9 +499,9 @@
           "clue": "在比賽中勝出",
           "answerEntryId": "u1:beat",
           "distractorEntryIds": [
-            "u1:carry",
-            "u1:hold",
-            "u1:move"
+            "u1:walk",
+            "u1:bow",
+            "u1:sleep"
           ]
         }
       ],
@@ -534,9 +534,9 @@
         "clue": "用牙齒咬住",
         "answerEntryId": "u1:bite",
         "distractorEntryIds": [
-          "u1:kick",
-          "u1:wave",
-          "u1:clap"
+          "u1:nod",
+          "u1:put",
+          "u1:rub"
         ]
       },
       "clozeEasy": [
@@ -547,9 +547,9 @@
           "clue": "用牙齒咬",
           "answerEntryId": "u1:bite",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:push",
-            "u1:lift"
+            "u1:clap",
+            "u1:drop",
+            "u1:run"
           ]
         },
         {
@@ -559,9 +559,9 @@
           "clue": "牙齒造成的動作",
           "answerEntryId": "u1:bite",
           "distractorEntryIds": [
-            "u1:hug",
-            "u1:kiss",
-            "u1:nod"
+            "u1:laugh",
+            "u1:point",
+            "u1:press"
           ]
         }
       ],
@@ -573,9 +573,9 @@
           "clue": "用牙齒咬下一口",
           "answerEntryId": "u1:bite",
           "distractorEntryIds": [
-            "u1:lick",
-            "u1:kick",
-            "u1:carry"
+            "u1:shout",
+            "u1:smile",
+            "u1:lick"
           ]
         },
         {
@@ -585,9 +585,9 @@
           "clue": "蟲用口器咬皮膚",
           "answerEntryId": "u1:bite",
           "distractorEntryIds": [
-            "u1:rub",
-            "u23:blow",
-            "u1:move"
+            "u1:yell",
+            "u1:cry",
+            "u1:blow"
           ]
         }
       ],
@@ -599,8 +599,8 @@
         "answerEntryId": "u1:bite",
         "distractorEntryIds": [
           "u1:lick",
-          "u1:press",
-          "u1:carry"
+          "u1:yell",
+          "u1:laugh"
         ]
       }
     },
@@ -620,9 +620,9 @@
         "clue": "身體裡紅色的液體",
         "answerEntryId": "u1:blood",
         "distractorEntryIds": [
-          "u1:joint",
-          "u1:bone",
-          "u1:hair"
+          "u1:step",
+          "u1:view",
+          "u1:bottom"
         ]
       },
       "clozeEasy": [
@@ -633,9 +633,9 @@
           "clue": "心臟輸送的紅色液體",
           "answerEntryId": "u1:blood",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:voice",
-            "u1:bone"
+            "u1:ankle",
+            "u1:beard",
+            "u1:sit"
           ]
         },
         {
@@ -645,9 +645,9 @@
           "clue": "血管裡流動的液體",
           "answerEntryId": "u1:blood",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:soul",
-            "u1:sense"
+            "u1:brain",
+            "u1:heart",
+            "u1:fall"
           ]
         }
       ],
@@ -659,9 +659,9 @@
           "clue": "受傷時流出的紅色液體",
           "answerEntryId": "u1:blood",
           "distractorEntryIds": [
-            "u1:joint",
-            "u1:hair",
-            "u1:bone"
+            "u1:bone",
+            "u1:soul",
+            "u1:joint"
           ]
         },
         {
@@ -671,9 +671,9 @@
           "clue": "檢驗後能看出健康狀態的液體",
           "answerEntryId": "u1:blood",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:voice",
-            "u1:sense"
+            "u1:body",
+            "u1:brain",
+            "u1:heart"
           ]
         }
       ],
@@ -685,8 +685,8 @@
         "answerEntryId": "u1:blood",
         "distractorEntryIds": [
           "u1:bone",
-          "u1:joint",
-          "u1:heart"
+          "u1:soul",
+          "u1:joint"
         ]
       }
     },
@@ -706,9 +706,9 @@
         "clue": "用口送出氣流",
         "answerEntryId": "u1:blow",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:carry",
-          "u1:lift"
+          "u1:print",
+          "u1:shake",
+          "u1:sleep"
         ]
       },
       "clozeEasy": [
@@ -719,9 +719,9 @@
           "clue": "氣流推動東西",
           "answerEntryId": "u1:blow",
           "distractorEntryIds": [
-            "u1:pull",
-            "u1:press",
-            "u1:throw"
+            "u1:stand",
+            "u1:throw",
+            "u1:flow"
           ]
         },
         {
@@ -731,9 +731,9 @@
           "clue": "送氣讓樂器發聲",
           "answerEntryId": "u1:blow",
           "distractorEntryIds": [
-            "u1:knock",
-            "u1:clap",
-            "u18:point"
+            "u1:grow",
+            "u1:hold",
+            "u1:jump"
           ]
         }
       ],
@@ -745,9 +745,9 @@
           "clue": "產生氣流送風",
           "answerEntryId": "u1:blow",
           "distractorEntryIds": [
-            "u1:rub",
-            "u1:press",
-            "u1:hold"
+            "u1:shout",
+            "u1:smile",
+            "u1:bite"
           ]
         },
         {
@@ -757,9 +757,9 @@
           "clue": "對哨子送氣使其作響",
           "answerEntryId": "u1:blow",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:yell",
-            "u1:knock"
+            "u1:cry",
+            "u1:lick",
+            "u1:yell"
           ]
         }
       ],
@@ -770,9 +770,9 @@
         "clue": "用嘴巴送氣",
         "answerEntryId": "u1:blow",
         "distractorEntryIds": [
-          "u1:press",
-          "u1:pull",
-          "u1:shake"
+          "u1:laugh",
+          "u1:shout",
+          "u1:smile"
         ]
       }
     },
@@ -792,9 +792,9 @@
         "clue": "整個人的肉體",
         "answerEntryId": "u1:body",
         "distractorEntryIds": [
-          "u1:brain",
-          "u1:heart",
-          "u1:blood"
+          "u1:aunt",
+          "u1:back",
+          "u1:sign"
         ]
       },
       "clozeEasy": [
@@ -805,9 +805,9 @@
           "clue": "由頭到腳的整體",
           "answerEntryId": "u1:body",
           "distractorEntryIds": [
-            "u1:aunt",
-            "u1:arm",
-            "u1:face"
+            "u1:skin",
+            "u1:step",
+            "u1:kick"
           ]
         },
         {
@@ -817,9 +817,9 @@
           "clue": "休息時恢復的整個肉體",
           "answerEntryId": "u1:body",
           "distractorEntryIds": [
-            "u1:face",
-            "u1:sight",
-            "u1:voice"
+            "u1:arm",
+            "u1:toe",
+            "u1:kiss"
           ]
         }
       ],
@@ -831,9 +831,9 @@
           "clue": "浸泡時放鬆的整個軀體",
           "answerEntryId": "u1:body",
           "distractorEntryIds": [
-            "u1:father",
-            "u1:hand",
-            "u1:neck"
+            "u1:waist",
+            "u1:stomach",
+            "u1:hip"
           ]
         },
         {
@@ -843,9 +843,9 @@
           "clue": "醫學研究的對象軀體",
           "answerEntryId": "u1:body",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:blood",
-            "u1:head"
+            "u1:shoulder",
+            "u1:neck",
+            "u1:back"
           ]
         }
       ],
@@ -856,9 +856,9 @@
         "clue": "內部器官所在的主體",
         "answerEntryId": "u1:body",
         "distractorEntryIds": [
-          "u1:joint",
-          "u1:blood",
-          "u1:brain"
+          "u1:stomach",
+          "u1:back",
+          "u1:waist"
         ]
       }
     },
@@ -878,9 +878,9 @@
         "clue": "構成骨架的硬組織",
         "answerEntryId": "u1:bone",
         "distractorEntryIds": [
-          "u1:blood",
-          "u1:mouth",
-          "u1:hair"
+          "u1:motion",
+          "u1:throat",
+          "u1:blood"
         ]
       },
       "clozeEasy": [
@@ -891,9 +891,9 @@
           "clue": "鈣質強化的硬組織",
           "answerEntryId": "u1:bone",
           "distractorEntryIds": [
-            "u1:blood",
-            "u1:hair",
-            "u1:sight"
+            "u1:gesture",
+            "u1:movement",
+            "u1:lift"
           ]
         },
         {
@@ -903,9 +903,9 @@
           "clue": "斷裂會非常痛的內部支架",
           "answerEntryId": "u1:bone",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:nail",
-            "u1:joint"
+            "u1:view",
+            "u1:sense",
+            "u1:move"
           ]
         }
       ],
@@ -917,9 +917,9 @@
           "clue": "手腕內可斷裂的支架",
           "answerEntryId": "u1:bone",
           "distractorEntryIds": [
-            "u1:joint",
-            "u1:blood",
-            "u1:throat"
+            "u1:brain",
+            "u1:heart",
+            "u1:joint"
           ]
         },
         {
@@ -929,22 +929,22 @@
           "clue": "化石常見的硬組織",
           "answerEntryId": "u1:bone",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:voice",
-            "u1:brain"
+            "u1:soul",
+            "u1:body",
+            "u1:blood"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "The skull protects the brain, and every ___ protects something inside it.",
-        "fullSentence": "The skull protects the brain, and every bone protects something inside it.",
-        "translation": "頭骨保護腦，每根骨頭都保護裡面的東西。",
-        "clue": "構成保護支架的組織",
+        "sentence": "The skull is a hard structure surrounding a delicate organ, making it a protective ___.",
+        "fullSentence": "The skull is a hard structure surrounding a delicate organ, making it a protective bone.",
+        "translation": "頭骨是包圍脆弱器官的堅硬構造，因此是一種保護性的骨頭。",
+        "clue": "構成堅硬保護構造的組織",
         "answerEntryId": "u1:bone",
         "distractorEntryIds": [
-          "u1:tooth",
           "u1:blood",
-          "u1:hair"
+          "u1:brain",
+          "u1:heart"
         ]
       }
     },
@@ -964,9 +964,9 @@
         "clue": "思考的器官",
         "answerEntryId": "u1:brain",
         "distractorEntryIds": [
-          "u1:heart",
-          "u1:eye",
-          "u1:hand"
+          "u1:sight",
+          "u1:thumb",
+          "u1:voice"
         ]
       },
       "clozeEasy": [
@@ -977,9 +977,9 @@
           "clue": "頭骨裡面的器官",
           "answerEntryId": "u1:brain",
           "distractorEntryIds": [
-            "u1:heart",
-            "u1:blood",
-            "u1:soul"
+            "u1:wrist",
+            "u1:grandmother",
+            "u1:pick"
           ]
         },
         {
@@ -989,9 +989,9 @@
           "clue": "用來思考的器官",
           "answerEntryId": "u1:brain",
           "distractorEntryIds": [
-            "u1:mouth",
-            "u1:nose",
-            "u1:ear"
+            "u1:daughter",
+            "u1:gesture",
+            "u1:pull"
           ]
         }
       ],
@@ -1003,8 +1003,8 @@
           "clue": "睡眠時休養的思考器官",
           "answerEntryId": "u1:brain",
           "distractorEntryIds": [
-            "u1:body",
-            "u1:heart",
+            "u1:bone",
+            "u1:soul",
             "u1:blood"
           ]
         },
@@ -1015,9 +1015,9 @@
           "clue": "負責記憶與思考的器官",
           "answerEntryId": "u1:brain",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:voice",
-            "u1:sense"
+            "u1:joint",
+            "u1:heart",
+            "u1:body"
           ]
         }
       ],
@@ -1028,9 +1028,9 @@
         "clue": "發號施令的神經中樞",
         "answerEntryId": "u1:brain",
         "distractorEntryIds": [
-          "u1:joint",
+          "u1:bone",
           "u1:blood",
-          "u1:soul"
+          "u1:joint"
         ]
       }
     },
@@ -1050,9 +1050,9 @@
         "clue": "來到世上",
         "answerEntryId": "u1:born",
         "distractorEntryIds": [
-          "u32:grow",
-          "u1:move",
-          "u1:sit"
+          "u1:push",
+          "u1:slip",
+          "u1:walk"
         ]
       },
       "clozeEasy": [
@@ -1063,9 +1063,9 @@
           "clue": "出生的年份",
           "answerEntryId": "u1:born",
           "distractorEntryIds": [
-            "u32:grow",
-            "u1:pick",
-            "u32:keep"
+            "u1:wave",
+            "u1:bow",
+            "u1:carry"
           ]
         },
         {
@@ -1075,9 +1075,9 @@
           "clue": "誕生的地方",
           "answerEntryId": "u1:born",
           "distractorEntryIds": [
-            "u32:grow",
-            "u1:move",
-            "u32:find"
+            "u1:beat",
+            "u1:clap",
+            "u1:knock"
           ]
         }
       ],
@@ -1089,9 +1089,9 @@
           "clue": "誕生於某地某時",
           "answerEntryId": "u1:born",
           "distractorEntryIds": [
-            "u1:carry",
-            "u1:pick",
-            "u1:put"
+            "u1:sleep",
+            "u1:stand",
+            "u1:grow"
           ]
         },
         {
@@ -1101,9 +1101,9 @@
           "clue": "嬰兒誕生",
           "answerEntryId": "u1:born",
           "distractorEntryIds": [
-            "u32:grow",
-            "u22:bite",
-            "u32:find"
+            "u1:sit",
+            "u1:grow",
+            "u1:sleep"
           ]
         }
       ],
@@ -1114,9 +1114,9 @@
         "clue": "誕生的動作",
         "answerEntryId": "u1:born",
         "distractorEntryIds": [
-          "u32:grow",
-          "u32:sleep",
-          "u1:carry"
+          "u1:sit",
+          "u1:stand",
+          "u1:grow"
         ]
       }
     },
@@ -1136,9 +1136,9 @@
         "clue": "最低的地方",
         "answerEntryId": "u1:bottom",
         "distractorEntryIds": [
-          "u1:joint",
-          "u1:sight",
-          "u1:voice"
+          "u1:aunt",
+          "u1:face",
+          "u1:foot"
         ]
       },
       "clozeEasy": [
@@ -1149,9 +1149,9 @@
           "clue": "最下面的邊",
           "answerEntryId": "u1:bottom",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:joint",
-            "u1:soul"
+            "u1:movement",
+            "u1:cousin",
+            "u1:point"
           ]
         },
         {
@@ -1161,9 +1161,9 @@
           "clue": "水最深處",
           "answerEntryId": "u1:bottom",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:joint",
-            "u1:voice"
+            "u1:hair",
+            "u1:hand",
+            "u1:born"
           ]
         }
       ],
@@ -1175,9 +1175,9 @@
           "clue": "池子最深的一層",
           "answerEntryId": "u1:bottom",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:voice",
-            "u1:sense"
+            "u1:head",
+            "u1:back",
+            "u1:body"
           ]
         },
         {
@@ -1187,9 +1187,9 @@
           "clue": "表格最底端的橫線",
           "answerEntryId": "u1:bottom",
           "distractorEntryIds": [
-            "u1:joint",
-            "u1:soul",
-            "u1:motion"
+            "u1:foot",
+            "u1:head",
+            "u1:back"
           ]
         }
       ],
@@ -1200,9 +1200,9 @@
         "clue": "文件最下方",
         "answerEntryId": "u1:bottom",
         "distractorEntryIds": [
-          "u1:joint",
-          "u1:soul",
-          "u1:voice"
+          "u1:foot",
+          "u1:head",
+          "u1:back"
         ]
       }
     },
@@ -1222,9 +1222,9 @@
         "clue": "低頭彎腰行禮",
         "answerEntryId": "u1:bow",
         "distractorEntryIds": [
-          "u1:wave",
-          "u1:clap",
-          "u1:nod"
+          "u1:press",
+          "u1:print",
+          "u1:shake"
         ]
       },
       "clozeEasy": [
@@ -1235,9 +1235,9 @@
           "clue": "表示敬意的低頭動作",
           "answerEntryId": "u1:bow",
           "distractorEntryIds": [
-            "u1:yell",
-            "u1:wave",
-            "u18:point"
+            "u1:drop",
+            "u1:fall",
+            "u1:throw"
           ]
         },
         {
@@ -1247,9 +1247,9 @@
           "clue": "謝幕時彎腰行禮",
           "answerEntryId": "u1:bow",
           "distractorEntryIds": [
-            "u1:cry",
-            "u32:sleep",
-            "u14:run"
+            "u1:hop",
+            "u1:hug",
+            "u1:flow"
           ]
         }
       ],
@@ -1262,8 +1262,8 @@
           "answerEntryId": "u1:bow",
           "distractorEntryIds": [
             "u1:nod",
-            "u1:wave",
-            "u1:clap"
+            "u1:kiss",
+            "u1:wave"
           ]
         },
         {
@@ -1273,22 +1273,22 @@
           "clue": "彎腰行禮致意",
           "answerEntryId": "u1:bow",
           "distractorEntryIds": [
-            "u1:smile",
-            "u1:shout",
-            "u1:move"
+            "u1:clap",
+            "u1:hug",
+            "u1:nod"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "Westerners usually shake hands, but Japanese people ___ instead.",
-        "fullSentence": "Westerners usually shake hands, but Japanese people bow instead.",
-        "translation": "西方人通常握手，日本人則以鞠躬代替。",
-        "clue": "低頭彎腰的見面禮",
+        "sentence": "In Japan, people often ___ from the waist as a formal greeting.",
+        "fullSentence": "In Japan, people often bow from the waist as a formal greeting.",
+        "translation": "在日本，人們常從腰部彎身，作為正式的問候方式。",
+        "clue": "從腰部彎身行禮",
         "answerEntryId": "u1:bow",
         "distractorEntryIds": [
-          "u1:wave",
-          "u1:clap",
-          "u1:hug"
+          "u1:shake",
+          "u1:kiss",
+          "u1:wave"
         ]
       }
     },
@@ -1308,9 +1308,9 @@
         "clue": "同父母的男生手足",
         "answerEntryId": "u1:brother",
         "distractorEntryIds": [
-          "u1:cousin",
-          "u1:father",
-          "u1:daughter"
+          "u1:arm",
+          "u1:ear",
+          "u1:eye"
         ]
       },
       "clozeEasy": [
@@ -1321,9 +1321,9 @@
           "clue": "年幼的男生手足",
           "answerEntryId": "u1:brother",
           "distractorEntryIds": [
-            "u1:aunt",
-            "u1:grandmother",
-            "u1:daughter"
+            "u1:grandfather",
+            "u1:ankle",
+            "u1:hold"
           ]
         },
         {
@@ -1333,9 +1333,9 @@
           "clue": "家裡的男生孩子",
           "answerEntryId": "u1:brother",
           "distractorEntryIds": [
-            "u1:father",
-            "u1:cousin",
-            "u1:grandfather"
+            "u1:knee",
+            "u1:nail",
+            "u1:lay"
           ]
         }
       ],
@@ -1347,9 +1347,9 @@
           "clue": "家裡比我大的男生",
           "answerEntryId": "u1:brother",
           "distractorEntryIds": [
-            "u1:cousin",
+            "u1:family",
             "u1:father",
-            "u1:daughter"
+            "u1:cousin"
           ]
         },
         {
@@ -1359,9 +1359,9 @@
           "clue": "雙胞胎中的男生",
           "answerEntryId": "u1:brother",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:daughter",
-            "u1:grandmother"
+            "u1:grandmother",
+            "u1:aunt",
+            "u1:daughter"
           ]
         }
       ],
@@ -1372,8 +1372,8 @@
         "clue": "同家的男生手足",
         "answerEntryId": "u1:brother",
         "distractorEntryIds": [
-          "u1:cousin",
-          "u1:daughter",
+          "u1:family",
+          "u1:father",
           "u1:grandfather"
         ]
       }
@@ -1394,9 +1394,9 @@
         "clue": "用手提或肩扛物品移動",
         "answerEntryId": "u1:carry",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:pull",
-          "u1:throw"
+          "u1:jump",
+          "u1:kick",
+          "u1:lift"
         ]
       },
       "clozeEasy": [
@@ -1407,9 +1407,9 @@
           "clue": "拿著東西移動",
           "answerEntryId": "u1:carry",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:throw",
-            "u1:wave"
+            "u1:move",
+            "u1:pick",
+            "u1:put"
           ]
         },
         {
@@ -1419,9 +1419,9 @@
           "clue": "隨身攜帶",
           "answerEntryId": "u1:carry",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:sit",
-            "u14:run"
+            "u1:pull",
+            "u1:push",
+            "u1:rub"
           ]
         }
       ],
@@ -1433,9 +1433,9 @@
           "clue": "雙手托著物品行走",
           "answerEntryId": "u1:carry",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:lift",
-            "u1:hold"
+            "u1:press",
+            "u1:print",
+            "u1:throw"
           ]
         },
         {
@@ -1445,9 +1445,9 @@
           "clue": "放在身上帶著",
           "answerEntryId": "u1:carry",
           "distractorEntryIds": [
-            "u1:press",
-            "u1:hold",
-            "u1:pick"
+            "u1:lay",
+            "u1:drop",
+            "u1:hold"
           ]
         }
       ],
@@ -1458,9 +1458,9 @@
         "clue": "背負攜帶的動作",
         "answerEntryId": "u1:carry",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:pull",
-          "u1:drop"
+          "u1:lift",
+          "u1:move",
+          "u1:pick"
         ]
       }
     },
@@ -1480,9 +1480,9 @@
         "clue": "快跑追趕",
         "answerEntryId": "u1:chase",
         "distractorEntryIds": [
-          "u1:follow",
-          "u1:pull",
-          "u1:carry"
+          "u1:slip",
+          "u1:walk",
+          "u1:run"
         ]
       },
       "clozeEasy": [
@@ -1493,9 +1493,9 @@
           "clue": "跑著追趕獵物",
           "answerEntryId": "u1:chase",
           "distractorEntryIds": [
-            "u1:hug",
-            "u1:lick",
-            "u1:walk"
+            "u1:bow",
+            "u1:hop",
+            "u1:beard"
           ]
         },
         {
@@ -1505,9 +1505,9 @@
           "clue": "跑著追人玩",
           "answerEntryId": "u1:chase",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:clap",
-            "u1:jump"
+            "u1:beat",
+            "u1:bite",
+            "u1:throat"
           ]
         }
       ],
@@ -1519,9 +1519,9 @@
           "clue": "開車緊追目標",
           "answerEntryId": "u1:chase",
           "distractorEntryIds": [
-            "u1:follow",
-            "u1:move",
-            "u14:run"
+            "u1:hit",
+            "u1:drop",
+            "u1:beat"
           ]
         },
         {
@@ -1531,9 +1531,9 @@
           "clue": "趕上移動中的交通工具",
           "answerEntryId": "u1:chase",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:pull",
-            "u1:kick"
+            "u1:beat",
+            "u1:hit",
+            "u1:push"
           ]
         }
       ],
@@ -1544,8 +1544,8 @@
         "clue": "快速追捕的動作",
         "answerEntryId": "u1:chase",
         "distractorEntryIds": [
-          "u1:follow",
-          "u1:run",
+          "u1:beat",
+          "u1:hit",
           "u1:hold"
         ]
       }
@@ -1566,9 +1566,9 @@
         "clue": "雙掌互擊出聲",
         "answerEntryId": "u1:clap",
         "distractorEntryIds": [
-          "u1:jump",
-          "u14:run",
-          "u1:cry"
+          "u1:blow",
+          "u1:born",
+          "u1:fall"
         ]
       },
       "clozeEasy": [
@@ -1579,9 +1579,9 @@
           "clue": "表示讚賞的擊掌",
           "answerEntryId": "u1:clap",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:laugh",
-            "u1:wave"
+            "u1:carry",
+            "u1:knock",
+            "u1:leg"
           ]
         },
         {
@@ -1591,9 +1591,9 @@
           "clue": "雙手互拍",
           "answerEntryId": "u1:clap",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:sit",
-            "u1:nod"
+            "u1:flow",
+            "u1:jump",
+            "u1:lip"
           ]
         }
       ],
@@ -1605,9 +1605,9 @@
           "clue": "欣賞表演後的掌聲",
           "answerEntryId": "u1:clap",
           "distractorEntryIds": [
-            "u1:yell",
-            "u1:nod",
-            "u1:laugh"
+            "u1:kiss",
+            "u1:wave",
+            "u1:shake"
           ]
         },
         {
@@ -1617,22 +1617,22 @@
           "clue": "配合節奏擊掌",
           "answerEntryId": "u1:clap",
           "distractorEntryIds": [
-            "u1:move",
-            "u1:walk",
-            "u1:carry"
+            "u1:bow",
+            "u1:hug",
+            "u1:nod"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "At the graduation ceremony, parents ___ while the students bow.",
-        "fullSentence": "At the graduation ceremony, parents clap while the students bow.",
-        "translation": "畢業典禮上，學生鞠躬時父母鼓掌。",
-        "clue": "觀眾表示肯定的擊掌",
+        "sentence": "At the end of the performance, proud parents ___ loudly to show their approval.",
+        "fullSentence": "At the end of the performance, proud parents clap loudly to show their approval.",
+        "translation": "表演結束時，驕傲的家長大聲鼓掌表示肯定。",
+        "clue": "以雙手互拍表示肯定",
         "answerEntryId": "u1:clap",
         "distractorEntryIds": [
-          "u1:jump",
-          "u1:nod",
-          "u1:smile"
+          "u1:kiss",
+          "u1:wave",
+          "u1:bow"
         ]
       }
     },
@@ -1652,9 +1652,9 @@
         "clue": "叔伯姨舅的小孩",
         "answerEntryId": "u1:cousin",
         "distractorEntryIds": [
-          "u1:brother",
-          "u1:aunt",
-          "u1:grandfather"
+          "u1:bottom",
+          "u1:nose",
+          "u1:sign"
         ]
       },
       "clozeEasy": [
@@ -1665,9 +1665,9 @@
           "clue": "父母手足的孩子",
           "answerEntryId": "u1:cousin",
           "distractorEntryIds": [
-            "u1:brother",
-            "u1:daughter",
-            "u1:father"
+            "u1:mouth",
+            "u1:sense",
+            "u1:motion"
           ]
         },
         {
@@ -1677,9 +1677,9 @@
           "clue": "親戚中同輩的孩子",
           "answerEntryId": "u1:cousin",
           "distractorEntryIds": [
-            "u1:brother",
-            "u1:aunt",
-            "u1:grandmother"
+            "u1:sight",
+            "u1:thumb",
+            "u1:put"
           ]
         }
       ],
@@ -1692,8 +1692,8 @@
           "answerEntryId": "u1:cousin",
           "distractorEntryIds": [
             "u1:brother",
-            "u1:daughter",
-            "u1:father"
+            "u1:aunt",
+            "u1:family"
           ]
         },
         {
@@ -1703,22 +1703,22 @@
           "clue": "一起玩的同輩親戚",
           "answerEntryId": "u1:cousin",
           "distractorEntryIds": [
-            "u1:aunt",
-            "u1:brother",
-            "u1:daughter"
+            "u1:grandfather",
+            "u1:grandmother",
+            "u1:father"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "My ___ is my uncle's daughter, so she is not my sister.",
-        "fullSentence": "My cousin is my uncle's daughter, so she is not my sister.",
-        "translation": "表妹是叔叔的女兒，所以不是我妹妹。",
-        "clue": "父母手足之女",
+        "sentence": "The child of one of my parents' siblings is my ___.",
+        "fullSentence": "The child of one of my parents' siblings is my cousin.",
+        "translation": "我父母的兄弟姊妹所生的孩子是我的堂表兄弟姊妹。",
+        "clue": "父母手足的孩子",
         "answerEntryId": "u1:cousin",
         "distractorEntryIds": [
-          "u1:aunt",
+          "u1:daughter",
           "u1:brother",
-          "u1:grandmother"
+          "u1:aunt"
         ]
       }
     },
@@ -1738,9 +1738,9 @@
         "clue": "流淚出聲",
         "answerEntryId": "u1:cry",
         "distractorEntryIds": [
-          "u1:laugh",
-          "u1:smile",
-          "u1:shout"
+          "u1:kick",
+          "u1:pull",
+          "u1:push"
         ]
       },
       "clozeEasy": [
@@ -1751,9 +1751,9 @@
           "clue": "因痛流淚",
           "answerEntryId": "u1:cry",
           "distractorEntryIds": [
-            "u1:laugh",
-            "u1:jump",
-            "u1:clap"
+            "u1:rub",
+            "u1:run",
+            "u1:point"
           ]
         },
         {
@@ -1763,9 +1763,9 @@
           "clue": "流淚抽泣",
           "answerEntryId": "u1:cry",
           "distractorEntryIds": [
-            "u1:smile",
-            "u32:sleep",
-            "u1:walk"
+            "u1:slip",
+            "u1:walk",
+            "u1:tooth"
           ]
         }
       ],
@@ -1779,7 +1779,7 @@
           "distractorEntryIds": [
             "u1:laugh",
             "u1:shout",
-            "u1:yell"
+            "u1:smile"
           ]
         },
         {
@@ -1789,9 +1789,9 @@
           "clue": "眼睛受刺激流淚",
           "answerEntryId": "u1:cry",
           "distractorEntryIds": [
-            "u1:smile",
-            "u1:laugh",
-            "u1:wave"
+            "u1:bite",
+            "u1:blow",
+            "u1:lick"
           ]
         }
       ],
@@ -1802,9 +1802,9 @@
         "clue": "悲傷時的表現",
         "answerEntryId": "u1:cry",
         "distractorEntryIds": [
+          "u1:yell",
           "u1:laugh",
-          "u1:shout",
-          "u1:yell"
+          "u1:shout"
         ]
       }
     },
@@ -1824,9 +1824,9 @@
         "clue": "父母的女孩子",
         "answerEntryId": "u1:daughter",
         "distractorEntryIds": [
-          "u1:cousin",
-          "u1:brother",
-          "u1:aunt"
+          "u1:finger",
+          "u1:toe",
+          "u1:voice"
         ]
       },
       "clozeEasy": [
@@ -1837,9 +1837,9 @@
           "clue": "年幼的女性孩子",
           "answerEntryId": "u1:daughter",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:brother",
-            "u1:grandmother"
+            "u1:wrist",
+            "u1:skin",
+            "u1:step"
           ]
         },
         {
@@ -1849,9 +1849,9 @@
           "clue": "某人的女性孩子",
           "answerEntryId": "u1:daughter",
           "distractorEntryIds": [
-            "u2:mother",
-            "u1:aunt",
-            "u1:father"
+            "u1:view",
+            "u1:movement",
+            "u1:ankle"
           ]
         }
       ],
@@ -1863,9 +1863,9 @@
           "clue": "家中的女孩",
           "answerEntryId": "u1:daughter",
           "distractorEntryIds": [
-            "u1:aunt",
             "u1:cousin",
-            "u1:grandmother"
+            "u1:brother",
+            "u1:family"
           ]
         },
         {
@@ -1875,9 +1875,9 @@
           "clue": "女性孩子",
           "answerEntryId": "u1:daughter",
           "distractorEntryIds": [
-            "u1:aunt",
-            "u1:brother",
-            "u1:cousin"
+            "u1:grandfather",
+            "u1:father",
+            "u1:grandmother"
           ]
         }
       ],
@@ -1889,8 +1889,8 @@
         "answerEntryId": "u1:daughter",
         "distractorEntryIds": [
           "u1:aunt",
-          "u1:grandmother",
-          "u1:brother"
+          "u1:cousin",
+          "u1:grandfather"
         ]
       }
     },
@@ -1910,9 +1910,9 @@
         "clue": "手鬆開讓物體落下",
         "answerEntryId": "u1:drop",
         "distractorEntryIds": [
-          "u1:pick",
-          "u1:lift",
-          "u1:hold"
+          "u1:carry",
+          "u1:knock",
+          "u1:point"
         ]
       },
       "clozeEasy": [
@@ -1923,9 +1923,9 @@
           "clue": "從高處落下",
           "answerEntryId": "u1:drop",
           "distractorEntryIds": [
-            "u32:grow",
-            "u1:stand",
-            "u1:sit"
+            "u1:press",
+            "u1:print",
+            "u1:bottom"
           ]
         },
         {
@@ -1935,9 +1935,9 @@
           "clue": "讓東西掉落地上",
           "answerEntryId": "u1:drop",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:push",
-            "u1:pull"
+            "u1:sleep",
+            "u1:stand",
+            "u1:gesture"
           ]
         }
       ],
@@ -1949,9 +1949,9 @@
           "clue": "失手使物品落下",
           "answerEntryId": "u1:drop",
           "distractorEntryIds": [
-            "u1:carry",
+            "u1:hold",
             "u1:lift",
-            "u1:press"
+            "u1:move"
           ]
         },
         {
@@ -1961,9 +1961,9 @@
           "clue": "數值下降",
           "answerEntryId": "u1:drop",
           "distractorEntryIds": [
-            "u1:slip",
-            "u1:move",
-            "u23:blow"
+            "u1:lay",
+            "u1:put",
+            "u1:rub"
           ]
         }
       ],
@@ -1974,9 +1974,9 @@
         "clue": "鬆手使落下",
         "answerEntryId": "u1:drop",
         "distractorEntryIds": [
-          "u1:throw",
-          "u1:push",
-          "u1:pull"
+          "u1:pick",
+          "u1:pull",
+          "u1:push"
         ]
       }
     },
@@ -1996,9 +1996,9 @@
         "clue": "聽聲音的器官",
         "answerEntryId": "u1:ear",
         "distractorEntryIds": [
-          "u1:eye",
-          "u1:nose",
-          "u1:mouth"
+          "u1:finger",
+          "u1:motion",
+          "u1:throat"
         ]
       },
       "clozeEasy": [
@@ -2009,9 +2009,9 @@
           "clue": "負責聽覺的器官",
           "answerEntryId": "u1:ear",
           "distractorEntryIds": [
-            "u1:mouth",
-            "u1:eye",
-            "u1:nose"
+            "u1:face",
+            "u1:hair",
+            "u1:born"
           ]
         },
         {
@@ -2021,9 +2021,9 @@
           "clue": "聽力使用的部位",
           "answerEntryId": "u1:ear",
           "distractorEntryIds": [
+            "u1:arm",
             "u1:eye",
-            "u1:grandmother",
-            "u1:hand"
+            "u1:beard"
           ]
         }
       ],
@@ -2035,9 +2035,9 @@
           "clue": "靠近說話的聽覺器官",
           "answerEntryId": "u1:ear",
           "distractorEntryIds": [
-            "u1:mouth",
-            "u1:eye",
-            "u1:throat"
+            "u1:nose",
+            "u1:view",
+            "u1:mouth"
           ]
         },
         {
@@ -2047,9 +2047,9 @@
           "clue": "冬天露在外面的器官",
           "answerEntryId": "u1:ear",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:knee",
-            "u1:lip"
+            "u1:sense",
+            "u1:sight",
+            "u1:voice"
           ]
         }
       ],
@@ -2060,9 +2060,9 @@
         "clue": "負責聽覺的器官",
         "answerEntryId": "u1:ear",
         "distractorEntryIds": [
-          "u1:eye",
-          "u1:nose",
-          "u1:mouth"
+          "u1:mouth",
+          "u1:sense",
+          "u1:sight"
         ]
       }
     },
@@ -2082,9 +2082,9 @@
         "clue": "用來看的器官",
         "answerEntryId": "u1:eye",
         "distractorEntryIds": [
-          "u1:ear",
-          "u1:nose",
-          "u1:mouth"
+          "u1:thumb",
+          "u1:tooth",
+          "u1:wrist"
         ]
       },
       "clozeEasy": [
@@ -2095,9 +2095,9 @@
           "clue": "視覺器官",
           "answerEntryId": "u1:eye",
           "distractorEntryIds": [
-            "u1:ear",
-            "u1:nose",
-            "u1:hand"
+            "u1:hand",
+            "u1:knee",
+            "u1:cry"
           ]
         },
         {
@@ -2107,9 +2107,9 @@
           "clue": "臉上用來看的部位",
           "answerEntryId": "u1:eye",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:ear",
-            "u1:lip"
+            "u1:nail",
+            "u1:sign",
+            "u1:ear"
           ]
         }
       ],
@@ -2121,9 +2121,9 @@
           "clue": "長時間閱讀會疲勞的器官",
           "answerEntryId": "u1:eye",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:neck",
-            "u1:stomach"
+            "u1:nose",
+            "u1:view",
+            "u1:voice"
           ]
         },
         {
@@ -2134,8 +2134,8 @@
           "answerEntryId": "u1:eye",
           "distractorEntryIds": [
             "u1:mouth",
-            "u1:nose",
-            "u1:lip"
+            "u1:sense",
+            "u1:sight"
           ]
         }
       ],
@@ -2146,9 +2146,9 @@
         "clue": "臉上怕強光的視覺器官",
         "answerEntryId": "u1:eye",
         "distractorEntryIds": [
-          "u1:head",
+          "u1:ear",
           "u1:nose",
-          "u1:mouth"
+          "u1:view"
         ]
       }
     },
@@ -2168,9 +2168,9 @@
         "clue": "五官所在的前部",
         "answerEntryId": "u1:face",
         "distractorEntryIds": [
-          "u1:hand",
-          "u1:nose",
-          "u12:back"
+          "u1:skin",
+          "u1:step",
+          "u1:leg"
         ]
       },
       "clozeEasy": [
@@ -2181,9 +2181,9 @@
           "clue": "鼻子眼睛所在的部位",
           "answerEntryId": "u1:face",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:wrist",
-            "u1:arm"
+            "u1:lip",
+            "u1:toe",
+            "u1:hop"
           ]
         },
         {
@@ -2193,9 +2193,9 @@
           "clue": "會害羞變紅的部位",
           "answerEntryId": "u1:face",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:knee",
-            "u1:hip"
+            "u1:movement",
+            "u1:stomach",
+            "u1:run"
           ]
         }
       ],
@@ -2207,9 +2207,9 @@
           "clue": "雙手遮住的部位",
           "answerEntryId": "u1:face",
           "distractorEntryIds": [
+            "u1:hair",
             "u1:eye",
-            "u1:mouth",
-            "u1:hair"
+            "u1:beard"
           ]
         },
         {
@@ -2219,22 +2219,22 @@
           "clue": "清洗五官的部位",
           "answerEntryId": "u1:face",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:hand",
-            "u1:neck"
+            "u1:tooth",
+            "u1:ear",
+            "u1:head"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "A mask covers your nose and mouth but leaves your ___ mostly visible.",
-        "fullSentence": "A mask covers your nose and mouth but leaves your face mostly visible.",
-        "translation": "口罩遮住口鼻，但臉大部分仍看得見。",
-        "clue": "五官所在的正面",
+        "sentence": "The front part of your head, where your features appear, is your ___.",
+        "fullSentence": "The front part of your head, where your features appear, is your face.",
+        "translation": "頭部正面呈現五官特徵的部位就是臉。",
+        "clue": "頭部呈現五官特徵的正面",
         "answerEntryId": "u1:face",
         "distractorEntryIds": [
-          "u1:hair",
-          "u1:neck",
-          "u1:hand"
+          "u1:nose",
+          "u1:mouth",
+          "u1:lip"
         ]
       }
     },
@@ -2254,9 +2254,9 @@
         "clue": "身體倒下",
         "answerEntryId": "u1:fall",
         "distractorEntryIds": [
-          "u1:jump",
-          "u1:cry",
-          "u14:run"
+          "u1:throw",
+          "u1:clap",
+          "u1:flow"
         ]
       },
       "clozeEasy": [
@@ -2267,21 +2267,21 @@
           "clue": "從上往下落",
           "answerEntryId": "u1:fall",
           "distractorEntryIds": [
-            "u32:rise",
-            "u1:stand",
-            "u1:sit"
+            "u1:sit",
+            "u1:jump",
+            "u1:kick"
           ]
         },
         {
-          "sentence": "Babies often ___ when they learn to walk.",
-          "fullSentence": "Babies often fall when they learn to walk.",
-          "translation": "嬰兒學走路時常跌倒。",
-          "clue": "身體失去平衡倒下",
+          "sentence": "Babies often lose their balance and ___ to the floor.",
+          "fullSentence": "Babies often lose their balance and fall to the floor.",
+          "translation": "嬰兒常會失去平衡而跌到地上。",
+          "clue": "失去平衡後倒向地面",
           "answerEntryId": "u1:fall",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:smile",
-            "u32:grow"
+            "u1:slip",
+            "u1:walk",
+            "u1:ankle"
           ]
         }
       ],
@@ -2293,9 +2293,9 @@
           "clue": "滑倒倒地",
           "answerEntryId": "u1:fall",
           "distractorEntryIds": [
-            "u1:slip",
-            "u1:stand",
-            "u1:sit"
+            "u1:hop",
+            "u1:run",
+            "u1:sleep"
           ]
         },
         {
@@ -2305,9 +2305,9 @@
           "clue": "數值下降",
           "answerEntryId": "u1:fall",
           "distractorEntryIds": [
-            "u1:drop",
-            "u32:rise",
-            "u1:move"
+            "u1:grow",
+            "u1:stand",
+            "u1:sit"
           ]
         }
       ],
@@ -2318,9 +2318,9 @@
         "clue": "受重力往下",
         "answerEntryId": "u1:fall",
         "distractorEntryIds": [
-          "u32:grow",
-          "u1:stand",
-          "u14:climb"
+          "u1:flow",
+          "u1:jump",
+          "u1:slip"
         ]
       }
     },
@@ -2340,9 +2340,9 @@
         "clue": "住在一起的親人",
         "answerEntryId": "u1:family",
         "distractorEntryIds": [
-          "u1:cousin",
-          "u1:daughter",
-          "u1:father"
+          "u1:throat",
+          "u1:shoulder",
+          "u1:thumb"
         ]
       },
       "clozeEasy": [
@@ -2353,9 +2353,9 @@
           "clue": "同一個屋簷下的親人",
           "answerEntryId": "u1:family",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:daughter",
-            "u1:father"
+            "u1:bottom",
+            "u1:finger",
+            "u1:drop"
           ]
         },
         {
@@ -2365,9 +2365,9 @@
           "clue": "親人組成的團體",
           "answerEntryId": "u1:family",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:daughter",
-            "u1:aunt"
+            "u1:face",
+            "u1:hand",
+            "u1:fall"
           ]
         }
       ],
@@ -2379,9 +2379,9 @@
           "clue": "三代同堂的親人",
           "answerEntryId": "u1:family",
           "distractorEntryIds": [
-            "u1:cousin",
             "u1:daughter",
-            "u1:brother"
+            "u1:cousin",
+            "u1:father"
           ]
         },
         {
@@ -2392,8 +2392,8 @@
           "answerEntryId": "u1:family",
           "distractorEntryIds": [
             "u1:brother",
-            "u1:aunt",
-            "u1:daughter"
+            "u1:grandmother",
+            "u1:grandfather"
           ]
         }
       ],
@@ -2404,9 +2404,9 @@
         "clue": "同住一家的直系親人",
         "answerEntryId": "u1:family",
         "distractorEntryIds": [
-          "u1:cousin",
           "u1:aunt",
-          "u1:daughter"
+          "u1:daughter",
+          "u1:cousin"
         ]
       }
     },
@@ -2426,9 +2426,9 @@
         "clue": "生養你的男性家長",
         "answerEntryId": "u1:father",
         "distractorEntryIds": [
-          "u1:aunt",
-          "u1:brother",
-          "u1:cousin"
+          "u1:gesture",
+          "u1:arm",
+          "u1:hip"
         ]
       },
       "clozeEasy": [
@@ -2439,9 +2439,9 @@
           "clue": "家中的男性家長",
           "answerEntryId": "u1:father",
           "distractorEntryIds": [
-            "u2:mother",
-            "u1:aunt",
-            "u1:grandmother"
+            "u1:waist",
+            "u1:wrist",
+            "u1:cry"
           ]
         },
         {
@@ -2451,9 +2451,9 @@
           "clue": "節日的主角家長",
           "answerEntryId": "u1:father",
           "distractorEntryIds": [
-            "u2:uncle",
-            "u1:brother",
-            "u2:son"
+            "u1:knee",
+            "u1:nail",
+            "u1:hug"
           ]
         }
       ],
@@ -2465,9 +2465,9 @@
           "clue": "晚上照顧孩子的男性家長",
           "answerEntryId": "u1:father",
           "distractorEntryIds": [
-            "u1:grandfather",
-            "u1:brother",
-            "u1:cousin"
+            "u1:family",
+            "u1:grandmother",
+            "u1:brother"
           ]
         },
         {
@@ -2477,9 +2477,9 @@
           "clue": "外貌遺傳自的男性長輩",
           "answerEntryId": "u1:father",
           "distractorEntryIds": [
-            "u1:grandmother",
-            "u1:brother",
-            "u1:cousin"
+            "u1:daughter",
+            "u1:aunt",
+            "u1:grandfather"
           ]
         }
       ],
@@ -2490,9 +2490,9 @@
         "clue": "同時身兼丈夫與兒子的男性家長",
         "answerEntryId": "u1:father",
         "distractorEntryIds": [
-          "u1:grandfather",
-          "u1:brother",
-          "u1:cousin"
+          "u1:cousin",
+          "u1:family",
+          "u1:daughter"
         ]
       }
     },
@@ -2512,9 +2512,9 @@
         "clue": "手上的五根指頭",
         "answerEntryId": "u1:finger",
         "distractorEntryIds": [
+          "u1:leg",
           "u1:toe",
-          "u1:thumb",
-          "u1:wrist"
+          "u1:neck"
         ]
       },
       "clozeEasy": [
@@ -2525,9 +2525,9 @@
           "clue": "手末端的指頭",
           "answerEntryId": "u1:finger",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:arm",
-            "u1:ankle"
+            "u1:motion",
+            "u1:sign",
+            "u1:bite"
           ]
         },
         {
@@ -2537,9 +2537,9 @@
           "clue": "拿熱鍋時燙到的部位",
           "answerEntryId": "u1:finger",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:knee",
-            "u1:neck"
+            "u1:skin",
+            "u1:step",
+            "u1:lay"
           ]
         }
       ],
@@ -2551,9 +2551,9 @@
           "clue": "靈活撥弄的小指頭",
           "answerEntryId": "u1:finger",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:nose",
-            "u1:ear"
+            "u1:hand",
+            "u1:nail",
+            "u1:thumb"
           ]
         },
         {
@@ -2563,22 +2563,22 @@
           "clue": "按弦彈奏的指頭",
           "answerEntryId": "u1:finger",
           "distractorEntryIds": [
-            "u1:toe",
+            "u1:shoulder",
             "u1:wrist",
-            "u1:shoulder"
+            "u1:arm"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "A ring sits on your ___, while a bracelet sits on your wrist.",
-        "fullSentence": "A ring sits on your finger, while a bracelet sits on your wrist.",
-        "translation": "戒指戴在手指，手環戴在手腕。",
-        "clue": "戴戒指的細長指頭",
+        "sentence": "A wedding ring is traditionally worn on the fourth ___ of the left hand.",
+        "fullSentence": "A wedding ring is traditionally worn on the fourth finger of the left hand.",
+        "translation": "婚戒傳統上戴在左手的第四根手指上。",
+        "clue": "婚戒所在的第四根指頭",
         "answerEntryId": "u1:finger",
         "distractorEntryIds": [
+          "u1:shoulder",
           "u1:thumb",
-          "u1:knee",
-          "u1:neck"
+          "u1:wrist"
         ]
       }
     },
@@ -2598,9 +2598,9 @@
         "clue": "液體持續移動",
         "answerEntryId": "u1:flow",
         "distractorEntryIds": [
-          "u1:drop",
-          "u1:jump",
-          "u14:run"
+          "u1:blow",
+          "u1:born",
+          "u1:clap"
         ]
       },
       "clozeEasy": [
@@ -2611,9 +2611,9 @@
           "clue": "在管內移動的液體",
           "answerEntryId": "u1:flow",
           "distractorEntryIds": [
-            "u1:jump",
-            "u1:walk",
-            "u1:sit"
+            "u1:carry",
+            "u1:chase",
+            "u1:knock"
           ]
         },
         {
@@ -2623,9 +2623,9 @@
           "clue": "液體滑落",
           "answerEntryId": "u1:flow",
           "distractorEntryIds": [
-            "u1:stand",
-            "u1:sit",
-            "u1:cry"
+            "u1:point",
+            "u1:press",
+            "u1:drop"
           ]
         }
       ],
@@ -2637,9 +2637,9 @@
           "clue": "車輛如水流般前進",
           "answerEntryId": "u1:flow",
           "distractorEntryIds": [
-            "u1:press",
-            "u32:grow",
-            "u1:fall"
+            "u1:fall",
+            "u1:walk",
+            "u1:grow"
           ]
         },
         {
@@ -2649,9 +2649,9 @@
           "clue": "一滴接一滴移動",
           "answerEntryId": "u1:flow",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:press",
-            "u1:pull"
+            "u1:jump",
+            "u1:slip",
+            "u1:sleep"
           ]
         }
       ],
@@ -2662,9 +2662,9 @@
         "clue": "液體順勢移動",
         "answerEntryId": "u1:flow",
         "distractorEntryIds": [
-          "u32:grow",
           "u1:stand",
-          "u14:climb"
+          "u1:hop",
+          "u1:run"
         ]
       }
     },
@@ -2684,9 +2684,9 @@
         "clue": "依循指示行事",
         "answerEntryId": "u1:follow",
         "distractorEntryIds": [
-          "u1:carry",
-          "u1:hit",
-          "u1:push"
+          "u1:print",
+          "u1:shake",
+          "u1:smile"
         ]
       },
       "clozeEasy": [
@@ -2697,9 +2697,9 @@
           "clue": "走在別人後面",
           "answerEntryId": "u1:follow",
           "distractorEntryIds": [
-            "u1:fall",
-            "u1:push",
-            "u32:stop"
+            "u1:throw",
+            "u1:hold",
+            "u1:nod"
           ]
         },
         {
@@ -2709,9 +2709,9 @@
           "clue": "緊跟在後",
           "answerEntryId": "u1:follow",
           "distractorEntryIds": [
-            "u1:chase",
-            "u22:bite",
-            "u1:lick"
+            "u1:kick",
+            "u1:lick",
+            "u1:put"
           ]
         }
       ],
@@ -2725,7 +2725,7 @@
           "distractorEntryIds": [
             "u1:jump",
             "u1:hit",
-            "u32:forget"
+            "u1:beat"
           ]
         },
         {
@@ -2735,9 +2735,9 @@
           "clue": "隨行支持",
           "answerEntryId": "u1:follow",
           "distractorEntryIds": [
-            "u1:beat",
             "u1:carry",
-            "u1:pull"
+            "u1:pull",
+            "u1:beat"
           ]
         }
       ],
@@ -2748,9 +2748,9 @@
         "clue": "走在後面的動作",
         "answerEntryId": "u1:follow",
         "distractorEntryIds": [
-          "u14:run",
           "u1:push",
-          "u32:stop"
+          "u1:pull",
+          "u1:hit"
         ]
       }
     },
@@ -2770,9 +2770,9 @@
         "clue": "走路用的肢體末端",
         "answerEntryId": "u1:foot",
         "distractorEntryIds": [
-          "u1:hand",
-          "u1:head",
-          "u1:knee"
+          "u1:stomach",
+          "u1:bone",
+          "u1:face"
         ]
       },
       "clozeEasy": [
@@ -2783,9 +2783,9 @@
           "clue": "襪子包住的部位",
           "answerEntryId": "u1:foot",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:finger",
-            "u1:arm"
+            "u1:ankle",
+            "u1:beard",
+            "u1:lift"
           ]
         },
         {
@@ -2795,9 +2795,9 @@
           "clue": "穿鞋的部位",
           "answerEntryId": "u1:foot",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:ear",
-            "u1:eye"
+            "u1:brain",
+            "u1:tooth",
+            "u1:rub"
           ]
         }
       ],
@@ -2809,9 +2809,9 @@
           "clue": "踢球用的肢體",
           "answerEntryId": "u1:foot",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:head",
-            "u1:shoulder"
+            "u1:knee",
+            "u1:hip",
+            "u1:leg"
           ]
         },
         {
@@ -2821,9 +2821,9 @@
           "clue": "鞋襪包住的肢體末端",
           "answerEntryId": "u1:foot",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:neck",
-            "u1:stomach"
+            "u1:toe",
+            "u1:ankle",
+            "u1:knee"
           ]
         }
       ],
@@ -2835,8 +2835,8 @@
         "answerEntryId": "u1:foot",
         "distractorEntryIds": [
           "u1:hip",
-          "u1:hand",
-          "u1:knee"
+          "u1:leg",
+          "u1:toe"
         ]
       }
     },
@@ -2856,9 +2856,9 @@
         "clue": "用手表達意思的動作",
         "answerEntryId": "u1:gesture",
         "distractorEntryIds": [
-          "u1:voice",
-          "u1:sight",
-          "u1:soul"
+          "u1:foot",
+          "u1:hair",
+          "u1:neck"
         ]
       },
       "clozeEasy": [
@@ -2869,9 +2869,9 @@
           "clue": "用手臂表達的動作",
           "answerEntryId": "u1:gesture",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:sense",
-            "u1:motion"
+            "u1:motion",
+            "u1:throat",
+            "u1:move"
           ]
         },
         {
@@ -2882,8 +2882,8 @@
           "answerEntryId": "u1:gesture",
           "distractorEntryIds": [
             "u1:voice",
-            "u1:sense",
-            "u1:soul"
+            "u1:waist",
+            "u1:pick"
           ]
         }
       ],
@@ -2895,8 +2895,8 @@
           "clue": "文化中約定的手部動作",
           "answerEntryId": "u1:gesture",
           "distractorEntryIds": [
-            "u1:sign",
             "u1:voice",
+            "u1:sight",
             "u1:sense"
           ]
         },
@@ -2920,9 +2920,9 @@
         "clue": "用身體部位表達的動作",
         "answerEntryId": "u1:gesture",
         "distractorEntryIds": [
-          "u1:motion",
-          "u1:sign",
-          "u1:voice"
+          "u1:voice",
+          "u1:sight",
+          "u1:sense"
         ]
       }
     },
@@ -2942,9 +2942,9 @@
         "clue": "爸爸或媽媽的爸爸",
         "answerEntryId": "u1:grandfather",
         "distractorEntryIds": [
-          "u1:grandmother",
-          "u1:father",
-          "u1:cousin"
+          "u1:skin",
+          "u1:soul",
+          "u1:gesture"
         ]
       },
       "clozeEasy": [
@@ -2955,9 +2955,9 @@
           "clue": "上一代的男性長輩",
           "answerEntryId": "u1:grandfather",
           "distractorEntryIds": [
-            "u1:aunt",
-            "u1:brother",
-            "u1:cousin"
+            "u1:eye",
+            "u1:lip",
+            "u1:pull"
           ]
         },
         {
@@ -2967,9 +2967,9 @@
           "clue": "年長的男性家人",
           "answerEntryId": "u1:grandfather",
           "distractorEntryIds": [
-            "u2:uncle",
-            "u1:mouth",
-            "u1:finger"
+            "u1:bottom",
+            "u1:finger",
+            "u1:push"
           ]
         }
       ],
@@ -2981,9 +2981,9 @@
           "clue": "退休後種菜的長輩",
           "answerEntryId": "u1:grandfather",
           "distractorEntryIds": [
-            "u1:grandmother",
             "u1:father",
-            "u1:brother"
+            "u1:brother",
+            "u1:family"
           ]
         },
         {
@@ -2994,21 +2994,21 @@
           "answerEntryId": "u1:grandfather",
           "distractorEntryIds": [
             "u1:grandmother",
-            "u1:cousin",
-            "u1:daughter"
+            "u1:daughter",
+            "u1:cousin"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "My ___ is my grandmother's husband and my father's father.",
-        "fullSentence": "My grandfather is my grandmother's husband and my father's father.",
-        "translation": "我爺爺是奶奶的丈夫，也是爸爸的爸爸。",
-        "clue": "同時是丈夫與父親的男性長輩",
+        "sentence": "The male parent of either of my parents is my ___.",
+        "fullSentence": "The male parent of either of my parents is my grandfather.",
+        "translation": "我父母任何一方的父親都是我的祖父或外祖父。",
+        "clue": "父母其中一方的男性長輩",
         "answerEntryId": "u1:grandfather",
         "distractorEntryIds": [
-          "u1:brother",
-          "u1:lip",
-          "u1:cousin"
+          "u1:aunt",
+          "u1:father",
+          "u1:grandmother"
         ]
       }
     },
@@ -3028,9 +3028,9 @@
         "clue": "爸爸或媽媽的媽媽",
         "answerEntryId": "u1:grandmother",
         "distractorEntryIds": [
-          "u1:grandfather",
-          "u1:daughter",
-          "u1:aunt"
+          "u1:stomach",
+          "u1:gesture",
+          "u1:arm"
         ]
       },
       "clozeEasy": [
@@ -3041,9 +3041,9 @@
           "clue": "上一代的女性長輩",
           "answerEntryId": "u1:grandmother",
           "distractorEntryIds": [
-            "u1:grandfather",
-            "u1:father",
-            "u1:cousin"
+            "u1:beard",
+            "u1:blood",
+            "u1:yell"
           ]
         },
         {
@@ -3053,9 +3053,9 @@
           "clue": "會織毛衣的女性長輩",
           "answerEntryId": "u1:grandmother",
           "distractorEntryIds": [
-            "u2:uncle",
-            "u1:body",
-            "u1:heart"
+            "u1:finger",
+            "u1:brain",
+            "u1:bite"
           ]
         }
       ],
@@ -3068,8 +3068,8 @@
           "answerEntryId": "u1:grandmother",
           "distractorEntryIds": [
             "u1:grandfather",
-            "u1:daughter",
-            "u1:aunt"
+            "u1:brother",
+            "u1:family"
           ]
         },
         {
@@ -3079,7 +3079,7 @@
           "clue": "白天看顧孩子的女性長輩",
           "answerEntryId": "u1:grandmother",
           "distractorEntryIds": [
-            "u1:grandfather",
+            "u1:father",
             "u1:aunt",
             "u1:daughter"
           ]
@@ -3092,9 +3092,9 @@
         "clue": "同時是妻子與母親的女性長輩",
         "answerEntryId": "u1:grandmother",
         "distractorEntryIds": [
-          "u1:aunt",
-          "u1:daughter",
-          "u1:arm"
+          "u1:cousin",
+          "u1:family",
+          "u1:father"
         ]
       }
     },
@@ -3114,9 +3114,9 @@
         "clue": "身體逐漸變大",
         "answerEntryId": "u1:grow",
         "distractorEntryIds": [
-          "u1:walk",
-          "u1:sit",
-          "u22:bite"
+          "u1:blow",
+          "u1:born",
+          "u1:clap"
         ]
       },
       "clozeEasy": [
@@ -3127,9 +3127,9 @@
           "clue": "逐漸長大變高",
           "answerEntryId": "u1:grow",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:move",
-            "u1:stand"
+            "u1:bow",
+            "u1:cry",
+            "u1:carry"
           ]
         },
         {
@@ -3139,9 +3139,9 @@
           "clue": "身高增加",
           "answerEntryId": "u1:grow",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:walk",
-            "u1:move"
+            "u1:hug",
+            "u1:lay",
+            "u1:knock"
           ]
         }
       ],
@@ -3153,9 +3153,9 @@
           "clue": "栽種使作物成長",
           "answerEntryId": "u1:grow",
           "distractorEntryIds": [
-            "u1:pick",
-            "u1:carry",
-            "u1:push"
+            "u1:sit",
+            "u1:sleep",
+            "u1:stand"
           ]
         },
         {
@@ -3165,9 +3165,9 @@
           "clue": "規模擴大",
           "answerEntryId": "u1:grow",
           "distractorEntryIds": [
-            "u1:move",
-            "u1:nod",
-            "u1:stand"
+            "u1:sit",
+            "u1:born",
+            "u1:sleep"
           ]
         }
       ],
@@ -3178,9 +3178,9 @@
         "clue": "高度自然增加",
         "answerEntryId": "u1:grow",
         "distractorEntryIds": [
-          "u1:move",
           "u1:stand",
-          "u14:climb"
+          "u1:sit",
+          "u1:born"
         ]
       }
     },
@@ -3200,9 +3200,9 @@
         "clue": "長在頭上的毛",
         "answerEntryId": "u1:hair",
         "distractorEntryIds": [
-          "u1:beard",
-          "u1:grandmother",
-          "u1:bone"
+          "u1:bottom",
+          "u1:heart",
+          "u1:joint"
         ]
       },
       "clozeEasy": [
@@ -3213,9 +3213,9 @@
           "clue": "頭上需要梳理的毛",
           "answerEntryId": "u1:hair",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:finger",
-            "u1:lip"
+            "u1:sense",
+            "u1:sight",
+            "u1:drop"
           ]
         },
         {
@@ -3225,9 +3225,9 @@
           "clue": "可以綁馬尾的毛髮",
           "answerEntryId": "u1:hair",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:ear",
-            "u1:arm"
+            "u1:tooth",
+            "u1:voice",
+            "u1:nod"
           ]
         }
       ],
@@ -3239,9 +3239,9 @@
           "clue": "可造型的頭上毛髮",
           "answerEntryId": "u1:hair",
           "distractorEntryIds": [
-            "u1:beard",
-            "u1:sense",
-            "u1:lip"
+            "u1:face",
+            "u1:head",
+            "u1:ear"
           ]
         },
         {
@@ -3251,9 +3251,9 @@
           "clue": "會沾上氯味的毛髮",
           "answerEntryId": "u1:hair",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:voice",
-            "u1:sight"
+            "u1:eye",
+            "u1:lip",
+            "u1:nose"
           ]
         }
       ],
@@ -3264,9 +3264,9 @@
         "clue": "長在頭頂的毛髮",
         "answerEntryId": "u1:hair",
         "distractorEntryIds": [
-          "u1:lip",
-          "u1:neck",
-          "u1:joint"
+          "u1:beard",
+          "u1:mouth",
+          "u1:tooth"
         ]
       }
     },
@@ -3286,9 +3286,9 @@
         "clue": "手腕以下用來拿東西的部位",
         "answerEntryId": "u1:hand",
         "distractorEntryIds": [
-          "u1:arm",
-          "u1:head",
-          "u1:finger"
+          "u1:waist",
+          "u1:throat",
+          "u1:bone"
         ]
       },
       "clozeEasy": [
@@ -3299,9 +3299,9 @@
           "clue": "握東西的部位",
           "answerEntryId": "u1:hand",
           "distractorEntryIds": [
-            "u1:arm",
-            "u1:knee",
-            "u1:neck"
+            "u1:foot",
+            "u1:hair",
+            "u1:laugh"
           ]
         },
         {
@@ -3311,9 +3311,9 @@
           "clue": "握住對方表示友好的部位",
           "answerEntryId": "u1:hand",
           "distractorEntryIds": [
-            "u1:bottom",
-            "u1:eye",
-            "u1:ear"
+            "u1:nail",
+            "u1:neck",
+            "u1:point"
           ]
         }
       ],
@@ -3325,9 +3325,9 @@
           "clue": "彈奏樂器的部位",
           "answerEntryId": "u1:hand",
           "distractorEntryIds": [
-            "u1:face",
-            "u1:mouth",
-            "u1:eye"
+            "u1:shoulder",
+            "u1:thumb",
+            "u1:wrist"
           ]
         },
         {
@@ -3337,9 +3337,9 @@
           "clue": "舉高示意老師的部位",
           "answerEntryId": "u1:hand",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:face",
-            "u1:shoulder"
+            "u1:arm",
+            "u1:finger",
+            "u1:nail"
           ]
         }
       ],
@@ -3350,9 +3350,9 @@
         "clue": "戴手套的部位",
         "answerEntryId": "u1:hand",
         "distractorEntryIds": [
-          "u1:shoulder",
+          "u1:thumb",
           "u1:wrist",
-          "u1:arm"
+          "u1:shoulder"
         ]
       }
     },
@@ -3373,8 +3373,8 @@
         "answerEntryId": "u1:head",
         "distractorEntryIds": [
           "u1:hand",
-          "u1:knee",
-          "u12:back"
+          "u1:skin",
+          "u1:soul"
         ]
       },
       "clozeEasy": [
@@ -3385,9 +3385,9 @@
           "clue": "戴帽子的部位",
           "answerEntryId": "u1:head",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:shoulder",
-            "u1:stomach"
+            "u1:view",
+            "u1:bottom",
+            "u1:put"
           ]
         },
         {
@@ -3397,9 +3397,9 @@
           "clue": "點頭搖頭的主體",
           "answerEntryId": "u1:head",
           "distractorEntryIds": [
-            "u1:hand",
-            "u2:uncle",
-            "u1:finger"
+            "u1:ankle",
+            "u1:blood",
+            "u1:rub"
           ]
         }
       ],
@@ -3411,21 +3411,21 @@
           "clue": "帽子戴住的部位",
           "answerEntryId": "u1:head",
           "distractorEntryIds": [
-            "u1:shoulder",
-            "u1:hip",
-            "u1:hair"
+            "u1:face",
+            "u1:hair",
+            "u1:ear"
           ]
         },
         {
-          "sentence": "Use your ___ and think before you answer.",
-          "fullSentence": "Use your head and think before you answer.",
-          "translation": "回答前先動腦思考。",
-          "clue": "裝著腦部的部位",
+          "sentence": "Use the part above your neck and think carefully before you answer with your ___.",
+          "fullSentence": "Use the part above your neck and think carefully before you answer with your head.",
+          "translation": "回答前先運用脖子上方的頭腦仔細思考。",
+          "clue": "位於脖子上方、包含大腦的部位",
           "answerEntryId": "u1:head",
           "distractorEntryIds": [
             "u1:heart",
             "u1:stomach",
-            "u1:brain"
+            "u1:hand"
           ]
         }
       ],
@@ -3436,9 +3436,9 @@
         "clue": "戴帽子的身體頂端",
         "answerEntryId": "u1:head",
         "distractorEntryIds": [
-          "u1:brain",
-          "u1:hand",
-          "u1:shoulder"
+          "u1:beard",
+          "u1:mouth",
+          "u1:tooth"
         ]
       }
     },
@@ -3458,9 +3458,9 @@
         "clue": "胸腔裡跳動送血的器官",
         "answerEntryId": "u1:heart",
         "distractorEntryIds": [
-          "u1:brain",
           "u1:stomach",
-          "u1:throat"
+          "u1:gesture",
+          "u1:hip"
         ]
       },
       "clozeEasy": [
@@ -3471,9 +3471,9 @@
           "clue": "負責送血的肌肉器官",
           "answerEntryId": "u1:heart",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:ear",
-            "u1:nose"
+            "u1:motion",
+            "u1:back",
+            "u1:press"
           ]
         },
         {
@@ -3483,9 +3483,9 @@
           "clue": "左胸跳動的器官",
           "answerEntryId": "u1:heart",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:brain",
-            "u1:bone"
+            "u1:knee",
+            "u1:neck",
+            "u1:print"
           ]
         }
       ],
@@ -3497,9 +3497,9 @@
           "clue": "以固定節律跳動的器官",
           "answerEntryId": "u1:heart",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:brain",
-            "u1:voice"
+            "u1:body",
+            "u1:bone",
+            "u1:soul"
           ]
         },
         {
@@ -3509,9 +3509,9 @@
           "clue": "緊張時加快的器官",
           "answerEntryId": "u1:heart",
           "distractorEntryIds": [
-            "u1:family",
-            "u1:hand",
-            "u1:eye"
+            "u1:brain",
+            "u1:joint",
+            "u1:blood"
           ]
         }
       ],
@@ -3523,8 +3523,8 @@
         "answerEntryId": "u1:heart",
         "distractorEntryIds": [
           "u1:brain",
-          "u1:stomach",
-          "u1:throat"
+          "u1:joint",
+          "u1:body"
         ]
       }
     },
@@ -3544,9 +3544,9 @@
         "clue": "腰以下大腿以上的部位",
         "answerEntryId": "u1:hip",
         "distractorEntryIds": [
-          "u1:shoulder",
-          "u1:knee",
-          "u1:neck"
+          "u1:throat",
+          "u1:foot",
+          "u1:hand"
         ]
       },
       "clozeEasy": [
@@ -3557,9 +3557,9 @@
           "clue": "可以扭動的腰下部位",
           "answerEntryId": "u1:hip",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:ankle",
-            "u1:finger"
+            "u1:movement",
+            "u1:heart",
+            "u1:fall"
           ]
         },
         {
@@ -3569,9 +3569,9 @@
           "clue": "褲頭以下的寬部位",
           "answerEntryId": "u1:hip",
           "distractorEntryIds": [
-            "u1:neck",
-            "u1:wrist",
-            "u1:throat"
+            "u1:head",
+            "u1:skin",
+            "u1:flow"
           ]
         }
       ],
@@ -3583,9 +3583,9 @@
           "clue": "可以托住孩子的腰側",
           "answerEntryId": "u1:hip",
           "distractorEntryIds": [
-            "u1:shoulder",
-            "u12:back",
-            "u1:hand"
+            "u1:waist",
+            "u1:stomach",
+            "u1:back"
           ]
         },
         {
@@ -3595,9 +3595,9 @@
           "clue": "坐姿施壓的關節部位",
           "answerEntryId": "u1:hip",
           "distractorEntryIds": [
-            "u1:knee",
-            "u1:wrist",
-            "u1:joint"
+            "u1:neck",
+            "u1:shoulder",
+            "u1:body"
           ]
         }
       ],
@@ -3608,9 +3608,9 @@
         "clue": "位於腰部以下的關節",
         "answerEntryId": "u1:hip",
         "distractorEntryIds": [
-          "u1:shoulder",
-          "u1:neck",
-          "u1:wrist"
+          "u1:waist",
+          "u1:stomach",
+          "u1:back"
         ]
       }
     },
@@ -3630,9 +3630,9 @@
         "clue": "用力擊打目標",
         "answerEntryId": "u1:hit",
         "distractorEntryIds": [
-          "u1:throw",
-          "u1:pull",
-          "u1:hold"
+          "u1:hold",
+          "u1:kick",
+          "u1:kiss"
         ]
       },
       "clozeEasy": [
@@ -3643,9 +3643,9 @@
           "clue": "用手打人",
           "answerEntryId": "u1:hit",
           "distractorEntryIds": [
-            "u1:hug",
-            "u1:kiss",
-            "u1:wave"
+            "u1:shake",
+            "u1:shout",
+            "u1:smile"
           ]
         },
         {
@@ -3655,9 +3655,9 @@
           "clue": "撞擊到東西",
           "answerEntryId": "u1:hit",
           "distractorEntryIds": [
-            "u1:move",
-            "u32:take",
-            "u32:stop"
+            "u1:throw",
+            "u1:lick",
+            "u1:lift"
           ]
         }
       ],
@@ -3669,9 +3669,9 @@
           "clue": "以拳擊打",
           "answerEntryId": "u1:hit",
           "distractorEntryIds": [
-            "u1:knock",
+            "u1:pull",
             "u1:push",
-            "u1:press"
+            "u1:kick"
           ]
         },
         {
@@ -3681,9 +3681,9 @@
           "clue": "工具擊打",
           "answerEntryId": "u1:hit",
           "distractorEntryIds": [
-            "u1:pull",
+            "u1:throw",
             "u1:lift",
-            "u1:carry"
+            "u1:pull"
           ]
         }
       ],
@@ -3694,9 +3694,9 @@
         "clue": "揮棒擊球的動作",
         "answerEntryId": "u1:hit",
         "distractorEntryIds": [
-          "u1:throw",
-          "u1:pull",
-          "u1:push"
+          "u1:push",
+          "u1:kick",
+          "u1:lift"
         ]
       }
     },
@@ -3716,9 +3716,9 @@
         "clue": "用手握著物品",
         "answerEntryId": "u1:hold",
         "distractorEntryIds": [
-          "u1:drop",
-          "u1:throw",
-          "u1:push"
+          "u1:move",
+          "u1:pick",
+          "u1:walk"
         ]
       },
       "clozeEasy": [
@@ -3729,9 +3729,9 @@
           "clue": "持握使不落下",
           "answerEntryId": "u1:hold",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:throw",
-            "u1:push"
+            "u1:wave",
+            "u1:yell",
+            "u1:bow"
           ]
         },
         {
@@ -3741,9 +3741,9 @@
           "clue": "抓握支撐物",
           "answerEntryId": "u1:hold",
           "distractorEntryIds": [
-            "u1:carry",
-            "u1:wave",
-            "u1:clap"
+            "u1:bite",
+            "u1:blow",
+            "u1:carry"
           ]
         }
       ],
@@ -3755,9 +3755,9 @@
           "clue": "牽住不放",
           "answerEntryId": "u1:hold",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:push",
-            "u1:wave"
+            "u1:lay",
+            "u1:put",
+            "u1:rub"
           ]
         },
         {
@@ -3767,9 +3767,9 @@
           "clue": "使呼吸暫停",
           "answerEntryId": "u1:hold",
           "distractorEntryIds": [
-            "u32:think",
-            "u32:visit",
-            "u1:put"
+            "u1:drop",
+            "u1:press",
+            "u1:print"
           ]
         }
       ],
@@ -3780,9 +3780,9 @@
         "clue": "持握在手的動作",
         "answerEntryId": "u1:hold",
         "distractorEntryIds": [
-          "u1:drop",
-          "u14:lose",
-          "u1:pull"
+          "u1:pull",
+          "u1:push",
+          "u1:throw"
         ]
       }
     },
@@ -3802,9 +3802,9 @@
         "clue": "雙腳或單腳小跳",
         "answerEntryId": "u1:hop",
         "distractorEntryIds": [
-          "u14:run",
-          "u1:walk",
-          "u1:sit"
+          "u1:cry",
+          "u1:hug",
+          "u1:nod"
         ]
       },
       "clozeEasy": [
@@ -3815,9 +3815,9 @@
           "clue": "用一隻腳跳",
           "answerEntryId": "u1:hop",
           "distractorEntryIds": [
-            "u1:sit",
-            "u1:stand",
-            "u32:sleep"
+            "u1:clap",
+            "u1:fall",
+            "u1:knock"
           ]
         },
         {
@@ -3827,9 +3827,9 @@
           "clue": "小步跳躍移動",
           "answerEntryId": "u1:hop",
           "distractorEntryIds": [
-            "u14:run",
-            "u14:swim",
-            "u12:fly"
+            "u1:flow",
+            "u1:grow",
+            "u1:hold"
           ]
         }
       ],
@@ -3841,9 +3841,9 @@
           "clue": "短距離跳躍",
           "answerEntryId": "u1:hop",
           "distractorEntryIds": [
-            "u1:jump",
-            "u1:walk",
-            "u14:climb"
+            "u1:run",
+            "u1:slip",
+            "u1:walk"
           ]
         },
         {
@@ -3853,9 +3853,9 @@
           "clue": "輕快跳動下行",
           "answerEntryId": "u1:hop",
           "distractorEntryIds": [
-            "u14:run",
-            "u1:walk",
-            "u1:sit"
+            "u1:sit",
+            "u1:sleep",
+            "u1:stand"
           ]
         }
       ],
@@ -3866,9 +3866,9 @@
         "clue": "雙腳併跳前進",
         "answerEntryId": "u1:hop",
         "distractorEntryIds": [
-          "u14:run",
-          "u1:jump",
-          "u14:climb"
+          "u1:fall",
+          "u1:flow",
+          "u1:grow"
         ]
       }
     },
@@ -3888,9 +3888,9 @@
         "clue": "雙臂環抱對方",
         "answerEntryId": "u1:hug",
         "distractorEntryIds": [
-          "u1:kiss",
-          "u1:wave",
-          "u1:clap"
+          "u1:hop",
+          "u1:laugh",
+          "u1:point"
         ]
       },
       "clozeEasy": [
@@ -3901,9 +3901,9 @@
           "clue": "張開雙臂抱住",
           "answerEntryId": "u1:hug",
           "distractorEntryIds": [
-            "u1:kiss",
-            "u1:view",
-            "u1:shout"
+            "u1:shake",
+            "u1:shout",
+            "u1:jump"
           ]
         },
         {
@@ -3913,9 +3913,9 @@
           "clue": "高興時抱在一起",
           "answerEntryId": "u1:hug",
           "distractorEntryIds": [
-            "u1:cry",
-            "u1:shout",
-            "u32:hear"
+            "u1:smile",
+            "u1:kiss",
+            "u1:lick"
           ]
         }
       ],
@@ -3927,9 +3927,9 @@
           "clue": "雙臂環抱物品入睡",
           "answerEntryId": "u1:hug",
           "distractorEntryIds": [
-            "u1:carry",
-            "u1:push",
-            "u1:pull"
+            "u1:wave",
+            "u1:clap",
+            "u1:bow"
           ]
         },
         {
@@ -3939,22 +3939,22 @@
           "clue": "離別時的擁抱",
           "answerEntryId": "u1:hug",
           "distractorEntryIds": [
-            "u1:wave",
-            "u1:shout",
-            "u1:clap"
+            "u1:nod",
+            "u1:kiss",
+            "u1:wave"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "People ___ with both arms, but shake hands with only one.",
-        "fullSentence": "People hug with both arms, but shake hands with only one.",
-        "translation": "擁抱用雙臂，握手只用一隻手。",
-        "clue": "雙臂環抱的動作",
+        "sentence": "When they reunite after months apart, the friends will ___ with both arms.",
+        "fullSentence": "When they reunite after months apart, the friends will hug with both arms.",
+        "translation": "分別數月後重逢時，朋友們會張開雙臂擁抱。",
+        "clue": "重逢時以雙臂環抱",
         "answerEntryId": "u1:hug",
         "distractorEntryIds": [
+          "u1:shake",
           "u1:bow",
-          "u1:kiss",
-          "u1:wave"
+          "u1:nod"
         ]
       }
     },
@@ -3974,9 +3974,9 @@
         "clue": "骨骼相接可彎曲處",
         "answerEntryId": "u1:joint",
         "distractorEntryIds": [
-          "u1:blood",
-          "u1:brother",
-          "u1:hair"
+          "u1:view",
+          "u1:sense",
+          "u1:sight"
         ]
       },
       "clozeEasy": [
@@ -3987,9 +3987,9 @@
           "clue": "手臂彎曲處",
           "answerEntryId": "u1:joint",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:finger",
-            "u1:wrist"
+            "u1:voice",
+            "u1:leg",
+            "u1:move"
           ]
         },
         {
@@ -3999,9 +3999,9 @@
           "clue": "老年人常痠痛的連接處",
           "answerEntryId": "u1:joint",
           "distractorEntryIds": [
-            "u1:heart",
-            "u1:throat",
-            "u1:stomach"
+            "u1:toe",
+            "u1:ankle",
+            "u1:pick"
           ]
         }
       ],
@@ -4014,8 +4014,8 @@
           "answerEntryId": "u1:joint",
           "distractorEntryIds": [
             "u1:bone",
-            "u1:father",
-            "u1:blood"
+            "u1:soul",
+            "u1:heart"
           ]
         },
         {
@@ -4025,9 +4025,9 @@
           "clue": "手指彎折處",
           "answerEntryId": "u1:joint",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:nail",
-            "u1:head"
+            "u1:blood",
+            "u1:brain",
+            "u1:body"
           ]
         }
       ],
@@ -4038,9 +4038,9 @@
         "clue": "使肢體能轉動的接點",
         "answerEntryId": "u1:joint",
         "distractorEntryIds": [
-          "u1:throat",
-          "u1:movement",
-          "u1:blood"
+          "u1:heart",
+          "u1:bone",
+          "u1:soul"
         ]
       }
     },
@@ -4060,9 +4060,9 @@
         "clue": "用力躍起",
         "answerEntryId": "u1:jump",
         "distractorEntryIds": [
-          "u14:run",
-          "u1:walk",
-          "u1:sit"
+          "u1:yell",
+          "u1:cry",
+          "u1:hug"
         ]
       },
       "clozeEasy": [
@@ -4073,9 +4073,9 @@
           "clue": "彈跳躍起",
           "answerEntryId": "u1:jump",
           "distractorEntryIds": [
-            "u14:swim",
-            "u14:climb",
-            "u32:take"
+            "u1:carry",
+            "u1:knock",
+            "u1:laugh"
           ]
         },
         {
@@ -4085,9 +4085,9 @@
           "clue": "向下躍起",
           "answerEntryId": "u1:jump",
           "distractorEntryIds": [
-            "u1:stand",
-            "u1:push",
-            "u1:walk"
+            "u1:bite",
+            "u1:blow",
+            "u1:point"
           ]
         }
       ],
@@ -4099,9 +4099,9 @@
           "clue": "原地跳躍",
           "answerEntryId": "u1:jump",
           "distractorEntryIds": [
-            "u1:walk",
-            "u32:sleep",
-            "u1:stand"
+            "u1:run",
+            "u1:slip",
+            "u1:walk"
           ]
         },
         {
@@ -4111,9 +4111,9 @@
           "clue": "越過障礙的跳躍",
           "answerEntryId": "u1:jump",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:push",
-            "u14:climb"
+            "u1:fall",
+            "u1:flow",
+            "u1:grow"
           ]
         }
       ],
@@ -4124,9 +4124,9 @@
         "clue": "雙腳蹬地躍起",
         "answerEntryId": "u1:jump",
         "distractorEntryIds": [
-          "u1:stand",
           "u1:sit",
-          "u1:carry"
+          "u1:sleep",
+          "u1:stand"
         ]
       }
     },
@@ -4146,9 +4146,9 @@
         "clue": "用腳撞擊",
         "answerEntryId": "u1:kick",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:throw",
-          "u1:clap"
+          "u1:hop",
+          "u1:lay",
+          "u1:put"
         ]
       },
       "clozeEasy": [
@@ -4159,9 +4159,9 @@
           "clue": "用腳把球送入門",
           "answerEntryId": "u1:kick",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:hit",
-            "u1:push"
+            "u1:drop",
+            "u1:hold",
+            "u1:jump"
           ]
         },
         {
@@ -4171,9 +4171,9 @@
           "clue": "後腿擊打",
           "answerEntryId": "u1:kick",
           "distractorEntryIds": [
-            "u22:bite",
-            "u1:lick",
-            "u1:carry"
+            "u1:follow",
+            "u1:rub",
+            "u1:press"
           ]
         }
       ],
@@ -4185,9 +4185,9 @@
           "clue": "水中打水前進",
           "answerEntryId": "u1:kick",
           "distractorEntryIds": [
+            "u1:throw",
             "u1:lift",
-            "u1:shake",
-            "u1:press"
+            "u1:pull"
           ]
         },
         {
@@ -4198,8 +4198,8 @@
           "answerEntryId": "u1:kick",
           "distractorEntryIds": [
             "u1:push",
-            "u1:knock",
-            "u1:pull"
+            "u1:hit",
+            "u1:throw"
           ]
         }
       ],
@@ -4210,9 +4210,9 @@
         "clue": "以足部擊球的動作",
         "answerEntryId": "u1:kick",
         "distractorEntryIds": [
-          "u1:carry",
-          "u1:throw",
-          "u1:hold"
+          "u1:lift",
+          "u1:pull",
+          "u1:push"
         ]
       }
     },
@@ -4232,9 +4232,9 @@
         "clue": "以唇相觸表達愛",
         "answerEntryId": "u1:kiss",
         "distractorEntryIds": [
-          "u1:hug",
-          "u1:wave",
-          "u1:bow"
+          "u1:lick",
+          "u1:move",
+          "u1:pick"
         ]
       },
       "clozeEasy": [
@@ -4245,9 +4245,9 @@
           "clue": "親吻臉頰",
           "answerEntryId": "u1:kiss",
           "distractorEntryIds": [
-            "u1:hug",
-            "u32:leave",
-            "u1:print"
+            "u1:yell",
+            "u1:print",
+            "u1:shout"
           ]
         },
         {
@@ -4257,9 +4257,9 @@
           "clue": "以唇輕觸",
           "answerEntryId": "u1:kiss",
           "distractorEntryIds": [
-            "u1:hold",
-            "u32:write",
-            "u1:rub"
+            "u1:smile",
+            "u1:cry",
+            "u1:carry"
           ]
         }
       ],
@@ -4271,8 +4271,8 @@
           "clue": "貼面禮的動作",
           "answerEntryId": "u1:kiss",
           "distractorEntryIds": [
-            "u1:wave",
-            "u1:bow",
+            "u1:hug",
+            "u1:shake",
             "u1:clap"
           ]
         },
@@ -4284,8 +4284,8 @@
           "answerEntryId": "u1:kiss",
           "distractorEntryIds": [
             "u1:wave",
-            "u1:smile",
-            "u1:bow"
+            "u1:bow",
+            "u1:nod"
           ]
         }
       ],
@@ -4296,9 +4296,9 @@
         "clue": "以唇表達愛意的動作",
         "answerEntryId": "u1:kiss",
         "distractorEntryIds": [
+          "u1:shake",
           "u1:hug",
-          "u1:wave",
-          "u1:bow"
+          "u1:clap"
         ]
       }
     },
@@ -4318,9 +4318,9 @@
         "clue": "大腿小腿之間的關節",
         "answerEntryId": "u1:knee",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:shoulder",
-          "u1:neck"
+          "u1:sense",
+          "u1:sight",
+          "u1:voice"
         ]
       },
       "clozeEasy": [
@@ -4331,9 +4331,9 @@
           "clue": "腿部可彎曲的關節",
           "answerEntryId": "u1:knee",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:neck",
-            "u1:thumb"
+            "u1:bottom",
+            "u1:arm",
+            "u1:gesture"
           ]
         },
         {
@@ -4343,9 +4343,9 @@
           "clue": "褲子覆蓋的腿中關節",
           "answerEntryId": "u1:knee",
           "distractorEntryIds": [
-            "u1:ankle",
             "u1:finger",
-            "u1:lip"
+            "u1:motion",
+            "u1:ear"
           ]
         }
       ],
@@ -4357,9 +4357,9 @@
           "clue": "反射測試的腿部關節",
           "answerEntryId": "u1:knee",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:shoulder",
-            "u1:throat"
+            "u1:foot",
+            "u1:hip",
+            "u1:leg"
           ]
         },
         {
@@ -4369,9 +4369,9 @@
           "clue": "跪地時著地的關節",
           "answerEntryId": "u1:knee",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:wrist",
-            "u12:back"
+            "u1:toe",
+            "u1:ankle",
+            "u1:foot"
           ]
         }
       ],
@@ -4382,9 +4382,9 @@
         "clue": "腿部的彎曲關節",
         "answerEntryId": "u1:knee",
         "distractorEntryIds": [
-          "u1:wrist",
           "u1:hip",
-          "u1:shoulder"
+          "u1:leg",
+          "u1:toe"
         ]
       }
     },
@@ -4404,9 +4404,9 @@
         "clue": "以拳擊門出聲",
         "answerEntryId": "u1:knock",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:clap",
-          "u1:shout"
+          "u1:hop",
+          "u1:lay",
+          "u1:put"
         ]
       },
       "clozeEasy": [
@@ -4417,9 +4417,9 @@
           "clue": "禮貌地敲擊門板",
           "answerEntryId": "u1:knock",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:pull",
-            "u1:press"
+            "u1:chase",
+            "u1:laugh",
+            "u1:follow"
           ]
         },
         {
@@ -4429,9 +4429,9 @@
           "clue": "碰撞使落下",
           "answerEntryId": "u1:knock",
           "distractorEntryIds": [
-            "u1:pick",
-            "u1:lift",
-            "u1:hold"
+            "u1:point",
+            "u1:press",
+            "u1:print"
           ]
         }
       ],
@@ -4443,9 +4443,9 @@
           "clue": "屈指叩門",
           "answerEntryId": "u1:knock",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:shake",
-            "u1:press"
+            "u1:bite",
+            "u1:blow",
+            "u1:born"
           ]
         },
         {
@@ -4455,9 +4455,9 @@
           "clue": "輕微的叩擊",
           "answerEntryId": "u1:knock",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:press",
-            "u1:pull"
+            "u1:shout",
+            "u1:smile",
+            "u1:rub"
           ]
         }
       ],
@@ -4468,9 +4468,9 @@
         "clue": "用手叩擊門板",
         "answerEntryId": "u1:knock",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:press",
-          "u1:pull"
+          "u1:drop",
+          "u1:hold",
+          "u1:jump"
         ]
       }
     },
@@ -4490,9 +4490,9 @@
         "clue": "開心出聲",
         "answerEntryId": "u1:laugh",
         "distractorEntryIds": [
-          "u1:cry",
-          "u1:shout",
-          "u1:yell"
+          "u1:knock",
+          "u1:kick",
+          "u1:kiss"
         ]
       },
       "clozeEasy": [
@@ -4503,9 +4503,9 @@
           "clue": "覺得好笑而笑出聲",
           "answerEntryId": "u1:laugh",
           "distractorEntryIds": [
-            "u1:cry",
-            "u32:sleep",
-            "u14:run"
+            "u1:lick",
+            "u1:move",
+            "u1:face"
           ]
         },
         {
@@ -4515,9 +4515,9 @@
           "clue": "取笑他人",
           "answerEntryId": "u1:laugh",
           "distractorEntryIds": [
-            "u18:point",
-            "u1:shout",
-            "u1:knock"
+            "u1:run",
+            "u1:pick",
+            "u1:movement"
           ]
         }
       ],
@@ -4531,7 +4531,7 @@
           "distractorEntryIds": [
             "u1:cry",
             "u1:shout",
-            "u1:yell"
+            "u1:fall"
           ]
         },
         {
@@ -4541,9 +4541,9 @@
           "clue": "輕聲微笑出聲",
           "answerEntryId": "u1:laugh",
           "distractorEntryIds": [
-            "u1:cry",
-            "u1:shout",
-            "u1:yell"
+            "u1:bite",
+            "u1:blow",
+            "u1:cry"
           ]
         }
       ],
@@ -4554,9 +4554,9 @@
         "clue": "快樂時的表現",
         "answerEntryId": "u1:laugh",
         "distractorEntryIds": [
-          "u1:cry",
-          "u1:shout",
-          "u1:yell"
+          "u1:lick",
+          "u1:yell",
+          "u1:shout"
         ]
       }
     },
@@ -4576,9 +4576,9 @@
         "clue": "把東西放下",
         "answerEntryId": "u1:lay",
         "distractorEntryIds": [
-          "u1:pick",
-          "u1:lift",
-          "u1:hold"
+          "u1:slip",
+          "u1:walk",
+          "u1:follow"
         ]
       },
       "clozeEasy": [
@@ -4589,9 +4589,9 @@
           "clue": "放置物品",
           "answerEntryId": "u1:lay",
           "distractorEntryIds": [
-            "u1:hold",
-            "u1:carry",
-            "u1:push"
+            "u1:beat",
+            "u1:born",
+            "u1:throat"
           ]
         },
         {
@@ -4601,9 +4601,9 @@
           "clue": "產下卵",
           "answerEntryId": "u1:lay",
           "distractorEntryIds": [
-            "u22:bite",
-            "u1:pick",
-            "u32:hide"
+            "u1:hop",
+            "u1:put",
+            "u1:eye"
           ]
         }
       ],
@@ -4615,9 +4615,9 @@
           "clue": "擺放餐具",
           "answerEntryId": "u1:lay",
           "distractorEntryIds": [
-            "u11:wash",
-            "u1:push",
-            "u1:throw"
+            "u1:drop",
+            "u1:hold",
+            "u1:move"
           ]
         },
         {
@@ -4627,9 +4627,9 @@
           "clue": "產卵的過去式",
           "answerEntryId": "u1:lay",
           "distractorEntryIds": [
-            "u32:find",
-            "u1:move",
-            "u1:drop"
+            "u1:carry",
+            "u1:press",
+            "u1:print"
           ]
         }
       ],
@@ -4640,9 +4640,9 @@
         "clue": "使物品平放",
         "answerEntryId": "u1:lay",
         "distractorEntryIds": [
-          "u1:press",
+          "u1:rub",
           "u1:pick",
-          "u12:drive"
+          "u1:lift"
         ]
       }
     },
@@ -4662,9 +4662,9 @@
         "clue": "支撐行走用來跑跳的肢體",
         "answerEntryId": "u1:leg",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:eye",
-          "u1:ear"
+          "u1:hair",
+          "u1:hand",
+          "u1:head"
         ]
       },
       "clozeEasy": [
@@ -4675,9 +4675,9 @@
           "clue": "用來走路的長肢體",
           "answerEntryId": "u1:leg",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:neck",
-            "u1:wrist"
+            "u1:knee",
+            "u1:nail",
+            "u1:sign"
           ]
         },
         {
@@ -4687,9 +4687,9 @@
           "clue": "下半身的支撐肢體",
           "answerEntryId": "u1:leg",
           "distractorEntryIds": [
-            "u1:arm",
-            "u1:hair",
-            "u1:ear"
+            "u1:lip",
+            "u1:skin",
+            "u1:step"
           ]
         }
       ],
@@ -4701,9 +4701,9 @@
           "clue": "坐姿交疊的下肢",
           "answerEntryId": "u1:leg",
           "distractorEntryIds": [
-            "u1:arm",
-            "u1:finger",
-            "u1:shoulder"
+            "u1:ankle",
+            "u1:hip",
+            "u1:toe"
           ]
         },
         {
@@ -4713,9 +4713,9 @@
           "clue": "穿褲子的肢體",
           "answerEntryId": "u1:leg",
           "distractorEntryIds": [
-            "u1:arm",
-            "u1:neck",
-            "u1:waist"
+            "u1:foot",
+            "u1:knee",
+            "u1:hip"
           ]
         }
       ],
@@ -4726,9 +4726,9 @@
         "clue": "連接腳的肢體",
         "answerEntryId": "u1:leg",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:head",
-          "u1:hip"
+          "u1:knee",
+          "u1:ankle",
+          "u1:foot"
         ]
       }
     },
@@ -4748,9 +4748,9 @@
         "clue": "用舌頭碰觸",
         "answerEntryId": "u1:lick",
         "distractorEntryIds": [
-          "u22:bite",
-          "u1:kiss",
-          "u1:rub"
+          "u1:fall",
+          "u1:flow",
+          "u1:grow"
         ]
       },
       "clozeEasy": [
@@ -4761,9 +4761,9 @@
           "clue": "用舌頭取食",
           "answerEntryId": "u1:lick",
           "distractorEntryIds": [
-            "u22:bite",
-            "u1:put",
-            "u1:push"
+            "u1:lay",
+            "u1:run",
+            "u1:view"
           ]
         },
         {
@@ -4773,9 +4773,9 @@
           "clue": "舌頭沾取",
           "answerEntryId": "u1:lick",
           "distractorEntryIds": [
-            "u1:put",
-            "u22:bite",
-            "u1:kiss"
+            "u1:jump",
+            "u1:kick",
+            "u1:face"
           ]
         }
       ],
@@ -4787,9 +4787,9 @@
           "clue": "使郵票濕潤",
           "answerEntryId": "u1:lick",
           "distractorEntryIds": [
-            "u1:press",
-            "u1:rub",
-            "u32:take"
+            "u1:laugh",
+            "u1:cry",
+            "u1:smile"
           ]
         },
         {
@@ -4799,9 +4799,9 @@
           "clue": "用舌頭表示親暱",
           "answerEntryId": "u1:lick",
           "distractorEntryIds": [
-            "u22:bite",
-            "u11:wash",
-            "u32:leave"
+            "u1:bite",
+            "u1:blow",
+            "u1:yell"
           ]
         }
       ],
@@ -4812,9 +4812,9 @@
         "clue": "以舌取物的動作",
         "answerEntryId": "u1:lick",
         "distractorEntryIds": [
-          "u22:bite",
-          "u1:press",
-          "u1:chase"
+          "u1:shout",
+          "u1:laugh",
+          "u1:smile"
         ]
       }
     },
@@ -4834,9 +4834,9 @@
         "clue": "把東西往上抬",
         "answerEntryId": "u1:lift",
         "distractorEntryIds": [
-          "u1:drop",
-          "u1:push",
-          "u1:pull"
+          "u1:kiss",
+          "u1:slip",
+          "u1:walk"
         ]
       },
       "clozeEasy": [
@@ -4847,9 +4847,9 @@
           "clue": "由下往上舉",
           "answerEntryId": "u1:lift",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:push",
-            "u1:throw"
+            "u1:chase",
+            "u1:knock",
+            "u1:arm"
           ]
         },
         {
@@ -4859,9 +4859,9 @@
           "clue": "高舉過頭",
           "answerEntryId": "u1:lift",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:drop",
-            "u1:carry"
+            "u1:wave",
+            "u1:point",
+            "u1:throat"
           ]
         }
       ],
@@ -4873,9 +4873,9 @@
           "clue": "使物體離地上升",
           "answerEntryId": "u1:lift",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:carry",
-            "u1:push"
+            "u1:throw",
+            "u1:kick",
+            "u1:pull"
           ]
         },
         {
@@ -4885,22 +4885,22 @@
           "clue": "抬起頭部",
           "answerEntryId": "u1:lift",
           "distractorEntryIds": [
-            "u1:press",
-            "u1:shake",
-            "u1:move"
+            "u1:push",
+            "u1:hit",
+            "u1:throw"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "A crane can ___ a whole car, but your hands can only push it.",
-        "fullSentence": "A crane can lift a whole car, but your hands can only push it.",
-        "translation": "起重機能吊起整輛車，你的手只能推它。",
-        "clue": "由下往上的舉升",
+        "sentence": "A crane can ___ a heavy car straight off the ground.",
+        "fullSentence": "A crane can lift a heavy car straight off the ground.",
+        "translation": "起重機能把沉重的汽車直接吊離地面。",
+        "clue": "使重物離開地面",
         "answerEntryId": "u1:lift",
         "distractorEntryIds": [
-          "u1:carry",
+          "u1:kick",
           "u1:pull",
-          "u32:hear"
+          "u1:push"
         ]
       }
     },
@@ -4920,9 +4920,9 @@
         "clue": "嘴巴上下兩片皮肉",
         "answerEntryId": "u1:lip",
         "distractorEntryIds": [
-          "u1:tooth",
-          "u1:throat",
-          "u1:nose"
+          "u1:gesture",
+          "u1:ear",
+          "u1:eye"
         ]
       },
       "clozeEasy": [
@@ -4933,9 +4933,9 @@
           "clue": "嘴邊的兩片皮膚",
           "answerEntryId": "u1:lip",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:throat",
-            "u1:hair"
+            "u1:hair",
+            "u1:hand",
+            "u1:bottom"
           ]
         },
         {
@@ -4945,9 +4945,9 @@
           "clue": "微笑時上揚的部位",
           "answerEntryId": "u1:lip",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:ear",
-            "u1:step"
+            "u1:head",
+            "u1:nail",
+            "u1:movement"
           ]
         }
       ],
@@ -4959,9 +4959,9 @@
           "clue": "天冷易乾裂的部位",
           "answerEntryId": "u1:lip",
           "distractorEntryIds": [
-            "u1:cousin",
-            "u1:hair",
-            "u1:bone"
+            "u1:beard",
+            "u1:mouth",
+            "u1:tooth"
           ]
         },
         {
@@ -4971,9 +4971,9 @@
           "clue": "發聲前的唇部動作",
           "answerEntryId": "u1:lip",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:throat",
-            "u1:finger"
+            "u1:nose",
+            "u1:face",
+            "u1:beard"
           ]
         }
       ],
@@ -4984,9 +4984,9 @@
         "clue": "塗口紅的部位",
         "answerEntryId": "u1:lip",
         "distractorEntryIds": [
-          "u1:tooth",
-          "u1:nose",
-          "u1:thumb"
+          "u1:ear",
+          "u1:eye",
+          "u1:hair"
         ]
       }
     },
@@ -5006,9 +5006,9 @@
         "clue": "以動作傳達訊息",
         "answerEntryId": "u1:motion",
         "distractorEntryIds": [
-          "u1:gesture",
-          "u1:voice",
-          "u1:sight"
+          "u1:lip",
+          "u1:neck",
+          "u1:sign"
         ]
       },
       "clozeEasy": [
@@ -5019,9 +5019,9 @@
           "clue": "物體的移動",
           "answerEntryId": "u1:motion",
           "distractorEntryIds": [
-            "u1:view",
-            "u1:sight",
-            "u1:movement"
+            "u1:finger",
+            "u1:joint",
+            "u1:sense"
           ]
         },
         {
@@ -5031,8 +5031,8 @@
           "clue": "身體的姿態變化",
           "answerEntryId": "u1:motion",
           "distractorEntryIds": [
-            "u1:heart",
-            "u1:voice",
+            "u1:skin",
+            "u1:step",
             "u1:sight"
           ]
         }
@@ -5092,9 +5092,9 @@
         "clue": "吃飯說話的入口",
         "answerEntryId": "u1:mouth",
         "distractorEntryIds": [
-          "u1:nose",
-          "u1:ear",
-          "u1:eye"
+          "u1:view",
+          "u1:thumb",
+          "u1:voice"
         ]
       },
       "clozeEasy": [
@@ -5105,9 +5105,9 @@
           "clue": "蛀牙發生的部位",
           "answerEntryId": "u1:mouth",
           "distractorEntryIds": [
-            "u1:ear",
-            "u1:eye",
-            "u1:nail"
+            "u1:motion",
+            "u1:waist",
+            "u1:wrist"
           ]
         },
         {
@@ -5117,9 +5117,9 @@
           "clue": "說話出聲的部位",
           "answerEntryId": "u1:mouth",
           "distractorEntryIds": [
-            "u1:ear",
-            "u1:hand",
-            "u1:eye"
+            "u1:finger",
+            "u1:shoulder",
+            "u1:bottom"
           ]
         }
       ],
@@ -5131,8 +5131,8 @@
           "clue": "牙齒所在的腔口",
           "answerEntryId": "u1:mouth",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:throat",
+            "u1:sense",
+            "u1:sight",
             "u1:nose"
           ]
         },
@@ -5143,9 +5143,9 @@
           "clue": "咀嚼吞嚥的開口",
           "answerEntryId": "u1:mouth",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:throat",
-            "u1:lip"
+            "u1:ear",
+            "u1:eye",
+            "u1:view"
           ]
         }
       ],
@@ -5156,9 +5156,9 @@
         "clue": "進食的開口",
         "answerEntryId": "u1:mouth",
         "distractorEntryIds": [
-          "u1:eye",
-          "u1:ear",
-          "u1:throat"
+          "u1:voice",
+          "u1:sense",
+          "u1:sight"
         ]
       }
     },
@@ -5178,9 +5178,9 @@
         "clue": "位置變化",
         "answerEntryId": "u1:move",
         "distractorEntryIds": [
-          "u32:sleep",
-          "u32:grow",
-          "u1:sit"
+          "u1:follow",
+          "u1:carry",
+          "u1:chase"
         ]
       },
       "clozeEasy": [
@@ -5191,9 +5191,9 @@
           "clue": "使物體換位置",
           "answerEntryId": "u1:move",
           "distractorEntryIds": [
-            "u1:lick",
-            "u1:print",
-            "u1:view"
+            "u1:knock",
+            "u1:point",
+            "u1:motion"
           ]
         },
         {
@@ -5203,9 +5203,9 @@
           "clue": "身體滑行前進",
           "answerEntryId": "u1:move",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:lick",
-            "u1:sit"
+            "u1:press",
+            "u1:print",
+            "u1:movement"
           ]
         }
       ],
@@ -5217,9 +5217,9 @@
           "clue": "搬遷住處",
           "answerEntryId": "u1:move",
           "distractorEntryIds": [
-            "u1:fall",
-            "u11:wash",
-            "u14:run"
+            "u1:drop",
+            "u1:hold",
+            "u1:pick"
           ]
         },
         {
@@ -5229,9 +5229,9 @@
           "clue": "使棋子換位",
           "answerEntryId": "u1:move",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:shake",
-            "u1:lift"
+            "u1:lay",
+            "u1:put",
+            "u1:rub"
           ]
         }
       ],
@@ -5242,9 +5242,9 @@
         "clue": "使物體位移",
         "answerEntryId": "u1:move",
         "distractorEntryIds": [
-          "u1:shake",
-          "u1:press",
-          "u1:lift"
+          "u1:lift",
+          "u1:throw",
+          "u1:pull"
         ]
       }
     },
@@ -5264,9 +5264,9 @@
         "clue": "肢體的動態表現",
         "answerEntryId": "u1:movement",
         "distractorEntryIds": [
-          "u1:voice",
-          "u1:sight",
-          "u1:sense"
+          "u1:brother",
+          "u1:stomach",
+          "u1:back"
         ]
       },
       "clozeEasy": [
@@ -5277,9 +5277,9 @@
           "clue": "動物的行動",
           "answerEntryId": "u1:movement",
           "distractorEntryIds": [
-            "u1:view",
-            "u1:sight",
-            "u1:blood"
+            "u1:throat",
+            "u1:bone",
+            "u1:beat"
           ]
         },
         {
@@ -5289,9 +5289,9 @@
           "clue": "讓身體動起來的行為",
           "answerEntryId": "u1:movement",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:sight",
-            "u1:voice"
+            "u1:blood",
+            "u1:brain",
+            "u1:grandfather"
           ]
         }
       ],
@@ -5350,9 +5350,9 @@
         "clue": "手指末端硬硬的部分",
         "answerEntryId": "u1:nail",
         "distractorEntryIds": [
-          "u1:finger",
-          "u1:toe",
-          "u1:thumb"
+          "u1:arm",
+          "u1:leg",
+          "u1:lip"
         ]
       },
       "clozeEasy": [
@@ -5363,9 +5363,9 @@
           "clue": "手指尖的硬片",
           "answerEntryId": "u1:nail",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:lip",
-            "u1:hair"
+            "u1:heart",
+            "u1:joint",
+            "u1:bow"
           ]
         },
         {
@@ -5375,9 +5375,9 @@
           "clue": "指尖上可修剪的硬組織",
           "answerEntryId": "u1:nail",
           "distractorEntryIds": [
-            "u1:hair",
-            "u18:point",
-            "u1:bone"
+            "u1:hand",
+            "u1:head",
+            "u1:hop"
           ]
         }
       ],
@@ -5389,9 +5389,9 @@
           "clue": "需要磨平修整的硬片",
           "answerEntryId": "u1:nail",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:bone",
-            "u1:joint"
+            "u1:thumb",
+            "u1:wrist",
+            "u1:finger"
           ]
         },
         {
@@ -5401,8 +5401,8 @@
           "clue": "敲鍵盤出聲的指尖硬片",
           "answerEntryId": "u1:nail",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:neck",
+            "u1:shoulder",
+            "u1:arm",
             "u1:thumb"
           ]
         }
@@ -5414,9 +5414,9 @@
         "clue": "指尖上被修剪的硬片",
         "answerEntryId": "u1:nail",
         "distractorEntryIds": [
-          "u1:joint",
-          "u1:tooth",
-          "u1:throat"
+          "u1:hand",
+          "u1:wrist",
+          "u1:finger"
         ]
       }
     },
@@ -5436,9 +5436,9 @@
         "clue": "連接頭和身體的部位",
         "answerEntryId": "u1:neck",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:waist",
-          "u1:ankle"
+          "u1:nail",
+          "u1:skin",
+          "u1:soul"
         ]
       },
       "clozeEasy": [
@@ -5449,9 +5449,9 @@
           "clue": "撐住頭部的部位",
           "answerEntryId": "u1:neck",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:finger",
-            "u1:knee"
+            "u1:grandmother",
+            "u1:mouth",
+            "u1:hug"
           ]
         },
         {
@@ -5461,9 +5461,9 @@
           "clue": "瓶子上方的細長部分",
           "answerEntryId": "u1:neck",
           "distractorEntryIds": [
-            "u1:mouth",
-            "u1:body",
-            "u1:bottom"
+            "u1:tooth",
+            "u1:waist",
+            "u1:nod"
           ]
         }
       ],
@@ -5475,9 +5475,9 @@
           "clue": "項鍊繞住的部位",
           "answerEntryId": "u1:neck",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:waist",
-            "u1:finger"
+            "u1:back",
+            "u1:body",
+            "u1:stomach"
           ]
         },
         {
@@ -5487,9 +5487,9 @@
           "clue": "頭下方可轉動的部位",
           "answerEntryId": "u1:neck",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:toe",
-            "u1:eye"
+            "u1:hip",
+            "u1:shoulder",
+            "u1:waist"
           ]
         }
       ],
@@ -5500,9 +5500,9 @@
         "clue": "頭與肩之間的部位",
         "answerEntryId": "u1:neck",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:head",
-          "u1:finger"
+          "u1:stomach",
+          "u1:back",
+          "u1:body"
         ]
       }
     },
@@ -5523,8 +5523,8 @@
         "answerEntryId": "u1:nod",
         "distractorEntryIds": [
           "u1:shake",
-          "u1:wave",
-          "u1:bow"
+          "u1:sleep",
+          "u1:stand"
         ]
       },
       "clozeEasy": [
@@ -5535,9 +5535,9 @@
           "clue": "上下點頭贊同",
           "answerEntryId": "u1:nod",
           "distractorEntryIds": [
-            "u1:shake",
-            "u1:shout",
-            "u1:cry"
+            "u1:run",
+            "u1:sit",
+            "u1:born"
           ]
         },
         {
@@ -5547,9 +5547,9 @@
           "clue": "以頭部動作回應",
           "answerEntryId": "u1:nod",
           "distractorEntryIds": [
-            "u1:wave",
-            "u1:laugh",
-            "u1:slip"
+            "u1:clap",
+            "u1:fall",
+            "u1:flow"
           ]
         }
       ],
@@ -5561,9 +5561,9 @@
           "clue": "無聲表示贊成",
           "answerEntryId": "u1:nod",
           "distractorEntryIds": [
-            "u1:shake",
-            "u1:shout",
-            "u1:clap"
+            "u1:kiss",
+            "u1:wave",
+            "u1:bow"
           ]
         },
         {
@@ -5573,22 +5573,22 @@
           "clue": "頭垂下打盹",
           "answerEntryId": "u1:nod",
           "distractorEntryIds": [
-            "u1:fall",
-            "u1:sit",
-            "u1:stand"
+            "u1:hug",
+            "u1:clap",
+            "u1:kiss"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "You ___ your head to say yes, but shake it to say no.",
-        "fullSentence": "You nod your head to say yes, but shake it to say no.",
-        "translation": "點頭表示好，搖頭表示不要。",
-        "clue": "頭向下的同意動作",
+        "sentence": "To show agreement silently, you can ___ once without speaking.",
+        "fullSentence": "To show agreement silently, you can nod once without speaking.",
+        "translation": "要無聲地表示同意，你可以點一下頭而不必說話。",
+        "clue": "以頭部動作無聲表示同意",
         "answerEntryId": "u1:nod",
         "distractorEntryIds": [
-          "u1:clap",
-          "u1:move",
-          "u1:lift"
+          "u1:wave",
+          "u1:shake",
+          "u1:clap"
         ]
       }
     },
@@ -5608,9 +5608,9 @@
         "clue": "臉上用來聞的器官",
         "answerEntryId": "u1:nose",
         "distractorEntryIds": [
-          "u1:ear",
-          "u1:eye",
-          "u1:mouth"
+          "u1:neck",
+          "u1:brother",
+          "u1:daughter"
         ]
       },
       "clozeEasy": [
@@ -5621,9 +5621,9 @@
           "clue": "臉中央的呼吸器官",
           "answerEntryId": "u1:nose",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:throat",
-            "u1:ear"
+            "u1:aunt",
+            "u1:bone",
+            "u1:grow"
           ]
         },
         {
@@ -5633,9 +5633,9 @@
           "clue": "臉部中央突起部位",
           "answerEntryId": "u1:nose",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:knee",
-            "u1:hand"
+            "u1:movement",
+            "u1:beard",
+            "u1:jump"
           ]
         }
       ],
@@ -5647,9 +5647,9 @@
           "clue": "會流鼻水的器官",
           "answerEntryId": "u1:nose",
           "distractorEntryIds": [
+            "u1:view",
             "u1:mouth",
-            "u1:eye",
-            "u1:lip"
+            "u1:voice"
           ]
         },
         {
@@ -5659,9 +5659,9 @@
           "clue": "動物用來嗅聞的部位",
           "answerEntryId": "u1:nose",
           "distractorEntryIds": [
-            "u1:ear",
-            "u1:hand",
-            "u1:eye"
+            "u1:sense",
+            "u1:sight",
+            "u1:ear"
           ]
         }
       ],
@@ -5672,9 +5672,9 @@
         "clue": "負責嗅覺的器官",
         "answerEntryId": "u1:nose",
         "distractorEntryIds": [
-          "u1:mouth",
           "u1:eye",
-          "u1:ear"
+          "u1:view",
+          "u1:mouth"
         ]
       }
     },
@@ -5694,9 +5694,9 @@
         "clue": "選出想要的",
         "answerEntryId": "u1:pick",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:throw",
-          "u1:drop"
+          "u1:lick",
+          "u1:move",
+          "u1:slip"
         ]
       },
       "clozeEasy": [
@@ -5707,9 +5707,9 @@
           "clue": "從樹上摘下",
           "answerEntryId": "u1:pick",
           "distractorEntryIds": [
-            "u14:dance",
-            "u1:blood",
-            "u1:follow"
+            "u1:walk",
+            "u1:beat",
+            "u1:blood"
           ]
         },
         {
@@ -5719,9 +5719,9 @@
           "clue": "選取一張",
           "answerEntryId": "u1:pick",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:drop",
-            "u32:hide"
+            "u1:cry",
+            "u1:hop",
+            "u1:brain"
           ]
         }
       ],
@@ -5733,9 +5733,9 @@
           "clue": "拾起地上的物品",
           "answerEntryId": "u1:pick",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:throw",
-            "u1:push"
+            "u1:lay",
+            "u1:put",
+            "u1:rub"
           ]
         },
         {
@@ -5745,9 +5745,9 @@
           "clue": "從選項中挑選",
           "answerEntryId": "u1:pick",
           "distractorEntryIds": [
-            "u1:print",
-            "u1:shake",
-            "u11:wash"
+            "u1:carry",
+            "u1:press",
+            "u1:print"
           ]
         }
       ],
@@ -5758,9 +5758,9 @@
         "clue": "自枝頭摘取",
         "answerEntryId": "u1:pick",
         "distractorEntryIds": [
-          "u1:shake",
-          "u1:pull",
-          "u1:press"
+          "u1:drop",
+          "u1:hold",
+          "u1:lift"
         ]
       }
     },
@@ -5780,9 +5780,9 @@
         "clue": "以手指指示",
         "answerEntryId": "u1:point",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:wave",
-          "u1:clap"
+          "u1:bite",
+          "u1:blow",
+          "u1:born"
         ]
       },
       "clozeEasy": [
@@ -5793,9 +5793,9 @@
           "clue": "用手指表示方向",
           "answerEntryId": "u1:point",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:print",
-            "u1:press"
+            "u1:chase",
+            "u1:knock",
+            "u1:throat"
           ]
         },
         {
@@ -5805,9 +5805,9 @@
           "clue": "標示方向",
           "answerEntryId": "u1:point",
           "distractorEntryIds": [
-            "u1:move",
-            "u1:hug",
-            "u1:stand"
+            "u1:fall",
+            "u1:flow",
+            "u1:grandfather"
           ]
         }
       ],
@@ -5819,9 +5819,9 @@
           "clue": "指出特定之處",
           "answerEntryId": "u1:point",
           "distractorEntryIds": [
-            "u11:wash",
-            "u32:hide",
-            "u1:print"
+            "u1:grow",
+            "u1:jump",
+            "u1:lick"
           ]
         },
         {
@@ -5831,9 +5831,9 @@
           "clue": "以指尖指示",
           "answerEntryId": "u1:point",
           "distractorEntryIds": [
-            "u1:print",
-            "u1:follow",
-            "u1:lift"
+            "u1:move",
+            "u1:pick",
+            "u1:slip"
           ]
         }
       ],
@@ -5844,9 +5844,9 @@
         "clue": "指示固定方向",
         "answerEntryId": "u1:point",
         "distractorEntryIds": [
-          "u32:rise",
-          "u1:move",
-          "u32:find"
+          "u1:follow",
+          "u1:walk",
+          "u1:yell"
         ]
       }
     },
@@ -5866,9 +5866,9 @@
         "clue": "以手指下壓",
         "answerEntryId": "u1:press",
         "distractorEntryIds": [
-          "u1:pull",
-          "u1:lift",
-          "u1:throw"
+          "u1:nod",
+          "u1:run",
+          "u1:sit"
         ]
       },
       "clozeEasy": [
@@ -5879,9 +5879,9 @@
           "clue": "施力使貼合",
           "answerEntryId": "u1:press",
           "distractorEntryIds": [
-            "u1:rub",
-            "u1:drop",
-            "u1:throw"
+            "u1:laugh",
+            "u1:point",
+            "u1:bottom"
           ]
         },
         {
@@ -5891,9 +5891,9 @@
           "clue": "施壓於傷處",
           "answerEntryId": "u1:press",
           "distractorEntryIds": [
-            "u32:visit",
-            "u1:wave",
-            "u18:point"
+            "u1:sleep",
+            "u1:stand",
+            "u1:grandmother"
           ]
         }
       ],
@@ -5905,9 +5905,9 @@
           "clue": "以指觸壓門鈴",
           "answerEntryId": "u1:press",
           "distractorEntryIds": [
-            "u1:knock",
-            "u1:pull",
-            "u1:push"
+            "u1:drop",
+            "u1:hold",
+            "u1:move"
           ]
         },
         {
@@ -5917,9 +5917,9 @@
           "clue": "施重壓平衣物",
           "answerEntryId": "u1:press",
           "distractorEntryIds": [
-            "u11:wash",
-            "u32:find",
-            "u1:hold"
+            "u1:carry",
+            "u1:print",
+            "u1:pick"
           ]
         }
       ],
@@ -5930,9 +5930,9 @@
         "clue": "指尖下壓的動作",
         "answerEntryId": "u1:press",
         "distractorEntryIds": [
-          "u1:move",
-          "u1:pull",
-          "u1:knock"
+          "u1:lay",
+          "u1:put",
+          "u1:rub"
         ]
       }
     },
@@ -5952,9 +5952,9 @@
         "clue": "由電腦輸出到紙上",
         "answerEntryId": "u1:print",
         "distractorEntryIds": [
-          "u32:sleep",
-          "u1:fall",
-          "u1:stand"
+          "u1:chase",
+          "u1:knock",
+          "u1:laugh"
         ]
       },
       "clozeEasy": [
@@ -5965,9 +5965,9 @@
           "clue": "複製文件到紙上",
           "answerEntryId": "u1:print",
           "distractorEntryIds": [
-            "u32:find",
-            "u1:hit",
-            "u1:follow"
+            "u1:point",
+            "u1:press",
+            "u1:motion"
           ]
         },
         {
@@ -5977,9 +5977,9 @@
           "clue": "輸出影像到紙上",
           "answerEntryId": "u1:print",
           "distractorEntryIds": [
-            "u1:hold",
-            "u14:climb",
-            "u18:point"
+            "u1:shake",
+            "u1:shout",
+            "u1:leg"
           ]
         }
       ],
@@ -5991,9 +5991,9 @@
           "clue": "輸出文件的指令",
           "answerEntryId": "u1:print",
           "distractorEntryIds": [
-            "u1:pick",
-            "u1:press",
-            "u1:shake"
+            "u1:push",
+            "u1:drop",
+            "u1:hold"
           ]
         },
         {
@@ -6003,9 +6003,9 @@
           "clue": "把圖案印上物品",
           "answerEntryId": "u1:print",
           "distractorEntryIds": [
-            "u1:stand",
-            "u32:listen",
-            "u1:hold"
+            "u1:carry",
+            "u1:throw",
+            "u1:lay"
           ]
         }
       ],
@@ -6016,9 +6016,9 @@
         "clue": "以機器輸出紙本",
         "answerEntryId": "u1:print",
         "distractorEntryIds": [
-          "u1:put",
-          "u1:wave",
-          "u32:take"
+          "u1:lift",
+          "u1:move",
+          "u1:pick"
         ]
       }
     },
@@ -6038,9 +6038,9 @@
         "clue": "朝自己方向施力",
         "answerEntryId": "u1:pull",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:carry",
-          "u1:throw"
+          "u1:bow",
+          "u1:cry",
+          "u1:hit"
         ]
       },
       "clozeEasy": [
@@ -6051,21 +6051,21 @@
           "clue": "向外拉開",
           "answerEntryId": "u1:pull",
           "distractorEntryIds": [
-            "u1:press",
-            "u1:push",
-            "u1:knock"
+            "u1:follow",
+            "u1:hop",
+            "u1:cousin"
           ]
         },
         {
-          "sentence": "The dentist ___ my tooth out yesterday.",
-          "fullSentence": "The dentist pull my tooth out yesterday.",
-          "translation": "牙醫昨天把我的牙齒拔掉。",
-          "clue": "用力拔出",
+          "sentence": "The dentist will ___ the damaged molar out with special tools.",
+          "fullSentence": "The dentist will pull the damaged molar out with special tools.",
+          "translation": "牙醫會用特殊工具拔出受損的臼齒。",
+          "clue": "用工具將受損臼齒拔出",
           "answerEntryId": "u1:pull",
           "distractorEntryIds": [
-            "u11:wash",
-            "u12:drive",
-            "u1:hold"
+            "u1:beat",
+            "u1:bite",
+            "u1:tooth"
           ]
         }
       ],
@@ -6077,9 +6077,9 @@
           "clue": "向自己方向牽引",
           "answerEntryId": "u1:pull",
           "distractorEntryIds": [
+            "u1:kick",
             "u1:push",
-            "u1:hold",
-            "u1:walk"
+            "u1:lift"
           ]
         },
         {
@@ -6089,9 +6089,9 @@
           "clue": "競力牽拉",
           "answerEntryId": "u1:pull",
           "distractorEntryIds": [
-            "u1:push",
-            "u1:clap",
-            "u1:wave"
+            "u1:throw",
+            "u1:hit",
+            "u1:kick"
           ]
         }
       ],
@@ -6102,9 +6102,9 @@
         "clue": "朝自己方向的牽引",
         "answerEntryId": "u1:pull",
         "distractorEntryIds": [
-          "u1:push",
-          "u1:lift",
-          "u1:drop"
+          "u1:hit",
+          "u1:kick",
+          "u1:push"
         ]
       }
     },
@@ -6124,9 +6124,9 @@
         "clue": "向外施力使移動",
         "answerEntryId": "u1:push",
         "distractorEntryIds": [
-          "u1:pull",
-          "u1:lift",
-          "u1:drop"
+          "u1:sleep",
+          "u1:smile",
+          "u1:stand"
         ]
       },
       "clozeEasy": [
@@ -6137,9 +6137,9 @@
           "clue": "由內向外施力",
           "answerEntryId": "u1:push",
           "distractorEntryIds": [
-            "u1:pull",
-            "u1:knock",
-            "u1:press"
+            "u1:blow",
+            "u1:born",
+            "u1:face"
           ]
         },
         {
@@ -6149,9 +6149,9 @@
           "clue": "向前擠壓他人",
           "answerEntryId": "u1:push",
           "distractorEntryIds": [
-            "u1:jump",
-            "u1:stand",
-            "u1:shout"
+            "u1:fall",
+            "u1:flow",
+            "u1:lip"
           ]
         }
       ],
@@ -6164,7 +6164,7 @@
           "answerEntryId": "u1:push",
           "distractorEntryIds": [
             "u1:pull",
-            "u1:carry",
+            "u1:kick",
             "u1:lift"
           ]
         },
@@ -6175,9 +6175,9 @@
           "clue": "被外力推動",
           "answerEntryId": "u1:push",
           "distractorEntryIds": [
+            "u1:throw",
             "u1:hit",
-            "u1:clap",
-            "u1:hug"
+            "u1:pull"
           ]
         }
       ],
@@ -6189,8 +6189,8 @@
         "answerEntryId": "u1:push",
         "distractorEntryIds": [
           "u1:pull",
-          "u1:lift",
-          "u1:drop"
+          "u1:hit",
+          "u1:kick"
         ]
       }
     },
@@ -6210,9 +6210,9 @@
         "clue": "放置於某處",
         "answerEntryId": "u1:put",
         "distractorEntryIds": [
-          "u1:hold",
-          "u1:throw",
-          "u1:bow"
+          "u1:grow",
+          "u1:jump",
+          "u1:kiss"
         ]
       },
       "clozeEasy": [
@@ -6223,9 +6223,9 @@
           "clue": "擺放到位置上",
           "answerEntryId": "u1:put",
           "distractorEntryIds": [
-            "u1:pick",
-            "u12:fly",
-            "u32:visit"
+            "u1:hug",
+            "u1:nod",
+            "u1:toe"
           ]
         },
         {
@@ -6235,9 +6235,9 @@
           "clue": "穿上衣物",
           "answerEntryId": "u1:put",
           "distractorEntryIds": [
-            "u1:hold",
-            "u1:throw",
-            "u11:wash"
+            "u1:lick",
+            "u1:slip",
+            "u1:hair"
           ]
         }
       ],
@@ -6249,9 +6249,9 @@
           "clue": "藏放於某處",
           "answerEntryId": "u1:put",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:pick",
-            "u32:find"
+            "u1:rub",
+            "u1:press",
+            "u1:print"
           ]
         },
         {
@@ -6262,8 +6262,8 @@
           "answerEntryId": "u1:put",
           "distractorEntryIds": [
             "u1:carry",
-            "u1:print",
-            "u1:drop"
+            "u1:drop",
+            "u1:hold"
           ]
         }
       ],
@@ -6274,9 +6274,9 @@
         "clue": "把物品安放的動作",
         "answerEntryId": "u1:put",
         "distractorEntryIds": [
-          "u1:print",
-          "u1:throw",
-          "u1:push"
+          "u1:lay",
+          "u1:move",
+          "u1:pick"
         ]
       }
     },
@@ -6296,9 +6296,9 @@
         "clue": "來回摩擦痠痛處",
         "answerEntryId": "u1:rub",
         "distractorEntryIds": [
-          "u1:press",
+          "u1:run",
           "u1:sit",
-          "u1:shake"
+          "u1:walk"
         ]
       },
       "clozeEasy": [
@@ -6309,9 +6309,9 @@
           "clue": "來回擦拭",
           "answerEntryId": "u1:rub",
           "distractorEntryIds": [
-            "u1:print",
-            "u1:hit",
-            "u1:lift"
+            "u1:wave",
+            "u1:yell",
+            "u1:heart"
           ]
         },
         {
@@ -6321,9 +6321,9 @@
           "clue": "撫摩皮毛",
           "answerEntryId": "u1:rub",
           "distractorEntryIds": [
-            "u22:bite",
-            "u1:kick",
-            "u1:hold"
+            "u1:beat",
+            "u1:bite",
+            "u1:head"
           ]
         }
       ],
@@ -6335,9 +6335,9 @@
           "clue": "按摩使吸收",
           "answerEntryId": "u1:rub",
           "distractorEntryIds": [
-            "u1:drop",
-            "u1:flow",
-            "u32:take"
+            "u1:put",
+            "u1:press",
+            "u1:print"
           ]
         },
         {
@@ -6347,9 +6347,9 @@
           "clue": "連續摩擦",
           "answerEntryId": "u1:rub",
           "distractorEntryIds": [
-            "u1:lift",
-            "u11:wash",
-            "u1:shake"
+            "u1:carry",
+            "u1:lay",
+            "u1:drop"
           ]
         }
       ],
@@ -6360,9 +6360,9 @@
         "clue": "來回揉搓的動作",
         "answerEntryId": "u1:rub",
         "distractorEntryIds": [
-          "u14:dance",
-          "u1:press",
-          "u1:throw"
+          "u1:hold",
+          "u1:move",
+          "u1:pick"
         ]
       }
     },
@@ -6382,9 +6382,9 @@
         "clue": "快速奔跑",
         "answerEntryId": "u1:run",
         "distractorEntryIds": [
-          "u1:walk",
-          "u1:sit",
-          "u1:stand"
+          "u1:chase",
+          "u1:knock",
+          "u1:laugh"
         ]
       },
       "clozeEasy": [
@@ -6395,9 +6395,9 @@
           "clue": "全速奔跑",
           "answerEntryId": "u1:run",
           "distractorEntryIds": [
-            "u22:bite",
-            "u32:sleep",
-            "u14:climb"
+            "u1:bow",
+            "u1:cry",
+            "u1:knee"
           ]
         },
         {
@@ -6407,9 +6407,9 @@
           "clue": "快速移動",
           "answerEntryId": "u1:run",
           "distractorEntryIds": [
-            "u14:swim",
-            "u1:jump",
-            "u32:close"
+            "u1:follow",
+            "u1:hop",
+            "u1:joint"
           ]
         }
       ],
@@ -6421,9 +6421,9 @@
           "clue": "長距離跑步",
           "answerEntryId": "u1:run",
           "distractorEntryIds": [
-            "u1:move",
-            "u1:walk",
-            "u14:climb"
+            "u1:sleep",
+            "u1:stand",
+            "u1:fall"
           ]
         },
         {
@@ -6433,9 +6433,9 @@
           "clue": "不斷流出",
           "answerEntryId": "u1:run",
           "distractorEntryIds": [
-            "u32:grow",
-            "u1:move",
-            "u1:shake"
+            "u1:sit",
+            "u1:flow",
+            "u1:grow"
           ]
         }
       ],
@@ -6446,9 +6446,9 @@
         "clue": "快速逃離的動作",
         "answerEntryId": "u1:run",
         "distractorEntryIds": [
-          "u32:hide",
-          "u32:sleep",
-          "u1:stand"
+          "u1:jump",
+          "u1:slip",
+          "u1:walk"
         ]
       }
     },
@@ -6468,9 +6468,9 @@
         "clue": "察覺環境的能力",
         "answerEntryId": "u1:sense",
         "distractorEntryIds": [
-          "u1:sight",
-          "u1:voice",
-          "u1:motion"
+          "u1:family",
+          "u1:father",
+          "u1:nail"
         ]
       },
       "clozeEasy": [
@@ -6481,9 +6481,9 @@
           "clue": "接收聲音的能力",
           "answerEntryId": "u1:sense",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:waist",
-            "u1:voice"
+            "u1:neck",
+            "u1:nose",
+            "u1:skin"
           ]
         },
         {
@@ -6493,9 +6493,9 @@
           "clue": "辨認方位的能力",
           "answerEntryId": "u1:sense",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:sight",
-            "u1:motion"
+            "u1:soul",
+            "u1:aunt",
+            "u1:arm"
           ]
         }
       ],
@@ -6507,9 +6507,9 @@
           "clue": "感知的通道",
           "answerEntryId": "u1:sense",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:bone",
-            "u1:heart"
+            "u1:voice",
+            "u1:view",
+            "u1:mouth"
           ]
         },
         {
@@ -6519,22 +6519,22 @@
           "clue": "敏銳的判斷力",
           "answerEntryId": "u1:sense",
           "distractorEntryIds": [
-            "u1:soul",
-            "u1:view",
+            "u1:ear",
+            "u1:eye",
             "u1:sight"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "Snakes smell with their tongue because they have no ___ of smell in a nose.",
-        "fullSentence": "Snakes smell with their tongue because they have no sense of smell in a nose.",
-        "translation": "蛇用舌頭「聞」，因為牠們的鼻嗅不發達。",
-        "clue": "經鼻子運作的感官",
+        "sentence": "A blocked nasal passage can temporarily reduce your ___ of smell.",
+        "fullSentence": "A blocked nasal passage can temporarily reduce your sense of smell.",
+        "translation": "鼻腔阻塞可能暫時降低你的嗅覺。",
+        "clue": "感知氣味的能力",
         "answerEntryId": "u1:sense",
         "distractorEntryIds": [
-          "u1:sight",
+          "u1:nose",
           "u1:voice",
-          "u1:motion"
+          "u1:mouth"
         ]
       }
     },
@@ -6554,9 +6554,9 @@
         "clue": "上下晃動致意",
         "answerEntryId": "u1:shake",
         "distractorEntryIds": [
-          "u1:hug",
-          "u1:kiss",
-          "u1:bow"
+          "u1:blow",
+          "u1:born",
+          "u1:clap"
         ]
       },
       "clozeEasy": [
@@ -6567,9 +6567,9 @@
           "clue": "來回晃動",
           "answerEntryId": "u1:shake",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:fall",
-            "u1:stand"
+            "u1:point",
+            "u1:shout",
+            "u1:grandmother"
           ]
         },
         {
@@ -6579,9 +6579,9 @@
           "clue": "顫抖",
           "answerEntryId": "u1:shake",
           "distractorEntryIds": [
-            "u1:cry",
-            "u32:grow",
-            "u1:hit"
+            "u1:kiss",
+            "u1:lick",
+            "u1:grandfather"
           ]
         }
       ],
@@ -6593,9 +6593,9 @@
           "clue": "使液體混合",
           "answerEntryId": "u1:shake",
           "distractorEntryIds": [
-            "u13:copy",
-            "u1:drop",
-            "u1:put"
+            "u1:wave",
+            "u1:hug",
+            "u1:nod"
           ]
         },
         {
@@ -6605,9 +6605,9 @@
           "clue": "規律擺動身體",
           "answerEntryId": "u1:shake",
           "distractorEntryIds": [
-            "u1:lift",
-            "u1:hold",
-            "u1:drop"
+            "u1:bow",
+            "u1:hug",
+            "u1:nod"
           ]
         }
       ],
@@ -6619,8 +6619,8 @@
         "answerEntryId": "u1:shake",
         "distractorEntryIds": [
           "u1:clap",
-          "u1:hug",
-          "u1:kiss"
+          "u1:kiss",
+          "u1:wave"
         ]
       }
     },
@@ -6640,9 +6640,9 @@
         "clue": "脖子兩側連接手臂的部位",
         "answerEntryId": "u1:shoulder",
         "distractorEntryIds": [
-          "u1:knee",
-          "u1:hip",
-          "u1:wrist"
+          "u1:throat",
+          "u1:leg",
+          "u1:lip"
         ]
       },
       "clozeEasy": [
@@ -6654,8 +6654,8 @@
           "answerEntryId": "u1:shoulder",
           "distractorEntryIds": [
             "u1:ankle",
-            "u1:finger",
-            "u1:lip"
+            "u1:beard",
+            "u1:toe"
           ]
         },
         {
@@ -6665,9 +6665,9 @@
           "clue": "鼓勵時輕拍的位置",
           "answerEntryId": "u1:shoulder",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:knee",
-            "u1:toe"
+            "u1:movement",
+            "u1:blood",
+            "u1:bone"
           ]
         }
       ],
@@ -6679,8 +6679,8 @@
           "clue": "撐起衣架的部位",
           "answerEntryId": "u1:shoulder",
           "distractorEntryIds": [
-            "u1:waist",
             "u1:neck",
+            "u1:waist",
             "u1:hip"
           ]
         },
@@ -6691,9 +6691,9 @@
           "clue": "碰撞易傷的上身關節",
           "answerEntryId": "u1:shoulder",
           "distractorEntryIds": [
-            "u1:wrist",
-            "u1:knee",
-            "u1:ankle"
+            "u1:back",
+            "u1:body",
+            "u1:stomach"
           ]
         }
       ],
@@ -6704,9 +6704,9 @@
         "clue": "上衣覆蓋的上端",
         "answerEntryId": "u1:shoulder",
         "distractorEntryIds": [
-          "u1:knee",
-          "u1:grandfather",
-          "u1:thumb"
+          "u1:waist",
+          "u1:neck",
+          "u1:back"
         ]
       }
     },
@@ -6726,9 +6726,9 @@
         "clue": "大聲喊叫",
         "answerEntryId": "u1:shout",
         "distractorEntryIds": [
-          "u1:laugh",
-          "u1:walk",
-          "u1:carry"
+          "u1:shake",
+          "u1:smile",
+          "u1:run"
         ]
       },
       "clozeEasy": [
@@ -6739,9 +6739,9 @@
           "clue": "興奮大喊",
           "answerEntryId": "u1:shout",
           "distractorEntryIds": [
-            "u1:sit",
-            "u32:sleep",
-            "u1:laugh"
+            "u1:follow",
+            "u1:beat",
+            "u1:face"
           ]
         },
         {
@@ -6751,9 +6751,9 @@
           "clue": "高聲傳話",
           "answerEntryId": "u1:shout",
           "distractorEntryIds": [
-            "u1:walk",
-            "u1:knock",
-            "u32:sleep"
+            "u1:bite",
+            "u1:blow",
+            "u1:brain"
           ]
         }
       ],
@@ -6765,9 +6765,9 @@
           "clue": "喊叫求援",
           "answerEntryId": "u1:shout",
           "distractorEntryIds": [
-            "u1:wave",
-            "u1:move",
-            "u1:jump"
+            "u1:cry",
+            "u1:lick",
+            "u1:laugh"
           ]
         },
         {
@@ -6778,8 +6778,8 @@
           "answerEntryId": "u1:shout",
           "distractorEntryIds": [
             "u1:print",
-            "u1:yell",
-            "u1:follow"
+            "u1:follow",
+            "u1:carry"
           ]
         }
       ],
@@ -6790,9 +6790,9 @@
         "clue": "提高音量的喊叫",
         "answerEntryId": "u1:shout",
         "distractorEntryIds": [
-          "u1:wave",
-          "u32:visit",
-          "u1:yell"
+          "u1:blow",
+          "u1:lick",
+          "u1:smile"
         ]
       }
     },
@@ -6812,9 +6812,9 @@
         "clue": "眼睛看到的範圍",
         "answerEntryId": "u1:sight",
         "distractorEntryIds": [
-          "u1:voice",
-          "u1:joint",
-          "u1:sense"
+          "u1:bottom",
+          "u1:cousin",
+          "u1:family"
         ]
       },
       "clozeEasy": [
@@ -6825,9 +6825,9 @@
           "clue": "看清遠物的能力",
           "answerEntryId": "u1:sight",
           "distractorEntryIds": [
-            "u1:grandfather",
-            "u1:sense",
-            "u1:voice"
+            "u1:heart",
+            "u1:joint",
+            "u1:brother"
           ]
         },
         {
@@ -6837,9 +6837,9 @@
           "clue": "值得一看的景象",
           "answerEntryId": "u1:sight",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:knee",
-            "u1:sense"
+            "u1:thumb",
+            "u1:tooth",
+            "u1:father"
           ]
         }
       ],
@@ -6851,9 +6851,9 @@
           "clue": "眼鏡矯正的能力",
           "answerEntryId": "u1:sight",
           "distractorEntryIds": [
-            "u1:throat",
+            "u1:nose",
             "u1:sense",
-            "u1:family"
+            "u1:ear"
           ]
         },
         {
@@ -6863,9 +6863,9 @@
           "clue": "一眼看去的印象",
           "answerEntryId": "u1:sight",
           "distractorEntryIds": [
-            "u1:sense",
+            "u1:eye",
             "u1:voice",
-            "u1:throat"
+            "u1:mouth"
           ]
         }
       ],
@@ -6876,9 +6876,9 @@
         "clue": "黑暗中的視覺能力",
         "answerEntryId": "u1:sight",
         "distractorEntryIds": [
-          "u1:view",
-          "u1:voice",
-          "u1:motion"
+          "u1:nose",
+          "u1:sense",
+          "u1:ear"
         ]
       }
     },
@@ -6898,9 +6898,9 @@
         "clue": "腳底打滑跌倒",
         "answerEntryId": "u1:slip",
         "distractorEntryIds": [
-          "u1:jump",
-          "u1:beat",
-          "u14:run"
+          "u1:yell",
+          "u1:born",
+          "u1:fall"
         ]
       },
       "clozeEasy": [
@@ -6911,9 +6911,9 @@
           "clue": "滑脫掉落",
           "answerEntryId": "u1:slip",
           "distractorEntryIds": [
-            "u1:press",
-            "u1:shake",
-            "u1:stand"
+            "u1:hop",
+            "u1:put",
+            "u1:wrist"
           ]
         },
         {
@@ -6923,9 +6923,9 @@
           "clue": "小紙片",
           "answerEntryId": "u1:slip",
           "distractorEntryIds": [
-            "u1:wave",
-            "u13:copy",
-            "u12:ride"
+            "u1:flow",
+            "u1:grow",
+            "u1:motion"
           ]
         }
       ],
@@ -6937,9 +6937,9 @@
           "clue": "失去摩擦而跌",
           "answerEntryId": "u1:slip",
           "distractorEntryIds": [
-            "u1:fall",
-            "u1:jump",
-            "u1:stand"
+            "u1:sleep",
+            "u1:stand",
+            "u1:run"
           ]
         },
         {
@@ -6949,9 +6949,9 @@
           "clue": "無意間洩漏",
           "answerEntryId": "u1:slip",
           "distractorEntryIds": [
-            "u1:shout",
-            "u32:hide",
-            "u32:keep"
+            "u1:jump",
+            "u1:walk",
+            "u1:sit"
           ]
         }
       ],
@@ -6962,9 +6962,9 @@
         "clue": "意外失去平衡",
         "answerEntryId": "u1:slip",
         "distractorEntryIds": [
-          "u1:jump",
-          "u14:climb",
-          "u1:stand"
+          "u1:sleep",
+          "u1:stand",
+          "u1:hop"
         ]
       }
     },
@@ -6984,9 +6984,9 @@
         "clue": "嘴角上揚表示友善",
         "answerEntryId": "u1:smile",
         "distractorEntryIds": [
-          "u1:laugh",
-          "u1:cry",
-          "u1:shout"
+          "u1:chase",
+          "u1:knock",
+          "u1:point"
         ]
       },
       "clozeEasy": [
@@ -6997,9 +6997,9 @@
           "clue": "不發出聲音的笑",
           "answerEntryId": "u1:smile",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:cry",
-            "u1:yell"
+            "u1:rub",
+            "u1:slip",
+            "u1:daughter"
           ]
         },
         {
@@ -7009,9 +7009,9 @@
           "clue": "開心的臉部表情",
           "answerEntryId": "u1:smile",
           "distractorEntryIds": [
+            "u1:shake",
             "u1:shout",
-            "u1:wave",
-            "u18:point"
+            "u1:foot"
           ]
         }
       ],
@@ -7023,9 +7023,9 @@
           "clue": "自豪的淺笑",
           "answerEntryId": "u1:smile",
           "distractorEntryIds": [
-            "u1:laugh",
-            "u1:shout",
-            "u1:yell"
+            "u1:yell",
+            "u1:cry",
+            "u1:laugh"
           ]
         },
         {
@@ -7035,9 +7035,9 @@
           "clue": "拍照時的表情",
           "answerEntryId": "u1:smile",
           "distractorEntryIds": [
-            "u1:stand",
-            "u14:run",
-            "u1:cry"
+            "u1:bite",
+            "u1:blow",
+            "u1:lick"
           ]
         }
       ],
@@ -7048,9 +7048,9 @@
         "clue": "嘴角上揚的淺笑",
         "answerEntryId": "u1:smile",
         "distractorEntryIds": [
-          "u1:laugh",
+          "u1:shout",
           "u1:cry",
-          "u1:shout"
+          "u1:wave"
         ]
       }
     },
@@ -7070,9 +7070,9 @@
         "clue": "肉體之外的精神",
         "answerEntryId": "u1:soul",
         "distractorEntryIds": [
-          "u1:heart",
-          "u1:brain",
-          "u1:bone"
+          "u1:hair",
+          "u1:hand",
+          "u1:head"
         ]
       },
       "clozeEasy": [
@@ -7083,9 +7083,9 @@
           "clue": "指人的心性",
           "answerEntryId": "u1:soul",
           "distractorEntryIds": [
-            "u1:body",
-            "u1:bone",
-            "u1:joint"
+            "u1:knee",
+            "u1:nail",
+            "u1:skin"
           ]
         },
         {
@@ -7095,9 +7095,9 @@
           "clue": "情感最深處",
           "answerEntryId": "u1:soul",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:throat",
-            "u1:ankle"
+            "u1:daughter",
+            "u1:aunt",
+            "u1:arm"
           ]
         }
       ],
@@ -7109,9 +7109,9 @@
           "clue": "可被交易的精神本體",
           "answerEntryId": "u1:soul",
           "distractorEntryIds": [
-            "u1:body",
             "u1:bone",
-            "u1:nail"
+            "u1:blood",
+            "u1:brain"
           ]
         },
         {
@@ -7121,9 +7121,9 @@
           "clue": "內在的精神需求",
           "answerEntryId": "u1:soul",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:body",
-            "u1:blood"
+            "u1:heart",
+            "u1:joint",
+            "u1:body"
           ]
         }
       ],
@@ -7134,9 +7134,9 @@
         "clue": "肉體之外的靈性",
         "answerEntryId": "u1:soul",
         "distractorEntryIds": [
+          "u1:bone",
           "u1:blood",
-          "u1:father",
-          "u1:bone"
+          "u1:brain"
         ]
       }
     },
@@ -7156,9 +7156,9 @@
         "clue": "身體直立",
         "answerEntryId": "u1:stand",
         "distractorEntryIds": [
-          "u1:sit",
-          "u1:lift",
-          "u32:sleep"
+          "u1:follow",
+          "u1:bow",
+          "u1:hug"
         ]
       },
       "clozeEasy": [
@@ -7169,9 +7169,9 @@
           "clue": "雙腳撐直身體",
           "answerEntryId": "u1:stand",
           "distractorEntryIds": [
-            "u1:walk",
-            "u22:bite",
-            "u32:stop"
+            "u1:beat",
+            "u1:born",
+            "u1:soul"
           ]
         },
         {
@@ -7181,9 +7181,9 @@
           "clue": "以雙腳直立其上",
           "answerEntryId": "u1:stand",
           "distractorEntryIds": [
-            "u1:jump",
-            "u1:sit",
-            "u1:hold"
+            "u1:chase",
+            "u1:knock",
+            "u1:bottom"
           ]
         }
       ],
@@ -7195,9 +7195,9 @@
           "clue": "原地直立等候",
           "answerEntryId": "u1:stand",
           "distractorEntryIds": [
+            "u1:grow",
             "u1:sit",
-            "u32:sleep",
-            "u12:drive"
+            "u1:sleep"
           ]
         },
         {
@@ -7207,9 +7207,9 @@
           "clue": "長期直立不倒",
           "answerEntryId": "u1:stand",
           "distractorEntryIds": [
-            "u1:fall",
-            "u32:grow",
-            "u1:move"
+            "u1:born",
+            "u1:grow",
+            "u1:sit"
           ]
         }
       ],
@@ -7220,9 +7220,9 @@
         "clue": "挺直站立的姿勢",
         "answerEntryId": "u1:stand",
         "distractorEntryIds": [
-          "u1:walk",
-          "u32:read",
-          "u1:follow"
+          "u1:born",
+          "u1:grow",
+          "u1:sleep"
         ]
       }
     },
@@ -7242,9 +7242,9 @@
         "clue": "樓梯的單一階",
         "answerEntryId": "u1:step",
         "distractorEntryIds": [
-          "u1:beard",
-          "u1:soul",
-          "u1:movement"
+          "u1:throat",
+          "u1:movement",
+          "u1:leg"
         ]
       },
       "clozeEasy": [
@@ -7255,9 +7255,9 @@
           "clue": "走路時的單一步伐",
           "answerEntryId": "u1:step",
           "distractorEntryIds": [
-            "u1:voice",
-            "u2:mother",
-            "u1:shout"
+            "u1:grandfather",
+            "u1:shoulder",
+            "u1:ankle"
           ]
         },
         {
@@ -7267,9 +7267,9 @@
           "clue": "過程中的單一階段",
           "answerEntryId": "u1:step",
           "distractorEntryIds": [
-            "u1:beard",
+            "u1:brother",
             "u1:cousin",
-            "u1:heart"
+            "u1:grandmother"
           ]
         }
       ],
@@ -7281,9 +7281,9 @@
           "clue": "落腳的動作",
           "answerEntryId": "u1:step",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:hand",
-            "u1:lip"
+            "u1:motion",
+            "u1:gesture",
+            "u1:sign"
           ]
         },
         {
@@ -7293,9 +7293,9 @@
           "clue": "依序完成的階段",
           "answerEntryId": "u1:step",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:mouth",
-            "u1:lip"
+            "u1:movement",
+            "u1:motion",
+            "u1:gesture"
           ]
         }
       ],
@@ -7306,9 +7306,9 @@
         "clue": "單腳落地的單位",
         "answerEntryId": "u1:step",
         "distractorEntryIds": [
-          "u1:voice",
           "u1:motion",
-          "u1:gesture"
+          "u1:movement",
+          "u1:sign"
         ]
       }
     },
@@ -7328,9 +7328,9 @@
         "clue": "消化食物的器官",
         "answerEntryId": "u1:stomach",
         "distractorEntryIds": [
-          "u1:heart",
-          "u1:brain",
-          "u1:throat"
+          "u1:beard",
+          "u1:thumb",
+          "u1:tooth"
         ]
       },
       "clozeEasy": [
@@ -7341,9 +7341,9 @@
           "clue": "噁心感出現的部位",
           "answerEntryId": "u1:stomach",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:hand",
-            "u1:ear"
+            "u1:wrist",
+            "u1:face",
+            "u1:lip"
           ]
         },
         {
@@ -7353,9 +7353,9 @@
           "clue": "吃飽鼓脹的部位",
           "answerEntryId": "u1:stomach",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:ear",
-            "u1:hand"
+            "u1:foot",
+            "u1:hair",
+            "u1:toe"
           ]
         }
       ],
@@ -7367,9 +7367,9 @@
           "clue": "消化食物的器官",
           "answerEntryId": "u1:stomach",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:arm",
-            "u1:eye"
+            "u1:neck",
+            "u1:waist",
+            "u1:shoulder"
           ]
         },
         {
@@ -7379,9 +7379,9 @@
           "clue": "緊張時翻攪的部位",
           "answerEntryId": "u1:stomach",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:throat",
-            "u12:back"
+            "u1:hip",
+            "u1:back",
+            "u1:body"
           ]
         }
       ],
@@ -7392,9 +7392,9 @@
         "clue": "消化過程的中段器官",
         "answerEntryId": "u1:stomach",
         "distractorEntryIds": [
-          "u1:brain",
-          "u1:lip",
-          "u1:eye"
+          "u1:shoulder",
+          "u1:neck",
+          "u1:hip"
         ]
       }
     },
@@ -7414,9 +7414,9 @@
         "clue": "連接口腔與食道的通道",
         "answerEntryId": "u1:throat",
         "distractorEntryIds": [
-          "u1:stomach",
-          "u1:mouth",
-          "u1:lip"
+          "u1:family",
+          "u1:father",
+          "u1:finger"
         ]
       },
       "clozeEasy": [
@@ -7427,9 +7427,9 @@
           "clue": "吞嚥食物的通道",
           "answerEntryId": "u1:throat",
           "distractorEntryIds": [
-            "u1:tooth",
-            "u1:stomach",
-            "u1:hand"
+            "u1:hand",
+            "u1:head",
+            "u1:knee"
           ]
         },
         {
@@ -7439,9 +7439,9 @@
           "clue": "嘴巴深處的部位",
           "answerEntryId": "u1:throat",
           "distractorEntryIds": [
-            "u1:eye",
-            "u1:ear",
-            "u1:nose"
+            "u1:nail",
+            "u1:skin",
+            "u1:soul"
           ]
         }
       ],
@@ -7453,9 +7453,9 @@
           "clue": "發聲經過的部位",
           "answerEntryId": "u1:throat",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:lip",
-            "u1:brain"
+            "u1:arm",
+            "u1:leg",
+            "u1:lip"
           ]
         },
         {
@@ -7465,9 +7465,9 @@
           "clue": "漱口照顧的部位",
           "answerEntryId": "u1:throat",
           "distractorEntryIds": [
-            "u1:stomach",
-            "u1:tooth",
-            "u1:sight"
+            "u1:face",
+            "u1:foot",
+            "u1:hair"
           ]
         }
       ],
@@ -7479,8 +7479,8 @@
         "answerEntryId": "u1:throat",
         "distractorEntryIds": [
           "u1:stomach",
-          "u1:mouth",
-          "u1:nose"
+          "u1:toe",
+          "u1:ankle"
         ]
       }
     },
@@ -7500,9 +7500,9 @@
         "clue": "用手臂把物體擲出",
         "answerEntryId": "u1:throw",
         "distractorEntryIds": [
-          "u1:hit",
-          "u1:sit",
-          "u1:hold"
+          "u1:clap",
+          "u1:fall",
+          "u1:flow"
         ]
       },
       "clozeEasy": [
@@ -7513,9 +7513,9 @@
           "clue": "投擲入容器",
           "answerEntryId": "u1:throw",
           "distractorEntryIds": [
-            "u1:pick",
-            "u1:carry",
-            "u1:hold"
+            "u1:jump",
+            "u1:kiss",
+            "u1:beard"
           ]
         },
         {
@@ -7525,9 +7525,9 @@
           "clue": "向上擲出",
           "answerEntryId": "u1:throw",
           "distractorEntryIds": [
-            "u1:drop",
-            "u13:copy",
-            "u32:mix"
+            "u1:push",
+            "u1:slip",
+            "u1:heart"
           ]
         }
       ],
@@ -7539,9 +7539,9 @@
           "clue": "遠距離投擲",
           "answerEntryId": "u1:throw",
           "distractorEntryIds": [
-            "u1:kick",
-            "u1:push",
-            "u1:carry"
+            "u1:lift",
+            "u1:pull",
+            "u1:hit"
           ]
         },
         {
@@ -7551,9 +7551,9 @@
           "clue": "擲物砸向目標",
           "answerEntryId": "u1:throw",
           "distractorEntryIds": [
-            "u32:mix",
-            "u1:lift",
-            "u1:wave"
+            "u1:kick",
+            "u1:push",
+            "u1:lift"
           ]
         }
       ],
@@ -7564,9 +7564,9 @@
         "clue": "手臂擲出的動作",
         "answerEntryId": "u1:throw",
         "distractorEntryIds": [
-          "u1:kick",
-          "u1:carry",
-          "u1:lift"
+          "u1:pull",
+          "u1:push",
+          "u1:kick"
         ]
       }
     },
@@ -7586,9 +7586,9 @@
         "clue": "手上最粗的短指",
         "answerEntryId": "u1:thumb",
         "distractorEntryIds": [
-          "u1:finger",
-          "u1:toe",
-          "u1:nail"
+          "u1:aunt",
+          "u1:hand",
+          "u1:head"
         ]
       },
       "clozeEasy": [
@@ -7599,9 +7599,9 @@
           "clue": "五指中最粗的一根",
           "answerEntryId": "u1:thumb",
           "distractorEntryIds": [
-            "u1:wrist",
             "u1:knee",
-            "u1:ear"
+            "u1:nail",
+            "u1:throat"
           ]
         },
         {
@@ -7611,9 +7611,9 @@
           "clue": "可以含住的短粗指頭",
           "answerEntryId": "u1:thumb",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:knee",
-            "u1:hair"
+            "u1:brother",
+            "u1:bottom",
+            "u1:grandfather"
           ]
         }
       ],
@@ -7625,9 +7625,9 @@
           "clue": "對握關鍵的短指",
           "answerEntryId": "u1:thumb",
           "distractorEntryIds": [
+            "u1:finger",
             "u1:wrist",
-            "u1:joint",
-            "u1:nail"
+            "u1:arm"
           ]
         },
         {
@@ -7637,9 +7637,9 @@
           "clue": "比讚用的指頭",
           "answerEntryId": "u1:thumb",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:toe",
-            "u1:arm"
+            "u1:shoulder",
+            "u1:wrist",
+            "u1:finger"
           ]
         }
       ],
@@ -7650,9 +7650,9 @@
         "clue": "手中最粗的指頭",
         "answerEntryId": "u1:thumb",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:ankle",
-          "u1:knee"
+          "u1:hand",
+          "u1:nail",
+          "u1:arm"
         ]
       }
     },
@@ -7672,9 +7672,9 @@
         "clue": "腳末端的五個小指",
         "answerEntryId": "u1:toe",
         "distractorEntryIds": [
-          "u1:finger",
-          "u1:thumb",
-          "u1:knee"
+          "u1:skin",
+          "u1:soul",
+          "u1:view"
         ]
       },
       "clozeEasy": [
@@ -7685,9 +7685,9 @@
           "clue": "腳末端的小指頭",
           "answerEntryId": "u1:toe",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:arm",
-            "u1:ear"
+            "u1:daughter",
+            "u1:cousin",
+            "u1:joint"
           ]
         },
         {
@@ -7697,9 +7697,9 @@
           "clue": "襪子包住的末端",
           "answerEntryId": "u1:toe",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:ear",
-            "u1:knee"
+            "u1:family",
+            "u1:father",
+            "u1:sight"
           ]
         }
       ],
@@ -7711,9 +7711,9 @@
           "clue": "可以塗指甲油的腳指",
           "answerEntryId": "u1:toe",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:lip",
-            "u1:wrist"
+            "u1:leg",
+            "u1:ankle",
+            "u1:foot"
           ]
         },
         {
@@ -7723,9 +7723,9 @@
           "clue": "被逗弄的腳末端",
           "answerEntryId": "u1:toe",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:wrist",
-            "u1:neck"
+            "u1:knee",
+            "u1:hip",
+            "u1:leg"
           ]
         }
       ],
@@ -7736,9 +7736,9 @@
         "clue": "腳上最大的指頭",
         "answerEntryId": "u1:toe",
         "distractorEntryIds": [
+          "u1:foot",
           "u1:knee",
-          "u1:hip",
-          "u1:waist"
+          "u1:ankle"
         ]
       }
     },
@@ -7758,9 +7758,9 @@
         "clue": "咀嚼食物的白色硬組織",
         "answerEntryId": "u1:tooth",
         "distractorEntryIds": [
-          "u1:mouth",
-          "u1:lip",
-          "u1:bone"
+          "u1:thumb",
+          "u1:grandmother",
+          "u1:stomach"
         ]
       },
       "clozeEasy": [
@@ -7771,9 +7771,9 @@
           "clue": "會鬆動脫落的牙",
           "answerEntryId": "u1:tooth",
           "distractorEntryIds": [
-            "u1:nail",
-            "u1:bone",
-            "u1:hair"
+            "u1:beard",
+            "u1:blood",
+            "u1:brother"
           ]
         },
         {
@@ -7783,9 +7783,9 @@
           "clue": "動物啃咬的工具",
           "answerEntryId": "u1:tooth",
           "distractorEntryIds": [
-            "u1:thumb",
-            "u1:bone",
-            "u1:ear"
+            "u1:cousin",
+            "u1:family",
+            "u1:bottom"
           ]
         }
       ],
@@ -7797,9 +7797,9 @@
           "clue": "被逐一檢查的硬組織",
           "answerEntryId": "u1:tooth",
           "distractorEntryIds": [
-            "u1:nail",
-            "u1:joint",
-            "u1:finger"
+            "u1:face",
+            "u1:hair",
+            "u1:head"
           ]
         },
         {
@@ -7809,9 +7809,9 @@
           "clue": "笑容中可見的牙",
           "answerEntryId": "u1:tooth",
           "distractorEntryIds": [
+            "u1:eye",
             "u1:lip",
-            "u1:mouth",
-            "u1:wrist"
+            "u1:nose"
           ]
         }
       ],
@@ -7822,9 +7822,9 @@
         "clue": "口中可替換的咀嚼硬組織",
         "answerEntryId": "u1:tooth",
         "distractorEntryIds": [
-          "u1:bone",
-          "u1:nail",
-          "u1:lip"
+          "u1:mouth",
+          "u1:ear",
+          "u1:face"
         ]
       }
     },
@@ -7844,9 +7844,9 @@
         "clue": "眼前所見的景象",
         "answerEntryId": "u1:view",
         "distractorEntryIds": [
-          "u1:voice",
-          "u1:sense",
-          "u1:motion"
+          "u1:tooth",
+          "u1:brain",
+          "u1:heart"
         ]
       },
       "clozeEasy": [
@@ -7857,9 +7857,9 @@
           "clue": "眼睛能看到的角度",
           "answerEntryId": "u1:view",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:motion",
-            "u1:sense"
+            "u1:daughter",
+            "u1:grandfather",
+            "u1:nod"
           ]
         },
         {
@@ -7869,9 +7869,9 @@
           "clue": "可觀賞的風景",
           "answerEntryId": "u1:view",
           "distractorEntryIds": [
-            "u1:voice",
-            "u1:sense",
-            "u1:brain"
+            "u1:father",
+            "u1:grandmother",
+            "u1:put"
           ]
         }
       ],
@@ -7883,9 +7883,9 @@
           "clue": "從高處看到的景色",
           "answerEntryId": "u1:view",
           "distractorEntryIds": [
-            "u1:voice",
             "u1:sense",
-            "u1:beard"
+            "u1:voice",
+            "u1:eye"
           ]
         },
         {
@@ -7895,9 +7895,9 @@
           "clue": "個人的看法",
           "answerEntryId": "u1:view",
           "distractorEntryIds": [
-            "u1:sense",
-            "u1:hand",
-            "u1:heart"
+            "u1:nose",
+            "u1:ear",
+            "u1:mouth"
           ]
         }
       ],
@@ -7908,9 +7908,9 @@
         "clue": "經眼睛取得的景觀",
         "answerEntryId": "u1:view",
         "distractorEntryIds": [
-          "u1:sight",
+          "u1:sense",
           "u1:voice",
-          "u1:sense"
+          "u1:nose"
         ]
       }
     },
@@ -7930,9 +7930,9 @@
         "clue": "說話的嗓音",
         "answerEntryId": "u1:voice",
         "distractorEntryIds": [
-          "u1:face",
-          "u1:hand",
-          "u1:sight"
+          "u1:joint",
+          "u1:sight",
+          "u1:thumb"
         ]
       },
       "clozeEasy": [
@@ -7943,9 +7943,9 @@
           "clue": "說話音量",
           "answerEntryId": "u1:voice",
           "distractorEntryIds": [
-            "u1:hand",
-            "u1:beard",
-            "u1:sight"
+            "u1:toe",
+            "u1:tooth",
+            "u1:rub"
           ]
         },
         {
@@ -7955,9 +7955,9 @@
           "clue": "會變聲的嗓音",
           "answerEntryId": "u1:voice",
           "distractorEntryIds": [
-            "u1:hair",
-            "u1:heart",
-            "u1:sight"
+            "u1:aunt",
+            "u1:bone",
+            "u1:skin"
           ]
         }
       ],
@@ -7969,9 +7969,9 @@
           "clue": "可控的說話音量",
           "answerEntryId": "u1:voice",
           "distractorEntryIds": [
-            "u1:toe",
-            "u1:sign",
-            "u1:sight"
+            "u1:view",
+            "u1:eye",
+            "u1:sense"
           ]
         },
         {
@@ -7981,9 +7981,9 @@
           "clue": "唱歌使用的嗓音",
           "answerEntryId": "u1:voice",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:sense",
-            "u1:view"
+            "u1:nose",
+            "u1:ear",
+            "u1:mouth"
           ]
         }
       ],
@@ -7994,9 +7994,9 @@
         "clue": "每個人獨特的嗓音",
         "answerEntryId": "u1:voice",
         "distractorEntryIds": [
-          "u1:face",
+          "u1:view",
           "u1:sight",
-          "u1:sense"
+          "u1:eye"
         ]
       }
     },
@@ -8016,9 +8016,9 @@
         "clue": "身體中間最細的部位",
         "answerEntryId": "u1:waist",
         "distractorEntryIds": [
-          "u1:neck",
-          "u1:wrist",
-          "u1:ankle"
+          "u1:soul",
+          "u1:throat",
+          "u1:brother"
         ]
       },
       "clozeEasy": [
@@ -8029,9 +8029,9 @@
           "clue": "皮帶繫的位置",
           "answerEntryId": "u1:waist",
           "distractorEntryIds": [
-            "u1:head",
-            "u1:knee",
-            "u1:finger"
+            "u1:grandmother",
+            "u1:aunt",
+            "u1:walk"
           ]
         },
         {
@@ -8041,9 +8041,9 @@
           "clue": "軀幹中段",
           "answerEntryId": "u1:waist",
           "distractorEntryIds": [
-            "u1:finger",
-            "u1:ear",
-            "u1:thumb"
+            "u1:daughter",
+            "u1:bottom",
+            "u1:run"
           ]
         }
       ],
@@ -8055,9 +8055,9 @@
           "clue": "裙子固定的位置",
           "answerEntryId": "u1:waist",
           "distractorEntryIds": [
-            "u1:shoulder",
-            "u1:neck",
-            "u1:hip"
+            "u1:back",
+            "u1:body",
+            "u1:neck"
           ]
         },
         {
@@ -8067,22 +8067,22 @@
           "clue": "前傾施力的軀幹中段",
           "answerEntryId": "u1:waist",
           "distractorEntryIds": [
-            "u1:knee",
-            "u1:wrist",
-            "u1:ankle"
+            "u1:stomach",
+            "u1:shoulder",
+            "u1:hip"
           ]
         }
       ],
       "clozeHard": {
-        "sentence": "A belt goes around your ___, while a necklace goes around your neck.",
-        "fullSentence": "A belt goes around your waist, while a necklace goes around your neck.",
-        "translation": "皮帶繫在腰上，項鍊戴在脖子上。",
-        "clue": "皮帶環繞的中段",
+        "sentence": "The narrow middle of your torso, where a belt rests, is your ___.",
+        "fullSentence": "The narrow middle of your torso, where a belt rests, is your waist.",
+        "translation": "軀幹較窄、繫皮帶的中段就是腰部。",
+        "clue": "軀幹繫皮帶的狹窄中段",
         "answerEntryId": "u1:waist",
         "distractorEntryIds": [
-          "u1:wrist",
-          "u1:ankle",
-          "u1:head"
+          "u1:back",
+          "u1:body",
+          "u1:neck"
         ]
       }
     },
@@ -8102,9 +8102,9 @@
         "clue": "雙腳交替前行",
         "answerEntryId": "u1:walk",
         "distractorEntryIds": [
-          "u1:press",
-          "u1:lift",
-          "u1:carry"
+          "u1:wave",
+          "u1:point",
+          "u1:press"
         ]
       },
       "clozeEasy": [
@@ -8115,9 +8115,9 @@
           "clue": "以雙腳移動",
           "answerEntryId": "u1:walk",
           "distractorEntryIds": [
-            "u12:drive",
-            "u12:ride",
-            "u12:fly"
+            "u1:print",
+            "u1:shake",
+            "u1:waist"
           ]
         },
         {
@@ -8127,9 +8127,9 @@
           "clue": "帶著狗散步",
           "answerEntryId": "u1:walk",
           "distractorEntryIds": [
-            "u1:pick",
-            "u1:nod",
-            "u1:carry"
+            "u1:follow",
+            "u1:bow",
+            "u1:cousin"
           ]
         }
       ],
@@ -8141,9 +8141,9 @@
           "clue": "借助支撐行走",
           "answerEntryId": "u1:walk",
           "distractorEntryIds": [
-            "u14:run",
-            "u32:sleep",
-            "u1:sit"
+            "u1:stand",
+            "u1:hop",
+            "u1:run"
           ]
         },
         {
@@ -8153,9 +8153,9 @@
           "clue": "悠閒步行",
           "answerEntryId": "u1:walk",
           "distractorEntryIds": [
-            "u12:drive",
-            "u12:ride",
-            "u12:rush"
+            "u1:fall",
+            "u1:flow",
+            "u1:jump"
           ]
         }
       ],
@@ -8166,9 +8166,9 @@
         "clue": "雙腳交替慢速移動",
         "answerEntryId": "u1:walk",
         "distractorEntryIds": [
-          "u14:climb",
-          "u14:swim",
-          "u1:kick"
+          "u1:slip",
+          "u1:sit",
+          "u1:sleep"
         ]
       }
     },
@@ -8188,9 +8188,9 @@
         "clue": "手臂來回擺動",
         "answerEntryId": "u1:wave",
         "distractorEntryIds": [
-          "u1:shout",
+          "u1:beat",
           "u1:clap",
-          "u1:nod"
+          "u1:drop"
         ]
       },
       "clozeEasy": [
@@ -8201,9 +8201,9 @@
           "clue": "打招呼的擺手",
           "answerEntryId": "u1:wave",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:cry",
-            "u1:sit"
+            "u1:hug",
+            "u1:lay",
+            "u1:family"
           ]
         },
         {
@@ -8213,9 +8213,9 @@
           "clue": "起伏的浪",
           "answerEntryId": "u1:wave",
           "distractorEntryIds": [
-            "u1:bone",
-            "u32:find",
-            "u1:finger"
+            "u1:nod",
+            "u1:put",
+            "u1:beard"
           ]
         }
       ],
@@ -8227,9 +8227,9 @@
           "clue": "以手勢示意",
           "answerEntryId": "u1:wave",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:push",
-            "u1:kick"
+            "u1:kiss",
+            "u1:shake",
+            "u1:bow"
           ]
         },
         {
@@ -8239,9 +8239,9 @@
           "clue": "目送的揮手",
           "answerEntryId": "u1:wave",
           "distractorEntryIds": [
-            "u1:follow",
-            "u22:bite",
-            "u12:drive"
+            "u1:hug",
+            "u1:nod",
+            "u1:shake"
           ]
         }
       ],
@@ -8252,9 +8252,9 @@
         "clue": "手臂上下擺動打招呼",
         "answerEntryId": "u1:wave",
         "distractorEntryIds": [
-          "u1:carry",
           "u1:clap",
-          "u1:knock"
+          "u1:kiss",
+          "u1:shake"
         ]
       }
     },
@@ -8274,9 +8274,9 @@
         "clue": "手掌與手臂相連處",
         "answerEntryId": "u1:wrist",
         "distractorEntryIds": [
-          "u1:ankle",
-          "u1:knee",
-          "u1:neck"
+          "u1:grandfather",
+          "u1:father",
+          "u1:finger"
         ]
       },
       "clozeEasy": [
@@ -8287,9 +8287,9 @@
           "clue": "手錶戴的部位",
           "answerEntryId": "u1:wrist",
           "distractorEntryIds": [
-            "u1:neck",
-            "u1:finger",
-            "u1:waist"
+            "u1:blood",
+            "u1:brain",
+            "u1:motion"
           ]
         },
         {
@@ -8299,9 +8299,9 @@
           "clue": "戴錶可轉動處",
           "answerEntryId": "u1:wrist",
           "distractorEntryIds": [
-            "u1:knee",
-            "u1:ear",
-            "u1:hip"
+            "u1:movement",
+            "u1:throat",
+            "u1:bone"
           ]
         }
       ],
@@ -8313,9 +8313,9 @@
           "clue": "執筆施力的關節",
           "answerEntryId": "u1:wrist",
           "distractorEntryIds": [
-            "u1:ankle",
             "u1:thumb",
-            "u1:knee"
+            "u1:hand",
+            "u1:nail"
           ]
         },
         {
@@ -8325,9 +8325,9 @@
           "clue": "手環環繞處",
           "answerEntryId": "u1:wrist",
           "distractorEntryIds": [
-            "u1:waist",
-            "u1:neck",
-            "u1:ankle"
+            "u1:arm",
+            "u1:shoulder",
+            "u1:hand"
           ]
         }
       ],
@@ -8338,8 +8338,8 @@
         "clue": "手上戴手環的關節",
         "answerEntryId": "u1:wrist",
         "distractorEntryIds": [
-          "u1:ankle",
-          "u1:waist",
+          "u1:finger",
+          "u1:nail",
           "u1:thumb"
         ]
       }
@@ -8360,9 +8360,9 @@
         "clue": "因痛或怒大聲叫",
         "answerEntryId": "u1:yell",
         "distractorEntryIds": [
-          "u1:laugh",
-          "u1:smile",
-          "u1:nod"
+          "u1:rub",
+          "u1:hold",
+          "u1:move"
         ]
       },
       "clozeEasy": [
@@ -8373,9 +8373,9 @@
           "clue": "生氣地吼",
           "answerEntryId": "u1:yell",
           "distractorEntryIds": [
-            "u1:hug",
-            "u1:kiss",
-            "u32:hear"
+            "u1:carry",
+            "u1:chase",
+            "u1:lip"
           ]
         },
         {
@@ -8385,9 +8385,9 @@
           "clue": "大聲喊叫",
           "answerEntryId": "u1:yell",
           "distractorEntryIds": [
-            "u32:sleep",
-            "u1:sit",
-            "u22:bite"
+            "u1:pick",
+            "u1:walk",
+            "u1:heart"
           ]
         }
       ],
@@ -8399,9 +8399,9 @@
           "clue": "提高音量喊叫",
           "answerEntryId": "u1:yell",
           "distractorEntryIds": [
-            "u1:wave",
-            "u32:call",
-            "u1:knock"
+            "u1:smile",
+            "u1:laugh",
+            "u1:cry"
           ]
         },
         {
@@ -8411,9 +8411,9 @@
           "clue": "痛楚中的喊叫",
           "answerEntryId": "u1:yell",
           "distractorEntryIds": [
-            "u1:smile",
-            "u32:sleep",
-            "u1:rub"
+            "u1:bite",
+            "u1:blow",
+            "u1:lick"
           ]
         }
       ],
@@ -8424,9 +8424,9 @@
         "clue": "大聲吼叫的動作",
         "answerEntryId": "u1:yell",
         "distractorEntryIds": [
-          "u1:shout",
-          "u1:laugh",
-          "u1:nod"
+          "u1:smile",
+          "u1:bite",
+          "u1:blow"
         ]
       }
     },
@@ -8446,9 +8446,9 @@
         "clue": "傳達訊息的標示",
         "answerEntryId": "u1:sign",
         "distractorEntryIds": [
-          "u1:view",
-          "u1:gesture",
-          "u1:motion"
+          "u1:toe",
+          "u1:hair",
+          "u1:head"
         ]
       },
       "clozeEasy": [
@@ -8459,9 +8459,9 @@
           "clue": "路邊的指示牌",
           "answerEntryId": "u1:sign",
           "distractorEntryIds": [
-            "u1:gesture",
-            "u1:voice",
-            "u1:sense"
+            "u1:skin",
+            "u1:soul",
+            "u1:joint"
           ]
         },
         {
@@ -8471,9 +8471,9 @@
           "clue": "身體發出的訊號",
           "answerEntryId": "u1:sign",
           "distractorEntryIds": [
-            "u1:sight",
-            "u1:motion",
-            "u1:view"
+            "u1:step",
+            "u1:tooth",
+            "u1:wave"
           ]
         }
       ],
@@ -8485,9 +8485,9 @@
           "clue": "商家懸掛的告示",
           "answerEntryId": "u1:sign",
           "distractorEntryIds": [
-            "u1:gesture",
             "u1:view",
-            "u1:soul"
+            "u1:soul",
+            "u1:voice"
           ]
         },
         {
@@ -8497,9 +8497,9 @@
           "clue": "用手表達的訊號",
           "answerEntryId": "u1:sign",
           "distractorEntryIds": [
-            "u1:gesture",
-            "u1:motion",
-            "u1:view"
+            "u1:voice",
+            "u1:view",
+            "u1:sight"
           ]
         }
       ],
@@ -8511,8 +8511,8 @@
         "answerEntryId": "u1:sign",
         "distractorEntryIds": [
           "u1:view",
-          "u1:gesture",
-          "u1:motion"
+          "u1:voice",
+          "u1:soul"
         ]
       }
     },
@@ -8532,9 +8532,9 @@
         "clue": "臀部著地休息",
         "answerEntryId": "u1:sit",
         "distractorEntryIds": [
-          "u1:stand",
-          "u14:run",
-          "u32:sleep"
+          "u1:yell",
+          "u1:knock",
+          "u1:point"
         ]
       },
       "clozeEasy": [
@@ -8545,9 +8545,9 @@
           "clue": "安靜地坐著",
           "answerEntryId": "u1:sit",
           "distractorEntryIds": [
-            "u1:stand",
-            "u1:jump",
-            "u14:run"
+            "u1:press",
+            "u1:print",
+            "u1:shout"
           ]
         },
         {
@@ -8557,9 +8557,9 @@
           "clue": "臀部落在椅子上",
           "answerEntryId": "u1:sit",
           "distractorEntryIds": [
-            "u1:stand",
-            "u1:walk",
-            "u14:run"
+            "u1:throw",
+            "u1:carry",
+            "u1:waist"
           ]
         }
       ],
@@ -8571,9 +8571,9 @@
           "clue": "長時間保持坐姿",
           "answerEntryId": "u1:sit",
           "distractorEntryIds": [
-            "u1:throw",
-            "u1:walk",
-            "u1:jump"
+            "u1:stand",
+            "u1:born",
+            "u1:grow"
           ]
         },
         {
@@ -8583,9 +8583,9 @@
           "clue": "坐上特定位置",
           "answerEntryId": "u1:sit",
           "distractorEntryIds": [
+            "u1:sleep",
             "u1:stand",
-            "u1:rub",
-            "u1:walk"
+            "u1:born"
           ]
         }
       ],
@@ -8597,8 +8597,8 @@
         "answerEntryId": "u1:sit",
         "distractorEntryIds": [
           "u1:stand",
-          "u14:run",
-          "u1:jump"
+          "u1:grow",
+          "u1:sleep"
         ]
       }
     },
@@ -8618,9 +8618,9 @@
         "clue": "覆蓋全身的外層",
         "answerEntryId": "u1:skin",
         "distractorEntryIds": [
-          "u1:bone",
-          "u1:blood",
-          "u1:hair"
+          "u1:wrist",
+          "u1:ankle",
+          "u1:beard"
         ]
       },
       "clozeEasy": [
@@ -8631,9 +8631,9 @@
           "clue": "會乾裂的外層組織",
           "answerEntryId": "u1:skin",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:hair",
-            "u1:blood"
+            "u1:daughter",
+            "u1:leg",
+            "u1:grandfather"
           ]
         },
         {
@@ -8643,9 +8643,9 @@
           "clue": "身體最外層的組織",
           "answerEntryId": "u1:skin",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:throat",
-            "u1:blood"
+            "u1:family",
+            "u1:father",
+            "u1:cousin"
           ]
         }
       ],
@@ -8657,9 +8657,9 @@
           "clue": "傷口所在的外層",
           "answerEntryId": "u1:skin",
           "distractorEntryIds": [
-            "u1:joint",
-            "u1:hair",
-            "u1:bone"
+            "u1:tooth",
+            "u1:waist",
+            "u1:stomach"
           ]
         },
         {
@@ -8669,9 +8669,9 @@
           "clue": "直接接觸空氣的外層",
           "answerEntryId": "u1:skin",
           "distractorEntryIds": [
-            "u1:bone",
-            "u1:joint",
-            "u1:brain"
+            "u1:lip",
+            "u1:toe",
+            "u1:throat"
           ]
         }
       ],
@@ -8682,9 +8682,9 @@
         "clue": "覆蓋身體的表層",
         "answerEntryId": "u1:skin",
         "distractorEntryIds": [
-          "u1:bone",
-          "u1:blood",
-          "u1:joint"
+          "u1:face",
+          "u1:foot",
+          "u1:hair"
         ]
       }
     },
@@ -8704,9 +8704,9 @@
         "clue": "閉眼休息入眠",
         "answerEntryId": "u1:sleep",
         "distractorEntryIds": [
-          "u1:stand",
-          "u14:run",
-          "u1:kick"
+          "u1:beat",
+          "u1:drop",
+          "u1:fall"
         ]
       },
       "clozeEasy": [
@@ -8717,9 +8717,9 @@
           "clue": "入睡休息",
           "answerEntryId": "u1:sleep",
           "distractorEntryIds": [
-            "u32:leave",
-            "u32:turn",
-            "u1:shout"
+            "u1:follow",
+            "u1:chase",
+            "u1:bottom"
           ]
         },
         {
@@ -8729,9 +8729,9 @@
           "clue": "長時間入眠",
           "answerEntryId": "u1:sleep",
           "distractorEntryIds": [
-            "u32:leave",
-            "u14:run",
-            "u1:jump"
+            "u1:flow",
+            "u1:hold",
+            "u1:aunt"
           ]
         }
       ],
@@ -8743,9 +8743,9 @@
           "clue": "不自覺入睡",
           "answerEntryId": "u1:sleep",
           "distractorEntryIds": [
-            "u23:blow",
-            "u32:turn",
-            "u1:walk"
+            "u1:sit",
+            "u1:born",
+            "u1:grow"
           ]
         },
         {
@@ -8755,9 +8755,9 @@
           "clue": "在課堂入眠",
           "answerEntryId": "u1:sleep",
           "distractorEntryIds": [
-            "u1:shout",
-            "u1:laugh",
-            "u1:walk"
+            "u1:stand",
+            "u1:sit",
+            "u1:born"
           ]
         }
       ],
@@ -8768,9 +8768,9 @@
         "clue": "季節性的長眠",
         "answerEntryId": "u1:sleep",
         "distractorEntryIds": [
-          "u23:blow",
-          "u1:jump",
-          "u1:walk"
+          "u1:sit",
+          "u1:stand",
+          "u1:grow"
         ]
       }
     }
