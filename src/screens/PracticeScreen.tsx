@@ -17,6 +17,7 @@ import {
 } from '@/lib/checkpoint';
 import { updateEntryProgress, getSnapshot } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
+import { ReportDialog } from '@/components/ReportDialog';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import type { QuestionType, VocabEntry, ProgressData } from '@/types/index';
 
@@ -135,6 +136,10 @@ export function PracticeScreen({
   );
 
   const q = questions[index];
+
+  // 回報題目問題對話框（僅情境填空）。
+  const [reportOpen, setReportOpen] = useState(false);
+  const reportBtnRef = useRef<HTMLButtonElement | null>(null);
 
   // Keyboard: 1-4 answers choice questions; Enter/Space advances during
   // feedback so the whole session is doable without leaving the keys.
@@ -518,6 +523,18 @@ export function PracticeScreen({
                   <div className="sentence">{q.context.fullSentence}</div>
                   <div className="translation">{q.context.translation}</div>
                   <div className="translation">線索：{q.context.clue}</div>
+                  {/* 回報不適合的干擾項（僅情境填空）。是 <button>，不會
+                      觸發 feedback 區的點擊前進。 */}
+                  <div className="speaker-row">
+                    <button
+                      ref={reportBtnRef}
+                      className="report-btn"
+                      onClick={() => setReportOpen(true)}
+                      type="button"
+                    >
+                      ⚠ 回報題目問題
+                    </button>
+                  </div>
                 </>
               )}
               {q.type === 'spelling' && feedback.state === 'wrong' && (
@@ -532,6 +549,15 @@ export function PracticeScreen({
                 ? '查看結果'
                 : '下一題（Enter）'}
             </button>
+          )}
+
+          {reportOpen && q && (
+            <ReportDialog
+              question={q}
+              unit={session.unit}
+              openerRef={reportBtnRef}
+              onClose={() => setReportOpen(false)}
+            />
           )}
         </>
       )}
