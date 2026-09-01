@@ -145,13 +145,10 @@ describe('ReportDialog (回報題目問題)', () => {
     expect(body.get(FORM_CONFIG.entries.locator)).toMatch(/^u11 · \w+ · /);
     expect(body.get(FORM_CONFIG.entries.word)).toBeTruthy();
     expect(body.get(FORM_CONFIG.entries.question)).toContain('選項：');
-    // 自訂值（實際單字）要走 Google Form 的「其他」欄位語法
+    // 「有問題的選項」是簡答欄，勾選的單字直接送出
     expect(body.get(FORM_CONFIG.entries.problemOption)).toBe(
-      '__other_option__',
+      firstRadio.value,
     );
-    expect(
-      body.get(`${FORM_CONFIG.entries.problemOption}.other_option_response`),
-    ).toBe(firstRadio.value);
     // 送出成功訊息
     expect(document.querySelector('.report-sent')).toBeTruthy();
   });

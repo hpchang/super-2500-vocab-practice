@@ -71,27 +71,12 @@ export function buildReportPayload(
 }
 
 /** 送出回報。no-cors 無法讀回應，回 true 代表請求已發出。
- *
- *  「有問題的選項」是 radio 欄位（開了「其他」），送自訂值（實際單字）必須用
- *  `__other_option__` + `entry.XXX.other_option_response` 語法，否則 Google
- *  回 400（已實測）。buildReportPayload 的 problemOption 值一律放
- *  other_option_response 這個 key。 */
+ *  「有問題的選項」是簡答欄（原 radio 已改），任意文字直收。 */
 export async function submitReport(
   payload: Record<string, string>,
 ): Promise<boolean> {
   const action = `https://docs.google.com/forms/d/e/${FORM_CONFIG.formId}/formResponse`;
-  const body = new URLSearchParams();
-  for (const [key, value] of Object.entries(payload)) {
-    if (key === FORM_CONFIG.entries.problemOption) {
-      body.append(FORM_CONFIG.entries.problemOption, '__other_option__');
-      body.append(
-        `${FORM_CONFIG.entries.problemOption}.other_option_response`,
-        value,
-      );
-    } else {
-      body.append(key, value);
-    }
-  }
+  const body = new URLSearchParams(payload);
   body.append('fvv', '1');
   body.append('pageHistory', '0');
   try {
