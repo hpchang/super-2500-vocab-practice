@@ -26,11 +26,11 @@ export const FORM_CONFIG = {
   //   problemOption: 有問題的選項（單選＋其他，學生勾選）
   //   note: 補充說明（段落，學生選填）
   entries: {
-    word: 'entry.161170178',
-    locator: 'entry.1285497894',
-    question: 'entry.1933884131',
+    word: 'entry.982374563',
+    locator: 'entry.750031095',
+    question: 'entry.1476160114',
     problemOption: 'entry.2075000661',
-    note: 'entry.360820287',
+    note: 'entry.1558049245',
   },
 } as const;
 
