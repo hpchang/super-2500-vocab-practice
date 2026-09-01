@@ -973,6 +973,84 @@ h2.section-title {
   margin-top: 8px;
 }
 
+/* 回報題目問題（情境填空 feedback 區的小按鈕 + modal） */
+.report-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px dashed var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.report-btn:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.report-modal {
+  max-width: 340px;
+}
+
+.report-lead {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.report-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.report-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.report-option:has(input:checked) {
+  border-color: var(--primary);
+  background: var(--surface-2);
+}
+
+.report-note {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  resize: vertical;
+  margin-bottom: 12px;
+}
+
+.report-sent {
+  text-align: center;
+  color: var(--success);
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+.report-error {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
 .tag-wrong {
   color: var(--danger);
 }

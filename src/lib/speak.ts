@@ -29,18 +29,52 @@ function pickEnglishVoice(): SpeechSynthesisVoice | null {
 
 let cachedVoice: SpeechSynthesisVoice | null = null;
 
+/** Gap between repeats in an auto-pronunciation chain. */
+const REPEAT_GAP_MS = 350;
+
+/** Monotonic id: a new speak()/speakRepeatedly() call bumps this so any
+ *  still-pending repeats from a previous chain are abandoned. */
+let repeatSeq = 0;
+
 /** Speak an English word/phrase once, canceling any in-flight utterance. */
 export function speak(text: string): void {
   if (!isSpeechSupported()) return;
   // Respect the user's autoplay setting (P1-6); manual speaker buttons call
   // speakNow() directly so they always work.
   if (!getPrefs().speechAutoplay) return;
+  repeatSeq++; // cancel any pending auto-repeat chain
   speakNow(text);
 }
 
-/** Speak regardless of the autoplay preference — for explicit buttons. */
-export function speakNow(text: string): void {
+/** Speak `times` times back-to-back (auto-pronunciation after answering).
+ *  Each repetition starts only after the previous one ends (onend), so the
+ *  words don't overlap; a new speak()/speakRepeatedly() call cancels the
+ *  remaining repeats. */
+export function speakRepeatedly(text: string, times: number): void {
   if (!isSpeechSupported()) return;
+  if (times <= 1) {
+    speak(text);
+    return;
+  }
+  if (!getPrefs().speechAutoplay) return;
+  const seq = ++repeatSeq;
+  let spoken = 0;
+  const speakNext = () => {
+    if (seq !== repeatSeq || spoken >= times) return;
+    spoken += 1;
+    speakNow(text, () => setTimeout(speakNext, REPEAT_GAP_MS));
+  };
+  speakNext();
+}
+
+/** Speak regardless of the autoplay preference — for explicit buttons.
+ *  `onDone` fires once the utterance finishes (or errors); used by
+ *  speakRepeatedly() to chain repeats. */
+export function speakNow(text: string, onDone?: () => void): void {
+  if (!isSpeechSupported()) {
+    onDone?.();
+    return;
+  }
   const synth = window.speechSynthesis;
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
@@ -53,6 +87,13 @@ export function speakNow(text: string): void {
   // If nothing started within 1.2s, retry once with the default voice.
   let started = false;
   let retried = false;
+  let done = false;
+  const finish = () => {
+    if (done) return;
+    done = true;
+    clearTimeout(watchdog);
+    onDone?.();
+  };
   const watchdog = setTimeout(() => {
     if (started || retried) return;
     retried = true;
@@ -61,6 +102,7 @@ export function speakNow(text: string): void {
     const fallback = new SpeechSynthesisUtterance(text);
     fallback.lang = 'en-US';
     fallback.rate = getPrefs().speechRate;
+    fallback.onend = finish; // keep repeat chains alive through the retry
     synth.speak(fallback);
   }, 1200);
 
@@ -68,9 +110,12 @@ export function speakNow(text: string): void {
     started = true;
     clearTimeout(watchdog);
   };
+  u.onend = finish;
   u.onerror = (e) => {
-    clearTimeout(watchdog);
     console.warn('[speak] utterance error:', (e as SpeechSynthesisErrorEvent).error);
+    // Errors caused by our own watchdog cancel are handled by the fallback
+    // utterance's onend — don't finish twice.
+    if (!retried) finish();
   };
 
   // Chrome drops utterances when cancel() and speak() run in the same tick,

@@ -8,7 +8,7 @@ import type { Question } from '@/lib/questions';
 import { gradeChoice, gradeFlashcard, checkSpelling } from '@/lib/scoring';
 import { recordAnswer } from '@/lib/scheduler';
 import { progressiveHint, isMaxHint, MAX_HINT_LEVEL } from '@/lib/hints';
-import { warmUpVoices, speak } from '@/lib/speak';
+import { warmUpVoices, speak, speakRepeatedly } from '@/lib/speak';
 import { countClozeVariants } from '@/lib/clozeGenerator';
 import {
   loadCheckpoint,
@@ -258,10 +258,11 @@ export function PracticeScreen({
     // Move focus to the feedback region so keyboard/SR users land on the
     // answer feedback instead of staying on a now-disabled control (P0-10).
     requestAnimationFrame(() => feedbackRef.current?.focus());
-    // After answering: auto-speak the word for spelling & cloze.
-    // (flashcard/en2zh are spoken before answering instead.)
+    // After answering: auto-speak the word 3 times for spelling & cloze, so
+    // the learner can hear and echo the pronunciation while reading feedback.
+    // (flashcard/en2zh are spoken once before answering instead.)
     if (type === 'spelling' || type === 'cloze') {
-      speak(wordToSpeak(q));
+      speakRepeatedly(wordToSpeak(q), 3);
     }
 
     // Auto-advance (P2 UX): a correct answer moves on by itself after a
