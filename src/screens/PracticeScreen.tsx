@@ -62,9 +62,14 @@ function buildQuestions(
     session.batchSize,
   );
   if (session.type === 'cloze') {
-    return buildClozeSession(entries, session.difficulty ?? 'adaptive', progress.entries);
+    return buildClozeSession(
+      entries,
+      session.difficulty ?? 'adaptive',
+      progress.entries,
+      session.round ?? 0,
+    );
   }
-  return buildSession(entries, session.type);
+  return buildSession(entries, session.type, session.round ?? 0);
 }
 
 export function PracticeScreen({

@@ -78,15 +78,20 @@ function hashString(s: string): number {
 /**
  * Session order: flashcards stay in workbook (alphabetical) order for
  * browsing; quiz types are shuffled so students cannot memorize positions.
- * The shuffle is seeded by the entryIds so it is stable across re-renders
- * (PracticeScreen rebuilds questions whenever progress updates).
+ * The shuffle is seeded by the entryIds + round so it stays stable across
+ * re-renders (PracticeScreen rebuilds questions whenever progress updates)
+ * but varies between rounds of the same batch — otherwise a student repeating
+ * a batch would see the identical sequence every time.
  */
 function sessionOrder(
   entries: VocabEntry[],
   type: QuestionType | 'mixed',
+  round = 0,
 ): VocabEntry[] {
   if (type === 'flashcard') return entries;
-  const seed = hashString(entries.map((e) => e.entryId).join(','));
+  const seed = hashString(
+    `${entries.map((e) => e.entryId).join(',')}#${round}`,
+  );
   return shuffle(entries, seed);
 }
 
@@ -242,18 +247,23 @@ function getEnrichmentByUnit(unit: string): EnrichedEntry[] {
   return getEnrichment(unit)?.entries ?? [];
 }
 
-/** Build a full session of questions for the selected entries + type. */
+/** Build a full session of questions for the selected entries + type.
+ *  `round` varies the question order and the type rotation between rounds
+ *  of the same batch (see sessionOrder); default 0 keeps the legacy
+ *  single-round behavior. */
 export function buildSession(
   entries: VocabEntry[],
   type: QuestionType | 'mixed',
+  round = 0,
 ): Question[] {
   const types: QuestionType[] =
     type === 'mixed'
       ? ['en2zh', 'zh2en', 'cloze', 'spelling', 'flashcard']
       : [type];
   const out: Question[] = [];
-  sessionOrder(entries, type).forEach((entry, i) => {
-    const t = types[i % types.length];
+  const start = round % types.length;
+  sessionOrder(entries, type, round).forEach((entry, i) => {
+    const t = types[(i + start) % types.length];
     const q = buildQuestion(entry, t, i);
     if (q) out.push(q);
   });
@@ -263,15 +273,17 @@ export function buildSession(
 /**
  * Build a cloze session using the 5-question-per-word generator with
  * adaptive or fixed difficulty. Each entry produces exactly one cloze
- * question chosen by difficulty.
+ * question chosen by difficulty. `round` varies the question order between
+ * rounds of the same batch (variant choice itself comes from progress).
  */
 export function buildClozeSession(
   entries: VocabEntry[],
   difficulty: DifficultyMode,
   progress: Record<string, EntryProgress>,
+  round = 0,
 ): Question[] {
   const out: Question[] = [];
-  sessionOrder(entries, 'cloze').forEach((entry) => {
+  sessionOrder(entries, 'cloze', round).forEach((entry) => {
     const q = buildAdaptiveCloze(entry, difficulty, progress);
     if (q) out.push(q);
   });

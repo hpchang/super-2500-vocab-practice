@@ -109,6 +109,17 @@ export function clearHistory(): void {
   }
 }
 
+/** How many sessions of this unit+type have completed (all history).
+ *  Used as the "round" seed so repeating the same batch varies the
+ *  question order/type rotation between rounds. */
+export function countCompleted(
+  unit: string,
+  type: QuestionType | 'mixed',
+): number {
+  return loadHistory().filter((r) => r.unit === unit && r.type === type)
+    .length;
+}
+
 /** Aggregate records over the trailing window (default 30 days). */
 export function historyStats(
   records: HistoryRecord[],

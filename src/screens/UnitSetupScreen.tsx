@@ -13,6 +13,7 @@ import { WordPicker } from '@/components/WordPicker';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
 import { clearCheckpoint } from '@/lib/checkpoint';
+import { countCompleted } from '@/lib/history';
 import type { DifficultyMode } from '@/lib/questions';
 import type { QuestionType } from '@/types/index';
 
@@ -118,6 +119,8 @@ export function UnitSetupScreen({
       type: qType,
       batchSize,
       difficulty,
+      // Repeating the same unit+type varies the question order/rotation.
+      round: countCompleted(unit, qType),
     });
     navigate('/practice');
   };

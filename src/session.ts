@@ -12,6 +12,10 @@ export interface SessionConfig {
   batchSize: number;
   /** Cloze difficulty mode; only used when type is 'cloze'. */
   difficulty?: DifficultyMode;
+  /** Which time this batch is being practiced (0-based). Varies the
+   *  question order and mixed-type rotation between rounds of the same
+   *  batch; absent (undefined) behaves like 0 — legacy sessions included. */
+  round?: number;
 }
 
 export interface SessionResult {
@@ -83,6 +87,18 @@ function parseSessionConfig(raw: string): SessionConfig | null {
   if (o.difficulty !== undefined) {
     if (!isDifficultyMode(o.difficulty)) return null;
     cfg.difficulty = o.difficulty;
+  }
+  if (o.round !== undefined) {
+    // Round must be a non-negative integer; anything else is malformed
+    // storage, not a legacy session.
+    if (
+      typeof o.round !== 'number' ||
+      !Number.isInteger(o.round) ||
+      o.round < 0
+    ) {
+      return null;
+    }
+    cfg.round = o.round;
   }
   return cfg;
 }

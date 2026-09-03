@@ -216,4 +216,37 @@ describe('question construction', () => {
     const correctOpt = q!.options!.find((o) => o.entryId === q!.answer);
     expect(correctOpt!.label).toBe(v.word);
   });
+
+
+  it('a later round of the same batch varies order and type rotation', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 15);
+    const round0 = buildSession(entries, 'mixed', 0);
+    const round1 = buildSession(entries, 'mixed', 1);
+    const round2 = buildSession(entries, 'mixed', 2);
+
+    const orderOf = (qs: ReturnType<typeof buildSession>) =>
+      qs.map((q) => `${q.entryId}:${q.type}`);
+
+    // Different rounds produce different sequences (order and/or rotation).
+    expect(orderOf(round1)).not.toEqual(orderOf(round0));
+    expect(orderOf(round2)).not.toEqual(orderOf(round1));
+    // Same round is stable — rebuilding twice gives the identical session.
+    expect(orderOf(buildSession(entries, 'mixed', 1))).toEqual(orderOf(round1));
+    // Same questions overall: every round still covers each entry once.
+    for (const qs of [round0, round1, round2]) {
+      expect(new Set(qs.map((q) => q.entryId))).toEqual(
+        new Set(entries.map((e) => e.entryId)),
+      );
+    }
+  });
+
+  it('cloze sessions vary order between rounds and stay stable within', () => {
+    const en = loadEnrichment('11');
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
+    const r0 = buildClozeSession(entries, 'medium', {}, 0).map((q) => q.entryId);
+    const r1 = buildClozeSession(entries, 'medium', {}, 1).map((q) => q.entryId);
+    expect(r1).not.toEqual(r0);
+    expect(buildClozeSession(entries, 'medium', {}, 1).map((q) => q.entryId)).toEqual(r1);
+  });
 });

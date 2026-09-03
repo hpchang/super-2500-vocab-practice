@@ -1,7 +1,7 @@
 import { loadResult } from '@/session';
 import { summarize } from '@/lib/scoring';
 import { getEntry, getEnrichedEntry } from '@/lib/data';
-import { loadHistory, historyDailySeries } from '@/lib/history';
+import { loadHistory, historyDailySeries, countCompleted } from '@/lib/history';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
 import { clearCheckpoint } from '@/lib/checkpoint';
@@ -37,6 +37,10 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       entryIds: unitWrong.map((w) => w.entryId),
       type: 'mixed',
       batchSize: 20,
+      // Re-practicing the same wrong entries is a new round: vary the
+      // question order/type rotation (appendHistory in saveResult already
+      // counted this completed round).
+      round: countCompleted(result.unit, 'mixed'),
     });
     // A new session invalidates any in-flight checkpoint (P1 review 2026-08-29).
     clearCheckpoint();

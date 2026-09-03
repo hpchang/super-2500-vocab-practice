@@ -9,8 +9,9 @@ import {
   clearHistory,
   historyStats,
   historyDailySeries,
+  countCompleted,
 } from '../src/lib/history.js';
-import { saveResult } from '../src/session.js';
+import { saveResult, saveSession, loadSession } from '../src/session.js';
 
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -65,6 +66,44 @@ describe('history records (P2-3)', () => {
     appendHistory({ at: 1000, unit: '11', type: 'mixed', total: 3, correct: 3 });
     clearHistory();
     expect(loadHistory()).toEqual([]);
+  });
+
+  it('countCompleted counts per unit+type', () => {
+    appendHistory({ at: 1000, unit: '11', type: 'mixed', total: 3, correct: 3 });
+    appendHistory({ at: 1001, unit: '11', type: 'mixed', total: 3, correct: 2 });
+    appendHistory({ at: 1002, unit: '11', type: 'cloze', total: 3, correct: 3 });
+    appendHistory({ at: 1003, unit: '12', type: 'mixed', total: 3, correct: 3 });
+    expect(countCompleted('11', 'mixed')).toBe(2);
+    expect(countCompleted('11', 'cloze')).toBe(1);
+    expect(countCompleted('12', 'mixed')).toBe(1);
+    expect(countCompleted('13', 'mixed')).toBe(0);
+  });
+
+  it('session round round-trips; legacy sessions lack it; malformed is rejected', () => {
+    saveSession({
+      unit: '11',
+      entryIds: ['u11:x'],
+      type: 'mixed',
+      batchSize: 5,
+      round: 3,
+    });
+    expect(loadSession()!.round).toBe(3);
+
+    // Legacy session (no round) parses fine — round stays undefined.
+    window.sessionStorage.setItem(
+      'vocab-super2500-session',
+      JSON.stringify({ unit: '11', entryIds: ['u11:x'], type: 'mixed', batchSize: 5 }),
+    );
+    expect(loadSession()!.round).toBeUndefined();
+
+    // A negative or non-integer round is malformed storage, not legacy.
+    for (const bad of [-1, 1.5, 'x']) {
+      window.sessionStorage.setItem(
+        'vocab-super2500-session',
+        JSON.stringify({ unit: '11', entryIds: ['u11:x'], type: 'mixed', batchSize: 5, round: bad }),
+      );
+      expect(loadSession()).toBeNull();
+    }
   });
 });
 
