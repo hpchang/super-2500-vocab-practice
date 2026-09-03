@@ -52,6 +52,14 @@ function due(entryId: string): EntryProgress {
   };
 }
 
+/** Answered moments ago: demoted to the batch tail by recency. */
+function justPracticed(entryId: string): EntryProgress {
+  return {
+    ...practiced(entryId),
+    lastAnsweredAt: Date.now() - 60 * 1000,
+  };
+}
+
 describe('buildBatch', () => {
   const entries = [entry('a'), entry('b'), entry('c'), entry('d'), entry('e')];
 
@@ -130,6 +138,54 @@ describe('buildBatch', () => {
     };
     const batch = buildBatch(entries, 5, progress, Date.now());
     expect(batch.map((e) => e.entryId)).toEqual(['a', 'c', 'b', 'd', 'e']);
+  });
+
+  it('demotes just-practiced words below unseen ones in later rounds', () => {
+    // 10-entry group, batch of 5. Round 1 answered a–e correctly moments
+    // ago; round 2 must surface the unseen f–j before repeating any of a–e.
+    const many = [
+      entry('a'),
+      entry('b'),
+      entry('c'),
+      entry('d'),
+      entry('e'),
+      entry('f'),
+      entry('g'),
+      entry('h'),
+      entry('i'),
+      entry('j'),
+    ];
+    const progress = {
+      a: justPracticed('a'),
+      b: justPracticed('b'),
+      c: justPracticed('c'),
+      d: justPracticed('d'),
+      e: justPracticed('e'),
+    };
+    const batch = buildBatch(many, 5, progress, Date.now());
+    // justPracticed has a future nextReviewAt (practiced helper) so it is
+    // NOT due; recency demotion puts it after unpracticed f–j.
+    expect(batch.map((e) => e.entryId)).toEqual(['f', 'g', 'h', 'i', 'j']);
+  });
+
+  it('wrong-queue words are never demoted by recency', () => {
+    const progress = {
+      a: { ...justPracticed('a'), inWrongQueue: true, totalWrong: 1 },
+    };
+    // a was just practiced AND is in the wrong queue → wrong group wins.
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['a', 'b', 'c', 'd', 'e']);
+  });
+
+  it('words answered long ago return via the rest group', () => {
+    // practiced() helper answers "recently" — override with an old
+    // lastAnsweredAt so the word flows back through the rest group.
+    // (a keeps its future nextReviewAt, so it is NOT due and not demoted;
+    // it lands in the rest group after unpracticed b–e.)
+    const old = { ...practiced('a'), lastAnsweredAt: Date.now() - 48 * 60 * 60 * 1000 };
+    const progress = { a: old };
+    const batch = buildBatch(entries, 5, progress, Date.now());
+    expect(batch.map((e) => e.entryId)).toEqual(['b', 'c', 'd', 'e', 'a']);
   });
 });
 

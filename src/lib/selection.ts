@@ -59,9 +59,18 @@ export const DEFAULT_BATCH_SIZE: BatchSize = 10;
  *   2. due for review      (isDueForReview)
  *   3. unpracticed         (no progress record yet)
  *   4. the rest            (practiced but not due)
+ *   5. recently practiced  (answered within RECENT_PRACTICE_MS) — demoted
+ *      below even "rest" so the next round of a group larger than one
+ *      batch moves on to unseen words instead of repeating the same head
+ *      (a word answered correctly stays stage 'new', which isDueForReview
+ *      counts as due forever). Wrong-queue entries are never demoted —
+ *      they need the reps regardless of recency.
  * Source order (alphabetical by workbook) is kept within each group,
  * so the first session (empty progress) still starts at the head.
  */
+/** Words answered within this window are demoted to the batch tail. */
+const RECENT_PRACTICE_MS = 12 * 60 * 60 * 1000;
+
 export function buildBatch(
   entries: VocabEntry[],
   batchSize: BatchSize,
@@ -73,14 +82,23 @@ export function buildBatch(
   const due: VocabEntry[] = [];
   const unpracticed: VocabEntry[] = [];
   const rest: VocabEntry[] = [];
+  const recent: VocabEntry[] = [];
   for (const e of entries) {
     const p = progress[e.entryId];
     if (p?.inWrongQueue) wrong.push(e);
     else if (!p) unpracticed.push(e);
     else if (isDueForReview(p, now)) due.push(e);
-    else rest.push(e);
+    else if (
+      p.lastAnsweredAt != null &&
+      now - p.lastAnsweredAt < RECENT_PRACTICE_MS
+    ) {
+      recent.push(e);
+    } else rest.push(e);
   }
-  return [...wrong, ...due, ...unpracticed, ...rest].slice(0, batchSize);
+  return [...wrong, ...due, ...unpracticed, ...rest, ...recent].slice(
+    0,
+    batchSize,
+  );
 }
 
 export function isDueForReview(p: EntryProgress, now: number): boolean {
