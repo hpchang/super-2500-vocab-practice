@@ -10,7 +10,7 @@ import { isDueForReview } from '@/lib/selection';
 export type QuickFilterId =
   | 'short4'
   | 'short6'
-  | 'short8'
+  | 'long'
   | 'review'
   | 'learning'
   | 'important'
@@ -30,9 +30,10 @@ export interface QuickFilter {
  *  ——它含 stage 'new' 的未練習字（從未練＝1 天後就該複習的語意）；
  *  「學習中」則明確排除未練習字。 */
 export const QUICK_FILTERS: QuickFilter[] = [
-  { id: 'short4', label: '短字 ≤4', match: (e) => e.word.length <= 4 },
-  { id: 'short6', label: '短字 ≤6', match: (e) => e.word.length <= 6 },
-  { id: 'short8', label: '短字 ≤8', match: (e) => e.word.length <= 8 },
+  // 短字三檔互斥（長度分箱，非疊加範圍）：≤4 / 5–6 / ≥7（長字）。
+  { id: 'short4', label: '字 ≤4', match: (e) => e.word.length <= 4 },
+  { id: 'short6', label: '字 5–6', match: (e) => e.word.length >= 5 && e.word.length <= 6 },
+  { id: 'long', label: '字 ≥7（長字）', match: (e) => e.word.length >= 7 },
   { id: 'review', label: '待複習', match: (_e, p, now) => !!p && isDueForReview(p, now) },
   {
     id: 'learning',

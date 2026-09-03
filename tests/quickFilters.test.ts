@@ -45,21 +45,24 @@ const ENTRIES = [
 const ids = (words: string[]) => words.map((w) => `u1:${w}`);
 
 describe('quickFilters', () => {
-  describe('short word tiers', () => {
+  describe('short word tiers (mutually exclusive length bins)', () => {
     const empty = {};
-    it('short4 includes 4 letters, excludes 5', () => {
+    it('字 ≤4: 4 letters in, 5 out', () => {
       expect(applyQuickFilter(ENTRIES, empty, 'short4', NOW)).toEqual(
         ids(['sun', 'book']),
       );
     });
-    it('short6 boundary: 6 in, 9 out', () => {
+    it('字 5–6: excludes ≤4 and ≥7', () => {
       expect(applyQuickFilter(ENTRIES, empty, 'short6', NOW)).toEqual(
-        ids(['sun', 'book', 'apple', 'banana']),
+        ids(['apple', 'banana']),
       );
     });
-    it('short8 includes everything ≤8, excludes 9 and 12', () => {
-      expect(applyQuickFilter(ENTRIES, empty, 'short8', NOW)).toEqual(
-        ids(['sun', 'book', 'apple', 'banana']),
+    it('字 ≥7: long words only — 7 letters in, ≤6 and 9+ all in', () => {
+      // Fixture has no ≥7 word except apartment/refrigerator; pin with a
+      // 7-letter word and confirm the bin includes everything ≥7.
+      const entries = [...ENTRIES, entry('village')]; // 7 letters
+      expect(applyQuickFilter(entries, empty, 'long', NOW)).toEqual(
+        ids(['apartment', 'refrigerator', 'village']),
       );
     });
   });
