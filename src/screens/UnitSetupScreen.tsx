@@ -99,6 +99,15 @@ export function UnitSetupScreen({
     });
   };
 
+  // WordPicker 快捷鍵的批量加入（immutable 合併，一次 setState）。
+  const addCustom = (ids: string[]) => {
+    setCustomIds((prev) => {
+      const next = new Set(prev);
+      for (const id of ids) next.add(id);
+      return next;
+    });
+  };
+
   const start = () => {
     if (batch.length === 0) return;
     // A brand-new session invalidates any in-flight resume checkpoint (P2-1).
@@ -191,6 +200,7 @@ export function UnitSetupScreen({
               entries={vocabUnit.entries}
               selected={customIds}
               onToggle={toggleCustom}
+              onSelectMany={addCustom}
             />
           )}
 

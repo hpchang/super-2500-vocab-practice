@@ -520,6 +520,36 @@ h2.section-title {
   white-space: nowrap;
 }
 
+/* 快捷選取 chips（WordPicker 工具列下方） */
+.quick-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.quick-chip {
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 32px;
+}
+
+.quick-chip:hover:not(:disabled) {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.quick-chip:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
 /* Word picker list */
 .word-list {
   max-height: 320px;
