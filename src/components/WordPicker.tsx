@@ -4,7 +4,6 @@ import { getEnrichedEntry } from '@/lib/data';
 import { useProgress, getEntryProgress } from '@/progressStore';
 import {
   QUICK_FILTERS,
-  countMatching,
   applyQuickFilter,
 } from '@/lib/quickFilters';
 
@@ -12,8 +11,9 @@ interface Props {
   entries: VocabEntry[];
   selected: Set<string>;
   onToggle: (id: string) => void;
-  /** 快捷鍵批量加入（一次 setState，比逐筆 onToggle 快）。 */
+  /** 快捷鍵批量加入／取消（一次 setState，比逐筆 onToggle 快）。 */
   onSelectMany?: (ids: string[]) => void;
+  onDeselectMany?: (ids: string[]) => void;
 }
 
 /** Normalize for search: NFC, lowercase, collapse spaces. */
@@ -21,7 +21,13 @@ function norm(s: string): string {
   return s.normalize('NFC').trim().replace(/\s+/g, ' ').toLowerCase();
 }
 
-export function WordPicker({ entries, selected, onToggle, onSelectMany }: Props) {
+export function WordPicker({
+  entries,
+  selected,
+  onToggle,
+  onSelectMany,
+  onDeselectMany,
+}: Props) {
   const progress = useProgress();
   const [query, setQuery] = useState('');
   const q = norm(query);
@@ -67,22 +73,29 @@ export function WordPicker({ entries, selected, onToggle, onSelectMany }: Props)
         <span className="word-count">已選 {selected.size} 字</span>
       </div>
 
-      {/* 快捷選取：點一下把符合的單字加入選取；先「清除全選」再點即「只選這一群」。
+      {/* 快捷選取 chip：toggle 語意——整群未選時點擊＝全部勾選（要），
+          整群已選時點擊＝整群取消（不要）。狀態由 selected 推導（群組在
+          visible 範圍內是否全選），手動勾選可微調；部分選取時點擊補成全選。
           數量跟著搜尋範圍走（visible），0 個的快捷鍵停用。 */}
       <div className="quick-filter-row" role="group" aria-label="快捷選取">
         {QUICK_FILTERS.map((f) => {
-          const count = countMatching(visible, progress.entries, f.id, now);
+          const ids = applyQuickFilter(visible, progress.entries, f.id, now);
+          const count = ids.length;
+          const groupAllSelected =
+            count > 0 && ids.every((id) => selected.has(id));
           return (
             <button
               key={f.id}
               type="button"
-              className="quick-chip"
-              disabled={count === 0 || !onSelectMany}
+              className={`quick-chip${groupAllSelected ? ' active' : ''}`}
+              aria-pressed={groupAllSelected}
+              disabled={count === 0 || !(onSelectMany && onDeselectMany)}
               onClick={() => {
-                if (!onSelectMany) return;
-                onSelectMany(applyQuickFilter(visible, progress.entries, f.id, now));
+                if (groupAllSelected) onDeselectMany?.(ids);
+                else onSelectMany?.(ids);
               }}
             >
+              {groupAllSelected && '✓ '}
               {f.label} · {count}
             </button>
           );

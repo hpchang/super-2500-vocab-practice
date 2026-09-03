@@ -100,11 +100,18 @@ export function UnitSetupScreen({
     });
   };
 
-  // WordPicker 快捷鍵的批量加入（immutable 合併，一次 setState）。
+  // WordPicker 快捷鍵的批量加入／取消（immutable，一次 setState）。
   const addCustom = (ids: string[]) => {
     setCustomIds((prev) => {
       const next = new Set(prev);
       for (const id of ids) next.add(id);
+      return next;
+    });
+  };
+  const removeCustom = (ids: string[]) => {
+    setCustomIds((prev) => {
+      const next = new Set(prev);
+      for (const id of ids) next.delete(id);
       return next;
     });
   };
@@ -204,6 +211,7 @@ export function UnitSetupScreen({
               selected={customIds}
               onToggle={toggleCustom}
               onSelectMany={addCustom}
+              onDeselectMany={removeCustom}
             />
           )}
 

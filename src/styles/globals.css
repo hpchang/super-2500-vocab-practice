@@ -550,6 +550,12 @@ h2.section-title {
   cursor: default;
 }
 
+.quick-chip.active {
+  background: var(--primary-weak);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 /* Word picker list */
 .word-list {
   max-height: 320px;
