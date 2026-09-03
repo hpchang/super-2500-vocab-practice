@@ -47,9 +47,9 @@ export function filterEntries(
   return result;
 }
 
-export const BATCH_SIZES = [5, 10, 20] as const;
+export const BATCH_SIZES = [5, 20, 40] as const;
 export type BatchSize = (typeof BATCH_SIZES)[number];
-export const DEFAULT_BATCH_SIZE: BatchSize = 10;
+export const DEFAULT_BATCH_SIZE: BatchSize = 20;
 
 /**
  * Build a batch from selected entries, capped at batchSize.
