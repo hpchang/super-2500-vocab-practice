@@ -141,6 +141,16 @@ export function PracticeScreen({
   const [reportOpen, setReportOpen] = useState(false);
   const reportBtnRef = useRef<HTMLButtonElement | null>(null);
 
+  // 拼字題出現時自動聚焦輸入框：autoFocus 只在元素首次掛載時生效，
+  // 換題是更新同一個 input，必須依題目主動 focus，游標才會一直待在
+  // 輸入框，學生不用回手去點。
+  const spellInputRef = useRef<HTMLInputElement | null>(null);
+  useEffect(() => {
+    if (q?.type === 'spelling' && feedback.state === 'none') {
+      spellInputRef.current?.focus();
+    }
+  }, [q, feedback.state]);
+
   // Keyboard: 1-4 answers choice questions; Enter/Space advances during
   // feedback so the whole session is doable without leaving the keys.
   useEffect(() => {
@@ -412,6 +422,7 @@ export function PracticeScreen({
               </label>
               <input
                 id="spell-input"
+                ref={spellInputRef}
                 className="spell-input"
                 value={spellInput}
                 onChange={(e) => setSpellInput(e.target.value)}
