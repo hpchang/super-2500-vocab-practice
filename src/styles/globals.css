@@ -1373,3 +1373,145 @@ h2.section-title {
 .celebrate .kpi-value {
   animation: celebrate-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
+/* 學習分析規劃展示頁（LearningAnalyticsScreen）：長文資訊頁排版。
+   全部使用既有 theme tokens；只補頁面專用的 list / badge / quadrant /
+   phase class，不重構全站樣式。 */
+.analytics-lead {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin: 0 0 12px;
+}
+
+.analytics-list {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.92rem;
+}
+
+.analytics-list li {
+  overflow-wrap: anywhere;
+}
+
+.analytics-group {
+  margin-top: 12px;
+}
+
+.analytics-group:first-of-type {
+  margin-top: 0;
+}
+
+.analytics-group-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+
+/* 靜態狀態 badge（非互動；不用 .chip，那是篩選按鈕的語意與尺寸）。 */
+.badge-static {
+  display: inline-block;
+  background: var(--primary-weak);
+  color: var(--primary);
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-static.badge-muted {
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-weight: 400;
+  white-space: normal;
+}
+
+.analytics-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* 四種作答模式：寬畫面 2×2，窄畫面單欄；每格都有完整文字條件，
+   不依賴顏色或行列位置理解。 */
+.quadrant-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.quadrant-cell {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  background: var(--surface-2);
+  min-width: 0;
+}
+
+.quadrant-cell.quadrant-positive {
+  background: var(--success-weak);
+}
+
+.quadrant-cell.quadrant-caution {
+  background: var(--warning-weak);
+}
+
+.quadrant-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--text);
+}
+
+.quadrant-read {
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.quadrant-action {
+  font-size: 0.82rem;
+  margin: 0 0 6px;
+  color: var(--text-muted);
+}
+
+.quadrant-avoid {
+  font-size: 0.78rem;
+  margin: 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* 分階段 roadmap。 */
+.phase-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  padding: 12px;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+
+.phase-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.phase-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .quadrant-grid {
+    grid-template-columns: 1fr;
+  }
+}

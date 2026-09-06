@@ -4,6 +4,7 @@ import { UnitSetupScreen } from './screens/UnitSetupScreen';
 import { PracticeScreen } from './screens/PracticeScreen';
 import { ResultsScreen } from './screens/ResultsScreen';
 import { WrongAnswersScreen } from './screens/WrongAnswersScreen';
+import { LearningAnalyticsScreen } from './screens/LearningAnalyticsScreen';
 import type { QuestionType } from './types/index';
 import type { FilterMode } from './lib/selection';
 
@@ -37,6 +38,10 @@ export function App() {
     screen = <ResultsScreen navigate={navigate} />;
   } else if (segs[0] === 'wrong') {
     screen = <WrongAnswersScreen navigate={navigate} />;
+  } else if (segs[0] === 'analytics') {
+    // 規劃展示頁：說明未來的答題時間分析方向。Display-only — 不計時、
+    // 不讀寫 analytics 資料、不改變排程。
+    screen = <LearningAnalyticsScreen navigate={navigate} />;
   } else {
     screen = <HomeScreen navigate={navigate} />;
   }

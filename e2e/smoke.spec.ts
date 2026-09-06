@@ -66,3 +66,31 @@ test('cloze session: question context and options render', async ({ page }) => {
   // Cloze prompt must contain a blank, not the answer word itself.
   await expect(page.locator('.qprompt.cloze')).toBeVisible();
 });
+
+test('analytics plan page: deep-link, disclaimer and back navigation', async ({
+  page,
+}) => {
+  await page.goto('/#/analytics');
+  await expect(
+    page.getByRole('heading', { name: '答題時間與學習分析' }),
+  ).toBeVisible();
+  await expect(page.locator('.app-header .sub')).toContainText('尚未啟用');
+  await expect(page.locator('.note')).toContainText('不會開始計時');
+  await expect(page.locator('.quadrant-cell')).toHaveCount(4);
+  // Back navigation returns to home.
+  await page.locator('.back-btn').click();
+  await expect(page).toHaveURL(/#\/$/);
+  await expect(page.getByRole('heading', { name: /今日任務|Super 2500/ })).toBeVisible();
+});
+
+test('analytics plan page: no horizontal scroll at 320px', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 720 });
+  await page.goto('/#/analytics');
+  await expect(page.locator('.app-header h1')).toBeVisible();
+  // 320px 無水平捲動（P1-10 硬門檻）。
+  const overflow = await page.evaluate(
+    () =>
+      document.documentElement.scrollWidth - window.innerWidth,
+  );
+  expect(overflow).toBeLessThanOrEqual(0);
+});
