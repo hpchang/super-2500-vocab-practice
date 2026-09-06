@@ -68,12 +68,12 @@ src/lib/data.ts                   資料載入
 src/lib/questions.ts               題目建構（含 buildClozeSession）
 src/lib/clozeGenerator.ts          5 題生成器（模板+干擾項+語意）
 src/lib/adaptive.ts               適性難度選擇
-src/lib/{scoring,scheduler,storage,hints,speak,selection}.ts
+src/lib/{scoring,scheduler,storage,hints,speak,selection,spellKeys}.ts
 src/screens/{HomeScreen,UnitSetupScreen,PracticeScreen,ResultsScreen,WrongAnswersScreen}.tsx
-src/components/{UnitCard,WordPicker,SpeakerButton}.tsx
+src/components/{UnitCard,WordPicker,SpeakerButton,SpellPad}.tsx
 src/styles/globals.css
-tests/{data,questions,scoring,scheduler,storage,hints,speak,adaptive}.test.ts
-tests/practiceCloze.test.tsx       PracticeScreen 組件回歸（jsdom，@vitest-environment 標註）
+tests/{data,questions,scoring,scheduler,storage,hints,speak,adaptive,spellKeys}.test.ts
+tests/{practiceCloze,spellPad}.test.tsx    組件回歸（jsdom，@vitest-environment 標註）
 tests/setup.ts                     測試環境初始化（IS_REACT_ACT_ENVIRONMENT）
 vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 ```
@@ -84,7 +84,7 @@ vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（435 tests）
+npm test             跑測試（495 tests）
 npm run check        build + Playwright smoke over dist（唯一跑 dist 的驗證）
 node scripts/audit-staging.mjs <unit號...>   稽核 staging 檔（兩輪式 pos）
 npx tsx scripts/import-workbook.ts --units=N    匯入 Excel（merge 模式；--dry-run 可預覽）
@@ -93,7 +93,7 @@ npx tsx scripts/validate-data.ts     驗證資料
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 435 tests 全通過
+- `npm test` → 495 tests 全通過
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - `npx tsc --noEmit` → 0 errors

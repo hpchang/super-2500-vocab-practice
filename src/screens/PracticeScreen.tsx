@@ -17,6 +17,7 @@ import {
 } from '@/lib/checkpoint';
 import { updateEntryProgress, getSnapshot } from '@/progressStore';
 import { SpeakerButton } from '@/components/SpeakerButton';
+import { SpellPad } from '@/components/SpellPad';
 import { ReportDialog } from '@/components/ReportDialog';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import type { QuestionType, VocabEntry, ProgressData } from '@/types/index';
@@ -103,7 +104,6 @@ export function PracticeScreen({
   }
   const [index, setIndex] = useState(restored ? restored.index : 0);
   const [chosen, setChosen] = useState<string | null>(null);
-  const [spellInput, setSpellInput] = useState('');
   // A checkpoint saved right after answering has results.length === index+1:
   // the current question was already answered and feedback was showing.
   // Restore that phase, otherwise the student can re-answer the same
@@ -145,16 +145,6 @@ export function PracticeScreen({
   // 回報題目問題對話框（僅情境填空）。
   const [reportOpen, setReportOpen] = useState(false);
   const reportBtnRef = useRef<HTMLButtonElement | null>(null);
-
-  // 拼字題出現時自動聚焦輸入框：autoFocus 只在元素首次掛載時生效，
-  // 換題是更新同一個 input，必須依題目主動 focus，游標才會一直待在
-  // 輸入框，學生不用回手去點。
-  const spellInputRef = useRef<HTMLInputElement | null>(null);
-  useEffect(() => {
-    if (q?.type === 'spelling' && feedback.state === 'none') {
-      spellInputRef.current?.focus();
-    }
-  }, [q, feedback.state]);
 
   // Keyboard: 1-4 answers choice questions; Enter/Space advances during
   // feedback so the whole session is doable without leaving the keys.
@@ -232,9 +222,9 @@ export function PracticeScreen({
     applyResult(r.correct, q.type);
   };
 
-  const submitSpelling = () => {
+  const submitSpelling = (answer: string) => {
     if (feedback.state !== 'none') return;
-    const correct = checkSpelling(spellInput, q.answer);
+    const correct = checkSpelling(answer, q.answer);
     setChosen(correct ? 'correct' : 'wrong');
     applyResult(correct, q.type);
   };
@@ -326,7 +316,6 @@ export function PracticeScreen({
     setQuestions(rebuilt);
     setIndex((i) => i + 1);
     setChosen(null);
-    setSpellInput('');
     setFeedback({ state: 'none' });
     setHintLevel(0);
   };
@@ -422,20 +411,12 @@ export function PracticeScreen({
           {/* Spelling: pronunciation hidden before answering to avoid leaking the answer */}
           {q.type === 'spelling' && (
             <>
-              <label className="visually-hidden" htmlFor="spell-input">
-                輸入英文單字
-              </label>
-              <input
-                id="spell-input"
-                ref={spellInputRef}
-                className="spell-input"
-                value={spellInput}
-                onChange={(e) => setSpellInput(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && submitSpelling()}
-                placeholder="輸入英文單字"
-                aria-label="輸入英文單字"
+              <SpellPad
+                key={`${q.entryId}:${q.type}`}
+                entryId={q.entryId}
+                word={q.spellingAnswer ?? q.answer}
                 disabled={feedback.state !== 'none'}
-                autoFocus
+                onComplete={submitSpelling}
               />
               {/* After answering, let the student hear the word. */}
               {feedback.state !== 'none' && (
@@ -457,15 +438,6 @@ export function PracticeScreen({
                     <span className="hint-exhausted">已顯示完整提示</span>
                   )}
                 </div>
-              )}
-              {feedback.state === 'none' && (
-                <button
-                  className="btn action-btn"
-                  onClick={submitSpelling}
-                  disabled={!spellInput.trim()}
-                >
-                  送出
-                </button>
               )}
             </>
           )}
