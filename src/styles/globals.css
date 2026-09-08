@@ -5,6 +5,7 @@
   --border: #d7e0ea;
   --text: #172033;
   --text-muted: #526174;
+  --text-faint: #6b7686;
   --primary: #1d4ed8;
   --primary-weak: #e8f0ff;
   --success: #166534;
@@ -28,6 +29,7 @@
     --border: #2b323d;
     --text: #e6e8eb;
     --text-muted: #9aa3ad;
+    --text-faint: #8a929c;
     --primary: #5b9eff;
     --primary-weak: #1b2735;
     --success: #34d399;
@@ -47,6 +49,7 @@
   --border: #2b323d;
   --text: #e6e8eb;
   --text-muted: #9aa3ad;
+  --text-faint: #8a929c;
   --primary: #5b9eff;
   --primary-weak: #1b2735;
   --success: #34d399;
@@ -908,6 +911,11 @@ h2.section-title {
 .feedback .translation {
   margin-top: 4px;
   color: var(--text-muted);
+}
+
+/* 干擾項釋義：比主翻譯再淡一階，不與正確答案的資訊搶焦點。 */
+.feedback .distractor-zh {
+  color: var(--text-faint);
 }
 
 .flashcard-actions {

@@ -123,6 +123,57 @@ describe('PracticeScreen cloze (待辦 #2 regression)', () => {
     });
   });
 
+  it.each(['cloze', 'zh2en'] as const)(
+    '%s: feedback shows the Chinese gloss of each distractor after answering',
+    async (type) => {
+      const unit = getUnit('11')!;
+      const entry = unit.entries.find((e) => {
+        if (type === 'zh2en') {
+          // zh2en only needs enrichment (zh gloss for the prompt).
+          return !!getEnrichedEntry(e.entryId)?.zh;
+        }
+        const gen = generateClozeForEntry(e.entryId);
+        return gen.some((g) => g.difficulty === 'easy');
+      })!;
+      expect(entry).toBeDefined();
+
+      saveSession({
+        unit: '11',
+        entryIds: [entry.entryId],
+        type,
+        batchSize: 1,
+        ...(type === 'cloze' ? { difficulty: 'easy' } : {}),
+      });
+
+      const { root } = await renderPractice();
+
+      const optionsBefore = getOptions();
+      expect(optionsBefore.length).toBeGreaterThanOrEqual(3);
+
+      await act(async () => {
+        clickOption(optionsBefore[0]);
+      });
+
+      const feedback = document.querySelector('.feedback');
+      expect(feedback).not.toBeNull();
+
+      // Every distractor option must be accompanied by its Chinese gloss.
+      const glosses = Array.from(document.querySelectorAll('.feedback .distractor-zh')).map(
+        (el) => el.textContent ?? '',
+      );
+      expect(glosses.length).toBe(optionsBefore.length - 1);
+      for (const label of glosses) {
+        const word = label.split('：')[0];
+        expect(optionsBefore).toContain(word);
+        expect(label.split('：')[1]).toBeTruthy(); // the gloss itself is non-empty
+      }
+
+      await act(async () => {
+        root.unmount();
+      });
+    },
+  );
+
   it('flashcard: the Chinese meaning appears after self-rating (回歸: 選完即走吞掉釋義)', async () => {
     const unit = getUnit('11')!;
     const entry = unit.entries.find((e) => {

@@ -511,8 +511,6 @@ export function PracticeScreen({
                   <div className="sentence">{q.context.fullSentence}</div>
                   <div className="translation">{q.context.translation}</div>
                   <div className="translation">線索：{q.context.clue}</div>
-                  {/* 回報不適合的干擾項（僅情境填空）。是 <button>，不會
-                      觸發 feedback 區的點擊前進。 */}
                   <div className="speaker-row">
                     <button
                       ref={reportBtnRef}
@@ -525,6 +523,16 @@ export function PracticeScreen({
                   </div>
                 </>
               )}
+              {/* 情境填空／中選英：干擾項也附上中文釋義，
+                  答錯時能順帶學到其他選項的意思。 */}
+              {(q.type === 'cloze' || q.type === 'zh2en') &&
+                q.options
+                  ?.filter((opt) => opt.entryId !== q.answer)
+                  .map((opt) => (
+                    <div key={opt.entryId} className="translation distractor-zh">
+                      {opt.label}：{getEnrichedEntry(opt.entryId)?.zh ?? '（無釋義）'}
+                    </div>
+                  ))}
               {q.type === 'spelling' && feedback.state === 'wrong' && (
                 <div className="sentence">正確答案：{q.answer}</div>
               )}
