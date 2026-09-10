@@ -12,15 +12,15 @@
       "status": "reviewed",
       "source": "人工編寫",
       "cloze": {
-        "sentence": "The teacher gave each student a red ___ from the basket.",
-        "fullSentence": "The teacher gave each student a red apple from the basket.",
-        "translation": "老師從籃子裡給每個學生一顆紅蘋果。",
-        "clue": "紅色皮、圓圓的水果",
+        "sentence": "The teacher held up the letter A and a red ___ from the basket.",
+        "fullSentence": "The teacher held up the letter A and a red apple from the basket.",
+        "translation": "老師舉起字母 A 和籃子裡的一顆紅蘋果。",
+        "clue": "以 A 開頭的紅色水果",
         "answerEntryId": "u9:apple",
         "distractorEntryIds": [
-          "u9:tomato",
-          "u9:peach",
-          "u9:pear"
+          "u9:banana",
+          "u9:lemon",
+          "u9:pineapple"
         ]
       },
       "clozeEasy": [

@@ -1388,15 +1388,15 @@
       "status": "reviewed",
       "source": "人工編寫",
       "cloze": {
-        "sentence": "Porters ___ heavy bags up the mountain.",
-        "fullSentence": "Porters carry heavy bags up the mountain.",
-        "translation": "挑夫把重袋子搬到山上。",
-        "clue": "用手提或肩扛物品移動",
+        "sentence": "Porters ___ heavy bags on their backs as they climb the mountain.",
+        "fullSentence": "Porters carry heavy bags on their backs as they climb the mountain.",
+        "translation": "挑夫爬山時，把沉重的袋子背在背上搬運。",
+        "clue": "背著物品一路移動",
         "answerEntryId": "u1:carry",
         "distractorEntryIds": [
-          "u1:jump",
+          "u1:throw",
           "u1:kick",
-          "u1:lift"
+          "u1:drop"
         ]
       },
       "clozeEasy": [
@@ -5344,15 +5344,15 @@
       "status": "reviewed",
       "source": "人工編寫",
       "cloze": {
-        "sentence": "She painted her ___ with pretty colors.",
-        "fullSentence": "She painted her nail with pretty colors.",
-        "translation": "她把指甲塗上漂亮的顏色。",
-        "clue": "手指末端硬硬的部分",
+        "sentence": "At the salon, she painted each ___ on her fingers pink.",
+        "fullSentence": "At the salon, she painted each nail on her fingers pink.",
+        "translation": "在美甲店，她把手指上的每片指甲塗成粉紅色。",
+        "clue": "手指末端可塗色的硬片",
         "answerEntryId": "u1:nail",
         "distractorEntryIds": [
-          "u1:arm",
-          "u1:leg",
-          "u1:lip"
+          "u1:toe",
+          "u1:wrist",
+          "u1:tooth"
         ]
       },
       "clozeEasy": [
@@ -5516,15 +5516,15 @@
       "status": "reviewed",
       "source": "人工編寫",
       "cloze": {
-        "sentence": "When the teacher asks if you understand, ___ your head.",
-        "fullSentence": "When the teacher asks if you understand, nod your head.",
-        "translation": "老師問懂不懂時，就點頭。",
-        "clue": "頭上下動表示同意",
+        "sentence": "When the teacher asks whether you agree, ___ your head up and down.",
+        "fullSentence": "When the teacher asks whether you agree, nod your head up and down.",
+        "translation": "老師問你是否同意時，就上下點頭。",
+        "clue": "頭部上下移動表示同意",
         "answerEntryId": "u1:nod",
         "distractorEntryIds": [
-          "u1:shake",
-          "u1:sleep",
-          "u1:stand"
+          "u1:wave",
+          "u1:smile",
+          "u1:bow"
         ]
       },
       "clozeEasy": [
