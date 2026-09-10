@@ -66,3 +66,42 @@ test('cloze session: question context and options render', async ({ page }) => {
   // Cloze prompt must contain a blank, not the answer word itself.
   await expect(page.locator('.qprompt.cloze')).toBeVisible();
 });
+// 90 天學習計畫 smoke：建立計畫 → 首頁進入今日計畫 → 開始 Unit 子
+// session → 作答 → Results 導向下一組 → reload 後進度不重複。
+test('study plan: create → today tasks → answer → results', async ({ page }) => {
+  await page.goto('/#/plan');
+  // 建立計畫頁：顯示抵免 KPI 與開始按鈕。
+  await expect(page.getByRole('button', { name: '開始 90 天計畫' })).toBeVisible();
+  await page.getByRole('button', { name: '開始 90 天計畫' }).click();
+
+  // 進行中視圖：今日任務三區。
+  await expect(page.getByRole('heading', { name: /今日任務/ })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: /^必做複習/ }),
+  ).toBeVisible();
+  await expect(page.getByRole('heading', { name: /^今日新字/ })).toBeVisible();
+
+  // 開始第一個新字 Unit 子 session（flashcard：三個熟悉度按鈕）。
+  await page.getByRole('button', { name: /開始（\d+ 字）/ }).first().click();
+  await expect(page.locator('.flashcard-actions')).toBeVisible();
+
+  // 答完整個 session：每題自評後按「下一題」，最後一題是「查看結果」。
+  // 上限防呆：每題佔兩個迭代（自評＋前進），28 題需 56——上限 80。
+  for (let i = 0; i < 80; i += 1) {
+    const nextBtn = page.getByRole('button', { name: /查看結果|下一題/ });
+    if (await nextBtn.isVisible().catch(() => false)) {
+      const label = await nextBtn.textContent();
+      await nextBtn.click();
+      if (label?.includes('查看結果')) break;
+      continue;
+    }
+    // 還在作答階段：自評「記得」。
+    await page.locator('.flashcard-actions button').last().click();
+  }
+  await expect(page.getByText('今日計畫進度')).toBeVisible();
+
+  // reload 後回到計畫：進度已回寫、不重複計數。
+  await page.reload();
+  await page.goto('/#/plan');
+  await expect(page.getByRole('heading', { name: /今日任務/ })).toBeVisible();
+});

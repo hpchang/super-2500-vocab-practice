@@ -1476,3 +1476,31 @@ h2.section-title {
 .celebrate .kpi-value {
   animation: celebrate-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
+/* 90 天學習計畫頁（#/plan）：KPI 與任務卡片沿用既有 tokens。 */
+.plan-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.plan-warning {
+  background: var(--warning-weak);
+  color: var(--warning);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+/* 開始日選擇與日期輸入在窄螢幕不橫捲。 */
+.plan-meta + .settings-row,
+.card .settings-row {
+  margin-top: 12px;
+}
+
+@media (max-width: 480px) {
+  .plan-warning {
+    font-size: 0.85rem;
+  }
+}

@@ -4,10 +4,13 @@ import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { useProgress } from '@/progressStore';
 import { wrongQueueEntries, dueEntries } from '@/lib/scheduler';
 import { hasResumableCheckpoint, loadCheckpoint } from '@/lib/checkpoint';
+import { useStudyPlan, getCorpus } from '@/studyPlanStore';
+import { planState, todayProgress, toLocalDate } from '@/lib/studyPlan';
 
 export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
   const units = getUnits();
   const progress = useProgress();
+  const plan = useStudyPlan();
   const now = Date.now();
   const totalWrong = wrongQueueEntries(progress.entries).length;
   const totalReview = dueEntries(progress.entries, now).length;
@@ -30,9 +33,16 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
   let heroTarget: string;
   // 中斷的練習（P2-1）優先於一切任務——學生最在意的是「回來接著做」。
   const resumable = hasResumableCheckpoint() ? loadCheckpoint() : null;
+  // 學習計畫（優先次僅於 checkpoint）：有 active plan 時首頁主入口是今日計畫。
+  const todayStr = toLocalDate(new Date(now));
+  const planSnapshot = plan?.today && plan.today.date === todayStr ? plan.today : null;
+  const planState_ = plan ? planState({ plan, progress, now }) : null;
   if (resumable) {
     heroTarget = '/practice';
     heroLabel = `繼續上次練習（第 ${resumable.index + 1}/${resumable.questions.length} 題）`;
+  } else if (plan && planState_) {
+    heroTarget = '/plan';
+    heroLabel = planSnapshot ? '繼續今日計畫' : '開始今日計畫';
   } else if (wrongUnit) {
     heroTarget = `/unit/${wrongUnit.unit}/setup/mixed/wrong`;
     heroLabel = `繼續學習：複習錯題（${totalWrong} 字）`;
@@ -46,6 +56,22 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
     heroLabel = '開始學新字';
   }
 
+  const heroSub = resumable
+    ? `上次練習未完成，接著做不用重來`
+    : plan && planState_
+      ? planSnapshot
+        ? `第 ${Math.min(planState_.day, 90)} 天 · 已學 ${planState_.introduced} / ${getCorpus().entryIds.length} 字`
+        : '90 天學完全書，今天開始'
+      : wrongUnit
+        ? `${totalWrong} 個錯題字等著重練`
+        : reviewUnit
+          ? `${totalReview} 個單字到期複習`
+          : '沒有到期任務，學新字正是時候';
+
+  // 今日計畫完成度（有 plan snapshot 時顯示）。
+  const tp = planSnapshot ? todayProgress(planSnapshot, progress) : null;
+  const planDone = tp?.done ?? false;
+
   return (
     <>
       <div className="app-header">
@@ -58,16 +84,17 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
 
       <div className="hero">
         <div className="hero-text">
-          <div className="hero-title">今日任務</div>
-          <div className="hero-sub">
-            {resumable
-              ? `上次練習未完成，接著做不用重來`
-              : wrongUnit
-                ? `${totalWrong} 個錯題字等著重練`
-                : reviewUnit
-                  ? `${totalReview} 個單字到期複習`
-                  : '沒有到期任務，學新字正是時候'}
+          <div className="hero-title">
+            {plan && planState_ ? '90 天學習計畫' : '今日任務'}
           </div>
+          <div className="hero-sub">{heroSub}</div>
+          {tp && (
+            <div className="hero-sub">
+              {planDone
+                ? '今日必做已完成 🎉'
+                : `今日必做：複習 ${tp.reviewDone}/${tp.reviewTotal} · 新字 ${tp.newDone}/${tp.newTotal}`}
+            </div>
+          )}
         </div>
         <button className="btn" onClick={() => navigate(heroTarget)}>
           {heroLabel}
@@ -86,6 +113,11 @@ export function HomeScreen({ navigate }: { navigate: (to: string) => void }) {
         >
           複習錯題{totalWrong > 0 ? `（${totalWrong}）` : ''}
         </button>
+        {!plan && (
+          <button className="btn secondary" onClick={() => navigate('/plan')}>
+            90 天學習計畫
+          </button>
+        )}
       </div>
     </>
   );

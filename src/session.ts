@@ -1,9 +1,20 @@
 import type { QuestionType } from '@/types/index';
+import type { PlanSection } from '@/types/index';
 import type { DifficultyMode } from '@/lib/questions';
 import { appendHistory } from '@/lib/history';
 
 const KEY = 'vocab-super2500-session';
 const RESULT_KEY = 'vocab-super2500-lastresult';
+
+/** 計畫情境：session 來自學習計畫的今日任務。可選——legacy session 不帶。 */
+export interface PlanContext {
+  planId: string;
+  /** 排定日期（本地日曆日 'YYYY-MM-DD'）。 */
+  date: string;
+  section: PlanSection;
+  /** 本組的 Unit（planContext.unit 需與 SessionConfig.unit 一致）。 */
+  unit: string;
+}
 
 export interface SessionConfig {
   unit: string;
@@ -16,6 +27,9 @@ export interface SessionConfig {
    *  question order and mixed-type rotation between rounds of the same
    *  batch; absent (undefined) behaves like 0 — legacy sessions included. */
   round?: number;
+  /** 計畫情境（可選）；checkpoint round-trip 保留，供 Practice/Results
+   *  回寫 task 完成與「繼續今日下一組」。 */
+  plan?: PlanContext;
 }
 
 export interface SessionResult {
@@ -23,6 +37,8 @@ export interface SessionResult {
   type: QuestionType | 'mixed';
   /** Cloze difficulty mode, preserved so "下一批" keeps a fixed difficulty (P0-7). */
   difficulty?: DifficultyMode;
+  /** 計畫情境，自 SessionConfig 保留。 */
+  plan?: PlanContext;
   results: { entryId: string; type: QuestionType; correct: boolean }[];
 }
 
@@ -48,6 +64,22 @@ export { parseSessionConfig };
 
 const QUESTION_TYPES = ['flashcard', 'en2zh', 'zh2en', 'cloze', 'spelling'];
 const DIFFICULTY_MODES = ['adaptive', 'easy', 'medium', 'hard'];
+const PLAN_SECTIONS = ['required-review', 'new', 'optional-strong'];
+
+function isPlanSection(v: unknown): v is PlanSection {
+  return typeof v === 'string' && (PLAN_SECTIONS as string[]).includes(v);
+}
+
+function parsePlanContext(v: unknown): PlanContext | null | undefined {
+  if (v === undefined) return undefined;
+  if (typeof v !== 'object' || v === null) return null;
+  const o = v as Record<string, unknown>;
+  if (typeof o.planId !== 'string' || o.planId.length === 0) return null;
+  if (typeof o.date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(o.date)) return null;
+  if (!isPlanSection(o.section)) return null;
+  if (typeof o.unit !== 'string' || o.unit.length === 0) return null;
+  return { planId: o.planId, date: o.date, section: o.section, unit: o.unit };
+}
 
 function isQuestionType(v: unknown): v is QuestionType | 'mixed' {
   return v === 'mixed' || (typeof v === 'string' && QUESTION_TYPES.includes(v));
@@ -100,6 +132,15 @@ function parseSessionConfig(raw: string): SessionConfig | null {
     }
     cfg.round = o.round;
   }
+  // 計畫情境（可選）：未知或損壞的 plan context 讓 session 解析失敗，
+  // 回退為無 session，而不是讓 Practice crash（P0-9 同一政策）。
+  const plan = parsePlanContext(o.plan);
+  if (plan === null) return null;
+  if (plan) {
+    // plan.unit 必須與 session.unit 一致，否則視為 malformed。
+    if (plan.unit !== o.unit) return null;
+    cfg.plan = plan;
+  }
   return cfg;
 }
 
@@ -132,6 +173,12 @@ function parseSessionResult(raw: string): SessionResult | null {
   if (o.difficulty !== undefined) {
     if (!isDifficultyMode(o.difficulty)) return null;
     out.difficulty = o.difficulty;
+  }
+  const plan = parsePlanContext(o.plan);
+  if (plan === null) return null;
+  if (plan) {
+    if (plan.unit !== o.unit) return null;
+    out.plan = plan;
   }
   return out;
 }

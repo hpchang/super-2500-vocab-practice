@@ -9,6 +9,7 @@ import {
   clearProgress,
 } from '@/lib/storage';
 import { clearCheckpoint } from '@/lib/checkpoint';
+import { deletePlan as deleteStudyPlan } from '@/studyPlanStore';
 
 let state: ProgressData = loadProgress();
 const listeners = new Set<() => void>();
@@ -99,6 +100,9 @@ export function resetProgress(): void {
   // 清除進度 also drops any in-flight resume checkpoint (P2-1) — with all
   // records gone there is no session worth resuming.
   clearCheckpoint();
+  // 清除進度同步移除學習計畫——留下計畫會與已清除的 progress 不一致
+  //（計畫的抵免基線、今日 snapshot 都以 progress 為依據）。
+  deleteStudyPlan();
   for (const l of listeners) l();
 }
 

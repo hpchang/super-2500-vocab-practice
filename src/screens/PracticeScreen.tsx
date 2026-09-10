@@ -244,6 +244,11 @@ export function PracticeScreen({
     rating?: 'forgot' | 'familiar' | 'remembered',
   ) => {
     const now = Date.now();
+    // 計畫情境（plan session）：作答一次即完成該 entry 的當日 task——
+    // 答錯也算（仍進錯題佇列，於後續計畫日成為必做）。完成判定由
+    // answeredToday（lastAnsweredAt 落在今天）驅動，recordAnswer 更新
+    // lastAnsweredAt 即完成 task，天然冪等——重複回寫、checkpoint 恢復
+    // 或 Results reload 都不會重複計數。
     updateEntryProgress(q.entryId, (prev) => {
       const updated = recordAnswer(prev, correct, type, now, rating);
       // Record which cloze variant was used (for adaptive repeat avoidance).
@@ -308,6 +313,7 @@ export function PracticeScreen({
         unit: session.unit,
         type: session.type,
         difficulty: session.difficulty,
+        plan: session.plan,
         results,
       });
       navigate('/results');

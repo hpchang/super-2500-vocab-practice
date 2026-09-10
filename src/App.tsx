@@ -4,6 +4,7 @@ import { UnitSetupScreen } from './screens/UnitSetupScreen';
 import { PracticeScreen } from './screens/PracticeScreen';
 import { ResultsScreen } from './screens/ResultsScreen';
 import { WrongAnswersScreen } from './screens/WrongAnswersScreen';
+import { StudyPlanScreen } from './screens/StudyPlanScreen';
 import type { QuestionType } from './types/index';
 import type { FilterMode } from './lib/selection';
 
@@ -14,6 +15,8 @@ export function App() {
   let screen: React.ReactNode;
   if (segs.length === 0 || segs[0] === 'home') {
     screen = <HomeScreen navigate={navigate} />;
+  } else if (segs[0] === 'plan') {
+    screen = <StudyPlanScreen navigate={navigate} />;
   } else if (segs[0] === 'unit' && segs[1] && segs[2] === 'setup') {
     // /unit/:unit/setup/:type/:filter — optional type pre-select ("下一批"),
     // filter pre-select (Home deep-link), or cloze difficulty (P0-7: a fixed

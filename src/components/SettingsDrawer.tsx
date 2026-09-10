@@ -148,7 +148,9 @@ export function SettingsDrawer() {
               <div className="settings-danger-title">危險區域</div>
               {confirming ? (
                 <div className="settings-confirm">
-                  <p>這會刪除所有作答紀錄、熟悉度與錯題，且無法復原。</p>
+                  <p>
+                    這會刪除所有作答紀錄、熟悉度、錯題，以及 90 天學習計畫，且無法復原。
+                  </p>
                   <div className="btn-row">
                     <button className="btn secondary" onClick={() => setConfirming(false)}>
                       取消

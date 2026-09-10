@@ -5,9 +5,15 @@ import { loadHistory, historyDailySeries, countCompleted } from '@/lib/history';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
 import { saveSession } from '@/session';
 import { clearCheckpoint } from '@/lib/checkpoint';
+import { useProgress } from '@/progressStore';
+import { useStudyPlan, getCorpus } from '@/studyPlanStore';
+import { planState, todayProgress, toLocalDate } from '@/lib/studyPlan';
+import type { PlanContext } from '@/session';
 
 export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) {
   const result = loadResult();
+  const progress = useProgress();
+  const plan = useStudyPlan();
 
   if (!result || result.results.length === 0) {
     return (
@@ -55,6 +61,60 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         : '';
     navigate(`/unit/${result.unit}/setup/${result.type}${diff}`);
   };
+
+  // —— 計畫情境（plan session）——
+  // 顯示本組結果＋今日整體進度；主要 CTA 是「繼續今日下一組」。
+  const planCtx: PlanContext | undefined = result.plan;
+  const isPlanSession = planCtx != null;
+  const livePlan = plan && plan.planId === planCtx?.planId ? plan : null;
+  const todayStr = toLocalDate(new Date());
+  const planSnapshot =
+    livePlan?.today && livePlan.today.date === todayStr ? livePlan.today : null;
+  const st = livePlan ? planState({ plan: livePlan, progress, now: Date.now() }) : null;
+
+  // 今日下一組：依計畫三區順序找第一個還有未完成 entry 的 Unit group。
+  const nextPlanGroup = (() => {
+    if (!planSnapshot) return null;
+    const done = (id: string) =>
+      progress.entries[id]?.lastAnsweredAt != null &&
+      answeredTodayLocal(progress.entries[id]!.lastAnsweredAt!, todayStr);
+    const sections = [
+      { key: 'required-review' as const, groups: planSnapshot.requiredReview },
+      { key: 'new' as const, groups: planSnapshot.newEntries },
+    ];
+    for (const sec of sections) {
+      for (const g of sec.groups) {
+        const pending = g.entryIds.filter((id) => !done(id));
+        if (pending.length > 0) {
+          return { section: sec.key, group: g, pending };
+        }
+      }
+    }
+    return null;
+  })();
+
+  const continuePlan = () => {
+    if (!planCtx || !nextPlanGroup) {
+      navigate('/plan');
+      return;
+    }
+    clearCheckpoint();
+    saveSession({
+      unit: nextPlanGroup.group.unit,
+      entryIds: nextPlanGroup.pending,
+      type: nextPlanGroup.section === 'new' ? 'flashcard' : 'mixed',
+      batchSize: nextPlanGroup.pending.length,
+      plan: {
+        planId: planCtx.planId,
+        date: todayStr,
+        section: nextPlanGroup.section,
+        unit: nextPlanGroup.group.unit,
+      },
+    });
+    navigate('/practice');
+  };
+
+  const todayTp = planSnapshot ? todayProgress(planSnapshot, progress) : null;
 
   return (
     <>
@@ -143,9 +203,49 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         )}
       </div>
 
-      {/* 情境 CTA（P1-4）：有錯題→重練這些字；全對→下一批；不渲染 disabled primary。 */}
+      {/* 計畫 session：顯示今日整體進度。 */}
+      {isPlanSession && todayTp && (
+        <div className="card">
+          <h2 className="section-title">今日計畫進度</h2>
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={todayTp.reviewTotal + todayTp.newTotal}
+            aria-valuenow={todayTp.reviewDone + todayTp.newDone}
+            aria-label={`今日必做 ${todayTp.reviewDone + todayTp.newDone} / ${todayTp.reviewTotal + todayTp.newTotal}`}
+          >
+            <div
+              style={{
+                width: `${((todayTp.reviewDone + todayTp.newDone) / Math.max(todayTp.reviewTotal + todayTp.newTotal, 1)) * 100}%`,
+              }}
+            />
+          </div>
+          <div className="plan-meta">
+            {todayTp.done
+              ? '今日必做複習與新字全部完成！'
+              : `必做複習 ${todayTp.reviewDone}/${todayTp.reviewTotal} · 新字 ${todayTp.newDone}/${todayTp.newTotal}`}
+            {st && ` · 全書已學 ${st.introduced}/${getCorpus().entryIds.length}`}
+          </div>
+        </div>
+      )}
+
+      {/* 情境 CTA（P1-4）：計畫 session 的主 CTA 是「繼續今日下一組」；
+          必做全部完成則顯示「今日任務完成」。錯題仍可重練，但不破壞
+          plan context；可選 strong 不影響完成狀態。 */}
       <div className="btn-row">
-        {wrongEntries.length > 0 ? (
+        {isPlanSession ? (
+          todayTp?.done || !nextPlanGroup ? (
+            <button className="btn" onClick={() => navigate('/plan')}>
+              今日任務完成，返回計畫
+            </button>
+          ) : (
+            <button className="btn" onClick={continuePlan}>
+              繼續今日下一組（{nextPlanGroup.section === 'new' ? '新字' : '複習'} ·{' '}
+              Unit {nextPlanGroup.group.unit} · {nextPlanGroup.pending.length} 字）
+            </button>
+          )
+        ) : wrongEntries.length > 0 ? (
           <button className="btn" onClick={repracticeWrong}>
             重練這些字（{wrongEntries.length}）
           </button>
@@ -155,7 +255,7 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
           </button>
         )}
       </div>
-      {wrongEntries.length > 0 && (
+      {!isPlanSession && wrongEntries.length > 0 && (
         <div className="btn-row">
           <button className="btn secondary" onClick={nextBatch}>
             下一批
@@ -163,12 +263,21 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
         </div>
       )}
       <div className="btn-row">
-        <button className="btn ghost" onClick={() => navigate('/')}>
-          返回首頁
+        <button className="btn ghost" onClick={() => navigate(isPlanSession ? '/plan' : '/')}>
+          {isPlanSession ? '返回計畫' : '返回首頁'}
         </button>
       </div>
     </>
   );
+}
+
+/** lastAnsweredAt 是否落在今天（本地日曆日）。與引擎 answeredToday
+ *  同一邏輯；此處獨立小函式避免 Results 額外依賴 snapshot date 之外的參數。 */
+function answeredTodayLocal(at: number, today: string): boolean {
+  const [y, m, d] = today.split('-').map(Number);
+  const start = new Date(y, m - 1, d).getTime();
+  const end = new Date(y, m - 1, d + 1).getTime();
+  return at >= start && at < end;
 }
 
 /** 近 14 天趨勢：純 CSS 柱狀圖，高度＝當日題數，顏色＝正確率。 */
