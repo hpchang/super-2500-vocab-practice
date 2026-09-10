@@ -258,7 +258,8 @@ export function buildSession(
 ): Question[] {
   const types: QuestionType[] =
     type === 'mixed'
-      ? ['en2zh', 'zh2en', 'cloze', 'spelling', 'flashcard']
+      ? // 單字卡只給學新字用，不進混合輪替（複習也走 mixed，不應出單字卡）。
+        ['en2zh', 'zh2en', 'cloze', 'spelling']
       : [type];
   const out: Question[] = [];
   const start = round % types.length;
