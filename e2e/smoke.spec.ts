@@ -105,3 +105,66 @@ test('study plan: create → today tasks → answer → results', async ({ page 
   await page.goto('/#/plan');
   await expect(page.getByRole('heading', { name: /今日任務/ })).toBeVisible();
 });
+
+// 計畫成效趨勢圖的 320px 回歸：90 天全畫會讓整頁橫向捲動（docScrollW
+// 395 > 320）。jsdom 無 layout 引擎測不出來——這裡用真瀏覽器斷言。
+test('plan page at 320px does not scroll horizontally with a full 90-day plan', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 320, height: 900 });
+  await page.goto('/#/plan');
+  // 先建立計畫，取得凍結 corpus 的合法 plan JSON。
+  await expect(
+    page.getByRole('button', { name: '開始 90 天計畫' }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: '開始 90 天計畫' }).click();
+  await expect(page.getByRole('heading', { name: /今日任務/ })).toBeVisible();
+
+  // 回填 90 天前開始＋90 天 stats（day 90 是常態終點，不是邊界案例）。
+  await page.evaluate(() => {
+    const KEY = 'vocab-super2500-study-plan';
+    const plan = JSON.parse(localStorage.getItem(KEY)!);
+    const now = new Date();
+    const day = 86400000;
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const fmt = (d: Date) =>
+      `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    const start = new Date(now.getTime() - 89 * day);
+    plan.startDate = fmt(start);
+    plan.endDate = fmt(new Date(start.getTime() + 89 * day));
+    const todayStr = fmt(now);
+    plan.today = {
+      day: 90,
+      date: todayStr,
+      newEntries: [],
+      requiredReview: [],
+      optionalStrong: [],
+    };
+    plan.days = Array.from({ length: 90 }, (_, i) => {
+      const answered = (i % 7) + 5;
+      return {
+        date: fmt(new Date(start.getTime() + i * day)),
+        day: i + 1,
+        newCount: 28,
+        reviewCount: 3,
+        completed: i < 89,
+        answered,
+        correct: Math.floor(answered * 0.8),
+      };
+    });
+    localStorage.setItem(KEY, JSON.stringify(plan));
+  });
+  await page.reload();
+  await page.goto('/#/plan');
+
+  // 成效卡在場（90 天資料）。
+  await expect(page.getByText('計畫成效')).toBeVisible();
+  // 回歸斷言：頁面本身不得橫捲（只允許圖表容器內部滾動，若有的話）。
+  const overflow = await page.evaluate(() => ({
+    scrollW: document.documentElement.scrollWidth,
+    clientW: document.documentElement.clientWidth,
+    cols: document.querySelectorAll('.trend-col').length,
+  }));
+  expect(overflow.cols).toBeLessThanOrEqual(14);
+  expect(overflow.scrollW).toBeLessThanOrEqual(overflow.clientW);
+});

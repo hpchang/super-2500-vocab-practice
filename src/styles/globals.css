@@ -611,12 +611,23 @@ h2.section-title {
   border-radius: 999px;
   overflow: hidden;
   margin: 4px 0 16px;
+  /* 讓理想進度線（.progress-goal-line）能疊在進度條上。 */
+  position: relative;
 }
 
 .progress-bar > div {
   height: 100%;
   background: var(--primary);
   transition: width 0.3s ease;
+}
+
+.progress-bar > div.progress-goal-line {
+  position: absolute;
+  top: -2px;
+  width: 2px;
+  background: var(--text);
+  opacity: 0.55;
+  border-radius: 1px;
 }
 
 .qmeta {
@@ -1503,4 +1514,26 @@ h2.section-title {
   .plan-warning {
     font-size: 0.85rem;
   }
+}
+
+/* 一鍵複習比例列：Unit 分組列表上方的一列按鈕，窄螢幕可換行。 */
+.ratio-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.ratio-label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* .btn 是 width:100%（滿寬按鈕），比例列要的是一排標籤式按鈕——
+   覆寫成內容寬度，否則每個按鈕都滿寬、各自換行成一整疊。 */
+.ratio-btn {
+  width: auto;
+  padding: 6px 12px;
+  font-size: 0.9rem;
 }

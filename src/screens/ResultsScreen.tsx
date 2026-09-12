@@ -1,19 +1,31 @@
+import { useEffect } from 'react';
 import { loadResult } from '@/session';
 import { summarize } from '@/lib/scoring';
 import { getEntry, getEnrichedEntry } from '@/lib/data';
 import { loadHistory, historyDailySeries, countCompleted } from '@/lib/history';
 import { SettingsDrawer } from '@/components/SettingsDrawer';
-import { saveSession } from '@/session';
+import { saveSession, MULTI_UNIT } from '@/session';
 import { clearCheckpoint } from '@/lib/checkpoint';
 import { useProgress } from '@/progressStore';
-import { useStudyPlan, getCorpus } from '@/studyPlanStore';
-import { planState, todayProgress, toLocalDate } from '@/lib/studyPlan';
+import { useStudyPlan, getCorpus, archivePlanDay } from '@/studyPlanStore';
+import {
+  planState,
+  todayProgress,
+  toLocalDate,
+  pendingSectionIds,
+} from '@/lib/studyPlan';
 import type { PlanContext } from '@/session';
 
 export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) {
   const result = loadResult();
   const progress = useProgress();
   const plan = useStudyPlan();
+
+  // 掛載時補封存已過去的當日 snapshot（冪等；學生可能整趟流程沒開計畫頁）。
+  useEffect(() => {
+    archivePlanDay(progress, Date.now());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   if (!result || result.results.length === 0) {
     return (
@@ -115,6 +127,39 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
   };
 
   const todayTp = planSnapshot ? todayProgress(planSnapshot, progress) : null;
+
+  // 複習類計畫 session（section !== 'new'）完成後，重算今日必做複習剩餘——
+  // 分批複習（一鍵 1/3、逐 Unit）後仍有剩餘時，CTA 直接續批（全部剩餘）。
+  const multiPending =
+    planSnapshot && planCtx && planCtx.section !== 'new'
+      ? pendingSectionIds(planSnapshot.requiredReview, todayStr, progress)
+      : [];
+
+  const continueMultiReview = () => {
+    if (!planCtx || multiPending.length === 0) return;
+    clearCheckpoint();
+    saveSession({
+      unit: MULTI_UNIT,
+      entryIds: multiPending,
+      type: 'mixed',
+      batchSize: multiPending.length,
+      plan: {
+        planId: planCtx.planId,
+        date: todayStr,
+        // 一鍵續批做的是必做複習（multiPending 來自 requiredReview）——
+        // 完成的 session 可能是 optional-strong，直接沿用會讓 section
+        // 標籤與 entryIds 不一致。
+        section: 'required-review',
+        unit: MULTI_UNIT,
+      },
+    });
+    navigate('/practice');
+  };
+
+  // 今日累計正確率：讀 store 最新 plan.days（勿用 render 時的舊快照）。
+  const todayRecord = plan?.days.find((d) => d.date === todayStr);
+  const todayAnswered = todayRecord?.answered ?? 0;
+  const todayCorrect = todayRecord?.correct ?? 0;
 
   return (
     <>
@@ -227,15 +272,27 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
               : `必做複習 ${todayTp.reviewDone}/${todayTp.reviewTotal} · 新字 ${todayTp.newDone}/${todayTp.newTotal}`}
             {st && ` · 全書已學 ${st.introduced}/${getCorpus().entryIds.length}`}
           </div>
+          <div className="plan-meta">
+            本次 {summary.correct}/{summary.total}（
+            {Math.round(summary.accuracy * 100)}%）· 今日累計 {todayCorrect}/
+            {todayAnswered}
+            {todayAnswered > 0 &&
+              `（${Math.round((todayCorrect / todayAnswered) * 100)}%）`}
+          </div>
         </div>
       )}
 
       {/* 情境 CTA（P1-4）：計畫 session 的主 CTA 是「繼續今日下一組」；
+          複習類 session 還有剩餘待複習字時，先給跨 Unit 續批（全部剩餘）。
           必做全部完成則顯示「今日任務完成」。錯題仍可重練，但不破壞
           plan context；可選 strong 不影響完成狀態。 */}
       <div className="btn-row">
         {isPlanSession ? (
-          todayTp?.done || !nextPlanGroup ? (
+          multiPending.length > 0 ? (
+            <button className="btn" onClick={continueMultiReview}>
+              繼續複習（{multiPending.length} 字）
+            </button>
+          ) : todayTp?.done || !nextPlanGroup ? (
             <button className="btn" onClick={() => navigate('/plan')}>
               今日任務完成，返回計畫
             </button>

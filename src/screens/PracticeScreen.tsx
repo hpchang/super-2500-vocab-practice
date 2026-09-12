@@ -76,7 +76,14 @@ function buildQuestions(
       session.round ?? 0,
     );
   }
-  return buildSession(entries, session.type, session.round ?? 0);
+  // 90 天計畫的複習 session：混合輪替不含拼字（學生要求；
+  // 一般練習的混合題仍含拼字，也可單選拼字題型）。
+  return buildSession(
+    entries,
+    session.type,
+    session.round ?? 0,
+    session.plan != null,
+  );
 }
 
 export function PracticeScreen({
