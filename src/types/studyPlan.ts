@@ -48,6 +48,10 @@ export interface PlanDayRecord {
   reviewCount: number;
   /** 當日必做是否全部完成。 */
   completed: boolean;
+  /** 當日「計畫 session」作答題數（作答即寫入；封存不更動）。
+   *  舊資料可能缺欄——讀取時以 0 為預設。 */
+  answered: number;
+  correct: number;
 }
 
 /** 學習計畫本體（存於 localStorage）。 */

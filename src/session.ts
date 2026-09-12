@@ -2,6 +2,7 @@ import type { QuestionType } from '@/types/index';
 import type { PlanSection } from '@/types/index';
 import type { DifficultyMode } from '@/lib/questions';
 import { appendHistory } from '@/lib/history';
+import { recordPlanAnswer } from '@/studyPlanStore';
 
 /** 跨 Unit 計畫 session 的 sentinel：一鍵複習把整區待做字（可跨 Unit）
  *  放進同一 session。與 plan.unit 同值即可通過 parser 的相等檢查。 */
@@ -208,6 +209,16 @@ export function saveResult(r: SessionResult): boolean {
       total: r.results.length,
       correct: r.results.filter((x) => x.correct).length,
     });
+    // 計畫 session 的每日統計（只算計畫任務）：以日期為鍵即時累加，
+    // 供計畫成效的每日正確率與累計指標使用。無計畫時 store 內部 no-op。
+    if (r.plan) {
+      recordPlanAnswer(
+        r.plan.date,
+        r.results.length,
+        r.results.filter((x) => x.correct).length,
+        Date.now(),
+      );
+    }
   }
   return safeSetItem(RESULT_KEY, JSON.stringify(r));
 }

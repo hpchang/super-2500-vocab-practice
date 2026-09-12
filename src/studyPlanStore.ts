@@ -107,20 +107,67 @@ export function freezeToday(progress: ProgressData, now: number): PlanDaySnapsho
   return snap;
 }
 
-/** 將今天的 snapshot 封存為每日摘要（今日結束或計畫完成時呼叫）。 */
-export function archiveToday(progress: ProgressData): void {
-  if (!state?.today) return;
-  const date = state.today.date;
-  if (state.days.some((d) => d.date === date)) return;
-  const tp = todayProgress(state.today, progress);
+/** 計畫 session 作答統計：以日期為鍵即時累加（同日多次 session 累加，
+ *  跨日各自成格）。封存（archivePlanDay）補的是 newCount/reviewCount/
+ *  completed，不會蓋掉 answered/correct。無計畫時 no-op。
+ *  （now 參數保留對稱介面，目前未用到。） */
+export function recordPlanAnswer(
+  date: string,
+  answered: number,
+  correct: number,
+  _now: number,
+): void {
+  if (!state) return;
+  const existing = state.days.find((d) => d.date === date);
+  const day = existing?.day ?? dayOfDate(state, date);
   const record: PlanDayRecord = {
     date,
-    day: state.today.day,
+    day,
+    newCount: existing?.newCount ?? 0,
+    reviewCount: existing?.reviewCount ?? 0,
+    completed: existing?.completed ?? false,
+    answered: (existing?.answered ?? 0) + answered,
+    correct: (existing?.correct ?? 0) + correct,
+  };
+  state = upsertDay(state, record);
+  emit();
+}
+
+/** 計畫天數（1-based）＝該日與開始日的差 +1。 */
+function dayOfDate(plan: StudyPlan, date: string): number {
+  return daysBetween(date, plan.startDate) + 1;
+}
+
+/** plan.days 以日期為鍵 upsert（維持日期序，同日只保留一筆）。 */
+function upsertDay(plan: StudyPlan, record: PlanDayRecord): StudyPlan {
+  const days = plan.days.filter((d) => d.date !== record.date);
+  days.push(record);
+  days.sort((a, b) => daysBetween(a.date, b.date));
+  return { ...plan, days };
+}
+
+/** 把已過去的當日 snapshot 封存成每日摘要。守衛：snapshot 日期 < 今天
+ *  （同一天不封存；不能用 days.some(...) 當守衛——同一天首次呼叫就寫入
+ *  了，那會永久擋住封存）。冪等：同一天重複呼叫不重複寫入。 */
+export function archivePlanDay(progress: ProgressData, now: number): void {
+  if (!state?.today) return;
+  const todayStr = toLocalDate(new Date(now));
+  if (daysBetween(todayStr, state.today.date) < 1) return;
+  const snap = state.today;
+  const tp = todayProgress(snap, progress);
+  const existing = state.days.find((d) => d.date === snap.date);
+  const record: PlanDayRecord = {
+    date: snap.date,
+    day: snap.day,
     newCount: tp.newDone,
     reviewCount: tp.reviewDone,
     completed: tp.done,
+    // 已有的作答統計保留；完全沒有紀錄的日子（零任務或純一般練習）
+    // 補一筆 0/0，讓日曆與 streak 連續。
+    answered: existing?.answered ?? 0,
+    correct: existing?.correct ?? 0,
   };
-  state = { ...state, days: [...state.days, record] };
+  state = upsertDay(state, record);
   emit();
 }
 
@@ -142,12 +189,13 @@ export function todaySectionOf(
 }
 
 /** 計畫完成（全書 2,476 字皆已介紹）時封存今日並標示 completed。
- *  完成後仍保留 corpus 供既有複習功能使用。 */
+ *  完成後仍保留 corpus 供既有複習功能使用。
+ *  註：maybeCompletePlan 目前全專案無呼叫點——已知的缺口，本次不接線。 */
 export function maybeCompletePlan(progress: ProgressData): void {
   if (!state) return;
   const st = planState({ plan: state, progress, now: Date.now() });
   if (!st.acquisitionComplete) return;
-  archiveToday(progress);
+  archivePlanDay(progress, Date.now());
   if (state.status !== 'completed') {
     state = { ...state, status: 'completed' };
     emit();
@@ -160,4 +208,4 @@ export function deletePlan(): void {
   emit();
 }
 
-export { PLAN_TOTAL_DAYS, PLAN_SCHEMA_VERSION, daysBetween, loadPlan };
+export { PLAN_TOTAL_DAYS, PLAN_SCHEMA_VERSION, daysBetween, toLocalDate, loadPlan };
