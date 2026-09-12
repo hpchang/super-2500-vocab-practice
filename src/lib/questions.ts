@@ -250,16 +250,21 @@ function getEnrichmentByUnit(unit: string): EnrichedEntry[] {
 /** Build a full session of questions for the selected entries + type.
  *  `round` varies the question order and the type rotation between rounds
  *  of the same batch (see sessionOrder); default 0 keeps the legacy
- *  single-round behavior. */
+ *  single-round behavior.
+ *  `excludeSpelling` removes 拼字 from the mixed rotation — the 90-day plan
+ *  review sessions use it (拼字不進計畫複習；一般練習仍可自選拼字). */
 export function buildSession(
   entries: VocabEntry[],
   type: QuestionType | 'mixed',
   round = 0,
+  excludeSpelling = false,
 ): Question[] {
   const types: QuestionType[] =
     type === 'mixed'
       ? // 單字卡只給學新字用，不進混合輪替（複習也走 mixed，不應出單字卡）。
-        ['en2zh', 'zh2en', 'cloze', 'spelling']
+        excludeSpelling
+        ? ['en2zh', 'zh2en', 'cloze']
+        : ['en2zh', 'zh2en', 'cloze', 'spelling']
       : [type];
   const out: Question[] = [];
   const start = round % types.length;

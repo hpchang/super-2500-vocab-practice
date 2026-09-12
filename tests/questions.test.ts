@@ -90,6 +90,26 @@ describe('question construction', () => {
     expect(qs.length).toBe(5);
   });
 
+  it('mixed with excludeSpelling omits 拼字 from the rotation; default keeps it', () => {
+    const en = loadEnrichment('11');
+    // 8 entries × 3 types (en2zh/zh2en/cloze) — enough that every type in the
+    // rotation shows up.
+    const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 8);
+    const planQs = buildSession(entries, 'mixed', 0, true);
+    expect(planQs.length).toBe(8);
+    expect(planQs.some((q) => q.type === 'spelling')).toBe(false);
+    expect(planQs.some((q) => q.type === 'cloze')).toBe(true);
+
+    // 一般練習（不帶 flag）混合輪替仍含拼字。
+    const normalQs = buildSession(entries, 'mixed', 0);
+    expect(normalQs.some((q) => q.type === 'spelling')).toBe(true);
+
+    // excludeSpelling 不影響單一題型——直接要求拼字仍可出拼字題。
+    const spellOnly = buildSession(entries.slice(0, 2), 'spelling', 0, true);
+    expect(spellOnly.length).toBe(2);
+    expect(spellOnly.every((q) => q.type === 'spelling')).toBe(true);
+  });
+
   it('flashcard keeps workbook (alphabetical) order', () => {
     const en = loadEnrichment('11');
     const entries = en.entries.map((e) => getEntry(e.entryId)!).slice(0, 10);
