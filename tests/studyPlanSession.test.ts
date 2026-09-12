@@ -3,6 +3,7 @@ import {
   saveSession,
   saveResult,
   parseSessionConfig,
+  MULTI_UNIT,
 } from '../src/session.js';
 import type { SessionConfig } from '../src/session.js';
 
@@ -109,6 +110,26 @@ describe('session planContext', () => {
       },
     });
     expect(parseSessionConfig(raw)).toBeNull();
+  });
+
+  it('multi-unit one-click review session round-trips (unit === MULTI_UNIT)', () => {
+    const cfg: SessionConfig = {
+      unit: MULTI_UNIT,
+      entryIds: ['u11:bed', 'u12:apple', 'u13:cat'],
+      type: 'mixed',
+      batchSize: 2,
+      plan: {
+        planId: 'plan-abc',
+        date: '2026-09-10',
+        section: 'required-review',
+        unit: MULTI_UNIT,
+      },
+    };
+    expect(saveSession(cfg)).toBe(true);
+    const raw = (globalThis as any).window.sessionStorage.getItem(
+      'vocab-super2500-session',
+    );
+    expect(parseSessionConfig(raw)).toEqual(cfg);
   });
 
   it('result carries plan context through round-trip', () => {

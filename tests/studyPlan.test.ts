@@ -12,6 +12,7 @@ import {
   requiredReviewIds,
   optionalStrongIds,
   groupByUnit,
+  pendingSectionIds,
   planState,
   todayProgress,
   answeredToday,
@@ -228,6 +229,73 @@ describe('groupByUnit', () => {
     expect(groups[0].entryIds).toEqual(['u1:dog']);
     expect(groups[1].entryIds).toEqual(['u2:apple', 'u2:cat']);
     expect(groups[2].entryIds).toEqual(['u11:bed']);
+  });
+});
+
+// —— 一鍵複習：壓平待做字 ——
+
+describe('pendingSectionIds', () => {
+  const date = '2026-09-10';
+  const dayStart = fromLocalDate(date).getTime();
+  const day = 86400000;
+
+  it('flattens groups, drops entries answered today', () => {
+    let progress = emptyProgress();
+    // ids[0] 今天答過、ids[1] 昨天答過（仍是待做）、ids[2] 沒答過。
+    for (const [i, at] of [dayStart + 1000, dayStart - day, null].entries()) {
+      const id = `u11:w${i}`;
+      progress = setEntryProgress(progress, id, {
+        ...makeInitialProgress(id),
+        totalAnswered: at == null ? 0 : 1,
+        lastAnsweredAt: at ?? null,
+      });
+    }
+    const groups = groupByUnit(['u11:w0', 'u11:w1', 'u11:w2']);
+    const pending = pendingSectionIds(groups, date, progress);
+    expect(pending).toEqual(['u11:w1', 'u11:w2']);
+  });
+
+  it('sorts wrong-queue entries first, then by nextReviewAt ascending', () => {
+    let progress = emptyProgress();
+    // 三個到期字：b 最早到期、a 較晚、c 在錯題佇列。
+    const mk = (id: string, opts: { at: number; wrong?: boolean }) => {
+      progress = setEntryProgress(progress, id, {
+        ...makeInitialProgress(id),
+        stage: 'review',
+        totalAnswered: 3,
+        inWrongQueue: opts.wrong ?? false,
+        nextReviewAt: opts.at,
+        lastAnsweredAt: dayStart - day,
+      });
+    };
+    mk('u11:a', { at: dayStart - day + 2000 });
+    mk('u11:b', { at: dayStart - day + 1000 });
+    mk('u11:c', { at: dayStart - day + 3000, wrong: true });
+    const groups = groupByUnit(['u11:a', 'u11:b', 'u11:c']);
+    expect(pendingSectionIds(groups, date, progress)).toEqual([
+      'u11:c',
+      'u11:b',
+      'u11:a',
+    ]);
+  });
+
+  it('treats missing nextReviewAt as 0 (most overdue first)', () => {
+    let progress = emptyProgress();
+    for (const id of ['u11:a', 'u11:b']) {
+      progress = setEntryProgress(progress, id, {
+        ...makeInitialProgress(id),
+        stage: 'review',
+        totalAnswered: 1,
+        lastAnsweredAt: dayStart - day,
+      });
+    }
+    // u11:b 的 nextReviewAt 明確在過去；u11:a 缺（?? 0 → 視為最早）。
+    progress = setEntryProgress(progress, 'u11:b', {
+      ...progress.entries['u11:b'],
+      nextReviewAt: dayStart - day + 500,
+    });
+    const groups = groupByUnit(['u11:a', 'u11:b']);
+    expect(pendingSectionIds(groups, date, progress)).toEqual(['u11:a', 'u11:b']);
   });
 });
 

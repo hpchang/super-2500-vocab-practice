@@ -1,8 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { getPrefs } from '@/prefs';
-import { loadSession, saveSession, saveResult } from '@/session';
+import {
+  loadSession,
+  saveSession,
+  saveResult,
+  MULTI_UNIT,
+} from '@/session';
 import type { SessionConfig } from '@/session';
-import { getUnit, getEnrichedEntry, getEntry } from '@/lib/data';
+import { getEnrichedEntry, getEntry, unitOfEntryId } from '@/lib/data';
 import { buildSession, buildClozeSession } from '@/lib/questions';
 import type { Question } from '@/lib/questions';
 import { gradeChoice, gradeFlashcard, checkSpelling } from '@/lib/scoring';
@@ -50,11 +55,12 @@ function buildQuestions(
   session: SessionConfig,
   progress: ProgressData,
 ): Question[] {
-  const unit = getUnit(session.unit);
-  if (!unit) return [];
+  // Entries resolve globally by id (getEntry reads the unit embedded in the
+  // id) — 跨 Unit 的一鍵複習 session（unit: MULTI_UNIT）也靠這裡解析；
+  // 逐 Unit 查找會讓 multi session 拿到空畫面。
   const entries = (
     session.entryIds
-      .map((id) => unit.entries.find((e) => e.entryId === id))
+      .map(getEntry)
       .filter(Boolean) as VocabEntry[]
   ).slice(
     0,
@@ -332,7 +338,13 @@ export function PracticeScreen({
     <>
       <div className="app-header">
         <div>
-          <h1>{session.unit === '11' ? 'Unit 11' : `Unit ${session.unit}`}</h1>
+          <h1>
+            {session.unit === MULTI_UNIT
+              ? '計畫複習'
+              : session.unit === '11'
+                ? 'Unit 11'
+                : `Unit ${session.unit}`}
+          </h1>
           <div className="sub">{typeLabel(q?.type)}</div>
         </div>
         <div className="header-actions">
@@ -556,7 +568,9 @@ export function PracticeScreen({
           {reportOpen && q && (
             <ReportDialog
               question={q}
-              unit={session.unit}
+              // 跨 Unit session 的 unit 以 entryId 內嵌值解析（session.unit
+              // 是 'multi'，直接用會讓回報 payload 變成 'umulti'）。
+              unit={unitOfEntryId(q.entryId)}
               openerRef={reportBtnRef}
               onClose={() => setReportOpen(false)}
             />

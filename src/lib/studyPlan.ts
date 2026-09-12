@@ -181,6 +181,27 @@ function isDue(p: EntryProgress, now: number): boolean {
   return p.nextReviewAt <= now;
 }
 
+/** 壓平 groups，濾掉今天已作答者，並依必做順序重排：
+ *  錯題在前，其餘依 nextReviewAt 升序（還原被 groupByUnit 打散的優先序，
+ *  與 requiredReviewIds 一致；optional-strong 本來就是到期時間序，同序也正確）。
+ *  供「一鍵複習」跨 Unit 啟動整區待做字使用。 */
+export function pendingSectionIds(
+  groups: PlanSectionGroup[],
+  date: string,
+  progress: ProgressData,
+): string[] {
+  const ids = flat(groups).filter((id) => !answeredToday(id, date, progress));
+  const wrong: string[] = [];
+  const rest: { id: string; at: number }[] = [];
+  for (const id of ids) {
+    const p = progress.entries[id];
+    if (p?.inWrongQueue) wrong.push(id);
+    else rest.push({ id, at: p?.nextReviewAt ?? 0 });
+  }
+  rest.sort((a, b) => a.at - b.at);
+  return [...wrong, ...rest.map((r) => r.id)];
+}
+
 /** 到期 strong，取最優先的前 limit 個（可選快複習）。 */
 export function optionalStrongIds(
   corpus: PlanCorpus,

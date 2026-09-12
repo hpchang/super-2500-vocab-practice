@@ -3,6 +3,10 @@ import type { PlanSection } from '@/types/index';
 import type { DifficultyMode } from '@/lib/questions';
 import { appendHistory } from '@/lib/history';
 
+/** 跨 Unit 計畫 session 的 sentinel：一鍵複習把整區待做字（可跨 Unit）
+ *  放進同一 session。與 plan.unit 同值即可通過 parser 的相等檢查。 */
+export const MULTI_UNIT = 'multi';
+
 const KEY = 'vocab-super2500-session';
 const RESULT_KEY = 'vocab-super2500-lastresult';
 
