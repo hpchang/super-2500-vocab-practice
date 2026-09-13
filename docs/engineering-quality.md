@@ -55,6 +55,15 @@ Vocabulary Super 2500 是無後端的瀏覽器應用，但仍跨越多個可能�
    CI 穩定重現；不能可靠自動化的風險應明文列出人工檢查，而不是假裝已被測試覆蓋。
 7. **品質閘門應逐步自動化。** 可重複且客觀的 checklist 項目最終應進入 npm script、
    CI required check 或部署流程，避免依賴個人記憶。
+8. **「綠燈」不證明測到了東西——要能說出它原本會怎麼紅。** 測試通過只說明目前
+   程式碼符合斷言；若斷言與實作巧合地對齊，測試可能**永遠不會失敗**。審查新守護
+   測試時，要求作者出示「在錯誤版本上轉紅」的實際輸出（見原則 2），而不是只看
+   pass。**具體陷阱：TypeScript 的 `as` 型別斷言在編譯後被抹除，執行時是 no-op。**
+   2026-09-12 實例：`section: planCtx.section as 'required-review'` 看似把值改成
+   required-review，實際執行時仍是 `planCtx.section`（`'optional-strong'`）；而
+   該測試之所以通過，是因為 fixture 傳入的 section 剛好本來就是 `'required-review'`
+   ——**斷言與實作巧合對齊，測試沒有守護力**。要改值就寫字面值或真正賦值，
+   不可用 `as` 假裝轉型；懷疑時用 `npx tsx` 直接印執行結果驗證。
 
 ## 關鍵使用者流程
 
