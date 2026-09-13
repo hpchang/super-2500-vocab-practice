@@ -132,7 +132,25 @@ update。
 | `c56ec7c` malformed progress crash | 外層 JSON 合法但 nested entry 損壞 | **unit 層**（注入 null／錯誤型別；I-11） |
 | `b5af4fd` 答案位置規律 | 20 題樣本通過，但最小 5 題與跨 Unit 仍可預測 | **unit 層**（邊界設定＋跨身份樣本；I-9） |
 | `e4f5fc2` 多分頁 lost update | 單 tab round-trip 全綠，並行 stale snapshot 覆蓋整份資料 | **unit 層**（模擬兩個 writer；I-11） |
+| 一鍵複習比例列堆疊（2026-09-12） | `.btn { width: 100% }` 讓比例列的四個按鈕各自滿寬、逐行堆疊；`flex-wrap` 形同失效 | **E2E 幾何斷言**（真瀏覽器量按鈕寬度與 `top` 是否同一行） |
 
 **判斷規則**：改動若改變「測試環境與真實世界的差距」（載入時序、打包、
 路由、真實渲染），配 E2E 或 jsdom 渲染斷言；純邏輯配 unit；依賴外部環境
 （TTS、真機觸控、隱私模式）的行為三層皆盲，明文寫進 invariants 靠 review 人檢。
+
+### 幾何／佈局是 jsdom 的結構性盲區（2026-09-12）
+
+jsdom **沒有 layout engine**：`getBoundingClientRect()` 全回 0，
+`scrollWidth`／`clientWidth` 沒有意義。所以「元素溢出、是否橫向捲動、按鈕
+實際寬度、是否同一行堆疊」這類**版面幾何**問題，jsdom 層（含所有
+`@vitest-environment jsdom` 的元件測試）**不可能**測到——這不是漏寫 test case，
+是該層結構上表達不出來。
+
+同時注意一個容易誤判的前提：**「有 E2E 層」不等於「抓得到佈局 bug」**。
+本專案原本的 5 條 smoke 驗的是「元素可見」「文字內容」「hash 導向」，全是 DOM
+存在性，**沒有一條在量幾何**。因此佈局改動若只加「元素存在」斷言，等於沒守護。
+
+**How to apply**：改動涉及 CSS 寬高／flex／wrap／溢出／響應式斷點時，在
+`e2e/smoke.spec.ts` 加**真瀏覽器幾何斷言**（`scrollWidth <= clientWidth`、
+元素 `getBoundingClientRect()` 的寬高與 `top` 是否同列），並在 320／390／768
+等關鍵寬度各量一次。這類斷言寫在 E2E 層，不要寫在 jsdom 層。
