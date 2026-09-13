@@ -39,6 +39,24 @@
 - [ ] `tests/unit11ClozeData.test.ts` 的參數化涵蓋擴及新 unit
       （或確認 validator 覆蓋）
 
+## 跑 `npm run check` 前的環境檢查
+
+`playwright.config.ts` 設 `reuseExistingServer: false`——Playwright 每次自己
+啟一個 `vite preview`（port 4173）。因此：
+
+- [ ] **先確認 4173 沒有殘留的 preview server**：`lsof -ti:4173`（或
+      `pgrep -fl "vite preview"`），有就 `kill` 掉再跑。
+- [ ] **不要用 `(npm run preview &)` 手動背景起 server** 來自行驗證——
+      背景化的 shell 結束後該 process 仍活著並佔住 4173，之後的
+      `npm run check` 會與它競爭，出現「點擊逾時、頁面卡住」的**假失敗**。
+
+2026-09-12 實例：一個孤兒 preview server 佔著 4173，導致 study-plan smoke
+間歇性卡在單字卡點擊。當時誤判為「既有產品 bug」，還拿這個髒環境去跑
+pristine HEAD 對照，得到「pristine 也失敗 → 非本次改動造成」的**錯誤結論**；
+清掉孤兒 server 後同一測試 3/3 全過。**教訓：驗證環境本身要先確認乾淨，
+否則對照實驗會一起被污染，反而佐證錯誤假設。** 看到間歇性 E2E 失敗時，
+先查環境（port、殘留 process、機器負載），再懷疑程式。
+
 ## Merge 前最後一關
 
 - [ ] 在**目標 branch**（merge 後的狀態）重跑一次 `npm run check`——
