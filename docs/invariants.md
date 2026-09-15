@@ -114,6 +114,26 @@ event，以 `lastAnsweredAt` 較新者為準。
 都保留。這類測試必須實測舊程式轉紅，單一 tab 的 round-trip 測試無法守住 lost
 update。
 
+## I-12：session 層級設定必須在每一個建立點給值
+
+**陳述**：`SessionConfig` 新增的任何 session 層級欄位（`type`、`difficulty`、
+`round`、`excludeSpelling`、`plan`…），必須在**所有** `saveSession(...)` 建立點
+逐一決定給值，缺一處就會讓同一功能在不同路徑下行為不一致——學生從 A 入口進
+和從 B 入口進，看到的是不同的題型輪替或難度。
+
+**為什麼會被破壞**：建立點分散且看起來各自獨立，只改「這次要修的那個入口」
+很容易以為完成。目前 7 個建立點：`UnitSetupScreen`（1）、`ResultsScreen`（3）、
+`WrongAnswersScreen`（1）、`StudyPlanScreen`（2）。
+
+**注意 `HomeScreen` 不在此列**：首頁 hero 是 deep-link 到 `/unit/:u/setup/...`，
+不自己建 session——所以它由 `UnitSetupScreen.start()` 的那一處涵蓋。改動時
+grep 的對象是 `saveSession(`，不是「看起來像入口的畫面」。
+
+**這一條沒有通用的自動守護**——每個欄位語意不同，寫不出一個跨欄位的測試。
+目前只有個別實例有守護（`excludeSpelling` → `tests/wrongNoSpelling.test.tsx`，
+逐入口斷言 payload）。新增 session 欄位時，**配一個逐入口斷言的測試**是這個
+專案認可的做法；只驗一個入口等於只守住一條路徑。
+
 ## 附錄：過去 bug-fix 對照檢查層（為什麼需要 E2E 層）
 
 用歷史 fix 回答「這三層（unit / jsdom 組件 / E2E smoke）各抓什麼」——
