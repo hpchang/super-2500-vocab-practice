@@ -76,13 +76,14 @@ function buildQuestions(
       session.round ?? 0,
     );
   }
-  // 90 天計畫的複習 session：混合輪替不含拼字（學生要求；
-  // 一般練習的混合題仍含拼字，也可單選拼字題型）。
+  // 兩種情境的混合輪替不含拼字：錯題複習（session.excludeSpelling，學生
+  // 要求）與 90 天計畫複習（session.plan）。一般練習的混合題仍含拼字，
+  // 也可單選拼字題型。
   return buildSession(
     entries,
     session.type,
     session.round ?? 0,
-    session.plan != null,
+    session.excludeSpelling === true || session.plan != null,
   );
 }
 
@@ -326,6 +327,10 @@ export function PracticeScreen({
         unit: session.unit,
         type: session.type,
         difficulty: session.difficulty,
+        // excludeSpelling 刻意不進結果：錯題 session 走的是「下一批」→
+        // 設定頁（重新選題型/篩選），沒有跨批次延續的欄位可帶
+        // （round 也是同樣處理）。若日後要在設定頁延續，再補這裡＋
+        // ResultsScreen.nextBatch 的 URL 參數。
         plan: session.plan,
         results,
       });

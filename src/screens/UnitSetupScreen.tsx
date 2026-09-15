@@ -128,6 +128,10 @@ export function UnitSetupScreen({
       difficulty,
       // Repeating the same unit+type varies the question order/rotation.
       round: countCompleted(unit, qType),
+      // 篩選「錯題」時混合輪替不含拼字（學生要求 2026-09-15）——與其他
+      // 錯題入口（首頁/錯題頁/結果頁）一致。路由已經帶 wrong，不必再加
+      // URL 參數，直接由 mode 推導。單選拼字題型不受影響。
+      excludeSpelling: mode === 'wrong',
     });
     navigate('/practice');
   };

@@ -59,6 +59,8 @@ export function ResultsScreen({ navigate }: { navigate: (to: string) => void }) 
       // question order/type rotation (appendHistory in saveResult already
       // counted this completed round).
       round: countCompleted(result.unit, 'mixed'),
+      // 錯題重練不含拼字，與其他錯題入口一致（學生要求 2026-09-15）。
+      excludeSpelling: true,
     });
     // A new session invalidates any in-flight checkpoint (P1 review 2026-08-29).
     clearCheckpoint();

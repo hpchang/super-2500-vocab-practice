@@ -32,6 +32,10 @@ export interface SessionConfig {
    *  question order and mixed-type rotation between rounds of the same
    *  batch; absent (undefined) behaves like 0 — legacy sessions included. */
   round?: number;
+  /** 混合輪替排除拼字。錯題複習帶 true（學生要求）；計畫複習走 plan != null
+   *  這條路徑，語意相同。只作用在 mixed——單選拼字題型不受影響。
+   *  與 round 一樣不進 SessionResult：「下一批」會回到設定頁重新選題型。 */
+  excludeSpelling?: boolean;
   /** 計畫情境（可選）；checkpoint round-trip 保留，供 Practice/Results
    *  回寫 task 完成與「繼續今日下一組」。 */
   plan?: PlanContext;
@@ -136,6 +140,12 @@ function parseSessionConfig(raw: string): SessionConfig | null {
       return null;
     }
     cfg.round = o.round;
+  }
+  if (o.excludeSpelling !== undefined) {
+    // 非 boolean 是損壞的 storage，不是 legacy session（undefined 才是）——
+    // 與 round 同一政策。
+    if (typeof o.excludeSpelling !== 'boolean') return null;
+    cfg.excludeSpelling = o.excludeSpelling;
   }
   // 計畫情境（可選）：未知或損壞的 plan context 讓 session 解析失敗，
   // 回退為無 session，而不是讓 Practice crash（P0-9 同一政策）。

@@ -31,6 +31,9 @@ export function WrongAnswersScreen({
       entryIds: groupWrongs.map((w) => w.entryId),
       type: 'mixed',
       batchSize: 20,
+      // 錯題複習不出拼字（學生要求 2026-09-15）：拼字是產出題型，錯題的
+      // 重點在重新認字，先以辨識題型鞏固。
+      excludeSpelling: true,
     });
     // Starting a new session invalidates any in-flight checkpoint — a stale
     // one would otherwise restore unrelated questions into this session
