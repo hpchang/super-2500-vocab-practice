@@ -23,6 +23,7 @@ import {
 } from '../src/lib/checkpoint.js';
 import { resetProgress } from '../src/progressStore.js';
 import { getUnit } from '../src/lib/data.js';
+import { buildSession } from '../src/lib/questions.js';
 
 function Harness({ screen }: { screen: string }) {
   return (
@@ -264,6 +265,75 @@ describe('P2-1 session resume checkpoint', () => {
     const qmeta = document.querySelector('.qmeta')?.textContent ?? '';
     expect(qmeta).toContain('第 1 / 1 題');
     expect(getPrompt()).toBeTruthy();
+
+    await act(async () => {
+      root.unmount();
+    });
+  });
+
+  it('rebuilds the question list on resume so an old 題型輪替 is re-filtered', async () => {
+    // 缺陷：checkpoint 把「建立當下」的題目原封不動撈回來，恢復不重套
+    // 目前的題型規則。計畫複習在 09-10～09-12 之間會出拼字，那段期間
+    // 產生的 checkpoint 恢復時就會把拼字題帶回來（學生 2026-09-17 回報）。
+    const unit = getUnit('11')!;
+    const entries = unit.entries.slice(0, 8);
+    const session = {
+      unit: '11',
+      entryIds: entries.map((e) => e.entryId),
+      type: 'mixed' as const,
+      batchSize: 8,
+      plan: {
+        planId: 'plan-abc',
+        date: new Date().toLocaleDateString('sv-SE'),
+        section: 'required-review' as const,
+        unit: '11',
+      },
+    };
+    // 舊版建置（不含排除）產生的題目：第 4 題正是拼字。
+    const staleQuestions = buildSession(entries, 'mixed', 0);
+    expect(staleQuestions.map((q) => q.type)[3]).toBe('spelling');
+
+    saveCheckpoint({
+      session,
+      questions: staleQuestions,
+      index: 3,
+      results: staleQuestions.slice(0, 3).map((q) => ({
+        entryId: q.entryId,
+        type: q.type,
+        correct: true,
+      })),
+      savedAt: Date.now(),
+    });
+
+    const { root } = await renderAt('practice');
+
+    // 恢復到的那一題不得是拼字——舊輪替必須在恢復時重新過濾。
+    const label = document.querySelectorAll('.qmeta span')[1]?.textContent ?? '';
+    expect(label).not.toContain('拼字');
+
+    // 題數以「重建後」的長度為準（8 字 × 3 題型輪替 = 8 題），位置保留。
+    const qmeta = document.querySelector('.qmeta')?.textContent ?? '';
+    expect(qmeta).toContain('第 4 / 8 題');
+
+    // 走完剩下的題目：全程都不得出現拼字題。
+    const seen: string[] = [];
+    for (let i = 3; i < 8; i++) {
+      seen.push(document.querySelectorAll('.qmeta span')[1]?.textContent ?? '');
+      const opt = document.querySelector('.option-btn') as HTMLButtonElement | null;
+      if (!opt) break;
+      await act(async () => {
+        opt.click();
+      });
+      const nextBtn = Array.from(document.querySelectorAll('button')).find((b) =>
+        b.textContent?.includes('下一題'),
+      ) as HTMLButtonElement | undefined;
+      if (nextBtn) {
+        await act(async () => {
+          nextBtn.click();
+        });
+      }
+    }
+    expect(seen.some((l) => l.includes('拼字'))).toBe(false);
 
     await act(async () => {
       root.unmount();

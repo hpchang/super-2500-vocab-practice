@@ -87,17 +87,47 @@ function buildQuestions(
   );
 }
 
+/**
+ * Rebuild the question list when resuming an interrupted session, instead of
+ * replaying the list frozen into the checkpoint (缺陷：恢復繞過題型規則).
+ *
+ * A checkpoint stores the questions *as built at the time*. If a later
+ * release changed the type rotation (e.g. 計畫複習 stopped including 拼字),
+ * those stale questions would be replayed verbatim, so the student sees a
+ * type the current rules no longer produce (學生 2026-09-17 回報).
+ *
+ * The rebuild is only safe when `buildQuestions` is deterministic — i.e.
+ * every question depends solely on the session config and the entry set, and
+ * not on how far the student had progressed. That holds for every non-cloze
+ * type (flashcard/en2zh/zh2en/spelling are pure functions of the entry, and
+ * the mixed rotation is seeded by round). Cloze is the exception: its
+ * adaptive difficulty and variant-avoidance read progress, so rebuilding it
+ * could swap the answered questions' difficulty mid-session — those keep the
+ * checkpoint's own list.
+ *
+ * Returns null when the checkpoint must be used as-is.
+ */
+function rebuildOnResume(
+  session: SessionConfig,
+  progress: ProgressData,
+): Question[] | null {
+  // `session.type` is the SESSION's type; an individual question's type may
+  // differ (mixed rotation, or legacy cloze stored as a choice question).
+  if (session.type === 'cloze') return null;
+  return buildQuestions(session, progress);
+}
+
 export function PracticeScreen({
   navigate,
 }: {
   navigate: (to: string) => void;
 }) {
-  // Resume (P2-1): a valid checkpoint restores the exact in-flight session —
-  // locked question list, position, partial results — after a refresh or a
-  // closed tab. The questions come from the checkpoint itself (not rebuilt),
-  // so the presented questions are identical to the ones the student saw.
-  // The checkpoint is only usable when it belongs to the live session: when
-  // this tab already started a DIFFERENT session, the stored questions are
+  // The checkpoint only supplies *position and results*, never the question
+  // list verbatim: the questions are rebuilt from the session config with the
+  // CURRENT rules (see rebuildOnResume) so a release that changed the 題型
+  // rotation re-applies on resume instead of replaying the old list. The
+  // checkpoint is still only usable when it belongs to the live session: when
+  // this tab already started a DIFFERENT session, the stored position is
   // stale and must not leak into the new session (P1 review 2026-08-29).
   // When sessionStorage is empty (closed tab), the checkpoint's own session
   // config revives the session so the resume actually works.
@@ -115,6 +145,20 @@ export function PracticeScreen({
     // This tab moved on to a different session — the checkpoint is stale.
     clearCheckpoint();
     restored = null;
+  }
+  // 方案 A：恢復時用「目前」的題型規則重建題目，而不是沿用 checkpoint
+  // 凍結的清單（見 rebuildOnResume）。只在建題與進度無關的題型重建，且
+  // 重建後題數必須與 checkpoint 相同——不同就放棄重建，寧可沿用也不讓
+  // 位置（index／results）對不上。
+  //
+  // 重建後只取代記憶體中的清單，位置（index／results）一律沿用 checkpoint；
+  // checkpoint 檔本身不在此覆寫，學生下一次作答時才由下方的 effect 更新。
+  // 重建是決定性的，反覆重新載入都得到同一份清單，結果一致。
+  if (restored && session) {
+    const rebuilt = rebuildOnResume(session, getSnapshot());
+    if (rebuilt && rebuilt.length === restored.questions.length) {
+      restored = { ...restored, questions: rebuilt };
+    }
   }
   const [index, setIndex] = useState(restored ? restored.index : 0);
   const [chosen, setChosen] = useState<string | null>(null);

@@ -90,7 +90,7 @@ grep `localStorage.` 直接使用點。
 不要要求單一 5 題批次必須涵蓋四格——那在真正均勻亂數下也常自然缺一格；應檢查
 多批次聚合是否有位置永遠缺席或嚴重壟斷。
 
-## I-10：checkpoint 必須還原完整作答階段並隔離 session
+## I-10：checkpoint 必須還原完整作答階段、隔離 session，並以現行規則重建題目
 
 **陳述**：checkpoint 不只保存「第幾題」，也隱含兩種 UI 階段：
 `results.length === index` 表示尚未作答；`results.length === index + 1` 表示目前題已
@@ -98,9 +98,35 @@ grep `localStorage.` 直接使用點。
 session；若 live session 不同應捨棄 checkpoint，若 sessionStorage 因關閉分頁消失則
 應從 checkpoint 內的 `session` 恢復。
 
-**守護**：`tests/sessionResume.test.tsx` 的 feedback-phase refresh case；
+checkpoint 另只提供**位置與結果**，題目一律用「目前」的規則重建（`rebuildOnResume`），
+不得沿用 checkpoint 凍結的清單。理由：清單是「建立當下」的產物，若某次發行改了題型
+輪替，沿用就會讓學生看到目前規則已不產生的題型——2026-09-17 回報的計畫複習出拼字即
+此例（計畫複習在 09-10～09-12 之間未排除拼字，那段期間的 checkpoint 恢復時把拼字題
+帶回來）。重建的安全性前提是「建題與進度無關」：非填空題型成立（混合輪替由 `round`
+播種），填空的適性難度與 variant 選擇會讀進度，因此維持 checkpoint 清單。重建後題數
+與 checkpoint 不同時放棄重建、沿用原清單，避免位置對不上。
+
+**守護**：`tests/sessionResume.test.tsx` 的 feedback-phase refresh case 與
+「rebuilds the question list on resume so an old 題型輪替 is re-filtered」（種一份含
+拼字的舊計畫 checkpoint，斷言恢復後不是拼字、題數以重建後為準、走完全程無拼字）；
 `tests/sessionIsolation.test.tsx` 的跨 Unit stale checkpoint、WrongAnswers 開新 session
-清除，以及 closed-tab（sessionStorage 空）恢復。
+清除，以及 closed-tab（sessionStorage 空）恢復。重建那條必須實測舊程式轉紅——恢復路徑
+的缺陷不會被只驗位置與計數的 round-trip 測試抓到。
+
+**I-10b：checkpoint 只提供位置與結果，題目一律用「目前」的規則重建。**
+checkpoint 存的是「建立當下」的題目清單；若某次發行改了題型輪替，直接沿用就會讓
+學生看到目前規則已不產生的題型（2026-09-17 回報：計畫複習在 09-10～09-12 出拼字，
+那段期間的 checkpoint 恢復時把拼字題帶回來）。恢復時必須以 `session` 設定重建題目
+（`rebuildOnResume`），checkpoint 只沿用 `index` 與 `results`。
+
+只在建題與進度無關時重建（非填空；混合輪替由 `round` 播種）；填空的適性難度與
+variant 選擇會讀進度，重建可能讓已作答題目的難度中途改變，因此維持 checkpoint
+清單。重建後題數與 checkpoint 不同時放棄重建、沿用原清單，避免位置對不上。
+
+**守護**：`tests/sessionResume.test.tsx` 的「rebuilds the question list on resume so
+an old 題型輪替 is re-filtered」（種一份含拼字的舊計畫 checkpoint，斷言恢復後不是
+拼字、題數以重建後為準、走完全程無拼字）。這類測試必須實測舊程式轉紅——恢復路徑
+的缺陷不會被一般的 round-trip 測試抓到（`sessionResume` 原本只驗位置與計數）。
 
 ## I-11：progress storage 必須容忍損壞資料與多分頁並行
 

@@ -41,6 +41,11 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - **拼字不進錯題與計畫複習的混合輪替**：錯題複習（`session.excludeSpelling`，
   四個入口帶旗標）與 90 天計畫複習（`session.plan != null`）的 mixed 都不出
   拼字題；一般練習的混合仍含拼字，單選拼字題型不受影響。
+- **恢復中斷的練習時，題目用現行規則重建**（`rebuildOnResume`，
+  `PracticeScreen`）：checkpoint 只提供位置與結果，不沿用凍結的題目清單，
+  否則發行改了輪替規則後，舊 checkpoint 會把已移除的題型帶回來
+  （2026-09-17：計畫複習的舊 checkpoint 恢復出拼字）。填空例外，維持
+  checkpoint 清單（適性難度會讀進度）；重建後題數不符則放棄重建。
 
 ### 情境填空適性系統（重點功能）
 - 每字 5 題：簡易 2 題（強線索，同詞性優先、跨詞性亦可）+ 中等 2 題（同詞性，以搭配或功能區分）+ 艱難 1 題（相關同詞性選項，由上下文唯一區分）。
