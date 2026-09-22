@@ -11,18 +11,6 @@
       "spellingHint": "a-p-a-r-t-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The family moved into a bright ___ near the park.",
-        "fullSentence": "The family moved into a bright apartment near the park.",
-        "translation": "這家人搬進公園附近一間明亮的公寓。",
-        "clue": "大樓中供人居住的住宅單位",
-        "answerEntryId": "u11:apartment",
-        "distractorEntryIds": [
-          "u11:ceiling",
-          "u11:housework",
-          "u11:freezer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ is on the sixth floor of the tall building.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-a-l-c-o-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fresh air came in when Ana opened the ___ door.",
-        "fullSentence": "Fresh air came in when Ana opened the balcony door.",
-        "translation": "Ana 打開陽台門時，新鮮空氣吹了進來。",
-        "clue": "建築物外側突出的戶外平台",
-        "answerEntryId": "u11:balcony",
-        "distractorEntryIds": [
-          "u11:computer",
-          "u11:armchair",
-          "u11:bookcase"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We hung our wet clothes on the ___.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-a-s-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shopper carried vegetables in a woven ___.",
-        "fullSentence": "The shopper carried vegetables in a woven basket.",
-        "translation": "購物者用編織籃子裝蔬菜。",
-        "clue": "用來裝東西的籃狀容器",
-        "answerEntryId": "u11:basket",
-        "distractorEntryIds": [
-          "u11:bedroom",
-          "u11:mirror",
-          "u11:needle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma put the clean laundry into a ___.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-a-t-h-r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hotel put fresh towels in every ___.",
-        "fullSentence": "The hotel put fresh towels in every bathroom.",
-        "translation": "飯店在每間浴室放了乾淨的毛巾。",
-        "clue": "家中洗澡和盥洗的房間",
-        "answerEntryId": "u11:bathroom",
-        "distractorEntryIds": [
-          "u11:garbage",
-          "u11:microwave",
-          "u11:living room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please wash your hands in the ___ after using the shower.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-e-d-r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The twins share one ___ with two beds.",
-        "fullSentence": "The twins share one bedroom with two beds.",
-        "translation": "這對雙胞胎共用一間有兩張床的臥室。",
-        "clue": "家中用來睡覺的房間",
-        "answerEntryId": "u11:bedroom",
-        "distractorEntryIds": [
-          "u11:balcony",
-          "u11:cassette",
-          "u11:bathroom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I went to the ___ to sleep in my bed.",
@@ -441,18 +381,6 @@
       "spellingHint": "c-a-m-e-r-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Kim used a ___ to take a picture of the waterfall.",
-        "fullSentence": "Kim used a camera to take a picture of the waterfall.",
-        "translation": "Kim 用相機拍了一張瀑布的照片。",
-        "clue": "用來拍照的設備",
-        "answerEntryId": "u11:camera",
-        "distractorEntryIds": [
-          "u11:candle",
-          "u11:carpet",
-          "u11:closet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please smile while I take your picture with this ___.",
@@ -527,18 +455,6 @@
       "spellingHint": "c-a-n-d-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A single ___ made of wax gave us light during the blackout.",
-        "fullSentence": "A single candle made of wax gave us light during the blackout.",
-        "translation": "停電時，一根蠟製的蠟燭為我們提供光線。",
-        "clue": "由蠟製成、燃燒時會提供光線的物品",
-        "answerEntryId": "u11:candle",
-        "distractorEntryIds": [
-          "u11:toilet",
-          "u11:brush",
-          "u11:chair"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We put a birthday ___ on the cake.",
@@ -613,18 +529,6 @@
       "spellingHint": "k-i-t-c-h-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The smell of soup came from the ___.",
-        "fullSentence": "The smell of soup came from the kitchen.",
-        "translation": "湯的香味從廚房傳來。",
-        "clue": "家中準備和烹煮食物的房間",
-        "answerEntryId": "u11:kitchen",
-        "distractorEntryIds": [
-          "u11:fence",
-          "u11:floor",
-          "u11:light"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom cut vegetables on the counter in the ___.",
@@ -699,18 +603,6 @@
       "spellingHint": "l-a-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I switched on the desk ___ to finish my homework.",
-        "fullSentence": "I switched on the desk lamp to finish my homework.",
-        "translation": "我打開書桌檯燈來完成作業。",
-        "clue": "放在桌上用電照明的燈具",
-        "answerEntryId": "u11:lamp",
-        "distractorEntryIds": [
-          "u11:trash",
-          "u11:housework",
-          "u11:blanket"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The reading ___ stood beside my bed.",
@@ -785,18 +677,6 @@
       "spellingHint": "l-i-v-i-n-g r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The family welcomed visitors and talked on the sofa in the ___.",
-        "fullSentence": "The family welcomed visitors and talked on the sofa in the living room.",
-        "translation": "這家人在客廳用沙發接待訪客並聊天。",
-        "clue": "擺放沙發、用來接待訪客的房間",
-        "answerEntryId": "u11:living room",
-        "distractorEntryIds": [
-          "u11:armchair",
-          "u11:cabinet",
-          "u11:machine"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched a movie together from the sofa in the ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "s-o-f-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the long walk, three people rested on the soft ___ in the living room.",
-        "fullSentence": "After the long walk, three people rested on the soft sofa in the living room.",
-        "translation": "長途散步後，三個人在客廳的柔軟沙發上休息。",
-        "clue": "客廳裡有坐墊、可供多人坐的長椅家具",
-        "answerEntryId": "u11:sofa",
-        "distractorEntryIds": [
-          "u11:window",
-          "u11:balcony",
-          "u11:brush"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children jumped onto the big ___ to read comics.",
@@ -957,18 +825,6 @@
       "spellingHint": "t-a-b-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The family sat around the ___ for dinner.",
-        "fullSentence": "The family sat around the table for dinner.",
-        "translation": "這家人圍著桌子吃晚餐。",
-        "clue": "一家人可以圍著用餐的家具",
-        "answerEntryId": "u11:table",
-        "distractorEntryIds": [
-          "u11:couch",
-          "u11:floor",
-          "u11:light"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We ate breakfast around the wooden ___.",
@@ -1043,18 +899,6 @@
       "spellingHint": "t-e-l-e-p-h-o-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old ___ rang twice before anyone answered.",
-        "fullSentence": "The old telephone rang twice before anyone answered.",
-        "translation": "那支舊電話在有人接聽前響了兩次。",
-        "clue": "用來通話的設備",
-        "answerEntryId": "u11:telephone",
-        "distractorEntryIds": [
-          "u11:gate",
-          "u11:heat",
-          "u11:lamp"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please use the ___ to call your mother.",
@@ -1129,18 +973,6 @@
       "spellingHint": "t-e-l-e-v-i-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa watched the news on the ___ and saw moving pictures before bed.",
-        "fullSentence": "Grandpa watched the news on the television and saw moving pictures before bed.",
-        "translation": "爺爺睡前在電視上看新聞和動態影像。",
-        "clue": "可以播放新聞動態影像的家電",
-        "answerEntryId": "u11:television",
-        "distractorEntryIds": [
-          "u11:rope",
-          "u11:soap",
-          "u11:tape"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children sat quietly in front of the ___.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "b-u-i-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The workers will ___ a playground behind the school.",
-        "fullSentence": "The workers will build a playground behind the school.",
-        "translation": "工人們將在學校後方建造一座遊樂場。",
-        "clue": "用材料建造房屋或結構",
-        "answerEntryId": "u11:build",
-        "distractorEntryIds": [
-          "u11:decorate",
-          "u11:dial",
-          "u11:lock"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "They plan to ___ a new bridge over the river.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-l-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the dusty windows with a dry cloth before our guests arrive.",
-        "fullSentence": "Please clean the dusty windows with a dry cloth before our guests arrive.",
-        "translation": "客人到達前，請用乾布清潔滿是灰塵的窗戶。",
-        "clue": "用乾布擦去灰塵使表面乾淨",
-        "answerEntryId": "u11:clean",
-        "distractorEntryIds": [
-          "u11:build",
-          "u11:decorate",
-          "u11:repair"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We need to ___ the windows because they are covered with dust.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "f-i-x",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A technician can ___ the broken radio before dinner.",
-        "fullSentence": "A technician can fix the broken radio before dinner.",
-        "translation": "技師可以在晚餐前修理壞掉的收音機。",
-        "clue": "把壞掉的東西弄好",
-        "answerEntryId": "u11:fix",
-        "distractorEntryIds": [
-          "u11:clean",
-          "u11:wash",
-          "u11:dial"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ the loose wheel on my skateboard.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "l-o-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "To keep rain out during storms, we ___ the windows tightly.",
-        "fullSentence": "To keep rain out during storms, we lock the windows tightly.",
-        "translation": "為了在暴風雨時防止雨水進來，我們把窗戶牢牢鎖上。",
-        "clue": "用鎖把門窗關好。",
-        "answerEntryId": "u11:lock",
-        "distractorEntryIds": [
-          "u11:fix",
-          "u11:clean",
-          "u11:wash"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ the gate with the key after you enter.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "t-i-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before dinner, I ___ the toys so the floor is clear.",
-        "fullSentence": "Before dinner, I tidy the toys so the floor is clear.",
-        "translation": "晚餐前，我整理玩具，讓地板空出來。",
-        "clue": "整理散亂的物品，使地方變整齊。",
-        "answerEntryId": "u11:tidy",
-        "distractorEntryIds": [
-          "u11:lock",
-          "u11:wash",
-          "u11:fix"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We ___ the messy bedroom before our guests arrived.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "w-a-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every Saturday, we ___ the family car.",
-        "fullSentence": "Every Saturday, we wash the family car.",
-        "translation": "每週六，我們都洗家裡的車。",
-        "clue": "用水把物品洗乾淨",
-        "answerEntryId": "u11:wash",
-        "distractorEntryIds": [
-          "u11:tidy",
-          "u11:fix",
-          "u11:decorate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ the vegetables under running water.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "a-d-d-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The form asks for your home ___.",
-        "fullSentence": "The form asks for your home address.",
-        "translation": "這張表格要求填寫你的住家地址。",
-        "clue": "住家或寄送地點的資料",
-        "answerEntryId": "u11:address",
-        "distractorEntryIds": [
-          "u11:tool",
-          "u11:tube",
-          "u11:wall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Write the street and house number in the ___ box.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "a-i-r c-o-n-d-i-t-i-o-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ blew cold air from the ceiling during the heat wave.",
-        "fullSentence": "The air conditioner blew cold air from the ceiling during the heat wave.",
-        "translation": "熱浪期間，冷氣機從天花板吹出冷風。",
-        "clue": "從天花板送出冷風的電器",
-        "answerEntryId": "u11:air conditioner",
-        "distractorEntryIds": [
-          "u11:toilet",
-          "u11:garden",
-          "u11:hanger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ cooled our room during the hot summer night.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "a-r-m-c-h-a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa rested his elbows on the padded arms of the ___ beside the lamp.",
-        "fullSentence": "Grandpa rested his elbows on the padded arms of the armchair beside the lamp.",
-        "translation": "爺爺把手肘靠在燈旁扶手椅的軟墊扶手上。",
-        "clue": "有軟墊扶手、適合一個人坐的椅子。",
-        "answerEntryId": "u11:armchair",
-        "distractorEntryIds": [
-          "u11:apartment",
-          "u11:bookcase",
-          "u11:balcony"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The reading corner has a soft single-seat ___ with arms on both sides.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "b-a-s-e-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old boxes are stored in the ___ below our house.",
-        "fullSentence": "The old boxes are stored in the basement below our house.",
-        "translation": "舊箱子存放在我們房子下方的地下室。",
-        "clue": "房子地下的房間",
-        "answerEntryId": "u11:basement",
-        "distractorEntryIds": [
-          "u11:mat",
-          "u11:mop",
-          "u11:tub"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We keep Christmas decorations in the ___ under the house.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "b-a-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baby had a warm ___ and soaked in the tub before bedtime.",
-        "fullSentence": "The baby had a warm bath and soaked in the tub before bedtime.",
-        "translation": "寶寶睡前洗了溫水澡，還在浴缸裡泡了一會兒。",
-        "clue": "泡在水中洗澡的活動。",
-        "answerEntryId": "u11:bath",
-        "distractorEntryIds": [
-          "u11:candle",
-          "u11:carpet",
-          "u11:garden"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I like to take a ___ and soak in warm water.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "b-e-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tired child lay down on the ___ in his bedroom and soon fell asleep.",
-        "fullSentence": "The tired child lay down on the bed in his bedroom and soon fell asleep.",
-        "translation": "疲倦的孩子晚餐後躺在臥室的床上，很快就睡著了。",
-        "clue": "放在臥室、供人躺下睡覺的家具。",
-        "answerEntryId": "u11:bed",
-        "distractorEntryIds": [
-          "u11:floor",
-          "u11:house",
-          "u11:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I put clean sheets on the ___ before guests arrived.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "b-e-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Three hikers rested on a long wooden ___ in the park.",
-        "fullSentence": "Three hikers rested on a long wooden bench in the park.",
-        "translation": "三位健行者在公園的長木椅上休息。",
-        "clue": "公園裡供多人坐的長椅。",
-        "answerEntryId": "u11:bench",
-        "distractorEntryIds": [
-          "u11:hammer",
-          "u11:hanger",
-          "u11:mirror"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The park placed a ___ under a tree for visitors to sit on.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "b-l-a-n-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I pulled a thick ___ over my legs to stay warm on the cold night.",
-        "fullSentence": "I pulled a thick blanket over my legs to stay warm on the cold night.",
-        "translation": "寒冷的夜晚，我把厚毯子拉到腿上保暖。",
-        "clue": "蓋在身上保暖的厚布。",
-        "answerEntryId": "u11:blanket",
-        "distractorEntryIds": [
-          "u11:tent",
-          "u11:tool",
-          "u11:tube"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baby was wrapped in a thick ___ to stay warm while sleeping.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "b-o-o-k-c-a-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The novels stood in the tall ___ beside the desk, not in a drawer.",
-        "fullSentence": "The novels stood in the tall bookcase beside the desk, not in a drawer.",
-        "translation": "小說放在書桌旁的高書櫃裡，而不是抽屜中。",
-        "clue": "用來直立收納書籍、而不是收納在抽屜裡的高大家具。",
-        "answerEntryId": "u11:bookcase",
-        "distractorEntryIds": [
-          "u11:heater",
-          "u11:mirror",
-          "u11:stairs"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tall ___ held all of my storybooks.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "b-r-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The builder used baked red ___ to make the garden wall.",
-        "fullSentence": "The builder used baked red brick to make the garden wall.",
-        "translation": "工人用燒製的紅磚砌成花園的牆。",
-        "clue": "砌牆或蓋房子用的燒製建材。",
-        "answerEntryId": "u11:brick",
-        "distractorEntryIds": [
-          "u11:brush",
-          "u11:dryer",
-          "u11:fence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A mason carried a single baked-clay ___ to the new wall.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "b-r-u-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She used a ___ to paint the wooden fence.",
-        "fullSentence": "She used a brush to paint the wooden fence.",
-        "translation": "她用刷子油漆木製圍籬。",
-        "clue": "用來塗刷的工具",
-        "answerEntryId": "u11:brush",
-        "distractorEntryIds": [
-          "u11:computer",
-          "u11:brick",
-          "u11:floor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use a ___ to scrub the mud from your shoes.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "b-u-c-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please carry a ___ of water to the garden.",
-        "fullSentence": "Please carry a bucket of water to the garden.",
-        "translation": "請提一桶水到花園。",
-        "clue": "裝水並可提著攜帶的容器",
-        "answerEntryId": "u11:bucket",
-        "distractorEntryIds": [
-          "u11:street",
-          "u11:toilet",
-          "u11:housework"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children filled the large ___ with sand at the beach and carried it by its handle.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "b-u-i-l-d-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new ___ has shops on the first floor.",
-        "fullSentence": "The new building has shops on the first floor.",
-        "translation": "這棟新建築物的一樓有商店。",
-        "clue": "房屋或其他大型建築",
-        "answerEntryId": "u11:building",
-        "distractorEntryIds": [
-          "u11:light",
-          "u11:stove",
-          "u11:trash"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The workers painted the tall office ___ white.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "c-a-b-i-n-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bowls are stored in the kitchen ___.",
-        "fullSentence": "The bowls are stored in the kitchen cabinet.",
-        "translation": "碗收放在廚房櫥櫃裡。",
-        "clue": "用來收納碗盤的家具",
-        "answerEntryId": "u11:cabinet",
-        "distractorEntryIds": [
-          "u11:yard",
-          "u11:balcony",
-          "u11:tape recorder"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad placed the glasses inside the kitchen ___ behind wooden doors.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "c-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We packed one ___ of beans for lunch.",
-        "fullSentence": "We packed one can of beans for lunch.",
-        "translation": "我們帶了一罐豆子當午餐。",
-        "clue": "裝食物的金屬容器",
-        "answerEntryId": "u11:can",
-        "distractorEntryIds": [
-          "u11:heater",
-          "u11:living room",
-          "u11:mirror"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She opened a ___ of tuna with a tool.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "c-a-r-p-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A red ___ covered the entire living-room floor.",
-        "fullSentence": "A red carpet covered the entire living-room floor.",
-        "translation": "一張紅色地毯鋪滿了整個客廳地板。",
-        "clue": "鋪滿地板的厚布",
-        "answerEntryId": "u11:carpet",
-        "distractorEntryIds": [
-          "u11:telephone",
-          "u11:brick",
-          "u11:brush"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We vacuumed the dirty living-room ___ after the party.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "c-a-s-s-e-t-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My uncle found an old ___ with two small reels and a plastic case in the attic.",
-        "fullSentence": "My uncle found an old cassette with two small reels and a plastic case in the attic.",
-        "translation": "我叔叔在閣樓找到一卷有兩個小捲軸和塑膠外殼的舊卡式錄音帶。",
-        "clue": "有塑膠外殼和兩個小捲軸的錄音帶盒",
-        "answerEntryId": "u11:cassette",
-        "distractorEntryIds": [
-          "u11:machine",
-          "u11:ceiling",
-          "u11:freezer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The song was recorded on a small ___ with two reels inside.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "c-e-i-l-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Inside the gym, a ball hit the ___ above our heads.",
-        "fullSentence": "Inside the gym, a ball hit the ceiling above our heads.",
-        "translation": "在體育館裡，一顆球打中了我們頭上的天花板。",
-        "clue": "室內、位在頭頂上方的表面",
-        "answerEntryId": "u11:ceiling",
-        "distractorEntryIds": [
-          "u11:flashlight",
-          "u11:floor",
-          "u11:light"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The spider was moving across the ___ above our heads.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "c-h-a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please place the bag under the classroom ___.",
-        "fullSentence": "Please place the bag under the classroom chair.",
-        "translation": "請把袋子放在教室椅子下面。",
-        "clue": "教室裡供一個人坐的家具",
-        "answerEntryId": "u11:chair",
-        "distractorEntryIds": [
-          "u11:hammer",
-          "u11:shower",
-          "u11:toilet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The student pulled out a ___ from under the desk and sat down.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "c-l-o-s-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She hung her winter coat in the ___.",
-        "fullSentence": "She hung her winter coat in the closet.",
-        "translation": "她把冬天的外套掛在衣櫥裡。",
-        "clue": "收放衣物的小空間",
-        "answerEntryId": "u11:closet",
-        "distractorEntryIds": [
-          "u11:tool",
-          "u11:computer",
-          "u11:machine"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children hid behind the hanging coats inside the ___.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "c-o-m-p-u-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I saved my homework on the ___.",
-        "fullSentence": "I saved my homework on the computer.",
-        "translation": "我把作業儲存在電腦裡。",
-        "clue": "可以儲存作業的電子設備",
-        "answerEntryId": "u11:computer",
-        "distractorEntryIds": [
-          "u11:basement",
-          "u11:bathroom",
-          "u11:flashlight"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The student typed her report on the ___.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "c-o-u-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soft ___ with wide cushions let Dad lie down in the living room.",
-        "fullSentence": "The soft couch with wide cushions let Dad lie down in the living room.",
-        "translation": "客廳裡那張有寬大坐墊的柔軟沙發讓爸爸可以躺下來。",
-        "clue": "客廳裡有寬大坐墊、供人躺下的家具",
-        "answerEntryId": "u11:couch",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u11:brush",
-          "u11:fence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The family bought a large ___ with wide arms for movie nights.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "c-u-r-t-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The thick ___ over the window blocked the afternoon sunlight.",
-        "fullSentence": "The thick curtain over the window blocked the afternoon sunlight.",
-        "translation": "窗戶上的厚窗簾擋住了午後的陽光。",
-        "clue": "掛在窗戶上用來遮光的厚布",
-        "answerEntryId": "u11:curtain",
-        "distractorEntryIds": [
-          "u11:door",
-          "u11:gate",
-          "u11:hall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please open the ___ covering the window to let in more light.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "d-e-c-o-r-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students will ___ the classroom with paper stars.",
-        "fullSentence": "The students will decorate the classroom with paper stars.",
-        "translation": "學生要用紙星星裝飾教室。",
-        "clue": "用物品把地方布置得漂亮",
-        "answerEntryId": "u11:decorate",
-        "distractorEntryIds": [
-          "u11:wash",
-          "u11:repair",
-          "u11:dial"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We used balloons to ___ the party room.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "d-e-s-i-g-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the new library uses bright colors.",
-        "fullSentence": "The design of the new library uses bright colors.",
-        "translation": "新圖書館的設計使用明亮的顏色。",
-        "clue": "建築或物品的規劃樣式",
-        "answerEntryId": "u11:design",
-        "distractorEntryIds": [
-          "u11:mirror",
-          "u11:needle",
-          "u11:shower"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The students drew a ___ for their tree house.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "d-e-s-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I put my dictionary in the ___ drawer.",
-        "fullSentence": "I put my dictionary in the desk drawer.",
-        "translation": "我把字典放進書桌抽屜裡。",
-        "clue": "有抽屜、用來讀書或工作的桌子",
-        "answerEntryId": "u11:desk",
-        "distractorEntryIds": [
-          "u11:floor",
-          "u11:stove",
-          "u11:study"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The student did her homework at the ___ with a pencil drawer.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "d-i-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the number printed on the card.",
-        "fullSentence": "Please dial the number printed on the card.",
-        "translation": "請撥打卡片上印的號碼。",
-        "clue": "在電話上按號碼打電話",
-        "answerEntryId": "u11:dial",
-        "distractorEntryIds": [
-          "u11:decorate",
-          "u11:tidy",
-          "u11:wash"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I used my phone to ___ the doctor's number.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "d-i-n-i-n-g r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The birthday cake was waiting in the ___.",
-        "fullSentence": "The birthday cake was waiting in the dining room.",
-        "translation": "生日蛋糕正在飯廳裡等著。",
-        "clue": "家中吃飯的房間",
-        "answerEntryId": "u11:dining room",
-        "distractorEntryIds": [
-          "u11:tool",
-          "u11:wall",
-          "u11:yard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We set the plates on the table in the ___ beside the dining chairs.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "d-o-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The delivery man left the package beside the ___ where visitors knock before entering.",
-        "fullSentence": "The delivery man left the package beside the door where visitors knock before entering.",
-        "translation": "送貨員把包裹放在門旁，訪客進門前會在那裡敲門。",
-        "clue": "訪客進入房子前會敲的出入口",
-        "answerEntryId": "u11:door",
-        "distractorEntryIds": [
-          "u11:ceiling",
-          "u11:freezer",
-          "u11:printer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I turned the knob and stepped through the ___ into the room.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "d-o-w-n-s-t-a-i-r-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma sleeps in the ___ bedroom on the ground floor, near the kitchen.",
-        "fullSentence": "Grandma sleeps in the downstairs bedroom on the ground floor, near the kitchen.",
-        "translation": "奶奶睡在廚房附近、位於一樓的樓下臥室。",
-        "clue": "位於一樓、靠近廚房的臥室",
-        "answerEntryId": "u11:downstairs",
-        "distractorEntryIds": [
-          "u12:central",
-          "u12:eastern",
-          "u12:northern"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The washing machine is in the ___ room on the lower level.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "d-r-a-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I found the spare key inside a small ___ that pulled out from the desk.",
-        "fullSentence": "I found the spare key inside a small drawer that pulled out from the desk.",
-        "translation": "我在書桌上一個拉得出來的小抽屜裡找到備用鑰匙。",
-        "clue": "可以從書桌拉出的收納盒",
-        "answerEntryId": "u11:drawer",
-        "distractorEntryIds": [
-          "u11:machine",
-          "u11:basket",
-          "u11:bucket"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She pulled out the ___ to get a clean spoon.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "d-r-e-s-s-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She placed folded shirts in the bedroom ___ with six drawers.",
-        "fullSentence": "She placed folded shirts in the bedroom dresser with six drawers.",
-        "translation": "她把摺好的襯衫放進臥室裡那個有六個抽屜的衣物櫃。",
-        "clue": "臥室裡有六個抽屜、用來收放衣物的家具",
-        "answerEntryId": "u11:dresser",
-        "distractorEntryIds": [
-          "u11:microwave",
-          "u11:camera",
-          "u11:candle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baby's clothes were sorted into the ___, a chest with three drawers.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "d-r-y-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the wash, we put the wet clothes into the ___, which uses hot air to dry them.",
-        "fullSentence": "After the wash, we put the wet clothes into the dryer, which uses hot air to dry them.",
-        "translation": "洗好後，我們把濕衣服放進用熱風把衣服吹乾的烘乾機。",
-        "clue": "用來烘乾衣物的機器",
-        "answerEntryId": "u11:dryer",
-        "distractorEntryIds": [
-          "u11:can",
-          "u11:fan",
-          "u11:key"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wet uniform came out of the ___ completely dry.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "e-l-e-c-t-r-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school bought an ___ stove for the cooking room.",
-        "fullSentence": "The school bought an electric stove for the cooking room.",
-        "translation": "學校為烹飪教室買了一個電爐。",
-        "clue": "靠電力運作的",
-        "answerEntryId": "u11:electric",
-        "distractorEntryIds": [
-          "u12:slow",
-          "u12:central",
-          "u12:crowded"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This ___ toothbrush moves by itself when you press the button.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "f-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ on the desk made the papers flutter.",
-        "fullSentence": "The fan on the desk made the papers flutter.",
-        "translation": "書桌上的電風扇讓紙張飄動。",
-        "clue": "會吹風使紙張飄動的電器",
-        "answerEntryId": "u11:fan",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u11:brush",
-          "u11:dryer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We turned on the ___ when the room felt hot.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "f-a-u-c-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The plumber tightened the kitchen ___ over the counter with a small wrench.",
-        "fullSentence": "The plumber tightened the kitchen faucet over the counter with a small wrench.",
-        "translation": "水電工用小扳手把水槽上方的廚房水龍頭鎖緊。",
-        "clue": "廚房中控制水流的設備",
-        "answerEntryId": "u11:faucet",
-        "distractorEntryIds": [
-          "u11:tent",
-          "u11:tool",
-          "u11:tube"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water sprayed everywhere when the child left the ___ open.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "f-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ was made of wire and ran along the property line.",
-        "fullSentence": "The fence was made of wire and ran along the property line.",
-        "translation": "那道圍籬由鐵絲製成，沿著土地邊界延伸。",
-        "clue": "沿著土地邊界圍住範圍的柵欄",
-        "answerEntryId": "u11:fence",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u11:brush",
-          "u11:dryer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We painted the ___ around the vegetable garden.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "f-l-a-s-h-l-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We searched the dark basement with a hand-held ___ that ran on batteries.",
-        "fullSentence": "We searched the dark basement with a hand-held flashlight that ran on batteries.",
-        "translation": "我們用一支靠電池供電的手電筒搜尋黑暗的地下室。",
-        "clue": "用電池照明的手持工具",
-        "answerEntryId": "u11:flashlight",
-        "distractorEntryIds": [
-          "u11:design",
-          "u11:garbage",
-          "u11:faucet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I kept a ___ under my pillow for nighttime emergencies.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "f-l-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The workers built a ___ roof over the new room.",
-        "fullSentence": "The workers built a flat roof over the new room.",
-        "translation": "工人在新房間上方蓋了一個平坦的屋頂。",
-        "clue": "表面沒有斜度或彎曲的",
-        "answerEntryId": "u11:flat",
-        "distractorEntryIds": [
-          "u12:central",
-          "u12:slow",
-          "u12:safe"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The paper must be ___ before you fold it.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "f-l-o-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A wet umbrella left a puddle on the tiled ___ inside the entryway.",
-        "fullSentence": "A wet umbrella left a puddle on the tiled floor inside the entryway.",
-        "translation": "濕雨傘在入口處的磁磚地板上留下了一灘水。",
-        "clue": "入口處鋪磁磚、讓人行走的表面",
-        "answerEntryId": "u11:floor",
-        "distractorEntryIds": [
-          "u11:key",
-          "u11:mat",
-          "u11:mop"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please take off your muddy shoes before stepping onto the ___.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "f-r-e-e-z-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We stored the extra ice cream in the ___ so it would stay frozen.",
-        "fullSentence": "We stored the extra ice cream in the freezer so it would stay frozen.",
-        "translation": "我們把多的冰淇淋放在冷凍庫裡，讓它保持冷凍。",
-        "clue": "用來冷凍食物的電器",
-        "answerEntryId": "u11:freezer",
-        "distractorEntryIds": [
-          "u11:receiver",
-          "u11:cassette",
-          "u11:house"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The frozen fish stayed solid inside the ___ because it was kept below zero.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "f-u-r-n-i-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The family bought new ___, including a sofa, table, and chairs.",
-        "fullSentence": "The family bought new furniture, including a sofa, table, and chairs.",
-        "translation": "這家人買了新家具，包括沙發、桌子和椅子。",
-        "clue": "沙發、桌椅等家中用品的總稱",
-        "answerEntryId": "u11:furniture",
-        "distractorEntryIds": [
-          "u11:pipe",
-          "u11:room",
-          "u11:rope"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sofa and table are pieces of ___ in the new home.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "g-a-r-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mechanic kept his tools in the ___ behind the house, where he repaired cars.",
-        "fullSentence": "The mechanic kept his tools in the garage behind the house, where he repaired cars.",
-        "translation": "修理工把工具放在房子後面的車庫裡，並在那裡修理汽車。",
-        "clue": "停放車子或修理車子的房間",
-        "answerEntryId": "u11:garage",
-        "distractorEntryIds": [
-          "u11:video",
-          "u11:way",
-          "u11:wok"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We parked the family car inside the ___ during the storm.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "g-a-r-b-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The truck collects our ___ every Thursday.",
-        "fullSentence": "The truck collects our garbage every Thursday.",
-        "translation": "垃圾車每週四收走我們的垃圾。",
-        "clue": "人們丟棄、不再需要的髒東西或廢物",
-        "answerEntryId": "u11:garbage",
-        "distractorEntryIds": [
-          "u11:bath",
-          "u11:heat",
-          "u11:home"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put the ___ in the black bag, not on the floor.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "g-a-r-d-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We grow herbs and tomatoes in the ___ behind our house.",
-        "fullSentence": "We grow herbs and tomatoes in the garden behind our house.",
-        "translation": "我們在房子後面的花園種香草和番茄。",
-        "clue": "種植花草或蔬菜的地方",
-        "answerEntryId": "u11:garden",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u11:brush",
-          "u11:floor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa waters the ___ where roses bloom.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "g-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We entered the yard through the wooden ___.",
-        "fullSentence": "We entered the yard through the wooden gate.",
-        "translation": "我們從木製大門進入院子。",
-        "clue": "圍籬或庭院上的出入口",
-        "answerEntryId": "u11:gate",
-        "distractorEntryIds": [
-          "u11:garbage",
-          "u11:house",
-          "u11:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dog ran out when someone left the ___ open.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "g-r-o-u-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The wet ___ beneath the trees was covered with fallen leaves.",
-        "fullSentence": "The wet ground beneath the trees was covered with fallen leaves.",
-        "translation": "樹下潮濕的地面覆滿了落葉。",
-        "clue": "樹下覆滿落葉的土地表面",
-        "answerEntryId": "u11:ground",
-        "distractorEntryIds": [
-          "u11:mirror",
-          "u11:needle",
-          "u11:cassette"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We sat on the ___ during the outdoor picnic.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "h-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The long ___ connects the bedrooms to the kitchen.",
-        "fullSentence": "The long hall connects the bedrooms to the kitchen.",
-        "translation": "長長的走廊連接臥室和廚房。",
-        "clue": "房子裡連接房間的通道",
-        "answerEntryId": "u11:hall",
-        "distractorEntryIds": [
-          "u11:tub",
-          "u11:wok",
-          "u11:rope"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We walked down the ___ to reach the bedrooms.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "h-a-m-m-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad used a ___ to drive the nail into the board.",
-        "fullSentence": "Dad used a hammer to drive the nail into the board.",
-        "translation": "爸爸用鐵鎚把釘子敲進木板。",
-        "clue": "用來敲打釘子的工具",
-        "answerEntryId": "u11:hammer",
-        "distractorEntryIds": [
-          "u11:tent",
-          "u11:tool",
-          "u11:tube"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The repairman used the ___ to pull a bent nail from the wood.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "h-a-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I put the clean shirt on a ___ in the closet to keep it wrinkle-free.",
-        "fullSentence": "I put the clean shirt on a hanger in the closet to keep it wrinkle-free.",
-        "translation": "我把乾淨的襯衫掛在衣櫥裡的衣架上，讓它保持平整。",
-        "clue": "讓衣服掛起來保持平整的架子",
-        "answerEntryId": "u11:hanger",
-        "distractorEntryIds": [
-          "u11:apartment",
-          "u11:curtain",
-          "u11:garbage"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use a ___ to keep your jacket smooth and off the floor.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "h-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ from the fire warmed our cold hands.",
-        "fullSentence": "The heat from the fire warmed our cold hands.",
-        "translation": "火的熱氣溫暖了我們冰冷的雙手。",
-        "clue": "讓人感到溫暖的能量",
-        "answerEntryId": "u11:heat",
-        "distractorEntryIds": [
-          "u11:refrigerator",
-          "u11:receiver",
-          "u11:cassette"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We felt the ___ from the hot soup before tasting it.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "h-e-a-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We turned on the ___ because the room was freezing.",
-        "fullSentence": "We turned on the heater because the room was freezing.",
-        "translation": "因為房間很冷，我們打開了暖氣機。",
-        "clue": "讓房間變暖的電器",
-        "answerEntryId": "u11:heater",
-        "distractorEntryIds": [
-          "u11:speaker",
-          "u11:machine",
-          "u11:printer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ warmed the bedroom on a cold morning.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "h-o-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the trip, we were glad to be ___.",
-        "fullSentence": "After the trip, we were glad to be home.",
-        "translation": "旅行後，我們很高興回到家。",
-        "clue": "自己居住、生活的地方",
-        "answerEntryId": "u11:home",
-        "distractorEntryIds": [
-          "u11:pipe",
-          "u11:sink",
-          "u11:tent"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please call me when you get ___ after school.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "h-o-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old ___ stood alone beside a garden and had its own front door.",
-        "fullSentence": "The old house stood alone beside a garden and had its own front door.",
-        "translation": "那棟老房子獨立坐落在花園旁，還有自己的前門。",
-        "clue": "獨立坐落在花園旁、供人居住的建築物",
-        "answerEntryId": "u11:house",
-        "distractorEntryIds": [
-          "u11:home",
-          "u11:tube",
-          "u11:hanger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A family of five lives in the large ___ with its own yard beside the park.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "h-o-u-s-e-w-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My mother finished the ___ before the guests arrived, so every floor was clean.",
-        "fullSentence": "My mother finished the housework before the guests arrived, so every floor was clean.",
-        "translation": "客人到達前，媽媽做完了家事，所以每層地板都很乾淨。",
-        "clue": "讓地板變乾淨的家中工作",
-        "answerEntryId": "u11:housework",
-        "distractorEntryIds": [
-          "u11:living room",
-          "u11:furniture",
-          "u11:tape recorder"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sweeping the floor is part of the ___ I do on Saturday.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "k-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I used a ___ to open the locked cabinet.",
-        "fullSentence": "I used a key to open the locked cabinet.",
-        "translation": "我用鑰匙打開上鎖的櫥櫃。",
-        "clue": "用來開鎖的金屬物品",
-        "answerEntryId": "u11:key",
-        "distractorEntryIds": [
-          "u11:armchair",
-          "u11:dresser",
-          "u11:kitchen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The lost ___ was under the sofa, so we could enter the house.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "l-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At night, we needed more ___ to see our food at the dining table.",
-        "fullSentence": "At night, we needed more light to see our food at the dining table.",
-        "translation": "晚上，我們在餐桌旁需要更多光線才能看清食物。",
-        "clue": "讓人在黑暗中看見東西的明亮事物",
-        "answerEntryId": "u11:light",
-        "distractorEntryIds": [
-          "u11:bath",
-          "u11:desk",
-          "u11:gate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dark hallway needed more ___.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "m-a-c-h-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The washing ___ stopped during the cycle.",
-        "fullSentence": "The washing machine stopped during the cycle.",
-        "translation": "洗衣機在運轉過程中停了下來。",
-        "clue": "利用電力運作的設備",
-        "answerEntryId": "u11:machine",
-        "distractorEntryIds": [
-          "u11:bathroom",
-          "u11:camera",
-          "u11:candle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This ___ uses electricity to clean our clothes.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "m-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wipe your shoes on the ___ before entering the house.",
-        "fullSentence": "Wipe your shoes on the mat before entering the house.",
-        "translation": "進屋前，請在墊子上擦鞋。",
-        "clue": "放在門口供人擦鞋的墊子",
-        "answerEntryId": "u11:mat",
-        "distractorEntryIds": [
-          "u11:machine",
-          "u11:faucet",
-          "u11:garage"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The rubber ___ kept the hot dish from touching the table.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "m-i-c-r-o-w-a-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I put the leftover noodles in the ___ and heated them for one minute.",
-        "fullSentence": "I put the leftover noodles in the microwave and heated them for one minute.",
-        "translation": "我把吃剩的麵放進微波爐，加熱一分鐘。",
-        "clue": "用來快速加熱剩菜的電器",
-        "answerEntryId": "u11:microwave",
-        "distractorEntryIds": [
-          "u11:pipe",
-          "u11:road",
-          "u11:roof"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put the cold soup in the ___ for thirty seconds.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "m-i-r-r-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before leaving, she checked her hair in the ___.",
-        "fullSentence": "Before leaving, she checked her hair in the mirror.",
-        "translation": "離開前，她在鏡子裡整理頭髮。",
-        "clue": "可以映照自己外表的物品",
-        "answerEntryId": "u11:mirror",
-        "distractorEntryIds": [
-          "u11:cassette",
-          "u11:wall",
-          "u11:yard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He used the ___ to see the back of his head.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "m-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the bucket spilled, Dad used a ___ to push the water toward the drain.",
-        "fullSentence": "After the bucket spilled, Dad used a mop to push the water toward the drain.",
-        "translation": "水桶打翻後，爸爸用拖把把水推向排水孔。",
-        "clue": "用來把地板上的水推向排水孔的清潔工具",
-        "answerEntryId": "u11:mop",
-        "distractorEntryIds": [
-          "u11:flashlight",
-          "u11:receiver",
-          "u11:cassette"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The long-handled ___ soaked up the juice on the kitchen floor.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "n-e-e-d-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma threaded a ___ before sewing my torn shirt.",
-        "fullSentence": "Grandma threaded a needle before sewing my torn shirt.",
-        "translation": "奶奶先把線穿進針裡，再縫補我破掉的襯衫。",
-        "clue": "縫紉時需要穿線的尖細工具",
-        "answerEntryId": "u11:needle",
-        "distractorEntryIds": [
-          "u11:basket",
-          "u11:bucket",
-          "u11:candle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sharp ___ went through the cloth without tearing it.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "o-v-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bread browned in the ___ during breakfast.",
-        "fullSentence": "The bread browned in the oven during breakfast.",
-        "translation": "早餐時，麵包在烤箱裡烤成了褐色。",
-        "clue": "用來烘烤麵包的電器",
-        "answerEntryId": "u11:oven",
-        "distractorEntryIds": [
-          "u11:cabinet",
-          "u11:ceiling",
-          "u11:closet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We baked cookies in the ___ until their edges turned golden.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "p-i-l-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I rested my head on a soft ___ during an afternoon nap.",
-        "fullSentence": "I rested my head on a soft pillow during an afternoon nap.",
-        "translation": "午睡時，我把頭靠在柔軟的枕頭上。",
-        "clue": "閱讀或睡覺時用來支撐頭部的柔軟物品",
-        "answerEntryId": "u11:pillow",
-        "distractorEntryIds": [
-          "u11:couch",
-          "u11:fence",
-          "u11:floor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baby slept with its head on a small ___.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "p-i-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A broken ___ under the sink dripped water all night.",
-        "fullSentence": "A broken pipe under the sink dripped water all night.",
-        "translation": "水槽下方破掉的水管整晚都在滴水。",
-        "clue": "水流通過、破掉後可能漏水的管道",
-        "answerEntryId": "u11:pipe",
-        "distractorEntryIds": [
-          "u11:tub",
-          "u11:wok",
-          "u11:road"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The plumber replaced the rusty ___ behind the wall.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "p-r-i-n-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ printed a paper copy of my homework.",
-        "fullSentence": "The printer printed a paper copy of my homework.",
-        "translation": "印表機把我的作業印成紙本。",
-        "clue": "把電子內容印到紙上的機器",
-        "answerEntryId": "u11:printer",
-        "distractorEntryIds": [
-          "u11:pipe",
-          "u11:tube",
-          "u11:wall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ stopped because its paper tray was empty.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "r-a-d-i-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa listened to the ___ for the morning news.",
-        "fullSentence": "Grandpa listened to the radio for the morning news.",
-        "translation": "爺爺收聽收音機的早間新聞。",
-        "clue": "接收並播放廣播節目的設備",
-        "answerEntryId": "u11:radio",
-        "distractorEntryIds": [
-          "u11:tape recorder",
-          "u11:bath",
-          "u11:desk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ played a song but showed no pictures during breakfast.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "r-e-c-e-i-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the phone rang, she lifted the ___ and said hello.",
-        "fullSentence": "After the phone rang, she lifted the receiver and said hello.",
-        "translation": "電話響後，她拿起聽筒說你好。",
-        "clue": "電話響起後拿起來說話的部分",
-        "answerEntryId": "u11:receiver",
-        "distractorEntryIds": [
-          "u11:living room",
-          "u11:bench",
-          "u11:brick"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He put the ___ back on its base after the call.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "r-e-f-r-i-g-e-r-a-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We kept the fresh fruit in the ___.",
-        "fullSentence": "We kept the fresh fruit in the refrigerator.",
-        "translation": "我們把新鮮水果放在冰箱裡。",
-        "clue": "用來冷藏食物和水果的電器",
-        "answerEntryId": "u11:refrigerator",
-        "distractorEntryIds": [
-          "u11:closet",
-          "u11:drawer",
-          "u11:faucet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ kept our milk cold all night.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "r-e-p-a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The worker came to ___ the broken window.",
-        "fullSentence": "The worker came to repair the broken window.",
-        "translation": "工人來修理破掉的窗戶。",
-        "clue": "把損壞的東西修好的動作",
-        "answerEntryId": "u11:repair",
-        "distractorEntryIds": [
-          "u11:dial",
-          "u11:decorate",
-          "u11:tidy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A mechanic will ___ my bicycle after the accident.",
@@ -7837,18 +6745,6 @@
       "spellingHint": "r-o-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school bus followed a paved ___ through the forest.",
-        "fullSentence": "The school bus followed a paved road through the forest.",
-        "translation": "校車沿著一條鋪設好的道路穿過森林。",
-        "clue": "供車輛通行、穿過森林的鋪設道路",
-        "answerEntryId": "u11:road",
-        "distractorEntryIds": [
-          "u11:armchair",
-          "u11:bookcase",
-          "u11:chair"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Be careful when you cross the busy ___ near the school.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "r-o-o-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Rain dripped through a hole in the ___ during the storm.",
-        "fullSentence": "Rain dripped through a hole in the roof during the storm.",
-        "translation": "暴風雨期間，雨水從屋頂的洞滴下來。",
-        "clue": "房子最上方用來遮雨的部分",
-        "answerEntryId": "u11:roof",
-        "distractorEntryIds": [
-          "u11:bathroom",
-          "u11:pipe",
-          "u11:road"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Workers climbed onto the ___ to repair a leak above the rooms.",
@@ -8009,18 +6893,6 @@
       "spellingHint": "r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The art club meets in the ___ beside the library after lunch.",
-        "fullSentence": "The art club meets in the room beside the library after lunch.",
-        "translation": "美術社午餐後在圖書館旁的房間集合。",
-        "clue": "房子裡被牆隔出的空間",
-        "answerEntryId": "u11:room",
-        "distractorEntryIds": [
-          "u11:shelf",
-          "u11:study",
-          "u11:table"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school opened a science ___ with sinks and tables.",
@@ -8095,18 +6967,6 @@
       "spellingHint": "r-o-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The climber tied a safety ___ around his waist before starting.",
-        "fullSentence": "The climber tied a safety rope around his waist before starting.",
-        "translation": "那名攀岩者開始前把安全繩綁在腰間。",
-        "clue": "用來捆綁或拉東西的粗線",
-        "answerEntryId": "u11:rope",
-        "distractorEntryIds": [
-          "u11:mirror",
-          "u11:needle",
-          "u11:dresser"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use a thick ___ to tie the boat to the dock.",
@@ -8181,18 +7041,6 @@
       "spellingHint": "s-h-e-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hotel changed the damp ___ after the guest spilled tea.",
-        "fullSentence": "The hotel changed the damp sheet after the guest spilled tea.",
-        "translation": "客人打翻茶後，飯店更換了潮濕的床單。",
-        "clue": "鋪在床墊上的大塊布",
-        "answerEntryId": "u11:sheet",
-        "distractorEntryIds": [
-          "u11:housework",
-          "u11:bed",
-          "u11:can"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The nurse tucked a fresh ___ under the corners of the mattress.",
@@ -8267,18 +7115,6 @@
       "spellingHint": "s-h-e-l-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The librarian placed the dictionary on a low ___ beside the reading area.",
-        "fullSentence": "The librarian placed the dictionary on a low shelf beside the reading area.",
-        "translation": "圖書館員把字典放在閱讀區旁的低架子上。",
-        "clue": "用來放置書籍或物品的平板",
-        "answerEntryId": "u11:shelf",
-        "distractorEntryIds": [
-          "u11:window",
-          "u11:desk",
-          "u11:heat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put the books on the wall ___ above the counter.",
@@ -8353,18 +7189,6 @@
       "spellingHint": "s-h-o-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mia washed the sand from her hair under the ___.",
-        "fullSentence": "Mia washed the sand from her hair under the shower.",
-        "translation": "Mia 在淋浴設備下洗掉頭髮上的沙子。",
-        "clue": "用水沖洗身體的設備或活動",
-        "answerEntryId": "u11:shower",
-        "distractorEntryIds": [
-          "u11:road",
-          "u11:roof",
-          "u11:room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "After soccer, Ben stood under the ___ to wash off sweat.",
@@ -8439,18 +7263,6 @@
       "spellingHint": "s-i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cook left the rinsed vegetables in the kitchen ___.",
-        "fullSentence": "The cook left the rinsed vegetables in the kitchen sink.",
-        "translation": "廚師把洗好的蔬菜留在廚房水槽裡。",
-        "clue": "廚房或浴室中洗東西的盆槽",
-        "answerEntryId": "u11:sink",
-        "distractorEntryIds": [
-          "u11:shower",
-          "u11:floor",
-          "u11:house"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wash the carrots in the kitchen ___.",
@@ -8525,18 +7337,6 @@
       "spellingHint": "s-o-a-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A bar of ___ sat beside the bathroom faucet.",
-        "fullSentence": "A bar of soap sat beside the bathroom faucet.",
-        "translation": "浴室水龍頭旁放著一塊肥皂。",
-        "clue": "洗手或洗澡用的清潔用品",
-        "answerEntryId": "u11:soap",
-        "distractorEntryIds": [
-          "u11:housework",
-          "u11:basket",
-          "u11:bucket"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use liquid ___ to wash the dirt off your hands.",
@@ -8611,18 +7411,6 @@
       "spellingHint": "s-p-e-a-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The DJ tested the large ___ before the school dance.",
-        "fullSentence": "The DJ tested the large speaker before the school dance.",
-        "translation": "DJ 在學校舞會前測試大型揚聲器。",
-        "clue": "播放聲音的設備",
-        "answerEntryId": "u11:speaker",
-        "distractorEntryIds": [
-          "u11:bathroom",
-          "u11:balcony",
-          "u11:candle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Connect the ___ to the phone so everyone can hear the music.",
@@ -8697,18 +7485,6 @@
       "spellingHint": "s-t-a-i-r-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We carried the boxes to the attic on the back ___.",
-        "fullSentence": "We carried the boxes to the attic on the back stairs.",
-        "translation": "我們沿著後面的樓梯把箱子搬到閣樓。",
-        "clue": "連接不同樓層的一段階梯",
-        "answerEntryId": "u11:stairs",
-        "distractorEntryIds": [
-          "u11:printer",
-          "u11:fan",
-          "u11:key"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Hold the handrail as you walk down the ___.",
@@ -8783,18 +7559,6 @@
       "spellingHint": "s-t-o-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cook fried eggs on the small kitchen ___.",
-        "fullSentence": "The cook fried eggs on the small kitchen stove.",
-        "translation": "廚師在小廚房爐子上煎蛋。",
-        "clue": "用來煮食物的器具",
-        "answerEntryId": "u11:stove",
-        "distractorEntryIds": [
-          "u11:bookcase",
-          "u11:freezer",
-          "u11:hall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Turn off the gas ___ after cooking dinner.",
@@ -8869,18 +7633,6 @@
       "spellingHint": "s-t-r-e-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A fruit stand opened on our ___ last week.",
-        "fullSentence": "A fruit stand opened on our street last week.",
-        "translation": "上週我們這條街上開了一個水果攤。",
-        "clue": "城市或城鎮中的道路",
-        "answerEntryId": "u11:street",
-        "distractorEntryIds": [
-          "u11:kitchen",
-          "u11:mat",
-          "u11:mop"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bus stopped on the busy ___ outside the school.",
@@ -8955,18 +7707,6 @@
       "spellingHint": "s-t-u-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad writes reports in the quiet ___ at the end of the hall.",
-        "fullSentence": "Dad writes reports in the quiet study at the end of the hall.",
-        "translation": "爸爸在走廊盡頭安靜的書房裡寫報告。",
-        "clue": "用來讀書或工作的安靜空間",
-        "answerEntryId": "u11:study",
-        "distractorEntryIds": [
-          "u11:pipe",
-          "u11:room",
-          "u11:rope"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school has a quiet ___ where students can read.",
@@ -9041,18 +7781,6 @@
       "spellingHint": "s-w-e-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the dirt into the dustpan before dinner.",
-        "fullSentence": "Please sweep the dirt into the dustpan before dinner.",
-        "translation": "晚餐前請把灰塵掃進畚箕裡。",
-        "clue": "用掃把清除地上的灰塵或雜物",
-        "answerEntryId": "u11:sweep",
-        "distractorEntryIds": [
-          "u11:fix",
-          "u11:wash",
-          "u11:tidy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I ___ the floor with a broom every morning.",
@@ -9127,18 +7855,6 @@
       "spellingHint": "t-a-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I used a strip of ___ to mend my torn notebook.",
-        "fullSentence": "I used a strip of tape to mend my torn notebook.",
-        "translation": "我用一條膠帶修補破掉的筆記本。",
-        "clue": "用來黏住或固定東西的帶子",
-        "answerEntryId": "u11:tape",
-        "distractorEntryIds": [
-          "u11:couch",
-          "u11:house",
-          "u11:light"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put clear ___ over the crack in the paper.",
@@ -9213,18 +7929,6 @@
       "spellingHint": "t-a-p-e r-e-c-o-r-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The reporter brought an old ___ to record the interview.",
-        "fullSentence": "The reporter brought an old tape recorder to record the interview.",
-        "translation": "記者帶了一台老式錄音機去錄製訪談。",
-        "clue": "用來錄音和播放錄音帶的機器",
-        "answerEntryId": "u11:tape recorder",
-        "distractorEntryIds": [
-          "u11:study",
-          "u11:table",
-          "u11:trash"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Press the red button on the ___ to start recording.",
@@ -9299,18 +8003,6 @@
       "spellingHint": "t-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the campsite, we slept in a ___ that folded into a small bag.",
-        "fullSentence": "At the campsite, we slept in a tent that folded into a small bag.",
-        "translation": "在露營地，我們睡在一頂可以折進小袋子的帳篷裡。",
-        "clue": "野外可搭起的臨時住處",
-        "answerEntryId": "u11:tent",
-        "distractorEntryIds": [
-          "u11:armchair",
-          "u11:bookcase",
-          "u11:housework"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before the rain started, the scouts put up a ___ beside the lake.",
@@ -9385,18 +8077,6 @@
       "spellingHint": "t-o-i-l-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After using the ___, remember to flush it.",
-        "fullSentence": "After using the toilet, remember to flush it.",
-        "translation": "使用馬桶後，記得沖水。",
-        "clue": "使用後需要沖水的浴室設備",
-        "answerEntryId": "u11:toilet",
-        "distractorEntryIds": [
-          "u11:ceiling",
-          "u11:freezer",
-          "u11:printer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sign showed a person sitting on a ___ with a flush handle beside it, so I knew it marked the restroom.",
@@ -9471,18 +8151,6 @@
       "spellingHint": "t-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The repairman reached into the repair box for a ___.",
-        "fullSentence": "The repairman reached into the repair box for a tool.",
-        "translation": "修理工把手伸進工具箱拿一件工具。",
-        "clue": "用來完成工作或修理的器具",
-        "answerEntryId": "u11:tool",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u11:chair",
-          "u11:couch"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The mechanic searched the drawer for a ___ before fixing the table.",
@@ -9557,18 +8225,6 @@
       "spellingHint": "t-o-o-t-h-b-r-u-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I put my ___ in a cup with the bristles pointing up.",
-        "fullSentence": "I put my toothbrush in a cup with the bristles pointing up.",
-        "translation": "我把牙刷放在杯子裡，讓刷毛朝上。",
-        "clue": "刷毛朝上的清潔牙齒用品",
-        "answerEntryId": "u11:toothbrush",
-        "distractorEntryIds": [
-          "u11:curtain",
-          "u11:garbage",
-          "u11:heat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dentist told me to use a ___ to clean my teeth.",
@@ -9643,18 +8299,6 @@
       "spellingHint": "t-o-w-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After swimming, I dried my hair with a ___.",
-        "fullSentence": "After swimming, I dried my hair with a towel.",
-        "translation": "游泳後，我用毛巾擦乾頭髮。",
-        "clue": "用來擦乾身體的布",
-        "answerEntryId": "u11:towel",
-        "distractorEntryIds": [
-          "u11:roof",
-          "u11:sofa",
-          "u11:tent"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The lifeguard handed me a clean ___ when I left the pool.",
@@ -9729,18 +8373,6 @@
       "spellingHint": "t-r-a-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The janitor swept the ___ into a black bag after lunch.",
-        "fullSentence": "The janitor swept the trash into a black bag after lunch.",
-        "translation": "午餐後，清潔人員把垃圾掃進黑色袋子裡。",
-        "clue": "吃完東西後留下的廢棄物",
-        "answerEntryId": "u11:trash",
-        "distractorEntryIds": [
-          "u11:yard",
-          "u11:sheet",
-          "u11:shelf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please take the ___ out before guests arrive.",
@@ -9815,18 +8447,6 @@
       "spellingHint": "t-u-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baby splashed in the ___ while taking a bath.",
-        "fullSentence": "The baby splashed in the tub while taking a bath.",
-        "translation": "寶寶洗澡時在浴缸裡潑水。",
-        "clue": "可以裝水洗澡的大盆",
-        "answerEntryId": "u11:tub",
-        "distractorEntryIds": [
-          "u11:trash",
-          "u11:bucket",
-          "u11:candle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baby splashed water in the ___ while sitting in a warm bath.",
@@ -9901,18 +8521,6 @@
       "spellingHint": "t-u-b-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The toothpaste came in a squeezable ___ with a small cap.",
-        "fullSentence": "The toothpaste came in a squeezable tube with a small cap.",
-        "translation": "牙膏裝在一個有小蓋、可以擠壓的管狀容器裡。",
-        "clue": "裝牙膏等物品、可以擠壓的容器",
-        "answerEntryId": "u11:tube",
-        "distractorEntryIds": [
-          "u11:bed",
-          "u11:can",
-          "u11:fan"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Squeeze the ___ to get toothpaste onto the brush.",
@@ -9987,18 +8595,6 @@
       "spellingHint": "u-p-s-t-a-i-r-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ bedroom has two windows and a view of the roof.",
-        "fullSentence": "The upstairs bedroom has two windows and a view of the roof.",
-        "translation": "樓上的臥室有兩扇窗戶，還能看見屋頂。",
-        "clue": "位在較高樓層的",
-        "answerEntryId": "u11:upstairs",
-        "distractorEntryIds": [
-          "u12:southern",
-          "u12:western",
-          "u12:central"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please carry these boxes to the ___ bedroom on the second floor.",
@@ -10073,18 +8669,6 @@
       "spellingHint": "v-i-d-e-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We watched a short ___ of the school show after dinner.",
-        "fullSentence": "We watched a short video of the school show after dinner.",
-        "translation": "晚餐後，我們觀看了一段學校表演的短片。",
-        "clue": "可以播放觀看的影像紀錄",
-        "answerEntryId": "u11:video",
-        "distractorEntryIds": [
-          "u11:dresser",
-          "u11:kitchen",
-          "u11:living room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please send me the digital ___ you recorded on your phone at the party.",
@@ -10159,18 +8743,6 @@
       "spellingHint": "w-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A shelf was fastened to the ___ beside the door with two brackets.",
-        "fullSentence": "A shelf was fastened to the wall beside the door with two brackets.",
-        "translation": "一個架子用兩個托架固定在門旁的牆上。",
-        "clue": "可以用托架固定架子的直立結構",
-        "answerEntryId": "u11:wall",
-        "distractorEntryIds": [
-          "u11:cabinet",
-          "u11:machine",
-          "u11:ceiling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The poster was fastened to the ___ beside the blackboard with two nails.",
@@ -10245,18 +8817,6 @@
       "spellingHint": "w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There is no easy ___ to solve this puzzle without help.",
-        "fullSentence": "There is no easy way to solve this puzzle without help.",
-        "translation": "沒有簡單的方法可以在沒有幫助的情況下解開這個謎題。",
-        "clue": "解決事情的方法",
-        "answerEntryId": "u11:way",
-        "distractorEntryIds": [
-          "u11:bench",
-          "u11:brick",
-          "u11:chair"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She found a clever ___ to remember the spelling of the new word.",
@@ -10331,18 +8891,6 @@
       "spellingHint": "w-i-n-d-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The glass ___ above the radiator had a sill and a latch for fresh air.",
-        "fullSentence": "The glass window above the radiator had a sill and a latch for fresh air.",
-        "translation": "暖氣機上方的玻璃窗有窗臺和插銷，可以讓新鮮空氣進來。",
-        "clue": "有窗臺和插銷、可以讓空氣進入的開口",
-        "answerEntryId": "u11:window",
-        "distractorEntryIds": [
-          "u11:street",
-          "u11:pipe",
-          "u11:room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sunlight entered through the open ___ above the kitchen sink.",
@@ -10417,18 +8965,6 @@
       "spellingHint": "w-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The chef tossed sliced vegetables in the ___ with a long wooden spoon.",
-        "fullSentence": "The chef tossed sliced vegetables in the wok with a long wooden spoon.",
-        "translation": "廚師用長木匙在炒鍋裡翻炒切片蔬菜。",
-        "clue": "用長匙翻炒蔬菜的中式圓底鍋",
-        "answerEntryId": "u11:wok",
-        "distractorEntryIds": [
-          "u11:table",
-          "u11:hanger",
-          "u11:heater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cook carried the hot ___ to the table using two cloth handles.",
@@ -10503,18 +9039,6 @@
       "spellingHint": "y-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The house had a fenced ___ where no vegetables were planted, just space for outdoor games.",
-        "fullSentence": "The house had a fenced yard where no vegetables were planted, just space for outdoor games.",
-        "translation": "這棟房子有一個圍起來的院子，沒有種蔬菜，只留作戶外遊戲的空間。",
-        "clue": "沒有種菜、供戶外遊戲的圍起來空地",
-        "answerEntryId": "u11:yard",
-        "distractorEntryIds": [
-          "u11:street",
-          "u11:flashlight",
-          "u11:window"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dog ran across the grassy ___ between the house and its back fence.",

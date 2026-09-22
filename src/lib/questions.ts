@@ -98,7 +98,6 @@ function sessionOrder(
 export function buildQuestion(
   entry: VocabEntry,
   type: QuestionType,
-  index: number,
   progress: Record<string, EntryProgress> = {},
 ): Question | null {
   const enriched = getEnrichedEntry(entry.entryId);
@@ -149,38 +148,10 @@ export function buildQuestion(
     }
 
     case 'cloze': {
-      // 混合輪替的填空題走適性題庫（clozeEasy/clozeMedium/clozeHard），與
-      // 「情境填空」題型共用同一份適性進度——legacy `enriched.cloze` 只留給
-      // 英選中／中選英的干擾項池（見 pickDistractorZh/Words），不再拿來出題。
-      // 適性層為空時才 fallback 回 legacy：validate-data 強制三層存在，所以
-      // 正常情況不會走到；fallback 只是為了保住「每字一題」的數量不變。
-      const adaptive = buildAdaptiveCloze(entry, 'adaptive', progress);
-      if (adaptive) return adaptive;
-      // Cloze sentences are English; options must be English words so the
-      // student picks the word that fits the blank grammatically.
-      const c = enriched.cloze;
-      const distractors = c.distractorEntryIds.map((id) => {
-        const e = getEntry(id);
-        return { entryId: id, label: e?.word ?? id };
-      });
-      const options = shuffle(
-        [{ entryId: c.answerEntryId, label: entry.word }, ...distractors],
-        // Include the index: legacy cloze reuses the same clue per word, so
-        // the index is what distinguishes repeated appearances in a batch.
-        optionSeed(entry.entryId, type, String(index)),
-      );
-      return {
-        entryId: entry.entryId,
-        type,
-        prompt: c.sentence,
-        options,
-        answer: c.answerEntryId,
-        context: {
-          fullSentence: c.fullSentence,
-          translation: c.translation,
-          clue: c.clue,
-        },
-      };
+      // 填空題只從適性題庫（clozeEasy/clozeMedium/clozeHard）出題，與「情境
+      // 填空」題型共用同一份適性進度。legacy `enriched.cloze` 已於 2026-09
+      // 移除（英選中／中選英的干擾項也改由適性題庫衍生，見 pickDistractors）。
+      return buildAdaptiveCloze(entry, 'adaptive', progress);
     }
 
     case 'spelling':
@@ -400,8 +371,7 @@ export function buildSession(
   const out: Question[] = [];
   const start = round % types.length;
   sessionOrder(entries, type, round).forEach((entry, i) => {
-    const t = types[(i + start) % types.length];
-    const q = buildQuestion(entry, t, i, progress);
+    const t = types[(i + start) % types.length];    const q = buildQuestion(entry, t, progress);
     if (q) out.push(q);
   });
   return out;
@@ -441,8 +411,19 @@ function buildAdaptiveCloze(
     diff = difficulty;
   }
 
-  const pool = byDifficulty[diff];
-  if (pool.length === 0) return null;
+  // Fall back to any tier that has a question when the chosen one is empty,
+  // so an entry with an incomplete pool still yields a question and a session
+  // keeps one question per word. `validate-data` requires all three tiers, so
+  // this only guards against a future unit shipping without one.
+  let pool = byDifficulty[diff];
+  if (pool.length === 0) {
+    const filled = (['easy', 'medium', 'hard'] as const).filter(
+      (tier) => byDifficulty[tier].length > 0,
+    );
+    if (filled.length === 0) return null;
+    diff = filled[0];
+    pool = byDifficulty[diff];
+  }
 
   // Pick the next unused variant index.
   const p = progress[entry.entryId];

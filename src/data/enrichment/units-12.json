@@ -11,18 +11,6 @@
       "spellingHint": "a-c-c-i-d-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The driver was hurt in a car ___ on the highway.",
-        "fullSentence": "The driver was hurt in a car accident on the highway.",
-        "translation": "司機在高速公路上的車禍中受傷。",
-        "clue": "車子相撞造成傷害的事件",
-        "answerEntryId": "u12:accident",
-        "distractorEntryIds": [
-          "u12:bakery",
-          "u12:bridge",
-          "u12:buffet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Two cars hit each other, and the police came to the ___.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-i-r-c-r-a-f-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ took off from the long runway and rose into the sky.",
-        "fullSentence": "The aircraft took off from the long runway and rose into the sky.",
-        "translation": "飛機從長長的跑道起飛，升上天空。",
-        "clue": "從跑道起飛的大型飛行器",
-        "answerEntryId": "u12:aircraft",
-        "distractorEntryIds": [
-          "u12:helicopter",
-          "u12:bicycle",
-          "u12:direction"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The pilot flew the ___ across the ocean to another country.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-i-r-l-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sells tickets for flights to many countries.",
-        "fullSentence": "The airline sells tickets for flights to many countries.",
-        "translation": "這家航空公司販售飛往許多國家的機票。",
-        "clue": "販售機票、經營航班的公司",
-        "answerEntryId": "u12:airline",
-        "distractorEntryIds": [
-          "u12:culture center",
-          "u12:flat tire",
-          "u12:position"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle works for an ___ that flies to Japan.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-i-r-p-l-a-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ flew over the mountains on its way to the island.",
-        "fullSentence": "The airplane flew over the mountains on its way to the island.",
-        "translation": "飛機飛越群山，前往那座島。",
-        "clue": "有翅膀、載人飛行的交通工具",
-        "answerEntryId": "u12:airplane",
-        "distractorEntryIds": [
-          "u12:beach",
-          "u12:block",
-          "u12:curve"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We sat by the window and watched the ___ take off.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-i-r-p-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We waited at the ___ for our flight to take off.",
-        "fullSentence": "We waited at the airport for our flight to take off.",
-        "translation": "我們在機場等候航班起飛。",
-        "clue": "等待搭機的地點",
-        "answerEntryId": "u12:airport",
-        "distractorEntryIds": [
-          "u12:department store",
-          "u12:post office",
-          "u12:scooter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My parents saw me off at the ___ before I flew to Japan.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-m-b-u-l-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ rushed the injured man to the hospital with its siren on.",
-        "fullSentence": "The ambulance rushed the injured man to the hospital with its siren on.",
-        "translation": "救護車鳴著警笛，把受傷的男子緊急送往醫院。",
-        "clue": "鳴笛送傷患去醫院的緊急車輛",
-        "answerEntryId": "u12:ambulance",
-        "distractorEntryIds": [
-          "u12:temple",
-          "u12:tunnel",
-          "u12:sidewalk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ came quickly to take the sick woman to the hospital.",
@@ -527,18 +455,6 @@
       "spellingHint": "a-r-r-i-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The train will ___ at the station at nine o'clock.",
-        "fullSentence": "The train will arrive at the station at nine o'clock.",
-        "translation": "火車將在九點抵達車站。",
-        "clue": "到達某個地方",
-        "answerEntryId": "u12:arrive",
-        "distractorEntryIds": [
-          "u12:ride",
-          "u12:rush",
-          "u12:sail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We plan to ___ at the hotel before dinner.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She sat in the ___ of the classroom, far from the teacher.",
-        "fullSentence": "She sat in the back of the classroom, far from the teacher.",
-        "translation": "她坐在教室後方，離老師很遠。",
-        "clue": "房間或空間中離前面最遠的部分",
-        "answerEntryId": "u12:back",
-        "distractorEntryIds": [
-          "u12:market",
-          "u12:middle",
-          "u12:museum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The garden is at the ___ of the house.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-a-c-k-w-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The car moved ___ into the parking space.",
-        "fullSentence": "The car moved backward into the parking space.",
-        "translation": "車子向後移動進入停車位。",
-        "clue": "往後的方向",
-        "answerEntryId": "u12:backward",
-        "distractorEntryIds": [
-          "u12:right",
-          "u12:south",
-          "u12:there"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The little boy took two steps ___ and bumped into the wall.",
@@ -785,18 +677,6 @@
       "spellingHint": "b-a-k-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sells fresh bread and cakes every morning.",
-        "fullSentence": "The bakery sells fresh bread and cakes every morning.",
-        "translation": "這家麵包店每天早上賣新鮮的麵包和蛋糕。",
-        "clue": "販售麵包糕點的店",
-        "answerEntryId": "u12:bakery",
-        "distractorEntryIds": [
-          "u12:hotel",
-          "u12:place",
-          "u12:store"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom bought a loaf of bread at the ___ on the corner.",
@@ -871,18 +751,6 @@
       "spellingHint": "b-a-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She put her money in the ___ to keep it safe.",
-        "fullSentence": "She put her money in the bank to keep it safe.",
-        "translation": "她把錢存在銀行裡保管。",
-        "clue": "存錢的地方",
-        "answerEntryId": "u12:bank",
-        "distractorEntryIds": [
-          "u12:farm",
-          "u12:mall",
-          "u12:park"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad went to the ___ to take out some money.",
@@ -957,18 +825,6 @@
       "spellingHint": "b-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter served drinks at the ___ in the lobby.",
-        "fullSentence": "The waiter served drinks at the bar in the lobby.",
-        "translation": "服務生在大廳的吧檯供應飲料。",
-        "clue": "供應飲料的吧檯",
-        "answerEntryId": "u12:bar",
-        "distractorEntryIds": [
-          "u12:hospital",
-          "u12:country",
-          "u12:underpass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ at the party serves drinks and snacks.",
@@ -1043,18 +899,6 @@
       "spellingHint": "b-e-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children built a tall structure out of wet sand on the ___.",
-        "fullSentence": "The children built a tall structure out of wet sand on the beach.",
-        "translation": "孩子們在海灘上用濕沙堆出一座高聳的建築。",
-        "clue": "可以用濕沙堆建物的海邊",
-        "answerEntryId": "u12:beach",
-        "distractorEntryIds": [
-          "u12:bridge",
-          "u12:highway",
-          "u12:castle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We walked on the ___ and felt the soft sand under our feet.",
@@ -1129,18 +973,6 @@
       "spellingHint": "b-i-c-y-c-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She rides her ___ to school every day.",
-        "fullSentence": "She rides her bicycle to school every day.",
-        "translation": "她每天騎腳踏車上學。",
-        "clue": "用腳踩著踏板前進的交通工具",
-        "answerEntryId": "u12:bicycle",
-        "distractorEntryIds": [
-          "u12:ambulance",
-          "u12:flat tire",
-          "u12:women's room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The boy learned to ride his ___ without training wheels.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "b-l-o-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The post office is a ___ away from the school.",
-        "fullSentence": "The post office is a block away from the school.",
-        "translation": "郵局離學校一個街區遠。",
-        "clue": "城市中兩條街之間的一段距離",
-        "answerEntryId": "u12:block",
-        "distractorEntryIds": [
-          "u12:accident",
-          "u12:city",
-          "u12:east"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We walked a ___ to reach the supermarket.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "b-o-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We took a small ___ across the river to the other side.",
-        "fullSentence": "We took a small boat across the river to the other side.",
-        "translation": "我們搭小船渡河到對岸。",
-        "clue": "在水上航行的交通工具",
-        "answerEntryId": "u12:boat",
-        "distractorEntryIds": [
-          "u12:top",
-          "u12:zoo",
-          "u12:beach"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fisherman went out to sea in his small ___.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "b-o-o-k-s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sells books, pens, and paper.",
-        "fullSentence": "The bookstore sells books, pens, and paper.",
-        "translation": "這家書店賣書、筆和紙。",
-        "clue": "販售書本文具的店",
-        "answerEntryId": "u12:bookstore",
-        "distractorEntryIds": [
-          "u12:restroom",
-          "u12:pump",
-          "u12:shop"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She goes to the ___ to buy a novel for her class.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "b-r-i-d-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ crosses the river and connects the two towns.",
-        "fullSentence": "The bridge crosses the river and connects the two towns.",
-        "translation": "這座橋橫跨河流，連接兩座城鎮。",
-        "clue": "橫跨河流、連接兩岸的建築",
-        "answerEntryId": "u12:bridge",
-        "distractorEntryIds": [
-          "u12:beach",
-          "u12:block",
-          "u12:curve"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We walked over the ___ to reach the other side of the river.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "b-u-f-f-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the ___, you can take as much food as you want from the table.",
-        "fullSentence": "At the buffet, you can take as much food as you want from the table.",
-        "translation": "在自助餐，你可以從餐桌上隨意取用食物。",
-        "clue": "自己取餐的用餐方式",
-        "answerEntryId": "u12:buffet",
-        "distractorEntryIds": [
-          "u12:restroom",
-          "u12:bus stop",
-          "u12:platform"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We ate at a ___ where we could choose our own food.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "b-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ stops at the corner to pick up passengers.",
-        "fullSentence": "The bus stops at the corner to pick up passengers.",
-        "translation": "公車在轉角停靠載客。",
-        "clue": "在固定站牌載客的大眾運輸",
-        "answerEntryId": "u12:bus",
-        "distractorEntryIds": [
-          "u12:train station",
-          "u12:police station",
-          "u12:church"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I take the ___ to school every morning.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "b-u-s s-t-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We waited at the ___ for the bus to come.",
-        "fullSentence": "We waited at the bus stop for the bus to come.",
-        "translation": "我們在公車站等公車來。",
-        "clue": "等公車的地方",
-        "answerEntryId": "u12:bus stop",
-        "distractorEntryIds": [
-          "u12:position",
-          "u12:distance",
-          "u12:place"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is in front of the school, so students wait there.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "c-a-f-e-t-e-r-i-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students eat lunch in the school ___ every day.",
-        "fullSentence": "The students eat lunch in the school cafeteria every day.",
-        "translation": "學生們每天在學校的自助餐廳吃午餐。",
-        "clue": "學校裡供學生用餐的地方",
-        "answerEntryId": "u12:cafeteria",
-        "distractorEntryIds": [
-          "u12:village",
-          "u12:factory",
-          "u12:station"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ in our school serves rice and soup for lunch.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "c-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ has four wheels and can carry five people.",
-        "fullSentence": "The car has four wheels and can carry five people.",
-        "translation": "這輛汽車有四個輪子，可以載五個人。",
-        "clue": "有四個輪子的家用交通工具",
-        "answerEntryId": "u12:car",
-        "distractorEntryIds": [
-          "u12:east",
-          "u12:farm",
-          "u12:left"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad drives the ___ to work every day.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "c-a-s-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The king and queen lived in a big ___ with high walls.",
-        "fullSentence": "The king and queen lived in a big castle with high walls.",
-        "translation": "國王和王后住在有高牆的大城堡裡。",
-        "clue": "國王居住的建築",
-        "answerEntryId": "u12:castle",
-        "distractorEntryIds": [
-          "u12:bridge",
-          "u12:church",
-          "u12:police station"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The princess lived in a ___ on top of the hill.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "c-e-n-t-r-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bank is in the ___ part of the city.",
-        "fullSentence": "The bank is in the central part of the city.",
-        "translation": "這家銀行位於市中心。",
-        "clue": "位於中間位置的",
-        "answerEntryId": "u12:central",
-        "distractorEntryIds": [
-          "u12:northern",
-          "u12:western",
-          "u12:crowded"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ station is in the middle of the city.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "c-h-u-r-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "People go to the ___ on Sunday to pray and sing.",
-        "fullSentence": "People go to the church on Sunday to pray and sing.",
-        "translation": "人們星期天去教堂禱告和唱歌。",
-        "clue": "人們祈禱的建築",
-        "answerEntryId": "u12:church",
-        "distractorEntryIds": [
-          "u12:bus",
-          "u12:gas",
-          "u12:top"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wedding was held in a small ___ near the river.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "c-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ has many tall buildings and busy streets.",
-        "fullSentence": "The city has many tall buildings and busy streets.",
-        "translation": "這座城市有許多高樓和繁忙的街道。",
-        "clue": "有很多高樓和街道的地方",
-        "answerEntryId": "u12:city",
-        "distractorEntryIds": [
-          "u12:bus stop",
-          "u12:stationery store",
-          "u12:fire station"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She grew up in a big ___ like Taipei.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "c-o-n-v-e-n-i-e-n-c-e s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ is open twenty-four hours a day.",
-        "fullSentence": "The convenience store is open twenty-four hours a day.",
-        "translation": "這家便利商店二十四小時營業。",
-        "clue": "全天候營業的小店",
-        "answerEntryId": "u12:convenience store",
-        "distractorEntryIds": [
-          "u12:airplane",
-          "u12:drugstore",
-          "u12:office"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I bought a drink at the ___ on the corner.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "c-o-r-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bakery stands on the ___ of the two streets.",
-        "fullSentence": "The bakery stands on the corner of the two streets.",
-        "translation": "麵包店位於兩條街交會的轉角。",
-        "clue": "兩條街交會的地方",
-        "answerEntryId": "u12:corner",
-        "distractorEntryIds": [
-          "u12:traffic",
-          "u12:beach",
-          "u12:crowd"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please put the box in the ___ of the room.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "c-o-u-n-t-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Japan is a beautiful ___ with many mountains.",
-        "fullSentence": "Japan is a beautiful country with many mountains.",
-        "translation": "日本是一個有許多山的美麗國家。",
-        "clue": "有自己的政府和土地的地方",
-        "answerEntryId": "u12:country",
-        "distractorEntryIds": [
-          "u12:wheel",
-          "u12:farm",
-          "u12:pump"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She needs a visa to travel to another ___ next year.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "c-r-o-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You must ___ the road at the traffic lights.",
-        "fullSentence": "You must cross the road at the traffic lights.",
-        "translation": "你必須在紅綠燈處過馬路。",
-        "clue": "從馬路的一邊到另一邊",
-        "answerEntryId": "u12:cross",
-        "distractorEntryIds": [
-          "u12:land",
-          "u12:arrive",
-          "u12:drive"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We need to ___ the river to reach the village.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "c-r-o-w-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A large ___ gathered to watch the parade.",
-        "fullSentence": "A large crowd gathered to watch the parade.",
-        "translation": "一大群人聚集觀看遊行。",
-        "clue": "聚集在一起的人們",
-        "answerEntryId": "u12:crowd",
-        "distractorEntryIds": [
-          "u12:hospital",
-          "u12:men's room",
-          "u12:highway"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The police asked the ___ to move back.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "c-r-o-w-d-e-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ bus was full of people in the morning.",
-        "fullSentence": "The crowded bus was full of people in the morning.",
-        "translation": "早上那輛公車擠滿了人。",
-        "clue": "擠滿許多人的",
-        "answerEntryId": "u12:crowded",
-        "distractorEntryIds": [
-          "u12:central",
-          "u12:quick",
-          "u12:northern"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The market is very ___ on weekends.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "c-u-l-t-u-r-e c-e-n-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ offers art classes for children.",
-        "fullSentence": "The culture center offers art classes for children.",
-        "translation": "文化中心為兒童提供藝術課程。",
-        "clue": "舉辦文化活動的地方",
-        "answerEntryId": "u12:culture center",
-        "distractorEntryIds": [
-          "u12:convenience store",
-          "u12:ambulance",
-          "u12:flat tire"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A new ___ opened near the city park.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "c-u-r-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Slow down when you reach the sharp ___.",
-        "fullSentence": "Slow down when you reach the sharp curve.",
-        "translation": "到達急彎時要減速。",
-        "clue": "彎曲的道路部分",
-        "answerEntryId": "u12:curve",
-        "distractorEntryIds": [
-          "u12:police station",
-          "u12:motorcycle",
-          "u12:department store"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A warning sign stood before the ___.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "d-e-p-a-r-t-m-e-n-t s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We spent two hours inside the ___.",
-        "fullSentence": "We spent two hours inside the department store.",
-        "translation": "我們在百貨公司裡待了兩個小時。",
-        "clue": "有許多不同部門的大商店",
-        "answerEntryId": "u12:department store",
-        "distractorEntryIds": [
-          "u12:crowd",
-          "u12:curve",
-          "u12:field"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother likes to shop for clothes at the ___ on weekends.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "d-i-r-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This is a ___ train to the airport; it does not stop anywhere.",
-        "fullSentence": "This is a direct train to the airport; it does not stop anywhere.",
-        "translation": "這是直達機場的火車，中途不停靠。",
-        "clue": "中途不停靠、直達的",
-        "answerEntryId": "u12:direct",
-        "distractorEntryIds": [
-          "u12:crowded",
-          "u12:southern",
-          "u12:fast"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a ___ bus from here to the museum.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "d-i-r-e-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Which ___ should we take at the next crossing?",
-        "fullSentence": "Which direction should we take at the next crossing?",
-        "translation": "我們在下一個路口應該往哪個方向走？",
-        "clue": "前進或所在的方位",
-        "answerEntryId": "u12:direction",
-        "distractorEntryIds": [
-          "u12:bus stop",
-          "u12:left",
-          "u12:pool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The map shows the ___ of the mountain road.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "d-i-s-t-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ between the two towns is about ten kilometers.",
-        "fullSentence": "The distance between the two towns is about ten kilometers.",
-        "translation": "兩個城鎮之間的距離大約是十公里。",
-        "clue": "兩個地方相隔的長度",
-        "answerEntryId": "u12:distance",
-        "distractorEntryIds": [
-          "u12:hotel",
-          "u12:train",
-          "u12:truck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How do we measure the ___ from here to the airport?",
@@ -3365,18 +2897,6 @@
       "spellingHint": "d-o-w-n-t-o-w-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ area is full of offices and restaurants.",
-        "fullSentence": "The downtown area is full of offices and restaurants.",
-        "translation": "市中心地區充滿辦公室和餐廳。",
-        "clue": "城市的中心區域",
-        "answerEntryId": "u12:downtown",
-        "distractorEntryIds": [
-          "u12:restroom",
-          "u12:bus stop",
-          "u12:convenience store"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took the subway ___ to buy new shoes.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "d-r-i-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My uncle can ___ a truck for the company.",
-        "fullSentence": "My uncle can drive a truck for the company.",
-        "translation": "我叔叔會替公司開卡車。",
-        "clue": "操控車輛行進",
-        "answerEntryId": "u12:drive",
-        "distractorEntryIds": [
-          "u12:arrive",
-          "u12:turn",
-          "u12:cross"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You are too young to ___ a car alone.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "d-r-u-g-s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I bought cough drops at the ___.",
-        "fullSentence": "I bought cough drops at the drugstore.",
-        "translation": "我在藥局買了喉糖。",
-        "clue": "販賣藥品的商店",
-        "answerEntryId": "u12:drugstore",
-        "distractorEntryIds": [
-          "u12:airplane",
-          "u12:subway",
-          "u12:block"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is next to the hospital.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "e-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The village lies to the ___.",
-        "fullSentence": "The village lies to the east.",
-        "translation": "那座村莊位於東方。",
-        "clue": "太陽升起的方向",
-        "answerEntryId": "u12:east",
-        "distractorEntryIds": [
-          "u12:hospital",
-          "u12:boat",
-          "u12:farm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The train traveled ___ toward the coast.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "e-a-s-t-e-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sun rises in the ___ sky every morning.",
-        "fullSentence": "The sun rises in the eastern sky every morning.",
-        "translation": "太陽每天早晨從東方升起。",
-        "clue": "太陽升起的方向",
-        "answerEntryId": "u12:eastern",
-        "distractorEntryIds": [
-          "u12:direct",
-          "u12:southern",
-          "u12:fast"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ part of the island faces the sunrise.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "e-n-g-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The car's ___ stopped in the middle of the road.",
-        "fullSentence": "The car's engine stopped in the middle of the road.",
-        "translation": "汽車的引擎在路中央停了。",
-        "clue": "使車輛運轉的機器",
-        "answerEntryId": "u12:engine",
-        "distractorEntryIds": [
-          "u12:path",
-          "u12:pool",
-          "u12:pump"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A strange sound came from the ___.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "f-a-c-t-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shoe ___ employs hundreds of people.",
-        "fullSentence": "The shoe factory employs hundreds of people.",
-        "translation": "鞋子工廠雇用了數百人。",
-        "clue": "製造物品的場所",
-        "answerEntryId": "u12:factory",
-        "distractorEntryIds": [
-          "u12:helicopter",
-          "u12:field",
-          "u12:hotel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Smoke rose from the old ___.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "f-a-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa keeps chickens on the ___.",
-        "fullSentence": "Grandpa keeps chickens on the farm.",
-        "translation": "爺爺在農場養雞。",
-        "clue": "飼養動物或種植作物的地方",
-        "answerEntryId": "u12:farm",
-        "distractorEntryIds": [
-          "u12:sidewalk",
-          "u12:restroom",
-          "u12:railway"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We picked fresh strawberries at the ___.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "f-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ car won the race easily.",
-        "fullSentence": "The fast car won the race easily.",
-        "translation": "那輛快車輕鬆贏得了比賽。",
-        "clue": "速度很快的",
-        "answerEntryId": "u12:fast",
-        "distractorEntryIds": [
-          "u12:eastern",
-          "u12:southern",
-          "u12:crowded"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ train reaches the city in twenty minutes.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "f-a-s-t f-o-o-d r-e-s-t-a-u-r-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We bought burgers at the ___.",
-        "fullSentence": "We bought burgers at the fast food restaurant.",
-        "translation": "我們在速食餐廳買了漢堡。",
-        "clue": "供應快速餐點的餐廳",
-        "answerEntryId": "u12:fast food restaurant",
-        "distractorEntryIds": [
-          "u12:aircraft",
-          "u12:airplane",
-          "u12:drugstore"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ near the highway is open all night.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "f-i-e-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer planted rice in the ___.",
-        "fullSentence": "The farmer planted rice in the field.",
-        "translation": "農夫在田裡種稻。",
-        "clue": "種植作物或運動的空地",
-        "answerEntryId": "u12:field",
-        "distractorEntryIds": [
-          "u12:platform",
-          "u12:ambulance",
-          "u12:bank"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The soccer game is on the big ___.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "f-i-r-e s-t-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Firefighters stay at the ___ day and night.",
-        "fullSentence": "Firefighters stay at the fire station day and night.",
-        "translation": "消防員日夜待在消防隊。",
-        "clue": "消防員待命的地方",
-        "answerEntryId": "u12:fire station",
-        "distractorEntryIds": [
-          "u12:highway",
-          "u12:bicycle",
-          "u12:block"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The red truck came out of the ___ to put out the fire.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "f-l-a-t t-i-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The car stopped because it had a ___.",
-        "fullSentence": "The car stopped because it had a flat tire.",
-        "translation": "車子因為爆胎而停了下來。",
-        "clue": "輪胎沒氣的情況",
-        "answerEntryId": "u12:flat tire",
-        "distractorEntryIds": [
-          "u12:motorcycle",
-          "u12:mall",
-          "u12:path"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad changed the ___ on the side of the road.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "f-l-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ to Tokyo was delayed by the storm.",
-        "fullSentence": "The flight to Tokyo was delayed by the storm.",
-        "translation": "飛往東京的航班因暴風雨而延誤。",
-        "clue": "搭飛機的行程",
-        "answerEntryId": "u12:flight",
-        "distractorEntryIds": [
-          "u12:bus",
-          "u12:car",
-          "u12:zoo"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took an early ___ to the island.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "f-l-o-w-e-r s-h-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He bought a bouquet of roses at the ___.",
-        "fullSentence": "He bought a bouquet of roses at the flower shop.",
-        "translation": "他在花店買了一束玫瑰。",
-        "clue": "賣花的地方",
-        "answerEntryId": "u12:flower shop",
-        "distractorEntryIds": [
-          "u12:sidewalk",
-          "u12:restroom",
-          "u12:station"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ across from the bakery sells fresh lilies every morning.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "f-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The birds will ___ south when winter comes.",
-        "fullSentence": "The birds will fly south when winter comes.",
-        "translation": "冬天來臨時，鳥兒會飛向南方。",
-        "clue": "在空中飛翔",
-        "answerEntryId": "u12:fly",
-        "distractorEntryIds": [
-          "u12:drive",
-          "u12:arrive",
-          "u12:sail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The plane will ___ from Taipei to Tokyo in three hours.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "f-o-r-w-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soldier marched ___ into the square.",
-        "fullSentence": "The soldier marched forward into the square.",
-        "translation": "士兵向前行進進入廣場。",
-        "clue": "往前的方向",
-        "answerEntryId": "u12:forward",
-        "distractorEntryIds": [
-          "u12:backward",
-          "u12:south",
-          "u12:there"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The line moved ___ so the people at the front could enter.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "f-r-o-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher stood at the ___ of the classroom.",
-        "fullSentence": "The teacher stood at the front of the classroom.",
-        "translation": "老師站在教室前面。",
-        "clue": "最前方的位置",
-        "answerEntryId": "u12:front",
-        "distractorEntryIds": [
-          "u12:motorcycle",
-          "u12:railway",
-          "u12:train station"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please sit in the ___ so you can see the board.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "g-a-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The car ran out of ___ on the highway.",
-        "fullSentence": "The car ran out of gas on the highway.",
-        "translation": "汽車在高速公路上沒油了。",
-        "clue": "汽車使用的燃料",
-        "answerEntryId": "u12:gas",
-        "distractorEntryIds": [
-          "u12:underpass",
-          "u12:boat",
-          "u12:jeep"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We stopped at the station to buy ___ for the car.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "h-e-l-i-c-o-p-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ landed on the roof of the hospital.",
-        "fullSentence": "The helicopter landed on the roof of the hospital.",
-        "translation": "直升機降落在醫院的屋頂上。",
-        "clue": "能垂直起降的飛行器",
-        "answerEntryId": "u12:helicopter",
-        "distractorEntryIds": [
-          "u12:car",
-          "u12:zoo",
-          "u12:overpass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ carried the sick man to the hospital.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The keys are not ___; I left them at home.",
-        "fullSentence": "The keys are not here; I left them at home.",
-        "translation": "鑰匙不在這裡；我把它們留在家裡了。",
-        "clue": "在目前所在的位置",
-        "answerEntryId": "u12:here",
-        "distractorEntryIds": [
-          "u12:forward",
-          "u12:there",
-          "u12:backward"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please sit ___ next to me on the bench.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "h-i-g-h-w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cars drove fast along the ___.",
-        "fullSentence": "The cars drove fast along the highway.",
-        "translation": "汽車在高速公路上快速行駛。",
-        "clue": "讓車輛高速行駛的道路",
-        "answerEntryId": "u12:highway",
-        "distractorEntryIds": [
-          "u12:subway",
-          "u12:temple",
-          "u12:tunnel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took the ___ to get to the city quickly.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "h-o-s-p-i-t-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The doctor works at the ___.",
-        "fullSentence": "The doctor works at the hospital.",
-        "translation": "醫生在醫院工作。",
-        "clue": "醫生治療病人的地方",
-        "answerEntryId": "u12:hospital",
-        "distractorEntryIds": [
-          "u12:flower shop",
-          "u12:castle",
-          "u12:church"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sick child was taken to the ___.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "h-o-t-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We booked a room at the ___ for the night.",
-        "fullSentence": "We booked a room at the hotel for the night.",
-        "translation": "我們在飯店訂了一間房過夜。",
-        "clue": "旅客住宿的地方",
-        "answerEntryId": "u12:hotel",
-        "distractorEntryIds": [
-          "u12:back",
-          "u12:bank",
-          "u12:boat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ has a swimming pool and a restaurant.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "j-e-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A strong ___ is useful on rocky mountain roads.",
-        "fullSentence": "A strong jeep is useful on rocky mountain roads.",
-        "translation": "一輛堅固的吉普車在崎嶇山路上很有用。",
-        "clue": "適合崎嶇地形的四輪汽車",
-        "answerEntryId": "u12:jeep",
-        "distractorEntryIds": [
-          "u12:culture center",
-          "u12:traffic",
-          "u12:museum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ climbed the rocky hill easily.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "l-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The plane will ___ on the runway in ten minutes.",
-        "fullSentence": "The plane will land on the runway in ten minutes.",
-        "translation": "飛機將在十分鐘後降落在跑道上。",
-        "clue": "飛機從空中到達地面",
-        "answerEntryId": "u12:land",
-        "distractorEntryIds": [
-          "u12:fly",
-          "u12:ride",
-          "u12:rush"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The helicopter will ___ on the rooftop.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "l-e-f-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The restaurant is on the ___ side of the street.",
-        "fullSentence": "The restaurant is on the left side of the street.",
-        "translation": "餐廳在街道的左側。",
-        "clue": "與右邊相反的一方",
-        "answerEntryId": "u12:left",
-        "distractorEntryIds": [
-          "u12:country",
-          "u12:accident",
-          "u12:men's room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bakery is on the ___.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "m-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We went to the ___ to shop and watch a movie.",
-        "fullSentence": "We went to the mall to shop and watch a movie.",
-        "translation": "我們去購物中心逛街和看電影。",
-        "clue": "有許多商店的大型購物場所",
-        "answerEntryId": "u12:mall",
-        "distractorEntryIds": [
-          "u12:drugstore",
-          "u12:train station",
-          "u12:convenience store"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We bought new shoes at the ___.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "m-a-r-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My grandmother sells fruit at the outdoor ___.",
-        "fullSentence": "My grandmother sells fruit at the outdoor market.",
-        "translation": "我奶奶在戶外市場賣水果。",
-        "clue": "人們買賣各種物品的地方",
-        "answerEntryId": "u12:market",
-        "distractorEntryIds": [
-          "u12:jeep",
-          "u12:left",
-          "u12:mall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma buys fresh vegetables at the ___.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "m-e-n-'-s r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My father walked to the ___ near the elevator.",
-        "fullSentence": "My father walked to the men's room near the elevator.",
-        "translation": "我爸爸走向電梯附近的男廁。",
-        "clue": "男性使用的洗手間",
-        "answerEntryId": "u12:men's room",
-        "distractorEntryIds": [
-          "u12:overpass",
-          "u12:distance",
-          "u12:restaurant"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sign points to the ___.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "m-i-d-d-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher stood in the ___ of the classroom.",
-        "fullSentence": "The teacher stood in the middle of the classroom.",
-        "translation": "老師站在教室中央。",
-        "clue": "兩端之間的位置",
-        "answerEntryId": "u12:middle",
-        "distractorEntryIds": [
-          "u12:restroom",
-          "u12:platform",
-          "u12:fast food restaurant"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fountain is in the ___ of the square.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "m-o-t-o-r-c-y-c-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He wears a helmet when he rides his ___.",
-        "fullSentence": "He wears a helmet when he rides his motorcycle.",
-        "translation": "他騎摩托車時會戴安全帽。",
-        "clue": "以引擎驅動的兩輪交通工具",
-        "answerEntryId": "u12:motorcycle",
-        "distractorEntryIds": [
-          "u12:women's room",
-          "u12:truck",
-          "u12:gas"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He parked his ___ beside the shop.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "m-o-v-i-e t-h-e-a-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We bought tickets at the ___ before the film started.",
-        "fullSentence": "We bought tickets at the movie theater before the film started.",
-        "translation": "電影開演前我們在電影院買票。",
-        "clue": "播放電影的地方",
-        "answerEntryId": "u12:movie theater",
-        "distractorEntryIds": [
-          "u12:city",
-          "u12:mall",
-          "u12:path"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched a comedy at the ___.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "M-R-T",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in Taipei runs on tracks and stops at many stations in the city.",
-        "fullSentence": "The MRT in Taipei runs on tracks and stops at many stations in the city.",
-        "translation": "台北的捷運沿軌道行駛，在城裡停靠許多站。",
-        "clue": "台北沿軌道行駛、站點很多的市區大眾運輸",
-        "answerEntryId": "u12:MRT",
-        "distractorEntryIds": [
-          "u12:place",
-          "u12:highway",
-          "u12:movie theater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took the ___ to Taipei 101 because it is fast and cheap.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "m-u-s-e-u-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The art ___ opens at nine in the morning.",
-        "fullSentence": "The art museum opens at nine in the morning.",
-        "translation": "這座美術館早上九點開放。",
-        "clue": "收藏和展示文物或藝術品的地方",
-        "answerEntryId": "u12:museum",
-        "distractorEntryIds": [
-          "u12:village",
-          "u12:accident",
-          "u12:ambulance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our class visited the ___ to see old paintings.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "n-o-r-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Canada lies to the ___ of the United States.",
-        "fullSentence": "Canada lies to the north of the United States.",
-        "translation": "加拿大位於美國的北方。",
-        "clue": "地圖上方的方向",
-        "answerEntryId": "u12:north",
-        "distractorEntryIds": [
-          "u12:position",
-          "u12:cafeteria",
-          "u12:beach"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The birds flew toward the ___.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "n-o-r-t-h-e-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ part of the country is cold in winter.",
-        "fullSentence": "The northern part of the country is cold in winter.",
-        "translation": "這個國家的北部冬天很冷。",
-        "clue": "位於北邊的",
-        "answerEntryId": "u12:northern",
-        "distractorEntryIds": [
-          "u12:quick",
-          "u12:fast",
-          "u12:central"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ wind blows from the north in winter.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "o-f-f-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My mother answers the phone in her ___.",
-        "fullSentence": "My mother answers the phone in her office.",
-        "translation": "我媽媽在她的辦公室接電話。",
-        "clue": "人們工作的房間或場所",
-        "answerEntryId": "u12:office",
-        "distractorEntryIds": [
-          "u12:bookstore",
-          "u12:boat",
-          "u12:city"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother works in an ___.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "o-v-e-r-p-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pedestrians can cross above the road on the ___.",
-        "fullSentence": "Pedestrians can cross above the road on the overpass.",
-        "translation": "行人可以在陸橋上跨越道路。",
-        "clue": "架在道路上方供人通行的橋",
-        "answerEntryId": "u12:overpass",
-        "distractorEntryIds": [
-          "u12:jeep",
-          "u12:mall",
-          "u12:path"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use the ___ to cross the busy road.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "p-a-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every Sunday, families gather at the city ___.",
-        "fullSentence": "Every Sunday, families gather at the city park.",
-        "translation": "每個星期天，許多家庭聚在城市公園。",
-        "clue": "有草地和樹木、可以休閒的地方",
-        "answerEntryId": "u12:park",
-        "distractorEntryIds": [
-          "u12:overpass",
-          "u12:pool",
-          "u12:ship"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children flew a kite in the ___.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "p-a-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A narrow ___ runs between the two houses.",
-        "fullSentence": "A narrow path runs between the two houses.",
-        "translation": "一條狹窄小路穿過兩棟房子之間。",
-        "clue": "較窄、供人行走的道路或路徑",
-        "answerEntryId": "u12:path",
-        "distractorEntryIds": [
-          "u12:restroom",
-          "u12:tank",
-          "u12:taxi"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This ___ leads to the garden.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "p-l-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This quiet ___ is perfect for reading books.",
-        "fullSentence": "This quiet place is perfect for reading books.",
-        "translation": "這個安靜的地方非常適合看書。",
-        "clue": "某人或某物所在的地方",
-        "answerEntryId": "u12:place",
-        "distractorEntryIds": [
-          "u12:platform",
-          "u12:bar",
-          "u12:bus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This is a good ___ to have lunch.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "p-l-a-t-f-o-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The express to Taipei leaves from ___ three.",
-        "fullSentence": "The express to Taipei leaves from platform three.",
-        "translation": "開往台北的快車從第三月臺出發。",
-        "clue": "乘客上下火車的月臺",
-        "answerEntryId": "u12:platform",
-        "distractorEntryIds": [
-          "u12:market",
-          "u12:middle",
-          "u12:museum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The train is waiting at ___ four.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "p-o-l-i-c-e s-t-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The officers work at the ___ on Main Street.",
-        "fullSentence": "The officers work at the police station on Main Street.",
-        "translation": "警察在美國大道上的警察局工作。",
-        "clue": "警察工作的地方",
-        "answerEntryId": "u12:police station",
-        "distractorEntryIds": [
-          "u12:restaurant",
-          "u12:gas",
-          "u12:top"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is across from the bank.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "p-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The swimmers jumped into the outdoor ___.",
-        "fullSentence": "The swimmers jumped into the outdoor pool.",
-        "translation": "游泳者跳進室外游泳池。",
-        "clue": "供人游泳的水池",
-        "answerEntryId": "u12:pool",
-        "distractorEntryIds": [
-          "u12:traffic",
-          "u12:back",
-          "u12:bank"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children played in the swimming ___.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "p-o-s-i-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The flag is in a high ___ above the roof.",
-        "fullSentence": "The flag is in a high position above the roof.",
-        "translation": "旗子在屋頂上方的高處位置。",
-        "clue": "某人或某物在空間中所處的特定位置",
-        "answerEntryId": "u12:position",
-        "distractorEntryIds": [
-          "u12:scooter",
-          "u12:drugstore",
-          "u12:supermarket"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The map shows the ___ of the hotel.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "p-o-s-t o-f-f-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I need to buy stamps at the local ___.",
-        "fullSentence": "I need to buy stamps at the local post office.",
-        "translation": "我需要在當地郵局買郵票。",
-        "clue": "寄信和包裹的地方",
-        "answerEntryId": "u12:post office",
-        "distractorEntryIds": [
-          "u12:boat",
-          "u12:jeep",
-          "u12:mall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I sent the package from the ___.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "p-u-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer used a water ___ to fill the bucket.",
-        "fullSentence": "The farmer used a water pump to fill the bucket.",
-        "translation": "農夫用抽水幫浦裝滿水桶。",
-        "clue": "用來打氣或抽水的工具",
-        "answerEntryId": "u12:pump",
-        "distractorEntryIds": [
-          "u12:shop",
-          "u12:tank",
-          "u12:taxi"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use a ___ to fill the bicycle tire.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "q-u-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He gave a ___ reply to my question.",
-        "fullSentence": "He gave a quick reply to my question.",
-        "translation": "他很快地回答了我的問題。",
-        "clue": "花時間很短的回應",
-        "answerEntryId": "u12:quick",
-        "distractorEntryIds": [
-          "u12:northern",
-          "u12:direct",
-          "u12:central"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's have a ___ lunch before the movie starts.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "r-a-i-l-w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old ___ runs along the river to the city.",
-        "fullSentence": "The old railway runs along the river to the city.",
-        "translation": "老鐵路沿著河流通往城市。",
-        "clue": "火車行駛的鐵道路線",
-        "answerEntryId": "u12:railway",
-        "distractorEntryIds": [
-          "u12:flower shop",
-          "u12:bicycle",
-          "u12:bank"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ connects the two coastal towns.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "r-e-s-t-a-u-r-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We celebrated my birthday at a nice ___.",
-        "fullSentence": "We celebrated my birthday at a nice restaurant.",
-        "translation": "我們在一家不錯的餐廳慶祝我的生日。",
-        "clue": "人們付錢用餐的地方",
-        "answerEntryId": "u12:restaurant",
-        "distractorEntryIds": [
-          "u12:fast food restaurant",
-          "u12:stationery store",
-          "u12:drugstore"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We had lunch at a small ___.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "r-e-s-t-r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The public ___ is at the end of the hallway.",
-        "fullSentence": "The public restroom is at the end of the hallway.",
-        "translation": "公共洗手間在走廊的盡頭。",
-        "clue": "供人上廁所的地方",
-        "answerEntryId": "u12:restroom",
-        "distractorEntryIds": [
-          "u12:flight",
-          "u12:east",
-          "u12:jeep"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Where is the ___ in this station?",
@@ -7837,18 +6745,6 @@
       "spellingHint": "r-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You can ___ a bike along the riverside path.",
-        "fullSentence": "You can ride a bike along the riverside path.",
-        "translation": "你可以沿著河邊的小路騎腳踏車。",
-        "clue": "騎乘腳踏車",
-        "answerEntryId": "u12:ride",
-        "distractorEntryIds": [
-          "u12:land",
-          "u12:arrive",
-          "u12:speed"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children like to ___ their bikes in the park.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "r-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the corner, the car turned ___ onto the main road.",
-        "fullSentence": "At the corner, the car turned right onto the main road.",
-        "translation": "在轉角處，汽車右轉進入主要道路。",
-        "clue": "往右邊的方向",
-        "answerEntryId": "u12:right",
-        "distractorEntryIds": [
-          "u12:here",
-          "u12:forward",
-          "u12:backward"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sign says to turn ___ at the next street.",
@@ -8009,18 +6893,6 @@
       "spellingHint": "r-u-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We must ___ to the station or we will miss the train.",
-        "fullSentence": "We must rush to the station or we will miss the train.",
-        "translation": "我們必須趕到車站，否則會錯過火車。",
-        "clue": "匆忙趕往某處",
-        "answerEntryId": "u12:rush",
-        "distractorEntryIds": [
-          "u12:ride",
-          "u12:arrive",
-          "u12:fly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have to ___ to school because I am late.",
@@ -8095,18 +6967,6 @@
       "spellingHint": "s-a-f-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please keep your money in a ___ place.",
-        "fullSentence": "Please keep your money in a safe place.",
-        "translation": "請把你的錢放在安全的地方。",
-        "clue": "不會被偷或遺失的",
-        "answerEntryId": "u12:safe",
-        "distractorEntryIds": [
-          "u12:fast",
-          "u12:quick",
-          "u12:western"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is ___ to cross the road when the light is green.",
@@ -8181,18 +7041,6 @@
       "spellingHint": "s-a-f-e-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fire ___ is taught in our school every year.",
-        "fullSentence": "Fire safety is taught in our school every year.",
-        "translation": "我們學校每年都教授消防安全。",
-        "clue": "不受危險傷害的狀態",
-        "answerEntryId": "u12:safety",
-        "distractorEntryIds": [
-          "u12:restaurant",
-          "u12:ambulance",
-          "u12:truck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Always wear a helmet for your ___.",
@@ -8267,18 +7115,6 @@
       "spellingHint": "s-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The boat will ___ across the lake on a sunny day.",
-        "fullSentence": "The boat will sail across the lake on a sunny day.",
-        "translation": "這艘船將在晴朗的日子航行渡過湖泊。",
-        "clue": "船在水上航行",
-        "answerEntryId": "u12:sail",
-        "distractorEntryIds": [
-          "u12:rush",
-          "u12:arrive",
-          "u12:fly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We plan to ___ to the island by boat.",
@@ -8353,18 +7189,6 @@
       "spellingHint": "s-c-o-o-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The delivery worker rides a small ___ through the city.",
-        "fullSentence": "The delivery worker rides a small scooter through the city.",
-        "translation": "外送員騎著小型滑板車穿梭城市。",
-        "clue": "小型的兩輪交通工具",
-        "answerEntryId": "u12:scooter",
-        "distractorEntryIds": [
-          "u12:path",
-          "u12:pump",
-          "u12:ship"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister rides her ___ to school every morning.",
@@ -8439,18 +7263,6 @@
       "spellingHint": "s-h-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The huge ___ carried containers across the Pacific Ocean.",
-        "fullSentence": "The huge ship carried containers across the Pacific Ocean.",
-        "translation": "那艘大船載著貨櫃橫渡太平洋。",
-        "clue": "載運貨櫃橫渡大洋的大型船隻",
-        "answerEntryId": "u12:ship",
-        "distractorEntryIds": [
-          "u12:stationery store",
-          "u12:underpass",
-          "u12:aircraft"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ sailed into the harbor with tourists on board.",
@@ -8525,18 +7337,6 @@
       "spellingHint": "s-h-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The gift ___ wrapped the present in colorful paper.",
-        "fullSentence": "The gift shop wrapped the present in colorful paper.",
-        "translation": "禮品店用彩色紙包裝禮物。",
-        "clue": "賣禮物的小店",
-        "answerEntryId": "u12:shop",
-        "distractorEntryIds": [
-          "u12:back",
-          "u12:bank",
-          "u12:city"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom went to the ___ to buy milk and eggs.",
@@ -8611,18 +7411,6 @@
       "spellingHint": "s-i-d-e-w-a-l-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "People walk on the ___ beside the street.",
-        "fullSentence": "People walk on the sidewalk beside the street.",
-        "translation": "人們走在街道旁的人行道上。",
-        "clue": "沿著街道、供行人行走的路",
-        "answerEntryId": "u12:sidewalk",
-        "distractorEntryIds": [
-          "u12:position",
-          "u12:top",
-          "u12:zoo"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The students walk on the ___ to go to school.",
@@ -8697,18 +7485,6 @@
       "spellingHint": "s-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ turtle crossed the road at last.",
-        "fullSentence": "The slow turtle crossed the road at last.",
-        "translation": "那隻慢吞吞的烏龜終於過了馬路。",
-        "clue": "速度很慢的",
-        "answerEntryId": "u12:slow",
-        "distractorEntryIds": [
-          "u12:safe",
-          "u12:direct",
-          "u12:northern"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ bus takes an hour to reach the city.",
@@ -8783,18 +7559,6 @@
       "spellingHint": "s-o-u-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The road leads ___ toward the mountains.",
-        "fullSentence": "The road leads south toward the mountains.",
-        "translation": "這條路向南通往山區。",
-        "clue": "往南邊的方向",
-        "answerEntryId": "u12:south",
-        "distractorEntryIds": [
-          "u12:right",
-          "u12:here",
-          "u12:forward"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The river flows ___ toward the sea.",
@@ -8869,18 +7633,6 @@
       "spellingHint": "s-o-u-t-h-e-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ part of the island is warm and sunny.",
-        "fullSentence": "The southern part of the island is warm and sunny.",
-        "translation": "島嶼的南部溫暖且陽光充足。",
-        "clue": "位於南邊的",
-        "answerEntryId": "u12:southern",
-        "distractorEntryIds": [
-          "u12:slow",
-          "u12:direct",
-          "u12:central"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ wind brings warm air from the south.",
@@ -8955,18 +7707,6 @@
       "spellingHint": "s-p-e-e-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The driver will ___ up when he reaches the highway.",
-        "fullSentence": "The driver will speed up when he reaches the highway.",
-        "translation": "司機到達高速公路時會加速。",
-        "clue": "加快行駛速度",
-        "answerEntryId": "u12:speed",
-        "distractorEntryIds": [
-          "u12:sail",
-          "u12:land",
-          "u12:ride"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You must not ___ on the road near the school.",
@@ -9041,18 +7781,6 @@
       "spellingHint": "s-t-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The train stopped at every small ___ along the way.",
-        "fullSentence": "The train stopped at every small station along the way.",
-        "translation": "火車沿途在每個小車站停靠。",
-        "clue": "火車停靠、乘客上下車的地方",
-        "answerEntryId": "u12:station",
-        "distractorEntryIds": [
-          "u12:downtown",
-          "u12:left",
-          "u12:pump"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We waited on the bench at the ___ for the train.",
@@ -9127,18 +7855,6 @@
       "spellingHint": "s-t-a-t-i-o-n-e-r-y s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sells erasers, rulers, and colored pencils.",
-        "fullSentence": "The stationery store sells erasers, rulers, and colored pencils.",
-        "translation": "這家文具店賣橡皮擦、尺和彩色鉛筆。",
-        "clue": "賣文具用品的地方",
-        "answerEntryId": "u12:stationery store",
-        "distractorEntryIds": [
-          "u12:engine",
-          "u12:flight",
-          "u12:airline"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I bought a new notebook at the ___ near school.",
@@ -9213,18 +7929,6 @@
       "spellingHint": "s-t-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The corner ___ stays open until midnight.",
-        "fullSentence": "The corner store stays open until midnight.",
-        "translation": "街角的商店營業到午夜。",
-        "clue": "販賣商品、營業到很晚的店",
-        "answerEntryId": "u12:store",
-        "distractorEntryIds": [
-          "u12:ship",
-          "u12:town",
-          "u12:west"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ sells shoes for the whole family.",
@@ -9299,18 +8003,6 @@
       "spellingHint": "s-u-b-w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We took the ___ through underground tunnels to reach downtown quickly.",
-        "fullSentence": "We took the subway through underground tunnels to reach downtown quickly.",
-        "translation": "我們搭乘地下鐵穿過地下隧道，很快抵達市中心。",
-        "clue": "在地下隧道中行駛的城市交通工具",
-        "answerEntryId": "u12:subway",
-        "distractorEntryIds": [
-          "u12:back",
-          "u12:boat",
-          "u12:city"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ runs under the city and stops at every station.",
@@ -9385,18 +8077,6 @@
       "spellingHint": "s-u-p-e-r-m-a-r-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We bought fruit and milk at the ___ on the way home.",
-        "fullSentence": "We bought fruit and milk at the supermarket on the way home.",
-        "translation": "我們在回家路上到超級市場買水果和牛奶。",
-        "clue": "買食品和日用品的大型商店",
-        "answerEntryId": "u12:supermarket",
-        "distractorEntryIds": [
-          "u12:safety",
-          "u12:men's room",
-          "u12:airplane"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom is buying vegetables and meat at the ___.",
@@ -9471,18 +8151,6 @@
       "spellingHint": "t-a-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soldiers drove the ___ across the field.",
-        "fullSentence": "The soldiers drove the tank across the field.",
-        "translation": "士兵開著坦克車越過田野。",
-        "clue": "軍人駕駛的裝甲戰鬥車輛",
-        "answerEntryId": "u12:tank",
-        "distractorEntryIds": [
-          "u12:ambulance",
-          "u12:flat tire",
-          "u12:church"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The exhibit includes an old army ___ fitted with a large cannon.",
@@ -9557,18 +8225,6 @@
       "spellingHint": "t-a-x-i",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We called a ___ to take us to the airport.",
-        "fullSentence": "We called a taxi to take us to the airport.",
-        "translation": "我們叫了一輛計程車載我們去機場。",
-        "clue": "付費載客、可電話叫車的汽車",
-        "answerEntryId": "u12:taxi",
-        "distractorEntryIds": [
-          "u12:culture center",
-          "u12:factory",
-          "u12:flight"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The yellow ___ stopped beside the curb to pick us up.",
@@ -9643,18 +8299,6 @@
       "spellingHint": "t-e-m-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "People burn incense and pray at the ___.",
-        "fullSentence": "People burn incense and pray at the temple.",
-        "translation": "人們在廟裡燒香祈福。",
-        "clue": "燒香拜拜的地方",
-        "answerEntryId": "u12:temple",
-        "distractorEntryIds": [
-          "u12:east",
-          "u12:farm",
-          "u12:left"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We saw colorful statues at the ___ during the festival.",
@@ -9729,18 +8373,6 @@
       "spellingHint": "t-h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The library is ___ across the street.",
-        "fullSentence": "The library is there across the street.",
-        "translation": "圖書館就在對街那裡。",
-        "clue": "在離這裡有一段距離的位置",
-        "answerEntryId": "u12:there",
-        "distractorEntryIds": [
-          "u12:south",
-          "u12:forward",
-          "u12:here"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The park is ___ behind the school building.",
@@ -9815,18 +8447,6 @@
       "spellingHint": "t-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A flag waved at the ___ of the tower.",
-        "fullSentence": "A flag waved at the top of the tower.",
-        "translation": "一面旗子在塔頂飄揚。",
-        "clue": "塔的最高處",
-        "answerEntryId": "u12:top",
-        "distractorEntryIds": [
-          "u12:north",
-          "u12:place",
-          "u12:aircraft"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Snow covered the ___ of the mountain.",
@@ -9901,18 +8521,6 @@
       "spellingHint": "t-o-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bell ___ can be seen from the village.",
-        "fullSentence": "The bell tower can be seen from the village.",
-        "translation": "從村莊可以看見鐘塔。",
-        "clue": "固定搭配 bell ___，掛鐘的高建築",
-        "answerEntryId": "u12:tower",
-        "distractorEntryIds": [
-          "u12:women's room",
-          "u12:office",
-          "u12:safety"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took pictures beside the old ___.",
@@ -9987,18 +8595,6 @@
       "spellingHint": "t-o-w-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The small ___ has a quiet main street.",
-        "fullSentence": "The small town has a quiet main street.",
-        "translation": "這座小城鎮有一條安靜的主要街道。",
-        "clue": "比城市小、有主要街道的聚居地",
-        "answerEntryId": "u12:town",
-        "distractorEntryIds": [
-          "u12:village",
-          "u12:motorcycle",
-          "u12:helicopter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My aunt moved to a mountain ___.",
@@ -10073,18 +8669,6 @@
       "spellingHint": "t-r-a-f-f-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Heavy ___ delayed our bus this morning.",
-        "fullSentence": "Heavy traffic delayed our bus this morning.",
-        "translation": "今天早上的車流壅塞使我們的公車誤點。",
-        "clue": "道路上車輛很多、造成延誤",
-        "answerEntryId": "u12:traffic",
-        "distractorEntryIds": [
-          "u12:cafeteria",
-          "u12:airplane",
-          "u12:hotel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There was little ___ on the country road.",
@@ -10159,18 +8743,6 @@
       "spellingHint": "t-r-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ runs on rails and stops at every station.",
-        "fullSentence": "The train runs on rails and stops at every station.",
-        "translation": "火車在鐵軌上行駛，每個車站都停。",
-        "clue": "在鐵軌上行駛的交通工具",
-        "answerEntryId": "u12:train",
-        "distractorEntryIds": [
-          "u12:restaurant",
-          "u12:pool",
-          "u12:ship"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched the ___ cross the bridge.",
@@ -10245,18 +8817,6 @@
       "spellingHint": "t-r-a-i-n s-t-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We bought tickets inside the ___.",
-        "fullSentence": "We bought tickets inside the train station.",
-        "translation": "我們在火車站裡買了票。",
-        "clue": "買火車票、等火車的地方",
-        "answerEntryId": "u12:train station",
-        "distractorEntryIds": [
-          "u12:fast food restaurant",
-          "u12:town",
-          "u12:men's room"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ was crowded before the holiday.",
@@ -10331,18 +8891,6 @@
       "spellingHint": "t-r-u-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ carried fresh fruit from the farm to the market.",
-        "fullSentence": "The truck carried fresh fruit from the farm to the market.",
-        "translation": "卡車把新鮮水果從農場運到市場。",
-        "clue": "載運貨物的大型車輛",
-        "answerEntryId": "u12:truck",
-        "distractorEntryIds": [
-          "u12:hospital",
-          "u12:flight",
-          "u12:airline"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A delivery ___ brought boxes to our school.",
@@ -10417,18 +8965,6 @@
       "spellingHint": "t-u-n-n-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The highway passes through a long ___ under the mountain.",
-        "fullSentence": "The highway passes through a long tunnel under the mountain.",
-        "translation": "高速公路穿過山下一條長隧道。",
-        "clue": "穿過山或地下的通道",
-        "answerEntryId": "u12:tunnel",
-        "distractorEntryIds": [
-          "u12:cafeteria",
-          "u12:restaurant",
-          "u12:factory"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It was dark inside the mountain ___.",
@@ -10503,18 +9039,6 @@
       "spellingHint": "t-u-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ right at the traffic light.",
-        "fullSentence": "Please turn right at the traffic light.",
-        "translation": "請在紅綠燈處右轉。",
-        "clue": "改變行進方向",
-        "answerEntryId": "u12:turn",
-        "distractorEntryIds": [
-          "u12:speed",
-          "u12:fly",
-          "u12:land"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ left at the corner and you will see the bank.",
@@ -10589,18 +9113,6 @@
       "spellingHint": "u-n-d-e-r-p-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We crossed the busy road through an ___.",
-        "fullSentence": "We crossed the busy road through an underpass.",
-        "translation": "我們經由地下道穿越繁忙的道路。",
-        "clue": "在道路下方穿越的通道",
-        "answerEntryId": "u12:underpass",
-        "distractorEntryIds": [
-          "u12:men's room",
-          "u12:stationery store",
-          "u12:buffet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ keeps pedestrians away from cars.",
@@ -10675,18 +9187,6 @@
       "spellingHint": "v-i-l-l-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A small ___ lies beside the river.",
-        "fullSentence": "A small village lies beside the river.",
-        "translation": "河邊有一座小村莊。",
-        "clue": "比城鎮小的聚居地",
-        "answerEntryId": "u12:village",
-        "distractorEntryIds": [
-          "u12:north",
-          "u12:store",
-          "u12:tower"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children in the ___ walk to a local school.",
@@ -10761,18 +9261,6 @@
       "spellingHint": "w-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sun sets in the ___ every evening.",
-        "fullSentence": "The sun sets in the west every evening.",
-        "translation": "太陽每天傍晚從西方落下。",
-        "clue": "太陽落下的方向",
-        "answerEntryId": "u12:west",
-        "distractorEntryIds": [
-          "u12:farm",
-          "u12:left",
-          "u12:mall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wind came from the ___ and brought rain.",
@@ -10847,18 +9335,6 @@
       "spellingHint": "w-e-s-t-e-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sun sets in the ___ sky every evening.",
-        "fullSentence": "The sun sets in the western sky every evening.",
-        "translation": "太陽每天傍晚從西方落下。",
-        "clue": "太陽落下的方向",
-        "answerEntryId": "u12:western",
-        "distractorEntryIds": [
-          "u12:southern",
-          "u12:crowded",
-          "u12:direct"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ part of the island faces the sunset.",
@@ -10933,18 +9409,6 @@
       "spellingHint": "w-h-e-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The front ___ of my bike is loose.",
-        "fullSentence": "The front wheel of my bike is loose.",
-        "translation": "我腳踏車的前輪鬆了。",
-        "clue": "腳踏車前方圓形會轉動的部件",
-        "answerEntryId": "u12:wheel",
-        "distractorEntryIds": [
-          "u12:west",
-          "u12:motorcycle",
-          "u12:ambulance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cart has one broken ___.",
@@ -11019,18 +9483,6 @@
       "spellingHint": "w-o-m-e-n-'-s r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sign for the ___ is near the elevator.",
-        "fullSentence": "The sign for the women's room is near the elevator.",
-        "translation": "女廁的標誌在電梯附近。",
-        "clue": "女性使用的洗手間",
-        "answerEntryId": "u12:women's room",
-        "distractorEntryIds": [
-          "u12:bookstore",
-          "u12:bicycle",
-          "u12:convenience store"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother waited outside the ___.",
@@ -11105,18 +9557,6 @@
       "spellingHint": "z-o-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children were excited to see the pandas at the ___.",
-        "fullSentence": "The children were excited to see the pandas at the zoo.",
-        "translation": "孩子們很興奮要在動物園看熊貓。",
-        "clue": "看動物的地方",
-        "answerEntryId": "u12:zoo",
-        "distractorEntryIds": [
-          "u12:women's room",
-          "u12:scooter",
-          "u12:buffet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched the monkeys at the ___.",

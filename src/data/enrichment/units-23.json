@@ -11,18 +11,6 @@
       "spellingHint": "a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ near the sea is clean and fresh.",
-        "fullSentence": "The air near the sea is clean and fresh.",
-        "translation": "海邊的空氣乾淨又清新。",
-        "clue": "我們隨時呼吸、看不見的氣體",
-        "answerEntryId": "u23:air",
-        "distractorEntryIds": [
-          "u23:weather",
-          "u23:temperature",
-          "u23:climate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "People need ___ to breathe.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-r-e-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Taipei is a busy ___ with millions of people.",
-        "fullSentence": "Taipei is a busy area with millions of people.",
-        "translation": "台北是一個有數百萬人口的繁忙地區。",
-        "clue": "一片有人居住的地方",
-        "answerEntryId": "u23:area",
-        "distractorEntryIds": [
-          "u23:coast",
-          "u12:field",
-          "u23:waterfall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many farmers live in this green ___ outside the town.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-a-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wild flowers grow all along the ___ of the small stream.",
-        "fullSentence": "Wild flowers grow all along the bank of the small stream.",
-        "translation": "野花長滿小溪沿岸。",
-        "clue": "緊鄰溪水兩旁的土地",
-        "answerEntryId": "u23:bank",
-        "distractorEntryIds": [
-          "u23:beach",
-          "u23:coast",
-          "u23:desert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We sat on the ___ of the river and ate our lunch.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-e-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tourists love to lie on the ___ and listen to the waves.",
-        "fullSentence": "Tourists love to lie on the beach and listen to the waves.",
-        "translation": "遊客喜歡躺在海灘上聽海浪聲。",
-        "clue": "聽得到海浪、鋪滿沙子的地方",
-        "answerEntryId": "u23:beach",
-        "distractorEntryIds": [
-          "u23:desert",
-          "u23:woods",
-          "u23:bank"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We built sand castles on the ___ during summer vacation.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Winds often ___ leaves off the trees in autumn.",
-        "fullSentence": "Winds often blow leaves off the trees in autumn.",
-        "translation": "秋天時風常把樹葉從樹上吹落。",
-        "clue": "風把東西吹走",
-        "answerEntryId": "u23:blow",
-        "distractorEntryIds": [
-          "u13:spell",
-          "u14:cook",
-          "u13:underline"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wind is so strong that it can ___ the roof off the house.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-r-a-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cat climbed along the ___ to reach the bird's nest.",
-        "fullSentence": "The cat climbed along the branch to reach the bird's nest.",
-        "translation": "貓沿著樹枝爬，想去抓鳥巢。",
-        "clue": "貓在樹上走過的細長部位",
-        "answerEntryId": "u23:branch",
-        "distractorEntryIds": [
-          "u23:stone",
-          "u23:leaf",
-          "u23:rainbow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He cut a ___ from the tree to make a walking stick.",
@@ -527,18 +455,6 @@
       "spellingHint": "c-l-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sky was ___, so we could see every star.",
-        "fullSentence": "The sky was clear, so we could see every star.",
-        "translation": "天空很晴朗，所以我們看得見每一顆星星。",
-        "clue": "天上沒有雲、看得清楚",
-        "answerEntryId": "u23:clear",
-        "distractorEntryIds": [
-          "u23:cloudy",
-          "u23:foggy",
-          "u23:rainy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "After the rain stopped, the sky became ___ and blue.",
@@ -613,18 +529,6 @@
       "spellingHint": "c-l-i-m-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in northern Europe is much colder than in Africa.",
-        "fullSentence": "The climate in northern Europe is much colder than in Africa.",
-        "translation": "北歐的氣候比非洲冷得多。",
-        "clue": "一個地方長年的天氣型態",
-        "answerEntryId": "u23:climate",
-        "distractorEntryIds": [
-          "u23:typhoon",
-          "u23:rainbow",
-          "u23:thunder"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Palm trees grow well in a hot, wet ___.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-l-o-u-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A dark ___ covered the sky just before the heavy rain began.",
-        "fullSentence": "A dark cloud covered the sky just before the heavy rain began.",
-        "translation": "大雨來之前，烏雲蓋滿了天空。",
-        "clue": "下雨前天空上黑黑的東西",
-        "answerEntryId": "u23:cloud",
-        "distractorEntryIds": [
-          "u23:thunder",
-          "u23:lightning",
-          "u23:snow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look at that white ___ — it looks just like a sheep.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-l-o-u-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sky looks ___, so take an umbrella just in case.",
-        "fullSentence": "The sky looks cloudy, so take an umbrella just in case.",
-        "translation": "天空看起來陰陰的，所以帶把傘以防萬一。",
-        "clue": "天空佈滿雲層",
-        "answerEntryId": "u23:cloudy",
-        "distractorEntryIds": [
-          "u23:sunny",
-          "u23:hot",
-          "u23:clear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We can't see the moon tonight because the sky is ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-o-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The road along the ___ is full of tourists watching the waves.",
-        "fullSentence": "The road along the coast is full of tourists watching the waves.",
-        "translation": "沿海岸的這條路上滿是看海浪的遊客。",
-        "clue": "陸地與海洋相接的長條地帶",
-        "answerEntryId": "u23:coast",
-        "distractorEntryIds": [
-          "u23:countryside",
-          "u23:forest",
-          "u23:desert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Hualien is famous for its ___, where the mountains meet the sea.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-o-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The water in winter is too ___ for swimming.",
-        "fullSentence": "The water in winter is too cold for swimming.",
-        "translation": "冬天的水太冷，不適合游泳。",
-        "clue": "水溫低到讓人不敢下水",
-        "answerEntryId": "u23:cold",
-        "distractorEntryIds": [
-          "u23:warm",
-          "u23:freezing",
-          "u23:snowy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's ___ outside, so wear your gloves and scarf.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Autumn mornings are ___, so I put on a light jacket.",
-        "fullSentence": "Autumn mornings are cool, so I put on a light jacket.",
-        "translation": "秋天的早晨很涼爽，所以我穿上薄外套。",
-        "clue": "不冷不熱、剛好舒服的溫度",
-        "answerEntryId": "u23:cool",
-        "distractorEntryIds": [
-          "u23:hot",
-          "u23:freezing",
-          "u23:dry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's sit under the tree because the wind there is ___.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-o-u-n-t-r-y-s-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Life in the ___ is quiet; there are few cars and many farms.",
-        "fullSentence": "Life in the countryside is quiet; there are few cars and many farms.",
-        "translation": "鄉下的生活很安靜，車子少、農場多。",
-        "clue": "有很多農田、車子很少的地方",
-        "answerEntryId": "u23:countryside",
-        "distractorEntryIds": [
-          "u23:desert",
-          "u12:city",
-          "u23:ocean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We spent the weekend in the ___, riding bikes past rice fields.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-r-e-a-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old fisherman told us stories about a strange ___ that lives in the lake.",
-        "fullSentence": "The old fisherman told us stories about a strange creature that lives in the lake.",
-        "translation": "老漁夫告訴我們一個住在湖裡的奇怪生物的故事。",
-        "clue": "湖裡傳說中的活物",
-        "answerEntryId": "u23:creature",
-        "distractorEntryIds": [
-          "u23:rock",
-          "u23:rainbow",
-          "u23:cloud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movie is about a huge ___ with ten legs from outer space.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-u-r-r-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A strong ___ in the sea can pull swimmers away from the shore.",
-        "fullSentence": "A strong current in the sea can pull swimmers away from the shore.",
-        "translation": "海裡的強勁水流會把游泳的人拉離岸邊。",
-        "clue": "海裡拉人往外流的力氣",
-        "answerEntryId": "u23:current",
-        "distractorEntryIds": [
-          "u23:wind",
-          "u23:typhoon",
-          "u23:lightning"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The river's ___ moves fast after the heavy rain.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "d-e-g-r-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It will be thirty-five ___s Celsius today, so drink lots of water.",
-        "fullSentence": "It will be thirty-five degrees Celsius today, so drink lots of water.",
-        "translation": "今天是攝氏三十五度，要多喝水。",
-        "clue": "量溫度用的單位",
-        "answerEntryId": "u23:degree",
-        "distractorEntryIds": [
-          "u23:temperature",
-          "u23:weather",
-          "u23:climate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water boils at one hundred ___s Celsius.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "d-e-s-e-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Very few plants can grow in the ___ because there is almost no rain.",
-        "fullSentence": "Very few plants can grow in the desert because there is almost no rain.",
-        "translation": "沙漠裡幾乎不下雨，所以很少有植物能生長。",
-        "clue": "乾到幾乎不長植物的地方",
-        "answerEntryId": "u23:desert",
-        "distractorEntryIds": [
-          "u23:plant",
-          "u23:forest",
-          "u23:plain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is full of sand and gets very hot during the day.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "d-i-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wash your hands after you touch the ___ in the garden.",
-        "fullSentence": "Wash your hands after you touch the dirt in the garden.",
-        "translation": "摸過花園裡的泥土後要去洗手。",
-        "clue": "花園裡種東西的土",
-        "answerEntryId": "u23:dirt",
-        "distractorEntryIds": [
-          "u23:sand",
-          "u23:mud",
-          "u23:rock"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dog dug a hole in the ___ and hid its bone.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "d-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Hang the washing outside and it will be ___ by tomorrow.",
-        "fullSentence": "Hang the washing outside and it will be dry by tomorrow.",
-        "translation": "把洗好的衣服掛在外面，明天就會乾了。",
-        "clue": "濕衣服曬過之後的狀態",
-        "answerEntryId": "u23:dry",
-        "distractorEntryIds": [
-          "u23:foggy",
-          "u23:sunny",
-          "u23:cool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Leave the towel in the sun for an hour and it will become completely ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "e-a-r-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ is the third world from the fireball at the center of our solar system.",
-        "fullSentence": "The earth is the third world from the fireball at the center of our solar system.",
-        "translation": "地球是太陽系中央火球往外數第三顆星球。",
-        "clue": "我們居住、繞太陽轉的星球",
-        "answerEntryId": "u23:earth",
-        "distractorEntryIds": [
-          "u23:moon",
-          "u23:sky",
-          "u23:planet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We must protect the ___ by keeping the air and water clean.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "e-n-v-i-r-o-n-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Factories that dump waste into rivers are hurting the ___.",
-        "fullSentence": "Factories that dump waste into rivers are hurting the environment.",
-        "translation": "把廢料倒進河裡的工廠正在傷害環境。",
-        "clue": "會被人類汙染行為破壞的整體自然",
-        "answerEntryId": "u23:environment",
-        "distractorEntryIds": [
-          "u23:weather",
-          "u23:climate",
-          "u23:temperature"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Planting trees is a good way to help the ___.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "f-l-o-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Bees visit each ___ in the garden to collect honey.",
-        "fullSentence": "Bees visit each flower in the garden to collect honey.",
-        "translation": "蜜蜂造訪花園裡的每朵花來採蜜。",
-        "clue": "蜜蜂採蜜的對象",
-        "answerEntryId": "u23:flower",
-        "distractorEntryIds": [
-          "u23:leaf",
-          "u23:seed",
-          "u23:branch"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom planted ___s in the garden, and now they are all blooming.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "f-o-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ferry stopped sailing because a thick ___ covered the harbor.",
-        "fullSentence": "The ferry stopped sailing because a thick fog covered the harbor.",
-        "translation": "濃霧籠罩港口，渡輪停駛了。",
-        "clue": "讓船看不見路、灰白茫茫的天氣現象",
-        "answerEntryId": "u23:fog",
-        "distractorEntryIds": [
-          "u23:cloud",
-          "u23:area",
-          "u23:storm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Drivers must turn on their lights in the ___ because they can't see far.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "f-o-g-g-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The harbor is ___ this morning, so the ferries are running late.",
-        "fullSentence": "The harbor is foggy this morning, so the ferries are running late.",
-        "translation": "今天早上港口有霧，所以渡輪都誤點了。",
-        "clue": "霧籠罩、讓船變慢的天氣",
-        "answerEntryId": "u23:foggy",
-        "distractorEntryIds": [
-          "u23:rainy",
-          "u23:cloudy",
-          "u23:sunny"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's ___ outside; I can hardly see the building across the street.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "f-o-r-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Thousands of tall trees grow close together in the ___.",
-        "fullSentence": "Thousands of tall trees grow close together in the forest.",
-        "translation": "森林裡數千棵大樹緊密地長在一起。",
-        "clue": "大樹密集生長的地方",
-        "answerEntryId": "u23:forest",
-        "distractorEntryIds": [
-          "u23:desert",
-          "u23:shore",
-          "u23:plain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We got lost in the ___ because the trees all looked the same.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "f-r-e-e-z-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The lake was so ___ that we could walk on the ice.",
-        "fullSentence": "The lake was so freezing that we could walk on the ice.",
-        "translation": "湖面冷到結冰，我們可以在冰上行走。",
-        "clue": "冷到水面結冰的溫度",
-        "answerEntryId": "u23:freezing",
-        "distractorEntryIds": [
-          "u23:cold",
-          "u23:cool",
-          "u23:dry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Turn on the heater; it's ___ inside the house!",
@@ -2333,18 +2009,6 @@
       "spellingHint": "g-r-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sheep spend the whole day eating ___ in the meadow.",
-        "fullSentence": "Sheep spend the whole day eating grass in the meadow.",
-        "translation": "羊整天在牧草地上吃草。",
-        "clue": "羊整天吃的綠色植物",
-        "answerEntryId": "u23:grass",
-        "distractorEntryIds": [
-          "u23:flower",
-          "u23:leaf",
-          "u23:tree"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cows are eating ___ in the field.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "h-i-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "From the top of the ___, we could see the whole village below.",
-        "fullSentence": "From the top of the hill, we could see the whole village below.",
-        "translation": "從小山頂上，我們可以看到下面整個村莊。",
-        "clue": "可以登高望遠的小高地",
-        "answerEntryId": "u23:hill",
-        "distractorEntryIds": [
-          "u23:mountain",
-          "u23:valley",
-          "u23:plain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children love rolling down the ___ behind their school.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "h-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tea is too ___ to drink right now.",
-        "fullSentence": "The tea is too hot to drink right now.",
-        "translation": "茶太燙了，現在還不能喝。",
-        "clue": "溫度高到無法入口",
-        "answerEntryId": "u23:hot",
-        "distractorEntryIds": [
-          "u23:cold",
-          "u23:cool",
-          "u23:warm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's very ___ today, so let's stay in the air-conditioned room.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "h-u-m-i-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ air in July makes your shirt stick to your back.",
-        "fullSentence": "The humid air in July makes your shirt stick to your back.",
-        "translation": "七月潮濕的空氣讓襯衫黏在背上。",
-        "clue": "水氣重、讓衣服黏身的空氣",
-        "answerEntryId": "u23:humid",
-        "distractorEntryIds": [
-          "u23:dry",
-          "u23:cold",
-          "u23:cool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wipe the mirror; the bathroom is too ___ and everything is covered with water drops.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "i-s-l-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ is surrounded by the sea on all sides, so you must take a boat to reach it.",
-        "fullSentence": "The island is surrounded by the sea on all sides, so you must take a boat to reach it.",
-        "translation": "這座島四面環海，必須搭船才能抵達。",
-        "clue": "四面環海的陸地",
-        "answerEntryId": "u23:island",
-        "distractorEntryIds": [
-          "u23:mountain",
-          "u23:valley",
-          "u23:desert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took a boat to a small ___ and spent the day fishing.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "l-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in the mountains is so clear that you can see the fish.",
-        "fullSentence": "The lake in the mountains is so clear that you can see the fish.",
-        "translation": "山裡的湖泊清澈得看得見魚。",
-        "clue": "被陸地包圍的大片靜水",
-        "answerEntryId": "u23:lake",
-        "distractorEntryIds": [
-          "u23:river",
-          "u23:sea",
-          "u23:stream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We rowed a boat on the ___ all afternoon.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "l-e-a-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In autumn, every ___ on the maple tree turns red.",
-        "fullSentence": "In autumn, every leaf on the maple tree turns red.",
-        "translation": "秋天時，楓樹上的每片葉子都變紅了。",
-        "clue": "秋天會變紅、長在樹上的部分",
-        "answerEntryId": "u23:leaf",
-        "distractorEntryIds": [
-          "u23:branch",
-          "u23:root",
-          "u23:seed"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wind blew a green ___ from the tree into the pond.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "l-i-g-h-t-n-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We counted the seconds between the flash of ___ and the sound of thunder to guess how far away the thunderstorm was.",
-        "fullSentence": "We counted the seconds between the flash of lightning and the sound of thunder to guess how far away the thunderstorm was.",
-        "translation": "我們數閃電的光和雷聲之間的秒數，估算雷雨雲離得多遠。",
-        "clue": "先看到的光、後聽到雷",
-        "answerEntryId": "u23:lightning",
-        "distractorEntryIds": [
-          "u23:rainbow",
-          "u23:storm",
-          "u23:cloud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look at the bright ___ cutting across the dark sky!",
@@ -3021,18 +2601,6 @@
       "spellingHint": "m-o-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On the night of the Mid-Autumn Festival, families gather to watch the full ___.",
-        "fullSentence": "On the night of the Mid-Autumn Festival, families gather to watch the full moon.",
-        "translation": "中秋節晚上，家人聚在一起賞滿月。",
-        "clue": "中秋夜賞的圓圓天體",
-        "answerEntryId": "u23:moon",
-        "distractorEntryIds": [
-          "u23:sun",
-          "u23:village",
-          "u23:planet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Astronauts landed on the ___ in 1969.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "m-o-u-n-t-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Climbers need good boots and warm clothes to reach the top of the ___.",
-        "fullSentence": "Climbers need good boots and warm clothes to reach the top of the mountain.",
-        "translation": "登山者需要好靴子和保暖衣物才能登上山頂。",
-        "clue": "需要登山裝備才能登頂的高地",
-        "answerEntryId": "u23:mountain",
-        "distractorEntryIds": [
-          "u23:hill",
-          "u23:valley",
-          "u23:forest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We drove up the winding road to the top of the ___.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "m-u-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our boots sank deep into the ___ after two days of rain.",
-        "fullSentence": "Our boots sank deep into the mud after two days of rain.",
-        "translation": "下了兩天雨之後，我們的靴子深深陷進泥巴裡。",
-        "clue": "下雨後又濕又軟的爛泥",
-        "answerEntryId": "u23:mud",
-        "distractorEntryIds": [
-          "u23:dirt",
-          "u23:sand",
-          "u23:stream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The pigs love rolling in the ___ to stay cool.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "n-a-t-u-r-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Honey is a ___ sweetener that bees make, not a chemical one.",
-        "fullSentence": "Honey is a natural sweetener that bees make, not a chemical one.",
-        "translation": "蜂蜜是蜜蜂製造的天然甜味料，不是化學的。",
-        "clue": "非人工、非化學製成",
-        "answerEntryId": "u23:natural",
-        "distractorEntryIds": [
-          "u23:scenic",
-          "u18:regular",
-          "u13:basic"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The park keeps its ___ beauty with real rocks and wild flowers.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "n-a-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "City kids rarely have a chance to get close to ___.",
-        "fullSentence": "City kids rarely have a chance to get close to nature.",
-        "translation": "都市小孩很少有機會親近大自然。",
-        "clue": "山水草木等非人造的世界",
-        "answerEntryId": "u23:nature",
-        "distractorEntryIds": [
-          "u23:environment",
-          "u23:weather",
-          "u23:climate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We camped outdoors, far from any stores or buildings, surrounded by ___.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "o-c-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Whales swim thousands of kilometers across the ___.",
-        "fullSentence": "Whales swim thousands of kilometers across the ocean.",
-        "translation": "鯨魚游過數千公里的海洋。",
-        "clue": "鯨魚生活的廣大鹹水",
-        "answerEntryId": "u23:ocean",
-        "distractorEntryIds": [
-          "u23:sea",
-          "u23:lake",
-          "u23:river"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched the sun set into the ___ from the cliff.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "p-l-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Most of Taiwan's people live on the western ___ because it is flat and easy to build on.",
-        "fullSentence": "Most of Taiwan's people live on the western plain because it is flat and easy to build on.",
-        "translation": "台灣大部分的人住在西部平原，因為那裡平坦好建設。",
-        "clue": "平坦、適合耕種建設的廣大地帶",
-        "answerEntryId": "u23:plain",
-        "distractorEntryIds": [
-          "u23:mountain",
-          "u23:valley",
-          "u23:hill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is completely flat, so you can see for kilometers in every direction.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "p-l-a-n-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The earth is the only ___ we know that has life on it.",
-        "fullSentence": "The earth is the only planet we know that has life on it.",
-        "translation": "地球是我們所知唯一有生命的行星。",
-        "clue": "繞太陽運行、有生命的星球",
-        "answerEntryId": "u23:planet",
-        "distractorEntryIds": [
-          "u23:star",
-          "u23:moon",
-          "u23:universe"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Jupiter is the biggest ___ in our solar system.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "p-l-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This ___ needs sunlight and water every day to grow.",
-        "fullSentence": "This plant needs sunlight and water every day to grow.",
-        "translation": "這株植物每天需要陽光和水才能生長。",
-        "clue": "需要澆水、會生長的生物",
-        "answerEntryId": "u23:plant",
-        "distractorEntryIds": [
-          "u23:creature",
-          "u23:flower",
-          "u23:seed"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put the ___ near the window so it can get enough sunshine.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "p-o-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Frogs croak all night beside the ___ behind our house.",
-        "fullSentence": "Frogs croak all night beside the pond behind our house.",
-        "translation": "青蛙在我們家後面的池塘邊叫了一整夜。",
-        "clue": "青蛙住的小水池",
-        "answerEntryId": "u23:pond",
-        "distractorEntryIds": [
-          "u23:stream",
-          "u23:lake",
-          "u23:river"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer dug a small ___ so his ducks have water to swim in.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "p-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone in the class learned to swim in the school ___.",
-        "fullSentence": "Everyone in the class learned to swim in the school pool.",
-        "translation": "全班同學都是在學校游泳池學會游泳的。",
-        "clue": "學游泳的人工水池",
-        "answerEntryId": "u23:pool",
-        "distractorEntryIds": [
-          "u23:pond",
-          "u23:lake",
-          "u23:sea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We splashed and played in the swimming ___ all afternoon.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "r-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmers smiled when the ___ finally fell on their dry fields.",
-        "fullSentence": "The farmers smiled when the rain finally fell on their dry fields.",
-        "translation": "雨終於落在乾旱的田裡，農夫們都笑了。",
-        "clue": "從天上落下來的水",
-        "answerEntryId": "u23:rain",
-        "distractorEntryIds": [
-          "u23:snow",
-          "u23:storm",
-          "u23:thunder"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take an umbrella because the ___ may start at any moment.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "r-a-i-n-b-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the storm, a ___ with seven colors stretched across the sky.",
-        "fullSentence": "After the storm, a rainbow with seven colors stretched across the sky.",
-        "translation": "暴風雨過後，一道七彩的彩虹橫跨天空。",
-        "clue": "雨後天上的七彩拱橋",
-        "answerEntryId": "u23:rainbow",
-        "distractorEntryIds": [
-          "u23:lightning",
-          "u23:cloud",
-          "u23:moon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look! There is a ___ in the sky after the rain.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "r-a-i-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It has been ___ for a whole week, and our shoes are always damp.",
-        "fullSentence": "It has been rainy for a whole week, and our shoes are always damp.",
-        "translation": "整整下了一週的雨，我們的鞋總是濕濕的。",
-        "clue": "連日下雨的天氣",
-        "answerEntryId": "u23:rainy",
-        "distractorEntryIds": [
-          "u23:sunny",
-          "u23:dry",
-          "u23:foggy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On ___ days, we stay inside and play board games.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "r-i-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ flows from the mountains down to the sea.",
-        "fullSentence": "The river flows from the mountains down to the sea.",
-        "translation": "河從山上流向大海。",
-        "clue": "從山上流到海裡的水",
-        "answerEntryId": "u23:river",
-        "distractorEntryIds": [
-          "u23:lake",
-          "u23:stream",
-          "u23:ocean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a long ___ running through our town.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "r-o-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We climbed the smooth ___ to look at the view from the top.",
-        "fullSentence": "We climbed the smooth rock to look at the view from the top.",
-        "translation": "我們爬上平滑的岩石，從頂上欣賞風景。",
-        "clue": "可以攀爬的堅硬大石",
-        "answerEntryId": "u23:rock",
-        "distractorEntryIds": [
-          "u23:stone",
-          "u23:hill",
-          "u23:branch"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children turned over a ___ and found many insects underneath.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "r-o-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tree fell over because its ___s were too shallow.",
-        "fullSentence": "The tree fell over because its roots were too shallow.",
-        "translation": "這棵樹倒了，因為它的根太淺。",
-        "clue": "固定樹木、長在土裡的部分",
-        "answerEntryId": "u23:root",
-        "distractorEntryIds": [
-          "u23:branch",
-          "u23:leaf",
-          "u23:seed"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Carrots are the ___ of the plant, growing under the ground.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "r-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The florist wrapped a single red ___ for the Valentine's Day gift.",
-        "fullSentence": "The florist wrapped a single red rose for the Valentine's Day gift.",
-        "translation": "花店為情人節禮物包上一朵紅玫瑰。",
-        "clue": "情人節常送的紅色花朵",
-        "answerEntryId": "u23:rose",
-        "distractorEntryIds": [
-          "u23:flower",
-          "u23:leaf",
-          "u23:seed"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She planted ___s along the fence, and they smell wonderful in June.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "s-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The wind blew the fine ___ into little hills on the shore.",
-        "fullSentence": "The wind blew the fine sand into little hills on the shore.",
-        "translation": "風把細沙吹成岸邊的小沙丘。",
-        "clue": "風吹成沙丘的細小顆粒",
-        "answerEntryId": "u23:sand",
-        "distractorEntryIds": [
-          "u23:dirt",
-          "u23:rock",
-          "u23:grass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We walked barefoot on the warm ___ by the sea.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "s-c-e-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the opening ___, the camera flies over the whole city.",
-        "fullSentence": "In the opening scene, the camera flies over the whole city.",
-        "translation": "在開場那一幕，鏡頭飛越整座城市。",
-        "clue": "影片開頭的一幕",
-        "answerEntryId": "u23:scene",
-        "distractorEntryIds": [
-          "u23:scenery",
-          "u13:story",
-          "u23:star"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The last ___ of the play got the loudest applause.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "s-c-e-n-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The train window offers beautiful ___ of rice fields and hills.",
-        "fullSentence": "The train window offers beautiful scenery of rice fields and hills.",
-        "translation": "從火車車窗可以欣賞稻田和丘陵的美麗風景。",
-        "clue": "沿途看到的自然景色",
-        "answerEntryId": "u23:scenery",
-        "distractorEntryIds": [
-          "u23:scene",
-          "u23:area",
-          "u23:weather"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The island is famous for its sea ___, with blue water and green hills.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "s-c-e-n-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ highway along the east coast is popular with motorcyclists.",
-        "fullSentence": "The scenic highway along the east coast is popular with motorcyclists.",
-        "translation": "東海岸沿線的風景公路很受機車騎士歡迎。",
-        "clue": "沿途景色優美的道路",
-        "answerEntryId": "u23:scenic",
-        "distractorEntryIds": [
-          "u23:natural",
-          "u18:distant",
-          "u12:direct"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The train ride through the mountains is very ___, with views of rivers and forests.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "s-e-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sailors watched the ___ level rise as their ship left the port.",
-        "fullSentence": "Sailors watched the sea level rise as their ship left the port.",
-        "translation": "船離港時，水手們看著海面不斷上升。",
-        "clue": "船航行的大片鹹水",
-        "answerEntryId": "u23:sea",
-        "distractorEntryIds": [
-          "u23:lake",
-          "u23:river",
-          "u23:pool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We swam in the ___ during our vacation at Kenting.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "s-e-e-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Plant the ___ two centimeters deep and water it gently.",
-        "fullSentence": "Plant the seed two centimeters deep and water it gently.",
-        "translation": "把種子種下兩公分深，再輕輕澆水。",
-        "clue": "種進土裡會發芽的顆粒",
-        "answerEntryId": "u23:seed",
-        "distractorEntryIds": [
-          "u23:root",
-          "u23:leaf",
-          "u23:flower"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bird picked up a ___ and flew away with it.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "s-h-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Stars ___ most brightly on winter nights when the air is dry.",
-        "fullSentence": "Stars shine most brightly on winter nights when the air is dry.",
-        "translation": "冬天空氣乾燥的夜晚，星星閃得最亮。",
-        "clue": "星星在夜空發亮的樣子",
-        "answerEntryId": "u23:shine",
-        "distractorEntryIds": [
-          "u23:blow",
-          "u14:sing",
-          "u13:repeat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sun is so bright today that it makes the wet road ___.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "s-h-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waves wash up shells on the ___ every morning.",
-        "fullSentence": "The waves wash up shells on the shore every morning.",
-        "translation": "每天早上海浪把貝殼沖上岸。",
-        "clue": "海浪把貝殼沖上來的地方",
-        "answerEntryId": "u23:shore",
-        "distractorEntryIds": [
-          "u23:beach",
-          "u23:coast",
-          "u23:rock"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fishermen stood on the ___, waiting for the boats to return.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "s-t-o-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old wall was built from ___s collected from the field.",
-        "fullSentence": "The old wall was built from stones collected from the field.",
-        "translation": "老牆是用田裡撿來的石頭砌成的。",
-        "clue": "砌牆用的小石塊",
-        "answerEntryId": "u23:stone",
-        "distractorEntryIds": [
-          "u23:rock",
-          "u23:sand",
-          "u23:dirt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He threw a ___ into the well and listened for the splash.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "s-h-o-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A sudden ___ caught us without umbrellas, and we were soaked in minutes.",
-        "fullSentence": "A sudden shower caught us without umbrellas, and we were soaked in minutes.",
-        "translation": "一場突然的陣雨讓我們來不及撐傘，幾分鐘就全身濕透。",
-        "clue": "突然下起、短暫的雨",
-        "answerEntryId": "u23:shower",
-        "distractorEntryIds": [
-          "u23:rain",
-          "u23:storm",
-          "u23:typhoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The weather report says there will be a few ___s this afternoon, but the sun will return.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "s-k-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Thousands of stars filled the ___ last night because there was no moon.",
-        "fullSentence": "Thousands of stars filled the sky last night because there was no moon.",
-        "translation": "昨晚沒有月亮，數千顆星星佈滿天空。",
-        "clue": "星星所在的上方空間",
-        "answerEntryId": "u23:sky",
-        "distractorEntryIds": [
-          "u23:star",
-          "u23:cloud",
-          "u23:sea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look up! The ___ is full of colorful kites today.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "s-n-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children threw ___ at each other and laughed loudly.",
-        "fullSentence": "The children threw snow at each other and laughed loudly.",
-        "translation": "孩子們互相丟雪，笑得很開心。",
-        "clue": "冬天可以捏球互丟的東西",
-        "answerEntryId": "u23:snow",
-        "distractorEntryIds": [
-          "u23:rain",
-          "u23:sand",
-          "u23:dirt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In Hokkaido, ___ falls and covers everything in white.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "s-n-o-w-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We gave our ___ a scarf and an old hat to keep him warm.",
-        "fullSentence": "We gave our snowman a scarf and an old hat to keep him warm.",
-        "translation": "我們給雪人圍上圍巾、戴上舊帽子，讓他保暖。",
-        "clue": "被打扮得暖暖的雪堆人形",
-        "answerEntryId": "u23:snowman",
-        "distractorEntryIds": [
-          "u23:snow",
-          "u23:creature",
-          "u23:star"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We rolled three big balls and stacked them into a ___.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "s-n-o-w-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is a perfect ___ day, so let's go sledding on the hill.",
-        "fullSentence": "It is a perfect snowy day, so let's go sledding on the hill.",
-        "translation": "今天是絕佳的下雪天，我們去山坡滑雪橇吧。",
-        "clue": "適合滑雪橇的落雪天氣",
-        "answerEntryId": "u23:snowy",
-        "distractorEntryIds": [
-          "u23:rainy",
-          "u23:sunny",
-          "u23:windy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ weather made the whole town white and quiet.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "s-p-r-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___, the days get longer and cherry trees begin to bloom.",
-        "fullSentence": "In spring, the days get longer and cherry trees begin to bloom.",
-        "translation": "春天時白晝變長，櫻花樹開始開花。",
-        "clue": "櫻花盛開的季節",
-        "answerEntryId": "u23:spring",
-        "distractorEntryIds": [
-          "u16:summer",
-          "u16:winter",
-          "u16:autumn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Birds come back and build nests in ___.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "s-t-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On winter nights, the brightest ___ helps travelers find their way north.",
-        "fullSentence": "On winter nights, the brightest star helps travelers find their way north.",
-        "translation": "冬夜裡，最亮的星星幫旅人找到往北的方向。",
-        "clue": "夜空中用來辨方向的亮點",
-        "answerEntryId": "u23:star",
-        "distractorEntryIds": [
-          "u23:moon",
-          "u23:sun",
-          "u23:planet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Make a wish when you see a falling ___.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "s-t-o-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We stayed indoors all weekend because the ___ brought heavy rain and strong winds.",
-        "fullSentence": "We stayed indoors all weekend because the storm brought heavy rain and strong winds.",
-        "translation": "暴風雨帶來豪雨和強風，我們整個週末都待在室內。",
-        "clue": "風強雨大的惡劣天氣",
-        "answerEntryId": "u23:storm",
-        "distractorEntryIds": [
-          "u23:wind",
-          "u23:fog",
-          "u23:cloud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ broke the windows and flooded the streets.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "s-t-o-r-m-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ weather forced the ferry to stay in port all day.",
-        "fullSentence": "The stormy weather forced the ferry to stay in port all day.",
-        "translation": "暴風雨天氣讓渡輪整天停在港裡。",
-        "clue": "讓船無法出海的風雨天氣",
-        "answerEntryId": "u23:stormy",
-        "distractorEntryIds": [
-          "u23:rainy",
-          "u23:cloudy",
-          "u23:foggy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It was a ___ night, with thunder crashing and rain hammering the windows.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "s-t-r-e-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A clear ___ runs down the hill behind our school.",
-        "fullSentence": "A clear stream runs down the hill behind our school.",
-        "translation": "一條清澈的小溪從學校後面的山坡流下。",
-        "clue": "從山上流下的小水道",
-        "answerEntryId": "u23:stream",
-        "distractorEntryIds": [
-          "u23:river",
-          "u23:pond",
-          "u23:lake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We took off our shoes and cooled our feet in the ___.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "s-u-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Plants lean toward the ___ to catch more light.",
-        "fullSentence": "Plants lean toward the sun to catch more light.",
-        "translation": "植物朝太陽的方向傾斜，吸收更多光線。",
-        "clue": "供給光與熱的天體",
-        "answerEntryId": "u23:sun",
-        "distractorEntryIds": [
-          "u23:moon",
-          "u23:star",
-          "u23:planet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ rises in the east and sets in the west.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "s-u-n-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is a ___ morning, so let's hang the laundry outside.",
-        "fullSentence": "It is a sunny morning, so let's hang the laundry outside.",
-        "translation": "今天是晴朗的早晨，把衣服拿出去曬吧。",
-        "clue": "適合曬衣服的好天氣",
-        "answerEntryId": "u23:sunny",
-        "distractorEntryIds": [
-          "u23:rainy",
-          "u23:cloudy",
-          "u23:foggy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put on your sunglasses because it is very ___ today.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "t-e-m-p-e-r-a-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nurse took his ___ to see if he had a fever.",
-        "fullSentence": "The nurse took his temperature to see if he had a fever.",
-        "translation": "護士量了他的體溫，看他有沒有發燒。",
-        "clue": "用體溫計量的數值",
-        "answerEntryId": "u23:temperature",
-        "distractorEntryIds": [
-          "u23:weather",
-          "u23:climate",
-          "u23:degree"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ dropped to ten degrees last night, so wear a jacket.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "t-h-u-n-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dog hid under the bed as soon as the ___ started to rumble.",
-        "fullSentence": "The dog hid under the bed as soon as the thunder started to rumble.",
-        "translation": "雷聲一開始隆隆作響，狗就躲到床下。",
-        "clue": "隆隆作響、嚇到狗的聲音",
-        "answerEntryId": "u23:thunder",
-        "distractorEntryIds": [
-          "u23:lightning",
-          "u23:rain",
-          "u23:typhoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Listen! The ___ is so loud that the windows rattle.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "t-r-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children hung a tire swing from the old ___ in the yard.",
-        "fullSentence": "The children hung a tire swing from the old tree in the yard.",
-        "translation": "孩子們在院子裡的老樹上掛了輪胎鞦韆。",
-        "clue": "能掛鞦韆的高大植物",
-        "answerEntryId": "u23:tree",
-        "distractorEntryIds": [
-          "u23:flower",
-          "u23:branch",
-          "u23:root"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Monkeys swing from branch to branch high up in a ___.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "t-y-p-h-o-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ knocked down power lines, and half the city lost electricity.",
-        "fullSentence": "The typhoon knocked down power lines, and half the city lost electricity.",
-        "translation": "颱風吹倒電線，半個城市停電了。",
-        "clue": "吹倒電線桿的強烈熱帶風暴",
-        "answerEntryId": "u23:typhoon",
-        "distractorEntryIds": [
-          "u23:storm",
-          "u23:wind",
-          "u23:rain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before the ___ arrives, we buy water, food, and flashlights.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "u-n-i-v-e-r-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scientists believe the ___ began with a huge explosion billions of years ago.",
-        "fullSentence": "Scientists believe the universe began with a huge explosion billions of years ago.",
-        "translation": "科學家相信宇宙始於數十億年前的一場大爆炸。",
-        "clue": "包含所有星系的整體",
-        "answerEntryId": "u23:universe",
-        "distractorEntryIds": [
-          "u23:planet",
-          "u23:star",
-          "u23:earth"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ contains billions of galaxies, and ours is just one.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "v-a-l-l-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The village sits in a ___ between two tall mountains.",
-        "fullSentence": "The village sits in a valley between two tall mountains.",
-        "translation": "村莊坐落在兩座高山之間的山谷裡。",
-        "clue": "兩山之間的低地",
-        "answerEntryId": "u23:valley",
-        "distractorEntryIds": [
-          "u23:hill",
-          "u23:plain",
-          "u23:forest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We looked down into the ___ and saw a river winding below.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "v-i-l-l-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The flood cut off the ___, so supplies had to be brought in by helicopter.",
-        "fullSentence": "The flood cut off the village, so supplies had to be brought in by helicopter.",
-        "translation": "洪水切斷了村莊的聯外道路，物資只能用直升機送進來。",
-        "clue": "被洪水孤立的小聚落",
-        "answerEntryId": "u23:village",
-        "distractorEntryIds": [
-          "u12:city",
-          "u23:valley",
-          "u23:island"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandparents live in a small ___ by the mountains.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "w-a-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soup was still ___ when we sat down to eat.",
-        "fullSentence": "The soup was still warm when we sat down to eat.",
-        "translation": "我們坐下來吃時，湯還是溫熱的。",
-        "clue": "不燙也不冷、剛好入口",
-        "answerEntryId": "u23:warm",
-        "distractorEntryIds": [
-          "u23:hot",
-          "u23:cool",
-          "u23:cold"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wear a ___ jacket; it is not freezing, but there is a chill in the air.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "w-a-t-e-r-f-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ roared as thousands of liters of water dropped over the cliff every second.",
-        "fullSentence": "The waterfall roared as thousands of liters of water dropped over the cliff every second.",
-        "translation": "瀑布轟鳴作響，每秒有數千公升的水從懸崖傾瀉而下。",
-        "clue": "水從高處傾瀉的景象",
-        "answerEntryId": "u23:waterfall",
-        "distractorEntryIds": [
-          "u23:river",
-          "u23:stream",
-          "u23:rain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The mist from the ___ cooled our faces as we stood on the bridge.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "w-e-a-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Check the ___ before you go hiking so you know whether to bring a raincoat.",
-        "fullSentence": "Check the weather before you go hiking so you know whether to bring a raincoat.",
-        "translation": "健行前先看天氣，才知道要不要帶雨衣。",
-        "clue": "出門前查詢的晴雨狀況",
-        "answerEntryId": "u23:weather",
-        "distractorEntryIds": [
-          "u23:climate",
-          "u23:temperature",
-          "u23:typhoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ was so bad that the baseball game was canceled.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "w-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The towel was still ___, so I couldn't wipe the table with it.",
-        "fullSentence": "The towel was still wet, so I couldn't wipe the table with it.",
-        "translation": "毛巾還是濕的，所以我擦不乾手。",
-        "clue": "含著水、擦不了東西的毛巾",
-        "answerEntryId": "u23:wet",
-        "distractorEntryIds": [
-          "u23:dry",
-          "u23:humid",
-          "u23:cool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't sit on the bench; the paint is still ___.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "w-i-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ turned the windmill and pumped water up from the well.",
-        "fullSentence": "The wind turned the windmill and pumped water up from the well.",
-        "translation": "風轉動風車，把井水抽上來。",
-        "clue": "轉動風車的流動空氣",
-        "answerEntryId": "u23:wind",
-        "distractorEntryIds": [
-          "u23:rain",
-          "u23:current",
-          "u23:storm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A cold ___ blew through the open window.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "w-i-n-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is too ___ to fly paper airplanes in the playground.",
-        "fullSentence": "It is too windy to fly paper airplanes in the playground.",
-        "translation": "風太大，不適合在操場上飛紙飛機。",
-        "clue": "讓紙飛機亂飛的風勢",
-        "answerEntryId": "u23:windy",
-        "distractorEntryIds": [
-          "u23:rainy",
-          "u23:sunny",
-          "u23:dry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's ___ today, so hold on to your hat.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "w-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad chopped the ___ into small pieces for the campfire.",
-        "fullSentence": "Dad chopped the wood into small pieces for the campfire.",
-        "translation": "爸爸把木頭劈成小塊，準備生營火。",
-        "clue": "可以劈來生火的材料",
-        "answerEntryId": "u23:wood",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u13:paper",
-          "u23:stone"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This desk is made of ___ from old trees.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "w-o-o-d-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ bridge across the stream creaked as we walked over it.",
-        "fullSentence": "The wooden bridge across the stream creaked as we walked over it.",
-        "translation": "我們走過溪上的木橋時，橋吱吱作響。",
-        "clue": "用木板搭成、會作響的橋",
-        "answerEntryId": "u23:wooden",
-        "distractorEntryIds": [
-          "u11:electric",
-          "u18:round",
-          "u18:straight"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We ate lunch at a ___ table under the big tree.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "w-o-o-d-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mushrooms grow all over the ___ after the autumn rains.",
-        "fullSentence": "Mushrooms grow all over the woods after the autumn rains.",
-        "translation": "秋雨過後，樹林裡到處長出蘑菇。",
-        "clue": "雨後長蘑菇的樹林地",
-        "answerEntryId": "u23:woods",
-        "distractorEntryIds": [
-          "u23:grass",
-          "u23:valley",
-          "u23:pond"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cabin is hidden deep in the ___.",

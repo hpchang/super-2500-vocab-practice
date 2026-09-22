@@ -11,18 +11,6 @@
       "spellingHint": "a-n-i-m-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every dog, cat, and horse is an ___ that people keep at home.",
-        "fullSentence": "Every dog, cat, and horse is an animal that people keep at home.",
-        "translation": "每一隻狗、貓和馬都是人們養在家的動物。",
-        "clue": "貓狗馬等生物的總稱",
-        "answerEntryId": "u22:animal",
-        "distractorEntryIds": [
-          "u22:bird",
-          "u22:fish",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tiger and the elephant are each a big ___ that lives in the zoo.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Look! A tiny ___ is carrying a bread crumb across the kitchen floor.",
-        "fullSentence": "Look! A tiny ant is carrying a bread crumb across the kitchen floor.",
-        "translation": "看！一隻小螞蟻正把麵包屑搬過廚房地板。",
-        "clue": "排成長隊搬食物的小昆蟲",
-        "answerEntryId": "u22:ant",
-        "distractorEntryIds": [
-          "u22:mosquito",
-          "u22:spider",
-          "u22:cockroach"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An ___ is a very small insect that lives in a big group and can carry things much heavier than itself.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-a-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dogs usually ___ to warn their owners when strangers come near the house.",
-        "fullSentence": "Dogs usually bark to warn their owners when strangers come near the house.",
-        "translation": "陌生人靠近房子時，狗通常會吠叫提醒主人。",
-        "clue": "狗用叫聲警告主人",
-        "answerEntryId": "u22:bark",
-        "distractorEntryIds": [
-          "u14:sing",
-          "u12:sail",
-          "u13:copy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When the doorbell rang, the little dog started to ___ very loudly.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ hangs upside down in the dark cave and sleeps all day.",
-        "fullSentence": "The bat hangs upside down in the dark cave and sleeps all day.",
-        "translation": "蝙蝠倒掛在黑暗的洞穴裡，睡上一整天。",
-        "clue": "倒掛在洞裡睡覺",
-        "answerEntryId": "u22:bat",
-        "distractorEntryIds": [
-          "u22:eagle",
-          "u22:parrot",
-          "u22:swallow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is the only animal that can really fly, and it comes out only at night.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ climbed the tall tree to eat the honey inside the beehive.",
-        "fullSentence": "The bear climbed the tall tree to eat the honey inside the beehive.",
-        "translation": "熊爬上大樹去吃蜂巢裡的蜂蜜。",
-        "clue": "愛吃蜂蜜、會爬樹",
-        "answerEntryId": "u22:bear",
-        "distractorEntryIds": [
-          "u22:monkey",
-          "u22:lion",
-          "u22:elephant"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big, strong wild animal that loves honey and fish.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ flew from flower to flower to collect nectar for making honey.",
-        "fullSentence": "A bee flew from flower to flower to collect nectar for making honey.",
-        "translation": "蜜蜂在花間飛來飛去，採花蜜來釀蜂蜜。",
-        "clue": "採花蜜釀蜂蜜的昆蟲",
-        "answerEntryId": "u22:bee",
-        "distractorEntryIds": [
-          "u22:butterfly",
-          "u22:mosquito",
-          "u22:bird"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ makes the honey that we spread on our toast.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-i-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every spring, the same ___ returns to its old nest and lays eggs in it.",
-        "fullSentence": "Every spring, the same bird returns to its old nest and lays eggs in it.",
-        "translation": "每年春天，同一隻鳥都會回到舊巢下蛋。",
-        "clue": "回舊巢下蛋的動物",
-        "answerEntryId": "u22:bird",
-        "distractorEntryIds": [
-          "u22:turtle",
-          "u22:snake",
-          "u22:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has two wings and feathers, and most of them can fly.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Do not put your fingers into the cage; the parrot may ___ them.",
-        "fullSentence": "Do not put your fingers into the cage; the parrot may bite them.",
-        "translation": "不要把手指伸進籠子，鸚鵡可能會咬它們。",
-        "clue": "鸚鵡會用嘴攻擊手指",
-        "answerEntryId": "u22:bite",
-        "distractorEntryIds": [
-          "u13:count",
-          "u14:hunt",
-          "u14:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A mosquito can ___ you and leave a red, itchy bump on your skin.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-u-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Turn on the light at night, and a small ___ will fly straight to it.",
-        "fullSentence": "Turn on the light at night, and a small bug will fly straight to it.",
-        "translation": "晚上一開燈，小蟲就會直接飛過來。",
-        "clue": "夜裡撲向燈光的小蟲",
-        "answerEntryId": "u22:bug",
-        "distractorEntryIds": [
-          "u22:ant",
-          "u22:snail",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a very small insect, like the ones that gather around bright lamps at night.",
@@ -785,18 +677,6 @@
       "spellingHint": "b-u-t-t-e-r-f-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The caterpillar will soon change into a beautiful ___.",
-        "fullSentence": "The caterpillar will soon change into a beautiful butterfly.",
-        "translation": "毛毛蟲很快就會變成美麗的蝴蝶。",
-        "clue": "毛毛蟲長大後變成",
-        "answerEntryId": "u22:butterfly",
-        "distractorEntryIds": [
-          "u22:bee",
-          "u22:bird",
-          "u22:dragon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has big, colorful wings and flies from flower to flower in the garden.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The zookeeper locked the door of the ___ so the monkey could not escape.",
-        "fullSentence": "The zookeeper locked the door of the cage so the monkey could not escape.",
-        "translation": "動物園管理員鎖上籠門，讓猴子逃不出去。",
-        "clue": "有門、能鎖住動物",
-        "answerEntryId": "u22:cage",
-        "distractorEntryIds": [
-          "u22:nest",
-          "u22:wing",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We keep our pet bird in a ___ so it will not fly away.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our ___ sits quietly by the fish tank, watching the goldfish swim.",
-        "fullSentence": "Our cat sits quietly by the fish tank, watching the goldfish swim.",
-        "translation": "我們的貓靜靜坐在魚缸旁，看著金魚游來游去。",
-        "clue": "盯著魚缸裡的魚看",
-        "answerEntryId": "u22:cat",
-        "distractorEntryIds": [
-          "u22:dog",
-          "u22:parrot",
-          "u22:rabbit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ says meow and loves to nap in the warm sunshine.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-h-i-c-k-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every morning the farmer feeds each ___ and collects the eggs it laid.",
-        "fullSentence": "Every morning the farmer feeds each chicken and collects the eggs it laid.",
-        "translation": "每天早上農夫餵每一隻雞，並撿拾牠下的蛋。",
-        "clue": "會下蛋給農夫撿",
-        "answerEntryId": "u22:chicken",
-        "distractorEntryIds": [
-          "u22:duck",
-          "u22:hen",
-          "u22:cow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a farm bird that gives us eggs and meat.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-o-c-k-r-o-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "When Mom turned on the kitchen light, a ___ quickly ran under the stove.",
-        "fullSentence": "When Mom turned on the kitchen light, a cockroach quickly ran under the stove.",
-        "translation": "媽媽打開廚房燈，一隻蟑螂立刻鑽到爐子底下。",
-        "clue": "開燈就躲進爐子下",
-        "answerEntryId": "u22:cockroach",
-        "distractorEntryIds": [
-          "u22:ant",
-          "u22:mosquito",
-          "u22:mouse"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a flat brown insect that hides in dark, wet kitchens at night.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer milks the ___ early in the morning before the sun gets hot.",
-        "fullSentence": "The farmer milks the cow early in the morning before the sun gets hot.",
-        "translation": "太陽變熱之前，農夫一大早就幫乳牛擠奶。",
-        "clue": "會被擠奶的動物",
-        "answerEntryId": "u22:cow",
-        "distractorEntryIds": [
-          "u22:goat",
-          "u22:horse",
-          "u22:pig"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big farm animal that says moo and gives us milk.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-r-a-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ walked sideways across the wet sand and hid in a hole.",
-        "fullSentence": "The crab walked sideways across the wet sand and hid in a hole.",
-        "translation": "螃蟹橫著走過濕沙，躲進洞裡。",
-        "clue": "在沙灘上橫著走",
-        "answerEntryId": "u22:crab",
-        "distractorEntryIds": [
-          "u22:shrimp",
-          "u22:fish",
-          "u22:snail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has eight legs and two big claws, and it walks sideways on the beach.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "d-e-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shy ___ ran into the deep forest as soon as it heard our voices.",
-        "fullSentence": "The shy deer ran into the deep forest as soon as it heard our voices.",
-        "translation": "膽小的鹿一聽到我們的聲音就跑進森林深處。",
-        "clue": "怕生、跑進森林",
-        "answerEntryId": "u22:deer",
-        "distractorEntryIds": [
-          "u22:fox",
-          "u22:wolf",
-          "u22:bear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a gentle wild animal with long thin legs that eats leaves and grass.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "d-i-n-o-s-a-u-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The museum has a huge skeleton of a ___ that lived millions of years ago.",
-        "fullSentence": "The museum has a huge skeleton of a dinosaur that lived millions of years ago.",
-        "translation": "博物館裡有一副幾百萬年前恐龍的巨大骨架。",
-        "clue": "博物館裡的遠古巨獸",
-        "answerEntryId": "u22:dinosaur",
-        "distractorEntryIds": [
-          "u22:elephant",
-          "u22:whale",
-          "u22:dragon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ was a giant reptile that disappeared from Earth long before people appeared.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "d-o-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our family takes the ___ for a walk in the park twice a day.",
-        "fullSentence": "Our family takes the dog for a walk in the park twice a day.",
-        "translation": "我們全家一天帶狗去公園散步兩次。",
-        "clue": "每天要遛的寵物",
-        "answerEntryId": "u22:dog",
-        "distractorEntryIds": [
-          "u22:cat",
-          "u22:rabbit",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a loyal pet that wags its tail and says woof.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "d-o-l-p-h-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ swam next to our boat, jumping in and out of the water.",
-        "fullSentence": "The dolphin swam next to our boat, jumping in and out of the water.",
-        "translation": "海豚游在我們的船邊，在水裡跳進跳出。",
-        "clue": "跟著船邊跳出水面的",
-        "answerEntryId": "u22:dolphin",
-        "distractorEntryIds": [
-          "u22:whale",
-          "u22:shark",
-          "u22:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a smart sea animal that makes clicking sounds and loves to play.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "d-o-n-k-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer loaded two heavy bags onto his ___ and walked up the mountain path.",
-        "fullSentence": "The farmer loaded two heavy bags onto his donkey and walked up the mountain path.",
-        "translation": "農夫把兩個重袋子放到驢背上，走上山路。",
-        "clue": "馱重物走山路",
-        "answerEntryId": "u22:donkey",
-        "distractorEntryIds": [
-          "u22:horse",
-          "u22:cow",
-          "u22:ox"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ looks like a horse with long ears and says hee-haw.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "d-r-a-g-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the fairy tale, a brave knight fought the ___ that breathed fire.",
-        "fullSentence": "In the fairy tale, a brave knight fought the dragon that breathed fire.",
-        "translation": "童話裡，勇敢的騎士對抗會噴火的龍。",
-        "clue": "童話裡會噴火",
-        "answerEntryId": "u22:dragon",
-        "distractorEntryIds": [
-          "u22:monster",
-          "u22:dinosaur",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a huge imaginary animal with wings that appears in old stories.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "d-u-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mother ___ led her fluffy babies across the road in a straight line.",
-        "fullSentence": "The mother duck led her fluffy babies across the road in a straight line.",
-        "translation": "鴨媽媽帶著毛茸茸的小鴨排成一列過馬路。",
-        "clue": "帶小鴨排隊過馬路",
-        "answerEntryId": "u22:duck",
-        "distractorEntryIds": [
-          "u22:hen",
-          "u22:goose",
-          "u22:bird"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a water bird with a flat beak that says quack.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "e-a-g-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ circled high in the sky, watching for rabbits in the grass below.",
-        "fullSentence": "The eagle circled high in the sky, watching for rabbits in the grass below.",
-        "translation": "老鷹在高空盤旋，盯著草叢裡的兔子。",
-        "clue": "高空盤旋找獵物",
-        "answerEntryId": "u22:eagle",
-        "distractorEntryIds": [
-          "u22:bat",
-          "u22:swallow",
-          "u22:parrot"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An ___ is a large, strong bird that hunts small animals with sharp claws.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "e-l-e-p-h-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ used its long trunk to spray water over its back on the hot day.",
-        "fullSentence": "The elephant used its long trunk to spray water over its back on the hot day.",
-        "translation": "大熱天裡，大象用長鼻子把水噴到背上。",
-        "clue": "用長鼻子噴水",
-        "answerEntryId": "u22:elephant",
-        "distractorEntryIds": [
-          "u22:hippo",
-          "u22:whale",
-          "u22:cow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An ___ is the biggest land animal, with large ears and a long nose.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "f-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in the tank swim quietly among the green water plants.",
-        "fullSentence": "The fish in the tank swim quietly among the green water plants.",
-        "translation": "魚缸裡的魚安靜地游過綠色水草間。",
-        "clue": "在水草間游動",
-        "answerEntryId": "u22:fish",
-        "distractorEntryIds": [
-          "u22:shark",
-          "u22:whale",
-          "u22:frog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ lives in water, has fins and gills, and cannot breathe on land.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "f-o-x",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sly ___ slipped into the henhouse at night and stole an egg.",
-        "fullSentence": "The sly fox slipped into the henhouse at night and stole an egg.",
-        "translation": "狡猾的狐狸夜裡溜進雞舍偷了一顆蛋。",
-        "clue": "夜裡溜進雞舍",
-        "answerEntryId": "u22:fox",
-        "distractorEntryIds": [
-          "u22:wolf",
-          "u22:cat",
-          "u22:dog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a wild animal with a pointed nose and a big bushy tail.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "f-r-o-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the rain, the ___ sat on a lily pad and croaked loudly.",
-        "fullSentence": "After the rain, the frog sat on a lily pad and croaked loudly.",
-        "translation": "雨後，青蛙坐在荷葉上大聲呱呱叫。",
-        "clue": "雨後在荷葉上呱呱叫",
-        "answerEntryId": "u22:frog",
-        "distractorEntryIds": [
-          "u22:fish",
-          "u22:duck",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has long back legs for jumping and lives near ponds and rivers.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "g-o-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nimble ___ climbed straight up the rocky cliff to reach the green bushes.",
-        "fullSentence": "The nimble goat climbed straight up the rocky cliff to reach the green bushes.",
-        "translation": "敏捷的山羊直接爬上岩石峭壁去吃綠色灌木。",
-        "clue": "會爬上懸崖峭壁",
-        "answerEntryId": "u22:goat",
-        "distractorEntryIds": [
-          "u22:sheep",
-          "u22:cow",
-          "u22:horse"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a farm animal with horns that climbs rocks and eats almost anything.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "g-o-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The honking ___ chased the children away from the pond.",
-        "fullSentence": "The honking goose chased the children away from the pond.",
-        "translation": "大聲嘎嘎叫的鵝把池塘邊的孩子們趕跑了。",
-        "clue": "會追趕人、嘎嘎叫",
-        "answerEntryId": "u22:goose",
-        "distractorEntryIds": [
-          "u22:duck",
-          "u22:swan",
-          "u22:hen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big white water bird with a long neck that honks loudly.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "h-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every morning the ___ lays a fresh egg in the soft straw.",
-        "fullSentence": "Every morning the hen lays a fresh egg in the soft straw.",
-        "translation": "母雞每天早上都在柔軟的稻草裡下一顆新鮮的蛋。",
-        "clue": "每天下蛋的母雞",
-        "answerEntryId": "u22:hen",
-        "distractorEntryIds": [
-          "u22:chicken",
-          "u22:duck",
-          "u22:goose"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a female farm bird that lays eggs in the coop.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "h-i-p-p-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ opened its enormous mouth wide to show its huge teeth.",
-        "fullSentence": "The hippo opened its enormous mouth wide to show its huge teeth.",
-        "translation": "河馬把大嘴張得開開的，露出巨大的牙齒。",
-        "clue": "張開超大嘴露牙",
-        "answerEntryId": "u22:hippo",
-        "distractorEntryIds": [
-          "u22:elephant",
-          "u22:dragon",
-          "u22:whale"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a huge African animal that spends most of the day in the water.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "h-o-r-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The rider climbed onto the brown ___ and rode off across the fields.",
-        "fullSentence": "The rider climbed onto the brown horse and rode off across the fields.",
-        "translation": "騎士爬上棕色的馬，騎著穿越田野。",
-        "clue": "可以騎乘、奔跑",
-        "answerEntryId": "u22:horse",
-        "distractorEntryIds": [
-          "u22:donkey",
-          "u22:cow",
-          "u22:zebra"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a large animal that people ride, and it gallops very fast.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "i-n-s-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every ___ , from the ant to the butterfly, has six legs and three body parts.",
-        "fullSentence": "Every insect , from the ant to the butterfly, has six legs and three body parts.",
-        "translation": "從螞蟻到蝴蝶，每種昆蟲都有六隻腳和三節身體。",
-        "clue": "六隻腳三節身體",
-        "answerEntryId": "u22:insect",
-        "distractorEntryIds": [
-          "u22:animal",
-          "u22:spider",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An ___ is a small creature with six legs, like a bee or an ant.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "k-a-n-g-a-r-o-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mother ___ carried her baby safely in the pouch on her belly.",
-        "fullSentence": "The mother kangaroo carried her baby safely in the pouch on her belly.",
-        "translation": "袋鼠媽媽把寶寶安全地放在肚子的育兒袋裡。",
-        "clue": "肚子有育兒袋",
-        "answerEntryId": "u22:kangaroo",
-        "distractorEntryIds": [
-          "u22:rabbit",
-          "u22:horse",
-          "u22:deer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is an Australian animal that jumps on two big back legs.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "k-i-t-t-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fluffy ___ hid behind the curtain and pounced on my shoelaces.",
-        "fullSentence": "The fluffy kitten hid behind the curtain and pounced on my shoelaces.",
-        "translation": "毛茸茸的小貓躲在窗簾後，撲向我的鞋帶。",
-        "clue": "幼小、愛撲鞋帶",
-        "answerEntryId": "u22:kitten",
-        "distractorEntryIds": [
-          "u22:puppy",
-          "u22:cat",
-          "u22:rabbit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a very young feline that still drinks its mother's milk.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "k-o-a-l-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sleepy ___ hugged the tree branch and dozed in the warm sun.",
-        "fullSentence": "The sleepy koala hugged the tree branch and dozed in the warm sun.",
-        "translation": "睏倦的無尾熊抱著樹枝，在溫暖的陽光下打盹。",
-        "clue": "抱著樹枝打盹",
-        "answerEntryId": "u22:koala",
-        "distractorEntryIds": [
-          "u22:monkey",
-          "u22:panda",
-          "u22:kangaroo"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is an Australian animal that looks like a small bear and sleeps in trees.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "l-a-m-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fluffy white ___ stayed close beside its mother in the green meadow.",
-        "fullSentence": "The fluffy white lamb stayed close beside its mother in the green meadow.",
-        "translation": "毛茸茸的白色小羊緊跟著媽媽待在綠色草地。",
-        "clue": "緊跟羊媽媽身旁",
-        "answerEntryId": "u22:lamb",
-        "distractorEntryIds": [
-          "u22:sheep",
-          "u22:goat",
-          "u22:kitten"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a baby farm animal with soft woolly fur that says baa.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "l-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "With its golden mane flowing in the wind, the ___ looked like the king of the grassland.",
-        "fullSentence": "With its golden mane flowing in the wind, the lion looked like the king of the grassland.",
-        "translation": "獅子的金色鬃毛隨風飄動，看起來像草原之王。",
-        "clue": "金色鬃毛的草原之王",
-        "answerEntryId": "u22:lion",
-        "distractorEntryIds": [
-          "u22:tiger",
-          "u22:wolf",
-          "u22:bear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big wild cat that roars loudly and has fur around its neck.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "m-o-n-k-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ grabbed a banana from the tree and peeled it with its fingers.",
-        "fullSentence": "The monkey grabbed a banana from the tree and peeled it with its fingers.",
-        "translation": "猴子從樹上抓了一根香蕉，用手指剝開。",
-        "clue": "用手抓香蕉剝皮",
-        "answerEntryId": "u22:monkey",
-        "distractorEntryIds": [
-          "u22:koala",
-          "u22:parrot",
-          "u22:bear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has a long tail and climbs trees, and it loves to eat bananas.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "m-o-n-s-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children hid under the blanket because they thought a ___ lived in the closet.",
-        "fullSentence": "The children hid under the blanket because they thought a monster lived in the closet.",
-        "translation": "孩子們以為衣櫃裡住著怪物，躲進毯子底下。",
-        "clue": "以為衣櫃裡有",
-        "answerEntryId": "u22:monster",
-        "distractorEntryIds": [
-          "u22:dragon",
-          "u22:bat",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a scary imaginary creature from stories and movies.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "m-o-s-q-u-i-t-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A tiny ___ buzzed around my ear all night and left itchy bites on my face.",
-        "fullSentence": "A tiny mosquito buzzed around my ear all night and left itchy bites on my face.",
-        "translation": "小蚊子整晚在我耳邊嗡嗡叫，還在我臉上留下癢癢的包。",
-        "clue": "耳邊嗡嗡叫、咬人",
-        "answerEntryId": "u22:mosquito",
-        "distractorEntryIds": [
-          "u22:bee",
-          "u22:ant",
-          "u22:butterfly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a small flying insect that sucks blood and leaves itchy bumps.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "m-o-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ nibbled a hole in the cheese bag and ran away with a big piece.",
-        "fullSentence": "The mouse nibbled a hole in the cheese bag and ran away with a big piece.",
-        "translation": "老鼠在起司袋上咬出一個洞，叼著一大塊跑了。",
-        "clue": "偷咬起司袋",
-        "answerEntryId": "u22:mouse",
-        "distractorEntryIds": [
-          "u22:rat",
-          "u22:rabbit",
-          "u22:cat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a very small animal with a long thin tail that likes cheese.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "n-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mother bird carried small twigs in her beak to build a ___ on the branch.",
-        "fullSentence": "The mother bird carried small twigs in her beak to build a nest on the branch.",
-        "translation": "鳥媽媽用嘴叼著小樹枝，在樹枝上築巢。",
-        "clue": "用樹枝築成、下蛋用",
-        "answerEntryId": "u22:nest",
-        "distractorEntryIds": [
-          "u22:cage",
-          "u22:wing",
-          "u22:tail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a bird's home, built with twigs high in a tree.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "o-x",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer used a strong ___ to pull the heavy plow across the field.",
-        "fullSentence": "The farmer used a strong ox to pull the heavy plow across the field.",
-        "translation": "農夫用強壯的公牛拉著沉重的犁走過田地。",
-        "clue": "拉犁耕田的動物",
-        "answerEntryId": "u22:ox",
-        "distractorEntryIds": [
-          "u22:cow",
-          "u22:horse",
-          "u22:donkey"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An ___ is a big strong bull that farmers use to pull carts and plows.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "p-a-n-d-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sat against the tree, munching bamboo leaves with its black and white body.",
-        "fullSentence": "The panda sat against the tree, munching bamboo leaves with its black and white body.",
-        "translation": "熊貓靠著樹坐著，黑白相間的身體嚼著竹葉。",
-        "clue": "黑白毛色、吃竹子",
-        "answerEntryId": "u22:panda",
-        "distractorEntryIds": [
-          "u22:koala",
-          "u22:bear",
-          "u22:zebra"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a black and white animal from China that eats bamboo.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "p-a-r-r-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our colorful ___ says hello whenever someone walks through the door.",
-        "fullSentence": "Our colorful parrot says hello whenever someone walks through the door.",
-        "translation": "我們彩色的鸚鵡在有人進門時都會說哈囉。",
-        "clue": "會學人說哈囉",
-        "answerEntryId": "u22:parrot",
-        "distractorEntryIds": [
-          "u22:pigeon",
-          "u22:eagle",
-          "u22:bird"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a bright feathered friend with a curved beak that can learn to talk.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "p-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before you adopt a ___ , you must promise to feed and care for it every day.",
-        "fullSentence": "Before you adopt a pet , you must promise to feed and care for it every day.",
-        "translation": "養寵物前，必須答應每天餵食並照顧牠。",
-        "clue": "要每天餵養照顧",
-        "answerEntryId": "u22:pet",
-        "distractorEntryIds": [
-          "u22:animal",
-          "u22:dog",
-          "u22:cat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is an animal like a puppy or a bunny that people keep at home for company.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "p-i-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The pink ___ rolled in the cool mud to stay comfortable in the hot sun.",
-        "fullSentence": "The pink pig rolled in the cool mud to stay comfortable in the hot sun.",
-        "translation": "粉紅色的豬滾進涼爽的泥巴裡，在烈日下保持舒適。",
-        "clue": "愛在泥巴裡打滾",
-        "answerEntryId": "u22:pig",
-        "distractorEntryIds": [
-          "u22:cow",
-          "u22:hippo",
-          "u22:dog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a fat farm animal with a curly tail that says oink.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "p-i-g-e-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The grey ___ pecked at bread crumbs on the square and flew off when children ran near.",
-        "fullSentence": "The grey pigeon pecked at bread crumbs on the square and flew off when children ran near.",
-        "translation": "灰鴿子在廣場啄麵包屑，孩子一跑近就飛走了。",
-        "clue": "廣場啄麵包屑",
-        "answerEntryId": "u22:pigeon",
-        "distractorEntryIds": [
-          "u22:parrot",
-          "u22:swallow",
-          "u22:hen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a common grey city bird that coos softly.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "p-u-p-p-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tiny ___ wobbled across the floor on legs that were still too weak to run.",
-        "fullSentence": "The tiny puppy wobbled across the floor on legs that were still too weak to run.",
-        "translation": "小小狗用還跑不動的細腿搖搖晃晃地走過地板。",
-        "clue": "剛出生、走路搖晃",
-        "answerEntryId": "u22:puppy",
-        "distractorEntryIds": [
-          "u22:kitten",
-          "u22:dog",
-          "u22:rabbit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a very young canine that is small and playful.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "r-a-b-b-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wiggled its nose, munching on a fresh carrot in the garden.",
-        "fullSentence": "The rabbit wiggled its nose, munching on a fresh carrot in the garden.",
-        "translation": "兔子扭動鼻子，在花園裡啃新鮮的紅蘿蔔。",
-        "clue": "愛啃紅蘿蔔",
-        "answerEntryId": "u22:rabbit",
-        "distractorEntryIds": [
-          "u22:mouse",
-          "u22:rat",
-          "u22:horse"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a small animal with long ears that hops around the garden.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "r-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dirty ___ slipped out of the sewer and darted behind the garbage cans.",
-        "fullSentence": "The dirty rat slipped out of the sewer and darted behind the garbage cans.",
-        "translation": "髒老鼠溜出水溝，竄到垃圾桶後面。",
-        "clue": "從水溝溜出來",
-        "answerEntryId": "u22:rat",
-        "distractorEntryIds": [
-          "u22:mouse",
-          "u22:cockroach",
-          "u22:cat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a bigger, scarier cousin of the tiny tailed one that often lives near garbage.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "s-h-a-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The lifeguard blew his whistle when a ___ fin appeared near the swimmers.",
-        "fullSentence": "The lifeguard blew his whistle when a shark fin appeared near the swimmers.",
-        "translation": "游泳的人附近出現鯊魚背鰭時，救生員吹響了哨子。",
-        "clue": "露出背鰭的危險大魚",
-        "answerEntryId": "u22:shark",
-        "distractorEntryIds": [
-          "u22:whale",
-          "u22:dolphin",
-          "u22:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big dangerous sea fish with rows of sharp teeth.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "s-h-e-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer sheared the thick wool off the ___ to make warm sweaters.",
-        "fullSentence": "The farmer sheared the thick wool off the sheep to make warm sweaters.",
-        "translation": "農夫剪下綿羊厚厚的羊毛，做成保暖的毛衣。",
-        "clue": "身上有厚羊毛",
-        "answerEntryId": "u22:sheep",
-        "distractorEntryIds": [
-          "u22:goat",
-          "u22:cow",
-          "u22:lamb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a farm animal with a woolly coat that says baa.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "s-h-r-i-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The small ___ darted backward through the water by flicking its tail.",
-        "fullSentence": "The small shrimp darted backward through the water by flicking its tail.",
-        "translation": "小蝦子彈動尾巴，在水中向後竄逃。",
-        "clue": "彈尾向後游",
-        "answerEntryId": "u22:shrimp",
-        "distractorEntryIds": [
-          "u22:crab",
-          "u22:fish",
-          "u22:snail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a small sea animal with a curved pink body that we often eat fried.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "s-n-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the rain, a ___ left a shiny silver trail across the garden path.",
-        "fullSentence": "After the rain, a snail left a shiny silver trail across the garden path.",
-        "translation": "雨後，蝸牛在花園小徑上留下一條亮晶晶的痕跡。",
-        "clue": "雨後留下銀色黏液痕",
-        "answerEntryId": "u22:snail",
-        "distractorEntryIds": [
-          "u22:worm",
-          "u22:bug",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a small, slow animal that carries its spiral shell like a little house.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "s-n-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ shed its old skin and left it behind like an empty sleeve.",
-        "fullSentence": "The snake shed its old skin and left it behind like an empty sleeve.",
-        "translation": "蛇蛻下舊皮，留下一層像空袖子般的皮。",
-        "clue": "會蛻皮",
-        "answerEntryId": "u22:snake",
-        "distractorEntryIds": [
-          "u22:dragon",
-          "u22:fox",
-          "u22:monkey"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a long animal with no legs that slides on its belly.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "s-p-i-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ hung quietly in the middle of its web, waiting for flies to get stuck.",
-        "fullSentence": "The spider hung quietly in the middle of its web, waiting for flies to get stuck.",
-        "translation": "蜘蛛安靜地掛在網中央，等蒼蠅自投羅網。",
-        "clue": "守在網中央等獵物",
-        "answerEntryId": "u22:spider",
-        "distractorEntryIds": [
-          "u22:insect",
-          "u22:ant",
-          "u22:bug"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has eight legs and spins a web to catch insects.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "s-w-a-l-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ swooped low over the pond, snapping up insects with its open beak.",
-        "fullSentence": "The swallow swooped low over the pond, snapping up insects with its open beak.",
-        "translation": "燕子低掠過池塘，張嘴捕食昆蟲。",
-        "clue": "低飛捕蟲的小鳥",
-        "answerEntryId": "u22:swallow",
-        "distractorEntryIds": [
-          "u22:eagle",
-          "u22:pigeon",
-          "u22:duck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a small fast bird with a forked tail that flies with quick turns.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "s-w-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The graceful ___ glided across the lake with its long neck curved like a question mark.",
-        "fullSentence": "The graceful swan glided across the lake with its long neck curved like a question mark.",
-        "translation": "優雅的天鵝滑過湖面，長頸彎成問號的形狀。",
-        "clue": "長頸彎彎、滑過湖面",
-        "answerEntryId": "u22:swan",
-        "distractorEntryIds": [
-          "u22:duck",
-          "u22:goose",
-          "u22:eagle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a large white water bird with a very long neck.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "t-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The happy dog wagged its ___ so hard that it knocked the cup off the table.",
-        "fullSentence": "The happy dog wagged its tail so hard that it knocked the cup off the table.",
-        "translation": "狗開心得猛搖尾巴，把桌上的杯子都掃下去了。",
-        "clue": "狗開心時猛搖",
-        "answerEntryId": "u22:tail",
-        "distractorEntryIds": [
-          "u22:wing",
-          "u22:nest",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is the long part at the back of an animal's body.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "t-i-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ stalked silently through the tall grass, its orange fur striped with black.",
-        "fullSentence": "The tiger stalked silently through the tall grass, its orange fur striped with black.",
-        "translation": "老虎悄無聲息地穿行深草，橘色的毛帶著黑色條紋。",
-        "clue": "橘毛黑條紋、悄聲逼近",
-        "answerEntryId": "u22:tiger",
-        "distractorEntryIds": [
-          "u22:lion",
-          "u22:cat",
-          "u22:wolf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a big striped wild cat that lives in Asia.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "t-u-r-k-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "For Thanksgiving, the whole family gathers around a roasted ___.",
-        "fullSentence": "For Thanksgiving, the whole family gathers around a roasted turkey.",
-        "translation": "感恩節時，全家人圍著烤火雞。",
-        "clue": "感恩節大餐的主菜",
-        "answerEntryId": "u22:turkey",
-        "distractorEntryIds": [
-          "u22:chicken",
-          "u22:hen",
-          "u22:duck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a large farm bird with a bare head that we eat at Thanksgiving.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "t-u-r-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The slow ___ carried its heavy shell across the road, ignoring the rushing rabbit.",
-        "fullSentence": "The slow turtle carried its heavy shell across the road, ignoring the rushing rabbit.",
-        "translation": "慢吞吞的烏龜背著重殼過馬路，不理會匆匆的兔子。",
-        "clue": "背殼慢行的動物",
-        "answerEntryId": "u22:turtle",
-        "distractorEntryIds": [
-          "u22:snail",
-          "u22:crab",
-          "u22:frog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a slow animal that hides its head and legs inside a hard shell.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "w-h-a-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The huge ___ surfaced and shot a fountain of water into the air.",
-        "fullSentence": "The huge whale surfaced and shot a fountain of water into the air.",
-        "translation": "巨大的鯨魚浮出水面，噴出高高的水柱。",
-        "clue": "浮出水面噴水柱",
-        "answerEntryId": "u22:whale",
-        "distractorEntryIds": [
-          "u22:shark",
-          "u22:dolphin",
-          "u22:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is the largest animal in the world, and it lives in the sea.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "w-i-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ horses ran free across the plain, with no fences or riders to stop them.",
-        "fullSentence": "The wild horses ran free across the plain, with no fences or riders to stop them.",
-        "translation": "野馬自由地奔過平原，沒有圍欄也沒有騎士阻擋。",
-        "clue": "沒人管、自由奔跑",
-        "answerEntryId": "u22:wild",
-        "distractorEntryIds": [
-          "u18:deep",
-          "u12:fast",
-          "u18:big"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ animal lives in nature without any owner taking care of it.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "w-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bird spread one ___ and then the other, and rose into the blue sky.",
-        "fullSentence": "The bird spread one wing and then the other, and rose into the blue sky.",
-        "translation": "鳥先後張開兩邊翅膀，飛上藍天。",
-        "clue": "張開才能飛",
-        "answerEntryId": "u22:wing",
-        "distractorEntryIds": [
-          "u22:tail",
-          "u22:nest",
-          "u22:pet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is the part of a bird's body that lets it fly.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "w-o-l-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At midnight, the hungry ___ howled at the full moon from the top of the hill.",
-        "fullSentence": "At midnight, the hungry wolf howled at the full moon from the top of the hill.",
-        "translation": "深夜，飢餓的狼在山頂對著滿月嚎叫。",
-        "clue": "對著月亮嚎叫",
-        "answerEntryId": "u22:wolf",
-        "distractorEntryIds": [
-          "u22:fox",
-          "u22:dog",
-          "u22:lion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a fierce wild cousin of the dog that lives in a pack.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "w-o-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The early bird caught a long ___ and fed it to her hungry chicks.",
-        "fullSentence": "The early bird caught a long worm and fed it to her hungry chicks.",
-        "translation": "早起的鳥捉到一條長蟲，餵給餓了的雛鳥。",
-        "clue": "鳥捉來餵雛鳥",
-        "answerEntryId": "u22:worm",
-        "distractorEntryIds": [
-          "u22:insect",
-          "u22:bug",
-          "u22:snake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a long, soft creature with no legs that lives in the soil.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "z-e-b-r-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "From far away, the stripes of the ___ made it hard to count the animals.",
-        "fullSentence": "From far away, the stripes of the zebra made it hard to count the animals.",
-        "translation": "遠遠看去，斑馬的條紋讓人數不清到底有幾隻。",
-        "clue": "條紋讓個體難分辨",
-        "answerEntryId": "u22:zebra",
-        "distractorEntryIds": [
-          "u22:horse",
-          "u22:donkey",
-          "u22:tiger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is an African animal with black and white stripes all over its body.",

@@ -11,18 +11,6 @@
       "spellingHint": "a-b-s-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken was ___ from school because he had a fever.",
-        "fullSentence": "Ken was absent from school because he had a fever.",
-        "translation": "Ken 因為發燒沒有到校。",
-        "clue": "身體不舒服所以沒有到場",
-        "answerEntryId": "u13:absent",
-        "distractorEntryIds": [
-          "u13:present",
-          "u13:important",
-          "u13:encouraging"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher checks the list to see who is ___ today.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-c-t-i-v-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school plans a fun ___ for the last day of the semester.",
-        "fullSentence": "The school plans a fun activity for the last day of the semester.",
-        "translation": "學校在學期最後一天安排了一個有趣的活動。",
-        "clue": "學校安排大家參與的事情",
-        "answerEntryId": "u13:activity",
-        "distractorEntryIds": [
-          "u13:joke",
-          "u13:sheet",
-          "u13:method"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our class joined an outdoor ___ in the park last Friday.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-d-v-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before the test, our teacher gave us some helpful ___.",
-        "fullSentence": "Before the test, our teacher gave us some helpful advice.",
-        "translation": "考試前，老師給了我們一些有用的建議。",
-        "clue": "老師提供的幫助意見",
-        "answerEntryId": "u13:advice",
-        "distractorEntryIds": [
-          "u13:effort",
-          "u13:example",
-          "u13:playground"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you give me ___ on how to learn English faster?",
@@ -269,18 +233,6 @@
       "spellingHint": "a-d-v-i-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher will ___ you to review your notes before the exam.",
-        "fullSentence": "The teacher will advise you to review your notes before the exam.",
-        "translation": "老師會建議你在考試前複習筆記。",
-        "clue": "提出意見叫你去做某事",
-        "answerEntryId": "u13:advise",
-        "distractorEntryIds": [
-          "u13:count",
-          "u13:study",
-          "u13:decorate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I asked my teacher to ___ me about which class to take.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-l-p-h-a-b-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children learn the ___ before they can read words.",
-        "fullSentence": "Children learn the alphabet before they can read words.",
-        "translation": "孩子先學會字母，才能閱讀單字。",
-        "clue": "認字之前要先學的東西",
-        "answerEntryId": "u13:alphabet",
-        "distractorEntryIds": [
-          "u13:quiz",
-          "u13:library",
-          "u13:problem"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Kindergarten students sing a song to help them remember the ___.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-n-s-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Check your ___ with a partner before you hand in the test.",
-        "fullSentence": "Check your answer with a partner before you hand in the test.",
-        "translation": "交考卷之前，先和同學核對答案。",
-        "clue": "題目對應的正確內容",
-        "answerEntryId": "u13:answer",
-        "distractorEntryIds": [
-          "u13:friend",
-          "u13:rest",
-          "u13:score"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ to question five is easy to find.",
@@ -527,18 +455,6 @@
       "spellingHint": "a-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students use paint and brushes in the ___ room.",
-        "fullSentence": "Students use paint and brushes in the art room.",
-        "translation": "學生在美術教室裡使用顏料和畫筆。",
-        "clue": "畫畫、做手工的專科教室",
-        "answerEntryId": "u13:art",
-        "distractorEntryIds": [
-          "u13:swing",
-          "u13:campus",
-          "u13:discussion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My favorite subject is ___ because I love drawing.",
@@ -613,18 +529,6 @@
       "spellingHint": "a-r-t-i-c-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The newspaper printed a long ___ about our school festival.",
-        "fullSentence": "The newspaper printed a long article about our school festival.",
-        "translation": "報紙刊登了一篇關於我們學校園遊會的長篇報導。",
-        "clue": "報紙上一篇完整的作品",
-        "answerEntryId": "u13:article",
-        "distractorEntryIds": [
-          "u13:spelling",
-          "u13:chemical",
-          "u13:trouble"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our homework is to read a short ___ in the magazine.",
@@ -699,18 +603,6 @@
       "spellingHint": "a-s-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you don't know the way, ___ someone for help.",
-        "fullSentence": "If you don't know the way, ask someone for help.",
-        "translation": "如果你不認得路，就請人幫忙。",
-        "clue": "向別人提出請求",
-        "answerEntryId": "u13:ask",
-        "distractorEntryIds": [
-          "u13:practice",
-          "u13:advise",
-          "u13:describe"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "May I ___ you a question about the homework?",
@@ -785,18 +677,6 @@
       "spellingHint": "a-t-t-e-n-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students paid close ___ while the teacher explained the rule.",
-        "fullSentence": "The students paid close attention while the teacher explained the rule.",
-        "translation": "老師解釋規則時，學生們非常專心聽講。",
-        "clue": "專心聽講時所付出的東西",
-        "answerEntryId": "u13:attention",
-        "distractorEntryIds": [
-          "u13:science",
-          "u13:marker",
-          "u13:semester"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Listen carefully and pay ___ to the teacher.",
@@ -871,18 +751,6 @@
       "spellingHint": "b-a-c-k-p-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tom carries his textbooks to school in a heavy ___.",
-        "fullSentence": "Tom carries his textbooks to school in a heavy backpack.",
-        "translation": "Tom 用一個很重的背包把課本帶到學校。",
-        "clue": "學生背著裝書的袋子",
-        "answerEntryId": "u13:backpack",
-        "distractorEntryIds": [
-          "u13:workbook",
-          "u13:entrance",
-          "u13:word"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My water bottle is in the side pocket of my ___.",
@@ -957,18 +825,6 @@
       "spellingHint": "b-a-s-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every student should learn a few ___ English phrases first.",
-        "fullSentence": "Every student should learn a few basic English phrases first.",
-        "translation": "每位學生都應該先學幾個基本的英文片語。",
-        "clue": "最基礎、一開始就要學的",
-        "answerEntryId": "u13:basic",
-        "distractorEntryIds": [
-          "u13:false",
-          "u13:easy",
-          "u13:right"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Reading and writing are ___ skills for every student.",
@@ -1043,18 +899,6 @@
       "spellingHint": "b-a-s-i-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Daily review is the ___ of good learning.",
-        "fullSentence": "Daily review is the basis of good learning.",
-        "translation": "每天複習是良好學習的基礎。",
-        "clue": "一切學習所依靠的根本",
-        "answerEntryId": "u13:basis",
-        "distractorEntryIds": [
-          "u13:chemical",
-          "u13:trouble",
-          "u13:break"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Vocabulary is the ___ of learning any new subject.",
@@ -1129,18 +973,6 @@
       "spellingHint": "b-e-g-i-n-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Don't worry if you can't swim yet; this class is just for a ___.",
-        "fullSentence": "Don't worry if you can't swim yet; this class is just for a beginner.",
-        "translation": "還不會游泳也別擔心；這個班就是給初學者的。",
-        "clue": "給剛開始學的人上的班",
-        "answerEntryId": "u13:beginner",
-        "distractorEntryIds": [
-          "u13:activity",
-          "u13:test",
-          "u13:example"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She is still a ___, so she can only play simple songs on the piano.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "b-e-g-i-n-n-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the ___ of each class, the teacher checks attendance.",
-        "fullSentence": "At the beginning of each class, the teacher checks attendance.",
-        "translation": "每堂課開始時，老師會點名。",
-        "clue": "上課最開頭的時間點",
-        "answerEntryId": "u13:beginning",
-        "distractorEntryIds": [
-          "u13:sheet",
-          "u13:method",
-          "u13:grade"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The film was boring at the ___ but got exciting later.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "b-e-h-a-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students should ___ politely when they visit the museum.",
-        "fullSentence": "Students should behave politely when they visit the museum.",
-        "translation": "學生參觀博物館時應該表現得有禮貌。",
-        "clue": "表現出好的言行舉止",
-        "answerEntryId": "u13:behave",
-        "distractorEntryIds": [
-          "u13:learn",
-          "u13:underline",
-          "u13:read"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher asked the boys to ___ quietly in the hallway.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "b-e-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "When the ___ rings, all the students run out of the classroom.",
-        "fullSentence": "When the bell rings, all the students run out of the classroom.",
-        "translation": "鐘聲一響，所有學生都跑出教室。",
-        "clue": "學校裡表示上課或下課的響聲",
-        "answerEntryId": "u13:bell",
-        "distractorEntryIds": [
-          "u13:classmate",
-          "u13:history",
-          "u13:target"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school ___ rings at eight every morning.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "b-i-o-l-o-g-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we looked at plant cells under the microscope.",
-        "fullSentence": "In biology class, we looked at plant cells under the microscope.",
-        "translation": "在生物課上，我們用顯微鏡觀察植物細胞。",
-        "clue": "研究生物的科目",
-        "answerEntryId": "u13:biology",
-        "distractorEntryIds": [
-          "u13:bell",
-          "u13:student",
-          "u13:swing"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My favorite subject is ___ because I love learning about animals.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "b-l-a-c-k-b-o-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher wrote the homework on the ___ with white chalk.",
-        "fullSentence": "The teacher wrote the homework on the blackboard with white chalk.",
-        "translation": "老師用白色粉筆把作業寫在黑板上。",
-        "clue": "教室裡用粉筆寫字的深色板子",
-        "answerEntryId": "u13:blackboard",
-        "distractorEntryIds": [
-          "u13:chemical",
-          "u13:trouble",
-          "u13:break"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everyone copied the date from the ___ into their notebooks.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "b-l-a-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Don't ___ your partner when the plan goes wrong; work together.",
-        "fullSentence": "Don't blame your partner when the plan goes wrong; work together.",
-        "translation": "計畫出錯時不要怪你的夥伴；要一起合作。",
-        "clue": "把過錯算在別人頭上",
-        "answerEntryId": "u13:blame",
-        "distractorEntryIds": [
-          "u13:explain",
-          "u13:speak",
-          "u13:prepare"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's not fair to ___ the whole team for one person's error.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "b-l-a-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fill in each ___ with the correct word from the box.",
-        "fullSentence": "Fill in each blank with the correct word from the box.",
-        "translation": "從方框中選出正確的單字填入每個空格。",
-        "clue": "試卷上要填字的空位",
-        "answerEntryId": "u13:blank",
-        "distractorEntryIds": [
-          "u13:history",
-          "u13:target",
-          "u13:joke"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The form asks you to write your phone number in the ___.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "b-o-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The exam results were posted on the ___ outside the office.",
-        "fullSentence": "The exam results were posted on the board outside the office.",
-        "translation": "考試成績張貼在辦公室外的佈告欄上。",
-        "clue": "用來張貼公告的板子",
-        "answerEntryId": "u13:board",
-        "distractorEntryIds": [
-          "u13:example",
-          "u13:playground",
-          "u13:education"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please pin your drawing to the class ___ so everyone can see it.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "b-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She borrowed an interesting ___ from the school library.",
-        "fullSentence": "She borrowed an interesting book from the school library.",
-        "translation": "她從學校圖書館借了一本有趣的書。",
-        "clue": "圖書館裡可以借閱的讀物",
-        "answerEntryId": "u13:book",
-        "distractorEntryIds": [
-          "u13:test",
-          "u13:example",
-          "u13:playground"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My brother reads a ___ every night before bed.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "b-r-e-a-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students have a ten-minute ___ between the second and third classes.",
-        "fullSentence": "Students have a ten-minute break between the second and third classes.",
-        "translation": "學生在第二節和第三節課之間有十分鐘的下課時間。",
-        "clue": "兩堂課之間的休息時間",
-        "answerEntryId": "u13:break",
-        "distractorEntryIds": [
-          "u13:joke",
-          "u13:sheet",
-          "u13:method"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The workers drank tea during their lunch ___.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "c-a-m-p-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students are not allowed to leave the ___ during class hours.",
-        "fullSentence": "Students are not allowed to leave the campus during class hours.",
-        "translation": "上課時間學生不可以離開校園。",
-        "clue": "學校建築與場地的整體範圍",
-        "answerEntryId": "u13:campus",
-        "distractorEntryIds": [
-          "u13:word",
-          "u13:spelling",
-          "u13:chemical"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The new library is the tallest building on ___ at our school.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "c-h-a-l-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher picked up a piece of ___ to write on the blackboard.",
-        "fullSentence": "The teacher picked up a piece of chalk to write on the blackboard.",
-        "translation": "老師拿起一支粉筆在黑板上寫字。",
-        "clue": "能在黑板上寫出白色字跡的東西",
-        "answerEntryId": "u13:chalk",
-        "distractorEntryIds": [
-          "u13:grade",
-          "u13:title",
-          "u13:workbook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a box of ___ next to the board eraser.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "c-h-a-p-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The history ___ we are studying now is about ancient China.",
-        "fullSentence": "The history chapter we are studying now is about ancient China.",
-        "translation": "我們現在上的歷史章節是關於古代中國。",
-        "clue": "課本中有編號的大單元",
-        "answerEntryId": "u13:chapter",
-        "distractorEntryIds": [
-          "u13:beginning",
-          "u13:textbook",
-          "u13:conversation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The first ___ of the novel introduces the main character.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "c-h-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The student tried to ___ on the quiz by hiding notes in his sleeve.",
-        "fullSentence": "The student tried to cheat on the quiz by hiding notes in his sleeve.",
-        "translation": "這個學生想把小抄藏在袖子裡在小考時作弊。",
-        "clue": "用不正當的方法得到分數",
-        "answerEntryId": "u13:cheat",
-        "distractorEntryIds": [
-          "u13:copy",
-          "u13:blame",
-          "u13:pronounce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is wrong to ___ during an exam.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "c-h-e-e-r-l-e-a-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the basketball game, a ___ waved her pom-poms and shouted for the team.",
-        "fullSentence": "At the basketball game, a cheerleader waved her pom-poms and shouted for the team.",
-        "translation": "籃球賽時，一位啦啦隊員揮舞彩球為球隊加油。",
-        "clue": "揮彩球、帶動加油的人",
-        "answerEntryId": "u13:cheerleader",
-        "distractorEntryIds": [
-          "u13:textbook",
-          "u13:conversation",
-          "u13:math"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister is a ___ for the school basketball team.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "c-h-e-m-i-c-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The science teacher mixed a blue ___ with a clear one, and the liquid turned green.",
-        "fullSentence": "The science teacher mixed a blue chemical with a clear one, and the liquid turned green.",
-        "translation": "自然老師把藍色化學藥品和透明的一種混合，液體變成了綠色。",
-        "clue": "實驗中被混合的藥劑",
-        "answerEntryId": "u13:chemical",
-        "distractorEntryIds": [
-          "u13:bell",
-          "u13:student",
-          "u13:swing"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wear gloves when you touch a dangerous ___ in the lab.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "c-h-e-m-i-s-t-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we learned how iron turns into rust.",
-        "fullSentence": "In chemistry class, we learned how iron turns into rust.",
-        "translation": "在化學課上，我們學到鐵如何變成鏽。",
-        "clue": "研究物質變化的科目",
-        "answerEntryId": "u13:chemistry",
-        "distractorEntryIds": [
-          "u13:ruler",
-          "u13:beginning",
-          "u13:textbook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mixing vinegar and baking soda is a fun ___ experiment.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "c-h-i-n-e-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we learned to write beautiful characters with a brush.",
-        "fullSentence": "In Chinese class, we learned to write beautiful characters with a brush.",
-        "translation": "在國文課上，我們學用毛筆寫出漂亮的字。",
-        "clue": "學習本國語言與文字的課",
-        "answerEntryId": "u13:Chinese",
-        "distractorEntryIds": [
-          "u13:friend",
-          "u13:rest",
-          "u13:score"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandmother speaks ___, so I practice with her every weekend.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "c-l-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole ___ went on a field trip to the museum.",
-        "fullSentence": "The whole class went on a field trip to the museum.",
-        "translation": "全班一起到博物館校外教學。",
-        "clue": "一起上課的同一群學生",
-        "answerEntryId": "u13:class",
-        "distractorEntryIds": [
-          "u13:student",
-          "u13:swing",
-          "u13:campus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The first ___ of the day starts at eight o'clock.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "c-l-a-s-s-l-e-a-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ collects homework from every student before the first lesson.",
-        "fullSentence": "The class leader collects homework from every student before the first lesson.",
-        "translation": "班長在第一節課前向每位同學收作業。",
-        "clue": "班上帶頭幫老師做事的學生",
-        "answerEntryId": "u13:class leader",
-        "distractorEntryIds": [
-          "u13:tip",
-          "u13:class",
-          "u13:bell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ was chosen because she is responsible and kind.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "c-l-a-s-s-m-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy and Ken study in the same room, so Amy is Ken's ___.",
-        "fullSentence": "Amy and Ken study in the same room, so Amy is Ken's classmate.",
-        "translation": "Amy 和 Ken 在同一間教室上課，所以 Amy 是 Ken 的同班同學。",
-        "clue": "在同一個班級上課的人",
-        "answerEntryId": "u13:classmate",
-        "distractorEntryIds": [
-          "u13:meaning",
-          "u13:science",
-          "u13:marker"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I borrowed an eraser from my ___.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "c-l-a-s-s-r-o-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students lined up outside the ___ before the lesson started.",
-        "fullSentence": "The students lined up outside the classroom before the lesson started.",
-        "translation": "上課前學生們在教室外排隊。",
-        "clue": "學生上課的房間",
-        "answerEntryId": "u13:classroom",
-        "distractorEntryIds": [
-          "u13:target",
-          "u13:joke",
-          "u13:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please put your bag under your desk in the ___.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "c-l-u-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every Wednesday afternoon, students go to their favorite ___.",
-        "fullSentence": "Every Wednesday afternoon, students go to their favorite club.",
-        "translation": "每個星期三下午，學生們去參加自己喜歡的社團。",
-        "clue": "課後依興趣參加的團體",
-        "answerEntryId": "u13:club",
-        "distractorEntryIds": [
-          "u13:break",
-          "u13:language",
-          "u13:diary"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The chess ___ meets every Friday in room 101.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "c-o-l-l-e-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After she finishes senior high school, she plans to go to ___.",
-        "fullSentence": "After she finishes senior high school, she plans to go to college.",
-        "translation": "高中畢業後，她打算去讀大學。",
-        "clue": "高中之後的求學階段",
-        "answerEntryId": "u13:college",
-        "distractorEntryIds": [
-          "u13:exercise",
-          "u13:picture",
-          "u13:skill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He studies computer science at a famous ___.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "c-o-m-p-a-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked us to ___ the two pictures and find five differences.",
-        "fullSentence": "The teacher asked us to compare the two pictures and find five differences.",
-        "translation": "老師要我們比較兩張圖片並找出五個不同點。",
-        "clue": "找出兩樣東西的異同",
-        "answerEntryId": "u13:compare",
-        "distractorEntryIds": [
-          "u13:encourage",
-          "u13:spell",
-          "u13:copy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's interesting to ___ prices before you buy a gift.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "c-o-m-p-l-e-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You have twenty minutes to ___ the reading test.",
-        "fullSentence": "You have twenty minutes to complete the reading test.",
-        "translation": "你有二十分鐘完成閱讀測驗。",
-        "clue": "把整個測驗做完",
-        "answerEntryId": "u13:complete",
-        "distractorEntryIds": [
-          "u13:inspire",
-          "u13:improve",
-          "u13:repeat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Did you ___ your homework yet?",
@@ -3451,18 +2971,6 @@
       "spellingHint": "c-o-n-v-e-r-s-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The two friends had a long ___ on the phone last night.",
-        "fullSentence": "The two friends had a long conversation on the phone last night.",
-        "translation": "這兩個朋友昨晚在電話上聊了很久。",
-        "clue": "兩人一來一往的談話",
-        "answerEntryId": "u13:conversation",
-        "distractorEntryIds": [
-          "u13:ruler",
-          "u13:beginning",
-          "u13:textbook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please practice the ___ with your partner in English class.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "c-o-p-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the new words three times in your notebook.",
-        "fullSentence": "Please copy the new words three times in your notebook.",
-        "translation": "請把新單字抄寫三遍在筆記本裡。",
-        "clue": "照著原樣寫下來",
-        "answerEntryId": "u13:copy",
-        "distractorEntryIds": [
-          "u13:return",
-          "u13:introduce",
-          "u13:solve"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't ___ your friend's homework; do your own work.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "c-o-r-r-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Only one student gave the ___ answer to the last question.",
-        "fullSentence": "Only one student gave the correct answer to the last question.",
-        "translation": "只有一位學生答對了最後一題。",
-        "clue": "和題目標準答案一致的",
-        "answerEntryId": "u13:correct",
-        "distractorEntryIds": [
-          "u13:difficult",
-          "u13:false",
-          "u13:easy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher put a big check next to every ___ sentence.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "c-o-u-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the students before the bus leaves.",
-        "fullSentence": "Please count the students before the bus leaves.",
-        "translation": "公車出發前請清點學生人數。",
-        "clue": "算出人數有多少",
-        "answerEntryId": "u13:count",
-        "distractorEntryIds": [
-          "u13:learn",
-          "u13:underline",
-          "u13:read"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you ___ how many books are on the shelf?",
@@ -3795,18 +3267,6 @@
       "spellingHint": "c-o-u-r-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This semester she chose an online English ___.",
-        "fullSentence": "This semester she chose an online English course.",
-        "translation": "這學期她選了一門線上英文課程。",
-        "clue": "有計畫、有期程的一門課",
-        "answerEntryId": "u13:course",
-        "distractorEntryIds": [
-          "u13:trouble",
-          "u13:break",
-          "u13:language"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The computer ___ lasts for three months.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "c-r-a-y-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kindergartener colored the picture with a bright ___.",
-        "fullSentence": "The kindergartener colored the picture with a bright crayon.",
-        "translation": "幼兒園的孩子用鮮豔的蠟筆為圖畫上色。",
-        "clue": "幼兒常用的彩色畫筆",
-        "answerEntryId": "u13:crayon",
-        "distractorEntryIds": [
-          "u13:sentence",
-          "u13:activity",
-          "u13:test"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My little brother broke every ___ in the new box.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "d-e-c-o-r-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students will ___ the classroom with paper flowers for the party.",
-        "fullSentence": "The students will decorate the classroom with paper flowers for the party.",
-        "translation": "學生們要用紙花布置教室迎接派對。",
-        "clue": "用飾品把場地弄漂亮",
-        "answerEntryId": "u13:decorate",
-        "distractorEntryIds": [
-          "u13:complete",
-          "u13:punish",
-          "u13:behave"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom helped me ___ the Christmas tree with lights.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "d-e-s-c-r-i-b-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The witness tried to ___ the man's face to the police.",
-        "fullSentence": "The witness tried to describe the man's face to the police.",
-        "translation": "目擊者試著向警察描述那個男人的長相。",
-        "clue": "用話語說出人事物長什麼樣",
-        "answerEntryId": "u13:describe",
-        "distractorEntryIds": [
-          "u13:mean",
-          "u13:practice",
-          "u13:advise"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In your own words, ___ what you saw on the way to school.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "d-i-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy keeps a ___ and writes in it before going to sleep.",
-        "fullSentence": "Amy keeps a diary and writes in it before going to sleep.",
-        "translation": "Amy 有寫日記的習慣，睡前會寫幾句。",
-        "clue": "每天記錄生活的小本子",
-        "answerEntryId": "u13:diary",
-        "distractorEntryIds": [
-          "u13:crayon",
-          "u13:pencil",
-          "u13:sentence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister hides her ___ under her pillow so nobody can read it.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "d-i-c-t-i-o-n-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you don't know a word, look it up in the ___.",
-        "fullSentence": "If you don't know a word, look it up in the dictionary.",
-        "translation": "如果不懂某個字，就查字典。",
-        "clue": "可以查單字意思的書",
-        "answerEntryId": "u13:dictionary",
-        "distractorEntryIds": [
-          "u13:diary",
-          "u13:goal",
-          "u13:crayon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The English-Chinese ___ is on the shelf behind the teacher's desk.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "d-i-f-f-i-c-u-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The last question on the test was too ___ for most students.",
-        "fullSentence": "The last question on the test was too difficult for most students.",
-        "translation": "考卷的最後一題對大多數學生來說太難了。",
-        "clue": "多數人不會做、不容易的",
-        "answerEntryId": "u13:difficult",
-        "distractorEntryIds": [
-          "u13:basic",
-          "u13:skillful",
-          "u13:useful"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is ___ to learn two languages at the same time.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "d-i-f-f-i-c-u-l-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She finished the puzzle without any ___.",
-        "fullSentence": "She finished the puzzle without any difficulty.",
-        "translation": "她毫不費力地完成了拼圖。",
-        "clue": "做某事時遇到的難處",
-        "answerEntryId": "u13:difficulty",
-        "distractorEntryIds": [
-          "u13:target",
-          "u13:joke",
-          "u13:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "If you have ___ with the homework, ask me after class.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "d-i-s-c-u-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teachers will ___ the new school rules at the meeting.",
-        "fullSentence": "The teachers will discuss the new school rules at the meeting.",
-        "translation": "老師們將在會議中討論新的校規。",
-        "clue": "大家一起談論並交換意見",
-        "answerEntryId": "u13:discuss",
-        "distractorEntryIds": [
-          "u13:examine",
-          "u13:encourage",
-          "u13:spell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We need to ___ where to go for the class trip.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "d-i-s-c-u-s-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After a long ___, the class finally chose a name for the team.",
-        "fullSentence": "After a long discussion, the class finally chose a name for the team.",
-        "translation": "經過長時間的討論，全班終於選出了隊名。",
-        "clue": "大家交換意見的過程",
-        "answerEntryId": "u13:discussion",
-        "distractorEntryIds": [
-          "u13:music",
-          "u13:classmate",
-          "u13:history"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher led a ___ about the school rules.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "e-a-s-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This word is ___ to spell because it has only three letters.",
-        "fullSentence": "This word is easy to spell because it has only three letters.",
-        "translation": "這個單字很好拼，因為只有三個字母。",
-        "clue": "字母少所以不難",
-        "answerEntryId": "u13:easy",
-        "distractorEntryIds": [
-          "u13:TRUE",
-          "u13:final",
-          "u13:wrong"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The beginners' class starts with ___ questions.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "e-d-u-c-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The government spends a lot of money on ___.",
-        "fullSentence": "The government spends a lot of money on education.",
-        "translation": "政府花很多錢在教育上。",
-        "clue": "學校提供的學習與培育",
-        "answerEntryId": "u13:education",
-        "distractorEntryIds": [
-          "u13:goal",
-          "u13:crayon",
-          "u13:pencil"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandparents believe a good ___ can change a person's life.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "e-f-f-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Learning a language takes time and ___.",
-        "fullSentence": "Learning a language takes time and effort.",
-        "translation": "學語言需要時間和努力。",
-        "clue": "達成目標要付出的心力",
-        "answerEntryId": "u13:effort",
-        "distractorEntryIds": [
-          "u13:rest",
-          "u13:score",
-          "u13:object"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She made a big ___ to finish the project on time.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "e-l-e-m-e-n-t-a-r-y-s-c-h-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children usually start ___ at the age of six.",
-        "fullSentence": "Children usually start elementary school at the age of six.",
-        "translation": "孩子通常六歲開始上小學。",
-        "clue": "六歲孩子開始就讀的學校",
-        "answerEntryId": "u13:elementary school",
-        "distractorEntryIds": [
-          "u13:semester",
-          "u13:gym",
-          "u13:knowledge"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a big playground next to the ___.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "e-m-p-h-a-s-i-z-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The coach will ___ the need to warm up before every game.",
-        "fullSentence": "The coach will emphasize the need to warm up before every game.",
-        "translation": "教練會強調每場比賽前都要熱身。",
-        "clue": "特別著重指出某事的重要",
-        "answerEntryId": "u13:emphasize",
-        "distractorEntryIds": [
-          "u13:read",
-          "u13:tell",
-          "u13:ask"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our teacher likes to ___ the main points with a red pen.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "e-n-c-o-u-r-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her parents ___ her to try out for the school team.",
-        "fullSentence": "Her parents encourage her to try out for the school team.",
-        "translation": "她的父母鼓勵她去參加球隊選拔。",
-        "clue": "給人打氣、支持去做",
-        "answerEntryId": "u13:encourage",
-        "distractorEntryIds": [
-          "u13:discuss",
-          "u13:fail",
-          "u13:say"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The coach will ___ the players by shouting, You can do it!",
@@ -5171,18 +4451,6 @@
       "spellingHint": "e-n-c-o-u-r-a-g-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher's ___ words helped the nervous student relax.",
-        "fullSentence": "The teacher's encouraging words helped the nervous student relax.",
-        "translation": "老師鼓舞人心的話讓緊張的學生放鬆下來。",
-        "clue": "讓人恢復信心的話語",
-        "answerEntryId": "u13:encouraging",
-        "distractorEntryIds": [
-          "u13:basic",
-          "u13:skillful",
-          "u13:useful"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her smile was ___ to everyone on the team.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "e-n-e-r-g-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After a good night's sleep, the students had more ___ in class.",
-        "fullSentence": "After a good night's sleep, the students had more energy in class.",
-        "translation": "睡飽之後，學生上課更有精神。",
-        "clue": "睡飽後充沛的精神",
-        "answerEntryId": "u13:energy",
-        "distractorEntryIds": [
-          "u13:conversation",
-          "u13:math",
-          "u13:friend"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Young children seem to have endless ___.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "e-n-g-i-n-e-e-r-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bridge took five years of careful ___ to finish.",
-        "fullSentence": "The bridge took five years of careful engineering to finish.",
-        "translation": "這座橋經過五年的細心工程才完成。",
-        "clue": "設計與建造橋梁的專業",
-        "answerEntryId": "u13:engineering",
-        "distractorEntryIds": [
-          "u13:workbook",
-          "u13:entrance",
-          "u13:word"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She wants to study ___ and build robots.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "e-n-g-l-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We practice speaking ___ with our foreign teacher twice a week.",
-        "fullSentence": "We practice speaking English with our foreign teacher twice a week.",
-        "translation": "我們每週兩次跟外師練習說英語。",
-        "clue": "外國老師教的語言",
-        "answerEntryId": "u13:English",
-        "distractorEntryIds": [
-          "u13:break",
-          "u13:language",
-          "u13:diary"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My favorite subject is ___ because I like watching movies without subtitles.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "e-n-t-r-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Visitors must sign in at the school's front ___.",
-        "fullSentence": "Visitors must sign in at the school's front entrance.",
-        "translation": "訪客必須在學校正門入口登記。",
-        "clue": "進入學校的地方",
-        "answerEntryId": "u13:entrance",
-        "distractorEntryIds": [
-          "u13:bell",
-          "u13:student",
-          "u13:swing"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The main ___ of the station is very crowded at rush hour.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "e-n-v-e-l-o-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before mailing the card, write the address on the ___.",
-        "fullSentence": "Before mailing the card, write the address on the envelope.",
-        "translation": "寄卡片前，先把地址寫在信封上。",
-        "clue": "寫地址、裝信的紙袋",
-        "answerEntryId": "u13:envelope",
-        "distractorEntryIds": [
-          "u13:method",
-          "u13:grade",
-          "u13:title"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma keeps every birthday card in its ___.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "e-r-a-s-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I made a mistake, so I reached for my ___.",
-        "fullSentence": "I made a mistake, so I reached for my eraser.",
-        "translation": "我寫錯了，所以伸手拿橡皮擦。",
-        "clue": "寫錯時用來擦掉的文具",
-        "answerEntryId": "u13:eraser",
-        "distractorEntryIds": [
-          "u13:music",
-          "u13:classmate",
-          "u13:history"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is an ___ in my pencil box.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "e-r-r-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The computer stopped because of a serious ___.",
-        "fullSentence": "The computer stopped because of a serious error.",
-        "translation": "電腦因為一個嚴重的錯誤而停止運作。",
-        "clue": "系統或計算中的問題",
-        "answerEntryId": "u13:error",
-        "distractorEntryIds": [
-          "u13:title",
-          "u13:workbook",
-          "u13:entrance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a spelling ___ in the third line.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "e-x-a-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Nobody knows the ___ number of stars in the sky.",
-        "fullSentence": "Nobody knows the exact number of stars in the sky.",
-        "translation": "沒有人知道天上星星的確切數量。",
-        "clue": "一個不多、一個不少的正確數字",
-        "answerEntryId": "u13:exact",
-        "distractorEntryIds": [
-          "u13:useful",
-          "u13:difficult",
-          "u13:false"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please tell me the ___ time the train leaves.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "e-x-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She stayed up late studying for the history ___.",
-        "fullSentence": "She stayed up late studying for the history exam.",
-        "translation": "她為了歷史考試熬夜讀書。",
-        "clue": "需要準備的重大測驗",
-        "answerEntryId": "u13:exam",
-        "distractorEntryIds": [
-          "u13:discussion",
-          "u13:music",
-          "u13:classmate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The final ___ covers everything we learned this year.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "e-x-a-m-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher will ___ our notebooks to see if we took notes.",
-        "fullSentence": "The teacher will examine our notebooks to see if we took notes.",
-        "translation": "老師會檢查我們的筆記本，看看有沒有做筆記。",
-        "clue": "仔細查看以確認內容",
-        "answerEntryId": "u13:examine",
-        "distractorEntryIds": [
-          "u13:repeat",
-          "u13:mean",
-          "u13:practice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor will ___ the cut on his arm carefully.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "e-x-a-m-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher wrote an ___ of a good answer on the blackboard.",
-        "fullSentence": "The teacher wrote an example of a good answer on the blackboard.",
-        "translation": "老師在黑板上寫了一個好答案的範例。",
-        "clue": "用來說明、示範的實例",
-        "answerEntryId": "u13:example",
-        "distractorEntryIds": [
-          "u13:discussion",
-          "u13:music",
-          "u13:classmate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please follow the ___ at the top of the page.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "e-x-e-r-c-i-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Do ___ five for homework tonight.",
-        "fullSentence": "Do exercise five for homework tonight.",
-        "translation": "今晚的功課是做練習五。",
-        "clue": "課本裡有編號的練習題",
-        "answerEntryId": "u13:exercise",
-        "distractorEntryIds": [
-          "u13:pin",
-          "u13:English",
-          "u13:thought"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Swimming is good ___ for the whole body.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "e-x-p-l-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher will ___ the new grammar rule with pictures.",
-        "fullSentence": "The teacher will explain the new grammar rule with pictures.",
-        "translation": "老師會用圖片解釋新的文法規則。",
-        "clue": "讓人聽懂道理",
-        "answerEntryId": "u13:explain",
-        "distractorEntryIds": [
-          "u13:speak",
-          "u13:prepare",
-          "u13:review"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I don't understand; can you ___ it again?",
@@ -6375,18 +5487,6 @@
       "spellingHint": "f-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you don't study, you may ___ the test.",
-        "fullSentence": "If you don't study, you may fail the test.",
-        "translation": "如果不讀書，你可能會考不及格。",
-        "clue": "分數不到標準",
-        "answerEntryId": "u13:fail",
-        "distractorEntryIds": [
-          "u13:ask",
-          "u13:listen",
-          "u13:complete"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She was sad to ___ her driving test again.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "f-a-l-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The statement is ___ because the earth goes around the sun, not the other way.",
-        "fullSentence": "The statement is false because the earth goes around the sun, not the other way.",
-        "translation": "這個敘述是錯的，因為是地球繞著太陽轉，不是相反。",
-        "clue": "與事實不符的敘述",
-        "answerEntryId": "u13:false",
-        "distractorEntryIds": [
-          "u13:absent",
-          "u13:correct",
-          "u13:present"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mark the statement true or ___.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "f-a-u-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The broken window was not my ___; I was at home.",
-        "fullSentence": "The broken window was not my fault; I was at home.",
-        "translation": "窗戶破掉不是我的錯；我當時在家。",
-        "clue": "過錯應該歸給誰",
-        "answerEntryId": "u13:fault",
-        "distractorEntryIds": [
-          "u13:grade",
-          "u13:title",
-          "u13:workbook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's nobody's ___ that it rained on our picnic.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "f-i-n-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ exam counts for thirty percent of the grade.",
-        "fullSentence": "The final exam counts for thirty percent of the grade.",
-        "translation": "期末考占學期成績的百分之三十。",
-        "clue": "學期最後的一次大考",
-        "answerEntryId": "u13:final",
-        "distractorEntryIds": [
-          "u13:exact",
-          "u13:basic",
-          "u13:skillful"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This is your ___ chance to fix the mistake.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "f-o-c-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ on the teacher's voice, not on your phone.",
-        "fullSentence": "Please focus on the teacher's voice, not on your phone.",
-        "translation": "請專注聽老師說話，不要看手機。",
-        "clue": "把注意力集中在一件事",
-        "answerEntryId": "u13:focus",
-        "distractorEntryIds": [
-          "u13:prepare",
-          "u13:review",
-          "u13:paint"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Turn off your phone so you can ___ on studying.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "f-r-i-e-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A true ___ helps you when you are in trouble.",
-        "fullSentence": "A true friend helps you when you are in trouble.",
-        "translation": "真正的朋友會在你有困難時幫助你。",
-        "clue": "互相幫助、信任的人",
-        "answerEntryId": "u13:friend",
-        "distractorEntryIds": [
-          "u13:entrance",
-          "u13:word",
-          "u13:spelling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I share my lunch with my best ___.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "f-r-i-e-n-d-s-h-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Their ___ grew stronger after they studied together every day.",
-        "fullSentence": "Their friendship grew stronger after they studied together every day.",
-        "translation": "他們每天一起讀書之後，友誼變得更深厚。",
-        "clue": "朋友之間的感情",
-        "answerEntryId": "u13:friendship",
-        "distractorEntryIds": [
-          "u13:English",
-          "u13:thought",
-          "u13:ruler"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ takes time to build.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "g-a-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "All the students will ___ in the gym for the assembly.",
-        "fullSentence": "All the students will gather in the gym for the assembly.",
-        "translation": "全體學生將在體育館集合參加朝會。",
-        "clue": "大家從各處到同一地點集合",
-        "answerEntryId": "u13:gather",
-        "distractorEntryIds": [
-          "u13:review",
-          "u13:paint",
-          "u13:learn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's ___ around the campfire and sing songs.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "g-e-o-g-r-a-p-h-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we drew a map of our country.",
-        "fullSentence": "In geography class, we drew a map of our country.",
-        "translation": "在地理課上，我們畫了一張本國地圖。",
-        "clue": "畫地圖、學山川的科目",
-        "answerEntryId": "u13:geography",
-        "distractorEntryIds": [
-          "u13:activity",
-          "u13:test",
-          "u13:example"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ teacher showed us where the longest river is.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "g-l-a-s-s-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa cannot read the newspaper without his ___.",
-        "fullSentence": "Grandpa cannot read the newspaper without his glasses.",
-        "translation": "爺爺不戴眼鏡就看不了報紙。",
-        "clue": "幫助看清楚東西的鏡片",
-        "answerEntryId": "u13:glasses",
-        "distractorEntryIds": [
-          "u13:tip",
-          "u13:class",
-          "u13:bell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She wears ___ to see the board clearly.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "g-l-u-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The poster fell off the wall because we didn't use enough ___.",
-        "fullSentence": "The poster fell off the wall because we didn't use enough glue.",
-        "translation": "海報掉下來了，因為我們膠水用得不夠。",
-        "clue": "把紙黏在牆上的東西",
-        "answerEntryId": "u13:glue",
-        "distractorEntryIds": [
-          "u13:marker",
-          "u13:semester",
-          "u13:gym"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Pass me the ___ so I can stick these photos in my book.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "g-o-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ for this semester is to pass every test.",
-        "fullSentence": "Her goal for this semester is to pass every test.",
-        "translation": "她這學期的目標是每科都及格。",
-        "clue": "努力想達成的事",
-        "answerEntryId": "u13:goal",
-        "distractorEntryIds": [
-          "u13:club",
-          "u13:class leader",
-          "u13:blackboard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He scored a ___ in the last minute of the game.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "g-r-a-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My math ___ improved after I did the homework every day.",
-        "fullSentence": "My math grade improved after I did the homework every day.",
-        "translation": "我每天寫功課之後，數學成績進步了。",
-        "clue": "可以進步的學期分數",
-        "answerEntryId": "u13:grade",
-        "distractorEntryIds": [
-          "u13:goal",
-          "u13:crayon",
-          "u13:pencil"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My little brother is in the fifth ___.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "g-r-o-u-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ must present its project to the class.",
-        "fullSentence": "Each group must present its project to the class.",
-        "translation": "每個小組都要向全班報告專題。",
-        "clue": "一起做報告的幾個人",
-        "answerEntryId": "u13:group",
-        "distractorEntryIds": [
-          "u13:blackboard",
-          "u13:tip",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher put each student into a ___ for the science project.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "g-y-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The basketball game was moved into the ___ because of the rain.",
-        "fullSentence": "The basketball game was moved into the gym because of the rain.",
-        "translation": "因為下雨，籃球賽移到體育館舉行。",
-        "clue": "室內運動場館",
-        "answerEntryId": "u13:gym",
-        "distractorEntryIds": [
-          "u13:score",
-          "u13:object",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We have PE class in the ___ when it rains.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "h-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The final question was so ___ that only two students answered it.",
-        "fullSentence": "The final question was so hard that only two students answered it.",
-        "translation": "最後一題太難了，只有兩個學生答對。",
-        "clue": "難到幾乎沒人會的題目",
-        "answerEntryId": "u13:hard",
-        "distractorEntryIds": [
-          "u13:skillful",
-          "u13:useful",
-          "u13:difficult"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Learning to swim is ___ at first, but it becomes fun later.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "h-i-s-t-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Yesterday's ___ lesson was about the first president of our country.",
-        "fullSentence": "Yesterday's history lesson was about the first president of our country.",
-        "translation": "昨天的歷史課介紹了我們國家的第一任總統。",
-        "clue": "介紹過去人物事情的科目",
-        "answerEntryId": "u13:history",
-        "distractorEntryIds": [
-          "u13:joke",
-          "u13:sheet",
-          "u13:method"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We studied the ___ of our country this week.",
@@ -7837,18 +6745,6 @@
       "spellingHint": "h-o-m-e-w-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Don't forget to bring your ___ to class tomorrow.",
-        "fullSentence": "Don't forget to bring your homework to class tomorrow.",
-        "translation": "明天別忘了把功課帶來。",
-        "clue": "老師指定回家寫的作業",
-        "answerEntryId": "u13:homework",
-        "distractorEntryIds": [
-          "u13:grade",
-          "u13:title",
-          "u13:workbook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She spent two hours on her math ___ last night.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "i-m-p-o-r-t-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone should understand the ___ of saving money.",
-        "fullSentence": "Everyone should understand the importance of saving money.",
-        "translation": "每個人都應該了解存錢的重要性。",
-        "clue": "一件事有多重要的程度",
-        "answerEntryId": "u13:importance",
-        "distractorEntryIds": [
-          "u13:club",
-          "u13:class leader",
-          "u13:blackboard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The speaker talked about the ___ of drinking water.",
@@ -8009,18 +6893,6 @@
       "spellingHint": "i-m-p-o-r-t-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Remember to write down this ___ point; it will be on the test.",
-        "fullSentence": "Remember to write down this important point; it will be on the test.",
-        "translation": "記得把這個重要的重點抄下來，考試會考。",
-        "clue": "考試會考、不可錯過的",
-        "answerEntryId": "u13:important",
-        "distractorEntryIds": [
-          "u13:basic",
-          "u13:skillful",
-          "u13:useful"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water is ___ for all living things.",
@@ -8095,18 +6967,6 @@
       "spellingHint": "i-m-p-r-o-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Reading every day will ___ your vocabulary.",
-        "fullSentence": "Reading every day will improve your vocabulary.",
-        "translation": "每天閱讀能增加你的字彙。",
-        "clue": "讓能力變得更好",
-        "answerEntryId": "u13:improve",
-        "distractorEntryIds": [
-          "u13:complete",
-          "u13:punish",
-          "u13:behave"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He wants to ___ his English before the test.",
@@ -8181,18 +7041,6 @@
       "spellingHint": "i-n-f-o-r-m-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school office gives out ___ about the summer camp.",
-        "fullSentence": "The school office gives out information about the summer camp.",
-        "translation": "學校辦公室發放關於夏令營的資訊。",
-        "clue": "關於活動的消息",
-        "answerEntryId": "u13:information",
-        "distractorEntryIds": [
-          "u13:math",
-          "u13:friend",
-          "u13:rest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "For more ___, call the library on Monday.",
@@ -8267,18 +7115,6 @@
       "spellingHint": "i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Be careful not to spill the ___ on your uniform.",
-        "fullSentence": "Be careful not to spill the ink on your uniform.",
-        "translation": "小心不要把墨水潑到制服上。",
-        "clue": "鋼筆用的深色液體",
-        "answerEntryId": "u13:ink",
-        "distractorEntryIds": [
-          "u13:alphabet",
-          "u13:energy",
-          "u13:college"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The blue ___ made a stain on his shirt.",
@@ -8353,18 +7189,6 @@
       "spellingHint": "i-n-s-p-i-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The great scientist's life story will ___ you to study harder.",
-        "fullSentence": "The great scientist's life story will inspire you to study harder.",
-        "translation": "這位偉大科學家的故事會激勵你更用功。",
-        "clue": "讓人心中產生動力",
-        "answerEntryId": "u13:inspire",
-        "distractorEntryIds": [
-          "u13:underline",
-          "u13:read",
-          "u13:tell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "His brave act will ___ everyone in the school.",
@@ -8439,18 +7263,6 @@
       "spellingHint": "i-n-s-t-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "For ___, the word run can mean both exercise and managing a company.",
-        "fullSentence": "For instance, the word run can mean both exercise and managing a company.",
-        "translation": "舉例來說，run 這個字可以指運動，也可以指經營公司。",
-        "clue": "舉例說明時的用語",
-        "answerEntryId": "u13:instance",
-        "distractorEntryIds": [
-          "u13:class",
-          "u13:bell",
-          "u13:student"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In this ___, you should just ask the teacher.",
@@ -8525,18 +7337,6 @@
       "spellingHint": "i-n-t-r-o-d-u-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked the new student to ___ himself to the class.",
-        "fullSentence": "The teacher asked the new student to introduce himself to the class.",
-        "translation": "老師請新同學向全班自我介紹。",
-        "clue": "讓大家認識你",
-        "answerEntryId": "u13:introduce",
-        "distractorEntryIds": [
-          "u13:listen",
-          "u13:complete",
-          "u13:punish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom, I want to ___ my friend Ken.",
@@ -8611,18 +7411,6 @@
       "spellingHint": "j-o-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher began the lesson with a funny ___.",
-        "fullSentence": "The teacher began the lesson with a funny joke.",
-        "translation": "老師以一個有趣的笑話開場。",
-        "clue": "讓人發笑的短故事",
-        "answerEntryId": "u13:joke",
-        "distractorEntryIds": [
-          "u13:playground",
-          "u13:education",
-          "u13:meaning"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Nobody laughed at his ___.",
@@ -8697,18 +7485,6 @@
       "spellingHint": "j-u-n-i-o-r-h-i-g-h-s-c-h-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In Taiwan, students spend three years in ___ before senior high.",
-        "fullSentence": "In Taiwan, students spend three years in junior high school before senior high.",
-        "translation": "在台灣，學生在國中讀三年後升高中。",
-        "clue": "高中之前的三年學業",
-        "answerEntryId": "u13:junior high school",
-        "distractorEntryIds": [
-          "u13:trouble",
-          "u13:break",
-          "u13:language"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She started ___ at the age of twelve.",
@@ -8783,18 +7559,6 @@
       "spellingHint": "k-i-n-d-e-r-g-a-r-t-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before first grade, children usually spend a year or two in ___.",
-        "fullSentence": "Before first grade, children usually spend a year or two in kindergarten.",
-        "translation": "上一年級之前，孩子通常會在幼兒園待一兩年。",
-        "clue": "小學之前就讀的學校",
-        "answerEntryId": "u13:kindergarten",
-        "distractorEntryIds": [
-          "u13:trouble",
-          "u13:break",
-          "u13:language"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ kids took a nap after lunch every day.",
@@ -8869,18 +7633,6 @@
       "spellingHint": "k-n-o-w-l-e-d-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Traveling gives you ___ that no textbook can offer.",
-        "fullSentence": "Traveling gives you knowledge that no textbook can offer.",
-        "translation": "旅行能給你課本沒有的知識。",
-        "clue": "從經驗學到的學問",
-        "answerEntryId": "u13:knowledge",
-        "distractorEntryIds": [
-          "u13:club",
-          "u13:class leader",
-          "u13:blackboard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Reading is a good way to gain ___.",
@@ -8955,18 +7707,6 @@
       "spellingHint": "l-a-n-g-u-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Chinese is the ___ most people speak at home in Taiwan.",
-        "fullSentence": "Chinese is the language most people speak at home in Taiwan.",
-        "translation": "中文是台灣大多數人在家說的語言。",
-        "clue": "人與人溝通的系統",
-        "answerEntryId": "u13:language",
-        "distractorEntryIds": [
-          "u13:tip",
-          "u13:class",
-          "u13:bell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "English is the ___ most people study at school here.",
@@ -9041,18 +7781,6 @@
       "spellingHint": "l-e-a-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students can ___ a lot from visiting museums.",
-        "fullSentence": "Students can learn a lot from visiting museums.",
-        "translation": "學生參觀博物館可以學到很多。",
-        "clue": "獲得新知識",
-        "answerEntryId": "u13:learn",
-        "distractorEntryIds": [
-          "u13:teach",
-          "u13:paste",
-          "u13:compare"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It takes time to ___ how to play the piano.",
@@ -9127,18 +7855,6 @@
       "spellingHint": "l-e-s-s-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The first ___ of the new textbook is about colors.",
-        "fullSentence": "The first lesson of the new textbook is about colors.",
-        "translation": "新課本的第一課是關於顏色。",
-        "clue": "課本裡一課一課的內容",
-        "answerEntryId": "u13:lesson",
-        "distractorEntryIds": [
-          "u13:word",
-          "u13:spelling",
-          "u13:chemical"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We have an English ___ every morning.",
@@ -9213,18 +7929,6 @@
       "spellingHint": "l-e-t-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He put a stamp on the ___ before mailing it.",
-        "fullSentence": "He put a stamp on the letter before mailing it.",
-        "translation": "他在信上貼了郵票才寄出。",
-        "clue": "要貼郵票才能寄的東西",
-        "answerEntryId": "u13:letter",
-        "distractorEntryIds": [
-          "u13:chemical",
-          "u13:trouble",
-          "u13:break"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa keeps every ___ I send him in a box.",
@@ -9299,18 +8003,6 @@
       "spellingHint": "l-i-b-r-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You must be quiet in the ___.",
-        "fullSentence": "You must be quiet in the library.",
-        "translation": "在圖書館裡必須保持安靜。",
-        "clue": "要安靜看書的地方",
-        "answerEntryId": "u13:library",
-        "distractorEntryIds": [
-          "u13:math",
-          "u13:friend",
-          "u13:rest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school ___ has thousands of books.",
@@ -9385,18 +8077,6 @@
       "spellingHint": "l-i-s-t-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ to the song and write down the words you hear.",
-        "fullSentence": "Please listen to the song and write down the words you hear.",
-        "translation": "請聽這首歌，寫下你聽到的字。",
-        "clue": "用耳朵注意聽",
-        "answerEntryId": "u13:listen",
-        "distractorEntryIds": [
-          "u13:repeat",
-          "u13:mean",
-          "u13:practice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ when someone is talking to you.",
@@ -9471,18 +8151,6 @@
       "spellingHint": "m-a-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Hang the world ___ on the classroom wall so everyone can see it.",
-        "fullSentence": "Hang the world map on the classroom wall so everyone can see it.",
-        "translation": "把世界地圖掛在教室牆上，讓大家都看得到。",
-        "clue": "顯示各地位置圖",
-        "answerEntryId": "u13:map",
-        "distractorEntryIds": [
-          "u13:chemical",
-          "u13:trouble",
-          "u13:break"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We used a ___ to find the museum.",
@@ -9557,18 +8225,6 @@
       "spellingHint": "m-a-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher put a red ___ next to the wrong answer.",
-        "fullSentence": "The teacher put a red mark next to the wrong answer.",
-        "translation": "老師在錯的答案旁邊做了紅色記號。",
-        "clue": "表示對錯的符號",
-        "answerEntryId": "u13:mark",
-        "distractorEntryIds": [
-          "u13:workbook",
-          "u13:entrance",
-          "u13:word"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I made a pencil ___ on the page so I could find it again.",
@@ -9643,18 +8299,6 @@
       "spellingHint": "m-a-r-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Write your name on the cover with a thick ___.",
-        "fullSentence": "Write your name on the cover with a thick marker.",
-        "translation": "用粗的麥克筆把名字寫在封面上。",
-        "clue": "出墨粗、寫字很明顯的筆",
-        "answerEntryId": "u13:marker",
-        "distractorEntryIds": [
-          "u13:score",
-          "u13:object",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The whiteboard ___ ran dry, so we opened a new box.",
@@ -9729,18 +8373,6 @@
       "spellingHint": "m-a-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we learned how to divide fractions.",
-        "fullSentence": "In math class, we learned how to divide fractions.",
-        "translation": "在數學課上，我們學了分數的除法。",
-        "clue": "學計算與圖形的科目",
-        "answerEntryId": "u13:math",
-        "distractorEntryIds": [
-          "u13:subject",
-          "u13:bell",
-          "u13:student"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She is good at ___ and can calculate quickly.",
@@ -9815,18 +8447,6 @@
       "spellingHint": "m-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "What does the sign on the door ___?",
-        "fullSentence": "What does the sign on the door mean?",
-        "translation": "門上的標誌是什麼意思？",
-        "clue": "詢問某物的含義",
-        "answerEntryId": "u13:mean",
-        "distractorEntryIds": [
-          "u13:introduce",
-          "u13:solve",
-          "u13:emphasize"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I don't understand; what do you ___?",
@@ -9901,18 +8521,6 @@
       "spellingHint": "m-e-a-n-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked us to explain the ___ of the poem in our own words.",
-        "fullSentence": "The teacher asked us to explain the meaning of the poem in our own words.",
-        "translation": "老師要我們用自己的話解釋這首詩的意思。",
-        "clue": "文字想表達的含義",
-        "answerEntryId": "u13:meaning",
-        "distractorEntryIds": [
-          "u13:goal",
-          "u13:crayon",
-          "u13:pencil"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I looked up the ___ of the new word in the dictionary.",
@@ -9987,18 +8595,6 @@
       "spellingHint": "m-e-a-n-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bicycle is her main ___ of transportation.",
-        "fullSentence": "The bicycle is her main means of transportation.",
-        "translation": "腳踏車是她主要的交通工具。",
-        "clue": "達成目的的方法",
-        "answerEntryId": "u13:means",
-        "distractorEntryIds": [
-          "u13:pencil",
-          "u13:sentence",
-          "u13:activity"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Email is a fast ___ of communication.",
@@ -10073,18 +8669,6 @@
       "spellingHint": "m-e-t-h-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher showed us a new ___ for solving the problem.",
-        "fullSentence": "The teacher showed us a new method for solving the problem.",
-        "translation": "老師教我們一種解題的新方法。",
-        "clue": "解決問題的固定做法",
-        "answerEntryId": "u13:method",
-        "distractorEntryIds": [
-          "u13:blackboard",
-          "u13:tip",
-          "u13:class"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Flash cards are a useful study ___.",
@@ -10159,18 +8743,6 @@
       "spellingHint": "m-i-s-t-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I wrote the wrong date by ___.",
-        "fullSentence": "I wrote the wrong date by mistake.",
-        "translation": "我不小心把日期寫錯了。",
-        "clue": "不小心的過失",
-        "answerEntryId": "u13:mistake",
-        "distractorEntryIds": [
-          "u13:sheet",
-          "u13:method",
-          "u13:grade"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't be afraid to make a ___; it's how we learn.",
@@ -10245,18 +8817,6 @@
       "spellingHint": "m-u-s-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Soft ___ played while the students painted.",
-        "fullSentence": "Soft music played while the students painted.",
-        "translation": "學生畫畫時播放著輕柔的音樂。",
-        "clue": "被播放來聽的旋律",
-        "answerEntryId": "u13:music",
-        "distractorEntryIds": [
-          "u13:class leader",
-          "u13:blackboard",
-          "u13:tip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My favorite subject is ___ because I love singing.",
@@ -10331,18 +8891,6 @@
       "spellingHint": "n-o-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom left a ___ on the table to remind me about practice.",
-        "fullSentence": "Mom left a note on the table to remind me about practice.",
-        "translation": "媽媽在桌上留了一張便條提醒我練球的事。",
-        "clue": "留給別人看的短訊息",
-        "answerEntryId": "u13:note",
-        "distractorEntryIds": [
-          "u13:student",
-          "u13:swing",
-          "u13:campus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I wrote a quick ___ to remind myself to bring my gym clothes.",
@@ -10417,18 +8965,6 @@
       "spellingHint": "n-o-t-e-b-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Write the new words in your ___, not on your hand.",
-        "fullSentence": "Write the new words in your notebook, not on your hand.",
-        "translation": "把新單字寫在筆記本裡，不要寫在手上。",
-        "clue": "寫筆記用的本子",
-        "answerEntryId": "u13:notebook",
-        "distractorEntryIds": [
-          "u13:object",
-          "u13:club",
-          "u13:class leader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She lost her ___ and all her class notes were inside.",
@@ -10503,18 +9039,6 @@
       "spellingHint": "o-b-j-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The strange ___ in the sky turned out to be a balloon.",
-        "fullSentence": "The strange object in the sky turned out to be a balloon.",
-        "translation": "天上奇怪的物體原來是顆氣球。",
-        "clue": "天空中的不明東西",
-        "answerEntryId": "u13:object",
-        "distractorEntryIds": [
-          "u13:target",
-          "u13:joke",
-          "u13:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Each student picked a small ___ to describe in class.",
@@ -10589,18 +9113,6 @@
       "spellingHint": "p-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Read the story on ___ fifteen, then answer the questions.",
-        "fullSentence": "Read the story on page fifteen, then answer the questions.",
-        "translation": "讀第十五頁的故事，然後回答問題。",
-        "clue": "書中標有頁碼的一面",
-        "answerEntryId": "u13:page",
-        "distractorEntryIds": [
-          "u13:friend",
-          "u13:rest",
-          "u13:score"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Turn to ___ 32 for the map of the park.",
@@ -10675,18 +9187,6 @@
       "spellingHint": "p-a-i-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students will ___ a mural on the playground wall.",
-        "fullSentence": "The students will paint a mural on the playground wall.",
-        "translation": "學生們要在操場的牆上畫一幅壁畫。",
-        "clue": "用顏料作畫",
-        "answerEntryId": "u13:paint",
-        "distractorEntryIds": [
-          "u13:return",
-          "u13:introduce",
-          "u13:solve"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom wants to ___ the kitchen a warm yellow.",
@@ -10761,18 +9261,6 @@
       "spellingHint": "p-a-p-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please put your used ___ in the recycling box.",
-        "fullSentence": "Please put your used paper in the recycling box.",
-        "translation": "用過的紙請放進回收箱。",
-        "clue": "可回收的書寫材料",
-        "answerEntryId": "u13:paper",
-        "distractorEntryIds": [
-          "u13:class",
-          "u13:bell",
-          "u13:student"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fold the ___ in half before you cut it.",
@@ -10847,18 +9335,6 @@
       "spellingHint": "p-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You need sixty points to ___ the exam.",
-        "fullSentence": "You need sixty points to pass the exam.",
-        "translation": "你需要六十分才能通過考試。",
-        "clue": "達到標準分數",
-        "answerEntryId": "u13:pass",
-        "distractorEntryIds": [
-          "u13:discuss",
-          "u13:fail",
-          "u13:say"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Study hard and you will ___ the driving test.",
@@ -10933,18 +9409,6 @@
       "spellingHint": "p-a-s-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the two pieces of paper together to make one big poster.",
-        "fullSentence": "Please paste the two pieces of paper together to make one big poster.",
-        "translation": "請把兩張紙黏在一起做成一張大海報。",
-        "clue": "用漿糊把東西貼上",
-        "answerEntryId": "u13:paste",
-        "distractorEntryIds": [
-          "u13:inspire",
-          "u13:improve",
-          "u13:repeat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ the picture on page five.",
@@ -11019,18 +9483,6 @@
       "spellingHint": "p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Remember to bring your sports clothes for ___ class.",
-        "fullSentence": "Remember to bring your sports clothes for PE class.",
-        "translation": "記得帶運動服來上體育課。",
-        "clue": "需要穿運動服的課",
-        "answerEntryId": "u13:PE",
-        "distractorEntryIds": [
-          "u13:diary",
-          "u13:goal",
-          "u13:crayon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We run laps around the field in ___.",
@@ -11105,18 +9557,6 @@
       "spellingHint": "p-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sign the form with a blue or black ___.",
-        "fullSentence": "Sign the form with a blue or black pen.",
-        "translation": "用藍色或黑色的筆簽這份表格。",
-        "clue": "寫字、簽名用的工具",
-        "answerEntryId": "u13:pen",
-        "distractorEntryIds": [
-          "u13:sentence",
-          "u13:activity",
-          "u13:test"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ ran out of ink during the test.",
@@ -11191,18 +9631,6 @@
       "spellingHint": "p-e-n-c-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sharpen your ___ before the drawing test.",
-        "fullSentence": "Sharpen your pencil before the drawing test.",
-        "translation": "繪畫測驗前先把鉛筆削尖。",
-        "clue": "可以削尖的書寫工具",
-        "answerEntryId": "u13:pencil",
-        "distractorEntryIds": [
-          "u13:class leader",
-          "u13:blackboard",
-          "u13:tip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Use a ___ for the math draft so you can erase it.",
@@ -11277,18 +9705,6 @@
       "spellingHint": "p-e-n-c-i-lb-o-x",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Keep your eraser and ruler in the same ___.",
-        "fullSentence": "Keep your eraser and ruler in the same pencil box.",
-        "translation": "把橡皮擦和尺放在同一個鉛筆盒裡。",
-        "clue": "裝文具的小盒子",
-        "answerEntryId": "u13:pencil box",
-        "distractorEntryIds": [
-          "u13:student",
-          "u13:swing",
-          "u13:campus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her new ___ has a picture of a cat on it.",
@@ -11363,18 +9779,6 @@
       "spellingHint": "p-h-y-s-i-c-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we measured how fast objects fall.",
-        "fullSentence": "In physics class, we measured how fast objects fall.",
-        "translation": "在物理課上，我們測量物體落下的速度。",
-        "clue": "研究力與運動的科目",
-        "answerEntryId": "u13:physics",
-        "distractorEntryIds": [
-          "u13:blackboard",
-          "u13:tip",
-          "u13:subject"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The subject called ___ explains why the ball bounces.",
@@ -11449,18 +9853,6 @@
       "spellingHint": "p-i-c-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There is a funny ___ of our class on the wall.",
-        "fullSentence": "There is a funny picture of our class on the wall.",
-        "translation": "牆上有一張我們班搞笑的照片。",
-        "clue": "掛在牆上的影像",
-        "answerEntryId": "u13:picture",
-        "distractorEntryIds": [
-          "u13:title",
-          "u13:workbook",
-          "u13:entrance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She drew a ___ of a cat for her little brother.",
@@ -11535,18 +9927,6 @@
       "spellingHint": "p-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She used a ___ to attach the ribbon to the board.",
-        "fullSentence": "She used a pin to attach the ribbon to the board.",
-        "translation": "她用大頭針把緞帶固定在板子上。",
-        "clue": "用來固定紙張的小針",
-        "answerEntryId": "u13:pin",
-        "distractorEntryIds": [
-          "u13:campus",
-          "u13:discussion",
-          "u13:music"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Be careful with the sharp ___ on the desk.",
@@ -11621,18 +10001,6 @@
       "spellingHint": "p-l-a-y-g-r-o-u-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children ran to the ___ as soon as the bell rang.",
-        "fullSentence": "The children ran to the playground as soon as the bell rang.",
-        "translation": "鐘聲一響，孩子們就跑向操場。",
-        "clue": "下課玩耍的場地",
-        "answerEntryId": "u13:playground",
-        "distractorEntryIds": [
-          "u13:language",
-          "u13:diary",
-          "u13:goal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are two swings and a slide in the ___.",
@@ -11707,18 +10075,6 @@
       "spellingHint": "p-o-s-t-c-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My cousin sent a ___ with a photo of a temple on the front.",
-        "fullSentence": "My cousin sent a postcard with a photo of a temple on the front.",
-        "translation": "我表哥寄來一張正面印著寺廟照片的明信片。",
-        "clue": "正面有風景照、可郵寄的卡片",
-        "answerEntryId": "u13:postcard",
-        "distractorEntryIds": [
-          "u13:score",
-          "u13:object",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I collect a ___ from every city I visit.",
@@ -11793,18 +10149,6 @@
       "spellingHint": "p-r-a-c-t-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you ___ the piano every day, your skills will improve.",
-        "fullSentence": "If you practice the piano every day, your skills will improve.",
-        "translation": "如果每天練琴，你的技巧就會進步。",
-        "clue": "反覆做以進步",
-        "answerEntryId": "u13:practice",
-        "distractorEntryIds": [
-          "u13:paint",
-          "u13:learn",
-          "u13:underline"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The team will ___ after school twice a week.",
@@ -11879,18 +10223,6 @@
       "spellingHint": "p-r-e-p-a-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ your questions before the class discussion.",
-        "fullSentence": "Please prepare your questions before the class discussion.",
-        "translation": "請在班級討論前準備好你的問題。",
-        "clue": "事先把東西弄好",
-        "answerEntryId": "u13:prepare",
-        "distractorEntryIds": [
-          "u13:write",
-          "u13:gather",
-          "u13:explain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom will ___ dinner while I do my homework.",
@@ -11965,18 +10297,6 @@
       "spellingHint": "p-r-e-s-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone was ___ at the class meeting except Ken, who was sick.",
-        "fullSentence": "Everyone was present at the class meeting except Ken, who was sick.",
-        "translation": "除了生病的 Ken，全班都出席了班會。",
-        "clue": "沒缺席、人在現場的",
-        "answerEntryId": "u13:present",
-        "distractorEntryIds": [
-          "u13:wrong",
-          "u13:exact",
-          "u13:basic"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please raise your hand if you are ___.",
@@ -12051,18 +10371,6 @@
       "spellingHint": "p-r-e-s-s-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Too much ___ before an exam can make it harder to think.",
-        "fullSentence": "Too much pressure before an exam can make it harder to think.",
-        "translation": "考前壓力太大會讓人更難思考。",
-        "clue": "讓人喘不過氣的心理負擔",
-        "answerEntryId": "u13:pressure",
-        "distractorEntryIds": [
-          "u13:example",
-          "u13:playground",
-          "u13:education"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She feels a lot of ___ from her parents to get top grades.",
@@ -12137,18 +10445,6 @@
       "spellingHint": "p-r-i-n-c-i-p-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ welcomed the new students at the school gate.",
-        "fullSentence": "The principal welcomed the new students at the school gate.",
-        "translation": "校長在校門口歡迎新生。",
-        "clue": "學校的最高負責人",
-        "answerEntryId": "u13:principal",
-        "distractorEntryIds": [
-          "u13:example",
-          "u13:playground",
-          "u13:education"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ visits every classroom once a week.",
@@ -12223,18 +10519,6 @@
       "spellingHint": "p-r-o-b-l-e-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher helped me work through the math ___.",
-        "fullSentence": "The teacher helped me work through the math problem.",
-        "translation": "老師幫我解開了那道數學題。",
-        "clue": "需要解開的題目",
-        "answerEntryId": "u13:problem",
-        "distractorEntryIds": [
-          "u13:score",
-          "u13:object",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's the ___? You look worried.",
@@ -12309,18 +10593,6 @@
       "spellingHint": "p-r-o-g-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher was happy to see ___ in every student's writing.",
-        "fullSentence": "The teacher was happy to see progress in every student's writing.",
-        "translation": "老師很高興看到每位學生的寫作都有進步。",
-        "clue": "朝好的方向前進的程度",
-        "answerEntryId": "u13:progress",
-        "distractorEntryIds": [
-          "u13:sheet",
-          "u13:method",
-          "u13:grade"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Keep making ___ by practicing a little every day.",
@@ -12395,18 +10667,6 @@
       "spellingHint": "p-r-o-n-o-u-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Many students find it hard to ___ the th sound in English.",
-        "fullSentence": "Many students find it hard to pronounce the th sound in English.",
-        "translation": "很多學生覺得英文的 th 音很難發。",
-        "clue": "把音正確發出來",
-        "answerEntryId": "u13:pronounce",
-        "distractorEntryIds": [
-          "u13:underline",
-          "u13:read",
-          "u13:tell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your name clearly for the class.",
@@ -12481,18 +10741,6 @@
       "spellingHint": "p-u-n-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school will ___ anyone who cheats on the test.",
-        "fullSentence": "The school will punish anyone who cheats on the test.",
-        "translation": "學校會處罰任何考試作弊的人。",
-        "clue": "對犯錯者給予處分",
-        "answerEntryId": "u13:punish",
-        "distractorEntryIds": [
-          "u13:pronounce",
-          "u13:return",
-          "u13:introduce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Parents shouldn't ___ children in anger.",
@@ -12567,18 +10815,6 @@
       "spellingHint": "p-u-z-z-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It took us two weeks to finish the 1,000-piece ___.",
-        "fullSentence": "It took us two weeks to finish the 1,000-piece puzzle.",
-        "translation": "我們花了兩個星期才完成一千片的拼圖。",
-        "clue": "一片片拼起來的遊戲",
-        "answerEntryId": "u13:puzzle",
-        "distractorEntryIds": [
-          "u13:rest",
-          "u13:score",
-          "u13:object"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The last piece of the ___ was under the sofa.",
@@ -12653,18 +10889,6 @@
       "spellingHint": "q-u-e-s-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you don't understand, please raise your hand and ask a ___.",
-        "fullSentence": "If you don't understand, please raise your hand and ask a question.",
-        "translation": "如果不懂，請舉手發問。",
-        "clue": "想弄懂時提出的疑問",
-        "answerEntryId": "u13:question",
-        "distractorEntryIds": [
-          "u13:bell",
-          "u13:student",
-          "u13:swing"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The first ___ on the test was the easiest.",
@@ -12739,18 +10963,6 @@
       "spellingHint": "q-u-i-z",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher gave a short ___ on yesterday's vocabulary.",
-        "fullSentence": "The teacher gave a short quiz on yesterday's vocabulary.",
-        "translation": "老師針對昨天的單字出了一個小考。",
-        "clue": "範圍小、時間短的測驗",
-        "answerEntryId": "u13:quiz",
-        "distractorEntryIds": [
-          "u13:classmate",
-          "u13:history",
-          "u13:target"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There will be a surprise ___ at the start of class.",
@@ -12825,18 +11037,6 @@
       "spellingHint": "r-e-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the instructions carefully before you start.",
-        "fullSentence": "Please read the instructions carefully before you start.",
-        "translation": "開始前請仔細閱讀說明。",
-        "clue": "看懂文字內容",
-        "answerEntryId": "u13:read",
-        "distractorEntryIds": [
-          "u13:fail",
-          "u13:say",
-          "u13:pass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She can ___ 100 words a minute now.",
@@ -12911,18 +11111,6 @@
       "spellingHint": "r-e-p-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the new word three times after the teacher.",
-        "fullSentence": "Please repeat the new word three times after the teacher.",
-        "translation": "請跟著老師把新單字念三次。",
-        "clue": "照著再念一次",
-        "answerEntryId": "u13:repeat",
-        "distractorEntryIds": [
-          "u13:punish",
-          "u13:behave",
-          "u13:examine"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Could you ___ the question? I didn't hear it.",
@@ -12997,18 +11185,6 @@
       "spellingHint": "r-e-p-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each student must hand in a book ___ by Friday.",
-        "fullSentence": "Each student must hand in a book report by Friday.",
-        "translation": "每位學生都要在星期五前交讀書報告。",
-        "clue": "交給老師的書面作業",
-        "answerEntryId": "u13:report",
-        "distractorEntryIds": [
-          "u13:method",
-          "u13:grade",
-          "u13:title"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The weather ___ says it will rain tomorrow.",
@@ -13083,18 +11259,6 @@
       "spellingHint": "r-e-s-p-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students should ___ their teachers and classmates.",
-        "fullSentence": "Students should respect their teachers and classmates.",
-        "translation": "學生應該尊敬師長、尊重同學。",
-        "clue": "以禮待人、看重別人",
-        "answerEntryId": "u13:respect",
-        "distractorEntryIds": [
-          "u13:pass",
-          "u13:write",
-          "u13:gather"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ other people's opinions, even if you disagree.",
@@ -13169,18 +11333,6 @@
       "spellingHint": "r-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The doctor told him to get plenty of ___ and drink water.",
-        "fullSentence": "The doctor told him to get plenty of rest and drink water.",
-        "translation": "醫生要他多休息、多喝水。",
-        "clue": "讓身體恢復的休息",
-        "answerEntryId": "u13:rest",
-        "distractorEntryIds": [
-          "u13:target",
-          "u13:joke",
-          "u13:sheet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We stopped for a short ___ by the river.",
@@ -13255,18 +11407,6 @@
       "spellingHint": "r-e-t-u-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Don't forget to ___ the library books before Friday.",
-        "fullSentence": "Don't forget to return the library books before Friday.",
-        "translation": "星期五前別忘了把圖書館的書還回去。",
-        "clue": "把借的東西還回去",
-        "answerEntryId": "u13:return",
-        "distractorEntryIds": [
-          "u13:study",
-          "u13:decorate",
-          "u13:respect"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She will ___ the umbrella tomorrow.",
@@ -13341,18 +11481,6 @@
       "spellingHint": "r-e-v-i-e-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ your mistakes so you don't make them again.",
-        "fullSentence": "Please review your mistakes so you don't make them again.",
-        "translation": "請複習你的錯誤，才不會再犯。",
-        "clue": "重新看過學過的內容",
-        "answerEntryId": "u13:review",
-        "distractorEntryIds": [
-          "u13:copy",
-          "u13:blame",
-          "u13:pronounce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We will ___ the last chapter before the test.",
@@ -13427,18 +11555,6 @@
       "spellingHint": "r-e-v-i-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked me to ___ the first paragraph of my essay.",
-        "fullSentence": "The teacher asked me to revise the first paragraph of my essay.",
-        "translation": "老師要我修改文章的第一段。",
-        "clue": "把寫好的東西改得更好",
-        "answerEntryId": "u13:revise",
-        "distractorEntryIds": [
-          "u13:paste",
-          "u13:compare",
-          "u13:cheat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your answer after checking the key.",
@@ -13513,18 +11629,6 @@
       "spellingHint": "r-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You chose the ___ answer, so you get full marks.",
-        "fullSentence": "You chose the right answer, so you get full marks.",
-        "translation": "你選了正確的答案，所以拿到滿分。",
-        "clue": "與錯誤答案相對的正確",
-        "answerEntryId": "u13:right",
-        "distractorEntryIds": [
-          "u13:encouraging",
-          "u13:hard",
-          "u13:TRUE"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take the second turning on the ___ to reach the school.",
@@ -13599,18 +11703,6 @@
       "spellingHint": "r-u-b-b-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In British English, the small block that cleans pencil marks is called a ___.",
-        "fullSentence": "In British English, the small block that cleans pencil marks is called a rubber.",
-        "translation": "在英式英語中，能擦掉鉛筆痕跡的小方塊稱為 rubber。",
-        "clue": "英式說法的擦字文具",
-        "answerEntryId": "u13:rubber",
-        "distractorEntryIds": [
-          "u13:object",
-          "u13:club",
-          "u13:class leader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ at the end of my pencil is almost gone.",
@@ -13685,18 +11777,6 @@
       "spellingHint": "r-u-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The first ___ of the library is to keep your voice down.",
-        "fullSentence": "The first rule of the library is to keep your voice down.",
-        "translation": "圖書館的第一條規則是壓低音量。",
-        "clue": "大家必須遵守的規定",
-        "answerEntryId": "u13:rule",
-        "distractorEntryIds": [
-          "u13:pencil",
-          "u13:sentence",
-          "u13:activity"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a ___ against eating in the classroom.",
@@ -13771,18 +11851,6 @@
       "spellingHint": "r-u-l-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Use a ___ to draw a straight line across the page.",
-        "fullSentence": "Use a ruler to draw a straight line across the page.",
-        "translation": "用尺在紙上畫一條直線。",
-        "clue": "畫直線用的工具",
-        "answerEntryId": "u13:ruler",
-        "distractorEntryIds": [
-          "u13:entrance",
-          "u13:word",
-          "u13:spelling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ is thirty centimeters long.",
@@ -13857,18 +11925,6 @@
       "spellingHint": "s-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Did the principal ___ anything about the holiday?",
-        "fullSentence": "Did the principal say anything about the holiday?",
-        "translation": "校長有提到假期的事嗎？",
-        "clue": "說出話語內容",
-        "answerEntryId": "u13:say",
-        "distractorEntryIds": [
-          "u13:teach",
-          "u13:paste",
-          "u13:compare"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your name slowly.",
@@ -13943,18 +11999,6 @@
       "spellingHint": "s-c-i-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We did a fun experiment in ___ class today.",
-        "fullSentence": "We did a fun experiment in science class today.",
-        "translation": "今天自然課我們做了一個有趣的實驗。",
-        "clue": "做實驗的科目",
-        "answerEntryId": "u13:science",
-        "distractorEntryIds": [
-          "u13:joke",
-          "u13:sheet",
-          "u13:method"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She wants to be a ___ teacher and study plants.",
@@ -14029,18 +12073,6 @@
       "spellingHint": "s-c-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The team celebrated when the final ___ was announced.",
-        "fullSentence": "The team celebrated when the final score was announced.",
-        "translation": "最後比數公布時，球隊歡呼慶祝。",
-        "clue": "比賽的結果數字",
-        "answerEntryId": "u13:score",
-        "distractorEntryIds": [
-          "u13:education",
-          "u13:meaning",
-          "u13:science"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My test ___ was better this time.",
@@ -14115,18 +12147,6 @@
       "spellingHint": "s-e-e-s-a-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The two children balanced perfectly on the ___.",
-        "fullSentence": "The two children balanced perfectly on the seesaw.",
-        "translation": "兩個孩子在翹翹板上平衡得刚刚好。",
-        "clue": "兩人一上一下玩的器材",
-        "answerEntryId": "u13:seesaw",
-        "distractorEntryIds": [
-          "u13:rest",
-          "u13:score",
-          "u13:object"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a new ___ in the small park.",
@@ -14201,18 +12221,6 @@
       "spellingHint": "s-e-m-e-s-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the end of each ___, students take final exams.",
-        "fullSentence": "At the end of each semester, students take final exams.",
-        "translation": "每學期結束時，學生要參加期末考。",
-        "clue": "學校上課的一個期間",
-        "answerEntryId": "u13:semester",
-        "distractorEntryIds": [
-          "u13:campus",
-          "u13:discussion",
-          "u13:music"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She joined three clubs this ___.",
@@ -14287,18 +12295,6 @@
       "spellingHint": "s-e-n-i-o-rh-i-g-hs-c-h-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After junior high, students in Taiwan go to ___.",
-        "fullSentence": "After junior high, students in Taiwan go to senior high school.",
-        "translation": "在台灣，國中畢業後學生升上高中。",
-        "clue": "國中之後的三年學業",
-        "answerEntryId": "u13:senior high school",
-        "distractorEntryIds": [
-          "u13:blackboard",
-          "u13:tip",
-          "u13:class"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My brother is a ___ student who wears a uniform every day.",
@@ -14373,18 +12369,6 @@
       "spellingHint": "s-e-n-t-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every ___ must begin with a capital letter.",
-        "fullSentence": "Every sentence must begin with a capital letter.",
-        "translation": "每個句子都要以大寫字母開頭。",
-        "clue": "以大寫開頭、句號結尾的文字單位",
-        "answerEntryId": "u13:sentence",
-        "distractorEntryIds": [
-          "u13:swing",
-          "u13:campus",
-          "u13:discussion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please copy each ___ twice into your notebook.",
@@ -14459,18 +12443,6 @@
       "spellingHint": "s-h-e-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Take one ___ of paper and fold it in half.",
-        "fullSentence": "Take one sheet of paper and fold it in half.",
-        "translation": "拿一張紙對摺。",
-        "clue": "一張一張計數的紙",
-        "answerEntryId": "u13:sheet",
-        "distractorEntryIds": [
-          "u13:score",
-          "u13:object",
-          "u13:club"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher gave us a ___ with the answers.",
@@ -14545,18 +12517,6 @@
       "spellingHint": "s-k-i-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Typing quickly is an important ___ for modern office work.",
-        "fullSentence": "Typing quickly is an important skill for modern office work.",
-        "translation": "快速打字是現代辦公工作的重要技能。",
-        "clue": "可以練習學會的能力",
-        "answerEntryId": "u13:skill",
-        "distractorEntryIds": [
-          "u13:entrance",
-          "u13:word",
-          "u13:spelling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Reading is a basic ___ for every student.",
@@ -14631,18 +12591,6 @@
       "spellingHint": "s-k-i-l-l-f-u-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ potter shaped the clay in minutes.",
-        "fullSentence": "The skillful potter shaped the clay in minutes.",
-        "translation": "熟練的陶藝家幾分鐘就完成了陶土塑形。",
-        "clue": "技術純熟、做得又快又好的",
-        "answerEntryId": "u13:skillful",
-        "distractorEntryIds": [
-          "u13:hard",
-          "u13:TRUE",
-          "u13:final"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He is ___ at fixing bicycles.",
@@ -14717,18 +12665,6 @@
       "spellingHint": "s-l-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tallest ___ in the park is painted bright yellow.",
-        "fullSentence": "The tallest slide in the park is painted bright yellow.",
-        "translation": "公園裡最高的溜滑漆成亮黃色。",
-        "clue": "從高處滑下來的遊具",
-        "answerEntryId": "u13:slide",
-        "distractorEntryIds": [
-          "u13:music",
-          "u13:classmate",
-          "u13:history"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She went down the ___ laughing all the way.",
@@ -14803,18 +12739,6 @@
       "spellingHint": "s-o-c-i-a-ls-c-i-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___ class, we learned how communities work together.",
-        "fullSentence": "In social science class, we learned how communities work together.",
-        "translation": "在社會課上，我們學習社區如何合作。",
-        "clue": "研究人類社會的科目",
-        "answerEntryId": "u13:social science",
-        "distractorEntryIds": [
-          "u13:history",
-          "u13:target",
-          "u13:joke"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ homework is to interview a grandparent.",
@@ -14889,18 +12813,6 @@
       "spellingHint": "s-o-c-i-o-l-o-g-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In college, she took a course in ___ to understand city life.",
-        "fullSentence": "In college, she took a course in sociology to understand city life.",
-        "translation": "大學時她修了社會學來了解都市生活。",
-        "clue": "研究人群與社會的學問",
-        "answerEntryId": "u13:sociology",
-        "distractorEntryIds": [
-          "u13:rest",
-          "u13:score",
-          "u13:object"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The field called ___ is the study of human society.",
@@ -14975,18 +12887,6 @@
       "spellingHint": "s-o-l-u-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After trying three times, Ken finally found the right ___.",
-        "fullSentence": "After trying three times, Ken finally found the right solution.",
-        "translation": "試了三次之後，Ken 終於找到正確的解法。",
-        "clue": "問題的最終答案",
-        "answerEntryId": "u13:solution",
-        "distractorEntryIds": [
-          "u13:textbook",
-          "u13:conversation",
-          "u13:math"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher wrote the ___ on the blackboard step by step.",
@@ -15061,18 +12961,6 @@
       "spellingHint": "s-o-l-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Work together to ___ the puzzle before time runs out.",
-        "fullSentence": "Work together to solve the puzzle before time runs out.",
-        "translation": "在時間到之前合力解開謎題。",
-        "clue": "把難題解開",
-        "answerEntryId": "u13:solve",
-        "distractorEntryIds": [
-          "u13:spell",
-          "u13:copy",
-          "u13:blame"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She can ___ hard math problems quickly.",
@@ -15147,18 +13035,6 @@
       "spellingHint": "s-p-e-a-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked us to ___ loudly and clearly during the presentation.",
-        "fullSentence": "The teacher asked us to speak loudly and clearly during the presentation.",
-        "translation": "老師要我們在報告時大聲清楚地表達。",
-        "clue": "開口說出話",
-        "answerEntryId": "u13:speak",
-        "distractorEntryIds": [
-          "u13:punish",
-          "u13:behave",
-          "u13:examine"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How many languages do you ___?",
@@ -15233,18 +13109,6 @@
       "spellingHint": "s-p-e-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Can you ___ Wednesday for me? It's a tricky word.",
-        "fullSentence": "Can you spell Wednesday for me? It's a tricky word.",
-        "translation": "你可以幫我拼 Wednesday 嗎？這個字很難。",
-        "clue": "把字一個字母一個字母拼出來",
-        "answerEntryId": "u13:spell",
-        "distractorEntryIds": [
-          "u13:underline",
-          "u13:read",
-          "u13:tell"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher asked us to ___ the new words out loud.",
@@ -15319,18 +13183,6 @@
       "spellingHint": "s-p-e-l-l-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Good ___ comes from reading a lot and checking your work.",
-        "fullSentence": "Good spelling comes from reading a lot and checking your work.",
-        "translation": "好的拼字能力來自大量閱讀和檢查。",
-        "clue": "把字拼正確的能力",
-        "answerEntryId": "u13:spelling",
-        "distractorEntryIds": [
-          "u13:English",
-          "u13:thought",
-          "u13:ruler"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a ___ mistake in the third line.",
@@ -15405,18 +13257,6 @@
       "spellingHint": "s-p-i-r-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cheerleaders lifted the ___ of the whole crowd.",
-        "fullSentence": "The cheerleaders lifted the spirit of the whole crowd.",
-        "translation": "啦啦隊提振了全場觀眾的士氣。",
-        "clue": "被鼓舞起來的士氣",
-        "answerEntryId": "u13:spirit",
-        "distractorEntryIds": [
-          "u13:student",
-          "u13:swing",
-          "u13:campus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Team ___ is what makes our class strong.",
@@ -15491,18 +13331,6 @@
       "spellingHint": "s-t-a-t-i-o-n-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Buy your ___ for the new school year before the prices go up.",
-        "fullSentence": "Buy your stationery for the new school year before the prices go up.",
-        "translation": "趁漲價前買新學年的文具。",
-        "clue": "筆、橡皮擦等用品的統稱",
-        "answerEntryId": "u13:stationery",
-        "distractorEntryIds": [
-          "u13:discussion",
-          "u13:music",
-          "u13:classmate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The drawer is full of old ___ like pens and clips.",
@@ -15577,18 +13405,6 @@
       "spellingHint": "s-t-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher read a ___ about a brave little dog.",
-        "fullSentence": "The teacher read a story about a brave little dog.",
-        "translation": "老師讀了一個關於勇敢小狗的故事。",
-        "clue": "有人物情節的敘述",
-        "answerEntryId": "u13:story",
-        "distractorEntryIds": [
-          "u13:education",
-          "u13:meaning",
-          "u13:science"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tell me a ___ before I sleep.",
@@ -15663,18 +13479,6 @@
       "spellingHint": "s-t-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Exercise is a healthy way to reduce ___.",
-        "fullSentence": "Exercise is a healthy way to reduce stress.",
-        "translation": "運動是減輕壓力的健康方式。",
-        "clue": "可以被減輕的心理負擔",
-        "answerEntryId": "u13:stress",
-        "distractorEntryIds": [
-          "u13:class leader",
-          "u13:blackboard",
-          "u13:tip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She feels ___ before every big test.",
@@ -15749,18 +13553,6 @@
       "spellingHint": "s-t-u-d-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ in the class received a new dictionary.",
-        "fullSentence": "Each student in the class received a new dictionary.",
-        "translation": "班上每位學生都收到一本新字典。",
-        "clue": "在學校學習的人",
-        "answerEntryId": "u13:student",
-        "distractorEntryIds": [
-          "u13:beginning",
-          "u13:textbook",
-          "u13:conversation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The new ___ comes from Tainan.",
@@ -15835,18 +13627,6 @@
       "spellingHint": "s-t-u-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You should ___ for at least one hour every night.",
-        "fullSentence": "You should study for at least one hour every night.",
-        "translation": "你每天晚上至少要讀一小時的書。",
-        "clue": "認真學習功課",
-        "answerEntryId": "u13:study",
-        "distractorEntryIds": [
-          "u13:review",
-          "u13:paint",
-          "u13:learn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We ___ maps in geography class.",
@@ -15921,18 +13701,6 @@
       "spellingHint": "s-u-b-j-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Math is the hardest ___ for many seventh graders.",
-        "fullSentence": "Math is the hardest subject for many seventh graders.",
-        "translation": "數學是許多七年級生最難的科目。",
-        "clue": "學校裡一門一門的課",
-        "answerEntryId": "u13:subject",
-        "distractorEntryIds": [
-          "u13:discussion",
-          "u13:music",
-          "u13:classmate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We study one new ___ every month this semester.",
@@ -16007,18 +13775,6 @@
       "spellingHint": "s-w-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little girl asked her dad to push her higher on the ___.",
-        "fullSentence": "The little girl asked her dad to push her higher on the swing.",
-        "translation": "小女孩請爸爸把她盪得更高。",
-        "clue": "前後擺盪的遊具",
-        "answerEntryId": "u13:swing",
-        "distractorEntryIds": [
-          "u13:chemical",
-          "u13:trouble",
-          "u13:break"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are three ___ sets in the playground.",
@@ -16093,18 +13849,6 @@
       "spellingHint": "t-a-l-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The show celebrates every kind of ___, from singing to magic.",
-        "fullSentence": "The show celebrates every kind of talent, from singing to magic.",
-        "translation": "這個節目讚揚各種才能，從唱歌到魔術。",
-        "clue": "表演節目中展現的能力",
-        "answerEntryId": "u13:talent",
-        "distractorEntryIds": [
-          "u13:title",
-          "u13:workbook",
-          "u13:entrance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He has a ___ for making people laugh.",
@@ -16179,18 +13923,6 @@
       "spellingHint": "t-a-l-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked the two boys not to ___ during the quiz.",
-        "fullSentence": "The teacher asked the two boys not to talk during the quiz.",
-        "translation": "老師要求兩個男孩小考時不要說話。",
-        "clue": "和別人交談",
-        "answerEntryId": "u13:talk",
-        "distractorEntryIds": [
-          "u13:gather",
-          "u13:explain",
-          "u13:speak"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's ___ about the plan after lunch.",
@@ -16265,18 +13997,6 @@
       "spellingHint": "t-a-r-g-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The company set a new sales ___ for next year.",
-        "fullSentence": "The company set a new sales target for next year.",
-        "translation": "公司為明年設定了新的銷售目標。",
-        "clue": "設下要達成的數字",
-        "answerEntryId": "u13:target",
-        "distractorEntryIds": [
-          "u13:conversation",
-          "u13:math",
-          "u13:friend"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The archer hit the center of the ___.",
@@ -16351,18 +14071,6 @@
       "spellingHint": "t-e-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mr. Wang will ___ us how to play chess.",
-        "fullSentence": "Mr. Wang will teach us how to play chess.",
-        "translation": "王老師要教我們下西洋棋。",
-        "clue": "把知識或技能傳授給人",
-        "answerEntryId": "u13:teach",
-        "distractorEntryIds": [
-          "u13:review",
-          "u13:paint",
-          "u13:learn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother will ___ me how to cook rice this weekend.",
@@ -16437,18 +14145,6 @@
       "spellingHint": "t-e-a-c-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wrote the homework on the blackboard.",
-        "fullSentence": "The teacher wrote the homework on the blackboard.",
-        "translation": "老師把作業寫在黑板上。",
-        "clue": "在黑板前上課的人",
-        "answerEntryId": "u13:teacher",
-        "distractorEntryIds": [
-          "u13:sentence",
-          "u13:activity",
-          "u13:test"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ask the ___ if you have any questions.",
@@ -16523,18 +14219,6 @@
       "spellingHint": "t-e-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ me the truth about the broken vase.",
-        "fullSentence": "Please tell me the truth about the broken vase.",
-        "translation": "請告訴我花瓶打破的真相。",
-        "clue": "把事情說給人聽",
-        "answerEntryId": "u13:tell",
-        "distractorEntryIds": [
-          "u13:prepare",
-          "u13:review",
-          "u13:paint"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you ___ me where the library is?",
@@ -16609,18 +14293,6 @@
       "spellingHint": "t-e-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The second ___ starts after the winter holiday.",
-        "fullSentence": "The second term starts after the winter holiday.",
-        "translation": "第二學期在寒假後開始。",
-        "clue": "學年中的一個期間",
-        "answerEntryId": "u13:term",
-        "distractorEntryIds": [
-          "u13:gym",
-          "u13:knowledge",
-          "u13:map"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We have exams at the end of every ___.",
@@ -16695,18 +14367,6 @@
       "spellingHint": "t-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The vocabulary ___ has twenty questions.",
-        "fullSentence": "The vocabulary test has twenty questions.",
-        "translation": "這次字彙測驗有二十題。",
-        "clue": "檢驗學習成果的小考",
-        "answerEntryId": "u13:test",
-        "distractorEntryIds": [
-          "u13:class leader",
-          "u13:blackboard",
-          "u13:tip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mr. Lin gives a surprise ___ almost every week.",
@@ -16781,18 +14441,6 @@
       "spellingHint": "t-e-x-t-b-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Bring your ___ to every English class, along with the practice book.",
-        "fullSentence": "Bring your textbook to every English class, along with the practice book.",
-        "translation": "每堂英文課都要帶課本，還有練習本。",
-        "clue": "上課用的正式教材",
-        "answerEntryId": "u13:textbook",
-        "distractorEntryIds": [
-          "u13:subject",
-          "u13:bell",
-          "u13:student"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The new ___ has colorful pictures on every page.",
@@ -16867,18 +14515,6 @@
       "spellingHint": "t-h-o-u-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sudden ___ made her smile during the quiet test.",
-        "fullSentence": "The sudden thought made her smile during the quiet test.",
-        "translation": "安靜的考試中，一個突然的念頭讓她笑了。",
-        "clue": "腦中閃過的念頭",
-        "answerEntryId": "u13:thought",
-        "distractorEntryIds": [
-          "u13:class leader",
-          "u13:blackboard",
-          "u13:tip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please write down one ___ about the story.",
@@ -16953,18 +14589,6 @@
       "spellingHint": "t-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher gave us a useful ___ for the listening test.",
-        "fullSentence": "The teacher gave us a useful tip for the listening test.",
-        "translation": "老師給了我們一個聽力測驗的實用技巧。",
-        "clue": "幫助做得更好的小建議",
-        "answerEntryId": "u13:tip",
-        "distractorEntryIds": [
-          "u13:title",
-          "u13:workbook",
-          "u13:entrance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Here's a ___: read the questions before the passage.",
@@ -17039,18 +14663,6 @@
       "spellingHint": "t-i-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Write your essay's ___ at the top of the page.",
-        "fullSentence": "Write your essay's title at the top of the page.",
-        "translation": "把文章的題目寫在頁面最上面。",
-        "clue": "文章最上方標示的名稱",
-        "answerEntryId": "u13:title",
-        "distractorEntryIds": [
-          "u13:picture",
-          "u13:skill",
-          "u13:homework"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the movie is long but interesting.",
@@ -17125,18 +14737,6 @@
       "spellingHint": "t-o-p-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Choose a ___ you care about for your speech.",
-        "fullSentence": "Choose a topic you care about for your speech.",
-        "translation": "演講請選一個你真正在乎的主題。",
-        "clue": "討論或寫作的中心內容",
-        "answerEntryId": "u13:topic",
-        "distractorEntryIds": [
-          "u13:library",
-          "u13:problem",
-          "u13:exercise"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's today's ___ in class?",
@@ -17211,18 +14811,6 @@
       "spellingHint": "t-r-o-u-b-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you keep skipping class, you will get into ___.",
-        "fullSentence": "If you keep skipping class, you will get into trouble.",
-        "translation": "如果你一直翹課，就會惹上麻煩。",
-        "clue": "造成的不良後果",
-        "answerEntryId": "u13:trouble",
-        "distractorEntryIds": [
-          "u13:entrance",
-          "u13:word",
-          "u13:spelling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The little boy is always making ___.",
@@ -17297,18 +14885,6 @@
       "spellingHint": "t-r-u-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The statement is ___ because water boils at 100 degrees Celsius.",
-        "fullSentence": "The statement is TRUE because water boils at 100 degrees Celsius.",
-        "translation": "這個敘述是對的，因為水在攝氏一百度沸騰。",
-        "clue": "符合事實的敘述",
-        "answerEntryId": "u13:TRUE",
-        "distractorEntryIds": [
-          "u13:absent",
-          "u13:correct",
-          "u13:present"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mark the statement ___ or false.",
@@ -17383,18 +14959,6 @@
       "spellingHint": "u-n-d-e-r-l-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the words you don't know in the passage.",
-        "fullSentence": "Please underline the words you don't know in the passage.",
-        "translation": "請把文章中不懂的單字畫線。",
-        "clue": "在字底下畫線做記號",
-        "answerEntryId": "u13:underline",
-        "distractorEntryIds": [
-          "u13:cheat",
-          "u13:revise",
-          "u13:talk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Remember to ___ the title of the book with a ruler.",
@@ -17469,18 +15033,6 @@
       "spellingHint": "u-n-d-e-r-s-t-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Read the passage twice if you don't ___ it the first time.",
-        "fullSentence": "Read the passage twice if you don't understand it the first time.",
-        "translation": "如果第一次看不懂，就把文章讀兩次。",
-        "clue": "把意思弄懂",
-        "answerEntryId": "u13:understand",
-        "distractorEntryIds": [
-          "u13:repeat",
-          "u13:tell",
-          "u13:ask"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Do you ___ what the teacher just explained?",
@@ -17555,18 +15107,6 @@
       "spellingHint": "u-n-i-v-e-r-s-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She studies medicine at a famous ___.",
-        "fullSentence": "She studies medicine at a famous university.",
-        "translation": "她在一家著名的大學讀醫學。",
-        "clue": "提供學位的高等學府",
-        "answerEntryId": "u13:university",
-        "distractorEntryIds": [
-          "u13:history",
-          "u13:target",
-          "u13:joke"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My dream is to enter a top ___.",
@@ -17641,18 +15181,6 @@
       "spellingHint": "u-s-e-f-u-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A good notebook is ___ for learning new words.",
-        "fullSentence": "A good notebook is useful for learning new words.",
-        "translation": "好的筆記本對學新單字很有用。",
-        "clue": "能派上用場的",
-        "answerEntryId": "u13:useful",
-        "distractorEntryIds": [
-          "u13:easy",
-          "u13:right",
-          "u13:absent"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The map was ___ when we got lost.",
@@ -17727,18 +15255,6 @@
       "spellingHint": "v-o-c-a-b-u-l-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A wide ___ helps you understand difficult articles.",
-        "fullSentence": "A wide vocabulary helps you understand difficult articles.",
-        "translation": "豐富的字彙量幫助你理解困難的文章。",
-        "clue": "一個人認識的單字總量",
-        "answerEntryId": "u13:vocabulary",
-        "distractorEntryIds": [
-          "u13:word",
-          "u13:spelling",
-          "u13:chemical"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Learning new ___ takes time and practice.",
@@ -17813,18 +15329,6 @@
       "spellingHint": "w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shortest ___ to the station is through the park.",
-        "fullSentence": "The shortest way to the station is through the park.",
-        "translation": "到車站最短的路是穿過公園。",
-        "clue": "到達目的地的路線",
-        "answerEntryId": "u13:way",
-        "distractorEntryIds": [
-          "u13:diary",
-          "u13:goal",
-          "u13:crayon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Excuse me, am I going the right ___?",
@@ -17899,18 +15403,6 @@
       "spellingHint": "w-o-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher wrote a new ___ on the blackboard.",
-        "fullSentence": "The teacher wrote a new word on the blackboard.",
-        "translation": "老師在黑板上寫了一個新單字。",
-        "clue": "黑板上一個一個的單字",
-        "answerEntryId": "u13:word",
-        "distractorEntryIds": [
-          "u13:board",
-          "u13:tip",
-          "u13:class"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher wrote a new ___ on the board.",
@@ -17985,18 +15477,6 @@
       "spellingHint": "w-o-r-k-b-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Write your answers in the ___, not in the textbook.",
-        "fullSentence": "Write your answers in the workbook, not in the textbook.",
-        "translation": "把答案寫在習作本上，不要寫在課本裡。",
-        "clue": "寫練習題的本子",
-        "answerEntryId": "u13:workbook",
-        "distractorEntryIds": [
-          "u13:knowledge",
-          "u13:map",
-          "u13:quiz"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher collected everyone's ___.",
@@ -18071,18 +15551,6 @@
       "spellingHint": "w-r-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ your answer on the line provided.",
-        "fullSentence": "Please write your answer on the line provided.",
-        "translation": "請把答案寫在提供的橫線上。",
-        "clue": "用筆把字寫下來",
-        "answerEntryId": "u13:write",
-        "distractorEntryIds": [
-          "u13:count",
-          "u13:study",
-          "u13:decorate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She likes to ___ letters to her pen pal.",
@@ -18157,18 +15625,6 @@
       "spellingHint": "w-r-o-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Three of my answers were ___, so I got seventy points.",
-        "fullSentence": "Three of my answers were wrong, so I got seventy points.",
-        "translation": "我有三題答錯，所以得了七十分。",
-        "clue": "沒有答對的",
-        "answerEntryId": "u13:wrong",
-        "distractorEntryIds": [
-          "u13:difficult",
-          "u13:false",
-          "u13:easy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is ___ to copy someone else's homework.",

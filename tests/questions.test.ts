@@ -28,20 +28,24 @@ describe('question construction', () => {
 
     it(`Unit ${unit}: every cloze has 4 unique options and answer appears once`, () => {
       for (const e of en.entries) {
-        const c = e.cloze;
-        const opts = [c.answerEntryId, ...c.distractorEntryIds];
-        expect(new Set(opts).size).toBe(4);
-        const ansCount = opts.filter((o) => o === c.answerEntryId).length;
-        expect(ansCount).toBe(1);
+        // All three adaptive tiers (the legacy single field was removed).
+        for (const c of [...e.clozeEasy, ...e.clozeMedium, e.clozeHard]) {
+          const opts = [c.answerEntryId, ...c.distractorEntryIds];
+          expect(new Set(opts).size).toBe(4);
+          const ansCount = opts.filter((o) => o === c.answerEntryId).length;
+          expect(ansCount).toBe(1);
+        }
       }
     });
 
     it(`Unit ${unit}: all cloze distractor IDs resolve to enriched entries with same POS`, () => {
       for (const e of en.entries) {
-        for (const d of e.cloze.distractorEntryIds) {
-          const de = getEnrichedEntry(d);
-          expect(de, `distractor ${d} should be enriched`).toBeDefined();
-          expect(de!.pos).toBe(e.pos);
+        for (const c of [...e.clozeEasy, ...e.clozeMedium, e.clozeHard]) {
+          for (const d of c.distractorEntryIds) {
+            const de = getEnrichedEntry(d);
+            expect(de, `distractor ${d} should be enriched`).toBeDefined();
+            expect(de!.pos).toBe(e.pos);
+          }
         }
       }
     });
@@ -57,7 +61,7 @@ describe('question construction', () => {
   it('buildQuestion produces a question with resolving answer for cloze', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
-    const q = buildQuestion(v, 'cloze', 0);
+    const q = buildQuestion(v, 'cloze');
     expect(q).not.toBeNull();
     expect(q!.type).toBe('cloze');
     expect(q!.options!.length).toBe(4);
@@ -68,7 +72,7 @@ describe('question construction', () => {
   it('cloze options are English words (the sentence is English)', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
-    const q = buildQuestion(v, 'cloze', 0);
+    const q = buildQuestion(v, 'cloze');
     // The correct option must be the English word, not the Chinese gloss.
     const correctOpt = q!.options!.find((o) => o.entryId === q!.answer);
     expect(correctOpt!.label).toBe(v.word);
@@ -77,7 +81,7 @@ describe('question construction', () => {
   it('buildQuestion spelling uses the word as answer and carries pos', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
-    const q = buildQuestion(v, 'spelling', 0);
+    const q = buildQuestion(v, 'spelling');
     expect(q!.answer).toBe(v.word);
     expect(q!.pos).toBe(e.pos);
     expect(q!.spellingAnswer).toBe(v.word);
@@ -226,7 +230,7 @@ describe('question construction', () => {
   it('en2zh options contain the correct Chinese gloss', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
-    const q = buildQuestion(v, 'en2zh', 0);
+    const q = buildQuestion(v, 'en2zh');
     const correctOpt = q!.options!.find((o) => o.entryId === q!.answer);
     expect(correctOpt!.label).toBe(e.zh);
   });
@@ -234,7 +238,7 @@ describe('question construction', () => {
   it('zh2en options contain the correct English word', () => {
     const e = loadEnrichment('11').entries[0];
     const v = getEntry(e.entryId)!;
-    const q = buildQuestion(v, 'zh2en', 0);
+    const q = buildQuestion(v, 'zh2en');
     const correctOpt = q!.options!.find((o) => o.entryId === q!.answer);
     expect(correctOpt!.label).toBe(v.word);
   });

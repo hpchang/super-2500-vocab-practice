@@ -11,18 +11,6 @@
       "spellingHint": "b-i-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter brought a ___ showing how much our dinner cost.",
-        "fullSentence": "The waiter brought a bill showing how much our dinner cost.",
-        "translation": "服務生拿來一張帳單，上面寫著我們的晚餐要多少錢。",
-        "clue": "列出金額、要求付款的單據",
-        "answerEntryId": "u17:bill",
-        "distractorEntryIds": [
-          "u17:price",
-          "u17:income",
-          "u17:debt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom opened the ___ from the phone company and paid it right away.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-o-r-r-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I forgot my pen, so I had to ___ one from my classmate.",
-        "fullSentence": "I forgot my pen, so I had to borrow one from my classmate.",
-        "translation": "我忘了帶筆，所以只好向同學借一支。",
-        "clue": "自己沒有，向別人拿來暫用",
-        "answerEntryId": "u17:borrow",
-        "distractorEntryIds": [
-          "u17:lend",
-          "u17:pay",
-          "u17:spend"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You can ___ five books from the library with one card.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-u-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We went to the mall to ___ new shoes for school.",
-        "fullSentence": "We went to the mall to buy new shoes for school.",
-        "translation": "我們去購物中心買上學用的鞋子。",
-        "clue": "付錢換取想要的東西",
-        "answerEntryId": "u17:buy",
-        "distractorEntryIds": [
-          "u17:sell",
-          "u17:spend",
-          "u17:pay"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have ten dollars, so I can ___ an ice cream.",
@@ -269,18 +233,6 @@
       "spellingHint": "c-a-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The small store only takes ___, not credit cards.",
-        "fullSentence": "The small store only takes cash, not credit cards.",
-        "translation": "這家小店只收現金，不收信用卡。",
-        "clue": "看得見的鈔票和銅板，不是卡片",
-        "answerEntryId": "u17:cash",
-        "distractorEntryIds": [
-          "u17:money",
-          "u17:change",
-          "u17:income"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please pay in ___ because the machine cannot read cards today.",
@@ -355,18 +307,6 @@
       "spellingHint": "c-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ is the smallest unit of United States money, worth one hundredth of its basic unit.",
-        "fullSentence": "A cent is the smallest unit of United States money, worth one hundredth of its basic unit.",
-        "translation": "「分」是美國貨幣最小的單位，是基本單位的百分之一。",
-        "clue": "一元的百分之一，最小的錢幣單位",
-        "answerEntryId": "u17:cent",
-        "distractorEntryIds": [
-          "u17:dollar",
-          "u17:coin",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The vending machine rejected his bent one-___ coin.",
@@ -441,18 +381,6 @@
       "spellingHint": "c-h-a-n-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I paid with a hundred-dollar note and the clerk gave me my ___.",
-        "fullSentence": "I paid with a hundred-dollar note and the clerk gave me my change.",
-        "translation": "我用一百元紙鈔付款，店員把找零拿給我。",
-        "clue": "付款後店家退回多收的錢",
-        "answerEntryId": "u17:change",
-        "distractorEntryIds": [
-          "u17:cash",
-          "u17:money",
-          "u17:coin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The drink costs eighty dollars, so I got twenty dollars back as ___.",
@@ -527,18 +455,6 @@
       "spellingHint": "c-h-a-r-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The repair shop did not ___ us anything for fixing the chair.",
-        "fullSentence": "The repair shop did not charge us anything for fixing the chair.",
-        "translation": "修理店修椅子完全沒有向我們收費。",
-        "clue": "店家向客人「開價收錢」的動作",
-        "answerEntryId": "u17:charge",
-        "distractorEntryIds": [
-          "u17:pay",
-          "u17:cost",
-          "u17:spend"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How much does this store ___ for home delivery?",
@@ -613,18 +529,6 @@
       "spellingHint": "c-h-e-a-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The pens were so ___ that I bought five of them.",
-        "fullSentence": "The pens were so cheap that I bought five of them.",
-        "translation": "這些筆非常便宜，所以我買了五枝。",
-        "clue": "價格很低，讓人一次多買幾枝",
-        "answerEntryId": "u17:cheap",
-        "distractorEntryIds": [
-          "u17:expensive",
-          "u12:quick",
-          "u12:fast"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This store sells warm jackets at very low prices, so everything here is ___.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-o-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old man's favorite hobby is collecting one metal ___ from every country he visits.",
-        "fullSentence": "The old man's favorite hobby is collecting one metal coin from every country he visits.",
-        "translation": "老爺爺最大的嗜好是從每個他去過的國家收集一枚金屬硬幣。",
-        "clue": "金屬做的圓形小錢幣，常被收藏",
-        "answerEntryId": "u17:coin",
-        "distractorEntryIds": [
-          "u17:cash",
-          "u17:money",
-          "u17:bill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Insert a ___ into the machine and press the red button.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-o-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "These shoes ___ three thousand dollars at that store.",
-        "fullSentence": "These shoes cost three thousand dollars at that store.",
-        "translation": "這雙鞋在那家店要賣三千元。",
-        "clue": "用「東西 + 價格」表示東西值多少錢",
-        "answerEntryId": "u17:cost",
-        "distractorEntryIds": [
-          "u17:pay",
-          "u17:spend",
-          "u17:charge"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A movie ticket will ___ about three hundred dollars here.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-r-e-d-i-t c-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Instead of handing over paper bills, she swiped her ___ at the counter.",
-        "fullSentence": "Instead of handing over paper bills, she swiped her credit card at the counter.",
-        "translation": "她沒有遞出紙鈔，而是在櫃檯刷了信用卡。",
-        "clue": "可以「刷」的塑膠付款卡",
-        "answerEntryId": "u17:credit card",
-        "distractorEntryIds": [
-          "u17:cash",
-          "u17:money",
-          "u17:change"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad pays for our meals with a ___ and settles everything at the end of the month.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-u-r-r-e-n-c-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before visiting England, Dad exchanged our coins and notes for the local ___.",
-        "fullSentence": "Before visiting England, Dad exchanged our coins and notes for the local currency.",
-        "translation": "去英國之前，爸爸把我們的錢換成當地的貨幣。",
-        "clue": "一個國家正式使用的錢",
-        "answerEntryId": "u17:currency",
-        "distractorEntryIds": [
-          "u17:cash",
-          "u17:money",
-          "u17:coin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dollar is the main ___ used in the United States.",
@@ -1043,18 +899,6 @@
       "spellingHint": "d-e-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Getting three shirts for the cost of two is really a good ___.",
-        "fullSentence": "Getting three shirts for the cost of two is really a good deal.",
-        "translation": "用兩件的價錢買到三件襯衫真的很划算。",
-        "clue": "讓買方賺到、很划算的買賣",
-        "answerEntryId": "u17:deal",
-        "distractorEntryIds": [
-          "u17:price",
-          "u17:fee",
-          "u17:income"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa says a handshake is enough to close a small ___.",
@@ -1129,18 +973,6 @@
       "spellingHint": "d-e-b-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It took him two years to pay off the ___ from his new motorbike.",
-        "fullSentence": "It took him two years to pay off the debt from his new motorbike.",
-        "translation": "他花了兩年才還清新機車的債務。",
-        "clue": "借了錢之後欠下、必須償還的金額",
-        "answerEntryId": "u17:debt",
-        "distractorEntryIds": [
-          "u17:bill",
-          "u17:fee",
-          "u17:loss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She is careful with money because she does not want to fall into ___.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "d-o-l-l-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The United States uses the ___ as its basic unit of paper money.",
-        "fullSentence": "The United States uses the dollar as its basic unit of paper money.",
-        "translation": "美國以「元」作為紙鈔的基本貨幣單位。",
-        "clue": "美國錢的基本單位，一元等於一百分",
-        "answerEntryId": "u17:dollar",
-        "distractorEntryIds": [
-          "u17:cent",
-          "u17:coin",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa handed me a crisp one-___ note for my birthday.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "d-o-n-k-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farmer loaded heavy sacks onto his ___ before walking it to the market.",
-        "fullSentence": "The farmer loaded heavy sacks onto his donkey before walking it to the market.",
-        "translation": "農夫把沉重的麻袋裝上驢子，才把牠牽去市場。",
-        "clue": "能馱重物的長耳動物",
-        "answerEntryId": "u17:donkey",
-        "distractorEntryIds": [
-          "u12:truck",
-          "u12:bicycle",
-          "u12:train"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has long ears and makes a loud hee-haw sound.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "e-a-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students can ___ pocket money by helping with housework at home.",
-        "fullSentence": "Students can earn pocket money by helping with housework at home.",
-        "translation": "學生可以幫忙做家事來賺零用錢。",
-        "clue": "靠努力工作得到錢",
-        "answerEntryId": "u17:earn",
-        "distractorEntryIds": [
-          "u17:pay",
-          "u17:spend",
-          "u17:save"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad works hard every day to ___ money for our family.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "e-x-p-e-n-s-i-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The camera was too ___, so I chose a smaller and cheaper one.",
-        "fullSentence": "The camera was too expensive, so I chose a smaller and cheaper one.",
-        "translation": "那台相機太貴了，所以我選了比較小也比較便宜的。",
-        "clue": "價格太高，只好換便宜的",
-        "answerEntryId": "u17:expensive",
-        "distractorEntryIds": [
-          "u17:cheap",
-          "u12:quick",
-          "u12:crowded"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A sports car costs a lot of money; it is very ___.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "f-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The swimming school asks for a small ___ every month for lessons.",
-        "fullSentence": "The swimming school asks for a small fee every month for lessons.",
-        "translation": "游泳學校每個月收一點學費。",
-        "clue": "使用服務要付的錢",
-        "answerEntryId": "u17:fee",
-        "distractorEntryIds": [
-          "u17:bill",
-          "u17:price",
-          "u17:debt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You must pay a ___ to enter the amusement park.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "f-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He had to pay a ___ for driving faster than the speed limit.",
-        "fullSentence": "He had to pay a fine for driving faster than the speed limit.",
-        "translation": "他因為超速駕駛而被罰款。",
-        "clue": "違規後必須繳的罰金",
-        "answerEntryId": "u17:fine",
-        "distractorEntryIds": [
-          "u17:fee",
-          "u17:bill",
-          "u17:debt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Riders without a ticket may receive a ___ from the inspector.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "i-n-c-o-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Most of the family's ___ comes from Dad's job at the factory.",
-        "fullSentence": "Most of the family's income comes from Dad's job at the factory.",
-        "translation": "這個家庭的收入大部分來自爸爸在工廠的工作。",
-        "clue": "工作換來的全部錢財來源",
-        "answerEntryId": "u17:income",
-        "distractorEntryIds": [
-          "u17:money",
-          "u17:cash",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "With two jobs, she doubled her ___ last year.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "l-e-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bank agreed to ___ him ten thousand dollars for his small shop.",
-        "fullSentence": "The bank agreed to lend him ten thousand dollars for his small shop.",
-        "translation": "銀行同意借給他一萬元開小店。",
-        "clue": "銀行把錢「給出去」讓人使用",
-        "answerEntryId": "u17:lend",
-        "distractorEntryIds": [
-          "u17:borrow",
-          "u17:pay",
-          "u17:earn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Could you ___ me an umbrella? It's raining hard outside.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "l-o-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The company suffered a big ___ when the new product failed to sell.",
-        "fullSentence": "The company suffered a big loss when the new product failed to sell.",
-        "translation": "新產品賣不出去，公司蒙受了重大損失。",
-        "clue": "賣不出去時承受的金錢損失",
-        "answerEntryId": "u17:loss",
-        "distractorEntryIds": [
-          "u17:debt",
-          "u17:bill",
-          "u17:prize"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Selling the sofa for half price meant a ___ of two thousand dollars.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "m-o-n-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You need ___ to buy tickets for the school fair.",
-        "fullSentence": "You need money to buy tickets for the school fair.",
-        "translation": "你需要錢來買園遊會的票。",
-        "clue": "買東西時要用的東西",
-        "answerEntryId": "u17:money",
-        "distractorEntryIds": [
-          "u17:cash",
-          "u17:coin",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma gives us red envelopes full of ___ at Chinese New Year.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "p-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Remember to ___ at the counter before you leave the store.",
-        "fullSentence": "Remember to pay at the counter before you leave the store.",
-        "translation": "離開商店前記得先在櫃檯付款。",
-        "clue": "把錢交給店家的動作",
-        "answerEntryId": "u17:pay",
-        "distractorEntryIds": [
-          "u17:buy",
-          "u17:spend",
-          "u17:cost"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How would you like to ___ for this, by card or in cash?",
@@ -2161,18 +1861,6 @@
       "spellingHint": "p-r-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ on this jacket is too high for me to afford.",
-        "fullSentence": "The price on this jacket is too high for me to afford.",
-        "translation": "這件外套的價格太高，我買不起。",
-        "clue": "標籤上寫的售價",
-        "answerEntryId": "u17:price",
-        "distractorEntryIds": [
-          "u17:fee",
-          "u17:bill",
-          "u17:money"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Two stores may sell the same shoes at a different ___.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "p-r-i-z-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The winner of the race received a ___ of one thousand dollars.",
-        "fullSentence": "The winner of the race received a prize of one thousand dollars.",
-        "translation": "賽跑冠軍獲得了一千元的獎金。",
-        "clue": "比賽贏了拿到的獎",
-        "answerEntryId": "u17:prize",
-        "distractorEntryIds": [
-          "u17:income",
-          "u17:fee",
-          "u17:bill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He drew the lucky number and won a ___ at the school fair.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "s-a-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She puts ten dollars in her piggy bank every week to ___ up for a new bike.",
-        "fullSentence": "She puts ten dollars in her piggy bank every week to save up for a new bike.",
-        "translation": "她每週放十元到撲滿裡，為買新腳踏車存錢。",
-        "clue": "把錢存起來，累積之後使用",
-        "answerEntryId": "u17:save",
-        "distractorEntryIds": [
-          "u17:spend",
-          "u17:pay",
-          "u17:earn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "If you ___ your coins, you will have enough for the concert.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "s-e-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bakery on the corner will ___ out of bread before noon every day.",
-        "fullSentence": "The bakery on the corner will sell out of bread before noon every day.",
-        "translation": "轉角的麵包店每天中午前麵包就會賣光。",
-        "clue": "店家把東西「賣」給客人",
-        "answerEntryId": "u17:sell",
-        "distractorEntryIds": [
-          "u17:buy",
-          "u17:pay",
-          "u17:cost"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "They decided to ___ their old car and take the bus instead.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "s-p-e-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My sister likes to ___ her allowance on stickers and comics.",
-        "fullSentence": "My sister likes to spend her allowance on stickers and comics.",
-        "translation": "我妹妹喜歡把零用錢花在貼紙和漫畫上。",
-        "clue": "把錢用掉、花掉",
-        "answerEntryId": "u17:spend",
-        "distractorEntryIds": [
-          "u17:pay",
-          "u17:buy",
-          "u17:cost"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't ___ too much time playing games before the exam.",

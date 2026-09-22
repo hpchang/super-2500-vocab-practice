@@ -11,18 +11,6 @@
       "spellingHint": "b-a-d-m-i-n-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shuttlecock flew back and forth over the net during the ___ match.",
-        "fullSentence": "The shuttlecock flew back and forth over the net during the badmintion match.",
-        "translation": "羽毛球比賽時，羽毛球在球網兩邊來回飛。",
-        "clue": "用球拍和羽毛球在網前進行的運動",
-        "answerEntryId": "u14:badmintion",
-        "distractorEntryIds": [
-          "u14:volleyball",
-          "u14:tennis",
-          "u14:baseball"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We play ___ with rackets and a white shuttlecock in the gym.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school ___ played cheerful songs at the sports day.",
-        "fullSentence": "The school band played cheerful songs at the sports day.",
-        "translation": "運動會上，學校樂團演奏了輕快的歌曲。",
-        "clue": "由許多樂手組成的表演團體",
-        "answerEntryId": "u14:band",
-        "distractorEntryIds": [
-          "u14:drama",
-          "u14:cartoon",
-          "u14:channel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ needs one more guitar player before the school show.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-a-r-b-e-c-u-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad lit the charcoal so we could ___ sausages in the yard.",
-        "fullSentence": "Dad lit the charcoal so we could barbecue sausages in the yard.",
-        "translation": "爸爸生好炭火，我們才能在院子裡烤香腸。",
-        "clue": "用炭火在戶外烤食物",
-        "answerEntryId": "u14:barbecue",
-        "distractorEntryIds": [
-          "u14:camp",
-          "u14:hike",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On warm evenings, many families ___ meat outside on their grills.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-a-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After hitting the ball, Ken ran as fast as he could toward first ___.",
-        "fullSentence": "After hitting the ball, Ken ran as fast as he could toward first base.",
-        "translation": "打出安打後，Ken 全力衝向一壘。",
-        "clue": "棒球跑者要踩的壘包",
-        "answerEntryId": "u14:base",
-        "distractorEntryIds": [
-          "u14:court",
-          "u14:net",
-          "u14:stage"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is one of the four corners a runner must touch in baseball.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-a-s-e-b-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every spring, our class plays ___ against the class next door.",
-        "fullSentence": "Every spring, our class plays baseball against the class next door.",
-        "translation": "每年春天，我們班都和隔壁班打棒球。",
-        "clue": "兩班對打的球賽",
-        "answerEntryId": "u14:baseball",
-        "distractorEntryIds": [
-          "u14:chess",
-          "u14:bowling",
-          "u14:golf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tommy caught the flying ball with his glove during the ___ game.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-a-s-k-e-t-b-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Michael shot the ball through the hoop and won the ___ game.",
-        "fullSentence": "Michael shot the ball through the hoop and won the basketball game.",
-        "translation": "Michael 把球投進籃框，贏了這場籃球賽。",
-        "clue": "把球投進高掛籃框的運動",
-        "answerEntryId": "u14:basketball",
-        "distractorEntryIds": [
-          "u14:soccer",
-          "u14:golf",
-          "u14:bowling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We need a tall hoop and a big orange ball to play ___.",
@@ -527,18 +455,6 @@
       "spellingHint": "c-a-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The scouts pitched their tents in the forest so they could ___ there for two nights.",
-        "fullSentence": "The scouts pitched their tents in the forest so they could camp there for two nights.",
-        "translation": "童軍在森林裡搭好帳篷，要在那裡露營兩晚。",
-        "clue": "搭帳篷在戶外過夜",
-        "answerEntryId": "u14:camp",
-        "distractorEntryIds": [
-          "u14:hike",
-          "u14:swim",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We will ___ beside the lake and cook dinner over a campfire.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-o-w-l-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken rolled the heavy ball down the lane and knocked down all ten pins in ___.",
-        "fullSentence": "Ken rolled the heavy ball down the lane and knocked down all ten pins in bowling.",
-        "translation": "Ken 把重球沿球道滾出，打倒全部十個瓶，打出保齡球全倒。",
-        "clue": "滾球擊倒球瓶的室內運動",
-        "answerEntryId": "u14:bowling",
-        "distractorEntryIds": [
-          "u14:golf",
-          "u14:tennis",
-          "u14:chess"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In ___, you roll a heavy ball to knock down ten white pins.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-a-b-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We pay a small fee every month to watch sports on ___ TV.",
-        "fullSentence": "We pay a small fee every month to watch sports on cable TV.",
-        "translation": "我們每個月付一點錢，用有線電視看運動節目。",
-        "clue": "每月付費收看的多頻道電視",
-        "answerEntryId": "u14:cable",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa never misses his favorite baseball show on ___.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken spent his whole allowance on paper and glitter to make a birthday ___.",
-        "fullSentence": "Ken spent his whole allowance on paper and glitter to make a birthday card.",
-        "translation": "Ken 把零用錢全拿去買色紙和亮粉做生日卡片。",
-        "clue": "親手寫祝福的紙片",
-        "answerEntryId": "u14:card",
-        "distractorEntryIds": [
-          "u14:stamp",
-          "u14:doll",
-          "u14:kite"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Maya drew flowers all over her grandmother's birthday ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-a-r-t-o-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the ___, colorful drawings of a talking rabbit moved across the screen.",
-        "fullSentence": "In the cartoon, colorful drawings of a talking rabbit moved across the screen.",
-        "translation": "卡通裡，會說話的兔子用彩色圖畫在螢幕上移動。",
-        "clue": "用連續圖畫做成的節目",
-        "answerEntryId": "u14:cartoon",
-        "distractorEntryIds": [
-          "u14:drama",
-          "u14:novel",
-          "u14:magazine"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ben watches a funny ___ with talking animals every morning before school.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sue slid the shiny disc into the stereo to play her new ___.",
-        "fullSentence": "Sue slid the shiny disc into the stereo to play her new CD.",
-        "translation": "Sue 把亮亮的圓片放進音響，播放她的新 CD。",
-        "clue": "放進音響聽音樂的圓形光碟",
-        "answerEntryId": "u14:CD",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom keeps her favorite ___ in a slim round case.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-h-a-n-n-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ben keeps pressing the remote until he finds a ___ that is showing cartoons.",
-        "fullSentence": "Ben keeps pressing the remote until he finds a channel that is showing cartoons.",
-        "translation": "Ben 一直按遙控器，直到找到正在播卡通的頻道。",
-        "clue": "電視上有編號的台",
-        "answerEntryId": "u14:channel",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:kite"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "With ___, our TV can show more than a hundred different stations.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-h-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa showed me how each piece moves in a game of ___.",
-        "fullSentence": "Grandpa showed me how each piece moves in a game of chess.",
-        "translation": "爺爺教我西洋棋裡每個棋子怎麼走。",
-        "clue": "棋子各有走法的棋盤遊戲",
-        "answerEntryId": "u14:chess",
-        "distractorEntryIds": [
-          "u14:kite",
-          "u14:doll",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Eric moved his knight and shouted check during the game of ___.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-l-i-m-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The rescue team used ropes to ___ up the cliff and reach the lost hikers.",
-        "fullSentence": "The rescue team used ropes to climb up the cliff and reach the lost hikers.",
-        "translation": "救難隊用繩索爬上懸崖，去救迷路的登山客。",
-        "clue": "抓著繩索往上爬",
-        "answerEntryId": "u14:climb",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:jog",
-          "u14:sail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The firefighter went up the long ladder to ___ to the tenth floor.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-o-l-l-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Aunt May keeps a special album because she loves to ___ coins from around the world.",
-        "fullSentence": "Aunt May keeps a special album because she loves to collect coins from around the world.",
-        "translation": "May 阿姨熱愛收集世界各地的硬幣，所以準備了專冊。",
-        "clue": "把同類東西一件件收起來",
-        "answerEntryId": "u14:collect",
-        "distractorEntryIds": [
-          "u14:hunt",
-          "u14:lose",
-          "u14:win"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ben keeps a big box to ___ the shells he picks up on the beach.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "c-o-l-l-e-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Uncle Joe proudly showed us his ___ of two hundred foreign coins.",
-        "fullSentence": "Uncle Joe proudly showed us his collection of two hundred foreign coins.",
-        "translation": "Joe 叔叔得意地展示他兩百枚外國硬幣的收藏。",
-        "clue": "成套收在一起的東西",
-        "answerEntryId": "u14:collection",
-        "distractorEntryIds": [
-          "u14:habit",
-          "u14:game",
-          "u14:toy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The museum keeps a stamp ___ that fills ten thick books.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "c-o-m-i-c b-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken spent his whole allowance on a ___ full of pictures and speech bubbles.",
-        "fullSentence": "Ken spent his whole allowance on a comic book full of pictures and speech bubbles.",
-        "translation": "Ken 把零用錢全拿去買一本畫滿圖和對話框的漫畫書。",
-        "clue": "用圖和對話框說故事的書",
-        "answerEntryId": "u14:comic book",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:cartoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken's favorite ___ has speech bubbles and bright pictures on every page.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "c-o-m-p-u-t-e-r g-a-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken is allowed only one hour of ___ time after his homework is done.",
-        "fullSentence": "Ken is allowed only one hour of computer game time after his homework is done.",
-        "translation": "寫完功課後，Ken 只能玩一小時電腦遊戲。",
-        "clue": "在電腦上玩的遊戲",
-        "answerEntryId": "u14:computer game",
-        "distractorEntryIds": [
-          "u14:card",
-          "u14:kite",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken needs a mouse and a keyboard to play his favorite ___.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "c-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the soup in the pot on the stove for ten more minutes.",
-        "fullSentence": "Please cook the soup in the pot on the stove for ten more minutes.",
-        "translation": "請把湯放在爐上的鍋裡再煮十分鐘。",
-        "clue": "在爐火上把食物煮熟",
-        "answerEntryId": "u14:cook",
-        "distractorEntryIds": [
-          "u14:barbecue",
-          "u14:camp",
-          "u14:collect"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken learned to ___ fried rice from his grandmother.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "c-o-u-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The lines on the ___ were repainted bright white before the new season.",
-        "fullSentence": "The lines on the court were repainted bright white before the new season.",
-        "translation": "新赛季開始前，球場的界線重新漆成亮白色。",
-        "clue": "畫有界線的比賽場地",
-        "answerEntryId": "u14:court",
-        "distractorEntryIds": [
-          "u14:stage",
-          "u14:screen",
-          "u14:novel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When it started to rain, everyone ran off the ___ immediately.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "d-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The music started, and everyone got up to ___ on the floor.",
-        "fullSentence": "The music started, and everyone got up to dance on the floor.",
-        "translation": "音樂一響，大家都起身到舞池跳舞。",
-        "clue": "隨音樂擺動身體",
-        "answerEntryId": "u14:dance",
-        "distractorEntryIds": [
-          "u14:sing",
-          "u14:swim",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Maya takes lessons every Saturday to learn how to ___ ballet.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "d-o-d-g-e-b-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In PE class, quick kids survive longest in a game of ___.",
-        "fullSentence": "In PE class, quick kids survive longest in a game of dodgeball.",
-        "translation": "體育課上，反應快的人在躲避球裡撐最久。",
-        "clue": "要閃躲飛球的課堂遊戲",
-        "answerEntryId": "u14:dodgeball",
-        "distractorEntryIds": [
-          "u14:chess",
-          "u14:golf",
-          "u14:bowling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken ducked just in time as the ball flew past his head in ___.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "d-o-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Little Amy brushed the tiny dress of her favorite ___ before bed.",
-        "fullSentence": "Little Amy brushed the tiny dress of her favorite doll before bed.",
-        "translation": "睡前，小 Amy 幫最愛的洋娃娃梳整小洋裝。",
-        "clue": "穿小衣服的玩偶",
-        "answerEntryId": "u14:doll",
-        "distractorEntryIds": [
-          "u14:kite",
-          "u14:drum",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma sewed a new pair of shoes for Amy's old ___.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "d-r-a-m-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our class will perform a ___ about a brave young knight at the school festival.",
-        "fullSentence": "Our class will perform a drama about a brave young knight at the school festival.",
-        "translation": "校慶時，我們班要演出一齣勇敢年輕騎士的戲劇。",
-        "clue": "演員在台上演出的故事",
-        "answerEntryId": "u14:drama",
-        "distractorEntryIds": [
-          "u14:cartoon",
-          "u14:movie",
-          "u14:song"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken joined the ___ club because he loves acting on a stage.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "d-r-a-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ a picture of your family for the class wall.",
-        "fullSentence": "Please draw a picture of your family for the class wall.",
-        "translation": "請畫一張全家福貼在教室牆上。",
-        "clue": "用筆在紙上畫圖",
-        "answerEntryId": "u14:draw",
-        "distractorEntryIds": [
-          "u14:dance",
-          "u14:swim",
-          "u14:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken used a black marker to ___ a funny cat on the poster.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "d-r-u-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ben hit the ___ so hard that the whole room shook with the sound.",
-        "fullSentence": "Ben hit the drum so hard that the whole room shook with the sound.",
-        "translation": "Ben 把鼓敲得好大聲，整個房間都震動了。",
-        "clue": "用鼓棒敲出聲音的樂器",
-        "answerEntryId": "u14:drum",
-        "distractorEntryIds": [
-          "u14:flute",
-          "u14:piano",
-          "u14:violin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The drummer carried a big ___ on his back to the parade.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "e-x-e-r-c-i-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Swimming and jogging are both healthy forms of ___.",
-        "fullSentence": "Swimming and jogging are both healthy forms of exercise.",
-        "translation": "游泳和慢跑都是有助健康的運動。",
-        "clue": "讓身體動起來的活動",
-        "answerEntryId": "u14:exercise",
-        "distractorEntryIds": [
-          "u14:habit",
-          "u14:game",
-          "u14:hobby"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor says Dad needs more ___, so he walks to work now.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "f-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma waves her paper ___ back and forth to stay cool in summer.",
-        "fullSentence": "Grandma waves her paper fan back and forth to stay cool in summer.",
-        "translation": "夏天奶奶前後搧動紙扇保持涼爽。",
-        "clue": "用手搧風的扇子",
-        "answerEntryId": "u14:fan",
-        "distractorEntryIds": [
-          "u14:kite",
-          "u14:drum",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken bought a folding ___ at the temple fair to fight the heat.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "f-i-l-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The class watched a short ___ about dinosaurs in the media room.",
-        "fullSentence": "The class watched a short film about dinosaurs in the media room.",
-        "translation": "全班在媒體教室看了一部恐龍短片。",
-        "clue": "用投影播放的影片",
-        "answerEntryId": "u14:film",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:cartoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa showed us an old home ___ of Dad as a baby.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "f-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A bright orange ___ blew bubbles at the glass of the tank.",
-        "fullSentence": "A bright orange fish blew bubbles at the glass of the tank.",
-        "translation": "一條亮橘色的魚對著水族箱玻璃吐泡泡。",
-        "clue": "在水裡游的動物",
-        "answerEntryId": "u14:fish",
-        "distractorEntryIds": [
-          "u14:toy",
-          "u14:kite",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fisherman pulled a big slippery ___ out of the river.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "f-l-u-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy carries her silver ___ in a long black case.",
-        "fullSentence": "Amy carries her silver flute in a long black case.",
-        "translation": "Amy 把銀色長笛裝在黑色長盒裡帶著。",
-        "clue": "裝在長盒裡的管樂器",
-        "answerEntryId": "u14:flute",
-        "distractorEntryIds": [
-          "u14:drum",
-          "u14:piano",
-          "u14:violin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The melody sounded light and clear when Amy raised her ___ to her lips.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "f-o-o-t-b-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In American ___, players wear helmets and heavy pads to protect their bodies.",
-        "fullSentence": "In American football, players wear helmets and heavy pads to protect their bodies.",
-        "translation": "在美式足球裡，球員戴頭盔、穿厚護具保護身體。",
-        "clue": "戴頭盔護具的激烈球賽",
-        "answerEntryId": "u14:football",
-        "distractorEntryIds": [
-          "u14:soccer",
-          "u14:basketball",
-          "u14:volleyball"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken watched the ___ game and cheered every time his team scored a touchdown.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "f-r-i-s-b-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken threw the round plastic ___ high across the park, and Amy caught it.",
-        "fullSentence": "Ken threw the round plastic Frisbee high across the park, and Amy caught it.",
-        "translation": "Ken 把圓形塑膠飛盤高高丟過公園，Amy 接住了。",
-        "clue": "丟出去會飄浮旋轉的圓盤",
-        "answerEntryId": "u14:Frisbee",
-        "distractorEntryIds": [
-          "u14:kite",
-          "u14:drum",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dog jumped and caught the spinning ___ in mid-air.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "g-a-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children invented a ___ with rules that they changed whenever they wanted.",
-        "fullSentence": "The children invented a game with rules that they changed whenever they wanted.",
-        "translation": "孩子們發明了一個想改規則就改規則的遊戲。",
-        "clue": "自訂規則的玩法",
-        "answerEntryId": "u14:game",
-        "distractorEntryIds": [
-          "u14:toy",
-          "u14:kite",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every birthday party ends with a fun ___ of musical chairs.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "g-o-l-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___, players hit a small white ball into a hole with as few swings as possible.",
-        "fullSentence": "In golf, players hit a small white ball into a hole with as few swings as possible.",
-        "translation": "在高爾夫裡，球員用最少的揮桿把小白球打進洞。",
-        "clue": "揮桿把球打進洞的運動",
-        "answerEntryId": "u14:golf",
-        "distractorEntryIds": [
-          "u14:tennis",
-          "u14:bowling",
-          "u14:chess"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa carries his ___ clubs in a big bag over his shoulder.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "g-u-i-t-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken carried his ___ on his back and strummed a happy tune on the beach.",
-        "fullSentence": "Ken carried his guitar on his back and strummed a happy tune on the beach.",
-        "translation": "Ken 背著吉他，隨手彈出快樂的旋律。",
-        "clue": "用手指撥弦的樂器",
-        "answerEntryId": "u14:guitar",
-        "distractorEntryIds": [
-          "u14:flute",
-          "u14:drum",
-          "u14:piano"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The singer tuned the six strings of her ___ before the show.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "h-a-b-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Reading for ten minutes before bed has become Ben's nightly ___.",
-        "fullSentence": "Reading for ten minutes before bed has become Ben's nightly habit.",
-        "translation": "睡前看十分鐘書成了 Ben 每晚的習慣。",
-        "clue": "每天固定做的事",
-        "answerEntryId": "u14:habit",
-        "distractorEntryIds": [
-          "u14:hobby",
-          "u14:game",
-          "u14:trip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Breaking a bad ___ is hard, but starting a good one is even harder.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "h-i-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The scout troop will ___ along the river trail to the waterfall on Saturday.",
-        "fullSentence": "The scout troop will hike along the river trail to the waterfall on Saturday.",
-        "translation": "週六童軍團要沿河邊步道健行到瀑布。",
-        "clue": "沿步道長途步行",
-        "answerEntryId": "u14:hike",
-        "distractorEntryIds": [
-          "u14:jog",
-          "u14:swim",
-          "u14:sail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wear good shoes and bring water before we ___ up the hill.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "h-o-b-b-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Building model ships is Dad's favorite way to relax, so it is his main ___.",
-        "fullSentence": "Building model ships is Dad's favorite way to relax, so it is his main hobby.",
-        "translation": "組模型船是爸爸最愛的放鬆方式，也是他的主要嗜好。",
-        "clue": "閒暇時最愛做的活動",
-        "answerEntryId": "u14:hobby",
-        "distractorEntryIds": [
-          "u14:habit",
-          "u14:game",
-          "u14:trip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ keeps your mind busy and your hands moving.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "h-u-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Long ago, people followed animal tracks through the forest to ___ for food.",
-        "fullSentence": "Long ago, people followed animal tracks through the forest to hunt for food.",
-        "translation": "很久以前，人們跟著獸跡穿過森林打獵覓食。",
-        "clue": "追捕野生動物",
-        "answerEntryId": "u14:hunt",
-        "distractorEntryIds": [
-          "u14:collect",
-          "u14:camp",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wolf pack worked together to ___ deer on the snowy plain.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "i-n-s-t-r-u-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The music room holds one ___ of every kind, from drums to violins.",
-        "fullSentence": "The music room holds one instrument of every kind, from drums to violins.",
-        "translation": "音樂教室裡每種樂器都有一件，從鼓到小提琴。",
-        "clue": "能奏出音樂的器具",
-        "answerEntryId": "u14:instrument",
-        "distractorEntryIds": [
-          "u14:toy",
-          "u14:game",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken is learning a new ___ this year: he chose the trumpet.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "j-a-z-z",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The saxophone player filled the café with smooth ___.",
-        "fullSentence": "The saxophone player filled the café with smooth jazz.",
-        "translation": "薩克斯風手讓整間咖啡廳流動著慵懶的爵士樂。",
-        "clue": "用薩克斯風即興演奏的音樂",
-        "answerEntryId": "u14:jazz",
-        "distractorEntryIds": [
-          "u14:drama",
-          "u14:cartoon",
-          "u14:movie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa taps his foot whenever he hears lively ___ from the old radio.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "j-o-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every morning before breakfast, Ben puts on his sneakers and goes out to ___ around the lake.",
-        "fullSentence": "Every morning before breakfast, Ben puts on his sneakers and goes out to jog around the lake.",
-        "translation": "每天早餐前，Ben 穿上運動鞋到湖邊慢跑。",
-        "clue": "穿運動鞋慢慢跑步鍛鍊",
-        "answerEntryId": "u14:jog",
-        "distractorEntryIds": [
-          "u14:run",
-          "u14:swim",
-          "u14:hike"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor told Dad to ___ for twenty minutes a day to keep his heart strong.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "k-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On windy days, children run across the field pulling the string of a flying ___.",
-        "fullSentence": "On windy days, children run across the field pulling the string of a flying kite.",
-        "translation": "颳風的日子，孩子們在田野上跑著拉線放風箏。",
-        "clue": "靠線和風飛上天的玩具",
-        "answerEntryId": "u14:kite",
-        "distractorEntryIds": [
-          "u14:Frisbee",
-          "u14:drum",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ danced higher and higher until it looked smaller than a bird.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "k-t-v",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "For Ben's birthday, the whole class booked a room at ___ and sang for three hours.",
-        "fullSentence": "For Ben's birthday, the whole class booked a room at KTV and sang for three hours.",
-        "translation": "Ben 生日時，全班訂了一間 KTV 唱了三小時。",
-        "clue": "有包廂可以點歌歡唱的店",
-        "answerEntryId": "u14:KTV",
-        "distractorEntryIds": [
-          "u14:MTV",
-          "u14:CD",
-          "u14:cartoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken picked a song on the screen and the music video played while everyone sang at ___.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "l-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If our team does not practice harder, we will ___ the final match again.",
-        "fullSentence": "If our team does not practice harder, we will lose the final match again.",
-        "translation": "如果我們隊不更認真練習，決賽又會輸掉。",
-        "clue": "比賽沒贏",
-        "answerEntryId": "u14:lose",
-        "distractorEntryIds": [
-          "u14:win",
-          "u14:collect",
-          "u14:draw"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken hates to ___ at chess, so he always asks for another game.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "m-a-g-a-z-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiting room had a small table stacked with old ___.",
-        "fullSentence": "The waiting room had a small table stacked with old magazine.",
-        "translation": "候診室的小桌上堆著舊雜誌。",
-        "clue": "裝訂成冊定期出刊的讀物",
-        "answerEntryId": "u14:magazine",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:cartoon",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken bought a ___ about soccer with big photos of his favorite player.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "m-o-v-i-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole family bought popcorn before the ___ started at the theater.",
-        "fullSentence": "The whole family bought popcorn before the movie started at the theater.",
-        "translation": "全家在電影開演前買了爆米花。",
-        "clue": "在戲院大銀幕播的影片",
-        "answerEntryId": "u14:movie",
-        "distractorEntryIds": [
-          "u14:cartoon",
-          "u14:drama",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken's favorite ___ is about a boy who sails around the world.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "m-t-v",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken turned on ___ to watch the newest music videos after school.",
-        "fullSentence": "Ken turned on MTV to watch the newest music videos after school.",
-        "translation": "Ken 放學後打開 MTV 看最新的音樂錄影帶。",
-        "clue": "專播 MV 的電視頻道",
-        "answerEntryId": "u14:MTV",
-        "distractorEntryIds": [
-          "u14:KTV",
-          "u14:CD",
-          "u14:cartoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The singer's new song played on ___ all week long.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "m-u-s-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the party, everyone clapped along with the ___.",
-        "fullSentence": "At the party, everyone clapped along with the music.",
-        "translation": "派對上，大家跟著音樂拍手。",
-        "clue": "用樂器或歌聲發出的聲音",
-        "answerEntryId": "u14:music",
-        "distractorEntryIds": [
-          "u14:song",
-          "u14:cartoon",
-          "u14:drama"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken listens to ___ on his headphones while he waits for the bus.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "n-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The volleyball flew over the ___ and landed inside the line.",
-        "fullSentence": "The volleyball flew over the net and landed inside the line.",
-        "translation": "排球飛過球網，落在界內。",
-        "clue": "把場地隔成兩半的網",
-        "answerEntryId": "u14:net",
-        "distractorEntryIds": [
-          "u14:basketball",
-          "u14:court",
-          "u14:golf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken hit the ball too hard, and it sailed right past the ___ out of bounds.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "n-o-v-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy stayed up late because she could not put down her mystery ___.",
-        "fullSentence": "Amy stayed up late because she could not put down her mystery novel.",
-        "translation": "Amy 熬夜看推理小說，捨不得放下。",
-        "clue": "用文字寫成的長篇故事書",
-        "answerEntryId": "u14:novel",
-        "distractorEntryIds": [
-          "u14:magazine",
-          "u14:cartoon",
-          "u14:movie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ has three hundred pages but no pictures at all.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "p-i-a-n-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy pressed the black and white keys of the ___ and a sweet melody filled the room.",
-        "fullSentence": "Amy pressed the black and white keys of the piano and a sweet melody filled the room.",
-        "translation": "Amy 按下鋼琴的黑白琴鍵，甜蜜的旋律充滿房間。",
-        "clue": "有黑白琴鍵的樂器",
-        "answerEntryId": "u14:piano",
-        "distractorEntryIds": [
-          "u14:violin",
-          "u14:flute",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movers carried the heavy ___ up the stairs with ropes.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "p-i-c-n-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom packed sandwiches and juice for our ___ by the lake.",
-        "fullSentence": "Mom packed sandwiches and juice for our picnic by the lake.",
-        "translation": "媽媽為我們的湖邊野餐準備了三明治和果汁。",
-        "clue": "帶食物到戶外吃的活動",
-        "answerEntryId": "u14:picnic",
-        "distractorEntryIds": [
-          "u14:toy",
-          "u14:trip",
-          "u14:hobby"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ants found our ___ and crawled all over the cookie basket.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "p-l-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After dinner, Ken and his sister like to ___ board games together.",
-        "fullSentence": "After dinner, Ken and his sister like to play board games together.",
-        "translation": "晚餐後，Ken 和妹妹喜歡一起玩桌遊。",
-        "clue": "照著規則玩遊戲",
-        "answerEntryId": "u14:play",
-        "distractorEntryIds": [
-          "u14:cook",
-          "u14:draw",
-          "u14:climb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's ___ tag in the yard until the streetlight turns on.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "p-l-a-y-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The coach substituted a tired ___ in the second half.",
-        "fullSentence": "The coach substituted a tired player in the second half.",
-        "translation": "下半場教練換下了體力不支的球員。",
-        "clue": "在場上出賽的隊員",
-        "answerEntryId": "u14:player",
-        "distractorEntryIds": [
-          "u14:court",
-          "u14:game",
-          "u14:stage"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken became the most valuable ___ after scoring three goals.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "p-r-o-g-r-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ben set an alarm so he would not miss tonight's nature ___.",
-        "fullSentence": "Ben set an alarm so he would not miss tonight's nature program.",
-        "translation": "Ben 設了提醒，不想錯過今晚的自然節目。",
-        "clue": "電視上固定時段播出的內容",
-        "answerEntryId": "u14:program",
-        "distractorEntryIds": [
-          "u14:cartoon",
-          "u14:movie",
-          "u14:channel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The talent ___ on TV showed kids singing and dancing.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "r-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whistle blew, and ten runners dashed forward at the start of the ___.",
-        "fullSentence": "The whistle blew, and ten runners dashed forward at the start of the race.",
-        "translation": "哨聲一響，十位跑者在賽跑開始時衝了出去。",
-        "clue": "比誰先抵達終點的比賽",
-        "answerEntryId": "u14:race",
-        "distractorEntryIds": [
-          "u14:game",
-          "u14:picnic",
-          "u14:trip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Amy trained all month for the school ___ on Sports Day.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "r-e-c-o-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken's time of twelve seconds set a new school ___.",
-        "fullSentence": "Ken's time of twelve seconds set a new school record.",
-        "translation": "Ken 十二秒的成績創下新的學校紀錄。",
-        "clue": "值得記下來的最佳成績",
-        "answerEntryId": "u14:record",
-        "distractorEntryIds": [
-          "u14:game",
-          "u14:habit",
-          "u14:trip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The old ___ stood for ten years before Amy finally broke it.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "r-o-l-l-e-r s-k-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy laced up her ___ and rolled down the smooth path in the park.",
-        "fullSentence": "Amy laced up her roller skate and rolled down the smooth path in the park.",
-        "translation": "Amy 繫好輪鞋鞋帶，沿著公園平整的小路滑行。",
-        "clue": "鞋底有輪子的鞋",
-        "answerEntryId": "u14:roller skate",
-        "distractorEntryIds": [
-          "u14:toy",
-          "u14:drum",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken fell twice before he learned to balance on his new ___.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "r-u-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bus was pulling away, so Ken had to ___ to catch it at the next stop.",
-        "fullSentence": "The bus was pulling away, so Ken had to run to catch it at the next stop.",
-        "translation": "公車快開走了，Ken 只好跑到下一站追車。",
-        "clue": "用雙腳快速移動",
-        "answerEntryId": "u14:run",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:jog",
-          "u14:climb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dogs began to ___ around the field as soon as the gate opened.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "s-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old captain will ___ his boat across the bay at sunrise.",
-        "fullSentence": "The old captain will sail his boat across the bay at sunrise.",
-        "translation": "日出時老船長要駕船航過海灣。",
-        "clue": "駕駛船隻前進",
-        "answerEntryId": "u14:sail",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:surf",
-          "u14:climb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We watched the white boats ___ slowly out of the harbor.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "s-c-r-e-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The movie looked amazing on the huge ___ at the new theater.",
-        "fullSentence": "The movie looked amazing on the huge screen at the new theater.",
-        "translation": "新戲院的巨大螢幕讓電影看起來超震撼。",
-        "clue": "顯示影像的發光面板",
-        "answerEntryId": "u14:screen",
-        "distractorEntryIds": [
-          "u14:novel",
-          "u14:magazine",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken's eyes hurt after he stared at the ___ for three hours.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "s-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole class stood up to ___ the birthday song together.",
-        "fullSentence": "The whole class stood up to sing the birthday song together.",
-        "translation": "全班起立一起唱生日歌。",
-        "clue": "開口唱出歌詞",
-        "answerEntryId": "u14:sing",
-        "distractorEntryIds": [
-          "u14:dance",
-          "u14:draw",
-          "u14:swim"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken joined the choir because he loves to ___ in front of people.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "s-k-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy put on her ice blades so she could ___ around the frozen pond.",
-        "fullSentence": "Amy put on her ice blades so she could skate around the frozen pond.",
-        "translation": "Amy 穿上冰刀，在結凍的池塘上滑行。",
-        "clue": "穿冰刀在冰上滑行",
-        "answerEntryId": "u14:skate",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:jog",
-          "u14:hike"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken held the wall at first before he learned to ___ without falling.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "s-k-i",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad waxed his ___ poles before we drove up the snowy mountain.",
-        "fullSentence": "Dad waxed his ski poles before we drove up the snowy mountain.",
-        "translation": "開車上雪山前，爸爸先幫滑雪桿打蠟。",
-        "clue": "在雪坡上滑行的運動",
-        "answerEntryId": "u14:ski",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:surf",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The beginners' slope is gentle, so the children can ___ safely.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "s-o-c-c-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___, players may only touch the ball with their feet or their head.",
-        "fullSentence": "In soccer, players may only touch the ball with their feet or their head.",
-        "translation": "在足球裡，球員只能用腳或頭碰球。",
-        "clue": "不能用手碰球的運動",
-        "answerEntryId": "u14:soccer",
-        "distractorEntryIds": [
-          "u14:basketball",
-          "u14:baseball",
-          "u14:volleyball"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken kicked the ball straight into the goal during the ___ match.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "s-o-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The radio played Amy's favorite ___ three times this morning.",
-        "fullSentence": "The radio played Amy's favorite song three times this morning.",
-        "translation": "電台今天早上把 Amy 最愛的歌播了三次。",
-        "clue": "在電台聽到的一首歌",
-        "answerEntryId": "u14:song",
-        "distractorEntryIds": [
-          "u14:music",
-          "u14:drama",
-          "u14:cartoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken wrote a funny ___ about his cat for the school show.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "s-p-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Soccer is the most popular ___ in the whole world.",
-        "fullSentence": "Soccer is the most popular sport in the whole world.",
-        "translation": "足球是全世界最受歡迎的運動。",
-        "clue": "最多人玩的競技",
-        "answerEntryId": "u14:sport",
-        "distractorEntryIds": [
-          "u14:game",
-          "u14:hobby",
-          "u14:habit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken tried a new ___ every summer, from tennis to judo.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "s-t-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The curtains opened, and the singer stepped onto the ___ alone.",
-        "fullSentence": "The curtains opened, and the singer stepped onto the stage alone.",
-        "translation": "布幕一開，歌手獨自走上舞台。",
-        "clue": "演員演出的平台",
-        "answerEntryId": "u14:stage",
-        "distractorEntryIds": [
-          "u14:screen",
-          "u14:court",
-          "u14:channel"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken was so nervous on ___ that he forgot his first line.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "s-t-a-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken licked the ___ and pressed it firmly onto the envelope.",
-        "fullSentence": "Ken licked the stamp and pressed it firmly onto the envelope.",
-        "translation": "Ken 舔了郵票，牢牢貼在信封上。",
-        "clue": "貼在信封上的小票",
-        "answerEntryId": "u14:stamp",
-        "distractorEntryIds": [
-          "u14:card",
-          "u14:kite",
-          "u14:doll"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The post office sells ___ with pictures of famous buildings.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "s-t-r-i-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken's first ball rolled straight into the pocket, and the scoreboard flashed the word for a ___.",
-        "fullSentence": "Ken's first ball rolled straight into the pocket, and the scoreboard flashed the word for a strike.",
-        "translation": "Ken 第一球正中口袋，記分板閃出全倒字樣。",
-        "clue": "一球擊倒全部球瓶",
-        "answerEntryId": "u14:strike",
-        "distractorEntryIds": [
-          "u14:game",
-          "u14:race",
-          "u14:trip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In bowling, three ___ in a row is called a turkey.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "s-u-r-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken paddled hard, stood up on the board, and began to ___ the wave toward the beach.",
-        "fullSentence": "Ken paddled hard, stood up on the board, and began to surf the wave toward the beach.",
-        "translation": "Ken 用力划水、站上浪板，開始順著浪衝浪。",
-        "clue": "站上浪板順浪滑行",
-        "answerEntryId": "u14:surf",
-        "distractorEntryIds": [
-          "u14:swim",
-          "u14:sail",
-          "u14:climb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The beach is famous for big waves, so many visitors come to ___.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "s-w-i-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Put on your goggles before you ___ across the pool.",
-        "fullSentence": "Put on your goggles before you swim across the pool.",
-        "translation": "游到泳池對岸前先戴好蛙鏡。",
-        "clue": "戴蛙鏡在水裡前進",
-        "answerEntryId": "u14:swim",
-        "distractorEntryIds": [
-          "u14:surf",
-          "u14:sail",
-          "u14:jog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken learned to ___ when he was only five years old.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "t-e-n-n-i-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken hit the yellow ball over the net with his ___ racket.",
-        "fullSentence": "Ken hit the yellow ball over the net with his tennis racket.",
-        "translation": "Ken 用網球拍把黃球打過網。",
-        "clue": "用拍子隔網對打的運動",
-        "answerEntryId": "u14:tennis",
-        "distractorEntryIds": [
-          "u14:chess",
-          "u14:golf",
-          "u14:bowling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ court was wet, so the match was moved indoors.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "t-h-e i-n-t-e-r-n-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "With the ___, Ken can send a letter to his pen pal in seconds.",
-        "fullSentence": "With the the Internet, Ken can send a letter to his pen pal in seconds.",
-        "translation": "有了網際網路，Ken 幾秒內就能把信寄給筆友。",
-        "clue": "讓電腦互相連線的系統",
-        "answerEntryId": "u14:the Internet",
-        "distractorEntryIds": [
-          "u14:CD",
-          "u14:cable",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken uses the ___ to look up facts for his science homework.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "t-o-u-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The guide led our ___ through the castle's oldest towers.",
-        "fullSentence": "The guide led our tour through the castle's oldest towers.",
-        "translation": "嚮導帶我們的遊覽團穿過城堡最古老的塔樓。",
-        "clue": "跟著嚮導參觀的行程",
-        "answerEntryId": "u14:tour",
-        "distractorEntryIds": [
-          "u14:trip",
-          "u14:picnic",
-          "u14:hobby"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our ___ group took a hundred photos in front of the temple.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "t-o-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kindergartners put every ___ back in the box before going home.",
-        "fullSentence": "The kindergartners put every toy back in the box before going home.",
-        "translation": "放學前，幼稚園孩子把每個玩具放回箱子。",
-        "clue": "孩子玩耍用的物品",
-        "answerEntryId": "u14:toy",
-        "distractorEntryIds": [
-          "u14:doll",
-          "u14:kite",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken's little sister asked for a new ___ every time we passed the store.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "t-r-a-v-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma and Grandpa ___ to Japan every spring to see the cherry blossoms.",
-        "fullSentence": "Grandma and Grandpa travel to Japan every spring to see the cherry blossoms.",
-        "translation": "爺爺奶奶每年春天去日本看櫻花。",
-        "clue": "到遠方參觀遊玩",
-        "answerEntryId": "u14:travel",
-        "distractorEntryIds": [
-          "u14:hike",
-          "u14:jog",
-          "u14:climb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The students will ___ to the science museum by school bus.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "t-r-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken packed his suitcase a week before the family ___ to the beach.",
-        "fullSentence": "Ken packed his suitcase a week before the family trip to the beach.",
-        "translation": "全家海灘旅程前一週，Ken 就收好行李。",
-        "clue": "打包行李出發的行程",
-        "answerEntryId": "u14:trip",
-        "distractorEntryIds": [
-          "u14:picnic",
-          "u14:game",
-          "u14:race"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bus broke down in the middle of our school ___.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "t-r-u-m-p-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shiny brass ___ gleamed under the concert lights.",
-        "fullSentence": "The shiny brass trumpet gleamed under the concert lights.",
-        "translation": "亮晶晶的銅製小號在音樂會燈光下閃閃發光。",
-        "clue": "銅製的吹奏樂器",
-        "answerEntryId": "u14:trumpet",
-        "distractorEntryIds": [
-          "u14:flute",
-          "u14:drum",
-          "u14:violin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken buzzed his lips into the mouthpiece of the ___ to make a sound.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "v-c-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad used the ___ to record the baseball game while we were out.",
-        "fullSentence": "Dad used the VCR to record the baseball game while we were out.",
-        "translation": "我們外出時，爸爸用錄放影機錄下棒球賽。",
-        "clue": "用錄影帶錄電視的機器",
-        "answerEntryId": "u14:VCR",
-        "distractorEntryIds": [
-          "u14:MTV",
-          "u14:CD",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma's old ___ blinked 12:00 because nobody reset the clock.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "v-i-o-l-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy tucked the ___ under her chin and drew the bow across the strings.",
-        "fullSentence": "Amy tucked the violin under her chin and drew the bow across the strings.",
-        "translation": "Amy 把小提琴夾在下巴下，用弓拉過琴弦。",
-        "clue": "用弓拉弦的樂器",
-        "answerEntryId": "u14:violin",
-        "distractorEntryIds": [
-          "u14:piano",
-          "u14:flute",
-          "u14:drum"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ case opened, and the shining brown instrument rested inside.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "v-o-l-l-e-y-b-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In ___, each team may touch the ball at most three times before sending it back.",
-        "fullSentence": "In volleyball, each team may touch the ball at most three times before sending it back.",
-        "translation": "在排球裡，每隊最多碰球三次就要打回去。",
-        "clue": "限制觸球次數的運動",
-        "answerEntryId": "u14:volleyball",
-        "distractorEntryIds": [
-          "u14:basketball",
-          "u14:tennis",
-          "u14:soccer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken jumped and spiked the ball over the ___ net.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "w-a-l-k-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken clipped his ___ onto his belt and put on the foam headphones.",
-        "fullSentence": "Ken clipped his Walkman onto his belt and put on the foam headphones.",
-        "translation": "Ken 把隨身聽夾在腰帶上，戴上泡綿耳機。",
-        "clue": "隨身攜帶的卡帶播放機",
-        "answerEntryId": "u14:Walkman",
-        "distractorEntryIds": [
-          "u14:CD",
-          "u14:MTV",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa still keeps his old ___ and a box of music cassettes.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "w-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you answer all ten questions correctly, you will ___ the prize.",
-        "fullSentence": "If you answer all ten questions correctly, you will win the prize.",
-        "translation": "十題全答對，你就能贏得獎品。",
-        "clue": "獲得勝利或獎品",
-        "answerEntryId": "u14:win",
-        "distractorEntryIds": [
-          "u14:lose",
-          "u14:draw",
-          "u14:collect"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The blue team scored in the last minute to ___ the game.",

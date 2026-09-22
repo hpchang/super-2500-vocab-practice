@@ -84,7 +84,6 @@ for (const n of unitArgs) {
     if (errors.length > 200) break;
 
     const qs = [
-      ['cloze', e.cloze],
       ...e.clozeEasy.map((q) => ['easy', q]),
       ...e.clozeMedium.map((q) => ['medium', q]),
       ['hard', e.clozeHard],
@@ -132,7 +131,6 @@ for (const n of unitArgs) {
       const poolKey = `${tier}:${[...q.distractorEntryIds].sort().join('|')}`;
       pools.set(poolKey, (pools.get(poolKey) ?? 0) + 1);
     }
-    if (e.cloze.fullSentence === e.example) errors.push(label(`${e.entryId} cloze = example`));
   }
 
   for (const [key, count] of pools) {

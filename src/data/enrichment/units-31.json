@@ -11,18 +11,6 @@
       "spellingHint": "a-b-s-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher marked him absent after three days of ___.",
-        "fullSentence": "The teacher marked him absent after three days of absence.",
-        "translation": "缺席三天後，老師把他記為曠課。",
-        "clue": "該到場卻沒有來的狀態",
-        "answerEntryId": "u31:absence",
-        "distractorEntryIds": [
-          "u31:presence",
-          "u31:silence",
-          "u31:arrival"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Nobody knew the reason for his ___ from the meeting.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-c-c-e-p-t-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After much thought, she gave her ___ to the offer.",
-        "fullSentence": "After much thought, she gave her acceptance to the offer.",
-        "translation": "深思熟慮後，她接受了這個提議。",
-        "clue": "點頭同意收下或答應",
-        "answerEntryId": "u31:acceptance",
-        "distractorEntryIds": [
-          "u31:refusal",
-          "u31:description",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The university sent a letter of ___ to the new student.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Talking is not enough; we need ___ right now.",
-        "fullSentence": "Talking is not enough; we need action right now.",
-        "translation": "光說不夠，我們現在需要行動。",
-        "clue": "實際去做，不只是說",
-        "answerEntryId": "u31:action",
-        "distractorEntryIds": [
-          "u31:opinion",
-          "u31:speech",
-          "u31:idea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ was small, so quick moves saved the whole building.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-d-v-a-n-t-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Being tall gives you an ___ in basketball.",
-        "fullSentence": "Being tall gives you an advantage in basketball.",
-        "translation": "身高高讓你在打籃球時佔優勢。",
-        "clue": "讓你比較容易贏的條件",
-        "answerEntryId": "u31:advantage",
-        "distractorEntryIds": [
-          "u31:opportunity",
-          "u31:chance",
-          "u31:value"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The main ___ of this phone is its long battery life.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-r-r-i-v-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The airport announced the ___ of flight CA102 at 4:30.",
-        "fullSentence": "The airport announced the arrival of flight CA102 at 4:30.",
-        "translation": "機場廣播 CA102 班機將於四點三十分抵達。",
-        "clue": "飛機或火車到了",
-        "answerEntryId": "u31:arrival",
-        "distractorEntryIds": [
-          "u31:disappearance",
-          "u31:delivery",
-          "u31:entry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Since her ___ to the city, she has made many friends.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-s-s-i-s-t-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She offered her ___ to the old lady crossing the street.",
-        "fullSentence": "She offered her assistance to the old lady crossing the street.",
-        "translation": "她主動協助那位過馬路的老太太。",
-        "clue": "伸出援手幫忙",
-        "answerEntryId": "u31:assistance",
-        "distractorEntryIds": [
-          "u31:opinion",
-          "u31:service",
-          "u31:favor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "If you need any ___, just press this red button.",
@@ -527,18 +455,6 @@
       "spellingHint": "a-v-o-i-d-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ of the question made everyone suspicious.",
-        "fullSentence": "Her avoidance of the question made everyone suspicious.",
-        "translation": "她迴避那個問題，讓大家起了疑心。",
-        "clue": "故意不去面對問題",
-        "answerEntryId": "u31:avoidance",
-        "distractorEntryIds": [
-          "u31:refusal",
-          "u31:ignorance",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of sugary drinks is good for your teeth.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-a-l-l-o-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little girl cried when her ___ flew away at the park.",
-        "fullSentence": "The little girl cried when her balloon flew away at the park.",
-        "translation": "小女孩的氣球在公園飛走時，她哭了。",
-        "clue": "會飄上天空的玩具",
-        "answerEntryId": "u31:balloon",
-        "distractorEntryIds": [
-          "u31:ticket",
-          "u31:seat",
-          "u31:sample"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We blew up a ___ for each guest at the birthday party.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-e-h-a-v-i-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher praised Tom for his excellent ___ during the field trip.",
-        "fullSentence": "The teacher praised Tom for his excellent behavior during the field trip.",
-        "translation": "老師稱讚湯姆在校外教學時表現良好。",
-        "clue": "一個人的表現、舉止",
-        "answerEntryId": "u31:behavior",
-        "distractorEntryIds": [
-          "u31:action",
-          "u31:speech",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "His ___ at the dinner table was very rude.",
@@ -785,18 +677,6 @@
       "spellingHint": "b-o-m-b-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The museum keeps a World War II ___ in the main hall.",
-        "fullSentence": "The museum keeps a World War II bomber in the main hall.",
-        "translation": "博物館的大廳裡保存了一架二戰轟炸機。",
-        "clue": "軍用飛機的一種",
-        "answerEntryId": "u31:bomber",
-        "distractorEntryIds": [
-          "u31:force",
-          "u31:fire",
-          "u31:danger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ dropped bombs on the enemy base during the war.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-a-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Careless smoking was the ___ of the forest fire.",
-        "fullSentence": "Careless smoking was the cause of the forest fire.",
-        "translation": "亂丟菸蒂是森林火災的原因。",
-        "clue": "造成事情發生的源頭",
-        "answerEntryId": "u31:cause",
-        "distractorEntryIds": [
-          "u31:result",
-          "u31:reason",
-          "u31:purpose"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor found the ___ of his stomach pain.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-h-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She waited years for a ___ to study abroad.",
-        "fullSentence": "She waited years for a chance to study abroad.",
-        "translation": "她等了好幾年才有機會出國讀書。",
-        "clue": "可以去做某事的時機",
-        "answerEntryId": "u31:chance",
-        "distractorEntryIds": [
-          "u31:possibility",
-          "u31:decision",
-          "u31:choice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a good ___ of rain tomorrow, so bring an umbrella.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-h-a-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Draw a ___ to show how the temperature changes each month.",
-        "fullSentence": "Draw a chart to show how the temperature changes each month.",
-        "translation": "畫一張圖表來顯示每月溫度的變化。",
-        "clue": "把資料畫成圖",
-        "answerEntryId": "u31:chart",
-        "distractorEntryIds": [
-          "u31:data",
-          "u31:sample",
-          "u31:symbol"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The nurse wrote your weight on a ___ on the wall.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-h-o-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Moving to a smaller city was her ___, not her family's.",
-        "fullSentence": "Moving to a smaller city was her choice, not her family's.",
-        "translation": "搬到較小的城市是她的選擇，不是家人的。",
-        "clue": "自己做的決定",
-        "answerEntryId": "u31:choice",
-        "distractorEntryIds": [
-          "u31:decision",
-          "u31:preference",
-          "u31:opinion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The menu gives you a ___ of three soups.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-i-t-i-z-e-n-s-h-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the ceremony, she received her ___ certificate.",
-        "fullSentence": "After the ceremony, she received her citizenship certificate.",
-        "translation": "典禮結束後，她拿到了公民證書。",
-        "clue": "成為國家公民的證明",
-        "answerEntryId": "u31:citizenship",
-        "distractorEntryIds": [
-          "u31:nationality",
-          "u31:equality",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Good ___ means helping your community and following the law.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-o-m-m-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soldiers moved out as soon as they heard the ___.",
-        "fullSentence": "The soldiers moved out as soon as they heard the command.",
-        "translation": "士兵們一聽到命令就出發了。",
-        "clue": "上級下達的指示",
-        "answerEntryId": "u31:command",
-        "distractorEntryIds": [
-          "u31:speech",
-          "u31:signal",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She has a good ___ of English after years of practice.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "c-o-m-m-e-n-t-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The radio ___ kept fans excited during the whole game.",
-        "fullSentence": "The radio commentary kept fans excited during the whole game.",
-        "translation": "廣播解說讓球迷在整場比賽中都很興奮。",
-        "clue": "邊看邊聽的講解",
-        "answerEntryId": "u31:commentary",
-        "distractorEntryIds": [
-          "u31:speech",
-          "u31:description",
-          "u31:introduction"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She wrote a long ___ about the famous novel.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "c-o-m-p-a-n-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She brought her ___ along on the long train journey.",
-        "fullSentence": "She brought her companion along on the long train journey.",
-        "translation": "她帶著同伴一起搭乘長途火車。",
-        "clue": "陪在你身邊的人",
-        "answerEntryId": "u31:companion",
-        "distractorEntryIds": [
-          "u31:messenger",
-          "u31:examiner",
-          "u31:humanitarian"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good book can be a wonderful ___ on a rainy day.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "c-o-m-p-a-r-i-s-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A quick ___ of the two phones shows which one is lighter.",
-        "fullSentence": "A quick comparison of the two phones shows which one is lighter.",
-        "translation": "快速比較這兩支手機，就知道哪支比較輕。",
-        "clue": "把兩樣東西放在一起看",
-        "answerEntryId": "u31:comparison",
-        "distractorEntryIds": [
-          "u31:difference",
-          "u31:choice",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In ___ with last year, our sales have doubled.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "c-o-n-f-l-i-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ between the two teams started over a bad call.",
-        "fullSentence": "The conflict between the two teams started over a bad call.",
-        "translation": "兩隊之間的衝突起因於一次誤判。",
-        "clue": "雙方起了爭執",
-        "answerEntryId": "u31:conflict",
-        "distractorEntryIds": [
-          "u31:struggle",
-          "u31:debate",
-          "u31:confusion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Talking calmly is the best way to solve a ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "c-o-n-f-u-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "To avoid ___, please read the directions twice.",
-        "fullSentence": "To avoid confusion, please read the directions twice.",
-        "translation": "為避免混淆，請把說明讀兩遍。",
-        "clue": "搞不清楚的狀態",
-        "answerEntryId": "u31:confusion",
-        "distractorEntryIds": [
-          "u31:silence",
-          "u31:ignorance",
-          "u31:noise"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her strange answer only added to our ___.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "c-o-n-t-i-n-u-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new manager promised ___; nothing about our work would change.",
-        "fullSentence": "The new manager promised continuity; nothing about our work would change.",
-        "translation": "新經理承諾一切延續，我們的工作不會改變。",
-        "clue": "事情照舊、不中斷",
-        "answerEntryId": "u31:continuity",
-        "distractorEntryIds": [
-          "u31:regularity",
-          "u31:repetition",
-          "u31:occurrence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Rain or shine, the ___ of our morning run never breaks.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "c-r-e-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The museum shows the ___ of art from ancient times to today.",
-        "fullSentence": "The museum shows the creation of art from ancient times to today.",
-        "translation": "博物館展示從古代到今日藝術作品的創作。",
-        "clue": "從無到有的過程",
-        "answerEntryId": "u31:creation",
-        "distractorEntryIds": [
-          "u31:discovery",
-          "u31:mixture",
-          "u31:symbol"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children's ___ of paper animals filled the whole wall.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "c-r-e-a-t-i-v-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Good designers need both skill and ___.",
-        "fullSentence": "Good designers need both skill and creativity.",
-        "translation": "好的設計師需要技術，也需要創造力。",
-        "clue": "想出新點子的能力",
-        "answerEntryId": "u31:creativity",
-        "distractorEntryIds": [
-          "u31:curiosity",
-          "u13:knowledge",
-          "u31:handling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Using old boxes to make toys takes a lot of ___.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "c-u-r-i-o-s-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The child opened the box out of pure ___.",
-        "fullSentence": "The child opened the box out of pure curiosity.",
-        "translation": "孩子出於純粹的好奇心打開了盒子。",
-        "clue": "想知道裡面有什麼",
-        "answerEntryId": "u31:curiosity",
-        "distractorEntryIds": [
-          "u31:ignorance",
-          "u31:pleasure",
-          "u31:desire"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A baby's ___ leads it to touch and taste everything.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "d-a-m-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The flood did millions of dollars of ___ to the bridge.",
-        "fullSentence": "The flood did millions of dollars of damage to the bridge.",
-        "translation": "洪水對橋梁造成數百萬元的損害。",
-        "clue": "東西被弄壞了",
-        "answerEntryId": "u31:damage",
-        "distractorEntryIds": [
-          "u31:danger",
-          "u31:failure",
-          "u31:hole"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Smoke from the fire left ___ on the kitchen walls.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "d-a-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Swimming here is a ___ because the water is very deep.",
-        "fullSentence": "Swimming here is a danger because the water is very deep.",
-        "translation": "在這裡游泳很危險，因為水非常深。",
-        "clue": "可能受傷的風險",
-        "answerEntryId": "u31:danger",
-        "distractorEntryIds": [
-          "u31:damage",
-          "u31:fire",
-          "u31:failure"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The firefighter walked into the burning building without thinking of ___.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "d-a-t-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The scientists collected ___ from hundreds of patients.",
-        "fullSentence": "The scientists collected data from hundreds of patients.",
-        "translation": "科學家收集了數百名病人的資料。",
-        "clue": "做研究收集的數字或紀錄",
-        "answerEntryId": "u31:data",
-        "distractorEntryIds": [
-          "u31:fact",
-          "u31:sample",
-          "u31:secret"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The phone app saves your health ___ every day.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "d-e-b-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The two candidates met for a final ___ before the election.",
-        "fullSentence": "The two candidates met for a final debate before the election.",
-        "translation": "兩位候選人在選前舉行最後一場辯論。",
-        "clue": "公開的意見交鋒",
-        "answerEntryId": "u31:debate",
-        "distractorEntryIds": [
-          "u31:speech",
-          "u31:opinion",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a big ___ in our class about using phones at school.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "d-e-c-i-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After thinking all night, she finally made a ___ about the job offer.",
-        "fullSentence": "After thinking all night, she finally made a decision about the job offer.",
-        "translation": "想了一整晚，她終於對那份工作做出了決定。",
-        "clue": "想清楚後下的結論",
-        "answerEntryId": "u31:decision",
-        "distractorEntryIds": [
-          "u31:choice",
-          "u31:proposal",
-          "u31:opinion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The referee's ___ to stop the game surprised everyone.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "d-e-l-i-v-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We stayed home all morning waiting for the ___ of the new sofa.",
-        "fullSentence": "We stayed home all morning waiting for the delivery of the new sofa.",
-        "translation": "我們整個上午都待在家裡等新沙發送到。",
-        "clue": "貨品送到家",
-        "answerEntryId": "u31:delivery",
-        "distractorEntryIds": [
-          "u31:arrival",
-          "u31:sale",
-          "u31:mail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Free ___ is offered for orders over five hundred dollars.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "d-e-p-e-n-d-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The country reduced its ___ on imported oil by using solar power.",
-        "fullSentence": "The country reduced its dependence on imported oil by using solar power.",
-        "translation": "該國利用太陽能減少對進口石油的依賴。",
-        "clue": "依靠外部供給的程度",
-        "answerEntryId": "u31:dependence",
-        "distractorEntryIds": [
-          "u31:ignorance",
-          "u31:trust",
-          "u31:lack"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A baby's complete ___ on parents is natural.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "d-e-s-c-r-i-p-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police asked her for a ___ of the missing dog.",
-        "fullSentence": "The police asked her for a description of the missing dog.",
-        "translation": "警方請她描述那隻失蹤的狗。",
-        "clue": "說明牠長什麼樣",
-        "answerEntryId": "u31:description",
-        "distractorEntryIds": [
-          "u31:expression",
-          "u13:report",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The hotel's website gives a clear ___ of each room.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "d-e-s-i-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ to win made her practice every single day.",
-        "fullSentence": "Her desire to win made her practice every single day.",
-        "translation": "她對勝利的渴望讓她每天練習。",
-        "clue": "內心強烈想要",
-        "answerEntryId": "u31:desire",
-        "distractorEntryIds": [
-          "u31:trust",
-          "u31:dream",
-          "u31:result"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The smell of bread woke a sudden ___ for breakfast.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "d-i-f-f-e-r-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "One hour of practice can make a big ___ in your English.",
-        "fullSentence": "One hour of practice can make a big difference in your English.",
-        "translation": "每天一小時的練習會讓你的英文大不相同。",
-        "clue": "make a big ___＝造成很大影響",
-        "answerEntryId": "u31:difference",
-        "distractorEntryIds": [
-          "u17:change",
-          "u31:result",
-          "u13:progress"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's the ___ between these two words?",
@@ -3021,18 +2601,6 @@
       "spellingHint": "d-i-r-e-c-t-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "All the teachers' room numbers are listed in the school ___.",
-        "fullSentence": "All the teachers' room numbers are listed in the school directory.",
-        "translation": "所有老師的教室號碼都列在學校名錄裡。",
-        "clue": "列出名單和分機的手冊",
-        "answerEntryId": "u31:directory",
-        "distractorEntryIds": [
-          "u31:chart",
-          "u31:entry",
-          "u16:calendar"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The hotel ___ lists every guest by room number.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "d-i-s-a-p-p-e-a-r-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police are investigating the sudden ___ of the famous painting.",
-        "fullSentence": "The police are investigating the sudden disappearance of the famous painting.",
-        "translation": "警方正在調查那幅名畫的離奇失蹤。",
-        "clue": "東西不見了",
-        "answerEntryId": "u31:disappearance",
-        "distractorEntryIds": [
-          "u31:arrival",
-          "u31:failure",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the dinosaurs happened millions of years ago.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "d-i-s-c-o-v-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of a new planet excited astronomers around the world.",
-        "fullSentence": "The discovery of a new planet excited astronomers around the world.",
-        "translation": "新行星的發現讓全球天文學家振奮不已。",
-        "clue": "第一次找到某物",
-        "answerEntryId": "u31:discovery",
-        "distractorEntryIds": [
-          "u31:creation",
-          "u31:occurrence",
-          "u31:success"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Columbus made his famous ___ in 1492.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "d-r-e-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Working hard is the only way to make your ___ come true.",
-        "fullSentence": "Working hard is the only way to make your dream come true.",
-        "translation": "努力是讓夢想成真的唯一方法。",
-        "clue": "心中最大的願望",
-        "answerEntryId": "u31:dream",
-        "distractorEntryIds": [
-          "u31:introduction",
-          "u13:goal",
-          "u31:idea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I had a strange ___ about flying over the ocean last night.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "e-f-f-i-c-i-e-n-c-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Using a washing machine saves time and increases ___.",
-        "fullSentence": "Using a washing machine saves time and increases efficiency.",
-        "translation": "使用洗衣機省時又提高效率。",
-        "clue": "用更少時間做更多事",
-        "answerEntryId": "u31:efficiency",
-        "distractorEntryIds": [
-          "u31:quality",
-          "u31:rapidity",
-          "u31:balloon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The manager praised her ___; she finishes twice as much work as others.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "e-l-e-c-t-r-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "An ___ carries a negative electric charge around the nucleus.",
-        "fullSentence": "An electron carries a negative electric charge around the nucleus.",
-        "translation": "電子帶負電，繞著原子核運行。",
-        "clue": "帶負電的粒子",
-        "answerEntryId": "u31:electron",
-        "distractorEntryIds": [
-          "u13:picture",
-          "u31:possibility",
-          "u31:element"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When ___ move through a wire, electricity flows.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "e-l-e-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Gold is a chemical ___ that never rusts.",
-        "fullSentence": "Gold is a chemical element that never rusts.",
-        "translation": "黃金是一種不會生鏽的化學元素。",
-        "clue": "化學週期表中的一員",
-        "answerEntryId": "u31:element",
-        "distractorEntryIds": [
-          "u31:material",
-          "u31:mixture",
-          "u13:picture"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Oxygen is an ___ that all living things need.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "e-m-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Check your ___ for the message from the teacher.",
-        "fullSentence": "Check your e-mail for the message from the teacher.",
-        "translation": "查看你的電子郵件，有老師寄來的訊息。",
-        "clue": "網路上收發的信",
-        "answerEntryId": "u31:e-mail",
-        "distractorEntryIds": [
-          "u31:mail",
-          "u31:entry",
-          "u13:note"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She wrote an ___ to her friend in Japan.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "e-m-p-h-a-s-i-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The coach placed special ___ on defense this season.",
-        "fullSentence": "The coach placed special emphasis on defense this season.",
-        "translation": "教練這個球季特別強調防守。",
-        "clue": "特別著重的部分",
-        "answerEntryId": "u31:emphasis",
-        "distractorEntryIds": [
-          "u13:importance",
-          "u13:attention",
-          "u31:trust"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She said the word twice to add ___ to it.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "e-n-t-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The newest ___ in the dictionary explains slang words.",
-        "fullSentence": "The newest entry in the dictionary explains slang words.",
-        "translation": "詞典最新的條目解釋了俚語。",
-        "clue": "詞典裡的一條解釋",
-        "answerEntryId": "u31:entry",
-        "distractorEntryIds": [
-          "u13:word",
-          "u13:meaning",
-          "u31:expression"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sundays are free for ___ at the museum.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "e-q-u-a-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The group fights for ___ in pay for the same work.",
-        "fullSentence": "The group fights for equality in pay for the same work.",
-        "translation": "這個團體爭取同工同酬的平等。",
-        "clue": "同工同酬的公平",
-        "answerEntryId": "u31:equality",
-        "distractorEntryIds": [
-          "u31:event",
-          "u31:occurrence",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our club promotes ___ between all students.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "e-v-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The charity run is the biggest ___ of the year in our town.",
-        "fullSentence": "The charity run is the biggest event of the year in our town.",
-        "translation": "慈善路跑是我們鎮上一年最大的活動。",
-        "clue": "大家參加的大型活動",
-        "answerEntryId": "u31:event",
-        "distractorEntryIds": [
-          "u31:gathering",
-          "u31:trust",
-          "u14:game"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Missing the bus was an unlucky ___ this morning.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "e-x-a-m-i-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ watched every student carefully during the driving test.",
-        "fullSentence": "The examiner watched every student carefully during the driving test.",
-        "translation": "監考官在路考期間仔細觀察每位學生。",
-        "clue": "負責打分數的考官",
-        "answerEntryId": "u31:examiner",
-        "distractorEntryIds": [
-          "u31:humanitarian",
-          "u31:messenger",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Speak clearly so the ___ can understand you.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "e-x-c-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Being late again, he invented yet another weak ___.",
-        "fullSentence": "Being late again, he invented yet another weak excuse.",
-        "translation": "他又遲到了，又編了一個爛藉口。",
-        "clue": "遲到時編的理由",
-        "answerEntryId": "u31:excuse",
-        "distractorEntryIds": [
-          "u31:reason",
-          "u13:story",
-          "u31:truth"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ my mess; I was in a hurry.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "e-x-p-e-r-i-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She has five years of ___ in teaching children.",
-        "fullSentence": "She has five years of experience in teaching children.",
-        "translation": "她有五年的兒童教學經驗。",
-        "clue": "做過某工作累積的資歷",
-        "answerEntryId": "u31:experience",
-        "distractorEntryIds": [
-          "u31:possibility",
-          "u13:knowledge",
-          "u13:skill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Camping in the rain was an unforgettable ___.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "e-x-p-r-e-s-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sad ___ on her face showed she had failed the test.",
-        "fullSentence": "The sad expression on her face showed she had failed the test.",
-        "translation": "她臉上難過的表情顯示她考砸了。",
-        "clue": "臉上的神情",
-        "answerEntryId": "u31:expression",
-        "distractorEntryIds": [
-          "u31:reason",
-          "u31:behavior",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Break a leg is a funny English ___.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "f-a-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scientists must report each ___ exactly as they observed it.",
-        "fullSentence": "Scientists must report each fact exactly as they observed it.",
-        "translation": "科學家必須如實報告他們觀察到的事實。",
-        "clue": "真實無誤的事",
-        "answerEntryId": "u31:fact",
-        "distractorEntryIds": [
-          "u31:idea",
-          "u31:result",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The book is full of interesting ___ about animals.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "f-a-i-l-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fear of ___ stops many people from even trying.",
-        "fullSentence": "Fear of failure stops many people from even trying.",
-        "translation": "對失敗的恐懼讓很多人連試都不敢試。",
-        "clue": "沒有成功的結果",
-        "answerEntryId": "u31:failure",
-        "distractorEntryIds": [
-          "u31:success",
-          "u31:danger",
-          "u31:conflict"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The power ___ left the whole city in darkness.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "f-a-s-h-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She reads a ___ magazine to see the newest clothes.",
-        "fullSentence": "She reads a fashion magazine to see the newest clothes.",
-        "translation": "她讀時尚雜誌看最新的服裝。",
-        "clue": "介紹流行的雜誌",
-        "answerEntryId": "u31:fashion",
-        "distractorEntryIds": [
-          "u11:design",
-          "u31:fact",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Baggy jeans went out of ___ ten years ago.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "f-a-v-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She did me a big ___ by walking my dog all week.",
-        "fullSentence": "She did me a big favor by walking my dog all week.",
-        "translation": "她幫了我大忙，整週幫我遛狗。",
-        "clue": "幫別人一個忙",
-        "answerEntryId": "u31:favor",
-        "distractorEntryIds": [
-          "u31:assistance",
-          "u31:service",
-          "u31:trick"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The weather was in our ___ on the day of the picnic.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "f-i-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Smoke rose from the kitchen, and Dad shouted that there was a ___.",
-        "fullSentence": "Smoke rose from the kitchen, and Dad shouted that there was a fire.",
-        "translation": "廚房冒出濃煙，爸爸大喊失火了。",
-        "clue": "燃燒造成的災害",
-        "answerEntryId": "u31:fire",
-        "distractorEntryIds": [
-          "u31:danger",
-          "u31:value",
-          "u31:damage"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We cooked the fish over an open ___.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "f-o-r-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The wind had enough ___ to blow the roof off the shed.",
-        "fullSentence": "The wind had enough force to blow the roof off the shed.",
-        "translation": "風力足以把小屋的屋頂吹走。",
-        "clue": "強大的物理力量",
-        "answerEntryId": "u31:force",
-        "distractorEntryIds": [
-          "u31:electron",
-          "u13:energy",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The police had to use ___ to stop the fight.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "f-u-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The school fair is full of games and ___ for the whole family.",
-        "fullSentence": "The school fair is full of games and fun for the whole family.",
-        "translation": "園遊會充滿遊戲和樂趣，全家同歡。",
-        "clue": "開心好玩的氣氛",
-        "answerEntryId": "u31:fun",
-        "distractorEntryIds": [
-          "u31:pleasure",
-          "u31:cause",
-          "u31:fact"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Riding bikes with friends is great ___.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "g-a-t-h-e-r-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole town came to the ___ in the main square.",
-        "fullSentence": "The whole town came to the gathering in the main square.",
-        "translation": "全鎮的人都來參加大廣場上的聚會。",
-        "clue": "大家聚在一起",
-        "answerEntryId": "u31:gathering",
-        "distractorEntryIds": [
-          "u31:event",
-          "u31:choice",
-          "u31:fact"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Thanksgiving is a big family ___ in the United States.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "h-a-n-d-l-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Careful ___ of the chemicals keeps the lab safe.",
-        "fullSentence": "Careful handling of the chemicals keeps the lab safe.",
-        "translation": "小心操作化學藥品能確保實驗室安全。",
-        "clue": "小心地處理東西",
-        "answerEntryId": "u31:handling",
-        "distractorEntryIds": [
-          "u31:operation",
-          "u31:maintenance",
-          "u31:command"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Rough ___ of the package can break what's inside.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "h-o-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My sock has a ___ at the heel.",
-        "fullSentence": "My sock has a hole at the heel.",
-        "translation": "我的襪子腳跟破了一個洞。",
-        "clue": "破掉的地方",
-        "answerEntryId": "u31:hole",
-        "distractorEntryIds": [
-          "u13:mark",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The golfer hit the ball into the ___ in one shot.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "h-u-m-a-n-i-t-a-r-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the earthquake, many a ___ arrived to help the injured.",
-        "fullSentence": "After the earthquake, many a humanitarian arrived to help the injured.",
-        "translation": "地震後，許多人道救援者前來幫助傷者。",
-        "clue": "救助災民的人",
-        "answerEntryId": "u31:humanitarian",
-        "distractorEntryIds": [
-          "u13:teacher",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The famous ___ received the peace prize for feeding the poor.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "i-d-e-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She had a brilliant ___ for keeping the cat off the table.",
-        "fullSentence": "She had a brilliant idea for keeping the cat off the table.",
-        "translation": "她想到一個妙計，不讓貓跳上桌子。",
-        "clue": "想出來的好點子",
-        "answerEntryId": "u31:idea",
-        "distractorEntryIds": [
-          "u31:peace",
-          "u13:thought",
-          "u13:solution"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have no ___ where I left my keys.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "i-g-n-o-r-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ of the local language made ordering food difficult.",
-        "fullSentence": "Her ignorance of the local language made ordering food difficult.",
-        "translation": "她不懂當地語言，點餐很困難。",
-        "clue": "不知道、不懂",
-        "answerEntryId": "u31:ignorance",
-        "distractorEntryIds": [
-          "u31:confusion",
-          "u31:lack",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Breaking the law out of ___ is still breaking the law.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "i-n-d-i-c-a-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fuel ___ shows how much gas is left in the tank.",
-        "fullSentence": "The fuel indicator shows how much gas is left in the tank.",
-        "translation": "油表顯示油箱裡還剩多少油。",
-        "clue": "顯示油量的儀表",
-        "answerEntryId": "u31:indicator",
-        "distractorEntryIds": [
-          "u31:signal",
-          "u11:light",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A high temperature is an ___ of illness.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "i-n-t-r-o-d-u-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The host gave a short ___ before the singer came on stage.",
-        "fullSentence": "The host gave a short introduction before the singer came on stage.",
-        "translation": "主持人在歌手上台前做了簡短的介紹。",
-        "clue": "開場介紹",
-        "answerEntryId": "u31:introduction",
-        "distractorEntryIds": [
-          "u31:speech",
-          "u31:expression",
-          "u31:commentary"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please write an ___ to your report.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "l-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The team lost the game because of a ___ of practice.",
-        "fullSentence": "The team lost the game because of a lack of practice.",
-        "translation": "球隊因為缺乏練習而輸了比賽。",
-        "clue": "練習不夠",
-        "answerEntryId": "u31:lack",
-        "distractorEntryIds": [
-          "u31:absence",
-          "u31:victory",
-          "u31:failure"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a serious ___ of doctors in the countryside.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "l-i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scientists found a ___ between sleep and memory.",
-        "fullSentence": "Scientists found a link between sleep and memory.",
-        "translation": "科學家發現睡眠和記憶之間的關聯。",
-        "clue": "兩者之間的關聯",
-        "answerEntryId": "u31:link",
-        "distractorEntryIds": [
-          "u13:friendship",
-          "u31:difference",
-          "u31:comparison"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Send me the ___ to the movie trailer.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "l-o-c-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She keeps her gym shoes in her ___ at school.",
-        "fullSentence": "She keeps her gym shoes in her locker at school.",
-        "translation": "她在學校把運動鞋放在置物櫃裡。",
-        "clue": "學校上鎖的櫃子",
-        "answerEntryId": "u31:locker",
-        "distractorEntryIds": [
-          "u11:drawer",
-          "u11:shelf",
-          "u18:pack"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Each swimmer gets a ___ for clothes and towels.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "m-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She checks the ___ for letters from her grandmother.",
-        "fullSentence": "She checks the mail for letters from her grandmother.",
-        "translation": "她查看信箱，看有沒有祖母寄來的信。",
-        "clue": "信箱裡的郵件",
-        "answerEntryId": "u31:mail",
-        "distractorEntryIds": [
-          "u31:delivery",
-          "u18:pack",
-          "u13:letter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I sent the package by air ___.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "m-a-i-n-t-e-n-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bridge is closed for ___ this weekend.",
-        "fullSentence": "The bridge is closed for maintenance this weekend.",
-        "translation": "這座橋本週末封閉進行維護。",
-        "clue": "固定檢修保養",
-        "answerEntryId": "u31:maintenance",
-        "distractorEntryIds": [
-          "u31:result",
-          "u31:operation",
-          "u12:safety"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Car ___ includes changing the oil every few months.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "m-a-j-o-r-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the class voted for a trip to the zoo.",
-        "fullSentence": "The majority of the class voted for a trip to the zoo.",
-        "translation": "班上大多數人投票贊成去動物園。",
-        "clue": "過半數的人",
-        "answerEntryId": "u31:majority",
-        "distractorEntryIds": [
-          "u13:group",
-          "u12:crowd",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A large ___ of the students passed the test.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "m-a-s-t-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After ten years of piano lessons, she has complete ___ of the keyboard.",
-        "fullSentence": "After ten years of piano lessons, she has complete mastery of the keyboard.",
-        "translation": "學了十年鋼琴後，她已完全精通琴鍵。",
-        "clue": "完全的掌控、精通",
-        "answerEntryId": "u31:mastery",
-        "distractorEntryIds": [
-          "u13:skill",
-          "u31:delivery",
-          "u31:experience"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Years of practice lead to ___ of basic math.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "m-a-t-e-r-i-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We need strong ___ to build the dog house.",
-        "fullSentence": "We need strong material to build the dog house.",
-        "translation": "我們需要堅固的材料來蓋狗屋。",
-        "clue": "蓋東西用的原料",
-        "answerEntryId": "u31:material",
-        "distractorEntryIds": [
-          "u31:element",
-          "u31:conflict",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dress is made of a shiny ___.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "m-a-t-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police asked him about the ___ directly.",
-        "fullSentence": "The police asked him about the matter directly.",
-        "translation": "警方直接向他詢問那件事。",
-        "clue": "那件事、那個問題",
-        "answerEntryId": "u31:matter",
-        "distractorEntryIds": [
-          "u31:fact",
-          "u13:question",
-          "u31:event"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's the ___? You look upset.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "m-e-m-o-r-i-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Flowers were placed at the war ___ on Sunday.",
-        "fullSentence": "Flowers were placed at the war memorial on Sunday.",
-        "translation": "週日人們在戰爭紀念碑前獻花。",
-        "clue": "紀念亡者的碑",
-        "answerEntryId": "u31:memorial",
-        "distractorEntryIds": [
-          "u13:picture",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school held a ___ service for the old principal.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "m-e-s-s-e-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The king sent a ___ to deliver the peace message.",
-        "fullSentence": "The king sent a messenger to deliver the peace message.",
-        "translation": "國王派信使去送和平訊息。",
-        "clue": "送信的人",
-        "answerEntryId": "u31:messenger",
-        "distractorEntryIds": [
-          "u31:equality",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ arrived on horseback with urgent news.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "m-i-x-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Salad is a ___ of different vegetables.",
-        "fullSentence": "Salad is a mixture of different vegetables.",
-        "translation": "沙拉是多種蔬菜的混合。",
-        "clue": "多種東西混在一起",
-        "answerEntryId": "u31:mixture",
-        "distractorEntryIds": [
-          "u14:collection",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Stir the ___ until the sugar disappears.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "n-a-t-i-o-n-a-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The form asks for your name, age, and ___.",
-        "fullSentence": "The form asks for your name, age, and nationality.",
-        "translation": "表格要求填寫姓名、年齡和國籍。",
-        "clue": "表格上的國籍欄",
-        "answerEntryId": "u31:nationality",
-        "distractorEntryIds": [
-          "u31:citizenship",
-          "u11:address",
-          "u31:maintenance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She holds double ___ because her parents come from different countries.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "n-e-c-e-s-s-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A map and water are ___ when you hike in the mountains.",
-        "fullSentence": "A map and water are necessity when you hike in the mountains.",
-        "translation": "登山時，地圖和水是必需品。",
-        "clue": "一定要帶的東西",
-        "answerEntryId": "u31:necessity",
-        "distractorEntryIds": [
-          "u13:story",
-          "u13:book",
-          "u13:group"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Out of ___, he learned to cook for himself.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "n-e-g-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Adding not is a common way of ___ in English.",
-        "fullSentence": "Adding not is a common way of negation in English.",
-        "translation": "加 not 是英文常用的否定方式。",
-        "clue": "表示「不」的文法",
-        "answerEntryId": "u31:negation",
-        "distractorEntryIds": [
-          "u13:question",
-          "u31:refusal",
-          "u31:expression"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The word never is a strong ___.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "n-e-i-g-h-b-o-r-h-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole ___ came to the street party.",
-        "fullSentence": "The whole neighborhood came to the street party.",
-        "translation": "整個街坊的人都來參加街頭派對。",
-        "clue": "住家附近一帶",
-        "answerEntryId": "u31:neighborhood",
-        "distractorEntryIds": [
-          "u12:village",
-          "u12:city",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is a small bakery in our ___.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "n-o-i-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ from the construction site woke me up at six.",
-        "fullSentence": "The noise from the construction site woke me up at six.",
-        "translation": "工地的噪音六點就把我吵醒了。",
-        "clue": "吵鬧的聲音",
-        "answerEntryId": "u31:noise",
-        "distractorEntryIds": [
-          "u31:proposal",
-          "u13:music",
-          "u31:speech"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please make less ___; everyone is studying.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "o-c-c-u-r-r-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The daily ___ of traffic jams makes everyone leave home early.",
-        "fullSentence": "The daily occurrence of traffic jams makes everyone leave home early.",
-        "translation": "每天塞車的發生讓大家提早出門。",
-        "clue": "經常發生的事",
-        "answerEntryId": "u31:occurrence",
-        "distractorEntryIds": [
-          "u31:event",
-          "u31:repetition",
-          "u31:regularity"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blackouts are a rare ___ in this modern city.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "o-p-e-r-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The factory stopped ___ for two weeks to change its old machines.",
-        "fullSentence": "The factory stopped operation for two weeks to change its old machines.",
-        "translation": "工廠停工兩週更換舊機器。",
-        "clue": "停止運轉",
-        "answerEntryId": "u31:operation",
-        "distractorEntryIds": [
-          "u31:service",
-          "u13:effort",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctors performed an ___ on his broken leg.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "o-p-i-n-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone has a different ___ about the new school rule.",
-        "fullSentence": "Everyone has a different opinion about the new school rule.",
-        "translation": "每個人對新校規都有不同的看法。",
-        "clue": "個人的看法",
-        "answerEntryId": "u31:opinion",
-        "distractorEntryIds": [
-          "u31:idea",
-          "u31:decision",
-          "u13:answer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's your ___ of the new teacher?",
@@ -7407,18 +6375,6 @@
       "spellingHint": "o-p-p-o-r-t-u-n-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The internship is a golden ___ for students who want to work in tech.",
-        "fullSentence": "The internship is a golden opportunity for students who want to work in tech.",
-        "translation": "這份實習是想進科技業的學生的黃金機會。",
-        "clue": "難得的好機會",
-        "answerEntryId": "u31:opportunity",
-        "distractorEntryIds": [
-          "u31:chance",
-          "u31:ignorance",
-          "u31:choice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Thank you for the ___ to speak today.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "p-e-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The two leaders signed a treaty to keep the ___ between their countries.",
-        "fullSentence": "The two leaders signed a treaty to keep the peace between their countries.",
-        "translation": "兩位領袖簽署條約以維持兩國之間的和平。",
-        "clue": "國家間不再打仗",
-        "answerEntryId": "u31:peace",
-        "distractorEntryIds": [
-          "u13:friendship",
-          "u12:safety",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The lake at dawn is a picture of perfect ___.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "p-l-e-a-s-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She read the old letters with quiet ___ on the train.",
-        "fullSentence": "She read the old letters with quiet pleasure on the train.",
-        "translation": "她在火車上帶著淡淡的愉悅讀著舊信。",
-        "clue": "帶著愉悅的心情",
-        "answerEntryId": "u31:pleasure",
-        "distractorEntryIds": [
-          "u31:fun",
-          "u31:operation",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It gives me great ___ to introduce our main guest.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "p-o-p-u-l-a-r-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of bubble tea has spread around the world.",
-        "fullSentence": "The popularity of bubble tea has spread around the world.",
-        "translation": "珍珠奶茶的受歡迎程度已傳遍世界。",
-        "clue": "大受歡迎的程度",
-        "answerEntryId": "u31:popularity",
-        "distractorEntryIds": [
-          "u31:truth",
-          "u31:sale",
-          "u31:fashion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The app won ___ among teenagers in just one month.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "p-o-s-s-i-b-i-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scientists discussed the ___ of life on other planets.",
-        "fullSentence": "Scientists discussed the possibility of life on other planets.",
-        "translation": "科學家討論了其他行星存在生命的可能性。",
-        "clue": "某事發生的可能",
-        "answerEntryId": "u31:possibility",
-        "distractorEntryIds": [
-          "u31:chance",
-          "u31:discovery",
-          "u31:fact"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We should keep every ___ open before the final choice.",
@@ -7837,18 +6745,6 @@
       "spellingHint": "p-r-e-f-e-r-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hotel asked about our room ___ before we arrived.",
-        "fullSentence": "The hotel asked about our room preference before we arrived.",
-        "translation": "飯店在我們抵達前詢問了房間偏好。",
-        "clue": "事先表明的喜好",
-        "answerEntryId": "u31:preference",
-        "distractorEntryIds": [
-          "u31:choice",
-          "u31:opinion",
-          "u15:number"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her ___ for spicy food comes from her hometown.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "p-r-e-s-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher's ___ kept the students quiet.",
-        "fullSentence": "The teacher's presence kept the students quiet.",
-        "translation": "老師在場讓學生保持安靜。",
-        "clue": "人在現場",
-        "answerEntryId": "u31:presence",
-        "distractorEntryIds": [
-          "u31:arrival",
-          "u13:attention",
-          "u31:silence"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please show your ___ by signing the list.",
@@ -8009,18 +6893,6 @@
       "spellingHint": "p-r-i-n-c-i-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "As a matter of ___, she never lies to her customers.",
-        "fullSentence": "As a matter of principle, she never lies to her customers.",
-        "translation": "基於原則，她從不對顧客說謊。",
-        "clue": "堅持的原則",
-        "answerEntryId": "u31:principle",
-        "distractorEntryIds": [
-          "u13:rule",
-          "u14:habit",
-          "u31:receipt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school is built on the ___ of respect for all.",
@@ -8095,18 +6967,6 @@
       "spellingHint": "p-r-i-v-a-c-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The high fence gives the garden complete ___.",
-        "fullSentence": "The high fence gives the garden complete privacy.",
-        "translation": "高圍籬讓花園完全不受打擾。",
-        "clue": "不受人窺視",
-        "answerEntryId": "u31:privacy",
-        "distractorEntryIds": [
-          "u12:safety",
-          "u31:silence",
-          "u31:space"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Changing the password protects your ___.",
@@ -8181,18 +7041,6 @@
       "spellingHint": "p-r-o-j-e-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The class worked together on a ___ about recycling.",
-        "fullSentence": "The class worked together on a project about recycling.",
-        "translation": "全班一起做資源回收專題。",
-        "clue": "一起完成的專題",
-        "answerEntryId": "u31:project",
-        "distractorEntryIds": [
-          "u13:report",
-          "u31:task",
-          "u11:study"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The new bridge is the city's biggest building ___.",
@@ -8267,18 +7115,6 @@
       "spellingHint": "p-r-o-p-o-s-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ to hold the fair indoors was accepted by the teachers.",
-        "fullSentence": "Her proposal to hold the fair indoors was accepted by the teachers.",
-        "translation": "她在室內舉辦園遊會的提議被老師們接受了。",
-        "clue": "正式提出的建議",
-        "answerEntryId": "u31:proposal",
-        "distractorEntryIds": [
-          "u31:idea",
-          "u31:behavior",
-          "u31:decision"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He wrote a business ___ to ask for money for his shop.",
@@ -8353,18 +7189,6 @@
       "spellingHint": "p-u-r-p-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the survey is to learn what students need.",
-        "fullSentence": "The purpose of the survey is to learn what students need.",
-        "translation": "這項調查的目的是了解學生的需求。",
-        "clue": "做某事的目的",
-        "answerEntryId": "u31:purpose",
-        "distractorEntryIds": [
-          "u13:goal",
-          "u31:result",
-          "u31:chance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What's the ___ of this big red button?",
@@ -8439,18 +7263,6 @@
       "spellingHint": "q-u-a-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store is famous for the high ___ of its fruit.",
-        "fullSentence": "The store is famous for the high quality of its fruit.",
-        "translation": "這家店以水果的高品質聞名。",
-        "clue": "東西的好壞程度",
-        "answerEntryId": "u31:quality",
-        "distractorEntryIds": [
-          "u17:price",
-          "u31:dependence",
-          "u18:standard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Poor ___ means the work must be fixed for free.",
@@ -8525,18 +7337,6 @@
       "spellingHint": "r-a-p-i-d-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the rescue amazed everyone watching the news.",
-        "fullSentence": "The rapidity of the rescue amazed everyone watching the news.",
-        "translation": "救援的迅速讓看新聞的每個人都很驚訝。",
-        "clue": "動作快、不拖延",
-        "answerEntryId": "u31:rapidity",
-        "distractorEntryIds": [
-          "u31:efficiency",
-          "u31:quality",
-          "u31:regularity"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ with which she finished the test impressed the whole class.",
@@ -8611,18 +7411,6 @@
       "spellingHint": "r-e-a-s-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ for the delay was a broken traffic light.",
-        "fullSentence": "The reason for the delay was a broken traffic light.",
-        "translation": "延誤的原因是紅綠燈壞了。",
-        "clue": "造成延誤的理由",
-        "answerEntryId": "u31:reason",
-        "distractorEntryIds": [
-          "u31:cause",
-          "u31:result",
-          "u31:excuse"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There is no ___ to be angry; it was just a joke.",
@@ -8697,18 +7485,6 @@
       "spellingHint": "r-e-c-e-i-p-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store asked for the ___ before accepting the return.",
-        "fullSentence": "The store asked for the receipt before accepting the return.",
-        "translation": "店家要求出示收據才接受退貨。",
-        "clue": "證明購買的單據",
-        "answerEntryId": "u31:receipt",
-        "distractorEntryIds": [
-          "u31:ticket",
-          "u14:card",
-          "u31:sale"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Always check the ___ before leaving the register.",
@@ -8783,18 +7559,6 @@
       "spellingHint": "r-e-f-u-s-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her ___ to answer the question only made the reporter more curious.",
-        "fullSentence": "Her refusal to answer the question only made the reporter more curious.",
-        "translation": "她拒絕回答問題，反而讓記者更好奇。",
-        "clue": "不肯答應",
-        "answerEntryId": "u31:refusal",
-        "distractorEntryIds": [
-          "u31:acceptance",
-          "u31:silence",
-          "u31:avoidance"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bank explained its ___ of the loan.",
@@ -8869,18 +7633,6 @@
       "spellingHint": "r-e-g-u-l-a-r-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the tides makes them easy to predict.",
-        "fullSentence": "The regularity of the tides makes them easy to predict.",
-        "translation": "潮汐的規律性使它們容易預測。",
-        "clue": "固定發生的規律",
-        "answerEntryId": "u31:regularity",
-        "distractorEntryIds": [
-          "u31:occurrence",
-          "u31:stick",
-          "u31:repetition"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take the medicine with ___, at the same time every day.",
@@ -8955,18 +7707,6 @@
       "spellingHint": "r-e-p-e-t-i-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He remembered the spelling after ___ of the word ten times.",
-        "fullSentence": "He remembered the spelling after repetition of the word ten times.",
-        "translation": "把單字重複念十次幫他記住了拼法。",
-        "clue": "一次又一次地做",
-        "answerEntryId": "u31:repetition",
-        "distractorEntryIds": [
-          "u31:privacy",
-          "u13:book",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The song's catchy ___ of the chorus makes everyone sing along.",
@@ -9041,18 +7781,6 @@
       "spellingHint": "r-e-s-p-o-n-s-i-b-i-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "As the oldest child, washing the dishes is her ___.",
-        "fullSentence": "As the oldest child, washing the dishes is her responsibility.",
-        "translation": "身為老大，洗碗是她的責任。",
-        "clue": "分內該做的事",
-        "answerEntryId": "u31:responsibility",
-        "distractorEntryIds": [
-          "u31:trust",
-          "u13:term",
-          "u31:task"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The driver took full ___ for the accident.",
@@ -9127,18 +7855,6 @@
       "spellingHint": "r-e-s-u-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "As a ___ of the rain, the picnic moved indoors.",
-        "fullSentence": "As a result of the rain, the picnic moved indoors.",
-        "translation": "由於下雨，野餐改在室內舉行。",
-        "clue": "as a ___ of＝由於",
-        "answerEntryId": "u31:result",
-        "distractorEntryIds": [
-          "u31:cause",
-          "u17:change",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wait here for the test ___.",
@@ -9213,18 +7929,6 @@
       "spellingHint": "r-o-y-a-l-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The castle once housed the ___ of the old kingdom.",
-        "fullSentence": "The castle once housed the royalty of the old kingdom.",
-        "translation": "這座城堡曾住著舊王國的王室。",
-        "clue": "國王與王族",
-        "answerEntryId": "u31:royalty",
-        "distractorEntryIds": [
-          "u31:symbol",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Crowds waved as the ___ drove past in golden carriages.",
@@ -9299,18 +8003,6 @@
       "spellingHint": "s-a-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "House ___ in the city rose again this spring.",
-        "fullSentence": "House sale in the city rose again this spring.",
-        "translation": "今春城市房屋銷售再度上升。",
-        "clue": "房子賣出的數量",
-        "answerEntryId": "u31:sale",
-        "distractorEntryIds": [
-          "u31:victory",
-          "u12:market",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everything in the store is half price during the big ___.",
@@ -9385,18 +8077,6 @@
       "spellingHint": "s-a-m-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The lab tested the water ___ from the river.",
-        "fullSentence": "The lab tested the water sample from the river.",
-        "translation": "實驗室檢測了從河裡取的水樣本。",
-        "clue": "拿去化驗的樣本",
-        "answerEntryId": "u31:sample",
-        "distractorEntryIds": [
-          "u31:data",
-          "u14:fish",
-          "u18:level"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Try a free ___ of the new yogurt.",
@@ -9471,18 +8151,6 @@
       "spellingHint": "s-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bus was full, so she had to stand even though every ___ was taken.",
-        "fullSentence": "The bus was full, so she had to stand even though every seat was taken.",
-        "translation": "公車客滿，每個座位都有人，她只好站著。",
-        "clue": "可以坐的位子",
-        "answerEntryId": "u31:seat",
-        "distractorEntryIds": [
-          "u31:ticket",
-          "u31:fire",
-          "u31:regularity"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Book your ___ early to get the best view of the stage.",
@@ -9557,18 +8225,6 @@
       "spellingHint": "s-e-c-r-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She finally told me her ___: she had been taking piano lessons for a year.",
-        "fullSentence": "She finally told me her secret: she had been taking piano lessons for a year.",
-        "translation": "她終於告訴我她的秘密：她已學鋼琴一年了。",
-        "clue": "一直沒說出口的事",
-        "answerEntryId": "u31:secret",
-        "distractorEntryIds": [
-          "u13:story",
-          "u31:dream",
-          "u31:idea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you keep a ___?",
@@ -9643,18 +8299,6 @@
       "spellingHint": "s-e-r-v-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hotel is famous for its friendly ___.",
-        "fullSentence": "The hotel is famous for its friendly service.",
-        "translation": "這家飯店以親切的服務聞名。",
-        "clue": "店員提供的服務",
-        "answerEntryId": "u31:service",
-        "distractorEntryIds": [
-          "u31:worth",
-          "u11:room",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bus ___ to the airport runs every fifteen minutes.",
@@ -9729,18 +8373,6 @@
       "spellingHint": "s-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole ___ of tools fits in this small box.",
-        "fullSentence": "The whole set of tools fits in this small box.",
-        "translation": "整組工具都裝得進這個小箱子。",
-        "clue": "成套的工具",
-        "answerEntryId": "u31:set",
-        "distractorEntryIds": [
-          "u18:pack",
-          "u13:group",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She received a ___ of colored pencils for her birthday.",
@@ -9815,18 +8447,6 @@
       "spellingHint": "s-i-g-n-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The referee raised both hands as a ___ that the goal counted.",
-        "fullSentence": "The referee raised both hands as a signal that the goal counted.",
-        "translation": "裁判舉起雙手，示意進球有效。",
-        "clue": "裁判的示意動作",
-        "answerEntryId": "u31:signal",
-        "distractorEntryIds": [
-          "u13:mark",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The phone shows one bar, so the ___ is weak.",
@@ -9901,18 +8521,6 @@
       "spellingHint": "s-i-g-n-a-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bank requires your ___ on every check.",
-        "fullSentence": "The bank requires your signature on every check.",
-        "translation": "銀行要求每張支票都要有你的簽名。",
-        "clue": "親筆簽名",
-        "answerEntryId": "u31:signature",
-        "distractorEntryIds": [
-          "u13:mark",
-          "u14:stamp",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The famous writer's ___ is worth a lot to fans.",
@@ -9987,18 +8595,6 @@
       "spellingHint": "s-i-l-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in the library helped everyone focus.",
-        "fullSentence": "The silence in the library helped everyone focus.",
-        "translation": "圖書館的安靜幫助大家專心。",
-        "clue": "安靜無聲",
-        "answerEntryId": "u31:silence",
-        "distractorEntryIds": [
-          "u31:noise",
-          "u13:rule",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please observe a minute of ___ for the victims.",
@@ -10073,18 +8669,6 @@
       "spellingHint": "s-p-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The rocket will travel through ___ for six months.",
-        "fullSentence": "The rocket will travel through space for six months.",
-        "translation": "火箭將在太空中航行六個月。",
-        "clue": "火箭飛行的地方",
-        "answerEntryId": "u31:space",
-        "distractorEntryIds": [
-          "u31:commentary",
-          "u31:link",
-          "u31:thing"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Is there ___ in your bag for my book?",
@@ -10159,18 +8743,6 @@
       "spellingHint": "s-p-e-e-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her graduation ___ moved many parents to tears.",
-        "fullSentence": "Her graduation speech moved many parents to tears.",
-        "translation": "她的畢業演說讓許多家長感動落淚。",
-        "clue": "畢業典禮的致詞",
-        "answerEntryId": "u31:speech",
-        "distractorEntryIds": [
-          "u13:story",
-          "u14:song",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The president's ___ lasted only ten minutes.",
@@ -10245,18 +8817,6 @@
       "spellingHint": "s-p-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We found a shady ___ under the big tree for our lunch.",
-        "fullSentence": "We found a shady spot under the big tree for our lunch.",
-        "translation": "我們在大樹下找到一個陰涼的地方吃午餐。",
-        "clue": "適合的地點",
-        "answerEntryId": "u31:spot",
-        "distractorEntryIds": [
-          "u12:place",
-          "u11:bench",
-          "u12:park"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The Dalmatian has a ___ on almost every part of its body.",
@@ -10331,18 +8891,6 @@
       "spellingHint": "s-t-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The campers roasted marshmallows on a long ___.",
-        "fullSentence": "The campers roasted marshmallows on a long stick.",
-        "translation": "露營者用長棍子烤棉花糖。",
-        "clue": "用來烤東西的細棍",
-        "answerEntryId": "u31:stick",
-        "distractorEntryIds": [
-          "u31:fire",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The puppy fetched the ___ I threw into the yard.",
@@ -10417,18 +8965,6 @@
       "spellingHint": "s-t-r-u-g-g-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After a long ___, the team finally finished the marathon.",
-        "fullSentence": "After a long struggle, the team finally finished the marathon.",
-        "translation": "經過長時間的奮鬥，隊伍終於完成馬拉松。",
-        "clue": "辛苦的打拼過程",
-        "answerEntryId": "u31:struggle",
-        "distractorEntryIds": [
-          "u14:race",
-          "u13:effort",
-          "u31:experience"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bird's ___ to escape lasted an hour.",
@@ -10503,18 +9039,6 @@
       "spellingHint": "s-u-c-c-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The key to ___ is doing a little every day.",
-        "fullSentence": "The key to success is doing a little every day.",
-        "translation": "成功的關鍵是每天做一點。",
-        "clue": "達成目標",
-        "answerEntryId": "u31:success",
-        "distractorEntryIds": [
-          "u31:victory",
-          "u13:progress",
-          "u31:refusal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her first cake was a ___; everyone asked for more.",
@@ -10589,18 +9113,6 @@
       "spellingHint": "s-u-r-f-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The lake's calm ___ reflected the mountains.",
-        "fullSentence": "The lake's calm surface reflected the mountains.",
-        "translation": "平靜的湖面倒映著群山。",
-        "clue": "水的表層",
-        "answerEntryId": "u31:surface",
-        "distractorEntryIds": [
-          "u13:picture",
-          "u13:story",
-          "u13:book"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wipe the ___ after cooking.",
@@ -10675,18 +9187,6 @@
       "spellingHint": "s-y-m-b-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On the map, a red star is the ___ for the capital.",
-        "fullSentence": "On the map, a red star is the symbol for the capital.",
-        "translation": "在地圖上，紅星是首都的符號。",
-        "clue": "地圖上的記號",
-        "answerEntryId": "u31:symbol",
-        "distractorEntryIds": [
-          "u13:mark",
-          "u31:command",
-          "u31:fact"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A heart shape is a ___ of love.",
@@ -10761,18 +9261,6 @@
       "spellingHint": "t-a-s-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cleaning the garage was the hardest ___ of the weekend.",
-        "fullSentence": "Cleaning the garage was the hardest task of the weekend.",
-        "translation": "清理車庫是週末最難的任務。",
-        "clue": "要做的工作",
-        "answerEntryId": "u31:task",
-        "distractorEntryIds": [
-          "u13:term",
-          "u31:project",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher gave us a writing ___ for homework.",
@@ -10847,18 +9335,6 @@
       "spellingHint": "t-h-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The most important ___ in a friendship is honesty.",
-        "fullSentence": "The most important thing in a friendship is honesty.",
-        "translation": "友誼中最重要的是誠實。",
-        "clue": "最重要的事",
-        "answerEntryId": "u31:thing",
-        "distractorEntryIds": [
-          "u31:necessity",
-          "u31:idea",
-          "u13:rule"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't forget your ___ when you leave the bus.",
@@ -10933,18 +9409,6 @@
       "spellingHint": "t-i-c-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Show your ___ at the gate before boarding the train.",
-        "fullSentence": "Show your ticket at the gate before boarding the train.",
-        "translation": "上火車前請在剪票口出示車票。",
-        "clue": "搭車要出示的票",
-        "answerEntryId": "u31:ticket",
-        "distractorEntryIds": [
-          "u14:card",
-          "u18:pack",
-          "u31:fact"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movie was so popular that ___s sold out in an hour.",
@@ -11019,18 +9483,6 @@
       "spellingHint": "t-r-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom said a movie would be her ___ for my good grades.",
-        "fullSentence": "Mom said a movie would be her treat for my good grades.",
-        "translation": "媽媽說看電影是她對我成績好的獎勵請客。",
-        "clue": "請客的款待",
-        "answerEntryId": "u31:treat",
-        "distractorEntryIds": [
-          "u31:repetition",
-          "u17:prize",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let me ___ you to lunch for helping me move.",
@@ -11105,18 +9557,6 @@
       "spellingHint": "t-r-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The magician's final ___ left the whole audience speechless.",
-        "fullSentence": "The magician's final trick left the whole audience speechless.",
-        "translation": "魔術師的最後一個戲法讓全場觀眾啞口無言。",
-        "clue": "魔術表演",
-        "answerEntryId": "u31:trick",
-        "distractorEntryIds": [
-          "u31:usage",
-          "u31:majority",
-          "u14:card"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Learning to fold a paper crane is a fun ___.",
@@ -11191,18 +9631,6 @@
       "spellingHint": "t-r-u-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Good friendship is built on mutual ___.",
-        "fullSentence": "Good friendship is built on mutual trust.",
-        "translation": "好的友誼建立在相互信任上。",
-        "clue": "彼此相信對方",
-        "answerEntryId": "u31:trust",
-        "distractorEntryIds": [
-          "u31:decision",
-          "u31:worth",
-          "u31:truth"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You broke my ___ by telling everyone my secret.",
@@ -11277,18 +9705,6 @@
       "spellingHint": "t-r-u-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The detective promised to find the ___ of the case.",
-        "fullSentence": "The detective promised to find the truth of the case.",
-        "translation": "偵探承諾查明案情真相。",
-        "clue": "事情的真相",
-        "answerEntryId": "u31:truth",
-        "distractorEntryIds": [
-          "u13:answer",
-          "u31:fact",
-          "u13:story"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please tell me the ___, even if it hurts.",
@@ -11363,18 +9779,6 @@
       "spellingHint": "u-s-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The meter records your monthly electricity ___.",
-        "fullSentence": "The meter records your monthly electricity usage.",
-        "translation": "電表記錄你每月的用電量。",
-        "clue": "用電的使用量",
-        "answerEntryId": "u31:usage",
-        "distractorEntryIds": [
-          "u17:bill",
-          "u31:delivery",
-          "u31:data"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water ___ rises in summer when everyone waters plants.",
@@ -11449,18 +9853,6 @@
       "spellingHint": "v-a-l-u-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Honesty is a ___ that parents teach by example.",
-        "fullSentence": "Honesty is a value that parents teach by example.",
-        "translation": "誠實是父母以身作則教導的價值觀。",
-        "clue": "重要的價值觀",
-        "answerEntryId": "u31:value",
-        "distractorEntryIds": [
-          "u13:lesson",
-          "u13:rule",
-          "u14:habit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The house has doubled in ___ since we bought it.",
@@ -11535,18 +9927,6 @@
       "spellingHint": "v-i-c-t-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After three losses, last night's ___ felt especially sweet.",
-        "fullSentence": "After three losses, last night's victory felt especially sweet.",
-        "translation": "三連敗後，昨晚的勝利格外甜美。",
-        "clue": "贏得比賽",
-        "answerEntryId": "u31:victory",
-        "distractorEntryIds": [
-          "u14:game",
-          "u31:success",
-          "u17:prize"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The general led his army to a famous ___.",
@@ -11621,18 +10001,6 @@
       "spellingHint": "w-o-r-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The company is now ___ over ten million dollars.",
-        "fullSentence": "The company is now worth over ten million dollars.",
-        "translation": "這家公司現在價值超過一千萬元。",
-        "clue": "be ___＋金額＝價值多少",
-        "answerEntryId": "u31:worth",
-        "distractorEntryIds": [
-          "u31:value",
-          "u17:price",
-          "u31:signal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The show was ___ every minute of the long drive.",

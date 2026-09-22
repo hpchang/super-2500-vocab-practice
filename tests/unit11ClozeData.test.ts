@@ -40,13 +40,12 @@ const enrichmentMap = new Map(
 );
 
 interface NamedCloze {
-  tier: 'cloze' | 'easy' | 'medium' | 'hard';
+  tier: 'easy' | 'medium' | 'hard';
   question: ClozeQuestion;
 }
 
 function allCloze(entry: EnrichedEntry): NamedCloze[] {
   return [
-    { tier: 'cloze', question: entry.cloze },
     ...entry.clozeEasy.map((question) => ({ tier: 'easy' as const, question })),
     ...entry.clozeMedium.map((question) => ({ tier: 'medium' as const, question })),
     { tier: 'hard', question: entry.clozeHard },
@@ -68,7 +67,7 @@ for (const { name, data } of UNIT_NUMBERS.map((n) => ({
 }))) {
   describe(`Unit ${name} cloze content quality`, () => {
     it(`contains ${data.entries.length} entries and complete cloze records`, () => {
-      expect(data.entries.flatMap(allCloze)).toHaveLength(data.entries.length * 6);
+      expect(data.entries.flatMap(allCloze)).toHaveLength(data.entries.length * 5);
       for (const entry of data.entries) {
         expect(entry.clozeEasy).toHaveLength(2);
         expect(entry.clozeMedium).toHaveLength(2);
@@ -107,7 +106,7 @@ for (const { name, data } of UNIT_NUMBERS.map((n) => ({
       }
     });
 
-    it('keeps same-POS distractors for legacy, medium, and hard tiers', () => {
+    it('keeps same-POS distractors for medium and hard tiers', () => {
       for (const entry of data.entries) {
         for (const { tier, question } of allCloze(entry)) {
           if (tier === 'easy') continue;
@@ -120,24 +119,9 @@ for (const { name, data } of UNIT_NUMBERS.map((n) => ({
       }
     });
 
-    it('keeps legacy Chinese option labels unique', () => {
-      for (const entry of data.entries) {
-        const ids = [entry.entryId, ...entry.cloze.distractorEntryIds];
-        const labels = ids.map((id) => enrichmentMap.get(id)?.zh);
-        expect(labels.every(Boolean), `${entry.entryId} legacy Chinese labels resolve`).toBe(true);
-        expect(
-          new Set(labels.map((label) => normalizeLabel(label!))).size,
-          `${entry.entryId} legacy Chinese labels`,
-        ).toBe(4);
-      }
-    });
-
     it('does not repeat examples, stems, or option words inside stems', () => {
       const seen = new Map<string, string>();
       for (const entry of data.entries) {
-        expect(entry.cloze.fullSentence, `${entry.entryId} legacy differs from example`).not.toBe(
-          entry.example,
-        );
         for (const { tier, question } of allCloze(entry)) {
           const normalized = normalizeLabel(question.sentence);
           expect(seen.get(normalized), `${entry.entryId} ${tier} duplicate stem`).toBeUndefined();

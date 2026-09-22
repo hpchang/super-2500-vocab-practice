@@ -11,19 +11,6 @@
       "spellingHint": "a-m-o-u-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The recipe needs a small ___ of sugar, just one spoon.",
-        "fullSentence": "The recipe needs a small amount of sugar, just one spoon.",
-        "translation": "這道食譜只需要少量的糖，一匙就好。",
-        "clue": "表示數量多寡的量",
-        "answerEntryId": "u18:amount",
-        "distractorEntryIds": [
-          "u18:size",
-          "u18:level",
-          "u18:range"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "She added the right ___ of salt to the soup.",
@@ -103,19 +90,6 @@
       "spellingHint": "b-i-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The box was too ___ to fit through the small door.",
-        "fullSentence": "The box was too big to fit through the small door.",
-        "translation": "這個箱子太大了，塞不進小門。",
-        "clue": "體積大到放不進去",
-        "answerEntryId": "u18:big",
-        "distractorEntryIds": [
-          "u18:tiny",
-          "u18:short",
-          "u18:distant"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "An elephant is a very ___ animal.",
@@ -195,19 +169,6 @@
       "spellingHint": "b-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I'm a ___ hungry, so let's eat lunch soon.",
-        "fullSentence": "I'm a bit hungry, so let's eat lunch soon.",
-        "translation": "我有點餓了，我們早點吃午餐吧。",
-        "clue": "有點、些許的程度",
-        "answerEntryId": "u18:bit",
-        "distractorEntryIds": [
-          "u18:level",
-          "u18:size",
-          "u18:kilometer"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The soup needs a ___ more salt to taste better.",
@@ -287,19 +248,6 @@
       "spellingHint": "b-o-t-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He threw the empty plastic ___ into the recycling bin.",
-        "fullSentence": "He threw the empty plastic bottle into the recycling bin.",
-        "translation": "他把空的寶特瓶丟進回收桶。",
-        "clue": "塑膠做的裝水容器",
-        "answerEntryId": "u18:bottle",
-        "distractorEntryIds": [
-          "u18:cup",
-          "u18:glass",
-          "u18:can"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Mom opened a ___ of juice for the picnic.",
@@ -379,19 +327,6 @@
       "spellingHint": "b-u-n-d-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She tied the old newspapers into a ___ for recycling.",
-        "fullSentence": "She tied the old newspapers into a bundle for recycling.",
-        "translation": "她把舊報紙綁成一捆拿去回收。",
-        "clue": "綁在一起的一捆",
-        "answerEntryId": "u18:bundle",
-        "distractorEntryIds": [
-          "u18:row",
-          "u18:kilometer",
-          "u18:length"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer sold a ___ of fresh vegetables at the market.",
@@ -471,19 +406,6 @@
       "spellingHint": "c-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma keeps a ___ of soup in the kitchen cupboard.",
-        "fullSentence": "Grandma keeps a can of soup in the kitchen cupboard.",
-        "translation": "奶奶在櫥櫃裡存了一罐湯罐頭。",
-        "clue": "金屬做的食物罐頭",
-        "answerEntryId": "u18:can",
-        "distractorEntryIds": [
-          "u18:bottle",
-          "u18:dot",
-          "u18:foot"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The cat food comes in a small ___ with a pull ring.",
@@ -563,19 +485,6 @@
       "spellingHint": "c-e-n-t-i-m-e-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "One ___ is about the width of your little finger.",
-        "fullSentence": "One centimeter is about the width of your little finger.",
-        "translation": "一公分大約是你小指的寬度。",
-        "clue": "很小的長度單位",
-        "answerEntryId": "u18:centimeter",
-        "distractorEntryIds": [
-          "u18:kilogram",
-          "u18:liter",
-          "u18:mile"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Her hair grew one ___ longer this month.",
@@ -655,19 +564,6 @@
       "spellingHint": "c-i-r-c-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Draw a ___ around the correct answer with your pencil.",
-        "fullSentence": "Draw a circle around the correct answer with your pencil.",
-        "translation": "用鉛筆把正確答案圈起來。",
-        "clue": "圈選答案的環狀記號",
-        "answerEntryId": "u18:circle",
-        "distractorEntryIds": [
-          "u18:line",
-          "u18:dot",
-          "u18:side"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The full moon looked like a silver ___ in the sky.",
@@ -747,19 +643,6 @@
       "spellingHint": "c-i-r-c-u-l-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The racing track is ___, so runners keep turning left.",
-        "fullSentence": "The racing track is circular, so runners keep turning left.",
-        "translation": "跑道是環狀的，所以跑者不斷左轉。",
-        "clue": "繞圈子、不斷轉彎的環狀跑道",
-        "answerEntryId": "u18:circular",
-        "distractorEntryIds": [
-          "u18:straight",
-          "u11:flat",
-          "u18:big"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A coin has a ___ shape with no corners.",
@@ -839,19 +722,6 @@
       "spellingHint": "c-u-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There is a ___ and a saucer on the kitchen table.",
-        "fullSentence": "There is a cup and a saucer on the kitchen table.",
-        "translation": "廚房桌上有一個杯子和杯托。",
-        "clue": "和杯托一起使用的杯子",
-        "answerEntryId": "u18:cup",
-        "distractorEntryIds": [
-          "u18:length",
-          "u18:loaf",
-          "u18:maximum"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Would you like a ___ of hot tea?",
@@ -931,19 +801,6 @@
       "spellingHint": "d-e-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Divers explored the very ___ part of the lake.",
-        "fullSentence": "Divers explored the very deep part of the lake.",
-        "translation": "潛水員探索了湖中最深的地方。",
-        "clue": "湖裡最深、最底層的地方",
-        "answerEntryId": "u18:deep",
-        "distractorEntryIds": [
-          "u18:low",
-          "u18:circular",
-          "u18:big"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The river is so ___ that you cannot stand in it.",
@@ -1023,19 +880,6 @@
       "spellingHint": "d-i-s-t-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The village is ___ from the city, so we drove for five hours.",
-        "fullSentence": "The village is distant from the city, so we drove for five hours.",
-        "translation": "那個村莊離城市很遠，所以我們開了五個小時的車。",
-        "clue": "開五小時車才到的遠方",
-        "answerEntryId": "u18:distant",
-        "distractorEntryIds": [
-          "u18:huge",
-          "u18:small",
-          "u18:spacious"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Stars are ___ from the earth, so they look tiny.",
@@ -1115,19 +959,6 @@
       "spellingHint": "d-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A small ___ on the map marks where the treasure is buried.",
-        "fullSentence": "A small dot on the map marks where the treasure is buried.",
-        "translation": "地圖上的一個小圓點標出寶藏埋藏的地點。",
-        "clue": "標記位置的小圓點",
-        "answerEntryId": "u18:dot",
-        "distractorEntryIds": [
-          "u18:centimeter",
-          "u18:circle",
-          "u18:foot"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The ladybug has a black ___ on each red wing.",
@@ -1207,19 +1038,6 @@
       "spellingHint": "d-o-z-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He gave her a ___ of red roses, one for each month of the year.",
-        "fullSentence": "He gave her a dozen of red roses, one for each month of the year.",
-        "translation": "他送她一打紅玫瑰，每個月一朵。",
-        "clue": "十二朵玫瑰的數量",
-        "answerEntryId": "u18:dozen",
-        "distractorEntryIds": [
-          "u18:dot",
-          "u18:volume",
-          "u18:width"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer collected a ___ of eggs from the henhouse.",
@@ -1299,19 +1117,6 @@
       "spellingHint": "e-x-t-r-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We packed one ___ shirt in case the first one got dirty.",
-        "fullSentence": "We packed one extra shirt in case the first one got dirty.",
-        "translation": "我們多帶了一件襯衫，以防第一件弄髒。",
-        "clue": "以防萬一多帶的",
-        "answerEntryId": "u18:extra",
-        "distractorEntryIds": [
-          "u18:regular",
-          "u18:medium",
-          "u18:distant"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Night rides cost five ___ dollars after ten o'clock.",
@@ -1391,19 +1196,6 @@
       "spellingHint": "f-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The station is not ___ from here, so let's walk.",
-        "fullSentence": "The station is not far from here, so let's walk.",
-        "translation": "車站離這裡不遠，我們走路去吧。",
-        "clue": "距離不遠、可以走路",
-        "answerEntryId": "u18:far",
-        "distractorEntryIds": [
-          "u12:forward",
-          "u12:backward",
-          "u12:there"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "How ___ is it from Taipei to Kaohsiung?",
@@ -1483,19 +1275,6 @@
       "spellingHint": "f-o-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The basketball hoop hangs ten ___ above the floor.",
-        "fullSentence": "The basketball hoop hangs ten foot above the floor.",
-        "translation": "籃框懸掛在地板上方十英尺處。",
-        "clue": "量高度用的英制單位",
-        "answerEntryId": "u18:foot",
-        "distractorEntryIds": [
-          "u18:amount",
-          "u18:bit",
-          "u18:bundle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "One ___ is about thirty centimeters long.",
@@ -1575,19 +1354,6 @@
       "spellingHint": "g-l-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She poured the orange juice into a tall ___.",
-        "fullSentence": "She poured the orange juice into a tall glass.",
-        "translation": "她把柳橙汁倒進一個高玻璃杯。",
-        "clue": "倒果汁用的玻璃杯",
-        "answerEntryId": "u18:glass",
-        "distractorEntryIds": [
-          "u18:dozen",
-          "u18:gram",
-          "u18:height"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Would you like a ___ of cold water?",
@@ -1667,19 +1433,6 @@
       "spellingHint": "g-r-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The package label says it weighs five hundred ___s.",
-        "fullSentence": "The package label says it weighs five hundred grams.",
-        "translation": "包裝標籤上寫著重五百公克。",
-        "clue": "包裝標示的重量單位",
-        "answerEntryId": "u18:gram",
-        "distractorEntryIds": [
-          "u18:inch",
-          "u18:meter",
-          "u18:pack"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A small paper clip weighs about one ___.",
@@ -1759,19 +1512,6 @@
       "spellingHint": "h-e-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nurse measured the boy's ___ to see how much he had grown.",
-        "fullSentence": "The nurse measured the boy's height to see how much he had grown.",
-        "translation": "護士量了男孩的身高，看他長高了多少。",
-        "clue": "量身高的量",
-        "answerEntryId": "u18:height",
-        "distractorEntryIds": [
-          "u18:package",
-          "u18:pair",
-          "u18:pattern"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the tower is one hundred meters.",
@@ -1851,19 +1591,6 @@
       "spellingHint": "h-i-g-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kite flew ___ above the trees in the strong wind.",
-        "fullSentence": "The kite flew high above the trees in the strong wind.",
-        "translation": "風很大，風箏飛得比樹還高。",
-        "clue": "飛到高處的風箏",
-        "answerEntryId": "u18:high",
-        "distractorEntryIds": [
-          "u18:little",
-          "u18:thick",
-          "u18:tiny"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The monkey jumped onto a ___ branch of the tree.",
@@ -1943,19 +1670,6 @@
       "spellingHint": "h-u-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ wave crashed over the small fishing boat.",
-        "fullSentence": "A huge wave crashed over the small fishing boat.",
-        "translation": "一個巨浪撲打過那艘小漁船。",
-        "clue": "撲向小船的巨浪",
-        "answerEntryId": "u18:huge",
-        "distractorEntryIds": [
-          "u18:deep",
-          "u18:extra",
-          "u18:high"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The blue whale is a ___ animal that lives in the ocean.",
@@ -2035,19 +1749,6 @@
       "spellingHint": "i-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The snail moved only one ___ in a minute.",
-        "fullSentence": "The snail moved only one inch in a minute.",
-        "translation": "蝸牛一分鐘只爬了一英寸。",
-        "clue": "很短的英制長度單位",
-        "answerEntryId": "u18:inch",
-        "distractorEntryIds": [
-          "u18:piece",
-          "u18:point",
-          "u18:pound"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "There are twelve ___ units in one foot.",
@@ -2127,19 +1828,6 @@
       "spellingHint": "k-i-l-o-g-r-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The rice bag is marked five ___s on the front.",
-        "fullSentence": "The rice bag is marked five kilograms on the front.",
-        "translation": "米袋正面標示五公斤。",
-        "clue": "米袋標示的重量單位",
-        "answerEntryId": "u18:kilogram",
-        "distractorEntryIds": [
-          "u18:rectangle",
-          "u18:scale",
-          "u18:shape"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "One ___ equals one thousand grams.",
@@ -2219,19 +1907,6 @@
       "spellingHint": "k-i-l-o-m-e-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We ran one ___ around the school track this morning.",
-        "fullSentence": "We ran one kilometer around the school track this morning.",
-        "translation": "今天早上我們繞著學校操場跑了一公里。",
-        "clue": "長距離的長度單位",
-        "answerEntryId": "u18:kilometer",
-        "distractorEntryIds": [
-          "u18:square",
-          "u18:standard",
-          "u18:triangle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The city is about thirty ___s away by car.",
@@ -2311,19 +1986,6 @@
       "spellingHint": "l-a-r-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ number of students joined the science club this year.",
-        "fullSentence": "A large number of students joined the science club this year.",
-        "translation": "今年有很多學生參加科學社。",
-        "clue": "學生人數很多",
-        "answerEntryId": "u18:large",
-        "distractorEntryIds": [
-          "u18:long",
-          "u18:narrow",
-          "u18:round"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The elephant is the ___ land animal in the world.",
@@ -2403,19 +2065,6 @@
       "spellingHint": "l-e-n-g-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked us to measure the ___ of the classroom with a tape.",
-        "fullSentence": "The teacher asked us to measure the length of the classroom with a tape.",
-        "translation": "老師要我們用捲尺量教室的長度。",
-        "clue": "從一端量到另一端的長度",
-        "answerEntryId": "u18:length",
-        "distractorEntryIds": [
-          "u18:unit",
-          "u18:weight",
-          "u18:amount"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "This bridge is famous for its great ___ — it crosses the whole river.",
@@ -2495,19 +2144,6 @@
       "spellingHint": "l-e-v-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After three days of rain, the ___ of the lake water rose one meter.",
-        "fullSentence": "After three days of rain, the level of the lake water rose one meter.",
-        "translation": "下了三天雨後，湖水的水位上升了一公尺。",
-        "clue": "湖水水面升降的高度",
-        "answerEntryId": "u18:level",
-        "distractorEntryIds": [
-          "u18:bit",
-          "u18:bottle",
-          "u18:bundle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "This English book is for the beginner ___, so the words are easy.",
@@ -2587,19 +2223,6 @@
       "spellingHint": "l-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students stood in a ___ to buy tickets for the show.",
-        "fullSentence": "The students stood in a line to buy tickets for the show.",
-        "translation": "學生們排成一列買表演的票。",
-        "clue": "排隊買票的一列人",
-        "answerEntryId": "u18:line",
-        "distractorEntryIds": [
-          "u18:can",
-          "u18:centimeter",
-          "u18:circle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Use your ruler to draw a straight ___ across the page.",
@@ -2679,19 +2302,6 @@
       "spellingHint": "l-i-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The gas station sells gasoline by the ___.",
-        "fullSentence": "The gas station sells gasoline by the liter.",
-        "translation": "加油站以公升為單位賣汽油。",
-        "clue": "液體論公升販賣",
-        "answerEntryId": "u18:liter",
-        "distractorEntryIds": [
-          "u18:cup",
-          "u18:dozen",
-          "u18:glass"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Please buy a ___ of milk on your way home.",
@@ -2771,19 +2381,6 @@
       "spellingHint": "l-i-t-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ puppy followed its mother everywhere in the yard.",
-        "fullSentence": "The little puppy followed its mother everywhere in the yard.",
-        "translation": "小狗在院子裡到處跟著媽媽。",
-        "clue": "年紀很小的小狗",
-        "answerEntryId": "u18:little",
-        "distractorEntryIds": [
-          "u18:large",
-          "u18:sharp",
-          "u18:tall"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ sister is only three years old.",
@@ -2863,19 +2460,6 @@
       "spellingHint": "l-o-a-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baker pulled a fresh hot ___ of bread out of the oven.",
-        "fullSentence": "The baker pulled a fresh hot loaf of bread out of the oven.",
-        "translation": "麵包師傅從烤箱裡拿出一條新鮮熱騰騰的麵包。",
-        "clue": "烤箱裡出爐的一條麵包",
-        "answerEntryId": "u18:loaf",
-        "distractorEntryIds": [
-          "u18:gram",
-          "u18:height",
-          "u18:inch"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Dad sliced a ___ of bread to make sandwiches.",
@@ -2955,19 +2539,6 @@
       "spellingHint": "l-o-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The queue for the ride was so ___ that we waited an hour.",
-        "fullSentence": "The queue for the ride was so long that we waited an hour.",
-        "translation": "排隊人龍太長，我們等了一小時。",
-        "clue": "隊伍很長",
-        "answerEntryId": "u18:long",
-        "distractorEntryIds": [
-          "u18:wide",
-          "u11:flat",
-          "u18:circular"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A snake has a ___ body with no legs.",
@@ -3047,19 +2618,6 @@
       "spellingHint": "l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Speak in a ___ voice so you do not wake the baby.",
-        "fullSentence": "Speak in a low voice so you do not wake the baby.",
-        "translation": "說話小聲一點，才不會吵醒寶寶。",
-        "clue": "小聲、低音量的",
-        "answerEntryId": "u18:low",
-        "distractorEntryIds": [
-          "u18:deep",
-          "u18:extra",
-          "u18:high"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The branch is so ___ that even a child can reach it.",
@@ -3139,19 +2697,6 @@
       "spellingHint": "m-a-x-i-m-u-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The elevator can carry a ___ of ten people, and not one more.",
-        "fullSentence": "The elevator can carry a maximum of ten people, and not one more.",
-        "translation": "這部電梯最多載十人，多一個都不行。",
-        "clue": "能載人數的上限",
-        "answerEntryId": "u18:maximum",
-        "distractorEntryIds": [
-          "u18:kilogram",
-          "u18:line",
-          "u18:liter"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ speed on this road is sixty kilometers per hour.",
@@ -3231,19 +2776,6 @@
       "spellingHint": "m-e-a-s-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Use a ruler to ___ the length of the paper.",
-        "fullSentence": "Use a ruler to measure the length of the paper.",
-        "translation": "用尺量紙的長度。",
-        "clue": "用尺量出長度",
-        "answerEntryId": "u18:measure",
-        "distractorEntryIds": [
-          "u11:build",
-          "u11:fix",
-          "u18:widen"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The nurse will ___ your weight and height every year.",
@@ -3323,19 +2855,6 @@
       "spellingHint": "m-e-d-i-u-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This shirt is too small — could I try a ___ one instead?",
-        "fullSentence": "This shirt is too small — could I try a medium one instead?",
-        "translation": "這件襯衫太小，我可以試穿中號的嗎？",
-        "clue": "比小號大一級的尺寸",
-        "answerEntryId": "u18:medium",
-        "distractorEntryIds": [
-          "u18:huge",
-          "u18:large",
-          "u18:little"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Boil the egg for a ___ time, about seven minutes.",
@@ -3415,19 +2934,6 @@
       "spellingHint": "m-e-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tailor bought one ___ of cloth to make a shirt.",
-        "fullSentence": "The tailor bought one meter of cloth to make a shirt.",
-        "translation": "裁縫買了一公尺的布來做襯衫。",
-        "clue": "量布長度的單位",
-        "answerEntryId": "u18:meter",
-        "distractorEntryIds": [
-          "u18:loaf",
-          "u18:maximum",
-          "u18:mile"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "One ___ is one hundred centimeters.",
@@ -3507,19 +3013,6 @@
       "spellingHint": "m-i-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My grandmother lives three ___s down this country road.",
-        "fullSentence": "My grandmother lives three miles down this country road.",
-        "translation": "我奶奶住在這條鄉間道路三英里外。",
-        "clue": "很長距離的英制單位",
-        "answerEntryId": "u18:mile",
-        "distractorEntryIds": [
-          "u18:meter",
-          "u18:pack",
-          "u18:package"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "One ___ is about 1.6 kilometers.",
@@ -3599,19 +3092,6 @@
       "spellingHint": "n-a-r-r-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Only one person can walk through the ___ path at a time.",
-        "fullSentence": "Only one person can walk through the narrow path at a time.",
-        "translation": "這條小路很窄，一次只能一個人通過。",
-        "clue": "一次只能過一人的窄路",
-        "answerEntryId": "u18:narrow",
-        "distractorEntryIds": [
-          "u18:long",
-          "u18:low",
-          "u18:medium"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ bridge lets only one bicycle cross at a time.",
@@ -3691,19 +3171,6 @@
       "spellingHint": "p-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She opened a ___ of cookies and shared them with her friends.",
-        "fullSentence": "She opened a pack of cookies and shared them with her friends.",
-        "translation": "她打開一包餅乾和朋友分享。",
-        "clue": "包裝好的一包餅乾",
-        "answerEntryId": "u18:pack",
-        "distractorEntryIds": [
-          "u18:pair",
-          "u18:pattern",
-          "u18:piece"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Mom bought a ___ of noodles for the camping trip.",
@@ -3783,19 +3250,6 @@
       "spellingHint": "p-a-c-k-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma sent us a big ___ of fruit from her farm.",
-        "fullSentence": "Grandma sent us a big package of fruit from her farm.",
-        "translation": "奶奶從鄉下寄來一大箱水果包裹。",
-        "clue": "郵寄來的一箱貨",
-        "answerEntryId": "u18:package",
-        "distractorEntryIds": [
-          "u18:point",
-          "u18:pound",
-          "u18:range"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Please sign here to receive your ___.",
@@ -3875,19 +3329,6 @@
       "spellingHint": "p-a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She bought a new ___ of shoes for the basketball season.",
-        "fullSentence": "She bought a new pair of shoes for the basketball season.",
-        "translation": "她為籃球季買了一雙新鞋。",
-        "clue": "兩隻一雙的鞋",
-        "answerEntryId": "u18:pair",
-        "distractorEntryIds": [
-          "u18:rectangle",
-          "u18:row",
-          "u18:scale"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Put on a warm ___ of socks before you go outside.",
@@ -3967,19 +3408,6 @@
       "spellingHint": "p-a-t-t-e-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The wallpaper's flower ___ makes the room feel bright.",
-        "fullSentence": "The wallpaper's flower pattern makes the room feel bright.",
-        "translation": "壁紙的花朵圖案讓房間感覺明亮。",
-        "clue": "壁紙上的重複花樣",
-        "answerEntryId": "u18:pattern",
-        "distractorEntryIds": [
-          "u18:shape",
-          "u18:side",
-          "u18:square"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The zebra's black-and-white ___ helps it hide in the grass.",
@@ -4059,19 +3487,6 @@
       "spellingHint": "p-i-e-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She cut the pizza into eight ___s so everyone got one.",
-        "fullSentence": "She cut the pizza into eight pieces so everyone got one.",
-        "translation": "她把披薩切成八塊，每人都有一塊。",
-        "clue": "切開的一塊一塊",
-        "answerEntryId": "u18:piece",
-        "distractorEntryIds": [
-          "u18:standard",
-          "u18:triangle",
-          "u18:unit"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "May I have another ___ of chocolate?",
@@ -4151,19 +3566,6 @@
       "spellingHint": "p-o-i-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The team scored twenty ___s in the first half of the game.",
-        "fullSentence": "The team scored twenty points in the first half of the game.",
-        "translation": "這隊在比賽上半場得了二十分。",
-        "clue": "比賽得分",
-        "answerEntryId": "u18:point",
-        "distractorEntryIds": [
-          "u18:volume",
-          "u18:weight",
-          "u18:width"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The pencil's sharp ___ is perfect for drawing thin lines.",
@@ -4243,19 +3645,6 @@
       "spellingHint": "p-o-u-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The watermelon weighed ten ___s at the fruit stand.",
-        "fullSentence": "The watermelon weighed ten pounds at the fruit stand.",
-        "translation": "那顆西瓜在水果攤秤起來重十磅。",
-        "clue": "秤重量的英制單位",
-        "answerEntryId": "u18:pound",
-        "distractorEntryIds": [
-          "u18:amount",
-          "u18:bit",
-          "u18:bottle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "One ___ is about 0.45 kilograms.",
@@ -4335,19 +3724,6 @@
       "spellingHint": "r-a-n-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store sells shoes in a wide ___ of prices, from cheap to expensive.",
-        "fullSentence": "The store sells shoes in a wide range of prices, from cheap to expensive.",
-        "translation": "這家店的鞋子價格範圍很廣，從便宜到貴都有。",
-        "clue": "從低到高的價格區間",
-        "answerEntryId": "u18:range",
-        "distractorEntryIds": [
-          "u18:bundle",
-          "u18:can",
-          "u18:centimeter"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "This bird can fly a ___ of one hundred kilometers in a day.",
@@ -4427,19 +3803,6 @@
       "spellingHint": "r-e-c-t-a-n-g-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The classroom door is shaped like a tall ___ with four corners.",
-        "fullSentence": "The classroom door is shaped like a tall rectangle with four corners.",
-        "translation": "教室的門是高高的長方形，有四個角。",
-        "clue": "有四個角的門形",
-        "answerEntryId": "u18:rectangle",
-        "distractorEntryIds": [
-          "u18:circle",
-          "u18:cup",
-          "u18:dozen"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Most books are ___s, longer than they are wide.",
@@ -4519,19 +3882,6 @@
       "spellingHint": "r-e-g-u-l-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She takes her dog for a walk at ___ times every morning and evening.",
-        "fullSentence": "She takes her dog for a walk at regular times every morning and evening.",
-        "translation": "她每天早晚在固定的時間遛狗。",
-        "clue": "固定、按時的時間",
-        "answerEntryId": "u18:regular",
-        "distractorEntryIds": [
-          "u18:narrow",
-          "u18:round",
-          "u18:sharp"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A hexagon has six ___ sides that are all the same length.",
@@ -4611,19 +3961,6 @@
       "spellingHint": "r-o-u-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The earth is ___, like a giant ball floating in space.",
-        "fullSentence": "The earth is round, like a giant ball floating in space.",
-        "translation": "地球是圓的，像一顆飄浮在太空中的大球。",
-        "clue": "像球一樣圓的形狀",
-        "answerEntryId": "u18:round",
-        "distractorEntryIds": [
-          "u18:regular",
-          "u18:short",
-          "u18:small"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Balls are ___ so they can roll and bounce.",
@@ -4703,19 +4040,6 @@
       "spellingHint": "r-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher asked us to plant the flowers in a straight ___.",
-        "fullSentence": "The teacher asked us to plant the flowers in a straight row.",
-        "translation": "老師要我們把花種成一排直線。",
-        "clue": "排成一直線的一排",
-        "answerEntryId": "u18:row",
-        "distractorEntryIds": [
-          "u18:foot",
-          "u18:glass",
-          "u18:gram"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Our seats are in the third ___ of the movie theater.",
@@ -4795,19 +4119,6 @@
       "spellingHint": "s-c-a-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nurse asked him to step on the ___ to weigh him.",
-        "fullSentence": "The nurse asked him to step on the scale to weigh him.",
-        "translation": "護士請他站上體重計量體重。",
-        "clue": "量體重用的秤",
-        "answerEntryId": "u18:scale",
-        "distractorEntryIds": [
-          "u18:height",
-          "u18:inch",
-          "u18:kilogram"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The fish was so heavy that the kitchen ___ could not show its weight.",
@@ -4887,19 +4198,6 @@
       "spellingHint": "s-h-a-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cookie cutter makes cookies in the ___ of a star.",
-        "fullSentence": "The cookie cutter makes cookies in the shape of a star.",
-        "translation": "餅乾模型把餅乾壓成星星的形狀。",
-        "clue": "星星的外形",
-        "answerEntryId": "u18:shape",
-        "distractorEntryIds": [
-          "u18:kilometer",
-          "u18:length",
-          "u18:level"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A triangle has a ___ with three sides and three corners.",
@@ -4979,19 +4277,6 @@
       "spellingHint": "s-h-a-r-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ pencil draws thin, clear lines on the paper.",
-        "fullSentence": "A sharp pencil draws thin, clear lines on the paper.",
-        "translation": "削尖的鉛筆能在紙上畫出細而清楚的線。",
-        "clue": "削尖的筆尖",
-        "answerEntryId": "u18:sharp",
-        "distractorEntryIds": [
-          "u18:spacious",
-          "u18:straight",
-          "u18:tall"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The cat's ___ claws scratched the sofa.",
@@ -5071,19 +4356,6 @@
       "spellingHint": "s-h-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The movie was only one hour ___, so we had time for dinner after.",
-        "fullSentence": "The movie was only one hour short, so we had time for dinner after.",
-        "translation": "這部片只有一小時短，所以之後還有時間吃晚餐。",
-        "clue": "時間很短的電影",
-        "answerEntryId": "u18:short",
-        "distractorEntryIds": [
-          "u18:thick",
-          "u18:wide",
-          "u11:flat"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Rabbits have ___ tails, unlike the very long tails of monkeys.",
@@ -5163,19 +4435,6 @@
       "spellingHint": "s-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A square has four equal ___s, each the same length.",
-        "fullSentence": "A square has four equal sides, each the same length.",
-        "translation": "正方形有四條等長的邊。",
-        "clue": "正方形四條等長的邊",
-        "answerEntryId": "u18:side",
-        "distractorEntryIds": [
-          "u18:line",
-          "u18:liter",
-          "u18:loaf"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The cat sat on the other ___ of the door, waiting to come in.",
@@ -5255,19 +4514,6 @@
       "spellingHint": "s-i-z-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "These shoes are the wrong ___, so my toes hurt.",
-        "fullSentence": "These shoes are the wrong size, so my toes hurt.",
-        "translation": "這雙鞋尺寸不對，腳趾好痛。",
-        "clue": "鞋子合不合腳的尺寸",
-        "answerEntryId": "u18:size",
-        "distractorEntryIds": [
-          "u18:maximum",
-          "u18:meter",
-          "u18:mile"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "What ___ is your shirt — small or large?",
@@ -5347,19 +4593,6 @@
       "spellingHint": "s-m-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ kitten fit inside one of Dad's shoes.",
-        "fullSentence": "The small kitten fit inside one of Dad's shoes.",
-        "translation": "小貓小到可以塞進爸爸的一隻鞋裡。",
-        "clue": "小到塞進鞋子的貓",
-        "answerEntryId": "u18:small",
-        "distractorEntryIds": [
-          "u18:big",
-          "u18:circular",
-          "u18:deep"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Ants are ___ insects that work together in teams.",
@@ -5439,19 +4672,6 @@
       "spellingHint": "s-p-a-c-i-o-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ living room easily fits two sofas and a grand piano.",
-        "fullSentence": "The spacious living room easily fits two sofas and a grand piano.",
-        "translation": "寬敞的客廳輕鬆放得下兩張沙發和一架平台鋼琴。",
-        "clue": "放得下沙發和鋼琴的寬房間",
-        "answerEntryId": "u18:spacious",
-        "distractorEntryIds": [
-          "u18:distant",
-          "u18:extra",
-          "u18:high"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The park is ___, with plenty of room for everyone to play.",
@@ -5531,19 +4751,6 @@
       "spellingHint": "s-q-u-a-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The city's main ___ has a fountain where people like to meet.",
-        "fullSentence": "The city's main square has a fountain where people like to meet.",
-        "translation": "市中心的廣場有座噴泉，大家喜歡在那裡碰面。",
-        "clue": "市中心人群聚集的廣場",
-        "answerEntryId": "u18:square",
-        "distractorEntryIds": [
-          "u18:pack",
-          "u18:package",
-          "u18:pair"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A checkerboard is made of black and white ___s.",
@@ -5623,19 +4830,6 @@
       "spellingHint": "s-t-a-n-d-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "All new bridges in the country must meet the same safety ___.",
-        "fullSentence": "All new bridges in the country must meet the same safety standard.",
-        "translation": "全國所有新橋都必須符合同一套安全標準。",
-        "clue": "必須符合的安全基準",
-        "answerEntryId": "u18:standard",
-        "distractorEntryIds": [
-          "u18:pattern",
-          "u18:piece",
-          "u18:point"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "This test is the ___ for joining the advanced swim class.",
@@ -5715,19 +4909,6 @@
       "spellingHint": "s-t-r-a-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new highway is completely ___, without a single curve for fifty kilometers.",
-        "fullSentence": "The new highway is completely straight, without a single curve for fifty kilometers.",
-        "translation": "這條新公路筆直得很，五十公里沒有一個彎。",
-        "clue": "五十公里沒有彎道的直路",
-        "answerEntryId": "u18:straight",
-        "distractorEntryIds": [
-          "u18:huge",
-          "u18:large",
-          "u18:little"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Stand up ___ and look ahead when the teacher calls your name.",
@@ -5807,19 +4988,6 @@
       "spellingHint": "t-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sunflower in our garden is taller than my father.",
-        "fullSentence": "The tall sunflower in our garden is taller than my father.",
-        "translation": "我們花園裡那株高高的向日葵比爸爸還高。",
-        "clue": "長得比人還高的花",
-        "answerEntryId": "u18:tall",
-        "distractorEntryIds": [
-          "u18:long",
-          "u18:low",
-          "u18:medium"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Giraffes are ___ animals with very long necks.",
@@ -5899,19 +5067,6 @@
       "spellingHint": "t-h-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The winter blanket is so ___ that it keeps us warm all night.",
-        "fullSentence": "The winter blanket is so thick that it keeps us warm all night.",
-        "translation": "冬天的被子很厚，整夜都保暖。",
-        "clue": "厚到整夜保暖的被子",
-        "answerEntryId": "u18:thick",
-        "distractorEntryIds": [
-          "u18:narrow",
-          "u18:regular",
-          "u18:round"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Slice the bread ___ so it can hold the soup.",
@@ -5991,19 +5146,6 @@
       "spellingHint": "t-i-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ seed grew into a tree over twenty years.",
-        "fullSentence": "The tiny seed grew into a tree over twenty years.",
-        "translation": "那顆小小的種子經過二十年長成大樹。",
-        "clue": "非常小的種子",
-        "answerEntryId": "u18:tiny",
-        "distractorEntryIds": [
-          "u18:sharp",
-          "u18:short",
-          "u18:small"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The baby's fingers are ___ and soft.",
@@ -6083,19 +5225,6 @@
       "spellingHint": "t-r-i-a-n-g-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The road sign is a red ___ warning drivers to slow down.",
-        "fullSentence": "The road sign is a red triangle warning drivers to slow down.",
-        "translation": "那個路標是紅色三角形，提醒駕駛減速。",
-        "clue": "紅色三角形的警示標誌",
-        "answerEntryId": "u18:triangle",
-        "distractorEntryIds": [
-          "u18:pound",
-          "u18:range",
-          "u18:rectangle"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "A slice of pizza is shaped like a ___.",
@@ -6175,19 +5304,6 @@
       "spellingHint": "u-n-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kilogram is a ___ for measuring weight.",
-        "fullSentence": "The kilogram is a unit for measuring weight.",
-        "translation": "公斤是量重量的單位。",
-        "clue": "量重量用的單位",
-        "answerEntryId": "u18:unit",
-        "distractorEntryIds": [
-          "u18:row",
-          "u18:scale",
-          "u18:shape"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Our math book has ten ___s, one for each topic.",
@@ -6267,19 +5383,6 @@
       "spellingHint": "v-o-l-u-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please turn down the ___ of the music; the baby is sleeping.",
-        "fullSentence": "Please turn down the volume of the music; the baby is sleeping.",
-        "translation": "請把音樂音量轉小，寶寶在睡覺。",
-        "clue": "音樂聲音的大小",
-        "answerEntryId": "u18:volume",
-        "distractorEntryIds": [
-          "u18:side",
-          "u18:size",
-          "u18:square"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "This bottle has a ___ of one liter.",
@@ -6359,19 +5462,6 @@
       "spellingHint": "w-e-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The doctor checks the baby's ___ every month to see if it is growing well.",
-        "fullSentence": "The doctor checks the baby's weight every month to see if it is growing well.",
-        "translation": "醫生每個月量寶寶的體重，看是否長得好。",
-        "clue": "每個月量的寶寶體重",
-        "answerEntryId": "u18:weight",
-        "distractorEntryIds": [
-          "u18:standard",
-          "u18:triangle",
-          "u18:unit"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Put the fruit on the scale to find its ___.",
@@ -6451,19 +5541,6 @@
       "spellingHint": "w-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ river took the ferry five minutes to cross.",
-        "fullSentence": "The wide river took the ferry five minutes to cross.",
-        "translation": "寬闊的河面讓渡輪開了五分鐘才過河。",
-        "clue": "要開五分鐘才渡過的寬河",
-        "answerEntryId": "u18:wide",
-        "distractorEntryIds": [
-          "u18:spacious",
-          "u18:straight",
-          "u18:tall"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "Open your arms as ___ as you can.",
@@ -6543,19 +5620,6 @@
       "spellingHint": "w-i-d-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The city will ___ the bridge so two buses can travel on it side by side.",
-        "fullSentence": "The city will widen the bridge so two buses can travel on it side by side.",
-        "translation": "市府要加寬橋梁，讓兩輛公車能並行通過。",
-        "clue": "把橋加寬到兩車並行",
-        "answerEntryId": "u18:widen",
-        "distractorEntryIds": [
-          "u11:repair",
-          "u12:cross",
-          "u18:measure"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The river begins to ___ as it nears the sea.",
@@ -6635,19 +5699,6 @@
       "spellingHint": "w-i-d-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Measure the ___ of the window before buying curtains.",
-        "fullSentence": "Measure the width of the window before buying curtains.",
-        "translation": "買窗簾前先量窗戶的寬度。",
-        "clue": "窗戶左右橫向的寬度",
-        "answerEntryId": "u18:width",
-        "distractorEntryIds": [
-          "u18:volume",
-          "u18:weight",
-          "u18:amount"
-        ],
-        "_tier": "cloze"
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of this road is only four meters, so trucks pass slowly.",

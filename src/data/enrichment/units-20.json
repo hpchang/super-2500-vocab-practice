@@ -11,18 +11,6 @@
       "spellingHint": "a-m-e-r-i-c-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The president of ___ lives in the White House in Washington, D.C.",
-        "fullSentence": "The president of America lives in the White House in Washington, D.C.",
-        "translation": "美國總統住在華盛頓特區的白宮裡。",
-        "clue": "白宮是總統官邸的國家",
-        "answerEntryId": "u20:America",
-        "distractorEntryIds": [
-          "u20:France",
-          "u20:Asia",
-          "u20:Australia"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a large country between Canada and Mexico.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-m-e-r-i-c-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Uncle Sam and the bald eagle are famous ___ symbols.",
-        "fullSentence": "Uncle Sam and the bald eagle are famous American symbols.",
-        "translation": "山姆大叔和白頭鷹是著名的美國象徵。",
-        "clue": "以山姆大叔為象徵的國家",
-        "answerEntryId": "u20:American",
-        "distractorEntryIds": [
-          "u20:Asian",
-          "u20:Korean",
-          "u20:Australian"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Hot dogs and hamburgers are popular ___ foods.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-s-i-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "China, Japan, and Korea are all countries on the continent of ___.",
-        "fullSentence": "China, Japan, and Korea are all countries on the continent of Asia.",
-        "translation": "中國、日本和韓國都是亞洲的國家。",
-        "clue": "包含中日韓的大洲",
-        "answerEntryId": "u20:Asia",
-        "distractorEntryIds": [
-          "u20:Europe",
-          "u20:America",
-          "u20:Australia"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Giant pandas and tigers are well-known wild animals in ___.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-s-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Taiwan, Japan, and Korea are all ___ countries with delicious night-market food.",
-        "fullSentence": "Taiwan, Japan, and Korea are all Asian countries with delicious night-market food.",
-        "translation": "台灣、日本和韓國都是擁有美味夜市小吃的亞洲國家。",
-        "clue": "台日韓所屬的洲別",
-        "answerEntryId": "u20:Asian",
-        "distractorEntryIds": [
-          "u20:European",
-          "u20:American",
-          "u20:Australian"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The giant panda, which loves to eat bamboo, is a famous ___ animal.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-u-s-t-r-a-l-i-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Kangaroos and koalas are wild animals that come from ___.",
-        "fullSentence": "Kangaroos and koalas are wild animals that come from Australia.",
-        "translation": "袋鼠和無尾熊是來自澳洲的野生動物。",
-        "clue": "袋鼠與無尾熊的家鄉",
-        "answerEntryId": "u20:Australia",
-        "distractorEntryIds": [
-          "u20:America",
-          "u20:Korea",
-          "u20:Canada"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sydney, with its famous opera house, is the biggest city in ___.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-u-s-t-r-a-l-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Sydney Opera House is the most famous ___ building in the world.",
-        "fullSentence": "The Sydney Opera House is the most famous Australian building in the world.",
-        "translation": "雪梨歌劇院是世界上最著名的澳洲建築。",
-        "clue": "雪梨歌劇院的洲別",
-        "answerEntryId": "u20:Australian",
-        "distractorEntryIds": [
-          "u20:American",
-          "u20:Asian",
-          "u20:British"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Koalas and kangaroos are the best-known ___ animals.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-r-i-t-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tower Bridge and Big Ben are famous landmarks in ___.",
-        "fullSentence": "Tower Bridge and Big Ben are famous landmarks in Britain.",
-        "translation": "倫敦塔橋和大笨鐘是英國著名的地標。",
-        "clue": "塔橋與大笨鐘的所在國",
-        "answerEntryId": "u20:Britain",
-        "distractorEntryIds": [
-          "u20:France",
-          "u20:Germany",
-          "u20:America"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "London, the capital of ___, is famous for its red double-decker buses.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-r-i-t-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Harry Potter was written by a famous ___ author who lives in England.",
-        "fullSentence": "Harry Potter was written by a famous British author who lives in England.",
-        "translation": "哈利波特是一位住在英格蘭的英國名作家寫的。",
-        "clue": "哈利波特的作者國籍",
-        "answerEntryId": "u20:British",
-        "distractorEntryIds": [
-          "u20:Asian",
-          "u20:German",
-          "u20:American"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ flag is called the Union Jack.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-a-n-a-d-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The national flag of ___ has a red maple leaf in the middle.",
-        "fullSentence": "The national flag of Canada has a red maple leaf in the middle.",
-        "translation": "加拿大國旗的中間有一片紅色楓葉。",
-        "clue": "國旗有紅色楓葉的國家",
-        "answerEntryId": "u20:Canada",
-        "distractorEntryIds": [
-          "u20:America",
-          "u20:Korea",
-          "u20:France"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Toronto and Vancouver are two big cities in ___.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-a-n-a-d-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wayne Gretzky, the greatest ice hockey player in history, was a ___ superstar.",
-        "fullSentence": "Wayne Gretzky, the greatest ice hockey player in history, was a Canadian superstar.",
-        "translation": "冰球史上最偉大的球員葛瑞茲基是加拿大超級明星。",
-        "clue": "冰球巨星的國籍",
-        "answerEntryId": "u20:Canadian",
-        "distractorEntryIds": [
-          "u20:American",
-          "u20:Russian",
-          "u20:Korean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Maple syrup, the sweet topping for pancakes, is a famous ___ product.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-h-i-n-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Great Wall is the longest wall in ___.",
-        "fullSentence": "The Great Wall is the longest wall in China.",
-        "translation": "萬里長城是中國最長的城牆。",
-        "clue": "萬里長城的所在國",
-        "answerEntryId": "u20:China",
-        "distractorEntryIds": [
-          "u20:Asia",
-          "u20:Korea",
-          "u20:Britain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Giant pandas live in the bamboo forests of ___.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-h-i-n-e-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Great Wall and the Forbidden City are famous ___ landmarks.",
-        "fullSentence": "The Great Wall and the Forbidden City are famous Chinese landmarks.",
-        "translation": "萬里長城和紫禁城是著名的中國地標。",
-        "clue": "長城紫禁城的洲別文化",
-        "answerEntryId": "u20:Chinese",
-        "distractorEntryIds": [
-          "u20:Japanese",
-          "u20:Korean",
-          "u20:French"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Red envelopes with lucky money are a traditional ___ gift at New Year.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-o-u-n-t-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Japan is an island ___ with four main islands.",
-        "fullSentence": "Japan is an island country with four main islands.",
-        "translation": "日本是一個由四個主要島嶼組成的島國。",
-        "clue": "由島嶼組成的政治體",
-        "answerEntryId": "u20:country",
-        "distractorEntryIds": [
-          "u20:Hong Kong",
-          "u20:London",
-          "u20:Paris"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How many ___ are there in the world? Almost two hundred.",
@@ -1129,18 +973,6 @@
       "spellingHint": "e-n-g-l-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The River Thames flows through London, the capital of ___.",
-        "fullSentence": "The River Thames flows through London, the capital of England.",
-        "translation": "泰晤士河流經英格蘭首都倫敦。",
-        "clue": "首都為倫敦的國家",
-        "answerEntryId": "u20:England",
-        "distractorEntryIds": [
-          "u20:France",
-          "u20:Asia",
-          "u20:Canada"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Soccer was first played with official rules in ___ more than one hundred years ago.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "e-n-g-l-i-s-h-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "An ___ from London ordered fish and chips at the restaurant.",
-        "fullSentence": "An Englishman from London ordered fish and chips at the restaurant.",
-        "translation": "一位來自倫敦的英國人在餐廳點了炸魚薯條。",
-        "clue": "來自倫敦的男性",
-        "answerEntryId": "u20:Englishman",
-        "distractorEntryIds": [
-          "u20:China",
-          "u20:Korea",
-          "u20:Germany"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Shakespeare, a famous ___, wrote plays four hundred years ago.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "e-n-g-l-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Students in Taiwan learn ___, math, and science at school.",
-        "fullSentence": "Students in Taiwan learn English, math, and science at school.",
-        "translation": "台灣的學生在學校學英文、數學和自然。",
-        "clue": "台灣學校教的語言科目",
-        "answerEntryId": "u20:English",
-        "distractorEntryIds": [
-          "u20:French",
-          "u20:Japanese",
-          "u20:German"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The word \"hello\" comes from the ___ language.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "e-u-r-o-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "France, Germany, and Italy are all countries on the continent of ___.",
-        "fullSentence": "France, Germany, and Italy are all countries on the continent of Europe.",
-        "translation": "法國、德國和義大利都是歐洲的國家。",
-        "clue": "含法德義的大洲",
-        "answerEntryId": "u20:Europe",
-        "distractorEntryIds": [
-          "u20:Asia",
-          "u20:America",
-          "u20:Australia"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The euro, used by many countries from Portugal to Finland, is the common money of ___.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "e-u-r-o-p-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "France, Germany, and Spain are all ___ countries.",
-        "fullSentence": "France, Germany, and Spain are all European countries.",
-        "translation": "法國、德國和西班牙都是歐洲國家。",
-        "clue": "法德西所屬的洲別",
-        "answerEntryId": "u20:European",
-        "distractorEntryIds": [
-          "u20:Asian",
-          "u20:American",
-          "u20:Australian"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The euro is the money used in many ___ countries.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "f-l-a-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The red, white, and blue ___ of America waves in the wind.",
-        "fullSentence": "The red, white, and blue flag of America waves in the wind.",
-        "translation": "美國紅白藍的國旗在風中飄揚。",
-        "clue": "紅白藍三色的旗子",
-        "answerEntryId": "u20:flag",
-        "distractorEntryIds": [
-          "u20:world",
-          "u20:kingdom",
-          "u20:nation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "At the sports game, fans waved a ___ with their team name on it.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "f-r-a-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Eiffel Tower stands in Paris, the capital of ___.",
-        "fullSentence": "The Eiffel Tower stands in Paris, the capital of France.",
-        "translation": "艾菲爾鐵塔位於法國首都巴黎。",
-        "clue": "首都為巴黎的國家",
-        "answerEntryId": "u20:France",
-        "distractorEntryIds": [
-          "u20:Germany",
-          "u20:Britain",
-          "u20:Japan"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The Louvre Museum, home of the Mona Lisa, is in ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "f-r-e-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Eiffel Tower is a famous ___ landmark that millions of tourists visit every year.",
-        "fullSentence": "The Eiffel Tower is a famous French landmark that millions of tourists visit every year.",
-        "translation": "艾菲爾鐵塔是著名的法國地標，每年有數百萬遊客造訪。",
-        "clue": "艾菲爾鐵塔的國籍",
-        "answerEntryId": "u20:French",
-        "distractorEntryIds": [
-          "u20:German",
-          "u20:British",
-          "u20:Japanese"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Croissants and baguettes are popular ___ breads.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "g-e-r-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cars like BMW and Mercedes-Benz come from famous ___ car companies.",
-        "fullSentence": "Cars like BMW and Mercedes-Benz come from famous German car companies.",
-        "translation": "BMW 和賓士等汽車來自著名的德國車廠。",
-        "clue": "BMW賓士的所屬國",
-        "answerEntryId": "u20:German",
-        "distractorEntryIds": [
-          "u20:French",
-          "u20:British",
-          "u20:Japanese"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "BMW, Mercedes-Benz, and Volkswagen are all ___ car brands.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "g-e-r-m-a-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Berlin, the capital of ___, has a famous wall that once divided the city.",
-        "fullSentence": "Berlin, the capital of Germany, has a famous wall that once divided the city.",
-        "translation": "德國首都柏林有一道曾把城市分成兩半的著名圍牆。",
-        "clue": "首都為柏林的國家",
-        "answerEntryId": "u20:Germany",
-        "distractorEntryIds": [
-          "u20:France",
-          "u20:Britain",
-          "u20:Japan"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "BMW, Mercedes-Benz, and Volkswagen cars are all made in ___.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "g-o-v-e-r-n-m-e-n-t-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new bridge was built with ___ money sent from the capital, not from town taxes.",
-        "fullSentence": "The new bridge was built with governmental money sent from the capital, not from town taxes.",
-        "translation": "新橋是用來自首都的政府經費蓋的，不是靠小鎮稅金。",
-        "clue": "由政府出資的工程",
-        "answerEntryId": "u20:governmental",
-        "distractorEntryIds": [
-          "u20:national",
-          "u20:international",
-          "u20:local"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The city hall is a ___ building where officials make important decisions.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "h-o-n-g k-o-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Victoria Harbour, with its tall buildings and bright lights, is the most famous view in ___.",
-        "fullSentence": "Victoria Harbour, with its tall buildings and bright lights, is the most famous view in Hong Kong.",
-        "translation": "維多利亞港的高樓與燈火是香港最著名的景觀。",
-        "clue": "維多利亞港所在城市",
-        "answerEntryId": "u20:Hong Kong",
-        "distractorEntryIds": [
-          "u20:London",
-          "u20:Paris",
-          "u20:New York"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dim sum and egg tarts are famous foods in ___.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "h-u-a-l-i-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Taroko Gorge, with its tall marble cliffs, is the most famous scenery in ___.",
-        "fullSentence": "Taroko Gorge, with its tall marble cliffs, is the most famous scenery in Hualien.",
-        "translation": "大理石峽谷太魯閣是花蓮最著名的景觀。",
-        "clue": "太魯閣所在的城市",
-        "answerEntryId": "u20:Hualien",
-        "distractorEntryIds": [
-          "u20:Kaohsiung",
-          "u20:Tainan",
-          "u20:Taichung"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a quiet city on the east coast of Taiwan.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "i-n-t-e-r-n-a-t-i-o-n-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Olympic Games is an ___ event with players from many countries.",
-        "fullSentence": "The Olympic Games is an international event with players from many countries.",
-        "translation": "奧運是有各國選手參加的國際賽事。",
-        "clue": "各國選手同場的賽事",
-        "answerEntryId": "u20:international",
-        "distractorEntryIds": [
-          "u20:national",
-          "u20:local",
-          "u20:regional"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The UN is an ___ organization with almost two hundred member countries.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "j-a-p-a-n-e-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mount Fuji and cherry blossoms are famous ___ symbols.",
-        "fullSentence": "Mount Fuji and cherry blossoms are famous Japanese symbols.",
-        "translation": "富士山和櫻花是著名的日本象徵。",
-        "clue": "富士山櫻花的國家",
-        "answerEntryId": "u20:Japanese",
-        "distractorEntryIds": [
-          "u20:Chinese",
-          "u20:Korean",
-          "u20:French"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sushi and ramen are popular ___ foods.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "j-a-p-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mount Fuji, a beautiful snow-capped volcano, is the highest mountain in ___.",
-        "fullSentence": "Mount Fuji, a beautiful snow-capped volcano, is the highest mountain in Japan.",
-        "translation": "山頂覆雪的美麗火山富士山是日本最高的山。",
-        "clue": "富士山的所在國",
-        "answerEntryId": "u20:Japan",
-        "distractorEntryIds": [
-          "u20:Korea",
-          "u20:China",
-          "u20:Philippines"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tokyo, the capital of ___, is one of the biggest cities in the world.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "k-a-o-h-s-i-u-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Love River, with cafes along its banks, flows through the harbor city of ___.",
-        "fullSentence": "The Love River, with cafes along its banks, flows through the harbor city of Kaohsiung.",
-        "translation": "愛河流經港都高雄，河岸有許多咖啡館。",
-        "clue": "愛河流經的城市",
-        "answerEntryId": "u20:Kaohsiung",
-        "distractorEntryIds": [
-          "u20:Hualien",
-          "u20:Tainan",
-          "u20:Taichung"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___, a big harbor city in southern Taiwan, is famous for its night markets.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "k-i-n-g-d-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The old ___ was ruled by a king and his family for two hundred years.",
-        "fullSentence": "The old kingdom was ruled by a king and his family for two hundred years.",
-        "translation": "這個古老的王國由國王和其家族統治了兩百年。",
-        "clue": "由國王統治的國度",
-        "answerEntryId": "u20:kingdom",
-        "distractorEntryIds": [
-          "u20:nation",
-          "u20:country",
-          "u20:region"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the story, a dragon attacked the ___ and stole the crown.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "k-o-r-e-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Seoul, the capital of ___, is famous for K-pop and street food.",
-        "fullSentence": "Seoul, the capital of Korea, is famous for K-pop and street food.",
-        "translation": "韓國首都首爾以K-pop和街頭小吃聞名。",
-        "clue": "首都首爾的所在國",
-        "answerEntryId": "u20:Korea",
-        "distractorEntryIds": [
-          "u20:Japan",
-          "u20:China",
-          "u20:Philippines"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Kimchi and K-pop are famous things from ___.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "k-o-r-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Kimchi and K-pop are famous ___ things loved around the world.",
-        "fullSentence": "Kimchi and K-pop are famous Korean things loved around the world.",
-        "translation": "泡菜和K-pop是享譽全球的韓國事物。",
-        "clue": "泡菜K-pop的國家",
-        "answerEntryId": "u20:Korean",
-        "distractorEntryIds": [
-          "u20:Japanese",
-          "u20:Chinese",
-          "u20:French"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Kimchi is a spicy ___ dish made from cabbage.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "l-o-c-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ night market near my house opens only on weekends.",
-        "fullSentence": "The local night market near my house opens only on weekends.",
-        "translation": "我家附近的地方夜市只在週末開市。",
-        "clue": "住家附近的夜市",
-        "answerEntryId": "u20:local",
-        "distractorEntryIds": [
-          "u20:national",
-          "u20:international",
-          "u20:regional"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We asked a ___ farmer for directions to the temple.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "l-o-n-d-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Big Ben and Tower Bridge stand beside the Thames in ___.",
-        "fullSentence": "Big Ben and Tower Bridge stand beside the Thames in London.",
-        "translation": "大笨鐘和倫敦塔橋矗立在倫敦泰晤士河畔。",
-        "clue": "塔橋與大笨鐘所在城市",
-        "answerEntryId": "u20:London",
-        "distractorEntryIds": [
-          "u20:Paris",
-          "u20:New York",
-          "u20:Taichung"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In ___, buses are red and famous phone booths are red, too.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "m-a-n-d-a-r-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In Taiwan, most classes are taught in ___, the official tongue of the island.",
-        "fullSentence": "In Taiwan, most classes are taught in Mandarin, the official tongue of the island.",
-        "translation": "在台灣，多數課程以官方語言「國語」上課。",
-        "clue": "台灣的官方語言",
-        "answerEntryId": "u20:Mandarin",
-        "distractorEntryIds": [
-          "u13:language",
-          "u13:word",
-          "u13:letter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My cousin from Canada is learning ___ so she can talk with our grandmother.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "n-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole ___ was proud when its team won the world championship.",
-        "fullSentence": "The whole nation was proud when its team won the world championship.",
-        "translation": "國家隊贏得世界冠軍時，全國都很驕傲。",
-        "clue": "為國家隊驕傲的整體",
-        "answerEntryId": "u20:nation",
-        "distractorEntryIds": [
-          "u20:country",
-          "u20:kingdom",
-          "u20:region"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is a group of people who share one land, government, and culture.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "n-a-t-i-o-n-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ flag was raised during the opening ceremony of the games.",
-        "fullSentence": "The national flag was raised during the opening ceremony of the games.",
-        "translation": "開幕典禮上升起了國旗。",
-        "clue": "代表國家的旗子",
-        "answerEntryId": "u20:national",
-        "distractorEntryIds": [
-          "u20:local",
-          "u20:regional",
-          "u20:international"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Christmas is not a ___ holiday in Taiwan, so people still go to work.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "n-e-w y-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Statue of Liberty holds her torch high over the harbor of ___.",
-        "fullSentence": "The Statue of Liberty holds her torch high over the harbor of New York.",
-        "translation": "自由女神像在紐約港高舉火炬。",
-        "clue": "自由女神像所在城市",
-        "answerEntryId": "u20:New York",
-        "distractorEntryIds": [
-          "u20:London",
-          "u20:Paris",
-          "u20:Hong Kong"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Times Square and Central Park are famous places in ___.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "o-v-e-r-s-e-a-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Our company opened an ___ office in Singapore last year.",
-        "fullSentence": "Our company opened an overseas office in Singapore last year.",
-        "translation": "我們公司去年在新加坡設立海外辦公室。",
-        "clue": "設在外國的分公司",
-        "answerEntryId": "u20:overseas",
-        "distractorEntryIds": [
-          "u20:regional",
-          "u20:local",
-          "u20:international"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many students hope to study ___ one day.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "p-a-r-i-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Eiffel Tower lights up the night sky over ___.",
-        "fullSentence": "The Eiffel Tower lights up the night sky over Paris.",
-        "translation": "艾菲爾鐵塔照亮了巴黎的夜空。",
-        "clue": "艾菲爾鐵塔所在城市",
-        "answerEntryId": "u20:Paris",
-        "distractorEntryIds": [
-          "u20:London",
-          "u20:New York",
-          "u20:Taichung"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The Louvre, the museum with the Mona Lisa, is in ___.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "p-h-i-l-i-p-p-i-n-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ beaches like Boracay attract tourists from around the world.",
-        "fullSentence": "Philippines beaches like Boracay attract tourists from around the world.",
-        "translation": "菲律賓的長灘島等海灘吸引世界各地的遊客。",
-        "clue": "長灘島所在的群島國家",
-        "answerEntryId": "u20:Philippines",
-        "distractorEntryIds": [
-          "u20:Japan",
-          "u20:Korea",
-          "u20:Singapore"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many foreign workers in Taiwan come from the ___.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "r-o-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Passports of ___ show the official name of the country that includes Taiwan.",
-        "fullSentence": "Passports of ROC show the official name of the country that includes Taiwan.",
-        "translation": "中華民國護照上印著這個包含台灣的國家正式名稱。",
-        "clue": "護照上的正式國名縮寫",
-        "answerEntryId": "u20:ROC",
-        "distractorEntryIds": [
-          "u20:USA",
-          "u20:China",
-          "u20:Japan"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ stands for the official name of the republic on this island.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "r-e-g-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The southern ___ of the island gets the most sunshine all year.",
-        "fullSentence": "The southern region of the island gets the most sunshine all year.",
-        "translation": "島嶼南部的地區全年陽光最充足。",
-        "clue": "島嶼南部的區域",
-        "answerEntryId": "u20:region",
-        "distractorEntryIds": [
-          "u20:section",
-          "u20:country",
-          "u20:nation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Farmers in this ___ grow tea in the cool mountains.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "r-e-g-i-o-n-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Trains on the ___ line stop at every small town between the big cities.",
-        "fullSentence": "Trains on the regional line stop at every small town between the big cities.",
-        "translation": "區間車停靠大城市之間的每個小站。",
-        "clue": "每站都停的火車",
-        "answerEntryId": "u20:regional",
-        "distractorEntryIds": [
-          "u20:national",
-          "u20:local",
-          "u20:international"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The storm knocked out power across the whole ___ area.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "r-u-s-s-i-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___, the largest country in the world, stretches from Europe all the way to Asia.",
-        "fullSentence": "Russia, the largest country in the world, stretches from Europe all the way to Asia.",
-        "translation": "俄羅斯是世界最大的國家，領土從歐洲延伸到亞洲。",
-        "clue": "世界上面積最大的國家",
-        "answerEntryId": "u20:Russia",
-        "distractorEntryIds": [
-          "u20:America",
-          "u20:China",
-          "u20:Germany"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Snow covers much of ___ for many months every year.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "r-u-s-s-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Matryoshka dolls, the wooden dolls that fit inside each other, are a famous ___ craft.",
-        "fullSentence": "Matryoshka dolls, the wooden dolls that fit inside each other, are a famous Russian craft.",
-        "translation": "一層套一層的木頭娃娃「套娃」是著名的俄羅斯工藝。",
-        "clue": "套娃的來源國",
-        "answerEntryId": "u20:Russian",
-        "distractorEntryIds": [
-          "u20:Chinese",
-          "u20:French",
-          "u20:Korean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The largest country in the world is ___ territory that crosses two continents.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "s-e-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sports ___ of the newspaper lists all the scores from yesterday.",
-        "fullSentence": "The sports section of the newspaper lists all the scores from yesterday.",
-        "translation": "報紙的體育版列出昨天的所有比數。",
-        "clue": "報紙裡的體育版",
-        "answerEntryId": "u20:section",
-        "distractorEntryIds": [
-          "u20:region",
-          "u20:country",
-          "u20:nation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please read the first ___ of the story for homework tonight.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "s-i-n-g-a-p-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Merlion, half lion and half fish, is the famous symbol of ___.",
-        "fullSentence": "The Merlion, half lion and half fish, is the famous symbol of Singapore.",
-        "translation": "半獅半魚的魚尾獅是新加坡著名的象徵。",
-        "clue": "魚尾獅的城市",
-        "answerEntryId": "u20:Singapore",
-        "distractorEntryIds": [
-          "u20:Hong Kong",
-          "u20:London",
-          "u20:Paris"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a clean and green island city near the equator.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "s-t-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Texas, the biggest ___ on the mainland of America, once governed itself as an independent land.",
-        "fullSentence": "Texas, the biggest state on the mainland of America, once governed itself as an independent land.",
-        "translation": "德州是美國本土最大的州，曾是獨立國家。",
-        "clue": "美國本土最大的州",
-        "answerEntryId": "u20:state",
-        "distractorEntryIds": [
-          "u20:country",
-          "u20:nation",
-          "u20:kingdom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Hawaii is the only ___ of America that lies in the Pacific Ocean far from the mainland.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "t-a-i-c-h-u-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The curved walls of its famous theater make ___ the landmark city of central Taiwan.",
-        "fullSentence": "The curved walls of its famous theater make Taichung the landmark city of central Taiwan.",
-        "translation": "著名歌劇院的曲面外牆讓台中成為台灣中部的地標城市。",
-        "clue": "台灣中部的歌劇院城市",
-        "answerEntryId": "u20:Taichung",
-        "distractorEntryIds": [
-          "u20:Kaohsiung",
-          "u20:Tainan",
-          "u20:Hualien"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is famous for its sunny weather, so people call it the sunny city.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "t-a-i-n-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Anping Fort, built by the Dutch almost four hundred years ago, stands in the old city of ___.",
-        "fullSentence": "Anping Fort, built by the Dutch almost four hundred years ago, stands in the old city of Tainan.",
-        "translation": "荷蘭人近四百年前建造的安平古堡位於台南古城。",
-        "clue": "安平古堡所在城市",
-        "answerEntryId": "u20:Tainan",
-        "distractorEntryIds": [
-          "u20:Kaohsiung",
-          "u20:Taichung",
-          "u20:Hualien"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is known as the city with the oldest temples and the best snacks in Taiwan.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "t-a-i-w-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The island of ___ lies off the east coast of the huge continent, with the Pacific Ocean on its east.",
-        "fullSentence": "The island of Taiwan lies off the east coast of the huge continent, with the Pacific Ocean on its east.",
-        "translation": "台灣島位於大陸東岸外海，東臨太平洋。",
-        "clue": "東臨太平洋的島嶼",
-        "answerEntryId": "u20:Taiwan",
-        "distractorEntryIds": [
-          "u20:Hong Kong",
-          "u20:Philippines",
-          "u20:Singapore"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bubble tea and beef noodle soup are famous foods from ___.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "t-a-i-w-a-n-e-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Bubble tea, invented in Taichung, is the most famous ___ drink in the world.",
-        "fullSentence": "Bubble tea, invented in Taichung, is the most famous Taiwanese drink in the world.",
-        "translation": "發明於台中的珍珠奶茶是世界最著名的台灣飲品。",
-        "clue": "珍珠奶茶的國籍",
-        "answerEntryId": "u20:Taiwanese",
-        "distractorEntryIds": [
-          "u20:Chinese",
-          "u20:Japanese",
-          "u20:Korean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Night markets with stinky tofu and oyster omelets are a famous ___ culture.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "u-s-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Passports issued in Washington, D.C., carry the three letters ___ on their dark blue cover.",
-        "fullSentence": "Passports issued in Washington, D.C., carry the three letters USA on their dark blue cover.",
-        "translation": "華盛頓特區核發的護照深藍色封面上印有 USA 三個字母。",
-        "clue": "護照上的美國縮寫",
-        "answerEntryId": "u20:USA",
-        "distractorEntryIds": [
-          "u20:ROC",
-          "u20:China",
-          "u20:Japan"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is a country of fifty states between Canada and Mexico.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "w-o-r-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Soccer fans from around the ___ watch the Cup finals every four years.",
-        "fullSentence": "Soccer fans from around the world watch the Cup finals every four years.",
-        "translation": "來自世界各地的足球迷每四年觀看世界盃決賽。",
-        "clue": "全球球迷所在的地方",
-        "answerEntryId": "u20:world",
-        "distractorEntryIds": [
-          "u20:nation",
-          "u20:country",
-          "u20:region"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The Earth is the ___ we all live on, so we must protect it.",

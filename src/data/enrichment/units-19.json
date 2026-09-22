@@ -11,18 +11,6 @@
       "spellingHint": "a-l-b-u-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa keeps all his old pictures in a big ___.",
-        "fullSentence": "Grandpa keeps all his old pictures in a big album.",
-        "translation": "爺爺把他所有的舊照片保存在一本大相簿裡。",
-        "clue": "用來收藏照片的本子",
-        "answerEntryId": "u19:album",
-        "distractorEntryIds": [
-          "u19:memory",
-          "u19:invitation",
-          "u19:gift"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "After the trip, we printed the pictures and put them in an ___.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-i-r-t-h-d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She made a wish before blowing out the candles on her ___.",
-        "fullSentence": "She made a wish before blowing out the candles on her birthday.",
-        "translation": "她吹蠟燭許願來過生日。",
-        "clue": "吹蠟燭許願的日子",
-        "answerEntryId": "u19:birthday",
-        "distractorEntryIds": [
-          "u19:invitation",
-          "u19:holiday",
-          "u19:gift"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How old will you be on your next ___?",
@@ -183,18 +159,6 @@
       "spellingHint": "c-e-l-e-b-r-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "People ___ the New Year with fireworks at midnight.",
-        "fullSentence": "People celebrate the New Year with fireworks at midnight.",
-        "translation": "人們在午夜用煙火慶祝新年。",
-        "clue": "用歡樂活動紀念重要的日子",
-        "answerEntryId": "u19:celebrate",
-        "distractorEntryIds": [
-          "u13:prepare",
-          "u13:learn",
-          "u13:discuss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How do you ___ your birthday every year?",
@@ -269,18 +233,6 @@
       "spellingHint": "c-h-i-n-e-s-e n-e-w y-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "During ___, children receive red envelopes from their elders.",
-        "fullSentence": "During Chinese New Year, children receive red envelopes from their elders.",
-        "translation": "春節期間，孩子們會收到長輩給的紅包。",
-        "clue": "發紅包、吃年夜飯的節日",
-        "answerEntryId": "u19:Chinese New Year",
-        "distractorEntryIds": [
-          "u19:Moon Festival",
-          "u19:Dragon Boat Festival",
-          "u19:Lantern Festival"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is the most important traditional holiday for Chinese families.",
@@ -355,18 +307,6 @@
       "spellingHint": "c-h-r-i-s-t-m-a-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children hope to find presents under the tree on ___ morning.",
-        "fullSentence": "Children hope to find presents under the tree on Christmas morning.",
-        "translation": "孩子們希望在聖誕節早晨在樹下找到禮物。",
-        "clue": "有聖誕樹與禮物的節日",
-        "answerEntryId": "u19:Christmas",
-        "distractorEntryIds": [
-          "u19:Easter",
-          "u19:Halloween",
-          "u19:Thanksgiving"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is on December 25 every year.",
@@ -441,18 +381,6 @@
       "spellingHint": "c-o-n-g-r-a-t-u-l-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She sent a card of ___ when her brother passed the exam.",
-        "fullSentence": "She sent a card of congratulation when her brother passed the exam.",
-        "translation": "她哥哥考試及格時，她寄了一張祝賀卡。",
-        "clue": "對通過考試表達的祝賀",
-        "answerEntryId": "u19:congratulation",
-        "distractorEntryIds": [
-          "u19:invitation",
-          "u19:memory",
-          "u19:gift"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everyone said a word of ___ to Ben for winning the writing contest.",
@@ -527,18 +455,6 @@
       "spellingHint": "c-u-l-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Special days, food, and language are all parts of a country's ___.",
-        "fullSentence": "Special days, food, and language are all parts of a country's culture.",
-        "translation": "節慶、食物和語言都是一國文化的一部分。",
-        "clue": "節慶、飲食、語言的總稱",
-        "answerEntryId": "u19:culture",
-        "distractorEntryIds": [
-          "u19:custom",
-          "u19:memory",
-          "u19:holiday"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Food and special days show a lot about a country's ___.",
@@ -613,18 +529,6 @@
       "spellingHint": "c-u-s-t-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In Taiwan, it is a common ___ to set off firecrackers during big celebrations.",
-        "fullSentence": "In Taiwan, it is a common custom to set off firecrackers during big celebrations.",
-        "translation": "在台灣，盛大慶典時放鞭炮是一種常見的習俗。",
-        "clue": "流傳下來的常見做法",
-        "answerEntryId": "u19:custom",
-        "distractorEntryIds": [
-          "u19:culture",
-          "u19:memory",
-          "u19:holiday"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wearing red is a ___ for good luck during Chinese New Year.",
@@ -699,18 +603,6 @@
       "spellingHint": "d-o-u-b-l-e t-e-n-t-h d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There is a big parade and fireworks on ___ in Taiwan.",
-        "fullSentence": "There is a big parade and fireworks on Double Tenth Day in Taiwan.",
-        "translation": "台灣在雙十節有大遊行和煙火。",
-        "clue": "十月十日舉行國慶遊行",
-        "answerEntryId": "u19:Double Tenth Day",
-        "distractorEntryIds": [
-          "u19:New Year's Day",
-          "u19:Moon Festival",
-          "u19:Teacher's Day"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is Taiwan's national day, on October 10.",
@@ -785,18 +677,6 @@
       "spellingHint": "d-r-a-g-o-n b-o-a-t f-e-s-t-i-v-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Teams race long boats during the ___.",
-        "fullSentence": "Teams race long boats during the Dragon Boat Festival.",
-        "translation": "端午節時，各隊伍競划長舟。",
-        "clue": "划龍舟、吃粽子的節日",
-        "answerEntryId": "u19:Dragon Boat Festival",
-        "distractorEntryIds": [
-          "u19:Moon Festival",
-          "u19:Lantern Festival",
-          "u19:festival"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "People watch exciting boat races at the ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "e-a-s-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, children hunt for colorful eggs hidden in the garden.",
-        "fullSentence": "On Easter, children hunt for colorful eggs hidden in the garden.",
-        "translation": "復活節時，孩子們在花園裡尋找藏起來的彩蛋。",
-        "clue": "找彩蛋的節日",
-        "answerEntryId": "u19:Easter",
-        "distractorEntryIds": [
-          "u19:Halloween",
-          "u19:Christmas",
-          "u19:Thanksgiving"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a spring holiday with eggs and bunnies.",
@@ -957,18 +825,6 @@
       "spellingHint": "f-a-t-h-e-r-s d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, the kids made breakfast for their dad.",
-        "fullSentence": "On Father's Day, the kids made breakfast for their dad.",
-        "translation": "父親節那天，孩子們為爸爸做早餐。",
-        "clue": "感謝爸爸的節日",
-        "answerEntryId": "u19:Father's Day",
-        "distractorEntryIds": [
-          "u19:Mother's Day",
-          "u19:Teacher's Day",
-          "u19:Valentine's Day"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a day to thank our dads.",
@@ -1043,18 +899,6 @@
       "spellingHint": "f-e-s-t-i-v-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ with glowing lantern displays is one of the most colorful nights of the year.",
-        "translation": "滿是花燈的節慶是一年中最繽紛的夜晚之一。",
-        "clue": "燈會所屬的節慶類型",
-        "answerEntryId": "u19:festival",
-        "distractorEntryIds": [
-          "u19:holiday",
-          "u19:vacation",
-          "u19:party"
-        ],
-        "fullSentence": "The festival with glowing lantern displays is one of the most colorful nights of the year."
-      },
       "clozeEasy": [
         {
           "sentence": "The town had a big ___ with parades, music, and dancing in the streets.",
@@ -1129,18 +973,6 @@
       "spellingHint": "g-i-f-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom wrapped the ___ in colorful paper and put it under the tree.",
-        "fullSentence": "Mom wrapped the gift in colorful paper and put it under the tree.",
-        "translation": "媽媽把禮物包上彩色包裝紙，放在樹下。",
-        "clue": "包起來送人的東西",
-        "answerEntryId": "u19:gift",
-        "distractorEntryIds": [
-          "u19:invitation",
-          "u19:memory",
-          "u19:photo"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Thank you for the wonderful ___! I love it.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "h-a-l-l-o-w-e-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, children knock on doors and shout trick or treat.",
-        "fullSentence": "On Halloween, children knock on doors and shout trick or treat.",
-        "translation": "萬聖節時，孩子們敲門喊著「不給糖就搗蛋」。",
-        "clue": "要糖、變裝的節日",
-        "answerEntryId": "u19:Halloween",
-        "distractorEntryIds": [
-          "u19:Christmas",
-          "u19:Easter",
-          "u19:Thanksgiving"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is on October 31 every year.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "h-o-l-i-d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Banks and schools are closed because tomorrow is a national ___.",
-        "fullSentence": "Banks and schools are closed because tomorrow is a national holiday.",
-        "translation": "銀行和學校都放假，因為明天是國定假日。",
-        "clue": "全國放假的法定日子",
-        "answerEntryId": "u19:holiday",
-        "distractorEntryIds": [
-          "u19:vacation",
-          "u19:festival",
-          "u19:party"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "What are you doing during the winter ___?",
@@ -1387,18 +1195,6 @@
       "spellingHint": "i-n-v-i-t-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She sent each friend an ___ to her birthday party.",
-        "fullSentence": "She sent each friend an invitation to her birthday party.",
-        "translation": "她寄給每個朋友一張生日派對的邀請函。",
-        "clue": "請人來參加派對的卡片",
-        "answerEntryId": "u19:invitation",
-        "distractorEntryIds": [
-          "u19:congratulation",
-          "u19:memory",
-          "u19:gift"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Did you get an ___ to the school dance?",
@@ -1473,18 +1269,6 @@
       "spellingHint": "l-a-n-t-e-r-n f-e-s-t-i-v-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "People carry glowing lanterns in the streets during the ___.",
-        "fullSentence": "People carry glowing lanterns in the streets during the Lantern Festival.",
-        "translation": "元宵節時，人們提著發亮的花燈走在街上。",
-        "clue": "提花燈、賞燈的節日",
-        "answerEntryId": "u19:Lantern Festival",
-        "distractorEntryIds": [
-          "u19:Dragon Boat Festival",
-          "u19:Moon Festival",
-          "u19:Chinese New Year"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On the ___ , children walk with colorful lanterns at night.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "m-e-m-o-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Looking at the old pictures brought back a happy ___.",
-        "fullSentence": "Looking at the old pictures brought back a happy memory.",
-        "translation": "看著舊照片喚起了一段快樂的回憶。",
-        "clue": "照片讓人想起的往事",
-        "answerEntryId": "u19:memory",
-        "distractorEntryIds": [
-          "u19:album",
-          "u19:gift",
-          "u19:invitation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I keep this necklace to remember my trip; it holds a special ___.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "m-o-o-n f-e-s-t-i-v-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "During the ___ , families barbecue outside and watch the full moon.",
-        "fullSentence": "During the Moon Festival , families barbecue outside and watch the full moon.",
-        "translation": "中秋節時，家家戶戶在外烤肉、賞滿月。",
-        "clue": "烤肉、賞月的節日",
-        "answerEntryId": "u19:Moon Festival",
-        "distractorEntryIds": [
-          "u19:Dragon Boat Festival",
-          "u19:Lantern Festival",
-          "u19:Chinese New Year"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We eat mooncakes and pomelos at the ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "m-o-t-h-e-r-s d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, Mom got breakfast in bed and a big bouquet of flowers.",
-        "fullSentence": "On Mother's Day, Mom got breakfast in bed and a big bouquet of flowers.",
-        "translation": "母親節那天，媽媽收到床上早餐和一大束花。",
-        "clue": "送花給媽媽的節日",
-        "answerEntryId": "u19:Mother's Day",
-        "distractorEntryIds": [
-          "u19:Father's Day",
-          "u19:Teacher's Day",
-          "u19:Valentine's Day"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a day to thank our moms.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "n-e-w y-e-a-r-s d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Many people make new plans for the year on ___.",
-        "fullSentence": "Many people make new plans for the year on New Year's Day.",
-        "translation": "許多人在元旦為新的一年制定新計畫。",
-        "clue": "一月一日、一年的開始",
-        "answerEntryId": "u19:New Year's Day",
-        "distractorEntryIds": [
-          "u19:New Year's Eve",
-          "u19:Christmas",
-          "u19:Double Tenth Day"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is on January 1, the first day of the calendar year.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "n-e-w y-e-a-r-s e-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, people count down from ten as midnight arrives.",
-        "fullSentence": "On New Year's Eve, people count down from ten as midnight arrives.",
-        "translation": "新年前夜，人們在午夜來臨時從十倒數。",
-        "clue": "跨年倒數的夜晚",
-        "answerEntryId": "u19:New Year's Eve",
-        "distractorEntryIds": [
-          "u19:New Year's Day",
-          "u19:Christmas",
-          "u19:Halloween"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is the night before January 1.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "p-a-r-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Jenny blew out the candles at her ___ while everyone cheered.",
-        "fullSentence": "Jenny blew out the candles at her party while everyone cheered.",
-        "translation": "妮妮在派對上吹熄蠟燭，大家歡呼。",
-        "clue": "大家一起玩樂慶祝的活動",
-        "answerEntryId": "u19:party",
-        "distractorEntryIds": [
-          "u19:festival",
-          "u19:holiday",
-          "u19:vacation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken invited the whole class to his ___ on Saturday.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "p-h-o-t-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone smiled and said cheese when the teacher took a class ___.",
-        "fullSentence": "Everyone smiled and said cheese when the teacher took a class photo.",
-        "translation": "老師拍班级合照時，大家都笑著說 cheese。",
-        "clue": "被拍下來的影像",
-        "answerEntryId": "u19:photo",
-        "distractorEntryIds": [
-          "u19:album",
-          "u19:memory",
-          "u19:invitation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you take a ___ of us in front of the temple?",
@@ -2161,18 +1861,6 @@
       "spellingHint": "t-e-a-c-h-e-r-s d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___, the whole class wrote thank-you cards for Ms. Lin.",
-        "fullSentence": "On Teacher's Day, the whole class wrote thank-you cards for Ms. Lin.",
-        "translation": "教師節那天，全班為林老師寫了感謝卡。",
-        "clue": "向老師道謝的節日",
-        "answerEntryId": "u19:Teacher's Day",
-        "distractorEntryIds": [
-          "u19:Mother's Day",
-          "u19:Father's Day",
-          "u19:Valentine's Day"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a day to honor the people who teach us.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "t-h-a-n-k-s-g-i-v-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "American families roast a turkey and share what they are thankful for on ___.",
-        "fullSentence": "American families roast a turkey and share what they are thankful for on Thanksgiving.",
-        "translation": "美國家庭在感恩節烤火雞，並分享值得感謝的事。",
-        "clue": "吃火雞、表達感謝的節日",
-        "answerEntryId": "u19:Thanksgiving",
-        "distractorEntryIds": [
-          "u19:Christmas",
-          "u19:Easter",
-          "u19:Halloween"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is a harvest holiday in the United States, on the fourth Thursday of November.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "v-a-c-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We spent our summer ___ traveling around the island by train.",
-        "fullSentence": "We spent our summer vacation traveling around the island by train.",
-        "translation": "我們的暑假假期坐火車環島旅行。",
-        "clue": "學校放的長假",
-        "answerEntryId": "u19:vacation",
-        "distractorEntryIds": [
-          "u19:holiday",
-          "u19:festival",
-          "u19:memory"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Where are you going for your winter ___?",
@@ -2419,18 +2083,6 @@
       "spellingHint": "v-a-l-e-n-t-i-n-e-s d-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On ___ , couples give each other chocolates and cards.",
-        "translation": "情人節時，情侶互相贈送巧克力和卡片。",
-        "clue": "情侶互送巧克力的節日",
-        "answerEntryId": "u19:Valentine's Day",
-        "distractorEntryIds": [
-          "u19:Christmas",
-          "u19:Mother's Day",
-          "u19:Easter"
-        ],
-        "fullSentence": "On Valentine's Day , couples give each other chocolates and cards."
-      },
       "clozeEasy": [
         {
           "sentence": "___ is on February 14 every year.",

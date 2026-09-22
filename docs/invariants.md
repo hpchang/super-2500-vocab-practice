@@ -33,22 +33,35 @@ unit card 顯示真實字數（可練習 >0）。已驗證：把 `loadEnrichment
 ## I-3：情境填空題幹具決定性線索
 
 **陳述**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成
-規範字；題幹不得含任何選項字；cloze/medium/hard 干擾項同詞性；legacy cloze ≠ 例句。
+規範字；題幹不得含任何選項字；medium/hard 干擾項同詞性、easy 可跨詞性。
 
 **出題來源**：情境填空題型與**混合輪替的填空格**都只從適性題庫
-（`clozeEasy`/`clozeMedium`/`clozeHard`）出題（`buildAdaptiveCloze`）；legacy
-`enriched.cloze` 只留作英選中／中選英的干擾項池（`pickDistractorZh`/
-`pickDistractorWords`），不再用來出題（2026-09 改）。所以混合練習看到的填空題
-也受本條品質標準約束。
+（`clozeEasy`/`clozeMedium`/`clozeHard`）出題（`buildAdaptiveCloze`）。legacy
+`enriched.cloze` 欄位已於 2026-09 移除——英選中／中選英的干擾項改由適性題庫衍生
+（`pickDistractors`）。所以混合練習看到的填空題也受本條品質標準約束。
 
-`buildQuestion` 的填空分支在適性層為空時會 fallback 回 legacy 題——這是**保量
+`buildAdaptiveCloze` 在指派的難度層為空時，會改用其他**有題的**層——這是**保量
 契約**（每字一題，`buildSession` 題數 == entries 數），不是「不會發生」的死碼：
-`validate-data` 是 CI／手動步驟，不是 runtime 保證，未來若有 Unit 缺 `clozeHard`，
-fallback 讓課堂少一題而不是整字消失。
+`validate-data` 是 CI／手動步驟，不是 runtime 保證，未來若有 Unit 缺某一層，
+fallback 讓該字仍有題而不是從課堂消失。
 
-**守護**：`tests/unit11ClozeData.test.ts`（參數化全量檢查 U11+U12 共 650 題）、
+**守護**：`tests/unit11ClozeData.test.ts`（參數化全量檢查 32 個 Unit，每字 5 題）、
 `npx tsx scripts/validate-data.ts`、`tests/mixedCloze.test.tsx`（混合填空帶
 `clozeDifficulty` 且題幹取自適性題庫）。
+
+## I-3b：英選中／中選英的選項不得有兩個答案
+
+**陳述**：`en2zh`／`zh2en` 的 3 個干擾項必須同詞性、可解析，且**不得與答案（或
+彼此）被讀成同一個答案**——兩個選項都對等於教錯。干擾項取自該字的適性題庫
+（那些干擾項各自被自己的題幹排除），再補同 Unit 同詞性字，並以中文釋義包含關係
+＋一份同義詞對照表過濾。小 Unit 湊不到 4 個選項時才放寬過濾，因為四選項是契約。
+
+**為什麼**：legacy 池未經選擇題用途策劃，曾出現 `lawful`/`legal`、
+`journalist`/`reporter`（釋義互含）與 `guest`/`visitor`、`manager`/`owner`
+（釋義不同但學生視為同義）——2,476 字中有 94 字受影響（學生 2026-09 回報）。
+
+**守護**：`tests/distractorQuality.test.ts`（全 2,476 字斷言四個唯一、同詞性、
+可解析選項且無釋義重疊；對舊池轉紅）。
 
 ## I-4：練習內容只送 practiceable 的字
 

@@ -11,18 +11,6 @@
       "spellingHint": "a-b-i-l-i-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Moira surprised the judges with her ___ in music, because she had never taken a lesson.",
-        "fullSentence": "Moira surprised the judges with her ability in music, because she had never taken a lesson.",
-        "translation": "莫伊拉以她在音樂上的才能讓評審驚豔，因為她從沒上過一堂課。",
-        "clue": "做某件事的本領",
-        "answerEntryId": "u3:ability",
-        "distractorEntryIds": [
-          "u3:career",
-          "u3:coach",
-          "u3:job"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tina has the ___ to swim across the river without stopping.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-d-v-i-s-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher sent me to the school ___ for advice about my classes.",
-        "fullSentence": "The teacher sent me to the school adviser for advice about my classes.",
-        "translation": "老師帶我去學校的顧問那裡，尋求選課建議。",
-        "clue": "專門提供建議的人",
-        "answerEntryId": "u3:adviser",
-        "distractorEntryIds": [
-          "u3:professor",
-          "u3:lawyer",
-          "u3:manager"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "If you don't know which club to join, ask your ___ for advice.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-r-m-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He spent two years in the ___, learning to march and wear a uniform.",
-        "fullSentence": "He spent two years in the army, learning to march and wear a uniform.",
-        "translation": "他在軍隊待了兩年，學習行軍和穿制服。",
-        "clue": "學行軍、穿制服的軍事單位",
-        "answerEntryId": "u3:army",
-        "distractorEntryIds": [
-          "u3:company",
-          "u3:firm",
-          "u3:industry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle was a soldier in the ___ for ten years.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-r-t-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ mixed paints of many colors for the huge wall picture.",
-        "fullSentence": "The artist mixed paints of many colors for the huge wall picture.",
-        "translation": "那位藝術家為巨幅壁畫調配了多種顏料。",
-        "clue": "以繪畫創作的人",
-        "answerEntryId": "u3:artist",
-        "distractorEntryIds": [
-          "u3:builder",
-          "u3:mechanic",
-          "u3:barber"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Picasso was a famous ___ who painted in many different styles.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-s-s-i-s-t-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The busy manager asked his ___ to answer phones and type letters.",
-        "fullSentence": "The busy manager asked his assistant to answer phones and type letters.",
-        "translation": "忙碌的經理請他的助理接電話和打信件。",
-        "clue": "幫主管處理雜務的人",
-        "answerEntryId": "u3:assistant",
-        "distractorEntryIds": [
-          "u3:reporter",
-          "u3:driver",
-          "u3:vendor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She works as a shop ___ and helps the boss every day.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-a-b-y-s-i-s-t-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "When Mom and Dad go out, a ___ comes to our house and tells us bedtime stories.",
-        "fullSentence": "When Mom and Dad go out, a babysistter comes to our house and tells us bedtime stories.",
-        "translation": "爸媽出門時，保母會來我們家，講睡前故事給我們聽。",
-        "clue": "爸媽外出時來家裡照顧小孩的人",
-        "answerEntryId": "u3:babysistter",
-        "distractorEntryIds": [
-          "u3:nurse",
-          "u3:servant",
-          "u3:waitress"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ played games with the children until their parents came home.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-a-n-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ at the city bank approved their loan for a new house.",
-        "fullSentence": "The banker at the city bank approved their loan for a new house.",
-        "translation": "市區銀行的銀行家核准了他們買新房的貸款。",
-        "clue": "銀行裡核准貸款的人",
-        "answerEntryId": "u3:banker",
-        "distractorEntryIds": [
-          "u3:lawyer",
-          "u3:dealer",
-          "u3:trader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My aunt is a ___ and works with money at the bank all day.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-a-r-b-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad gets his hair cut at the ___ shop near the station.",
-        "fullSentence": "Dad gets his hair cut at the barber shop near the station.",
-        "translation": "爸爸在車站附近的理髮廳剪頭髮。",
-        "clue": "剪頭髮的店",
-        "answerEntryId": "u3:barber",
-        "distractorEntryIds": [
-          "u3:shopkeeper",
-          "u3:mechanic",
-          "u3:salesman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ shaved the man's beard with a sharp razor.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-u-i-l-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ carried bricks and mixed cement for the new school.",
-        "fullSentence": "The builder carried bricks and mixed cement for the new school.",
-        "translation": "建築工人為新學校搬磚塊、拌水泥。",
-        "clue": "搬磚、拌水泥蓋房子的人",
-        "answerEntryId": "u3:builder",
-        "distractorEntryIds": [
-          "u3:farmer",
-          "u3:mechanic",
-          "u3:electrician"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ must be strong enough to carry heavy bags of cement.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-a-r-e-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken spent his whole ___ teaching English at the same school.",
-        "fullSentence": "Ken spent his whole career teaching English at the same school.",
-        "translation": "肯恩的整個職業生涯都在同一所學校教英文。",
-        "clue": "一生投入的工作歷程",
-        "answerEntryId": "u3:career",
-        "distractorEntryIds": [
-          "u3:occupation",
-          "u3:meeting",
-          "u3:industry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Choosing the right ___ is an important decision for every student.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-h-a-i-r-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the board called an emergency meeting on Monday.",
-        "fullSentence": "The chairman of the board called an emergency meeting on Monday.",
-        "translation": "董事長在週一召集了緊急會議。",
-        "clue": "董事會的最高主持人",
-        "answerEntryId": "u3:chairman",
-        "distractorEntryIds": [
-          "u3:manager",
-          "u3:director",
-          "u3:expert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everyone stood up when the ___ entered the meeting hall.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-h-i-e-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police ___ ordered his officers to close the busy street.",
-        "fullSentence": "The police chief ordered his officers to close the busy street.",
-        "translation": "警察局長命令手下警官封鎖繁忙的街道。",
-        "clue": "警察單位的最高長官",
-        "answerEntryId": "u3:chief",
-        "distractorEntryIds": [
-          "u3:president",
-          "u3:chairman",
-          "u3:governor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the village made the final decision for everyone.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-o-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The basketball ___ made the team practice free throws for an hour.",
-        "fullSentence": "The basketball coach made the team practice free throws for an hour.",
-        "translation": "籃球教練要球隊練了一小時的罰球。",
-        "clue": "指導球隊練習的人",
-        "answerEntryId": "u3:coach",
-        "distractorEntryIds": [
-          "u3:doctor",
-          "u3:manager",
-          "u3:driver"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before the big game, the ___ gave the players an encouraging speech.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-o-l-l-e-c-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The stamp ___ keeps every new stamp in a special album.",
-        "fullSentence": "The stamp collector keeps every new stamp in a special album.",
-        "translation": "那位郵票收藏家把每張新郵票都收進特製的冊子裡。",
-        "clue": "把郵票收進冊子珍藏的人",
-        "answerEntryId": "u3:collector",
-        "distractorEntryIds": [
-          "u3:dealer",
-          "u3:trader",
-          "u3:banker"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle is a coin ___ who loves old money from other countries.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-o-m-p-a-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She sent her resume to a famous ___ in Taipei and waited for a call.",
-        "fullSentence": "She sent her resume to a famous company in Taipei and waited for a call.",
-        "translation": "她把履歷寄給台北一家知名公司，然後等著對方來電。",
-        "clue": "會通知面試的企業單位",
-        "answerEntryId": "u3:company",
-        "distractorEntryIds": [
-          "u3:industry",
-          "u3:meeting",
-          "u3:interview"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad's ___ makes parts for computers and phones.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-o-w-b-o-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In old western movies, the ___ rides a horse and herds cattle.",
-        "fullSentence": "In old western movies, the cowboy rides a horse and herds cattle.",
-        "translation": "在老西部片裡，牛仔騎馬趕牛。",
-        "clue": "西部片中騎馬趕牛的人",
-        "answerEntryId": "u3:cowboy",
-        "distractorEntryIds": [
-          "u3:farmer",
-          "u3:sailor",
-          "u3:guard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ wore a big hat and boots while riding his horse.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "d-e-a-l-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We bought our old van from a car ___ on Fifth Street.",
-        "fullSentence": "We bought our old van from a car dealer on Fifth Street.",
-        "translation": "我們在第五街的一家汽車經銷商買了那輛舊廂型車。",
-        "clue": "賣車給顧客的商家",
-        "answerEntryId": "u3:dealer",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:mechanic",
-          "u3:banker"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle is a furniture ___ who sells tables and chairs.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "d-e-s-i-g-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The young ___ created a new look for the winter clothes.",
-        "fullSentence": "The young designer created a new look for the winter clothes.",
-        "translation": "那位年輕的設計師為冬裝打造出嶄新的風格。",
-        "clue": "為服裝設計新樣式的人",
-        "answerEntryId": "u3:designer",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:model",
-          "u3:photographer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My cousin is a ___ who draws plans for beautiful houses.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "d-i-p-l-o-m-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sent to Tokyo as a ___, she speaks for her government every day.",
-        "fullSentence": "Sent to Tokyo as a diplomat, she speaks for her government every day.",
-        "translation": "她被派到東京擔任外交官，每天代表政府發言。",
-        "clue": "派駐國外、代表政府的人",
-        "answerEntryId": "u3:diplomat",
-        "distractorEntryIds": [
-          "u3:official",
-          "u3:journalist",
-          "u3:lawyer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wise ___ carried important messages between the two kings.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "d-i-r-e-c-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the school announced a holiday for next Friday.",
-        "fullSentence": "The director of the school announced a holiday for next Friday.",
-        "translation": "學校的主管宣布下週五放假。",
-        "clue": "學校裡能宣布放假的主管",
-        "answerEntryId": "u3:director",
-        "distractorEntryIds": [
-          "u3:educator",
-          "u3:official",
-          "u3:chairman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The film ___ told the actors where to stand and how to speak.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "d-o-c-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ listened to my heart with a stethoscope.",
-        "fullSentence": "The doctor listened to my heart with a stethoscope.",
-        "translation": "醫生用聽診器聽我的心跳。",
-        "clue": "用聽診器看診的人",
-        "answerEntryId": "u3:doctor",
-        "distractorEntryIds": [
-          "u3:nurse",
-          "u3:scientist",
-          "u3:electrician"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When I have a fever, Mom takes me to see the ___.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "d-r-a-m-a-t-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ spent two years writing a play about village life.",
-        "fullSentence": "The dramatist spent two years writing a play about village life.",
-        "translation": "那位劇作家花了兩年寫一部描寫鄉村生活的劇本。",
-        "clue": "寫劇本的人",
-        "answerEntryId": "u3:dramatist",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:director",
-          "u3:musician"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Shakespeare was an English ___ who wrote many famous plays.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "d-r-i-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The taxi ___ knew every shortcut in the busy city.",
-        "fullSentence": "The taxi driver knew every shortcut in the busy city.",
-        "translation": "計程車司機熟知這個熱鬧城市裡的每條捷徑。",
-        "clue": "開計程車載客的人",
-        "answerEntryId": "u3:driver",
-        "distractorEntryIds": [
-          "u3:mailman",
-          "u3:police officer",
-          "u3:guide"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ never drinks before getting behind the wheel.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "e-d-u-c-a-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "As a lifelong ___, Miss Chen has taught children for forty years.",
-        "fullSentence": "As a lifelong educator, Miss Chen has taught children for forty years.",
-        "translation": "作為終身的教師，陳老師已經教了四十年的孩子。",
-        "clue": "一生奉獻給教育的人",
-        "answerEntryId": "u3:educator",
-        "distractorEntryIds": [
-          "u3:lawyer",
-          "u3:banker",
-          "u3:official"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Confucius was a great ___ whose ideas still guide teachers today.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "e-l-e-c-t-r-i-c-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Call an ___ right away; the lights in the whole house just went out.",
-        "fullSentence": "Call an electrician right away; the lights in the whole house just went out.",
-        "translation": "趕快打給電工；整棟房子的燈剛剛都熄了。",
-        "clue": "處理停電、修電線的技師（冠詞是 an）",
-        "answerEntryId": "u3:electrician",
-        "distractorEntryIds": [
-          "u3:mechanic",
-          "u3:builder",
-          "u3:physician"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ wears thick gloves when working with live wires.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "e-m-p-l-o-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hotel will ___ ten new cooks before the summer season starts.",
-        "fullSentence": "The hotel will employ ten new cooks before the summer season starts.",
-        "translation": "飯店會在暑假旺季前僱用十位新廚師。",
-        "clue": "飯店「僱用」新廚師（動詞）",
-        "answerEntryId": "u3:employ",
-        "distractorEntryIds": [
-          "u3:hire",
-          "u3:serve",
-          "u3:produce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Big companies often ___ hundreds of people in one office building.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "e-m-p-l-o-y-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every ___ must wear a name badge while working at the store.",
-        "fullSentence": "Every employee must wear a name badge while working at the store.",
-        "translation": "每位員工在店裡上班時都必須佩戴名牌。",
-        "clue": "在店裡上班、領薪水的人",
-        "answerEntryId": "u3:employee",
-        "distractorEntryIds": [
-          "u3:employer",
-          "u3:manager",
-          "u3:owner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The boss thanked each ___ for finishing the project on time.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "e-m-p-l-o-y-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ promised to raise everyone's pay next spring.",
-        "fullSentence": "The employer promised to raise everyone's pay next spring.",
-        "translation": "僱主承諾明年春天調升每個人的薪水。",
-        "clue": "有權幫員工加薪的人",
-        "answerEntryId": "u3:employer",
-        "distractorEntryIds": [
-          "u3:employee",
-          "u3:assistant",
-          "u3:worker"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ treats workers fairly and pays them on time.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "e-n-g-i-n-e-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ used a computer to test whether the bridge could hold heavy trucks.",
-        "fullSentence": "The engineer used a computer to test whether the bridge could hold heavy trucks.",
-        "translation": "工程師用電腦測試那座橋能否承受重型卡車。",
-        "clue": "測試橋樑結構的人",
-        "answerEntryId": "u3:engineer",
-        "distractorEntryIds": [
-          "u3:builder",
-          "u3:designer",
-          "u3:mechanic"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My brother is an ___ who designs fast trains.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "e-x-p-e-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A computer ___ came to repair the broken server in our office.",
-        "fullSentence": "A computer expert came to repair the broken server in our office.",
-        "translation": "一位電腦專家來修理辦公室壞掉的伺服器。",
-        "clue": "在電腦方面非常專精的人",
-        "answerEntryId": "u3:expert",
-        "distractorEntryIds": [
-          "u3:engineer",
-          "u3:mechanic",
-          "u3:operator"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa is a chess ___ who has never lost a game at the club.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "f-a-r-m-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wakes before sunrise to feed the chickens and cows.",
-        "fullSentence": "The farmer wakes before sunrise to feed the chickens and cows.",
-        "translation": "農夫天亮前就起床餵雞和牛。",
-        "clue": "飼養家禽家畜的人",
-        "answerEntryId": "u3:farmer",
-        "distractorEntryIds": [
-          "u3:cowboy",
-          "u3:hunter",
-          "u3:fisherman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ planted rice in the wet field in spring.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "f-i-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The law ___ moved into a modern office near the courthouse.",
-        "fullSentence": "The law firm moved into a modern office near the courthouse.",
-        "translation": "那家律師事務所搬進法院附近的現代辦公室。",
-        "clue": "律師合夥開的商行",
-        "answerEntryId": "u3:firm",
-        "distractorEntryIds": [
-          "u3:company",
-          "u3:industry",
-          "u12:factory"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle joined a trading ___ that ships tea to Europe.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "f-i-s-h-e-r-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ pulls heavy nets full of fish onto his small boat.",
-        "fullSentence": "The fisherman pulls heavy nets full of fish onto his small boat.",
-        "translation": "漁夫把裝滿魚的沉重漁網拉上小船。",
-        "clue": "撒網捕魚的人",
-        "answerEntryId": "u3:fisherman",
-        "distractorEntryIds": [
-          "u3:sailor",
-          "u3:farmer",
-          "u3:hunter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before dawn, the ___ rows out to sea to catch mackerel.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "g-o-v-e-r-n-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the state cut the ribbon at the new bridge.",
-        "fullSentence": "The governor of the state cut the ribbon at the new bridge.",
-        "translation": "州長在新橋上剪綵。",
-        "clue": "主持州政、出席剪綵的長官",
-        "answerEntryId": "u3:governor",
-        "distractorEntryIds": [
-          "u3:president",
-          "u3:chief",
-          "u3:official"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "People voted for a new ___ who promised better schools.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "g-u-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The museum ___ stopped visitors from touching the old paintings.",
-        "fullSentence": "The museum guard stopped visitors from touching the old paintings.",
-        "translation": "博物館的警衛阻止參觀者觸摸古畫。",
-        "clue": "博物館裡維持秩序的警衛",
-        "answerEntryId": "u3:guard",
-        "distractorEntryIds": [
-          "u3:police officer",
-          "u3:guide",
-          "u3:official"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The night ___ walks around the factory with a flashlight.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "g-u-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ led the tourists through the old temple and told its story.",
-        "fullSentence": "The guide led the tourists through the old temple and told its story.",
-        "translation": "導遊帶著遊客穿過古廟，並訴說它的故事。",
-        "clue": "帶領遊客並解說的人",
-        "answerEntryId": "u3:guide",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:reporter",
-          "u3:vendor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the mountains, a local ___ showed us the safest path.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "h-i-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The boss decided to ___ two more helpers for the busy weekend.",
-        "fullSentence": "The boss decided to hire two more helpers for the busy weekend.",
-        "translation": "老闆決定為忙碌的週末再聘請兩名幫手。",
-        "clue": "老闆「聘用」人手（動詞）",
-        "answerEntryId": "u3:hire",
-        "distractorEntryIds": [
-          "u3:employ",
-          "u3:serve",
-          "u3:produce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The company will ___ anyone who can speak both English and Japanese.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "h-i-s-t-o-r-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ spent years reading diaries written during the war.",
-        "fullSentence": "The historian spent years reading diaries written during the war.",
-        "translation": "那位歷史學家花了多年閱讀戰時寫下的日記。",
-        "clue": "研究過去史料的人",
-        "answerEntryId": "u3:historian",
-        "distractorEntryIds": [
-          "u3:scientist",
-          "u3:journalist",
-          "u3:educator"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ can explain why the old castle was built on the hill.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "h-o-u-s-e-w-i-f-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "As a busy ___, Mom shops, cooks, and cleans every day.",
-        "fullSentence": "As a busy housewife, Mom shops, cooks, and cleans every day.",
-        "translation": "身為忙碌的家庭主婦，媽媽每天買菜、煮飯、打掃。",
-        "clue": "在家料理家務的媽媽",
-        "answerEntryId": "u3:housewife",
-        "distractorEntryIds": [
-          "u3:secretary",
-          "u3:nurse",
-          "u3:waitress"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ hangs the washing in the sunny yard after breakfast.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "h-u-n-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ followed the deer's footprints deep into the forest.",
-        "fullSentence": "The hunter followed the deer's footprints deep into the forest.",
-        "translation": "獵人沿著鹿的腳印深入森林。",
-        "clue": "追蹤獵物的人",
-        "answerEntryId": "u3:hunter",
-        "distractorEntryIds": [
-          "u3:farmer",
-          "u3:fisherman",
-          "u3:cowboy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ moves slowly so the animals do not hear him.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "i-n-d-u-s-t-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The steel ___ in this region provides jobs for thousands of workers.",
-        "fullSentence": "The steel industry in this region provides jobs for thousands of workers.",
-        "translation": "這個地區的鋼鐵業為數千名工人提供工作。",
-        "clue": "提供大量工作的產業",
-        "answerEntryId": "u3:industry",
-        "distractorEntryIds": [
-          "u3:company",
-          "u3:firm",
-          "u3:occupation"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tourism is an important ___ on this small island.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "i-n-t-e-r-v-i-e-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken wore his best suit to the job ___ at the bank.",
-        "fullSentence": "Ken wore his best suit to the job interview at the bank.",
-        "translation": "肯恩穿上最好的西裝去銀行的工作面試。",
-        "clue": "求職時與主管見面的場合",
-        "answerEntryId": "u3:interview",
-        "distractorEntryIds": [
-          "u3:meeting",
-          "u13:exam",
-          "u19:party"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The reporter asked the singer questions during the ___.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "j-o-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken applied for a part-time ___ at the bakery near his school.",
-        "fullSentence": "Ken applied for a part-time job at the bakery near his school.",
-        "translation": "肯恩向學校附近的麵包店應徵打工。",
-        "clue": "課餘打工的差事",
-        "answerEntryId": "u3:job",
-        "distractorEntryIds": [
-          "u3:career",
-          "u3:occupation",
-          "u3:profession"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother's ___ is teaching math at the junior high school.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "j-o-u-r-n-a-l-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ rushed to the scene to report the big fire for the evening news.",
-        "fullSentence": "The journalist rushed to the scene to report the big fire for the evening news.",
-        "translation": "新聞記者趕到現場，為晚間新聞報導那場大火。",
-        "clue": "到現場做新聞報導的人",
-        "answerEntryId": "u3:journalist",
-        "distractorEntryIds": [
-          "u3:reporter",
-          "u3:photographer",
-          "u3:writer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ must write news stories that are true and fair.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "j-u-d-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ hit the wooden hammer and told everyone to be quiet.",
-        "fullSentence": "The judge hit the wooden hammer and told everyone to be quiet.",
-        "translation": "法官敲下木槌，要大家安靜。",
-        "clue": "法庭上敲槌主持的人",
-        "answerEntryId": "u3:judge",
-        "distractorEntryIds": [
-          "u3:lawyer",
-          "u3:official",
-          "u3:chairman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Only the ___ can decide whether the man is guilty.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "l-a-w-y-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ spoke for her client in the courtroom all morning.",
-        "fullSentence": "The lawyer spoke for her client in the courtroom all morning.",
-        "translation": "律師整個上午都在法庭上為她的當事人辯護。",
-        "clue": "在法庭上替人辯護的人",
-        "answerEntryId": "u3:lawyer",
-        "distractorEntryIds": [
-          "u3:judge",
-          "u3:official",
-          "u3:diplomat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before signing the papers, Dad asked a ___ to read them.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "m-a-g-i-c-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ waved his wand, and the cards disappeared in the air.",
-        "fullSentence": "The magician waved his wand, and the cards disappeared in the air.",
-        "translation": "魔術師揮了揮魔杖，紙牌就在空中消失了。",
-        "clue": "表演魔術、讓東西消失的人",
-        "answerEntryId": "u3:magician",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:musician",
-          "u3:director"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "At the birthday party, the ___ made a dove fly out of his hat.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "m-a-i-l-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ rides a green scooter and puts letters into every mailbox.",
-        "fullSentence": "The mailman rides a green scooter and puts letters into every mailbox.",
-        "translation": "郵差騎著綠色機車，把信投進每個信箱。",
-        "clue": "投遞信件到信箱的人",
-        "answerEntryId": "u3:mailman",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:vendor",
-          "u3:guard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dog barks every time the ___ comes to the gate.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "m-a-n-a-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the restaurant checks every table before the dinner rush.",
-        "fullSentence": "The manager of the restaurant checks every table before the dinner rush.",
-        "translation": "餐廳經理在晚餐尖峰前巡視每一張桌子。",
-        "clue": "負責店務營運的經理",
-        "answerEntryId": "u3:manager",
-        "distractorEntryIds": [
-          "u3:waiter",
-          "u3:owner",
-          "u3:employer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "If you want a refund, please talk to the store ___.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "m-e-c-h-a-n-i-c",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ slid under the car to check the engine's oil.",
-        "fullSentence": "The mechanic slid under the car to check the engine's oil.",
-        "translation": "技工滑到車底檢查引擎的機油。",
-        "clue": "鑽到車底修引擎的人",
-        "answerEntryId": "u3:mechanic",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:engineer",
-          "u3:electrician"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our car broke down, so a ___ came with a heavy toolbox.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "m-e-e-t-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone brought notes to the Monday morning ___.",
-        "fullSentence": "Everyone brought notes to the Monday morning meeting.",
-        "translation": "大家都帶著筆記參加週一早上的會議。",
-        "clue": "大家帶筆記參加的會議",
-        "answerEntryId": "u3:meeting",
-        "distractorEntryIds": [
-          "u13:class",
-          "u19:party",
-          "u3:interview"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The boss called a ___ to talk about next year's plans.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "m-i-l-i-t-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the flood, the ___ sent trucks and tents to help the village.",
-        "fullSentence": "After the flood, the military sent trucks and tents to help the village.",
-        "translation": "水災過後，軍方派出卡車和帳篷支援村莊。",
-        "clue": "出動卡車帳篷救災的軍方",
-        "answerEntryId": "u3:military",
-        "distractorEntryIds": [
-          "u3:army",
-          "u21:government",
-          "u3:company"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken joined the ___ at eighteen and trained for two years.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "m-o-d-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wore a shiny red dress at the fashion show.",
-        "fullSentence": "The model wore a shiny red dress at the fashion show.",
-        "translation": "模特兒在時裝秀上穿著亮紅色的洋裝。",
-        "clue": "展示服裝的模特兒",
-        "answerEntryId": "u3:model",
-        "distractorEntryIds": [
-          "u3:designer",
-          "u3:artist",
-          "u3:photographer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My cousin works as a ___ in Paris and wears new clothes on stage.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "m-u-s-i-c-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ tuned his violin before the concert began.",
-        "fullSentence": "The musician tuned his violin before the concert began.",
-        "translation": "音樂家在音樂會開始前調好小提琴的音。",
-        "clue": "演奏樂器的音樂家",
-        "answerEntryId": "u3:musician",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:singer",
-          "u3:writer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A street ___ played the guitar while people dropped coins in his hat.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "n-u-r-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ gave the patient his medicine on time.",
-        "fullSentence": "The nurse gave the patient his medicine on time.",
-        "translation": "護理師準時給病人服藥。",
-        "clue": "照顧病人、給藥的人",
-        "answerEntryId": "u3:nurse",
-        "distractorEntryIds": [
-          "u3:doctor",
-          "u3:physician",
-          "u3:scientist"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A kind ___ helped the old man walk to the garden.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "o-c-c-u-p-a-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On the form, Ken wrote farmer as his father's ___.",
-        "fullSentence": "On the form, Ken wrote farmer as his father's occupation.",
-        "translation": "在表格上，肯恩把農夫填為父親的職業。",
-        "clue": "表格上要填的職業欄",
-        "answerEntryId": "u3:occupation",
-        "distractorEntryIds": [
-          "u3:profession",
-          "u3:career",
-          "u3:company"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please write your name, age, and ___ on this card.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "o-f-f-i-c-i-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A city ___ announced that the new park would open in May.",
-        "fullSentence": "A city official announced that the new park would open in May.",
-        "translation": "一位市府官員宣布新公園將於五月啟用。",
-        "clue": "代表政府宣布消息的官員",
-        "answerEntryId": "u3:official",
-        "distractorEntryIds": [
-          "u3:journalist",
-          "u3:reporter",
-          "u3:manager"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The government ___ checked our documents at the border.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "o-p-e-r-a-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dial zero and the ___ will connect you to the front desk.",
-        "fullSentence": "Dial zero and the operator will connect you to the front desk.",
-        "translation": "撥零，接線生就會幫你轉接前台。",
-        "clue": "幫你轉接電話的接線生",
-        "answerEntryId": "u3:operator",
-        "distractorEntryIds": [
-          "u3:secretary",
-          "u3:assistant",
-          "u3:manager"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ sat before a wide board with a hundred switches.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "o-w-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The Wang family has saved for years to ___ a house of theirs.",
-        "fullSentence": "The Wang family has saved for years to own a house of theirs.",
-        "translation": "王家存了好多年的錢，想擁有一棟自己的房子。",
-        "clue": "擁有自己的房子（動詞）",
-        "answerEntryId": "u3:own",
-        "distractorEntryIds": [
-          "u3:hire",
-          "u3:serve",
-          "u3:produce"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandparents ___ a small farm with ten cows.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "o-w-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the lost dog put up posters all over town.",
-        "fullSentence": "The owner of the lost dog put up posters all over town.",
-        "translation": "走失狗狗的主人在鎮上到處貼海報。",
-        "clue": "狗狗的主人",
-        "answerEntryId": "u3:owner",
-        "distractorEntryIds": [
-          "u3:employer",
-          "u3:manager",
-          "u3:guide"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mr. Chen is the ___ of two restaurants in the city.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "p-e-r-s-o-n-n-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "All hospital ___ must wash their hands before entering the ward.",
-        "fullSentence": "All hospital personnel must wash their hands before entering the ward.",
-        "translation": "所有醫院人員進入病房前都必須洗手。",
-        "clue": "醫院裡的全體工作人員",
-        "answerEntryId": "u3:personnel",
-        "distractorEntryIds": [
-          "u3:employee",
-          "u3:worker",
-          "u3:assistant"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The airline moved two hundred ___ to the new airport office.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "p-h-o-t-o-g-r-a-p-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ asked the family to stand closer together for the picture.",
-        "fullSentence": "The photographer asked the family to stand closer together for the picture.",
-        "translation": "攝影師請一家人站近一點好拍照。",
-        "clue": "負責拍照的人",
-        "answerEntryId": "u3:photographer",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:painter",
-          "u3:director"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ followed the runners along the whole race route.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "p-h-y-s-i-c-i-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ examined the sick child and wrote a prescription.",
-        "fullSentence": "The physician examined the sick child and wrote a prescription.",
-        "translation": "醫師檢查了生病的孩子並開了處方。",
-        "clue": "看診開藥的醫師",
-        "answerEntryId": "u3:physician",
-        "distractorEntryIds": [
-          "u3:doctor",
-          "u3:nurse",
-          "u3:scientist"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "An experienced ___ can often tell the illness from the symptoms.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "p-h-y-s-i-c-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ explained why the ball curves when it spins.",
-        "fullSentence": "The physicist explained why the ball curves when it spins.",
-        "translation": "物理學家解釋了球旋轉時為什麼會轉彎。",
-        "clue": "解釋物理現象的科學家",
-        "answerEntryId": "u3:physicist",
-        "distractorEntryIds": [
-          "u3:scientist",
-          "u3:engineer",
-          "u3:expert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Marie Curie was a famous ___ who studied rays and atoms.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "p-o-l-i-c-e o-f-f-i-c-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wrote down the license number of the speeding car.",
-        "fullSentence": "The police officer wrote down the license number of the speeding car.",
-        "translation": "警察記下那輛超速汽車的車牌號碼。",
-        "clue": "取締超速、開單的警員",
-        "answerEntryId": "u3:police officer",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:guard",
-          "u3:judge"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ directed the traffic after the traffic light broke.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "p-r-e-s-i-d-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ of the student council called the first meeting of the year.",
-        "fullSentence": "The president of the student council called the first meeting of the year.",
-        "translation": "學生會會長召開了本學年第一次會議。",
-        "clue": "學生會的最高負責人",
-        "answerEntryId": "u3:president",
-        "distractorEntryIds": [
-          "u3:chairman",
-          "u3:chief",
-          "u3:manager"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the country visited the flood victims yesterday.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "p-r-i-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ rang the old bell to call the village to prayer.",
-        "fullSentence": "The priest rang the old bell to call the village to prayer.",
-        "translation": "神父敲響古鐘，召喚村民前來祈禱。",
-        "clue": "主持宗教儀式的人",
-        "answerEntryId": "u3:priest",
-        "distractorEntryIds": [
-          "u3:judge",
-          "u3:chief",
-          "u3:educator"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every Sunday, the ___ welcomes everyone to the old church.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "p-r-i-n-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The office ___ ran out of black ink again.",
-        "fullSentence": "The office printer ran out of black ink again.",
-        "translation": "辦公室的印表機黑色墨水又用完了。",
-        "clue": "會缺墨水的辦公設備",
-        "answerEntryId": "u3:printer",
-        "distractorEntryIds": [
-          "u11:computer",
-          "u11:camera",
-          "u14:screen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad connected the new ___ to his laptop with a cable.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "p-r-o-d-u-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The farm can ___ enough vegetables for the whole town.",
-        "fullSentence": "The farm can produce enough vegetables for the whole town.",
-        "translation": "這座農場能生產足夠全鎮食用的蔬菜。",
-        "clue": "「生產」出蔬菜（動詞）",
-        "answerEntryId": "u3:produce",
-        "distractorEntryIds": [
-          "u3:employ",
-          "u3:serve",
-          "u3:hire"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Factories near the harbor ___ shoes for many countries.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "p-r-o-d-u-c-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The company tested each ___ carefully before shipping it to stores.",
-        "fullSentence": "The company tested each product carefully before shipping it to stores.",
-        "translation": "公司在出貨前仔細檢驗每項產品。",
-        "clue": "出貨前要檢驗的產品",
-        "answerEntryId": "u3:product",
-        "distractorEntryIds": [
-          "u3:production",
-          "u3:trade",
-          "u3:industry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Milk is the main ___ of this dairy farm.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "p-r-o-d-u-c-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new factory will begin ___ of electric scooters in March.",
-        "fullSentence": "The new factory will begin production of electric scooters in March.",
-        "translation": "新工廠將於三月開始生產電動機車。",
-        "clue": "開始「生產」的製程",
-        "answerEntryId": "u3:production",
-        "distractorEntryIds": [
-          "u3:product",
-          "u3:industry",
-          "u3:trade"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Heavy rain stopped ___ at the car plant for two days.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "p-r-o-f-e-s-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After passing the hard exam, she entered the legal ___ with pride.",
-        "fullSentence": "After passing the hard exam, she entered the legal profession with pride.",
-        "translation": "通過艱難的考試後，她自豪地踏入法律專業。",
-        "clue": "需要專門資格的行業",
-        "answerEntryId": "u3:profession",
-        "distractorEntryIds": [
-          "u3:occupation",
-          "u3:career",
-          "u3:industry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Teaching is a ___ that asks for patience and love.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "p-r-o-f-e-s-s-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ gave a long lecture about birds to the university students.",
-        "fullSentence": "The professor gave a long lecture about birds to the university students.",
-        "translation": "教授為大學生上了一堂關於鳥類的長課。",
-        "clue": "在大學授課的教授",
-        "answerEntryId": "u3:professor",
-        "distractorEntryIds": [
-          "u3:educator",
-          "u3:scientist",
-          "u3:director"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle is a ___ who studies history at a famous university.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "r-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ for the small shop near the station is very high.",
-        "fullSentence": "The rent for the small shop near the station is very high.",
-        "translation": "車站附近那間小店的租金很高。",
-        "clue": "每月要付的租金",
-        "answerEntryId": "u3:rent",
-        "distractorEntryIds": [
-          "u3:trade",
-          "u3:product",
-          "u17:price"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We pay ___ every month for our two-room flat.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "r-e-p-o-r-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ held a microphone and spoke to the camera in the rain.",
-        "fullSentence": "The reporter held a microphone and spoke to the camera in the rain.",
-        "translation": "記者拿著麥克風，冒著雨對鏡頭報導。",
-        "clue": "拿麥克風現場報導的人",
-        "answerEntryId": "u3:reporter",
-        "distractorEntryIds": [
-          "u3:singer",
-          "u3:operator",
-          "u3:guide"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ asked the pop star how she started her career.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "s-a-i-l-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ pulled the heavy ropes as the ship turned toward port.",
-        "fullSentence": "The sailor pulled the heavy ropes as the ship turned toward port.",
-        "translation": "船轉向港口時，水手拉著粗重的繩索。",
-        "clue": "在船上拉繩工作的人",
-        "answerEntryId": "u3:sailor",
-        "distractorEntryIds": [
-          "u3:fisherman",
-          "u3:driver",
-          "u3:soldier"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A young ___ waved from the deck as the ship left the harbor.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "s-a-l-e-s-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ explained every feature of the new vacuum cleaner.",
-        "fullSentence": "The salesman explained every feature of the new vacuum cleaner.",
-        "translation": "銷售員介紹了新吸塵器的每一項功能。",
-        "clue": "介紹產品功能的銷售員",
-        "answerEntryId": "u3:salesman",
-        "distractorEntryIds": [
-          "u3:engineer",
-          "u3:mechanic",
-          "u3:driver"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A friendly ___ greeted us at the car store.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "s-c-i-e-n-t-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ mixed two clear liquids, and the water slowly turned blue.",
-        "fullSentence": "The scientist mixed two clear liquids, and the water slowly turned blue.",
-        "translation": "科學家混合兩種透明液體，水慢慢變成了藍色。",
-        "clue": "做實驗混合液體的人",
-        "answerEntryId": "u3:scientist",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:engineer",
-          "u3:mechanic"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ watches the stars through a huge telescope.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "s-e-c-r-e-t-a-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ answered the phone, took messages, and kept the boss's schedule.",
-        "fullSentence": "The secretary answered the phone, took messages, and kept the boss's schedule.",
-        "translation": "祕書接聽電話、記留言，並管理老闆的行程。",
-        "clue": "幫主管接電話管行程的人",
-        "answerEntryId": "u3:secretary",
-        "distractorEntryIds": [
-          "u3:assistant",
-          "u3:manager",
-          "u3:operator"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ typed the letter and put it in an envelope.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "s-e-r-v-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the old castle, a ___ carried wood for the fire every cold morning.",
-        "fullSentence": "In the old castle, a servant carried wood for the fire every cold morning.",
-        "translation": "在古堡裡，一名僕人每天早上為壁爐搬柴火。",
-        "clue": "在宅邸做雜務的僕人",
-        "answerEntryId": "u3:servant",
-        "distractorEntryIds": [
-          "u3:worker",
-          "u3:soldier",
-          "u3:driver"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The rich family hired a ___ to wash and cook for them.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "s-e-r-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter will ___ your soup in a minute.",
-        "fullSentence": "The waiter will serve your soup in a minute.",
-        "translation": "服務生馬上就會送上你的湯。",
-        "clue": "端上餐點「供應」（動詞）",
-        "answerEntryId": "u3:serve",
-        "distractorEntryIds": [
-          "u3:produce",
-          "u3:employ",
-          "u3:hire"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Restaurants ___ breakfast from seven to ten in the morning.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "s-h-o-p-k-e-e-p-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ swept the sidewalk in front of his store before opening.",
-        "fullSentence": "The shopkeeper swept the sidewalk in front of his store before opening.",
-        "translation": "開店前，店主把店前的人行道掃乾淨。",
-        "clue": "清掃自家店門口的店主",
-        "answerEntryId": "u3:shopkeeper",
-        "distractorEntryIds": [
-          "u3:worker",
-          "u3:servant",
-          "u3:mailman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The village ___ knows every child who buys candy at his store.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "s-i-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ held the long last note, and the crowd cheered loudly.",
-        "fullSentence": "The singer held the long last note, and the crowd cheered loudly.",
-        "translation": "歌手拉長了最後一個音，觀眾大聲歡呼。",
-        "clue": "在台上唱歌的人",
-        "answerEntryId": "u3:singer",
-        "distractorEntryIds": [
-          "u3:musician",
-          "u3:writer",
-          "u3:artist"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My aunt is a ___ who sings folk songs on the radio.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "s-o-l-d-i-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ carried a heavy pack on the long march up the hill.",
-        "fullSentence": "Each soldier carried a heavy pack on the long march up the hill.",
-        "translation": "長途行軍上山時，每個士兵都背著沉重的背包。",
-        "clue": "背背包行軍的軍人",
-        "answerEntryId": "u3:soldier",
-        "distractorEntryIds": [
-          "u3:driver",
-          "u3:hunter",
-          "u3:guard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A young ___ saluted the officer and marched away.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "t-r-a-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The port grew rich because ___ with neighboring islands never stopped.",
-        "fullSentence": "The port grew rich because trade with neighboring islands never stopped.",
-        "translation": "因為與鄰島的貿易從未中斷，這個港口變得富裕。",
-        "clue": "帶來財富的貿易往來",
-        "answerEntryId": "u3:trade",
-        "distractorEntryIds": [
-          "u3:industry",
-          "u3:production",
-          "u3:meeting"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle works in international ___ and sells tea to Europe.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "t-r-a-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ sailed to distant islands to buy spices and sell cloth.",
-        "fullSentence": "The trader sailed to distant islands to buy spices and sell cloth.",
-        "translation": "那位商人航行到遙遠的島嶼，買香料賣布匹。",
-        "clue": "跨海買賣貨品的商人",
-        "answerEntryId": "u3:trader",
-        "distractorEntryIds": [
-          "u3:sailor",
-          "u3:dealer",
-          "u3:vendor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A clever ___ knows the prices in every market in town.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "v-e-n-d-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The night-market ___ grilled squid and called out prices to the crowd.",
-        "fullSentence": "The night-market vendor grilled squid and called out prices to the crowd.",
-        "translation": "夜市小販烤著魷魚，向人群吆喝叫價。",
-        "clue": "在夜市擺攤叫賣的人",
-        "answerEntryId": "u3:vendor",
-        "distractorEntryIds": [
-          "u3:waiter",
-          "u3:salesman",
-          "u3:shopkeeper"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A fruit ___ pushed his cart down the sunny street.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "w-a-i-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ took our order and filled our glasses with water.",
-        "fullSentence": "The waiter took our order and filled our glasses with water.",
-        "translation": "服務生記下我們的點餐，並為我們倒水。",
-        "clue": "在餐廳點餐倒水的服務生",
-        "answerEntryId": "u3:waiter",
-        "distractorEntryIds": [
-          "u3:waitress",
-          "u3:assistant",
-          "u3:driver"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A polite ___ showed us to a table by the window.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "p-a-i-n-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ stepped back to look at the finished landscape.",
-        "fullSentence": "The painter stepped back to look at the finished landscape.",
-        "translation": "畫家退後幾步，欣賞完成的山景畫。",
-        "clue": "完成畫作後退後欣賞的人",
-        "answerEntryId": "u3:painter",
-        "distractorEntryIds": [
-          "u3:artist",
-          "u3:photographer",
-          "u3:builder"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ dipped the brush in red paint and covered the wall.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "w-a-i-t-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in the blue apron brought two menus and two glasses of water.",
-        "fullSentence": "The waitress in the blue apron brought two menus and two glasses of water.",
-        "translation": "繫藍圍裙的女服務生送來兩份菜單和兩杯水。",
-        "clue": "繫圍裙送菜單的女服務生",
-        "answerEntryId": "u3:waitress",
-        "distractorEntryIds": [
-          "u3:waiter",
-          "u3:operator",
-          "u3:secretary"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister works as a ___ at the seaside cafe every summer.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "w-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Both of Ken's parents ___ at the same hospital, one as a doctor and one as a nurse.",
-        "fullSentence": "Both of Ken's parents work at the same hospital, one as a doctor and one as a nurse.",
-        "translation": "肯恩的爸媽都在同一家醫院上班，一位是醫生，一位是護理師。",
-        "clue": "在醫院上班（動詞）",
-        "answerEntryId": "u3:work",
-        "distractorEntryIds": [
-          "u3:serve",
-          "u3:produce",
-          "u3:employ"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many people in our town ___ at the big computer factory.",
@@ -7837,18 +6745,6 @@
       "spellingHint": "w-o-r-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A ___ in a yellow helmet waved at us from the construction site.",
-        "fullSentence": "A worker in a yellow helmet waved at us from the construction site.",
-        "translation": "數百名工人在工地戴上黃色安全帽。",
-        "clue": "戴安全帽的工人",
-        "answerEntryId": "u3:worker",
-        "distractorEntryIds": [
-          "u3:soldier",
-          "u3:builder",
-          "u3:driver"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The new ___ learned to use the cutting machine in one week.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "w-r-i-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ wrote three pages every morning before breakfast.",
-        "fullSentence": "The writer wrote three pages every morning before breakfast.",
-        "translation": "那位作家每天早餐前寫三頁。",
-        "clue": "每天動筆寫作的人",
-        "answerEntryId": "u3:writer",
-        "distractorEntryIds": [
-          "u3:reporter",
-          "u3:secretary",
-          "u3:educator"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My favorite ___ writes funny stories about school life.",

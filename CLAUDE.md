@@ -37,8 +37,9 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 單字卡、英選中、中選英、情境填空、拼字、混合。
 - **填空題只從適性題庫出**：情境填空題型與**混合輪替的填空格**都走
   `clozeEasy`/`clozeMedium`/`clozeHard`（`buildAdaptiveCloze`），兩者共用同一份
-  適性進度（`clozeUsed`）。legacy `enriched.cloze` 只留作英選中／中選英的干擾項池
-  （2026-09 改；混合填空不再出 legacy 題）。混合不顯示難度標籤，情境填空才顯示。
+  適性進度（`clozeUsed`）。**英選中／中選英的干擾項也由適性題庫衍生**
+  （`pickDistractors`：題庫干擾項＋同 Unit 同詞性，過濾釋義重疊與同義詞對）。
+  legacy `enriched.cloze` 欄位已於 2026-09 移除。混合不顯示難度標籤，情境填空才顯示。
 - **單字卡只在學新字時出現**：混合輪替不含單字卡（`src/lib/questions.ts`），
   計畫複習（必做／熟字快複習走 mixed）因此不會出單字卡；
   計畫「今日新字」仍強制單字卡。
@@ -58,7 +59,7 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - 出過的題目記錄避免重複，同難度用完才重出。
 - Unit 設定頁選情境填空時可選難度：適性／簡易／中等／艱難（預設適性）。
 - 干擾項可跨 Unit，但優先選同 Unit；難題的相關選項由人工語境與搭配確認答案唯一。
-- **決定性線索品質標準（Unit 1–32 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形，照 vocab word 原樣含大小寫）；題幹不得含任何選項字；cloze／medium／hard 干擾項同詞性、easy 可跨詞性；每層干擾項池重用 ≤6；legacy cloze ≠ 例句；legacy 中文釋義（zh）四選項唯一。
+- **決定性線索品質標準（Unit 1–32 已全量達標）**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成規範字（動詞用原形，照 vocab word 原樣含大小寫）；題幹不得含任何選項字；medium／hard 干擾項同詞性（easy 可跨詞性）；每層干擾項池重用 ≤6。
 
 ### 批次選擇（`src/lib/selection.ts`）
 - `buildBatch` 依優先序分組：**錯題（inWrongQueue）→ 到期複習（isDueForReview）→ 未練過（無 progress）→ 其餘（練過未到期）**，每組內維持工作簿字母序。

@@ -41,7 +41,7 @@ npx tsx scripts/import-workbook.ts -- --units=N
 用 `/generate-vocab-enrichment` skill 產製 `src/data/enrichment/units-N.json`。
 品質標準重點（詳見該 skill 與 validator）：
 
-- 每字 5 題 cloze（legacy 1 + easy 2 + medium 2 + hard 1），決定性線索：
+- 每字 5 題 cloze（easy 2 + medium 2 + hard 1），決定性線索：
   題幹只讓答案成立、`fullSentence` 用規範字、干擾項同詞性（easy 可跨）、
   題幹不得含任何選項字。
 - staging → 稽核 → 合併的流程見 skill 內文（Unit 12 的 A–F 分批模式）。

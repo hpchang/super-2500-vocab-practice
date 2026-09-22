@@ -11,18 +11,6 @@
       "spellingHint": "a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tom ___ Jerry are in the same class this year.",
-        "fullSentence": "Tom and Jerry are in the same class this year.",
-        "translation": "Tom 和 Jerry 今年同班。",
-        "clue": "兩個人一起，用這個字連接",
-        "answerEntryId": "u26:and",
-        "distractorEntryIds": [
-          "u26:or",
-          "u26:but",
-          "u26:because"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have a red pen ___ two blue pens in my pencil box.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ I was cooking dinner, the phone rang.",
-        "fullSentence": "as I was cooking dinner, the phone rang.",
-        "translation": "我在做晚飯的時候，電話響了。",
-        "clue": "兩件事同時發生",
-        "answerEntryId": "u26:as",
-        "distractorEntryIds": [
-          "u26:or",
-          "u26:if",
-          "u26:though"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ Mom was cutting vegetables, the doorbell rang.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-e-c-a-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy passed the exam easily ___ she studied hard every day.",
-        "fullSentence": "Amy passed the exam easily because she studied hard every day.",
-        "translation": "Amy 很輕鬆地通過考試，因為她每天認真讀書。",
-        "clue": "認真讀書是通過考試的原因",
-        "answerEntryId": "u26:because",
-        "distractorEntryIds": [
-          "u26:but",
-          "u26:or",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I ate two bowls of rice ___ I was very hungry.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-u-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My grandfather is eighty, ___ he still works in his garden every day.",
-        "fullSentence": "My grandfather is eighty, but he still works in his garden every day.",
-        "translation": "我的祖父八十歲了，但他仍然每天在花園裡工作。",
-        "clue": "年紀大卻還在工作，語氣轉折",
-        "answerEntryId": "u26:but",
-        "distractorEntryIds": [
-          "u26:or",
-          "u26:because",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bag looks small, ___ it can hold a lot of books.",
@@ -355,18 +307,6 @@
       "spellingHint": "h-o-w-e-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shirt looks nice. ___, it is too small for me.",
-        "fullSentence": "The shirt looks nice. however, it is too small for me.",
-        "translation": "這件襯衫看起來不錯。然而，它對我來說太小了。",
-        "clue": "第二句轉折，放在句首",
-        "answerEntryId": "u26:however",
-        "distractorEntryIds": [
-          "u26:because",
-          "u26:though",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ben studied hard for the test. ___, he did not pass it.",
@@ -441,18 +381,6 @@
       "spellingHint": "i-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ I were you, I would say sorry to her first.",
-        "fullSentence": "if I were you, I would say sorry to her first.",
-        "translation": "如果我是你，我會先跟她說抱歉。",
-        "clue": "假設身分，後面用 would",
-        "answerEntryId": "u26:if",
-        "distractorEntryIds": [
-          "u26:because",
-          "u26:though",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ I had a million dollars, I would travel around the world.",
@@ -527,18 +455,6 @@
       "spellingHint": "n-e-i-t-h-e-r n-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ Ken nor Amy finished lunch, so they are both hungry now.",
-        "fullSentence": "neither...nor Ken nor Amy finished lunch, so they are both hungry now.",
-        "translation": "Ken 和 Amy 都沒有吃完午餐，所以他們現在都餓了。",
-        "clue": "兩個人都沒有，句子裡有 nor",
-        "answerEntryId": "u26:neither...nor",
-        "distractorEntryIds": [
-          "u26:and",
-          "u26:or",
-          "u26:but"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ my brother nor my sister likes horror movies, so we never watch them.",
@@ -613,18 +529,6 @@
       "spellingHint": "o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Is your English class in the morning ___ in the afternoon?",
-        "fullSentence": "Is your English class in the morning or in the afternoon?",
-        "translation": "你的英文課是在上午還是下午？",
-        "clue": "二選一的疑問句",
-        "answerEntryId": "u26:or",
-        "distractorEntryIds": [
-          "u26:and",
-          "u26:but",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Which season do you like more, summer ___ winter?",
@@ -699,18 +603,6 @@
       "spellingHint": "s-i-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken has played the piano ___ he was five years old.",
-        "fullSentence": "Ken has played the piano since he was five years old.",
-        "translation": "Ken 從五歲起就一直在彈鋼琴。",
-        "clue": "現在完成式 + 過去的時間點",
-        "answerEntryId": "u26:since",
-        "distractorEntryIds": [
-          "u26:because",
-          "u26:though",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We have been good friends ___ 2010.",
@@ -785,18 +677,6 @@
       "spellingHint": "t-h-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Winter in Canada is much colder ___ winter in Taiwan.",
-        "fullSentence": "Winter in Canada is much colder than winter in Taiwan.",
-        "translation": "加拿大的冬天比台灣的冬天冷得多。",
-        "clue": "colder 是比較級，後面接比較對象",
-        "answerEntryId": "u26:than",
-        "distractorEntryIds": [
-          "u26:as",
-          "u26:because",
-          "u26:but"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are more students in our class ___ in their class.",
@@ -871,18 +751,6 @@
       "spellingHint": "t-h-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She said ___ she was too tired to go out.",
-        "fullSentence": "She said that she was too tired to go out.",
-        "translation": "她說她太累了，不想出門。",
-        "clue": "引導所說的內容",
-        "answerEntryId": "u26:that",
-        "distractorEntryIds": [
-          "u26:if",
-          "u26:or",
-          "u26:though"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I hope ___ you can come to my birthday party next Friday.",
@@ -957,18 +825,6 @@
       "spellingHint": "t-h-o-u-g-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ he is only six, he can swim across the pool.",
-        "fullSentence": "though he is only six, he can swim across the pool.",
-        "translation": "雖然他只有六歲，他卻能游過整個泳池。",
-        "clue": "年紀小卻做得到，讓步語氣",
-        "answerEntryId": "u26:though",
-        "distractorEntryIds": [
-          "u26:because",
-          "u26:if",
-          "u26:than"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It was raining hard, ___ we still had the picnic.",

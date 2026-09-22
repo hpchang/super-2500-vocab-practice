@@ -11,18 +11,6 @@
       "spellingHint": "a-p-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher held up the letter A and a red ___ from the basket.",
-        "fullSentence": "The teacher held up the letter A and a red apple from the basket.",
-        "translation": "老師舉起字母 A 和籃子裡的一顆紅蘋果。",
-        "clue": "以 A 開頭的紅色水果",
-        "answerEntryId": "u9:apple",
-        "distractorEntryIds": [
-          "u9:banana",
-          "u9:lemon",
-          "u9:pineapple"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Snow White bit into a poisonous ___ and fell asleep.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We ___ a cake in the oven for Dad's birthday.",
-        "fullSentence": "We bake a cake in the oven for Dad's birthday.",
-        "translation": "我們用烤箱烤蛋糕慶祝爸爸的生日。",
-        "clue": "用烤箱做糕點",
-        "answerEntryId": "u9:bake",
-        "distractorEntryIds": [
-          "u9:boil",
-          "u9:fry",
-          "u9:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bread is ready when you ___ it in the oven for thirty minutes.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-a-n-a-n-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The monkeys at the zoo always ask for a yellow ___.",
-        "fullSentence": "The monkeys at the zoo always ask for a yellow banana.",
-        "translation": "動物園裡的猴子總是想要一根黃色的香蕉。",
-        "clue": "猴子最愛的黃色長形水果",
-        "answerEntryId": "u9:banana",
-        "distractorEntryIds": [
-          "u9:peach",
-          "u9:apple",
-          "u9:grape"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Monkeys go crazy for this long yellow ___ that grows in warm places.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-e-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Red ___ soup is a popular dessert in Taiwan.",
-        "fullSentence": "Red bean soup is a popular dessert in Taiwan.",
-        "translation": "紅豆湯是台灣受歡迎的甜點。",
-        "clue": "紅豆湯的豆",
-        "answerEntryId": "u9:bean",
-        "distractorEntryIds": [
-          "u9:corn",
-          "u9:noodle",
-          "u9:rice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer grows a kind of ___ that we cook and eat as small seeds.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-e-e-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Taiwanese ___ noodle soup is famous around the world.",
-        "fullSentence": "Taiwanese beef noodle soup is famous around the world.",
-        "translation": "台灣牛肉麵在全世界都很有名。",
-        "clue": "牛肉麵裡的肉",
-        "answerEntryId": "u9:beef",
-        "distractorEntryIds": [
-          "u9:pork",
-          "u9:chicken",
-          "u9:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Cows give us ___. It is the red meat in hamburgers.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-e-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The restaurant does not serve ___ to anyone under eighteen.",
-        "fullSentence": "The restaurant does not serve beer to anyone under eighteen.",
-        "translation": "餐廳不提供啤酒給十八歲以下的人。",
-        "clue": "未滿十八歲不能喝的飲料",
-        "answerEntryId": "u9:beer",
-        "distractorEntryIds": [
-          "u9:tea",
-          "u9:juice",
-          "u9:milk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Some adults like to drink cold ___ when they watch a game with friends.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-i-t-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Without sugar, dark chocolate can taste quite ___.",
-        "fullSentence": "Without sugar, dark chocolate can taste quite bitter.",
-        "translation": "不加糖的話，黑巧克力會嚐起來相當苦。",
-        "clue": "不加糖黑巧克力的味道",
-        "answerEntryId": "u9:bitter",
-        "distractorEntryIds": [
-          "u9:sour",
-          "u9:salty",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The medicine is so ___ that the child made a funny face after taking it.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-o-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "First ___ the water, and then put the noodles in.",
-        "fullSentence": "First boil the water, and then put the noodles in.",
-        "translation": "先把水煮開，再把麵條放進去。",
-        "clue": "把水加熱到滾",
-        "answerEntryId": "u9:boil",
-        "distractorEntryIds": [
-          "u9:bake",
-          "u9:fry",
-          "u9:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water starts to bubble loudly at 100 degrees, and we ___ it in a pot on the stove.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-o-w-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She poured the hot soup into a deep ___.",
-        "fullSentence": "She poured the hot soup into a deep bowl.",
-        "translation": "她把熱湯倒進一個深碗裡。",
-        "clue": "圓形深底的容器，用來裝湯或飯",
-        "answerEntryId": "u9:bowl",
-        "distractorEntryIds": [
-          "u9:plate",
-          "u9:cup",
-          "u9:glass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The hungry boy asked for another ___ of rice because he was still hungry.",
@@ -785,18 +677,6 @@
       "spellingHint": "b-r-e-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baker gets up early to bake fresh ___ every day.",
-        "fullSentence": "The baker gets up early to bake fresh bread every day.",
-        "translation": "麵包師傅每天早起烤新鮮的麵包。",
-        "clue": "烘焙師傅用烤箱做的主食",
-        "answerEntryId": "u9:bread",
-        "distractorEntryIds": [
-          "u9:cake",
-          "u9:cookie",
-          "u9:bun"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "For breakfast, I like to toast my ___ and put butter on it.",
@@ -871,18 +751,6 @@
       "spellingHint": "b-r-e-a-k-f-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A good ___ gives you energy to start the day.",
-        "fullSentence": "A good breakfast gives you energy to start the day.",
-        "translation": "一頓好的早餐讓你有活力開始一天。",
-        "clue": "一天的第一餐",
-        "answerEntryId": "u9:breakfast",
-        "distractorEntryIds": [
-          "u9:lunch",
-          "u9:dinner",
-          "u9:meal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom makes eggs and toast for my ___ before I go to school in the morning.",
@@ -957,18 +825,6 @@
       "spellingHint": "b-r-u-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On Sundays we sleep past ten, so one late-morning ___ takes the place of two separate meals.",
-        "fullSentence": "On Sundays we sleep past ten, so one late-morning brunch takes the place of two separate meals.",
-        "translation": "週日我們會睡到很晚，所以吃早午餐，不吃早餐和午餐。",
-        "clue": "早餐和午餐合併的一餐",
-        "answerEntryId": "u9:brunch",
-        "distractorEntryIds": [
-          "u9:breakfast",
-          "u9:lunch",
-          "u9:supper"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The word ___ comes from breakfast plus lunch, eaten in the late morning.",
@@ -1043,18 +899,6 @@
       "spellingHint": "b-u-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hamburger is held together by a soft round ___ cut in half.",
-        "fullSentence": "The hamburger is held together by a soft round bun cut in half.",
-        "translation": "漢堡由一個切成兩半的柔軟圓麵包上下夾住。",
-        "clue": "漢堡上下的小圓麵包",
-        "answerEntryId": "u9:bun",
-        "distractorEntryIds": [
-          "u9:bread",
-          "u9:cake",
-          "u9:cookie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baker shaped the dough into a small round ___ and baked it in the oven.",
@@ -1129,18 +973,6 @@
       "spellingHint": "b-u-r-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fast food restaurant sells a ___ with cheese and pickles inside.",
-        "fullSentence": "The fast food restaurant sells a burger with cheese and pickles inside.",
-        "translation": "這家速食店賣的漢堡裡面夾起司和酸黃瓜。",
-        "clue": "速食店的招牌夾肉麵包",
-        "answerEntryId": "u9:burger",
-        "distractorEntryIds": [
-          "u9:sandwich",
-          "u9:hot dog",
-          "u9:pizza"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On children's menus this is often written with a shorter name than hamburger: just ___.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "b-u-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Don't leave the toast in the toaster too long, or it will ___ and turn black.",
-        "fullSentence": "Don't leave the toast in the toaster too long, or it will burn and turn black.",
-        "translation": "別把吐司放在烤麵包機裡太久，不然會烤焦變黑。",
-        "clue": "烤過頭變黑",
-        "answerEntryId": "u9:burn",
-        "distractorEntryIds": [
-          "u9:boil",
-          "u9:bake",
-          "u9:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The pan stayed on the stove for hours and stayed scalding; she touched it and got a small ___.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "b-u-t-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad spread yellow ___ on his toast because he does not like the sweet fruit kind.",
-        "fullSentence": "Dad spread yellow butter on his toast because he does not like the sweet fruit kind.",
-        "translation": "爸爸在吐司上塗黃色奶油而不是果醬。",
-        "clue": "塗在吐司上的黃色油脂",
-        "answerEntryId": "u9:butter",
-        "distractorEntryIds": [
-          "u9:jam",
-          "u9:cheese",
-          "u9:cream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Popcorn tastes great when it is cooked in hot ___.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "c-a-b-b-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dumpling filling is often made with pork and chopped ___.",
-        "fullSentence": "Dumpling filling is often made with pork and chopped cabbage.",
-        "translation": "水餃內餡常用豬肉和切碎的高麗菜做成。",
-        "clue": "水餃常見的青菜內餡",
-        "answerEntryId": "u9:cabbage",
-        "distractorEntryIds": [
-          "u9:lettuce",
-          "u9:carrot",
-          "u9:onion"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer carried a huge round green ___ on his back from the field.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "c-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom put ten candles on the birthday ___ so Amy could make a wish.",
-        "fullSentence": "Mom put ten candles on the birthday cake so Amy could make a wish.",
-        "translation": "媽媽在生日蛋糕上放了十根蠟燭，讓Amy許願。",
-        "clue": "過生日插蠟燭的甜點",
-        "answerEntryId": "u9:cake",
-        "distractorEntryIds": [
-          "u9:bread",
-          "u9:pie",
-          "u9:cookie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everyone sang Happy Birthday and shared the chocolate ___ on the table.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "c-a-n-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At Halloween, children knock on doors and ask for ___.",
-        "fullSentence": "At Halloween, children knock on doors and ask for candy.",
-        "translation": "萬聖節時，小朋友會敲門要糖果。",
-        "clue": "萬聖節『不給糖就搗蛋』要的東西",
-        "answerEntryId": "u9:candy",
-        "distractorEntryIds": [
-          "u9:chocolate",
-          "u9:cake",
-          "u9:cookie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sweet shop sells ___ of many colors, and children line up to buy them.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "c-a-r-r-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Rabbits munch on a long orange ___ with their strong front teeth.",
-        "fullSentence": "Rabbits munch on a long orange carrot with their strong front teeth.",
-        "translation": "兔子用門牙啃著長長的橘色紅蘿蔔。",
-        "clue": "兔子最愛的橘色根莖蔬菜",
-        "answerEntryId": "u9:carrot",
-        "distractorEntryIds": [
-          "u9:corn",
-          "u9:melon",
-          "u9:pumpkin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The rabbit in the story always carries a bright orange ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "c-e-r-e-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pour the milk over the ___ and eat it with a spoon.",
-        "fullSentence": "Pour the milk over the cereal and eat it with a spoon.",
-        "translation": "把牛奶倒入穀片裡，用湯匙吃。",
-        "clue": "配牛奶吃的早餐穀片",
-        "answerEntryId": "u9:cereal",
-        "distractorEntryIds": [
-          "u9:rice",
-          "u9:soup",
-          "u9:salad"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On school mornings, the twins pour milk over their breakfast ___ in a bowl.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "c-h-e-e-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hamburger came with a slice of yellow ___ melted on top of the meat.",
-        "fullSentence": "The hamburger came with a slice of yellow cheese melted on top of the meat.",
-        "translation": "這個漢堡的肉上蓋著一片融化的黃色起司。",
-        "clue": "蓋在漢堡肉上的黃色片狀奶製品",
-        "answerEntryId": "u9:cheese",
-        "distractorEntryIds": [
-          "u9:butter",
-          "u9:egg",
-          "u9:ham"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In cartoons, the little mouse steals a piece of yellow ___.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "c-h-i-c-k-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fried ___ is a favorite food at family picnics.",
-        "fullSentence": "Fried chicken is a favorite food at family picnics.",
-        "translation": "炸雞是家人野餐時最受歡迎的食物。",
-        "clue": "炸過的雞肉",
-        "answerEntryId": "u9:chicken",
-        "distractorEntryIds": [
-          "u9:fish",
-          "u9:beef",
-          "u9:pork"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The farmer raises a ___ on the farm, and we eat its meat for dinner.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "c-h-o-c-o-l-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The brown bar in the red box is made from ground cocoa seeds and is called ___.",
-        "fullSentence": "The brown bar in the red box is made from ground cocoa seeds and is called chocolate.",
-        "translation": "紅盒子裡棕色的條狀糖果由可可做成，叫作巧克力。",
-        "clue": "可可做的棕色糖果",
-        "answerEntryId": "u9:chocolate",
-        "distractorEntryIds": [
-          "u9:candy",
-          "u9:cookie",
-          "u9:ice cream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The brown bar that melts in your mouth and is made from cocoa beans is called ___.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "c-h-o-p-s-t-i-c-k-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In Taiwan most people eat noodles with ___ instead of a knife and fork.",
-        "fullSentence": "In Taiwan most people eat noodles with chopsticks instead of a knife and fork.",
-        "translation": "在台灣，大部分人用筷子而不是叉子吃麵。",
-        "clue": "中式用餐使用的成對餐具",
-        "answerEntryId": "u9:chopsticks",
-        "distractorEntryIds": [
-          "u9:spoon",
-          "u9:straw",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The waitress brought the family two pairs of ___ for their noodles.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "c-o-f-f-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The smell of fresh ___ wakes Mom up every morning.",
-        "fullSentence": "The smell of fresh coffee wakes Mom up every morning.",
-        "translation": "新鮮咖啡的香味每天早上喚醒媽媽。",
-        "clue": "早上提神的熱飲",
-        "answerEntryId": "u9:coffee",
-        "distractorEntryIds": [
-          "u9:tea",
-          "u9:milk",
-          "u9:juice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grown-ups drink ___ to stay awake because it keeps away sleepiness.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "c-o-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bubbles tickled my nose when I drank the sweet brown ___.",
-        "fullSentence": "The bubbles tickled my nose when I drank the sweet brown Coke.",
-        "translation": "我喝可樂時，氣泡在鼻子裡刺刺的。",
-        "clue": "有氣泡的甜棕色飲料",
-        "answerEntryId": "u9:Coke",
-        "distractorEntryIds": [
-          "u9:juice",
-          "u9:tea",
-          "u9:milk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dark and full of bubbles, ___ is the most famous soft drink in the world.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "c-o-n-t-a-i-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom put the leftover soup in a plastic ___ and kept it in the refrigerator.",
-        "fullSentence": "Mom put the leftover soup in a plastic container and kept it in the refrigerator.",
-        "translation": "媽媽把剩的湯裝進塑膠容器裡，放進冰箱保存。",
-        "clue": "裝食物或湯、能保存的盒子",
-        "answerEntryId": "u9:container",
-        "distractorEntryIds": [
-          "u9:bowl",
-          "u9:pan",
-          "u9:pot"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The shop sells lunch boxes, jars, and any ___ you need to store food.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "c-o-o-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Learn to ___ simple meals when you are home alone.",
-        "fullSentence": "Learn to cook simple meals when you are home alone.",
-        "translation": "獨自在家時，要學會煮簡單的飯菜。",
-        "clue": "把食材做成飯菜",
-        "answerEntryId": "u9:cook",
-        "distractorEntryIds": [
-          "u9:bake",
-          "u9:boil",
-          "u9:fry"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Raw salads are fine, but Mom usually ___ vegetables in a pot so they become soft.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "c-o-o-k-i-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little girl reached into the jar for another chocolate chip ___.",
-        "fullSentence": "The little girl reached into the jar for another chocolate chip cookie.",
-        "translation": "小女孩又伸手從罐子裡拿了一塊巧克力豆餅乾。",
-        "clue": "罐子裡的小圓烘焙零食",
-        "answerEntryId": "u9:cookie",
-        "distractorEntryIds": [
-          "u9:candy",
-          "u9:cake",
-          "u9:bread"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On Christmas Eve, children leave ___ and milk for Santa before bedtime.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "c-o-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grill the golden ___ on the cob with some butter and salt.",
-        "fullSentence": "Grill the golden corn on the cob with some butter and salt.",
-        "translation": "在玉米棒上塗點奶油和鹽來烤玉米。",
-        "clue": "長在穗軸上的金黃色穀物",
-        "answerEntryId": "u9:corn",
-        "distractorEntryIds": [
-          "u9:rice",
-          "u9:bean",
-          "u9:potato"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "At the night market we bought a stick of hot buttered ___.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "c-r-e-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Whip the cold ___ until it becomes thick enough to top the cake.",
-        "fullSentence": "Whip the cold cream until it becomes thick enough to top the cake.",
-        "translation": "把冰鮮奶油打到夠濃稠，可以鋪在蛋糕上。",
-        "clue": "打發後鋪在蛋糕上的白色鮮奶油",
-        "answerEntryId": "u9:cream",
-        "distractorEntryIds": [
-          "u9:butter",
-          "u9:cheese",
-          "u9:milk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Strawberries and ___ are a perfect dessert in summer.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "c-u-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa drinks his morning tea from a small ___.",
-        "fullSentence": "Grandpa drinks his morning tea from a small cup.",
-        "translation": "爺爺用小杯子喝他的晨間茶。",
-        "clue": "喝茶用的小型有把容器",
-        "answerEntryId": "u9:cup",
-        "distractorEntryIds": [
-          "u9:glass",
-          "u9:bowl",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She won a gold ___ as the best player in the tennis game.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "d-e-l-i-c-i-o-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The hot soup tasted so ___ that I asked for a second bowl.",
-        "fullSentence": "The hot soup tasted so delicious that I asked for a second bowl.",
-        "translation": "奶奶的熱湯好好喝，我又要了一碗。",
-        "clue": "喝完還想再來一碗的味道",
-        "answerEntryId": "u9:delicious",
-        "distractorEntryIds": [
-          "u9:fresh",
-          "u9:sour",
-          "u9:salty"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fried rice smells ___, so everyone at the table wants some.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "d-e-s-s-e-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the main course, the waiter brought us a sweet ___ of chocolate cake.",
-        "fullSentence": "After the main course, the waiter brought us a sweet dessert of chocolate cake.",
-        "translation": "主菜之後，服務生端給我們巧克力蛋糕當甜點。",
-        "clue": "主菜之後享用的甜食",
-        "answerEntryId": "u9:dessert",
-        "distractorEntryIds": [
-          "u9:snack",
-          "u9:meal",
-          "u9:breakfast"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The sweet course you eat at the end of a meal, like cake or ice cream, is the ___.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "d-i-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Too many sweets are bad for a healthy ___.",
-        "fullSentence": "Too many sweets are bad for a healthy diet.",
-        "translation": "吃太多甜食對健康飲食不好。",
-        "clue": "每天吃的東西——飲食習慣",
-        "answerEntryId": "u9:diet",
-        "distractorEntryIds": [
-          "u9:meal",
-          "u9:snack",
-          "u9:dessert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor told Grandpa to change his ___ and eat less fried food.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "d-i-n-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After a long day at school, the whole family sat down to ___ together.",
-        "fullSentence": "After a long day at school, the whole family sat down to dinner together.",
-        "translation": "在學校一整天之後，全家坐下來一起吃晚餐。",
-        "clue": "晚上全家一起吃的那餐",
-        "answerEntryId": "u9:dinner",
-        "distractorEntryIds": [
-          "u9:breakfast",
-          "u9:lunch",
-          "u9:meal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma cooks a big ___ every evening, and we all eat together at seven.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "d-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the party, there was a tall ___ of dirty plates by the sink.",
-        "fullSentence": "After the party, there was a tall dish of dirty plates by the sink.",
-        "translation": "派對結束後，水槽邊堆了一疊髒盤子。",
-        "clue": "洗碗時要洗的盤碟",
-        "answerEntryId": "u9:dish",
-        "distractorEntryIds": [
-          "u9:plate",
-          "u9:bowl",
-          "u9:cup"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Whose turn is it to wash the dirty ___ after the meal today?",
@@ -3279,18 +2823,6 @@
       "spellingHint": "d-o-u-g-h-n-u-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police officers shared coffee and a ring-shaped ___ during their break.",
-        "fullSentence": "The police officers shared coffee and a ring-shaped doughnut during their break.",
-        "translation": "警察們休息時分享了咖啡和圈形的甜甜圈。",
-        "clue": "圈形、中間有洞的甜點",
-        "answerEntryId": "u9:doughnut",
-        "distractorEntryIds": [
-          "u9:cake",
-          "u9:cookie",
-          "u9:bun"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fry this ring of sweet dough in hot oil until it turns golden, then sugar it: a ___.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "d-r-i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Players ___ lots of water before and after the game to stay cool.",
-        "fullSentence": "Players drink lots of water before and after the game to stay cool.",
-        "translation": "球員比賽前後都喝很多水來保持涼爽。",
-        "clue": "把水或飲料喝進嘴裡",
-        "answerEntryId": "u9:drink",
-        "distractorEntryIds": [
-          "u9:eat",
-          "u9:cook",
-          "u9:order"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We should not ___ soda with every meal because it has too much sugar.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "d-u-m-p-l-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On Lunar New Year's Eve, every family boils ___ for good luck.",
-        "fullSentence": "On Lunar New Year's Eve, every family boils dumpling for good luck.",
-        "translation": "除夕夜，家家戶戶煮水餃求好運。",
-        "clue": "過年吃的包餡食物",
-        "answerEntryId": "u9:dumpling",
-        "distractorEntryIds": [
-          "u9:noodle",
-          "u9:rice",
-          "u9:toast"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ is made by wrapping meat and vegetables in a thin skin of dough.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wash your hands before you ___ your lunch.",
-        "fullSentence": "Wash your hands before you eat your lunch.",
-        "translation": "吃午餐前要先洗手。",
-        "clue": "把食物放進嘴裡",
-        "answerEntryId": "u9:eat",
-        "distractorEntryIds": [
-          "u9:drink",
-          "u9:cook",
-          "u9:order"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The children ___ a quick breakfast before running for the bus.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "e-d-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The pie tin has a crimped ___ around it so it is easy to hold.",
-        "fullSentence": "The pie tin has a crimped edge around it so it is easy to hold.",
-        "translation": "派的烤盤邊緣有壓花，方便拿取。",
-        "clue": "盤子最外圍的部分",
-        "answerEntryId": "u9:edge",
-        "distractorEntryIds": [
-          "u9:lid",
-          "u9:pot",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Careful! The sharp ___ of the can might cut your finger.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "e-g-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A hen lays an ___ almost every morning.",
-        "fullSentence": "A hen lays an egg almost every morning.",
-        "translation": "母雞幾乎每天早上都下一顆蛋。",
-        "clue": "母雞生下的圓形食物",
-        "answerEntryId": "u9:egg",
-        "distractorEntryIds": [
-          "u9:cheese",
-          "u9:butter",
-          "u9:chocolate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom fried one ___ sunny side up for my breakfast.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "f-a-s-t f-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Hamburgers, fries and fried chicken are all kinds of ___.",
-        "fullSentence": "Hamburgers, fries and fried chicken are all kinds of fast food.",
-        "translation": "漢堡、薯條和炸雞都是速食。",
-        "clue": "出餐迅速的便利食品",
-        "answerEntryId": "u9:fast food",
-        "distractorEntryIds": [
-          "u9:food",
-          "u9:snack",
-          "u9:dessert"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Chain restaurants with drive-through windows mostly sell ___.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "f-i-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa caught a big ___ in the river and cooked it for dinner.",
-        "fullSentence": "Grandpa caught a big fish in the river and cooked it for dinner.",
-        "translation": "爺爺在河裡釣到一條大魚，晚餐把它煮來吃。",
-        "clue": "河裡釣到、會游泳的食物",
-        "answerEntryId": "u9:fish",
-        "distractorEntryIds": [
-          "u9:shrimp",
-          "u9:chicken",
-          "u9:beef"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Seafood restaurants usually serve fresh ___ from the ocean.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "f-l-o-u-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before kneading bread dough, we measure three cups of white ___.",
-        "fullSentence": "Before kneading bread dough, we measure three cups of white flour.",
-        "translation": "揉麵包麵團之前，我們量好三杯白色麵粉。",
-        "clue": "做麵包用的白色粉末",
-        "answerEntryId": "u9:flour",
-        "distractorEntryIds": [
-          "u9:sugar",
-          "u9:salt",
-          "u9:rice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baker mixes ___ with water and yeast to start making bread.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "f-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The supermarket sells all kinds of ___ , from bread to milk.",
-        "fullSentence": "The supermarket sells all kinds of food , from bread to milk.",
-        "translation": "這家超市賣各種食物，從麵包到牛奶都有。",
-        "clue": "可以吃的東西的統稱",
-        "answerEntryId": "u9:food",
-        "distractorEntryIds": [
-          "u9:snack",
-          "u9:meal",
-          "u9:diet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Before players start a game, they need plenty of healthy ___.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "f-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the steak house each diner holds a cutting tool in one hand and a ___ in the other.",
-        "fullSentence": "At the steak house each diner holds a cutting tool in one hand and a fork in the other.",
-        "translation": "在西餐廳裡，每个人用刀叉吃牛排。",
-        "clue": "和刀一起用的餐具",
-        "answerEntryId": "u9:fork",
-        "distractorEntryIds": [
-          "u9:knife",
-          "u9:spoon",
-          "u9:straw"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In Western restaurants, each person eats steak with a cutting tool and a ___ together.",
@@ -4226,18 +3638,6 @@
       "spellingHint": "f-r-e-n-c-h f-r-i-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children dipped their hot ___ in ketchup at the fast food restaurant.",
-        "fullSentence": "The children dipped their hot French fries in ketchup at the fast food restaurant.",
-        "translation": "孩子們在速食店把熱薯條沾番茄醬。",
-        "clue": "速食店的炸馬鈴薯條",
-        "answerEntryId": "u9:French fries",
-        "distractorEntryIds": [
-          "u9:popcorn",
-          "u9:potato",
-          "u9:noodle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A burger meal usually comes with ___ and a drink.",
@@ -4312,18 +3712,6 @@
       "spellingHint": "f-r-e-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Farmers pick the vegetables in the morning so they stay ___ at the market.",
-        "fullSentence": "Farmers pick the vegetables in the morning so they stay fresh at the market.",
-        "translation": "農夫早上採收蔬菜，讓它們在市場上保持新鮮。",
-        "clue": "剛採下、沒有枯掉",
-        "answerEntryId": "u9:fresh",
-        "distractorEntryIds": [
-          "u9:hot",
-          "u9:sweet",
-          "u9:delicious"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This bread came out of the oven just minutes ago, still warm and ___.",
@@ -4398,18 +3786,6 @@
       "spellingHint": "f-r-u-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Apples, bananas and grapes are all kinds of ___.",
-        "fullSentence": "Apples, bananas and grapes are all kinds of fruit.",
-        "translation": "蘋果、香蕉和葡萄都是水果。",
-        "clue": "蘋果香蕉的統稱",
-        "answerEntryId": "u9:fruit",
-        "distractorEntryIds": [
-          "u9:vegetable",
-          "u9:food",
-          "u9:snack"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "After dinner, Mom always serves some ___ like watermelon or papaya.",
@@ -4484,18 +3860,6 @@
       "spellingHint": "f-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Heat some oil in the pan and ___ the eggs until the whites turn white.",
-        "fullSentence": "Heat some oil in the pan and fry the eggs until the whites turn white.",
-        "translation": "在鍋裡加熱油，把蛋煎到蛋白變白。",
-        "clue": "用熱油煎炸食物",
-        "answerEntryId": "u9:fry",
-        "distractorEntryIds": [
-          "u9:boil",
-          "u9:bake",
-          "u9:cook"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fried chicken is called that because we ___ the chicken pieces in hot oil.",
@@ -4570,18 +3934,6 @@
       "spellingHint": "f-u-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "No thank you, I cannot eat another bite — I am ___ from the big lunch.",
-        "fullSentence": "No thank you, I cannot eat another bite — I am full from the big lunch.",
-        "translation": "不用了，我一口也吃不下了——豐盛的午餐讓我飽了。",
-        "clue": "肚子裝滿了、不能再吃",
-        "answerEntryId": "u9:full",
-        "distractorEntryIds": [
-          "u9:thirsty",
-          "u9:hot",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The glass was filled to the top with juice — it was completely ___.",
@@ -4656,18 +4008,6 @@
       "spellingHint": "g-l-a-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pour the milk into a tall ___ and add some ice.",
-        "fullSentence": "Pour the milk into a tall glass and add some ice.",
-        "translation": "把牛奶倒進高玻璃杯裡，再加些冰塊。",
-        "clue": "透明、裝飲料的高杯",
-        "answerEntryId": "u9:glass",
-        "distractorEntryIds": [
-          "u9:cup",
-          "u9:bowl",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Windows are made of ___ , so be careful not to break them.",
@@ -4742,18 +4082,6 @@
       "spellingHint": "g-r-a-p-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little boy picked one purple ___ from the bunch and ate it.",
-        "fullSentence": "The little boy picked one purple grape from the bunch and ate it.",
-        "translation": "小男孩從一串葡萄裡摘下一顆紫色的吃了。",
-        "clue": "一顆顆長成串的小圓果",
-        "answerEntryId": "u9:grape",
-        "distractorEntryIds": [
-          "u9:guava",
-          "u9:peach",
-          "u9:melon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Purple or green, these small round ___ grow in bunches.",
@@ -4828,18 +4156,6 @@
       "spellingHint": "g-u-a-v-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The green ___ gets soft and sweet when it is ripe.",
-        "fullSentence": "The green guava gets soft and sweet when it is ripe.",
-        "translation": "綠色的芭樂熟了之後會變軟變甜。",
-        "clue": "綠皮、台灣常見的水果",
-        "answerEntryId": "u9:guava",
-        "distractorEntryIds": [
-          "u9:apple",
-          "u9:lemon",
-          "u9:pear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many people in Taiwan love to eat ___ with a little salt or sour plum powder.",
@@ -4914,18 +4230,6 @@
       "spellingHint": "h-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom put thin pink slices of ___ in my sandwich.",
-        "fullSentence": "Mom put thin pink slices of ham in my sandwich.",
-        "translation": "媽媽在我的三明治裡放了幾片薄薄的粉紅色火腿。",
-        "clue": "三明治裡的粉紅色肉片",
-        "answerEntryId": "u9:ham",
-        "distractorEntryIds": [
-          "u9:beef",
-          "u9:cheese",
-          "u9:egg"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fried rice with ___ and egg is a quick favorite dinner.",
@@ -5000,18 +4304,6 @@
       "spellingHint": "h-a-m-b-u-r-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The boy ordered a ___ with beef, lettuce and tomato inside the round bun.",
-        "fullSentence": "The boy ordered a hamburger with beef, lettuce and tomato inside the round bun.",
-        "translation": "男孩點了一個圓麵包裡夾牛肉、生菜和番茄的漢堡。",
-        "clue": "圓麵包夾牛肉餅的速食",
-        "answerEntryId": "u9:hamburger",
-        "distractorEntryIds": [
-          "u9:sandwich",
-          "u9:hot dog",
-          "u9:burger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The name ___ comes from the German city of Hamburg.",
@@ -5086,18 +4378,6 @@
       "spellingHint": "h-o-n-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bees store sweet ___ in their hexagon cells.",
-        "fullSentence": "The bees store sweet honey in their hexagon cells.",
-        "translation": "蜜蜂把甜甜的蜂蜜存在六角形的巢室裡。",
-        "clue": "蜜蜂釀造的甜物質",
-        "answerEntryId": "u9:honey",
-        "distractorEntryIds": [
-          "u9:sugar",
-          "u9:jam",
-          "u9:cream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bees carry sweet flower juice back to the hive and turn it into ___.",
@@ -5172,18 +4452,6 @@
       "spellingHint": "h-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Blow on the ___ soup before you taste it, or you will burn your tongue.",
-        "fullSentence": "Blow on the hot soup before you taste it, or you will burn your tongue.",
-        "translation": "喝熱湯前先吹一吹，不然會燙到舌頭。",
-        "clue": "溫度很高的湯",
-        "answerEntryId": "u9:hot",
-        "distractorEntryIds": [
-          "u9:salty",
-          "u9:sour",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In summer many people enjoy ___ weather at the beach.",
@@ -5258,18 +4526,6 @@
       "spellingHint": "h-o-t d-o-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the baseball game, Dad bought me a ___ with mustard and ketchup.",
-        "fullSentence": "At the baseball game, Dad bought me a hot dog with mustard and ketchup.",
-        "translation": "棒球賽時，爸爸給我買了一個加黃芥末和番茄醬的熱狗。",
-        "clue": "球場常見的夾香腸點心",
-        "answerEntryId": "u9:hot dog",
-        "distractorEntryIds": [
-          "u9:hamburger",
-          "u9:sandwich",
-          "u9:burger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A long sausage in a sliced soft bun is called a ___.",
@@ -5344,18 +4600,6 @@
       "spellingHint": "i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The drink warms up quickly in summer, so add some ___ to keep it cold.",
-        "fullSentence": "The drink warms up quickly in summer, so add some ice to keep it cold.",
-        "translation": "夏天飲料很快變溫，加些冰塊保持冰涼。",
-        "clue": "讓飲料變冷的凍水",
-        "answerEntryId": "u9:ice",
-        "distractorEntryIds": [
-          "u9:sugar",
-          "u9:salt",
-          "u9:water"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Leave a filled bottle outside on a freezing night and the liquid inside hardens into ___.",
@@ -5430,18 +4674,6 @@
       "spellingHint": "i-c-e c-r-e-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Nothing beats a cold scoop of ___ on a cone in summer.",
-        "fullSentence": "Nothing beats a cold scoop of ice cream on a cone in summer.",
-        "translation": "夏天沒有什麼比得上一球甜筒冰淇淋。",
-        "clue": "甜筒上球狀的冷甜點",
-        "answerEntryId": "u9:ice cream",
-        "distractorEntryIds": [
-          "u9:cake",
-          "u9:milkshake",
-          "u9:cream"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The van plays music so children know it sells ___.",
@@ -5516,18 +4748,6 @@
       "spellingHint": "i-n-s-t-a-n-t n-o-o-d-l-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Just pour boiling water over the ___ and wait three minutes.",
-        "fullSentence": "Just pour boiling water over the instant noodles and wait three minutes.",
-        "translation": "只要把滾水倒進泡麵裡，等三分鐘就好。",
-        "clue": "用熱水泡三分鐘就能吃",
-        "answerEntryId": "u9:instant noodles",
-        "distractorEntryIds": [
-          "u9:noodle",
-          "u9:dumpling",
-          "u9:tea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Students in the dorm often cook ___ late at night when the cafeteria is closed.",
@@ -5602,18 +4822,6 @@
       "spellingHint": "j-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Spread the sweet ___ made from strawberries onto your toast.",
-        "fullSentence": "Spread the sweet jam made from strawberries onto your toast.",
-        "translation": "把草莓做成的甜果醬塗在吐司上。",
-        "clue": "塗在吐司上的甜果漿",
-        "answerEntryId": "u9:jam",
-        "distractorEntryIds": [
-          "u9:butter",
-          "u9:honey",
-          "u9:sugar"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma cooks fruit with sugar to make ___ for our bread.",
@@ -5688,18 +4896,6 @@
       "spellingHint": "j-u-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Squeeze the oranges and pour the ___ into a tall glass.",
-        "fullSentence": "Squeeze the oranges and pour the juice into a tall glass.",
-        "translation": "把柳橙榨汁，倒進高玻璃杯裡。",
-        "clue": "水果榨出來的液體",
-        "answerEntryId": "u9:juice",
-        "distractorEntryIds": [
-          "u9:tea",
-          "u9:milk",
-          "u9:soda"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Fresh orange ___ is my favorite drink at breakfast.",
@@ -5774,18 +4970,6 @@
       "spellingHint": "k-e-t-c-h-u-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Squeeze some red ___ from the bottle over your fries.",
-        "fullSentence": "Squeeze some red ketchup from the bottle over your fries.",
-        "translation": "從瓶子裡擠一些紅色番茄醬到薯條上。",
-        "clue": "紅色瓶裝的沾醬",
-        "answerEntryId": "u9:ketchup",
-        "distractorEntryIds": [
-          "u9:soy sauce",
-          "u9:vinegar",
-          "u9:pepper"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The French fries were not complete without a puddle of red ___ from the squeeze bottle.",
@@ -5860,18 +5044,6 @@
       "spellingHint": "k-n-i-f-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cut the cake into eight pieces with a long ___.",
-        "fullSentence": "Cut the cake into eight pieces with a long knife.",
-        "translation": "用長刀把蛋糕切成八塊。",
-        "clue": "切東西用的利器",
-        "answerEntryId": "u9:knife",
-        "distractorEntryIds": [
-          "u9:fork",
-          "u9:spoon",
-          "u9:straw"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Be careful with the sharp ___ when you peel the apple.",
@@ -5946,18 +5118,6 @@
       "spellingHint": "l-e-m-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bright yellow ___ is so sour that it makes your lips pucker.",
-        "fullSentence": "The bright yellow lemon is so sour that it makes your lips pucker.",
-        "translation": "亮黃色的檸檬酸到讓你的嘴唇發皺。",
-        "clue": "黃色、非常酸的水果",
-        "answerEntryId": "u9:lemon",
-        "distractorEntryIds": [
-          "u9:orange",
-          "u9:mango",
-          "u9:peach"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Squeeze half a ___ into the water for a fresh sour taste.",
@@ -6032,18 +5192,6 @@
       "spellingHint": "l-e-t-t-u-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tear the crisp green ___ into pieces for the salad bowl.",
-        "fullSentence": "Tear the crisp green lettuce into pieces for the salad bowl.",
-        "translation": "把脆脆的綠萵苣撕成小片，放進沙拉碗。",
-        "clue": "沙拉常用的脆綠葉菜",
-        "answerEntryId": "u9:lettuce",
-        "distractorEntryIds": [
-          "u9:cabbage",
-          "u9:onion",
-          "u9:vegetable"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The hamburger came with a leaf of green ___ and a slice of tomato.",
@@ -6118,18 +5266,6 @@
       "spellingHint": "l-i-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cover the simmering soup kettle with a round ___ so the water boils faster.",
-        "fullSentence": "Cover the simmering soup kettle with a round lid so the water boils faster.",
-        "translation": "在湯鍋上蓋一個圓蓋子，水會滾得更快。",
-        "clue": "蓋在鍋口上的圓形片",
-        "answerEntryId": "u9:lid",
-        "distractorEntryIds": [
-          "u9:pan",
-          "u9:plate",
-          "u9:bowl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Twist the ___ onto the jam jar so the ants cannot crawl in.",
@@ -6204,18 +5340,6 @@
       "spellingHint": "l-i-q-u-i-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pour the ___ slowly so it will not splash out of the cup.",
-        "fullSentence": "Pour the liquid slowly so it will not splash out of the cup.",
-        "translation": "慢慢倒液體，才不會從杯子裡濺出來。",
-        "clue": "會流動、能被倒出的東西",
-        "answerEntryId": "u9:liquid",
-        "distractorEntryIds": [
-          "u9:water",
-          "u9:milk",
-          "u9:juice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Water pours and changes shape to match its container, because it is a ___.",
@@ -6290,18 +5414,6 @@
       "spellingHint": "l-u-n-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At noon the school bell rings and everyone lines up for ___.",
-        "fullSentence": "At noon the school bell rings and everyone lines up for lunch.",
-        "translation": "中午鐘響，大家排隊吃午餐。",
-        "clue": "中午吃的那一餐",
-        "answerEntryId": "u9:lunch",
-        "distractorEntryIds": [
-          "u9:breakfast",
-          "u9:dinner",
-          "u9:meal"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom packs rice and chicken into a box for my midday ___ at school.",
@@ -6376,18 +5488,6 @@
       "spellingHint": "m-a-n-g-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In summer Taiwan is full of sweet golden ___.",
-        "fullSentence": "In summer Taiwan is full of sweet golden mango.",
-        "translation": "夏天的台灣到處都是香甜的金黃芒果。",
-        "clue": "夏天盛產的黃色熱帶水果",
-        "answerEntryId": "u9:mango",
-        "distractorEntryIds": [
-          "u9:melon",
-          "u9:papaya",
-          "u9:guava"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Shaved ice piled with this sweet golden tropical fruit is a favorite Taiwan summer treat; the fruit topping is the ___.",
@@ -6462,18 +5562,6 @@
       "spellingHint": "m-e-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Breakfast, lunch and dinner together make the three daily ___.",
-        "fullSentence": "Breakfast, lunch and dinner together make the three daily meal.",
-        "translation": "早餐、午餐和晚餐是一天中的三餐。",
-        "clue": "一日三餐的統稱",
-        "answerEntryId": "u9:meal",
-        "distractorEntryIds": [
-          "u9:food",
-          "u9:diet",
-          "u9:snack"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma cooks a big ___ every Sunday for the whole family.",
@@ -6548,18 +5636,6 @@
       "spellingHint": "m-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Beef, pork and chicken are all kinds of ___.",
-        "fullSentence": "Beef, pork and chicken are all kinds of meat.",
-        "translation": "牛肉、豬肉和雞肉都是肉類。",
-        "clue": "動物身體可食用的部分統稱",
-        "answerEntryId": "u9:meat",
-        "distractorEntryIds": [
-          "u9:food",
-          "u9:vegetable",
-          "u9:fish"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Vegetarians avoid eating animals, so the restaurant serves them beans and ___ free dishes instead.",
@@ -6634,18 +5710,6 @@
       "spellingHint": "m-e-l-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cut the huge green ___ in half and scoop out the seeds in the middle.",
-        "fullSentence": "Cut the huge green melon in half and scoop out the seeds in the middle.",
-        "translation": "把巨大的綠甜瓜切半，挖出中間的籽。",
-        "clue": "又大又圓、切開吃瓤的瓜",
-        "answerEntryId": "u9:melon",
-        "distractorEntryIds": [
-          "u9:pumpkin",
-          "u9:watermelon",
-          "u9:papaya"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fruit stand sells slices of cold ___ on hot August afternoons.",
@@ -6720,18 +5784,6 @@
       "spellingHint": "m-e-n-u",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter handed us a ___ listing every dish the restaurant serves.",
-        "fullSentence": "The waiter handed us a menu listing every dish the restaurant serves.",
-        "translation": "服務生遞給我們列出所有菜色的菜單。",
-        "clue": "列出所有菜色的單子",
-        "answerEntryId": "u9:menu",
-        "distractorEntryIds": [
-          "u9:napkin",
-          "u9:plate",
-          "u9:bowl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look at the ___ to see today's specials before you decide.",
@@ -6806,18 +5858,6 @@
       "spellingHint": "m-i-l-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cows give us ___ , which we drink or churn into butter and cheese.",
-        "fullSentence": "Cows give us milk , which we drink or churn into butter and cheese.",
-        "translation": "乳牛給我們牛奶，我們可以直接喝，或攪成奶油和起司。",
-        "clue": "乳牛生產的白色飲品",
-        "answerEntryId": "u9:milk",
-        "distractorEntryIds": [
-          "u9:tea",
-          "u9:juice",
-          "u9:soda"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The white drink that comes from cows and helps children grow is ___.",
@@ -6892,18 +5932,6 @@
       "spellingHint": "m-i-l-k-s-h-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Blend ice cream and cold milk together until frothy, and you get a ___.",
-        "fullSentence": "Blend ice cream and cold milk together until frothy, and you get a milkshake.",
-        "translation": "把冰淇淋和冰牛奶打勻，就做成奶昔。",
-        "clue": "冰淇淋和牛奶打成的飲料",
-        "answerEntryId": "u9:milkshake",
-        "distractorEntryIds": [
-          "u9:juice",
-          "u9:tea",
-          "u9:soda"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The thick chocolate ___ must be eaten with a spoon before you can drink it.",
@@ -6978,18 +6006,6 @@
       "spellingHint": "m-o-o-n c-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Under the full moon of the Mid-Autumn Festival, families cut round ___ into wedges.",
-        "fullSentence": "Under the full moon of the Mid-Autumn Festival, families cut round moon cake into wedges.",
-        "translation": "中秋節的滿月下，全家把月餅切成小塊分享。",
-        "clue": "中秋節吃的圓形糕餅",
-        "answerEntryId": "u9:moon cake",
-        "distractorEntryIds": [
-          "u9:cake",
-          "u9:cookie",
-          "u9:pie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bakery only sells ___ around the Mid-Autumn Festival each autumn.",
@@ -7064,18 +6080,6 @@
       "spellingHint": "n-a-p-k-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wipe your mouth with a ___ after eating the juicy burger.",
-        "fullSentence": "Wipe your mouth with a napkin after eating the juicy burger.",
-        "translation": "吃完多汁的漢堡後用紙巾擦嘴。",
-        "clue": "擦嘴用的紙或布巾",
-        "answerEntryId": "u9:napkin",
-        "distractorEntryIds": [
-          "u9:straw",
-          "u9:plate",
-          "u9:menu"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The waiter placed a clean folded cloth beside each set of cutlery — a fresh ___.",
@@ -7150,18 +6154,6 @@
       "spellingHint": "n-o-o-d-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Lift the long thin ___ out of the hot broth with your chopsticks.",
-        "fullSentence": "Lift the long thin noodle out of the hot broth with your chopsticks.",
-        "translation": "用筷子把長細的麵條從熱湯裡夾起來。",
-        "clue": "長條狀的麵食",
-        "answerEntryId": "u9:noodle",
-        "distractorEntryIds": [
-          "u9:rice",
-          "u9:bean",
-          "u9:dumpling"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In Taiwan people eat long ___ on birthdays to wish for a long life.",
@@ -7236,18 +6228,6 @@
       "spellingHint": "n-u-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Crack the hard shell of the ___ and eat the kernel inside.",
-        "fullSentence": "Crack the hard shell of the nut and eat the kernel inside.",
-        "translation": "敲開堅果硬硬的外殼，吃裡面的果仁。",
-        "clue": "硬殼裡有果仁的食物",
-        "answerEntryId": "u9:nut",
-        "distractorEntryIds": [
-          "u9:bean",
-          "u9:egg",
-          "u9:corn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The squirrel hides a ___ under every tree root before winter.",
@@ -7322,18 +6302,6 @@
       "spellingHint": "o-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The egg sizzled the moment it hit the hot ___ in the wok.",
-        "fullSentence": "The egg sizzled the moment it hit the hot oil in the wok.",
-        "translation": "雞蛋一碰到鍋裡的熱油就滋滋作響。",
-        "clue": "讓食物下鍋發出滋滋聲的液體",
-        "answerEntryId": "u9:oil",
-        "distractorEntryIds": [
-          "u9:water",
-          "u9:tea",
-          "u9:juice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Olive ___ is pressed from ripe olives and used in salads.",
@@ -7408,18 +6376,6 @@
       "spellingHint": "o-n-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Slice the round layered ___ and your eyes will start to water.",
-        "fullSentence": "Slice the round layered onion and your eyes will start to water.",
-        "translation": "切開一層層的洋蔥，眼睛就會開始流淚。",
-        "clue": "切開會讓人流淚的蔬菜",
-        "answerEntryId": "u9:onion",
-        "distractorEntryIds": [
-          "u9:cabbage",
-          "u9:carrot",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cook cried while chopping a purple ___ for the beef stew.",
@@ -7494,18 +6450,6 @@
       "spellingHint": "o-r-a-n-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Peel the thick skin off the ___ before eating the sweet juicy segments inside.",
-        "fullSentence": "Peel the thick skin off the orange before eating the sweet juicy segments inside.",
-        "translation": "吃柳橙前要先剝掉厚皮，才能吃到裡面甜美的果瓣。",
-        "clue": "要剝厚皮、一瓣瓣吃的圓水果",
-        "answerEntryId": "u9:orange",
-        "distractorEntryIds": [
-          "u9:apple",
-          "u9:peach",
-          "u9:lemon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The round fruit named after its own color is the ___.",
@@ -7580,18 +6524,6 @@
       "spellingHint": "o-r-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter waited politely while the family decided what to ___ for dinner.",
-        "fullSentence": "The waiter waited politely while the family decided what to order for dinner.",
-        "translation": "服務生有禮地等這家人決定晚餐要點什麼。",
-        "clue": "在餐廳選定想吃的菜",
-        "answerEntryId": "u9:order",
-        "distractorEntryIds": [
-          "u9:eat",
-          "u9:cook",
-          "u9:drink"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tell the waiter your choices when you ___ the food.",
@@ -7666,18 +6598,6 @@
       "spellingHint": "p-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Slide the pancake onto the hot flat ___ and watch it bubble.",
-        "fullSentence": "Slide the pancake onto the hot flat pan and watch it bubble.",
-        "translation": "把麵糊滑進熱平底鍋，看它冒出氣泡。",
-        "clue": "淺底、煎餅用的鍋具",
-        "answerEntryId": "u9:pan",
-        "distractorEntryIds": [
-          "u9:pot",
-          "u9:lid",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom cracked two eggs into the hot ___ for breakfast.",
@@ -7752,18 +6672,6 @@
       "spellingHint": "p-a-p-a-y-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scoop the orange flesh and black seeds out of a long tropical ___ with green skin.",
-        "fullSentence": "Scoop the orange flesh and black seeds out of a long tropical papaya with green skin.",
-        "translation": "把長形綠皮木瓜的橙色果肉和黑籽挖出來。",
-        "clue": "橙肉黑籽的長形熱帶水果",
-        "answerEntryId": "u9:papaya",
-        "distractorEntryIds": [
-          "u9:mango",
-          "u9:melon",
-          "u9:guava"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blend this orange-fleshed tropical fruit with the white dairy drink to make the classic Taiwan breakfast beverage; the fruit is the ___.",
@@ -7838,18 +6746,6 @@
       "spellingHint": "p-e-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fuzzy skin of the ripe, pink-gold ___ comes off easily with your thumb.",
-        "fullSentence": "The fuzzy skin of the ripe, pink-gold peach comes off easily with your thumb.",
-        "translation": "熟桃子的毛皮用拇指一擦就掉。",
-        "clue": "毛茸茸、粉金色的水果",
-        "answerEntryId": "u9:peach",
-        "distractorEntryIds": [
-          "u9:pear",
-          "u9:apple",
-          "u9:mango"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the story, the giant grows from a huge seed inside a ___.",
@@ -7924,18 +6820,6 @@
       "spellingHint": "p-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ has a rounded bottom and a narrow neck, like a small light bulb.",
-        "fullSentence": "The pear has a rounded bottom and a narrow neck, like a small light bulb.",
-        "translation": "梨子底部圓、頸部細，像一個小燈泡。",
-        "clue": "形狀像燈泡的水果",
-        "answerEntryId": "u9:pear",
-        "distractorEntryIds": [
-          "u9:apple",
-          "u9:peach",
-          "u9:guava"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Chinese medicine says ___ soup soothes a sore throat in autumn.",
@@ -8010,18 +6894,6 @@
       "spellingHint": "p-e-p-p-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Twist the grinder to sprinkle hot black ___ over the fried egg.",
-        "fullSentence": "Twist the grinder to sprinkle hot black pepper over the fried egg.",
-        "translation": "轉動研磨器，把黑胡椒粉撒在煎蛋上。",
-        "clue": "用研磨器撒的辛辣調料",
-        "answerEntryId": "u9:pepper",
-        "distractorEntryIds": [
-          "u9:salt",
-          "u9:sugar",
-          "u9:candy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "'Salt and ___ ' are the classic seasonings on every Western table.",
@@ -8096,18 +6968,6 @@
       "spellingHint": "p-i-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bakery sold warm apple ___ with a golden flaky crust and sweet filling inside.",
-        "fullSentence": "The bakery sold warm apple pie with a golden flaky crust and sweet filling inside.",
-        "translation": "麵包店賣熱热的蘋果派，外皮金黃酥脆。",
-        "clue": "有酥脆外皮的烤甜點",
-        "answerEntryId": "u9:pie",
-        "distractorEntryIds": [
-          "u9:cake",
-          "u9:cookie",
-          "u9:moon cake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The pumpkin dessert with a golden flaky crust stars at the Thanksgiving table: a ___.",
@@ -8182,18 +7042,6 @@
       "spellingHint": "p-i-n-e-a-p-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tropical fruit with a spiky green crown and sweet yellow flesh is the ___.",
-        "fullSentence": "The tropical fruit with a spiky green crown and sweet yellow flesh is the pineapple.",
-        "translation": "頭上有綠色尖刺冠、果肉黃甜的水果就是鳳梨。",
-        "clue": "頭上戴綠冠的黃色水果",
-        "answerEntryId": "u9:pineapple",
-        "distractorEntryIds": [
-          "u9:mango",
-          "u9:papaya",
-          "u9:melon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A whole ___ looks like a big pine cone wearing a leafy hat.",
@@ -8268,18 +7116,6 @@
       "spellingHint": "p-i-z-z-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The round flat ___ came out of the oven with bubbling cheese and tomato sauce on top.",
-        "fullSentence": "The round flat pizza came out of the oven with bubbling cheese and tomato sauce on top.",
-        "translation": "披薩出爐時，上面的起司冒著泡泡、紅紅的番茄醬鋪底。",
-        "clue": "圓扁、有起司和醬的烤餅",
-        "answerEntryId": "u9:pizza",
-        "distractorEntryIds": [
-          "u9:pie",
-          "u9:burger",
-          "u9:cake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Italian ___ is baked as one big flat circle that everyone shares.",
@@ -8354,18 +7190,6 @@
       "spellingHint": "p-l-a-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Serve each guest's steak on a flat white ___ with knife and fork beside it.",
-        "fullSentence": "Serve each guest's steak on a flat white plate with knife and fork beside it.",
-        "translation": "把牛排裝在白平盤上，旁邊擺好刀叉。",
-        "clue": "平的、裝主食的餐具",
-        "answerEntryId": "u9:plate",
-        "distractorEntryIds": [
-          "u9:bowl",
-          "u9:cup",
-          "u9:saucer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wash the dirty ___ and forks after dinner.",
@@ -8440,18 +7264,6 @@
       "spellingHint": "p-o-p-c-o-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole bag of ___ popped loudly in the microwave.",
-        "fullSentence": "The whole bag of popcorn popped loudly in the microwave.",
-        "translation": "整包爆米花在微波爐裡劈啪作響地爆開。",
-        "clue": "微波時會爆開的零嘴",
-        "answerEntryId": "u9:popcorn",
-        "distractorEntryIds": [
-          "u9:corn",
-          "u9:snack",
-          "u9:candy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bring a bag of buttered ___ into the movie theater.",
@@ -8526,18 +7338,6 @@
       "spellingHint": "p-o-r-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In Taiwanese night markets, braised ___ over rice is a classic dish.",
-        "fullSentence": "In Taiwanese night markets, braised pork over rice is a classic dish.",
-        "translation": "台灣夜市裡，滷肉飯是經典美食。",
-        "clue": "滷肉飯裡的肉",
-        "answerEntryId": "u9:pork",
-        "distractorEntryIds": [
-          "u9:beef",
-          "u9:meat",
-          "u9:ham"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The pig gives us this pinkish red food, usually called ___.",
@@ -8612,18 +7412,6 @@
       "spellingHint": "p-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Boil the noodles in a deep ___ with plenty of water.",
-        "fullSentence": "Boil the noodles in a deep pot with plenty of water.",
-        "translation": "把麵條放進裝滿水的深鍋裡煮。",
-        "clue": "深的、裝水煮東西的鍋具",
-        "answerEntryId": "u9:pot",
-        "distractorEntryIds": [
-          "u9:pan",
-          "u9:lid",
-          "u9:bowl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Steam rose from the big metal ___ of soup on the stove.",
@@ -8698,18 +7486,6 @@
       "spellingHint": "p-o-t-a-t-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dig up the round brown ___ from under the plant's leaves.",
-        "fullSentence": "Dig up the round brown potato from under the plant's leaves.",
-        "translation": "把圓圓棕色的馬鈴薯從葉子下的土裡挖出來。",
-        "clue": "長在土裡的棕色塊莖",
-        "answerEntryId": "u9:potato",
-        "distractorEntryIds": [
-          "u9:carrot",
-          "u9:onion",
-          "u9:corn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "French fries are long thin sticks cut from ___.",
@@ -8784,18 +7560,6 @@
       "spellingHint": "p-u-m-p-k-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every October people carve scary faces into big round winter ___ for Halloween.",
-        "fullSentence": "Every October people carve scary faces into big round winter pumpkin for Halloween.",
-        "translation": "每年十月，人們在大橘色南瓜上刻鬼臉慶萬聖節。",
-        "clue": "萬聖節刻臉的橘色瓜",
-        "answerEntryId": "u9:pumpkin",
-        "distractorEntryIds": [
-          "u9:melon",
-          "u9:watermelon",
-          "u9:orange"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This autumn ___ soup is thick and slightly sweet — perfect for cold nights.",
@@ -8870,18 +7634,6 @@
       "spellingHint": "r-a-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "'How would you like your ___ ?' the waiter asked. 'Cooked very little, still pink inside.'",
-        "fullSentence": "'How would you like your rare ?' the waiter asked. 'Cooked very little, still pink inside.'",
-        "translation": "服務生問：『牛排要幾分熟？』『三分熟，中間還要粉紅色。』",
-        "clue": "指牛排熟度很低的說法",
-        "answerEntryId": "u9:rare",
-        "distractorEntryIds": [
-          "u9:hot",
-          "u9:fresh",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ steak is cooked just briefly, so its center stays red and juicy.",
@@ -8956,18 +7708,6 @@
       "spellingHint": "r-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every bowl of steamed white ___ in Asia starts as a green seedling in a flooded field.",
-        "fullSentence": "Every bowl of steamed white rice in Asia starts as a green seedling in a flooded field.",
-        "translation": "亞洲每一碗白飯都從水田裡的綠色小苗開始。",
-        "clue": "水田裡種出來的主食",
-        "answerEntryId": "u9:rice",
-        "distractorEntryIds": [
-          "u9:corn",
-          "u9:noodle",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Serve the curry over a mound of hot white ___.",
@@ -9042,18 +7782,6 @@
       "spellingHint": "s-a-l-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Toss the lettuce, tomato and cucumber together to make a fresh green ___.",
-        "fullSentence": "Toss the lettuce, tomato and cucumber together to make a fresh green salad.",
-        "translation": "把萵苣、番茄和小黃瓜拌在一起，做成清爽的綠沙拉。",
-        "clue": "生蔬菜拌成的冷盤",
-        "answerEntryId": "u9:salad",
-        "distractorEntryIds": [
-          "u9:soup",
-          "u9:dish",
-          "u9:vegetable"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Add a spoonful of dressing to the ___ just before you eat it.",
@@ -9128,18 +7856,6 @@
       "spellingHint": "s-a-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sea water, when it dries up, leaves white crystals of ___ behind.",
-        "fullSentence": "Sea water, when it dries up, leaves white crystals of salt behind.",
-        "translation": "海水曬乾後會留下白色的鹽晶。",
-        "clue": "海水晒乾後產生的白色晶體",
-        "answerEntryId": "u9:salt",
-        "distractorEntryIds": [
-          "u9:sugar",
-          "u9:flour",
-          "u9:pepper"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Add a pinch of ___ to the soup, but not too much or it will be inedible.",
@@ -9214,18 +7930,6 @@
       "spellingHint": "s-a-l-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma added too much salt, so the soup tastes very ___.",
-        "fullSentence": "Grandma added too much salt, so the soup tastes very salty.",
-        "translation": "奶奶加太多鹽，湯變得好鹹。",
-        "clue": "加太多鹽後的味道",
-        "answerEntryId": "u9:salty",
-        "distractorEntryIds": [
-          "u9:sour",
-          "u9:bitter",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sea water is so ___ that you should never drink it.",
@@ -9300,18 +8004,6 @@
       "spellingHint": "s-a-n-d-w-i-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Two slices of bread with tuna and tomatoes in between make a ___.",
-        "fullSentence": "Two slices of bread with tuna and tomatoes in between make a sandwich.",
-        "translation": "兩片麵包夾鮪魚和番茄就是三明治。",
-        "clue": "兩片麵包夾餡的食物",
-        "answerEntryId": "u9:sandwich",
-        "distractorEntryIds": [
-          "u9:hamburger",
-          "u9:toast",
-          "u9:burger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Pack a ham and cheese ___ for the school picnic.",
@@ -9386,18 +8078,6 @@
       "spellingHint": "s-a-u-c-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Place the hot teacup on a small flat ___ to protect the table.",
-        "fullSentence": "Place the hot teacup on a small flat saucer to protect the table.",
-        "translation": "把熱茶杯放在小碟上，保護桌面。",
-        "clue": "茶杯底下的小圓碟",
-        "answerEntryId": "u9:saucer",
-        "distractorEntryIds": [
-          "u9:plate",
-          "u9:cup",
-          "u9:bowl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every cup and ___ set at the tea shop is painted with blue flowers.",
@@ -9472,18 +8152,6 @@
       "spellingHint": "s-e-a-f-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Catch of the sea — the swimmers, the shellfish, the crustaceans — served together on cracked ice share one menu name: ___.",
-        "fullSentence": "Catch of the sea — the swimmers, the shellfish, the crustaceans — served together on cracked ice share one menu name: seafood.",
-        "translation": "冰上的魚、蝦、蟹合稱海鮮。",
-        "clue": "所有海產食物的統稱",
-        "answerEntryId": "u9:seafood",
-        "distractorEntryIds": [
-          "u9:fish",
-          "u9:meat",
-          "u9:shrimp"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The harbor restaurant serves nothing but fresh ___ caught that morning.",
@@ -9558,18 +8226,6 @@
       "spellingHint": "s-h-r-i-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little pink ___ curled up tight as it hit the hot pan.",
-        "fullSentence": "The little pink shrimp curled up tight as it hit the hot pan.",
-        "translation": "小小的粉色蝦子一碰熱鍋就蜷成球。",
-        "clue": "遇熱會蜷曲的粉色海鮮",
-        "answerEntryId": "u9:shrimp",
-        "distractorEntryIds": [
-          "u9:fish",
-          "u9:seafood",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Garlic ___ is the most popular dish at that seafood stall.",
@@ -9644,18 +8300,6 @@
       "spellingHint": "s-n-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Chips, cookies and bubble tea are popular afternoon ___ between meals.",
-        "fullSentence": "Chips, cookies and bubble tea are popular afternoon snack between meals.",
-        "translation": "洋芋片、餅乾和珍珠奶茶是受歡迎的下午點心。",
-        "clue": "兩餐之間吃的小食",
-        "answerEntryId": "u9:snack",
-        "distractorEntryIds": [
-          "u9:meal",
-          "u9:dessert",
-          "u9:candy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Eat a small ___ at four o'clock so you are not starving at dinner.",
@@ -9730,18 +8374,6 @@
       "spellingHint": "s-o-d-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fizzy ___ poured over ice made a loud sparkling sound.",
-        "fullSentence": "The fizzy soda poured over ice made a loud sparkling sound.",
-        "translation": "氣泡飲料倒進冰塊時發出滋滋的聲音。",
-        "clue": "會冒泡的甜味飲料",
-        "answerEntryId": "u9:soda",
-        "distractorEntryIds": [
-          "u9:juice",
-          "u9:tea",
-          "u9:milk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Children love the super-sweet bubbly fizz of this convenience-store favorite, though dentists warn against it: ___.",
@@ -9816,18 +8448,6 @@
       "spellingHint": "s-o-f-t d-r-i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children may order any of these fizzing beverages with dinner because none of them holds any alcohol — every one is a ___ choice.",
-        "fullSentence": "Children may order any of these fizzing beverages with dinner because none of them holds any alcohol — every one is a soft drink choice.",
-        "translation": "小朋友可以喝任何軟性飲料，因為它們都不含酒精。",
-        "clue": "不含酒精的甜氣泡飲料統稱",
-        "answerEntryId": "u9:soft drink",
-        "distractorEntryIds": [
-          "u9:soda",
-          "u9:beer",
-          "u9:juice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wine and ale contain alcohol, but cola belongs to the fizzy family that holds none — the ___ family.",
@@ -9902,18 +8522,6 @@
       "spellingHint": "s-o-u-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ladle the hot chicken ___ into deep bowls on this cold evening.",
-        "fullSentence": "Ladle the hot chicken soup into deep bowls on this cold evening.",
-        "translation": "在這個寒冷的晚上，把熱雞湯舀進深碗裡。",
-        "clue": "用湯匙舀、喝的流質食物",
-        "answerEntryId": "u9:soup",
-        "distractorEntryIds": [
-          "u9:salad",
-          "u9:tea",
-          "u9:noodle"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blow on the spoon carefully — the ___ is still steaming hot.",
@@ -9988,18 +8596,6 @@
       "spellingHint": "s-o-u-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pucker your lips — this green apple is so ___ that your mouth waters.",
-        "fullSentence": "Pucker your lips — this green apple is so sour that your mouth waters.",
-        "translation": "嘴巴都皺起來了——這顆青蘋果酸到讓你流口水。",
-        "clue": "會讓嘴巴皺起的味道",
-        "answerEntryId": "u9:sour",
-        "distractorEntryIds": [
-          "u9:bitter",
-          "u9:salty",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Squeeze the ___ lemon into the cup of hot tea for a tart taste.",
@@ -10075,18 +8671,6 @@
       "spellingHint": "s-o-y s-a-u-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dip the dumpling into a small dish of dark salty ___.",
-        "fullSentence": "Dip the dumpling into a small dish of dark salty soy sauce.",
-        "translation": "把水餃蘸進小碟深色的鹹醬油。",
-        "clue": "深色、鹹味的蘸醬",
-        "answerEntryId": "u9:soy sauce",
-        "distractorEntryIds": [
-          "u9:ketchup",
-          "u9:vinegar",
-          "u9:salt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every Chinese kitchen keeps a bottle of dark ___ for stewing and dipping.",
@@ -10161,18 +8745,6 @@
       "spellingHint": "s-p-a-g-h-e-t-t-i",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wind the long Italian strands around your eating utensil before lifting them — those strands are ___.",
-        "fullSentence": "Wind the long Italian strands around your eating utensil before lifting them — those strands are spaghetti.",
-        "translation": "用叉子把長長的義大利麵捲起來再送入口中。",
-        "clue": "用叉子捲著吃的長麵",
-        "answerEntryId": "u9:spaghetti",
-        "distractorEntryIds": [
-          "u9:noodle",
-          "u9:steak",
-          "u9:fork"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The Italian restaurant serves ___ with tomato sauce and meatballs.",
@@ -10247,18 +8819,6 @@
       "spellingHint": "s-p-o-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Scoop the soup up with a deep rounded ___ and blow on it first.",
-        "fullSentence": "Scoop the soup up with a deep rounded spoon and blow on it first.",
-        "translation": "用湯匙舀湯，先吹涼再喝。",
-        "clue": "圓凹、舀湯的餐具",
-        "answerEntryId": "u9:spoon",
-        "distractorEntryIds": [
-          "u9:fork",
-          "u9:knife",
-          "u9:chopsticks"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Baby food is easiest to eat with a small soft plastic ___.",
@@ -10333,18 +8893,6 @@
       "spellingHint": "s-p-r-e-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Use the back of the spoon to ___ the jam evenly over the toast.",
-        "fullSentence": "Use the back of the spoon to spread the jam evenly over the toast.",
-        "translation": "用湯匙背面把果醬均勻塗在吐司上。",
-        "clue": "把醬料平塗開的動作",
-        "answerEntryId": "u9:spread",
-        "distractorEntryIds": [
-          "u9:cook",
-          "u9:fry",
-          "u9:eat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Remember to ___ peanut butter on both slices of bread before adding the banana.",
@@ -10419,18 +8967,6 @@
       "spellingHint": "s-t-e-a-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The thick juicy ___ sizzled on the grill until its edges turned brown.",
-        "fullSentence": "The thick juicy steak sizzled on the grill until its edges turned brown.",
-        "translation": "厚實多汁的牛排在烤架上滋滋作響，邊緣轉為焦色。",
-        "clue": "整塊煎烤的厚牛肉",
-        "answerEntryId": "u9:steak",
-        "distractorEntryIds": [
-          "u9:beef",
-          "u9:pork",
-          "u9:ham"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The house special is a big grilled ___ served with mushrooms and potatoes.",
@@ -10505,18 +9041,6 @@
       "spellingHint": "s-t-r-a-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sip the cold bubble tea through a wide, fat ___.",
-        "fullSentence": "Sip the cold bubble tea through a wide, fat straw.",
-        "translation": "用粗粗的吸管喝冰的珍珠奶茶。",
-        "clue": "用來吸飲料的細管",
-        "answerEntryId": "u9:straw",
-        "distractorEntryIds": [
-          "u9:cup",
-          "u9:lid",
-          "u9:spoon"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Push the ___ through the plastic cover so you can drink without opening the cup.",
@@ -10591,18 +9115,6 @@
       "spellingHint": "s-t-r-a-w-b-e-r-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dip the bright red ___ with tiny seeds on its skin into melted chocolate.",
-        "fullSentence": "Dip the bright red strawberry with tiny seeds on its skin into melted chocolate.",
-        "translation": "把鮮紅、表皮佈滿小籽的草莓沾上融化的巧克力。",
-        "clue": "紅色心形、籽在皮上的水果",
-        "answerEntryId": "u9:strawberry",
-        "distractorEntryIds": [
-          "u9:apple",
-          "u9:grape",
-          "u9:plate"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Milk flavored with this sweet red fruit is pink and loved by children; the fruit is the ___.",
@@ -10677,18 +9189,6 @@
       "spellingHint": "s-u-g-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Stir a spoonful of white ___ into the tea until it dissolves completely.",
-        "fullSentence": "Stir a spoonful of white sugar into the tea until it dissolves completely.",
-        "translation": "把一匙白糖攪進茶裡，直到完全溶解。",
-        "clue": "讓茶變甜的白色晶體",
-        "answerEntryId": "u9:sugar",
-        "distractorEntryIds": [
-          "u9:salt",
-          "u9:flour",
-          "u9:honey"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Too many sweets are full of ___, which makes your weight go up.",
@@ -10763,18 +9263,6 @@
       "spellingHint": "s-u-p-p-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the late movie we shared a small ___ of soup and toast before bed.",
-        "fullSentence": "After the late movie we shared a small supper of soup and toast before bed.",
-        "translation": "看完夜場電影，我們睡前吃了簡單的宵夜。",
-        "clue": "夜裡睡前吃的一餐",
-        "answerEntryId": "u9:supper",
-        "distractorEntryIds": [
-          "u9:dinner",
-          "u9:breakfast",
-          "u9:lunch"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa always has warm milk and a light ___ at nine o'clock in the evening.",
@@ -10849,18 +9337,6 @@
       "spellingHint": "s-u-p-p-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Local farmers ___ fresh eggs and vegetables to the school kitchen every week.",
-        "fullSentence": "Local farmers supply fresh eggs and vegetables to the school kitchen every week.",
-        "translation": "在地農夫每週為學校廚房供應新鮮雞蛋和蔬菜。",
-        "clue": "持續提供貨源",
-        "answerEntryId": "u9:supply",
-        "distractorEntryIds": [
-          "u9:order",
-          "u9:cook",
-          "u9:eat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The water company ___ clean water to every home in the city.",
@@ -10935,18 +9411,6 @@
       "spellingHint": "s-w-e-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ripe mango is so ___ that it melts in your mouth like candy.",
-        "fullSentence": "The ripe mango is so sweet that it melts in your mouth like candy.",
-        "translation": "熟芒果甜得像糖果一樣入口即化。",
-        "clue": "像糖一樣的味道",
-        "answerEntryId": "u9:sweet",
-        "distractorEntryIds": [
-          "u9:sour",
-          "u9:salty",
-          "u9:bitter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Cake, candy and honey are all ___ treats.",
@@ -11021,18 +9485,6 @@
       "spellingHint": "t-a-n-g-e-r-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Peel the small round ___ and hand out its juicy wedges at the winter picnic.",
-        "fullSentence": "Peel the small round tangerine and hand out its juicy wedges at the winter picnic.",
-        "translation": "剝開小圓橘子，把多汁的果瓣分給大家。",
-        "clue": "小圓、好剝皮的柑橘水果",
-        "answerEntryId": "u9:tangerine",
-        "distractorEntryIds": [
-          "u9:orange",
-          "u9:lemon",
-          "u9:apple"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "During Lunar New Year, families display ___ for good luck because their name sounds like luck.",
@@ -11107,18 +9559,6 @@
       "spellingHint": "t-e-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Steep the dried leaves in hot water for three minutes to brew a pot of ___.",
-        "fullSentence": "Steep the dried leaves in hot water for three minutes to brew a pot of tea.",
-        "translation": "把乾茶葉放進熱水泡三分鐘，就泡出一壺茶。",
-        "clue": "茶葉泡出的飲料",
-        "answerEntryId": "u9:tea",
-        "distractorEntryIds": [
-          "u9:coffee",
-          "u9:juice",
-          "u9:milk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bubble ___ from Taiwan is popular around the world.",
@@ -11193,18 +9633,6 @@
       "spellingHint": "t-e-a-p-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Lift the round brewing vessel by its curved handle and pour the freshly steeped drink into the small cups of every guest; that vessel is the ___.",
-        "fullSentence": "Lift the round brewing vessel by its curved handle and pour the freshly steeped drink into the small cups of every guest; that vessel is the teapot.",
-        "translation": "拿起圓茶壺，把茶倒進每個小杯子。",
-        "clue": "有壺嘴和柄的泡茶器",
-        "answerEntryId": "u9:teapot",
-        "distractorEntryIds": [
-          "u9:cup",
-          "u9:pot",
-          "u9:bowl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The clay ___ keeps the water hot while the leaves steep inside.",
@@ -11279,18 +9707,6 @@
       "spellingHint": "t-h-i-r-s-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the long soccer game, every player was ___ and begged for water.",
-        "fullSentence": "After the long soccer game, every player was thirsty and begged for water.",
-        "translation": "漫長的足球賽後，每個球員都渴得直要水喝。",
-        "clue": "非常想喝水的狀態",
-        "answerEntryId": "u9:thirsty",
-        "distractorEntryIds": [
-          "u9:full",
-          "u9:salty",
-          "u9:sweet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The camel crossed the burning desert without becoming ___.",
@@ -11365,18 +9781,6 @@
       "spellingHint": "t-o-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Pop a slice into the toaster and out comes a golden crisp ___ for breakfast.",
-        "fullSentence": "Pop a slice into the toaster and out comes a golden crisp toast for breakfast.",
-        "translation": "把麵包放進烤麵包機，出來就是金黃酥脆的吐司。",
-        "clue": "烤過的脆麵包片",
-        "answerEntryId": "u9:toast",
-        "distractorEntryIds": [
-          "u9:bread",
-          "u9:cake",
-          "u9:cookie"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Rub a cut garlic clove over the warm crunchy slice before adding the tomato; that slice is ___.",
@@ -11451,18 +9855,6 @@
       "spellingHint": "t-o-f-u",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This soft white block is pressed from soybean liquid and cut into cubes; it is called ___.",
-        "fullSentence": "This soft white block is pressed from soybean liquid and cut into cubes; it is called tofu.",
-        "translation": "軟白的豆腐由豆漿凝結而成，切成小塊。",
-        "clue": "用豆漿做成的白色方塊",
-        "answerEntryId": "u9:tofu",
-        "distractorEntryIds": [
-          "u9:cheese",
-          "u9:bean",
-          "u9:egg"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Vegetarians often order this bean curd as a stand-in for sliced animal protein; it is ___.",
@@ -11537,18 +9929,6 @@
       "spellingHint": "t-o-m-a-t-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Slice the ripe red fruit and lay the rounds over the lettuce; that fruit is the ___.",
-        "fullSentence": "Slice the ripe red fruit and lay the rounds over the lettuce; that fruit is the tomato.",
-        "translation": "把熟紅番茄切片，鋪在萵苣上。",
-        "clue": "紅色、圓滾滾的沙拉配料",
-        "answerEntryId": "u9:tomato",
-        "distractorEntryIds": [
-          "u9:apple",
-          "u9:peach",
-          "u9:pumpkin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ketchup is made mostly from crushed ___ fruit.",
@@ -11623,18 +10003,6 @@
       "spellingHint": "v-e-g-e-t-a-b-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cabbage, carrots and onions are all kinds of ___ on your dinner plate.",
-        "fullSentence": "Cabbage, carrots and onions are all kinds of vegetable on your dinner plate.",
-        "translation": "高麗菜、紅蘿蔔和洋蔥都是餐桌上的蔬菜。",
-        "clue": "植物性食物的統稱",
-        "answerEntryId": "u9:vegetable",
-        "distractorEntryIds": [
-          "u9:fruit",
-          "u9:meat",
-          "u9:corn"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Farmers plant rows of leafy ___ in the field behind their house.",
@@ -11709,18 +10077,6 @@
       "spellingHint": "v-i-n-e-g-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sharp stinging smell rose from the dark bottle beside the salty dark sauce; that sharp liquid is ___.",
-        "fullSentence": "The sharp stinging smell rose from the dark bottle beside the salty dark sauce; that sharp liquid is vinegar.",
-        "translation": "醬油旁的瓶子裡飄出刺鼻的醋味。",
-        "clue": "酸味強烈的調味液體",
-        "answerEntryId": "u9:vinegar",
-        "distractorEntryIds": [
-          "u9:ketchup",
-          "u9:juice",
-          "u9:oil"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sprinkle a few drops of tangy ___ over the boiled dumplings.",
@@ -11795,18 +10151,6 @@
       "spellingHint": "w-a-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fill the glass to the top with clear cold ___ from the tap.",
-        "fullSentence": "Fill the glass to the top with clear cold water from the tap.",
-        "translation": "從水龍頭放出清澈冰涼的水，把杯子裝滿。",
-        "clue": "無色無味會流動的液體",
-        "answerEntryId": "u9:water",
-        "distractorEntryIds": [
-          "u9:milk",
-          "u9:juice",
-          "u9:tea"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everything alive needs ___ to survive, from fish to flowers.",
@@ -11881,18 +10225,6 @@
       "spellingHint": "w-a-t-e-r-m-e-l-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "On hot August afternoons we bite into thick slices of juicy red ___.",
-        "fullSentence": "On hot August afternoons we bite into thick slices of juicy red watermelon.",
-        "translation": "八月炎熱的午後，我們大口咬下多汁的紅色西瓜。",
-        "clue": "綠皮紅瓤的夏天消暑水果",
-        "answerEntryId": "u9:watermelon",
-        "distractorEntryIds": [
-          "u9:melon",
-          "u9:guava",
-          "u9:pumpkin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Spit the small black ___ seeds out while you eat the sweet red flesh.",
@@ -11967,18 +10299,6 @@
       "spellingHint": "w-i-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Adults sometimes enjoy a glass of red ___ made from grapes at dinner parties.",
-        "fullSentence": "Adults sometimes enjoy a glass of red wine made from grapes at dinner parties.",
-        "translation": "大人有時會在晚宴上享用葡萄釀的紅酒。",
-        "clue": "葡萄釀、給大人的酒",
-        "answerEntryId": "u9:wine",
-        "distractorEntryIds": [
-          "u9:beer",
-          "u9:grape",
-          "u9:juice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The vineyard grows special grapes just for making ___.",
@@ -12053,18 +10373,6 @@
       "spellingHint": "y-u-m-m-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children clap and shout '___ !' when the chocolate brownie arrives.",
-        "fullSentence": "Children clap and shout 'yummy !' when the chocolate brownie arrives.",
-        "translation": "巧克力布朗尼端上來時，孩子們大喊『好吃！』。",
-        "clue": "吃到美食時開心的喊聲",
-        "answerEntryId": "u9:yummy",
-        "distractorEntryIds": [
-          "u9:delicious",
-          "u9:sweet",
-          "u9:fresh"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "'___ !' said the little boy with a mouth full of noodles.",

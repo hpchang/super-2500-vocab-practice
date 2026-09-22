@@ -11,18 +11,6 @@
       "spellingHint": "b-a-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Dad put the heavy books into a paper ___ and carried them home.",
-        "fullSentence": "Dad put the heavy books into a paper bag and carried them home.",
-        "translation": "爸爸把沉重的書裝進紙袋裡帶回家。",
-        "clue": "裝東西、可以提著走的容器",
-        "answerEntryId": "u10:bag",
-        "distractorEntryIds": [
-          "u11:oven",
-          "u22:duck",
-          "u23:rainbow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom packed the sandwiches and juice boxes into a ___ for the picnic.",
@@ -97,18 +85,6 @@
       "spellingHint": "b-e-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Tom pulled his ___ tight so his pants would not fall down.",
-        "fullSentence": "Tom pulled his belt tight so his pants would not fall down.",
-        "translation": "湯姆把皮帶拉緊，褲子才不會掉下去。",
-        "clue": "繫在腰上、防止褲子滑落的東西",
-        "answerEntryId": "u10:belt",
-        "distractorEntryIds": [
-          "u10:scarf",
-          "u10:necklace",
-          "u10:ring"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The police officer's ___ holds his radio and handcuffs at the waist.",
@@ -183,18 +159,6 @@
       "spellingHint": "b-l-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Coal, car tires, and the night sky without stars all usually look ___.",
-        "fullSentence": "Coal, car tires, and the night sky without stars all usually look black.",
-        "translation": "煤炭、汽車輪胎和沒有星星的夜空看起來通常都是黑色的。",
-        "clue": "這些東西共同的暗色",
-        "answerEntryId": "u10:black",
-        "distractorEntryIds": [
-          "u10:white",
-          "u10:green",
-          "u10:orange"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A crow is a common ___ bird that you can see in the park.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-l-o-u-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "For her interview, Helen wore a white ___ with a dark skirt.",
-        "fullSentence": "For her interview, Helen wore a white blouse with a dark skirt.",
-        "translation": "海倫面試時穿著白襯衫搭配深色裙子。",
-        "clue": "女生面試穿的正式上衣",
-        "answerEntryId": "u10:blouse",
-        "distractorEntryIds": [
-          "u10:swimsuit",
-          "u10:pajamas",
-          "u10:raincoat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Helen keeps a silk ___ at the office for important dinners.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-l-u-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sky looks ___ on a clear day and gray when a storm is near.",
-        "fullSentence": "The sky looks blue on a clear day and gray when a storm is near.",
-        "translation": "天空在晴天時看起來是藍色的，暴風雨接近時則變成灰色。",
-        "clue": "晴朗天空的顏色",
-        "answerEntryId": "u10:blue",
-        "distractorEntryIds": [
-          "u10:brown",
-          "u10:pink",
-          "u10:purple"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When the weather is clear, the sea looks ___ from the beach.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-r-o-w-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Chocolate, coffee, and tree trunks all share the same warm ___ shade.",
-        "fullSentence": "Chocolate, coffee, and tree trunks all share the same warm brown shade.",
-        "translation": "巧克力、咖啡和樹幹都有同樣溫暖的棕色調。",
-        "clue": "這些東西共同的顏色",
-        "answerEntryId": "u10:brown",
-        "distractorEntryIds": [
-          "u10:white",
-          "u10:purple",
-          "u10:pink"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bears in the mountains grow thick ___ fur before winter comes.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-u-t-t-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My coat is missing a ___, so the front will not stay closed.",
-        "fullSentence": "My coat is missing a button, so the front will not stay closed.",
-        "translation": "我的外套少了一顆鈕扣，所以前面扣不起來。",
-        "clue": "把外套前面扣住的小圓物",
-        "answerEntryId": "u10:button",
-        "distractorEntryIds": [
-          "u11:needle",
-          "u11:machine",
-          "u13:ruler"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "When the elevator was full, Amy pressed the ___ for the tenth floor.",
@@ -613,18 +529,6 @@
       "spellingHint": "c-a-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Put on your ___ to keep the sun out of your eyes during the baseball game.",
-        "fullSentence": "Put on your cap to keep the sun out of your eyes during the baseball game.",
-        "translation": "打棒球時戴上鴨舌帽，太陽才不會刺到眼睛。",
-        "clue": "有帽簷、能遮陽的帽子",
-        "answerEntryId": "u10:cap",
-        "distractorEntryIds": [
-          "u10:sock(s)",
-          "u10:glove",
-          "u10:sweater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The whole team wore the same ___ with the school name stitched on the front.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-e-l-l-p-h-o-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Jenny used her ___ to take photos and send them to her friends right away.",
-        "fullSentence": "Jenny used her cellphone to take photos and send them to her friends right away.",
-        "translation": "珍妮用手機拍照，馬上傳給朋友們。",
-        "clue": "能拍照又能傳訊息的隨身機器",
-        "answerEntryId": "u10:cellphone",
-        "distractorEntryIds": [
-          "u11:television",
-          "u11:microwave",
-          "u13:dictionary"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom called me on my ___ to ask where I was after school.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-l-o-t-h-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Jenny folded all her clean ___ and put them in the drawer.",
-        "fullSentence": "Jenny folded all her clean clothes and put them in the drawer.",
-        "translation": "珍妮把洗乾淨的衣服全部疊好放進抽屜。",
-        "clue": "洗好後要收進衣櫃的東西",
-        "answerEntryId": "u10:clothes",
-        "distractorEntryIds": [
-          "u22:animal",
-          "u23:flower",
-          "u11:tool"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In winter, people wear thick ___ to stay warm in the cold wind.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-o-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is freezing outside, so put on a ___ over your sweater before you leave.",
-        "fullSentence": "It is freezing outside, so put on a coat over your sweater before you leave.",
-        "translation": "外面冷得要命，出門前在毛衣外面再穿一件外套。",
-        "clue": "穿在最外面、禦寒的衣物",
-        "answerEntryId": "u10:coat",
-        "distractorEntryIds": [
-          "u10:swimsuit",
-          "u10:pajamas",
-          "u10:underwear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa wears a woolen ___ to keep his chest warm on winter walks.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-o-l-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My favorite ___ is the deep blue of the evening sky.",
-        "fullSentence": "My favorite color is the deep blue of the evening sky.",
-        "translation": "我最喜歡的顏色是傍晚天空的深藍色。",
-        "clue": "用眼睛分辨的紅黃藍等",
-        "answerEntryId": "u10:color",
-        "distractorEntryIds": [
-          "u18:size",
-          "u18:shape",
-          "u18:pattern"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ask the painter which ___ he will paint your bedroom.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-o-l-o-r-f-u-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The birthday room was ___ with balloons of many different shades.",
-        "fullSentence": "The birthday room was colorful with balloons of many different shades.",
-        "translation": "生日會場掛滿了各種顏色的氣球，看起來五彩繽紛。",
-        "clue": "很多顏色一起出現的樣子",
-        "answerEntryId": "u10:colorful",
-        "distractorEntryIds": [
-          "u23:sunny",
-          "u23:wet",
-          "u29:loud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Parrots have very ___ feathers with red, yellow, and blue on them.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-o-m-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After her shower, Mia used a ___ to smooth her wet hair.",
-        "fullSentence": "After her shower, Mia used a comb to smooth her wet hair.",
-        "translation": "洗完澡後，米亞用梳子把濕頭髮梳順。",
-        "clue": "整理頭髮用的工具",
-        "answerEntryId": "u10:comb",
-        "distractorEntryIds": [
-          "u11:mirror",
-          "u11:towel",
-          "u22:hen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ has many little teeth but never bites anyone.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-o-n-t-a-c-t l-e-n-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy put a ___ in each eye so she could see without her glasses.",
-        "fullSentence": "Amy put a contact lens in each eye so she could see without her glasses.",
-        "translation": "愛米兩眼各戴上ㄧ小片隱形眼鏡，這樣不戴普通眼鏡也看得清楚。",
-        "clue": "直接放在眼睛上的小圓片",
-        "answerEntryId": "u10:contact lens",
-        "distractorEntryIds": [
-          "u11:candle",
-          "u13:envelope",
-          "u17:coin"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Players who wear ___ can play sports without their glasses falling off.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-o-t-t-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Summer shirts are often made of light ___ because it lets air through.",
-        "fullSentence": "Summer shirts are often made of light cotton because it lets air through.",
-        "translation": "夏天的襯衫常用輕薄的棉布做，因為比較透氣。",
-        "clue": "透氣、適合夏天衣物的材質",
-        "answerEntryId": "u10:cotton",
-        "distractorEntryIds": [
-          "u10:metal",
-          "u10:diamond",
-          "u11:brick"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Sheets made of ___ feel soft and are comfortable in hot weather.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "d-i-a-m-o-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken saved money for two years to buy her a ___ necklace.",
-        "fullSentence": "Ken saved money for two years to buy her a diamond necklace.",
-        "translation": "肯存了兩年的錢，買了一條鑽石項鍊給她。",
-        "clue": "最昂貴、最閃亮的寶石",
-        "answerEntryId": "u10:diamond",
-        "distractorEntryIds": [
-          "u11:brick",
-          "u17:coin",
-          "u13:pencil"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ is the hardest natural material in the world.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "d-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Little girls often wear a pretty ___ instead of a skirt and top.",
-        "fullSentence": "Little girls often wear a pretty dress instead of a skirt and top.",
-        "translation": "小女孩常穿漂亮的洋裝，而不是裙子和上衣分開穿。",
-        "clue": "上衣和裙子連在一起的衣服",
-        "answerEntryId": "u10:dress",
-        "distractorEntryIds": [
-          "u10:cap",
-          "u10:belt",
-          "u10:sock(s)"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bride wore a long white ___ at the wedding.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "e-a-r-r-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dancer wore shiny ___ that sparkled when she turned her head.",
-        "fullSentence": "The dancer wore shiny earring(s) that sparkled when she turned her head.",
-        "translation": "舞者戴著閃亮的耳環，一轉頭就閃閃發光。",
-        "clue": "耳垂上會發亮的飾品",
-        "answerEntryId": "u10:earring(s)",
-        "distractorEntryIds": [
-          "u10:necklace",
-          "u10:belt",
-          "u10:ring"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She took off her ___ before the football game so they would not get lost.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "g-l-o-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Put on your ___ so your hands will stay warm in the snow.",
-        "fullSentence": "Put on your glove so your hands will stay warm in the snow.",
-        "translation": "戴上手套，手在雪地裡才會暖和。",
-        "clue": "保暖、套在手上的衣物",
-        "answerEntryId": "u10:glove",
-        "distractorEntryIds": [
-          "u10:sock(s)",
-          "u10:cap",
-          "u10:scarf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baseball catcher wore a big leather ___ to catch fast balls.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "g-o-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This chain looks expensive because it is made of real ___.",
-        "fullSentence": "This chain looks expensive because it is made of real gold.",
-        "translation": "這條項鍊看起來很貴，因為它是真金做的。",
-        "clue": "昂貴的黃色貴金屬",
-        "answerEntryId": "u10:gold",
-        "distractorEntryIds": [
-          "u18:glass",
-          "u13:paper",
-          "u23:rock"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The winner received a ___ medal at the sports meet.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "g-o-l-d-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ripe rice fields turn ___ under the autumn sun.",
-        "fullSentence": "Ripe rice fields turn golden under the autumn sun.",
-        "translation": "秋天的陽光下，成熟的稻田變成金黃色。",
-        "clue": "稻田成熟時的顏色",
-        "answerEntryId": "u10:golden",
-        "distractorEntryIds": [
-          "u23:sunny",
-          "u23:cold",
-          "u23:wet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her hair shone like ___ threads in the sunlight.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "g-r-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before a storm, the sky often turns dark ___.",
-        "fullSentence": "Before a storm, the sky often turns dark gray.",
-        "translation": "暴風雨來之前，天空常變成深灰色。",
-        "clue": "烏雲密布時的天色",
-        "answerEntryId": "u10:gray",
-        "distractorEntryIds": [
-          "u23:sunny",
-          "u23:hot",
-          "u23:warm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Elephants are huge ___ animals with long trunks.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "g-r-e-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grass, tree leaves, and frogs are commonly seen as ___.",
-        "fullSentence": "Grass, tree leaves, and frogs are commonly seen as green.",
-        "translation": "草、樹葉和青蛙常見的共同顏色是綠色。",
-        "clue": "這些自然物共同的顏色",
-        "answerEntryId": "u10:green",
-        "distractorEntryIds": [
-          "u10:red",
-          "u10:blue",
-          "u10:pink"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The traffic light turned ___, so the cars could go.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "h-a-n-d-k-e-r-c-h-i-e-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She wiped her tears with a soft ___ during the sad movie.",
-        "fullSentence": "She wiped her tears with a soft handkerchief during the sad movie.",
-        "translation": "看悲傷的電影時，她用柔軟的手帕擦眼淚。",
-        "clue": "擦眼淚用的小方巾",
-        "answerEntryId": "u10:handkerchief",
-        "distractorEntryIds": [
-          "u11:towel",
-          "u11:sheet",
-          "u22:frog"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Granddad folded his ___ neatly before putting it back in his pocket.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "h-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The magician pulled a white rabbit out of his tall black ___.",
-        "fullSentence": "The magician pulled a white rabbit out of his tall black hat.",
-        "translation": "魔術師從他的黑色高帽裡抓出一隻白兔子。",
-        "clue": "整圈有帽簷、戴在頭上的帽子",
-        "answerEntryId": "u10:hat",
-        "distractorEntryIds": [
-          "u10:sock(s)",
-          "u10:glove",
-          "u10:scarf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wear a ___ with a wide round brim to shade both your face and neck.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "i-r-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom heated the ___ to press Dad's wrinkled shirts flat.",
-        "fullSentence": "Mom heated the iron to press Dad's wrinkled shirts flat.",
-        "translation": "媽媽把熨斗加熱，把爸爸的皺襯衫燙平。",
-        "clue": "燙平衣服的家電",
-        "answerEntryId": "u10:iron",
-        "distractorEntryIds": [
-          "u11:machine",
-          "u11:oven",
-          "u11:heater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "After washing, Grandpa used a hot ___ on his best trousers.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "i-t-e-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ on the shopping list costs less than one hundred dollars.",
-        "fullSentence": "Each item on the shopping list costs less than one hundred dollars.",
-        "translation": "購物清單上的每一項商品都不到一百元。",
-        "clue": "清單上列出的每一件東西",
-        "answerEntryId": "u10:item",
-        "distractorEntryIds": [
-          "u17:price",
-          "u17:change",
-          "u17:bill"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The first ___ on the menu today is fried rice.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "j-a-c-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken keeps his keys zipped inside his denim ___.",
-        "fullSentence": "Ken keeps his keys zipped inside his denim jacket.",
-        "translation": "肯把鑰匙拉上丹寧夾克的口袋收好。",
-        "clue": "有口袋、穿在外面的短外套",
-        "answerEntryId": "u10:jacket",
-        "distractorEntryIds": [
-          "u10:sock(s)",
-          "u10:scarf",
-          "u10:underwear"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our teacher wears a warm ___ when the classroom gets cold.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "j-e-a-n-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken wore his old blue ___ to the class trip because they are tough.",
-        "fullSentence": "Ken wore his old blue jeans to the class trip because they are tough.",
-        "translation": "肯穿他舊的藍色牛仔褲去校外教學，因為很耐穿。",
-        "clue": "藍色丹寧布做的長褲",
-        "answerEntryId": "u10:jeans",
-        "distractorEntryIds": [
-          "u10:shorts",
-          "u10:trousers",
-          "u10:pants"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blue ___ are pants made of a strong cloth called denim.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "m-a-s-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wear a face ___ on the crowded subway to stay safe from germs.",
-        "fullSentence": "Wear a face mask on the crowded subway to stay safe from germs.",
-        "translation": "在擁擠的捷運上戴上口罩，避免病菌。",
-        "clue": "遮住口鼻的衛生用品",
-        "answerEntryId": "u10:mask",
-        "distractorEntryIds": [
-          "u10:hat",
-          "u10:cap",
-          "u10:scarf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "At the Halloween party, everyone wore a scary ___.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "m-e-s-s-a-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken left a ___ on the answering machine saying he would be late.",
-        "fullSentence": "Ken left a message on the answering machine saying he would be late.",
-        "translation": "肯在答錄機上留言說他會晚到。",
-        "clue": "留言、傳達給別人的話",
-        "answerEntryId": "u10:message",
-        "distractorEntryIds": [
-          "u13:letter",
-          "u11:telephone",
-          "u14:game"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Jenny sent a short ___ to her friend right after class.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "m-e-t-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Iron, gold, silver, and copper are all kinds of ___.",
-        "fullSentence": "Iron, gold, silver, and copper are all kinds of metal.",
-        "translation": "鐵、金、銀和銅都是金屬的一種。",
-        "clue": "這些材料共同的類別",
-        "answerEntryId": "u10:metal",
-        "distractorEntryIds": [
-          "u23:rock",
-          "u22:animal",
-          "u18:glass"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A spoon feels cold because ___ carries heat away quickly.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "n-e-c-k-l-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wendy wore a pearl ___ around her neck at the party.",
-        "fullSentence": "Wendy wore a pearl necklace around her neck at the party.",
-        "translation": "溫蒂派對上戴著珍珠項鍊。",
-        "clue": "戴在頸子上的珠寶",
-        "answerEntryId": "u10:necklace",
-        "distractorEntryIds": [
-          "u10:ring",
-          "u10:belt",
-          "u10:earring(s)"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma keeps her gold ___ inside a small jewelry box.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "o-r-a-n-g-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sunset turned the whole sky a warm ___ color tonight.",
-        "fullSentence": "The sunset turned the whole sky a warm orange color tonight.",
-        "translation": "今晚的夕陽把整片天空染成溫暖的橙色。",
-        "clue": "夕陽時天空的溫暖顏色",
-        "answerEntryId": "u10:orange",
-        "distractorEntryIds": [
-          "u10:blue",
-          "u10:purple",
-          "u10:green"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Pumpkins and carrots share the same bright ___ color.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "p-a-j-a-m-a-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After his bath, Ken put on his ___ and went to bed.",
-        "fullSentence": "After his bath, Ken put on his pajamas and went to bed.",
-        "translation": "肯洗完澡後換上睡衣，上床睡覺。",
-        "clue": "睡覺時穿的寬鬆衣服",
-        "answerEntryId": "u10:pajamas",
-        "distractorEntryIds": [
-          "u10:swimsuit",
-          "u10:shoe(s)",
-          "u10:cap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is time for bed, so change into your ___ first.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "p-a-n-t-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Duane put on his ___ and a top, then hurried out the door.",
-        "fullSentence": "Duane put on his pants and a top, then hurried out the door.",
-        "translation": "杜安套上長褲和上衣，急著出門。",
-        "clue": "和上衣搭配、穿在腿上的衣物",
-        "answerEntryId": "u10:pants",
-        "distractorEntryIds": [
-          "u10:skirt",
-          "u10:shorts",
-          "u10:jeans"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa wears a ___ with suspenders to hold them up.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "p-i-n-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Little girls often love ___ things like roses and bubble gum.",
-        "fullSentence": "Little girls often love pink things like roses and bubble gum.",
-        "translation": "小女孩常喜歡粉紅色的東西，像玫瑰花和泡泡糖。",
-        "clue": "比紅色淺、甜甜的顏色",
-        "answerEntryId": "u10:pink",
-        "distractorEntryIds": [
-          "u10:black",
-          "u10:brown",
-          "u10:gray"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Piglets are ___ animals that roll in the mud.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "p-o-c-k-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken slid his house key into the ___ of his jeans.",
-        "fullSentence": "Ken slid his house key into the pocket of his jeans.",
-        "translation": "肯把家裡鑰匙塞進牛仔褲的口袋裡。",
-        "clue": "褲子上放鑰匙的小袋子",
-        "answerEntryId": "u10:pocket",
-        "distractorEntryIds": [
-          "u10:button",
-          "u10:belt",
-          "u10:scarf"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Amy reached into her jacket ___ for a tissue.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "p-o-w-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baker dusted sweet ___ onto the fresh donuts.",
-        "fullSentence": "The baker dusted sweet powder onto the fresh donuts.",
-        "translation": "麵包師傅在剛做好的甜甜圈上撒上甜甜的糖粉。",
-        "clue": "甜甜圈上白色細細的粉末",
-        "answerEntryId": "u10:powder",
-        "distractorEntryIds": [
-          "u23:sand",
-          "u18:glass",
-          "u23:mud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wash your hands before touching food, or the slippery ___ may get in it.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "p-u-r-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mix red paint with blue paint and you will get ___.",
-        "fullSentence": "Mix red paint with blue paint and you will get purple.",
-        "translation": "把紅色顏料和藍色顏料混一起，就會變成紫色。",
-        "clue": "紅藍混合成的顏色",
-        "answerEntryId": "u10:purple",
-        "distractorEntryIds": [
-          "u10:green",
-          "u10:orange",
-          "u10:brown"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grapes and eggplants are common ___ foods.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "p-u-r-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy keeps her cash and keys in a small leather ___.",
-        "fullSentence": "Amy keeps her cash and keys in a small leather purse.",
-        "translation": "愛咪把現金和鑰匙放在小皮包裡。",
-        "clue": "女性隨身提的小皮包",
-        "answerEntryId": "u10:purse",
-        "distractorEntryIds": [
-          "u10:wallet",
-          "u10:shirt",
-          "u10:belt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She changed her ___ to match her new shoes at the party.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "r-a-i-n-c-o-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Take your ___ today because the radio says it will rain.",
-        "fullSentence": "Take your raincoat today because the radio says it will rain.",
-        "translation": "今天帶雨衣出門，電台說會下雨。",
-        "clue": "下雨天穿在外面的防水外衣",
-        "answerEntryId": "u10:raincoat",
-        "distractorEntryIds": [
-          "u10:umbrella",
-          "u10:cap",
-          "u23:rainbow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He wore a ___ over his school uniform on the wet morning.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "r-e-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Blood, fire trucks, and ripe strawberries are usually ___.",
-        "fullSentence": "Blood, fire trucks, and ripe strawberries are usually red.",
-        "translation": "血、消防車和熟透的草莓通常是紅色的。",
-        "clue": "這些東西共同的顏色",
-        "answerEntryId": "u10:red",
-        "distractorEntryIds": [
-          "u10:white",
-          "u10:green",
-          "u10:blue"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The traffic light turned ___, so all the cars stopped.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "r-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma keeps her gold ___ together with her other jewelry.",
-        "fullSentence": "Grandma keeps her gold ring together with her other jewelry.",
-        "translation": "奶奶把她的金戒指和其他首飾放在一起收藏。",
-        "clue": "戴在手指上的珠寶",
-        "answerEntryId": "u10:ring",
-        "distractorEntryIds": [
-          "u10:necklace",
-          "u10:belt",
-          "u10:button"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On their 25th anniversary, Ken gave his wife a new ___.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "s-c-a-r-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wendy wrapped her woolen ___ around her neck twice.",
-        "fullSentence": "Wendy wrapped her woolen scarf around her neck twice.",
-        "translation": "溫蒂把羊毛圍巾在脖子上繞了兩圈。",
-        "clue": "繞在脖子上保暖的布",
-        "answerEntryId": "u10:scarf",
-        "distractorEntryIds": [
-          "u10:belt",
-          "u10:tie",
-          "u10:coat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In winter, wear a hat, gloves, and a ___ to stay warm.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "s-h-i-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Men wear a ___ with a collar and buttons down the front.",
-        "fullSentence": "Men wear a shirt with a collar and buttons down the front.",
-        "translation": "男生穿的襯衫有領子，前面有一排釦子。",
-        "clue": "有領子、前襟扣扣子的上衣",
-        "answerEntryId": "u10:shirt",
-        "distractorEntryIds": [
-          "u10:shoe(s)",
-          "u10:belt",
-          "u10:sock(s)"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put on a clean ___ before you meet the customer.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "s-h-o-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Take off your ___ at the door so the floor stays clean.",
-        "fullSentence": "Take off your shoe(s) at the door so the floor stays clean.",
-        "translation": "進門前把鞋子脫掉，地板才不會弄髒。",
-        "clue": "穿在腳上外出走路的東西",
-        "answerEntryId": "u10:shoe(s)",
-        "distractorEntryIds": [
-          "u10:sock(s)",
-          "u10:slipper(s)",
-          "u10:hat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Amy's new running ___ have thick soles for the track.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "s-h-o-r-t-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is too hot for full-length trousers, so Jeff wears ___ instead.",
-        "fullSentence": "It is too hot for full-length trousers, so Jeff wears shorts instead.",
-        "translation": "天氣太熱不適合穿長褲，所以傑夫改穿短褲。",
-        "clue": "涼爽、只到膝蓋的褲子",
-        "answerEntryId": "u10:shorts",
-        "distractorEntryIds": [
-          "u10:pants",
-          "u10:raincoat",
-          "u10:suit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Basketball players usually wear loose ___ so they can run fast.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "s-i-l-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This shiny spoon is made of real ___ and costs a lot.",
-        "fullSentence": "This shiny spoon is made of real silver and costs a lot.",
-        "translation": "這把閃亮的湯匙是真銀做的，非常昂貴。",
-        "clue": "湯匙用的白色貴金屬",
-        "answerEntryId": "u10:silver",
-        "distractorEntryIds": [
-          "u10:gold",
-          "u10:metal",
-          "u23:stone"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The old couple celebrated 25 years with ___ wedding rings.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "s-k-i-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wendy wears a ___ with her school uniform every Wednesday.",
-        "fullSentence": "Wendy wears a skirt with her school uniform every Wednesday.",
-        "translation": "溫蒂每星期三穿裙子搭配校服。",
-        "clue": "女生校服下半身的衣物",
-        "answerEntryId": "u10:skirt",
-        "distractorEntryIds": [
-          "u10:shirt",
-          "u10:blouse",
-          "u10:T-shirt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She twirled and her ___ spun out like a bell.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "s-l-i-p-p-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa puts on his soft ___ before he walks on the cold floor.",
-        "fullSentence": "Grandpa puts on his soft slipper(s) before he walks on the cold floor.",
-        "translation": "爺爺走在冰涼的地板前，先穿上柔軟的拖鞋。",
-        "clue": "室內穿的輕便鞋",
-        "answerEntryId": "u10:slipper(s)",
-        "distractorEntryIds": [
-          "u10:shoe(s)",
-          "u10:sock(s)",
-          "u10:sweater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take off your shoes and put on the ___ by the door.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "s-n-e-a-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Jeff bought new ___ for the school sports day.",
-        "fullSentence": "Jeff bought new sneaker(s) for the school sports day.",
-        "translation": "傑夫為學校運動會買了新的運動鞋。",
-        "clue": "運動時穿、跑跳舒服的鞋",
-        "answerEntryId": "u10:sneaker(s)",
-        "distractorEntryIds": [
-          "u10:slipper(s)",
-          "u10:shoe(s)",
-          "u10:cap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wear your ___ to run laps around the playground.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "s-o-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken pulled on thick ___ before tying his shoes.",
-        "fullSentence": "Ken pulled on thick sock(s) before tying his shoes.",
-        "translation": "肯綁鞋帶前先穿上厚襪子。",
-        "clue": "穿在鞋子裡、貼腳的布料",
-        "answerEntryId": "u10:sock(s)",
-        "distractorEntryIds": [
-          "u10:shoe(s)",
-          "u10:glove",
-          "u10:cap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wash your ___ every day so your shoes will not smell.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "s-t-y-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Long hair is back in ___ this year, so many boys grow it.",
-        "fullSentence": "Long hair is back in style this year, so many boys grow it.",
-        "translation": "長髮今年又流行，很多男生都留長了。",
-        "clue": "今年流行的樣式",
-        "answerEntryId": "u10:style",
-        "distractorEntryIds": [
-          "u31:fashion",
-          "u13:rule",
-          "u18:size"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "That store sells ___s of clothing from Japan to young people.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "s-u-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "George put on his dark ___ and a tie for the important meeting.",
-        "fullSentence": "George put on his dark suit and a tie for the important meeting.",
-        "translation": "喬治為了重要會議穿上深色西裝、打好領帶。",
-        "clue": "上班開會穿的正式套裝",
-        "answerEntryId": "u10:suit",
-        "distractorEntryIds": [
-          "u10:sweater",
-          "u10:raincoat",
-          "u10:T-shirt"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The groom's ___ was black, matching the bride's long dress.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "s-w-e-a-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandma knitted me a warm ___ for my winter birthday.",
-        "fullSentence": "Grandma knitted me a warm sweater for my winter birthday.",
-        "translation": "奶奶織了一件暖和的毛衣給我當生日禮物。",
-        "clue": "冬天穿的針織保暖上衣",
-        "answerEntryId": "u10:sweater",
-        "distractorEntryIds": [
-          "u10:T-shirt",
-          "u10:coat",
-          "u10:pajamas"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is cold in the classroom, so Ken always keeps a ___ on the back of his chair.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "s-w-i-m-s-u-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Kelly bought a new ___ for the beach trip next week.",
-        "fullSentence": "Kelly bought a new swimsuit for the beach trip next week.",
-        "translation": "凱莉為下週的海邊之旅買了一件新泳裝。",
-        "clue": "下水游泳時穿的衣服",
-        "answerEntryId": "u10:swimsuit",
-        "distractorEntryIds": [
-          "u10:jacket",
-          "u10:raincoat",
-          "u10:sweater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bring your ___ if you plan to swim in the hotel pool.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "t-i-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Jeff pulled on his favorite ___ before the school photo.",
-        "fullSentence": "Jeff pulled on his favorite tie before the school photo.",
-        "translation": "拍畢業照前，傑夫繫上他最喜歡的領帶。",
-        "clue": "繫在襯衫領下的長條布飾",
-        "answerEntryId": "u10:tie",
-        "distractorEntryIds": [
-          "u10:belt",
-          "u10:scarf",
-          "u10:cap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "George wears a dark suit and a ___ to important meetings.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "t-r-e-a-s-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The pirates dug all night hoping to find the buried ___.",
-        "fullSentence": "The pirates dug all night hoping to find the buried treasure.",
-        "translation": "海盜挖了一整晚，希望找到埋藏的寶藏。",
-        "clue": "海盜埋藏的珍貴寶物",
-        "answerEntryId": "u10:treasure",
-        "distractorEntryIds": [
-          "u23:rock",
-          "u17:cash",
-          "u11:brick"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The map showed the way to the hidden ___ under the old tree.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "t-r-o-u-s-e-r-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "George wears gray ___ with his school uniform instead of denim pants.",
-        "fullSentence": "George wears gray trousers with his school uniform instead of denim pants.",
-        "translation": "喬治穿灰色的西裝褲搭配校服，不是牛仔褲。",
-        "clue": "校服用的正式長褲",
-        "answerEntryId": "u10:trousers",
-        "distractorEntryIds": [
-          "u10:jeans",
-          "u10:shorts",
-          "u10:sock(s)"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Formal ___ and a pressed shirt make you look professional.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "t-s-h-i-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wendy wears a white ___ and jeans on hot weekends.",
-        "fullSentence": "Wendy wears a white T-shirt and jeans on hot weekends.",
-        "translation": "溫蒂週末穿白色圓領短袖衫和牛仔褲。",
-        "clue": "夏天常穿的圓領短袖上衣",
-        "answerEntryId": "u10:T-shirt",
-        "distractorEntryIds": [
-          "u10:shirt",
-          "u10:blouse",
-          "u10:raincoat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The class designed a ___ with a big sun on the front.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "u-m-b-r-e-l-l-a",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sara opened her ___ so the rain would not wet her head.",
-        "fullSentence": "Sara opened her umbrella so the rain would not wet her head.",
-        "translation": "莎拉撐開雨傘，頭才不會被雨淋濕。",
-        "clue": "撐開擋雨的遮具",
-        "answerEntryId": "u10:umbrella",
-        "distractorEntryIds": [
-          "u10:raincoat",
-          "u10:mask",
-          "u10:hat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take an ___ because the sky is full of dark clouds.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "u-n-d-e-r-w-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Put on clean ___ every morning before you get dressed.",
-        "fullSentence": "Put on clean underwear every morning before you get dressed.",
-        "translation": "每天早上穿衣前，要先換上乾淨的內衣褲。",
-        "clue": "穿在最裡面、貼身的衣物",
-        "answerEntryId": "u10:underwear",
-        "distractorEntryIds": [
-          "u10:pajamas",
-          "u10:sock(s)",
-          "u10:sweater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Travelers pack extra ___ in case they cannot wash clothes every day.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "u-n-i-f-o-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every student at this school must wear a navy blue ___ to class.",
-        "fullSentence": "Every student at this school must wear a navy blue uniform to class.",
-        "translation": "這所學校的學生上學都要穿深藍色制服。",
-        "clue": "全校學生都穿一樣的衣服",
-        "answerEntryId": "u10:uniform",
-        "distractorEntryIds": [
-          "u10:suit",
-          "u10:pajamas",
-          "u10:swimsuit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Nurses wear a white ___ so patients can find them easily.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "v-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Under his suit, the groom wore a matching gray ___.",
-        "fullSentence": "Under his suit, the groom wore a matching gray vest.",
-        "translation": "新郎在西裝裡穿了相配的灰色背心。",
-        "clue": "西裝內層、無袖的上衣",
-        "answerEntryId": "u10:vest",
-        "distractorEntryIds": [
-          "u10:shirt",
-          "u10:coat",
-          "u10:sweater"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Road workers wear bright orange ___ so drivers can see them.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "w-a-l-l-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken's thin ___ fits neatly into his back pocket.",
-        "fullSentence": "Ken's thin wallet fits neatly into his back pocket.",
-        "translation": "肯的扁扁錢包剛好放進後口袋。",
-        "clue": "放錢、卡片的小皮夾",
-        "answerEntryId": "u10:wallet",
-        "distractorEntryIds": [
-          "u10:purse",
-          "u13:envelope",
-          "u11:drawer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Jeff opened his ___ and found only fifty-dollar coins inside.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "w-e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In summer we ___ light clothes because the weather is hot.",
-        "fullSentence": "In summer we wear light clothes because the weather is hot.",
-        "translation": "夏天因為天氣熱，我們穿輕薄的衣服。",
-        "clue": "把衣服穿在身上的動作",
-        "answerEntryId": "u10:wear",
-        "distractorEntryIds": [
-          "u2:live",
-          "u14:play",
-          "u2:support"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You cannot ___ your shoes on your hands, no matter how hard you try.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "w-h-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Snow, milk, and fresh paper are all ___.",
-        "fullSentence": "Snow, milk, and fresh paper are all white.",
-        "translation": "雪、牛奶和乾淨的紙都是白色的。",
-        "clue": "這些東西共同的顏色",
-        "answerEntryId": "u10:white",
-        "distractorEntryIds": [
-          "u10:black",
-          "u10:blue",
-          "u10:orange"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mix ___ paint with red paint to make pink.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "y-e-l-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Sunflowers, lemons, and ripe bananas are all ___.",
-        "fullSentence": "Sunflowers, lemons, and ripe bananas are all yellow.",
-        "translation": "向日葵、檸檬和熟香蕉都是黃色的。",
-        "clue": "這些東西共同的顏色",
-        "answerEntryId": "u10:yellow",
-        "distractorEntryIds": [
-          "u10:orange",
-          "u10:green",
-          "u10:brown"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The traffic light flashes ___ before it turns red.",

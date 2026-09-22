@@ -11,18 +11,6 @@
       "spellingHint": "a-d-u-l-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Children ride free, but every ___ has to buy a ticket on the bus.",
-        "fullSentence": "Children ride free, but every adult has to buy a ticket on the bus.",
-        "translation": "小孩免費搭乘，但每個大人在公車上都必須買票。",
-        "clue": "要買票乘車的大人",
-        "answerEntryId": "u4:adult",
-        "distractorEntryIds": [
-          "u4:child",
-          "u4:kid",
-          "u4:baby"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Only an ___ over eighteen can enter this movie by law.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-n-g-e-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "During the Christmas play, Ann wore white wings and played the part of an ___.",
-        "fullSentence": "During the Christmas play, Ann wore white wings and played the part of an angel.",
-        "translation": "在聖誕劇中，Ann 戴上白色翅膀扮演天使。",
-        "clue": "有翅膀的聖誕劇角色",
-        "answerEntryId": "u4:angel",
-        "distractorEntryIds": [
-          "u4:giant",
-          "u4:robot",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the old story, a gentle ___ with wings watched over the sleeping baby.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-u-d-i-e-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The whole ___ laughed until their tummies hurt during Mr. Chen's funny show.",
-        "fullSentence": "The whole audience laughed until their tummies hurt during Mr. Chen's funny show.",
-        "translation": "在陳先生好笑的表演中，全場觀眾都笑到肚子痛。",
-        "clue": "看表演的全場人群",
-        "answerEntryId": "u4:audience",
-        "distractorEntryIds": [
-          "u4:prisoner",
-          "u4:giant",
-          "u4:voter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Because the theater was full, two hundred ___ in the seats stood up to applaud.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-a-b-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nurse fed the ___, who is only two months old, with a bottle of warm milk.",
-        "fullSentence": "The nurse fed the baby, who is only two months old, with a bottle of warm milk.",
-        "translation": "護士餵只出生兩個月的嬰兒喝溫牛奶。",
-        "clue": "出生兩個月、用奶瓶喝奶的小寶寶",
-        "answerEntryId": "u4:baby",
-        "distractorEntryIds": [
-          "u4:kid",
-          "u4:boy",
-          "u4:adult"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ cannot walk or talk yet, so it cries when it is hungry.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-e-a-u-t-i-f-u-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The garden was so ___ that every visitor stopped to take photos of the roses.",
-        "fullSentence": "The garden was so beautiful that every visitor stopped to take photos of the roses.",
-        "translation": "這座花園美得讓每一位訪客都停下來拍玫瑰花的照片。",
-        "clue": "美得讓人拍照的花園",
-        "answerEntryId": "u4:beautiful",
-        "distractorEntryIds": [
-          "u4:heavy",
-          "u4:blind",
-          "u4:short"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bride looked so ___ that people said she was a fairy in white.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-e-a-u-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The poet wrote many lines about the ___ of cherry flowers in April.",
-        "fullSentence": "The poet wrote many lines about the beauty of cherry flowers in April.",
-        "translation": "詩人寫了許多詩句讚美四月櫻花的美。",
-        "clue": "詩中讚美的櫻花之美",
-        "answerEntryId": "u4:beauty",
-        "distractorEntryIds": [
-          "u4:giant",
-          "u4:enemy",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Tourists say the sunset here has a special ___ that photos can never catch.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-l-i-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa is ___, so his eyes see nothing and the family reads the newspaper to him.",
-        "fullSentence": "Grandpa is blind, so his eyes see nothing and the family reads the newspaper to him.",
-        "translation": "爺爺看不見，眼睛什麼都看不到，所以家人讀報紙給他聽。",
-        "clue": "眼睛看不到、要別人唸報紙",
-        "answerEntryId": "u4:blind",
-        "distractorEntryIds": [
-          "u4:short",
-          "u4:heavy",
-          "u4:cute"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ man crosses the street safely with his white stick and guide dog.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-o-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Though he is only six, the ___ fixed his own bicycle wheel with Dad's tools.",
-        "fullSentence": "Though he is only six, the boy fixed his own bicycle wheel with Dad's tools.",
-        "translation": "雖然只有六歲，這個男孩卻用爸爸的工具自己修好了腳踏車輪子。",
-        "clue": "用他（he）稱呼的六歲小孩",
-        "answerEntryId": "u4:boy",
-        "distractorEntryIds": [
-          "u4:girl",
-          "u4:woman",
-          "u4:lady"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ was late for class again, so his teacher called his mom.",
@@ -699,18 +603,6 @@
       "spellingHint": "c-h-i-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At only seven years old, the ___ drew dinosaurs on every page of his notebook.",
-        "fullSentence": "At only seven years old, the child drew dinosaurs on every page of his notebook.",
-        "translation": "這個七歲的小孩在筆記本每一頁都畫恐龍。",
-        "clue": "只有七歲的畫畫小孩",
-        "answerEntryId": "u4:child",
-        "distractorEntryIds": [
-          "u4:adult",
-          "u4:prisoner",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ needs about ten hours of sleep and lots of playtime to grow tall and strong.",
@@ -785,18 +677,6 @@
       "spellingHint": "c-h-i-l-d-h-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mom spent her ___ in a fishing village, swimming in the sea every summer afternoon.",
-        "fullSentence": "Mom spent her childhood in a fishing village, swimming in the sea every summer afternoon.",
-        "translation": "媽媽的童年在一個漁村度過，每個夏天下午都在海上游泳。",
-        "clue": "度過童年時光的小時候",
-        "answerEntryId": "u4:childhood",
-        "distractorEntryIds": [
-          "u4:adult",
-          "u4:baby",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Photos of Dad's ___ show a skinny little kid running barefoot in the yard.",
@@ -871,18 +751,6 @@
       "spellingHint": "c-i-t-i-z-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mayor built a new library so that every ___ in town could read books for free.",
-        "fullSentence": "The mayor built a new library so that every citizen in town could read books for free.",
-        "translation": "市長蓋了一座新圖書館，讓鎮上每位市民都能免費閱讀。",
-        "clue": "使用鎮上公共設施的居民",
-        "answerEntryId": "u4:citizen",
-        "distractorEntryIds": [
-          "u4:passenger",
-          "u4:enemy",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ obeys the laws and helps keep the streets clean and safe.",
@@ -957,18 +825,6 @@
       "spellingHint": "c-o-n-f-u-c-i-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Teachers' Day in Taiwan honors ___, a great thinker born over 2,500 years ago.",
-        "fullSentence": "Teachers' Day in Taiwan honors Confucius, a great thinker born over 2,500 years ago.",
-        "translation": "台灣的教師節是為了紀念生於兩千五百年前的偉大思想家孔子。",
-        "clue": "教師節紀念的偉大老師",
-        "answerEntryId": "u4:Confucius",
-        "distractorEntryIds": [
-          "u4:God",
-          "u4:hero",
-          "u4:king"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Students bow to the bronze statue of the great teacher ___ before the ceremony begins.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-o-u-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ under the wedding arch promised to love each other forever.",
-        "fullSentence": "The couple under the wedding arch promised to love each other forever.",
-        "translation": "婚禮拱門下的那對新人承諾永遠相愛。",
-        "clue": "在婚禮上互許終身的一對",
-        "answerEntryId": "u4:couple",
-        "distractorEntryIds": [
-          "u4:partner",
-          "u4:guest",
-          "u4:leader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa took Grandma's hand because they have been a happy ___ for fifty years.",
@@ -1129,18 +973,6 @@
       "spellingHint": "c-r-e-a-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Fans lined up to meet the ___ of their favorite robot comics.",
-        "fullSentence": "Fans lined up to meet the creator of their favorite robot comics.",
-        "translation": "粉絲排隊想要見他們最愛機器人漫畫的創作者。",
-        "clue": "漫畫的作者",
-        "answerEntryId": "u4:creator",
-        "distractorEntryIds": [
-          "u4:user",
-          "u4:guest",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the Bible, God is the ___ of heaven and earth.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "c-u-s-t-o-m-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the busy restaurant, the angry ___ said the soup arrived cold and asked for the manager.",
-        "fullSentence": "In the busy restaurant, the angry customer said the soup arrived cold and asked for the manager.",
-        "translation": "在忙碌的餐廳裡，生氣的顧客說湯送來時是冷的，要求見經理。",
-        "clue": "在餐廳消費並投訴的人",
-        "answerEntryId": "u4:customer",
-        "distractorEntryIds": [
-          "u4:passenger",
-          "u4:prisoner",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The shop owner always tells his workers that the ___ is always right.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "c-u-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ kitten chased its little tail and fell over, making everyone laugh.",
-        "fullSentence": "The cute kitten chased its little tail and fell over, making everyone laugh.",
-        "translation": "可愛的小貓追著自己的小尾巴摔倒，逗得大家哈哈大笑。",
-        "clue": "追尾巴摔倒、逗人笑的可愛小貓",
-        "answerEntryId": "u4:cute",
-        "distractorEntryIds": [
-          "u4:heavy",
-          "u4:old",
-          "u4:short"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister loves her ___ teddy bear with a big red bow and hugs it every night.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "d-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"___ Chen will see you now,\" the nurse said, and Uncle Wang stood up.",
-        "fullSentence": "\"Dr. Chen will see you now,\" the nurse said, and Uncle Wang stood up.",
-        "translation": "護士說：「陳醫生現在可以看診了。」王叔叔便站起來。",
-        "clue": "在醫院看診的稱呼",
-        "answerEntryId": "u4:Dr.",
-        "distractorEntryIds": [
-          "u4:Mr.",
-          "u4:Sir",
-          "u4:Miss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Because her tooth hurt, Mom made an appointment with ___ Liu.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "e-n-e-m-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the war story, the brave soldier hid from the ___ behind an old stone wall.",
-        "fullSentence": "In the war story, the brave soldier hid from the enemy behind an old stone wall.",
-        "translation": "在那個戰爭故事裡，勇敢的士兵躲在老石牆後面避開敵人。",
-        "clue": "戰場上要躲開的對手",
-        "answerEntryId": "u4:enemy",
-        "distractorEntryIds": [
-          "u4:hero",
-          "u4:guest",
-          "u4:leader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A lion's worst ___ is often another lion hunting in the same forest.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "f-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After eating six burgers, the ___ dog could hardly squeeze through the doggy door.",
-        "fullSentence": "After eating six burgers, the fat dog could hardly squeeze through the doggy door.",
-        "translation": "吃了六個漢堡後，胖胖的狗幾乎擠不過狗門。",
-        "clue": "吃太多、身材圓滾滾的狗",
-        "answerEntryId": "u4:fat",
-        "distractorEntryIds": [
-          "u4:short",
-          "u4:blind",
-          "u4:cute"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ panda sat on the grass and ate bamboo all afternoon without moving.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "f-e-l-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bus driver is a cheerful ___ who tells jokes at every stop.",
-        "fullSentence": "The bus driver is a cheerful fellow who tells jokes at every stop.",
-        "translation": "公車司機是個開朗的傢伙，每站都講笑話。",
-        "clue": "愛講笑話的友善男士",
-        "answerEntryId": "u4:fellow",
-        "distractorEntryIds": [
-          "u4:lady",
-          "u4:winner",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"Come with me, young ___,\" said the old man, \"and I'll show you the way.\"",
@@ -1731,18 +1491,6 @@
       "spellingHint": "f-o-l-l-o-w-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ of the famous coach ran ten kilometers every morning.",
-        "fullSentence": "Each follower of the famous coach ran ten kilometers every morning.",
-        "translation": "名教練的每位追隨者每天早上都跑十公里。",
-        "clue": "跟著名教練一起跑的人",
-        "answerEntryId": "u4:follower",
-        "distractorEntryIds": [
-          "u4:leader",
-          "u4:creator",
-          "u4:master"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The singer waved to each excited ___ waiting outside the concert hall.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "f-o-o-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Only a ___ would swim in the river after the warning sign was posted.",
-        "fullSentence": "Only a fool would swim in the river after the warning sign was posted.",
-        "translation": "警告牌立起來後還去河裡游泳的只有傻瓜。",
-        "clue": "不聽警告還去做危險事的人",
-        "answerEntryId": "u4:fool",
-        "distractorEntryIds": [
-          "u4:genius",
-          "u4:master",
-          "u4:leader"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"I felt like a ___,\" Tom said, \"I forgot my own birthday!\"",
@@ -1903,18 +1639,6 @@
       "spellingHint": "f-o-r-e-i-g-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ pointed at the map and asked, in slow English, where the museum was.",
-        "fullSentence": "The foreigner pointed at the map and asked, in slow English, where the museum was.",
-        "translation": "那位外國人指著地圖，用慢慢的英文問博物館在哪裡。",
-        "clue": "問路時用英文的外地人",
-        "answerEntryId": "u4:foreigner",
-        "distractorEntryIds": [
-          "u4:citizen",
-          "u4:guest",
-          "u4:visitor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ must show a passport when entering another country.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "g-e-n-i-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every ___ has a special gift, but even geniuses need to practice hard every day.",
-        "fullSentence": "Every genius has a special gift, but even geniuses need to practice hard every day.",
-        "translation": "每個天才都有特別的天賦，但即使天才也需要每天努力練習。",
-        "clue": "擁有天賦的人",
-        "answerEntryId": "u4:genius",
-        "distractorEntryIds": [
-          "u4:fool",
-          "u4:loser",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Scientists say that answers often come to a ___ during dreams or long walks.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "g-e-n-t-l-e-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The well-dressed ___ stepped off the train, tipped his hat, and asked for directions politely.",
-        "fullSentence": "The well-dressed gentleman stepped off the train, tipped his hat, and asked for directions politely.",
-        "translation": "衣著整齊的紳士下了火車，輕抬帽檐，禮貌地問路。",
-        "clue": "戴帽子、舉止有禮的男士",
-        "answerEntryId": "u4:gentleman",
-        "distractorEntryIds": [
-          "u4:lady",
-          "u4:boy",
-          "u4:man"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A true ___ sees a woman carrying heavy bags and quietly offers to help her.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "g-h-o-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every Halloween, kids dress up with a white sheet and pretend to be a ___.",
-        "fullSentence": "Every Halloween, kids dress up with a white sheet and pretend to be a ghost.",
-        "translation": "每年萬聖節，孩子們披上白床單扮成鬼。",
-        "clue": "萬聖節披白床單扮的角色",
-        "answerEntryId": "u4:ghost",
-        "distractorEntryIds": [
-          "u4:angel",
-          "u4:robot",
-          "u4:giant"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The old castle is said to be home to a ___ that floats through walls at midnight.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "g-i-a-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The beanstalk grew so tall that Jack climbed right up into the ___'s castle in the clouds.",
-        "fullSentence": "The beanstalk grew so tall that Jack climbed right up into the giant's castle in the clouds.",
-        "translation": "豆莖長得太高了，傑克一路爬到雲端巨人的城堡。",
-        "clue": "住在雲端城堡的童話人物",
-        "answerEntryId": "u4:giant",
-        "distractorEntryIds": [
-          "u4:king",
-          "u4:hero",
-          "u4:prince"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ can hold a whole watermelon in the palm of one hand.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "g-i-r-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ with two braids reads a new book under the tree every recess.",
-        "fullSentence": "The girl with two braids reads a new book under the tree every recess.",
-        "translation": "那個梳雙辮子的女孩每次下課都在樹下讀新書。",
-        "clue": "梳辮子、愛看書的女生",
-        "answerEntryId": "u4:girl",
-        "distractorEntryIds": [
-          "u4:boy",
-          "u4:man",
-          "u4:woman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ in the choir wears a white ribbon in her hair.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "g-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the old temple stories, ___ watches over the fields and sends spring rain.",
-        "fullSentence": "In the old temple stories, God watches over the fields and sends spring rain.",
-        "translation": "在古老的廟宇故事裡，神看守田地並降下春雨。",
-        "clue": "守護田地、降下雨水的信仰對象",
-        "answerEntryId": "u4:God",
-        "distractorEntryIds": [
-          "u4:angel",
-          "u4:ghost",
-          "u4:prince"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Many families fold their hands and thank ___ for the food on the table.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "g-o-d-d-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the ancient story, the ___ of the sea calmed the waves for the little fishing boat.",
-        "fullSentence": "In the ancient story, the goddess of the sea calmed the waves for the little fishing boat.",
-        "translation": "在古老的故事裡，海的女神為小漁船平息了風浪。",
-        "clue": "掌管海洋、平息風浪的女神",
-        "answerEntryId": "u4:goddess",
-        "distractorEntryIds": [
-          "u4:queen",
-          "u4:girl",
-          "u4:lady"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The garden had a small marble ___ standing on a shell above the water.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "g-u-e-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before leaving, the ___ thanked Grandma warmly for the dinner.",
-        "fullSentence": "Before leaving, the guest thanked Grandma warmly for the dinner.",
-        "translation": "那位客人離開前，溫暖地謝謝奶奶的晚餐。",
-        "clue": "來家裡吃飯的人",
-        "answerEntryId": "u4:guest",
-        "distractorEntryIds": [
-          "u4:visitor",
-          "u4:thief",
-          "u4:user"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ received a small gift bag when leaving the birthday party.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "g-u-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ask the ___ in the red cap; he knows every street in this town.",
-        "fullSentence": "Ask the guy in the red cap; he knows every street in this town.",
-        "translation": "問那個戴紅帽的傢伙，他認識鎮上每一條街。",
-        "clue": "對街道很熟、戴紅帽的人",
-        "answerEntryId": "u4:guy",
-        "distractorEntryIds": [
-          "u4:lady",
-          "u4:girl",
-          "u4:queen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Some ___ at the skate park can flip high over the half-pipe.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "h-a-n-d-s-o-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ prince gave a rose to every girl at the spring dance.",
-        "fullSentence": "The handsome prince gave a rose to every girl at the spring dance.",
-        "translation": "英俊的王子在春舞會上送每位女孩玫瑰花。",
-        "clue": "長得帥、送花的王子",
-        "answerEntryId": "u4:handsome",
-        "distractorEntryIds": [
-          "u4:beautiful",
-          "u4:cute",
-          "u4:pretty"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My cousin is a ___ young man with bright eyes and a big smile.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "h-e-a-v-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ rain knocked the petals off every flower in the garden.",
-        "fullSentence": "The heavy rain knocked the petals off every flower in the garden.",
-        "translation": "大雨把花園裡每朵花的花瓣都打落了。",
-        "clue": "下得又猛又大的雨",
-        "answerEntryId": "u4:heavy",
-        "distractorEntryIds": [
-          "u4:pretty",
-          "u4:beautiful",
-          "u4:handsome"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dad asked for help because the suitcase was too ___ to lift alone.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "h-e-r-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone called the young soldier a ___ after he carried the old man out of the flood.",
-        "fullSentence": "Everyone called the young soldier a hero after he carried the old man out of the flood.",
-        "translation": "年輕士兵把老先生從洪水中帶出來後，大家都說他是英雄。",
-        "clue": "救人出洪水的勇敢士兵",
-        "answerEntryId": "u4:hero",
-        "distractorEntryIds": [
-          "u4:winner",
-          "u4:leader",
-          "u4:master"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the comic, the ___ wears a red cape and saves the city every night.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "h-o-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The quiz show ___ smiled and read the final question very slowly.",
-        "fullSentence": "The quiz show host smiled and read the final question very slowly.",
-        "translation": "益智節目主持人微笑著，慢慢地念出最後一題。",
-        "clue": "在節目中念題目的人",
-        "answerEntryId": "u4:host",
-        "distractorEntryIds": [
-          "u4:guest",
-          "u4:winner",
-          "u4:visitor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "As the ___ of the party, Dad greeted everyone at the door with snacks.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "h-u-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the science film, the young ___ used both hands to build a tree house.",
-        "fullSentence": "In the science film, the young human used both hands to build a tree house.",
-        "translation": "在科學影片中，年輕的人類用雙手蓋了樹屋。",
-        "clue": "有十指會蓋樹屋的物種",
-        "answerEntryId": "u4:human",
-        "distractorEntryIds": [
-          "u4:robot",
-          "u4:giant",
-          "u4:ghost"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The zoo poster showed ___ hands drawing a picture of each animal.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "k-i-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A little ___ at the bus stop waved at every dog that passed by.",
-        "fullSentence": "A little kid at the bus stop waved at every dog that passed by.",
-        "translation": "公車站有個小孩向每一隻經過的狗揮手。",
-        "clue": "喜歡向狗揮手的小朋友",
-        "answerEntryId": "u4:kid",
-        "distractorEntryIds": [
-          "u4:adult",
-          "u4:man",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ on the playground wanted a turn on the new slide.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "k-i-n-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because the old ___ loved books more than gold, the castle built a huge library.",
-        "fullSentence": "Because the old king loved books more than gold, the castle built a huge library.",
-        "translation": "因為老國王愛書勝過黃金，城堡蓋了一座大圖書館。",
-        "clue": "住在城堡、熱愛書的統治者",
-        "answerEntryId": "u4:king",
-        "distractorEntryIds": [
-          "u4:queen",
-          "u4:prince",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ wore a heavy golden crown and a long red robe.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "l-a-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ in the long blue dress handed out flyers in front of the flower shop.",
-        "fullSentence": "The lady in the long blue dress handed out flyers in front of the flower shop.",
-        "translation": "穿藍色長裙的女士在花店前發傳單。",
-        "clue": "穿長裙、發傳單的女士",
-        "answerEntryId": "u4:lady",
-        "distractorEntryIds": [
-          "u4:man",
-          "u4:boy",
-          "u4:king"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"May I help you, ___?\" the young clerk asked politely.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "l-e-a-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because the ___ spoke clearly and listened well, the whole team trusted her plan.",
-        "fullSentence": "Because the leader spoke clearly and listened well, the whole team trusted her plan.",
-        "translation": "因為領導者口齒清晰又善於聆聽，全隊都相信她的計畫。",
-        "clue": "帶領團隊、被信任的人",
-        "answerEntryId": "u4:leader",
-        "distractorEntryIds": [
-          "u4:follower",
-          "u4:guest",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Our class chose Lisa as class ___ because she always helps everyone.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "l-e-a-d-e-r-s-h-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Good ___ means listening first, then making fair decisions for everyone.",
-        "fullSentence": "Good leadership means listening first, then making fair decisions for everyone.",
-        "translation": "好的領導能力是先傾聽，再為所有人做出公平決定。",
-        "clue": "先聆聽再做決定的本事",
-        "answerEntryId": "u4:leadership",
-        "distractorEntryIds": [
-          "u4:creator",
-          "u4:master",
-          "u4:genius"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Because of her strong ___, the soccer team came back from losing two goals.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "l-o-s-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Even though the ___ missed the last shot, he smiled and clapped for his opponent.",
-        "fullSentence": "Even though the loser missed the last shot, he smiled and clapped for his opponent.",
-        "translation": "雖然輸家錯失最後一投，他仍微笑為對手鼓掌。",
-        "clue": "輸掉比賽仍大方的人",
-        "answerEntryId": "u4:loser",
-        "distractorEntryIds": [
-          "u4:winner",
-          "u4:genius",
-          "u4:hero"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Everyone on the second-place team felt sad, but each ___ still bowed to the other side.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "l-o-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because Dad is a ___ of old maps, his study is full of them.",
-        "fullSentence": "Because Dad is a lover of old maps, his study is full of them.",
-        "translation": "因為爸爸是老地圖迷，他的書房滿是老地圖。",
-        "clue": "收藏老地圖的愛好者",
-        "answerEntryId": "u4:lover",
-        "distractorEntryIds": [
-          "u4:leader",
-          "u4:customer",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ of classical music bought a ticket for tonight's concert.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "m-a-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"Tea or coffee, ___?\" the waiter asked the woman in the blue hat.",
-        "fullSentence": "\"Tea or coffee, ma'am?\" the waiter asked the woman in the blue hat.",
-        "translation": "服務生問戴藍帽的女士：「請問要茶還是咖啡，太太？」",
-        "clue": "對女士的口語敬稱",
-        "answerEntryId": "u4:ma'am",
-        "distractorEntryIds": [
-          "u4:Sir",
-          "u4:Mr.",
-          "u4:boy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"Excuse me, ___,\" the polite student said, \"you dropped your umbrella.\"",
@@ -3881,18 +3341,6 @@
       "spellingHint": "m-a-d-a-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"Dear ___, welcome to the Grand Hotel,\" the letter on her bed began.",
-        "fullSentence": "\"Dear madam, welcome to the Grand Hotel,\" the letter on her bed began.",
-        "translation": "床上的信開頭寫著：「尊敬的女士，歡迎蒞臨大飯店。」",
-        "clue": "信件開頭的正式敬稱",
-        "answerEntryId": "u4:madam",
-        "distractorEntryIds": [
-          "u4:Sir",
-          "u4:Mr.",
-          "u4:Miss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The old doorman bowed and said, \"Welcome, ___, the show starts in ten minutes.\"",
@@ -3967,18 +3415,6 @@
       "spellingHint": "m-a-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Only a ___ peacock spreads that long, colorful tail in the spring.",
-        "fullSentence": "Only a male peacock spreads that long, colorful tail in the spring.",
-        "translation": "只有雄孔雀在春天會展開那又長又彩的尾羽。",
-        "clue": "會展尾羽的雄鳥",
-        "answerEntryId": "u4:male",
-        "distractorEntryIds": [
-          "u4:fellow",
-          "u4:child",
-          "u4:adult"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On the medical form, my brother checked the box marked ___.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "m-a-s-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dog ran to the front door as soon as it heard the ___ whistle from the yard.",
-        "fullSentence": "The dog ran to the front door as soon as it heard the master whistle from the yard.",
-        "translation": "一聽到主人在院子裡吹哨，狗就跑到前門去。",
-        "clue": "吹哨、狗會跑過去的人",
-        "answerEntryId": "u4:master",
-        "distractorEntryIds": [
-          "u4:guest",
-          "u4:child",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tea ___ poured the green leaves three times before guests tasted the first cup.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "m-i-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"Good morning, ___ Wang,\" the students said when the young teacher walked in.",
-        "fullSentence": "\"Good morning, Miss Wang,\" the students said when the young teacher walked in.",
-        "translation": "年輕老師走進教室時，學生說：「王小姐早。」",
-        "clue": "對未婚女老師的稱呼",
-        "answerEntryId": "u4:Miss",
-        "distractorEntryIds": [
-          "u4:Mrs.",
-          "u4:Mr.",
-          "u4:Sir"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ Lee, the new librarian, read a story to the younger children.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "m-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"___ Brown will help you at the counter,\" the shopkeeper said, pointing at the tall clerk.",
-        "fullSentence": "\"Mr. Brown will help you at the counter,\" the shopkeeper said, pointing at the tall clerk.",
-        "translation": "店主說：「櫃台會有布朗先生協助您。」並指向高個子店員。",
-        "clue": "對男性店員的禮貌稱呼",
-        "answerEntryId": "u4:Mr.",
-        "distractorEntryIds": [
-          "u4:Mrs.",
-          "u4:Miss",
-          "u4:Sir"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ Chen, our math teacher, always carries a black umbrella on rainy days.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "m-r-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ Wu asked the class to be quiet, then handed out the music sheets.",
-        "fullSentence": "Mrs. Wu asked the class to be quiet, then handed out the music sheets.",
-        "translation": "吳太太請全班安靜，然後發下樂譜。",
-        "clue": "稱呼已婚女老師的頭銜",
-        "answerEntryId": "u4:Mrs.",
-        "distractorEntryIds": [
-          "u4:Miss",
-          "u4:Mr.",
-          "u4:Sir"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ Lin, our neighbor, waters her flowers every morning at seven.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "m-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Modern offices prefer ___ when the writer does not know whether a woman is married.",
-        "fullSentence": "Modern offices prefer Ms. when the writer does not know whether a woman is married.",
-        "translation": "現代職場偏好用 Ms.，因為寫信的人不知道對方是否已婚。",
-        "clue": "不透露婚姻狀況的女性稱謂",
-        "answerEntryId": "u4:Ms.",
-        "distractorEntryIds": [
-          "u4:Mrs.",
-          "u4:Miss",
-          "u4:Sir"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ Parker, the company lawyer, will join the meeting at three.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "n-a-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The new student wrote her ___ on the blackboard so everyone could read it.",
-        "fullSentence": "The new student wrote her name on the blackboard so everyone could read it.",
-        "translation": "新同學把名字寫在黑板上，讓大家都看得到。",
-        "clue": "寫在黑板上讓人認識的字",
-        "answerEntryId": "u4:name",
-        "distractorEntryIds": [
-          "u4:ma'am",
-          "u4:madam",
-          "u4:male"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"What is the ___ of your best friend?\" the teacher asked kindly.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "n-e-i-g-h-b-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kind ___ next door shares fresh eggs from her hens every Sunday.",
-        "fullSentence": "The kind neighbor next door shares fresh eggs from her hens every Sunday.",
-        "translation": "隔壁善良的鄰居每個星期天都分享母雞下的新鮮蛋。",
-        "clue": "住在隔壁、分享雞蛋的人",
-        "answerEntryId": "u4:neighbor",
-        "distractorEntryIds": [
-          "u4:name",
-          "u4:guest",
-          "u4:stranger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A good ___ helps carry heavy bags into the building.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "o-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ man sat on the bench and told us about his childhood sixty years ago.",
-        "fullSentence": "The old man sat on the bench and told us about his childhood sixty years ago.",
-        "translation": "老先生坐在長椅上，告訴我們六十年前的童年往事。",
-        "clue": "回憶六十年前童年的人",
-        "answerEntryId": "u4:old",
-        "distractorEntryIds": [
-          "u4:beautiful",
-          "u4:short",
-          "u4:handsome"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This ___ watch belonged to my great-grandfather and still keeps perfect time.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "p-a-r-t-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because my ___ plays the piano, I sing and he leads the song.",
-        "fullSentence": "Because my partner plays the piano, I sing and he leads the song.",
-        "translation": "因為我的搭檔彈鋼琴，我唱歌，他引導整首曲子。",
-        "clue": "和表演者互相配合的搭檔",
-        "answerEntryId": "u4:partner",
-        "distractorEntryIds": [
-          "u4:leader",
-          "u4:enemy",
-          "u4:guest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tennis ___ served while the other player waited near the net.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "p-a-s-s-e-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bus driver asked each ___ to hold the handrail while the road was bumpy.",
-        "fullSentence": "The bus driver asked each passenger to hold the handrail while the road was bumpy.",
-        "translation": "路顛簸時，公車司機請每位乘客抓緊扶手。",
-        "clue": "在車上、被提醒抓扶手的人",
-        "answerEntryId": "u4:passenger",
-        "distractorEntryIds": [
-          "u4:people",
-          "u4:visitor",
-          "u4:guest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Only ten ___ are allowed in the small elevator at one time.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "p-a-t-i-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The nurse checked every ___ in the ward before the doctor arrived.",
-        "fullSentence": "The nurse checked every patient in the ward before the doctor arrived.",
-        "translation": "醫生到之前，護士逐一查看病房裡的每位病人。",
-        "clue": "在病房被護士查看的病患",
-        "answerEntryId": "u4:patient",
-        "distractorEntryIds": [
-          "u4:baby",
-          "u4:beauty",
-          "u4:visitor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ in bed three needed warm soup instead of the usual meal.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "p-e-o-p-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In the busy morning market, ___ rushed from stall to stall buying breakfast.",
-        "fullSentence": "In the busy morning market, people rushed from stall to stall buying breakfast.",
-        "translation": "熱鬧的早市裡，人們在攤位間匆忙買早餐。",
-        "clue": "在市場採買的眾人",
-        "answerEntryId": "u4:people",
-        "distractorEntryIds": [
-          "u4:person",
-          "u4:robot",
-          "u4:child"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Old ___ in the village still remember the great flood of sixty years ago.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "p-e-r-s-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ who enters the science hall receives a small sticker at the door.",
-        "fullSentence": "Each person who enters the science hall receives a small sticker at the door.",
-        "translation": "每位進入科學館的人都會在門口拿到一張小貼紙。",
-        "clue": "單數每一位參觀者",
-        "answerEntryId": "u4:person",
-        "distractorEntryIds": [
-          "u4:people",
-          "u4:robot",
-          "u4:child"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Only one ___ may enter the room at a time; please wait outside.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "p-r-e-t-t-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ garden behind the school blooms in every color of spring.",
-        "fullSentence": "The pretty garden behind the school blooms in every color of spring.",
-        "translation": "學校後面那座漂亮的花園開滿春天各種顏色的花。",
-        "clue": "開滿春天的美麗花園",
-        "answerEntryId": "u4:pretty",
-        "distractorEntryIds": [
-          "u4:fat",
-          "u4:handsome",
-          "u4:heavy"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My sister tied her hair with a ___ blue ribbon this morning.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "p-r-i-n-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The young ___ bowed before entering the castle library, his boots clicking on the stone floor.",
-        "fullSentence": "The young prince bowed before entering the castle library, his boots clicking on the stone floor.",
-        "translation": "年輕王子進城堡圖書館前行禮，靴子在石板上叩叩作響。",
-        "clue": "會行禮、住城堡的男性王族",
-        "answerEntryId": "u4:prince",
-        "distractorEntryIds": [
-          "u4:princess",
-          "u4:king",
-          "u4:queen"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In the fairy tale, a brave ___ woke the sleeping castle with one kiss.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "p-r-i-n-c-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The kind ___ gave her golden ribbon to the crying small child.",
-        "fullSentence": "The kind princess gave her golden ribbon to the crying small child.",
-        "translation": "善良的公主把金色緞帶給了哭泣的小小孩。",
-        "clue": "國王的女兒",
-        "answerEntryId": "u4:princess",
-        "distractorEntryIds": [
-          "u4:prince",
-          "u4:queen",
-          "u4:girl"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The little ___ pretended her paper crown was made of real gold.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "p-r-i-s-o-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every ___ in the old castle was allowed one hour of sunshine in the yard.",
-        "fullSentence": "Every prisoner in the old castle was allowed one hour of sunshine in the yard.",
-        "translation": "老城堡裡每位囚犯每天可在院子享受一小時陽光。",
-        "clue": "在城堡牢房服刑的人",
-        "answerEntryId": "u4:prisoner",
-        "distractorEntryIds": [
-          "u4:visitor",
-          "u4:host",
-          "u4:hero"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ counted the days by drawing lines on the cell wall.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "q-u-e-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ walked slowly down the long hall, and every knight bowed at once.",
-        "fullSentence": "The queen walked slowly down the long hall, and every knight bowed at once.",
-        "translation": "女王緩步走過長廊，騎士們立刻一齊行禮。",
-        "clue": "接受騎士行禮的女性君主",
-        "answerEntryId": "u4:queen",
-        "distractorEntryIds": [
-          "u4:king",
-          "u4:princess",
-          "u4:lady"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "In chess, the ___ is the most powerful piece on the whole board.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "r-o-b-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little ___ swept the floor and hummed a soft tune while it worked.",
-        "fullSentence": "The little robot swept the floor and hummed a soft tune while it worked.",
-        "translation": "小機器人掃地時哼著輕柔的曲子。",
-        "clue": "會打掃、會發聲的機器",
-        "answerEntryId": "u4:robot",
-        "distractorEntryIds": [
-          "u4:human",
-          "u4:ghost",
-          "u4:prisoner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ in the science show could bow, wave, and even dance.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "s-h-o-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because the ___ student stood behind two tall boys, he could not see the blackboard at all.",
-        "fullSentence": "Because the short student stood behind two tall boys, he could not see the blackboard at all.",
-        "translation": "因為矮個子學生站在兩個高個子後面，他完全看不到黑板。",
-        "clue": "被高個子擋住視線的同學",
-        "answerEntryId": "u4:short",
-        "distractorEntryIds": [
-          "u4:pretty",
-          "u4:fat",
-          "u4:blind"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ pencil slipped between the books and could no longer help me write.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "s-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "\"Yes, ___,\" the young clerk answered politely to the tall customer.",
-        "fullSentence": "\"Yes, Sir,\" the young clerk answered politely to the tall customer.",
-        "translation": "年輕店員禮貌地回答高個子顧客：「是的，先生。」",
-        "clue": "對男性顧客的尊稱",
-        "answerEntryId": "u4:Sir",
-        "distractorEntryIds": [
-          "u4:Ms.",
-          "u4:Miss",
-          "u4:Mr."
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "\"Follow me, ___!\" the soldier ordered as the general walked by.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "s-p-e-a-k-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Because the ___ spoke so softly, the students in the back row could not hear a single word.",
-        "fullSentence": "Because the speaker spoke so softly, the students in the back row could not hear a single word.",
-        "translation": "因為演講者聲音太小，後排學生一個字都聽不見。",
-        "clue": "站在台上說話的人",
-        "answerEntryId": "u4:speaker",
-        "distractorEntryIds": [
-          "u4:leader",
-          "u4:teenager",
-          "u4:user"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ raised a hand, waited for silence, then began his story about the ocean.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "s-t-r-a-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The little girl told the ___ at the door to wait while she called her father.",
-        "fullSentence": "The little girl told the stranger at the door to wait while she called her father.",
-        "translation": "小女孩要門口的陌生人等她去叫爸爸。",
-        "clue": "在門口、家人不認識的人",
-        "answerEntryId": "u4:stranger",
-        "distractorEntryIds": [
-          "u4:neighbor",
-          "u4:speaker",
-          "u4:visitor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Do not open the door for a ___ unless your parents say it is okay.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "t-e-e-n-a-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ practiced the drums until Mom knocked on the door for dinner.",
-        "fullSentence": "The teenager practiced the drums until Mom knocked on the door for dinner.",
-        "translation": "青少年練鼓練到媽媽敲門叫吃晚餐。",
-        "clue": "愛練鼓、十多歲的人",
-        "answerEntryId": "u4:teenager",
-        "distractorEntryIds": [
-          "u4:child",
-          "u4:adult",
-          "u4:gentleman"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ in the study group brought a notebook and two pencils.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "t-h-i-e-f",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ slipped between the market stalls and vanished before the guard arrived.",
-        "fullSentence": "The thief slipped between the market stalls and vanished before the guard arrived.",
-        "translation": "小偷溜過市場攤位之間，在警衛趕到前消失。",
-        "clue": "偷東西後逃走的壞人",
-        "answerEntryId": "u4:thief",
-        "distractorEntryIds": [
-          "u4:human",
-          "u4:hero",
-          "u4:customer"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A ___ hid behind the old fence until the farmer left for lunch.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "u-s-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Members scan a small card at the gate, so every ___ of the pool is counted.",
-        "fullSentence": "Members scan a small card at the gate, so every user of the pool is counted.",
-        "translation": "入口需掃描小卡，所以每個泳池使用者都被計入。",
-        "clue": "使用設施的人",
-        "answerEntryId": "u4:user",
-        "distractorEntryIds": [
-          "u4:visitor",
-          "u4:creator",
-          "u4:name"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The computer asks every ___ to choose a new password twice a year.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "v-i-s-i-t-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each morning a new ___ rang the bell and asked to see the famous garden.",
-        "fullSentence": "Each morning a new visitor rang the bell and asked to see the famous garden.",
-        "translation": "每天早上都有一位新訪客按門鈴，想參觀那座有名的花園。",
-        "clue": "來看花園的參觀者",
-        "answerEntryId": "u4:visitor",
-        "distractorEntryIds": [
-          "u4:guest",
-          "u4:thief",
-          "u4:winner"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The zoo welcomes over a thousand ___ every holiday weekend.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "v-o-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Each ___ waited quietly for the booth to open at the town hall.",
-        "fullSentence": "Each voter waited quietly for the booth to open at the town hall.",
-        "translation": "每位投票者安靜地在鎮公所等待投票亭開放。",
-        "clue": "在投票站排隊的人",
-        "answerEntryId": "u4:voter",
-        "distractorEntryIds": [
-          "u4:leader",
-          "u4:visitor",
-          "u4:child"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Every ___ in the class raised a hand to choose the team captain.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "w-i-n-n-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "When the judge announced the ___, the whole class jumped and clapped at once.",
-        "fullSentence": "When the judge announced the winner, the whole class jumped and clapped at once.",
-        "translation": "評審宣布贏家時，全班立刻跳起來鼓掌。",
-        "clue": "被宣布獲勝的人",
-        "answerEntryId": "u4:winner",
-        "distractorEntryIds": [
-          "u4:loser",
-          "u4:beauty",
-          "u4:guest"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ received a golden medal after swimming faster than everyone else.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "w-o-m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ___ at the bakery wrapped the bread before asking for the money.",
-        "fullSentence": "The woman at the bakery wrapped the bread before asking for the money.",
-        "translation": "麵包店的女士包好麵包才收錢。",
-        "clue": "在麵包店工作的成年女性",
-        "answerEntryId": "u4:woman",
-        "distractorEntryIds": [
-          "u4:man",
-          "u4:girl",
-          "u4:child"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A kind ___ helped Grandpa carry his heavy shopping bag to the bus.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "y-o-u-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In his ___, Grandpa swam across the wide river every single morning.",
-        "fullSentence": "In his youth, Grandpa swam across the wide river every single morning.",
-        "translation": "年輕時，爺爺每天早上都游過那條寬廣的河。",
-        "clue": "爺爺年輕力壯的時期",
-        "answerEntryId": "u4:youth",
-        "distractorEntryIds": [
-          "u4:God",
-          "u4:childhood",
-          "u4:stranger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The photo on the wall showed Grandma in her ___, laughing on a beach.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "m-a-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A tall ___ with a grey umbrella asked the driver about the next bus.",
-        "fullSentence": "A tall man with a grey umbrella asked the driver about the next bus.",
-        "translation": "一個撐著灰色雨傘的高大男人問司機下一班車的時間。",
-        "clue": "成年男性",
-        "answerEntryId": "u4:man",
-        "distractorEntryIds": [
-          "u4:person",
-          "u4:lady",
-          "u4:child"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandfather was a strong ___ when he was young.",

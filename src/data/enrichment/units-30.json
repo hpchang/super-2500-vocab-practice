@@ -11,18 +11,6 @@
       "spellingHint": "a-b-r-o-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Uncle Ken works ___ in Japan, so we only see him once a year.",
-        "fullSentence": "Uncle Ken works abroad in Japan, so we only see him once a year.",
-        "translation": "肯叔在日本工作，所以我們一年只見到他一次。",
-        "clue": "人在日本，不在國內",
-        "answerEntryId": "u30:abroad",
-        "distractorEntryIds": [
-          "u30:ahead",
-          "u30:anywhere",
-          "u30:away"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wendy has never been ___; this summer she will finally visit France.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-c-t-u-a-l-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone thinks Mr. Lin is strict, but ___ he is very kind.",
-        "fullSentence": "Everyone thinks Mr. Lin is strict, but actually he is very kind.",
-        "translation": "大家都覺得林老師很嚴格，但其實他非常親切。",
-        "clue": "真實情況和大家的印象相反",
-        "answerEntryId": "u30:actually",
-        "distractorEntryIds": [
-          "u30:certainly",
-          "u30:doubtless",
-          "u30:maybe"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movie looks boring, but ___ it is really exciting.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-g-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I didn't hear you clearly. Could you say that ___?",
-        "fullSentence": "I didn't hear you clearly. Could you say that again?",
-        "translation": "我沒聽清楚，你可以再說一次嗎？",
-        "clue": "沒聽清楚，請對方重複",
-        "answerEntryId": "u30:again",
-        "distractorEntryIds": [
-          "u30:always",
-          "u30:even",
-          "u30:ever"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My grandmother is much better and can walk ___ now.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-h-e-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Walk straight on, and you will see the bank about fifty meters ___.",
-        "fullSentence": "Walk straight on, and you will see the bank about fifty meters ahead.",
-        "translation": "直直往前走，大約五十公尺處你就會看到銀行。",
-        "clue": "在前方五十公尺處",
-        "answerEntryId": "u30:ahead",
-        "distractorEntryIds": [
-          "u30:abroad",
-          "u30:everywhere",
-          "u30:somewhere"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Look ___ before you step into the street.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-l-m-o-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My alarm didn't ring, so I was ___ late for school this morning.",
-        "fullSentence": "My alarm didn't ring, so I was almost late for school this morning.",
-        "translation": "我的鬧鐘沒響，所以今天早上我差點遲到。",
-        "clue": "鬧鐘沒響，差一點遲到",
-        "answerEntryId": "u30:almost",
-        "distractorEntryIds": [
-          "u30:altogether",
-          "u30:hardly",
-          "u30:nearly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There were ___ a hundred people waiting in line for the concert tickets.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-l-o-u-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The shy boy was afraid to speak ___ in front of the whole class.",
-        "fullSentence": "The shy boy was afraid to speak aloud in front of the whole class.",
-        "translation": "害羞的男孩不敢在全班面前大聲說話。",
-        "clue": "要發出聲音讓全班聽見",
-        "answerEntryId": "u30:aloud",
-        "distractorEntryIds": [
-          "u30:also",
-          "u30:especially",
-          "u30:lately"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom told me not to laugh ___ in the library.",
@@ -527,18 +455,6 @@
       "spellingHint": "a-l-s-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken plays basketball, and he ___ swims every weekend.",
-        "fullSentence": "Ken plays basketball, and he also swims every weekend.",
-        "translation": "肯會打籃球，他也每個週末游泳。",
-        "clue": "除此之外還有另一項活動",
-        "answerEntryId": "u30:also",
-        "distractorEntryIds": [
-          "u30:aloud",
-          "u30:least",
-          "u30:recently"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mr. Brown is our math teacher, and he is ___ the basketball coach.",
@@ -613,18 +529,6 @@
       "spellingHint": "a-l-t-o-g-e-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The tickets, lunch, and the hotel cost ___ six thousand dollars.",
-        "fullSentence": "The tickets, lunch, and the hotel cost altogether six thousand dollars.",
-        "translation": "車票、午餐和飯店加起來總共六千元。",
-        "clue": "所有項目加起來的金額",
-        "answerEntryId": "u30:altogether",
-        "distractorEntryIds": [
-          "u30:almost",
-          "u30:quite",
-          "u30:rather"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are ___ twenty-four hours in one day.",
@@ -699,18 +603,6 @@
       "spellingHint": "a-l-w-a-y-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The sun ___ rises in the east and sets in the west.",
-        "fullSentence": "The sun always rises in the east and sets in the west.",
-        "translation": "太陽總是從東邊升起，從西邊落下。",
-        "clue": "不變的事實，每一次都一樣",
-        "answerEntryId": "u30:always",
-        "distractorEntryIds": [
-          "u30:again",
-          "u30:never",
-          "u30:often"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My dog ___ gets excited when I come home.",
@@ -785,18 +677,6 @@
       "spellingHint": "a-n-y-w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store was closed, but we enjoyed the walk ___.",
-        "fullSentence": "The store was closed, but we enjoyed the walk anyway.",
-        "translation": "雖然店沒開，我們還是享受了這趟散步。",
-        "clue": "結果不受前面的阻礙影響",
-        "answerEntryId": "u30:anyway",
-        "distractorEntryIds": [
-          "u30:simply",
-          "u30:whenever",
-          "u30:aloud"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I know it's late. Thanks for coming ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "a-n-y-w-h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My pen fell out of my bag, but I can't find it ___.",
-        "fullSentence": "My pen fell out of my bag, but I can't find it anywhere.",
-        "translation": "我的筆從包包掉出去了，但我到處都找不到。",
-        "clue": "否定句：哪裡都找不到",
-        "answerEntryId": "u30:anywhere",
-        "distractorEntryIds": [
-          "u30:anyway",
-          "u30:still",
-          "u30:together"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Are you going ___ during the winter vacation?",
@@ -957,18 +825,6 @@
       "spellingHint": "a-w-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please throw the empty can ___. Don't leave it on the desk.",
-        "fullSentence": "Please throw the empty can away. Don't leave it on the desk.",
-        "translation": "請把空罐子丟掉，不要留在桌上。",
-        "clue": "把東西丟到別處去",
-        "answerEntryId": "u30:away",
-        "distractorEntryIds": [
-          "u30:abroad",
-          "u30:ahead",
-          "u30:anywhere"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The school is only two blocks ___, so we walk there.",
@@ -1043,18 +899,6 @@
       "spellingHint": "c-e-r-t-a-i-n-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The line moves fast, so you will ___ get in before noon.",
-        "fullSentence": "The line moves fast, so you will certainly get in before noon.",
-        "translation": "隊伍移動很快，所以你一定會在中午前入場。",
-        "clue": "證據充分，結果毫無疑問",
-        "answerEntryId": "u30:certainly",
-        "distractorEntryIds": [
-          "u30:perhaps",
-          "u30:probably",
-          "u30:really"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The food at this restaurant is ___ worth the price.",
@@ -1129,18 +973,6 @@
       "spellingHint": "d-o-u-b-t-l-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The city closed the old bridge last week because it is ___ unsafe.",
-        "fullSentence": "The city closed the old bridge last week because it is doubtless unsafe.",
-        "translation": "毫無疑問，那座老橋不安全，所以市府上星期把它封了。",
-        "clue": "封橋證實了毫無疑問的危險",
-        "answerEntryId": "u30:doubtless",
-        "distractorEntryIds": [
-          "u30:actually",
-          "u30:certainly",
-          "u30:maybe"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ he forgot our meeting; he never checks his calendar.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "e-i-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken doesn't eat seafood, and his wife doesn't ___.",
-        "fullSentence": "Ken doesn't eat seafood, and his wife doesn't either.",
-        "translation": "肯不吃海鮮，他太太也不吃。",
-        "clue": "否定句中表達「也不」",
-        "answerEntryId": "u30:either",
-        "distractorEntryIds": [
-          "u30:neither",
-          "u30:no",
-          "u30:nor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I haven't seen that movie, and Ben hasn't ___.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "e-s-p-e-c-i-a-l-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone enjoyed the school fair, ___ the magic show.",
-        "fullSentence": "Everyone enjoyed the school fair, especially the magic show.",
-        "translation": "大家都很享受園遊會，尤其是魔術表演。",
-        "clue": "全部之中特別突出的一項",
-        "answerEntryId": "u30:especially",
-        "distractorEntryIds": [
-          "u30:also",
-          "u30:anyway",
-          "u30:lately"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma likes sweets, ___ chocolate cake.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "e-v-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken is ___ faster than his older brother, who can't catch him.",
-        "fullSentence": "Ken is even faster than his older brother, who can't catch him.",
-        "translation": "肯跑得甚至比他哥哥還快，哥哥追不上他。",
-        "clue": "比較級前加強程度",
-        "answerEntryId": "u30:even",
-        "distractorEntryIds": [
-          "u30:finally",
-          "u30:still",
-          "u30:yet"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The box was so heavy that Dad couldn't ___ lift it.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "e-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Have you ___ tried stinky tofu? It smells strong but tastes great.",
-        "fullSentence": "Have you ever tried stinky tofu? It smells strong but tastes great.",
-        "translation": "你曾經吃過臭豆腐嗎？它聞起來很重，但味道很棒。",
-        "clue": "問過去到目前為止的經驗",
-        "answerEntryId": "u30:ever",
-        "distractorEntryIds": [
-          "u30:either",
-          "u30:not",
-          "u30:too"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "This is the best pizza I have ___ eaten.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "e-v-e-r-y-w-h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Spring is here! You can see flowers ___ in the park.",
-        "fullSentence": "Spring is here! You can see flowers everywhere in the park.",
-        "translation": "春天來了！公園裡到處都看得到花。",
-        "clue": "整個公園每個角落都有",
-        "answerEntryId": "u30:everywhere",
-        "distractorEntryIds": [
-          "u30:away",
-          "u30:somewhere",
-          "u30:still"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I looked for my glasses, and they were ___ — on the sofa and even in the fridge!",
@@ -1645,18 +1417,6 @@
       "spellingHint": "f-i-n-a-l-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After three hours of climbing, we ___ reached the top of the mountain.",
-        "fullSentence": "After three hours of climbing, we finally reached the top of the mountain.",
-        "translation": "爬了三個小時之後，我們終於到達山頂。",
-        "clue": "經過長時間努力後達成",
-        "answerEntryId": "u30:finally",
-        "distractorEntryIds": [
-          "u30:actually",
-          "u30:then",
-          "u30:thus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movie was long, but it ___ ended at midnight.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "h-a-r-d-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Grandpa speaks so quietly that we can ___ hear him.",
-        "fullSentence": "Grandpa speaks so quietly that we can hardly hear him.",
-        "translation": "阿公說話太小聲了，我們幾乎聽不到。",
-        "clue": "聲音太小，接近聽不到",
-        "answerEntryId": "u30:hardly",
-        "distractorEntryIds": [
-          "u30:very",
-          "u30:almost",
-          "u30:altogether"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ben is so shy that he ___ talks to new people.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "l-a-t-e-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It has rained every day ___, so the park is always wet.",
-        "fullSentence": "It has rained every day lately, so the park is always wet.",
-        "translation": "最近天天下雨，所以公園總是濕濕的。",
-        "clue": "持續到現在的近來狀況",
-        "answerEntryId": "u30:lately",
-        "distractorEntryIds": [
-          "u30:especially",
-          "u30:least",
-          "u30:recently"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Have you been sleeping well ___? You look tired.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "l-e-a-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Of all the subjects, I like math the ___; I practice it every day.",
-        "fullSentence": "Of all the subjects, I like math the least; I practice it every day.",
-        "translation": "在所有科目中，我最不喜歡數學，所以我每天練習。",
-        "clue": "所有科目中程度最低的喜好",
-        "answerEntryId": "u30:least",
-        "distractorEntryIds": [
-          "u30:simply",
-          "u30:whenever",
-          "u30:yes/yeah"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Amy chose the ___ expensive souvenir in the shop.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "m-a-y-b-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I'm not sure if Ken is home. ___ he is still at the office.",
-        "fullSentence": "I'm not sure if Ken is home. maybe he is still at the office.",
-        "translation": "我不確定肯是否在家，也許他還在辦公室。",
-        "clue": "不確定的推測",
-        "answerEntryId": "u30:maybe",
-        "distractorEntryIds": [
-          "u30:doubtless",
-          "u30:perhaps",
-          "u30:probably"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ we can go swimming tomorrow if the weather is good.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "n-e-a-r-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The train was ___ full, so we had to stand the whole way.",
-        "fullSentence": "The train was nearly full, so we had to stand the whole way.",
-        "translation": "火車幾乎客滿，所以我們全程都站著。",
-        "clue": "接近滿座所以沒位子",
-        "answerEntryId": "u30:nearly",
-        "distractorEntryIds": [
-          "u30:even",
-          "u30:hardly",
-          "u30:quite"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is ___ ten o'clock, so we should go to bed soon.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "n-e-i-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "—Do you want tea or juice? —I want ___ of them; just water, thanks.",
-        "fullSentence": "—Do you want tea or juice? —I want neither of them; just water, thanks.",
-        "translation": "——你要茶還是果汁？——兩種都不要，我只要水。",
-        "clue": "兩個選項都拒絕",
-        "answerEntryId": "u30:neither",
-        "distractorEntryIds": [
-          "u30:either",
-          "u30:ever",
-          "u30:never"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ of my parents drinks coffee, so we only buy tea at home.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "n-e-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My uncle ___ smokes because he knows it is bad for his health.",
-        "fullSentence": "My uncle never smokes because he knows it is bad for his health.",
-        "translation": "我叔叔從不抽菸，因為他知道抽菸有害健康。",
-        "clue": "因為有害所以完全不做",
-        "answerEntryId": "u30:never",
-        "distractorEntryIds": [
-          "u30:neither",
-          "u30:no",
-          "u30:nor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have ___ been to Europe, but I hope to go someday.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "n-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "—Do you mind if I open the window? —___, go ahead.",
-        "fullSentence": "—Do you mind if I open the window? —no, go ahead.",
-        "translation": "——你介意我打開窗戶嗎？——不介意，一點也不。",
-        "clue": "回答 mind 的否定答覆",
-        "answerEntryId": "u30:no",
-        "distractorEntryIds": [
-          "u30:yes/yeah",
-          "u30:not",
-          "u30:too"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "—Are you hungry? —___; I just ate a big lunch.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "n-o-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken can't swim, ___ can his little brother.",
-        "fullSentence": "Ken can't swim, nor can his little brother.",
-        "translation": "肯不會游泳，他弟弟也不會。",
-        "clue": "否定句後接「也不」，後面倒裝",
-        "answerEntryId": "u30:nor",
-        "distractorEntryIds": [
-          "u30:either",
-          "u30:ever",
-          "u30:neither"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I don't like horror movies, ___ do my parents.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "n-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken is ___ coming to the picnic because he has a cold.",
-        "fullSentence": "Ken is not coming to the picnic because he has a cold.",
-        "translation": "肯不會來野餐，因為他感冒了。",
-        "clue": "因為感冒所以否定",
-        "answerEntryId": "u30:not",
-        "distractorEntryIds": [
-          "u30:never",
-          "u30:no",
-          "u30:nor"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Do ___ run in the hallway; it's dangerous.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "o-f-t-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My family ___ visits Grandma on Sundays; almost every week.",
-        "fullSentence": "My family often visits Grandma on Sundays; almost every week.",
-        "translation": "我們家常在星期日去看阿嬤，幾乎每個星期都去。",
-        "clue": "幾乎每星期都發生",
-        "answerEntryId": "u30:often",
-        "distractorEntryIds": [
-          "u30:seldom",
-          "u30:sometimes",
-          "u30:usually"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It ___ rains in Taipei in spring, so carry an umbrella.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "p-e-r-h-a-p-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store is ___ closed on Mondays; we can try again tomorrow.",
-        "fullSentence": "The store is perhaps closed on Mondays; we can try again tomorrow.",
-        "translation": "也許那家店星期一沒開，我們可以晚點再試。",
-        "clue": "不確定的猜測",
-        "answerEntryId": "u30:perhaps",
-        "distractorEntryIds": [
-          "u30:really",
-          "u30:actually",
-          "u30:certainly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It's cloudy, so ___ it will rain this afternoon.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "p-r-o-b-a-b-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken practices every day, so he will ___ make the school team.",
-        "fullSentence": "Ken practices every day, so he will probably make the school team.",
-        "translation": "肯每天練習，所以他很可能會進校隊。",
-        "clue": "依證據推測可能性高",
-        "answerEntryId": "u30:probably",
-        "distractorEntryIds": [
-          "u30:doubtless",
-          "u30:maybe",
-          "u30:perhaps"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bus is late again; it ___ left already.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "q-u-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The mountain path is ___ steep, so wear good shoes.",
-        "fullSentence": "The mountain path is quite steep, so wear good shoes.",
-        "translation": "這條山路相當陡，要穿好走的鞋子。",
-        "clue": "程度高，要提醒人注意",
-        "answerEntryId": "u30:quite",
-        "distractorEntryIds": [
-          "u30:nearly",
-          "u30:rather",
-          "u30:very"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The test was ___ easy, so everyone finished early.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "r-a-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It was ___ cold this morning, so I wore my winter coat.",
-        "fullSentence": "It was rather cold this morning, so I wore my winter coat.",
-        "translation": "今天早上相當冷，所以我穿了冬衣。",
-        "clue": "程度偏高所以穿冬衣",
-        "answerEntryId": "u30:rather",
-        "distractorEntryIds": [
-          "u30:almost",
-          "u30:altogether",
-          "u30:even"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The movie was ___ long; we didn't get home until midnight.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "r-e-a-l-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This puzzle is ___ difficult; even Dad can't solve it.",
-        "fullSentence": "This puzzle is really difficult; even Dad can't solve it.",
-        "translation": "這個拼圖真的很難，連爸爸都解不開。",
-        "clue": "加強形容詞的程度",
-        "answerEntryId": "u30:really",
-        "distractorEntryIds": [
-          "u30:probably",
-          "u30:actually",
-          "u30:certainly"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I ___ love this song; I play it every morning.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "r-e-c-e-n-t-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken ___ joined the swim team, so he is still learning the rules.",
-        "fullSentence": "Ken recently joined the swim team, so he is still learning the rules.",
-        "translation": "肯最近剛加入學校游泳隊，所以他還在學規則。",
-        "clue": "不久前才發生",
-        "answerEntryId": "u30:recently",
-        "distractorEntryIds": [
-          "u30:aloud",
-          "u30:also",
-          "u30:anyway"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The store opened ___, so many people keep coming to look around.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "s-e-l-d-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Amy lives far from the beach, so she ___ goes swimming in the sea.",
-        "fullSentence": "Amy lives far from the beach, so she seldom goes swimming in the sea.",
-        "translation": "艾米住得離海邊很遠，所以她很少去海邊游泳。",
-        "clue": "距離遠導致頻率低",
-        "answerEntryId": "u30:seldom",
-        "distractorEntryIds": [
-          "u30:yet",
-          "u30:again",
-          "u30:always"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa ___ gets angry; he is patient with us all the time.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "s-i-m-p-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The recipe is ___ too hard for beginners, so let's pick an easier one.",
-        "fullSentence": "The recipe is simply too hard for beginners, so let's pick an easier one.",
-        "translation": "這食譜對初學者來說實在太難了，我們選個簡單一點的吧。",
-        "clue": "加強 too，表示實在如此",
-        "answerEntryId": "u30:simply",
-        "distractorEntryIds": [
-          "u30:especially",
-          "u30:everywhere",
-          "u30:lately"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I'm not angry with you; I ___ need some quiet time.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "s-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The music was ___ loud that we had to cover our ears.",
-        "fullSentence": "The music was so loud that we had to cover our ears.",
-        "translation": "音樂大聲到我們必須摀住耳朵。",
-        "clue": "so + 形容詞 + that 表結果",
-        "answerEntryId": "u30:so",
-        "distractorEntryIds": [
-          "u30:finally",
-          "u30:suddenly",
-          "u30:then"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I was ___ tired that I fell asleep on the bus.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "s-o-m-e-t-i-m-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ my dad cooks dinner, but most days Mom does the cooking.",
-        "fullSentence": "sometimes my dad cooks dinner, but most days Mom does the cooking.",
-        "translation": "有時候是爸爸做晚餐，但大多數日子是媽媽煮。",
-        "clue": "非每次，偶爾發生",
-        "answerEntryId": "u30:sometimes",
-        "distractorEntryIds": [
-          "u30:often",
-          "u30:seldom",
-          "u30:usually"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I ___ forget my key, but not very often.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "s-o-m-e-w-h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cat is hiding ___ in the house; I can hear it but can't see it.",
-        "fullSentence": "The cat is hiding somewhere in the house; I can hear it but can't see it.",
-        "translation": "貓躲在家裡的某個地方，我聽得到牠卻看不到。",
-        "clue": "聽得到但看不到，表示在某處",
-        "answerEntryId": "u30:somewhere",
-        "distractorEntryIds": [
-          "u30:everywhere",
-          "u30:together",
-          "u30:abroad"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Let's go ___ quiet this weekend, maybe the mountains.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "s-t-i-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The party ended an hour ago, but the music is ___ playing next door.",
-        "fullSentence": "The party ended an hour ago, but the music is still playing next door.",
-        "translation": "派對一小時前就結束了，但隔壁的音樂還在放。",
-        "clue": "動作持續到現在",
-        "answerEntryId": "u30:still",
-        "distractorEntryIds": [
-          "u30:so",
-          "u30:therefore",
-          "u30:thus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa is seventy, but he ___ swims every morning.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "s-u-d-d-e-n-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We were talking quietly when Ken ___ started to laugh loudly.",
-        "fullSentence": "We were talking quietly when Ken suddenly started to laugh loudly.",
-        "translation": "我們正在安靜地聊天，肯突然大聲笑了起來。",
-        "clue": "毫無預警地發生",
-        "answerEntryId": "u30:suddenly",
-        "distractorEntryIds": [
-          "u30:finally",
-          "u30:so",
-          "u30:still"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It ___ began to rain heavily, and we ran into the store.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "t-h-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Brush your teeth, ___ go to bed; don't reverse the order.",
-        "fullSentence": "Brush your teeth, then go to bed; don't reverse the order.",
-        "translation": "先刷牙，然後上床睡覺；順序不要顛倒。",
-        "clue": "先後順序中的第二步",
-        "answerEntryId": "u30:then",
-        "distractorEntryIds": [
-          "u30:suddenly",
-          "u30:therefore",
-          "u30:thus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "First mix the eggs, ___ add the sugar slowly.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "t-h-e-r-e-f-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It was raining hard; ___, the school trip was postponed.",
-        "fullSentence": "It was raining hard; therefore, the school trip was postponed.",
-        "translation": "雨下得很大；因此校外教學延期了。",
-        "clue": "前句原因，後句結果",
-        "answerEntryId": "u30:therefore",
-        "distractorEntryIds": [
-          "u30:then",
-          "u30:even",
-          "u30:finally"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken missed the bus; ___, he was late for school.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "t-h-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bridge was under repair; ___, all buses changed their routes.",
-        "fullSentence": "The bridge was under repair; thus, all buses changed their routes.",
-        "translation": "橋樑整修中；因此所有公車都改了路線。",
-        "clue": "前因導致後果",
-        "answerEntryId": "u30:thus",
-        "distractorEntryIds": [
-          "u30:therefore",
-          "u30:so",
-          "u30:still"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken saved money for a year; ___, he could buy the new bike.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "t-o-g-e-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The twins do everything ___, even wear the same socks.",
-        "fullSentence": "The twins do everything together, even wear the same socks.",
-        "translation": "這對雙胞胎什麼事都一起做，連襪子都穿一樣的。",
-        "clue": "兩人共同做每件事",
-        "answerEntryId": "u30:together",
-        "distractorEntryIds": [
-          "u30:ahead",
-          "u30:anywhere",
-          "u30:away"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The whole family eats dinner ___ every evening.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "t-o-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The soup is ___ hot to drink right now; let it cool first.",
-        "fullSentence": "The soup is too hot to drink right now; let it cool first.",
-        "translation": "湯現在太燙不能喝，先讓它涼一下。",
-        "clue": "too + 形容詞 + to do",
-        "answerEntryId": "u30:too",
-        "distractorEntryIds": [
-          "u30:not",
-          "u30:either",
-          "u30:ever"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I'm hungry, and my little brother is hungry, ___.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "u-s-u-a-l-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "School starts at eight, but ___ I get there ten minutes early.",
-        "fullSentence": "School starts at eight, but usually I get there ten minutes early.",
-        "translation": "學校八點上課，但我通常提早十分鐘到。",
-        "clue": "多數時候的習慣",
-        "answerEntryId": "u30:usually",
-        "distractorEntryIds": [
-          "u30:sometimes",
-          "u30:yet",
-          "u30:again"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ken ___ takes the bus to school, except on rainy days when his dad drives him.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "v-e-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ken was ___ happy when he won the writing contest.",
-        "fullSentence": "Ken was very happy when he won the writing contest.",
-        "translation": "肯贏得作文比賽時非常開心。",
-        "clue": "加強形容詞的程度",
-        "answerEntryId": "u30:very",
-        "distractorEntryIds": [
-          "u30:hardly",
-          "u30:nearly",
-          "u30:quite"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The math problem was ___ difficult, so only three students solved it.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "w-h-e-n-e-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ it snows, the children run outside to make snowmen.",
-        "fullSentence": "whenever it snows, the children run outside to make snowmen.",
-        "translation": "每當下雪，孩子們就跑到外面堆雪人。",
-        "clue": "每次下雪都會發生",
-        "answerEntryId": "u30:whenever",
-        "distractorEntryIds": [
-          "u30:least",
-          "u30:rather",
-          "u30:really"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Come and visit us ___ you are free.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "y-e-s y-e-a-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "—Did you finish your project? —___ , I handed it in this morning.",
-        "fullSentence": "—Did you finish your project? —yes/yeah , I handed it in this morning.",
-        "translation": "——你完成報告了嗎？——是的，我今天早上交了。",
-        "clue": "肯定回答問題",
-        "answerEntryId": "u30:yes/yeah",
-        "distractorEntryIds": [
-          "u30:recently",
-          "u30:simply",
-          "u30:sometimes"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "—Do you want some more rice? —___ , please. It's delicious.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "y-e-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The movie starts at eight, but Ken hasn't left home ___.",
-        "fullSentence": "The movie starts at eight, but Ken hasn't left home yet.",
-        "translation": "電影八點開演，但肯還沒出門。",
-        "clue": "否定完成式句尾的「還沒」",
-        "answerEntryId": "u30:yet",
-        "distractorEntryIds": [
-          "u30:always",
-          "u30:often",
-          "u30:seldom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Is the mail here ___? I'm waiting for a letter from my aunt.",

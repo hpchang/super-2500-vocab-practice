@@ -11,18 +11,6 @@
       "spellingHint": "a f-e-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There are ___ cookies left in the box, only three or four.",
-        "fullSentence": "There are a few cookies left in the box, only three or four.",
-        "translation": "盒子裡還剩下幾塊餅乾，只有三四塊。",
-        "clue": "數量不多，但有一些",
-        "answerEntryId": "u15:a few",
-        "distractorEntryIds": [
-          "u15:a little",
-          "u15:many",
-          "u15:all"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We still have ___ minutes before the bus comes, so let's sit down.",
@@ -97,18 +85,6 @@
       "spellingHint": "a l-i-t-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There is ___ milk in the fridge, enough for one glass.",
-        "fullSentence": "There is a little milk in the fridge, enough for one glass.",
-        "translation": "冰箱裡有一點牛奶，足夠倒一杯。",
-        "clue": "不可數名詞，量少但有一些",
-        "answerEntryId": "u15:a little",
-        "distractorEntryIds": [
-          "u15:a few",
-          "u15:many",
-          "u15:both"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can I have ___ sugar in my tea? Just one spoon.",
@@ -183,18 +159,6 @@
       "spellingHint": "a l-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It rained ___ last night, and the streets were still wet this morning.",
-        "fullSentence": "It rained a lot last night, and the streets were still wet this morning.",
-        "translation": "昨晚雨下得很多，今天早上街道還是濕的。",
-        "clue": "修飾動詞，表示程度很大",
-        "answerEntryId": "u15:a lot",
-        "distractorEntryIds": [
-          "u15:a few",
-          "u15:a little",
-          "u15:several"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I like my new school ___ because the teachers are kind.",
@@ -269,18 +233,6 @@
       "spellingHint": "a-d-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you ___ 5 and 3, you will get 8.",
-        "fullSentence": "If you add 5 and 3, you will get 8.",
-        "translation": "如果你把 5 和 3 相加，就會得到 8。",
-        "clue": "數字相加的運算",
-        "answerEntryId": "u15:add",
-        "distractorEntryIds": [
-          "u11:build",
-          "u11:decorate",
-          "u11:fix"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your name to the list before Friday.",
@@ -355,18 +307,6 @@
       "spellingHint": "a-d-d-i-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In math class, we practiced ___ first, like 4 plus 5 equals 9.",
-        "fullSentence": "In math class, we practiced addition first, like 4 plus 5 equals 9.",
-        "translation": "在數學課上，我們先練習加法，例如 4 加 5 等於 9。",
-        "clue": "把數字相加的運算名稱",
-        "answerEntryId": "u15:addition",
-        "distractorEntryIds": [
-          "u15:division",
-          "u15:number",
-          "u15:total"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of a new library made the students very happy.",
@@ -441,18 +381,6 @@
       "spellingHint": "a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ the books on this shelf are about science.",
-        "fullSentence": "all the books on this shelf are about science.",
-        "translation": "這個書架上的書全部都是關於科學的。",
-        "clue": "沒有例外，每一本都是",
-        "answerEntryId": "u15:all",
-        "distractorEntryIds": [
-          "u15:both",
-          "u15:some",
-          "u15:several"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We spent ___ day at the beach and got very tired.",
@@ -527,18 +455,6 @@
       "spellingHint": "a-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There isn't ___ juice left in the bottle.",
-        "fullSentence": "There isn't any juice left in the bottle.",
-        "translation": "瓶子裡一點果汁都沒剩。",
-        "clue": "否定句中「一點也沒有」",
-        "answerEntryId": "u15:any",
-        "distractorEntryIds": [
-          "u15:some",
-          "u15:many",
-          "u15:both"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Are there ___ eggs in the fridge? I want to make a cake.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-o-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ of my parents are teachers, so they help me with homework.",
-        "fullSentence": "both of my parents are teachers, so they help me with homework.",
-        "translation": "我的父母兩人都是老師，所以他們會幫我做作業。",
-        "clue": "剛好兩個人，兩個都",
-        "answerEntryId": "u15:both",
-        "distractorEntryIds": [
-          "u15:all",
-          "u15:any",
-          "u15:several"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are two cakes on the table, and ___ look delicious.",
@@ -699,18 +603,6 @@
       "spellingHint": "d-i-v-i-d-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "If you ___ 12 by 4, the answer is 3.",
-        "fullSentence": "If you divide 12 by 4, the answer is 3.",
-        "translation": "如果你把 12 除以 4，答案是 3。",
-        "clue": "除法的運算",
-        "answerEntryId": "u15:divide",
-        "distractorEntryIds": [
-          "u11:wash",
-          "u11:sweep",
-          "u11:clean"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A long wall will ___ the garden into two parts.",
@@ -785,18 +677,6 @@
       "spellingHint": "d-i-v-i-s-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In today's math class, we learned ___, like 20 divided by 5 equals 4.",
-        "fullSentence": "In today's math class, we learned division, like 20 divided by 5 equals 4.",
-        "translation": "在今天 的數學課上，我們學了除法，例如 20 除以 5 等於 4。",
-        "clue": "把數字平均分配的運算名稱",
-        "answerEntryId": "u15:division",
-        "distractorEntryIds": [
-          "u15:addition",
-          "u15:number",
-          "u15:total"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ___ of the cake among six friends was not easy.",
@@ -871,18 +751,6 @@
       "spellingHint": "d-o-u-b-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The store was so popular that its sales could ___ in just one year.",
-        "fullSentence": "The store was so popular that its sales could double in just one year.",
-        "translation": "那家店太受歡迎了，業績一年內就可能翻倍。",
-        "clue": "數量變成原本的兩倍",
-        "answerEntryId": "u15:double",
-        "distractorEntryIds": [
-          "u15:more",
-          "u15:less",
-          "u15:several"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I ordered a ___ scoop of ice cream, twice the normal size.",
@@ -957,18 +825,6 @@
       "spellingHint": "f-e-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ people can run a full marathon, because it is 42 kilometers long.",
-        "fullSentence": "few people can run a full marathon, because it is 42 kilometers long.",
-        "translation": "很少有人能跑完整場馬拉松，因為它長達 42 公里。",
-        "clue": "可數複數但幾乎沒有人做到",
-        "answerEntryId": "u15:few",
-        "distractorEntryIds": [
-          "u15:a few",
-          "u15:many",
-          "u15:much"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Hurry up! We have ___ minutes left, and the store is closing.",
@@ -1043,18 +899,6 @@
       "spellingHint": "l-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This winter we had ___ rain than last winter, so the fields are dry.",
-        "fullSentence": "This winter we had less rain than last winter, so the fields are dry.",
-        "translation": "今年冬天的雨比去年少，所以田地很乾。",
-        "clue": "不可數名詞的比較級「較少」",
-        "answerEntryId": "u15:less",
-        "distractorEntryIds": [
-          "u15:more",
-          "u15:few",
-          "u15:much"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "You should drink ___ soda and more water to stay healthy.",
@@ -1129,18 +973,6 @@
       "spellingHint": "l-i-t-t-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We can't make soup because there is ___ water in the pot.",
-        "fullSentence": "We can't make soup because there is little water in the pot.",
-        "translation": "我們沒辦法煮湯，因為鍋裡幾乎沒有水。",
-        "clue": "不可數名詞，量少到幾乎沒有",
-        "answerEntryId": "u15:little",
-        "distractorEntryIds": [
-          "u15:a little",
-          "u15:much",
-          "u15:few"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The desert is very dry and has ___ rain all year.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "m-a-n-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There are ___ students in the school library after class.",
-        "fullSentence": "There are many students in the school library after class.",
-        "translation": "下課後學校圖書館裡有很多學生。",
-        "clue": "可數複數的學生，數量多",
-        "answerEntryId": "u15:many",
-        "distractorEntryIds": [
-          "u15:much",
-          "u15:few",
-          "u15:both"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "How ___ books did you borrow from the library this month?",
@@ -1301,18 +1121,6 @@
       "spellingHint": "m-i-n-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Ten ___ two equals eight.",
-        "fullSentence": "Ten minus two equals eight.",
-        "translation": "十減二等於八。",
-        "clue": "把數字拿掉一些的運算符號",
-        "answerEntryId": "u15:minus",
-        "distractorEntryIds": [
-          "u15:plus",
-          "u15:times",
-          "u15:number"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On the calculator, press the ___ sign to take away numbers.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "m-o-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This box is too small. Could I have a ___ one?",
-        "fullSentence": "This box is too small. Could I have a more one?",
-        "translation": "這個箱子太小了。可以給我一個更大的嗎？",
-        "clue": "不夠用，想要更大的",
-        "answerEntryId": "u15:more",
-        "distractorEntryIds": [
-          "u15:less",
-          "u15:few",
-          "u15:a little"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The lemonade is too sour. I want to put ___ sugar in it.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "m-u-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "How ___ rice do we need to cook for ten people?",
-        "fullSentence": "How much rice do we need to cook for ten people?",
-        "translation": "煮十個人的飯需要多少米？",
-        "clue": "不可數的米，問數量",
-        "answerEntryId": "u15:much",
-        "distractorEntryIds": [
-          "u15:many",
-          "u15:few",
-          "u15:both"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There isn't ___ milk in the glass, so I can't make the cake.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "n-u-m-b-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A large ___ of people waited outside the famous restaurant.",
-        "fullSentence": "A large number of people waited outside the famous restaurant.",
-        "translation": "大量的人在那家知名餐廳外面排隊等候。",
-        "clue": "a large ___ of + 可數複數：數量多",
-        "answerEntryId": "u15:number",
-        "distractorEntryIds": [
-          "u15:total",
-          "u15:times",
-          "u15:minus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can I have your phone ___? I want to call you tonight.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "p-l-u-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Four ___ six equals ten.",
-        "fullSentence": "Four plus six equals ten.",
-        "translation": "四加六等於十。",
-        "clue": "把數字合在一起的運算符號",
-        "answerEntryId": "u15:plus",
-        "distractorEntryIds": [
-          "u15:minus",
-          "u15:times",
-          "u15:number"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "On the calculator, press the ___ sign to put numbers together.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "s-e-v-e-r-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ students asked the same question after class, about four or five of them.",
-        "fullSentence": "several students asked the same question after class, about four or five of them.",
-        "translation": "下課後有幾個學生問了同樣的問題，大約四五個人。",
-        "clue": "不只一兩個，但不到很多",
-        "answerEntryId": "u15:several",
-        "distractorEntryIds": [
-          "u15:many",
-          "u15:both",
-          "u15:much"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I stayed at my grandma’s house for ___ days last week.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "s-o-m-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Would you like ___ tea? I just made it.",
-        "fullSentence": "Would you like some tea? I just made it.",
-        "translation": "你想喝點茶嗎？我剛泡的。",
-        "clue": "邀請對方接受，用於疑問句",
-        "answerEntryId": "u15:some",
-        "distractorEntryIds": [
-          "u15:any",
-          "u15:many",
-          "u15:all"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are ___ apples in the basket. Would you like one?",
@@ -1903,18 +1639,6 @@
       "spellingHint": "t-i-m-e-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "This tree is three ___ taller than that young one.",
-        "fullSentence": "This tree is three times taller than that young one.",
-        "translation": "這棵樹比那棵小樹高三倍。",
-        "clue": "表示「幾倍」的用語",
-        "answerEntryId": "u15:times",
-        "distractorEntryIds": [
-          "u15:total",
-          "u15:number",
-          "u15:plus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I have told you the same thing five ___ already, so please remember it.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "t-o-t-a-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Add up all the scores, and the ___ is 95 points.",
-        "fullSentence": "Add up all the scores, and the total is 95 points.",
-        "translation": "把所有分數加起來，總計是 95 分。",
-        "clue": "全部加在一起的最後數字",
-        "answerEntryId": "u15:total",
-        "distractorEntryIds": [
-          "u15:number",
-          "u15:times",
-          "u15:plus"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There were six boys and eight girls, so the ___ of students was fourteen.",

@@ -11,18 +11,6 @@
       "spellingHint": "a-n-k-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She twisted her ___ when she jumped off the chair.",
-        "fullSentence": "She twisted her ankle when she jumped off the chair.",
-        "translation": "她從椅子上跳下來時扭傷了腳踝。",
-        "clue": "腳和小腿相連的關節",
-        "answerEntryId": "u1:ankle",
-        "distractorEntryIds": [
-          "u1:arm",
-          "u1:ear",
-          "u1:eye"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The doctor put a bandage around my ___, just above my foot.",
@@ -97,18 +85,6 @@
       "spellingHint": "a-r-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He broke his ___ when he fell off his bike.",
-        "fullSentence": "He broke his arm when he fell off his bike.",
-        "translation": "他從腳踏車上摔下來時折斷了手臂。",
-        "clue": "從肩膀到手的部分",
-        "answerEntryId": "u1:arm",
-        "distractorEntryIds": [
-          "u1:gesture",
-          "u1:aunt",
-          "u1:back"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I carry my schoolbag on one ___.",
@@ -183,18 +159,6 @@
       "spellingHint": "a-u-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ cooked dinner for the whole family last night.",
-        "fullSentence": "My aunt cooked dinner for the whole family last night.",
-        "translation": "我的姑媽昨晚為全家煮晚餐。",
-        "clue": "父母的姐妹",
-        "answerEntryId": "u1:aunt",
-        "distractorEntryIds": [
-          "u1:movement",
-          "u1:body",
-          "u1:bone"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My father's sister is my ___.",
@@ -269,18 +233,6 @@
       "spellingHint": "b-a-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ hurts because I sat in front of the computer too long.",
-        "fullSentence": "My back hurts because I sat in front of the computer too long.",
-        "translation": "我背痛，因為坐在電腦前太久了。",
-        "clue": "身體後面從肩到腰的部位",
-        "answerEntryId": "u1:back",
-        "distractorEntryIds": [
-          "u1:lip",
-          "u1:blood",
-          "u1:brain"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Lie on your ___ and look at the stars.",
@@ -355,18 +307,6 @@
       "spellingHint": "b-e-a-r-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My uncle grew a thick ___ last winter.",
-        "fullSentence": "My uncle grew a thick beard last winter.",
-        "translation": "我叔叔去年冬天留了濃密的鬍子。",
-        "clue": "長在下巴與臉頰的毛",
-        "answerEntryId": "u1:beard",
-        "distractorEntryIds": [
-          "u1:heart",
-          "u1:joint",
-          "u1:sight"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A barber trimmed my father's ___ this morning.",
@@ -441,18 +381,6 @@
       "spellingHint": "b-e-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I hope we can ___ the other school in the basketball game.",
-        "fullSentence": "I hope we can beat the other school in the basketball game.",
-        "translation": "我希望我們能在籃球賽打贏別的學校。",
-        "clue": "比賽中獲勝",
-        "answerEntryId": "u1:beat",
-        "distractorEntryIds": [
-          "u1:cry",
-          "u1:hop",
-          "u1:laugh"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ran so fast that she could ___ anyone.",
@@ -527,18 +455,6 @@
       "spellingHint": "b-i-t-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dog tried to ___ the mailman.",
-        "fullSentence": "The dog tried to bite the mailman.",
-        "translation": "那隻狗想咬郵差。",
-        "clue": "用牙齒咬住",
-        "answerEntryId": "u1:bite",
-        "distractorEntryIds": [
-          "u1:nod",
-          "u1:put",
-          "u1:rub"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Babies like to ___ everything they hold.",
@@ -613,18 +529,6 @@
       "spellingHint": "b-l-o-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "There was ___ on the bandage after he cut his finger.",
-        "fullSentence": "There was blood on the bandage after he cut his finger.",
-        "translation": "他割傷手指後，繃帶上有血。",
-        "clue": "身體裡紅色的液體",
-        "answerEntryId": "u1:blood",
-        "distractorEntryIds": [
-          "u1:step",
-          "u1:view",
-          "u1:bottom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Your heart pumps ___ to your whole body.",
@@ -699,18 +603,6 @@
       "spellingHint": "b-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ out the candles on your cake.",
-        "fullSentence": "Please blow out the candles on your cake.",
-        "translation": "請把蛋糕上的蠟燭吹熄。",
-        "clue": "用口送出氣流",
-        "answerEntryId": "u1:blow",
-        "distractorEntryIds": [
-          "u1:print",
-          "u1:shake",
-          "u1:sleep"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The wind can ___ leaves off the trees.",
@@ -785,18 +677,6 @@
       "spellingHint": "b-o-d-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Washing your hands keeps your ___ healthy.",
-        "fullSentence": "Washing your hands keeps your body healthy.",
-        "translation": "洗手讓你的身體健康。",
-        "clue": "整個人的肉體",
-        "answerEntryId": "u1:body",
-        "distractorEntryIds": [
-          "u1:aunt",
-          "u1:back",
-          "u1:sign"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The head is the top part of the ___.",
@@ -871,18 +751,6 @@
       "spellingHint": "b-o-n-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The X-ray showed that no ___ in her leg was broken.",
-        "fullSentence": "The X-ray showed that no bone in her leg was broken.",
-        "translation": "X 光顯示她的腿沒有骨折。",
-        "clue": "構成骨架的硬組織",
-        "answerEntryId": "u1:bone",
-        "distractorEntryIds": [
-          "u1:motion",
-          "u1:throat",
-          "u1:blood"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Milk helps make your ___ strong.",
@@ -957,18 +825,6 @@
       "spellingHint": "b-r-a-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Reading every day is good exercise for your ___.",
-        "fullSentence": "Reading every day is good exercise for your brain.",
-        "translation": "每天閱讀是對腦很好的運動。",
-        "clue": "思考的器官",
-        "answerEntryId": "u1:brain",
-        "distractorEntryIds": [
-          "u1:sight",
-          "u1:thumb",
-          "u1:voice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The skull protects the ___ from hits.",
@@ -1043,18 +899,6 @@
       "spellingHint": "b-o-r-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She was ___ in a small town near the sea.",
-        "fullSentence": "She was born in a small town near the sea.",
-        "translation": "她出生在海邊的小鎮。",
-        "clue": "來到世上",
-        "answerEntryId": "u1:born",
-        "distractorEntryIds": [
-          "u1:push",
-          "u1:slip",
-          "u1:walk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My brother was ___ in 2010.",
@@ -1129,18 +973,6 @@
       "spellingHint": "b-o-t-t-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The keys fell to the ___ of the bag.",
-        "fullSentence": "The keys fell to the bottom of the bag.",
-        "translation": "鑰匙掉到袋子底部。",
-        "clue": "最低的地方",
-        "answerEntryId": "u1:bottom",
-        "distractorEntryIds": [
-          "u1:aunt",
-          "u1:face",
-          "u1:foot"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Write your name at the ___ of the page.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "b-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Japanese people often ___ when they greet each other.",
-        "fullSentence": "Japanese people often bow when they greet each other.",
-        "translation": "日本人見面時常互相鞠躬。",
-        "clue": "低頭彎腰行禮",
-        "answerEntryId": "u1:bow",
-        "distractorEntryIds": [
-          "u1:press",
-          "u1:print",
-          "u1:shake"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The knight ___ to the queen before leaving.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "b-r-o-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ and I share the same bedroom.",
-        "fullSentence": "My brother and I share the same bedroom.",
-        "translation": "我和哥哥共用同一間臥室。",
-        "clue": "同父母的男生手足",
-        "answerEntryId": "u1:brother",
-        "distractorEntryIds": [
-          "u1:arm",
-          "u1:ear",
-          "u1:eye"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her little ___ is only five years old.",
@@ -1387,18 +1195,6 @@
       "spellingHint": "c-a-r-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Porters ___ heavy bags on their backs as they climb the mountain.",
-        "fullSentence": "Porters carry heavy bags on their backs as they climb the mountain.",
-        "translation": "挑夫爬山時，把沉重的袋子背在背上搬運。",
-        "clue": "背著物品一路移動",
-        "answerEntryId": "u1:carry",
-        "distractorEntryIds": [
-          "u1:throw",
-          "u1:kick",
-          "u1:drop"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom asked me to ___ the groceries inside.",
@@ -1473,18 +1269,6 @@
       "spellingHint": "c-h-a-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police ___ the thief down the street.",
-        "fullSentence": "The police chase the thief down the street.",
-        "translation": "警察在街上追小偷。",
-        "clue": "快跑追趕",
-        "answerEntryId": "u1:chase",
-        "distractorEntryIds": [
-          "u1:slip",
-          "u1:walk",
-          "u1:run"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My dog loves to ___ squirrels in the park.",
@@ -1559,18 +1343,6 @@
       "spellingHint": "c-l-a-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ your hands three times.",
-        "fullSentence": "Please clap your hands three times.",
-        "translation": "請拍手三次。",
-        "clue": "雙掌互擊出聲",
-        "answerEntryId": "u1:clap",
-        "distractorEntryIds": [
-          "u1:blow",
-          "u1:born",
-          "u1:fall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The audience began to ___ when the singer appeared.",
@@ -1645,18 +1417,6 @@
       "spellingHint": "c-o-u-s-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ from Canada is visiting us this summer.",
-        "fullSentence": "My cousin from Canada is visiting us this summer.",
-        "translation": "我加拿大的表哥今年夏天來拜訪我們。",
-        "clue": "叔伯姨舅的小孩",
-        "answerEntryId": "u1:cousin",
-        "distractorEntryIds": [
-          "u1:bottom",
-          "u1:nose",
-          "u1:sign"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My uncle's son is my ___.",
@@ -1731,18 +1491,6 @@
       "spellingHint": "c-r-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She began to ___ at the sad movie.",
-        "fullSentence": "She began to cry at the sad movie.",
-        "translation": "她看悲傷的電影時開始哭了。",
-        "clue": "流淚出聲",
-        "answerEntryId": "u1:cry",
-        "distractorEntryIds": [
-          "u1:kick",
-          "u1:pull",
-          "u1:push"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Little kids often ___ when they fall down.",
@@ -1817,18 +1565,6 @@
       "spellingHint": "d-a-u-g-h-t-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Mr. Wang has one son and one ___.",
-        "fullSentence": "Mr. Wang has one son and one daughter.",
-        "translation": "王先生有一個兒子和一個女兒。",
-        "clue": "父母的女孩子",
-        "answerEntryId": "u1:daughter",
-        "distractorEntryIds": [
-          "u1:finger",
-          "u1:toe",
-          "u1:voice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My aunt's ___ is only a baby.",
@@ -1903,18 +1639,6 @@
       "spellingHint": "d-r-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He accidentally ___ his phone into the pool.",
-        "fullSentence": "He accidentally drop his phone into the pool.",
-        "translation": "他不小心把手機掉進泳池。",
-        "clue": "手鬆開讓物體落下",
-        "answerEntryId": "u1:drop",
-        "distractorEntryIds": [
-          "u1:carry",
-          "u1:knock",
-          "u1:point"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Leaves ___ from the trees in autumn.",
@@ -1989,18 +1713,6 @@
       "spellingHint": "e-a-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I put on headphones over my ___.",
-        "fullSentence": "I put on headphones over my ear.",
-        "translation": "我把耳機戴在耳朵上。",
-        "clue": "聽聲音的器官",
-        "answerEntryId": "u1:ear",
-        "distractorEntryIds": [
-          "u1:finger",
-          "u1:motion",
-          "u1:throat"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Music enters your ___ through the headphones.",
@@ -2075,18 +1787,6 @@
       "spellingHint": "e-y-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wear goggles to protect your ___ in the pool.",
-        "fullSentence": "Wear goggles to protect your eye in the pool.",
-        "translation": "在泳池戴護目鏡保護你的眼睛。",
-        "clue": "用來看的器官",
-        "answerEntryId": "u1:eye",
-        "distractorEntryIds": [
-          "u1:thumb",
-          "u1:tooth",
-          "u1:wrist"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We see the world through our ___.",
@@ -2161,18 +1861,6 @@
       "spellingHint": "f-a-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She has a big smile on her ___.",
-        "fullSentence": "She has a big smile on her face.",
-        "translation": "她臉上帶著大大的笑容。",
-        "clue": "五官所在的前部",
-        "answerEntryId": "u1:face",
-        "distractorEntryIds": [
-          "u1:skin",
-          "u1:step",
-          "u1:leg"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The clown painted a red nose on his ___.",
@@ -2247,18 +1935,6 @@
       "spellingHint": "f-a-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He lost his balance and ___ off his bike.",
-        "fullSentence": "He lost his balance and fall off his bike.",
-        "translation": "他失去平衡，從腳踏車上摔下來。",
-        "clue": "身體倒下",
-        "answerEntryId": "u1:fall",
-        "distractorEntryIds": [
-          "u1:throw",
-          "u1:clap",
-          "u1:flow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Snowflakes ___ softly from the sky.",
@@ -2333,18 +2009,6 @@
       "spellingHint": "f-a-m-i-l-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We eat dinner together as a ___ every night.",
-        "fullSentence": "We eat dinner together as a family every night.",
-        "translation": "我們每晚一家人一起吃晚餐。",
-        "clue": "住在一起的親人",
-        "answerEntryId": "u1:family",
-        "distractorEntryIds": [
-          "u1:throat",
-          "u1:shoulder",
-          "u1:thumb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her ___ lives in a small apartment in Taipei.",
@@ -2419,18 +2083,6 @@
       "spellingHint": "f-a-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ taught me how to swim.",
-        "fullSentence": "My father taught me how to swim.",
-        "translation": "我爸爸教我游泳。",
-        "clue": "生養你的男性家長",
-        "answerEntryId": "u1:father",
-        "distractorEntryIds": [
-          "u1:gesture",
-          "u1:arm",
-          "u1:hip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Her ___ is a doctor at the city hospital.",
@@ -2505,18 +2157,6 @@
       "spellingHint": "f-i-n-g-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Point at the map with your ___.",
-        "fullSentence": "Point at the map with your finger.",
-        "translation": "用手指著地圖。",
-        "clue": "手上的五根指頭",
-        "answerEntryId": "u1:finger",
-        "distractorEntryIds": [
-          "u1:leg",
-          "u1:toe",
-          "u1:neck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are five ___ on each hand.",
@@ -2591,18 +2231,6 @@
       "spellingHint": "f-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The river ___ quietly through the valley.",
-        "fullSentence": "The river flow quietly through the valley.",
-        "translation": "河水靜靜流過山谷。",
-        "clue": "液體持續移動",
-        "answerEntryId": "u1:flow",
-        "distractorEntryIds": [
-          "u1:blow",
-          "u1:born",
-          "u1:clap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blood ___ through your veins all the time.",
@@ -2677,18 +2305,6 @@
       "spellingHint": "f-o-l-l-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please ___ the instructions on the screen.",
-        "fullSentence": "Please follow the instructions on the screen.",
-        "translation": "請按照螢幕上的說明操作。",
-        "clue": "依循指示行事",
-        "answerEntryId": "u1:follow",
-        "distractorEntryIds": [
-          "u1:print",
-          "u1:shake",
-          "u1:smile"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The ducklings ___ their mother to the pond.",
@@ -2763,18 +2379,6 @@
       "spellingHint": "f-o-o-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She stepped on a toy and hurt her ___.",
-        "fullSentence": "She stepped on a toy and hurt her foot.",
-        "translation": "她踩到玩具，傷到了腳。",
-        "clue": "走路用的肢體末端",
-        "answerEntryId": "u1:foot",
-        "distractorEntryIds": [
-          "u1:stomach",
-          "u1:bone",
-          "u1:face"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Wash your ___ before you put on socks.",
@@ -2849,18 +2453,6 @@
       "spellingHint": "g-e-s-t-u-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The teacher used a ___ to tell us to be quiet.",
-        "fullSentence": "The teacher used a gesture to tell us to be quiet.",
-        "translation": "老師用手勢要我們安靜。",
-        "clue": "用手表達意思的動作",
-        "answerEntryId": "u1:gesture",
-        "distractorEntryIds": [
-          "u1:foot",
-          "u1:hair",
-          "u1:neck"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Waving goodbye is a friendly ___.",
@@ -2935,18 +2527,6 @@
       "spellingHint": "g-r-a-n-d-f-a-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My ___ is seventy years old but still rides a bike.",
-        "fullSentence": "My grandfather is seventy years old but still rides a bike.",
-        "translation": "我爺爺七十歲了還會騎腳踏車。",
-        "clue": "爸爸或媽媽的爸爸",
-        "answerEntryId": "u1:grandfather",
-        "distractorEntryIds": [
-          "u1:skin",
-          "u1:soul",
-          "u1:gesture"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My father's father is my ___.",
@@ -3021,18 +2601,6 @@
       "spellingHint": "g-r-a-n-d-m-o-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Every summer I visit my ___ in the countryside.",
-        "fullSentence": "Every summer I visit my grandmother in the countryside.",
-        "translation": "每年夏天我都去看望鄉下的奶奶。",
-        "clue": "爸爸或媽媽的媽媽",
-        "answerEntryId": "u1:grandmother",
-        "distractorEntryIds": [
-          "u1:stomach",
-          "u1:gesture",
-          "u1:arm"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My mother's mother is my ___.",
@@ -3107,18 +2675,6 @@
       "spellingHint": "g-r-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Kids ___ faster when they rest well at night.",
-        "fullSentence": "Kids grow faster when they rest well at night.",
-        "translation": "孩子晚上休息得好就長得快。",
-        "clue": "身體逐漸變大",
-        "answerEntryId": "u1:grow",
-        "distractorEntryIds": [
-          "u1:blow",
-          "u1:born",
-          "u1:clap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Plants ___ well with enough water and sunlight.",
@@ -3193,18 +2749,6 @@
       "spellingHint": "h-a-i-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The barber cut my ___ very short.",
-        "fullSentence": "The barber cut my hair very short.",
-        "translation": "理髮師把我的頭髮剪得很短。",
-        "clue": "長在頭上的毛",
-        "answerEntryId": "u1:hair",
-        "distractorEntryIds": [
-          "u1:bottom",
-          "u1:heart",
-          "u1:joint"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Brush your ___ before school.",
@@ -3279,18 +2823,6 @@
       "spellingHint": "h-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Raise your ___ if you know the answer.",
-        "fullSentence": "Raise your hand if you know the answer.",
-        "translation": "知道答案就舉手。",
-        "clue": "手腕以下用來拿東西的部位",
-        "answerEntryId": "u1:hand",
-        "distractorEntryIds": [
-          "u1:waist",
-          "u1:throat",
-          "u1:bone"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She held the ice cream in her ___.",
@@ -3365,18 +2897,6 @@
       "spellingHint": "h-e-a-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Put on a helmet to protect your ___.",
-        "fullSentence": "Put on a helmet to protect your head.",
-        "translation": "戴上安全帽保護你的頭。",
-        "clue": "身體最上面長五官的部位",
-        "answerEntryId": "u1:head",
-        "distractorEntryIds": [
-          "u1:hand",
-          "u1:skin",
-          "u1:soul"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ hurts; I need some rest.",
@@ -3451,18 +2971,6 @@
       "spellingHint": "h-e-a-r-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The doctor listened to my ___ with a stethoscope.",
-        "fullSentence": "The doctor listened to my heart with a stethoscope.",
-        "translation": "醫生用聽診器聽我的心臟。",
-        "clue": "胸腔裡跳動送血的器官",
-        "answerEntryId": "u1:heart",
-        "distractorEntryIds": [
-          "u1:stomach",
-          "u1:gesture",
-          "u1:hip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Exercise makes your ___ stronger.",
@@ -3537,18 +3045,6 @@
       "spellingHint": "h-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She put her hands on her ___ and laughed.",
-        "fullSentence": "She put her hands on her hip and laughed.",
-        "translation": "她雙手叉腰大笑。",
-        "clue": "腰以下大腿以上的部位",
-        "answerEntryId": "u1:hip",
-        "distractorEntryIds": [
-          "u1:throat",
-          "u1:foot",
-          "u1:hand"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The dancer swung her ___ to the music.",
@@ -3623,18 +3119,6 @@
       "spellingHint": "h-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The batter ___ the ball out of the park.",
-        "fullSentence": "The batter hit the ball out of the park.",
-        "translation": "打擊手把球打出球場。",
-        "clue": "用力擊打目標",
-        "answerEntryId": "u1:hit",
-        "distractorEntryIds": [
-          "u1:hold",
-          "u1:kick",
-          "u1:kiss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't ___ your little brother; it hurts.",
@@ -3709,18 +3193,6 @@
       "spellingHint": "h-o-l-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Can you ___ this bag while I tie my shoe?",
-        "fullSentence": "Can you hold this bag while I tie my shoe?",
-        "translation": "我綁鞋帶時你能拿著這個袋子嗎？",
-        "clue": "用手握著物品",
-        "answerEntryId": "u1:hold",
-        "distractorEntryIds": [
-          "u1:move",
-          "u1:pick",
-          "u1:walk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the umbrella over both of them.",
@@ -3795,18 +3267,6 @@
       "spellingHint": "h-o-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Birds ___ along the branch looking for seeds.",
-        "fullSentence": "Birds hop along the branch looking for seeds.",
-        "translation": "小鳥在枝頭跳來跳去找種子。",
-        "clue": "雙腳或單腳小跳",
-        "answerEntryId": "u1:hop",
-        "distractorEntryIds": [
-          "u1:cry",
-          "u1:hug",
-          "u1:nod"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "We played a game where we had to ___ on one leg.",
@@ -3881,18 +3341,6 @@
       "spellingHint": "h-u-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Friends ___ each other when they meet after a long time.",
-        "fullSentence": "Friends hug each other when they meet after a long time.",
-        "translation": "久別重逢的朋友互相擁抱。",
-        "clue": "雙臂環抱對方",
-        "answerEntryId": "u1:hug",
-        "distractorEntryIds": [
-          "u1:hop",
-          "u1:laugh",
-          "u1:point"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Mom always ___ me goodnight.",
@@ -3967,18 +3415,6 @@
       "spellingHint": "j-o-i-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The knee is the largest ___ in the human body.",
-        "fullSentence": "The knee is the largest joint in the human body.",
-        "translation": "膝蓋是人體最大的關節。",
-        "clue": "骨骼相接可彎曲處",
-        "answerEntryId": "u1:joint",
-        "distractorEntryIds": [
-          "u1:view",
-          "u1:sense",
-          "u1:sight"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Your elbow is a ___ that lets your arm bend.",
@@ -4053,18 +3489,6 @@
       "spellingHint": "j-u-m-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The cat can ___ onto the top of the fridge.",
-        "fullSentence": "The cat can jump onto the top of the fridge.",
-        "translation": "那隻貓能跳上冰箱頂。",
-        "clue": "用力躍起",
-        "answerEntryId": "u1:jump",
-        "distractorEntryIds": [
-          "u1:yell",
-          "u1:cry",
-          "u1:hug"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Frogs ___ very far for their size.",
@@ -4139,18 +3563,6 @@
       "spellingHint": "k-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In soccer you may not ___ other players.",
-        "fullSentence": "In soccer you may not kick other players.",
-        "translation": "踢足球時不能踢其他球員。",
-        "clue": "用腳撞擊",
-        "answerEntryId": "u1:kick",
-        "distractorEntryIds": [
-          "u1:hop",
-          "u1:lay",
-          "u1:put"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the ball into the goal.",
@@ -4225,18 +3637,6 @@
       "spellingHint": "k-i-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The bride and groom ___ at the wedding.",
-        "fullSentence": "The bride and groom kiss at the wedding.",
-        "translation": "新郎新娘在婚禮上親吻。",
-        "clue": "以唇相觸表達愛",
-        "answerEntryId": "u1:kiss",
-        "distractorEntryIds": [
-          "u1:lick",
-          "u1:move",
-          "u1:pick"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandma ___ my cheek before I go to bed.",
@@ -4311,18 +3711,6 @@
       "spellingHint": "k-n-e-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She wore out the ___ of her jeans from kneeling.",
-        "fullSentence": "She wore out the knee of her jeans from kneeling.",
-        "translation": "她常跪著，牛仔褲的膝蓋處磨破了。",
-        "clue": "大腿小腿之間的關節",
-        "answerEntryId": "u1:knee",
-        "distractorEntryIds": [
-          "u1:sense",
-          "u1:sight",
-          "u1:voice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Bend your ___ before you lift the heavy box.",
@@ -4397,18 +3785,6 @@
       "spellingHint": "k-n-o-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Someone is ___ at the door.",
-        "fullSentence": "Someone is knock at the door.",
-        "translation": "有人在敲門。",
-        "clue": "以拳擊門出聲",
-        "answerEntryId": "u1:knock",
-        "distractorEntryIds": [
-          "u1:hop",
-          "u1:lay",
-          "u1:put"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He ___ three times and waited for an answer.",
@@ -4483,18 +3859,6 @@
       "spellingHint": "l-a-u-g-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Everyone ___ when the puppy chased its tail.",
-        "fullSentence": "Everyone laugh when the puppy chased its tail.",
-        "translation": "小狗追自己尾巴時大家都笑了。",
-        "clue": "開心出聲",
-        "answerEntryId": "u1:laugh",
-        "distractorEntryIds": [
-          "u1:knock",
-          "u1:kick",
-          "u1:kiss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My friends and I often ___ at funny videos.",
@@ -4569,18 +3933,6 @@
       "spellingHint": "l-a-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She ___ the baby gently in the crib.",
-        "fullSentence": "She lay the baby gently in the crib.",
-        "translation": "她輕輕把嬰兒放在嬰兒床上。",
-        "clue": "把東西放下",
-        "answerEntryId": "u1:lay",
-        "distractorEntryIds": [
-          "u1:slip",
-          "u1:walk",
-          "u1:follow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your books on the desk.",
@@ -4655,18 +4007,6 @@
       "spellingHint": "l-e-g",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "After the marathon, my ___ were sore for days.",
-        "fullSentence": "After the marathon, my leg were sore for days.",
-        "translation": "馬拉松之後，我的腿痠了好幾天。",
-        "clue": "支撐行走用來跑跳的肢體",
-        "answerEntryId": "u1:leg",
-        "distractorEntryIds": [
-          "u1:hair",
-          "u1:hand",
-          "u1:head"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He broke his ___ skiing last winter.",
@@ -4741,18 +4081,6 @@
       "spellingHint": "l-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dog ___ my face to say hello.",
-        "fullSentence": "The dog lick my face to say hello.",
-        "translation": "狗舔我的臉打招呼。",
-        "clue": "用舌頭碰觸",
-        "answerEntryId": "u1:lick",
-        "distractorEntryIds": [
-          "u1:fall",
-          "u1:flow",
-          "u1:grow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Ice cream dripped, so he ___ it quickly.",
@@ -4827,18 +4155,6 @@
       "spellingHint": "l-i-f-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The workers ___ heavy boxes onto the truck.",
-        "fullSentence": "The workers lift heavy boxes onto the truck.",
-        "translation": "工人把重箱舉上卡車。",
-        "clue": "把東西往上抬",
-        "answerEntryId": "u1:lift",
-        "distractorEntryIds": [
-          "u1:kiss",
-          "u1:slip",
-          "u1:walk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the box onto the shelf.",
@@ -4913,18 +4229,6 @@
       "spellingHint": "l-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Use ___ balm when your lips are dry.",
-        "fullSentence": "Use lip balm when your lips are dry.",
-        "translation": "嘴唇乾燥時要用護唇膏。",
-        "clue": "嘴巴上下兩片皮肉",
-        "answerEntryId": "u1:lip",
-        "distractorEntryIds": [
-          "u1:gesture",
-          "u1:ear",
-          "u1:eye"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He bit his ___ when he was nervous.",
@@ -4999,18 +4303,6 @@
       "spellingHint": "m-o-t-i-o-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The police officer made a ___ for us to stop.",
-        "fullSentence": "The police officer made a motion for us to stop.",
-        "translation": "警察做手勢要我們停下。",
-        "clue": "以動作傳達訊息",
-        "answerEntryId": "u1:motion",
-        "distractorEntryIds": [
-          "u1:lip",
-          "u1:neck",
-          "u1:sign"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Newton studied the ___ of the planets.",
@@ -5085,18 +4377,6 @@
       "spellingHint": "m-o-u-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Cover your ___ when you cough.",
-        "fullSentence": "Cover your mouth when you cough.",
-        "translation": "咳嗽時要遮住嘴巴。",
-        "clue": "吃飯說話的入口",
-        "answerEntryId": "u1:mouth",
-        "distractorEntryIds": [
-          "u1:view",
-          "u1:thumb",
-          "u1:voice"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Too much candy is bad for your ___.",
@@ -5171,18 +4451,6 @@
       "spellingHint": "m-o-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Earth ___ around the sun in one year.",
-        "fullSentence": "Earth move around the sun in one year.",
-        "translation": "地球一年繞太陽一圈。",
-        "clue": "位置變化",
-        "answerEntryId": "u1:move",
-        "distractorEntryIds": [
-          "u1:follow",
-          "u1:carry",
-          "u1:chase"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Can you ___ the table? It blocks the door.",
@@ -5257,18 +4525,6 @@
       "spellingHint": "m-o-v-e-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dance teacher watched every ___ of our arms.",
-        "fullSentence": "The dance teacher watched every movement of our arms.",
-        "translation": "舞蹈老師注意我們手臂的每個動作。",
-        "clue": "肢體的動態表現",
-        "answerEntryId": "u1:movement",
-        "distractorEntryIds": [
-          "u1:brother",
-          "u1:stomach",
-          "u1:back"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Birds watching is about the ___ and habits of birds.",
@@ -5343,18 +4599,6 @@
       "spellingHint": "n-a-i-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "At the salon, she painted each ___ on her fingers pink.",
-        "fullSentence": "At the salon, she painted each nail on her fingers pink.",
-        "translation": "在美甲店，她把手指上的每片指甲塗成粉紅色。",
-        "clue": "手指末端可塗色的硬片",
-        "answerEntryId": "u1:nail",
-        "distractorEntryIds": [
-          "u1:toe",
-          "u1:wrist",
-          "u1:tooth"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't bite your ___; it is a bad habit.",
@@ -5429,18 +4673,6 @@
       "spellingHint": "n-e-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She wore a scarf around her ___ in winter.",
-        "fullSentence": "She wore a scarf around her neck in winter.",
-        "translation": "冬天她在脖子上圍圍巾。",
-        "clue": "連接頭和身體的部位",
-        "answerEntryId": "u1:neck",
-        "distractorEntryIds": [
-          "u1:nail",
-          "u1:skin",
-          "u1:soul"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Looking down at phones hurts your ___.",
@@ -5515,18 +4747,6 @@
       "spellingHint": "n-o-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "When the teacher asks whether you agree, ___ your head up and down.",
-        "fullSentence": "When the teacher asks whether you agree, nod your head up and down.",
-        "translation": "老師問你是否同意時，就上下點頭。",
-        "clue": "頭部上下移動表示同意",
-        "answerEntryId": "u1:nod",
-        "distractorEntryIds": [
-          "u1:wave",
-          "u1:smile",
-          "u1:bow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He ___ and smiled at the good news.",
@@ -5601,18 +4821,6 @@
       "spellingHint": "n-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She pinched her ___ when the milk smelled bad.",
-        "fullSentence": "She pinched her nose when the milk smelled bad.",
-        "translation": "牛奶有異味時她捏住鼻子。",
-        "clue": "臉上用來聞的器官",
-        "answerEntryId": "u1:nose",
-        "distractorEntryIds": [
-          "u1:neck",
-          "u1:brother",
-          "u1:daughter"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "My ___ runs when I catch a cold.",
@@ -5687,18 +4895,6 @@
       "spellingHint": "p-i-c-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "You can ___ any two books from the shelf.",
-        "fullSentence": "You can pick any two books from the shelf.",
-        "translation": "你可以從書架上任選兩本書。",
-        "clue": "選出想要的",
-        "answerEntryId": "u1:pick",
-        "distractorEntryIds": [
-          "u1:lick",
-          "u1:move",
-          "u1:slip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Farmers ___ apples in autumn.",
@@ -5773,18 +4969,6 @@
       "spellingHint": "p-o-i-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "It is rude to ___ at people with your finger.",
-        "fullSentence": "It is rude to point at people with your finger.",
-        "translation": "用手指指人不禮貌。",
-        "clue": "以手指指示",
-        "answerEntryId": "u1:point",
-        "distractorEntryIds": [
-          "u1:bite",
-          "u1:blow",
-          "u1:born"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher ___ to the correct answer.",
@@ -5859,18 +5043,6 @@
       "spellingHint": "p-r-e-s-s",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ the button twice to turn it off.",
-        "fullSentence": "press the button twice to turn it off.",
-        "translation": "按兩下按鈕把它關掉。",
-        "clue": "以手指下壓",
-        "answerEntryId": "u1:press",
-        "distractorEntryIds": [
-          "u1:nod",
-          "u1:run",
-          "u1:sit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the stamp onto the envelope.",
@@ -5945,18 +5117,6 @@
       "spellingHint": "p-r-i-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Can you ___ this page for me?",
-        "fullSentence": "Can you print this page for me?",
-        "translation": "你能幫我印這一頁嗎？",
-        "clue": "由電腦輸出到紙上",
-        "answerEntryId": "u1:print",
-        "distractorEntryIds": [
-          "u1:chase",
-          "u1:knock",
-          "u1:laugh"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The printer will ___ ten copies.",
@@ -6031,18 +5191,6 @@
       "spellingHint": "p-u-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The horse ___ the cart up the hill.",
-        "fullSentence": "The horse pull the cart up the hill.",
-        "translation": "馬把車拉上山坡。",
-        "clue": "朝自己方向施力",
-        "answerEntryId": "u1:pull",
-        "distractorEntryIds": [
-          "u1:bow",
-          "u1:cry",
-          "u1:hit"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the drawer open to find her socks.",
@@ -6117,18 +5265,6 @@
       "spellingHint": "p-u-s-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The students ___ the desks together for the activity.",
-        "fullSentence": "The students push the desks together for the activity.",
-        "translation": "學生把課桌推攏來做活動。",
-        "clue": "向外施力使移動",
-        "answerEntryId": "u1:push",
-        "distractorEntryIds": [
-          "u1:sleep",
-          "u1:smile",
-          "u1:stand"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the door open with her shoulder.",
@@ -6203,18 +5339,6 @@
       "spellingHint": "p-u-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ the milk back in the fridge after you use it.",
-        "fullSentence": "put the milk back in the fridge after you use it.",
-        "translation": "用完牛奶請放回冰箱。",
-        "clue": "放置於某處",
-        "answerEntryId": "u1:put",
-        "distractorEntryIds": [
-          "u1:grow",
-          "u1:jump",
-          "u1:kiss"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ the flowers in a vase.",
@@ -6289,18 +5413,6 @@
       "spellingHint": "r-u-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She ___ her sore shoulder after carrying the bag.",
-        "fullSentence": "She rub her sore shoulder after carrying the bag.",
-        "translation": "她背完袋子後搓揉痠痛的肩膀。",
-        "clue": "來回摩擦痠痛處",
-        "answerEntryId": "u1:rub",
-        "distractorEntryIds": [
-          "u1:run",
-          "u1:sit",
-          "u1:walk"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He ___ the fog off the window with his sleeve.",
@@ -6375,18 +5487,6 @@
       "spellingHint": "r-u-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The children ___ to the playground as soon as the bell rang.",
-        "fullSentence": "The children run to the playground as soon as the bell rang.",
-        "translation": "鐘聲一響，孩子們就跑向遊樂場。",
-        "clue": "快速奔跑",
-        "answerEntryId": "u1:run",
-        "distractorEntryIds": [
-          "u1:chase",
-          "u1:knock",
-          "u1:laugh"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Cheetahs ___ faster than any other land animal.",
@@ -6461,18 +5561,6 @@
       "spellingHint": "s-e-n-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Bats use a sixth ___ to fly in the dark.",
-        "fullSentence": "Bats use a sixth sense to fly in the dark.",
-        "translation": "蝙蝠用第六感在黑暗中飛行。",
-        "clue": "察覺環境的能力",
-        "answerEntryId": "u1:sense",
-        "distractorEntryIds": [
-          "u1:family",
-          "u1:father",
-          "u1:nail"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Blind people often develop a sharp ___ of hearing.",
@@ -6547,18 +5635,6 @@
       "spellingHint": "s-h-a-k-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We ___ hands when we meet for the first time.",
-        "fullSentence": "We shake hands when we meet for the first time.",
-        "translation": "初次見面時我們握手。",
-        "clue": "上下晃動致意",
-        "answerEntryId": "u1:shake",
-        "distractorEntryIds": [
-          "u1:blow",
-          "u1:born",
-          "u1:clap"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tree ___ in the strong wind.",
@@ -6633,18 +5709,6 @@
       "spellingHint": "s-h-o-u-l-d-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She looked over her ___ to see who was calling.",
-        "fullSentence": "She looked over her shoulder to see who was calling.",
-        "translation": "她回頭看是誰在叫她。",
-        "clue": "脖子兩側連接手臂的部位",
-        "answerEntryId": "u1:shoulder",
-        "distractorEntryIds": [
-          "u1:throat",
-          "u1:leg",
-          "u1:lip"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The bag strap hurt my ___.",
@@ -6719,18 +5783,6 @@
       "spellingHint": "s-h-o-u-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She had to ___ to be heard over the noise.",
-        "fullSentence": "She had to shout to be heard over the noise.",
-        "translation": "噪音太大，她必須大聲喊。",
-        "clue": "大聲喊叫",
-        "answerEntryId": "u1:shout",
-        "distractorEntryIds": [
-          "u1:shake",
-          "u1:smile",
-          "u1:run"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The fans ___ with joy when their team scored.",
@@ -6805,18 +5857,6 @@
       "spellingHint": "s-i-g-h-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The ship disappeared from ___.",
-        "fullSentence": "The ship disappeared from sight.",
-        "translation": "船消失在視線之外。",
-        "clue": "眼睛看到的範圍",
-        "answerEntryId": "u1:sight",
-        "distractorEntryIds": [
-          "u1:bottom",
-          "u1:cousin",
-          "u1:family"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Birds of prey have excellent ___ from high above.",
@@ -6891,18 +5931,6 @@
       "spellingHint": "s-l-i-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She ___ on the ice and broke her wrist.",
-        "fullSentence": "She slip on the ice and broke her wrist.",
-        "translation": "她在冰上滑倒，摔斷了手腕。",
-        "clue": "腳底打滑跌倒",
-        "answerEntryId": "u1:slip",
-        "distractorEntryIds": [
-          "u1:yell",
-          "u1:born",
-          "u1:fall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The soap fell because it ___ from my hand.",
@@ -6977,18 +6005,6 @@
       "spellingHint": "s-m-i-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The waiter ___ at every customer.",
-        "fullSentence": "The waiter smile at every customer.",
-        "translation": "服務生對每位顧客微笑。",
-        "clue": "嘴角上揚表示友善",
-        "answerEntryId": "u1:smile",
-        "distractorEntryIds": [
-          "u1:chase",
-          "u1:knock",
-          "u1:point"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She ___ at me from across the room.",
@@ -7063,18 +6079,6 @@
       "spellingHint": "s-o-u-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Some believe the ___ lives on after the body dies.",
-        "fullSentence": "Some believe the soul lives on after the body dies.",
-        "translation": "有些人相信身體死後靈魂仍在。",
-        "clue": "肉體之外的精神",
-        "answerEntryId": "u1:soul",
-        "distractorEntryIds": [
-          "u1:hair",
-          "u1:hand",
-          "u1:head"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She is a kind ___ who helps everyone.",
@@ -7149,18 +6153,6 @@
       "spellingHint": "s-t-a-n-d",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We ___ in line to buy tickets.",
-        "fullSentence": "We stand in line to buy tickets.",
-        "translation": "我們排隊站著買票。",
-        "clue": "身體直立",
-        "answerEntryId": "u1:stand",
-        "distractorEntryIds": [
-          "u1:follow",
-          "u1:bow",
-          "u1:hug"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The old man cannot ___ for a long time.",
@@ -7235,18 +6227,6 @@
       "spellingHint": "s-t-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Please mind the ___ as you get off the bus.",
-        "fullSentence": "Please mind the step as you get off the bus.",
-        "translation": "下公車時請注意台階。",
-        "clue": "樓梯的單一階",
-        "answerEntryId": "u1:step",
-        "distractorEntryIds": [
-          "u1:throat",
-          "u1:movement",
-          "u1:leg"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "I heard his ___ in the hallway.",
@@ -7321,18 +6301,6 @@
       "spellingHint": "s-t-o-m-a-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A big breakfast fills your ___ for the whole morning.",
-        "fullSentence": "A big breakfast fills your stomach for the whole morning.",
-        "translation": "豐盛的早餐讓你的肚子飽一整個上午。",
-        "clue": "消化食物的器官",
-        "answerEntryId": "u1:stomach",
-        "distractorEntryIds": [
-          "u1:beard",
-          "u1:thumb",
-          "u1:tooth"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "She felt sick in her ___ before the test.",
@@ -7407,18 +6375,6 @@
       "spellingHint": "t-h-r-o-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Drink warm water to soothe your sore ___.",
-        "fullSentence": "Drink warm water to soothe your sore throat.",
-        "translation": "喝溫水舒緩你疼痛的喉嚨。",
-        "clue": "連接口腔與食道的通道",
-        "answerEntryId": "u1:throat",
-        "distractorEntryIds": [
-          "u1:family",
-          "u1:father",
-          "u1:finger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Cold drinks hurt my ___ when I have a cold.",
@@ -7493,18 +6449,6 @@
       "spellingHint": "t-h-r-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "In baseball, the pitcher ___ the ball to the catcher.",
-        "fullSentence": "In baseball, the pitcher throw the ball to the catcher.",
-        "translation": "棒球裡投手把球投給捕手。",
-        "clue": "用手臂把物體擲出",
-        "answerEntryId": "u1:throw",
-        "distractorEntryIds": [
-          "u1:clap",
-          "u1:fall",
-          "u1:flow"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please ___ your trash in the bin.",
@@ -7579,18 +6523,6 @@
       "spellingHint": "t-h-u-m-b",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "She pressed the stamp with her ___.",
-        "fullSentence": "She pressed the stamp with her thumb.",
-        "translation": "她用大拇指按壓印章。",
-        "clue": "手上最粗的短指",
-        "answerEntryId": "u1:thumb",
-        "distractorEntryIds": [
-          "u1:aunt",
-          "u1:hand",
-          "u1:head"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He wears his ring on his ___.",
@@ -7665,18 +6597,6 @@
       "spellingHint": "t-o-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Wiggle your ___ inside your shoes.",
-        "fullSentence": "Wiggle your toe inside your shoes.",
-        "translation": "在鞋子裡動動你的腳趾。",
-        "clue": "腳末端的五個小指",
-        "answerEntryId": "u1:toe",
-        "distractorEntryIds": [
-          "u1:skin",
-          "u1:soul",
-          "u1:view"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "There are five ___ on each foot.",
@@ -7751,18 +6671,6 @@
       "spellingHint": "t-o-o-t-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The dentist found a hole in my back ___.",
-        "fullSentence": "The dentist found a hole in my back tooth.",
-        "translation": "牙醫發現我的臼齒有蛀洞。",
-        "clue": "咀嚼食物的白色硬組織",
-        "answerEntryId": "u1:tooth",
-        "distractorEntryIds": [
-          "u1:thumb",
-          "u1:grandmother",
-          "u1:stomach"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "A child loses a baby ___ at about age six.",
@@ -7837,18 +6745,6 @@
       "spellingHint": "v-i-e-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We had a clear ___ of the sea from our hotel room.",
-        "fullSentence": "We had a clear view of the sea from our hotel room.",
-        "translation": "從飯店房間可以清楚看到海景。",
-        "clue": "眼前所見的景象",
-        "answerEntryId": "u1:view",
-        "distractorEntryIds": [
-          "u1:tooth",
-          "u1:brain",
-          "u1:heart"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The tall building blocks our ___.",
@@ -7923,18 +6819,6 @@
       "spellingHint": "v-o-i-c-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I recognized my friend by her ___ on the phone.",
-        "fullSentence": "I recognized my friend by her voice on the phone.",
-        "translation": "我在電話裡靠聲音認出朋友。",
-        "clue": "說話的嗓音",
-        "answerEntryId": "u1:voice",
-        "distractorEntryIds": [
-          "u1:joint",
-          "u1:sight",
-          "u1:thumb"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The teacher raised her ___ so everyone could hear.",
@@ -8009,18 +6893,6 @@
       "spellingHint": "w-a-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Her pants were too big, so she wore a belt at her ___.",
-        "fullSentence": "Her pants were too big, so she wore a belt at her waist.",
-        "translation": "褲子太大，所以她在腰上繫皮帶。",
-        "clue": "身體中間最細的部位",
-        "answerEntryId": "u1:waist",
-        "distractorEntryIds": [
-          "u1:soul",
-          "u1:throat",
-          "u1:brother"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Measure your ___ before buying new pants.",
@@ -8095,18 +6967,6 @@
       "spellingHint": "w-a-l-k",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The baby learned to ___ at just ten months old.",
-        "fullSentence": "The baby learned to walk at just ten months old.",
-        "translation": "寶寶十個月大就學會走路。",
-        "clue": "雙腳交替前行",
-        "answerEntryId": "u1:walk",
-        "distractorEntryIds": [
-          "u1:wave",
-          "u1:point",
-          "u1:press"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "It is only ten minutes if you ___ instead of driving.",
@@ -8181,18 +7041,6 @@
       "spellingHint": "w-a-v-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The fans ___ their flags at the parade.",
-        "fullSentence": "The fans wave their flags at the parade.",
-        "translation": "遊行時粉絲揮舞旗子。",
-        "clue": "手臂來回擺動",
-        "answerEntryId": "u1:wave",
-        "distractorEntryIds": [
-          "u1:beat",
-          "u1:clap",
-          "u1:drop"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "He ___ to his mom as the bus left.",
@@ -8267,18 +7115,6 @@
       "spellingHint": "w-r-i-s-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He hurt his ___ from typing all day.",
-        "fullSentence": "He hurt his wrist from typing all day.",
-        "translation": "他打字一整天傷了手腕。",
-        "clue": "手掌與手臂相連處",
-        "answerEntryId": "u1:wrist",
-        "distractorEntryIds": [
-          "u1:grandfather",
-          "u1:father",
-          "u1:finger"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Put the band on your ___, not your arm.",
@@ -8353,18 +7189,6 @@
       "spellingHint": "y-e-l-l",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "He ___ with pain when he stepped on the tack.",
-        "fullSentence": "He yell with pain when he stepped on the tack.",
-        "translation": "他踩到圖釘時大叫一聲。",
-        "clue": "因痛或怒大聲叫",
-        "answerEntryId": "u1:yell",
-        "distractorEntryIds": [
-          "u1:rub",
-          "u1:hold",
-          "u1:move"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Don't ___ at your sister; talk calmly.",
@@ -8439,18 +7263,6 @@
       "spellingHint": "s-i-g-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "A red traffic ___ tells drivers to stop.",
-        "fullSentence": "A red traffic sign tells drivers to stop.",
-        "translation": "紅色交通標誌告訴駕駛要停下。",
-        "clue": "傳達訊息的標示",
-        "answerEntryId": "u1:sign",
-        "distractorEntryIds": [
-          "u1:toe",
-          "u1:hair",
-          "u1:head"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Follow the ___ to find the museum.",
@@ -8525,18 +7337,6 @@
       "spellingHint": "s-i-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We ___ on the grass and watched the clouds.",
-        "fullSentence": "We sit on the grass and watched the clouds.",
-        "translation": "我們坐在草地上看雲。",
-        "clue": "臀部著地休息",
-        "answerEntryId": "u1:sit",
-        "distractorEntryIds": [
-          "u1:yell",
-          "u1:knock",
-          "u1:point"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The cat likes to ___ by the window in the sun.",
@@ -8611,18 +7411,6 @@
       "spellingHint": "s-k-i-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "The medicine goes on your ___ twice a day.",
-        "fullSentence": "The medicine goes on your skin twice a day.",
-        "translation": "這藥一天擦兩次在皮膚上。",
-        "clue": "覆蓋全身的外層",
-        "answerEntryId": "u1:skin",
-        "distractorEntryIds": [
-          "u1:wrist",
-          "u1:ankle",
-          "u1:beard"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Dry ___ needs lotion after a shower.",
@@ -8697,18 +7485,6 @@
       "spellingHint": "s-l-e-e-p",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "I ___ early the night before a big test.",
-        "fullSentence": "I sleep early the night before a big test.",
-        "translation": "大考前一晚我提早睡覺。",
-        "clue": "閉眼休息入眠",
-        "answerEntryId": "u1:sleep",
-        "distractorEntryIds": [
-          "u1:beat",
-          "u1:drop",
-          "u1:fall"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The baby ___ for three hours this afternoon.",

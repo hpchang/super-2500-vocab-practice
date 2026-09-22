@@ -16,8 +16,8 @@ import { act } from 'react';
 import { PracticeScreen } from '../src/screens/PracticeScreen.js';
 import { saveSession } from '../src/session.js';
 import { resetProgress } from '../src/progressStore.js';
-import { getUnit, getEnrichedEntry } from '../src/lib/data.js';
-import { buildSession } from '../src/lib/questions.js';
+import { getUnit } from '../src/lib/data.js';
+import { buildSession, buildClozeSession } from '../src/lib/questions.js';
 import { clozeQuestionsForEntry } from '../src/lib/clozeGenerator.js';
 import { makeInitialProgress } from '../src/lib/scheduler.js';
 
@@ -55,34 +55,45 @@ describe('混合練習的填空走適性題庫', () => {
     document.body.innerHTML = '';
   });
 
-  it('混合 session 的填空題帶適性難度，題幹取自適性題庫而非 legacy', () => {
+  it('混合 session 的填空題帶適性難度，題幹取自適性題庫', () => {
     const entries = getUnit('11')!.entries.slice(0, 8);
     const qs = buildSession(entries, 'mixed', 0, false, {});
     const clozeQs = qs.filter((q) => q.type === 'cloze');
     expect(clozeQs.length).toBeGreaterThan(0);
 
     for (const q of clozeQs) {
-      // 舊程式的 legacy 題不設 clozeDifficulty/clozeVariant——缺一即代表
-      // 走了 legacy（且該題就不會記錄 clozeUsed，適性進度會靜默流失）。
+      // 適性題一定帶 clozeDifficulty/clozeVariant；缺一即代表沒走題庫
+      // （且該題就不會記錄 clozeUsed，適性進度會靜默流失）。
       expect(q.clozeDifficulty, `${q.entryId} 應帶適性難度`).toBeDefined();
       expect(q.clozeVariant, `${q.entryId} 應帶 variant`).toBeDefined();
-      // 與對應的適性題庫題逐字相同（同一份 progress 下混合題必須等於
-      // 情境填空題），且不得等於 legacy 題幹。
+      // 與對應的適性題庫題逐字相同。
       const pool = clozeQuestionsForEntry(q.entryId)[q.clozeDifficulty!];
       expect(pool[q.clozeVariant!].sentence).toBe(q.prompt);
-      expect(q.prompt).not.toBe(getEnrichedEntry(q.entryId)!.cloze.sentence);
     }
   });
 
-  it('題庫題目與 legacy 題幹確實不同（確保上一條有鑑別力）', () => {
-    const withAdaptive = getUnit('11')!.entries.filter(
-      (e) => clozeQuestionsForEntry(e.entryId).medium.length > 0,
+  it('混合的填空題與「情境填空」題型在同一份進度下選出同一題', () => {
+    const entries = getUnit('11')!.entries.slice(0, 8);
+    const progress = {
+      [entries[0].entryId]: {
+        ...makeInitialProgress(entries[0].entryId),
+        totalAnswered: 3,
+        totalCorrect: 2,
+        streak: 1,
+        wrongCount: 0,
+        clozeUsed: { medium: [0] },
+      },
+    };
+    const mixedQs = buildSession(entries, 'mixed', 0, false, progress).filter(
+      (q) => q.type === 'cloze',
     );
-    expect(withAdaptive.length).toBeGreaterThan(0);
-    for (const e of withAdaptive) {
-      expect(clozeQuestionsForEntry(e.entryId).medium[0].sentence).not.toBe(
-        getEnrichedEntry(e.entryId)!.cloze.sentence,
-      );
+    const clozeQs = buildClozeSession(entries, 'adaptive', progress, 0);
+    for (const q of mixedQs) {
+      const same = clozeQs.find((c) => c.entryId === q.entryId);
+      expect(same, `${q.entryId} 應也在情境填空 session 中`).toBeDefined();
+      expect(q.prompt).toBe(same!.prompt);
+      expect(q.clozeDifficulty).toBe(same!.clozeDifficulty);
+      expect(q.clozeVariant).toBe(same!.clozeVariant);
     }
   });
 
@@ -169,7 +180,6 @@ describe('混合練習的填空走適性題庫', () => {
       (e) => clozeQuestionsForEntry(e.entryId).medium.length > 0,
     )!;
     const expected = clozeQuestionsForEntry(entry.entryId).medium[0].sentence;
-    const legacy = getEnrichedEntry(entry.entryId)!.cloze.sentence;
 
     saveSession({
       unit: '11',
@@ -183,7 +193,6 @@ describe('混合練習的填空走適性題庫', () => {
 
     const prompt = getPrompt();
     expect(prompt).toBe(expected);
-    if (legacy !== expected) expect(prompt).not.toBe(legacy);
     // 混合不顯示簡易／中等／艱難。
     expect(document.querySelector('.diff-badge')).toBeNull();
 

@@ -38,7 +38,6 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
       "spellingHint": "a-p-a-r-t-m-e-n-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": { "sentence": "We live in a small ___.", "fullSentence": "We live in a small apartment.", "translation": "我們住在一間小公寓裡。", "clue": "住的地方，通常在大樓裡", "answerEntryId": "u11:apartment", "distractorEntryIds": ["u11:balcony", "u11:kitchen", "u11:bedroom"] },
       "clozeEasy": [ /* 2 題，強線索；同詞性優先 */ ],
       "clozeMedium": [ /* 2 題，同詞性干擾 */ ],
       "clozeHard": { /* 1 題，同詞性 + 語意相近干擾 */ }
@@ -64,17 +63,20 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 - `spellingHint` 以 `-` 連字母
 - `status` 一律 `reviewed`；`source` 一律 `人工編寫`
 - **5 題情境填空**，每題為 `ClozeQuestion`（sentence 含 `___`、fullSentence、translation、clue、answerEntryId、distractorEntryIds[3]）：
-  - `cloze`：1 題，**同詞性**干擾（供非適性填空／選擇題干擾項用）
   - `clozeEasy`：2 題，提供**強而直接的線索**；同詞性干擾優先，必要時可跨詞性
   - `clozeMedium`：2 題，**同詞性**干擾，以搭配、功能或語意區分
   - `clozeHard`：1 題，**相關／易混淆的同詞性**干擾，由上下文唯一區分
+
+  （原本另有一題 legacy `cloze`，2026-09 已移除：它只當選擇題干擾項池用，未經
+  選擇題用途策劃，會產生兩個都對的選項。英選中／中選英的干擾項現在由這三層
+  適性題庫衍生。**不要再產出 `cloze` 欄位。**）
 
 ## 干擾項規則（validate-data 會強制檢查）
 
 - 4 個選項（答案 + 3 干擾）必須**全部唯一**。
 - 干擾項 entryId 必須存在於 vocab.json（可跨 Unit）。
 - easy 可使用同詞性或跨詞性干擾項；優先使用同詞性但語意差異明顯的選項，不可只靠詞性排除。
-- medium / hard / cloze 的干擾項必須與答案**同詞性**。
+- medium / hard 的干擾項必須與答案**同詞性**。
 - hard 干擾項須與答案相關或容易混淆，但句中必須有決定性線索排除其他選項。
 - 干擾項最好取自同 Unit 或鄰近 Unit 的重要字，學生較熟。
 
@@ -91,7 +93,7 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
 
 1. 生成後跑 `npx tsx scripts/validate-data.ts`，必須 **0 errors**。常見錯誤與修法：
    - `distractor not in vocab` → 干擾項不在任何已匯入 Unit，換一個已匯入的 entryId。
-   - `POS !=` → medium/hard/cloze 誤用跨詞性，改用同詞性干擾項。
+   - `POS !=` → medium/hard 誤用跨詞性，改用同詞性干擾項。
    - `options not unique` → 干擾項與答案重複，換一個。
    - `missing blank` / `missing clue` / `need 3 distractors` → 補欄位。
 2. 合併：把新檔案放到 `src/data/enrichment/`。registry 用 `import.meta.glob`
@@ -118,7 +120,7 @@ description: 為 Vocabulary Super 2500 尚未完成的 Unit 產製 enrichment JS
    （第一輪曾誤報 2,882 個錯誤）。
 3. **自檢 regex 別比實際慣例嚴**：spellingHint 允許 `[a-z- ]`（含空格），
    只查 `[a-z-]` 會誤報所有片語。
-4. **派發 prompt 要點明跨 Unit 干擾項的 pos 依據**：medium/hard/cloze 干擾項
+4. **派發 prompt 要點明跨 Unit 干擾項的 pos 依據**：medium/hard 干擾項
    最安全的做法是用本 Unit 內部同詞性字；跨 Unit 時 agent 需自行核對目標字的
    pos（可讀 units-11/12 enrichment 或同批 staging 檔）。
 

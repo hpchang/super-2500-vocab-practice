@@ -195,7 +195,6 @@ function validateEnrichment() {
         if (ansCount !== 1) fail(`${e.entryId}: ${label} answer appears ${ansCount} times`);
       };
 
-      validateCloze(e.cloze, 'cloze', 'same');
       if (!Array.isArray(e.clozeEasy) || e.clozeEasy.length !== 2) {
         fail(`${e.entryId}: clozeEasy must be an array of 2`);
       } else {

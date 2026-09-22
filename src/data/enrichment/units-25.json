@@ -11,18 +11,6 @@
       "spellingHint": "g-o-o-d-b-y-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Before Amy got on the train, she turned and said, '___, Grandpa. I'll call you tonight.'",
-        "fullSentence": "Before Amy got on the train, she turned and said, 'good-bye, Grandpa. I'll call you tonight.'",
-        "translation": "Amy 上火車前轉過身說：「爺爺再見，我今晚會打電話給你。」",
-        "clue": "即將離開時說的道別語",
-        "answerEntryId": "u25:good-bye",
-        "distractorEntryIds": [
-          "u25:hello",
-          "u25:hey",
-          "u25:whether"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "The birthday party was over, so we thanked Aunt Lee and said '___' to her at the door.",
@@ -97,18 +85,6 @@
       "spellingHint": "h-e-l-l-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "'___? This is Mary speaking. Is Ken at home?'",
-        "fullSentence": "'hello? This is Mary speaking. Is Ken at home?'",
-        "translation": "「喂？我是 Mary，Ken 在家嗎？」",
-        "clue": "接起電話時說的第一個字",
-        "answerEntryId": "u25:hello",
-        "distractorEntryIds": [
-          "u25:good-bye",
-          "u25:hey",
-          "u25:whom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "'___, I am Peter. Nice to meet you.'",
@@ -183,18 +159,6 @@
       "spellingHint": "h-e-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "'___! Watch out! You almost spilled the hot soup!'",
-        "fullSentence": "'hey! Watch out! You almost spilled the hot soup!'",
-        "translation": "「嘿！小心！你差點把熱湯打翻！」",
-        "clue": "提醒別人注意危險時的喊聲",
-        "answerEntryId": "u25:hey",
-        "distractorEntryIds": [
-          "u25:good-bye",
-          "u25:hello",
-          "u25:whether"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "'___, Amy! Your shoelace is untied!'",
@@ -269,18 +233,6 @@
       "spellingHint": "h-i",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "Remember to say '___' to your grandmother for me when you call her tonight.",
-        "fullSentence": "Remember to say 'hi' to your grandmother for me when you call her tonight.",
-        "translation": "你今晚打電話給奶奶時，記得替我向她問好。",
-        "clue": "替別人向長輩問候時說的話",
-        "answerEntryId": "u25:hi",
-        "distractorEntryIds": [
-          "u25:good-bye",
-          "u25:hey",
-          "u25:whatever"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "'___, Ken! What a surprise to see you at the mall!'",
@@ -355,18 +307,6 @@
       "spellingHint": "h-o-w",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ do you keep fit? — I swim twice a week.",
-        "fullSentence": "how do you keep fit? — I swim twice a week.",
-        "translation": "你如何保持健康？——我每週游泳兩次。",
-        "clue": "詢問保持健康的方法",
-        "answerEntryId": "u25:how",
-        "distractorEntryIds": [
-          "u25:when",
-          "u25:where",
-          "u16:now"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is the weather in Kaohsiung in summer? — It's hot and humid.",
@@ -441,18 +381,6 @@
       "spellingHint": "w-h-a-t",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ is that girl's name? — Her name is Grace.",
-        "fullSentence": "what is that girl's name? — Her name is Grace.",
-        "translation": "那個女生叫什麼名字？——她叫 Grace。",
-        "clue": "詢問名字",
-        "answerEntryId": "u25:what",
-        "distractorEntryIds": [
-          "u25:which",
-          "u25:who",
-          "u15:any"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ do you usually have for breakfast? — Bread, eggs, and milk.",
@@ -527,18 +455,6 @@
       "spellingHint": "w-h-a-t-e-v-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ you decide, I will always stand by you.",
-        "fullSentence": "whatever you decide, I will always stand by you.",
-        "translation": "無論你做什麼決定，我都會一直支持你。",
-        "clue": "表示「無論…都」的讓步語氣",
-        "answerEntryId": "u25:whatever",
-        "distractorEntryIds": [
-          "u25:what",
-          "u25:which",
-          "u25:whether"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Take ___ seat you like; every seat is empty.",
@@ -613,18 +529,6 @@
       "spellingHint": "w-h-e-n",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ did the movie start last night? — At seven thirty.",
-        "fullSentence": "when did the movie start last night? — At seven thirty.",
-        "translation": "昨晚電影幾點開演？——七點半。",
-        "clue": "詢問電影開演的時間",
-        "answerEntryId": "u25:when",
-        "distractorEntryIds": [
-          "u25:how",
-          "u25:where",
-          "u16:o'clock"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ do you get up on school days? — At six thirty.",
@@ -699,18 +603,6 @@
       "spellingHint": "w-h-e-r-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ were you during the fire drill? — In the playground with my class.",
-        "fullSentence": "where were you during the fire drill? — In the playground with my class.",
-        "translation": "防災演練的時候你在哪裡？——和班上同學在操場。",
-        "clue": "回答的是所在位置",
-        "answerEntryId": "u25:where",
-        "distractorEntryIds": [
-          "u25:when",
-          "u25:how",
-          "u12:there"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is my school bag? — It's under your chair.",
@@ -785,18 +677,6 @@
       "spellingHint": "w-h-y",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ was the little boy crying? — Because he couldn't find his mom.",
-        "fullSentence": "why was the little boy crying? — Because he couldn't find his mom.",
-        "translation": "小男孩為什麼在哭？——因為他找不到媽媽。",
-        "clue": "Because 回答的是理由",
-        "answerEntryId": "u25:why",
-        "distractorEntryIds": [
-          "u25:when",
-          "u25:where",
-          "u16:now"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ didn't you come to Amy's birthday party? — Because I was sick.",
@@ -871,18 +751,6 @@
       "spellingHint": "w-h-e-t-h-e-r",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "We are not sure ___ the outdoor game will be held tomorrow or not.",
-        "fullSentence": "We are not sure whether the outdoor game will be held tomorrow or not.",
-        "translation": "我們不確定明天的戶外比賽到底會不會舉行。",
-        "clue": "搭配 or not，表示「會不會」",
-        "answerEntryId": "u25:whether",
-        "distractorEntryIds": [
-          "u25:what",
-          "u25:which",
-          "u25:while"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Please tell me ___ you can come to my party or not.",
@@ -957,18 +825,6 @@
       "spellingHint": "w-h-i-c-h",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ of these two shirts do you like, the blue one or the white one?",
-        "fullSentence": "which of these two shirts do you like, the blue one or the white one?",
-        "translation": "這兩件上衣你喜歡哪一件，藍色的還是白色的？",
-        "clue": "在兩件之中做選擇",
-        "answerEntryId": "u25:which",
-        "distractorEntryIds": [
-          "u25:what",
-          "u25:whose",
-          "u15:both"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ bus goes to the train station, number 3 or number 12?",
@@ -1043,18 +899,6 @@
       "spellingHint": "w-h-i-l-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "My brother was watching TV ___ I was studying for the math test.",
-        "fullSentence": "My brother was watching TV while I was studying for the math test.",
-        "translation": "我在準備數學考試的時候，我哥哥在看電視。",
-        "clue": "兩件事同時進行",
-        "answerEntryId": "u25:while",
-        "distractorEntryIds": [
-          "u25:whether",
-          "u25:whatever",
-          "u25:who"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Grandpa fell asleep ___ he was reading the newspaper.",
@@ -1129,18 +973,6 @@
       "spellingHint": "w-h-o",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ told you the good news about the school trip? — My class leader did.",
-        "fullSentence": "who told you the good news about the school trip? — My class leader did.",
-        "translation": "是誰告訴你校外教學的好消息？——是班長。",
-        "clue": "詢問報消息的人",
-        "answerEntryId": "u25:who",
-        "distractorEntryIds": [
-          "u25:what",
-          "u25:which",
-          "u25:whose"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "___ is knocking on the door so late? — Maybe it's Dad.",
@@ -1215,18 +1047,6 @@
       "spellingHint": "w-h-o-m",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "To ___ should I give this invitation card? — To our new classmate.",
-        "fullSentence": "To whom should I give this invitation card? — To our new classmate.",
-        "translation": "這張邀請卡我該交給誰？——給我們的新同學。",
-        "clue": "介系詞 To 後面用受格",
-        "answerEntryId": "u25:whom",
-        "distractorEntryIds": [
-          "u25:who",
-          "u25:whose",
-          "u25:what"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "For ___ did you buy this lovely scarf? — For my mom. It's her birthday today.",
@@ -1301,18 +1121,6 @@
       "spellingHint": "w-h-o-s-e",
       "status": "reviewed",
       "source": "人工編寫",
-      "cloze": {
-        "sentence": "___ bicycle is parked in front of our house? — It's my uncle's.",
-        "fullSentence": "whose bicycle is parked in front of our house? — It's my uncle's.",
-        "translation": "誰的腳踏車停在我們家前面？——是我叔叔的。",
-        "clue": "詢問腳踏車的主人",
-        "answerEntryId": "u25:whose",
-        "distractorEntryIds": [
-          "u25:who",
-          "u25:which",
-          "u25:whom"
-        ]
-      },
       "clozeEasy": [
         {
           "sentence": "Do you know ___ glasses these are? They look like Grandpa's.",

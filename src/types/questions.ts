@@ -39,9 +39,11 @@ export interface EnrichedEntry {
   spellingHint: string;
   status: ContentStatus;
   source: string;
-  /** Legacy single cloze question (used by non-adaptive cloze, choice/spelling distractors). */
-  cloze: ClozeQuestion;
-  /** Easy cloze sentences (2 questions, strong clues; same-POS preferred). */
+  /**
+   * Easy cloze sentences (2 questions, strong clues; same-POS preferred).
+   * Together with clozeMedium/clozeHard these are the only cloze source: the
+   * legacy single-question field was removed in 2026-09.
+   */
   clozeEasy: ClozeQuestion[];
   /** Cloze sentences for the medium tier (2 questions, same-POS distractors). */
   clozeMedium: ClozeQuestion[];

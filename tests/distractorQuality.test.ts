@@ -44,7 +44,7 @@ describe('英選中／中選英 干擾項品質', () => {
       const vocabEntry = getEntry(entry.entryId);
       if (!vocabEntry) continue;
       for (const type of ['en2zh', 'zh2en'] as const) {
-        const q = buildQuestion(vocabEntry, type, 0);
+        const q = buildQuestion(vocabEntry, type);
         expect(q, `${entry.entryId} ${type}`).not.toBeNull();
         const opts = q!.options!;
         expect(opts.length, `${entry.entryId} ${type} option count`).toBe(4);
@@ -63,7 +63,7 @@ describe('英選中／中選英 干擾項品質', () => {
       const vocabEntry = getEntry(entry.entryId);
       if (!vocabEntry) continue;
       for (const type of ['en2zh', 'zh2en'] as const) {
-        const q = buildQuestion(vocabEntry, type, 0)!;
+        const q = buildQuestion(vocabEntry, type)!;
         for (const opt of q.options!) {
           if (opt.entryId === q.answer) continue;
           const distractorGloss = getEnrichedEntry(opt.entryId)?.zh;
@@ -88,7 +88,7 @@ describe('英選中／中選英 干擾項品質', () => {
     for (const [answerId, exDistractorId] of cases) {
       const vocabEntry = getEntry(answerId)!;
       for (const type of ['en2zh', 'zh2en'] as const) {
-        const q = buildQuestion(vocabEntry, type, 0)!;
+        const q = buildQuestion(vocabEntry, type)!;
         expect(
           q.options!.some((o) => o.entryId === exDistractorId),
           `${answerId} ${type} must not offer ${exDistractorId}`,
