@@ -39,7 +39,7 @@
    `scripts/validate-data.ts`），數字以 dry-run 輸出為準
 3. 擴充 `tests/unit11ClozeData.test.ts` 參數化迴圈（載入新 units-*.json）
 4. 派 subagent 寫 `src/data/enrichment/.staging/units-<n>.json`
-   （skill 規則：暫存檔帶 Unit 號、medium/hard/cloze 干擾項用本 Unit 內部同詞性字）
+   （skill 規則：暫存檔帶 Unit 號、medium/hard 干擾項用本 Unit 內部同詞性字）
 5. 稽核：`node scripts/audit-staging.mjs <批內unit號...>`
    （兩輪式：先註冊全部檔案的 pos 再驗證；ALL CHECKS PASSED 才合併）
 6. 合併 staging → `npx tsx scripts/validate-data.ts`（0 errors）
