@@ -203,22 +203,144 @@ export function buildQuestion(
   }
 }
 
+/** Normalize a Chinese gloss for overlap comparison. */
+function normalizeGloss(value: string): string {
+  return value
+    .normalize('NFC')
+    .replace(/[；;（）()\s、，,。/／·]/g, '')
+    .trim();
+}
+
+function normalizeWord(value: string): string {
+  return value.normalize('NFC').trim().toLowerCase();
+}
+
+/**
+ * Word pairs that Chinese learners read as the same thing, so a choice
+ * question must never offer both. Containment below catches pairs whose
+ * glosses share a substring (`journalist`/`reporter`); these do not, but
+ * students still pick either one — `guest`/`visitor` and `manager`/`owner`
+ * came back as reported ambiguities (2026-09).
+ */
+const SYNONYM_PAIRS: [string, string][] = [
+  ['guest', 'visitor'],
+  ['manager', 'owner'],
+  ['nephew', 'son'],
+  ['aircraft', 'helicopter'],
+  ['employ', 'hire'],
+  ['journalist', 'reporter'],
+  ['lawful', 'legal'],
+];
+
+const SYNONYM_KEYS = new Set(
+  SYNONYM_PAIRS.map(([a, b]) => [normalizeWord(a), normalizeWord(b)].sort().join('|')),
+);
+
+function isKnownSynonym(a: string, b: string): boolean {
+  return SYNONYM_KEYS.has(
+    [normalizeWord(a), normalizeWord(b)].sort().join('|'),
+  );
+}
+
+/**
+ * Would a student read these two as the same answer? Used to keep a
+ * distractor out of a choice question: 英選中／中選英 show the answer's gloss
+ * as the prompt, so a distractor that overlaps it makes two options correct.
+ * Containment, not equality, because tiers gloss one sense at different
+ * lengths (`僱用；聘用` vs `聘請（臨時或特定工作）`).
+ */
+function glossesOverlap(a: string, b: string): boolean {
+  const left = normalizeGloss(a);
+  const right = normalizeGloss(b);
+  if (!left || !right) return false;
+  return left.includes(right) || right.includes(left);
+}
+
+/** True when two entries would be read as the same answer in a choice set. */
+function conflictsAsOptions(a: EnrichedEntry, b: EnrichedEntry): boolean {
+  if (glossesOverlap(a.zh, b.zh)) return true;
+  const wordA = getEntry(a.entryId)?.word;
+  const wordB = getEntry(b.entryId)?.word;
+  return Boolean(wordA && wordB && isKnownSynonym(wordA, wordB));
+}
+
+/**
+ * Candidate distractor entryIds for a word, drawn from its own adaptive cloze
+ * pool (clozeEasy/clozeMedium/clozeHard). Those distractors are the curated
+ * ones: every one was hand-authored to be ruled out by its own cloze sentence,
+ * which makes them far sounder than the legacy `enriched.cloze` pool they
+ * replace (2026-09: that pool produced synonym double-answers and giveaways).
+ */
+function clozePoolCandidates(enriched: EnrichedEntry): string[] {
+  const ids = new Set<string>();
+  for (const question of [
+    ...enriched.clozeEasy,
+    ...enriched.clozeMedium,
+    enriched.clozeHard,
+  ]) {
+    if (!question) continue;
+    for (const id of question.distractorEntryIds) ids.add(id);
+  }
+  return [...ids];
+}
+
+/**
+ * Pick 3 distractors of the same POS, preferring the word's adaptive-pool
+ * distractors, excluding any that would read as the same answer as the word
+ * itself or as another chosen distractor. `label` picks the visible text:
+ * the Chinese gloss for 英選中, the English word for 中選英.
+ */
+function pickDistractors(
+  entry: VocabEntry,
+  enriched: EnrichedEntry,
+  label: (candidate: EnrichedEntry) => string,
+): { entryId: string; label: string }[] {
+  const candidates: EnrichedEntry[] = [];
+  const seen = new Set<string>([entry.entryId]);
+  const consider = (candidate: EnrichedEntry | undefined) => {
+    if (!candidate || seen.has(candidate.entryId)) return;
+    if (candidate.pos !== enriched.pos) return;
+    seen.add(candidate.entryId);
+    candidates.push(candidate);
+  };
+
+  // First choice: the curated adaptive-pool distractors.
+  for (const id of clozePoolCandidates(enriched)) consider(getEnrichedEntry(id));
+  // Then same-unit same-POS entries. Always appended, not only when the pool
+  // looks short: a pool of 3 can lose members to the conflict filter below
+  // (`section` tiers offer both `country` and `nation`, which collide).
+  for (const candidate of pickSamePosFallback(entry, enriched)) {
+    consider(candidate);
+  }
+
+  // Take candidates only when they conflict with neither the word itself nor
+  // an already-taken distractor. A first pass keeps the question honest; it
+  // can fall short in a small unit, so a second pass backfills and accepts
+  // a conflict rather than sending three options (four is the contract).
+  const chosen: EnrichedEntry[] = [];
+  for (const candidate of candidates) {
+    if (chosen.length >= 3) break;
+    if (conflictsAsOptions(enriched, candidate)) continue;
+    if (chosen.some((taken) => conflictsAsOptions(taken, candidate))) continue;
+    chosen.push(candidate);
+  }
+  for (const candidate of candidates) {
+    if (chosen.length >= 3) break;
+    if (chosen.some((taken) => conflictsAsOptions(taken, candidate))) continue;
+    chosen.push(candidate);
+  }
+  return chosen.map((candidate) => ({
+    entryId: candidate.entryId,
+    label: label(candidate),
+  }));
+}
+
 /** Pick 3 Chinese-gloss distractors of the same POS, excluding the answer. */
 function pickDistractorZh(
   entry: VocabEntry,
   enriched: EnrichedEntry,
 ): { entryId: string; label: string }[] {
-  // Prefer cloze distractors (already curated, same POS).
-  const clozeDistractors = enriched.cloze.distractorEntryIds
-    .map((id) => getEnrichedEntry(id))
-    .filter((e): e is EnrichedEntry => Boolean(e))
-    .map((e) => ({ entryId: e.entryId, label: e.zh }));
-  if (clozeDistractors.length >= 3) return clozeDistractors.slice(0, 3);
-  // Fallback: same-POS enriched entries in the same unit.
-  return pickSamePosFallback(entry, enriched).map((e) => ({
-    entryId: e.entryId,
-    label: e.zh,
-  }));
+  return pickDistractors(entry, enriched, (candidate) => candidate.zh);
 }
 
 /** Pick 3 English-word distractors of the same POS, excluding the answer. */
@@ -226,16 +348,11 @@ function pickDistractorWords(
   entry: VocabEntry,
   enriched: EnrichedEntry,
 ): { entryId: string; label: string }[] {
-  const clozeDistractors: { entryId: string; label: string }[] = [];
-  for (const id of enriched.cloze.distractorEntryIds) {
-    const e = getEntry(id);
-    if (e) clozeDistractors.push({ entryId: id, label: e.word });
-  }
-  if (clozeDistractors.length >= 3) return clozeDistractors.slice(0, 3);
-  return pickSamePosFallback(entry, enriched).map((e) => {
-    const v = getEntry(e.entryId);
-    return { entryId: e.entryId, label: v?.word ?? e.entryId };
-  });
+  return pickDistractors(
+    entry,
+    enriched,
+    (candidate) => getEntry(candidate.entryId)?.word ?? candidate.entryId,
+  );
 }
 
 function pickSamePosFallback(
@@ -244,9 +361,9 @@ function pickSamePosFallback(
 ): EnrichedEntry[] {
   const unit = entry.entryId.split(':')[0].slice(1);
   const all = getEnrichmentByUnit(unit);
-  return all
-    .filter((e) => e.entryId !== entry.entryId && e.pos === enriched.pos)
-    .slice(0, 3);
+  return all.filter(
+    (e) => e.entryId !== entry.entryId && e.pos === enriched.pos,
+  );
 }
 
 import { getEnrichment } from './data';
