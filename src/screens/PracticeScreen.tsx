@@ -84,6 +84,8 @@ function buildQuestions(
     session.type,
     session.round ?? 0,
     session.excludeSpelling === true || session.plan != null,
+    // 混合輪替的填空題也讀適性進度（與情境填空共用），所以必須給最新進度。
+    progress.entries,
   );
 }
 
@@ -105,16 +107,36 @@ function buildQuestions(
  * could swap the answered questions' difficulty mid-session — those keep the
  * checkpoint's own list.
  *
+ * 混合 session 現在也含適性填空題（2026-09 改），所以「非 cloze 題型都決定性」
+ * 的前提對它不再成立。混合的處理是**重建題型輪替、但填空沿用 checkpoint 的題**：
+ * 同一份輪替（同 type／round／entryIds）下位置與 entry 對應相同，所以非填空題
+ * 重建後必然相同；填空題則一律沿用 checkpoint，免得把已作答（或即將作答）的題
+ * 換成別的適性 variant。輪替長度有變時（例如 excludeSpelling 開關）位置不再
+ * 對齊，此時沿用比例極低——但仍勝過「整份重建」把已作答的填空題換掉
+ * （2026-09-17 修的正是這類缺陷）。
+ *
  * Returns null when the checkpoint must be used as-is.
  */
 function rebuildOnResume(
   session: SessionConfig,
   progress: ProgressData,
+  checkpointQuestions: Question[],
 ): Question[] | null {
   // `session.type` is the SESSION's type; an individual question's type may
   // differ (mixed rotation, or legacy cloze stored as a choice question).
   if (session.type === 'cloze') return null;
-  return buildQuestions(session, progress);
+  const rebuilt = buildQuestions(session, progress);
+  // 混合：填空位置沿用 checkpoint 的題（見上）。只依賴 checkpoint 的題數與
+  // 重建後相同——呼叫端已經用 `rebuilt.length === restored.questions.length`
+  // 把關，長度不符就不會採用重建結果。
+  if (session.type === 'mixed') {
+    return rebuilt.map((q, i) =>
+      q.type === 'cloze' && checkpointQuestions[i]?.type === 'cloze'
+        ? checkpointQuestions[i]
+        : q,
+    );
+  }
+  return rebuilt;
 }
 
 export function PracticeScreen({
@@ -155,7 +177,11 @@ export function PracticeScreen({
   // checkpoint 檔本身不在此覆寫，學生下一次作答時才由下方的 effect 更新。
   // 重建是決定性的，反覆重新載入都得到同一份清單，結果一致。
   if (restored && session) {
-    const rebuilt = rebuildOnResume(session, getSnapshot());
+    const rebuilt = rebuildOnResume(
+      session,
+      getSnapshot(),
+      restored.questions,
+    );
     if (rebuilt && rebuilt.length === restored.questions.length) {
       restored = { ...restored, questions: rebuilt };
     }
@@ -423,7 +449,7 @@ export function PracticeScreen({
         </span>
         <span>
           {typeLabel(q?.type)}
-          {q?.type === 'cloze' && q.clozeDifficulty && (
+          {q?.type === 'cloze' && q.clozeDifficulty && session?.type === 'cloze' && (
             <span className="diff-badge">
               {' · '}
               {q.clozeDifficulty === 'easy' ? '簡易' : q.clozeDifficulty === 'medium' ? '中等' : '艱難'}

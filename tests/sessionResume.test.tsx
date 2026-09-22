@@ -24,6 +24,7 @@ import {
 import { resetProgress } from '../src/progressStore.js';
 import { getUnit } from '../src/lib/data.js';
 import { buildSession } from '../src/lib/questions.js';
+import { makeInitialProgress } from '../src/lib/scheduler.js';
 
 function Harness({ screen }: { screen: string }) {
   return (
@@ -339,4 +340,67 @@ describe('P2-1 session resume checkpoint', () => {
       root.unmount();
     });
   });
+
+  it('resume keeps the cloze questions but re-derives the rotation (混合適性填空)', async () => {
+    // 混合的填空題現在讀適性進度，不能再整份重建（否則已作答的填空會被換成
+    // 別的 variant）。恢復時：題型輪替照現行規則重建，但填空題沿用 checkpoint
+    // ——checkpoint 記的是學生「實際看到」的那題。
+    const unit = getUnit('11')!;
+    const entries = unit.entries.slice(0, 8);
+    const session = {
+      unit: '11',
+      entryIds: entries.map((e) => e.entryId),
+      type: 'mixed' as const,
+      batchSize: 8,
+    };
+    const base = buildSession(entries, 'mixed', 0, false, {});
+    const clozeIdx = base.findIndex((q) => q.type === 'cloze');
+    expect(clozeIdx).toBeGreaterThanOrEqual(0);
+    const clozeEntryId = base[clozeIdx].entryId;
+
+    // checkpoint 的填空題：學生看到的那一題，是 medium 難度的第 2 個 variant
+    // （表示之前已用掉 variant 0）。
+    const seenProgress = {
+      [clozeEntryId]: {
+        ...makeInitialProgress(clozeEntryId),
+        totalAnswered: 3,
+        totalCorrect: 2,
+        streak: 1,
+        wrongCount: 0,
+        clozeUsed: { medium: [0] },
+      },
+    };
+    const questions = buildSession(entries, 'mixed', 0, false, seenProgress);
+    const seenCloze = questions[clozeIdx];
+    expect(seenCloze.type).toBe('cloze');
+    expect(seenCloze.clozeVariant).toBe(1); // 與空進度（variant 0）不同
+
+    // 恢復當下 store 的進度是空的 → 重建會取 variant 0。
+    // 舊程式碼整份重建 → 學生看到 variant 0（換題）；新程式碼沿用 variant 1。
+    saveCheckpoint({
+      session,
+      questions,
+      index: clozeIdx,
+      results: questions.slice(0, clozeIdx).map((q) => ({
+        entryId: q.entryId,
+        type: q.type,
+        correct: true,
+      })),
+      savedAt: Date.now(),
+    });
+
+    const { root } = await renderAt('practice');
+
+    // 直接停在填空題那一格：題幹／選項必須與 checkpoint 完全相同。
+    expect(getPrompt()).toBe(seenCloze.prompt);
+    const shown = Array.from(document.querySelectorAll('.option-btn')).map(
+      (b) => b.textContent?.replace(/^\d/, ''),
+    );
+    expect(shown).toEqual(seenCloze.options!.map((o) => o.label));
+
+    await act(async () => {
+      root.unmount();
+    });
+  });
+
 });

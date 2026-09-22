@@ -35,6 +35,10 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 
 ### 題型（6 種）
 單字卡、英選中、中選英、情境填空、拼字、混合。
+- **填空題只從適性題庫出**：情境填空題型與**混合輪替的填空格**都走
+  `clozeEasy`/`clozeMedium`/`clozeHard`（`buildAdaptiveCloze`），兩者共用同一份
+  適性進度（`clozeUsed`）。legacy `enriched.cloze` 只留作英選中／中選英的干擾項池
+  （2026-09 改；混合填空不再出 legacy 題）。混合不顯示難度標籤，情境填空才顯示。
 - **單字卡只在學新字時出現**：混合輪替不含單字卡（`src/lib/questions.ts`），
   計畫複習（必做／熟字快複習走 mixed）因此不會出單字卡；
   計畫「今日新字」仍強制單字卡。
@@ -44,8 +48,9 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - **恢復中斷的練習時，題目用現行規則重建**（`rebuildOnResume`，
   `PracticeScreen`）：checkpoint 只提供位置與結果，不沿用凍結的題目清單，
   否則發行改了輪替規則後，舊 checkpoint 會把已移除的題型帶回來
-  （2026-09-17：計畫複習的舊 checkpoint 恢復出拼字）。填空例外，維持
-  checkpoint 清單（適性難度會讀進度）；重建後題數不符則放棄重建。
+  （2026-09-17：計畫複習的舊 checkpoint 恢復出拼字）。**填空例外**——適性選題會
+  讀進度，混合 session 恢復時只重建題型輪替、填空位置沿用 checkpoint 的題；
+  純情境填空題型則整份維持 checkpoint。重建後題數不符則放棄重建。
 
 ### 情境填空適性系統（重點功能）
 - 每字 5 題：簡易 2 題（強線索，同詞性優先、跨詞性亦可）+ 中等 2 題（同詞性，以搭配或功能區分）+ 艱難 1 題（相關同詞性選項，由上下文唯一區分）。

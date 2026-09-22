@@ -99,6 +99,7 @@ export function buildQuestion(
   entry: VocabEntry,
   type: QuestionType,
   index: number,
+  progress: Record<string, EntryProgress> = {},
 ): Question | null {
   const enriched = getEnrichedEntry(entry.entryId);
   if (!enriched) return null;
@@ -148,6 +149,13 @@ export function buildQuestion(
     }
 
     case 'cloze': {
+      // 混合輪替的填空題走適性題庫（clozeEasy/clozeMedium/clozeHard），與
+      // 「情境填空」題型共用同一份適性進度——legacy `enriched.cloze` 只留給
+      // 英選中／中選英的干擾項池（見 pickDistractorZh/Words），不再拿來出題。
+      // 適性層為空時才 fallback 回 legacy：validate-data 強制三層存在，所以
+      // 正常情況不會走到；fallback 只是為了保住「每字一題」的數量不變。
+      const adaptive = buildAdaptiveCloze(entry, 'adaptive', progress);
+      if (adaptive) return adaptive;
       // Cloze sentences are English; options must be English words so the
       // student picks the word that fits the blank grammatically.
       const c = enriched.cloze;
@@ -252,12 +260,18 @@ function getEnrichmentByUnit(unit: string): EnrichedEntry[] {
  *  of the same batch (see sessionOrder); default 0 keeps the legacy
  *  single-round behavior.
  *  `excludeSpelling` removes 拼字 from the mixed rotation — the 90-day plan
- *  review sessions use it (拼字不進計畫複習；一般練習仍可自選拼字). */
+ *  review sessions use it (拼字不進計畫複習；一般練習仍可自選拼字).
+ *  `progress` feeds the adaptive cloze pool: the mixed rotation's 填空 slot
+ *  reads it to choose difficulty + the next unused variant, so it must be the
+ *  LATEST progress (getSnapshot()), never a stale render-time value. Defaults
+ *  to `{}` — callers that predate adaptive mixed cloze (and most tests) get
+ *  first-time ('medium', variant 0) selection. */
 export function buildSession(
   entries: VocabEntry[],
   type: QuestionType | 'mixed',
   round = 0,
   excludeSpelling = false,
+  progress: Record<string, EntryProgress> = {},
 ): Question[] {
   const types: QuestionType[] =
     type === 'mixed'
@@ -270,7 +284,7 @@ export function buildSession(
   const start = round % types.length;
   sessionOrder(entries, type, round).forEach((entry, i) => {
     const t = types[(i + start) % types.length];
-    const q = buildQuestion(entry, t, i);
+    const q = buildQuestion(entry, t, i, progress);
     if (q) out.push(q);
   });
   return out;

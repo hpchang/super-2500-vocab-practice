@@ -137,8 +137,10 @@ describe('question construction', () => {
     const sessions = [
       ['en2zh', buildSession(entries, 'en2zh')],
       ['zh2en', buildSession(entries, 'zh2en')],
-      ['legacy cloze', buildSession(entries, 'cloze')],
-      ['generated cloze', buildClozeSession(entries, 'medium', {})],
+      // buildSession(...,'cloze') 現在也走適性題庫（見 mixedCloze.test.tsx），
+      // 與 buildClozeSession 相同；兩者都保留是在守不同的呼叫路徑。
+      ['cloze via buildSession', buildSession(entries, 'cloze')],
+      ['cloze via buildClozeSession', buildClozeSession(entries, 'medium', {})],
     ] as const;
 
     for (const [name, questions] of sessions) {

@@ -35,8 +35,20 @@ unit card 顯示真實字數（可練習 >0）。已驗證：把 `loadEnrichment
 **陳述**：每題題幹只讓答案在文法與語意上都成立；`fullSentence` = 題幹 `___` 換成
 規範字；題幹不得含任何選項字；cloze/medium/hard 干擾項同詞性；legacy cloze ≠ 例句。
 
+**出題來源**：情境填空題型與**混合輪替的填空格**都只從適性題庫
+（`clozeEasy`/`clozeMedium`/`clozeHard`）出題（`buildAdaptiveCloze`）；legacy
+`enriched.cloze` 只留作英選中／中選英的干擾項池（`pickDistractorZh`/
+`pickDistractorWords`），不再用來出題（2026-09 改）。所以混合練習看到的填空題
+也受本條品質標準約束。
+
+`buildQuestion` 的填空分支在適性層為空時會 fallback 回 legacy 題——這是**保量
+契約**（每字一題，`buildSession` 題數 == entries 數），不是「不會發生」的死碼：
+`validate-data` 是 CI／手動步驟，不是 runtime 保證，未來若有 Unit 缺 `clozeHard`，
+fallback 讓課堂少一題而不是整字消失。
+
 **守護**：`tests/unit11ClozeData.test.ts`（參數化全量檢查 U11+U12 共 650 題）、
-`npx tsx scripts/validate-data.ts`。
+`npx tsx scripts/validate-data.ts`、`tests/mixedCloze.test.tsx`（混合填空帶
+`clozeDifficulty` 且題幹取自適性題庫）。
 
 ## I-4：練習內容只送 practiceable 的字
 
@@ -103,12 +115,17 @@ checkpoint 另只提供**位置與結果**，題目一律用「目前」的規�
 輪替，沿用就會讓學生看到目前規則已不產生的題型——2026-09-17 回報的計畫複習出拼字即
 此例（計畫複習在 09-10～09-12 之間未排除拼字，那段期間的 checkpoint 恢復時把拼字題
 帶回來）。重建的安全性前提是「建題與進度無關」：非填空題型成立（混合輪替由 `round`
-播種），填空的適性難度與 variant 選擇會讀進度，因此維持 checkpoint 清單。重建後題數
-與 checkpoint 不同時放棄重建、沿用原清單，避免位置對不上。
+播種），填空的適性難度與 variant 選擇會讀進度。**混合 session 現在也含適性填空題**
+（2026-09 改，見 I-3），所以混合的處理是**重建題型輪替、但填空位置沿用 checkpoint
+的題**（`rebuildOnResume` 依位置比對 `type === 'cloze'` 後取代）；同一份輪替下位置
+與 entry 對應相同，非填空題重建後必然相同。重建後題數與 checkpoint 不同時放棄重建、
+沿用原清單，避免位置對不上。
 
-**守護**：`tests/sessionResume.test.tsx` 的 feedback-phase refresh case 與
+**守護**：`tests/sessionResume.test.tsx` 的 feedback-phase refresh case、
 「rebuilds the question list on resume so an old 題型輪替 is re-filtered」（種一份含
-拼字的舊計畫 checkpoint，斷言恢復後不是拼字、題數以重建後為準、走完全程無拼字）；
+拼字的舊計畫 checkpoint，斷言恢復後不是拼字、題數以重建後為準、走完全程無拼字），
+以及「resume keeps the cloze questions but re-derives the rotation」（混合 checkpoint
+的填空題沿用、非填空重建）；
 `tests/sessionIsolation.test.tsx` 的跨 Unit stale checkpoint、WrongAnswers 開新 session
 清除，以及 closed-tab（sessionStorage 空）恢復。重建那條必須實測舊程式轉紅——恢復路徑
 的缺陷不會被只驗位置與計數的 round-trip 測試抓到。
@@ -120,8 +137,10 @@ checkpoint 存的是「建立當下」的題目清單；若某次發行改了題
 （`rebuildOnResume`），checkpoint 只沿用 `index` 與 `results`。
 
 只在建題與進度無關時重建（非填空；混合輪替由 `round` 播種）；填空的適性難度與
-variant 選擇會讀進度，重建可能讓已作答題目的難度中途改變，因此維持 checkpoint
-清單。重建後題數與 checkpoint 不同時放棄重建、沿用原清單，避免位置對不上。
+variant 選擇會讀進度，重建可能讓已作答題目的難度中途改變。**混合 session 現在也含
+適性填空題**，故採「重建輪替、填空沿用 checkpoint 的題」（依位置比對 `type ===
+'cloze'`）；純「情境填空」題型則整份維持 checkpoint 清單。重建後題數與 checkpoint
+不同時放棄重建、沿用原清單，避免位置對不上。
 
 **守護**：`tests/sessionResume.test.tsx` 的「rebuilds the question list on resume so
 an old 題型輪替 is re-filtered」（種一份含拼字的舊計畫 checkpoint，斷言恢復後不是

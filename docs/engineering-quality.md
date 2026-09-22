@@ -86,6 +86,7 @@ Smoke 不追求覆蓋所有題型與邊界值；它的目的，是快速判斷�
 | Enrichment chunk 未載入或 index 過早建立 | 首頁零個可練習單字 | Playwright production smoke、I-1 | PR / deploy |
 | Vocab 與 enrichment 不一致 | 缺題目、缺答案或顯示錯字 | data validator、資料測試 | PR |
 | 情境填空答案不唯一 | 教錯內容 | 全量資料規則測試、人工抽查、I-3 | PR |
+| 混合練習的填空出 legacy 題（干擾項未達標準） | 學生看到同義／語法不合干擾項 | `mixedCloze.test.tsx`（混合填空帶適性難度、題幹取自題庫）、I-3 | PR |
 | 作答更新進度後題目被重建 | 題幹或選項在作答後改變 | jsdom component regression、I-2 | PR |
 | Feedback 被略過 | 使用者看不到釋義或答案 | component test、E2E practice loop | PR |
 | 非 practiceable entry 進入 session | 空題或無有效選項 | unit test、defense-in-depth、I-4 | PR |
