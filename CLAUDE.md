@@ -71,6 +71,10 @@ Vite + React + TypeScript，hash-based routing，localStorage 存進度，無後
 - Web Speech API 發音（單字卡/英選中作答前自動唸；拼字/填空作答後自動唸）。
 - 簡化 Leitner 排程（New/Learning/Review/Strong，1/3/7 天複習）。
 - 錯題複習、清除進度（需確認）。
+- **進度備份（設定 → 備份與同步）**：匯出成 JSON 檔、匯入**合併**
+  （`src/lib/backup.ts`、`BackupDialog.tsx`）。換電腦時靠檔案搬移進度，
+  無帳號、無後端。合併語意與已知限制見 invariants **I-13**。
+  `prefs`／`groups`（裝置在地 UI 偏好）與 `checkpoint`（在地恢復點）不備份。
 
 ## 關鍵檔案結構
 
@@ -101,7 +105,7 @@ vite.config.ts                     vitest include 含 *.test.tsx + setupFiles
 npm install          安裝依賴
 npm run dev          本機開發
 npm run build        正式建置
-npm test             跑測試（495 tests）
+npm test             跑測試（564 tests）
 npm run check        build + Playwright smoke over dist（唯一跑 dist 的驗證）
 node scripts/audit-staging.mjs <unit號...>   稽核 staging 檔（兩輪式 pos）
 npx tsx scripts/import-workbook.ts --units=N    匯入 Excel（merge 模式；--dry-run 可預覽）
@@ -110,7 +114,8 @@ npx tsx scripts/validate-data.ts     驗證資料
 
 ## 驗證狀態（最後一次）
 
-- `npm test` → 495 tests 全通過
+- `npm test` → 564 tests 全通過
+- `npm run check` → 6 e2e 全通過（含備份匯出／匯入來回）
 - `npm run build` → 成功
 - `npx tsx scripts/validate-data.ts` → 0 errors
 - `npx tsc --noEmit` → 0 errors

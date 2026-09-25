@@ -244,7 +244,7 @@ Issue/PR 與 commit body 即可，避免文件膨脹。
 
 - sync 改 async、lazy-load、code splitting 或 module initialization 順序變更；
 - storage schema、路由、部署平台或 base path 變更；
-- 新增後端、登入、跨裝置同步或遠端資料來源；
+- 新增後端、登入、遠端資料來源，或改動跨裝置同步方式（目前為檔案式匯出／匯入，仍無後端；見 invariants I-13）；
 - 新增重要使用者流程或新的瀏覽器 API；
 - CI 時間、E2E flakiness 或維護成本顯著上升；
 - 發生「既有檢查全綠但正式流程損壞」的事故。
