@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { usePrefs, updatePrefs, SPEECH_RATE_STEPS } from '@/prefs';
 import { resetProgress } from '@/progressStore';
 import { isSpeechSupported, speakNow } from '@/lib/speak';
+import { BackupDialog } from './BackupDialog';
 
 /**
  * 常駐「進度與設定」drawer (P1-6): reachable from every screen's header.
@@ -12,8 +13,10 @@ export function SettingsDrawer() {
   const prefs = usePrefs();
   const [open, setOpen] = useState(false);
   const [confirming, setConfirming] = useState(false);
+  const [backupOpen, setBackupOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
   const openBtnRef = useRef<HTMLButtonElement | null>(null);
+  const backupBtnRef = useRef<HTMLButtonElement | null>(null);
 
   // Escape closes; focus returns to the gear button.
   useEffect(() => {
@@ -144,6 +147,21 @@ export function SettingsDrawer() {
               </div>
             </div>
 
+            <div className="settings-group">
+              <div className="settings-group-title">進度備份</div>
+              <p className="settings-note">
+                換電腦時，匯出進度檔帶到另一臺匯入，即可合併繼續。
+              </p>
+              <button
+                ref={backupBtnRef}
+                className="btn secondary"
+                onClick={() => setBackupOpen(true)}
+                type="button"
+              >
+                開啟備份與同步
+              </button>
+            </div>
+
             <div className="settings-danger">
               <div className="settings-danger-title">危險區域</div>
               {confirming ? (
@@ -181,6 +199,13 @@ export function SettingsDrawer() {
             </div>
           </div>
         </div>
+      )}
+
+      {backupOpen && (
+        <BackupDialog
+          openerRef={backupBtnRef}
+          onClose={() => setBackupOpen(false)}
+        />
       )}
     </>
   );

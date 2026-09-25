@@ -7,6 +7,9 @@ import {
   getEntryProgress,
   setEntryProgress,
   clearProgress,
+  mergeProgressData,
+  isValidEntry,
+  PROGRESS_STORAGE_KEY,
 } from '@/lib/storage';
 import { clearCheckpoint } from '@/lib/checkpoint';
 import { deletePlan as deleteStudyPlan } from '@/studyPlanStore';
@@ -18,27 +21,11 @@ const listeners = new Set<() => void>();
  * Another tab may have written progress since our snapshot was taken.
  * Merge foreign updates into local state before persisting, keyed by
  * lastAnsweredAt, so concurrent tabs add to each other's work instead of
- * the last writer clobbering it (P1 review 2026-08-29).
+ * the last writer clobbering it (P1 review 2026-08-29). The rule itself
+ * lives in storage.ts so the backup importer shares it exactly.
  */
 function mergeRemote(remote: ProgressData | null): ProgressData | null {
-  if (!remote) return null;
-  let merged = state;
-  let changed = false;
-  for (const [id, remoteEntry] of Object.entries(remote.entries)) {
-    const local = state.entries[id];
-    if (!local) {
-      merged = setEntryProgress(merged, id, remoteEntry);
-      changed = true;
-      continue;
-    }
-    const localAt = local.lastAnsweredAt ?? 0;
-    const remoteAt = remoteEntry.lastAnsweredAt ?? 0;
-    if (remoteAt > localAt) {
-      merged = setEntryProgress(merged, id, remoteEntry);
-      changed = true;
-    }
-  }
-  return changed ? merged : null;
+  return mergeProgressData(state, remote);
 }
 
 function emit() {
@@ -51,7 +38,7 @@ function emit() {
 // does not clobber them.
 if (typeof window !== 'undefined') {
   window.addEventListener('storage', (e) => {
-    if (e.key !== 'vocab-super2500-progress' || e.storageArea == null) return;
+    if (e.key !== PROGRESS_STORAGE_KEY || e.storageArea == null) return;
     try {
       const remote = e.newValue ? (JSON.parse(e.newValue) as ProgressData) : null;
       const merged = mergeRemote(remote);
@@ -104,6 +91,42 @@ export function resetProgress(): void {
   //（計畫的抵免基線、今日 snapshot 都以 progress 為依據）。
   deleteStudyPlan();
   for (const l of listeners) l();
+}
+
+/** Stats surfaced to the import UI: how many words were adopted from the
+ *  file, and how many local words the file's copies superseded. */
+export interface ImportMergeStats {
+  added: number;
+  updated: number;
+}
+
+/**
+ * Merge a backup file's progress into the live store. Uses `mergeRemote`,
+ * so this is additive by construction — an import can never delete a word
+ * the student has already practised here (I-13).
+ */
+export function applyImportedProgress(
+  remote: ProgressData | null,
+): ImportMergeStats {
+  const stats: ImportMergeStats = { added: 0, updated: 0 };
+  if (!remote) return stats;
+  for (const [id, remoteEntry] of Object.entries(remote.entries)) {
+    if (!isValidEntry(remoteEntry)) continue;
+    const localEntry = state.entries[id];
+    if (!localEntry) stats.added += 1;
+    else if ((remoteEntry.lastAnsweredAt ?? 0) > (localEntry.lastAnsweredAt ?? 0)) {
+      stats.updated += 1;
+    }
+  }
+  const merged = mergeRemote(remote);
+  if (merged) {
+    state = merged;
+    emit();
+  }
+  // 匯入改變了底層狀態，本機的中途恢復點（checkpoint）已不對應，留著只會
+  // 讓學生恢復到一份與現況不符的練習。比照 resetProgress 的級聯語意。
+  clearCheckpoint();
+  return stats;
 }
 
 export { getEntryProgress };

@@ -18,6 +18,7 @@ import {
   todayProgress,
   toLocalDate,
   daysBetween,
+  corpusFingerprint,
 } from '@/lib/studyPlan';
 import {
   loadPlan,
@@ -206,6 +207,86 @@ export function maybeCompletePlan(progress: ProgressData): void {
 export function deletePlan(): void {
   state = null;
   emit();
+}
+
+/** 匯入結果：採用（adopted）／合併（merged）／身分不符保留本機（mismatch）／無檔可套（none）。 */
+export type PlanImportOutcome = 'adopted' | 'merged' | 'mismatch' | 'none';
+
+export interface PlanImportStats {
+  outcome: PlanImportOutcome;
+  /** 匯入檔中補進本機的每日紀錄數。 */
+  daysAdded: number;
+  /** 兩機同日皆有紀錄、合併過的日期數。 */
+  daysMerged: number;
+}
+
+/**
+ * 逐欄位合併同一天的兩筆紀錄。**只有 `answered`／`correct` 是累計值**，
+ * 兩機同日各自練的是不同份工作，故相加；`newCount`／`reviewCount` 是
+ * 「當日完成量」的絕對值，取大（單調、不會少算）；`completed` 取 or。
+ * 相加絕對值會產生「完成量比當日任務還多」的不可能數字，故不採。
+ * `day` 保留本機——身分 gate 已確保 `startDate` 相同，故兩者必然相等。
+ */
+function mergeDayRecord(
+  local: PlanDayRecord,
+  remote: PlanDayRecord,
+): PlanDayRecord {
+  return {
+    ...local,
+    answered: (local.answered ?? 0) + (remote.answered ?? 0),
+    correct: (local.correct ?? 0) + (remote.correct ?? 0),
+    newCount: Math.max(local.newCount ?? 0, remote.newCount ?? 0),
+    reviewCount: Math.max(local.reviewCount ?? 0, remote.reviewCount ?? 0),
+    completed: local.completed || remote.completed,
+  };
+}
+
+/**
+ * 匯入備份檔中的學習計畫。身分＝（corpus 指紋、`startDate`）——**不是
+ * `planId`**，`planId` 以建立時間產生，是裝置在地身分，兩機必然不同。
+ *
+ * - 本機無計畫 → 採用匯入的整份。
+ * - 身分相同 → 逐欄位合併 `days`，其餘（`planId`、`today`、`corpus`、
+ *   `status`、`baselineIntroduced`、`tzOffset`）保留本機。`today` 是
+ *   裝置在地的凍結快照，跨機合併無意義；任務本身由進度推導，本機重新
+ *   凍結即得正確結果。
+ * - 身分不同 → 保留本機並回報 `mismatch`，不猜測、不覆蓋。
+ */
+export function applyImportedPlan(remote: StudyPlan | null): PlanImportStats {
+  if (!remote) {
+    return { outcome: 'none', daysAdded: 0, daysMerged: 0 };
+  }
+  if (!state) {
+    state = remote;
+    emit();
+    return { outcome: 'adopted', daysAdded: remote.days.length, daysMerged: 0 };
+  }
+  const sameCorpus =
+    corpusFingerprint(state.corpus) === corpusFingerprint(remote.corpus);
+  if (!sameCorpus || state.startDate !== remote.startDate) {
+    return { outcome: 'mismatch', daysAdded: 0, daysMerged: 0 };
+  }
+
+  const byDate = new Map(state.days.map((d) => [d.date, d]));
+  let daysAdded = 0;
+  let daysMerged = 0;
+  for (const remoteDay of remote.days) {
+    const localDay = byDate.get(remoteDay.date);
+    if (!localDay) {
+      byDate.set(remoteDay.date, remoteDay);
+      daysAdded += 1;
+      continue;
+    }
+    byDate.set(remoteDay.date, mergeDayRecord(localDay, remoteDay));
+    daysMerged += 1;
+  }
+  const days = [...byDate.values()].sort((a, b) =>
+    daysBetween(a.date, b.date),
+  );
+  // `today` 刻意保留本機現值（見上方說明）。
+  state = { ...state, days };
+  emit();
+  return { outcome: 'merged', daysAdded, daysMerged };
 }
 
 export { PLAN_TOTAL_DAYS, PLAN_SCHEMA_VERSION, daysBetween, toLocalDate, loadPlan };

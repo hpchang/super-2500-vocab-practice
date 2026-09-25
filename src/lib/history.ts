@@ -8,8 +8,9 @@ import type { QuestionType } from '@/types/index';
  */
 
 const KEY = 'vocab-super2500-history';
-const SCHEMA = 1;
-const MAX_RECORDS = 200;
+export const HISTORY_SCHEMA = 1;
+const SCHEMA = HISTORY_SCHEMA;
+export const MAX_RECORDS = 200;
 
 export interface HistoryRecord {
   schema: number;
@@ -45,6 +46,25 @@ function isQuestionType(v: unknown): v is QuestionType | 'mixed' {
   return v === 'mixed' || (typeof v === 'string' && QUESTION_TYPES.includes(v));
 }
 
+/** Shape check for one record — shared by loadHistory and the backup
+ *  importer, which must drop malformed records rather than trust a file. */
+export function isHistoryRecord(v: unknown): v is HistoryRecord {
+  if (typeof v !== 'object' || v === null) return false;
+  const o = v as Record<string, unknown>;
+  return (
+    o.schema === SCHEMA &&
+    typeof o.at === 'number' &&
+    Number.isFinite(o.at) &&
+    typeof o.unit === 'string' &&
+    isQuestionType(o.type) &&
+    typeof o.total === 'number' &&
+    typeof o.correct === 'number' &&
+    o.total > 0 &&
+    o.correct >= 0 &&
+    o.correct <= o.total
+  );
+}
+
 /** Runtime validation — malformed history must not crash the app (P0-9 policy). */
 function parseHistory(raw: string): HistoryRecord[] {
   let parsed: unknown;
@@ -54,33 +74,34 @@ function parseHistory(raw: string): HistoryRecord[] {
     return [];
   }
   if (!Array.isArray(parsed)) return [];
-  const out: HistoryRecord[] = [];
-  for (const r of parsed) {
-    if (typeof r !== 'object' || r === null) continue;
-    const o = r as Record<string, unknown>;
-    if (
-      o.schema === SCHEMA &&
-      typeof o.at === 'number' &&
-      Number.isFinite(o.at) &&
-      typeof o.unit === 'string' &&
-      isQuestionType(o.type) &&
-      typeof o.total === 'number' &&
-      typeof o.correct === 'number' &&
-      o.total > 0 &&
-      o.correct >= 0 &&
-      o.correct <= o.total
-    ) {
-      out.push({
-        schema: SCHEMA,
-        at: o.at,
-        unit: o.unit,
-        type: o.type,
-        total: o.total,
-        correct: o.correct,
-      });
-    }
-  }
-  return out;
+  return parsed.filter(isHistoryRecord);
+}
+
+/**
+ * Union two history lists, keyed by completion time (`at`), newest last.
+ * Sessions are identified by their timestamp — the same session copied
+ * between devices must count once, not twice.
+ */
+export function mergeHistoryRecords(
+  local: HistoryRecord[],
+  remote: HistoryRecord[],
+): HistoryRecord[] {
+  const byAt = new Map<number, HistoryRecord>();
+  for (const r of local) byAt.set(r.at, r);
+  for (const r of remote) byAt.set(r.at, r);
+  return [...byAt.values()]
+    .sort((a, b) => a.at - b.at)
+    .slice(-MAX_RECORDS);
+}
+
+/** Write a merged list back. Returns how many records were newly added
+ *  relative to what was already stored. */
+export function applyImportedHistory(records: HistoryRecord[]): number {
+  const before = loadHistory();
+  const beforeAts = new Set(before.map((r) => r.at));
+  const merged = mergeHistoryRecords(before, records);
+  safeSetItem(KEY, JSON.stringify(merged));
+  return merged.filter((r) => !beforeAts.has(r.at)).length;
 }
 
 export function loadHistory(): HistoryRecord[] {

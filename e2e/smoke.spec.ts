@@ -168,3 +168,53 @@ test('plan page at 320px does not scroll horizontally with a full 90-day plan', 
   expect(overflow.cols).toBeLessThanOrEqual(14);
   expect(overflow.scrollW).toBeLessThanOrEqual(overflow.clientW);
 });
+
+// 進度備份匯出／匯入走真實 dist：這是唯一能證明下載與檔案上傳真的可用的
+// 層（jsdom 沒有 Blob 下載、沒有真檔案選取；I-13）。流程即學生的換機流程：
+// 練幾個字 → 匯出 → 清空 localStorage（模擬另一臺電腦）→ 匯入 → 進度回來。
+test('backup: export a file, import it back, progress survives', async ({
+  page,
+}) => {
+  // 先答一題，讓進度非空（答對答錯都會寫入進度）。
+  await page.goto('/#/unit/11/setup');
+  await page.getByRole('button', { name: '一鍵開始' }).click();
+  await expect(page.locator('.option-grid .option-btn').first()).toBeVisible();
+  await page.locator('.option-grid .option-btn').first().click();
+  // 答完後選項鎖住、顯示回饋——此時進度已寫入。
+  await expect(page.locator('.option-grid .option-btn').first()).toBeDisabled();
+  const before = await page.evaluate(
+    () => localStorage.getItem('vocab-super2500-progress') ?? '',
+  );
+  expect(before.length).toBeGreaterThan(0);
+
+  // 匯出：開啟設定 → 備份與同步 → 匯出進度檔案。
+  await page.goto('/#/home');
+  await page.getByRole('button', { name: '進度與設定' }).click();
+  await page.getByRole('button', { name: '開啟備份與同步' }).click();
+  const downloadPromise = page.waitForEvent('download');
+  await page.getByRole('button', { name: '匯出進度檔案' }).click();
+  const download = await downloadPromise;
+  const path = await download.path();
+  expect(path).toBeTruthy();
+
+  // 模擬換到另一臺電腦：清空所有本機狀態。
+  await page.evaluate(() => localStorage.clear());
+  await page.reload();
+  await page.goto('/#/home');
+  expect(
+    await page.evaluate(() => localStorage.getItem('vocab-super2500-progress')),
+  ).toBeNull();
+
+  // 匯入剛剛的檔案，確認合併完成、進度回來。
+  await page.getByRole('button', { name: '進度與設定' }).click();
+  await page.getByRole('button', { name: '開啟備份與同步' }).click();
+  await page.setInputFiles('#backup-file', path!);
+  await expect(page.getByRole('button', { name: '確認合併' })).toBeVisible();
+  await page.getByRole('button', { name: '確認合併' }).click();
+  await expect(page.getByText('已合併完成')).toBeVisible();
+
+  const after = await page.evaluate(
+    () => localStorage.getItem('vocab-super2500-progress') ?? '',
+  );
+  expect(after).toBe(before);
+});

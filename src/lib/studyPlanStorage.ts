@@ -51,7 +51,9 @@ function isValidCorpus(v: unknown): v is PlanCorpus {
   );
 }
 
-function isValidPlan(v: unknown): v is StudyPlan {
+/** Exported for the backup importer — an imported plan gets the same
+ *  validation as one restored from storage. */
+export function isValidPlan(v: unknown): v is StudyPlan {
   if (typeof v !== 'object' || v === null) return false;
   const p = v as Record<string, unknown>;
   if (p.schemaVersion !== PLAN_SCHEMA_VERSION) return false;

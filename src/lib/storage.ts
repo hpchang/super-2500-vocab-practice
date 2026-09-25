@@ -18,8 +18,9 @@ const STAGES = ['new', 'learning', 'review', 'strong'];
  * Structural check for a restored EntryProgress. Home dereferences fields
  * (inWrongQueue, nextReviewAt) directly, so a malformed entry saved by an
  * older version or corrupt update must be dropped, never propagated.
+ * Exported for the backup importer, which faces the same hostile-input case.
  */
-function isValidEntry(v: unknown): v is EntryProgress {
+export function isValidEntry(v: unknown): v is EntryProgress {
   if (typeof v !== 'object' || v === null) return false;
   const e = v as Record<string, unknown>;
   return (
@@ -107,4 +108,41 @@ export function clearProgress(): ProgressData {
     }
   }
   return emptyProgress();
+}
+
+export const PROGRESS_STORAGE_KEY = STORAGE_KEY;
+
+/**
+ * Merge another set of progress entries into `local`, keyed by
+ * `lastAnsweredAt` (newer wins; entries missing locally are adopted).
+ * Returns null when nothing changed, so callers can skip a write.
+ *
+ * This is THE merge rule for progress — concurrent tabs (I-11) and the
+ * backup importer both go through here, so the two can never disagree
+ * about what "merge" means.
+ */
+export function mergeProgressData(
+  local: ProgressData,
+  remote: ProgressData | null,
+): ProgressData | null {
+  if (!remote) return null;
+  let merged = local;
+  let changed = false;
+  for (const [id, remoteEntry] of Object.entries(remote.entries)) {
+    // Hostile input (an imported file) reaches this path too.
+    if (!isValidEntry(remoteEntry)) continue;
+    const localEntry = merged.entries[id];
+    if (!localEntry) {
+      merged = setEntryProgress(merged, id, remoteEntry);
+      changed = true;
+      continue;
+    }
+    const localAt = localEntry.lastAnsweredAt ?? 0;
+    const remoteAt = remoteEntry.lastAnsweredAt ?? 0;
+    if (remoteAt > localAt) {
+      merged = setEntryProgress(merged, id, remoteEntry);
+      changed = true;
+    }
+  }
+  return changed ? merged : null;
 }
